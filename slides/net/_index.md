@@ -9,7 +9,7 @@ url: /net/
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for.Net" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" LearnLink="https://docs.aspose.com/slides/net/" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/net/" instalationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/net/" instalationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" >}}
 
 {{< blocks/products/pf/tab-conent >}}
     <p>Aspose.Slides for .NET is a Presentation Processing API for PowerPoint and OpenOffice formats.
