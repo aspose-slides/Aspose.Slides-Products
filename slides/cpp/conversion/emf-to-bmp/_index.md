@@ -17,64 +17,59 @@ url: /cpp/conversion/emf-to-bmp
 
 {{< blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert EMF to BMP via C++" >}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert EMF to BMP via C++" %}}
 
 {{% blocks/products/pf/agp/text %}}
 Aspose.Slides API makes it easy for the developers to convert EMF file to BMP in just a few lines of code.
 {{% /blocks/products/pf/agp/text %}}
 
-{{< blocks/products/pf/agp/list style="ol" >}}
-{{< blocks/products/pf/agp/list-el text="Load EMF file with Aspose.Slides for C++ Presentation Object.">}}
-{{< blocks/products/pf/agp/list-el text="Select the first slide.">}}
-{{< blocks/products/pf/agp/list-el text="Set the desired dimensions.">}}
-{{< blocks/products/pf/agp/list-el text="Get the thumbnail with desired dimensions.">}}
-{{< blocks/products/pf/agp/list-el text="Call Save() method having BMP output parameter.">}}
-{{< blocks/products/pf/agp/list-el text="Open BMP file in compatible program.">}}
-{{< /blocks/products/pf/agp/list >}}
+1. Load EMF file with Aspose.Slides for C++ Presentation Object.
+1. Select the first slide.
+1. Set the desired dimensions.
+1. Get the thumbnail with desired dimensions.
+1. Call Save() method having BMP output parameter.
+1. Open BMP file in compatible program
 
-{{< /blocks/products/pf/agp/feature-section-col >}}
+{{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{< blocks/products/pf/agp/feature-section-col title="System Independence" >}}
+{{% blocks/products/pf/agp/feature-section-col title="System Independence" %}}
 
 {{% blocks/products/pf/agp/text %}}
 Aspose.Slides for C++ supports on all major platforms and Operating Systems. Please make sure that you have the following prerequisites.
 {{% /blocks/products/pf/agp/text %}}
 
-{{< blocks/products/pf/agp/list style="ul" >}}
-{{< blocks/products/pf/agp/list-el text="Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.">}}
-{{< blocks/products/pf/agp/list-el text="Aspose.Slides for C++ DLL referenced in your project.">}}
-{{< /blocks/products/pf/agp/list >}}
++ Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
++ Aspose.Slides for C++ DLL referenced in your project.
 
-{{< /blocks/products/pf/agp/feature-section-col >}}
- <!--Code Example Starts Here -->
- <div class="spacer">&nbsp;</div>
-<div class="col-md-12 tl ">
-<div id="code" class="codeblock">
-<h3>Convert EMF to BMP - C++‎</h3>
-<pre><code class="cs hljs"><span class="hljs-comment">// Load the EMF</span>
-SharedPtr&lt;<span>Presentation</span>&gt; pres = MakeObject&lt;<span>Presentation</span>&gt;(u<span class="hljs-string">"sourceFile.emf"</span>);
+{{% /blocks/products/pf/agp/feature-section-col %}}
+{{% blocks/products/pf/agp/code-block title="Convert EMF to BMP - C++‎" %}}
 
-<span class="hljs-comment">// Access the first slide</span>
-SharedPtr&lt;<span>ISlide</span>&gt; slide = pres-&gt;get_Slides()-&gt;idx_get(<span class="hljs-number">0</span>);
+```cs
+    
+    // Load the EMF
+    SharedPtr<Presentation> pres = MakeObject<Presentation>(u"sourceFile.emf");
 
-<span class="hljs-comment">// User defined dimension</span>
-<span class="hljs-keyword">int</span> desiredX = <span class="hljs-number">1200</span>;
-<span class="hljs-keyword">int</span> desiredY = <span class="hljs-number">800</span>;
+    // Access the first slide
+    SharedPtr<ISlide> slide = pres->get_Slides()->idx_get(0);
 
-<span class="hljs-comment">// Getting scaled value  of X and Y</span>
-<span class="hljs-keyword">float</span> ScaleX = (<span class="hljs-keyword">float</span>)(<span class="hljs-number">1.0</span> / pres-&gt;get_SlideSize()-&gt;get_Size().get_Width()) * desiredX;
-<span class="hljs-keyword">float</span> ScaleY = (<span class="hljs-keyword">float</span>)(<span class="hljs-number">1.0</span> / pres-&gt;get_SlideSize()-&gt;get_Size().get_Height()) * desiredY;
+    // User defined dimension
+    int desiredX = 1200;
+    int desiredY = 800;
 
-<span class="hljs-comment">// Create a custom scale image</span>
-auto bitmap = slide-&gt;GetThumbnail(ScaleX, ScaleY);
+    // Getting scaled value  of X and Y
+    float ScaleX = (float)(1.0 / pres->get_SlideSize()->get_Size().get_Width()) * desiredX;
+    float ScaleY = (float)(1.0 / pres->get_SlideSize()->get_Size().get_Height()) * desiredY;
 
-bitmap-&gt;Save(u<span class="hljs-string">"output.bmp"</span>, ImageFormat::get_Bmp());
-	
-<span class="hljs-comment">//Iterate through each slide via index and convert</span></code></pre>
-</div>
-</div>
-<div class="spacer">&nbsp;</div>
-<!--Code Example Ends Here -->
+    // Create a custom scale image
+    auto bitmap = slide->GetThumbnail(ScaleX, ScaleY);
+
+    bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
+        
+    //Iterate through each slide via index and convert
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< blocks/products/pf/agp/about-file-section >}}
