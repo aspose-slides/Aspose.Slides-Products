@@ -1,7 +1,7 @@
 ---
 title: Aspose.Slides API for PowerPoint
 weight: 10
-url: /slides/
+url: /
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
