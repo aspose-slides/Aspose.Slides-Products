@@ -1,7 +1,7 @@
 ---
 title: Convert EMF to BMP via C++ application
 weight: 10
-url: slides/cpp/conversion/emf-to-bmp
+url: /cpp/conversion/emf-to-bmp
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
