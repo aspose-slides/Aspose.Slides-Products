@@ -72,6 +72,16 @@ Aspose.Slides for C++ supports on all major platforms and Operating Systems. Ple
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
+
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.com/templates/brand/images/slides/aspose_slides-brand.png" >}}
+
+    {{< blocks/products/pf/agp/faq-item question="How can I get the Aspose.Slides.Cpp DLL?" answer="Simply execute *_Install-Package Aspose.Slides.Cpp_* in Package Manager console of Visual Studio or get it from [Downloads](https://downloads.aspose.com/slides/cpp) in ZIP format for both Windows & Linux." >}}
+    {{< blocks/products/pf/agp/faq-item question="Can I convert EMF to BMP via Java or .NET?" answer="Aspose.Slides is available for all major programming environments. Checkout [Java](https://products.aspose.com/slides/java/conversion/emf-to-bmp) and [.NET](https://products.aspose.com/slides/net/conversion/emf-to-bmp) source code snippets for EMF to BMP conversion." >}}
+    {{< blocks/products/pf/agp/faq-item question="Can I convert EMF to BMP on other platforms?" answer="You can execute the code with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit." >}}
+    {{< blocks/products/pf/agp/faq-item question="I do not have time to set up. Do you have a quick demo that I can try?" answer="Indeed. Try [EMF to BMP Conversion Demo](https://products.aspose.app/slides/conversion/emf-to-bmp) to quickly check the conversion results.">}}
+
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="EMF to BMP Conversion Live Demos" sectionDescription="[Convert EMF to BMP](https://products.aspose.app/slides/conversion/emf-to-bmp) right now by visiting our Live Demos website. The live demo has the following benefits" >}}
