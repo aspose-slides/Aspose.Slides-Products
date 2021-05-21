@@ -1,6 +1,6 @@
 ---
 title: Android PowerPoint API | Aspose.Slides for Android API 
-weight: 10
+weight: 20
 url: /android-java/ 
 ---
 
@@ -12,13 +12,139 @@ url: /android-java/
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for Android via Java supports almost all the native PowerPoint file formats as well as OpenOffice presentation format (ODP). Create your PowerPoint viewer app for Android, as well as converter, editor or any other. Presentation elements such as SmartArt shapes, MSO charts, ActiveX components, and OLE frame objects can be accessed via the PowerPoint API for management and manipulation.</p>{{< /blocks/products/pf/tab-content >}}
+<p>Aspose.Slides for Android via Java supports almost all the native PowerPoint file formats as well as OpenOffice presentation format (ODP). Create your PowerPoint viewer app for Android, as well as converter, editor or any other. Presentation elements such as SmartArt shapes, MSO charts, ActiveX components, and OLE frame objects can be accessed via the PowerPoint API for management and manipulation.</p>
+{{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
-<div class="container-fluid diagram-tab bg-white" id="diagrams"> <div class="container">  <div class="row">   <div class="carousel slide" data-ride="carousel" id="diagramcarousel">    <!-- Wrapper for slides -->    <div class="carousel-inner">     <div class="item active">      <h3>       At A Glance      </h3>      <p>       Aspose.Slides for Android API features overview.      </p>      <div class="diagram1 d1-android">       <div class="d1-row">        <div class="d1-col d1-left">         <header>          <i class="fa fa-table">          </i>          Data Processing         </header>         <ul>          <li>           Create Charts          </li>          <li>           Work with SmartArts          </li>          <li>           Work with PowerPoint Shapes          </li>          <li>           Support for ActiveX Controls          </li>          <li>           Support for Ole Objects          </li>         </ul>         <header>          <i class="fa fa-text-width">          </i>          Text &amp; Paragraph         </header>         <ul>          <li>           Manage Text &amp; Formatting          </li>          <li>           Manage Hyperlink Text          </li>          <li>           Set Placeholder Type          </li>          <li>           Text Placeholders &amp; Frames          </li>         </ul>        </div>        <!--/left-->        <div class="d1-col d1-right">         <header>          <i class="fa fa-cog">          </i>          Graphics &amp; Multimedia         </header>         <ul>          <li>           Manage Slide Transitions          </li>          <li>           Manage Animation Effects          </li>          <li>           Add Connectors to Shapes          </li>          <li>           Rotate &amp; Flip Shapes          </li>          <li>           Manage Shape's Line Styles          </li>         </ul>        </div>        <!--/right-->       </div>       <!--/row-->       <div class="d1-logo">        <img alt="PowerPoint API Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>        <header>         Aspose.Slides        </header>        <footer>         <small>          <em>           for          </em>          Android via Java         </small>        </footer>       </div>       <!--/logo-->      </div>      <!--/diagram1-->     </div>     <!-- End Item -->     <div class="item">      <h3>       Platform Independence      </h3>      <p>       Aspose.Slides for Android API covers the following Android development environments and deployment platforms.      </p>      <div class="diagram1 d1-android">       <div class="d1-row">        <div class="d1-col d1-left">        </div>        <!--/left-->        <div class="d1-col d1-right">         <header style="padding-left: 0px;">          <i class="fa fa-cogs">          </i>          Android Runtime Environment         </header>         <ul>          <li>           Mobile Application          </li>         </ul>        </div>        <!--/right-->       </div>       <!--/row-->       <div class="d1-logo">        <img alt="Presentation APIs for Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>        <header>         Aspose.Slides        </header>        <footer>         <small>          <em>           for          </em>          Android via Java         </small>        </footer>       </div>       <!--/logo-->      </div>      <!--/diagram2-->     </div>     <!-- End Item -->     <div class="item">      <h3>       Supported File Formats      </h3>      <p>       Aspose.Slides for Android API supports native       <a href="https://docs.aspose.com/slides/java/supported-file-formats/">        PowerPoint formats       </a>       and many conversion formats.      </p>      <div class="diagram1 d2 d1-android">       <div class="d1-row">        <div class="d1-col d1-left">         <header>          <i class="fa fa-arrows-v">          </i>          Input/Output         </header>         <ul>          <li>           <b>            Microsoft PowerPoint:           </b>           PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM          </li>          <li>           <b>            OpenOffice:           </b>           ODP          </li>         </ul>        </div>        <!--/left-->        <div class="d1-col d1-right">         <header>          <i class="fa fa-mail-forward">          </i>          Output Only         </header>         <ul>          <li>           <b>            Fixed Layout:           </b>           PDF          </li>          <li>           SVG          </li>          <li>           HTML          </li>         </ul>        </div>        <!--/right-->       </div>       <!--/row-->       <div class="d1-logo">        <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>        <header>         Aspose.Slides        </header>        <footer>         <small>          <em>           for          </em>          Android via Java         </small>        </footer>       </div>       <!--/logo-->      </div>      <!--/diagram3-->     </div>    </div>    <a class="left carousel-control" data-slide="prev" href="#diagramcarousel">     <span class="sr-only">      Previous     </span>    </a>    <a class="right carousel-control" data-slide="next" href="#diagramcarousel">     <span class="sr-only">      Next     </span>    </a>   </div>  </div> </div></div><!--Diagrams End-->
+{{< blocks/products/pf/carousel >}}
+
+{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< /blocks/products/pf/carousel >}}
+<!--Diagrams End-->
 
 <!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct"> <a class="anchor" id="features" name="features"> </a> <div class="row">  <div class="container">   <h2 class="pr-ft">    Advance Android PowerPoint API Features   </h2>   <p>    <!--Aspose.Slides for Android via Java incorporates a number of advanced features that give developers complete control when programming with Microsoft PowerPoint presentations in an Android environment.-->   </p>   <div class="col-lg-4">    <em class="fa fa-copy ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Create new slides or clone from templates    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Handle text and shape formatting    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-shield ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Add or delete the protection on shapes    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Add Microsoft Excel charts as OleObjects    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-html5 ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Import &amp; export HTML text to slides    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-flash ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Manage ActiveX &amp; SmartArt components    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-plus-square ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Add or modify slideshow transition    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-arrows ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Vectorize shapes without text    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-share ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Render SVG images to shapes    </p>   </div>   <div class="col-lg-12">    <h2 class="h2title">     Presentation Formatting at the Minute Level    </h2>    <p>     PowerPoint library can easily handle text and shape formatting features such as font size, type, color &amp; shades, paragraph alignment, bullets &amp; orientation and hyperlinks.    </p>   </div>   <div class="col-lg-12">    <h2 class="h2title">     Presentation Conversion With Notes    </h2>    <p>     API provides conversion to TIFF and PDF with notes. Developers can convert the whole presentation in Notes Slide view to the supported format as well as in case of images, one can create a slide thumbnail in Notes Slide view for individual slides. Here is the TIFF conversion code.    </p>    <div class="codeblock" id="code">     <h3>      Convert presentations with Notes     </h3>     <pre><code class="java">Presentation pres = new Presentation(dataDir + "demo.pptx");TiffOptions opts = new TiffOptions();                INotesCommentsLayoutingOptions options = opts.getNotesCommentsLayouting();options.setNotesPosition(NotesPositions.BottomFull);              //Saving to TIFF notespres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);</code></pre>    </div>   </div>   <div class="col-lg-12">    <h2 class="h2title">     Manipulate Elements via Public API    </h2>    <p>     API is capable of handling all presentation slide elements including rectangle, table, text box, ellipse, polyline, picture frame, auto-shape, audio frame, OLE object frame, and video frame. API also provides a rich set of API commands to manipulate each of these elements. Moreover, text formatting is supported through a well-designed set of classes.    </p>   </div>  </div> </div></div><!--Feature-section End-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    Advance Android PowerPoint API Features
+   </h2>
+   <p>
+    <!--Aspose.Slides for Android via Java incorporates a number of advanced features that give developers complete control when programming with Microsoft PowerPoint presentations in an Android environment.-->
+   </p>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create new slides or clone from templates
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Handle text and shape formatting
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Add or delete the protection on shapes
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Add Microsoft Excel charts as OleObjects
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-html5 ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Import &amp; export HTML text to slides
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Manage ActiveX &amp; SmartArt components
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-plus-square ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Add or modify slideshow transition
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-arrows ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Vectorize shapes without text
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-share ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Render SVG images to shapes
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Presentation Formatting at the Minute Level
+    </h2>
+    <p>
+     PowerPoint library can easily handle text and shape formatting features such as font size, type, color &amp; shades, paragraph alignment, bullets &amp; orientation and hyperlinks.
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Presentation Conversion With Notes
+    </h2>
+    <p>
+     API provides conversion to TIFF and PDF with notes. Developers can convert the whole presentation in Notes Slide view to the supported format as well as in case of images, one can create a slide thumbnail in Notes Slide view for individual slides. Here is the TIFF conversion code.
+    </p>
+    <div class="codeblock" id="code">
+     <h3>
+      Convert presentations with Notes
+     </h3>
+     <pre><code class="java">Presentation pres = new Presentation(dataDir + "demo.pptx");
+
+TiffOptions opts = new TiffOptions();                
+
+INotesCommentsLayoutingOptions options = opts.getNotesCommentsLayouting();
+
+options.setNotesPosition(NotesPositions.BottomFull);              
+
+//Saving to TIFF notes
+
+pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
+
+</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Manipulate Elements via Public API
+    </h2>
+    <p>
+     API is capable of handling all presentation slide elements including rectangle, table, text box, ellipse, polyline, picture frame, auto-shape, audio frame, OLE object frame, and video frame. API also provides a rich set of API commands to manipulate each of these elements. Moreover, text formatting is supported through a well-designed set of classes.
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
 

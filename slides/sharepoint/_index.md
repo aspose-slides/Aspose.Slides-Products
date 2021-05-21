@@ -1,6 +1,6 @@
 ---
 title: SharePoint PowerPoint | Aspose.Slides SharePoint API 
-weight: 70
+weight: 8870
 url: /sharepoint/ 
 ---
 
@@ -12,13 +12,141 @@ url: /sharepoint/
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/sharepoint/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for SharePoint works with Windows SharePoint Services WSS 3.0 and Microsoft Office SharePoint Server 2007, 2010 & 2013.</p>{{< /blocks/products/pf/tab-content >}}
+<p>Aspose.Slides for SharePoint works with Windows SharePoint Services WSS 3.0 and Microsoft Office SharePoint Server 2007, 2010 & 2013.</p>
+{{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
-<div class="container-fluid diagram-tab bg-white" id="diagrams"> <div class="container">  <div class="row">   <div class="carousel slide" data-ride="carousel" id="diagramcarousel">    <!-- Wrapper for slides -->    <div class="carousel-inner">     <div class="item active">      <h3>       At A Glance      </h3>      <p>       An overview of Aspose.Slides for SharePoint      </p>      <div class="diagram1 d1-sharepoint">       <div class="d1-row">        <div class="d1-col d1-left">        </div>        <!--/left-->        <div class="d1-col d1-right">         <header>          <i class="fa fa-refresh">          </i>          Conversion Options         </header>         <ul>          <li>           Save to Sub-folder          </li>          <li>           Overwrite Files          </li>         </ul>        </div>        <!--/right-->       </div>       <!--/row-->       <div class="d1-logo">        <img alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>        <header>         Aspose.Slides        </header>        <footer>         <small>          <em>           for          </em>          SharePoint         </small>        </footer>       </div>       <!--/logo-->      </div>      <!--/diagram1-->     </div>     <!-- End Item -->     <div class="item">      <h3>       Platform Independence      </h3>      <p>       Aspose.Slides for SharePoint works with Microsoft Office SharePoint Server and Windows SharePoint Services.      </p>      <div class="diagram1 d1-sharepoint">       <div class="d1-row">        <div class="d1-col d1-left">         <header style="padding-left: 0px;">          <i class="fa fa-cubes">          </i>          SharePoint Server         </header>         <ul>          <li>           2007 (MOSS Standard)          </li>          <li>           2007 (MOSS Enterprise)          </li>          <li>           2013          </li>          <li>           2019          </li>         </ul>        </div>        <!--/left-->        <div class="d1-col d1-right">         <header style="padding-left: 0px;">          <i class="fa fa-cubes">          </i>          Windows SharePoint Services         </header>         <ul>          <li>           WSS 3.0          </li>         </ul>        </div>        <!--/right-->       </div>       <!--/row-->       <div class="d1-logo">        <img alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>        <header>         Aspose.Slides        </header>        <footer>         <small>          <em>           for          </em>          SharePoint         </small>        </footer>       </div>       <!--/logo-->      </div>      <!--/diagram1-->     </div>     <!-- End Item -->     <div class="item">      <h3>       Supported File Formats      </h3>      <p>       Aspose.Slides for SharePoint supports most common presentation       <a href="https://docs.aspose.com/slides/sharepoint/supported-file-formats/">        file formats       </a>       .      </p>      <div class="diagram1 d2 d1-sharepoint">       <div class="d1-row">        <div class="d1-col d1-left">         <header>          <i class="fa fa-arrows-v">          </i>          Input/Output         </header>         <ul>          <li>           <b>            Microsoft PowerPoint:           </b>           PPT, PPTX, PPS, PPSX, PPTM, PPSM, POTX, POTM          </li>          <!--<li><b>OpenOffice:</b> ODP</li>-->         </ul>        </div>        <!--/left-->        <div class="d1-col d1-right">         <header>          <i class="fa fa-mail-forward">          </i>          Output Only         </header>         <ul>          <li>           <b>            Fixed Layout:           </b>           PDF, XPS          </li>          <li>           <b>            Images:           </b>           TIFF, SVG          </li>          <li>           <strong>            Web:           </strong>           SWF, HTML          </li>         </ul>        </div>        <!--/right-->       </div>       <!--/row-->       <div class="d1-logo">        <img alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>        <header>         Aspose.Slides        </header>        <footer>         <small>          <em>           for          </em>          SharePoint         </small>        </footer>       </div>       <!--/logo-->      </div>      <!--/diagram2-->     </div>    </div>    <a class="left carousel-control" data-slide="prev" href="#diagramcarousel">     <span class="sr-only">      Previous     </span>    </a>    <a class="right carousel-control" data-slide="next" href="#diagramcarousel">     <span class="sr-only">      Next     </span>    </a>   </div>  </div> </div></div><!--Diagrams End-->
+{{< blocks/products/pf/carousel >}}
+
+{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< /blocks/products/pf/carousel >}}
+<!--Diagrams End-->
 
 <!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct"> <a class="anchor" id="features" name="features"> </a> <div class="row">  <div class="container">   <h2 class="pr-ft">    SharePoint Presentation Conversion App Features   </h2>   <p>   </p>   <div class="col-lg-4">    <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Convert PowerPoint files from SharePoint document library    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-text-height ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Set Font Size of Individual Legend    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Create Stock Chart &amp; Get Chart Image    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Set Chart Area Rounded Borders    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Change Color of Categories in Series    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-font ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Set Font Properties for Chart Data Table    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-anchor ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Get default table background    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Size represents property for Bubble chart    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-angle-left ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Hiding left slide thumbnails pane in generated PPT    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-book ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     External Excel workbooks supported    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-arrows ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Set chart external data source workbook path    </p>   </div>   <div class="col-lg-4">    <em class="fa fa-file ico-blue fa-2x col-lg-2">    </em>    <p class="col-lg-10">     Restricting local file system access when opening a document    </p>   </div>   <div class="col-lg-12">    <h2 class="h2title">     Convert PowerPoint Presentations to Several Formats    </h2>    <p>     Aspose.Slides for SharePoint converts presentations from your SharePoint document library to many popular document exchange formats. Aspose.Slides for SharePoint supports common presentation formats as input formats and can export to presentation formats as well as PDF, TIFF and XPS.    </p>   </div>   <div class="col-lg-12">    <h2 class="h2title">     Easy &amp; Lightweight Installation    </h2>    <p>     Aspose.Slides for SharePoint is available as a ZIP archive. Unpack the ZIP File to the local drive on the MOSS 7.0 or WSS 3.0 server and run the setup.exe to install for use. It’s that easy!    </p>   </div>   <div class="col-lg-12">    <h2 class="h2title">     Microsoft PowerPoint Automation – Not Needed    </h2>    <p>     Aspose.Slides for SharePoint is built using managed code that never needs Microsoft PowerPoint to be installed on the machine to work with PowerPoint document formats conversion. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.    </p>   </div>  </div> </div></div><!--Feature-section End-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    SharePoint Presentation Conversion App Features
+   </h2>
+   <p>
+   </p>
+   <div class="col-lg-4">
+    <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Convert PowerPoint files from SharePoint document library
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Set Font Size of Individual Legend
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create Stock Chart &amp; Get Chart Image
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Set Chart Area Rounded Borders
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Change Color of Categories in Series
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-font ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Set Font Properties for Chart Data Table
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-anchor ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Get default table background
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Size represents property for Bubble chart
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-angle-left ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Hiding left slide thumbnails pane in generated PPT
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-book ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     External Excel workbooks supported
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-arrows ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Set chart external data source workbook path
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-file ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Restricting local file system access when opening a document
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Convert PowerPoint Presentations to Several Formats
+    </h2>
+    <p>
+     Aspose.Slides for SharePoint converts presentations from your SharePoint document library to many popular document exchange formats. Aspose.Slides for SharePoint supports common presentation formats as input formats and can export to presentation formats as well as PDF, TIFF and XPS.
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Easy &amp; Lightweight Installation
+    </h2>
+    <p>
+     Aspose.Slides for SharePoint is available as a ZIP archive. Unpack the ZIP File to the local drive on the MOSS 7.0 or WSS 3.0 server and run the setup.exe to install for use. It’s that easy!
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Microsoft PowerPoint Automation – Not Needed
+    </h2>
+    <p>
+     Aspose.Slides for SharePoint is built using managed code that never needs Microsoft PowerPoint to be installed on the machine to work with PowerPoint document formats conversion. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
 
