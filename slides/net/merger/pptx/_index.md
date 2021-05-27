@@ -2,6 +2,7 @@
 title:  
 weight: 8450
 url: /net/merger/pptx/ 
+description: Try our On-Premise document merger APIs to combine PPTX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -90,6 +91,8 @@ var ps1 = new Presentation("presen1.pptx");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTXВ Merger Live Demos" sectionDescription="MergeВ PPTX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -105,6 +108,9 @@ Files with PPTX extension are presentation files created with popular Microsoft 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

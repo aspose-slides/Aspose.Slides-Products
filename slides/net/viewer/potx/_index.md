@@ -2,6 +2,7 @@
 title:  
 weight: 8760
 url: /net/viewer/potx/ 
+description: Try our On-Premise APIs to load, render and display POTX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ System.Diagnostics.Process.Start(output);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Free App to View POTX" sectionDescription="Check our live demos to [View POTX](https://products.aspose.app/slides/viewer/potx) with following benefits." >}}
@@ -95,6 +98,9 @@ Files with .POTX extension represent Microsoft PowerPoint template presentations
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

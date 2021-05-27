@@ -2,6 +2,7 @@
 title:  
 weight: 8410
 url: /net/merger/ppsm/ 
+description: Try our On-Premise document merger APIs to combine PPSM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -90,6 +91,8 @@ var ps1 = new Presentation("presen1.ppsm");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PPSMВ Merger Live Demos" sectionDescription="MergeВ PPSM documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -105,6 +108,9 @@ Files with PPSM extension represent Macro-enabled Slide Show file format created
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

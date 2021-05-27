@@ -2,6 +2,7 @@
 title:  
 weight: 8530
 url: /net/metadata/ppsx/ 
+description: Try our On-Premise document metadata viewer or editing APIs to edit or view PPSX format metadata on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ presentation.Save("output.ppsx", Aspose.Slides.Export.SaveFormat.Ppsx);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of PPSX via Online App" sectionDescription="View & edit Metadata to PPSX documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -95,6 +98,9 @@ PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 a
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

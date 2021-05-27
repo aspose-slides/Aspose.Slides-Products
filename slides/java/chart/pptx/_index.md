@@ -2,6 +2,7 @@
 title:  
 weight: 3370
 url: /java/chart/pptx/ 
+description: Try our On-Premise document chart APIs to draw and convert chart or diagram in PPTX file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -185,33 +186,38 @@ pres.save("AsposeChart.pptx",SaveFormat.Pptx);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
-
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. Generate PPT(X) chart, PPT(X) diagram from excel data, based on chart template. 
-вЂЋ
-
-
-
-{{% /blocks/products/pf/agp/content %}}
-
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
-{{< blocks/products/pf/agp/about-file-section >}}
+<!-- aboutfile Starts -->
 
-    {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTXВ Chart Creation Live Demos" sectionDescription="GenerateВ PPTX documents charts right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" Chart will be created instantly." >}}
-    {{< /blocks/products/pf/agp/demobox >}}
+    {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
-    {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
+ GenerateВ PPTX documents charts right now by visiting our
+ [Live Demos website](https://products.aspose.app/slides/chart) 
+ . The live demo has the following benefits
+
+
+
+    {{% /blocks/products/pf/agp/content %}}
+
+    {{< blocks/products/pf/agp/about-file-section >}}
+
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTXВ Chart Creation Live Demos" sectionDescription="GenerateВ PPTX documents charts right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
+            {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
+            {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
+            {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
+            {{< blocks/products/pf/agp/democard icon="fa-download" text=" Chart will be created instantly." >}}
+
+        {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
 Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. Read More
 
-    {{< /blocks/products/pf/agp/about-file-text >}}
+        {{< /blocks/products/pf/agp/about-file-text >}}
 
-{{< /blocks/products/pf/agp/about-file-section >}}
+    {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

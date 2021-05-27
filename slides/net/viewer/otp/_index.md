@@ -2,6 +2,7 @@
 title:  
 weight: 8740
 url: /net/viewer/otp/ 
+description: Try our On-Premise APIs to load, render and display OTP documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ System.Diagnostics.Process.Start(output);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Free App to View OTP" sectionDescription="Check our live demos to [View OTP](https://products.aspose.app/slides/viewer/otp) with following benefits." >}}
@@ -95,6 +98,9 @@ Files with .OTP extension represent presentation template files created by appli
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

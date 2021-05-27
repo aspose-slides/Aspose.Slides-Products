@@ -2,6 +2,7 @@
 title:  
 weight: 5900
 url: /java/redaction/ppt/ 
+description: Try our On-Premise document redaction APIs to redact sensitive information in PPT file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -121,6 +122,11 @@ pres.save(dataDir + "AsposeReplaceTxt.ppt",SaveFormat.Ppt);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+ 
+
+<!-- aboutfile Starts -->
+
 {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
  Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
@@ -128,9 +134,6 @@ pres.save(dataDir + "AsposeReplaceTxt.ppt",SaveFormat.Ppt);
 
 
 {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
@@ -147,6 +150,9 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

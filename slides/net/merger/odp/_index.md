@@ -2,6 +2,7 @@
 title:  
 weight: 8360
 url: /net/merger/odp/ 
+description: Try our On-Premise document merger APIs to combine ODP documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -90,6 +91,8 @@ var ps1 = new Presentation("presen1.odp");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online ODPВ Merger Live Demos" sectionDescription="MergeВ ODP documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -105,6 +108,9 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -2,6 +2,7 @@
 title:  
 weight: 8710
 url: /net/unlock/pptx/ 
+description: Try our On-Premise document APIs to unlock password protected PPTX file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -73,6 +74,8 @@ presentation.Save("output.ppt", Aspose.Slides.Export.SaveFormat.Pptx);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Unlock PPTX" sectionDescription="Check our live demos to [unlock PPTX files](https://products.aspose.app/slides/unlock/pptx) with following benefits." >}}
@@ -88,6 +91,9 @@ Files with PPTX extension are presentation files created with popular Microsoft 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

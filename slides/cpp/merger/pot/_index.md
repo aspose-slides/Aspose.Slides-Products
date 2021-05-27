@@ -2,6 +2,7 @@
 title:  
 weight: 3040
 url: /cpp/merger/pot/ 
+description: Try our On-Premise document merger APIs to combine POT documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -78,6 +79,8 @@ presentation1->Save(outputFilePath, SaveFormat::Pot);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online POTВ Merger Live Demos" sectionDescription="MergeВ POT documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -93,6 +96,9 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

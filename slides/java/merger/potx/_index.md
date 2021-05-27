@@ -2,6 +2,7 @@
 title:  
 weight: 5630
 url: /java/merger/potx/ 
+description: Try our On-Premise document merger APIs to combine POTX documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -78,6 +79,8 @@ prest1.save("merged-presentation.potx", SaveFormat.Potx);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online POTXВ Merger Live Demos" sectionDescription="MergeВ POTX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -93,6 +96,9 @@ Files with .POTX extension represent Microsoft PowerPoint template presentations
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

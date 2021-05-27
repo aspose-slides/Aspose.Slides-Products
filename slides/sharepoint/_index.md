@@ -2,23 +2,199 @@
 title: SharePoint PowerPoint | Aspose.Slides SharePoint API 
 weight: 8870
 url: /sharepoint/ 
+description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and convert SharePoint PPT, SharePoint slideshow, SharePoint presentation.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-sharepoint.png" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
+{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-sharepoint.png" pfName="Aspose.Slides for SharePoint" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/sharepoint/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for SharePoint works with Windows SharePoint Services WSS 3.0 and Microsoft Office SharePoint Server 2007, 2010 & 2013.</p>
+<p>
+ Aspose.Slides for SharePoint to manage and convert PowerPoint files in SharePoint. Aspose.Slides, as a SharePoint PowerPoint solution, can easily import common Microsoft presentation formats including PPT, POT, PPS, PPTX, POTX &amp; PPSX, and can export these formats to PDF, TIFF and XPS files. Use all SharePoint PPT functionality without Microsoft PowerPoint Automation needed.
+</p>
+
+<p>
+ Aspose.Slides for SharePoint works with Windows SharePoint Services WSS 3.0 and Microsoft Office SharePoint Server 2007, 2010 &amp; 2013.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for SharePoint" >}}
+<div class="diagram1 d1-sharepoint">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-refresh">
+    </i>
+    Conversion Options
+   </header>
+   <ul>
+    <li>
+     Save to Sub-folder
+    </li>
+    <li>
+     Overwrite Files
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    SharePoint
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for SharePoint works with Microsoft Office SharePoint Server and Windows SharePoint Services." >}}
+<div class="diagram1 d1-sharepoint">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    SharePoint Server
+   </header>
+   <ul>
+    <li>
+     2007 (MOSS Standard)
+    </li>
+    <li>
+     2007 (MOSS Enterprise)
+    </li>
+    <li>
+     2013
+    </li>
+    <li>
+     2019
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    Windows SharePoint Services
+   </header>
+   <ul>
+    <li>
+     WSS 3.0
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    SharePoint
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for SharePoint supports most common presentation [file formats](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-sharepoint">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPT, PPTX, PPS, PPSX, PPTM, PPSM, POTX, POTM
+    </li>
+    <!--<li><b>OpenOffice:</b> ODP</li>-->
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, XPS
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     TIFF, SVG
+    </li>
+    <li>
+     <strong>
+      Web:
+     </strong>
+     SWF, HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    SharePoint
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -150,12 +326,6 @@ url: /sharepoint/
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -179,14 +349,14 @@ url: /sharepoint/
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/sharepoint" pricingInformationLink="https://purchase.aspose.com/pricing/slides/sharepoint" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName="Aspose.Slides for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Aspose.Slides for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="Aspose.Slides for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Aspose.Slides for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Aspose.Slides for Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="Aspose.Slides for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

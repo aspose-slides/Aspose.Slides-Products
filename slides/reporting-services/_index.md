@@ -2,23 +2,218 @@
 title: SSRS SQL PPT | Aspose.Slides PowerPoint API 
 weight: 8860
 url: /reporting-services/ 
+description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. PowerPoint presentation services for SQL PowerPoint.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS & PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-ssrs.png" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/slides/reportingservices" >}}
+{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS & PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-ssrs.png" pfName="Aspose.Slides for Reporting Services" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/slides/reportingservices" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/reportingservices/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for Reporting Services supports almost all RDL features like tables, matrices, charts, images, lists, sub-reports & header/footers thus allowing to export reports in PowerPoint presentation formats in such a way that they appear similar as of the original report design. Perform Reporting Services SQL PPT without Microsoft PowerPoint Automation.</p>
+<p>
+ Aspose.Slides for Reporting Services is the only solution on the market that makes it possible to generate presentations in PowerPoint's native formats from within the Microsoft SQL Server Reporting Services.
+</p>
+
+<p>
+ Aspose.Slides for Reporting Services supports almost all RDL features like tables, matrices, charts, images, lists, sub-reports &amp; header/footers thus allowing to export reports in PowerPoint presentation formats in such a way that they appear similar as of the original report design. Perform Reporting Services SQL PPT without Microsoft PowerPoint Automation.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for Reporting Services." >}}
+<div class="diagram1 d1-rs">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-file-image-o">
+    </i>
+    RDL Support
+   </header>
+   <ul>
+    <li>
+     Page
+    </li>
+    <li>
+     Header/Footer
+    </li>
+    <li>
+     Text Boxes
+    </li>
+    <li>
+     Images
+    </li>
+    <li>
+     Sub-reports
+    </li>
+    <li>
+     Charts
+    </li>
+    <li>
+     Lists
+    </li>
+    <li>
+     Tables
+    </li>
+    <li>
+     Encryption
+    </li>
+    <li>
+     Matrices
+    </li>
+    <li>
+     Rectangles
+    </li>
+    <li>
+     Styles
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="RDL to PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Reporting Services
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Product supports Microsoft SQL Server Reporting Services." >}}
+<div class="diagram1 d1-rs">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    SQL Server Reporting Services
+   </header>
+   <ul>
+    <li>
+     2005
+    </li>
+    <li>
+     2008
+    </li>
+    <li>
+     2012
+    </li>
+    <li>
+     2016
+    </li>
+    <li>
+     2017
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="SSRS to PowerPoint Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Reporting Services
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Reporting Services supports most commonly used presentation [file formats](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-rs">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     RDL
+    </li>
+    <li>
+     RPL
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     PPT
+    </li>
+    <li>
+     PPTX
+    </li>
+    <li>
+     PPS
+    </li>
+    <li>
+     PPSX
+    </li>
+    <li>
+     XPS
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint Rendering Extension" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Reporting Services
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -213,12 +408,6 @@ url: /reporting-services/
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -243,14 +432,14 @@ url: /reporting-services/
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/reportingservices" pricingInformationLink="https://purchase.aspose.com/pricing/slides/reporting-services" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName="Aspose.Slides for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Aspose.Slides for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="Aspose.Slides for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Aspose.Slides for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="Aspose.Slides for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="Aspose.Slides for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

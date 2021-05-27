@@ -2,6 +2,7 @@
 title:  
 weight: 5990
 url: /net/annotation/odp/ 
+description: Try our On-Premise document annotation APIs to delete ODP format annotations on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -78,6 +79,8 @@ foreach (var author in presentation.CommentAuthors)
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Remove Annotation from ODP via Online App" sectionDescription="Delete ODP document annotations right now by visiting our [Live Demos website](https://products.aspose.app/slides/annotation). The live demo has the following benefits" >}}
@@ -93,6 +96,9 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

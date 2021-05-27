@@ -2,6 +2,7 @@
 title:  
 weight: 8490
 url: /net/metadata/potm/ 
+description: Try our On-Premise document metadata viewer or editing APIs to edit or view POTM format metadata on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ presentation.Save("output.potm", Aspose.Slides.Export.SaveFormat.Potm);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of POTM via Online App" sectionDescription="View & edit Metadata to POTM documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -95,6 +98,9 @@ Files with POTM extension are Microsoft PowerPoint template files with support f
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

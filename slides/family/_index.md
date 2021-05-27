@@ -2,6 +2,7 @@
 title: .NET Java Android and C++ APIs for PowerPoint Presentation Files 
 weight: 10
 url: /family
+description: Create Write Edit Render Print PowerPoint file formats using the relevant library in .NET Java Android SharePoint apps. Export Slides in SSRS and JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

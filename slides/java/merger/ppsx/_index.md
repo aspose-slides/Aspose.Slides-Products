@@ -2,6 +2,7 @@
 title:  
 weight: 5660
 url: /java/merger/ppsx/ 
+description: Try our On-Premise document merger APIs to combine PPSX documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -78,6 +79,8 @@ prest1.save("merged-presentation.ppsx", SaveFormat.Ppsx);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PPSXВ Merger Live Demos" sectionDescription="MergeВ PPSX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -93,6 +96,9 @@ PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 a
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

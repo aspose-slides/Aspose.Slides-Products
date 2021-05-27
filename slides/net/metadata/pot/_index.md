@@ -2,6 +2,7 @@
 title:  
 weight: 8510
 url: /net/metadata/pot/ 
+description: Try our On-Premise document metadata viewer or editing APIs to edit or view POT format metadata on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ presentation.Save("output.pot", Aspose.Slides.Export.SaveFormat.Pot);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of POT via Online App" sectionDescription="View & edit Metadata to POT documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -95,6 +98,9 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

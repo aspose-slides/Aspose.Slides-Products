@@ -2,6 +2,7 @@
 title:  
 weight: 5700
 url: /java/merger/ppt/ 
+description: Try our On-Premise document merger APIs to combine PPT documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -78,6 +79,8 @@ prest1.save("merged-presentation.ppt", SaveFormat.Ppt);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTВ Merger Live Demos" sectionDescription="MergeВ PPT documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -93,6 +96,9 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

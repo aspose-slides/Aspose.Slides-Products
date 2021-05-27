@@ -2,6 +2,7 @@
 title:  
 weight: 5750
 url: /java/metadata/pot/ 
+description: Try our On-Premise document metadata editing or viewer APIs to edit or view POT format metadata on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -74,6 +75,8 @@ info.writeBindedPresentation("presentation.pot");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of POT via Online App" sectionDescription="View & edit Metadata to POT documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -89,6 +92,9 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -2,6 +2,7 @@
 title:  
 weight: 8540
 url: /net/metadata/pps/ 
+description: Try our On-Premise document metadata viewer or editing APIs to edit or view PPS format metadata on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ presentation.Save("output.pps", Aspose.Slides.Export.SaveFormat.Pps);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of PPS via Online App" sectionDescription="View & edit Metadata to PPS documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -95,6 +98,9 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

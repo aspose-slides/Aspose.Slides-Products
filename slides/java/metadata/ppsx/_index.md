@@ -2,6 +2,7 @@
 title:  
 weight: 5770
 url: /java/metadata/ppsx/ 
+description: Try our On-Premise document metadata editing or viewer APIs to edit or view PPSX format metadata on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -74,6 +75,8 @@ info.writeBindedPresentation("presentation.ppsx");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of PPSX via Online App" sectionDescription="View & edit Metadata to PPSX documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -89,6 +92,9 @@ PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 a
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

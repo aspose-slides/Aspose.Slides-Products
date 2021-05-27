@@ -2,6 +2,7 @@
 title:  
 weight: 5670
 url: /java/merger/pps/ 
+description: Try our On-Premise document merger APIs to combine PPS documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -78,6 +79,8 @@ prest1.save("merged-presentation.pps", SaveFormat.Pps);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PPSВ Merger Live Demos" sectionDescription="MergeВ PPS documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -93,6 +96,9 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

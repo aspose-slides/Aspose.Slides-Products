@@ -2,6 +2,7 @@
 title:  
 weight: 8380
 url: /net/merger/potm/ 
+description: Try our On-Premise document merger APIs to combine POTM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -90,6 +91,8 @@ var ps1 = new Presentation("presen1.potm");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online POTMВ Merger Live Demos" sectionDescription="MergeВ POTM documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
@@ -105,6 +108,9 @@ Files with POTM extension are Microsoft PowerPoint template files with support f
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

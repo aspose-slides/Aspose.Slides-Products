@@ -2,23 +2,229 @@
 title: Android PowerPoint API | Aspose.Slides for Android API 
 weight: 20
 url: /android-java/ 
+description: Aspose.Slides for Android API or Android PowerPoint API to create read and manipulate PPT POT PPS PPTX POTX PPSX PowerPoint on Android. 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Android PowerPoint API" h2="Create, modify, convert, merge, split and manage PowerPoint presentations in Android apps." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-android.png" pfName="Aspose.Slides" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/slides/androidjava" >}}
+{{< blocks/products/pf/upper-banner h1="Android PowerPoint API" h2="Create, modify, convert, merge, split and manage PowerPoint presentations in Android apps." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-android.png" pfName="Aspose.Slides for Android via Java" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/slides/androidjava" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Android via Java" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for Android via Java supports almost all the native PowerPoint file formats as well as OpenOffice presentation format (ODP). Create your PowerPoint viewer app for Android, as well as converter, editor or any other. Presentation elements such as SmartArt shapes, MSO charts, ActiveX components, and OLE frame objects can be accessed via the PowerPoint API for management and manipulation.</p>
+<p>
+ Aspose.Slides for Android via Java is a PowerPoint API for Android applications. Developers can perform a wide range of presentation processing tasks including reading, writing, modifying, merging, splitting, converting and manipulating presentations without any dependency on Microsoft PowerPoint.
+</p>
+
+<p>
+ Aspose.Slides for Android via Java supports almost all the native PowerPoint file formats as well as OpenOffice presentation format (ODP). Create your PowerPoint viewer app for Android, as well as converter, editor or any other. Presentation elements such as SmartArt shapes, MSO charts, ActiveX components, and OLE frame objects can be accessed via the PowerPoint API for management and manipulation.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Aspose.Slides for Android API features overview." >}}
+<div class="diagram1 d1-android">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    Data Processing
+   </header>
+   <ul>
+    <li>
+     Create Charts
+    </li>
+    <li>
+     Work with SmartArts
+    </li>
+    <li>
+     Work with PowerPoint Shapes
+    </li>
+    <li>
+     Support for ActiveX Controls
+    </li>
+    <li>
+     Support for Ole Objects
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-text-width">
+    </i>
+    Text &amp; Paragraph
+   </header>
+   <ul>
+    <li>
+     Manage Text &amp; Formatting
+    </li>
+    <li>
+     Manage Hyperlink Text
+    </li>
+    <li>
+     Set Placeholder Type
+    </li>
+    <li>
+     Text Placeholders &amp; Frames
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    Graphics &amp; Multimedia
+   </header>
+   <ul>
+    <li>
+     Manage Slide Transitions
+    </li>
+    <li>
+     Manage Animation Effects
+    </li>
+    <li>
+     Add Connectors to Shapes
+    </li>
+    <li>
+     Rotate &amp; Flip Shapes
+    </li>
+    <li>
+     Manage Shape's Line Styles
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint API Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Android via Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Android API covers the following Android development environments and deployment platforms." >}}
+<div class="diagram1 d1-android">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cogs">
+    </i>
+    Android Runtime Environment
+   </header>
+   <ul>
+    <li>
+     Mobile Application
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="Presentation APIs for Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Android via Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Android API supports native [PowerPoint formats](https://docs.aspose.com/slides/java/supported-file-formats/)  and many conversion formats." >}}
+<div class="diagram1 d2 d1-android">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
+    </li>
+    <li>
+     <b>
+      OpenOffice:
+     </b>
+     ODP
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF
+    </li>
+    <li>
+     SVG
+    </li>
+    <li>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Android via Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -148,12 +354,6 @@ pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -178,13 +378,13 @@ pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/androidjava" pricingInformationLink="https://purchase.aspose.com/pricing/slides/android-java" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName="Aspose.Slides for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Aspose.Slides for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="Aspose.Slides for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="Aspose.Slides for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Aspose.Slides for Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}

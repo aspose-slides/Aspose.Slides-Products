@@ -2,6 +2,7 @@
 title:  
 weight: 3380
 url: /java/chart/ppt/ 
+description: Try our On-Premise document chart APIs to draw and convert chart or diagram in PPT file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -185,33 +186,38 @@ pres.save("AsposeChart.ppt",SaveFormat.Ppt);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
-
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. Generate PPT(X) chart, PPT(X) diagram from excel data, based on chart template. 
-вЂЋ
-
-
-
-{{% /blocks/products/pf/agp/content %}}
-
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
-{{< blocks/products/pf/agp/about-file-section >}}
+<!-- aboutfile Starts -->
 
-    {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTВ Chart Creation Live Demos" sectionDescription="GenerateВ PPT documents charts right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" Chart will be created instantly." >}}
-    {{< /blocks/products/pf/agp/demobox >}}
+    {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
-    {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
+ GenerateВ PPT documents charts right now by visiting our
+ [Live Demos website](https://products.aspose.app/slides/chart) 
+ . The live demo has the following benefits
+
+
+
+    {{% /blocks/products/pf/agp/content %}}
+
+    {{< blocks/products/pf/agp/about-file-section >}}
+
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTВ Chart Creation Live Demos" sectionDescription="GenerateВ PPT documents charts right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
+            {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
+            {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
+            {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}
+            {{< blocks/products/pf/agp/democard icon="fa-download" text=" Chart will be created instantly." >}}
+
+        {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
 A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files. Read More
 
-    {{< /blocks/products/pf/agp/about-file-text >}}
+        {{< /blocks/products/pf/agp/about-file-text >}}
 
-{{< /blocks/products/pf/agp/about-file-section >}}
+    {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -2,6 +2,7 @@
 title:  
 weight: 6030
 url: /net/chart/ppt/ 
+description: Try our On-Premise document chart APIs to draw and convert chart or diagram in PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -124,6 +125,8 @@ url: /net/chart/ppt/
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTВ Chart Creation Live Demos" sectionDescription="GenerateВ PPT documents charts right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
@@ -139,6 +142,9 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

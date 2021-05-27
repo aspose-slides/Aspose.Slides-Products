@@ -2,23 +2,250 @@
 title: Java PowerPoint API | Aspose Slides Java 
 weight: 5590
 url: /java/ 
+description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PPT and Java PPTX creation.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-java.png" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
+{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-java.png" pfName="Aspose.Slides for Java" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Java" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/java/" instalationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for Java API supports exporting presentations to PDF, PDF/A, HTML, XPS and image formats. The Java PowerPoint API includes many extended Java PPT features as: merge, clone, split, compare, print PPT(X) presentations in Java. Aspose.Slides for Java API works without any additional dependencies needed.</p>
+<p>
+ Aspose.Slides for Java is a Java PowerPoint API for presentations manipulation and management. It allows developers to read, write, convert and manipulate PowerPoint presentations in Java. All document elements such as slides, tables, text, charts, shapes, images and SmartArt diagrams are accessible for manipulation.
+</p>
+
+<p>
+ Aspose.Slides for Java API supports exporting presentations to PDF, PDF/A, HTML, XPS and image formats. The Java PowerPoint API includes many extended Java PPT features as: merge, clone, split, compare, print PPT(X) presentations in Java. Aspose.Slides for Java API works without any additional dependencies needed.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Aspose.Slides for Java API features overview." >}}
+<div class="diagram1 d1-java">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    Data Processing
+   </header>
+   <ul>
+    <li>
+     Create Charts
+    </li>
+    <li>
+     Work with SmartArts
+    </li>
+    <li>
+     Work with PowerPoint Shapes
+    </li>
+    <li>
+     Support for ActiveX Controls
+    </li>
+    <li>
+     Support for Ole Objects
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-text-width">
+    </i>
+    Text &amp; Paragraph
+   </header>
+   <ul>
+    <li>
+     Manage Text &amp; Formatting
+    </li>
+    <li>
+     Manage Hyperlink Text
+    </li>
+    <li>
+     Set Placeholder Type
+    </li>
+    <li>
+     Text placeholders &amp; frames
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    Graphics &amp; Multimedia
+   </header>
+   <ul>
+    <li>
+     Supports MSO Charts
+    </li>
+    <li>
+     Supports SmartArt Shapes
+    </li>
+    <li>
+     Supports ActiveX Shapes
+    </li>
+    <li>
+     Manage Slide Transitions
+    </li>
+    <li>
+     Manage Animation Effects
+    </li>
+    <li>
+     Add Connectors to Shapes
+    </li>
+    <li>
+     Rotate &amp; Flip Shapes
+    </li>
+    <li>
+     Manage Shape's Line Styles
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Java API can be consumed in any Java-based desktop, enterprise web application or in any Linux and Unix environment." >}}
+<div class="diagram1 d1-java">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Java Runtime Environment
+   </header>
+   <ul>
+    <li>
+     JSP/JSF Application
+    </li>
+    <li>
+     Desktop Application
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint API Java" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Java API supports the following [presentation](https://docs.aspose.com/slides/java/supported-file-formats/)  and conversion formats." >}}
+<div class="diagram1 d2 d1-java">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
+    </li>
+    <li>
+     <b>
+      OpenOffice:
+     </b>
+     ODP
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, PDF/A, XPS
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, BMP, TIFF, GIF
+    </li>
+    <li>
+     SVG
+    </li>
+    <li>
+     <b>
+      Web:
+     </b>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="Presentation APIs for Java" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -195,12 +422,6 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -226,14 +447,14 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/java" pricingInformationLink="https://purchase.aspose.com/pricing/slides/java" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName="Aspose.Slides for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="Aspose.Slides for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Aspose.Slides for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="Aspose.Slides for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Aspose.Slides for Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="Aspose.Slides for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

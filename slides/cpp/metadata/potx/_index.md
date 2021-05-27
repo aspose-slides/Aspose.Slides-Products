@@ -2,6 +2,7 @@
 title:  
 weight: 3140
 url: /cpp/metadata/potx/ 
+description: Try our On-Premise document metadata editing or viewer APIs to edit or view POTX file metadata on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -71,6 +72,8 @@ for (int32_t i = 0; i get_CountOfCustomProperties(); i++){
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Extract Metadata of POTX via Online App" sectionDescription="View & edit Metadata to POTX documents by using our [Live Demos](https://products.aspose.app/slides/metadata) with following benefits." >}}
@@ -86,6 +89,9 @@ Files with .POTX extension represent Microsoft PowerPoint template presentations
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

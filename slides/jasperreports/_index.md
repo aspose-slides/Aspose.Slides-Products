@@ -2,22 +2,183 @@
 title: Export JasperReports to PowerPoint | Aspose.Slides 
 weight: 3330
 url: /jasperreports/ 
+description: Aspose.Slides PowerPoint API for JaspreReport to export reports from Jasper Reports and JasperServer to PowerPoint formats. Create and export accounts chart images text and line reports to PPT presentation
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Export JasperServer Reports to PowerPoint Presentations" h2="PowerPoint API for exporting JasperReports and JasperServer reports to PPT(X), PPS(X) and other PowerPoint formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-jasperreports.png" pfName="Aspose.Slides" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/slides/jasperreport" >}}
+{{< blocks/products/pf/upper-banner h1="Export JasperServer Reports to PowerPoint Presentations" h2="PowerPoint API for exporting JasperReports and JasperServer reports to PPT(X), PPS(X) and other PowerPoint formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-jasperreports.png" pfName="Aspose.Slides for JasperReports" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/slides/jasperreport" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for JasperReports" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/jasperreports" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/jasperreports/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
 
 {{< blocks/products/pf/tab-content >}}
+<p>
+ Aspose.Slides for JasperReports is a PowerPoint API for flexible and easy to use export of JasperReports and JasperServer reports to PowerPoint. JasperServer does not have the built-in capability to export reports as PowerPoint presentations. However, with this PowerPoint API, the JasperServer reports can be exported to PPT, PPS, PPTX and PPSX presentation formats without using Microsoft PowerPoint.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for JasperReports." >}}
+<div class="diagram1 d1-jasper">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    Lightweight Deployment
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    High Fidelity to Report Design
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="JasperReports Extension for PowerPoint" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    JasperReports
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides PowerPoint API supports J2SE, JasperReports and JasperServer." >}}
+<div class="diagram1 d1-jasper">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    J2SE 1.4 or higher
+   </header>
+   <ul>
+    <li>
+     17.5 and earlier versions
+    </li>
+   </ul>
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    J2SE 6.0 or higher
+   </header>
+   <ul>
+    <li>
+     17.6 and newer versions
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    JasperReports 2.0, 3.0 or higher
+   </header>
+   <ul>
+    <li>
+     17.5 and earlier versions
+    </li>
+   </ul>
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    JasperReports 3.7.2 or higher.
+   </header>
+   <ul>
+    <li>
+     17.6 and newer versions
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    JasperReports
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for JasperReports can export reports in Microsoft PowerPoint [file formats](https://docs.aspose.com/slides/jasperreports/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-jasper">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPT, PPTX, PPS, PPSX
+    </li>
+    <li>
+     <b>
+      Others:
+     </b>
+     PDF, HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="JasperReports to PPT Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    JasperReports
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -271,12 +432,6 @@ url: /jasperreports/
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -301,14 +456,14 @@ url: /jasperreports/
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/jasperreport" pricingInformationLink="https://purchase.aspose.com/pricing/slides/jasperreports" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName="Aspose.Slides for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Aspose.Slides for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="Aspose.Slides for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Aspose.Slides for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="Aspose.Slides for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Aspose.Slides for Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

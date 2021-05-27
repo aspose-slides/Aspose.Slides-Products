@@ -2,6 +2,7 @@
 title:  
 weight: 8810
 url: /net/viewer/pptm/ 
+description: Try our On-Premise APIs to load, render and display PPTM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -80,6 +81,8 @@ System.Diagnostics.Process.Start(output);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Free App to View PPTM" sectionDescription="Check our live demos to [View PPTM](https://products.aspose.app/slides/viewer/pptm) with following benefits." >}}
@@ -95,6 +98,9 @@ Files with PPTM extension are Macro-enabled Presentation files that are created 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

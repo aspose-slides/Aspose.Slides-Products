@@ -2,6 +2,7 @@
 title:  
 weight: 8720
 url: /net/unlock/ppt/ 
+description: Try our On-Premise document APIs to unlock password protected PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -73,6 +74,8 @@ presentation.Save("output.ppt", Aspose.Slides.Export.SaveFormat.Ppt);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Unlock PPT" sectionDescription="Check our live demos to [unlock PPT files](https://products.aspose.app/slides/unlock/ppt) with following benefits." >}}
@@ -88,6 +91,9 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -2,23 +2,262 @@
 title: C++ PowerPoint API | Aspose Slides 
 weight: 2990
 url: /cpp/ 
+description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, view, manipulate and convert PPT on C++.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="C++ PowerPoint API" h2="Read, write, process, convert PowerPoint presentations in C++ applications without any Microsoft PowerPoint dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/header/aspose_slides-for-cpp.png" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/upper-banner h1="C++ PowerPoint API" h2="Read, write, process, convert PowerPoint presentations in C++ applications without any Microsoft PowerPoint dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/header/aspose_slides-for-cpp.png" pfName="Aspose.Slides for C++" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/slides/cpp" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for C++" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/cpp" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/cpp/" instalationsDocsLink="https://docs.aspose.com/slides/cpp/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.Cpp/" nugetPackageName="Aspose.Slides.Cpp" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.Slides for C++ supports most PowerPoint and slideshow formats including POT, PPT, PPS, POTX, PPTX, PPSX, ODP and others. Aspose.Slides for C++ can also convert all these formats into PDF, HTML, XPS, etc.</p>
+<p>
+ Aspose.Slides for C++ is a powerful PowerPoint API to manipulate, render &amp; convert PPT(X) in C++ without Microsoft PowerPoint. API supports high fidelity rendering of slides in the documents to various graphics formats as well as provides the functionality to modify or create almost all the possible contents of the files, format text and shapes on slides and much more.
+</p>
+
+<p>
+ Aspose.Slides for C++ supports most PowerPoint and slideshow formats including POT, PPT, PPS, POTX, PPTX, PPSX, ODP and others. Aspose.Slides for C++ can also convert all these formats into PDF, HTML, XPS, etc.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Aspose.Slides for C++ API features overview." >}}
+<div class="diagram1 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    Data Processing
+   </header>
+   <ul>
+    <li>
+     Create Charts
+    </li>
+    <li>
+     Work with SmartArts
+    </li>
+    <li>
+     Work with PowerPoint Shapes
+    </li>
+    <li>
+     Support for ActiveX Controls
+    </li>
+    <li>
+     Support for Ole Objects
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-text-width">
+    </i>
+    Text &amp; Paragraph
+   </header>
+   <ul>
+    <li>
+     Manage Text &amp; Formatting
+    </li>
+    <li>
+     Manage Hyperlink Text
+    </li>
+    <li>
+     Set Placeholder Type
+    </li>
+    <li>
+     Text Placeholders &amp; Frames
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    Graphics &amp; Multimedia
+   </header>
+   <ul>
+    <li>
+     Supports MSO Charts
+    </li>
+    <li>
+     Supports SmartArt Shapes
+    </li>
+    <li>
+     Supports ActiveX Shapes
+    </li>
+    <li>
+     Manage Slide Transitions
+    </li>
+    <li>
+     Manage Animation Effects
+    </li>
+    <li>
+     Add Connectors to Shapes
+    </li>
+    <li>
+     Rotate &amp; Flip Shapes
+    </li>
+    <li>
+     Manage Shape's Line Styles
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for C++ supports C++ applications developed on following platforms with [system requirements](https://docs.aspose.com/slides/cpp/system-requirements/)  ." >}}
+<div class="diagram1 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Windows 32 bit
+   </header>
+   <br/>
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Windows 64 bit
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Linux 64 bit
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="Presentation APIs for C++" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for C++ API supports [PowerPoint formats](https://docs.aspose.com/slides/cpp/supported-file-formats/)  as well as plenty of conversion formats." >}}
+<div class="diagram1 d2 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPT, POT, PPS, PPTX, POTX, PPSX, PPTM, PPSM, POTM
+    </li>
+    <li>
+     <b>
+      OpenOffice:
+     </b>
+     ODP
+    </li>
+    <li>
+     <strong>
+      Open Document:
+     </strong>
+     OTP
+    </li>
+    <li>
+     <strong>
+      Others:
+     </strong>
+     TIFF, EMF, XML
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, XPS
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, GIF, BMP, SVG
+    </li>
+    <li>
+     <b>
+      Web:
+     </b>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -344,12 +583,6 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -375,14 +608,14 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/cpp" pricingInformationLink="https://purchase.aspose.com/pricing/slides/cpp" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName="Aspose.Slides for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Aspose.Slides for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Aspose.Slides for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="Aspose.Slides for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Aspose.Slides for Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="Aspose.Slides for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
