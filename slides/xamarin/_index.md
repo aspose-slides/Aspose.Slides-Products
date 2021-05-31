@@ -29,7 +29,197 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Capabilities overview of Xamarin PowerPoint API by Aspose.Slides." >}}
+<div class="diagram1 d1-net">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    Data Processing
+   </header>
+   <ul>
+    <li>
+     Manage Charts
+    </li>
+    <li>
+     Manage SmartArts
+    </li>
+    <li>
+     Manage PowerPoint Shapes
+    </li>
+    <li>
+     Manage ActiveX Controls
+    </li>
+    <li>
+     Manage OleObjects
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-text-width">
+    </i>
+    Text &amp; Paragraph
+   </header>
+   <ul>
+    <li>
+     Manipulate Text &amp; Formatting
+    </li>
+    <li>
+     Manipulate Hyperlink Text
+    </li>
+    <li>
+     Set Placeholder Type
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    Graphics &amp; Multimedia
+   </header>
+   <ul>
+    <li>
+     Manage Slide Transitions
+    </li>
+    <li>
+     Manage Animation Effects
+    </li>
+    <li>
+     Add Connectors to Shapes
+    </li>
+    <li>
+     Rotate &amp; Flip Shapes
+    </li>
+    <li>
+     Manage Shape's Line Styles
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Xamarin
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Xamarin on Android, iOS and Windows." >}}
+<div class="diagram1 d1-net">
+ <div class="d1-row">
+  <!--/left-->
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="Presentation APIs for .NET" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Xamarin
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Xamarin supports the popular [presentation formats](https://docs.aspose.com/display/slidesnet/Supported+File+Formats)  and export formats listed below." >}}
+<div class="diagram1 d2 d1-net">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
+    </li>
+    <li>
+     <b>
+      OpenOffice:
+     </b>
+     ODP
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, PDF/A, XPS
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, BMP, TIFF, GIF
+    </li>
+    <li>
+     SVG
+    </li>
+    <li>
+     <b>
+      Web:
+     </b>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Xamarin
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
@@ -121,15 +311,10 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
       Render presentations - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
-
 var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
-
 // render as PDF, XPS &amp; TIFF
-
 prs.Save(dir + "output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-
 prs.Save(dir + "output.xps", Aspose.Slides.Export.SaveFormat.Xps);
-
 prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre>
     </div>
    </div>
@@ -158,13 +343,9 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
     </p>
    </div>
    <!--<div class="col-lg-12">
-
 <h2 class="h2title">Support For Office Open XML</h2>
-
 <p>Office OpenXML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
-
 <p>PresentationML (OOXML, PPTX) is the markup language used by Microsoft Office PowerPoint 2007 to store its documents. Aspose.Slides for .NET extensively supports creating, reading, manipulating and writing PresentationML documents.</p>
-
 </div>-->
   </div>
  </div>
