@@ -1,5 +1,5 @@
 ---
-title:  
+title: Search PPT document without opening via C++ 
 weight: 3300
 url: /cpp/search/ppt/ 
 description: Try our On-Premise document APIs to search words with pattern in PPT file on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 ```cs
 // Sample file path
-const String sourceFilePath = u"SourceDirectory\sourceFile.ppt";
+const String sourceFilePath = u"SourceDirectory\\sourceFile.ppt";
 
 // Load the Presentation file
 SharedPtr<Presentation> presentation = MakeObject<Presentation>(sourceFilePath);

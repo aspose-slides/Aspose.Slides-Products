@@ -1,5 +1,5 @@
 ---
-title:  
+title: Search PPT document without opening via Java 
 weight: 5930
 url: /java/search/ppt/ 
 description: Integrate On-Premise document APIs to search words with pattern in PPT file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

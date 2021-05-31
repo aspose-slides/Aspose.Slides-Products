@@ -1,5 +1,5 @@
 ---
-title:  
+title: Protect and lock ODP document via Java 
 weight: 5850
 url: /java/protect/odp/ 
 description: Try our On-Premise document APIs to lock ODP file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

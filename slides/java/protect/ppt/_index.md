@@ -1,5 +1,5 @@
 ---
-title:  
+title: Protect and lock PPT document via Java 
 weight: 5870
 url: /java/protect/ppt/ 
 description: Try our On-Premise document APIs to lock PPT file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

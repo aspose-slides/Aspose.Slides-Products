@@ -1,5 +1,5 @@
 ---
-title:  
+title: Extract text and images from ODP document via Java 
 weight: 5820
 url: /java/parser/odp/ 
 description: Try our On-Premise document parser APIs to extract text and images from ODP file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

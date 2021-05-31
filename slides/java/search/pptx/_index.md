@@ -1,5 +1,5 @@
 ---
-title:  
+title: Search PPTX document without opening via Java 
 weight: 5920
 url: /java/search/pptx/ 
 description: Integrate On-Premise document APIs to search words with pattern in PPTX file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

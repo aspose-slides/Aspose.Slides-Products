@@ -1,5 +1,5 @@
 ---
-title:  
+title: Extract text and images from PPTX document via Java 
 weight: 5830
 url: /java/parser/pptx/ 
 description: Try our On-Premise document parser APIs to extract text and images from PPTX file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

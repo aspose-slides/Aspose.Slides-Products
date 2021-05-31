@@ -1,5 +1,5 @@
 ---
-title:  
+title: Protect and lock PPT document via C++ 
 weight: 3270
 url: /cpp/protect/ppt/ 
 description: Try our On-Premise document APIs to lock PPT file using password on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.

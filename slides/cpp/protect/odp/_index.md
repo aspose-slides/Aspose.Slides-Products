@@ -1,5 +1,5 @@
 ---
-title:  
+title: Protect and lock ODP document via C++ 
 weight: 3250
 url: /cpp/protect/odp/ 
 description: Try our On-Premise document APIs to lock ODP file using password on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.

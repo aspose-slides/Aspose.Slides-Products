@@ -1,6 +1,6 @@
 ---
 title: SSRS SQL PPT | Aspose.Slides PowerPoint API 
-weight: 8860
+weight: 8870
 url: /reporting-services/ 
 description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. PowerPoint presentation services for SQL PowerPoint.
 ---

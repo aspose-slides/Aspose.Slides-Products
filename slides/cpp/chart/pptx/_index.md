@@ -1,5 +1,5 @@
 ---
-title:  
+title: PPTX document chart via C++ 
 weight: 30
 url: /cpp/chart/pptx/ 
 description: Try our On-Premise document chart APIs to draw and convert chart or diagram in PPTX file on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.

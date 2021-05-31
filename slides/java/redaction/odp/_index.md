@@ -1,5 +1,5 @@
 ---
-title:  
+title: Search and replace text in ODP document via Java 
 weight: 5880
 url: /java/redaction/odp/ 
 description: Try our On-Premise document redaction APIs to redact sensitive information in ODP file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

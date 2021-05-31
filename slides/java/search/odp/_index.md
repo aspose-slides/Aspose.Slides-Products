@@ -1,5 +1,5 @@
 ---
-title:  
+title: Search ODP document without opening via Java 
 weight: 5910
 url: /java/search/odp/ 
 description: Integrate On-Premise document APIs to search words with pattern in ODP file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

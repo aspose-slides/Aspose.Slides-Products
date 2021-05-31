@@ -1,5 +1,5 @@
 ---
-title:  
+title: Search and replace text in PPTX document via Java 
 weight: 5890
 url: /java/redaction/pptx/ 
 description: Try our On-Premise document redaction APIs to redact sensitive information in PPTX file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

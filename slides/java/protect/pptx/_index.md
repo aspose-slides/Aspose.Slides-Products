@@ -1,5 +1,5 @@
 ---
-title:  
+title: Protect and lock PPTX document via Java 
 weight: 5860
 url: /java/protect/pptx/ 
 description: Try our On-Premise document APIs to lock PPTX file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

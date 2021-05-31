@@ -1,5 +1,5 @@
 ---
-title:  
+title: Extract text and images from PPT document via Java 
 weight: 5840
 url: /java/parser/ppt/ 
 description: Try our On-Premise document parser APIs to extract text and images from PPT file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

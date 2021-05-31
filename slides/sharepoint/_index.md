@@ -1,6 +1,6 @@
 ---
 title: SharePoint PowerPoint | Aspose.Slides SharePoint API 
-weight: 8870
+weight: 8880
 url: /sharepoint/ 
 description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and convert SharePoint PPT, SharePoint slideshow, SharePoint presentation.
 ---
