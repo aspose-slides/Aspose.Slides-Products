@@ -1,6 +1,6 @@
 ---
 title: Export JasperReports to PowerPoint | Aspose.Slides 
-weight: 3330
+weight: 8320
 url: /jasperreports/ 
 description: Aspose.Slides PowerPoint API for JaspreReport to export reports from Jasper Reports and JasperServer to PowerPoint formats. Create and export accounts chart images text and line reports to PPT presentation
 ---

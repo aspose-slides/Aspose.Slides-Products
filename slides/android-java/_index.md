@@ -1,6 +1,6 @@
 ---
 title: Android PowerPoint API | Aspose.Slides for Android API 
-weight: 20
+weight: 5960
 url: /android-java/ 
 description: Aspose.Slides for Android API or Android PowerPoint API to create read and manipulate PPT POT PPS PPTX POTX PPSX PowerPoint on Android. 
 ---

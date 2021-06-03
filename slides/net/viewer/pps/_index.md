@@ -1,6 +1,6 @@
 ---
 title: View PPS File Formats via .NET 
-weight: 8810
+weight: 7110
 url: /net/viewer/pps/ 
 description: Try our On-Premise APIs to load, render and display PPS documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs to load, render and display PPS documents o
 
 {{% blocks/products/pf/agp/content h2="How to View PPS File Using C#" %}}
 
- In order to view PPS file, weвЂ™ll use
+ In order to view PPS file, we’ll use
  [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
  API which is a feature-rich, powerful and easy to use API for C# platform to be used with any Viewer. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net) 
@@ -101,7 +101,7 @@ System.Diagnostics.Process.Start(output);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

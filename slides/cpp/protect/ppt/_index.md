@@ -1,6 +1,6 @@
 ---
 title: Protect and lock PPT document via C++ 
-weight: 3270
+weight: 2570
 url: /cpp/protect/ppt/ 
 description: Try our On-Premise document APIs to lock PPT file using password on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to lock PPT file using password on
 
 {{% blocks/products/pf/agp/content h2="How to Secure PPT File Using C++" %}}
 
- In order to protect PPT file, weвЂ™ll use
+ In order to protect PPT file, we’ll use
  [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
  API which is a feature-rich, powerful and easy to use document encryption API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
@@ -35,7 +35,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps toВ Protect PPT Files via C++" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Protect PPT Files via C++" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -91,7 +91,7 @@ pptFile->Save(outputFilePath, SaveFormat::Ppt);
 
 {{% blocks/products/pf/agp/content h2="About Aspose.Slides for C++ API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Edit or View PPTM Document Metadata via C++ 
-weight: 3190
+weight: 6050
 url: /cpp/metadata/pptm/ 
 description: Try our On-Premise document metadata editing or viewer APIs to edit or view PPTM file metadata on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document metadata editing or viewer APIs to edit
 
 {{% blocks/products/pf/agp/content h2="How to Get PPTM Metadata Using C++" %}}
 
- In order to extract PPTM metadata, weвЂ™ll use
+ In order to extract PPTM metadata, we’ll use
  [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
  API which is a feature-rich, powerful and easy to use document metadata extraction API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
@@ -92,7 +92,7 @@ for (int32_t i = 0; i get_CountOfCustomProperties(); i++){
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for C++ API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

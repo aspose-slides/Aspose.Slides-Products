@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides for .NET Core | .NET Core PowerPoint API 
-weight: 5990
+weight: 5190
 url: /net-core/ 
 description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions.
 ---
@@ -315,10 +315,15 @@ description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions
       Render presentations - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
+
 var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
+
 // render as PDF, XPS &amp; TIFF
+
 prs.Save(dir + "output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
+
 prs.Save(dir + "output.xps", Aspose.Slides.Export.SaveFormat.Xps);
+
 prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre>
     </div>
    </div>
@@ -347,9 +352,13 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
     </p>
    </div>
    <!--<div class="col-lg-12">
+
 <h2 class="h2title">Support For Office Open XML</h2>
+
 <p>Office OpenXML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
+
 <p>PresentationML (OOXML, PPTX) is the markup language used by Microsoft Office PowerPoint 2007 to store its documents. Aspose.Slides for .NET extensively supports creating, reading, manipulating and writing PresentationML documents.</p>
+
 </div>-->
   </div>
  </div>

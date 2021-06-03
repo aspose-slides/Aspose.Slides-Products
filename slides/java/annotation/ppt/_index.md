@@ -1,6 +1,6 @@
 ---
 title: Remove PPT Annotation via Java 
-weight: 3360
+weight: 3630
 url: /java/annotation/ppt/ 
 description: Try our On-Premise document annotation APIs to delete PPT format annotations on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document annotation APIs to delete PPT format an
 
 {{% blocks/products/pf/agp/content h2="How to Annotate PPT File Using Java" %}}
 
- In order to annotate PPT file, weвЂ™ll use
+ In order to annotate PPT file, we’ll use
  [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
  API which is a feature-rich, powerful and easy to use annotation API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) 
@@ -139,7 +139,7 @@ pres.save(dataDir + "remove_comment.pptx",SaveFormat.Pptx);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

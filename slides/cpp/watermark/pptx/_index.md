@@ -1,6 +1,6 @@
 ---
 title: Watermark PPTX document via C++ 
-weight: 3310
+weight: 2900
 url: /cpp/watermark/pptx/ 
 description: Try our On-Premise document APIs to add or remove watermark to PPTX file on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to add or remove watermark to PPTX
 
 {{% blocks/products/pf/agp/content h2="How to Watermark PPTX File Using C++" %}}
 
- In order to watermark PPTX file, weвЂ™ll use
+ In order to watermark PPTX file, we’ll use
  [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
  API which is a feature-rich, powerful and easy to use document watermarking API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
@@ -116,7 +116,7 @@ pres->Save(u"outPath.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for C++ API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

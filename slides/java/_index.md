@@ -1,6 +1,6 @@
 ---
 title: Java PowerPoint API | Aspose Slides Java 
-weight: 5590
+weight: 6330
 url: /java/ 
 description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PPT and Java PPTX creation.
 ---

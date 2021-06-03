@@ -1,6 +1,6 @@
 ---
 title: Convert POTM to ODP via C++ application 
-weight: 940
+weight: 430
 url: /cpp/conversion/potm-to-odp/ 
 description: Try our On-Premise APIs for your document conversion using C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs for your document conversion using C++ Runt
 
 {{% blocks/products/pf/agp/content h2="How to Convert POTM to ODP Using C++" %}}
 
- In order to convert POTM to ODP, weвЂ™ll use
+ In order to convert POTM to ODP, we’ll use
  [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
@@ -61,7 +61,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Convert POTM to ODP - C++вЂЋ" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Convert POTM to ODP - C++‎" offSpacer="" %}}
 
 ```cs
 // Load the POTM.
@@ -88,7 +88,7 @@ prs->Save(u"convertedFile.odp", Aspose::Slides::Export::SaveFormat::Odp);
 
     {{% blocks/products/pf/agp/content h2="C++ Presentation Manipulation Library" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

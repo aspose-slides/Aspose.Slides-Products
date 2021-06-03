@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides API for PowerPoint 
-weight: 8890
+weight: 7160
 url: /
 description: Aspose.Slides is an Aspose PowerPoint API to manipulate presentations. Aspose Slides Cloud provides PowerPoint Cloud API.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Watermark PPT document via .NET 
-weight: 8860
+weight: 7740
 url: /net/watermark/ppt/ 
 description: Try our On-Premise document APIs to add or remove watermark to PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to add or remove watermark to PPT 
 
 {{% blocks/products/pf/agp/content h2="How to Watermark PPT File Using C#" %}}
 
- In order to watermark PPT file, weвЂ™ll use
+ In order to watermark PPT file, we’ll use
  [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
  API which is a feature-rich, powerful and easy to use document manipulation API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net) 
@@ -96,7 +96,7 @@ using (var presentation = new Aspose.Slides.Presentation())
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

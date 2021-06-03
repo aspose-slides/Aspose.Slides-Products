@@ -1,6 +1,6 @@
 ---
 title: Unlock PPTX document via .NET 
-weight: 8720
+weight: 6480
 url: /net/unlock/pptx/ 
 description: Try our On-Premise document APIs to unlock password protected PPTX file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to unlock password protected PPTX 
 
 {{% blocks/products/pf/agp/content h2="How to Unlock PPTX File Using C#" %}}
 
- In order to remove protection PPTX file, weвЂ™ll use
+ In order to remove protection PPTX file, we’ll use
  [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
  API which is a feature-rich, powerful and easy to use document protection API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net) 
@@ -94,7 +94,7 @@ presentation.Save("output.ppt", Aspose.Slides.Export.SaveFormat.Pptx);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Protect and lock ODP document via Java 
-weight: 5850
+weight: 2650
 url: /java/protect/odp/ 
 description: Try our On-Premise document APIs to lock ODP file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to lock ODP file using password on
 
 {{% blocks/products/pf/agp/content h2="How to Secure ODP File Using Java" %}}
 
- In order to protect ODP file, weвЂ™ll use
+ In order to protect ODP file, we’ll use
  [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
  API which is a feature-rich, powerful and easy to use encryption API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) 
@@ -51,7 +51,7 @@ description: Try our On-Premise document APIs to lock ODP file using password on
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps toВ Protect ODP Files via Java" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Protect ODP Files via Java" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -108,7 +108,7 @@ pres.save(dataDir + "protected.odp", com.aspose.slides.SaveFormat.Odp);
 
 {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

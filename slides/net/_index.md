@@ -1,6 +1,6 @@
 ---
 title: C# .NET PowerPoint Processing API | Aspose.Slides 
-weight: 8360
+weight: 1890
 url: /net/ 
 description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to create C# PPT programmatically.
 ---

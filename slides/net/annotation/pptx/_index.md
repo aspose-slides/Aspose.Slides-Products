@@ -1,6 +1,6 @@
 ---
 title: Remove PPTX Annotation via .NET 
-weight: 6010
+weight: 6550
 url: /net/annotation/pptx/ 
 description: Try our On-Premise document annotation APIs to delete PPTX format annotations on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document annotation APIs to delete PPTX format a
 
 {{% blocks/products/pf/agp/content h2="How to Annotate PPTX File Using C#" %}}
 
- In order to annotate PPTX file, weвЂ™ll use
+ In order to annotate PPTX file, we’ll use
  [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
  API which is a feature-rich, powerful and easy to use document manipulation API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net) 
@@ -98,7 +98,7 @@ foreach (var author in presentation.CommentAuthors)
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 

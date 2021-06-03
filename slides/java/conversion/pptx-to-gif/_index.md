@@ -1,6 +1,6 @@
 ---
 title: Convert PPTX to GIF via Java 
-weight: 5400
+weight: 750
 url: /java/conversion/pptx-to-gif/ 
 description: Try our On-Premise APIs for your document conversion on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs for your document conversion on Java Runtim
 
 {{% blocks/products/pf/agp/content h2="How to Convert PPTX to GIF Using Java" %}}
 
- In order to render PPTX to GIF, weвЂ™ll use
+ In order to render PPTX to GIF, we’ll use
  [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) 
@@ -76,7 +76,7 @@ description: Try our On-Premise APIs for your document conversion on Java Runtim
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Convert PPTX to GIF - JavaвЂЋ" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Convert PPTX to GIF - Java‎" offSpacer="" %}}
 
 ```cs
 // load PPTX with Aspose.Slides
@@ -115,7 +115,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{% blocks/products/pf/agp/content h2="Java Presentation Manipulation Library" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. вЂЋ
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 
