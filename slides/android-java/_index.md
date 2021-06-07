@@ -6,11 +6,11 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Android PowerPoint API" h2="Create, modify, convert, merge, split and manage PowerPoint presentations in Android apps." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-android.png" pfName="Aspose.Slides for Android via Java" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/slides/androidjava" >}}
+{{< blocks/products/pf/upper-banner h1="Android PowerPoint API" h2="Create, modify, convert, merge, split and manage PowerPoint presentations in Android apps." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-android.png" pfName="Aspose.Slides" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/slides/androidjava" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Android via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com/pricing/slides/android-java" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/androidjava" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

@@ -6,11 +6,11 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-java.png" pfName="Aspose.Slides for Java" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
+{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-java.png" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/java/" instalationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/pricing/slides/java" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/java" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

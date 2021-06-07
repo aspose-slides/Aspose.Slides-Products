@@ -6,11 +6,11 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-sharepoint.png" pfName="Aspose.Slides for SharePoint" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
+{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-sharepoint.png" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/slides/sharepoint/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com/pricing/slides/sharepoint" docsLink="https://docs.aspose.com/slides/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/sharepoint" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
