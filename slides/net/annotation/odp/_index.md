@@ -121,6 +121,13 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Annotation Formats" subTitle="Using C#, one can easily annotate other formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/annotation/ppt" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/annotation/pptx" name="PPTX" description="Open XML presentation Format" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

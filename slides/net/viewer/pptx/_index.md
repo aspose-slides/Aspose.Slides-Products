@@ -124,6 +124,21 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Viewer Formats" subTitle="Using C#, One can also view many other file formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/odp" name="ODP" description="OpenDocument Presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/otp" name="OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pot" name="POT" description="Microsoft PowerPoint Template Files" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/potm" name="POTM" description="Microsoft PowerPoint Template File" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/potx" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pps" name="PPS" description="PowerPoint Slide Show" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/ppsm" name="PPSM" description="Macro-enabled Slide Show" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/ppsx" name="PPSX" description="PowerPoint Slide Show" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/ppt" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pptm" name="PPTM" description="Macro-enabled Presentation File" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -162,6 +162,13 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Annotation Formats" subTitle="Using Java, one can easily annotate other formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/annotation/odp" name="ODP" description="OpenDocument Presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/annotation/pptx" name="PPTX" description="Open XML presentation Format" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

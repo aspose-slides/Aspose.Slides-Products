@@ -125,6 +125,13 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Unlocking Formats" subTitle="Using Java, one can easily remove protection / unlocking of different formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/odp" name="ODP" description="OpenDocument Presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/ppt" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}
