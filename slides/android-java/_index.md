@@ -10,7 +10,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Android via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com/pricing/slides/android-java" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/androidjava" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com/pricing/slides/android-java" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/androidjava" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -101,7 +101,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint API Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>
+  <img alt="PowerPoint API Android" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -141,7 +141,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>
+  <img alt="Presentation APIs for Android" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -209,7 +209,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png"/>
+  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -380,12 +380,12 @@ pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

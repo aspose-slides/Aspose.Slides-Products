@@ -10,7 +10,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com/pricing/slides/sharepoint" docsLink="https://docs.aspose.com/slides/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/sharepoint" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com/pricing/slides/sharepoint" docsLink="https://docs.aspose.com/slides/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/sharepoint" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -51,7 +51,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>
+  <img alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -110,7 +110,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>
+  <img alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -179,7 +179,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-sharepoint.png"/>
+  <img alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -351,12 +351,12 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-net.png" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-cpp.png" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-android.png" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-reporting-services.png" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/272x272/aspose_slides-for-jasperreports.png" sdkName="JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
