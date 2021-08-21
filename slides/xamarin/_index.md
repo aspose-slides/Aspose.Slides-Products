@@ -387,12 +387,22 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/net/" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-.NET" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/slides/net" >}}
+{{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
+{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
+{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Xamarin?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

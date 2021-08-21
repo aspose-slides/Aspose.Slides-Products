@@ -331,14 +331,14 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
     <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Funnel, 2D map charts and Size represents property for Bubble chart supported
+     Funnel, 2D map charts and Size property for Bubble chart
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cog ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Text Highlighter, OpenDocument encryption and rendering shape Soft Edges effect supported
+     Text Highlighter, OpenDocument Encryption and Shape Rendering
     </p>
    </div>
    <div class="col-lg-4">
@@ -352,7 +352,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
     <em class="fa fa-adjust ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set locale in application and callout shape for series data label
+     Set locale in application and call-out shape for series data label
     </p>
    </div>
    <div class="col-lg-4">
