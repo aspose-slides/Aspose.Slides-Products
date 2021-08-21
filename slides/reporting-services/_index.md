@@ -151,7 +151,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Reporting Services supports most commonly used presentation [file formats](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Reporting Services supports most commonly used presentation [file formats](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -128,7 +128,7 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for C++ supports C++ applications developed on following platforms with [system requirements](https://docs.aspose.com/slides/cpp/system-requirements/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for C++ supports C++ applications developed on following platforms with [system requirements](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">

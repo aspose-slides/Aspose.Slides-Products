@@ -128,7 +128,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for SharePoint supports most common presentation [file formats](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for SharePoint supports most common presentation [file formats](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
