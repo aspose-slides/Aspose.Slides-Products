@@ -6,7 +6,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Export JasperServer Reports to PowerPoint Presentations" h2="PowerPoint API for exporting JasperReports and JasperServer reports to PPT(X), PPS(X) and other PowerPoint formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-jasperreports.png" pfName="Aspose.Slides" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/slides/jasperreport" >}}
+{{< blocks/products/pf/upper-banner h1="Export JasperServer Reports to PowerPoint Presentations" h2="PowerPoint API for exporting JasperReports and JasperServer reports to PPT(X), PPS(X) and other PowerPoint formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-jasperreports.svg" pfName="Aspose.Slides" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/slides/jasperreport" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for JasperReports" >}}
 

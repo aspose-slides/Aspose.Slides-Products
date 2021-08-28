@@ -6,7 +6,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS & PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-ssrs.png" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/slides/reportingservices" >}}
+{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS & PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-reporting-services.svg" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/slides/reportingservices" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
 

@@ -6,7 +6,7 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="C++ PowerPoint API" h2="Read, write, process, convert PowerPoint presentations in C++ applications without any Microsoft PowerPoint dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/slides/header/aspose_slides-for-cpp.png" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/upper-banner h1="C++ PowerPoint API" h2="Read, write, process, convert PowerPoint presentations in C++ applications without any Microsoft PowerPoint dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-cpp.svg" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/slides/cpp" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for C++" >}}
 

@@ -6,7 +6,7 @@ description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET Core API for Presentations" h2="Build cross-platform .NET Core solutions for processing presentations without PowerPoint and Office Automation." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-net.png" pfName="Aspose.Slides" subTitlepfName="for .NET Core" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/upper-banner h1=".NET Core API for Presentations" h2="Build cross-platform .NET Core solutions for processing presentations without PowerPoint and Office Automation." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net-core.svg" pfName="Aspose.Slides" subTitlepfName="for .NET Core" downloadUrl="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET Core" >}}
 

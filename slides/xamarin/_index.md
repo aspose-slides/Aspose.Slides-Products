@@ -6,7 +6,7 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint Xamarin API by Aspose.Slides" h2="Create mobile applications for processing PowerPoint in Xamarin." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-net.png" pfName="Aspose.Slides" subTitlepfName="for Xamarin" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint Xamarin API by Aspose.Slides" h2="Create mobile applications for processing PowerPoint in Xamarin." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-xamarin.svg" pfName="Aspose.Slides" subTitlepfName="for Xamarin" downloadUrl="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Xamarin" >}}
 

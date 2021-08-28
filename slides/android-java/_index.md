@@ -6,7 +6,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Android PowerPoint API" h2="Create, modify, convert, merge, split and manage PowerPoint presentations in Android apps." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-android.png" pfName="Aspose.Slides" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/slides/androidjava" >}}
+{{< blocks/products/pf/upper-banner h1="Android PowerPoint API" h2="Create, modify, convert, merge, split and manage PowerPoint presentations in Android apps." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-android-java.svg" pfName="Aspose.Slides" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/slides/androidjava" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Android via Java" >}}
 

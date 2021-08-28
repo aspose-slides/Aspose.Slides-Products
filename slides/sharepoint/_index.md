@@ -6,7 +6,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-sharepoint.png" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
+{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-sharepoint.svg" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
 

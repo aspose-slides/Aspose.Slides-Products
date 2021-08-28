@@ -6,7 +6,7 @@ description: Aspose.Slides is an Aspose PowerPoint API to manipulate presentatio
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Aspose.Slides On Premise, Cloud & App Based PowerPoint Formats Solution" h2="Manipulate presentations, slides and elements in .NET, Java, Python, Android, Xamarin and Cloud applications without requiring Microsoft Office." logoImageSrc="https://www.aspose.com/templates/brand/images/slides/aspose_slides-brand.png" imageAlt="Aspose.Slides Product Family" >}}
+{{< blocks/products/pf/upper-banner h1="Aspose.Slides On Premise, Cloud & App Based PowerPoint Formats Solution" h2="Manipulate presentations, slides and elements in .NET, Java, Python, Android, Xamarin and Cloud applications without requiring Microsoft Office." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides On Premise APIs Include" >}}

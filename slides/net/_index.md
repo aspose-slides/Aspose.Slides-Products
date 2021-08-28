@@ -6,7 +6,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in .NET C# without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-net.png" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in .NET C# without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 

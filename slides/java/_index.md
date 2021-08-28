@@ -6,7 +6,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_slides-for-java.png" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
+{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-java.svg" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Java" >}}
 
