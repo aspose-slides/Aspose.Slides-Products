@@ -66,12 +66,19 @@ PM> Install-Package Aspose.Slides.NET
 {{% blocks/products/pf/agp/code-block title="This sample code shows POT to SVG C# Conversion" offSpacer="" %}}
 
 ```cs
-// instantiate a Presentation object that represents a POT file
-var presentation = new Aspose.Slides.Presentation("template.pot");
-// save the presentation as SVG
-presentation.Save("output.svg", SaveFormat.Svg); 
+using (Presentation pres = new Presentation("template.pot"))
+{
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
 
-```
+        using (FileStream fileStream = new FileStream($"slide-{index}.svg", FileMode.Create, FileAccess.Write))
+        {
+            slide.WriteAsSvg(fileStream);   
+        }
+    }
+} 
+
 
 {{% /blocks/products/pf/agp/code-block %}}
 
