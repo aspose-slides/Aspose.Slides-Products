@@ -10,7 +10,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/pricing/slides/net" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
