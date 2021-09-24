@@ -84,7 +84,7 @@ description: Sample Java conversion code for ODP format to SWF file. Use this ex
 // instantiate a Presentation object that represents a ODP file
 Presentation presentation = new Presentation("template.odp");
 // save the presentation as SWF
-presentation.save("output.odp", SaveFormat.Odp);   
+presentation.save("output.swf", SaveFormat.Swf);   
 
 ```
 

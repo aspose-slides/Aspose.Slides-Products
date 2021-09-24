@@ -84,7 +84,7 @@ description: Sample Java conversion code for ODP format to OTP file. Use this ex
 // instantiate a Presentation object that represents a ODP file
 Presentation presentation = new Presentation("template.odp");
 // save the presentation as OTP
-presentation.save("output.odp", SaveFormat.Odp);   
+presentation.save("output.otp", SaveFormat.Otp);   
 
 ```
 

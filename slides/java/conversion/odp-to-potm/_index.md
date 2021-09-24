@@ -84,7 +84,7 @@ description: Sample Java conversion code for ODP format to POTM file. Use this e
 // instantiate a Presentation object that represents a ODP file
 Presentation presentation = new Presentation("template.odp");
 // save the presentation as POTM
-presentation.save("output.odp", SaveFormat.Odp);   
+presentation.save("output.potm", SaveFormat.Potm);   
 
 ```
 
