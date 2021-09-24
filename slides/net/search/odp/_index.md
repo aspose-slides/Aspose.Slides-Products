@@ -1,5 +1,5 @@
 ---
-title: Search ODP document without opening via .NET 
+title: Search ODP document without opening via C# 
 weight: 8110
 url: /net/search/odp/ 
 description: C# source code to search words with pattern in ODP file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
@@ -15,13 +15,11 @@ description: C# source code to search words with pattern in ODP file on .NET Fra
 
  In order to search ODP file, we’ll use
  [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
- API which is a feature-rich, powerful and easy to use document searching API for C# platform. Open
+ API which is a feature-rich, powerful and easy to use PowerPoint Presentation searching API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net) 
- package manager, search for
- **Aspose.Slides** 
- and install. You may also use the following command from the Package Manager Console.
+ package manager, search for Aspose.Slides and install. You may also use the following command from the Package Manager Console.
 
-{{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
 ```cs
 
@@ -115,9 +113,9 @@ pres.Save("filetobesearched.odp",Aspose.Slides.Export.SaveFormat.Odp);
 
 <!-- aboutfile Starts -->
 
-    {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
+    {{% blocks/products/pf/agp/content h2="" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
+ Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
 
 
 
