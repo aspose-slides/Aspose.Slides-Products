@@ -46,8 +46,10 @@ PM> Install-Package Aspose.Slides.NET
 {{% /blocks/products/pf/agp/text %}}
 
 +  Load PPT file.
-+  Use PresentationScanner to get all text boxes.
-+  Loop through each portion and Find the query
++  Get all text boxes in presentation
++  Search the text.
++  Replace the text.
++  Write the PPT presentation.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -68,35 +70,39 @@ PM> Install-Package Aspose.Slides.NET
 {{% blocks/products/pf/agp/code-block title="Search PPT Files - C#" offSpacer="" %}}
 
 ```cs
-//Find and Replace Text without Losing Format in Presentation
-Presentation pres = new Presentation("mytextone.ppt");
+Presentation pres = new Presentation("filetobesearched.ppt");
+
 //Get all text boxes in the presentation
-ITextBox[] tb = PresentationScanner.GetAllTextBoxes(pres, false);
+
+ITextFrame[] tb = SlideUtil.GetAllTextBoxes(pres.Slides[0]);
 
 for (int i = 0; i < tb.Length; i++)
 
-	foreach (Paragraph para in tb[i].Paragraphs)
+foreach (Paragraph para in tb[i].Paragraphs)
 
-		foreach (Portion port in para.Portions)
+    foreach (Portion port in para.Portions)
 
-			//Find text to be replaced
+        //Search text to be replaced
 
-			if (port.Text.Contains(strToFind)){
+        if (port.Text.Contains(strToFind))
 
-				//Replace exisitng text with the new text
-				string str = port.Text;
+        //Replace exisitng text with the new text
 
-				int idx = str.IndexOf(strToFind);
+        {
 
-				string strStartText = str.Substring(0, idx);
+            string str = port.Text;
 
-				string strEndText = str.Substring(idx + strToFind.Length, str.Length - 1 - (idx + strToFind.Length - 1));
+            int idx = str.IndexOf(strToFind);
 
-				port.Text = strStartText + strToReplaceWith + strEndText;
+            string strStartText = str.Substring(0, idx);
 
-			}
+            string strEndText = str.Substring(idx + strToFind.Length, str.Length - 1 - (idx + strToFind.Length - 1));
 
-pres.Write("myTextOneAspose.ppt");  
+            port.Text = strStartText + strToReplaceWith + strEndText;
+
+        }
+
+pres.Save("filetobesearched.ppt",Aspose.Slides.Export.SaveFormat.Ppt);  
 
 ```
 
