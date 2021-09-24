@@ -82,9 +82,22 @@ description: Sample Java conversion code for OTP format to SVG file. Use this ex
 
 ```cs
 // instantiate a Presentation object that represents a OTP file
-Presentation presentation = new Presentation("template.otp");
-// save the presentation as SVG
-presentation.save("output.otp", SaveFormat.Otp);   
+Presentation pres = new Presentation("template.otp");
+try {
+    // Access the first slide
+    ISlide sld = pres.getSlides().get_Item(0);
+
+    // Create a memory stream object
+    FileOutputStream svgStream = new FileOutputStream("output.svg");
+
+    // Create SVG image of slide and save in memory stream
+    sld.writeAsSvg(svgStream);
+
+    svgStream.close();
+} catch (IOException e) {
+} finally {
+    pres.dispose();
+}      
 
 ```
 

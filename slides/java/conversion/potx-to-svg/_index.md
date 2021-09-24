@@ -82,9 +82,22 @@ description: Sample Java conversion code for POTX format to SVG file. Use this e
 
 ```cs
 // instantiate a Presentation object that represents a POTX file
-Presentation presentation = new Presentation("template.potx");
-// save the presentation as SVG
-presentation.save("output.potx", SaveFormat.Potx);   
+Presentation pres = new Presentation("template.potx");
+try {
+    // Access the first slide
+    ISlide sld = pres.getSlides().get_Item(0);
+
+    // Create a memory stream object
+    FileOutputStream svgStream = new FileOutputStream("output.svg");
+
+    // Create SVG image of slide and save in memory stream
+    sld.writeAsSvg(svgStream);
+
+    svgStream.close();
+} catch (IOException e) {
+} finally {
+    pres.dispose();
+}   
 
 ```
 
