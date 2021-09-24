@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to POTM file. Use this 
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as POTM
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.potm", SaveFormat.Potm);   
 
 ```
 

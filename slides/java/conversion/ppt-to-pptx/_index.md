@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to PPTX file. Use this e
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as PPTX
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.pptx", SaveFormat.Pptx);   
 
 ```
 

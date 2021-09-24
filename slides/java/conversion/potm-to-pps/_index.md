@@ -84,7 +84,7 @@ description: Sample Java conversion code for POTM format to PPS file. Use this e
 // instantiate a Presentation object that represents a POTM file
 Presentation presentation = new Presentation("template.potm");
 // save the presentation as PPS
-presentation.save("output.potm", SaveFormat.Potm);   
+presentation.save("output.pps", SaveFormat.Pps);   
 
 ```
 

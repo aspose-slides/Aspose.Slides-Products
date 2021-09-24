@@ -84,7 +84,7 @@ description: Sample Java conversion code for POT format to PPTX file. Use this e
 // instantiate a Presentation object that represents a POT file
 Presentation presentation = new Presentation("template.pot");
 // save the presentation as PPTX
-presentation.save("output.pot", SaveFormat.Pot);   
+presentation.save("output.pptx", SaveFormat.Pptx);   
 
 ```
 

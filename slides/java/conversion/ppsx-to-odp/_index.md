@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSX format to ODP file. Use this e
 // instantiate a Presentation object that represents a PPSX file
 Presentation presentation = new Presentation("template.ppsx");
 // save the presentation as ODP
-presentation.save("output.ppsx", SaveFormat.Ppsx);   
+presentation.save("output.odp", SaveFormat.Odp);   
 
 ```
 

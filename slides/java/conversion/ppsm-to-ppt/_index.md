@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to PPT file. Use this e
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as PPT
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.ppt", SaveFormat.Ppt);   
 
 ```
 

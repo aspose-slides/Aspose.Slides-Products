@@ -84,7 +84,7 @@ description: Sample Java conversion code for POT format to PPS file. Use this ex
 // instantiate a Presentation object that represents a POT file
 Presentation presentation = new Presentation("template.pot");
 // save the presentation as PPS
-presentation.save("output.pot", SaveFormat.Pot);   
+presentation.save("output.pps", SaveFormat.Pps);   
 
 ```
 

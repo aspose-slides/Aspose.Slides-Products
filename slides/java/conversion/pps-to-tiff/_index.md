@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPS format to TIFF file. Use this e
 // instantiate a Presentation object that represents a PPS file
 Presentation presentation = new Presentation("template.pps");
 // save the presentation as TIFF
-presentation.save("output.pps", SaveFormat.Pps);   
+presentation.save("output.tiff", SaveFormat.Tiff);   
 
 ```
 

@@ -84,7 +84,7 @@ description: Sample Java conversion code for POT format to TIFF file. Use this e
 // instantiate a Presentation object that represents a POT file
 Presentation presentation = new Presentation("template.pot");
 // save the presentation as TIFF
-presentation.save("output.pot", SaveFormat.Pot);   
+presentation.save("output.tiff", SaveFormat.Tiff);   
 
 ```
 

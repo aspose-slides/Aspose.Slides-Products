@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPS format to SWF file. Use this ex
 // instantiate a Presentation object that represents a PPS file
 Presentation presentation = new Presentation("template.pps");
 // save the presentation as SWF
-presentation.save("output.pps", SaveFormat.Pps);   
+presentation.save("output.swf", SaveFormat.Swf);   
 
 ```
 

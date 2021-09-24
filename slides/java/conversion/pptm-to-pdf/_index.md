@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPTM format to PDF file. Use this e
 // instantiate a Presentation object that represents a PPTM file
 Presentation presentation = new Presentation("template.pptm");
 // save the presentation as PDF
-presentation.save("output.pptm", SaveFormat.Pptm);   
+presentation.save("output.pdf", SaveFormat.Pdf);   
 
 ```
 

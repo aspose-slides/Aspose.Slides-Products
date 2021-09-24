@@ -84,7 +84,7 @@ description: Sample Java conversion code for POTM format to XPS file. Use this e
 // instantiate a Presentation object that represents a POTM file
 Presentation presentation = new Presentation("template.potm");
 // save the presentation as XPS
-presentation.save("output.potm", SaveFormat.Potm);   
+presentation.save("output.xps", SaveFormat.Xps);   
 
 ```
 

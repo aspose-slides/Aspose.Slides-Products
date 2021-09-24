@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to OTP file. Use this ex
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as OTP
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.otp", SaveFormat.Otp);   
 
 ```
 

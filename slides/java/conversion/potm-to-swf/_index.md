@@ -84,7 +84,7 @@ description: Sample Java conversion code for POTM format to SWF file. Use this e
 // instantiate a Presentation object that represents a POTM file
 Presentation presentation = new Presentation("template.potm");
 // save the presentation as SWF
-presentation.save("output.potm", SaveFormat.Potm);   
+presentation.save("output.swf", SaveFormat.Swf);   
 
 ```
 

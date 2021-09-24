@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to POTX file. Use this 
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as POTX
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.potx", SaveFormat.Potx);   
 
 ```
 

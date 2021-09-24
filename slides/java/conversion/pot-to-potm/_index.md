@@ -84,7 +84,7 @@ description: Sample Java conversion code for POT format to POTM file. Use this e
 // instantiate a Presentation object that represents a POT file
 Presentation presentation = new Presentation("template.pot");
 // save the presentation as POTM
-presentation.save("output.pot", SaveFormat.Pot);   
+presentation.save("output.potm", SaveFormat.Potm);   
 
 ```
 

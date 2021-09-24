@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to OTP file. Use this e
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as OTP
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.otp", SaveFormat.Otp);   
 
 ```
 

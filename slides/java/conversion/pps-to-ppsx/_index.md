@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPS format to PPSX file. Use this e
 // instantiate a Presentation object that represents a PPS file
 Presentation presentation = new Presentation("template.pps");
 // save the presentation as PPSX
-presentation.save("output.pps", SaveFormat.Pps);   
+presentation.save("output.ppsx", SaveFormat.Ppsx);   
 
 ```
 

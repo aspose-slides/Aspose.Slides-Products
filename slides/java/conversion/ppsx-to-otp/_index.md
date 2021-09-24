@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSX format to OTP file. Use this e
 // instantiate a Presentation object that represents a PPSX file
 Presentation presentation = new Presentation("template.ppsx");
 // save the presentation as OTP
-presentation.save("output.ppsx", SaveFormat.Ppsx);   
+presentation.save("output.otp", SaveFormat.Otp);   
 
 ```
 

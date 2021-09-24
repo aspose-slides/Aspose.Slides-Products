@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to POTX file. Use this e
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as POTX
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.potx", SaveFormat.Potx);   
 
 ```
 

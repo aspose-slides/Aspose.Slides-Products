@@ -84,7 +84,7 @@ description: Sample Java conversion code for POTX format to TIFF file. Use this 
 // instantiate a Presentation object that represents a POTX file
 Presentation presentation = new Presentation("template.potx");
 // save the presentation as TIFF
-presentation.save("output.potx", SaveFormat.Potx);   
+presentation.save("output.tiff", SaveFormat.Tiff);   
 
 ```
 

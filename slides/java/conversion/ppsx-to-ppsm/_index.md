@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSX format to PPSM file. Use this 
 // instantiate a Presentation object that represents a PPSX file
 Presentation presentation = new Presentation("template.ppsx");
 // save the presentation as PPSM
-presentation.save("output.ppsx", SaveFormat.Ppsx);   
+presentation.save("output.ppsm", SaveFormat.Ppsm);   
 
 ```
 

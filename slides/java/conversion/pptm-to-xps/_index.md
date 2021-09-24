@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPTM format to XPS file. Use this e
 // instantiate a Presentation object that represents a PPTM file
 Presentation presentation = new Presentation("template.pptm");
 // save the presentation as XPS
-presentation.save("output.pptm", SaveFormat.Pptm);   
+presentation.save("output.xps", SaveFormat.Xps);   
 
 ```
 

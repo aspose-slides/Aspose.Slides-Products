@@ -84,7 +84,7 @@ description: Sample Java conversion code for POTX format to POT file. Use this e
 // instantiate a Presentation object that represents a POTX file
 Presentation presentation = new Presentation("template.potx");
 // save the presentation as POT
-presentation.save("output.potx", SaveFormat.Potx);   
+presentation.save("output.pot", SaveFormat.Pot);   
 
 ```
 

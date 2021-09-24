@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to POTM file. Use this e
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as POTM
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.potm", SaveFormat.Potm);   
 
 ```
 

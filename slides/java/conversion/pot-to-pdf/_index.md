@@ -84,7 +84,7 @@ description: Sample Java conversion code for POT format to PDF file. Use this ex
 // instantiate a Presentation object that represents a POT file
 Presentation presentation = new Presentation("template.pot");
 // save the presentation as PDF
-presentation.save("output.pot", SaveFormat.Pot);   
+presentation.save("output.pdf", SaveFormat.Pdf);   
 
 ```
 

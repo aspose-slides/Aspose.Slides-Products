@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to PPS file. Use this ex
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as PPS
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.pps", SaveFormat.Pps);   
 
 ```
 

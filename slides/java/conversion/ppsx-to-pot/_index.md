@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSX format to POT file. Use this e
 // instantiate a Presentation object that represents a PPSX file
 Presentation presentation = new Presentation("template.ppsx");
 // save the presentation as POT
-presentation.save("output.ppsx", SaveFormat.Ppsx);   
+presentation.save("output.pot", SaveFormat.Pot);   
 
 ```
 

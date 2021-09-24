@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to XPS file. Use this e
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as XPS
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.xps", SaveFormat.Xps);   
 
 ```
 

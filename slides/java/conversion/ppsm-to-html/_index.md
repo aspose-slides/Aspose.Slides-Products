@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to HTML file. Use this 
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as HTML
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.html", SaveFormat.Html);   
 
 ```
 

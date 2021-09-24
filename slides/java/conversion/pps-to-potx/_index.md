@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPS format to POTX file. Use this e
 // instantiate a Presentation object that represents a PPS file
 Presentation presentation = new Presentation("template.pps");
 // save the presentation as POTX
-presentation.save("output.pps", SaveFormat.Pps);   
+presentation.save("output.potx", SaveFormat.Potx);   
 
 ```
 

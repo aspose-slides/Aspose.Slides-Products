@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to ODP file. Use this ex
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as ODP
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.odp", SaveFormat.Odp);   
 
 ```
 

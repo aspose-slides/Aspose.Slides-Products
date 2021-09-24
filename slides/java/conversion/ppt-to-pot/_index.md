@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPT format to POT file. Use this ex
 // instantiate a Presentation object that represents a PPT file
 Presentation presentation = new Presentation("template.ppt");
 // save the presentation as POT
-presentation.save("output.ppt", SaveFormat.Ppt);   
+presentation.save("output.pot", SaveFormat.Pot);   
 
 ```
 

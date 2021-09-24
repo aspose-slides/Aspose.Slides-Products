@@ -84,7 +84,7 @@ description: Sample Java conversion code for PPSM format to PPS file. Use this e
 // instantiate a Presentation object that represents a PPSM file
 Presentation presentation = new Presentation("template.ppsm");
 // save the presentation as PPS
-presentation.save("output.ppsm", SaveFormat.Ppsm);   
+presentation.save("output.pps", SaveFormat.Pps);   
 
 ```
 

@@ -84,7 +84,7 @@ description: Sample Java conversion code for POTM format to TIFF file. Use this 
 // instantiate a Presentation object that represents a POTM file
 Presentation presentation = new Presentation("template.potm");
 // save the presentation as TIFF
-presentation.save("output.potm", SaveFormat.Potm);   
+presentation.save("output.tiff", SaveFormat.Tiff);   
 
 ```
 
