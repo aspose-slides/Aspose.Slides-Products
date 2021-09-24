@@ -84,7 +84,7 @@ description: Sample Java conversion code for OTP format to PDF file. Use this ex
 // instantiate a Presentation object that represents a OTP file
 Presentation presentation = new Presentation("template.otp");
 // save the presentation as PDF
-presentation.save("output.otp", SaveFormat.Otp);   
+presentation.save("output.pdf", SaveFormat.Pdf);   
 
 ```
 

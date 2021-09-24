@@ -84,7 +84,7 @@ description: Sample Java conversion code for OTP format to POTM file. Use this e
 // instantiate a Presentation object that represents a OTP file
 Presentation presentation = new Presentation("template.otp");
 // save the presentation as POTM
-presentation.save("output.otp", SaveFormat.Otp);   
+presentation.save("output.potm", SaveFormat.Potm);   
 
 ```
 

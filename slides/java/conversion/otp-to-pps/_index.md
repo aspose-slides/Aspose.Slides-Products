@@ -84,7 +84,7 @@ description: Sample Java conversion code for OTP format to PPS file. Use this ex
 // instantiate a Presentation object that represents a OTP file
 Presentation presentation = new Presentation("template.otp");
 // save the presentation as PPS
-presentation.save("output.otp", SaveFormat.Otp);   
+presentation.save("output.pps", SaveFormat.Pps);   
 
 ```
 
