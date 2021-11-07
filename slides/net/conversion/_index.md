@@ -98,15 +98,15 @@ Converting Microsoft PowerPoint formats to images JPEG, PNG, TIFF etc is another
 {{% blocks/products/pf/feature-page-code h3="C# PowerPoint to Image Converter Code" %}}
 ```cs
 using (Presentation powerpointtoimage = new Presentation("source-file.ppt")){
-	foreach (ISlide sld in powerpointtoimage.Slides){
-		// Create a full scale image
-		Bitmap bmp = sld.GetThumbnail(1f, 1f);
-		
-		// or use some customized dimensions as sld.GetThumbnail(x, y)
+foreach (ISlide sld in powerpointtoimage.Slides){
 
-		// Save the image
-		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
-	}
+// Create a full scale image
+Bitmap bmp = sld.GetThumbnail(1f, 1f);
+// or use some customized dimensions as sld.GetThumbnail(x, y)
+
+// Save the image
+bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
+}
 }
 ```
 {{% /blocks/products/pf/feature-page-code %}}
