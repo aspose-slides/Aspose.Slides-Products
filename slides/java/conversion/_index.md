@@ -130,14 +130,14 @@ float DimensionY = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getH
 // Loop through each slide in the presentation
 for (ISlide sld : PowerPointtoImage.getSlides()) {
 	
-	// Create a full scale image
-	BufferedImage bi = sld.getThumbnail(DimensionX, DimensionY);
+// Create a full scale image
+BufferedImage bi = sld.getThumbnail(DimensionX, DimensionY);
 
-	// Create a new file
-	File outputfile = new File(sld.getSlideNumber() + "_Slide.jpg");
+// Create a new file
+File outputfile = new File(sld.getSlideNumber() + "_Slide.jpg");
 	
-	// Save the image to disk in JPEG format
-	ImageIO.write(bi, "jpg", outputfile);
+// Save the image to disk in JPEG format
+ImageIO.write(bi, "jpg", outputfile);
 }
 ```
 {{% /blocks/products/pf/feature-page-code %}}
