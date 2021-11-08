@@ -69,7 +69,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 
 
 {{% blocks/products/pf/feature-page-section  h2="Mircrosoft PowerPoint to HTML Conversion" %}}
-When ever there is need to embed presentations within webpages, then there is need to convert slides to HTML. API provides [HtmlOptions class](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), Use it after loading the files for setting special settings like hidden slides as by default these will not be included during conversion process. Pass the finalized options to Save method for conversion.
+When ever there is need to embed presentations within webpages, then there is need to convert slides to HTML. API provides [HtmlOptions class](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), Use it after loading the files for special settings like hidden slides, as by default, these will not be included during conversion process. Pass the finalized options to Save method for conversion.
 {{% blocks/products/pf/feature-page-code h3="C# code for PowerPoint to HTML Conversion" %}}
 
 ```cs
