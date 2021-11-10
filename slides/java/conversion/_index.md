@@ -13,8 +13,8 @@ Java PowerPoint library has made the conversion of Microsoft<sup>&reg;</sup> Pow
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Inter Conversion Of Microsoft<sup>&reg;</sup> PowerPoint Files" %}}
-Interconversion of Microsoft PowerPoint files programmatically is just a two lines code. Load the file using [Presentation class](https://apireference.aspose.com/slides/java/com.aspose.slides/Presentation) and call the save method having the output file and [SaveFormat](https://apireference.aspose.com/slides/java/com.aspose.slides/SaveFormat) as parameters.
+{{% blocks/products/pf/feature-page-section  h2="Inter Conversion Of Microsoft PowerPoint Files" %}}
+Interconversion of Microsoft<sup>&reg;</sup> PowerPoint files programmatically is just a two lines code. Load the file using [Presentation class](https://apireference.aspose.com/slides/java/com.aspose.slides/Presentation) and call the save method having the output file and [SaveFormat](https://apireference.aspose.com/slides/java/com.aspose.slides/SaveFormat) as parameters.
 
 {{% blocks/products/pf/feature-page-code h3="Java Conversion Code" %}}
 
@@ -80,7 +80,7 @@ powerpointopdf.save("java-powerpoint-to.pdf", SaveFormat.Pdf, slidetopdfOpt);
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
 
 
-{{% blocks/products/pf/feature-page-section  h2="Mircrosoft<sup>&reg;</sup> PowerPoint to HTML Conversion" %}}
+{{% blocks/products/pf/feature-page-section  h2="Mircrosoft PowerPoint to HTML Conversion" %}}
 
 As PowerPoint slides are not directly displayed on webpages so there is need of conversion. Programmers can load file using Presentation class, utilize [HtmlOptions class](https://apireference.aspose.com/slides/java/com.aspose.slides/HtmlOptions) for specific HTML settings and invoke the save method.
 
@@ -107,8 +107,8 @@ powerpointohtml.save("java-powerpoint-to.html", SaveFormat.Html, pptxhtmlOpt);
 
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft<sup>&reg;</sup> PowerPoint to Images Conversion" %}}
-Microsoft PowerPoint formats to images JPG, TIFF, PNG, etc conversion is normally for creating slides thumbnails as well as much more cases. Coding process is simple. Iterate through each slide via [ISlide interface](https://apireference.aspose.com/slides/java/com.aspose.slides/ISlide) after loading the document, get the ISlide thumbnail ISlide.getThumbnail(1f, 1f) into [BufferedImage  Object](https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html) and then save into the required image format. 
+{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint to Images Conversion" %}}
+Microsoft<sup>&reg;</sup> PowerPoint formats to images JPG, TIFF, PNG, etc conversion is normally for creating slides thumbnails as well as much more cases. Coding process is simple. Iterate through each slide via [ISlide interface](https://apireference.aspose.com/slides/java/com.aspose.slides/ISlide) after loading the document, get the ISlide thumbnail ISlide.getThumbnail(1f, 1f) into [BufferedImage  Object](https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html) and then save into the required image format. 
 
 {{% blocks/products/pf/feature-page-code h3="Java PowerPoint to Image Converter Code" %}}
 ```cs

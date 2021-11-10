@@ -13,8 +13,8 @@ It is easy for the developers to convert Microsoft<sup>&reg;</sup> PowerPoint Pr
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Inter Conversion Of Microsoft<sup>&reg;</sup> PowerPoint Files" %}}
-Whenever there is need to automate the inter conversion of Microsoft PowerPoint formats. **C# PowerPoint library** provides classes to achieve this target. Load the file using [Presentation class](https://apireference.aspose.com/net/slides/aspose.slides/presentation) to load or read the desired format and calling the [Save method](https://apireference.aspose.com/slides/net/aspose.slides/presentation/methods/save) of same class by specifying the output file and [SaveFormat](https://apireference.aspose.com/slides/net/aspose.slides.export/saveformat).OutputFormat. 
+{{% blocks/products/pf/feature-page-section  h2="Inter Conversion Of Microsoft PowerPoint Files" %}}
+Whenever there is need to automate the inter conversion of Microsoft<sup>&reg;</sup> PowerPoint formats. **C# PowerPoint library** provides classes to achieve this target. Load the file using [Presentation class](https://apireference.aspose.com/net/slides/aspose.slides/presentation) to load or read the desired format and calling the [Save method](https://apireference.aspose.com/slides/net/aspose.slides/presentation/methods/save) of same class by specifying the output file and [SaveFormat](https://apireference.aspose.com/slides/net/aspose.slides.export/saveformat).OutputFormat. 
 {{% blocks/products/pf/feature-page-code h3="C# Converter Code for Microsoft PowerPoint Presentations" %}}
 
 ```cs
@@ -68,7 +68,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
 
 
-{{% blocks/products/pf/feature-page-section  h2="Mircrosoft<sup>&reg;</sup> PowerPoint to HTML Conversion" %}}
+{{% blocks/products/pf/feature-page-section  h2="Mircrosoft PowerPoint to HTML Conversion" %}}
 When ever there is need to embed presentations within webpages, then there is need to convert slides to HTML. API provides [HtmlOptions class](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), Use it after loading the files for special settings like hidden slides, as by default, these will not be included during conversion process. Pass the finalized options to Save method for conversion.
 {{% blocks/products/pf/feature-page-code h3="C# code for PowerPoint to HTML Conversion" %}}
 
