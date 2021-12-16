@@ -24,7 +24,7 @@ Manipulate & render PowerPoint presentations & slides in C++ applications.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
-Use Python to accelerate the development process. Generate and manipulate presentations with Python scripts. Our product provides a comprehensive set of features you may need in your software solutions.
+Generate and manipulate presentations with Python scripts.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
