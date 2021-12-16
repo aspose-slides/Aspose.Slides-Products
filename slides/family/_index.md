@@ -23,6 +23,10 @@ Native Java APIs for the desktop, web or any kind of application based on Java S
 Manipulate & render PowerPoint presentations & slides in C++ applications.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
+Use Python to accelerate the development process. Generate and manipulate presentations with Python scripts. Our product provides a comprehensive set of features you may need in your software solutions.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
 Manipulate PowerPoint Presentations within your Android mobile applications.
 {{< /blocks/products/pf/product >}}
