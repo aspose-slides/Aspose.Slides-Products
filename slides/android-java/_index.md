@@ -253,7 +253,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
     <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Handle text and shape formatting
+     Handle text and shape formatting
     </p>
    </div>
    <div class="col-lg-4">
@@ -302,7 +302,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
     <em class="fa fa-share ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Render SVG images to shapes
+     Render SVG images to shapes
     </p>
    </div>
    <div class="col-lg-12">

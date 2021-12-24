@@ -6,7 +6,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Export JasperServer Reports to PowerPoint Presentations" h2="PowerPoint API for exporting JasperReports and JasperServer reports to PPT(X), PPS(X) and other PowerPoint formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-jasperreports.svg" pfName="Aspose.Slides" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/slides/jasperreport" >}}
+{{< blocks/products/pf/upper-banner h1="Export JasperServer Reports to PowerPoint Presentations" h2="PowerPoint API for exporting JasperReports and JasperServer reports to PPT(X), PPS(X) and other PowerPoint formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-jasperreports.svg" pfName="Aspose.Slides" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/slides/jasperreport" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for JasperReports" >}}
 
@@ -192,27 +192,27 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
   <div class="container">
    <!--<h2 class="h2title">Advanced JasperReports to Presentation Export Features</h2>
 
-<p> </p>
+<p> </p>
 
-<div class="col-lg-4"><em class="fa fa-file-powerpoint-o  ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-file-powerpoint-o  ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Create accounts reports and export them to Microsoft PowerPoint presentations</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-bar-chart   ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-bar-chart   ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Create chart reports and export them to Microsoft PowerPoint presentations</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-pie-chart ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-pie-chart ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Create multiple axis chart reports and export to Microsoft PowerPoint presentations</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-file-text ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-file-text ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Create images, text, lines and export these reports to Microsoft PowerPoint presentation</p>
 
@@ -317,7 +317,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
     <em class="fa fa-caret-square-o-left ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Hide left slide thumbnails pane in created PPT
+     Hide left slide thumbnails pane in created PPT
     </p>
    </div>
    <div class="col-lg-4">

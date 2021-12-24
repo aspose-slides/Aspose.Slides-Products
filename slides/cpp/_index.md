@@ -360,13 +360,13 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
    </div>
    <!--
 
-<div class="col-lg-4"><em class="fa fa-lock  ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-lock  ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Embed Excel charts as OLE objects in slides</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-print  ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-print  ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Manage linked Ole Objects</p>
 
@@ -398,7 +398,7 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
     <em class="fa fa-refresh ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Import and export HTML text in slides
+     Import and export HTML text in slides
     </p>
    </div>
    <div class="col-lg-4">
@@ -426,7 +426,7 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
     <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create Stock Chart and Get Chart Image
+     Create Stock Chart and Get Chart Image
     </p>
    </div>
    <div class="col-lg-4">
@@ -459,7 +459,7 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
    </div>
    <!--
 
-<div class="col-lg-4"><em class="fa fa-print  ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-print  ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Customized printing of presentations</p>
 
@@ -528,7 +528,7 @@ description: Aspose.Slides API for C++ is a C++ PPT PowerPoint API to create, vi
      Export PowerPoint Files as PDF or XPS
     </h2>
     <p>
-     Having its own specially designed rendering engine, Aspose.Slides for C++ renders with the highest of fidelity to the Microsoft PowerPoint. It allows exporting presentations to industry-standard formats like XPS and PDF with similar results as of the original presentation.
+     Having its own specially designed rendering engine, Aspose.Slides for C++ renders with the highest of fidelity to the Microsoft PowerPoint. It allows exporting presentations to industry-standard formats like XPS and PDF with similar results as of the original presentation.
     </p>
     <div class="codeblock" id="code">
      <h3>
@@ -550,7 +550,7 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
      Copy or Clone Presentation Slides
     </h2>
     <p>
-     There are built-in methods provided by Aspose.Slides for C++ to clone or copy existing slides not only within a document but also from one file to the other. Since a slide inherits its layout from the master slide, the built-in cloning methods automatically copy the master during the cloning process.
+     There are built-in methods provided by Aspose.Slides for C++ to clone or copy existing slides not only within a document but also from one file to the other. Since a slide inherits its layout from the master slide, the built-in cloning methods automatically copy the master during the cloning process.
     </p>
    </div>
    <div class="col-lg-12">
@@ -558,12 +558,12 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
      Microsoft PowerPoint Content Formatting
     </h2>
     <p>
-     Library allows formatting shapes and text on slides in a file while using API. Text is managed through text frames associated with shapes, hence text is formatted using paragraphs and portions associated with the text frames. You can manage the font type, color, size, shades as well as the paragraph alignment, bulleting &amp; orientation. One can also manipulate shape element attributes such as size, line, position, image, text and fill with great ease.
+     Library allows formatting shapes and text on slides in a file while using API. Text is managed through text frames associated with shapes, hence text is formatted using paragraphs and portions associated with the text frames. You can manage the font type, color, size, shades as well as the paragraph alignment, bulleting &amp; orientation. One can also manipulate shape element attributes such as size, line, position, image, text and fill with great ease.
     </p>
    </div>
    <!--<div class="col-lg-12">
 
-<h2 class="h2title">SmartArt Shapes Processing</h2>
+<h2 class="h2title">SmartArt Shapes Processing</h2>
 
 <p>Aspose.Slides for C++ facilitates in creating SmartArt shapes from scratch as well as provides the ability to access, manipulate or remove existing SmartArt shapes from a slide. Furthermore, it is also possible to format the SmartArt shapes such as setting style, color & layout.</p>
 

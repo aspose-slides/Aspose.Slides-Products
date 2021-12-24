@@ -117,7 +117,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     </em>
    </small>
    Python
-   <em>via .NET</em>
+   <em>via .NET</em>
   </footer>
  </div>
  <!--/logo-->
@@ -186,7 +186,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     </em>
    </small>
    Python
-   <em>via .NET</em>
+   <em>via .NET</em>
   </footer>
  </div>
  <!--/logo-->
@@ -270,7 +270,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     </em>
    </small>
    Python
-   <em>via .NET</em>
+   <em>via .NET</em>
   </footer>
  </div>
  <!--/logo-->
@@ -453,7 +453,7 @@ for sld in pres.slides:
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
