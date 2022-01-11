@@ -110,7 +110,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -153,7 +153,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint API Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint API Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -230,7 +230,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
   <header>
    Aspose.Slides
   </header>

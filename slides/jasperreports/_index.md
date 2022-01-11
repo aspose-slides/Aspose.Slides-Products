@@ -44,7 +44,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="JasperReports Extension for PowerPoint" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg"/>
+  <img width="70" height="75" alt="JasperReports Extension for PowerPoint" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -114,7 +114,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg"/>
+  <img width="70" height="75" alt="PowerPoint Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -163,7 +163,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport to export reports fro
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="JasperReports to PPT Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg"/>
+  <img width="70" height="75" alt="JasperReports to PPT Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg"/>
   <header>
    Aspose.Slides
   </header>

@@ -106,7 +106,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Python PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
+  <img width="70" height="75" alt="Python PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -175,7 +175,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for Python" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Python" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -259,7 +259,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
   <header>
    Aspose.Slides
   </header>

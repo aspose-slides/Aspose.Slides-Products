@@ -81,7 +81,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="RDL to PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
+  <img width="70" height="75" alt="RDL to PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -133,7 +133,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SSRS to PowerPoint Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
+  <img width="70" height="75" alt="SSRS to PowerPoint Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -198,7 +198,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Rendering Extension" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
+  <img width="70" height="75" alt="PowerPoint Rendering Extension" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
   <header>
    Aspose.Slides
   </header>

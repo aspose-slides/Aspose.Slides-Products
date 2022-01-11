@@ -96,7 +96,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
+  <img width="70" height="75" alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -147,7 +147,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for .NET" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for .NET" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -224,7 +224,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
   <header>
    Aspose.Slides
   </header>

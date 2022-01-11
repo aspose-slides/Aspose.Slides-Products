@@ -101,7 +101,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint API Android" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint API Android" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -141,7 +141,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for Android" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Android" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -209,7 +209,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg"/>
   <header>
    Aspose.Slides
   </header>

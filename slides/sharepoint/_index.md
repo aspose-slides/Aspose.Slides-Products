@@ -51,7 +51,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
+  <img width="70" height="75" alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -110,7 +110,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
+  <img width="70" height="75" alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -179,7 +179,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
+  <img width="70" height="75" alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
   <header>
    Aspose.Slides
   </header>
