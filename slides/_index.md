@@ -16,7 +16,7 @@ On Premise .NET APIs to manipulate Microsoft PowerPoint presentations within app
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
-Java APIs to create, load, manipulate, convert or parse Microsoft PowerPoint presentations, slides and their elements in any application based on Java SE or EE.
+Java APIs to create, load, manipulate, convert or parse Microsoft PowerPoint presentations, slides and their elements in any application based on Java SE or EE.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
@@ -65,7 +65,7 @@ Easily convert Microsoft PowerPoint files to PDF, HTML, images and many other po
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.Slides." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.Slides." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">

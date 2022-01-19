@@ -105,7 +105,7 @@ description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
+  <img width="70" height="75" alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -131,7 +131,7 @@ description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for .NET" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for .NET" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -208,7 +208,7 @@ description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -367,7 +367,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
