@@ -9,7 +9,7 @@ description: Aspose.Slides is a PowerPoint API to manipulate presentations and c
 {{< blocks/products/pf/upper-banner h1="Aspose.Slides On Premise, Cloud & App Based PowerPoint Formats Solution" h2="Manipulate presentations, slides and elements in .NET, Java, Python, Android, Xamarin and Cloud applications without requiring Microsoft Office." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides On Premise APIs Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
 On Premise .NET APIs to manipulate Microsoft PowerPoint presentations within applications developed using .NET Framework, .NET Core and other platforms via COM Interop.
@@ -23,11 +23,11 @@ Java APIs to create, load, manipulate, convert or parse Microsoft PowerPoint pre
 Native library for C++ applications to create, load, manipulate, convert or render Microsoft PowerPoint files.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family" innerText="View All On Premise APIs" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="View All High Code APIs" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
-{{< blocks/products/pf/product-card-row title="Aspose.Slides Cloud APIs Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Low Code APIs Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides" title="Cloud for cURL" imgSrc="https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-curl.png" productLink="https://products.aspose.cloud/slides/curl" >}}
 Microsoft PowerPoint REST APIs to load, create and manipulate presentations, slides and elements through any device capable of executing cURL commands.
@@ -41,11 +41,11 @@ REST APIs to create, merge, split and convert presentations on any platform via 
 Java SDK to communicate with Aspose.Slides Cloud APIs for Microsoft PowerPoint files and slides creation, conversion & manipulation.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.cloud/slides/family" innerText="View All Cloud APIs" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.cloud/slides/family" innerText="View All Low Code APIs" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
-{{< blocks/products/pf/product-card-row title="Aspose.Slides Cross Platform Apps Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides No Code Apps Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides " title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="https://products.aspose.app/slides/viewer" >}}
 View Microsoft PowerPoint presentations and slides in your favorite browser from anywhere.
@@ -59,7 +59,7 @@ Free App to remove Annotations from PowerPoint presentations on any platform.
 Easily convert Microsoft PowerPoint files to PDF, HTML, images and many other popular file formats without leaving your favorite browser.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.app/slides/family" innerText="View All Cross Platform Apps" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.app/slides/family" innerText="View All No Code Apps" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
