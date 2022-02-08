@@ -79,7 +79,7 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSM to POT" sectionDescription="Check our live demos for [PPSM to POT conversion](https://products.aspose.app/slides/conversion/ppsm-to-pot) with following benefits." >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSM to POT" sectionDescription="Check our live demos for [PPSM to POT conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
         {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
         {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSM file and hit the \"Convert\" button." >}}
