@@ -368,7 +368,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     <h2 class="h2title">
      How to Install
     </h2>
-    <p>Use <strong>pip</strong> to install our Python library for Presentation processing from the <a href="https://pypi.org/project/aspose.slides/">PyPI repository</a>:
+    <p>Use <strong>pip</strong> to install our Python library for Presentation processing from the <a href="https://pypi.org/project/aspose.slides/">PyPI repository</a></p>:
 	<pre><code>pip install aspose.slides</code></pre>
    </div>
     <div class="col-lg-12">
