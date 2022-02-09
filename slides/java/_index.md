@@ -339,17 +339,20 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
      <h3>
       Render presentations - Java
      </h3>
-     <pre><code class="java">// load the file to be rendered
+     <pre><code class="java">
 
-Presentation prest = new Presentation(dir + "template.pptx");
+// load the file to be rendered
+Presentation pres = new Presentation(dir + "template.pptx");
+try {
+    // Convert PPTX to PDF, XPS and TIFF
+    pres.save(dir + "output.pdf", SaveFormat.Pdf);
+    pres.save(dir + "output.xps", SaveFormat.Xps);
+    pres.save(dir + "output.tiff", SaveFormat.Tiff);
+} finally {
+    if (pres != null) pres.dispose();
+}
 
-// Convert PPTX to PDF, XPS and TIFF
-
-prest.save(dir + "output.pdf", SaveFormat.Pdf);
-
-prest.save(dir + "output.xps", SaveFormat.Xps);
-
-prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
+</code></pre>
     </div>
    </div>
    <div class="col-lg-12">
@@ -390,21 +393,23 @@ prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
      <h3>
       Create slide's thumbnail - Java
      </h3>
-     <pre><code class="java">// load the file
+     <pre><code class="java">
 
-Presentation prest = new Presentation(dir + "template.pptx");
+// load the file
+Presentation pres = new Presentation(dir + "template.pptx");
+try {
+    // access the first slide from the collection
+    ISlide sld = pres.getSlides().get_Item(0);
+    // create a full scale image of the slide
+    BufferedImage image = sld.getThumbnail(1f, 1f);
+    // save the image in JPEG format
+    ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));
+} catch (IOException e) {
+} finally {
+    if (pres != null) pres.dispose();
+}
 
-// access the first slide from the collection
-
-ISlide sld = prest.getSlides().get_Item(0);
-
-// create a full scale image of the slide
-
-BufferedImage image = sld.getThumbnail(1f, 1f);
-
-// save the image in JPEG format
-
-ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
+</code></pre>
     </div>
    </div>
    <div class="col-lg-12">

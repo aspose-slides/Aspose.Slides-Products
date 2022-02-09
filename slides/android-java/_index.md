@@ -324,17 +324,18 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
      <h3>
       Convert presentations with Notes
      </h3>
-     <pre><code class="java">Presentation pres = new Presentation(dataDir + "demo.pptx");
-
-TiffOptions opts = new TiffOptions();                
-
-INotesCommentsLayoutingOptions options = opts.getNotesCommentsLayouting();
-
-options.setNotesPosition(NotesPositions.BottomFull);              
-
-//Saving to TIFF notes
-
-pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
+     <pre><code class="java">
+ 
+Presentation pres = new Presentation(dataDir + "demo.pptx");
+try {
+    TiffOptions opts = new TiffOptions();
+    INotesCommentsLayoutingOptions options = opts.getNotesCommentsLayouting();
+    options.setNotesPosition(NotesPositions.BottomFull);
+    //Saving to TIFF notes
+    pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
+} finally {
+    if (pres != null) pres.dispose();
+}
 
 </code></pre>
     </div>
