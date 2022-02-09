@@ -14,11 +14,9 @@ description: Python API to Convert PPT to PDF. Convert Presentations to JPG, PNG
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPoint to PDF Conversion in Python" %}}
-[Aspose.Slides](https://products.aspose.com/words/python-net/) allows you to convert files in PowerPoint PPT, PPTX, and OpenOffice ODP formats to PDF. To convert a presentation to PDF, simply pass the file name and save format to the [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) method. The [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) class exposes the [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) method that can be called to convert the whole PPT, PPTX, or ODP presentation into a PDF document.
-
 <div class="col-lg-12">
-    <h5>Python PowerPoint to PDF Conversion</h5>
+    <h2 class="h2title">Python PowerPoint to PDF Conversion</h2>
+    <p><a href="https://products.aspose.com/words/python-net/">Aspose.Slides</a> allows you to convert files in PowerPoint PPT, PPTX, and OpenOffice ODP formats to PDF. To convert a presentation to PDF, simply pass the file name and save format to the <a href="https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/">Presentation.save</a> method. The <a href="https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/">Presentation</a> class exposes the <a href="https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/">save</a> method that can be called to convert the whole PPT, PPTX, or ODP presentation into a PDF document.</p>
     <pre>
         <code class="python">
 import aspose.slides as slides
@@ -28,8 +26,7 @@ with slides.Presentation("PowerPoint.ppt") as presentation:
         </code>
     </pre>
 </div>
-
-{{% /blocks/products/pf/feature-page-section %}}
+  
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="PDF to PPT Conversion in Python" %}}
