@@ -106,7 +106,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Python PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
+  <img width="70" height="75" alt="Python PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -117,7 +117,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     </em>
    </small>
    Python
-   <em>via .NET</em>
+   <em>via .NET</em>
   </footer>
  </div>
  <!--/logo-->
@@ -175,7 +175,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for Python" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Python" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -186,7 +186,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     </em>
    </small>
    Python
-   <em>via .NET</em>
+   <em>via .NET</em>
   </footer>
  </div>
  <!--/logo-->
@@ -259,7 +259,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -270,7 +270,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     </em>
    </small>
    Python
-   <em>via .NET</em>
+   <em>via .NET</em>
   </footer>
  </div>
  <!--/logo-->
@@ -368,7 +368,7 @@ description: Python library to work with Microsoft PowerPoint files. Create edit
     <h2 class="h2title">
      How to Install
     </h2>
-    <p>Use <strong>pip</strong> to install our Python library for Presentation processing from the <a href="https://pypi.org/project/aspose.slides/">PyPI repository</a>:
+    <p>Use <strong>pip</strong> to install our Python library for Presentation processing from the <a href="https://pypi.org/project/aspose.slides/">PyPI repository</a></p>:
 	<pre><code>pip install aspose.slides</code></pre>
    </div>
     <div class="col-lg-12">
@@ -453,7 +453,7 @@ for sld in pres.slides:
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
@@ -497,7 +497,7 @@ for sld in pres.slides:
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/net" pricingInformationLink="https://purchase.aspose.com/pricing/slides/python-net" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/python-net" pricingInformationLink="https://purchase.aspose.com/pricing/slides/python-net" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}

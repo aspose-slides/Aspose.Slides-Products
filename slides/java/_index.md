@@ -110,7 +110,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -153,7 +153,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PowerPoint API Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint API Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -230,7 +230,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Presentation APIs for Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -311,7 +311,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
     <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Remove or apply the protection on shapes
+     Remove or apply the protection on shapes
     </p>
    </div>
    <div class="col-lg-4">
@@ -417,7 +417,7 @@ try {
      Microsoft Office Automation – Not Needed
     </h2>
     <p>
-     API is built using managed code that does not need Microsoft Office or Microsoft PowerPoint to be installed on the machine to work with PowerPoint document formats. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.
+     API is built using managed code that does not need Microsoft Office or Microsoft PowerPoint to be installed on the machine to work with PowerPoint document formats. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.
     </p>
    </div>
   </div>

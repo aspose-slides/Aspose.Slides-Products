@@ -35,13 +35,13 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Redact ODP Files in C#" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Redact ODP Files in C#" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- A basic document search and replace text in contents, comments or metadata with
+ A basic document search and replace text in contents, comments or metadata with
  [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
- APIs can be done with just few lines of code. Find and replace text in PowerPoint and OpenOffice. Edit text, comments, metadata in presentation via regexp data matching.
+ APIs can be done with just few lines of code. Find and replace text in PowerPoint and OpenOffice. Edit text, comments, metadata in presentation via regexp data matching.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -67,7 +67,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Redact ODP Files - C#" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Redact ODP Files - C#" offSpacer="" %}}
 
 ```cs
 using (Presentation pres = new Presentation("pres.odp")){
@@ -98,7 +98,7 @@ using (Presentation pres = new Presentation("pres.odp")){
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice. ‎
+ Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice.  
 
 
 
@@ -106,7 +106,7 @@ using (Presentation pres = new Presentation("pres.odp")){
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Redaction Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in ODP documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/redaction). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Redaction Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in ODP documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/redaction). The live demo has the following benefits" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your ODP files." >}}
