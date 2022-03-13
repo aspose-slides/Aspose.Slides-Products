@@ -6,7 +6,7 @@ description: PowerPoint API for .NET, Java, C++, Python. Create Write Edit Rende
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint APIs: .NET, Java, C++, Python" h2="Native APIs for cross platform development. Generate, manage and convert PowerPoint Presentations & Slides iin .NET, Java, C++, Python, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint APIs: .NET, Java, C++, Python" h2="Native APIs for cross platform development. Generate, manage and convert PowerPoint Presentations & Slides in .NET, Java, C++, Python, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint APIs Include" >}}
@@ -44,11 +44,11 @@ PowerPoint API for exporting reports to PowerPoint from JasperReports or JasperS
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/net-core/" >}}
-PowerPoint API used to build .NET Core cross-platform solutions for processing presentations on Windows, Linux, or macOS.
+PowerPoint API for building .NET Core cross-platform solutions for processing presentations on Windows, Linux, or macOS.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/xamarin/" >}}
-PowerPoint API used to create Xamarin cross-platform applications for managing presentations on Android, iOS or Windows.
+PowerPoint API for building Xamarin cross-platform applications and managing presentations on Android, iOS or Windows.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
