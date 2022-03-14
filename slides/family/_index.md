@@ -12,7 +12,7 @@ description: PowerPoint API for .NET, Java, C++, Python. Create Write Edit Rende
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint APIs Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/" >}}
-PowerPoint API targeting Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or laterr.
+PowerPoint API targeting Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/java/" >}}
