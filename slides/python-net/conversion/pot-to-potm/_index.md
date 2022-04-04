@@ -32,19 +32,26 @@ You can install the library from [PyPI](https://pypi.org/project/Aspose.Slides/)
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert POT to POTM in Python" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert POT to POTM in Python" >}}
 
- The following are the steps to convert a POT file to POTM using Python.
+{{< blocks/products/pf/agp/steps-block-autogen name="The following are the steps to convert a POT file to POTM using Python." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load POT file with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load POT file with an instance of Presentation class
-2.  Call the `save` method while specifying output file path & SaveFormat.POTM as parameters
-3.  POT file will be saved at the specified path
+{{< blocks/products/pf/agp/step-autogen >}}
+Call the `save` method while specifying output file path & SaveFormat.POTM as parameters
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+POT file will be saved at the specified path
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

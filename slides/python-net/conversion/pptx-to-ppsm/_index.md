@@ -32,19 +32,26 @@ You can install the library from [PyPI](https://pypi.org/project/Aspose.Slides/)
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PPTX to PPSM in Python" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert PPTX to PPSM in Python" >}}
 
- The following are the steps to convert a PPTX file to PPSM using Python.
+{{< blocks/products/pf/agp/steps-block-autogen name="The following are the steps to convert a PPTX file to PPSM using Python." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPTX file with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load PPTX file with an instance of Presentation class
-2.  Call the `save` method while specifying output file path & SaveFormat.PPSM as parameters
-3.  PPTX file will be saved at the specified path
+{{< blocks/products/pf/agp/step-autogen >}}
+Call the `save` method while specifying output file path & SaveFormat.PPSM as parameters
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+PPTX file will be saved at the specified path
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 
