@@ -35,23 +35,34 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Create PPT Files Charts in C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Create PPT Files Charts in C#" >}}
 
- A basic document charting with
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document charting with [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Create Presentation class object.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Create Presentation class object.
-+  Select Slide.
-+  Add chart to slide.
-+  Add relevant chart series with data.
-+  Save PPT file
+{{< blocks/products/pf/agp/step-autogen >}}
+Select Slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Add chart to slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add relevant chart series with data.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save PPT file
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

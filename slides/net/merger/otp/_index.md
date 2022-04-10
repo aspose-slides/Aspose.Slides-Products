@@ -35,23 +35,34 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging OTP Files in C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps for Merging OTP Files in C#" >}}
 
- A basic document merging and concatenating with
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load all the OTP files with full path.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load all the OTP files with full path.
-+  Make one document as the base file
-+  Call the relevant method for concatenating and merging files one by one.
-+  Call the Save() method and pass the file name (full path) and format (OTP) as a parameter.
-+  Now you can open and use the OTP file in Microsoft Office, Adobe PDF or any other compatible program.
+{{< blocks/products/pf/agp/step-autogen >}}
+Make one document as the base file
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Call the relevant method for concatenating and merging files one by one.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Call the Save() method and pass the file name (full path) and format (OTP) as a parameter.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Now you can open and use the OTP file in Microsoft Office, Adobe PDF or any other compatible program.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

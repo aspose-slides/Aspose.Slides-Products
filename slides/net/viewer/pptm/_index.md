@@ -35,21 +35,34 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to View PPTM via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to View PPTM via C#" >}}
 
- Aspose.Slides makes it easy for the developers to view the PPTM file with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="Aspose.Slides makes it easy for the developers to view the PPTM file with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Instantiate a Presentation object & load the PPTM file
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Instantiate a Presentation object & load the PPTM file
-1.  Create an instance of ResponsiveHtmlController for formatting
-1.  Create an instance of HtmlOptions and set HtmlFormatter property
-1.  Save the PPTM presentation in HTML format
-1.  Call Process.Start with path to resultant HTML to load PPTM content in default browser
+{{< blocks/products/pf/agp/step-autogen >}}
+Create an instance of ResponsiveHtmlController for formatting
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Create an instance of HtmlOptions and set HtmlFormatter property
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save the PPTM presentation in HTML format
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Call Process.Start with path to resultant HTML to load PPTM content in default browser
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

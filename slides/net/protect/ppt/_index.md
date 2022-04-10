@@ -35,21 +35,26 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Protect PPT via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Protect PPT via C#" >}}
 
- You need
- [aspose.slides.dll](https://downloads.aspose.com/slides/net) 
- referenced in your project to execute the following workflow.
+{{< blocks/products/pf/agp/steps-block-autogen name="You need [aspose.slides.dll](https://downloads.aspose.com/slides/net) referenced in your project to execute the following workflow." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPT with an instance of Presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load PPT with an instance of Presentation
-1.  Protect the presentation with IProtectionManager.Encrypt method
-1.  Save result in PPT format
+{{< blocks/products/pf/agp/step-autogen >}}
+Protect the presentation with IProtectionManager.Encrypt method
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Save result in PPT format
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

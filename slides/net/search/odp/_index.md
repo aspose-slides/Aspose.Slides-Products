@@ -33,23 +33,34 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Search ODP Files in C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Search ODP Files in C#" >}}
 
- A basic document search with
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document search with [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load ODP file.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load ODP file.
-+  Get all text boxes in presentation
-+  Search the text.
-+  Replace the text.
-+  Write the ODP presentation.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get all text boxes in presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Search the text.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Replace the text.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Write the ODP presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

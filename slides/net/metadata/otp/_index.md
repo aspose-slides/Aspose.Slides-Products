@@ -35,20 +35,30 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Extract Metadata of OTP via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Extract Metadata of OTP via C#" >}}
 
- IDocumentProperties class represents the document properties associated with a presentation file. Developers can use this property to access the metadata as described below.
+{{< blocks/products/pf/agp/steps-block-autogen name="IDocumentProperties class represents the document properties associated with a presentation file. Developers can use this property to access the metadata as described below." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Instantiate the Presentation class with path to OTP file
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Instantiate the Presentation class with path to OTP file
-+  Get DocumentProperties object associated with Presentation
-+  Loop over the items in DocumentProperties object
-+  Access and modify custom properties
+{{< blocks/products/pf/agp/step-autogen >}}
+Get DocumentProperties object associated with Presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop over the items in DocumentProperties object
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Access and modify custom properties
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

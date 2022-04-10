@@ -35,23 +35,34 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Redact ODP Files in C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Redact ODP Files in C#" >}}
 
- A basic document search and replace text in contents, comments or metadata with
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net) 
- APIs can be done with just few lines of code. Find and replace text in PowerPoint and OpenOffice. Edit text, comments, metadata in presentation via regexp data matching.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document search and replace text in contents, comments or metadata with [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs can be done with just few lines of code. Find and replace text in PowerPoint and OpenOffice. Edit text, comments, metadata in presentation via regexp data matching." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load ODP presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load ODP presentation.
-+  Loop through each slide and to get textFrame collection.
-+  Loop through collection.
-+  Use Replace method and then Highlight Text
-+  Save presentation.
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through each slide and to get textFrame collection.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through collection.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Use Replace method and then Highlight Text
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 
