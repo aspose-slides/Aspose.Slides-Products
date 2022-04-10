@@ -35,23 +35,34 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Remove Comments from PPTX via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Remove Comments from PPTX via C#" >}}
 
- You need
- [aspose.slides.dll](https://downloads.aspose.com/slides/net) 
- to try the code in your environment.
+{{< blocks/products/pf/agp/steps-block-autogen name=" You need [aspose.slides.dll](https://downloads.aspose.com/slides/net) to try the code in your environment.  " >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPTX with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load PPTX with an instance of Presentation class
-+  Iterate over all Authors of loaded PPTX
-+  Loop and check all Comments of each Author
-+  Remove all Comments of an author
-+  Remove the Author at the end
+{{< blocks/products/pf/agp/step-autogen >}}
+Iterate over all Authors of loaded PPTX
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop and check all Comments of each Author
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Remove all Comments of an author
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Remove the Author at the end
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 
