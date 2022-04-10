@@ -51,20 +51,30 @@ description: Java sample code to edit or view PPT format metadata on Java Runtim
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Extract Metadata of PPT via Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Extract Metadata of PPT via Java" >}}
 
- IDocumentProperties class represents the document properties associated with a presentation file. Developers can use this property to access the metadata as described below.
+{{< blocks/products/pf/agp/steps-block-autogen name="IDocumentProperties class represents the document properties associated with a presentation file. Developers can use this property to access the metadata as described below." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Get PPT info using getPresentationInfo()
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Get PPT info using getPresentationInfo()
-+  Read all properties
-+  Set the new properties
-+  Update and write PPT info with new properties
+{{< blocks/products/pf/agp/step-autogen >}}
+Read all properties
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Set the new properties
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Update and write PPT info with new properties
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

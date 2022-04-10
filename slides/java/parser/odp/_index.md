@@ -51,22 +51,30 @@ description: Java sample code to extract text and images from ODP file on Java R
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Parse ODP Files in Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Parse ODP Files in Java" >}}
 
- A basic document parsing with
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document parsing with [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load ODP file by instatiating Presentation class.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load ODP file by instatiating Presentation class.
-+  Get first slide text frames.
-+  Loop through each paragraph portion.
-+  Get the required output like text, font etc.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get first slide text frames.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through each paragraph portion.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Get the required output like text, font etc.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

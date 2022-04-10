@@ -51,18 +51,30 @@ description: Java sample code to unlock password protected PPTX file on Java Run
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to unlock PPTX via Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to unlock PPTX via Java" >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
-1.  Load locked PPTX with an instance of Presentation
-1.  Check protection using isWriteProtected boolean type property
-1.  Remove protection using the removeWriteProtection() method
-1.  Save result in PPTX format
+{{< blocks/products/pf/agp/step-autogen >}}
+Load locked PPTX with an instance of Presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Check protection using isWriteProtected boolean type property
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Remove protection using the removeWriteProtection() method
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save result in PPTX format
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

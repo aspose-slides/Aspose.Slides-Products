@@ -51,19 +51,26 @@ description: Java sample code to lock PPTX file using password on Java Runtime E
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Protect PPTX Files via Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Protect PPTX Files via Java" >}}
 
- Document protection using Aspose.Slides APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="Document protection using Aspose.Slides APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Instantiate a Presentation object
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Instantiate a Presentation object
-1.  Set Password getProtectionManager().encrypt(.) method
-1.  Save protected presentation in PPTX format
+{{< blocks/products/pf/agp/step-autogen >}}
+Set Password getProtectionManager().encrypt(.) method
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Save protected presentation in PPTX format
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 
