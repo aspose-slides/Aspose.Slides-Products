@@ -35,24 +35,38 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Parse PPT Files in C++" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Parse PPT Files in C++" >}}
 
- A basic document parsing with
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document parsing with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPT file.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load PPT file.
-+  Get an Array of ITextFrame objects of first slide.
-+  Loop through the Array of TextFrames
-+  Loop through paragraphs in current ITextFrame.
-+  Loop through portions in the current IParagraph.
-+  Display the text.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get an Array of ITextFrame objects of first slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through the Array of TextFrames
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through paragraphs in current ITextFrame.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through portions in the current IParagraph.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Display the text.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 
