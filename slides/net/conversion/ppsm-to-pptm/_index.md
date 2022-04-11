@@ -35,19 +35,26 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PPSM to PPTM via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert PPSM to PPTM via C#" >}}
 
- .NET developers can easily load & convert PPSM files to PPTM in just a few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can easily load & convert PPSM files to PPTM in just a few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPSM file with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load PPSM file with an instance of Presentation class
-1.  Call the Save method while specifying output file path & SaveFormat.Pptm as parameters
-1.  PPTM file will be saved at the specified path
+{{< blocks/products/pf/agp/step-autogen >}}
+Call the Save method while specifying output file path & SaveFormat.Pptm as parameters
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+PPTM file will be saved at the specified path
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

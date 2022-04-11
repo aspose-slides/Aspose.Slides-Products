@@ -51,19 +51,34 @@ description: Java sample code to add or remove watermark to PPT file on Java Run
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Add Watermark to PPT via Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Add Watermark to PPT via Java" >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
-1.  Load PPT file using Presentation class
-1.  Loop through all slides
-1.  Add text using addTextFrame
-1.  Set all the relevant options like color, fillType and more
-1.  Save the document
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPT file using Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through all slides
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add text using addTextFrame
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Set all the relevant options like color, fillType and more
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save the document
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

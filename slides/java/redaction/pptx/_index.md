@@ -51,23 +51,34 @@ description: Java sample code to redact sensitive information in PPTX file on Ja
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Redact PPTX Files in Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Redact PPTX Files in Java" >}}
 
- A basic document search and replace text in contents, comments or metadata with
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
- APIs can be done with just few lines of code. Find and replace text in PowerPoint and OpenOffice. Edit text, comments, metadata in presentation via regexp data matching.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document search and replace text in contents, comments or metadata with [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs can be done with just few lines of code. Find and replace text in PowerPoint and OpenOffice. Edit text, comments, metadata in presentation via regexp data matching." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPTX presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load PPTX presentation.
-+  Access first slide.
-+  Iterate over shapes and set a reference to the table found.
-+  Change the text of each placeholder
-+  Save PPTX file.
+{{< blocks/products/pf/agp/step-autogen >}}
+Access first slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Iterate over shapes and set a reference to the table found.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Change the text of each placeholder
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save PPTX file.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

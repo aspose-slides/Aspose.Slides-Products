@@ -35,19 +35,26 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Protect PPT Files via C++" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Protect PPT Files via C++" >}}
 
- Document protection using Aspose.Slides APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="Document protection using Aspose.Slides APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPT File
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load PPT File
-1.  Set Password using get\_ProtectionManager()->Encrypt(.) method
-1.  Save protected PPT presentation
+{{< blocks/products/pf/agp/step-autogen >}}
+Set Password using get\_ProtectionManager()->Encrypt(.) method
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Save protected PPT presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

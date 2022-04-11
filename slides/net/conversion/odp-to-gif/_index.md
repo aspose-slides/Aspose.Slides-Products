@@ -35,20 +35,30 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert ODP to GIF via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert ODP to GIF via C#" >}}
 
- .NET developers can easily load & convert ODP files to GIF in just a few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can easily load & convert ODP files to GIF in just a few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load ODP file with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load ODP file with an instance of Presentation class
-1.  Iterate through each Slide in the Presentation
-1.  Create a full scale image as a Bitmap with each iteration
-1.  Call Bitmap.Save method with GIF file extension & ImageFormat.Gif as parameters
+{{< blocks/products/pf/agp/step-autogen >}}
+Iterate through each Slide in the Presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Create a full scale image as a Bitmap with each iteration
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Call Bitmap.Save method with GIF file extension & ImageFormat.Gif as parameters
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

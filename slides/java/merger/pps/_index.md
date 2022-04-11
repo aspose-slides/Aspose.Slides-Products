@@ -51,23 +51,34 @@ description: Java sample code to combine PPS documents on Java Runtime Environme
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PPS Files in Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps for Merging PPS Files in Java" >}}
 
- A basic document merging and concatenating with
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load the first PPS file with an instance of Presentation class.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load the first PPS file with an instance of Presentation class.
-+  Load the second PPS document with an instance of Presentation class.
-+  Loop through each slide of second PPS file.
-+  With each iteration, using addClone() to add slides with first file .
-+  Use save() method to save at specified path
+{{< blocks/products/pf/agp/step-autogen >}}
+Load the second PPS document with an instance of Presentation class.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through each slide of second PPS file.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+With each iteration, using addClone() to add slides with first file .
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Use save() method to save at specified path
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

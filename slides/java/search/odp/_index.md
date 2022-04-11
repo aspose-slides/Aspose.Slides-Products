@@ -51,22 +51,38 @@ description: Java sample code to search words with pattern in ODP file on Java R
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Search ODP Files in Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Search ODP Files in Java" >}}
 
- A basic document search using Aspose.Slides APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document search using Aspose.Slides APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load ODP file by instantiating Presentation Class object.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load ODP file by instantiating Presentation Class object.
-+  Get an ITextFrame Objects Array from all slides.
-+  Loop through the Array.
-+  Loop through paragraphs in current ITextFrame.
-+  Loop through portions in the current IParagraph.
-+  Find and Display font height and font name.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get an ITextFrame Objects Array from all slides.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through the Array.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through paragraphs in current ITextFrame.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through portions in the current IParagraph.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Find and Display font height and font name.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

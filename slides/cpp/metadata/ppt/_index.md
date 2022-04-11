@@ -35,20 +35,30 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Extract Metadata of PPT via C++" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Extract Metadata of PPT via C++" >}}
 
- IDocumentProperties class represents the document properties associated with a presentation file. Developers can use this property to access the metadata as described below.
+{{< blocks/products/pf/agp/steps-block-autogen name="IDocumentProperties class represents the document properties associated with a presentation file. Developers can use this property to access the metadata as described below." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPT file
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load PPT file
-+  Get Document Properties using get\_DocumentProperties()
-+  iterate for all properties using loop
-+  Print properties with each iteration.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get Document Properties using get\_DocumentProperties()
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+iterate for all properties using loop
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Print properties with each iteration.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

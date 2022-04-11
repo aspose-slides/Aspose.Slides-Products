@@ -35,22 +35,38 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Search PPTX Files in C++" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Search PPTX Files in C++" >}}
 
- A basic document search using Aspose.Slides APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document search using Aspose.Slides APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPTX file by instantiating Presentation Class object.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load PPTX file by instantiating Presentation Class object.
-+  Get an Array of ITextFrame objects from the first slide.
-+  Loop through the Array of TextFrames
-+  Loop through paragraphs in current ITextFrame
-+  Loop through portions in the current IParagraph
-+  Display font height and font name.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get an Array of ITextFrame objects from the first slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through the Array of TextFrames
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through paragraphs in current ITextFrame
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Loop through portions in the current IParagraph
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Display font height and font name.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

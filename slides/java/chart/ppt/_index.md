@@ -51,32 +51,70 @@ description: Java sample code to draw and convert chart or diagram in PPT file o
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Create PPT Files Charts in Java" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Create PPT Files Charts in Java" >}}
 
- A basic document charting with
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document charting with [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Instantiate Presentation class object.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Instantiate Presentation class object.
-+  Get first slide.
-+  Add chart with default data.
-+  Set chart Title.
-+  Set first series to Show Values.
-+  Set the index of chart data sheet.
-+  Get the chart data worksheet.
-+  Delete default generated series and categories.
-+  Adding new series and categories.
-+  Take first chart series.
-+  Populate series data.
-+  Set fill color for series.
-+  create custom labels for each of categories for new series.
-+  Save presentation with chart.
+{{< blocks/products/pf/agp/step-autogen >}}
+Get first slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Add chart with default data.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Set chart Title.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Set first series to Show Values.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Set the index of chart data sheet.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Get the chart data worksheet.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Delete default generated series and categories.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Adding new series and categories.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Take first chart series.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Populate series data.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Set fill color for series.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+create custom labels for each of categories for new series.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save presentation with chart.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

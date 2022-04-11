@@ -35,26 +35,46 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Add Watermark to PPTX via C++" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Add Watermark to PPTX via C++" >}}
 
- You need the
- [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) 
- to try the following workflow in your own environment.
+{{< blocks/products/pf/agp/steps-block-autogen name="You need the [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) to try the following workflow in your own environment." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load PPTX files with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load PPTX files with an instance of Presentation class
-1.  Get the first slide
-1.  Add an AutoShape of Rectangle type
-1.  Add TextFrame to the Rectangle
-1.  Create the Paragraph object for text frame
-1.  Create Portion object for paragraph
-1.  Add watermark using set\_Text()
-1.  Save document
+{{< blocks/products/pf/agp/step-autogen >}}
+Get the first slide
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Add an AutoShape of Rectangle type
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add TextFrame to the Rectangle
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Create the Paragraph object for text frame
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Create Portion object for paragraph
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add watermark using set\_Text()
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save document
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

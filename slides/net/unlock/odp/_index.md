@@ -35,22 +35,30 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Unlock ODP via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Unlock ODP via C#" >}}
 
- You need
- [aspose.slides.dll](https://downloads.aspose.com/slides/net) 
- referenced in your project to execute the following workflow.
+{{< blocks/products/pf/agp/steps-block-autogen name="You need [aspose.slides.dll](https://downloads.aspose.com/slides/net) referenced in your project to execute the following workflow." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load locked ODP with an instance of Presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load locked ODP with an instance of Presentation
-1.  Check protection using IProtectionManager.IsWriteProtected boolean type property
-1.  Remove protection using the IProtectionManager.RemoveWriteProtection method
-1.  Save result in ODP format
+{{< blocks/products/pf/agp/step-autogen >}}
+Check protection using IProtectionManager.IsWriteProtected boolean type property
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Remove protection using the IProtectionManager.RemoveWriteProtection method
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save result in ODP format
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

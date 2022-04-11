@@ -35,19 +35,26 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert OTP to HTML via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert OTP to HTML via C#" >}}
 
- .NET developers can easily load & convert OTP files to HTML in just a few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can easily load & convert OTP files to HTML in just a few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load OTP file with an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-1.  Load OTP file with an instance of Presentation class
-1.  Call the Save method while specifying output file path & SaveFormat.Html as parameters
-1.  HTML file will be saved at the specified path
+{{< blocks/products/pf/agp/step-autogen >}}
+Call the Save method while specifying output file path & SaveFormat.Html as parameters
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+HTML file will be saved at the specified path
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

@@ -35,22 +35,30 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging ODP Files in C++" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps for Merging ODP Files in C++" >}}
 
- A basic document merging and concatenating with
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
- APIs can be done with just few lines of code.
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) APIs can be done with just few lines of code." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Load both ODP files.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Load both ODP files.
-+  Use get\_Slides() method to iterate through each slide.
-+  Use AddClone function to merge with the desired file.
-+  Use Save() method to save at specified path
+{{< blocks/products/pf/agp/step-autogen >}}
+Use get\_Slides() method to iterate through each slide.
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Use AddClone function to merge with the desired file.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Use Save() method to save at specified path
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 

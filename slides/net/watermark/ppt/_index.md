@@ -35,22 +35,30 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Add Watermark to PPT via C#" %}}
 
-{{% blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/feature-section-col title="Steps to Add Watermark to PPT via C#" >}}
 
- You need the
- [aspose.slides.dll](https://downloads.aspose.com/slides/net) 
- to try the following workflow in your own environment.
+{{< blocks/products/pf/agp/steps-block-autogen name="You need the [aspose.slides.dll](https://downloads.aspose.com/slides/net) to try the following workflow in your own environment." >}}
 
-{{% /blocks/products/pf/agp/text %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Create an instance of Presentation class
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-+  Create an instance of Presentation class
-+  Select the master presentation
-+  Add shape type using AddAutoShape
-+  Add watermark text using AddTextFrame
+{{< blocks/products/pf/agp/step-autogen >}}
+Select the master presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
 
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{< blocks/products/pf/agp/step-autogen >}}
+Add shape type using AddAutoShape
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add watermark text using AddTextFrame
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/agp/feature-section-col >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
 
