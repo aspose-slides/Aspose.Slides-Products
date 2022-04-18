@@ -24,7 +24,7 @@ description: Aspose.Slides bir C# .NET PowerPoint API'sidir. Programlı olarak C
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="API özelliklerine genel bakış." >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="API özelliklerine genel bakış." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ Shape'in Çizgi Stillerini Yönet
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides for .NET, .NET Framework, .NET Core ve Xamarin platformunu destekler. Ayrıca, COM Interop aracılığıyla Mono ve diğer platformlarla birlikte kullanılabilir." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides for .NET, .NET Framework, .NET Core ve Xamarin platformunu destekler. Ayrıca, COM Interop aracılığıyla Mono ve diğer platformlarla birlikte kullanılabilir." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP, VBScript, Delphi, C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for .NET, aşağıda listelenen popüler [sunu formatlarını](https://docs.aspose.com/slides/net/supported-file-formats/) ve dışa aktarma formatlarını destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for .NET, aşağıda listelenen popüler [sunu formatlarını](https://docs.aspose.com/slides/net/supported-file-formats/) ve dışa aktarma formatlarını destekler." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ Ağ:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

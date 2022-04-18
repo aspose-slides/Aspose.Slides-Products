@@ -26,7 +26,7 @@ description: Aspose.Slides API para C++ es una API de PowerPoint PPT de C++ para
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="de un vistazo" description="Descripción general de las funciones de la API de Aspose.Slides para C++." >}}
+{{< blocks/products/pf/carousel-item h3="de un vistazo" description="Descripción general de las funciones de la API de Aspose.Slides para C++." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Administrar los estilos de línea de Shape
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides para C++ admite aplicaciones C++ desarrolladas en las siguientes plataformas con [requisitos del sistema] (https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
+{{< blocks/products/pf/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides para C++ admite aplicaciones C++ desarrolladas en las siguientes plataformas con [requisitos del sistema] (https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ Administrar los estilos de línea de Shape
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides para la API de C++ admite [formatos de PowerPoint] (https://docs.aspose.com/slides/cpp/supported-file-formats/), así como muchos formatos de conversión." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides para la API de C++ admite [formatos de PowerPoint] (https://docs.aspose.com/slides/cpp/supported-file-formats/), así como muchos formatos de conversión." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

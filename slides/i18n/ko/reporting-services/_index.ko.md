@@ -26,7 +26,7 @@ description: Reporting Services PowerPoint API는 SQL PPT용 Aspose.Slides입니
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="Reporting Services용 Aspose.Slides 개요." >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="Reporting Services용 Aspose.Slides 개요." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ description: Reporting Services PowerPoint API는 SQL PPT용 Aspose.Slides입니
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="제품은 Microsoft SQL Server 보고 서비스를 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="제품은 Microsoft SQL Server 보고 서비스를 지원합니다." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ description: Reporting Services PowerPoint API는 SQL PPT용 Aspose.Slides입니
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description="Reporting Services용 Aspose.Slides는 가장 일반적으로 사용되는 프레젠테이션 [파일 형식](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="Reporting Services용 Aspose.Slides는 가장 일반적으로 사용되는 프레젠테이션 [파일 형식](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)을 지원합니다." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

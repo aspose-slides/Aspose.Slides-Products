@@ -26,7 +26,7 @@ description: Aspose.Slides pour l'API Android ou l'API Android PowerPoint pour c
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="En bref" description="Vue d'ensemble des fonctionnalités de l'API Aspose.Slides pour Android." >}}
+{{< blocks/products/pf/carousel-item h3="En bref" description="Vue d'ensemble des fonctionnalités de l'API Aspose.Slides pour Android." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ Gérer les styles de ligne de la forme
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Indépendance de la plate-forme" description="L'API Aspose.Slides pour Android couvre les environnements de développement et les plates-formes de déploiement Android suivants." >}}
+{{< blocks/products/pf/carousel-item h3="Indépendance de la plate-forme" description="L'API Aspose.Slides pour Android couvre les environnements de développement et les plates-formes de déploiement Android suivants." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -157,9 +157,9 @@ Application mobile
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formats de fichiers pris en charge" description="L'API Aspose.Slides pour Android prend en charge les [formats PowerPoint] natifs (https://docs.aspose.com/slides/java/supported-file-formats/) et de nombreux formats de conversion." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="L'API Aspose.Slides pour Android prend en charge les [formats PowerPoint] natifs (https://docs.aspose.com/slides/java/supported-file-formats/) et de nombreux formats de conversion." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -225,7 +225,7 @@ HTML
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

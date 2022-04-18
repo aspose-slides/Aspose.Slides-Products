@@ -26,7 +26,7 @@ description: SharePoint PowerPoint — это Aspose.Slides SharePoint для с
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор Aspose.Slides для SharePoint" >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор Aspose.Slides для SharePoint" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -67,9 +67,9 @@ description: SharePoint PowerPoint — это Aspose.Slides SharePoint для с
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Aspose.Slides for SharePoint работает с Microsoft Office SharePoint Server и Windows SharePoint Services." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Aspose.Slides for SharePoint работает с Microsoft Office SharePoint Server и Windows SharePoint Services." >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ description: SharePoint PowerPoint — это Aspose.Slides SharePoint для с
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для SharePoint поддерживает наиболее распространенные форматы презентаций (https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для SharePoint поддерживает наиболее распространенные форматы презентаций (https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -195,7 +195,7 @@ Microsoft PowerPoint:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

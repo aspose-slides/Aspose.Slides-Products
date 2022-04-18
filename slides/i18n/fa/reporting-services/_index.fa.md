@@ -26,7 +26,7 @@ description: API PowerPoint Services Reporting Aspose.Slides برای SQL PPT ا
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="در یک نگاه" description="نمای کلی Aspose.Slides for Reporting Services." >}}
+{{< blocks/products/pf/carousel-item h3="در یک نگاه" description="نمای کلی Aspose.Slides for Reporting Services." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ description: API PowerPoint Services Reporting Aspose.Slides برای SQL PPT ا
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="استقلال پلتفرم" description="محصول از خدمات گزارش مایکروسافت SQL Server پشتیبانی می کند." >}}
+{{< blocks/products/pf/carousel-item h3="استقلال پلتفرم" description="محصول از خدمات گزارش مایکروسافت SQL Server پشتیبانی می کند." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ description: API PowerPoint Services Reporting Aspose.Slides برای SQL PPT ا
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for Reporting Services از رایج ترین ارائه ها [فرمت های فایل] پشتیبانی می کند (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for Reporting Services از رایج ترین ارائه ها [فرمت های فایل] پشتیبانی می کند (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -26,7 +26,7 @@ description: Aspose.Slides API для C++ — это C++ PPT PowerPoint API дл
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор функций Aspose.Slides for C++ API." >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор функций Aspose.Slides for C++ API." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ description: Aspose.Slides API для C++ — это C++ PPT PowerPoint API дл
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Aspose.Slides для C++ поддерживает приложения C++, разработанные на следующих платформах с [системными требованиями](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Aspose.Slides для C++ поддерживает приложения C++, разработанные на следующих платформах с [системными требованиями](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ description: Aspose.Slides API для C++ — это C++ PPT PowerPoint API дл
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for C++ API поддерживает [форматы PowerPoint] (https://docs.aspose.com/slides/cpp/supported-file-formats/), а также множество форматов преобразования." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for C++ API поддерживает [форматы PowerPoint] (https://docs.aspose.com/slides/cpp/supported-file-formats/), а также множество форматов преобразования." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ Microsoft PowerPoint:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

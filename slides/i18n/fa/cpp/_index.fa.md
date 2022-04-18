@@ -26,7 +26,7 @@ description: Aspose.Slides API for C++ یک C++ PPT PowerPoint API برای ای
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="در یک نگاه" description="نمای کلی ویژگی های Aspose.Slides for C++ API." >}}
+{{< blocks/products/pf/carousel-item h3="در یک نگاه" description="نمای کلی ویژگی های Aspose.Slides for C++ API." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ description: Aspose.Slides API for C++ یک C++ PPT PowerPoint API برای ای
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="استقلال پلتفرم" description="Aspose.Slides for C++ از برنامه های C++ توسعه یافته بر روی پلتفرم های زیر با [نیازمندی های سیستم] (https://docs.aspose.com/slides/cpp/system-requirements/) پشتیبانی می کند." >}}
+{{< blocks/products/pf/carousel-item h3="استقلال پلتفرم" description="Aspose.Slides for C++ از برنامه های C++ توسعه یافته بر روی پلتفرم های زیر با [نیازمندی های سیستم] (https://docs.aspose.com/slides/cpp/system-requirements/) پشتیبانی می کند." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ description: Aspose.Slides API for C++ یک C++ PPT PowerPoint API برای ای
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for C++ API از [فرمت‌های پاورپوینت] (https://docs.aspose.com/slides/cpp/supported-file-formats/) و همچنین بسیاری از فرمت‌های تبدیل پشتیبانی می‌کند." >}}
+{{< blocks/products/pf/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for C++ API از [فرمت‌های پاورپوینت] (https://docs.aspose.com/slides/cpp/supported-file-formats/) و همچنین بسیاری از فرمت‌های تبدیل پشتیبانی می‌کند." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ description: Aspose.Slides API for C++ یک C++ PPT PowerPoint API برای ای
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

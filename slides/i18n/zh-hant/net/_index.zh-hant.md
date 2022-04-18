@@ -24,7 +24,7 @@ description: Aspose.Slides 是一個 C# .NET PowerPoint API。 Aspose Slides API
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="API 功能概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="API 功能概述。" >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ description: Aspose.Slides 是一個 C# .NET PowerPoint API。 Aspose Slides API
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="Aspose.Slides for .NET 支持 .NET Framework、.NET Core 和 Xamarin 平台。此外，它還可以通過 COM 互操作與 Mono 和其他平台一起使用。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="Aspose.Slides for .NET 支持 .NET Framework、.NET Core 和 Xamarin 平台。此外，它還可以通過 COM 互操作與 Mono 和其他平台一起使用。" >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP、VBScript、德爾福、C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for .NET 支持流行的 [演示格式](https://docs.aspose.com/slides/net/supported-file-formats/) 和下面列出的導出格式。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for .NET 支持流行的 [演示格式](https://docs.aspose.com/slides/net/supported-file-formats/) 和下面列出的導出格式。" >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

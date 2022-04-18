@@ -26,7 +26,7 @@ description: Raporlama Servisleri PowerPoint API, SQL PPT için Aspose.Slides'ti
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="Aspose.Slides for Reporting Services'a genel bakış." >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="Aspose.Slides for Reporting Services'a genel bakış." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ stiller
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Ürün, Microsoft SQL Server Raporlama Servislerini destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Ürün, Microsoft SQL Server Raporlama Servislerini destekler." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ stiller
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for Reporting Services, en sık kullanılan sunum [dosya formatlarını](https://docs.aspose.com/slides/reportingservices/supported-file-formats/) destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for Reporting Services, en sık kullanılan sunum [dosya formatlarını](https://docs.aspose.com/slides/reportingservices/supported-file-formats/) destekler." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

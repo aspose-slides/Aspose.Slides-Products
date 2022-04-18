@@ -29,7 +29,7 @@ description: Aspose.Slides for Xamarin 用於構建 Xamarin PowerPoint 應用程
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="Aspose.Slides 對 Xamarin PowerPoint API 的功能概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="Aspose.Slides 對 Xamarin PowerPoint API 的功能概述。" >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ description: Aspose.Slides for Xamarin 用於構建 Xamarin PowerPoint 應用程
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="適用於 Android、iOS 和 Windows 上的 Xamarin 的 Aspose.Slides。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="適用於 Android、iOS 和 Windows 上的 Xamarin 的 Aspose.Slides。" >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -143,9 +143,9 @@ description: Aspose.Slides for Xamarin 用於構建 Xamarin PowerPoint 應用程
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for Xamarin 支持下面列出的流行 [演示文稿格式](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) 和導出格式。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for Xamarin 支持下面列出的流行 [演示文稿格式](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) 和導出格式。" >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -220,7 +220,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

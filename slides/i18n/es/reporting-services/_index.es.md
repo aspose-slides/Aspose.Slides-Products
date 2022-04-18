@@ -26,7 +26,7 @@ description: Reporting Services PowerPoint API es Aspose.Slides para SQL PPT. Se
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="de un vistazo" description="Una descripción general de Aspose.Slides para Reporting Services." >}}
+{{< blocks/products/pf/carousel-item h3="de un vistazo" description="Una descripción general de Aspose.Slides para Reporting Services." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ Estilos
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independencia de la plataforma" description="El producto es compatible con Microsoft SQL Server Reporting Services." >}}
+{{< blocks/products/pf/carousel-item h3="Independencia de la plataforma" description="El producto es compatible con Microsoft SQL Server Reporting Services." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ Estilos
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides for Reporting Services es compatible con los [formatos de archivo] de presentación más utilizados (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides for Reporting Services es compatible con los [formatos de archivo] de presentación más utilizados (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

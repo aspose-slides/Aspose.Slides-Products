@@ -29,7 +29,7 @@ description: Aspose.Slides for Xamarin, Xamarin PowerPoint uygulamaları oluştu
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="Aspose.Slides'ın Xamarin PowerPoint API'sine genel bakış." >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="Aspose.Slides'ın Xamarin PowerPoint API'sine genel bakış." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ Shape'in Çizgi Stillerini Yönet
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Android, iOS ve Windows üzerinde Xamarin için Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Android, iOS ve Windows üzerinde Xamarin için Aspose.Slides." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -143,9 +143,9 @@ Shape'in Çizgi Stillerini Yönet
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for Xamarin, popüler [sunu formatlarını](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) ve aşağıda listelenen dışa aktarma formatlarını destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for Xamarin, popüler [sunu formatlarını](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) ve aşağıda listelenen dışa aktarma formatlarını destekler." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -220,7 +220,7 @@ Ağ:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

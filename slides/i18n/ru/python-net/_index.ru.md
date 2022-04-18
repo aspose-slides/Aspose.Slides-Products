@@ -34,7 +34,7 @@ description: Библиотека Python для работы с файлами M
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор возможностей API." >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор возможностей API." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -123,9 +123,9 @@ description: Библиотека Python для работы с файлами M
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Python Presentation API поддерживает все основные платформы, включая следующие." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Python Presentation API поддерживает все основные платформы, включая следующие." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -192,9 +192,9 @@ CentOS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для Python через .NET поддерживает популярные [форматы презентаций] (https://docs.aspose.com/slides/python-net/supported-file-formats/) и эти форматы экспорта." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для Python через .NET поддерживает популярные [форматы презентаций] (https://docs.aspose.com/slides/python-net/supported-file-formats/) и эти форматы экспорта." >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -276,7 +276,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -26,7 +26,7 @@ description: Aspose.Slides para Java es una API de Aspose Java PowerPoint para l
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="de un vistazo" description="Descripción general de las características de la API de Aspose.Slides para Java." >}}
+{{< blocks/products/pf/carousel-item h3="de un vistazo" description="Descripción general de las características de la API de Aspose.Slides para Java." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Administrar los estilos de línea de Shape
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides for Java API se puede utilizar en cualquier escritorio basado en Java, aplicación web empresarial o en cualquier entorno Linux y Unix." >}}
+{{< blocks/products/pf/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides for Java API se puede utilizar en cualquier escritorio basado en Java, aplicación web empresarial o en cualquier entorno Linux y Unix." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ Aplicación de escritorio
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides for Java API admite la siguiente [presentación](https://docs.aspose.com/slides/java/supported-file-formats/) y formatos de conversión." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides for Java API admite la siguiente [presentación](https://docs.aspose.com/slides/java/supported-file-formats/) y formatos de conversión." >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

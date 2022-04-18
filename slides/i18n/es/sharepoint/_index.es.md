@@ -26,7 +26,7 @@ description: SharePoint PowerPoint es un Aspose.Slides SharePoint para crear y c
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="de un vistazo" description="Una descripción general de Aspose.Slides para SharePoint" >}}
+{{< blocks/products/pf/carousel-item h3="de un vistazo" description="Una descripción general de Aspose.Slides para SharePoint" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -67,9 +67,9 @@ Sobrescribir archivos
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides para SharePoint funciona con Microsoft Office SharePoint Server y Windows SharePoint Services." >}}
+{{< blocks/products/pf/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides para SharePoint funciona con Microsoft Office SharePoint Server y Windows SharePoint Services." >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides para SharePoint es compatible con los [formatos de archivo] de presentación más comunes (https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides para SharePoint es compatible con los [formatos de archivo] de presentación más comunes (https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -195,7 +195,7 @@ Imágenes:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

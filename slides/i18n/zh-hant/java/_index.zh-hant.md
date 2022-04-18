@@ -26,7 +26,7 @@ description: Aspose.Slides for Java 是用於 Java PPT 和 Java PPTX 創建的 A
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="Aspose.Slides for Java API 功能概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="Aspose.Slides for Java API 功能概述。" >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ description: Aspose.Slides for Java 是用於 Java PPT 和 Java PPTX 創建的 A
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="Aspose.Slides for Java API 可以在任何基於 Java 的桌面、企業 Web 應用程序或任何 Linux 和 Unix 環境中使用。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="Aspose.Slides for Java API 可以在任何基於 Java 的桌面、企業 Web 應用程序或任何 Linux 和 Unix 環境中使用。" >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ JSP/JSF 應用程序
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for Java API 支持以下 [presentation](https://docs.aspose.com/slides/java/supported-file-formats/) 和轉換格式。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for Java API 支持以下 [presentation](https://docs.aspose.com/slides/java/supported-file-formats/) 和轉換格式。" >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

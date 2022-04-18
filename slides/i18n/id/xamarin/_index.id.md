@@ -29,7 +29,7 @@ description: Aspose.Slides untuk Xamarin untuk membangun aplikasi PowerPoint Xam
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Ikhtisar kemampuan Xamarin PowerPoint API oleh Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Ikhtisar kemampuan Xamarin PowerPoint API oleh Aspose.Slides." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk Xamarin di Android, iOS dan Windows." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk Xamarin di Android, iOS dan Windows." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -143,9 +143,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk Xamarin mendukung [format presentasi](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) dan format ekspor yang tercantum di bawah ini." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk Xamarin mendukung [format presentasi](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) dan format ekspor yang tercantum di bawah ini." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -220,7 +220,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

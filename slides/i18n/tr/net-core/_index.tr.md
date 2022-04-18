@@ -33,7 +33,7 @@ description: PowerPoint .NET Core çözümleri oluşturmak için Aspose.Slides .
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="Aspose.Slides tarafından sunulan .NET Core PowerPoint API'nin yeteneklere genel bakışı." >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="Aspose.Slides tarafından sunulan .NET Core PowerPoint API'nin yeteneklere genel bakışı." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -121,9 +121,9 @@ Shape'in Çizgi Stillerini Yönet
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides for .NET Core for Windows, Linux ve macOS." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides for .NET Core for Windows, Linux ve macOS." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -147,9 +147,9 @@ Shape'in Çizgi Stillerini Yönet
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for .NET Core, aşağıda listelenen popüler [sunu formatlarını](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) ve dışa aktarma formatlarını destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for .NET Core, aşağıda listelenen popüler [sunu formatlarını](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) ve dışa aktarma formatlarını destekler." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -224,7 +224,7 @@ Ağ:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

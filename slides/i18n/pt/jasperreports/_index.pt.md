@@ -22,7 +22,7 @@ description: Aspose.Slides PowerPoint API para JaspreReport para exportar relat�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Num relance" description="Uma visão geral do Aspose.Slides para JasperReports." >}}
+{{< blocks/products/pf/carousel-item h3="Num relance" description="Uma visão geral do Aspose.Slides para JasperReports." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -60,9 +60,9 @@ description: Aspose.Slides PowerPoint API para JaspreReport para exportar relat�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independência de plataforma" description="Aspose.Slides PowerPoint API suporta J2SE, JasperReports e JasperServer." >}}
+{{< blocks/products/pf/carousel-item h3="Independência de plataforma" description="Aspose.Slides PowerPoint API suporta J2SE, JasperReports e JasperServer." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -130,9 +130,9 @@ description: Aspose.Slides PowerPoint API para JaspreReport para exportar relat�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides for JasperReports pode exportar relatórios no Microsoft PowerPoint [formatos de arquivo](https://docs.aspose.com/slides/jasperreports/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides for JasperReports pode exportar relatórios no Microsoft PowerPoint [formatos de arquivo](https://docs.aspose.com/slides/jasperreports/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -179,7 +179,7 @@ Outros:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -26,7 +26,7 @@ description: Java용 Aspose.Slides는 Java PPT 및 Java PPTX 생성을 위한 As
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="Aspose.Slides for Java API 기능 개요." >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="Aspose.Slides for Java API 기능 개요." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ ActiveX 모양 지원
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="Aspose.Slides for Java API는 모든 Java 기반 데스크탑, 엔터프라이즈 웹 애플리케이션 또는 Linux 및 Unix 환경에서 사용할 수 있습니다." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="Aspose.Slides for Java API는 모든 Java 기반 데스크탑, 엔터프라이즈 웹 애플리케이션 또는 Linux 및 Unix 환경에서 사용할 수 있습니다." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ JSP/JSF 애플리케이션
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description="Aspose.Slides for Java API는 다음 [프레젠테이션](https://docs.aspose.com/slides/java/supported-file-formats/) 및 변환 형식을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="Aspose.Slides for Java API는 다음 [프레젠테이션](https://docs.aspose.com/slides/java/supported-file-formats/) 및 변환 형식을 지원합니다." >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

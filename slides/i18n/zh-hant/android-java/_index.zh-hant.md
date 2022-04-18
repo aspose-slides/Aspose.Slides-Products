@@ -26,7 +26,7 @@ description: Aspose.Slides for Android API 或 Android PowerPoint API 在 Androi
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="Aspose.Slides for Android API 功能概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="Aspose.Slides for Android API 功能概述。" >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ description: Aspose.Slides for Android API 或 Android PowerPoint API 在 Androi
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="Aspose.Slides for Android API 涵蓋以下 Android 開發環境和部署平台。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="Aspose.Slides for Android API 涵蓋以下 Android 開發環境和部署平台。" >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -157,9 +157,9 @@ description: Aspose.Slides for Android API 或 Android PowerPoint API 在 Androi
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for Android API 支持原生 [PowerPoint 格式](https://docs.aspose.com/slides/java/supported-file-formats/) 和多種轉換格式。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for Android API 支持原生 [PowerPoint 格式](https://docs.aspose.com/slides/java/supported-file-formats/) 和多種轉換格式。" >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -225,7 +225,7 @@ HTML
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -26,7 +26,7 @@ description: Aspose.Slides untuk Android API atau Android PowerPoint API untuk m
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Ikhtisar fitur Aspose.Slides untuk Android API." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Ikhtisar fitur Aspose.Slides untuk Android API." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides for Android API mencakup lingkungan pengembangan dan platform penerapan Android berikut." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides for Android API mencakup lingkungan pengembangan dan platform penerapan Android berikut." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -157,9 +157,9 @@ Aplikasi Seluler
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk Android API mendukung [format PowerPoint](https://docs.aspose.com/slides/java/supported-file-formats/) asli dan banyak format konversi." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk Android API mendukung [format PowerPoint](https://docs.aspose.com/slides/java/supported-file-formats/) asli dan banyak format konversi." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -225,7 +225,7 @@ HTML
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

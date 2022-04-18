@@ -26,7 +26,7 @@ description: Aspose.Slides API สำหรับ C++ คือ C++ PPT PowerPoi
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="สรุป" description="Aspose.Slides สำหรับภาพรวมคุณลักษณะ C++ API" >}}
+{{< blocks/products/pf/carousel-item h3="สรุป" description="Aspose.Slides สำหรับภาพรวมคุณลักษณะ C++ API" >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ description: Aspose.Slides API สำหรับ C++ คือ C++ PPT PowerPoi
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="Aspose.Slides สำหรับ C++ รองรับแอปพลิเคชัน C++ ที่พัฒนาบนแพลตฟอร์มต่อไปนี้ด้วย [ข้อกำหนดของระบบ](https://docs.aspose.com/slides/cpp/system-requirements/)" >}}
+{{< blocks/products/pf/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="Aspose.Slides สำหรับ C++ รองรับแอปพลิเคชัน C++ ที่พัฒนาบนแพลตฟอร์มต่อไปนี้ด้วย [ข้อกำหนดของระบบ](https://docs.aspose.com/slides/cpp/system-requirements/)" >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ description: Aspose.Slides API สำหรับ C++ คือ C++ PPT PowerPoi
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides สำหรับ C++ API รองรับ [รูปแบบ PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/) รวมถึงรูปแบบการแปลงมากมาย" >}}
+{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides สำหรับ C++ API รองรับ [รูปแบบ PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/) รวมถึงรูปแบบการแปลงมากมาย" >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ description: Aspose.Slides API สำหรับ C++ คือ C++ PPT PowerPoi
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

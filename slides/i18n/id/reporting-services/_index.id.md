@@ -26,7 +26,7 @@ description: Reporting Services PowerPoint API adalah Aspose.Slides untuk SQL PP
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Ikhtisar Aspose.Slides untuk Layanan Pelaporan." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Ikhtisar Aspose.Slides untuk Layanan Pelaporan." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ Gaya
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Produk mendukung Layanan Pelaporan Microsoft SQL Server." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Produk mendukung Layanan Pelaporan Microsoft SQL Server." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ Gaya
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk Layanan Pelaporan mendukung presentasi yang paling umum digunakan [format file](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk Layanan Pelaporan mendukung presentasi yang paling umum digunakan [format file](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

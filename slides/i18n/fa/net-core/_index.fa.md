@@ -33,7 +33,7 @@ description: Aspose.Slides .NET Core API برای ساخت راه حل های Po
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="در یک نگاه" description="مروری بر قابلیت‌های NET Core PowerPoint API توسط Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="در یک نگاه" description="مروری بر قابلیت‌های NET Core PowerPoint API توسط Aspose.Slides." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -121,9 +121,9 @@ OleObjects را مدیریت کنید
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="استقلال پلتفرم" description="Aspose.Slides برای NET Core برای ویندوز، لینوکس و macOS." >}}
+{{< blocks/products/pf/carousel-item h3="استقلال پلتفرم" description="Aspose.Slides برای NET Core برای ویندوز، لینوکس و macOS." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -147,9 +147,9 @@ OleObjects را مدیریت کنید
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for .NET Core از [قالب‌های ارائه] محبوب (https://docs.aspose.com/display/slidesnet/Supported+File+Formats) و فرمت‌های صادراتی فهرست شده در زیر پشتیبانی می‌کند." >}}
+{{< blocks/products/pf/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for .NET Core از [قالب‌های ارائه] محبوب (https://docs.aspose.com/display/slidesnet/Supported+File+Formats) و فرمت‌های صادراتی فهرست شده در زیر پشتیبانی می‌کند." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -224,7 +224,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

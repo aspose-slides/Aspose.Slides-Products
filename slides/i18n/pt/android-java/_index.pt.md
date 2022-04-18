@@ -26,7 +26,7 @@ description: Aspose.Slides para Android API ou Android PowerPoint API para criar
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Num relance" description="Visão geral dos recursos da API Aspose.Slides para Android." >}}
+{{< blocks/products/pf/carousel-item h3="Num relance" description="Visão geral dos recursos da API Aspose.Slides para Android." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ Gerenciar os estilos de linha da forma
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independência de plataforma" description="Aspose.Slides for Android API abrange os seguintes ambientes de desenvolvimento Android e plataformas de implantação." >}}
+{{< blocks/products/pf/carousel-item h3="Independência de plataforma" description="Aspose.Slides for Android API abrange os seguintes ambientes de desenvolvimento Android e plataformas de implantação." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -157,9 +157,9 @@ Aplicativo móvel
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides para Android API suporta [formatos PowerPoint] nativos (https://docs.aspose.com/slides/java/supported-file-formats/) e muitos formatos de conversão." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides para Android API suporta [formatos PowerPoint] nativos (https://docs.aspose.com/slides/java/supported-file-formats/) e muitos formatos de conversão." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -225,7 +225,7 @@ HTML
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

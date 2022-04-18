@@ -26,7 +26,7 @@ description: Reporting Services PowerPoint API to Aspose.Slides dla SQL PPT. Us�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="W skrócie" description="Omówienie Aspose.Slides dla usług raportowania." >}}
+{{< blocks/products/pf/carousel-item h3="W skrócie" description="Omówienie Aspose.Slides dla usług raportowania." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ Style
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Niezależność od platformy" description="Produkt obsługuje usługi raportowania Microsoft SQL Server." >}}
+{{< blocks/products/pf/carousel-item h3="Niezależność od platformy" description="Produkt obsługuje usługi raportowania Microsoft SQL Server." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ Style
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for Reporting Services obsługuje najczęściej używane prezentacje [formaty plików](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for Reporting Services obsługuje najczęściej używane prezentacje [formaty plików](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -34,7 +34,7 @@ description: Bibliothèque Python pour travailler avec des fichiers Microsoft Po
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="En bref" description="Un aperçu des capacités de l'API." >}}
+{{< blocks/products/pf/carousel-item h3="En bref" description="Un aperçu des capacités de l'API." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -123,9 +123,9 @@ Gérer les styles de ligne de la forme
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Indépendance de la plate-forme" description="L'API de présentation Python prend en charge toutes les principales plates-formes, y compris les suivantes." >}}
+{{< blocks/products/pf/carousel-item h3="Indépendance de la plate-forme" description="L'API de présentation Python prend en charge toutes les principales plates-formes, y compris les suivantes." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -192,9 +192,9 @@ et d'autres
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides pour Python via .NET prend en charge les [formats de présentation](https://docs.aspose.com/slides/python-net/supported-file-formats/) populaires et ces formats d'exportation." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides pour Python via .NET prend en charge les [formats de présentation](https://docs.aspose.com/slides/python-net/supported-file-formats/) populaires et ces formats d'exportation." >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -276,7 +276,7 @@ La toile:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

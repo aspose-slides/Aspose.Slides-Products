@@ -26,7 +26,7 @@ description: C++용 Aspose.Slides API는 C++에서 PPT를 생성, 보기, 조작
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="Aspose.Slides for C++ API 기능 개요." >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="Aspose.Slides for C++ API 기능 개요." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ ActiveX 모양 지원
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="Aspose.Slides for C++는 [시스템 요구 사항](https://docs.aspose.com/slides/cpp/system-requirements/)의 다음 플랫폼에서 개발된 C++ 응용 프로그램을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="Aspose.Slides for C++는 [시스템 요구 사항](https://docs.aspose.com/slides/cpp/system-requirements/)의 다음 플랫폼에서 개발된 C++ 응용 프로그램을 지원합니다." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ ActiveX 모양 지원
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description="Aspose.Slides for C++ API는 [PowerPoint 형식](https://docs.aspose.com/slides/cpp/supported-file-formats/)과 다양한 변환 형식을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="Aspose.Slides for C++ API는 [PowerPoint 형식](https://docs.aspose.com/slides/cpp/supported-file-formats/)과 다양한 변환 형식을 지원합니다." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ ActiveX 모양 지원
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

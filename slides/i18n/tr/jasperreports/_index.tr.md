@@ -22,7 +22,7 @@ description: Raporları Jasper Reports ve JasperServer'dan PowerPoint formatlar�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="Aspose.Slides for JasperReports'a genel bakış." >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="Aspose.Slides for JasperReports'a genel bakış." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -60,9 +60,9 @@ description: Raporları Jasper Reports ve JasperServer'dan PowerPoint formatlar�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides PowerPoint API, J2SE, JasperReports ve JasperServer'ı destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides PowerPoint API, J2SE, JasperReports ve JasperServer'ı destekler." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -130,9 +130,9 @@ description: Raporları Jasper Reports ve JasperServer'dan PowerPoint formatlar�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for JasperReports, raporları Microsoft PowerPoint [dosya formatlarında](https://docs.aspose.com/slides/jasperreports/supported-file-formats/) dışa aktarabilir." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for JasperReports, raporları Microsoft PowerPoint [dosya formatlarında](https://docs.aspose.com/slides/jasperreports/supported-file-formats/) dışa aktarabilir." >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -179,7 +179,7 @@ Diğerleri:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -24,7 +24,7 @@ description: Aspose.Slides یک API پاورپوینت C#.NET است. Slides API
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="در یک نگاه" description="مروری بر قابلیت های API." >}}
+{{< blocks/products/pf/carousel-item h3="در یک نگاه" description="مروری بر قابلیت های API." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ OleObjects را مدیریت کنید
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="استقلال پلتفرم" description="Aspose.Slides for .NET از NET Framework، .NET Core و پلت فرم Xamarin پشتیبانی می کند. همچنین، می توان آن را با Mono و سایر پلتفرم ها از طریق COM Interop استفاده کرد." >}}
+{{< blocks/products/pf/carousel-item h3="استقلال پلتفرم" description="Aspose.Slides for .NET از NET Framework، .NET Core و پلت فرم Xamarin پشتیبانی می کند. همچنین، می توان آن را با Mono و سایر پلتفرم ها از طریق COM Interop استفاده کرد." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP، VBScript، دلفی، C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for .NET از [قالب‌های ارائه] محبوب (https://docs.aspose.com/slides/net/supported-file-formats/) و فرمت‌های صادراتی فهرست شده در زیر پشتیبانی می‌کند." >}}
+{{< blocks/products/pf/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for .NET از [قالب‌های ارائه] محبوب (https://docs.aspose.com/slides/net/supported-file-formats/) و فرمت‌های صادراتی فهرست شده در زیر پشتیبانی می‌کند." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

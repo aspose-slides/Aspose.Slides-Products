@@ -22,7 +22,7 @@ description: API Aspose.Slides PowerPoint pour JaspreReport pour exporter des ra
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="En bref" description="Un aperçu de Aspose.Slides pour JasperReports." >}}
+{{< blocks/products/pf/carousel-item h3="En bref" description="Un aperçu de Aspose.Slides pour JasperReports." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -60,9 +60,9 @@ description: API Aspose.Slides PowerPoint pour JaspreReport pour exporter des ra
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Indépendance de la plate-forme" description="L'API Aspose.Slides PowerPoint prend en charge J2SE, JasperReports et JasperServer." >}}
+{{< blocks/products/pf/carousel-item h3="Indépendance de la plate-forme" description="L'API Aspose.Slides PowerPoint prend en charge J2SE, JasperReports et JasperServer." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -130,9 +130,9 @@ description: API Aspose.Slides PowerPoint pour JaspreReport pour exporter des ra
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides for JasperReports peut exporter des rapports au format Microsoft PowerPoint [formats de fichier] (https://docs.aspose.com/slides/jasperreports/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides for JasperReports peut exporter des rapports au format Microsoft PowerPoint [formats de fichier] (https://docs.aspose.com/slides/jasperreports/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -179,7 +179,7 @@ Autres:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

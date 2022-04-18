@@ -24,7 +24,7 @@ description: Aspose.Slides é uma API C# .NET PowerPoint. API Aspose Slides para
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Num relance" description="Uma visão geral dos recursos da API." >}}
+{{< blocks/products/pf/carousel-item h3="Num relance" description="Uma visão geral dos recursos da API." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ Gerenciar os estilos de linha da forma
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independência de plataforma" description="Aspose.Slides para .NET suporta .NET Framework, .NET Core e plataforma Xamarin. Além disso, pode ser usado com Mono e outras plataformas via COM Interop." >}}
+{{< blocks/products/pf/carousel-item h3="Independência de plataforma" description="Aspose.Slides para .NET suporta .NET Framework, .NET Core e plataforma Xamarin. Além disso, pode ser usado com Mono e outras plataformas via COM Interop." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP, VBScript, Delphi, C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides para .NET suporta os populares [formatos de apresentação](https://docs.aspose.com/slides/net/supported-file-formats/) e formatos de exportação listados abaixo." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides para .NET suporta os populares [formatos de apresentação](https://docs.aspose.com/slides/net/supported-file-formats/) e formatos de exportação listados abaixo." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ Rede:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

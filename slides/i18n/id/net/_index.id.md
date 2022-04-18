@@ -24,7 +24,7 @@ description: Aspose.Slides adalah C# .NET PowerPoint API. Apose Slides API untuk
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Ikhtisar kemampuan API." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Ikhtisar kemampuan API." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk .NET mendukung .NET Framework, .NET Core & platform Xamarin. Juga, dapat digunakan dengan Mono & platform lain melalui COM Interop." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk .NET mendukung .NET Framework, .NET Core & platform Xamarin. Juga, dapat digunakan dengan Mono & platform lain melalui COM Interop." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP, VBScript, Delphi, C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk .NET mendukung [format presentasi](https://docs.aspose.com/slides/net/supported-file-formats/) dan format ekspor yang tercantum di bawah ini." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk .NET mendukung [format presentasi](https://docs.aspose.com/slides/net/supported-file-formats/) dan format ekspor yang tercantum di bawah ini." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

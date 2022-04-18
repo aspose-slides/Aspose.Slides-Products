@@ -26,7 +26,7 @@ description: SharePoint PowerPoint, SharePoint PPT, SharePoint slayt gösterisi,
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="Aspose.Slides for SharePoint'e genel bakış" >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="Aspose.Slides for SharePoint'e genel bakış" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -67,9 +67,9 @@ Dosyaların Üzerine Yaz
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides for SharePoint, Microsoft Office SharePoint Server ve Windows SharePoint Services ile çalışır." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Aspose.Slides for SharePoint, Microsoft Office SharePoint Server ve Windows SharePoint Services ile çalışır." >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for SharePoint en yaygın sunum [dosya formatlarını] destekler(https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description="Aspose.Slides for SharePoint en yaygın sunum [dosya formatlarını] destekler(https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -195,7 +195,7 @@ Görüntüler:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

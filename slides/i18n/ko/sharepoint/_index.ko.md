@@ -26,7 +26,7 @@ description: SharePoint PowerPoint는 SharePoint PPT, SharePoint 슬라이드쇼
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="SharePoint용 Aspose.Slides 개요" >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="SharePoint용 Aspose.Slides 개요" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -67,9 +67,9 @@ description: SharePoint PowerPoint는 SharePoint PPT, SharePoint 슬라이드쇼
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="Aspose.Slides for SharePoint는 Microsoft Office SharePoint Server 및 Windows SharePoint Services와 함께 작동합니다." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="Aspose.Slides for SharePoint는 Microsoft Office SharePoint Server 및 Windows SharePoint Services와 함께 작동합니다." >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description="SharePoint용 Aspose.Slides는 가장 일반적인 프레젠테이션 [파일 형식](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="SharePoint용 Aspose.Slides는 가장 일반적인 프레젠테이션 [파일 형식](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)을 지원합니다." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -195,7 +195,7 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

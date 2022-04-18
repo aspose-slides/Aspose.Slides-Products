@@ -22,7 +22,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport 將報告從 Jasper R
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="JasperReports 的 Aspose.Slides 概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="JasperReports 的 Aspose.Slides 概述。" >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -60,9 +60,9 @@ description: Aspose.Slides PowerPoint API for JaspreReport 將報告從 Jasper R
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="Aspose.Slides PowerPoint API 支持 J2SE、JasperReports 和 JasperServer。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="Aspose.Slides PowerPoint API 支持 J2SE、JasperReports 和 JasperServer。" >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -130,9 +130,9 @@ description: Aspose.Slides PowerPoint API for JaspreReport 將報告從 Jasper R
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for JasperReports 可以以 Microsoft PowerPoint [文件格式](https://docs.aspose.com/slides/jasperreports/supported-file-formats/) 導出報告。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for JasperReports 可以以 Microsoft PowerPoint [文件格式](https://docs.aspose.com/slides/jasperreports/supported-file-formats/) 導出報告。" >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -179,7 +179,7 @@ description: Aspose.Slides PowerPoint API for JaspreReport 將報告從 Jasper R
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

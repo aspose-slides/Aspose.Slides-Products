@@ -26,7 +26,7 @@ description: Aspose.Slides API para C++ é uma API C++ PPT PowerPoint para criar
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Num relance" description="Visão geral dos recursos da API Aspose.Slides for C++." >}}
+{{< blocks/products/pf/carousel-item h3="Num relance" description="Visão geral dos recursos da API Aspose.Slides for C++." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Gerenciar os estilos de linha da forma
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independência de plataforma" description="Aspose.Slides for C++ suporta aplicativos C++ desenvolvidos nas seguintes plataformas com [requisitos do sistema](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
+{{< blocks/products/pf/carousel-item h3="Independência de plataforma" description="Aspose.Slides for C++ suporta aplicativos C++ desenvolvidos nas seguintes plataformas com [requisitos do sistema](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ Gerenciar os estilos de linha da forma
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides for C++ API suporta [formatos PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/), bem como muitos formatos de conversão." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides for C++ API suporta [formatos PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/), bem como muitos formatos de conversão." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ Rede:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

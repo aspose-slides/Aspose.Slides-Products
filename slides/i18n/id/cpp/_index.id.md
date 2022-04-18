@@ -26,7 +26,7 @@ description: Aspose.Slides API untuk C++ adalah C++ PPT PowerPoint API untuk mem
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Aspose.Slides untuk gambaran umum fitur C++ API." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Aspose.Slides untuk gambaran umum fitur C++ API." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk C++ mendukung aplikasi C++ yang dikembangkan pada platform berikut dengan [persyaratan sistem](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk C++ mendukung aplikasi C++ yang dikembangkan pada platform berikut dengan [persyaratan sistem](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk C++ API mendukung [format PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/) serta banyak format konversi." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk C++ API mendukung [format PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/) serta banyak format konversi." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

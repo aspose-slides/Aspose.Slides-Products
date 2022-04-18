@@ -26,7 +26,7 @@ description: SharePoint PowerPoint to Aspose.Slides SharePoint do tworzenia i ko
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="W skrócie" description="Przegląd Aspose.Slides dla SharePoint" >}}
+{{< blocks/products/pf/carousel-item h3="W skrócie" description="Przegląd Aspose.Slides dla SharePoint" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -67,9 +67,9 @@ Zastąp pliki
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Niezależność od platformy" description="Aspose.Slides for SharePoint współpracuje z Microsoft Office SharePoint Server i Windows SharePoint Services." >}}
+{{< blocks/products/pf/carousel-item h3="Niezależność od platformy" description="Aspose.Slides for SharePoint współpracuje z Microsoft Office SharePoint Server i Windows SharePoint Services." >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for SharePoint obsługuje najpopularniejsze prezentacje [formaty plików](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for SharePoint obsługuje najpopularniejsze prezentacje [formaty plików](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -195,7 +195,7 @@ Obrazy:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

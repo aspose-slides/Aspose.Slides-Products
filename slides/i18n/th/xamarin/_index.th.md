@@ -29,7 +29,7 @@ description: Aspose.Slides สำหรับ Xamarin เพื่อสร้�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="สรุป" description="ภาพรวมความสามารถของ Xamarin PowerPoint API โดย Aspose.Slides" >}}
+{{< blocks/products/pf/carousel-item h3="สรุป" description="ภาพรวมความสามารถของ Xamarin PowerPoint API โดย Aspose.Slides" >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ description: Aspose.Slides สำหรับ Xamarin เพื่อสร้�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="Aspose.Slides สำหรับ Xamarin บน Android, iOS และ Windows" >}}
+{{< blocks/products/pf/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="Aspose.Slides สำหรับ Xamarin บน Android, iOS และ Windows" >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -143,9 +143,9 @@ description: Aspose.Slides สำหรับ Xamarin เพื่อสร้�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for Xamarin รองรับ [รูปแบบการนำเสนอ] ยอดนิยม(https://docs.aspose.com/display/slidesnet/Supported+File+Formats) และรูปแบบการส่งออกตามรายการด้านล่าง" >}}
+{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for Xamarin รองรับ [รูปแบบการนำเสนอ] ยอดนิยม(https://docs.aspose.com/display/slidesnet/Supported+File+Formats) และรูปแบบการส่งออกตามรายการด้านล่าง" >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -220,7 +220,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

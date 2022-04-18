@@ -26,7 +26,7 @@ description: API PowerPoint служб Reporting Services — это Aspose.Slid
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор Aspose.Slides для Reporting Services." >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор Aspose.Slides для Reporting Services." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ description: API PowerPoint служб Reporting Services — это Aspose.Slid
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Продукт поддерживает службы отчетов Microsoft SQL Server." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Продукт поддерживает службы отчетов Microsoft SQL Server." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ description: API PowerPoint служб Reporting Services — это Aspose.Slid
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Reporting Services поддерживает наиболее часто используемые [форматы файлов] презентаций (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Reporting Services поддерживает наиболее часто используемые [форматы файлов] презентаций (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

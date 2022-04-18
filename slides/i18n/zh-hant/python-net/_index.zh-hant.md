@@ -34,7 +34,7 @@ description: 用於處理 Microsoft PowerPoint 文件的 Python 庫。 Python PP
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="API 功能概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="API 功能概述。" >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -123,9 +123,9 @@ description: 用於處理 Microsoft PowerPoint 文件的 Python 庫。 Python PP
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="Python Presentation API 支持所有主要平台，包括以下平台。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="Python Presentation API 支持所有主要平台，包括以下平台。" >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -192,9 +192,9 @@ OpenSUSE
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for Python via .NET 支持流行的 [演示文稿格式](https://docs.aspose.com/slides/python-net/supported-file-formats/) 和這些導出格式。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for Python via .NET 支持流行的 [演示文稿格式](https://docs.aspose.com/slides/python-net/supported-file-formats/) 和這些導出格式。" >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -276,7 +276,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

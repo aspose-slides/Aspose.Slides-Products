@@ -26,7 +26,7 @@ description: Reporting Services PowerPoint API 是 Aspose.Slides for SQL PPT。�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="乍看上去" description="用於 Reporting Services 的 Aspose.Slides 概述。" >}}
+{{< blocks/products/pf/carousel-item h3="乍看上去" description="用於 Reporting Services 的 Aspose.Slides 概述。" >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ description: Reporting Services PowerPoint API 是 Aspose.Slides for SQL PPT。�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="平台獨立性" description="產品支持 Microsoft SQL Server Reporting Services。" >}}
+{{< blocks/products/pf/carousel-item h3="平台獨立性" description="產品支持 Microsoft SQL Server Reporting Services。" >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ description: Reporting Services PowerPoint API 是 Aspose.Slides for SQL PPT。�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="支持的文件格式" description="Aspose.Slides for Reporting Services 支持最常用的演示文稿[文件格式](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for Reporting Services 支持最常用的演示文稿[文件格式](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)。" >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

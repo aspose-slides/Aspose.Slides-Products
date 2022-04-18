@@ -24,7 +24,7 @@ description: Aspose.Slides to C# .NET PowerPoint API. Aspose Slides API, aby pro
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="W skrócie" description="Przegląd możliwości API." >}}
+{{< blocks/products/pf/carousel-item h3="W skrócie" description="Przegląd możliwości API." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ Zarządzaj stylami linii kształtu
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Niezależność od platformy" description="Aspose.Slides dla platformy .NET obsługuje platformę .NET Framework, .NET Core i Xamarin. Może być również używany z Mono i innymi platformami za pośrednictwem COM Interop." >}}
+{{< blocks/products/pf/carousel-item h3="Niezależność od platformy" description="Aspose.Slides dla platformy .NET obsługuje platformę .NET Framework, .NET Core i Xamarin. Może być również używany z Mono i innymi platformami za pośrednictwem COM Interop." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP, VBScript, Delphi, C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for .NET obsługuje popularne [formaty prezentacji](https://docs.aspose.com/slides/net/supported-file-formats/) i formaty eksportu wymienione poniżej." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for .NET obsługuje popularne [formaty prezentacji](https://docs.aspose.com/slides/net/supported-file-formats/) i formaty eksportu wymienione poniżej." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ Sieć:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

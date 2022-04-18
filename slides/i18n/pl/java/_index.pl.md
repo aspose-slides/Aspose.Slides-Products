@@ -26,7 +26,7 @@ description: Aspose.Slides for Java to Aspose Java PowerPoint API do tworzenia J
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="W skrócie" description="Aspose.Slides for Java API omówienie funkcji." >}}
+{{< blocks/products/pf/carousel-item h3="W skrócie" description="Aspose.Slides for Java API omówienie funkcji." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Zarządzaj stylami linii kształtu
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Niezależność od platformy" description="Aspose.Slides for Java API może być używany w dowolnym komputerze stacjonarnym opartym na języku Java, korporacyjnej aplikacji internetowej lub w dowolnym środowisku Linux i Unix." >}}
+{{< blocks/products/pf/carousel-item h3="Niezależność od platformy" description="Aspose.Slides for Java API może być używany w dowolnym komputerze stacjonarnym opartym na języku Java, korporacyjnej aplikacji internetowej lub w dowolnym środowisku Linux i Unix." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ Aplikacja pulpitu
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for Java API obsługuje następujące [prezentacje](https://docs.aspose.com/slides/java/supported-file-formats/) i formaty konwersji." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for Java API obsługuje następujące [prezentacje](https://docs.aspose.com/slides/java/supported-file-formats/) i formaty konwersji." >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ Sieć:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

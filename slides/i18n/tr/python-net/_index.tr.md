@@ -34,7 +34,7 @@ description: Microsoft PowerPoint dosyalarıyla çalışmak için Python kitapl�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Bir Bakışta" description="API özelliklerine genel bakış." >}}
+{{< blocks/products/pf/carousel-item h3="Bir Bakışta" description="API özelliklerine genel bakış." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -123,9 +123,9 @@ Shape'in Çizgi Stillerini Yönet
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Bağımsızlığı" description="Python Presentation API, aşağıdakiler dahil tüm büyük platformları destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Bağımsızlığı" description="Python Presentation API, aşağıdakiler dahil tüm büyük platformları destekler." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -192,9 +192,9 @@ ve diğerleri
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Desteklenen Dosya Formatları" description=".NET aracılığıyla Aspose.Slides for Python, popüler [sunu formatlarını](https://docs.aspose.com/slides/python-net/supported-file-formats/) ve bu dışa aktarma formatlarını destekler." >}}
+{{< blocks/products/pf/carousel-item h3="Desteklenen Dosya Formatları" description=".NET aracılığıyla Aspose.Slides for Python, popüler [sunu formatlarını](https://docs.aspose.com/slides/python-net/supported-file-formats/) ve bu dışa aktarma formatlarını destekler." >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -276,7 +276,7 @@ Ağ:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

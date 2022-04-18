@@ -24,7 +24,7 @@ description: Aspose.Slides — это C# .NET PowerPoint API. Aspose Slides API 
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор возможностей API." >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор возможностей API." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ description: Aspose.Slides — это C# .NET PowerPoint API. Aspose Slides API 
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Aspose.Slides для .NET поддерживает платформы .NET Framework, .NET Core и Xamarin. Кроме того, его можно использовать с Mono и другими платформами через COM Interop." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Aspose.Slides для .NET поддерживает платформы .NET Framework, .NET Core и Xamarin. Кроме того, его можно использовать с Mono и другими платформами через COM Interop." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP, VBScript, Delphi, C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для .NET поддерживает популярные [форматы презентаций] (https://docs.aspose.com/slides/net/supported-file-formats/) и форматы экспорта, перечисленные ниже." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для .NET поддерживает популярные [форматы презентаций] (https://docs.aspose.com/slides/net/supported-file-formats/) и форматы экспорта, перечисленные ниже." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

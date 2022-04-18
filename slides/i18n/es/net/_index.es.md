@@ -24,7 +24,7 @@ description: Aspose.Slides es una API de PowerPoint de C# .NET. Aspose Slides AP
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="de un vistazo" description="Una descripción general de las capacidades de la API." >}}
+{{< blocks/products/pf/carousel-item h3="de un vistazo" description="Una descripción general de las capacidades de la API." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -112,9 +112,9 @@ Administrar los estilos de línea de Shape
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides para .NET es compatible con la plataforma .NET Framework, .NET Core y Xamarin. Además, se puede usar con Mono y otras plataformas a través de COM Interop." >}}
+{{< blocks/products/pf/carousel-item h3="Independencia de la plataforma" description="Aspose.Slides para .NET es compatible con la plataforma .NET Framework, .NET Core y Xamarin. Además, se puede usar con Mono y otras plataformas a través de COM Interop." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -163,9 +163,9 @@ PHP, VBScript, Delphi, C++
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides para .NET admite los [formatos de presentación] populares (https://docs.aspose.com/slides/net/supported-file-formats/) y los formatos de exportación que se enumeran a continuación." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de archivo admitidos" description="Aspose.Slides para .NET admite los [formatos de presentación] populares (https://docs.aspose.com/slides/net/supported-file-formats/) y los formatos de exportación que se enumeran a continuación." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -240,7 +240,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

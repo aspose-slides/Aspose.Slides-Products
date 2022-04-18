@@ -26,7 +26,7 @@ description: Aspose.Slides for Java est une API Aspose Java PowerPoint pour la c
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="En bref" description="Vue d'ensemble des fonctionnalités de l'API Aspose.Slides pour Java." >}}
+{{< blocks/products/pf/carousel-item h3="En bref" description="Vue d'ensemble des fonctionnalités de l'API Aspose.Slides pour Java." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Gérer les styles de ligne de la forme
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Indépendance de la plate-forme" description="L'API Aspose.Slides pour Java peut être consommée dans n'importe quel ordinateur de bureau basé sur Java, application Web d'entreprise ou dans n'importe quel environnement Linux et Unix." >}}
+{{< blocks/products/pf/carousel-item h3="Indépendance de la plate-forme" description="L'API Aspose.Slides pour Java peut être consommée dans n'importe quel ordinateur de bureau basé sur Java, application Web d'entreprise ou dans n'importe quel environnement Linux et Unix." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ Application de bureau
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formats de fichiers pris en charge" description="L'API Aspose.Slides pour Java prend en charge les formats de [présentation](https://docs.aspose.com/slides/java/supported-file-formats/) et de conversion suivants." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="L'API Aspose.Slides pour Java prend en charge les formats de [présentation](https://docs.aspose.com/slides/java/supported-file-formats/) et de conversion suivants." >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ La toile:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

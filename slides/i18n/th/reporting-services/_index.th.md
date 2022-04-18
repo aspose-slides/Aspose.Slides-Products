@@ -26,7 +26,7 @@ description: บริการรายงาน PowerPoint API คือ Aspos
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="สรุป" description="ภาพรวมของ Aspose.Slides สำหรับ Reporting Services" >}}
+{{< blocks/products/pf/carousel-item h3="สรุป" description="ภาพรวมของ Aspose.Slides สำหรับ Reporting Services" >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -97,9 +97,9 @@ description: บริการรายงาน PowerPoint API คือ Aspos
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="ผลิตภัณฑ์รองรับ Microsoft SQL Server Reporting Services" >}}
+{{< blocks/products/pf/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="ผลิตภัณฑ์รองรับ Microsoft SQL Server Reporting Services" >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -149,9 +149,9 @@ description: บริการรายงาน PowerPoint API คือ Aspos
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for Reporting Services รองรับการนำเสนอที่ใช้บ่อยที่สุด [รูปแบบไฟล์](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)" >}}
+{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for Reporting Services รองรับการนำเสนอที่ใช้บ่อยที่สุด [รูปแบบไฟล์](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)" >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -214,7 +214,7 @@ XPS
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

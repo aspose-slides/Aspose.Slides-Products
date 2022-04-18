@@ -22,7 +22,7 @@ description: Aspose.Slides PowerPoint API는 Jasper Reports 및 JasperServer에�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="JasperReports용 Aspose.Slides 개요." >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="JasperReports용 Aspose.Slides 개요." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -60,9 +60,9 @@ description: Aspose.Slides PowerPoint API는 Jasper Reports 및 JasperServer에�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="Aspose.Slides PowerPoint API는 J2SE, JasperReports 및 JasperServer를 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="Aspose.Slides PowerPoint API는 J2SE, JasperReports 및 JasperServer를 지원합니다." >}}
 <div class="diagram1 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -130,9 +130,9 @@ description: Aspose.Slides PowerPoint API는 Jasper Reports 및 JasperServer에�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description="JasperReports용 Aspose.Slides는 보고서를 Microsoft PowerPoint[파일 형식](https://docs.aspose.com/slides/jasperreports/supported-file-formats/)로 내보낼 수 있습니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="JasperReports용 Aspose.Slides는 보고서를 Microsoft PowerPoint[파일 형식](https://docs.aspose.com/slides/jasperreports/supported-file-formats/)로 내보낼 수 있습니다." >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -179,7 +179,7 @@ description: Aspose.Slides PowerPoint API는 Jasper Reports 및 JasperServer에�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

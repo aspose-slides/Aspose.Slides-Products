@@ -26,7 +26,7 @@ description: Aspose.Slides for Java — это API Aspose Java PowerPoint для
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор функций Aspose.Slides for Java API." >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор функций Aspose.Slides for Java API." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ description: Aspose.Slides for Java — это API Aspose Java PowerPoint для
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Aspose.Slides for Java API можно использовать в любом рабочем столе на основе Java, корпоративном веб-приложении или в любой среде Linux и Unix." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Aspose.Slides for Java API можно использовать в любом рабочем столе на основе Java, корпоративном веб-приложении или в любой среде Linux и Unix." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ description: Aspose.Slides for Java — это API Aspose Java PowerPoint для
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Java API поддерживает следующие [презентации](https://docs.aspose.com/slides/java/supported-file-formats/) и форматы преобразования." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Java API поддерживает следующие [презентации](https://docs.aspose.com/slides/java/supported-file-formats/) и форматы преобразования." >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

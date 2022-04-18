@@ -33,7 +33,7 @@ description: Aspose.Slides .NET Core API를 사용하여 PowerPoint .NET Core �
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="Aspose.Slides의 .NET Core PowerPoint API 기능 개요." >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="Aspose.Slides의 .NET Core PowerPoint API 기능 개요." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -121,9 +121,9 @@ OleObject 관리
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="Windows, Linux 및 macOS용 .NET Core용 Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="Windows, Linux 및 macOS용 .NET Core용 Aspose.Slides." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -147,9 +147,9 @@ OleObject 관리
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description=".NET Core용 Aspose.Slides는 인기 있는 [프레젠테이션 형식](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) 및 아래 나열된 내보내기 형식을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description=".NET Core용 Aspose.Slides는 인기 있는 [프레젠테이션 형식](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) 및 아래 나열된 내보내기 형식을 지원합니다." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -224,7 +224,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

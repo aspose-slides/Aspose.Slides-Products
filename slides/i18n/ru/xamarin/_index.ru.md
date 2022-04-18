@@ -29,7 +29,7 @@ description: Aspose.Slides for Xamarin для создания приложен�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="С одного взгляда" description="Обзор возможностей Xamarin PowerPoint API от Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="С одного взгляда" description="Обзор возможностей Xamarin PowerPoint API от Aspose.Slides." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ description: Aspose.Slides for Xamarin для создания приложен�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Независимость от платформы" description="Aspose.Slides для Xamarin на Android, iOS и Windows." >}}
+{{< blocks/products/pf/carousel-item h3="Независимость от платформы" description="Aspose.Slides для Xamarin на Android, iOS и Windows." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -143,9 +143,9 @@ description: Aspose.Slides for Xamarin для создания приложен�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Xamarin поддерживает популярные [форматы презентаций] (https://docs.aspose.com/display/slidesnet/Supported+File+Formats) и форматы экспорта, перечисленные ниже." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Xamarin поддерживает популярные [форматы презентаций] (https://docs.aspose.com/display/slidesnet/Supported+File+Formats) и форматы экспорта, перечисленные ниже." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -220,7 +220,7 @@ SVG
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

@@ -26,7 +26,7 @@ description: SharePoint PowerPoint เป็น Aspose.Slides SharePoint เพ�
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="สรุป" description="ภาพรวมของ Aspose.Slides สำหรับ SharePoint" >}}
+{{< blocks/products/pf/carousel-item h3="สรุป" description="ภาพรวมของ Aspose.Slides สำหรับ SharePoint" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -67,9 +67,9 @@ description: SharePoint PowerPoint เป็น Aspose.Slides SharePoint เพ�
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="Aspose.Slides for SharePoint ทำงานร่วมกับ Microsoft Office SharePoint Server และ Windows SharePoint Services" >}}
+{{< blocks/products/pf/carousel-item h3="ความเป็นอิสระของแพลตฟอร์ม" description="Aspose.Slides for SharePoint ทำงานร่วมกับ Microsoft Office SharePoint Server และ Windows SharePoint Services" >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for SharePoint รองรับการนำเสนอทั่วไปส่วนใหญ่ [รูปแบบไฟล์](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)" >}}
+{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for SharePoint รองรับการนำเสนอทั่วไปส่วนใหญ่ [รูปแบบไฟล์](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)" >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -195,7 +195,7 @@ WSS 3.0
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

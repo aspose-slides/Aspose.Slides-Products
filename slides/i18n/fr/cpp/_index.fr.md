@@ -26,7 +26,7 @@ description: L'API Aspose.Slides pour C++ est une API C++ PPT PowerPoint pour cr
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="En bref" description="Vue d'ensemble des fonctionnalités de l'API Aspose.Slides pour C++." >}}
+{{< blocks/products/pf/carousel-item h3="En bref" description="Vue d'ensemble des fonctionnalités de l'API Aspose.Slides pour C++." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Gérer les styles de ligne de la forme
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Indépendance de la plate-forme" description="Aspose.Slides pour C++ prend en charge les applications C++ développées sur les plates-formes suivantes avec [configuration système requise](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
+{{< blocks/products/pf/carousel-item h3="Indépendance de la plate-forme" description="Aspose.Slides pour C++ prend en charge les applications C++ développées sur les plates-formes suivantes avec [configuration système requise](https://docs.aspose.com/slides/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -172,9 +172,9 @@ Gérer les styles de ligne de la forme
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Formats de fichiers pris en charge" description="L'API Aspose.Slides pour C++ prend en charge les [formats PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/) ainsi que de nombreux formats de conversion." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="L'API Aspose.Slides pour C++ prend en charge les [formats PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/) ainsi que de nombreux formats de conversion." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -258,7 +258,7 @@ La toile:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

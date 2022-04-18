@@ -34,7 +34,7 @@ description: Biblioteka Pythona do pracy z plikami Microsoft PowerPoint. Python 
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="W skrócie" description="Przegląd możliwości API." >}}
+{{< blocks/products/pf/carousel-item h3="W skrócie" description="Przegląd możliwości API." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -123,9 +123,9 @@ Zarządzaj stylami linii kształtu
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Niezależność od platformy" description="Python Presentation API obsługuje wszystkie główne platformy, w tym następujące." >}}
+{{< blocks/products/pf/carousel-item h3="Niezależność od platformy" description="Python Presentation API obsługuje wszystkie główne platformy, w tym następujące." >}}
 <div class="diagram1 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -192,9 +192,9 @@ i inni
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides dla Pythona przez .NET obsługuje popularne [formaty prezentacji] (https://docs.aspose.com/slides/python-net/supported-file-formats/) i te formaty eksportu." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides dla Pythona przez .NET obsługuje popularne [formaty prezentacji] (https://docs.aspose.com/slides/python-net/supported-file-formats/) i te formaty eksportu." >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -276,7 +276,7 @@ Sieć:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

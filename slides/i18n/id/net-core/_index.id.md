@@ -33,7 +33,7 @@ description: Aspose.Slides .NET Core API untuk membangun solusi PowerPoint .NET 
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Ikhtisar kemampuan .NET Core PowerPoint API oleh Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Ikhtisar kemampuan .NET Core PowerPoint API oleh Aspose.Slides." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -121,9 +121,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk .NET Core untuk Windows, Linux, dan macOS." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk .NET Core untuk Windows, Linux, dan macOS." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -147,9 +147,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk .NET Core mendukung [format presentasi](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) populer dan format ekspor yang tercantum di bawah." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk .NET Core mendukung [format presentasi](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) populer dan format ekspor yang tercantum di bawah." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -224,7 +224,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

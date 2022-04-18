@@ -26,7 +26,7 @@ description: Aspose.Slides for Java adalah Aspose Java PowerPoint API untuk pemb
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Sekilas" description="Ikhtisar fitur Aspose.Slides untuk Java API." >}}
+{{< blocks/products/pf/carousel-item h3="Sekilas" description="Ikhtisar fitur Aspose.Slides untuk Java API." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -126,9 +126,9 @@ Kelola Gaya Garis Bentuk
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk Java API dapat digunakan di desktop berbasis Java, aplikasi web perusahaan, atau di lingkungan Linux dan Unix apa pun." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Kemerdekaan" description="Aspose.Slides untuk Java API dapat digunakan di desktop berbasis Java, aplikasi web perusahaan, atau di lingkungan Linux dan Unix apa pun." >}}
 <div class="diagram1 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -169,9 +169,9 @@ Aplikasi Desktop
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="Format File yang Didukung" description="Aspose.Slides for Java API mendukung [presentasi](https://docs.aspose.com/slides/java/supported-file-formats/) dan format konversi berikut." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides for Java API mendukung [presentasi](https://docs.aspose.com/slides/java/supported-file-formats/) dan format konversi berikut." >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -246,7 +246,7 @@ Web:
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->

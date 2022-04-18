@@ -26,7 +26,7 @@ description: Android API 또는 Android PowerPoint API용 Aspose.Slides는 Andro
 <!--Diagrams Start-->
 {{< blocks/products/pf/i18n/carousel >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="한눈에" description="Android API용 Aspose.Slides 기능 개요." >}}
+{{< blocks/products/pf/carousel-item h3="한눈에" description="Android API용 Aspose.Slides 기능 개요." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -117,9 +117,9 @@ Ole 개체 지원
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="플랫폼 독립성" description="Android API용 Aspose.Slides는 다음과 같은 Android 개발 환경 및 배포 플랫폼을 다룹니다." >}}
+{{< blocks/products/pf/carousel-item h3="플랫폼 독립성" description="Android API용 Aspose.Slides는 다음과 같은 Android 개발 환경 및 배포 플랫폼을 다룹니다." >}}
 <div class="diagram1 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -157,9 +157,9 @@ Ole 개체 지원
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/i18n/carousel-item h3="지원되는 파일 형식" description="Android API용 Aspose.Slides는 기본 [PowerPoint 형식](https://docs.aspose.com/slides/java/supported-file-formats/) 및 다양한 변환 형식을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="Android API용 Aspose.Slides는 기본 [PowerPoint 형식](https://docs.aspose.com/slides/java/supported-file-formats/) 및 다양한 변환 형식을 지원합니다." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -225,7 +225,7 @@ HTML
  <!--/logo-->
 </div>
 
-{{< /blocks/products/pf/i18n/carousel-item >}}
+{{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->
