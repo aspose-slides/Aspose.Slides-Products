@@ -1,0 +1,81 @@
+---
+title: API PowerPoint .NET Java C++ Python Android
+weight: 10
+url: /fr/family
+description: API PowerPoint pour .NET, Java, C++, Python. Créer Écrire Modifier Rendre Imprimer PowerPoint PPT, PPTX, ODP. Exporter des diapositives dans SSRS et JasperReports
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint : .NET, Java, C++, Python" h2="API natives pour le développement multiplateforme. Générez, gérez et convertissez des présentations et des diapositives PowerPoint en .NET, Java, C++, Python, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/product-card-row title="Les API Aspose.Slides PowerPoint incluent" >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/" >}}
+API PowerPoint ciblant Windows Forms, ASP.NET, WPF, WCF ou tout type d'application basée sur .NET Framework 2.0 ou version ultérieure.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/java/" >}}
+API Java PowerPoint pour ordinateur de bureau, Web ou toute application basée sur Java SE ou EE.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/cpp/" >}}
+API PowerPoint pour manipuler et rendre des présentations et des diapositives PowerPoint dans les applications CPP.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
+API PowerPoint pour générer et manipuler des présentations avec des scripts Python.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Androïd via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
+API PowerPoint pour manipuler des présentations PowerPoint dans des applications mobiles Android.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/sharepoint/" >}}
+API PowerPoint pour convertir des présentations en PDF dans SharePoint.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Services de rapports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/reporting-services/" >}}
+API PowerPoint pour exporter des rapports RDL vers PowerPoint à partir de SQL Server Reporting Services.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/jasperreports/" >}}
+API PowerPoint pour exporter des rapports vers PowerPoint depuis JasperReports ou JasperServer.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/net-core/" >}}
+API PowerPoint pour créer des solutions multiplateformes .NET Core pour le traitement de présentations sous Windows, Linux ou macOS.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="XamarinName" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/xamarin/" >}}
+API PowerPoint pour créer des applications multiplateformes Xamarin et gérer des présentations sur Android, iOS ou Windows.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+{{< /blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/i18n/support-learning-resources >}}
+{{< blocks/products/pf/slr-tab tabTitle="Ressources d'apprentissage" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/" >}}
+{{< blocks/products/pf/slr-element name="Code source" href="https://github.com/aspose-slides?tab=repositories" >}}
+{{< blocks/products/pf/slr-element name="Références API" href="https://apireference.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="Vidéos didactiques" href="https://www.youtube.com/user/asposevideo" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Support produit" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Assistance gratuite" href="https://forum.aspose.com/c/slides" >}}
+{{< blocks/products/pf/slr-element name="Assistance payante" href="https://helpdesk.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
+{{< blocks/products/pf/slr-element name="Assistance commerciale par chat en direct" href="https://www.aspose.com/community/user/createuserquick.aspx?ReturnUrl=/products/slides" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Pourquoi la famille de produits Aspose.Slides ?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Liste des clients" href="https://company.aspose.com/customers" >}}
+{{< blocks/products/pf/slr-element name="Réussites" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< /blocks/products/pf/i18n/support-learning-resources >}}
+
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
