@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de POT a XPS Python. Utilice
 
 ¿Necesita convertir archivos POT a XPS mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir POT a formato XPS con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea XPS a partir de POT rápidamente. Pruebe la calidad de la conversión de POT a XPS directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POT a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea XPS a partir de POT rápidamente. Pruebe la calidad de la conversión de POT a XPS directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POT a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

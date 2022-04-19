@@ -16,7 +16,7 @@ description: Ejemplo de código para la conversión de PPTM a ODP Python. Utilic
 
 ¿Necesita convertir archivos PPTM a ODP mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPTM a formato ODP con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea rápidamente ODP a partir de PPTM. Pruebe la calidad de la conversión de PPTM a ODP directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTM a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea rápidamente ODP a partir de PPTM. Pruebe la calidad de la conversión de PPTM a ODP directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTM a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

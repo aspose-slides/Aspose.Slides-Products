@@ -159,7 +159,7 @@ description: Aspose.Slides для Android API или Android PowerPoint API дл
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для Android API поддерживает собственные [форматы PowerPoint] (https://docs.aspose.com/slides/java/supported-file-formats/) и многие форматы преобразования." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для Android API поддерживает собственные [форматы PowerPoint](https://docs.aspose.com/slides/java/supported-file-formats/) и многие форматы преобразования." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">

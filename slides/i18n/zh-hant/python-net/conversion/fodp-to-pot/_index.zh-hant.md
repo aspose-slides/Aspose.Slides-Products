@@ -16,7 +16,7 @@ description: FODP 到 POT Python 轉換的示例代碼。使用 PowerPoint Pytho
 
 需要以編程方式將 FODP 文件轉換為 POT？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) 任何開發人員只需幾行 Python 代碼即可將 FODP 轉換為 POT 格式。
 
-作為現代的演示處理 API，Aspose.Slides for Python 可以快速從 FODP 創建 POT。在您的 [瀏覽器] (https://products.aspose.app/slides/conversion) 中測試 FODP 到 POT 轉換的質量。 Aspose PowerPoint PPTX 庫允許您將 FODP 文件轉換為許多流行的格式。
+作為現代的演示處理 API，Aspose.Slides for Python 可以快速從 FODP 創建 POT。在您的 [瀏覽器](https://products.aspose.app/slides/conversion) 中測試 FODP 到 POT 轉換的質量。 Aspose PowerPoint PPTX 庫允許您將 FODP 文件轉換為許多流行的格式。
 
 您可以使用以下 pip 命令從 [PyPI](https://pypi.org/project/Aspose.Slides/) 安裝庫：
 

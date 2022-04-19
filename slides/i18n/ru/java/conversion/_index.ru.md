@@ -32,7 +32,7 @@ interConvert.save("output.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/feature-page-section  h2="Преобразование PowerPoint в PDF" %}}
 
-Преобразование PowerPoint в PDF является распространенным случаем из-за огромного обмена файлами PDF. Вместо ручного преобразования программисты могут автоматизировать его и сэкономить время на кучу презентаций PowerPoint в PDF. Библиотека презентаций предоставляет [класс PdfOptions] (https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions) для настройки определенных параметров, таких как установка уровня сжатия текста, уровня соответствия PDF, качества JPEG, определение поведения метафайлов, преобразование скрытых слайдов, выбор выбранных слайдов и создание заблокированных файлов PDF, защищенных паролем.
+Преобразование PowerPoint в PDF является распространенным случаем из-за огромного обмена файлами PDF. Вместо ручного преобразования программисты могут автоматизировать его и сэкономить время на кучу презентаций PowerPoint в PDF. Библиотека презентаций предоставляет [класс PdfOptions](https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions) для настройки определенных параметров, таких как установка уровня сжатия текста, уровня соответствия PDF, качества JPEG, определение поведения метафайлов, преобразование скрытых слайдов, выбор выбранных слайдов и создание заблокированных файлов PDF, защищенных паролем.
 
 {{% blocks/products/pf/feature-page-code h3="Код преобразования Java PowerPoint в PDF" %}}
 
@@ -82,7 +82,7 @@ powerpointopdf.save("java-powerpoint-to.pdf", SaveFormat.Pdf, slidetopdfOpt);
 
 {{% blocks/products/pf/feature-page-section  h2="Преобразование Microsoft PowerPoint в HTML" %}}
 
-Поскольку слайды PowerPoint не отображаются напрямую на веб-страницах, требуется преобразование. Программисты могут загружать файл с помощью класса Presentation, использовать [класс HtmlOptions] (https://apireference.aspose.com/slides/java/com.aspose.slides/HtmlOptions) для определенных настроек HTML и вызывать метод сохранения.
+Поскольку слайды PowerPoint не отображаются напрямую на веб-страницах, требуется преобразование. Программисты могут загружать файл с помощью класса Presentation, использовать [класс HtmlOptions](https://apireference.aspose.com/slides/java/com.aspose.slides/HtmlOptions) для определенных настроек HTML и вызывать метод сохранения.
 
 {{% blocks/products/pf/feature-page-code h3="Код Java для преобразования PowerPoint в HTML" %}}
 

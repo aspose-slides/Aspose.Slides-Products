@@ -16,7 +16,7 @@ description: Пример кода Java для блокировки файла O
  Чтобы защитить файл ODP, мы будем использовать
  [Aspose.Slides для Java](https://products.aspose.com/slides/java)
  API, который представляет собой многофункциональный, мощный и простой в использовании API шифрования для платформы Java. Вы можете скачать его последнюю версию прямо с
- [Maven] (https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Aspose.Слайды" offSpacer="true" %}}
@@ -82,7 +82,7 @@ description: Пример кода Java для блокировки файла O
 
 - Microsoft Windows или совместимая ОС со средой выполнения Java для приложений JSP/JSF и настольных приложений.
 - Получить последнюю версию Aspose.Slides для Java прямо из
- [Maven] (https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides).
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides).
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

@@ -174,7 +174,7 @@ description: Aspose.Slides API для C++ — это C++ PPT PowerPoint API дл
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for C++ API поддерживает [форматы PowerPoint] (https://docs.aspose.com/slides/cpp/supported-file-formats/), а также множество форматов преобразования." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for C++ API поддерживает [форматы PowerPoint](https://docs.aspose.com/slides/cpp/supported-file-formats/), а также множество форматов преобразования." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">

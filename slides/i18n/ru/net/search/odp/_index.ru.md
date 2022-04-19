@@ -16,7 +16,7 @@ description: Исходный код C# для поиска слов с шабл
  Для поиска файла ODP мы будем использовать
  [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API поиска презентаций PowerPoint для платформы C#. Открытым
- [NuGet] (https://www.nuget.org/packages/aspose.slides.net)
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, найдите Aspose.Slides и установите. Вы также можете использовать следующую команду из консоли диспетчера пакетов.
 
 {{% blocks/products/pf/agp/code-block title="Команда консоли диспетчера пакетов" offSpacer="true" %}}

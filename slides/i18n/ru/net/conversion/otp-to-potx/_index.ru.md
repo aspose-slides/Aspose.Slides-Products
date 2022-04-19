@@ -16,7 +16,7 @@ description: Пример кода для преобразования OTP в PO
  Чтобы преобразовать OTP в POTX, мы будем использовать
  [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для обработки и преобразования документов для платформы C#. Открытым
- [NuGet] (https://www.nuget.org/packages/aspose.slides.net)
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
  Aspose.Слайды
  и установить. Вы также можете использовать следующую команду из консоли диспетчера пакетов.

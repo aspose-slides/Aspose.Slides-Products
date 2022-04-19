@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ادغام فایل های ODP در C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for C++] (https://products.aspose.com/slides/cpp) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 هر دو فایل ODP را بارگیری کنید.

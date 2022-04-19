@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de PPT a JPG. Use 
 
 ¿Necesita convertir archivos PPT a JPG mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPT a formato JPG con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea JPG a partir de PPT rápidamente. Pruebe la calidad de la conversión de PPT a JPG directamente en su [navegador] (https://products.aspose.app/slides/conversion/ppt-to-jpg). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPT a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea JPG a partir de PPT rápidamente. Pruebe la calidad de la conversión de PPT a JPG directamente en su [navegador](https://products.aspose.app/slides/conversion/ppt-to-jpg). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPT a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

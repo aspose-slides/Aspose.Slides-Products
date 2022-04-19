@@ -232,7 +232,7 @@ pres.save("AsposeChart.ppt",SaveFormat.Ppt);
     {{% blocks/products/pf/agp/content h2="À propos de l'API Aspose.Slides pour Java" %}}
 
  Générez des graphiques de documents PPT dès maintenant en visitant notre
- [Site Web des démonstrations en direct] (https://products.aspose.app/slides/chart)
+ [Site Web des démonstrations en direct](https://products.aspose.app/slides/chart)
  . La démo en direct présente les avantages suivants
 
 

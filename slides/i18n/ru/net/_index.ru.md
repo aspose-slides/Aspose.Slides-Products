@@ -165,7 +165,7 @@ PHP, VBScript, Delphi, C++
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для .NET поддерживает популярные [форматы презентаций] (https://docs.aspose.com/slides/net/supported-file-formats/) и форматы экспорта, перечисленные ниже." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для .NET поддерживает популярные [форматы презентаций](https://docs.aspose.com/slides/net/supported-file-formats/) и форматы экспорта, перечисленные ниже." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

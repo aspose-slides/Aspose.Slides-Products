@@ -10,7 +10,7 @@ description: API de Python para convertir PPT a PDF. Convierte presentaciones a 
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) es una potente biblioteca de clases local que se utiliza para procesar y trabajar con presentaciones. Es fácil para los desarrolladores convertir PowerPoint a PDF con rapidez y precisión. Obtenga los resultados en poco tiempo para automatizar los procesos comerciales. Estamos discutiendo aquí algunos casos para leer o cargar cualquier entrada [formatos de PowerPoint compatibles] (https://docs.aspose.com/slides/python-net/supported-file-formats/) y escribir o guardar en cualquier formato de salida compatible. . 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) es una potente biblioteca de clases local que se utiliza para procesar y trabajar con presentaciones. Es fácil para los desarrolladores convertir PowerPoint a PDF con rapidez y precisión. Obtenga los resultados en poco tiempo para automatizar los procesos comerciales. Estamos discutiendo aquí algunos casos para leer o cargar cualquier entrada [formatos de PowerPoint compatibles](https://docs.aspose.com/slides/python-net/supported-file-formats/) y escribir o guardar en cualquier formato de salida compatible. . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
@@ -41,7 +41,7 @@ description: API de Python para convertir PPT a PDF. Convierte presentaciones a 
 
 {{% blocks/products/pf/feature-page-section  h2="Convierta PPT a PDF con opciones personalizadas en Python" %}}
 
-Para convertir diapositivas de PowerPoint a PDF con precisión, los programadores pueden cargar el documento usando la clase "Presentación" y usar [clase PdfOptions] (https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export /pdfoptions/) para todas las opciones específicas y personalizadas, como el nivel de compresión de texto, la calidad de Jpeg, el comportamiento de los metarchivos, la conversión de diapositivas ocultas, así como la selección de diapositivas específicas y más. Incluso hay una opción para proteger el archivo PDF convertido con contraseña.
+Para convertir diapositivas de PowerPoint a PDF con precisión, los programadores pueden cargar el documento usando la clase "Presentación" y usar [clase PdfOptions](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export /pdfoptions/) para todas las opciones específicas y personalizadas, como el nivel de compresión de texto, la calidad de Jpeg, el comportamiento de los metarchivos, la conversión de diapositivas ocultas, así como la selección de diapositivas específicas y más. Incluso hay una opción para proteger el archivo PDF convertido con contraseña.
 
 {{% blocks/products/pf/feature-page-code h3="Python Conversión de PowerPoint a PDF con configuraciones personalizadas" %}}
 

@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de PPSX a PPSM. Ut
 
 ¿Necesita convertir archivos PPSX a PPSM mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir el formato PPSX a PPSM con solo unas pocas líneas de código Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPSM a partir de PPSX rápidamente. Pruebe la calidad de la conversión de PPSX a PPSM directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPSX a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPSM a partir de PPSX rápidamente. Pruebe la calidad de la conversión de PPSX a PPSM directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPSX a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

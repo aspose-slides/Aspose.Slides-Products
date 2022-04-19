@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de PPTM a TIFF. Ut
 
 ¿Necesita convertir archivos PPTM a TIFF mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPTM a formato TIFF con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea TIFF a partir de PPTM rápidamente. Pruebe la calidad de la conversión de PPTM a TIFF directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTM a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea TIFF a partir de PPTM rápidamente. Pruebe la calidad de la conversión de PPTM a TIFF directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTM a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

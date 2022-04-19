@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de PPTX a PDF. Uti
 
 ¿Necesita convertir archivos PPTX a PDF mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPTX a formato PDF con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea PDF a partir de PPTX rápidamente. Pruebe la calidad de la conversión de PPTX a PDF directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTX a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea PDF a partir de PPTX rápidamente. Pruebe la calidad de la conversión de PPTX a PDF directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTX a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

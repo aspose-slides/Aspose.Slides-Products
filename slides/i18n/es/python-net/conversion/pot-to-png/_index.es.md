@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de POT a PNG. Use 
 
 ¿Necesita convertir archivos POT a PNG mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir POT a formato PNG con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PNG a partir de POT rápidamente. Pruebe la calidad de la conversión de POT a PNG directamente en su [navegador] (https://products.aspose.app/slides/conversion/ppt-to-png). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POT a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PNG a partir de POT rápidamente. Pruebe la calidad de la conversión de POT a PNG directamente en su [navegador](https://products.aspose.app/slides/conversion/ppt-to-png). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POT a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

@@ -10,12 +10,12 @@ description: Python API برای تبدیل PPT به PDF. ارائه ها را �
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) یک کتابخانه قدرتمند کلاس داخلی است که برای پردازش و کار با ارائه ها استفاده می شود. تبدیل پاورپوینت به PDF با سرعت و دقت برای توسعه دهندگان آسان است. برای خودکارسازی فرآیندهای کسب و کار در کمترین زمان ممکن نتایج را دریافت کنید. ما در اینجا چند مورد برای خواندن یا بارگیری هر ورودی [فرمت‌های پاورپوینت پشتیبانی شده] (https://docs.aspose.com/slides/python-net/supported-file-formats/) و نوشتن یا ذخیره در هر فرمت خروجی پشتیبانی شده مورد بحث قرار می‌دهیم. . 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) یک کتابخانه قدرتمند کلاس داخلی است که برای پردازش و کار با ارائه ها استفاده می شود. تبدیل پاورپوینت به PDF با سرعت و دقت برای توسعه دهندگان آسان است. برای خودکارسازی فرآیندهای کسب و کار در کمترین زمان ممکن نتایج را دریافت کنید. ما در اینجا چند مورد برای خواندن یا بارگیری هر ورودی [فرمت‌های پاورپوینت پشتیبانی شده](https://docs.aspose.com/slides/python-net/supported-file-formats/) و نوشتن یا ذخیره در هر فرمت خروجی پشتیبانی شده مورد بحث قرار می‌دهیم. . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="تبدیل پاورپوینت به پی دی اف در پایتون" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) به شما امکان می دهد فایل ها را با فرمت های PowerPoint PPT، PPTX و OpenOffice ODP به PDF تبدیل کنید. برای تبدیل یک ارائه به PDF، کافی است نام فایل و فرمت ذخیره را در [Presentation.save] (https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) ارسال کنید. روش. کلاس [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) [save](https://docs.aspose.com/slides را نشان می دهد روش /python-net/api-reference/aspose.slides/presentation/) که می تواند برای تبدیل کل ارائه PPT، PPTX یا ODP به یک سند PDF فراخوانی شود.
+[Aspose.Slides](https://products.aspose.com/slides/python-net/) به شما امکان می دهد فایل ها را با فرمت های PowerPoint PPT، PPTX و OpenOffice ODP به PDF تبدیل کنید. برای تبدیل یک ارائه به PDF، کافی است نام فایل و فرمت ذخیره را در [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) ارسال کنید. روش. کلاس [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) [save](https://docs.aspose.com/slides را نشان می دهد روش /python-net/api-reference/aspose.slides/presentation/) که می تواند برای تبدیل کل ارائه PPT، PPTX یا ODP به یک سند PDF فراخوانی شود.
 
 {{% blocks/products/pf/feature-page-code h3="تبدیل پاورپوینت پایتون به پی دی اف" %}}
 
@@ -27,8 +27,8 @@ description: Python API برای تبدیل PPT به PDF. ارائه ها را �
 
 {{% blocks/products/pf/feature-page-section  h2="تبدیل PDF به PPT در پایتون" %}}
 [Aspose.Slides](https://products.aspose.com/slides/python-net/) به شما امکان می دهد ارائه ها را از فایل های PDF وارد کنید. در اصل، شما می توانید یک PDF را به یک ارائه پاورپوینت تبدیل کنید. برای تبدیل PDF به پاورپوینت مراحل زیر را طی کنید:
-- یک شی از کلاس [Presentation] (https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) را نمونه‌سازی کنید.
-- با روش [add_from_pdf] (https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) تماس بگیرید و فایل PDF را ارسال کنید.
+- یک شی از کلاس [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) را نمونه‌سازی کنید.
+- با روش [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) تماس بگیرید و فایل PDF را ارسال کنید.
 - از روش [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) برای ذخیره فایل در قالب پاورپوینت استفاده کنید.
 
 {{% blocks/products/pf/feature-page-code h3="تبدیل PDF به پاورپوینت پایتون" %}}
@@ -41,7 +41,7 @@ description: Python API برای تبدیل PPT به PDF. ارائه ها را �
 
 {{% blocks/products/pf/feature-page-section  h2="PPT را با گزینه های سفارشی در پایتون به PDF تبدیل کنید" %}}
 
-برای تبدیل دقیق اسلایدهای پاورپوینت به PDF، برنامه نویسان می توانند سند را با استفاده از کلاس «Presentation» بارگذاری کنند و از [کلاس PdfOptions] (https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export) استفاده کنند. /pdfoptions/) برای همه گزینه های خاص و سفارشی مانند سطح فشرده سازی متن، کیفیت Jpeg، رفتار متافایل ها، تبدیل اسلایدهای مخفی و همچنین انتخاب اسلایدهای خاص و موارد دیگر. حتی گزینه ای برای محافظت از فایل PDF تبدیل شده با رمز عبور وجود دارد.
+برای تبدیل دقیق اسلایدهای پاورپوینت به PDF، برنامه نویسان می توانند سند را با استفاده از کلاس «Presentation» بارگذاری کنند و از [کلاس PdfOptions](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export) استفاده کنند. /pdfoptions/) برای همه گزینه های خاص و سفارشی مانند سطح فشرده سازی متن، کیفیت Jpeg، رفتار متافایل ها، تبدیل اسلایدهای مخفی و همچنین انتخاب اسلایدهای خاص و موارد دیگر. حتی گزینه ای برای محافظت از فایل PDF تبدیل شده با رمز عبور وجود دارد.
 
 {{% blocks/products/pf/feature-page-code h3="تبدیل پاورپوینت پایتون به پی دی اف با تنظیمات سفارشی" %}}
 

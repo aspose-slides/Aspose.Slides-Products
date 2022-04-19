@@ -9,7 +9,7 @@ description: Konwertuj slajdy programu Microsoft PowerPoint na różne pliki, w 
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-Deweloperzy mogą łatwo i szybko konwertować prezentacje Microsoft<sup>®</sup> PowerPoint. Uzyskaj wyniki w krótkim czasie, aby zautomatyzować procesy biznesowe. Omawiamy tutaj kilka przypadków, w których można odczytać lub załadować dowolne dane wejściowe [obsługiwane formaty PowerPoint] (https://docs.aspose.com/slides/net/supported-file-formats/) oraz zapisać lub zapisać w dowolnym obsługiwanym formacie wyjściowym. 
+Deweloperzy mogą łatwo i szybko konwertować prezentacje Microsoft<sup>®</sup> PowerPoint. Uzyskaj wyniki w krótkim czasie, aby zautomatyzować procesy biznesowe. Omawiamy tutaj kilka przypadków, w których można odczytać lub załadować dowolne dane wejściowe [obsługiwane formaty PowerPoint](https://docs.aspose.com/slides/net/supported-file-formats/) oraz zapisać lub zapisać w dowolnym obsługiwanym formacie wyjściowym. 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 

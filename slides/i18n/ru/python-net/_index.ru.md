@@ -194,7 +194,7 @@ CentOS
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для Python через .NET поддерживает популярные [форматы презентаций] (https://docs.aspose.com/slides/python-net/supported-file-formats/) и эти форматы экспорта." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides для Python через .NET поддерживает популярные [форматы презентаций](https://docs.aspose.com/slides/python-net/supported-file-formats/) и эти форматы экспорта." >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">

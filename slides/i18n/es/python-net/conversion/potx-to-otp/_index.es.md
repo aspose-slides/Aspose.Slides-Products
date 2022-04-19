@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de POTX a OTP Python. Use la
 
 ¿Necesita convertir archivos POTX a OTP mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir POTX a formato OTP con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea rápidamente OTP a partir de POTX. Pruebe la calidad de la conversión de POTX a OTP directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POTX a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea rápidamente OTP a partir de POTX. Pruebe la calidad de la conversión de POTX a OTP directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POTX a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

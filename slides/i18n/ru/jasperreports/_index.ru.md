@@ -132,7 +132,7 @@ description: Aspose.Slides PowerPoint API для JaspreReport для экспо�
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for JasperReports может экспортировать отчеты в Microsoft PowerPoint [форматы файлов] (https://docs.aspose.com/slides/jasperreports/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for JasperReports может экспортировать отчеты в Microsoft PowerPoint [форматы файлов](https://docs.aspose.com/slides/jasperreports/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">

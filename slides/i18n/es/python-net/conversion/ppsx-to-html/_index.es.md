@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de PPSX a HTML Python. Use l
 
 ¿Necesita convertir archivos PPSX a HTML mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPSX a formato HTML con solo unas pocas líneas de código Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea HTML a partir de PPSX rápidamente. Pruebe la calidad de la conversión de PPSX a HTML directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPSX a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea HTML a partir de PPSX rápidamente. Pruebe la calidad de la conversión de PPSX a HTML directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPSX a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

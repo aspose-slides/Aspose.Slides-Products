@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de POTM a BMP Python. Utilic
 
 ¿Necesita convertir archivos POTM a BMP mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir POTM a formato BMP con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea BMP a partir de POTM rápidamente. Pruebe la calidad de la conversión de POTM a BMP directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POTM a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea BMP a partir de POTM rápidamente. Pruebe la calidad de la conversión de POTM a BMP directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POTM a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

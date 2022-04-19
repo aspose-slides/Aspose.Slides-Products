@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de POTX a XPS Python. Utilic
 
 ¿Necesita convertir archivos POTX a XPS mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir el formato POTX a XPS con solo unas pocas líneas de código Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea XPS a partir de POTX rápidamente. Pruebe la calidad de la conversión de POTX a XPS directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POTX a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea XPS a partir de POTX rápidamente. Pruebe la calidad de la conversión de POTX a XPS directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POTX a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

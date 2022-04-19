@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de FODP a PPTM Python. Utili
 
 ¿Necesita convertir archivos FODP a PPTM mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir FODP a formato PPTM con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPTM a partir de FODP rápidamente. Pruebe la calidad de la conversión de FODP a PPTM directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos FODP a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPTM a partir de FODP rápidamente. Pruebe la calidad de la conversión de FODP a PPTM directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos FODP a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

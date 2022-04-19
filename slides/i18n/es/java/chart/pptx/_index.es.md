@@ -232,7 +232,7 @@ pres.save("AsposeChart.pptx",SaveFormat.Pptx);
     {{% blocks/products/pf/agp/content h2="Acerca de Aspose.Slides para la API de Java" %}}
 
  Genere gráficos de documentos PPTX ahora mismo visitando nuestro
- [Sitio web de demostraciones en vivo] (https://products.aspose.app/slides/chart)
+ [Sitio web de demostraciones en vivo](https://products.aspose.app/slides/chart)
  . La demostración en vivo tiene los siguientes beneficios
 
 

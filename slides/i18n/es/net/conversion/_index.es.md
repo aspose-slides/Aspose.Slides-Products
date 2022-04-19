@@ -9,7 +9,7 @@ description: Convierta diapositivas de Microsoft PowerPoint a diferentes archivo
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-Es fácil para los desarrolladores convertir presentaciones de Microsoft<sup>®</sup> PowerPoint con velocidad y precisión. Obtenga los resultados en poco tiempo para automatizar los procesos comerciales. Estamos discutiendo aquí algunos casos para leer o cargar cualquier entrada [formatos de PowerPoint compatibles] (https://docs.aspose.com/slides/net/supported-file-formats/) y escribir o guardar en cualquier formato de salida compatible. 
+Es fácil para los desarrolladores convertir presentaciones de Microsoft<sup>®</sup> PowerPoint con velocidad y precisión. Obtenga los resultados en poco tiempo para automatizar los procesos comerciales. Estamos discutiendo aquí algunos casos para leer o cargar cualquier entrada [formatos de PowerPoint compatibles](https://docs.aspose.com/slides/net/supported-file-formats/) y escribir o guardar en cualquier formato de salida compatible. 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
@@ -69,7 +69,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 
 
 {{% blocks/products/pf/feature-page-section  h2="Conversión de Microsoft PowerPoint a HTML" %}}
-Siempre que sea necesario incrustar presentaciones en páginas web, será necesario convertir las diapositivas a HTML. La API proporciona [clase HtmlOptions] (https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), utilícela después de cargar los archivos para configuraciones especiales como diapositivas ocultas, ya que de forma predeterminada, estas no incluirse durante el proceso de conversión. Pase las opciones finalizadas al método Guardar para la conversión.
+Siempre que sea necesario incrustar presentaciones en páginas web, será necesario convertir las diapositivas a HTML. La API proporciona [clase HtmlOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), utilícela después de cargar los archivos para configuraciones especiales como diapositivas ocultas, ya que de forma predeterminada, estas no incluirse durante el proceso de conversión. Pase las opciones finalizadas al método Guardar para la conversión.
 {{% blocks/products/pf/feature-page-code h3="Código C# para la conversión de PowerPoint a HTML" %}}
 
 ```cs

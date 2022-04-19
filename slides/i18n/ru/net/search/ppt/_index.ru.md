@@ -16,7 +16,7 @@ description: Исходный код C# для поиска слов с шабл
  Для поиска файла PPT мы будем использовать
  [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API поиска документов Microsoft PowerPoint для платформы C#. Открытым
- [NuGet] (https://www.nuget.org/packages/aspose.slides.net)
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
  Aspose.Слайды
  и установить. Вы также можете использовать следующую команду из консоли диспетчера пакетов.

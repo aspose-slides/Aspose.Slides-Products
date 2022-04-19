@@ -10,7 +10,7 @@ description: Python API do konwersji PPT na PDF. Konwertuj prezentacje do JPG, P
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) to potężna lokalna biblioteka klas używana do przetwarzania i pracy z prezentacjami. Deweloperzy mogą łatwo i szybko przekonwertować PowerPoint na PDF. Uzyskaj wyniki w krótkim czasie, aby zautomatyzować procesy biznesowe. Omawiamy tutaj kilka przypadków, w których można odczytać lub załadować dowolne dane wejściowe [obsługiwane formaty PowerPoint] (https://docs.aspose.com/slides/python-net/supported-file-formats/) oraz zapisać lub zapisać w dowolnym obsługiwanym formacie wyjściowym . 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) to potężna lokalna biblioteka klas używana do przetwarzania i pracy z prezentacjami. Deweloperzy mogą łatwo i szybko przekonwertować PowerPoint na PDF. Uzyskaj wyniki w krótkim czasie, aby zautomatyzować procesy biznesowe. Omawiamy tutaj kilka przypadków, w których można odczytać lub załadować dowolne dane wejściowe [obsługiwane formaty PowerPoint](https://docs.aspose.com/slides/python-net/supported-file-formats/) oraz zapisać lub zapisać w dowolnym obsługiwanym formacie wyjściowym . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 

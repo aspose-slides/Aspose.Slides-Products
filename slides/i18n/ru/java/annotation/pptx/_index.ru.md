@@ -16,7 +16,7 @@ description: Пример кода Java для удаления аннотаци
  Чтобы аннотировать файл PPTX, мы будем использовать
  [Aspose.Slides для Java](https://products.aspose.com/slides/java)
  API, который представляет собой многофункциональный, мощный и простой в использовании API аннотаций для платформы Java. Вы можете скачать его последнюю версию прямо с
- [Maven] (https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Репозиторий" offSpacer="true" %}}

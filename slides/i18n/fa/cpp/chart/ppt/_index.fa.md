@@ -199,7 +199,7 @@ pres->Save(outputFilePath, Aspose::Slides::Export::SaveFormat::Ppt);
     {{% blocks/products/pf/agp/content h2="درباره Aspose.Slides for C++ API" %}}
 
  اکنون با مراجعه به ما، نمودارهای اسناد PPT را ایجاد کنید
- [وب سایت نمایش زنده] (https://products.aspose.app/slides/chart)
+ [وب سایت نمایش زنده](https://products.aspose.app/slides/chart)
  . نسخه ی نمایشی زنده دارای مزایای زیر است
 
 

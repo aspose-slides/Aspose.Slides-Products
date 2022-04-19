@@ -171,7 +171,7 @@ description: Aspose.Slides สำหรับ Java คือ Aspose Java PowerPo
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides สำหรับ Java API รองรับ [การนำเสนอ] (https://docs.aspose.com/slides/java/supported-file-formats/) และรูปแบบการแปลงต่อไปนี้" >}}
+{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides สำหรับ Java API รองรับ [การนำเสนอ](https://docs.aspose.com/slides/java/supported-file-formats/) และรูปแบบการแปลงต่อไปนี้" >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -16,7 +16,7 @@ description: Ejemplo de código para la conversión de Python de PPTM a PPTX. Ut
 
 ¿Necesita convertir archivos PPTM a PPTX mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir el formato PPTM a PPTX con solo unas pocas líneas de código Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPTX a partir de PPTM rápidamente. Pruebe la calidad de la conversión de PPTM a PPTX directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTM a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPTX a partir de PPTM rápidamente. Pruebe la calidad de la conversión de PPTM a PPTX directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPTM a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

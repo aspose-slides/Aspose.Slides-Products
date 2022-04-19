@@ -16,7 +16,7 @@ description: Пример кода для преобразования POTM в P
 
 Нужно программно преобразовать файлы POTM в POT? С помощью [*Aspose.Slides for Python через .NET*](https://products.aspose.com/slides/python-net/) любой разработчик может преобразовать POTM в формат POT всего несколькими строками кода Python.
 
-Как современный API обработки презентаций, Aspose.Slides для Python быстро создает POT из POTM. Проверьте качество преобразования POTM в POT прямо в вашем [браузере] (https://products.aspose.app/slides/conversion). Библиотека Aspose PowerPoint PPTX позволяет конвертировать файлы POTM во многие популярные форматы.
+Как современный API обработки презентаций, Aspose.Slides для Python быстро создает POT из POTM. Проверьте качество преобразования POTM в POT прямо в вашем [браузере](https://products.aspose.app/slides/conversion). Библиотека Aspose PowerPoint PPTX позволяет конвертировать файлы POTM во многие популярные форматы.
 
 Вы можете установить библиотеку из [PyPI](https://pypi.org/project/Aspose.Slides/), используя следующую команду pip:
 
@@ -61,7 +61,7 @@ description: Пример кода для преобразования POTM в P
 
 {{% /blocks/products/pf/agp/text %}}
 
-- ОС на базе Microsoft Windows или Linux (см. [подробнее] (https://docs.aspose.com/slides/python-net/system-requirements/)).
+- ОС на базе Microsoft Windows или Linux (см. [подробнее](https://docs.aspose.com/slides/python-net/system-requirements/)).
 - Python 3.5 или новее
 - Aspose.Slides for Python упоминается в вашем проекте.
 

@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de ODP a PPSM. Uti
 
 ¿Necesita convertir archivos ODP a PPSM mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir ODP a formato PPSM con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPSM a partir de ODP rápidamente. Pruebe la calidad de la conversión de ODP a PPSM directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos ODP a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPSM a partir de ODP rápidamente. Pruebe la calidad de la conversión de ODP a PPSM directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos ODP a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

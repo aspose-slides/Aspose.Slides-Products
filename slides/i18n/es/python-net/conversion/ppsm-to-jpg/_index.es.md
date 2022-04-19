@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de PPSM a JPG. Uti
 
 ¿Necesita convertir archivos PPSM a JPG mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPSM a formato JPG con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea JPG a partir de PPSM rápidamente. Pruebe la calidad de la conversión de PPSM a JPG directamente en su [navegador] (https://products.aspose.app/slides/conversion/ppt-to-jpg). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPSM a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea JPG a partir de PPSM rápidamente. Pruebe la calidad de la conversión de PPSM a JPG directamente en su [navegador](https://products.aspose.app/slides/conversion/ppt-to-jpg). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPSM a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

@@ -194,7 +194,7 @@ i inni
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides dla Pythona przez .NET obsługuje popularne [formaty prezentacji] (https://docs.aspose.com/slides/python-net/supported-file-formats/) i te formaty eksportu." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides dla Pythona przez .NET obsługuje popularne [formaty prezentacji](https://docs.aspose.com/slides/python-net/supported-file-formats/) i te formaty eksportu." >}}
 <div class="diagram1 d2 d1-python">
  <div class="d1-row">
   <div class="d1-col d1-left">

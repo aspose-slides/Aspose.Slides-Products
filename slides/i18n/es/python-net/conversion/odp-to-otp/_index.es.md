@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de ODP a OTP Python. Use la 
 
 ¿Necesita convertir archivos ODP a OTP mediante programación? Utilizando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir el formato ODP a OTP con solo unas pocas líneas de código Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea rápidamente OTP a partir de ODP. Pruebe la calidad de la conversión de ODP a OTP directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos ODP a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea rápidamente OTP a partir de ODP. Pruebe la calidad de la conversión de ODP a OTP directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos ODP a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

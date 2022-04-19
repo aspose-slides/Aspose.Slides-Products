@@ -9,7 +9,7 @@ description: Convertissez les diapositives Microsoft PowerPoint en différents f
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-Il est facile pour les développeurs de convertir des présentations PowerPoint Microsoft<sup>®</sup> avec rapidité et précision. Obtenez les résultats en un rien de temps pour automatiser les processus métier. Nous discutons ici de quelques cas pour lire ou charger n'importe quelle entrée [formats PowerPoint pris en charge] (https://docs.aspose.com/slides/net/supported-file-formats/) et écrire ou enregistrer dans n'importe quel format de sortie pris en charge. 
+Il est facile pour les développeurs de convertir des présentations PowerPoint Microsoft<sup>®</sup> avec rapidité et précision. Obtenez les résultats en un rien de temps pour automatiser les processus métier. Nous discutons ici de quelques cas pour lire ou charger n'importe quelle entrée [formats PowerPoint pris en charge](https://docs.aspose.com/slides/net/supported-file-formats/) et écrire ou enregistrer dans n'importe quel format de sortie pris en charge. 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
@@ -30,7 +30,7 @@ pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/feature-page-section  h2="Conversion C# PowerPoint en PDF" %}}
 
-Pour convertir avec précision les diapositives PowerPoint en PDF, les programmeurs peuvent charger le document à l'aide de la classe Presentation et utiliser [classe PdfOptions] (https://apireference.aspose.com/slides/net/aspose.slides.export/pdfoptions) pour toutes les options spécifiques et personnalisées. des options telles que le niveau de compression du texte, la qualité Jpeg, le comportement des métafichiers, la conversion de diapositives masquées ainsi que la sélection de diapositives spécifiques, etc. Même il existe une option pour protéger le fichier PDF converti avec un mot de passe.
+Pour convertir avec précision les diapositives PowerPoint en PDF, les programmeurs peuvent charger le document à l'aide de la classe Presentation et utiliser [classe PdfOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/pdfoptions) pour toutes les options spécifiques et personnalisées. des options telles que le niveau de compression du texte, la qualité Jpeg, le comportement des métafichiers, la conversion de diapositives masquées ainsi que la sélection de diapositives spécifiques, etc. Même il existe une option pour protéger le fichier PDF converti avec un mot de passe.
 {{% blocks/products/pf/feature-page-code h3="Code de convertisseur C# PowerPoint en PDF" %}}
 
 ```cs
@@ -69,7 +69,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 
 
 {{% blocks/products/pf/feature-page-section  h2="Conversion Microsoft PowerPoint en HTML" %}}
-Chaque fois qu'il est nécessaire d'intégrer des présentations dans des pages Web, il est nécessaire de convertir les diapositives en HTML. L'API fournit [classe HtmlOptions] (https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), utilisez-la après avoir chargé les fichiers pour des paramètres spéciaux comme les diapositives masquées, car par défaut, celles-ci ne seront pas être inclus lors du processus de conversion. Passez les options finalisées à la méthode Save pour la conversion.
+Chaque fois qu'il est nécessaire d'intégrer des présentations dans des pages Web, il est nécessaire de convertir les diapositives en HTML. L'API fournit [classe HtmlOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), utilisez-la après avoir chargé les fichiers pour des paramètres spéciaux comme les diapositives masquées, car par défaut, celles-ci ne seront pas être inclus lors du processus de conversion. Passez les options finalisées à la méthode Save pour la conversion.
 {{% blocks/products/pf/feature-page-code h3="Code C# pour la conversion de PowerPoint en HTML" %}}
 
 ```cs

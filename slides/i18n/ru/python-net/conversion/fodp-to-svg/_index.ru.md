@@ -61,7 +61,7 @@ description: Пример кода для преобразования FODP в S
 
 {{% /blocks/products/pf/agp/text %}}
 
-- ОС на базе Microsoft Windows или Linux (см. [подробнее] (https://docs.aspose.com/slides/python-net/system-requirements/)).
+- ОС на базе Microsoft Windows или Linux (см. [подробнее](https://docs.aspose.com/slides/python-net/system-requirements/)).
 - Python 3.5 или новее
 - Aspose.Slides for Python упоминается в вашем проекте.
 

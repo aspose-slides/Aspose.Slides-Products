@@ -32,7 +32,7 @@ interConvert.save("output.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/feature-page-section  h2="Conversión de PowerPoint a PDF" %}}
 
-La conversión de PowerPoint a PDF es un caso común debido al enorme intercambio de archivos PDF. En lugar de conversiones manuales, los programadores pueden automatizarlas y ahorrar tiempo para un montón de presentaciones de PowerPoint a PDF. La biblioteca de presentaciones proporciona [clase PdfOptions] (https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions) para personalizar configuraciones específicas como establecer el nivel de compresión de texto, el nivel de cumplimiento de PDF, la calidad JPEG, definir el comportamiento de metarchivos, convertir diapositivas ocultas, elegir diapositivas seleccionadas y generar archivos PDF bloqueados y protegidos con contraseña.
+La conversión de PowerPoint a PDF es un caso común debido al enorme intercambio de archivos PDF. En lugar de conversiones manuales, los programadores pueden automatizarlas y ahorrar tiempo para un montón de presentaciones de PowerPoint a PDF. La biblioteca de presentaciones proporciona [clase PdfOptions](https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions) para personalizar configuraciones específicas como establecer el nivel de compresión de texto, el nivel de cumplimiento de PDF, la calidad JPEG, definir el comportamiento de metarchivos, convertir diapositivas ocultas, elegir diapositivas seleccionadas y generar archivos PDF bloqueados y protegidos con contraseña.
 
 {{% blocks/products/pf/feature-page-code h3="Código de conversión de Java PowerPoint a PDF" %}}
 

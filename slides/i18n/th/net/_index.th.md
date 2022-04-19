@@ -165,7 +165,7 @@ PHP, VBScript, เดลฟี, C++
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for .NET รองรับ [รูปแบบการนำเสนอ] (https://docs.aspose.com/slides/net/supported-file-formats/) ยอดนิยมและรูปแบบการส่งออกตามรายการด้านล่าง" >}}
+{{< blocks/products/pf/carousel-item h3="รูปแบบไฟล์ที่รองรับ" description="Aspose.Slides for .NET รองรับ [รูปแบบการนำเสนอ](https://docs.aspose.com/slides/net/supported-file-formats/) ยอดนิยมและรูปแบบการส่งออกตามรายการด้านล่าง" >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

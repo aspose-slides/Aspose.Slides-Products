@@ -159,7 +159,7 @@ Mobilna aplikacja
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for Android API obsługuje natywne [formaty PowerPoint] (https://docs.aspose.com/slides/java/supported-file-formats/) i wiele formatów konwersji." >}}
+{{< blocks/products/pf/carousel-item h3="Obsługiwane formaty plików" description="Aspose.Slides for Android API obsługuje natywne [formaty PowerPoint](https://docs.aspose.com/slides/java/supported-file-formats/) i wiele formatów konwersji." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">

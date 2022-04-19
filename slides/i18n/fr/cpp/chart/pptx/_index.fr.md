@@ -199,7 +199,7 @@ pres->Save(outputFilePath, Aspose::Slides::Export::SaveFormat::Pptx);
     {{% blocks/products/pf/agp/content h2="À propos de l'API Aspose.Slides pour C++" %}}
 
  Générez des tableaux de documents PPTX dès maintenant en visitant notre
- [Site Web des démonstrations en direct] (https://products.aspose.app/slides/chart)
+ [Site Web des démonstrations en direct](https://products.aspose.app/slides/chart)
  . La démo en direct présente les avantages suivants
 
 

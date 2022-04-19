@@ -28,7 +28,7 @@ Microsoft<sup>®</sup> PowerPoint 형식의 변환 프로세스는 C++ PowerPoin
 
 {{% blocks/products/pf/feature-page-section  h2="PowerPoint 파일을 PDF로 변환" %}}
 
-Microsoft<sup>®</sup> PowerPoint를 PDF로 변환하는 것은 PDF 문서의 엄청난 공유로 인해 일반적인 시나리오입니다. 프로그래머는 [PdfOptions class](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options)를 사용하여 이를 자동화하고 관련 PDF 변환 설정을 지정할 수 있습니다. 텍스트 압축 수준, JPEG 품질 [JpegQuality](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#a6bbf3bd303430757aa85ac9e3d184861), PDF 준수 수준과 같은 몇 가지 특정 설정 [준수] (https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#aa9dfc92dd22455248ac171c24876cb8f), 숨겨진 슬라이드 변환 [ShowHiddenSlides](https://apireference.aspose.com/slides/cpp/class /aspose.slides.export.pdf_options#ad11e5a17110d70456df91cc1a5dade23), 선택한 슬라이드 및 잠긴 [비밀번호] 생성 .
+Microsoft<sup>®</sup> PowerPoint를 PDF로 변환하는 것은 PDF 문서의 엄청난 공유로 인해 일반적인 시나리오입니다. 프로그래머는 [PdfOptions class](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options)를 사용하여 이를 자동화하고 관련 PDF 변환 설정을 지정할 수 있습니다. 텍스트 압축 수준, JPEG 품질 [JpegQuality](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#a6bbf3bd303430757aa85ac9e3d184861), PDF 준수 수준과 같은 몇 가지 특정 설정 [준수](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#aa9dfc92dd22455248ac171c24876cb8f), 숨겨진 슬라이드 변환 [ShowHiddenSlides](https://apireference.aspose.com/slides/cpp/class /aspose.slides.export.pdf_options#ad11e5a17110d70456df91cc1a5dade23), 선택한 슬라이드 및 잠긴 [비밀번호] 생성 .
 
 {{% blocks/products/pf/feature-page-code h3="C++ PowerPoint에서 PDF로 변환 코드" %}}
 

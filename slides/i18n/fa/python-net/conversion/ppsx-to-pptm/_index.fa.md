@@ -61,7 +61,7 @@ description: کد نمونه برای تبدیل PPSX به PPTM پایتون. ب
 
 {{% /blocks/products/pf/agp/text %}}
 
-- سیستم عامل مبتنی بر ویندوز مایکروسافت یا لینوکس (به [بیشتر] (https://docs.aspose.com/slides/python-net/system-requirements/) مراجعه کنید).
+- سیستم عامل مبتنی بر ویندوز مایکروسافت یا لینوکس (به [بیشتر](https://docs.aspose.com/slides/python-net/system-requirements/) مراجعه کنید).
 - پایتون 3.5 یا بالاتر
 - Aspose.Slides برای پایتون در پروژه شما ارجاع داده شده است.
 

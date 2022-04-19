@@ -16,7 +16,7 @@ description: Исходный код C# для редактирования ил
  Чтобы извлечь метаданные PPTX, мы будем использовать
  [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API метаданных документов для платформы C#. Открытым
- [NuGet] (https://www.nuget.org/packages/aspose.slides.net)
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
  **Aspose.Slides**
  и установить. Вы также можете использовать следующую команду из консоли диспетчера пакетов.

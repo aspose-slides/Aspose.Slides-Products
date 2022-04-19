@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de PPT a HTML Python. Utilic
 
 ¿Necesita convertir archivos PPT a HTML mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir PPT a formato HTML con solo unas pocas líneas de código Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea HTML a partir de PPT rápidamente. Pruebe la calidad de la conversión de PPT a HTML directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPT a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides para Python crea HTML a partir de PPT rápidamente. Pruebe la calidad de la conversión de PPT a HTML directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPT a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 

@@ -16,7 +16,7 @@ description: Código de muestra para la conversión de Python de OTP a PPT. Use 
 
 ¿Necesita convertir archivos OTP a PPT mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir OTP a formato PPT con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPT a partir de OTP rápidamente. Pruebe la calidad de la conversión de OTP a PPT directamente en su [navegador] (https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos OTP a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea PPT a partir de OTP rápidamente. Pruebe la calidad de la conversión de OTP a PPT directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos OTP a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 
