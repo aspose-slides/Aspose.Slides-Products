@@ -110,42 +110,15 @@ for (ISlide sld : presentation.getSlides())
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="OTP to GIF Conversion Live Demos" sectionDescription="[Convert OTP to GIF](https://products.aspose.app/slides/conversion/otp-to-gif) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your OTP file, it will be converted instantly to GIF." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="Βιβλιοθήκη χειρισμού παρουσίασης Java" %}}
-
- Το Slides and Presentation API μπορεί να χρησιμοποιηθεί για ανάγνωση, εγγραφή, χειρισμό και μετατροπή εγγράφων του Microsoft PowerPoint σε PDF, XPS, HTML, TIFF, ODP και σε διάφορες άλλες μορφές. Κάποιος μπορεί να δημιουργήσει νέα αρχεία από την αρχή και να τα αποθηκεύσει στις σχετικές υποστηριζόμενες μορφές. Το Aspose.Slides είναι ένα αυτόνομο API για δημιουργία, ανάλυση ή χειρισμό παρουσιάσεων, διαφανειών και στοιχείων και δεν εξαρτάται από κανένα λογισμικό όπως το Microsoft ή το OpenOffice.  
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="GIF" readMoreLink="https://docs.fileformat.com/image/gif/" >}}
-
-A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colours and fairly touches the limits of the human eye. Back when the internet emerged, GIFs remained the best choice because they required low bandwidth and compatible for the graphics that consume solid areas of colour. An animated GIF combines numerous images or frames into a single file and displays them in a sequence to generate an animated clip or a short video. The colour limitations are up to 256 for each frame and are likely to be the least suitable for reproducing other images and photographs with colour gradient.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="otp-to-gif"
+        sectionTitle="Δωρεάν εφαρμογή για μετατροπή OTP σε GIF" 
+        sectionDescription="[Δοκιμάστε τη δωρεάν εφαρμογή MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το OTP σε πολλές άλλες μορφές αρχείων, συμπεριλαμβανομένων μερικών που αναφέρονται παρακάτω." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/otp-to-bmp/" name="OTP TO BMP" description="Εικόνα Bitmap" >}}

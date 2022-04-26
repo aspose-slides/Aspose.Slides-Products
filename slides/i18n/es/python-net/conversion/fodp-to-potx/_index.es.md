@@ -90,16 +90,15 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert FODP to POTX" sectionDescription="Check our live demos for [FODP to POTX conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your FODP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant POTX file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="fodp-to-potx"
+        sectionTitle="Aplicación gratuita para convertir FODP a POTX" 
+        sectionDescription="[Pruebe nuestra aplicación gratuita Collage](https://products.aspose.app/slides/collage/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Otras conversiones admitidas" subTitle="También puede convertir FODP a muchos otros formatos de archivo. Vea otras conversiones admitidas a continuación" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Imagen de mapa de bits" >}}  

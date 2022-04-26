@@ -83,42 +83,15 @@ prs->Save(u"convertedFile.emf", Aspose::Slides::Export::SaveFormat::Emf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="PPSX to EMF Conversion Live Demos" sectionDescription="[Convert PPSX to EMF](https://products.aspose.app/slides/conversion/ppsx-to-emf) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSX file, it will be converted instantly to EMF." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="Biblioteca de manipulação de apresentação C++" %}}
-
- A API de Slides e Apresentação pode ser usada para ler, escrever, manipular e converter documentos do Microsoft PowerPoint para PDF, XPS, HTML, TIFF, ODP e vários outros formatos. Pode-se criar novos arquivos do zero e salvá-los nos formatos suportados relevantes. Aspose.Slides é uma API independente para criar, analisar ou manipular apresentações, slides e elementos e não depende de nenhum software como Microsoft ou OpenOffice.  
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" >}}
-
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="EMF" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
-
-Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsx-to-emf"
+        sectionTitle="Aplicativo gratuito para converter PPSX para EMF" 
+        sectionDescription="[Experimente nosso aplicativo MP4 To MP3 grátis](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Outras conversões compatíveis" subTitle="Você também pode converter PPSX em muitos outros formatos de arquivo, incluindo alguns listados abaixo." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Imagem em formato bitmap" >}}

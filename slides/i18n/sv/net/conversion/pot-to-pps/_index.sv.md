@@ -89,38 +89,15 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert POT to PPS" sectionDescription="Check our live demos for [POT to PPS conversion](https://products.aspose.app/slides/conversion/pot-to-pps) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POT file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPS file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Ett presentationsbearbetningsbibliotek för PowerPoint och OpenOffice presentationsformat. API:et gör det möjligt för applikationer att läsa, skriva, skydda, ändra och konvertera presentationer i .NET C#. Utvecklare kan använda den för att hantera text, former, diagram, tabeller och animationer, lägga till ljud och video till bilder, förhandsgranska bilder och mycket mer.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" >}}
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="pps" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pot-to-pps"
+        sectionTitle="Gratis app att konvertera POT till PPS" 
+        sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera POT till många andra filformat, inklusive några som anges nedan." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmappsbild" >}}

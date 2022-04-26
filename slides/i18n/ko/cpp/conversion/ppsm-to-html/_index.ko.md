@@ -83,42 +83,15 @@ prs->Save(u"convertedFile.html", Aspose::Slides::Export::SaveFormat::Html);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="PPSM to HTML Conversion Live Demos" sectionDescription="[Convert PPSM to HTML](https://products.aspose.app/slides/conversion/ppsm-to-html) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSM file, it will be converted instantly to HTML." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="C++ 프레젠테이션 조작 라이브러리" %}}
-
- 슬라이드 및 프레젠테이션 API를 사용하여 Microsoft PowerPoint 문서를 읽고, 쓰고, 조작하고, PDF, XPS, HTML, TIFF, ODP 및 기타 다양한 형식으로 변환할 수 있습니다. 처음부터 새 파일을 만들고 지원되는 관련 형식으로 저장할 수 있습니다. Aspose.Slides는 프레젠테이션, 슬라이드 및 요소를 생성, 구문 분석 또는 조작하기 위한 독립 실행형 API이며 Microsoft 또는 OpenOffice와 같은 소프트웨어에 의존하지 않습니다.  
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
-
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="HTML" readMoreLink="https://docs.fileformat.com/web/html/" >}}
-
-HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags such as img, a, p and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsm-to-html"
+        sectionTitle="PPSM을 HTML로 변환하는 무료 앱" 
+        sectionDescription="[PPT을 HTML로 변환하려면 무료 앱을 사용해보십시오.](https://products.aspose.app/slides/conversion/ppt-to-html)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 PPSM을 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="비트맵 이미지" >}}

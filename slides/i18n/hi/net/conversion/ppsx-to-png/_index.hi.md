@@ -101,38 +101,15 @@ using (var presentation = new Presentation("template.ppsx"))
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSX to PNG" sectionDescription="Check our live demos for [PPSX to PNG conversion](https://products.aspose.app/slides/conversion/ppsx-to-png) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PNG file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- पावरपॉइंट और ओपनऑफिस प्रेजेंटेशन फॉर्मेट के लिए एक प्रेजेंटेशन प्रोसेसिंग लाइब्रेरी। एपीआई अनुप्रयोगों को .NET C# में प्रस्तुतियों को पढ़ने, लिखने, संरक्षित करने, संशोधित करने और परिवर्तित करने में सक्षम बनाता है। डेवलपर्स इसका उपयोग टेक्स्ट, आकार, चार्ट, टेबल और एनिमेशन को प्रबंधित करने, स्लाइड में ऑडियो और वीडियो जोड़ने, स्लाइड का पूर्वावलोकन करने और बहुत कुछ करने के लिए कर सकते हैं।
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" >}}
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="png" readMoreLink="https://docs.fileformat.com/image/png/" >}}
-PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsx-to-png"
+        sectionTitle="मुफ्त ऐप PPSX को PNG में कन्वर्ट करने के लिए" 
+        sectionDescription="[PPT को PNG को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/ppt-to-png)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप PPSX को नीचे सूचीबद्ध कुछ सहित कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं।" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="बिटमैप चित्र" >}}

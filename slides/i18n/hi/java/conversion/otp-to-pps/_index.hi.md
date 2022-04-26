@@ -97,42 +97,15 @@ presentation.save("output.pps", SaveFormat.Pps);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="OTP to PPS Conversion Live Demos" sectionDescription="[Convert OTP to PPS](https://products.aspose.app/slides/conversion/otp-to-pps) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your OTP file, it will be converted instantly to PPS." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="जावा प्रेजेंटेशन मैनिपुलेशन लाइब्रेरी" %}}
-
- स्लाइड्स और प्रेजेंटेशन एपीआई का उपयोग माइक्रोसॉफ्ट पावरपॉइंट दस्तावेजों को पीडीएफ, एक्सपीएस, एचटीएमएल, टीआईएफएफ, ओडीपी और विभिन्न अन्य प्रारूपों में पढ़ने, लिखने, हेरफेर करने और परिवर्तित करने के लिए किया जा सकता है। कोई नए सिरे से नई फाइलें बना सकता है और उन्हें संबंधित समर्थित प्रारूपों में सहेज सकता है। Aspose.Slides प्रस्तुतियों, स्लाइडों और तत्वों को बनाने, पार्स करने या हेरफेर करने के लिए एक स्टैंडअलोन एपीआई है और यह माइक्रोसॉफ्ट या ओपनऑफिस जैसे किसी भी सॉफ्टवेयर पर निर्भर नहीं करता है।  
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="otp-to-pps"
+        sectionTitle="मुफ्त ऐप OTP को PPS में कन्वर्ट करने के लिए" 
+        sectionDescription="[हमारी मुफ्त MP4 To MP3 ऐप आज़माएं](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप नीचे सूचीबद्ध कुछ सहित ओटीपी को कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं।" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/otp-to-bmp/" name="OTP TO BMP" description="बिटमैप चित्र" >}}

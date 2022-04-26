@@ -92,16 +92,15 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert POT to SVG" sectionDescription="Check our live demos for [POT to SVG conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POT file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant SVG file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pot-to-svg"
+        sectionTitle="Gratis app att konvertera POT till SVG" 
+        sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera POT till många andra filformat. Se andra omvandlingar som stöds nedan" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmappsbild" >}}  

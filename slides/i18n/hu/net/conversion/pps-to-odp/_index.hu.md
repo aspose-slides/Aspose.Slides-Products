@@ -89,38 +89,15 @@ presentation.Save("output.odp", SaveFormat.Odp);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPS to ODP" sectionDescription="Check our live demos for [PPS to ODP conversion](https://products.aspose.app/slides/conversion/pps-to-odp) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPS file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant ODP file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Prezentáció-feldolgozási könyvtár PowerPoint és OpenOffice prezentációs formátumokhoz. Az API lehetővé teszi az alkalmazások számára, hogy olvassák, írják, védjék, módosítsák és konvertálják a .NET C# prezentációit. A fejlesztők használhatják szövegek, alakzatok, diagramok, táblázatok és animációk kezeléséhez, audio és videó hozzáadásához a diákhoz, a diák előnézetéhez és még sok máshoz.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="odp" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pps-to-odp"
+        sectionTitle="Ingyenes alkalmazás a PPS konvertálásához ODP -re" 
+        sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A PPS-t számos más fájlformátumra is konvertálhatja, beleértve az alábbiakban felsorolt ​​néhányat." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bittérképes kép" >}}

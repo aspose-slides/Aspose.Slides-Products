@@ -90,16 +90,15 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSX to XPS" sectionDescription="Check our live demos for [PPSX to XPS conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant XPS file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsx-to-xps"
+        sectionTitle="Aplicativo gratuito para converter PPSX para XPS" 
+        sectionDescription="[Experimente nosso aplicativo Text To Gif grátis](https://products.aspose.app/slides/text-to-gif/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Outras conversões compatíveis" subTitle="Você também pode converter PPSX para muitos outros formatos de arquivo. Veja outras conversões compatíveis abaixo" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Imagem em formato bitmap" >}}  

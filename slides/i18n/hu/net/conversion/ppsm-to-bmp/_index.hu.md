@@ -101,38 +101,15 @@ using (var presentation = new Presentation("template.ppsm"))
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSM to BMP" sectionDescription="Check our live demos for [PPSM to BMP conversion](https://products.aspose.app/slides/conversion/ppsm-to-bmp) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSM file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Prezentáció-feldolgozási könyvtár PowerPoint és OpenOffice prezentációs formátumokhoz. Az API lehetővé teszi az alkalmazások számára, hogy olvassák, írják, védjék, módosítsák és konvertálják a .NET C# prezentációit. A fejlesztők használhatják szövegek, alakzatok, diagramok, táblázatok és animációk kezeléséhez, audio és videó hozzáadásához a diákhoz, a diák előnézetéhez és még sok máshoz.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="bmp" readMoreLink="https://docs.fileformat.com/image/bmp/" >}}
-Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsm-to-bmp"
+        sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához BMP -re" 
+        sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához BMP -re](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A PPSM-et számos más fájlformátumba is konvertálhatja, beleértve az alábbiakban felsorolt ​​néhányat." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="Továbbfejlesztett metafájl formátum" >}}

@@ -90,16 +90,15 @@ Verwenden Sie die kostenlose App, um eine Demonstration des Umwandlungsprozesses
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert FODP to PPSM" sectionDescription="Check our live demos for [FODP to PPSM conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your FODP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPSM file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="fodp-to-ppsm"
+        sectionTitle="Kostenlose App, um FODP in PPSM zu konvertieren" 
+        sectionDescription="[Probieren Sie unsere kostenlose Video App aus](https://products.aspose.app/slides/video/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können FODP auch in viele andere Dateiformate konvertieren. Weitere unterstützte Konvertierungen finden Sie weiter unten" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmap-Bild" >}}  

@@ -89,38 +89,15 @@ presentation.Save("output.ppsx", SaveFormat.Ppsx);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPT to PPSX" sectionDescription="Check our live demos for [PPT to PPSX conversion](https://products.aspose.app/slides/conversion/ppt-to-ppsx) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPT file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPSX file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Eine Präsentationsverarbeitungsbibliothek für PowerPoint- und OpenOffice-Präsentationsformate. Die API ermöglicht Anwendungen das Lesen, Schreiben, Schützen, Modifizieren und Konvertieren von Präsentationen in .NET C#. Entwickler können damit Text, Formen, Diagramme, Tabellen und Animationen verwalten, Audio und Video zu Folien hinzufügen, Folien in der Vorschau anzeigen und vieles mehr.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="ppsx" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" >}}
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppt-to-ppsx"
+        sectionTitle="Kostenlose App, um PPT in PPSX zu konvertieren" 
+        sectionDescription="[Probieren Sie unsere kostenlose Collage App aus](https://products.aspose.app/slides/collage/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können PPT auch in viele andere Dateiformate konvertieren, darunter einige, die unten aufgeführt sind." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap-Bild" >}}

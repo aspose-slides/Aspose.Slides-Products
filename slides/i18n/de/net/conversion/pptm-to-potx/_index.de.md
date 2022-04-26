@@ -89,38 +89,15 @@ presentation.Save("output.potx", SaveFormat.Potx);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTM to POTX" sectionDescription="Check our live demos for [PPTM to POTX conversion](https://products.aspose.app/slides/conversion/pptm-to-potx) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTM file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant POTX file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Eine Präsentationsverarbeitungsbibliothek für PowerPoint- und OpenOffice-Präsentationsformate. Die API ermöglicht Anwendungen das Lesen, Schreiben, Schützen, Modifizieren und Konvertieren von Präsentationen in .NET C#. Entwickler können damit Text, Formen, Diagramme, Tabellen und Animationen verwalten, Audio und Video zu Folien hinzufügen, Folien in der Vorschau anzeigen und vieles mehr.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" >}}
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="potx" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptm-to-potx"
+        sectionTitle="Kostenlose App, um PPTM in POTX zu konvertieren" 
+        sectionDescription="[Probieren Sie unsere kostenlose MP4 To MP3 App aus](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können PPTM auch in viele andere Dateiformate konvertieren, darunter einige, die unten aufgeführt sind." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmap-Bild" >}}

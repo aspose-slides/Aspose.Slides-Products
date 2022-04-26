@@ -89,38 +89,15 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert OTP to EMF" sectionDescription="Check our live demos for [OTP to EMF conversion](https://products.aspose.app/slides/conversion/otp-to-emf) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your OTP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant EMF file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Una libreria di elaborazione delle presentazioni per i formati di presentazione di PowerPoint e OpenOffice. L'API consente alle applicazioni di leggere, scrivere, proteggere, modificare e convertire le presentazioni in .NET C#. Gli sviluppatori possono usarlo per gestire testo, forme, grafici, tabelle e animazioni, aggiungere audio e video alle diapositive, visualizzare in anteprima le diapositive e molto altro.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="emf" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
-Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="otp-to-emf"
+        sectionTitle="App gratuita da convertire OTP in EMF" 
+        sectionDescription="[Prova la nostra app gratuita Editor](https://products.aspose.app/slides/editor/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Altre conversioni supportate" subTitle="Puoi anche convertire OTP in molti altri formati di file, inclusi alcuni elencati di seguito." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Immagine bitmap" >}}

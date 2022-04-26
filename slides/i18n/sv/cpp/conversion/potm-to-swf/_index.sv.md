@@ -78,39 +78,15 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="POTM to SWF Conversion Live Demos" sectionDescription="[Convert POTM to SWF](https://products.aspose.app/slides/conversion/potm-to-swf) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POTM file, it will be converted instantly to SWF." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
-Slides and Presentation API kan användas för att läsa, skriva, manipulera och konvertera Microsoft PowerPoint-dokument till PDF, XPS, HTML, TIFF, ODP och olika andra format. Man kan skapa nya filer från grunden och spara dem i relevanta format som stöds. Aspose.Slides är ett fristående API för att skapa, analysera eller manipulera presentationer, bilder och element och det är inte beroende av någon programvara som Microsoft eller OpenOffice.    
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" >}}
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="SWF" readMoreLink="https://docs.fileformat.com/page-description-language/swf/" >}}
-SWF is a file format used to transport text, video, vector graphics and ActionScript over the internet and supported by Adobe Flash Player. The SWF file format is designed to be a resourceful transfer format, not only for exchanging graphics but also provides supports for anti-aliasing and on-screen display. Anti-aliasing is a feature that is critical  for fast rendering of bitmap and its associated characteristics like interactive buttons, shading and animation .etc.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="potm-to-swf"
+        sectionTitle="Gratis app att konvertera POTM till SWF" 
+        sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera POTM till många andra filformat, inklusive några som anges nedan." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmap Image" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-emf/" name="POTM TO EMF" description="Enhanced Metafile Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-gif/" name="POTM TO GIF" description="Graphical Interchange Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-html/" name="POTM TO HTML" description="Hyper Text Markup Language" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="JPEG Image" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-odp/" name="POTM TO ODP" description="OpenDocument Presentation Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument Standard Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-pdf/" name="POTM TO PDF" description="Portable Document Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-png/" name="POTM TO PNG" description="Portable Network Graphics" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-pot/" name="POTM TO POT" description="Microsoft PowerPoint Template Files" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-potx/" name="POTM TO POTX" description="Microsoft PowerPoint Template Presentation" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-pps/" name="POTM TO PPS" description="PowerPoint Slide Show" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Macro-enabled Slide Show" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="PowerPoint Slide Show" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Macro-enabled Presentation File" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Open XML presentation Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-svg/" name="POTM TO SVG" description="Scalable Vector Graphics" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Tagged Image Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-xml/" name="POTM TO XML" description="Extensible Markup Language" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/potm-to-xps/" name="POTM TO XPS" description="XML-pappersspecifikationer" >}}

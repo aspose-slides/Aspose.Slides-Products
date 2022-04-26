@@ -89,38 +89,15 @@ presentation.Save("output.otp", SaveFormat.Otp);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPT to OTP" sectionDescription="Check our live demos for [PPT to OTP conversion](https://products.aspose.app/slides/conversion/ppt-to-otp) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPT file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant OTP file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- पावरपॉइंट और ओपनऑफिस प्रेजेंटेशन फॉर्मेट के लिए एक प्रेजेंटेशन प्रोसेसिंग लाइब्रेरी। एपीआई अनुप्रयोगों को .NET C# में प्रस्तुतियों को पढ़ने, लिखने, संरक्षित करने, संशोधित करने और परिवर्तित करने में सक्षम बनाता है। डेवलपर्स इसका उपयोग टेक्स्ट, आकार, चार्ट, टेबल और एनिमेशन को प्रबंधित करने, स्लाइड में ऑडियो और वीडियो जोड़ने, स्लाइड का पूर्वावलोकन करने और बहुत कुछ करने के लिए कर सकते हैं।
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="otp" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppt-to-otp"
+        sectionTitle="मुफ्त ऐप PPT को OTP में कन्वर्ट करने के लिए" 
+        sectionDescription="[हमारी मुफ्त Editor ऐप आज़माएं](https://products.aspose.app/slides/editor/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप पीपीटी को नीचे सूचीबद्ध कुछ सहित कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं।" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="बिटमैप चित्र" >}}

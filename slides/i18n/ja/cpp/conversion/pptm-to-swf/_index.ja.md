@@ -78,39 +78,15 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="PPTM to SWF Conversion Live Demos" sectionDescription="[Convert PPTM to SWF](https://products.aspose.app/slides/conversion/pptm-to-swf) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTM file, it will be converted instantly to SWF." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
-スライドとプレゼンテーションAPIを使用して、Microsoft PowerPointドキュメントの読み取り、書き込み、操作、およびPDF、XPS、HTML、TIFF、ODP、およびその他のさまざまな形式への変換を行うことができます。新しいファイルを最初から作成し、サポートされている関連する形式で保存できます。 Aspose.Slidesは、プレゼンテーション、スライド、要素を作成、解析、または操作するためのスタンドアロンAPIであり、MicrosoftやOpenOfficeなどのソフトウェアに依存しません。    
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" >}}
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="SWF" readMoreLink="https://docs.fileformat.com/page-description-language/swf/" >}}
-SWF is a file format used to transport text, video, vector graphics and ActionScript over the internet and supported by Adobe Flash Player. The SWF file format is designed to be a resourceful transfer format, not only for exchanging graphics but also provides supports for anti-aliasing and on-screen display. Anti-aliasing is a feature that is critical  for fast rendering of bitmap and its associated characteristics like interactive buttons, shading and animation .etc.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptm-to-swf"
+        sectionTitle="PPTMをSWFに変換するための無料アプリ" 
+        sectionDescription="[無料のCollageアプリを試してください](https://products.aspose.app/slides/collage/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="PPTMを、以下にリストされているいくつかを含む他の多くのファイル形式に変換することもできます。" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmap Image" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Enhanced Metafile Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphical Interchange Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hyper Text Markup Language" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG Image" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument Presentation Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Standard Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portable Document Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pot/" name="PPTM TO POT" description="Microsoft PowerPoint Template Files" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-potm/" name="PPTM TO POTM" description="Microsoft PowerPoint Template File" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-potx/" name="PPTM TO POTX" description="Microsoft PowerPoint Template Presentation" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pps/" name="PPTM TO PPS" description="PowerPoint Slide Show" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="Macro-enabled Slide Show" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="PowerPoint Slide Show" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Open XML presentation Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Scalable Vector Graphics" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Tagged Image Format" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-xml/" name="PPTM TO XML" description="Extensible Markup Language" >}}{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML用紙仕様" >}}

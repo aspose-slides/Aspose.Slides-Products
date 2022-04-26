@@ -89,38 +89,15 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTX to PPSM" sectionDescription="Check our live demos for [PPTX to PPSM conversion](https://products.aspose.app/slides/conversion/pptx-to-ppsm) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPSM file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Prezentáció-feldolgozási könyvtár PowerPoint és OpenOffice prezentációs formátumokhoz. Az API lehetővé teszi az alkalmazások számára, hogy olvassák, írják, védjék, módosítsák és konvertálják a .NET C# prezentációit. A fejlesztők használhatják szövegek, alakzatok, diagramok, táblázatok és animációk kezeléséhez, audio és videó hozzáadásához a diákhoz, a diák előnézetéhez és még sok máshoz.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="ppsm" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptx-to-ppsm"
+        sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához PPSM -re" 
+        sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A PPTX-t számos más fájlformátumba is konvertálhatja, köztük néhány alább felsorolt ​​fájlformátumba." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bittérképes kép" >}}

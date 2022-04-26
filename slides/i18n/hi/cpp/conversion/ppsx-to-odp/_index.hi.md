@@ -83,42 +83,15 @@ prs->Save(u"convertedFile.odp", Aspose::Slides::Export::SaveFormat::Odp);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="PPSX to ODP Conversion Live Demos" sectionDescription="[Convert PPSX to ODP](https://products.aspose.app/slides/conversion/ppsx-to-odp) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSX file, it will be converted instantly to ODP." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="सी ++ प्रेजेंटेशन मैनिपुलेशन लाइब्रेरी" %}}
-
- स्लाइड्स और प्रेजेंटेशन एपीआई का उपयोग माइक्रोसॉफ्ट पावरपॉइंट दस्तावेजों को पीडीएफ, एक्सपीएस, एचटीएमएल, टीआईएफएफ, ओडीपी और विभिन्न अन्य प्रारूपों में पढ़ने, लिखने, हेरफेर करने और परिवर्तित करने के लिए किया जा सकता है। कोई नए सिरे से नई फाइलें बना सकता है और उन्हें संबंधित समर्थित प्रारूपों में सहेज सकता है। Aspose.Slides प्रस्तुतियों, स्लाइडों और तत्वों को बनाने, पार्स करने या हेरफेर करने के लिए एक स्टैंडअलोन एपीआई है और यह माइक्रोसॉफ्ट या ओपनऑफिस जैसे किसी भी सॉफ्टवेयर पर निर्भर नहीं करता है।  
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" >}}
-
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
-
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsx-to-odp"
+        sectionTitle="मुफ्त ऐप PPSX को ODP में कन्वर्ट करने के लिए" 
+        sectionDescription="[हमारी मुफ्त Collage ऐप आज़माएं](https://products.aspose.app/slides/collage/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप PPSX को नीचे सूचीबद्ध कुछ सहित कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं।" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="बिटमैप चित्र" >}}

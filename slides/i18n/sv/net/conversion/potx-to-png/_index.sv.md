@@ -101,38 +101,15 @@ using (var presentation = new Presentation("template.potx"))
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert POTX to PNG" sectionDescription="Check our live demos for [POTX to PNG conversion](https://products.aspose.app/slides/conversion/potx-to-png) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PNG file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Ett presentationsbearbetningsbibliotek för PowerPoint och OpenOffice presentationsformat. API:et gör det möjligt för applikationer att läsa, skriva, skydda, ändra och konvertera presentationer i .NET C#. Utvecklare kan använda den för att hantera text, former, diagram, tabeller och animationer, lägga till ljud och video till bilder, förhandsgranska bilder och mycket mer.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="png" readMoreLink="https://docs.fileformat.com/image/png/" >}}
-PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="potx-to-png"
+        sectionTitle="Gratis app att konvertera POTX till PNG" 
+        sectionDescription="[Prova vår gratis app att konvertera PPT till PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera POTX till många andra filformat, inklusive några som anges nedan." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmappsbild" >}}

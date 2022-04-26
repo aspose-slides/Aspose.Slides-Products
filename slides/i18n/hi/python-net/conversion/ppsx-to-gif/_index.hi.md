@@ -90,16 +90,15 @@ PPSX से GIF रूपांतरण प्रक्रिया का प�
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSX to GIF" sectionDescription="Check our live demos for [PPSX to GIF conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant GIF file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsx-to-gif"
+        sectionTitle="मुफ्त ऐप PPSX को GIF में कन्वर्ट करने के लिए" 
+        sectionDescription="[हमारी मुफ्त Video ऐप आज़माएं](https://products.aspose.app/slides/video/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप PPSX को कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="बिटमैप चित्र" >}}  

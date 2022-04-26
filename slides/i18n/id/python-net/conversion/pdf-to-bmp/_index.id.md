@@ -93,16 +93,15 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke BMP.
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to BMP" sectionDescription="Check our live demos for [PDF to BMP conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pdf-to-bmp"
+        sectionTitle="Aplikasi gratis untuk mengonversi PDF ke BMP" 
+        sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PDF ke BMP](https://products.aspose.app/slides/import/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi PDF ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Format Metafile yang Ditingkatkan" >}}  

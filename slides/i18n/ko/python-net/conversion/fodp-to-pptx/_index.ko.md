@@ -90,16 +90,15 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert FODP to PPTX" sectionDescription="Check our live demos for [FODP to PPTX conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your FODP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPTX file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="fodp-to-pptx"
+        sectionTitle="FODP을 PPTX로 변환하는 무료 앱" 
+        sectionDescription="[무료 Text To Gif 앱을 사용해보십시오](https://products.aspose.app/slides/text-to-gif/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="FODP를 다른 많은 파일 형식으로 변환할 수도 있습니다. 아래에서 지원되는 다른 변환을 참조하세요." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="비트맵 이미지" >}}  

@@ -101,38 +101,15 @@ using (var presentation = new Presentation("template.ppsm"))
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSM to PNG" sectionDescription="Check our live demos for [PPSM to PNG conversion](https://products.aspose.app/slides/conversion/ppsm-to-png) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSM file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PNG file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- PowerPoint 및 OpenOffice 프레젠테이션 형식용 프레젠테이션 처리 라이브러리. API를 사용하면 애플리케이션이 .NET C#에서 프레젠테이션을 읽고, 쓰고, 보호하고, 수정하고, 변환할 수 있습니다. 개발자는 이를 사용하여 텍스트, 모양, 차트, 표 및 애니메이션을 관리하고, 슬라이드에 오디오 및 비디오를 추가하고, 슬라이드를 미리 보는 등의 작업을 수행할 수 있습니다.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="png" readMoreLink="https://docs.fileformat.com/image/png/" >}}
-PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsm-to-png"
+        sectionTitle="PPSM을 PNG로 변환하는 무료 앱" 
+        sectionDescription="[PPT을 PNG로 변환하려면 무료 앱을 사용해보십시오.](https://products.aspose.app/slides/conversion/ppt-to-png)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 PPSM을 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="비트맵 이미지" >}}

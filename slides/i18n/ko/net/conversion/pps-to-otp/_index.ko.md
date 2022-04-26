@@ -89,38 +89,15 @@ presentation.Save("output.otp", SaveFormat.Otp);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPS to OTP" sectionDescription="Check our live demos for [PPS to OTP conversion](https://products.aspose.app/slides/conversion/pps-to-otp) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPS file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant OTP file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- PowerPoint 및 OpenOffice 프레젠테이션 형식용 프레젠테이션 처리 라이브러리. API를 사용하면 애플리케이션이 .NET C#에서 프레젠테이션을 읽고, 쓰고, 보호하고, 수정하고, 변환할 수 있습니다. 개발자는 이를 사용하여 텍스트, 모양, 차트, 표 및 애니메이션을 관리하고, 슬라이드에 오디오 및 비디오를 추가하고, 슬라이드를 미리 보는 등의 작업을 수행할 수 있습니다.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="otp" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pps-to-otp"
+        sectionTitle="PPS을 OTP로 변환하는 무료 앱" 
+        sectionDescription="[무료 Text To Gif 앱을 사용해보십시오](https://products.aspose.app/slides/text-to-gif/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 PPS를 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pps-to-bmp/" name="PPS TO BMP" description="비트맵 이미지" >}}

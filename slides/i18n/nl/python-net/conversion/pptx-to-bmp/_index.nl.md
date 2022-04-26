@@ -91,16 +91,15 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTX to BMP" sectionDescription="Check our live demos for [PPTX to BMP conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptx-to-bmp"
+        sectionTitle="Gratis app om PPTX te converteren naar BMP" 
+        sectionDescription="[Probeer onze gratis app om PPT te converteren naar BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde conversies" subTitle="U kunt PPTX ook naar vele andere bestandsindelingen converteren. Bekijk hieronder andere ondersteunde conversies" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-emf/" name="PPTX TO EMF" description="Verbeterde metabestandsindeling" >}}  

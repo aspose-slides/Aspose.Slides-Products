@@ -89,38 +89,15 @@ presentation.Save("output.html", SaveFormat.Html);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert OTP to HTML" sectionDescription="Check our live demos for [OTP to HTML conversion](https://products.aspose.app/slides/conversion/otp-to-html) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your OTP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant HTML file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- یک کتابخانه پردازش ارائه برای فرمت های ارائه پاورپوینت و اپن آفیس. API برنامه‌ها را قادر می‌سازد تا ارائه‌ها را در NET C# بخوانند، بنویسند، محافظت کنند، تغییر دهند و تبدیل کنند. توسعه دهندگان می توانند از آن برای مدیریت متن، اشکال، نمودارها، جداول و انیمیشن ها، افزودن صدا و ویدئو به اسلایدها، پیش نمایش اسلایدها و موارد دیگر استفاده کنند.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="html" readMoreLink="https://docs.fileformat.com/web/html/" >}}
-HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags such as img, a, p and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="otp-to-html"
+        sectionTitle="برنامه رایگان برای تبدیل OTP به HTML" 
+        sectionDescription="[برنامه رایگان ما را برای تبدیل PPT به HTML امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-html)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید OTP را به بسیاری از فرمت های فایل دیگر از جمله تعداد کمی از آنها در زیر تبدیل کنید." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="تصویر بیت مپ" >}}

@@ -90,16 +90,15 @@ with slides.Presentation("presentation.potx") as presentation:
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert POTX to ODP" sectionDescription="Check our live demos for [POTX to ODP conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant ODP file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="potx-to-odp"
+        sectionTitle="POTXをODPに変換するための無料アプリ" 
+        sectionDescription="[無料のVideoアプリを試してください](https://products.aspose.app/slides/video/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="POTXを他の多くのファイル形式に変換することもできます。以下のサポートされている他の変換を参照してください" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="ビットマップ画像" >}}  

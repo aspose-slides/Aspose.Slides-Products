@@ -91,16 +91,15 @@ Använd gratisappen för att se en demonstration av PPTM till BMP-konverteringsp
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTM to BMP" sectionDescription="Check our live demos for [PPTM to BMP conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTM file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptm-to-bmp"
+        sectionTitle="Gratis app att konvertera PPTM till BMP" 
+        sectionDescription="[Prova vår gratis app att konvertera PPT till BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera PPTM till många andra filformat. Se andra omvandlingar som stöds nedan" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Förbättrat metafilformat" >}}  

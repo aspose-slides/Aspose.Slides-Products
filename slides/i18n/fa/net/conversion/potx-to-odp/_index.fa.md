@@ -89,38 +89,15 @@ presentation.Save("output.odp", SaveFormat.Odp);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert POTX to ODP" sectionDescription="Check our live demos for [POTX to ODP conversion](https://products.aspose.app/slides/conversion/potx-to-odp) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant ODP file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- یک کتابخانه پردازش ارائه برای فرمت های ارائه پاورپوینت و اپن آفیس. API برنامه‌ها را قادر می‌سازد تا ارائه‌ها را در NET C# بخوانند، بنویسند، محافظت کنند، تغییر دهند و تبدیل کنند. توسعه دهندگان می توانند از آن برای مدیریت متن، اشکال، نمودارها، جداول و انیمیشن ها، افزودن صدا و ویدئو به اسلایدها، پیش نمایش اسلایدها و موارد دیگر استفاده کنند.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="odp" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="potx-to-odp"
+        sectionTitle="برنامه رایگان برای تبدیل POTX به ODP" 
+        sectionDescription="[برنامه رایگان Editor ما را امتحان کنید](https://products.aspose.app/slides/editor/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می‌توانید POTX را به بسیاری از فرمت‌های فایل دیگر از جمله تعداد کمی از آنها در زیر تبدیل کنید." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="تصویر بیت مپ" >}}

@@ -89,38 +89,15 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTX to EMF" sectionDescription="Check our live demos for [PPTX to EMF conversion](https://products.aspose.app/slides/conversion/pptx-to-emf) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant EMF file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Uma Biblioteca de Processamento de Apresentação para os formatos de apresentação PowerPoint e OpenOffice. A API permite que os aplicativos leiam, gravem, protejam, modifiquem e convertam apresentações em .NET C#. Os desenvolvedores podem usá-lo para gerenciar texto, formas, gráficos, tabelas e animações, adicionar áudio e vídeo a slides, visualizar slides e muito mais.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="emf" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
-Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptx-to-emf"
+        sectionTitle="Aplicativo gratuito para converter PPTX para EMF" 
+        sectionDescription="[Experimente nosso aplicativo MP4 To MP3 grátis](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Outras conversões compatíveis" subTitle="Você também pode converter PPTX em muitos outros formatos de arquivo, incluindo alguns listados abaixo." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Imagem em formato bitmap" >}}

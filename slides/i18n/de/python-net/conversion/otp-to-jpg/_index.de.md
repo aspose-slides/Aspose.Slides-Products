@@ -91,16 +91,15 @@ Verwenden Sie die kostenlose App, um eine Demonstration des OTP-zu-JPG-Konvertie
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert OTP to JPG" sectionDescription="Check our live demos for [OTP to JPG conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your OTP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant JPG file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="otp-to-jpg"
+        sectionTitle="Kostenlose App, um OTP in JPG zu konvertieren" 
+        sectionDescription="[Versuchen Sie unsere kostenlose App, um PPT in JPG konvertieren zu können](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können OTP auch in viele andere Dateiformate konvertieren. Weitere unterstützte Konvertierungen finden Sie weiter unten" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap-Bild" >}}  

@@ -89,38 +89,15 @@ presentation.Save("output.odp", SaveFormat.Odp);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTM to ODP" sectionDescription="Check our live demos for [PPTM to ODP conversion](https://products.aspose.app/slides/conversion/pptm-to-odp) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTM file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant ODP file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- PowerPointおよびOpenOfficeプレゼンテーション形式用のプレゼンテーション処理ライブラリ。 APIを使用すると、アプリケーションは.NET C＃でプレゼンテーションの読み取り、書き込み、保護、変更、および変換を行うことができます。開発者はこれを使用して、テキスト、図形、グラフ、表、アニメーションの管理、スライドへのオーディオとビデオの追加、スライドのプレビューなどを行うことができます。
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" >}}
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="odp" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptm-to-odp"
+        sectionTitle="PPTMをODPに変換するための無料アプリ" 
+        sectionDescription="[無料のEditorアプリを試してください](https://products.aspose.app/slides/editor/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="PPTMを、以下にリストされているいくつかを含む他の多くのファイル形式に変換することもできます。" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="ビットマップ画像" >}}

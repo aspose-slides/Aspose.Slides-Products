@@ -89,38 +89,15 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert ODP to PPSM" sectionDescription="Check our live demos for [ODP to PPSM conversion](https://products.aspose.app/slides/conversion/odp-to-ppsm) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your ODP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPSM file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Een presentatieverwerkingsbibliotheek voor PowerPoint- en OpenOffice-presentatieformaten. Met de API kunnen applicaties presentaties lezen, schrijven, beveiligen, wijzigen en converteren in .NET C#. Ontwikkelaars kunnen het gebruiken om tekst, vormen, grafieken, tabellen en animaties te beheren, audio en video aan dia's toe te voegen, voorvertoningen van dia's en nog veel meer.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="ppsm" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="odp-to-ppsm"
+        sectionTitle="Gratis app om ODP te converteren naar PPSM" 
+        sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde conversies" subTitle="U kunt ODP ook converteren naar vele andere bestandsindelingen, waaronder enkele die hieronder worden vermeld." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/odp-to-bmp/" name="ODP TO BMP" description="Bitmap afbeelding" >}}

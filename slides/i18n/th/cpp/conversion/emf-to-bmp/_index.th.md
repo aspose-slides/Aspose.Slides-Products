@@ -100,42 +100,15 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="EMF to BMP Conversion Live Demos" sectionDescription="[Convert EMF to BMP](https://products.aspose.app/slides/conversion/emf-to-bmp) right now by visiting our Live Demos website.The live demo has the following benefits" >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your EMF file, it will be converted instantly to BMP." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
-
-    {{% blocks/products/pf/agp/content h2="ไลบรารีการจัดการการนำเสนอ C ++" %}}
-
- สามารถใช้ Slides และ Presentation API เพื่ออ่าน เขียน จัดการ และแปลงเอกสาร Microsoft PowerPoint เป็น PDF, XPS, HTML, TIFF, ODP และรูปแบบอื่นๆ ได้ หนึ่งสามารถสร้างไฟล์ใหม่ตั้งแต่เริ่มต้นและบันทึกในรูปแบบที่รองรับที่เกี่ยวข้อง Aspose.Slides เป็น API แบบสแตนด์อโลนสำหรับการสร้าง แยกวิเคราะห์ หรือจัดการการนำเสนอ สไลด์ และองค์ประกอบ และไม่ขึ้นกับซอฟต์แวร์ใดๆ เช่น Microsoft หรือ OpenOffice  
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="EMF" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
-
-Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="BMP" readMoreLink="https://docs.fileformat.com/image/bmp/" >}}
-
-Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
-
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="emf-to-bmp"
+        sectionTitle="แอปฟรีเพื่อแปลง EMF เป็น BMP" 
+        sectionDescription="[ลองใช้แอป MP4 To MP3 ฟรีของเรา](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="การแปลงอื่น ๆ ที่รองรับ" subTitle="คุณยังสามารถแปลง EMF เป็นรูปแบบไฟล์อื่นๆ ได้มากมาย รวมถึงบางไฟล์ที่แสดงด้านล่าง" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-gif/" name="EMF TO GIF" description="รูปแบบการแลกเปลี่ยนกราฟิก" >}}

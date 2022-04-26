@@ -92,16 +92,15 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből GIF-be konvert�
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to GIF" sectionDescription="Check our live demos for [PDF to GIF conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant GIF file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pdf-to-gif"
+        sectionTitle="Ingyenes alkalmazás a PDF konvertálásához GIF -re" 
+        sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához GIF -re](https://products.aspose.app/slides/import/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A PDF-eket számos más fájlformátumba is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bittérképes kép" >}}  

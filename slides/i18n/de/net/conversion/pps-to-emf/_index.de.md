@@ -89,38 +89,15 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPS to EMF" sectionDescription="Check our live demos for [PPS to EMF conversion](https://products.aspose.app/slides/conversion/pps-to-emf) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPS file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant EMF file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Eine Präsentationsverarbeitungsbibliothek für PowerPoint- und OpenOffice-Präsentationsformate. Die API ermöglicht Anwendungen das Lesen, Schreiben, Schützen, Modifizieren und Konvertieren von Präsentationen in .NET C#. Entwickler können damit Text, Formen, Diagramme, Tabellen und Animationen verwalten, Audio und Video zu Folien hinzufügen, Folien in der Vorschau anzeigen und vieles mehr.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="emf" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
-Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pps-to-emf"
+        sectionTitle="Kostenlose App, um PPS in EMF zu konvertieren" 
+        sectionDescription="[Probieren Sie unsere kostenlose MP4 To MP3 App aus](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können PPS auch in viele andere Dateiformate konvertieren, darunter einige, die unten aufgeführt sind." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmap-Bild" >}}

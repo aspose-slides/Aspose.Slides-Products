@@ -91,16 +91,15 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSX ke PNG.
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPSX to PNG" sectionDescription="Check our live demos for [PPSX to PNG conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPSX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PNG file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="ppsx-to-png"
+        sectionTitle="Aplikasi gratis untuk mengonversi PPSX ke PNG" 
+        sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi PPSX ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Gambar bitmap" >}}  

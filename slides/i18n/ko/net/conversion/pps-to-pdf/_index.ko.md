@@ -89,38 +89,15 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPS to PDF" sectionDescription="Check our live demos for [PPS to PDF conversion](https://products.aspose.app/slides/conversion/pps-to-pdf) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPS file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PDF file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- PowerPoint 및 OpenOffice 프레젠테이션 형식용 프레젠테이션 처리 라이브러리. API를 사용하면 애플리케이션이 .NET C#에서 프레젠테이션을 읽고, 쓰고, 보호하고, 수정하고, 변환할 수 있습니다. 개발자는 이를 사용하여 텍스트, 모양, 차트, 표 및 애니메이션을 관리하고, 슬라이드에 오디오 및 비디오를 추가하고, 슬라이드를 미리 보는 등의 작업을 수행할 수 있습니다.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="pdf" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pps-to-pdf"
+        sectionTitle="PPS을 PDF로 변환하는 무료 앱" 
+        sectionDescription="[PPT을 PDF로 변환하려면 무료 앱을 사용해보십시오.](https://products.aspose.app/slides/conversion/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 PPS를 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pps-to-bmp/" name="PPS TO BMP" description="비트맵 이미지" >}}

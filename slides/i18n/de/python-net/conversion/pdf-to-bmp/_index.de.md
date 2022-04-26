@@ -93,16 +93,15 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PDF-zu-BMP-Konvertie
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to BMP" sectionDescription="Check our live demos for [PDF to BMP conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pdf-to-bmp"
+        sectionTitle="Kostenlose App, um PDF in BMP zu konvertieren" 
+        sectionDescription="[Versuchen Sie unsere kostenlose App, um PDF in BMP konvertieren zu können](https://products.aspose.app/slides/import/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können PDF auch in viele andere Dateiformate konvertieren. Weitere unterstützte Konvertierungen finden Sie weiter unten" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Verbessertes Metafile-Format" >}}  

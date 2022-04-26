@@ -92,16 +92,15 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to HTML" sectionDescription="Check our live demos for [PDF to HTML conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant HTML file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pdf-to-html"
+        sectionTitle="Application gratuite pour convertir PDF en HTML" 
+        sectionDescription="[Essayez notre application gratuite pour convertir PDF en HTML](https://products.aspose.app/slides/import/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir un PDF en de nombreux autres formats de fichiers. Voir les autres conversions prises en charge ci-dessous" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Image bitmap" >}}  

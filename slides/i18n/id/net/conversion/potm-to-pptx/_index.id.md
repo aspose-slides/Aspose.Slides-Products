@@ -89,38 +89,15 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert POTM to PPTX" sectionDescription="Check our live demos for [POTM to PPTX conversion](https://products.aspose.app/slides/conversion/potm-to-pptx) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your POTM file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PPTX file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- Pustaka Pemrosesan Presentasi untuk format presentasi PowerPoint dan OpenOffice. API memungkinkan aplikasi membaca, menulis, melindungi, memodifikasi, dan mengonversi presentasi dalam .NET C#. Pengembang dapat menggunakannya untuk mengelola teks, bentuk, bagan, tabel & animasi, menambahkan audio & video ke slide, mempratinjau slide, dan banyak lagi.
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" >}}
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="pptx" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="potm-to-pptx"
+        sectionTitle="Aplikasi gratis untuk mengonversi POTM ke PPTX" 
+        sectionDescription="[Coba aplikasi Video gratis kami](https://products.aspose.app/slides/video/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi POTM ke banyak format file lain termasuk beberapa yang tercantum di bawah ini." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Gambar bitmap" >}}

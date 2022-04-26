@@ -89,38 +89,15 @@ presentation.Save("output.swf", SaveFormat.Swf);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert ODP to SWF" sectionDescription="Check our live demos for [ODP to SWF conversion](https://products.aspose.app/slides/conversion/odp-to-swf) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your ODP file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant SWF file." >}}
-
-    {{% blocks/products/pf/agp/content h2="" %}}
-
- पावरपॉइंट और ओपनऑफिस प्रेजेंटेशन फॉर्मेट के लिए एक प्रेजेंटेशन प्रोसेसिंग लाइब्रेरी। एपीआई अनुप्रयोगों को .NET C# में प्रस्तुतियों को पढ़ने, लिखने, संरक्षित करने, संशोधित करने और परिवर्तित करने में सक्षम बनाता है। डेवलपर्स इसका उपयोग टेक्स्ट, आकार, चार्ट, टेबल और एनिमेशन को प्रबंधित करने, स्लाइड में ऑडियो और वीडियो जोड़ने, स्लाइड का पूर्वावलोकन करने और बहुत कुछ करने के लिए कर सकते हैं।
-
-
-
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-        {{< blocks/products/pf/agp/i18n/about-file-text fileFormat="swf" readMoreLink="https://docs.fileformat.com/page-description-language/swf/" >}}
-SWF is a file format used to transport text, video, vector graphics and ActionScript over the internet and supported by Adobe Flash Player. The SWF file format is designed to be a resourceful transfer format, not only for exchanging graphics but also provides supports for anti-aliasing and on-screen display. Anti-aliasing is a feature that is critical  for fast rendering of bitmap and its associated characteristics like interactive buttons, shading and animation .etc.
-
-        {{< /blocks/products/pf/agp/i18n/about-file-text >}}
-
-    {{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="odp-to-swf"
+        sectionTitle="मुफ्त ऐप ODP को SWF में कन्वर्ट करने के लिए" 
+        sectionDescription="[हमारी मुफ्त Text To Gif ऐप आज़माएं](https://products.aspose.app/slides/text-to-gif/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप नीचे सूचीबद्ध कुछ सहित ओडीपी को कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं।" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/odp-to-bmp/" name="ODP TO BMP" description="बिटमैप चित्र" >}}
