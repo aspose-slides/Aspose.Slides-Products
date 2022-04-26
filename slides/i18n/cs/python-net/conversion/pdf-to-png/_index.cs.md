@@ -93,16 +93,15 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to PNG" sectionDescription="Check our live demos for [PDF to PNG conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant PNG file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pdf-to-png"
+        sectionTitle="Aplikace zdarma k převodu PDF na PNG" 
+        sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až PNG](https://products.aspose.app/slides/import/)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované konverze" subTitle="PDF můžete také převést do mnoha dalších formátů souborů. Další podporované konverze naleznete níže" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmapový obrázek" >}}  

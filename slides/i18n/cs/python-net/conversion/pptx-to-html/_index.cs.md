@@ -90,16 +90,15 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PP
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PPTX to HTML" sectionDescription="Check our live demos for [PPTX to HTML conversion](https://products.aspose.app/slides/conversion/) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PPTX file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant HTML file." >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
 <!-- aboutfile Ends -->
 
+    {{< blocks/slides-app-widget 
+        appName="conversion"
+        extension="pptx-to-html"
+        sectionTitle="Aplikace zdarma k převodu PPTX na HTML" 
+        sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
+    >}}
+    
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované konverze" subTitle="Můžete také převést PPTX do mnoha dalších formátů souborů. Další podporované konverze naleznete níže" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmapový obrázek" >}}  
