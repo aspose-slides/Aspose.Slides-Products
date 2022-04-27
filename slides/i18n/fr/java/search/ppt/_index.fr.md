@@ -14,7 +14,7 @@ description: Exemple de code Java pour rechercher des mots avec un modèle dans 
 {{% blocks/products/pf/agp/content h2="Comment rechercher un fichier PPT à l'aide de Java" %}}
 
  Afin de rechercher un fichier PPT, nous utiliserons
- [Aspose.Slides pour Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java)
  API qui est une API de recherche riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme Java. Vous pouvez télécharger sa dernière version directement depuis
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  et installez-le dans votre projet basé sur Maven en ajoutant les configurations suivantes au fichier pom.xml.
@@ -170,8 +170,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres documents de recherche pris en charge" subTitle="En utilisant Java, on peut également rechercher d'autres fichiers, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/search/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/search/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

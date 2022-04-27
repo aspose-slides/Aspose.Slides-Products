@@ -14,7 +14,7 @@ description: Exemple de code de conversion C++ pour le document PPTM au format P
 {{% blocks/products/pf/agp/content h2="Comment convertir PPTM en PPS en utilisant C++" %}}
 
  Afin de convertir PPTM en PPS, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez
@@ -94,26 +94,26 @@ prs->Save(u"convertedFile.pps", Aspose::Slides::Export::SaveFormat::Pps);
     
 {{< blocks/products/pf/agp/other-supported-section title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir PPTM dans de nombreux autres formats de fichiers, dont quelques-uns sont répertoriés ci-dessous." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Image bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Format de métafichier amélioré" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Format d'échange graphique" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-html/" name="PPTM TO HTML" description="Langage Signalétique Hyper Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="Images JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-odp/" name="PPTM TO ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-otp/" name="PPTM TO OTP" description="Format standard OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pot/" name="PPTM TO POT" description="Fichiers de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-potm/" name="PPTM TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-potx/" name="PPTM TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="Diaporama compatible avec les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="Diaporama PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Format de présentation XML ouvert" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Image Vectorielle" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Format d'image balisé" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-xml/" name="PPTM TO XML" description="Langage de balisage extensible" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/pptm-to-xps/" name="PPTM TO XPS" description="Spécifications papier XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Image bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Format de métafichier amélioré" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Format d'échange graphique" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-html/" name="PPTM TO HTML" description="Langage Signalétique Hyper Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="Images JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-odp/" name="PPTM TO ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-otp/" name="PPTM TO OTP" description="Format standard OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-pot/" name="PPTM TO POT" description="Fichiers de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-potm/" name="PPTM TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-potx/" name="PPTM TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="Diaporama compatible avec les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="Diaporama PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Image Vectorielle" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Format d'image balisé" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-xml/" name="PPTM TO XML" description="Langage de balisage extensible" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/conversion/pptm-to-xps/" name="PPTM TO XPS" description="Spécifications papier XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

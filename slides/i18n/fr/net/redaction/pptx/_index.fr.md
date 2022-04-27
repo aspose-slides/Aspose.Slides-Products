@@ -14,7 +14,7 @@ description: Code source C # pour expurger les informations sensibles dans le fi
 {{% blocks/products/pf/agp/content h2="Comment expurger un fichier PPTX à l'aide de C #" %}}
 
  Pour expurger le fichier PPTX, nous utiliserons
- [Aspose.Slides pour .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
  API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour expurger les fichiers PPTX en C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Une recherche de document de base et le remplacement de texte dans le contenu, les commentaires ou les métadonnées avec les API [Aspose.Slides pour .NET](https://products.aspose.com/slides/net) peuvent être effectués avec seulement quelques lignes de code. Recherchez et remplacez du texte dans PowerPoint et OpenOffice. Modifier le texte, les commentaires, les métadonnées dans la présentation via la correspondance des données regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Une recherche de document de base et le remplacement de texte dans le contenu, les commentaires ou les métadonnées avec les API [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net) peuvent être effectués avec seulement quelques lignes de code. Recherchez et remplacez du texte dans PowerPoint et OpenOffice. Modifier le texte, les commentaires, les métadonnées dans la présentation via la correspondance des données regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Charger la présentation PPTX.
@@ -134,8 +134,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de rédaction pris en charge" subTitle="En utilisant C #, on peut facilement rédiger différents formats, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/redaction/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

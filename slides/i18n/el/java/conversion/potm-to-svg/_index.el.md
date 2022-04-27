@@ -14,7 +14,7 @@ description: Δείγμα κώδικα μετατροπής Java για μορφ
 {{% blocks/products/pf/agp/content h2="Πώς να μετατρέψετε το POTM σε SVG χρησιμοποιώντας Java" %}}
 
  Για να αποδώσουμε το POTM σε SVG, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API μετατροπής για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -121,25 +121,25 @@ try {
     
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το POTM σε πολλές άλλες μορφές αρχείων, συμπεριλαμβανομένων μερικών που αναφέρονται παρακάτω." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-bmp/" name="POTM TO BMP" description="Εικόνα Bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-gif/" name="POTM TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-html/" name="POTM TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="Εικόνα JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-odp/" name="POTM TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-otp/" name="POTM TO OTP" description="Τυπική μορφή OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-pdf/" name="POTM TO PDF" description="Μορφή φορητού εγγράφου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-png/" name="POTM TO PNG" description="Φορητά γραφικά δικτύου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-pot/" name="POTM TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-potx/" name="POTM TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-pps/" name="POTM TO PPS" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-swf/" name="POTM TO SWF" description="Μορφή SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/potm-to-xps/" name="POTM TO XPS" description="Προδιαγραφές χαρτιού XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-bmp/" name="POTM TO BMP" description="Εικόνα Bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-gif/" name="POTM TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-html/" name="POTM TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="Εικόνα JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-odp/" name="POTM TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-otp/" name="POTM TO OTP" description="Τυπική μορφή OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-pdf/" name="POTM TO PDF" description="Μορφή φορητού εγγράφου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-png/" name="POTM TO PNG" description="Φορητά γραφικά δικτύου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-pot/" name="POTM TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-potx/" name="POTM TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-pps/" name="POTM TO PPS" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-swf/" name="POTM TO SWF" description="Μορφή SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/conversion/potm-to-xps/" name="POTM TO XPS" description="Προδιαγραφές χαρτιού XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

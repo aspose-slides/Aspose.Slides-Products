@@ -14,7 +14,7 @@ description: نمونه کد تبدیل C++ برای سند PPSM به فرمت P
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل PPSM به PNG با استفاده از ++C" %}}
 
  برای تبدیل PPSM به PNG، از
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp)
  API که یک API غنی از ویژگی، قدرتمند و آسان برای دستکاری و تبدیل اسناد برای پلتفرم ++C است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید
@@ -111,26 +111,26 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می‌توانید PPSM را به بسیاری از فرمت‌های فایل دیگر از جمله تعداد کمی از آنها در زیر تبدیل کنید." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="تصویر بیت مپ" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="فرمت متافایل پیشرفته" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="فرمت تبادل گرافیکی" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-html/" name="PPSM TO HTML" description="زبان نشانه گذاری فرا متنی" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-jpeg/" name="PPSM TO JPEG" description="تصویر JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="فرمت استاندارد OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="فرمت سند قابل حمل" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-pot/" name="PPSM TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="قالب ارائه XML را باز کنید" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="گرافیک برداری مقیاس پذیر" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="فرمت تصویر برچسب شده" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-xml/" name="PPSM TO XML" description="زبان نشانه گذاری توسعه پذیر" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="مشخصات کاغذ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="تصویر بیت مپ" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="فرمت متافایل پیشرفته" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="فرمت تبادل گرافیکی" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-html/" name="PPSM TO HTML" description="زبان نشانه گذاری فرا متنی" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-jpeg/" name="PPSM TO JPEG" description="تصویر JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="فرمت استاندارد OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="فرمت سند قابل حمل" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-pot/" name="PPSM TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="گرافیک برداری مقیاس پذیر" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="فرمت تصویر برچسب شده" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-xml/" name="PPSM TO XML" description="زبان نشانه گذاری توسعه پذیر" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="مشخصات کاغذ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

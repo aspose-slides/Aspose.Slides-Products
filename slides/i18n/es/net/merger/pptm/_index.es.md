@@ -14,7 +14,7 @@ description: Código fuente C# para combinar documentos PPTM en plataformas .NET
 {{% blocks/products/pf/agp/content h2="Cómo fusionar un archivo PPTM usando C#" %}}
 
  Para fusionar el archivo PPTM, usaremos
- [Aspose.Slides para .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides para .NET](https://products.aspose.com/slides/es/net)
  API, que es una API de combinación y manipulación de documentos rica en funciones, potente y fácil de usar para la plataforma C#. Abierto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  administrador de paquetes, busque
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para fusionar archivos PPTM en C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una fusión y concatenación de documentos básicos con [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API con solo unas pocas líneas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una fusión y concatenación de documentos básicos con [Aspose.Slides for .NET](https://products.aspose.com/slides/es/net) API con solo unas pocas líneas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Cargue todos los archivos PPTM con la ruta completa.
@@ -146,16 +146,16 @@ Files with PPTM extension are Macro-enabled Presentation files that are created 
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros formatos de fusión admitidos" subTitle="Usando C#, One también puede fusionar muchos otros formatos de archivo, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/otp/" name="OTP" description="Formato estándar de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pot/" name="POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potm/" name="POTM" description="Archivo de plantilla de Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potx/" name="POTX" description="Presentación de plantilla de Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pps/" name="PPS" description="Presentación de diapositivas de PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsm/" name="PPSM" description="Presentación de diapositivas habilitada para macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsx/" name="PPSX" description="Presentación de diapositivas de PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/otp/" name="OTP" description="Formato estándar de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/pot/" name="POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/potm/" name="POTM" description="Archivo de plantilla de Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/potx/" name="POTX" description="Presentación de plantilla de Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/pps/" name="PPS" description="Presentación de diapositivas de PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/ppsm/" name="PPSM" description="Presentación de diapositivas habilitada para macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/ppsx/" name="PPSX" description="Presentación de diapositivas de PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/merger/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

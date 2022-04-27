@@ -14,7 +14,7 @@ description: Δείγμα κώδικα Java για το κλείδωμα του 
 {{% blocks/products/pf/agp/content h2="Πώς να ασφαλίσετε το αρχείο PPT χρησιμοποιώντας Java" %}}
 
  Για να προστατεύσουμε το αρχείο PPT, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API κρυπτογράφησης για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -141,8 +141,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλα υποστηριζόμενα έγγραφα προστασίας" subTitle="Χρησιμοποιώντας Java, μπορεί κανείς να προστατεύσει άλλα αρχεία, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/protect/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/protect/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

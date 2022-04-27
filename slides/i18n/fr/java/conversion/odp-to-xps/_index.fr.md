@@ -14,7 +14,7 @@ description: Exemple de code de conversion Java pour le format ODP en fichier XP
 {{% blocks/products/pf/agp/content h2="Comment convertir ODP en XPS en utilisant Java" %}}
 
  Afin de rendre ODP en XPS, nous utiliserons
- [Aspose.Slides pour Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java)
  API qui est une API de conversion riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme Java. Vous pouvez télécharger sa dernière version directement depuis
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  et installez-le dans votre projet basé sur Maven en ajoutant les configurations suivantes au fichier pom.xml.
@@ -108,25 +108,25 @@ presentation.save("output.xps", SaveFormat.Xps);
     
 {{< blocks/products/pf/agp/other-supported-section title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir ODP en de nombreux autres formats de fichiers, dont quelques-uns sont répertoriés ci-dessous." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-bmp/" name="ODP TO BMP" description="Image bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-gif/" name="ODP TO GIF" description="Format d'échange graphique" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-html/" name="ODP TO HTML" description="Langage Signalétique Hyper Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-jpeg/" name="ODP TO JPEG" description="Images JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-otp/" name="ODP TO OTP" description="Format standard OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pdf/" name="ODP TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-png/" name="ODP TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pot/" name="ODP TO POT" description="Fichiers de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-potm/" name="ODP TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-potx/" name="ODP TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pps/" name="ODP TO PPS" description="Diaporama PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="Diaporama compatible avec les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="Diaporama PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-ppt/" name="ODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pptm/" name="ODP TO PPTM" description="Fichier de présentation prenant en charge les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pptx/" name="ODP TO PPTX" description="Format de présentation XML ouvert" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-svg/" name="ODP TO SVG" description="Image Vectorielle" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-swf/" name="ODP TO SWF" description="Format SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-tiff/" name="ODP TO TIFF" description="Format d'image balisé" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-bmp/" name="ODP TO BMP" description="Image bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-gif/" name="ODP TO GIF" description="Format d'échange graphique" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-html/" name="ODP TO HTML" description="Langage Signalétique Hyper Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-jpeg/" name="ODP TO JPEG" description="Images JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-otp/" name="ODP TO OTP" description="Format standard OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-pdf/" name="ODP TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-png/" name="ODP TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-pot/" name="ODP TO POT" description="Fichiers de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-potm/" name="ODP TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-potx/" name="ODP TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-pps/" name="ODP TO PPS" description="Diaporama PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="Diaporama compatible avec les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="Diaporama PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-ppt/" name="ODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-pptm/" name="ODP TO PPTM" description="Fichier de présentation prenant en charge les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-pptx/" name="ODP TO PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-svg/" name="ODP TO SVG" description="Image Vectorielle" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-swf/" name="ODP TO SWF" description="Format SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/conversion/odp-to-tiff/" name="ODP TO TIFF" description="Format d'image balisé" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

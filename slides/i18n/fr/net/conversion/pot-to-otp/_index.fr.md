@@ -14,7 +14,7 @@ description: Exemple de code pour la conversion POT en OTP C#. Utilisez le code 
 {{% blocks/products/pf/agp/content h2="Comment convertir POT en OTP en utilisant C#" %}}
 
  Afin de convertir POT en OTP, nous utiliserons
- [Aspose.Slides pour .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
@@ -100,26 +100,26 @@ presentation.Save("output.otp", SaveFormat.Otp);
     
 {{< blocks/products/pf/agp/other-supported-section title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir POT dans de nombreux autres formats de fichiers, dont quelques-uns sont répertoriés ci-dessous." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-bmp/" name="POT TO BMP" description="Image bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-emf/" name="POT TO EMF" description="Format de métafichier amélioré" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-gif/" name="POT TO GIF" description="Format d'échange graphique" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-html/" name="POT TO HTML" description="Langage Signalétique Hyper Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-jpeg/" name="POT TO JPEG" description="Images JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-odp/" name="POT TO ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pdf/" name="POT TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-png/" name="POT TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-potm/" name="POT TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-potx/" name="POT TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pps/" name="POT TO PPS" description="Diaporama PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Diaporama compatible avec les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="Diaporama PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pptm/" name="POT TO PPTM" description="Fichier de présentation prenant en charge les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Format de présentation XML ouvert" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-svg/" name="POT TO SVG" description="Image Vectorielle" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-swf/" name="POT TO SWF" description="Format SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Format d'image balisé" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-xps/" name="POT TO XPS" description="Spécifications papier XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-bmp/" name="POT TO BMP" description="Image bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-emf/" name="POT TO EMF" description="Format de métafichier amélioré" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-gif/" name="POT TO GIF" description="Format d'échange graphique" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-html/" name="POT TO HTML" description="Langage Signalétique Hyper Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-jpeg/" name="POT TO JPEG" description="Images JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-odp/" name="POT TO ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-pdf/" name="POT TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-png/" name="POT TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-potm/" name="POT TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-potx/" name="POT TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-pps/" name="POT TO PPS" description="Diaporama PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Diaporama compatible avec les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="Diaporama PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-pptm/" name="POT TO PPTM" description="Fichier de présentation prenant en charge les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-svg/" name="POT TO SVG" description="Image Vectorielle" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-swf/" name="POT TO SWF" description="Format SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Format d'image balisé" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/conversion/pot-to-xps/" name="POT TO XPS" description="Spécifications papier XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

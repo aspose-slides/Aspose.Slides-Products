@@ -14,7 +14,7 @@ description: Δείγμα κώδικα για μετατροπή OTP σε ODP C#
 {{% blocks/products/pf/agp/content h2="Πώς να μετατρέψετε OTP σε ODP χρησιμοποιώντας C#" %}}
 
  Για να μετατρέψουμε το OTP σε ODP, θα χρησιμοποιήσουμε
- [Aspose.Slides για .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides για .NET](https://products.aspose.com/slides/el/net)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API χειρισμού εγγράφων και μετατροπής για πλατφόρμα C#. Ανοιξε
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  διαχειριστής πακέτων, αναζητήστε
@@ -100,26 +100,26 @@ presentation.Save("output.odp", SaveFormat.Odp);
     
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το OTP σε πολλές άλλες μορφές αρχείων, συμπεριλαμβανομένων μερικών που αναφέρονται παρακάτω." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Εικόνα Bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-emf/" name="OTP TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-gif/" name="OTP TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-html/" name="OTP TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="Εικόνα JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Μορφή φορητού εγγράφου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-png/" name="OTP TO PNG" description="Φορητά γραφικά δικτύου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pot/" name="OTP TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-potm/" name="OTP TO POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-potx/" name="OTP TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pps/" name="OTP TO PPS" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-svg/" name="OTP TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-swf/" name="OTP TO SWF" description="Μορφή SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-xps/" name="OTP TO XPS" description="Προδιαγραφές χαρτιού XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Εικόνα Bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-emf/" name="OTP TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-gif/" name="OTP TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-html/" name="OTP TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="Εικόνα JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Μορφή φορητού εγγράφου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-png/" name="OTP TO PNG" description="Φορητά γραφικά δικτύου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-pot/" name="OTP TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-potm/" name="OTP TO POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-potx/" name="OTP TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-pps/" name="OTP TO PPS" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-svg/" name="OTP TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-swf/" name="OTP TO SWF" description="Μορφή SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/otp-to-xps/" name="OTP TO XPS" description="Προδιαγραφές χαρτιού XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

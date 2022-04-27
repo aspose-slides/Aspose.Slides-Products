@@ -14,7 +14,7 @@ description: Δείγμα κώδικα Java για να ξεκλειδώσετε
 {{% blocks/products/pf/agp/content h2="Πώς να αφαιρέσετε το αρχείο προστασίας PPT χρησιμοποιώντας Java" %}}
 
  Για να ξεκλειδώσετε το αρχείο PPT, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API προστασίας για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -139,8 +139,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές ξεκλειδώματος" subTitle="Χρησιμοποιώντας Java, μπορεί κανείς εύκολα να αφαιρέσει την προστασία / ξεκλείδωμα διαφορετικών μορφών, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/unlock/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/unlock/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

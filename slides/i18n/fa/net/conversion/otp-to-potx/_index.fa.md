@@ -14,7 +14,7 @@ description: کد نمونه برای تبدیل OTP به POTX C#. از کد ن�
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل OTP به POTX با استفاده از C#" %}}
 
  برای تبدیل OTP به POTX، ما استفاده خواهیم کرد
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API غنی از ویژگی، قدرتمند و آسان برای دستکاری و تبدیل اسناد برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -100,26 +100,26 @@ presentation.Save("output.potx", SaveFormat.Potx);
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید OTP را به بسیاری از فرمت های فایل دیگر از جمله تعداد کمی از آنها در زیر تبدیل کنید." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="تصویر بیت مپ" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-emf/" name="OTP TO EMF" description="فرمت متافایل پیشرفته" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-gif/" name="OTP TO GIF" description="فرمت تبادل گرافیکی" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-html/" name="OTP TO HTML" description="زبان نشانه گذاری فرا متنی" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="تصویر JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-odp/" name="OTP TO ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pdf/" name="OTP TO PDF" description="فرمت سند قابل حمل" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-png/" name="OTP TO PNG" description="گرافیک شبکه قابل حمل" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pot/" name="OTP TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-potm/" name="OTP TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pps/" name="OTP TO PPS" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-ppt/" name="OTP TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="قالب ارائه XML را باز کنید" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-svg/" name="OTP TO SVG" description="گرافیک برداری مقیاس پذیر" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-swf/" name="OTP TO SWF" description="فرمت SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="فرمت تصویر برچسب شده" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/otp-to-xps/" name="OTP TO XPS" description="مشخصات کاغذ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="تصویر بیت مپ" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-emf/" name="OTP TO EMF" description="فرمت متافایل پیشرفته" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-gif/" name="OTP TO GIF" description="فرمت تبادل گرافیکی" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-html/" name="OTP TO HTML" description="زبان نشانه گذاری فرا متنی" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="تصویر JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-odp/" name="OTP TO ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-pdf/" name="OTP TO PDF" description="فرمت سند قابل حمل" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-png/" name="OTP TO PNG" description="گرافیک شبکه قابل حمل" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-pot/" name="OTP TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-potm/" name="OTP TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-pps/" name="OTP TO PPS" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-ppt/" name="OTP TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-svg/" name="OTP TO SVG" description="گرافیک برداری مقیاس پذیر" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-swf/" name="OTP TO SWF" description="فرمت SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="فرمت تصویر برچسب شده" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/conversion/otp-to-xps/" name="OTP TO XPS" description="مشخصات کاغذ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

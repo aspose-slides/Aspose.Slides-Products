@@ -14,7 +14,7 @@ description: Δείγμα κώδικα για μετατροπή POTX σε OTP C
 {{% blocks/products/pf/agp/content h2="Πώς να μετατρέψετε POTX σε OTP χρησιμοποιώντας C#" %}}
 
  Για να μετατρέψουμε το POTX σε OTP, θα χρησιμοποιήσουμε
- [Aspose.Slides για .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides για .NET](https://products.aspose.com/slides/el/net)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API χειρισμού εγγράφων και μετατροπής για πλατφόρμα C#. Ανοιξε
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  διαχειριστής πακέτων, αναζητήστε
@@ -100,26 +100,26 @@ presentation.Save("output.otp", SaveFormat.Otp);
     
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το POTX σε πολλές άλλες μορφές αρχείων, συμπεριλαμβανομένων μερικών που αναφέρονται παρακάτω." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Εικόνα Bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-emf/" name="POTX TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-gif/" name="POTX TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-html/" name="POTX TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-jpeg/" name="POTX TO JPEG" description="Εικόνα JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-odp/" name="POTX TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pdf/" name="POTX TO PDF" description="Μορφή φορητού εγγράφου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-png/" name="POTX TO PNG" description="Φορητά γραφικά δικτύου" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pot/" name="POTX TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-potm/" name="POTX TO POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pps/" name="POTX TO PPS" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-svg/" name="POTX TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-swf/" name="POTX TO SWF" description="Μορφή SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-xps/" name="POTX TO XPS" description="Προδιαγραφές χαρτιού XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Εικόνα Bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-emf/" name="POTX TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-gif/" name="POTX TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-html/" name="POTX TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-jpeg/" name="POTX TO JPEG" description="Εικόνα JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-odp/" name="POTX TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-pdf/" name="POTX TO PDF" description="Μορφή φορητού εγγράφου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-png/" name="POTX TO PNG" description="Φορητά γραφικά δικτύου" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-pot/" name="POTX TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-potm/" name="POTX TO POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-pps/" name="POTX TO PPS" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-svg/" name="POTX TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-swf/" name="POTX TO SWF" description="Μορφή SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/potx-to-xps/" name="POTX TO XPS" description="Προδιαγραφές χαρτιού XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

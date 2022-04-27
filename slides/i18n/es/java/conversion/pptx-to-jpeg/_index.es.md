@@ -14,7 +14,7 @@ description: Ejemplo de código de conversión de Java para formato PPTX a archi
 {{% blocks/products/pf/agp/content h2="Cómo convertir PPTX a JPEG usando Java" %}}
 
  Para renderizar PPTX a JPEG, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/es/java)
  API que es una API de conversión rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.
@@ -121,25 +121,25 @@ for (ISlide sld : presentation.getSlides())
     
 {{< blocks/products/pf/agp/other-supported-section title="Otras conversiones admitidas" subTitle="También puede convertir PPTX a muchos otros formatos de archivo, incluidos algunos de los que se enumeran a continuación." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Imagen de mapa de bits" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Formato de intercambio gráfico" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-html/" name="PPTX TO HTML" description="Lenguaje de marcado de hipertexto" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-odp/" name="PPTX TO ODP" description="Formato de presentación de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-otp/" name="PPTX TO OTP" description="Formato estándar de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Formato de Documento Portable" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-png/" name="PPTX TO PNG" description="Gráficos de red portátiles" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-pot/" name="PPTX TO POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-potm/" name="PPTX TO POTM" description="Archivo de plantilla de Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-potx/" name="PPTX TO POTX" description="Presentación de plantilla de Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-pps/" name="PPTX TO PPS" description="Presentación de diapositivas de PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Presentación de diapositivas habilitada para macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="Presentación de diapositivas de PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Archivo de presentación habilitado para macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-svg/" name="PPTX TO SVG" description="gráficas vectoriales escalables" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-swf/" name="PPTX TO SWF" description="Formato SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Formato de imagen etiquetada" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-xps/" name="PPTX TO XPS" description="Especificaciones de papel XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Imagen de mapa de bits" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Formato de intercambio gráfico" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-html/" name="PPTX TO HTML" description="Lenguaje de marcado de hipertexto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-odp/" name="PPTX TO ODP" description="Formato de presentación de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-otp/" name="PPTX TO OTP" description="Formato estándar de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Formato de Documento Portable" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-png/" name="PPTX TO PNG" description="Gráficos de red portátiles" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-pot/" name="PPTX TO POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-potm/" name="PPTX TO POTM" description="Archivo de plantilla de Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-potx/" name="PPTX TO POTX" description="Presentación de plantilla de Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-pps/" name="PPTX TO PPS" description="Presentación de diapositivas de PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Presentación de diapositivas habilitada para macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="Presentación de diapositivas de PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Archivo de presentación habilitado para macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-svg/" name="PPTX TO SVG" description="gráficas vectoriales escalables" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-swf/" name="PPTX TO SWF" description="Formato SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Formato de imagen etiquetada" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pptx-to-xps/" name="PPTX TO XPS" description="Especificaciones de papel XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: کد نمونه برای تبدیل PPSX به SVG پایتون. ب�
 
 {{% blocks/products/pf/agp/content h2="تبدیل PPSX به SVG در پایتون" %}}
 
-آیا نیاز به تبدیل فایل های PPSX به SVG دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/python-net/) هر توسعه دهنده می تواند PPSX را تنها با چند خط کد پایتون به فرمت SVG تبدیل کند.
+آیا نیاز به تبدیل فایل های PPSX به SVG دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند PPSX را تنها با چند خط کد پایتون به فرمت SVG تبدیل کند.
 
 به عنوان یک API پردازش ارائه مدرن، Aspose.Slides برای Python به سرعت SVG را از PPSX ایجاد می کند. کیفیت تبدیل PPSX به SVG را دقیقاً در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های PPSX را به بسیاری از فرمت های محبوب تبدیل کنید.
 
@@ -103,27 +103,27 @@ with slides.Presentation("presentation.ppsx") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید PPSX را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="تصویر بیت مپ" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="فرمت متافایل پیشرفته" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-fodp/" name="PPSX TO FODP" description="OpenDocument Flat XML Presentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="فرمت تبادل گرافیکی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-jpg/" name="PPSX TO JPG" description="تصویر JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="فرمت ارائه اسناد باز" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="فرمت استاندارد OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="فرمت سند قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-png/" name="PPSX TO PNG" description="گرافیک شبکه قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-pot/" name="PPSX TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-potm/" name="PPSX TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-potx/" name="PPSX TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-pps/" name="PPSX TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-ppt/" name="PPSX TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="فرمت SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="فرمت تصویر برچسب شده" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="مشخصات کاغذ XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="تصویر بیت مپ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="فرمت متافایل پیشرفته" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-fodp/" name="PPSX TO FODP" description="OpenDocument Flat XML Presentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="فرمت تبادل گرافیکی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-jpg/" name="PPSX TO JPG" description="تصویر JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="فرمت ارائه اسناد باز" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="فرمت استاندارد OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="فرمت سند قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-png/" name="PPSX TO PNG" description="گرافیک شبکه قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-pot/" name="PPSX TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-potm/" name="PPSX TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-potx/" name="PPSX TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-pps/" name="PPSX TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-ppt/" name="PPSX TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="فرمت SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="فرمت تصویر برچسب شده" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="مشخصات کاغذ XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

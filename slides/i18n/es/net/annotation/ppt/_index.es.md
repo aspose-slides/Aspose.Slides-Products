@@ -14,7 +14,7 @@ description: Código fuente de C# para eliminar anotaciones en formato PPT en la
 {{% blocks/products/pf/agp/content h2="Cómo anotar un archivo PPT usando C#" %}}
 
  Para anotar el archivo PPT, usaremos
- [Aspose.Slides para .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides para .NET](https://products.aspose.com/slides/es/net)
  API, que es una API de manipulación de documentos rica en funciones, potente y fácil de usar para la plataforma C#. Abierto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  administrador de paquetes, busque
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros formatos de anotación admitidos" subTitle="Usando C#, uno puede anotar fácilmente otros formatos, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/annotation/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/annotation/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/annotation/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/annotation/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

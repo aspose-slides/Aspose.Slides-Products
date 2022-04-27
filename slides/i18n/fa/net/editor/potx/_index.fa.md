@@ -12,7 +12,7 @@ description: کد منبع سی شارپ برای ویرایش سند POTX در 
 
 {{% blocks/products/pf/agp/content h2="نحوه ویرایش فایل POTX با استفاده از سی شارپ" %}}
 
-به منظور ویرایش فایل POTX، از <a href="https://products.aspose.com/slides/net">Aspose.Slides برای NET.</a> API استفاده خواهیم کرد که یک ویژگی غنی و قدرتمند است. و آسان برای استفاده از API برای پلت فرم C# برای هر ویرایشگر. مدیر بسته <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> را باز کنید، <b>Aspose.Slides</b> را جستجو کرده و نصب کنید. همچنین می توانید از دستور زیر در کنسول Package Manager استفاده کنید.
+به منظور ویرایش فایل POTX، از <a href="https://products.aspose.com/slides/fa/net">Aspose.Slides برای NET.</a> API استفاده خواهیم کرد که یک ویژگی غنی و قدرتمند است. و آسان برای استفاده از API برای پلت فرم C# برای هر ویرایشگر. مدیر بسته <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> را باز کنید، <b>Aspose.Slides</b> را جستجو کرده و نصب کنید. همچنین می توانید از دستور زیر در کنسول Package Manager استفاده کنید.
 
 {{% blocks/products/pf/agp/code-block title="فرمان" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  یک ویرایش اولیه سند با
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API ها را می توان تنها با چند خط کد انجام داد.
 
 {{% /blocks/products/pf/agp/text %}}

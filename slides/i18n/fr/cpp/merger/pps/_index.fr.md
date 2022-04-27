@@ -14,7 +14,7 @@ description: Exemple de code C++ pour combiner des documents PPS sur C++ Runtime
 {{% blocks/products/pf/agp/content h2="Comment fusionner un fichier PPS avec C++" %}}
 
  Afin de fusionner le fichier PPS, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
  API qui est une API de fusion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour fusionner des fichiers PPS en C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Un document de base fusionnant et concaténant avec les API [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp) peut être réalisé avec seulement quelques lignes de code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Un document de base fusionnant et concaténant avec les API [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp) peut être réalisé avec seulement quelques lignes de code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Chargez les deux fichiers PPS.
@@ -131,16 +131,16 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de fusion pris en charge" subTitle="En utilisant C++, One peut également fusionner de nombreux autres formats de fichiers, y compris .." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/otp/" name="OTP" description="Format standard OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pot/" name="POT" description="Fichiers de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/potm/" name="POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/potx/" name="POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppsm/" name="PPSM" description="Diaporama compatible avec les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppsx/" name="PPSX" description="Diaporama PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pptm/" name="PPTM" description="Fichier de présentation prenant en charge les macros" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/otp/" name="OTP" description="Format standard OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/pot/" name="POT" description="Fichiers de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/potm/" name="POTM" description="Fichier de modèle Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/potx/" name="POTX" description="Modèle de présentation Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/ppsm/" name="PPSM" description="Diaporama compatible avec les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/ppsx/" name="PPSX" description="Diaporama PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/pptm/" name="PPTM" description="Fichier de présentation prenant en charge les macros" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/merger/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

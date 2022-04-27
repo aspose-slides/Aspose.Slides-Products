@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای استخراج متن و تص�
 {{% blocks/products/pf/agp/content h2="نحوه تجزیه فایل ODP با استفاده از C#" %}}
 
  برای تجزیه فایل ODP، از
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API دستکاری اسناد غنی، قدرتمند و آسان برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل تجزیه فایل های ODP در سی شارپ" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="تجزیه سند پایه با [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="تجزیه سند پایه با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net) APIها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 فایل ODP را بارگیری کنید.
@@ -143,8 +143,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های تجزیه پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان به راحتی فرمت های دیگر از جمله." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/parser/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/parser/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

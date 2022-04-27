@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای ویرایش یا مشاهده
 {{% blocks/products/pf/agp/content h2="نحوه استخراج فراداده PPS با استفاده از سی شارپ" %}}
 
  به منظور استخراج فراداده PPS، ما استفاده خواهیم کرد
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API فراداده اسناد غنی، قدرتمند و آسان برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -136,16 +136,16 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های فراداده پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان ابرداده های بسیاری از فرمت های دیگر از جمله را نیز دستکاری کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/otp/" name="OTP" description="فرمت استاندارد OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pot/" name="POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potm/" name="POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potx/" name="POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsm/" name="PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsx/" name="PPSX" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptm/" name="PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/otp/" name="OTP" description="فرمت استاندارد OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/pot/" name="POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/potm/" name="POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/potx/" name="POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/ppsm/" name="PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/ppsx/" name="PPSX" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/pptm/" name="PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/metadata/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

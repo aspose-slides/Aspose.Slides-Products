@@ -14,7 +14,7 @@ description: Exemple de code C++ pour verrouiller le fichier PPTX à l'aide d'un
 {{% blocks/products/pf/agp/content h2="Comment sécuriser un fichier PPTX à l'aide de C++" %}}
 
  Afin de protéger le fichier PPTX, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
  API qui est une API de chiffrement de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez
@@ -124,8 +124,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres documents de protection pris en charge" subTitle="En utilisant C++, on peut protéger d'autres fichiers, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/protect/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

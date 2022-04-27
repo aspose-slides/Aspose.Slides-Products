@@ -14,7 +14,7 @@ description: Código de muestra para la conversión de PPT a POTX Python. Utilic
 
 {{% blocks/products/pf/agp/content h2="Convertir PPT a POTX en Python" %}}
 
-¿Necesita convertir archivos PPT a POTX mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) cualquier desarrollador puede convertir el formato PPT a POTX con solo unas pocas líneas de código Python.
+¿Necesita convertir archivos PPT a POTX mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/es/python-net/) cualquier desarrollador puede convertir el formato PPT a POTX con solo unas pocas líneas de código Python.
 
 Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea POTX a partir de PPT rápidamente. Pruebe la calidad de la conversión de PPT a POTX directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos PPT a muchos formatos populares.
 
@@ -101,27 +101,27 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
     
 {{< blocks/products/pf/agp/other-supported-section title="Otras conversiones admitidas" subTitle="También puede convertir PPT a muchos otros formatos de archivo. Vea otras conversiones admitidas a continuación" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Imagen de mapa de bits" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-emf/" name="PPT TO EMF" description="Formato de metarchivo mejorado" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-fodp/" name="PPT TO FODP" description="Presentación XML plana de OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Formato de intercambio gráfico" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-html/" name="PPT TO HTML" description="Lenguaje de marcado de hipertexto" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-jpg/" name="PPT TO JPG" description="Imagen JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-odp/" name="PPT TO ODP" description="Formato de presentación de OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-otp/" name="PPT TO OTP" description="Formato estándar de OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-pdf/" name="PPT TO PDF" description="Formato de Documento Portable" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-png/" name="PPT TO PNG" description="Gráficos de red portátiles" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-pot/" name="PPT TO POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-potm/" name="PPT TO POTM" description="Archivo de plantilla de Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-pps/" name="PPT TO PPS" description="Presentación de diapositivas de PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="Presentación de diapositivas habilitada para macros" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="Presentación de diapositivas de PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="Archivo de presentación habilitado para macros" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Formato de presentación XML abierto" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-svg/" name="PPT TO SVG" description="gráficas vectoriales escalables" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-swf/" name="PPT TO SWF" description="Formato SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Formato de imagen etiquetada" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-xps/" name="PPT TO XPS" description="Especificaciones de papel XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Imagen de mapa de bits" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-emf/" name="PPT TO EMF" description="Formato de metarchivo mejorado" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-fodp/" name="PPT TO FODP" description="Presentación XML plana de OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Formato de intercambio gráfico" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-html/" name="PPT TO HTML" description="Lenguaje de marcado de hipertexto" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-jpg/" name="PPT TO JPG" description="Imagen JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-odp/" name="PPT TO ODP" description="Formato de presentación de OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-otp/" name="PPT TO OTP" description="Formato estándar de OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-pdf/" name="PPT TO PDF" description="Formato de Documento Portable" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-png/" name="PPT TO PNG" description="Gráficos de red portátiles" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-pot/" name="PPT TO POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-potm/" name="PPT TO POTM" description="Archivo de plantilla de Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-pps/" name="PPT TO PPS" description="Presentación de diapositivas de PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="Presentación de diapositivas habilitada para macros" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="Presentación de diapositivas de PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="Archivo de presentación habilitado para macros" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Formato de presentación XML abierto" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-svg/" name="PPT TO SVG" description="gráficas vectoriales escalables" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-swf/" name="PPT TO SWF" description="Formato SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Formato de imagen etiquetada" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/conversion/ppt-to-xps/" name="PPT TO XPS" description="Especificaciones de papel XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

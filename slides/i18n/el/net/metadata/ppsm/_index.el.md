@@ -14,7 +14,7 @@ description: Πηγαίος κώδικας C# για επεξεργασία ή �
 {{% blocks/products/pf/agp/content h2="Πώς να εξαγάγετε μεταδεδομένα PPSM χρησιμοποιώντας C#" %}}
 
  Για να εξαγάγουμε τα μεταδεδομένα PPSM, θα χρησιμοποιήσουμε
- [Aspose.Slides για .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides για .NET](https://products.aspose.com/slides/el/net)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API μεταδεδομένων εγγράφων για πλατφόρμα C#. Ανοιξε
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  διαχειριστής πακέτων, αναζητήστε
@@ -136,16 +136,16 @@ Files with PPSM extension represent Macro-enabled Slide Show file format created
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές μεταδεδομένων" subTitle="Χρησιμοποιώντας C#, κάποιος μπορεί επίσης να χειριστεί μεταδεδομένα πολλών άλλων μορφών, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/otp/" name="OTP" description="Τυπική μορφή OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pot/" name="POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potm/" name="POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potx/" name="POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pps/" name="PPS" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsx/" name="PPSX" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptm/" name="PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/otp/" name="OTP" description="Τυπική μορφή OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pot/" name="POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/potm/" name="POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/potx/" name="POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pps/" name="PPS" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/ppsx/" name="PPSX" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pptm/" name="PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

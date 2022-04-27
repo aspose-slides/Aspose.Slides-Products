@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای افزودن یا حذف واتر
 {{% blocks/products/pf/agp/content h2="نحوه واترمارک کردن فایل PPT با استفاده از جاوا" %}}
 
  به منظور واترمارک کردن فایل PPT، از آن استفاده خواهیم کرد
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
  API که یک API واترمارک غنی از ویژگی، قدرتمند و آسان برای استفاده برای پلت فرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -166,7 +166,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های Watermarking پشتیبانی شده" subTitle="با استفاده از جاوا می توان به راحتی فرمت های مختلف از جمله واترمارک کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/watermark/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/watermark/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

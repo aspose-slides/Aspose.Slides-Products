@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای ترکیب اسناد POTM در J
 {{% blocks/products/pf/agp/content h2="نحوه ادغام فایل های POTM با استفاده از جاوا" %}}
 
  برای ادغام فایل POTM، از
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
  API که یک API ادغام با ویژگی های غنی، قدرتمند و آسان برای پلت فرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای ترکیب اسناد POTM در J
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ادغام فایل های POTM در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for Java](https://products.aspose.com/slides/java) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 اولین فایل POTM را با نمونه ای از کلاس Presentation بارگیری کنید.
@@ -150,16 +150,16 @@ Files with POTM extension are Microsoft PowerPoint template files with support f
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های ادغام پشتیبانی شده" subTitle="با استفاده از جاوا، One می تواند بسیاری از فرمت های فایل دیگر از جمله ..." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/otp/" name="OTP" description="فرمت استاندارد OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pot/" name="POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potx/" name="POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pps/" name="PPS" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppsm/" name="PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppsx/" name="PPSX" description="نمایش اسلاید پاورپوینت" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptm/" name="PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/otp/" name="OTP" description="فرمت استاندارد OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/pot/" name="POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/potx/" name="POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/pps/" name="PPS" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/ppsm/" name="PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/ppsx/" name="PPSX" description="نمایش اسلاید پاورپوینت" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/pptm/" name="PPTM" description="فایل ارائه با قابلیت ماکرو" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

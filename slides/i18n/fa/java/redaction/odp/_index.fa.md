@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای ویرایش اطلاعات حس�
 {{% blocks/products/pf/agp/content h2="نحوه ویرایش فایل ODP با استفاده از جاوا" %}}
 
  به منظور ویرایش فایل ODP، ما استفاده خواهیم کرد
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
  API که یک API ویرایشی غنی، قدرتمند و آسان برای استفاده برای پلتفرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای ویرایش اطلاعات حس�
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ویرایش فایل های ODP در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="جستجوی اولیه سند و جایگزینی متن در محتوا، نظرات یا ابرداده با [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIها را می توان تنها با چند خط کد انجام داد. متن را در پاورپوینت و اپن آفیس پیدا و جایگزین کنید. ویرایش متن، نظرات، ابرداده در ارائه از طریق تطبیق داده های regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="جستجوی اولیه سند و جایگزینی متن در محتوا، نظرات یا ابرداده با [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) APIها را می توان تنها با چند خط کد انجام داد. متن را در پاورپوینت و اپن آفیس پیدا و جایگزین کنید. ویرایش متن، نظرات، ابرداده در ارائه از طریق تطبیق داده های regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 بارگزاری ODP
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر اسناد ویرایش پشتیبانی شده" subTitle="با استفاده از جاوا، می توان به راحتی فرمت های مختلف از جمله را ویرایش کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/redaction/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/redaction/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

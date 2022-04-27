@@ -14,7 +14,7 @@ description: کد مثال C++ برای استخراج متن و تصاویر ا
 {{% blocks/products/pf/agp/content h2="چگونه فایل PPT را با استفاده از C++ تجزیه کنیم" %}}
 
  برای تجزیه فایل PPT، از
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp)
  API که یک API تجزیه اسناد غنی، قدرتمند و آسان برای استفاده برای پلتفرم C++ است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل تجزیه فایل های PPT در C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="تجزیه سند پایه با [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) APIها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="تجزیه سند پایه با [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp) APIها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 فایل PPT را بارگیری کنید.
@@ -146,8 +146,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر اسناد تجزیه و تحلیل پشتیبانی شده" subTitle="با استفاده از C++، می توان به راحتی فرمت های دیگر از جمله را تجزیه کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/parser/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/parser/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

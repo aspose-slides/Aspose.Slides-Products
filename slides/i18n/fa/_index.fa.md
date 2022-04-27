@@ -11,19 +11,19 @@ description: Aspose.Slides یک API پاورپوینت برای دستکاری �
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs شامل" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/fa/net" >}}
 در Premise .NET API برای دستکاری ارائه های مایکروسافت پاورپوینت در برنامه های توسعه یافته با استفاده از NET Framework، .NET Core و دیگر پلتفرم ها از طریق COM Interop.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/fa/java" >}}
 API های جاوا برای ایجاد، بارگیری، دستکاری، تبدیل یا تجزیه ارائه ها، اسلایدها و عناصر مایکروسافت پاورپوینت در هر برنامه کاربردی مبتنی بر Java SE یا EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/fa/cpp" >}}
 کتابخانه بومی برای برنامه های ++C برای ایجاد، بارگیری، دستکاری، تبدیل یا رندر فایل های Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="مشاهده همه APIهای High Code" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/fa/family/" innerText="مشاهده همه APIهای High Code" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

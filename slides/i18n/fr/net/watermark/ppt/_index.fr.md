@@ -14,7 +14,7 @@ description: Code source C # pour ajouter ou supprimer un filigrane au fichier P
 {{% blocks/products/pf/agp/content h2="Comment filigraner un fichier PPT à l'aide de C#" %}}
 
  Afin de filigraner le fichier PPT, nous utiliserons
- [Aspose.Slides pour .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
  API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
@@ -129,7 +129,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de filigrane pris en charge" subTitle="En utilisant C #, on peut facilement filigraner différents formats, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/watermark/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

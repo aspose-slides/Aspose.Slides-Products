@@ -11,19 +11,19 @@ description: Το Aspose.Slides είναι ένα PowerPoint API για χειρ
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/el/net" >}}
 On Premise .NET API για χειρισμό παρουσιάσεων του Microsoft PowerPoint εντός εφαρμογών που έχουν αναπτυχθεί χρησιμοποιώντας .NET Framework, .NET Core και άλλες πλατφόρμες μέσω COM Interop.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/el/java" >}}
 Java API για δημιουργία, φόρτωση, χειρισμό, μετατροπή ή ανάλυση παρουσιάσεων, διαφανειών και στοιχείων του Microsoft PowerPoint σε οποιαδήποτε εφαρμογή που βασίζεται σε Java SE ή EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/el/cpp" >}}
 Εγγενής βιβλιοθήκη για εφαρμογές C++ για δημιουργία, φόρτωση, χειρισμό, μετατροπή ή απόδοση αρχείων Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="Προβολή όλων των API High Code" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/el/family/" innerText="Προβολή όλων των API High Code" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

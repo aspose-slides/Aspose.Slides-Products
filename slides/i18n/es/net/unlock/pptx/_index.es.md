@@ -14,7 +14,7 @@ description: Código fuente de C# para desbloquear archivos PPTX protegidos con 
 {{% blocks/products/pf/agp/content h2="Cómo desbloquear archivos PPTX usando C#" %}}
 
  Para eliminar el archivo PPTX de protección, usaremos
- [Aspose.Slides para .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides para .NET](https://products.aspose.com/slides/es/net)
  API que es una API de protección de documentos rica en funciones, potente y fácil de usar para la plataforma C#. Abierto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  administrador de paquetes, busque
@@ -127,8 +127,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros formatos de desbloqueo admitidos" subTitle="Usando C#, uno puede eliminar fácilmente la protección/desbloqueo de diferentes formatos, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/unlock/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

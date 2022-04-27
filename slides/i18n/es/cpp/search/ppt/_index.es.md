@@ -14,7 +14,7 @@ description: Código de ejemplo de C++ para buscar palabras con patrón en un ar
 {{% blocks/products/pf/agp/content h2="Cómo buscar archivos PPT usando C++" %}}
 
  Para buscar un archivo PPT, usaremos
- [Aspose.Slides para C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp)
  API que es una API de búsqueda de documentos rica en funciones, potente y fácil de usar para la plataforma C++. Puede descargar su última versión directamente, simplemente abra
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  administrador de paquetes, busque
@@ -144,8 +144,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros documentos de búsqueda admitidos" subTitle="Usando C ++, también se pueden buscar otros archivos, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/search/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/search/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Código fuente de C# para redactar información confidencial en arc
 {{% blocks/products/pf/agp/content h2="Cómo redactar un archivo ODP usando C#" %}}
 
  Para redactar el archivo ODP, usaremos
- [Aspose.Slides para .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides para .NET](https://products.aspose.com/slides/es/net)
  API, que es una API de manipulación de documentos rica en funciones, potente y fácil de usar para la plataforma C#. Abierto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  administrador de paquetes, busque
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para redactar archivos ODP en C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una búsqueda básica de documentos y reemplazar texto en contenidos, comentarios o metadatos con [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API con solo unas pocas líneas de código. Busque y reemplace texto en PowerPoint y OpenOffice. Edite texto, comentarios, metadatos en la presentación a través de la coincidencia de datos de expresiones regulares." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una búsqueda básica de documentos y reemplazar texto en contenidos, comentarios o metadatos con [Aspose.Slides for .NET](https://products.aspose.com/slides/es/net) API con solo unas pocas líneas de código. Busque y reemplace texto en PowerPoint y OpenOffice. Edite texto, comentarios, metadatos en la presentación a través de la coincidencia de datos de expresiones regulares." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Cargar presentación ODP.
@@ -134,8 +134,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros formatos de redacción admitidos" subTitle="Con C#, uno puede redactar fácilmente diferentes formatos, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/redaction/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

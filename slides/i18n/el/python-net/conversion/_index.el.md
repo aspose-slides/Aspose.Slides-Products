@@ -10,12 +10,12 @@ description: Python API για μετατροπή PPT σε PDF. Μετατροπ
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-Το [Aspose.Slides for Python μέσω .NET](https://products.aspose.com/slides/python-net/) είναι μια ισχυρή βιβλιοθήκη κλάσης εσωτερικής εγκατάστασης που χρησιμοποιείται για επεξεργασία και εργασία με παρουσιάσεις. Είναι εύκολο για τους προγραμματιστές να μετατρέψουν το PowerPoint σε PDF με ταχύτητα και ακρίβεια. Λάβετε τα αποτελέσματα σε χρόνο μηδέν για την αυτοματοποίηση των επιχειρηματικών διαδικασιών. Εδώ συζητάμε μερικές περιπτώσεις για ανάγνωση ή φόρτωση οποιασδήποτε εισόδου [υποστηριζόμενες μορφές PowerPoint](https://docs.aspose.com/slides/python-net/supported-file-formats/) και εγγραφή ή αποθήκευση σε οποιαδήποτε υποστηριζόμενη μορφή εξόδου . 
+Το [Aspose.Slides for Python μέσω .NET](https://products.aspose.com/slides/el/python-net/) είναι μια ισχυρή βιβλιοθήκη κλάσης εσωτερικής εγκατάστασης που χρησιμοποιείται για επεξεργασία και εργασία με παρουσιάσεις. Είναι εύκολο για τους προγραμματιστές να μετατρέψουν το PowerPoint σε PDF με ταχύτητα και ακρίβεια. Λάβετε τα αποτελέσματα σε χρόνο μηδέν για την αυτοματοποίηση των επιχειρηματικών διαδικασιών. Εδώ συζητάμε μερικές περιπτώσεις για ανάγνωση ή φόρτωση οποιασδήποτε εισόδου [υποστηριζόμενες μορφές PowerPoint](https://docs.aspose.com/slides/python-net/supported-file-formats/) και εγγραφή ή αποθήκευση σε οποιαδήποτε υποστηριζόμενη μορφή εξόδου . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Μετατροπή PowerPoint σε PDF στην Python" %}}
-Το [Aspose.Slides](https://products.aspose.com/slides/python-net/) σάς επιτρέπει να μετατρέπετε αρχεία σε μορφές PowerPoint PPT, PPTX και OpenOffice ODP σε PDF. Για να μετατρέψετε μια παρουσίαση σε PDF, απλώς περάστε το όνομα του αρχείου και τη μορφή αποθήκευσης στο [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) μέθοδος. Η κλάση [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) εκθέτει το [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) μέθοδος που μπορεί να κληθεί για να μετατρέψει ολόκληρη την παρουσίαση PPT, PPTX ή ODP σε έγγραφο PDF.
+Το [Aspose.Slides](https://products.aspose.com/slides/el/python-net/) σάς επιτρέπει να μετατρέπετε αρχεία σε μορφές PowerPoint PPT, PPTX και OpenOffice ODP σε PDF. Για να μετατρέψετε μια παρουσίαση σε PDF, απλώς περάστε το όνομα του αρχείου και τη μορφή αποθήκευσης στο [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) μέθοδος. Η κλάση [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) εκθέτει το [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) μέθοδος που μπορεί να κληθεί για να μετατρέψει ολόκληρη την παρουσίαση PPT, PPTX ή ODP σε έγγραφο PDF.
 
 {{% blocks/products/pf/feature-page-code h3="Μετατροπή Python PowerPoint σε PDF" %}}
 
@@ -26,7 +26,7 @@ description: Python API για μετατροπή PPT σε PDF. Μετατροπ
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Μετατροπή PDF σε PPT στην Python" %}}
-Το [Aspose.Slides](https://products.aspose.com/slides/python-net/) σάς επιτρέπει να εισάγετε παρουσιάσεις από αρχεία PDF. Ουσιαστικά, μπορείτε να μετατρέψετε ένα PDF σε παρουσίαση PowerPoint. Για να μετατρέψετε PDF σε Powerpoint, ακολουθήστε αυτά τα βήματα:
+Το [Aspose.Slides](https://products.aspose.com/slides/el/python-net/) σάς επιτρέπει να εισάγετε παρουσιάσεις από αρχεία PDF. Ουσιαστικά, μπορείτε να μετατρέψετε ένα PDF σε παρουσίαση PowerPoint. Για να μετατρέψετε PDF σε Powerpoint, ακολουθήστε αυτά τα βήματα:
 - Δημιουργήστε ένα αντικείμενο της κλάσης [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
 - Καλέστε τη μέθοδο [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) και περάστε το αρχείο PDF.
 - Χρησιμοποιήστε τη μέθοδο [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) για να αποθηκεύσετε το αρχείο σε μορφή PowerPoint.

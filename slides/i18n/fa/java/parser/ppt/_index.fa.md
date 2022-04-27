@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای استخراج متن و تصاو
 {{% blocks/products/pf/agp/content h2="نحوه تجزیه فایل PPT با استفاده از جاوا" %}}
 
  برای تجزیه فایل PPT، از
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
  API که یک API تجزیه کننده غنی، قدرتمند و آسان برای استفاده برای پلتفرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای استخراج متن و تصاو
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل تجزیه فایل های PPT در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="تجزیه سند پایه با [Aspose.Slides for Java](https://products.aspose.com/slides/java) API ها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="تجزیه سند پایه با [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) API ها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 فایل PPT را با نصب کلاس Presentation بارگیری کنید.
@@ -163,8 +163,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر اسناد تجزیه و تحلیل پشتیبانی شده" subTitle="با استفاده از جاوا، می توان به راحتی فرمت های دیگر از جمله." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/parser/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/parser/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

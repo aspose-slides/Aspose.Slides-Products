@@ -14,7 +14,7 @@ description: Παράδειγμα κώδικα C++ για συνδυασμό ε�
 {{% blocks/products/pf/agp/content h2="Πώς να συγχωνεύσετε αρχείο PPS χρησιμοποιώντας C++" %}}
 
  Για να συγχωνεύσουμε το αρχείο PPS, θα χρησιμοποιήσουμε
- [Aspose.Slides για C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides για C++](https://products.aspose.com/slides/el/cpp)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API συγχώνευσης εγγράφων για πλατφόρμα C++. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας, απλά ανοίξτε
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  διαχειριστής πακέτων, αναζητήστε
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για τη συγχώνευση αρχείων PPS σε C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό έγγραφο που συγχωνεύεται και συνδέεται με τα API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό έγγραφο που συγχωνεύεται και συνδέεται με τα API [Aspose.Slides for C++](https://products.aspose.com/slides/el/cpp) μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Φορτώστε και τα δύο αρχεία PPS.
@@ -131,16 +131,16 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές συγχώνευσης" subTitle="Χρησιμοποιώντας τη C++, το One μπορεί επίσης να συγχωνεύσει πολλές άλλες μορφές αρχείων, όπως.." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/otp/" name="OTP" description="Τυπική μορφή OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pot/" name="POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/potm/" name="POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/potx/" name="POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppsm/" name="PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppsx/" name="PPSX" description="Παρουσίαση PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pptm/" name="PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/otp/" name="OTP" description="Τυπική μορφή OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/pot/" name="POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/potm/" name="POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/potx/" name="POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/ppsm/" name="PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/ppsx/" name="PPSX" description="Παρουσίαση PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/pptm/" name="PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

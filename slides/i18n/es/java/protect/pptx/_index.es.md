@@ -14,7 +14,7 @@ description: Código de muestra de Java para bloquear el archivo PPTX usando una
 {{% blocks/products/pf/agp/content h2="Cómo asegurar un archivo PPTX usando Java" %}}
 
  Para proteger el archivo PPTX, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/es/java)
  API que es una API de cifrado rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.
@@ -141,8 +141,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros documentos de protección admitidos" subTitle="Usando Java, uno puede proteger otros archivos, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/protect/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

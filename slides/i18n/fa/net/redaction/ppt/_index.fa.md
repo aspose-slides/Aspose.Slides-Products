@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای ویرایش اطلاعات ح
 {{% blocks/products/pf/agp/content h2="نحوه ویرایش فایل PPT با استفاده از سی شارپ" %}}
 
  به منظور ویرایش فایل PPT، ما استفاده خواهیم کرد
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API دستکاری اسناد غنی، قدرتمند و آسان برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ویرایش فایل های PPT در سی شارپ" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="جستجوی اولیه سند و جایگزینی متن در محتوا، نظرات یا ابرداده با [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIها را می توان تنها با چند خط کد انجام داد. متن را در پاورپوینت و اپن آفیس پیدا و جایگزین کنید. ویرایش متن، نظرات، ابرداده در ارائه از طریق تطبیق داده های regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="جستجوی اولیه سند و جایگزینی متن در محتوا، نظرات یا ابرداده با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net) APIها را می توان تنها با چند خط کد انجام داد. متن را در پاورپوینت و اپن آفیس پیدا و جایگزین کنید. ویرایش متن، نظرات، ابرداده در ارائه از طریق تطبیق داده های regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 بارگزاری PPT
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های ویرایش پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان به راحتی فرمت های مختلف از جمله را ویرایش کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/redaction/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/redaction/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

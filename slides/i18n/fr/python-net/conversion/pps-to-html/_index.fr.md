@@ -14,7 +14,7 @@ description: Exemple de code pour la conversion PPS en HTML Python. Utilisez l'A
 
 {{% blocks/products/pf/agp/content h2="Convertir PPS en HTML en Python" %}}
 
-Besoin de convertir des fichiers PPS en HTML par programmation ? En utilisant [*Aspose.Slides pour Python via .NET*](https://products.aspose.com/slides/python-net/), n'importe quel développeur peut convertir PPS au format HTML avec seulement quelques lignes de code Python.
+Besoin de convertir des fichiers PPS en HTML par programmation ? En utilisant [*Aspose.Slides pour Python via .NET*](https://products.aspose.com/slides/fr/python-net/), n'importe quel développeur peut convertir PPS au format HTML avec seulement quelques lignes de code Python.
 
 En tant qu'API de traitement de présentation moderne, Aspose.Slides pour Python crée rapidement du HTML à partir de PPS. Testez la qualité de la conversion PPS en HTML directement dans votre [navigateur](https://products.aspose.app/slides/conversion). La bibliothèque Aspose PowerPoint PPTX vous permet de convertir des fichiers PPS dans de nombreux formats populaires.
 
@@ -101,27 +101,27 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
     
 {{< blocks/products/pf/agp/other-supported-section title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir PPS en de nombreux autres formats de fichiers. Voir les autres conversions prises en charge ci-dessous" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Image bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Format de métafichier amélioré" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="Présentation XML plate d'OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Format d'échange graphique" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="Images JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="Format de présentation OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="Format standard OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Portable Document Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="Portable Network Graphics" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Fichiers de modèle Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Diaporama compatible avec les macros" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="Diaporama PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Fichier de présentation prenant en charge les macros" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Format de présentation XML ouvert" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Image Vectorielle" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Format SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Format d'image balisé" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="Spécifications papier XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Image bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Format de métafichier amélioré" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="Présentation XML plate d'OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Format d'échange graphique" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="Images JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="Format de présentation OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="Format standard OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Portable Document Format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="Portable Network Graphics" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Fichiers de modèle Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Fichier de modèle Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Modèle de présentation Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Diaporama compatible avec les macros" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="Diaporama PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Fichier de présentation prenant en charge les macros" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Format de présentation XML ouvert" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Image Vectorielle" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Format SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Format d'image balisé" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="Spécifications papier XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

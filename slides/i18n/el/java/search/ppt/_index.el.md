@@ -14,7 +14,7 @@ description: Δείγμα κώδικα Java για αναζήτηση λέξεω
 {{% blocks/products/pf/agp/content h2="Πώς να αναζητήσετε αρχείο PPT χρησιμοποιώντας Java" %}}
 
  Για να αναζητήσουμε το αρχείο PPT, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
  API, το οποίο είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο Search API για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -170,8 +170,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλα υποστηριζόμενα έγγραφα αναζήτησης" subTitle="Χρησιμοποιώντας Java, μπορεί κανείς να αναζητήσει και άλλα αρχεία, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/search/odp/" name="ODP" description="Μορφή παρουσίασης OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/search/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

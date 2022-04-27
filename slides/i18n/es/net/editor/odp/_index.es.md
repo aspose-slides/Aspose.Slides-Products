@@ -12,7 +12,7 @@ description: Código fuente C# para editar documentos ODP en plataformas .NET Fr
 
 {{% blocks/products/pf/agp/content h2="Cómo editar un archivo ODP usando C#" %}}
 
-Para editar el archivo ODP, usaremos <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API, que es una potente y rica en funciones y API fácil de usar para la plataforma C# para cualquier editor. Abra el administrador de paquetes <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, busque <b>Aspose.Slides</b> e instálelo. También puede usar el siguiente comando desde la Consola del administrador de paquetes.
+Para editar el archivo ODP, usaremos <a href="https://products.aspose.com/slides/es/net">Aspose.Slides for .NET</a> API, que es una potente y rica en funciones y API fácil de usar para la plataforma C# para cualquier editor. Abra el administrador de paquetes <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, busque <b>Aspose.Slides</b> e instálelo. También puede usar el siguiente comando desde la Consola del administrador de paquetes.
 
 {{% blocks/products/pf/agp/code-block title="Dominio" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Una edición básica de documentos con
- [Aspose.Slides para .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides para .NET](https://products.aspose.com/slides/es/net)
  Las API se pueden hacer con solo unas pocas líneas de código.
 
 {{% /blocks/products/pf/agp/text %}}

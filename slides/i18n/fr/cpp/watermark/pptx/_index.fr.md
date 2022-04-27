@@ -14,7 +14,7 @@ description: Exemple de code C++ pour ajouter ou supprimer un filigrane au fichi
 {{% blocks/products/pf/agp/content h2="Comment filigraner un fichier PPTX à l'aide de C++" %}}
 
  Afin de filigraner le fichier PPTX, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
  API qui est une API de filigrane de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C ++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez
@@ -161,7 +161,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de filigrane pris en charge" subTitle="En utilisant C++, on peut facilement filigraner différents formats, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Δείγμα κώδικα για μετατροπή POTM σε PPS P
 
 {{% blocks/products/pf/agp/content h2="Μετατροπή POTM σε PPS στην Python" %}}
 
-Θέλετε να μετατρέψετε αρχεία POTM σε PPS μέσω προγραμματισμού; Χρησιμοποιώντας το [*Aspose.Slides για Python μέσω .NET*](https://products.aspose.com/slides/python-net/) οποιοσδήποτε προγραμματιστής μπορεί να μετατρέψει το POTM σε μορφή PPS με λίγες μόνο γραμμές κώδικα Python.
+Θέλετε να μετατρέψετε αρχεία POTM σε PPS μέσω προγραμματισμού; Χρησιμοποιώντας το [*Aspose.Slides για Python μέσω .NET*](https://products.aspose.com/slides/el/python-net/) οποιοσδήποτε προγραμματιστής μπορεί να μετατρέψει το POTM σε μορφή PPS με λίγες μόνο γραμμές κώδικα Python.
 
 Ως σύγχρονο API επεξεργασίας παρουσιάσεων, το Aspose.Slides for Python δημιουργεί γρήγορα PPS από το POTM. Δοκιμάστε την ποιότητα της μετατροπής POTM σε PPS απευθείας στο [browser] σας (https://products.aspose.app/slides/conversion). Η βιβλιοθήκη Aspose PowerPoint PPTX σάς επιτρέπει να μετατρέπετε αρχεία POTM σε πολλές δημοφιλείς μορφές.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.potm") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το POTM σε πολλές άλλες μορφές αρχείων. Δείτε άλλες υποστηριζόμενες μετατροπές παρακάτω" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Εικόνα Bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-fodp/" name="POTM TO FODP" description="Επίπεδη παρουσίαση XML OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-gif/" name="POTM TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-html/" name="POTM TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-jpg/" name="POTM TO JPG" description="Εικόνα JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-odp/" name="POTM TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-otp/" name="POTM TO OTP" description="Τυπική μορφή OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Μορφή φορητού εγγράφου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-png/" name="POTM TO PNG" description="Φορητά γραφικά δικτύου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pot/" name="POTM TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-potx/" name="POTM TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="Παρουσίαση PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-svg/" name="POTM TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-swf/" name="POTM TO SWF" description="Μορφή SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-xps/" name="POTM TO XPS" description="Προδιαγραφές χαρτιού XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Εικόνα Bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-fodp/" name="POTM TO FODP" description="Επίπεδη παρουσίαση XML OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-gif/" name="POTM TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-html/" name="POTM TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-jpg/" name="POTM TO JPG" description="Εικόνα JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-odp/" name="POTM TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-otp/" name="POTM TO OTP" description="Τυπική μορφή OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Μορφή φορητού εγγράφου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-png/" name="POTM TO PNG" description="Φορητά γραφικά δικτύου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-pot/" name="POTM TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-potx/" name="POTM TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="Παρουσίαση PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-svg/" name="POTM TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-swf/" name="POTM TO SWF" description="Μορφή SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/potm-to-xps/" name="POTM TO XPS" description="Προδιαγραφές χαρτιού XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -14,7 +14,7 @@ description: Παράδειγμα κώδικα C++ για προσθήκη ή α
 {{% blocks/products/pf/agp/content h2="Πώς να υδατογραφήσετε ένα αρχείο PPTX χρησιμοποιώντας C++" %}}
 
  Για να υδατογραφήσουμε το αρχείο PPTX, θα χρησιμοποιήσουμε
- [Aspose.Slides για C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides για C++](https://products.aspose.com/slides/el/cpp)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API υδατογραφήματος εγγράφων για πλατφόρμα C++. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας, απλά ανοίξτε
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  διαχειριστής πακέτων, αναζητήστε
@@ -161,7 +161,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές υδατογραφήματος" subTitle="Χρησιμοποιώντας C++, μπορεί κανείς εύκολα να υδατογραφήσει διάφορες μορφές, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
