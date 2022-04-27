@@ -14,7 +14,7 @@ description: 用于在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xam
 {{% blocks/products/pf/agp/content h2="如何使用 C# 合并 PPT 文件" %}}
 
  为了合并 PPT 文件，我们将使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net)
  API 是一个功能丰富、功能强大且易于使用的 C# 平台文档操作和合并 API。打开
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C# 中合并 PPT 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可完成与 [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API 合并和连接的基本文档。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可完成与 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net) API 合并和连接的基本文档。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 使用完整路径加载所有 PPT 文件。
@@ -146,16 +146,16 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的合并格式" subTitle="使用 C#，One 还可以合并许多其他文件格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/otp/" name="OTP" description="OpenDocument 标准格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pot/" name="POT" description="Microsoft PowerPoint 模板文件" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potm/" name="POTM" description="微软 PowerPoint 模板文件" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potx/" name="POTX" description="Microsoft PowerPoint 模板演示文稿" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pps/" name="PPS" description="幻灯片放映" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsm/" name="PPSM" description="启用宏的幻灯片放映" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsx/" name="PPSX" description="幻灯片放映" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptm/" name="PPTM" description="启用宏的演示文件" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/otp/" name="OTP" description="OpenDocument 标准格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/pot/" name="POT" description="Microsoft PowerPoint 模板文件" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/potm/" name="POTM" description="微软 PowerPoint 模板文件" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/potx/" name="POTX" description="Microsoft PowerPoint 模板演示文稿" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/pps/" name="PPS" description="幻灯片放映" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/ppsm/" name="PPSM" description="启用宏的幻灯片放映" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/ppsx/" name="PPSX" description="幻灯片放映" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/pptm/" name="PPTM" description="启用宏的演示文件" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/merger/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

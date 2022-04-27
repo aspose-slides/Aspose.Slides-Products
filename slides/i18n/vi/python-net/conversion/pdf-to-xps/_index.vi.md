@@ -14,7 +14,7 @@ description: Mã mẫu để chuyển đổi PDF sang XPS Python. Sử dụng Po
 
 {{% blocks/products/pf/agp/content h2="Chuyển đổi PDF sang XPS bằng Python" %}}
 
-Bạn cần chuyển đổi các tệp PDF sang XPS theo lập trình? Sử dụng [* Aspose.Slides cho Python qua .NET *](https://products.aspose.com/slides/python-net/), bất kỳ nhà phát triển nào cũng có thể chuyển đổi định dạng PDF sang XPS chỉ với một vài dòng mã Python.
+Bạn cần chuyển đổi các tệp PDF sang XPS theo lập trình? Sử dụng [* Aspose.Slides cho Python qua .NET *](https://products.aspose.com/slides/vi/python-net/), bất kỳ nhà phát triển nào cũng có thể chuyển đổi định dạng PDF sang XPS chỉ với một vài dòng mã Python.
 
 Là một API xử lý bản trình bày hiện đại, Aspose.Slides for Python tạo XPS từ PDF một cách nhanh chóng. Kiểm tra chất lượng của chuyển đổi PDF sang XPS ngay trong [trình duyệt] của bạn (https://products.aspose.app/slides/conversion). Thư viện Aspose PowerPoint PPTX cho phép bạn chuyển đổi các tập tin PDF sang nhiều định dạng phổ biến.
 
@@ -103,27 +103,27 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
     
 {{< blocks/products/pf/agp/other-supported-section title="Các chuyển đổi được hỗ trợ khác" subTitle="Bạn cũng có thể chuyển đổi PDF sang nhiều định dạng tập tin khác. Xem các chuyển đổi được hỗ trợ khác bên dưới" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Hình ảnh bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Định dạng siêu tệp nâng cao" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="Bản trình bày XML phẳng OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="Định dạng trao đổi đồ họa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Ngôn ngữ đánh dấu siêu văn bản" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="Hình ảnh JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="Định dạng bản trình bày OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="Định dạng chuẩn OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="Biểu đồ minh họa mạng lưới không dây" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Tệp mẫu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="Trình chiếu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="Trình chiếu hỗ trợ macro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="Trình chiếu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="Tệp trình bày hỗ trợ macro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Định dạng bản trình bày XML mở" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" description="Đồ họa vector có thể mở rộng" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="Định dạng SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Định dạng hình ảnh được gắn thẻ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Hình ảnh bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Định dạng siêu tệp nâng cao" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="Bản trình bày XML phẳng OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="Định dạng trao đổi đồ họa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Ngôn ngữ đánh dấu siêu văn bản" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="Hình ảnh JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="Định dạng bản trình bày OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="Định dạng chuẩn OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="Biểu đồ minh họa mạng lưới không dây" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Tệp mẫu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="Trình chiếu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="Trình chiếu hỗ trợ macro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="Trình chiếu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="Tệp trình bày hỗ trợ macro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Định dạng bản trình bày XML mở" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" description="Đồ họa vector có thể mở rộng" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="Định dạng SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Định dạng hình ảnh được gắn thẻ" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

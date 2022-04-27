@@ -14,7 +14,7 @@ description: Mã mẫu Java để vẽ và chuyển đổi biểu đồ hoặc s
 {{% blocks/products/pf/agp/content h2="Cách tạo biểu đồ tệp PPTX bằng Java" %}}
 
  Để tạo biểu đồ tệp PPTX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
  API là một API biểu đồ giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -54,7 +54,7 @@ description: Mã mẫu Java để vẽ và chuyển đổi biểu đồ hoặc s
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước tạo biểu đồ tệp PPTX trong Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/java) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Khởi tạo đối tượng lớp Trình bày.
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng biểu đồ được hỗ trợ khác" subTitle="Sử dụng Java, người ta có thể dễ dàng xử lý chuỗi với các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

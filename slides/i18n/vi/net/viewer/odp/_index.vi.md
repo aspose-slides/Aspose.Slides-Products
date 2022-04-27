@@ -14,7 +14,7 @@ description: Mã nguồn C # để tải, kết xuất và hiển thị các tà
 {{% blocks/products/pf/agp/content h2="Cách xem tệp ODP bằng C #" %}}
 
  Để xem tệp ODP, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/vi/net)
  API là một API giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C # để được sử dụng với bất kỳ Trình xem nào. Mở
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  quản lý gói, tìm kiếm
@@ -139,16 +139,16 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng trình xem được hỗ trợ khác" subTitle="Sử dụng C #, Người ta cũng có thể xem nhiều định dạng tệp khác bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/otp/" name="OTP" description="Định dạng chuẩn OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pot/" name="POT" description="Tệp mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/potm/" name="POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/potx/" name="POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pps/" name="PPS" description="Trình chiếu PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/ppsm/" name="PPSM" description="Trình chiếu hỗ trợ macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/ppsx/" name="PPSX" description="Trình chiếu PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pptm/" name="PPTM" description="Tệp trình bày hỗ trợ macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/viewer/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/otp/" name="OTP" description="Định dạng chuẩn OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/pot/" name="POT" description="Tệp mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/potm/" name="POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/potx/" name="POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/pps/" name="PPS" description="Trình chiếu PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/ppsm/" name="PPSM" description="Trình chiếu hỗ trợ macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/ppsx/" name="PPSX" description="Trình chiếu PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/pptm/" name="PPTM" description="Tệp trình bày hỗ trợ macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/viewer/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Mã nguồn C # để tìm kiếm các từ có mẫu trong tệp P
 {{% blocks/products/pf/agp/content h2="Cách tìm kiếm tệp PPTX bằng C #" %}}
 
  Để tìm kiếm tệp PPTX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/vi/net)
  API là một API tìm kiếm tệp Microsoft PowerPoint giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C #. Mở
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước tìm kiếm tệp PPTX trong C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Tìm kiếm tài liệu cơ bản với API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Tìm kiếm tài liệu cơ bản với API [Aspose.Slides for .NET](https://products.aspose.com/slides/vi/net) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải tệp PPTX.
@@ -153,8 +153,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng tìm kiếm được hỗ trợ khác" subTitle="Sử dụng C #, người ta cũng có thể tìm kiếm các định dạng khác bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/search/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

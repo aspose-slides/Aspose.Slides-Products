@@ -14,7 +14,7 @@ description: C# 源代碼，用於在 .NET Framework、.NET Core、Windows Azure
 {{% blocks/products/pf/agp/content h2="如何使用 C# 搜索 ODP 文件" %}}
 
  為了搜索 ODP 文件，我們將使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net)
  API 是一個功能豐富、功能強大且易於使用的 C# 平台的 PowerPoint 演示文稿搜索 API。打開
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索 Aspose.Slides 並安裝。您還可以從包管理器控制台使用以下命令。
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C# 中搜索 ODP 文件的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API 進行基本文檔搜索。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net) API 進行基本文檔搜索。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加載 ODP 文件。
@@ -151,8 +151,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用 C#，還可以搜索其他格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="微軟PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/search/ppt/" name="PPT" description="微軟PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/search/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

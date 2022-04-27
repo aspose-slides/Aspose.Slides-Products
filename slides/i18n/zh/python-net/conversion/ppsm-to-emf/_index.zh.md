@@ -14,7 +14,7 @@ description: PPSM 到 EMF Python 转换的示例代码。使用 PowerPoint Pytho
 
 {{% blocks/products/pf/agp/content h2="在 Python 中将 PPSM 转换为 EMF" %}}
 
-需要以编程方式将 PPSM 文件转换为 EMF？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) 任何开发人员只需几行 Python 代码即可将 PPSM 转换为 EMF 格式。
+需要以编程方式将 PPSM 文件转换为 EMF？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/zh/python-net/) 任何开发人员只需几行 Python 代码即可将 PPSM 转换为 EMF 格式。
 
 作为现代演示处理 API，Aspose.Slides for Python 从 PPSM 快速创建 EMF。在您的 [浏览器](https://products.aspose.app/slides/conversion) 中测试 PPSM 到 EMF 转换的质量。 Aspose PowerPoint PPTX 库允许您将 PPSM 文件转换为许多流行的格式。
 
@@ -102,27 +102,27 @@ with slides.Presentation("presentation.ppsm") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的转换" subTitle="您还可以将 PPSM 转换为许多其他文件格式。请参阅下面的其他支持的转换" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="位图图像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument 平面 XML 演示文稿" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="图形交换格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="超文本标记语言" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG图像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument 演示格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument 标准格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="便携式文件格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="便携式网络图形" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="Microsoft PowerPoint 模板文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="微软 PowerPoint 模板文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="Microsoft PowerPoint 模板演示文稿" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="幻灯片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="幻灯片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="微软PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="启用宏的演示文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="打开 XML 表示格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="可缩放矢量图形" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF 格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="标记图像格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML 纸张规格" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="位图图像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument 平面 XML 演示文稿" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="图形交换格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="超文本标记语言" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG图像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument 演示格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument 标准格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="便携式文件格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="便携式网络图形" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="Microsoft PowerPoint 模板文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="微软 PowerPoint 模板文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="Microsoft PowerPoint 模板演示文稿" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="幻灯片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="幻灯片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="微软PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="启用宏的演示文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="打开 XML 表示格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="可缩放矢量图形" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF 格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="标记图像格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML 纸张规格" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

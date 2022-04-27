@@ -14,7 +14,7 @@ description: Mã mẫu Java để chỉnh sửa hoặc xem siêu dữ liệu đ�
 {{% blocks/products/pf/agp/content h2="Cách giải nén siêu dữ liệu OTP bằng Java" %}}
 
  Để có được siêu dữ liệu tệp OTP, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
  API là một API siêu dữ liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -146,16 +146,16 @@ Files with .OTP extension represent presentation template files created by appli
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng siêu dữ liệu được hỗ trợ khác" subTitle="Sử dụng Java, Người ta cũng có thể thao tác siêu dữ liệu của nhiều định dạng khác bao gồm" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pot/" name="POT" description="Tệp mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potm/" name="POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potx/" name="POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pps/" name="PPS" description="Trình chiếu PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsm/" name="PPSM" description="Trình chiếu hỗ trợ macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsx/" name="PPSX" description="Trình chiếu PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptm/" name="PPTM" description="Tệp trình bày hỗ trợ macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/pot/" name="POT" description="Tệp mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/potm/" name="POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/potx/" name="POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/pps/" name="PPS" description="Trình chiếu PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/ppsm/" name="PPSM" description="Trình chiếu hỗ trợ macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/ppsx/" name="PPSX" description="Trình chiếu PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/pptm/" name="PPTM" description="Tệp trình bày hỗ trợ macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/metadata/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

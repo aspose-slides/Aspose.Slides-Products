@@ -14,7 +14,7 @@ description: Mã nguồn C # để mở khóa tệp PPT được bảo vệ bằ
 {{% blocks/products/pf/agp/content h2="Cách mở khóa tệp PPT bằng C #" %}}
 
  Để xóa tệp PPT bảo vệ, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/vi/net)
  API là một API bảo vệ tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C #. Mở
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  quản lý gói, tìm kiếm
@@ -127,8 +127,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng mở khóa được hỗ trợ khác" subTitle="Sử dụng C #, người ta có thể dễ dàng loại bỏ bảo vệ / mở khóa các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/unlock/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/unlock/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

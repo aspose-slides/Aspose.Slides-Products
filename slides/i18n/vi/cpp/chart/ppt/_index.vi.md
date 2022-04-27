@@ -14,7 +14,7 @@ description: Mã ví dụ C ++ để vẽ và chuyển đổi biểu đồ hoặ
 {{% blocks/products/pf/agp/content h2="Cách tạo biểu đồ tệp PPT bằng C ++" %}}
 
  Để tìm kiếm tệp PPT, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp)
  API là một API tìm kiếm tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C ++. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp, chỉ cần mở
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước tạo biểu đồ tệp PPT trong C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for C ++](https://products.aspose.com/slides/vi/cpp) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Khởi tạo lớp Thuyết trình.
@@ -225,7 +225,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng biểu đồ được hỗ trợ khác" subTitle="Sử dụng C ++, người ta có thể dễ dàng xử lý chuỗi với các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/chart/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/cpp/chart/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

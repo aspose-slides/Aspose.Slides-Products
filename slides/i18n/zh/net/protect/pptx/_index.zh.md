@@ -14,7 +14,7 @@ description: 在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin �
 {{% blocks/products/pf/agp/content h2="如何使用 C# 保护 PPTX 文件" %}}
 
  为了保护 PPTX 文件，我们将使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net)
  API 是一个功能丰富、功能强大且易于使用的 C# 平台文档保护 API。打开
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索
@@ -121,8 +121,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的保护格式" subTitle="使用 C#，可以轻松保护其他格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/protect/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/protect/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

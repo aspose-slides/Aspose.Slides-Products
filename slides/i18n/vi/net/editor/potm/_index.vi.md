@@ -12,7 +12,7 @@ description: Mã nguồn C # để chỉnh sửa tài liệu POTM trên .NET Fra
 
 {{% blocks/products/pf/agp/content h2="Cách chỉnh sửa tệp POTM bằng C #" %}}
 
-Để chỉnh sửa tệp POTM, chúng tôi sẽ sử dụng API <a href="https://products.aspose.com/slides/net"> Aspose.Slides cho .NET </a> là một API mạnh mẽ, giàu tính năng và API dễ sử dụng cho nền tảng C # cho bất kỳ trình soạn thảo nào. Mở trình quản lý gói <a href="https://www.nuget.org/packages/aspose.slides.net"> NuGet </a>, tìm kiếm <b> Aspose.Slides </b> và cài đặt. Bạn cũng có thể sử dụng lệnh sau từ Bảng điều khiển Trình quản lý Gói.
+Để chỉnh sửa tệp POTM, chúng tôi sẽ sử dụng API <a href="https://products.aspose.com/slides/vi/net"> Aspose.Slides cho .NET </a> là một API mạnh mẽ, giàu tính năng và API dễ sử dụng cho nền tảng C # cho bất kỳ trình soạn thảo nào. Mở trình quản lý gói <a href="https://www.nuget.org/packages/aspose.slides.net"> NuGet </a>, tìm kiếm <b> Aspose.Slides </b> và cài đặt. Bạn cũng có thể sử dụng lệnh sau từ Bảng điều khiển Trình quản lý Gói.
 
 {{% blocks/products/pf/agp/code-block title="Yêu cầu" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Chỉnh sửa tài liệu cơ bản với
- [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/vi/net)
  Các API có thể được thực hiện chỉ với vài dòng mã.
 
 {{% /blocks/products/pf/agp/text %}}

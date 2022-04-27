@@ -14,7 +14,7 @@ description: C++ 示例代碼，用於在 Windows 32 位、Windows 64 位和 Lin
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 搜索 PPT 文件" %}}
 
  為了搜索 PPT 文件，我們將使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp)
  API 是一個功能豐富、功能強大且易於使用的 C++ 平台文檔搜索 API。可以直接下載最新版本，直接打開
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索
@@ -144,8 +144,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索文檔" subTitle="使用 C++，還可以搜索其他文件，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/search/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/search/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

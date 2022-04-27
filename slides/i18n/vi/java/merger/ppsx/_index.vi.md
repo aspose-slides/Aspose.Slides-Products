@@ -14,7 +14,7 @@ description: Mã mẫu Java để kết hợp tài liệu PPSX trên Môi trư�
 {{% blocks/products/pf/agp/content h2="Cách hợp nhất các tệp PPSX bằng Java" %}}
 
  Để hợp nhất tệp PPSX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
  API là một API hợp nhất giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -54,7 +54,7 @@ description: Mã mẫu Java để kết hợp tài liệu PPSX trên Môi trư�
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước để hợp nhất tệp PPSX trong Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Việc hợp nhất và nối tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/java) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Việc hợp nhất và nối tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải tệp PPSX đầu tiên với một phiên bản của lớp Trình bày.
@@ -150,16 +150,16 @@ PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 a
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng hợp nhất được hỗ trợ khác" subTitle="Sử dụng Java, Người ta cũng có thể hợp nhất nhiều định dạng tệp khác bao gồm .." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/otp/" name="OTP" description="Định dạng chuẩn OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pot/" name="POT" description="Tệp mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potm/" name="POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potx/" name="POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pps/" name="PPS" description="Trình chiếu PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppsm/" name="PPSM" description="Trình chiếu hỗ trợ macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptm/" name="PPTM" description="Tệp trình bày hỗ trợ macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/otp/" name="OTP" description="Định dạng chuẩn OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/pot/" name="POT" description="Tệp mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/potm/" name="POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/potx/" name="POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/pps/" name="PPS" description="Trình chiếu PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/ppsm/" name="PPSM" description="Trình chiếu hỗ trợ macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/pptm/" name="PPTM" description="Tệp trình bày hỗ trợ macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/merger/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: ODP 到 JPG Python 轉換的示例代碼。使用 PowerPoint Python
 
 {{% blocks/products/pf/agp/content h2="在 Python 中將 ODP 轉換為 JPG" %}}
 
-需要以編程方式將 ODP 文件轉換為 JPG？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) 任何開發人員只需幾行 Python 代碼即可將 ODP 轉換為 JPG 格式。
+需要以編程方式將 ODP 文件轉換為 JPG？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/zh-hant/python-net/) 任何開發人員只需幾行 Python 代碼即可將 ODP 轉換為 JPG 格式。
 
 作為現代的演示處理 API，Aspose.Slides for Python 從 ODP 快速創建 JPG。在您的 [瀏覽器](https://products.aspose.app/slides/conversion/ppt-to-jpg) 中測試 ODP 到 JPG 轉換的質量。 Aspose PowerPoint PPTX 庫允許您將 ODP 文件轉換為許多流行的格式。
 
@@ -102,27 +102,27 @@ with slides.Presentation("presentation.odp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的轉換" subTitle="您還可以將 ODP 轉換為許多其他文件格式。請參閱下面的其他支持的轉換" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="位圖圖像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-emf/" name="ODP TO EMF" description="增強的元文件格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-fodp/" name="ODP TO FODP" description="OpenDocument 平面 XML 演示文稿" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-gif/" name="ODP TO GIF" description="圖形交換格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-html/" name="ODP TO HTML" description="超文本標記語言" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument 標準格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pdf/" name="ODP TO PDF" description="便攜式文件格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-png/" name="ODP TO PNG" description="便攜式網絡圖形" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pot/" name="ODP TO POT" description="Microsoft PowerPoint 模板文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-potm/" name="ODP TO POTM" description="微軟 PowerPoint 模板文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-potx/" name="ODP TO POTX" description="Microsoft PowerPoint 模板演示文稿" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pps/" name="ODP TO PPS" description="幻燈片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="啟用宏的幻燈片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="幻燈片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-ppt/" name="ODP TO PPT" description="微軟PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pptm/" name="ODP TO PPTM" description="啟用宏的演示文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pptx/" name="ODP TO PPTX" description="打開 XML 表示格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-svg/" name="ODP TO SVG" description="可縮放矢量圖形" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-swf/" name="ODP TO SWF" description="SWF 格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-tiff/" name="ODP TO TIFF" description="標記圖像格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-xps/" name="ODP TO XPS" description="XML 紙張規格" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="位圖圖像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-emf/" name="ODP TO EMF" description="增強的元文件格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-fodp/" name="ODP TO FODP" description="OpenDocument 平面 XML 演示文稿" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-gif/" name="ODP TO GIF" description="圖形交換格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-html/" name="ODP TO HTML" description="超文本標記語言" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument 標準格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-pdf/" name="ODP TO PDF" description="便攜式文件格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-png/" name="ODP TO PNG" description="便攜式網絡圖形" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-pot/" name="ODP TO POT" description="Microsoft PowerPoint 模板文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-potm/" name="ODP TO POTM" description="微軟 PowerPoint 模板文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-potx/" name="ODP TO POTX" description="Microsoft PowerPoint 模板演示文稿" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-pps/" name="ODP TO PPS" description="幻燈片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="啟用宏的幻燈片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="幻燈片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-ppt/" name="ODP TO PPT" description="微軟PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-pptm/" name="ODP TO PPTM" description="啟用宏的演示文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-pptx/" name="ODP TO PPTX" description="打開 XML 表示格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-svg/" name="ODP TO SVG" description="可縮放矢量圖形" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-swf/" name="ODP TO SWF" description="SWF 格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-tiff/" name="ODP TO TIFF" description="標記圖像格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/conversion/odp-to-xps/" name="ODP TO XPS" description="XML 紙張規格" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

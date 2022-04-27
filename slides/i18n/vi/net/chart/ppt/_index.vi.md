@@ -14,7 +14,7 @@ description: Mã nguồn C # để vẽ và chuyển đổi biểu đồ hoặc 
 {{% blocks/products/pf/agp/content h2="Cách tạo biểu đồ PPT bằng C #" %}}
 
  Để tạo biểu đồ PPT, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/vi/net)
  API là một API thao tác tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C #. Mở
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước tạo biểu đồ tệp PPT trong C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for .NET](https://products.aspose.com/slides/vi/net) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tạo đối tượng lớp Presentation.
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng biểu đồ được hỗ trợ khác" subTitle="Sử dụng C #, người ta có thể dễ dàng xử lý biểu đồ với các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/chart/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: 用于在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xam
 {{% blocks/products/pf/agp/content h2="如何使用 C# 编辑 PPT 文件" %}}
 
  为了编辑 PPT 文件，我们将使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net)
  API 是一个功能丰富、功能强大且易于使用的 C# 平台文档操作 API。打开
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C# 中编辑 PPT 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API 进行基本文档搜索和替换内容、评论或元数据中的文本。在 PowerPoint 和 OpenOffice 中查找和替换文本。通过正则表达式数据匹配编辑演示文稿中的文本、评论、元数据。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net) API 进行基本文档搜索和替换内容、评论或元数据中的文本。在 PowerPoint 和 OpenOffice 中查找和替换文本。通过正则表达式数据匹配编辑演示文稿中的文本、评论、元数据。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加载 PPT 演示文稿。
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的密文格式" subTitle="使用 C#，可以轻松地编辑不同的格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/redaction/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/redaction/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

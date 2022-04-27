@@ -14,7 +14,7 @@ description: C# 源代码，用于从 .NET Framework、.NET Core、Windows Azure
 {{% blocks/products/pf/agp/content h2="如何使用 C# 解析 ODP 文件" %}}
 
  为了解析 ODP 文件，我们将使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net)
  API 是一个功能丰富、功能强大且易于使用的 C# 平台文档操作 API。打开
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C# 中解析 ODP 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API 解析基本文档只需几行代码即可完成。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net) API 解析基本文档只需几行代码即可完成。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加载 ODP 文件。
@@ -143,8 +143,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的解析格式" subTitle="使用 C#，可以轻松解析其他格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/parser/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/parser/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Java 示例代码，用于在 JSP/JSF 应用程序和桌面应用�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 保护 ODP 文件" %}}
 
  为了保护 ODP 文件，我们将使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java)
  API 是一个功能丰富、功能强大且易于使用的 Java 平台加密 API。您可以直接从
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  并通过将以下配置添加到 pom.xml 将其安装在基于 Maven 的项目中。
@@ -141,8 +141,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的保护文件" subTitle="使用 Java，可以保护其他文件，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/java/protect/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/java/protect/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

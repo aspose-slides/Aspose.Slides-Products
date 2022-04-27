@@ -10,12 +10,12 @@ description: 用於將 PPT 轉換為 PDF 的 Python API。在 Python 中將演�
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) 是一個強大的本地類庫，用於處理和處理演示文稿。開發人員可以輕鬆快速準確地將 PowerPoint 轉換為 PDF。立即獲得結果，實現業務流程自動化。我們在這裡討論讀取或加載任何輸入 [支持的 PowerPoint 格式](https://docs.aspose.com/slides/python-net/supported-file-formats/) 並寫入或保存為任何支持的輸出格式的幾種情況. 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh-hant/python-net/) 是一個強大的本地類庫，用於處理和處理演示文稿。開發人員可以輕鬆快速準確地將 PowerPoint 轉換為 PDF。立即獲得結果，實現業務流程自動化。我們在這裡討論讀取或加載任何輸入 [支持的 PowerPoint 格式](https://docs.aspose.com/slides/python-net/supported-file-formats/) 並寫入或保存為任何支持的輸出格式的幾種情況. 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Python 中的 PowerPoint 到 PDF 轉換" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) 允許您將 PowerPoint PPT、PPTX 和 OpenOffice ODP 格式的文件轉換為 PDF。要將演示文稿轉換為 PDF，只需將文件名和保存格式傳遞給 [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/)方法。 [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 類公開了 [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) 方法，可調用該方法將整個 PPT、PPTX 或 ODP 演示文稿轉換為 PDF 文檔。
+[Aspose.Slides](https://products.aspose.com/slides/zh-hant/python-net/) 允許您將 PowerPoint PPT、PPTX 和 OpenOffice ODP 格式的文件轉換為 PDF。要將演示文稿轉換為 PDF，只需將文件名和保存格式傳遞給 [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/)方法。 [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 類公開了 [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) 方法，可調用該方法將整個 PPT、PPTX 或 ODP 演示文稿轉換為 PDF 文檔。
 
 {{% blocks/products/pf/feature-page-code h3="Python PowerPoint 到 PDF 轉換" %}}
 
@@ -26,7 +26,7 @@ description: 用於將 PPT 轉換為 PDF 的 Python API。在 Python 中將演�
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Python中的PDF到PPT轉換" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) 允許您從 PDF 導入演示文稿。本質上，您可以將 PDF 轉換為 PowerPoint 演示文稿。要將 PDF 轉換為 Powerpoint，請執行以下步驟：
+[Aspose.Slides](https://products.aspose.com/slides/zh-hant/python-net/) 允許您從 PDF 導入演示文稿。本質上，您可以將 PDF 轉換為 PowerPoint 演示文稿。要將 PDF 轉換為 Powerpoint，請執行以下步驟：
 - 實例化 [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 類的對象。
 - 調用 [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) 方法並傳遞 PDF 文件。
 - 使用 [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 方法將文件保存為 PowerPoint 格式。

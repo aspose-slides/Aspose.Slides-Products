@@ -14,7 +14,7 @@ description: PDF 到 SVG Python 转换的示例代码。使用 PowerPoint Python
 
 {{% blocks/products/pf/agp/content h2="在 Python 中将 PDF 转换为 SVG" %}}
 
-需要以编程方式将 PDF 文件转换为 SVG？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) 任何开发人员只需几行 Python 代码即可将 PDF 转换为 SVG 格式。
+需要以编程方式将 PDF 文件转换为 SVG？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/zh/python-net/) 任何开发人员只需几行 Python 代码即可将 PDF 转换为 SVG 格式。
 
 作为现代的演示处理 API，Aspose.Slides for Python 可以快速从 PDF 创建 SVG。在您的 [浏览器](https://products.aspose.app/slides/conversion) 中测试 PDF 到 SVG 转换的质量。 Aspose PowerPoint PPTX 库允许您将 PDF 文件转换为多种流行格式。
 
@@ -105,27 +105,27 @@ with slides.Presentation() as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的转换" subTitle="您还可以将 PDF 转换为许多其他文件格式。请参阅下面的其他支持的转换" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="位图图像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="增强的元文件格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="OpenDocument 平面 XML 演示文稿" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="图形交换格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="超文本标记语言" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="JPEG图像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument 演示格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument 标准格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="便携式网络图形" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Microsoft PowerPoint 模板文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="微软 PowerPoint 模板文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Microsoft PowerPoint 模板演示文稿" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="幻灯片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="启用宏的幻灯片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="幻灯片放映" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="微软PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="启用宏的演示文件" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="打开 XML 表示格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="SWF 格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="标记图像格式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML 纸张规格" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="位图图像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="增强的元文件格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="OpenDocument 平面 XML 演示文稿" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="图形交换格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="超文本标记语言" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="JPEG图像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument 演示格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument 标准格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="便携式网络图形" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Microsoft PowerPoint 模板文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="微软 PowerPoint 模板文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Microsoft PowerPoint 模板演示文稿" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="幻灯片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="启用宏的幻灯片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="幻灯片放映" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="微软PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="启用宏的演示文件" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="打开 XML 表示格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="SWF 格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="标记图像格式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML 纸张规格" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

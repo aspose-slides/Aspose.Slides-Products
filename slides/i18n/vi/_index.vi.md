@@ -11,19 +11,19 @@ description: Aspose.Slides là một API PowerPoint để thao tác với các b
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Bao gồm API mã cao Aspose.Slides" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/vi/net" >}}
 Trên các API .NET Premise để thao tác với các bản trình bày Microsoft PowerPoint trong các ứng dụng được phát triển bằng .NET Framework, .NET Core và các nền tảng khác thông qua COM Interop.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/vi/java" >}}
 Các API Java để tạo, tải, thao tác, chuyển đổi hoặc phân tích cú pháp các bản trình bày, trang trình bày Microsoft PowerPoint và các phần tử của chúng trong bất kỳ ứng dụng nào dựa trên Java SE hoặc EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/vi/cpp" >}}
 Thư viện gốc cho các ứng dụng C ++ để tạo, tải, thao tác, chuyển đổi hoặc hiển thị các tệp Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="Xem tất cả các API mã cao" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/vi/family/" innerText="Xem tất cả các API mã cao" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
