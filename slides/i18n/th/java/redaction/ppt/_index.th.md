@@ -14,7 +14,7 @@ description: โค้ดตัวอย่าง Java เพื่อแก้�
 {{% blocks/products/pf/agp/content h2="วิธี Redact ไฟล์ PPT โดยใช้ Java" %}}
 
  เพื่อแก้ไขไฟล์ PPT เราจะใช้
- [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/th/java)
  API ซึ่งเป็น API การ redaction ที่มีคุณสมบัติหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม Java คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้โดยตรงจาก
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  และติดตั้งภายในโปรเจ็กต์ที่ใช้ Maven โดยเพิ่มการกำหนดค่าต่อไปนี้ใน pom.xml
@@ -54,7 +54,7 @@ description: โค้ดตัวอย่าง Java เพื่อแก้�
 
 {{< blocks/products/pf/agp/feature-section-col title="ขั้นตอนในการ Redact ไฟล์ PPT ใน Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="การค้นหาเอกสารพื้นฐานและแทนที่ข้อความในเนื้อหา ความคิดเห็น หรือข้อมูลเมตาด้วย API ของ [Aspose.Slides for Java](https://products.aspose.com/slides/java) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด ค้นหาและแทนที่ข้อความใน PowerPoint และ OpenOffice แก้ไขข้อความ ความคิดเห็น ข้อมูลเมตาในการนำเสนอผ่านการจับคู่ข้อมูล regexp" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="การค้นหาเอกสารพื้นฐานและแทนที่ข้อความในเนื้อหา ความคิดเห็น หรือข้อมูลเมตาด้วย API ของ [Aspose.Slides for Java](https://products.aspose.com/slides/th/java) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด ค้นหาและแทนที่ข้อความใน PowerPoint และ OpenOffice แก้ไขข้อความ ความคิดเห็น ข้อมูลเมตาในการนำเสนอผ่านการจับคู่ข้อมูล regexp" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 โหลดการนำเสนอ PPT
@@ -166,8 +166,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="เอกสารการตอบโต้อื่น ๆ ที่รองรับ" subTitle="เมื่อใช้ Java เราสามารถ redact รูปแบบต่างๆ ได้อย่างง่ายดายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/redaction/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/redaction/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Mã nguồn C # để biên tập lại thông tin nhạy cảm tro
 {{% blocks/products/pf/agp/content h2="Cách tạo lại tệp PPT bằng C #" %}}
 
  Để biên tập lại tệp PPT, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dành cho .NET](https://products.aspose.com/slides/vi/net)
  API là một API thao tác tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C #. Mở
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước chỉnh sửa tệp PPT trong C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu bằng API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) chỉ với vài dòng mã. Tìm và thay thế văn bản trong PowerPoint và OpenOffice. Chỉnh sửa văn bản, nhận xét, siêu dữ liệu trong bản trình bày thông qua đối sánh dữ liệu regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu bằng API [Aspose.Slides for .NET](https://products.aspose.com/slides/vi/net) chỉ với vài dòng mã. Tìm và thay thế văn bản trong PowerPoint và OpenOffice. Chỉnh sửa văn bản, nhận xét, siêu dữ liệu trong bản trình bày thông qua đối sánh dữ liệu regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải bản trình bày PPT.
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng Redaction được hỗ trợ khác" subTitle="Sử dụng C #, người ta có thể dễ dàng biên tập các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/redaction/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/redaction/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

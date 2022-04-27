@@ -14,7 +14,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 {{% blocks/products/pf/agp/content h2="Javaを使用してPPTXファイルチャートを作成する方法" %}}
 
  PPTXファイルチャートを作成するために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/java）
+ [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
  機能豊富で強力で使いやすいJavaプラットフォーム用のチャートAPIであるAPI。最新バージョンはから直接ダウンロードできます
  [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
@@ -54,7 +54,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 
 {{< blocks/products/pf/agp/feature-section-col title="JavaでPPTXファイルチャートを作成する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java]（https://products.aspose.com/slides/java）APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentationクラスオブジェクトをインスタンス化します。
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされているチャート形式" subTitle="Javaを使用すると、を含むさまざまな形式で簡単にチャーリングを処理できます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

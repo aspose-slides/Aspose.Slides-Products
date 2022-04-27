@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای جستجوی کلمات با �
 {{% blocks/products/pf/agp/content h2="نحوه جستجوی فایل PPTX با استفاده از سی شارپ" %}}
 
  برای جستجوی فایل PPTX، از
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که فایل‌های Microsoft PowerPoint با قابلیت‌های غنی، قدرتمند و آسان برای جستجوی API برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل جستجوی فایل های PPTX در سی شارپ" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="جستجوی سند پایه با [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="جستجوی سند پایه با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net) APIها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 فایل PPTX را بارگیری کنید.
@@ -153,8 +153,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های جستجوی پشتیبانی شده" subTitle="با استفاده از سی شارپ می توان در قالب های دیگر از جمله جستجو کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/search/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/search/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

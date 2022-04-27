@@ -14,7 +14,7 @@ description: C++ példakód vízjel hozzáadásához vagy eltávolításához a 
 {{% blocks/products/pf/agp/content h2="PPT fájl vízjelezése C++ használatával" %}}
 
  A PPT fájl vízjelezéséhez használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható dokumentum vízjel API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen
@@ -161,7 +161,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott vízjelformátumok" subTitle="A C++ használatával könnyen vízjelezhet különféle formátumokat, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/watermark/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

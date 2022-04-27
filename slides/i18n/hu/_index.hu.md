@@ -11,19 +11,19 @@ description: Az Aspose.Slides egy PowerPoint API a prezentációk manipulálás�
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Az Aspose.Slides High Code API-k közé tartozik" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/hu/net" >}}
 On Premise .NET API-k a Microsoft PowerPoint prezentációk manipulálására a .NET Framework, .NET Core és más platformokon a COM Interop segítségével fejlesztett alkalmazásokban.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/hu/java" >}}
 Java API-k Microsoft PowerPoint prezentációk, diák és elemeik létrehozására, betöltésére, manipulálására, konvertálására vagy elemzésére bármely Java SE vagy EE alapú alkalmazásban.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/hu/cpp" >}}
 Natív könyvtár C++ alkalmazásokhoz Microsoft PowerPoint fájlok létrehozásához, betöltéséhez, manipulálásához, konvertálásához vagy rendereléséhez.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="Az összes High Code API megtekintése" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/hu/family/" innerText="Az összes High Code API megtekintése" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

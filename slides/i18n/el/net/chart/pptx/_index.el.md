@@ -14,7 +14,7 @@ description: Πηγαίος κώδικας C# για σχεδίαση και μ�
 {{% blocks/products/pf/agp/content h2="Πώς να δημιουργήσετε γραφήματα PPTX χρησιμοποιώντας C#" %}}
 
  Για να δημιουργήσουμε γραφήματα PPTX, θα χρησιμοποιήσουμε
- [Aspose.Slides για .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides για .NET](https://products.aspose.com/slides/el/net)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API χειρισμού εγγράφων για πλατφόρμα C#. Ανοιξε
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  διαχειριστής πακέτων, αναζητήστε
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για τη δημιουργία γραφημάτων αρχείων PPTX σε C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό γράφημα εγγράφων με [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό γράφημα εγγράφων με [Aspose.Slides for .NET](https://products.aspose.com/slides/el/net) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Δημιουργία αντικειμένου κλάσης παρουσίασης.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές γραφημάτων" subTitle="Χρησιμοποιώντας C#, μπορεί κανείς να αντιμετωπίσει εύκολα τη δημιουργία γραφημάτων με διαφορετικές μορφές, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

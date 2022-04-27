@@ -14,7 +14,7 @@ description: Java 示例代码，用于在 JSP/JSF 应用程序和桌面应用�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 编辑 PPTX 文件" %}}
 
  为了编辑 PPTX 文件，我们将使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java)
  API 是一个功能丰富、功能强大且易于使用的 Java 平台编辑 API。您可以直接从
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  并通过将以下配置添加到 pom.xml 将其安装在基于 Maven 的项目中。
@@ -54,7 +54,7 @@ description: Java 示例代码，用于在 JSP/JSF 应用程序和桌面应用�
 
 {{< blocks/products/pf/agp/feature-section-col title="在 Java 中编辑 PPTX 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for Java](https://products.aspose.com/slides/java) API 只需几行代码即可完成基本的文档搜索和替换内容、评论或元数据中的文本。在 PowerPoint 和 OpenOffice 中查找和替换文本。通过正则表达式数据匹配编辑演示文稿中的文本、评论、元数据。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java) API 只需几行代码即可完成基本的文档搜索和替换内容、评论或元数据中的文本。在 PowerPoint 和 OpenOffice 中查找和替换文本。通过正则表达式数据匹配编辑演示文稿中的文本、评论、元数据。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加载 PPTX 演示文稿。
@@ -166,8 +166,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的编辑文档" subTitle="使用 Java，可以轻松地编辑不同的格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/java/redaction/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/java/redaction/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

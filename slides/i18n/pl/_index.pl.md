@@ -11,19 +11,19 @@ description: Aspose.Slides to interfejs API programu PowerPoint do manipulowania
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code API obejmuje" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/pl/net" >}}
 On Premise .NET API do manipulowania prezentacjami programu Microsoft PowerPoint w aplikacjach opracowanych przy użyciu .NET Framework, .NET Core i innych platform za pośrednictwem COM Interop.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/pl/java" >}}
 Java API do tworzenia, ładowania, manipulowania, konwertowania lub analizowania prezentacji Microsoft PowerPoint, slajdów i ich elementów w dowolnej aplikacji opartej na Java SE lub EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/pl/cpp" >}}
 Natywna biblioteka dla aplikacji C++ do tworzenia, ładowania, manipulowania, konwertowania lub renderowania plików Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="Zobacz wszystkie interfejsy API High Code" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/pl/family/" innerText="Zobacz wszystkie interfejsy API High Code" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

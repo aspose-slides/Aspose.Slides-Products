@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono या Xamarin प�
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके PPTX फ़ाइल को कैसे सुरक्षित रखें" %}}
 
  PPTX फ़ाइल की सुरक्षा के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी # प्लेटफॉर्म के लिए दस्तावेज़ सुरक्षा एपीआई का उपयोग करने में आसान है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -121,8 +121,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित सुरक्षा प्रारूप" subTitle="सी # का उपयोग करके, कोई भी अन्य प्रारूपों को आसानी से सुरक्षित कर सकता है।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/protect/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/protect/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

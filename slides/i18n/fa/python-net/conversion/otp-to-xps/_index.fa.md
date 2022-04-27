@@ -14,7 +14,7 @@ description: کد نمونه برای تبدیل OTP به XPS پایتون. بر
 
 {{% blocks/products/pf/agp/content h2="OTP را در پایتون به XPS تبدیل کنید" %}}
 
-آیا نیاز به تبدیل فایل های OTP به XPS دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/python-net/) هر توسعه دهنده می تواند OTP را تنها با چند خط کد پایتون به فرمت XPS تبدیل کند.
+آیا نیاز به تبدیل فایل های OTP به XPS دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند OTP را تنها با چند خط کد پایتون به فرمت XPS تبدیل کند.
 
 Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت XPS را از OTP ایجاد می کند. کیفیت تبدیل OTP به XPS را مستقیماً در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های OTP را به بسیاری از فرمت های محبوب تبدیل کنید.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.otp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می توانید OTP را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="تصویر بیت مپ" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-emf/" name="OTP TO EMF" description="فرمت متافایل پیشرفته" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-fodp/" name="OTP TO FODP" description="OpenDocument Flat XML Presentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-gif/" name="OTP TO GIF" description="فرمت تبادل گرافیکی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-html/" name="OTP TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-jpg/" name="OTP TO JPG" description="تصویر JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-odp/" name="OTP TO ODP" description="فرمت ارائه اسناد باز" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pdf/" name="OTP TO PDF" description="فرمت سند قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-png/" name="OTP TO PNG" description="گرافیک شبکه قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pot/" name="OTP TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-potm/" name="OTP TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-potx/" name="OTP TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pps/" name="OTP TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppt/" name="OTP TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-svg/" name="OTP TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-swf/" name="OTP TO SWF" description="فرمت SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="فرمت تصویر برچسب شده" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="تصویر بیت مپ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-emf/" name="OTP TO EMF" description="فرمت متافایل پیشرفته" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-fodp/" name="OTP TO FODP" description="OpenDocument Flat XML Presentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-gif/" name="OTP TO GIF" description="فرمت تبادل گرافیکی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-html/" name="OTP TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-jpg/" name="OTP TO JPG" description="تصویر JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-odp/" name="OTP TO ODP" description="فرمت ارائه اسناد باز" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-pdf/" name="OTP TO PDF" description="فرمت سند قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-png/" name="OTP TO PNG" description="گرافیک شبکه قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-pot/" name="OTP TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-potm/" name="OTP TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-potx/" name="OTP TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-pps/" name="OTP TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-ppt/" name="OTP TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-svg/" name="OTP TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-swf/" name="OTP TO SWF" description="فرمت SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="فرمت تصویر برچسب شده" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

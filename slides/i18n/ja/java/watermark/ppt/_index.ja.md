@@ -14,7 +14,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 {{% blocks/products/pf/agp/content h2="Javaを使用してPPTファイルに透かしを入れる方法" %}}
 
  PPTファイルに透かしを入れるために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/java）
+ [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
  機能豊富で強力で使いやすいJavaプラットフォーム用の透かしAPIであるAPI。最新バージョンはから直接ダウンロードできます
  [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
@@ -166,7 +166,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている透かし形式" subTitle="Javaを使用すると、を含むさまざまな形式に簡単に透かしを入れることができます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/watermark/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/watermark/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

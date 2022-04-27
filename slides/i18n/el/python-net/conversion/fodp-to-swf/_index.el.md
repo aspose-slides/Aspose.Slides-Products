@@ -14,7 +14,7 @@ description: Δείγμα κώδικα για μετατροπή FODP σε SWF P
 
 {{% blocks/products/pf/agp/content h2="Μετατρέψτε το FODP σε SWF στην Python" %}}
 
-Θέλετε να μετατρέψετε αρχεία FODP σε SWF μέσω προγραμματισμού; Χρησιμοποιώντας το [*Aspose.Slides for Python μέσω .NET*](https://products.aspose.com/slides/python-net/) οποιοσδήποτε προγραμματιστής μπορεί να μετατρέψει το FODP σε μορφή SWF με λίγες μόνο γραμμές κώδικα Python.
+Θέλετε να μετατρέψετε αρχεία FODP σε SWF μέσω προγραμματισμού; Χρησιμοποιώντας το [*Aspose.Slides for Python μέσω .NET*](https://products.aspose.com/slides/el/python-net/) οποιοσδήποτε προγραμματιστής μπορεί να μετατρέψει το FODP σε μορφή SWF με λίγες μόνο γραμμές κώδικα Python.
 
 Ως σύγχρονο API επεξεργασίας παρουσιάσεων, το Aspose.Slides for Python δημιουργεί γρήγορα SWF από το FODP. Δοκιμάστε την ποιότητα της μετατροπής FODP σε SWF απευθείας στο [browser] σας (https://products.aspose.app/slides/conversion). Η βιβλιοθήκη Aspose PowerPoint PPTX σάς επιτρέπει να μετατρέπετε αρχεία FODP σε πολλές δημοφιλείς μορφές.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.fodp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το FODP σε πολλές άλλες μορφές αρχείων. Δείτε άλλες υποστηριζόμενες μετατροπές παρακάτω" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Εικόνα Bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Εικόνα JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="Τυπική μορφή OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Μορφή φορητού εγγράφου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Φορητά γραφικά δικτύου" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Παρουσίαση PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="Παρουσίαση PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Προδιαγραφές χαρτιού XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Εικόνα Bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Βελτιωμένη μορφή μετα-αρχείου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Μορφή γραφικής ανταλλαγής" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Γλώσσα σήμανσης υπερκειμένου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Εικόνα JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Μορφή παρουσίασης OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="Τυπική μορφή OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Μορφή φορητού εγγράφου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Φορητά γραφικά δικτύου" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Αρχεία προτύπων Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Αρχείο προτύπου Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Παρουσίαση προτύπου Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Παρουσίαση PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Παρουσίαση με δυνατότητα μακροεντολής" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="Παρουσίαση PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Αρχείο παρουσίασης με δυνατότητα μακροεντολής" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Κλιμακόμενα διανυσματικά γραφικά" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Με ετικέτα Μορφή εικόνας" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Προδιαγραφές χαρτιού XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

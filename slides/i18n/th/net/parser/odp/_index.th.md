@@ -14,7 +14,7 @@ description: ซอร์สโค้ด C# เพื่อแยกข้อค
 {{% blocks/products/pf/agp/content h2="วิธีแยกไฟล์ ODP โดยใช้ C #" %}}
 
  ในการแยกวิเคราะห์ไฟล์ ODP เราจะใช้
- [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/th/net)
  API ซึ่งเป็น API การจัดการเอกสารที่มีคุณลักษณะหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม C# เปิด
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  package manager ค้นหา
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="ขั้นตอนในการแยกวิเคราะห์ไฟล์ ODP ใน C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="การแยกวิเคราะห์เอกสารพื้นฐานด้วย [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="การแยกวิเคราะห์เอกสารพื้นฐานด้วย [Aspose.Slides for .NET](https://products.aspose.com/slides/th/net) API สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 โหลดไฟล์ ODP
@@ -143,8 +143,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบการแยกวิเคราะห์อื่น ๆ ที่รองรับ" subTitle="เมื่อใช้ C # เราสามารถแยกวิเคราะห์รูปแบบอื่น ๆ ได้อย่างง่ายดายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/parser/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

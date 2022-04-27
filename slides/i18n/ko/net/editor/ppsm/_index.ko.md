@@ -12,7 +12,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono 또는 Xamarin 플�
 
 {{% blocks/products/pf/agp/content h2="C#을 사용하여 PPSM 파일을 편집하는 방법" %}}
 
-PPSM 파일을 편집하기 위해 기능이 풍부하고 강력한 <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API를 사용합니다. 모든 편집기에서 사용하기 쉬운 C# 플랫폼용 API입니다. <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> 패키지 관리자를 열고 <b>Aspose.Slides</b>를 검색하여 설치합니다. 패키지 관리자 콘솔에서 다음 명령을 사용할 수도 있습니다.
+PPSM 파일을 편집하기 위해 기능이 풍부하고 강력한 <a href="https://products.aspose.com/slides/ko/net">Aspose.Slides for .NET</a> API를 사용합니다. 모든 편집기에서 사용하기 쉬운 C# 플랫폼용 API입니다. <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> 패키지 관리자를 열고 <b>Aspose.Slides</b>를 검색하여 설치합니다. 패키지 관리자 콘솔에서 다음 명령을 사용할 수도 있습니다.
 
 {{% blocks/products/pf/agp/code-block title="명령" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  기본 문서 편집
- [.NET용 Aspose.Slides](https://products.aspose.com/slides/net)
+ [.NET용 Aspose.Slides](https://products.aspose.com/slides/ko/net)
  API는 몇 줄의 코드로 수행할 수 있습니다.
 
 {{% /blocks/products/pf/agp/text %}}

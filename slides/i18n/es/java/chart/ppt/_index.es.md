@@ -14,7 +14,7 @@ description: Código de muestra de Java para dibujar y convertir gráficos o dia
 {{% blocks/products/pf/agp/content h2="Cómo crear gráficos de archivos PPT usando Java" %}}
 
  Para crear gráficos de archivos PPT, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/es/java)
  API que es una API de gráficos rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.
@@ -54,7 +54,7 @@ description: Código de muestra de Java para dibujar y convertir gráficos o dia
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para crear gráficos de archivos PPT en Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede hacer un gráfico básico de documentos con [Aspose.Slides for Java](https://products.aspose.com/slides/java) API con solo unas pocas líneas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede hacer un gráfico básico de documentos con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java) API con solo unas pocas líneas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instanciar objeto de clase de presentación.
@@ -258,7 +258,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros formatos de gráficos admitidos" subTitle="Usando Java, uno puede manejar fácilmente la carga con diferentes formatos, incluidos." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/chart/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

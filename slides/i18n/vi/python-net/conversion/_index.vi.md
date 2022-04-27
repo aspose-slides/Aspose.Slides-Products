@@ -10,12 +10,12 @@ description: API Python để chuyển đổi PPT sang PDF. Chuyển đổi bả
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides cho Python qua .NET](https://products.aspose.com/slides/python-net/) là một thư viện lớp tại chỗ mạnh mẽ được sử dụng để xử lý và làm việc với các bản trình bày. Các nhà phát triển có thể dễ dàng chuyển đổi PowerPoint sang PDF với tốc độ và độ chính xác cao. Nhận kết quả ngay lập tức để tự động hóa các quy trình kinh doanh. Chúng tôi đang thảo luận ở đây một số trường hợp để đọc hoặc tải bất kỳ đầu vào nào [các định dạng PowerPoint được hỗ trợ](https://docs.aspose.com/slides/python-net/supported-file-formats/) và ghi hoặc lưu vào bất kỳ định dạng đầu ra nào được hỗ trợ . 
+[Aspose.Slides cho Python qua .NET](https://products.aspose.com/slides/vi/python-net/) là một thư viện lớp tại chỗ mạnh mẽ được sử dụng để xử lý và làm việc với các bản trình bày. Các nhà phát triển có thể dễ dàng chuyển đổi PowerPoint sang PDF với tốc độ và độ chính xác cao. Nhận kết quả ngay lập tức để tự động hóa các quy trình kinh doanh. Chúng tôi đang thảo luận ở đây một số trường hợp để đọc hoặc tải bất kỳ đầu vào nào [các định dạng PowerPoint được hỗ trợ](https://docs.aspose.com/slides/python-net/supported-file-formats/) và ghi hoặc lưu vào bất kỳ định dạng đầu ra nào được hỗ trợ . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Chuyển đổi PowerPoint sang PDF bằng Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) cho phép bạn chuyển đổi các tệp ở định dạng PowerPoint PPT, PPTX và OpenOffice ODP sang PDF. Để chuyển đổi bản trình bày sang PDF, chỉ cần chuyển tên tệp và lưu định dạng vào [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) phương pháp. Lớp [Trình bày](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) hiển thị [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) phương thức có thể được gọi để chuyển đổi toàn bộ bản trình bày PPT, PPTX hoặc ODP thành tài liệu PDF.
+[Aspose.Slides](https://products.aspose.com/slides/vi/python-net/) cho phép bạn chuyển đổi các tệp ở định dạng PowerPoint PPT, PPTX và OpenOffice ODP sang PDF. Để chuyển đổi bản trình bày sang PDF, chỉ cần chuyển tên tệp và lưu định dạng vào [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) phương pháp. Lớp [Trình bày](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) hiển thị [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) phương thức có thể được gọi để chuyển đổi toàn bộ bản trình bày PPT, PPTX hoặc ODP thành tài liệu PDF.
 
 {{% blocks/products/pf/feature-page-code h3="Chuyển đổi PowerPoint sang PDF trong Python" %}}
 
@@ -26,7 +26,7 @@ description: API Python để chuyển đổi PPT sang PDF. Chuyển đổi bả
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Chuyển đổi PDF sang PPT bằng Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) cho phép bạn nhập bản trình bày từ PDF. Về cơ bản, bạn có thể chuyển đổi một tệp PDF sang một bản trình bày PowerPoint. Để chuyển đổi PDF sang Powerpoint, hãy thực hiện theo các bước sau:
+[Aspose.Slides](https://products.aspose.com/slides/vi/python-net/) cho phép bạn nhập bản trình bày từ PDF. Về cơ bản, bạn có thể chuyển đổi một tệp PDF sang một bản trình bày PowerPoint. Để chuyển đổi PDF sang Powerpoint, hãy thực hiện theo các bước sau:
 - Khởi tạo một đối tượng của lớp [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
 - Gọi phương thức [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) và chuyển tệp PDF.
 - Sử dụng phương thức [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) để lưu tệp ở định dạng PowerPoint.

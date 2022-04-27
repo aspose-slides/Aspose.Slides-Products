@@ -14,7 +14,7 @@ description: FODP에서 EMF Python으로의 변환을 위한 샘플 코드입니
 
 {{% blocks/products/pf/agp/content h2="Python에서 FODP를 EMF로 변환" %}}
 
-프로그래밍 방식으로 FODP 파일을 EMF로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 FODP를 EMF 형식으로 변환할 수 있습니다.
+프로그래밍 방식으로 FODP 파일을 EMF로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/ko/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 FODP를 EMF 형식으로 변환할 수 있습니다.
 
 최신 프레젠테이션 처리 API인 Aspose.Slides for Python은 FODP에서 EMF를 빠르게 생성합니다. [브라우저](https://products.aspose.app/slides/conversion)에서 바로 FODP에서 EMF로의 변환 품질을 테스트하십시오. Aspose PowerPoint PPTX 라이브러리를 사용하면 FODP 파일을 널리 사용되는 여러 형식으로 변환할 수 있습니다.
 
@@ -102,27 +102,27 @@ with slides.Presentation("presentation.fodp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="FODP를 다른 많은 파일 형식으로 변환할 수도 있습니다. 아래에서 지원되는 다른 변환을 참조하세요." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="비트맵 이미지" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="그래픽 교환 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="하이퍼 텍스트 마크업 언어" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="JPEG 이미지" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument 프레젠테이션 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument 표준 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="휴대용 문서 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="휴대용 네트워크 그래픽" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="파워포인트 슬라이드 쇼" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="매크로 사용 슬라이드 쇼" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="파워포인트 슬라이드 쇼" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Open XML 프레젠테이션 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="확장 가능한 벡터 그래픽" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="태그가 지정된 이미지 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="XML 용지 사양" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="비트맵 이미지" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="그래픽 교환 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="하이퍼 텍스트 마크업 언어" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="JPEG 이미지" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument 프레젠테이션 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument 표준 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="휴대용 문서 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="휴대용 네트워크 그래픽" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="파워포인트 슬라이드 쇼" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="매크로 사용 슬라이드 쇼" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="파워포인트 슬라이드 쇼" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Open XML 프레젠테이션 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="확장 가능한 벡터 그래픽" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="태그가 지정된 이미지 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="XML 용지 사양" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

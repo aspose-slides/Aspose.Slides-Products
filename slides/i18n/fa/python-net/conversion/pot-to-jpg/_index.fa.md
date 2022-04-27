@@ -14,7 +14,7 @@ description: کد نمونه برای تبدیل POT به JPG پایتون. از
 
 {{% blocks/products/pf/agp/content h2="تبدیل POT به JPG در پایتون" %}}
 
-آیا نیاز به تبدیل فایل های POT به JPG دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/python-net/) هر توسعه دهنده می تواند تنها با چند خط کد پایتون، POT را به فرمت JPG تبدیل کند.
+آیا نیاز به تبدیل فایل های POT به JPG دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند تنها با چند خط کد پایتون، POT را به فرمت JPG تبدیل کند.
 
 Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت JPG را از POT ایجاد می کند. کیفیت تبدیل POT به JPG را درست در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion/ppt-to-jpg). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های POT را به بسیاری از فرمت های محبوب تبدیل کنید.
 
@@ -102,27 +102,27 @@ with slides.Presentation("presentation.pot") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید POT را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="تصویر بیت مپ" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="فرمت متافایل پیشرفته" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML Presentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="فرمت تبادل گرافیکی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="فرمت ارائه اسناد باز" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="فرمت استاندارد OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="فرمت سند قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-png/" name="POT TO PNG" description="گرافیک شبکه قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="فرمت SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="فرمت تصویر برچسب شده" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="مشخصات کاغذ XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="تصویر بیت مپ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="فرمت متافایل پیشرفته" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML Presentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="فرمت تبادل گرافیکی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-html/" name="POT TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="فرمت ارائه اسناد باز" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="فرمت استاندارد OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="فرمت سند قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-png/" name="POT TO PNG" description="گرافیک شبکه قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="فرمت SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="فرمت تصویر برچسب شده" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="مشخصات کاغذ XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

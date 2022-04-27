@@ -14,7 +14,7 @@ description: विंडोज 32 बिट, विंडोज 64 बिट �
 {{% blocks/products/pf/agp/content h2="C++ का उपयोग करके ODP फ़ाइल कैसे खोजें?" %}}
 
  ODP फ़ाइल खोजने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी ++ प्लेटफॉर्म के लिए दस्तावेज़ खोज एपीआई का उपयोग करने में आसान है। आप इसका नवीनतम संस्करण सीधे डाउनलोड कर सकते हैं, बस खोलें
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  पैकेज मैनेजर, खोजें
@@ -144,8 +144,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित खोज दस्तावेज़" subTitle="सी ++ का उपयोग करके, कोई अन्य फाइलों को भी खोज सकता है जिनमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/search/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/search/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

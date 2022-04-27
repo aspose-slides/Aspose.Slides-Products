@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای باز کردن قفل فای�
 {{% blocks/products/pf/agp/content h2="نحوه باز کردن قفل فایل PPTX با استفاده از سی شارپ" %}}
 
  به منظور حذف فایل حفاظتی PPTX، ما استفاده خواهیم کرد
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API محافظت از اسناد با ویژگی های غنی، قدرتمند و آسان برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -127,8 +127,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های باز کردن قفل پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان به راحتی محافظت / باز کردن قفل فرمت های مختلف از جمله." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/unlock/odp/" name="ODP" description="فرمت ارائه اسناد باز" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/unlock/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

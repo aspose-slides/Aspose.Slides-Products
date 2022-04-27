@@ -14,7 +14,7 @@ description: C# सोर्स कोड .NET Framework, .NET Core, Windows Azu
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके PPT चार्ट कैसे बनाएं" %}}
 
  पीपीटी चार्ट बनाने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी # प्लेटफॉर्म के लिए दस्तावेज़ हेरफेर एपीआई का उपयोग करने में आसान है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C# में PPT फाइल चार्ट बनाने के चरण" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/net) API के साथ एक बुनियादी दस्तावेज़ चार्टिंग कोड की कुछ पंक्तियों के साथ किया जा सकता है।" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net) API के साथ एक बुनियादी दस्तावेज़ चार्टिंग कोड की कुछ पंक्तियों के साथ किया जा सकता है।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 प्रेजेंटेशन क्लास ऑब्जेक्ट बनाएं।
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित चार्टिंग प्रारूप" subTitle="C# का उपयोग करके, कोई भी व्यक्ति आसानी से विभिन्न प्रारूपों के साथ चार्टिंग कर सकता है, जिसमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/chart/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

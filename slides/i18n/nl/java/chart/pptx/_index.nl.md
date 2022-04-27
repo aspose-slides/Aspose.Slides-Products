@@ -14,7 +14,7 @@ description: Java-voorbeeldcode om een ​​grafiek of diagram in een PPTX-best
 {{% blocks/products/pf/agp/content h2="Hoe u PPTX-bestandsdiagrammen maakt met Java" %}}
 
  Om PPTX-bestandsdiagrammen te maken, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
  API, een veelzijdige, krachtige en gebruiksvriendelijke kaart-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -54,7 +54,7 @@ description: Java-voorbeeldcode om een ​​grafiek of diagram in een PPTX-best
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPTX-bestanden te maken in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat in kaart wordt gebracht met [Aspose.Slides for Java](https://products.aspose.com/slides/java) API's kan worden gemaakt met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat in kaart wordt gebracht met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java) API's kan worden gemaakt met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantie van het klasseobject Presentatie.
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde kaartformaten" subTitle="Met Java kan men gemakkelijk omgaan met verschillende formaten, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

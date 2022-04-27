@@ -14,7 +14,7 @@ description: C# सोर्स कोड .NET Framework, .NET Core, Windows Azu
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके PPT फ़ाइल कैसे खोजें" %}}
 
  PPT फ़ाइल को खोजने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  API जो एक सुविधा संपन्न, शक्तिशाली और उपयोग में आसान Microsoft PowerPoint दस्तावेज़ है जो C# प्लेटफॉर्म के लिए API खोजता है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="सी#में पीपीटी फाइलों को खोजने के लिए कदम" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/net) API के साथ एक बुनियादी दस्तावेज़ खोज कोड की कुछ पंक्तियों के साथ की जा सकती है।" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net) API के साथ एक बुनियादी दस्तावेज़ खोज कोड की कुछ पंक्तियों के साथ की जा सकती है।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 पीपीटी फ़ाइल लोड करें।
@@ -153,8 +153,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित खोज प्रारूप" subTitle="सी # का उपयोग करके, कोई अन्य प्रारूप भी खोज सकता है जिसमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/search/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/search/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

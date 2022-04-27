@@ -12,7 +12,7 @@ description: Исходный код C# для редактирования до
 
 {{% blocks/products/pf/agp/content h2="Как редактировать файл PPT с помощью C#" %}}
 
-Для редактирования файла PPT мы будем использовать <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API, который представляет собой многофункциональный, мощный и простой в использовании API для платформы C# для любого редактора. Откройте <a href="https://www.nuget.org/packages/aspose.slides.net">диспетчер пакетов NuGet</a>, найдите <b>Aspose.Slides</b> и установите. Вы также можете использовать следующую команду из консоли диспетчера пакетов.
+Для редактирования файла PPT мы будем использовать <a href="https://products.aspose.com/slides/ru/net">Aspose.Slides for .NET</a> API, который представляет собой многофункциональный, мощный и простой в использовании API для платформы C# для любого редактора. Откройте <a href="https://www.nuget.org/packages/aspose.slides.net">диспетчер пакетов NuGet</a>, найдите <b>Aspose.Slides</b> и установите. Вы также можете использовать следующую команду из консоли диспетчера пакетов.
 
 {{% blocks/products/pf/agp/code-block title="Команда" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Базовое редактирование документов с
- [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides для .NET](https://products.aspose.com/slides/ru/net)
  API можно реализовать всего несколькими строками кода.
 
 {{% /blocks/products/pf/agp/text %}}

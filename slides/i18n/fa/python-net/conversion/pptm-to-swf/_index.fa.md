@@ -14,7 +14,7 @@ description: کد نمونه برای تبدیل PPTM به SWF پایتون. ب�
 
 {{% blocks/products/pf/agp/content h2="تبدیل PPTM به SWF در پایتون" %}}
 
-آیا نیاز به تبدیل فایل های PPTM به SWF دارید؟ با استفاده از [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) هر توسعه دهنده می تواند تنها با چند خط کد پایتون PPTM را به فرمت SWF تبدیل کند.
+آیا نیاز به تبدیل فایل های PPTM به SWF دارید؟ با استفاده از [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند تنها با چند خط کد پایتون PPTM را به فرمت SWF تبدیل کند.
 
 به عنوان یک API پردازش ارائه مدرن، Aspose.Slides برای Python به سرعت SWF را از PPTM ایجاد می کند. کیفیت تبدیل PPTM به SWF را درست در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های PPTM را به بسیاری از فرمت های محبوب تبدیل کنید.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.pptm") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می توانید PPTM را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="تصویر بیت مپ" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="فرمت متافایل پیشرفته" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-fodp/" name="PPTM TO FODP" description="OpenDocument Flat XML Presentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="فرمت تبادل گرافیکی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-html/" name="PPTM TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-jpg/" name="PPTM TO JPG" description="تصویر JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="فرمت ارائه اسناد باز" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="فرمت استاندارد OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="فرمت سند قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-png/" name="PPTM TO PNG" description="گرافیک شبکه قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-pot/" name="PPTM TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-potm/" name="PPTM TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-potx/" name="PPTM TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-pps/" name="PPTM TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="فرمت تصویر برچسب شده" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="مشخصات کاغذ XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="تصویر بیت مپ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="فرمت متافایل پیشرفته" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-fodp/" name="PPTM TO FODP" description="OpenDocument Flat XML Presentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="فرمت تبادل گرافیکی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-html/" name="PPTM TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-jpg/" name="PPTM TO JPG" description="تصویر JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="فرمت ارائه اسناد باز" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="فرمت استاندارد OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="فرمت سند قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-png/" name="PPTM TO PNG" description="گرافیک شبکه قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-pot/" name="PPTM TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-potm/" name="PPTM TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-potx/" name="PPTM TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-pps/" name="PPTM TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="مایکروسافت پاورپوینت 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="فرمت تصویر برچسب شده" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="مشخصات کاغذ XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

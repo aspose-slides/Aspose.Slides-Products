@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای ترسیم و تبدیل نمود
 {{% blocks/products/pf/agp/content h2="نحوه ایجاد نمودارهای فایل PPTX با استفاده از جاوا" %}}
 
  به منظور ایجاد نمودارهای فایل PPTX، ما استفاده خواهیم کرد
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
  API که یک API نموداری غنی، قدرتمند و آسان برای استفاده برای پلتفرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای ترسیم و تبدیل نمود
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ایجاد نمودار فایل های PPTX در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for Java](https://products.aspose.com/slides/java) API ها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) API ها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantiate شی کلاس Presentation.
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های نمودار پشتیبانی شده" subTitle="با استفاده از جاوا، می توان به راحتی با فرمت های مختلف از جمله Charing مقابله کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/chart/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

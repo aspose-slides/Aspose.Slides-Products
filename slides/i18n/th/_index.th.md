@@ -11,19 +11,19 @@ description: Aspose.Slides เป็น PowerPoint API เพื่อจัด�
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code API รวม" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/th/net" >}}
 บน Premise .NET API เพื่อจัดการงานนำเสนอ Microsoft PowerPoint ภายในแอปพลิเคชันที่พัฒนาโดยใช้ .NET Framework, .NET Core และแพลตฟอร์มอื่นๆ ผ่าน COM Interop
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/th/java" >}}
 Java APIs เพื่อสร้าง โหลด จัดการ แปลงหรือแยกวิเคราะห์การนำเสนอ สไลด์ และองค์ประกอบใน Microsoft PowerPoint ในแอปพลิเคชันใดๆ โดยอิงจาก Java SE หรือ EE
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/th/cpp" >}}
 ไลบรารีเนทีฟสำหรับแอปพลิเคชัน C++ เพื่อสร้าง โหลด จัดการ แปลงหรือแสดงไฟล์ Microsoft PowerPoint
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="ดู High Code API ทั้งหมด" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/th/family/" innerText="ดู High Code API ทั้งหมด" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

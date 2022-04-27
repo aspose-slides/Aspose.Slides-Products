@@ -14,7 +14,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 {{% blocks/products/pf/agp/content h2="जावा का उपयोग करके ओडीपी फ़ाइल को कैसे पार्स करें" %}}
 
  ODP फ़ाइल को पार्स करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और जावा प्लेटफॉर्म के लिए उपयोग में आसान पार्सिंग एपीआई है। आप इसका नवीनतम संस्करण सीधे से डाउनलोड कर सकते हैं
  [मेवेन](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  और pom.xml में निम्नलिखित कॉन्फ़िगरेशन जोड़कर इसे अपने मावेन-आधारित प्रोजेक्ट में स्थापित करें।
@@ -54,7 +54,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 
 {{< blocks/products/pf/agp/feature-section-col title="जावा में ओडीपी फाइलों को पार्स करने के लिए कदम" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/java) API के साथ पार्सिंग करने वाला एक मूल दस्तावेज़ कोड की कुछ पंक्तियों के साथ किया जा सकता है।" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/hi/java) API के साथ पार्सिंग करने वाला एक मूल दस्तावेज़ कोड की कुछ पंक्तियों के साथ किया जा सकता है।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 प्रेजेंटेशन क्लास को चालू करके ओडीपी फ़ाइल लोड करें।
@@ -163,8 +163,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित पार्सिंग दस्तावेज़" subTitle="जावा का उपयोग करके, कोई भी अन्य प्रारूपों को आसानी से पार्स कर सकता है, जिसमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/parser/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/parser/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

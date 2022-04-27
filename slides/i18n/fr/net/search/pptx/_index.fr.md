@@ -14,7 +14,7 @@ description: Code source C # pour rechercher des mots avec un motif dans le fich
 {{% blocks/products/pf/agp/content h2="Comment rechercher un fichier PPTX à l'aide de C #" %}}
 
  Afin de rechercher le fichier PPTX, nous utiliserons
- [Aspose.Slides pour .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
  API qui est une API de recherche de fichiers Microsoft PowerPoint riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour rechercher des fichiers PPTX en C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Une recherche de documents de base avec les API [Aspose.Slides pour .NET](https://products.aspose.com/slides/net) peut être effectuée avec seulement quelques lignes de code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Une recherche de documents de base avec les API [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net) peut être effectuée avec seulement quelques lignes de code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Charger le fichier PPTX.
@@ -153,8 +153,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de recherche pris en charge" subTitle="En utilisant C #, on peut également rechercher d'autres formats, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/search/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

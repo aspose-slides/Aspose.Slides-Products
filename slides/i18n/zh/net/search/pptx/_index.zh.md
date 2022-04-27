@@ -14,7 +14,7 @@ description: C# 源代码，用于在 .NET Framework、.NET Core、Windows Azure
 {{% blocks/products/pf/agp/content h2="如何使用 C# 搜索 PPTX 文件" %}}
 
  为了搜索 PPTX 文件，我们将使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net)
  API 是一个功能丰富、功能强大且易于使用的 Microsoft PowerPoint 文件搜索 API，适用于 C# 平台。打开
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C# 中搜索 PPTX 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API 进行基本文档搜索。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net) API 进行基本文档搜索。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加载 PPTX 文件。
@@ -153,8 +153,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用 C#，还可以搜索其他格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/search/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/search/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

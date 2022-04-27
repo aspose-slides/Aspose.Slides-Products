@@ -12,7 +12,7 @@ description: Πηγαίος κώδικας C# για επεξεργασία εγ
 
 {{% blocks/products/pf/agp/content h2="Πώς να επεξεργαστείτε το αρχείο POTX χρησιμοποιώντας C#" %}}
 
-Για να επεξεργαστούμε το αρχείο POTX, θα χρησιμοποιήσουμε το <a href="https://products.aspose.com/slides/net">Aspose.Slides για .NET</a> API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API για πλατφόρμα C# για οποιονδήποτε επεξεργαστή. Ανοίξτε τον διαχειριστή πακέτων <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, αναζητήστε <b>Aspose.Slides</b> και εγκαταστήστε. Μπορείτε επίσης να χρησιμοποιήσετε την ακόλουθη εντολή από την Κονσόλα Package Manager.
+Για να επεξεργαστούμε το αρχείο POTX, θα χρησιμοποιήσουμε το <a href="https://products.aspose.com/slides/el/net">Aspose.Slides για .NET</a> API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API για πλατφόρμα C# για οποιονδήποτε επεξεργαστή. Ανοίξτε τον διαχειριστή πακέτων <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, αναζητήστε <b>Aspose.Slides</b> και εγκαταστήστε. Μπορείτε επίσης να χρησιμοποιήσετε την ακόλουθη εντολή από την Κονσόλα Package Manager.
 
 {{% blocks/products/pf/agp/code-block title="Εντολή" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Μια βασική επεξεργασία εγγράφων με
- [Aspose.Slides για .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides για .NET](https://products.aspose.com/slides/el/net)
  Τα API μπορούν να γίνουν με λίγες μόνο γραμμές κώδικα.
 
 {{% /blocks/products/pf/agp/text %}}

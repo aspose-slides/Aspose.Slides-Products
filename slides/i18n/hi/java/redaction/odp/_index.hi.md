@@ -14,7 +14,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 {{% blocks/products/pf/agp/content h2="जावा का उपयोग करके ओडीपी फ़ाइल को कैसे सुधारें?" %}}
 
  ODP फ़ाइल को संशोधित करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java)
  एपीआई जो जावा प्लेटफॉर्म के लिए एक सुविधा संपन्न, शक्तिशाली और उपयोग में आसान रिडक्शन एपीआई है। आप इसका नवीनतम संस्करण सीधे से डाउनलोड कर सकते हैं
  [मेवेन](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  और pom.xml में निम्नलिखित कॉन्फ़िगरेशन जोड़कर इसे अपने मावेन-आधारित प्रोजेक्ट में स्थापित करें।
@@ -54,7 +54,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 
 {{< blocks/products/pf/agp/feature-section-col title="जावा में ओडीपी फाइलों को फिर से सक्रिय करने के लिए कदम" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="एक मूल दस्तावेज़ खोज और सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट को [Aspose.Slides for Java](https://products.aspose.com/slides/java) API से बदल देता है, जो कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूंढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुति में टेक्स्ट, टिप्पणियां, मेटाडेटा संपादित करें।" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="एक मूल दस्तावेज़ खोज और सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट को [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java) API से बदल देता है, जो कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूंढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुति में टेक्स्ट, टिप्पणियां, मेटाडेटा संपादित करें।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ओडीपी प्रस्तुति लोड करें।
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित सुधार दस्तावेज़" subTitle="जावा का उपयोग करके, कोई भी व्यक्ति विभिन्न प्रारूपों को आसानी से संशोधित कर सकता है, जिसमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/redaction/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/redaction/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

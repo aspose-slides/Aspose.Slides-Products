@@ -11,19 +11,19 @@ description: Aspose.Slides प्रस्तुतियों में हे
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs शामिल करें" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/hi/net" >}}
 कॉम इंटरऑप के माध्यम से .NET फ्रेमवर्क, .NET कोर और अन्य प्लेटफार्मों का उपयोग करके विकसित अनुप्रयोगों के भीतर Microsoft PowerPoint प्रस्तुतियों में हेरफेर करने के लिए परिसर .NET API पर।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/hi/java" >}}
 जावा एसई या ईई पर आधारित किसी भी एप्लिकेशन में माइक्रोसॉफ्ट पावरपॉइंट प्रेजेंटेशन, स्लाइड और उनके तत्वों को बनाने, लोड करने, हेरफेर करने, कनवर्ट करने या पार्स करने के लिए जावा एपीआई।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/hi/cpp" >}}
 माइक्रोसॉफ्ट पावरपॉइंट फाइलों को बनाने, लोड करने, हेरफेर करने, कनवर्ट करने या प्रस्तुत करने के लिए सी ++ अनुप्रयोगों के लिए मूल पुस्तकालय।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="सभी हाई कोड API देखें" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/hi/family/" innerText="सभी हाई कोड API देखें" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

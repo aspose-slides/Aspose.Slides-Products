@@ -14,7 +14,7 @@ description: Kod źródłowy C# do wyodrębniania tekstu i obrazów z pliku PPTX
 {{% blocks/products/pf/agp/content h2="Jak przeanalizować plik PPTX za pomocą C#" %}}
 
  Aby przeanalizować plik PPTX, użyjemy
- [Aspose.Slides dla .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dla .NET](https://products.aspose.com/slides/pl/net)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API do manipulacji dokumentami dla platformy C#. otwarty
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  menedżer pakietów, szukaj
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki do analizowania plików PPTX w C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe przetwarzanie dokumentów za pomocą interfejsów API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe przetwarzanie dokumentów za pomocą interfejsów API [Aspose.Slides for .NET](https://products.aspose.com/slides/pl/net) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj plik PPTX.
@@ -143,8 +143,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty analizowania" subTitle="Używając C#, można łatwo analizować inne formaty, w tym." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/parser/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

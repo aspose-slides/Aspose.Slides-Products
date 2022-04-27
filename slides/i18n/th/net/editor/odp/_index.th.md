@@ -12,7 +12,7 @@ description: ซอร์สโค้ด C# เพื่อแก้ไขเอ
 
 {{% blocks/products/pf/agp/content h2="วิธีแก้ไขไฟล์ ODP โดยใช้ C #" %}}
 
-ในการแก้ไขไฟล์ ODP เราจะใช้ <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API ซึ่งเป็นคุณลักษณะที่มีประสิทธิภาพและทรงพลัง และ API ที่ใช้งานง่ายสำหรับแพลตฟอร์ม C# สำหรับตัวแก้ไขใดๆ เปิด <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> package manager ค้นหา <b>Aspose.Slides</b> และติดตั้ง คุณยังสามารถใช้คำสั่งต่อไปนี้จาก Package Manager Console
+ในการแก้ไขไฟล์ ODP เราจะใช้ <a href="https://products.aspose.com/slides/th/net">Aspose.Slides for .NET</a> API ซึ่งเป็นคุณลักษณะที่มีประสิทธิภาพและทรงพลัง และ API ที่ใช้งานง่ายสำหรับแพลตฟอร์ม C# สำหรับตัวแก้ไขใดๆ เปิด <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> package manager ค้นหา <b>Aspose.Slides</b> และติดตั้ง คุณยังสามารถใช้คำสั่งต่อไปนี้จาก Package Manager Console
 
 {{% blocks/products/pf/agp/code-block title="สั่งการ" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  การแก้ไขเอกสารเบื้องต้นด้วย
- [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/th/net)
  API สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด
 
 {{% /blocks/products/pf/agp/text %}}

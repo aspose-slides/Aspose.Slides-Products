@@ -14,7 +14,7 @@ description: C++ exempelkod för att rita och konvertera diagram eller diagram i
 {{% blocks/products/pf/agp/content h2="Hur man skapar PPTX-fildiagram med C++" %}}
 
  För att söka PPTX-fil använder vi
- [Aspose.Slides för C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentsökning för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att skapa PPTX-fildiagram i C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentkarta med [Aspose.Slides för C++](https://products.aspose.com/slides/cpp) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentkarta med [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instant presentationsklass.
@@ -225,7 +225,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra kartformat som stöds" subTitle="Med C++ kan man enkelt hantera charring med olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

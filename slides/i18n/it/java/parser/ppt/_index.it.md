@@ -14,7 +14,7 @@ description: Codice di esempio Java per estrarre testo e immagini dal file PPT s
 {{% blocks/products/pf/agp/content h2="Come analizzare il file PPT utilizzando Java" %}}
 
  Per analizzare il file PPT, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di analisi ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -54,7 +54,7 @@ description: Codice di esempio Java per estrarre testo e immagini dal file PPT s
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per analizzare i file PPT in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire un'analisi di base del documento con le API [Aspose.Slides for Java](https://products.aspose.com/slides/java) con poche righe di codice." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire un'analisi di base del documento con le API [Aspose.Slides for Java](https://products.aspose.com/slides/it/java) con poche righe di codice." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica il file PPT instaurando la classe Presentation.
@@ -163,8 +163,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri documenti di analisi supportati" subTitle="Usando Java, si possono facilmente analizzare altri formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/parser/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/parser/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

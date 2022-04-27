@@ -12,7 +12,7 @@ description: C#-broncode om PPSM-document te bewerken op .NET Framework, .NET Co
 
 {{% blocks/products/pf/agp/content h2="Hoe PPSM-bestand te bewerken met C #" %}}
 
-Om het PPSM-bestand te bewerken, gebruiken we <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API, een veelzijdige, krachtige en eenvoudig te gebruiken API voor C#-platform voor elke editor. Open <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>-pakketbeheerder, zoek naar <b>Aspose.Slides</b> en installeer. U kunt ook de volgende opdracht gebruiken vanuit de Package Manager Console.
+Om het PPSM-bestand te bewerken, gebruiken we <a href="https://products.aspose.com/slides/nl/net">Aspose.Slides for .NET</a> API, een veelzijdige, krachtige en eenvoudig te gebruiken API voor C#-platform voor elke editor. Open <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>-pakketbeheerder, zoek naar <b>Aspose.Slides</b> en installeer. U kunt ook de volgende opdracht gebruiken vanuit de Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Opdracht" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Een eenvoudige documentbewerking met
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API's kunnen worden gedaan met slechts een paar regels code.
 
 {{% /blocks/products/pf/agp/text %}}

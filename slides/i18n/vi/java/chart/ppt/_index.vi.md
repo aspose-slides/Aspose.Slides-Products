@@ -14,7 +14,7 @@ description: Mã mẫu Java để vẽ và chuyển đổi biểu đồ hoặc s
 {{% blocks/products/pf/agp/content h2="Cách tạo biểu đồ tệp PPT bằng Java" %}}
 
  Để tạo biểu đồ tệp PPT, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
  API là một API biểu đồ giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -54,7 +54,7 @@ description: Mã mẫu Java để vẽ và chuyển đổi biểu đồ hoặc s
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước tạo biểu đồ tệp PPT trong Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/java) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Lập biểu đồ tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Khởi tạo đối tượng lớp Trình bày.
@@ -258,7 +258,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng biểu đồ được hỗ trợ khác" subTitle="Sử dụng Java, người ta có thể dễ dàng xử lý chuỗi với các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/chart/pptx/" name="PPTX" description="Định dạng bản trình bày XML mở" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

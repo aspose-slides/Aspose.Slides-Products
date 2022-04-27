@@ -14,7 +14,7 @@ description: Java mintakód szöveg és képek kinyeréséhez a PPT fájlból a 
 {{% blocks/products/pf/agp/content h2="A PPT fájl elemzése Java segítségével" %}}
 
  A PPT fájl elemzéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható elemző API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.
@@ -54,7 +54,7 @@ description: Java mintakód szöveg és képek kinyeréséhez a PPT fájlból a 
 
 {{< blocks/products/pf/agp/feature-section-col title="Lépések a PPT-fájlok elemzéséhez Java nyelven" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/java) API-kkal való alapvető dokumentumelemzés néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java) API-kkal való alapvető dokumentumelemzés néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltsön be PPT fájlt a Prezentáció osztály létrehozásával.
@@ -163,8 +163,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott elemzési dokumentumok" subTitle="A Java használatával könnyen elemezhet más formátumokat, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/parser/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/parser/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

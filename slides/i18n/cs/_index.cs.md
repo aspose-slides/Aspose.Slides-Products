@@ -11,19 +11,19 @@ description: Aspose.Slides je PowerPoint API pro manipulaci s prezentacemi a clo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code API zahrnuje" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/cs/net" >}}
 On Premise .NET API pro manipulaci s prezentacemi Microsoft PowerPoint v aplikacích vyvinutých pomocí .NET Framework, .NET Core a dalších platforem prostřednictvím COM Interop.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/cs/java" >}}
 Java API pro vytváření, načítání, manipulaci, konverzi nebo analýzu Microsoft PowerPoint prezentací, snímků a jejich prvků v jakékoli aplikaci založené na Java SE nebo EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cs/cpp" >}}
 Nativní knihovna pro aplikace C++ k vytváření, načítání, manipulaci, převodu nebo vykreslování souborů Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="Zobrazit všechna rozhraní API s vysokým kódem" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/cs/family/" innerText="Zobrazit všechna rozhraní API s vysokým kódem" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

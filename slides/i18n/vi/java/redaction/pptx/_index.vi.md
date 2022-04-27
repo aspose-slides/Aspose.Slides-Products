@@ -14,7 +14,7 @@ description: Mã mẫu Java để biên dịch lại thông tin nhạy cảm tro
 {{% blocks/products/pf/agp/content h2="Cách tạo lại tệp PPTX bằng Java" %}}
 
  Để biên tập lại tệp PPTX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
  API là một API redaction giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -54,7 +54,7 @@ description: Mã mẫu Java để biên dịch lại thông tin nhạy cảm tro
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước chỉnh sửa tệp PPTX trong Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu bằng API [Aspose.Slides for Java](https://products.aspose.com/slides/java) chỉ với vài dòng mã. Tìm và thay thế văn bản trong PowerPoint và OpenOffice. Chỉnh sửa văn bản, nhận xét, siêu dữ liệu trong bản trình bày thông qua đối sánh dữ liệu regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu bằng API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java) chỉ với vài dòng mã. Tìm và thay thế văn bản trong PowerPoint và OpenOffice. Chỉnh sửa văn bản, nhận xét, siêu dữ liệu trong bản trình bày thông qua đối sánh dữ liệu regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải bản trình bày PPTX.
@@ -166,8 +166,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Các tài liệu giao dịch lại được hỗ trợ khác" subTitle="Sử dụng Java, người ta có thể dễ dàng biên tập các định dạng khác nhau bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/redaction/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

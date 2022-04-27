@@ -14,7 +14,7 @@ description: نموذج كود لتحويل POTM إلى HTML Python. استخد�
 
 {{% blocks/products/pf/agp/content h2="تحويل POTM إلى HTML في Python" %}}
 
-هل تحتاج إلى تحويل ملفات POTM إلى HTML برمجيًا؟ باستخدام [* Aspose.Slides for Python عبر .NET *](https://products.aspose.com/slides/python-net/) يمكن لأي مطور تحويل POTM إلى تنسيق HTML ببضعة أسطر فقط من كود Python.
+هل تحتاج إلى تحويل ملفات POTM إلى HTML برمجيًا؟ باستخدام [* Aspose.Slides for Python عبر .NET *](https://products.aspose.com/slides/ar/python-net/) يمكن لأي مطور تحويل POTM إلى تنسيق HTML ببضعة أسطر فقط من كود Python.
 
 باعتبارها واجهة برمجة تطبيقات حديثة لمعالجة العروض التقديمية ، تقوم Aspose.Slides for Python بإنشاء HTML من POTM بسرعة. اختبر جودة تحويل POTM إلى HTML مباشرة في [المتصفح](https://products.aspose.app/slides/conversion). تسمح لك مكتبة Aspose PowerPoint PPTX بتحويل ملفات POTM إلى العديد من التنسيقات الشائعة.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.potm") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="التحويلات المدعومة الأخرى" subTitle="يمكنك أيضًا تحويل POTM إلى العديد من تنسيقات الملفات الأخرى. انظر التحويلات الأخرى المدعومة أدناه" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="سيب" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="تنسيق ملف التعريف المحسن" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-fodp/" name="POTM TO FODP" description="عرض تقديمي XML مسطح OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-gif/" name="POTM TO GIF" description="تنسيق التبادل الرسومي" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-jpg/" name="POTM TO JPG" description="صورة JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-odp/" name="POTM TO ODP" description="تنسيق العرض التقديمي OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-otp/" name="POTM TO OTP" description="تنسيق OpenDocument القياسي" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pdf/" name="POTM TO PDF" description="نموذج المستندات المحمولة" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-png/" name="POTM TO PNG" description="رسومات الشبكة المحمولة" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pot/" name="POTM TO POT" description="ملفات قوالب Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-potx/" name="POTM TO POTX" description="عرض تقديمي لقالب Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pps/" name="POTM TO PPS" description="عرض شرائح PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="عرض شرائح ممكّن بماكرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="عرض شرائح PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppt/" name="POTM TO PPT" description="مايكروسوفت باور بوينت 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pptm/" name="POTM TO PPTM" description="ملف العرض التقديمي الممكّن بماكرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="افتح تنسيق عرض XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-svg/" name="POTM TO SVG" description="الرسومات المتجهات قابلة لل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-swf/" name="POTM TO SWF" description="تنسيق SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="تنسيق الصورة الموسومة" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-xps/" name="POTM TO XPS" description="مواصفات ورق XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="سيب" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="تنسيق ملف التعريف المحسن" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-fodp/" name="POTM TO FODP" description="عرض تقديمي XML مسطح OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-gif/" name="POTM TO GIF" description="تنسيق التبادل الرسومي" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-jpg/" name="POTM TO JPG" description="صورة JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-odp/" name="POTM TO ODP" description="تنسيق العرض التقديمي OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-otp/" name="POTM TO OTP" description="تنسيق OpenDocument القياسي" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-pdf/" name="POTM TO PDF" description="نموذج المستندات المحمولة" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-png/" name="POTM TO PNG" description="رسومات الشبكة المحمولة" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-pot/" name="POTM TO POT" description="ملفات قوالب Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-potx/" name="POTM TO POTX" description="عرض تقديمي لقالب Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-pps/" name="POTM TO PPS" description="عرض شرائح PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="عرض شرائح ممكّن بماكرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="عرض شرائح PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-ppt/" name="POTM TO PPT" description="مايكروسوفت باور بوينت 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-pptm/" name="POTM TO PPTM" description="ملف العرض التقديمي الممكّن بماكرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="افتح تنسيق عرض XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-svg/" name="POTM TO SVG" description="الرسومات المتجهات قابلة لل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-swf/" name="POTM TO SWF" description="تنسيق SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="تنسيق الصورة الموسومة" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/potm-to-xps/" name="POTM TO XPS" description="مواصفات ورق XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

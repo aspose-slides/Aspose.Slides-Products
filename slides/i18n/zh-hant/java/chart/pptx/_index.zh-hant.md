@@ -14,7 +14,7 @@ description: Java 示例代碼，用於在 JSP/JSF 應用程序和桌面應用�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 創建 PPTX 文件圖表" %}}
 
  為了創建 PPTX 文件圖表，我們將使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java)
  API 是一個功能豐富、功能強大且易於使用的 Java 平台圖表 API。您可以直接從
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  並通過將以下配置添加到 pom.xml 將其安裝在基於 Maven 的項目中。
@@ -54,7 +54,7 @@ description: Java 示例代碼，用於在 JSP/JSF 應用程序和桌面應用�
 
 {{< blocks/products/pf/agp/feature-section-col title="在 Java 中創建 PPTX 文件圖表的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可使用 [Aspose.Slides for Java](https://products.aspose.com/slides/java) API 繪製基本文檔圖表。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可使用 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java) API 繪製基本文檔圖表。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 實例化 Presentation 類對象。
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的圖表格式" subTitle="使用 Java，可以輕鬆處理不同格式的字符處理，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="微軟PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/chart/ppt/" name="PPT" description="微軟PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

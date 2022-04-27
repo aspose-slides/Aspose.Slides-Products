@@ -14,7 +14,7 @@ description: ซอร์สโค้ด C# เพื่อวาดและแ
 {{% blocks/products/pf/agp/content h2="วิธีสร้างแผนภูมิ PPT โดยใช้ C #" %}}
 
  ในการสร้างแผนภูมิ PPT เราจะใช้
- [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/th/net)
  API ซึ่งเป็น API การจัดการเอกสารที่มีคุณลักษณะหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม C# เปิด
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  package manager ค้นหา
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="ขั้นตอนในการสร้างแผนภูมิไฟล์ PPT ใน C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="การสร้างแผนภูมิเอกสารพื้นฐานด้วย API ของ [Aspose.Slides for .NET](https://products.aspose.com/slides/net) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="การสร้างแผนภูมิเอกสารพื้นฐานด้วย API ของ [Aspose.Slides for .NET](https://products.aspose.com/slides/th/net) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 สร้างวัตถุคลาสการนำเสนอ
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบแผนภูมิอื่นๆ ที่รองรับ" subTitle="การใช้ C# ทำให้สามารถจัดการกับการสร้างแผนภูมิด้วยรูปแบบต่างๆ ได้อย่างง่ายดาย เช่น" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/chart/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

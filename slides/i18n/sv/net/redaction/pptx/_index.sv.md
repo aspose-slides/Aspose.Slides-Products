@@ -14,7 +14,7 @@ description: C#-källkod för att redigera känslig information i PPTX-fil på .
 {{% blocks/products/pf/agp/content h2="Hur man redigerar PPTX-fil med C#" %}}
 
  För att redigera PPTX-fil kommer vi att använda
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering för C#-plattformen. Öppen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakethanterare, sök efter
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att redigera PPTX-filer i C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentsökning och ersätt text i innehåll, kommentarer eller metadata med [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API:er kan göras med bara några rader kod. Hitta och ersätt text i PowerPoint och OpenOffice. Redigera text, kommentarer, metadata i presentationen via regexp-datamatchning." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentsökning och ersätt text i innehåll, kommentarer eller metadata med [Aspose.Slides for .NET](https://products.aspose.com/slides/sv/net) API:er kan göras med bara några rader kod. Hitta och ersätt text i PowerPoint och OpenOffice. Redigera text, kommentarer, metadata i presentationen via regexp-datamatchning." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Ladda PPTX-presentation.
@@ -134,8 +134,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra redigeringsformat som stöds" subTitle="Med C# kan man enkelt redigera olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/redaction/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Codice di esempio Java per oscurare le informazioni riservate nel f
 {{% blocks/products/pf/agp/content h2="Come redigere il file ODP usando Java" %}}
 
  Per redigere il file ODP, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di redazione ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -54,7 +54,7 @@ description: Codice di esempio Java per oscurare le informazioni riservate nel f
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per redigere i file ODP in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire una ricerca di base del documento e sostituire il testo nei contenuti, nei commenti o nei metadati con le API [Aspose.Slides for Java](https://products.aspose.com/slides/java) con poche righe di codice. Trova e sostituisci testo in PowerPoint e OpenOffice. Modifica testo, commenti, metadati nella presentazione tramite la corrispondenza dei dati regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire una ricerca di base del documento e sostituire il testo nei contenuti, nei commenti o nei metadati con le API [Aspose.Slides for Java](https://products.aspose.com/slides/it/java) con poche righe di codice. Trova e sostituisci testo in PowerPoint e OpenOffice. Modifica testo, commenti, metadati nella presentazione tramite la corrispondenza dei dati regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica presentazione ODP.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri documenti di redazione supportati" subTitle="Usando Java, si possono facilmente redigere diversi formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/redaction/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

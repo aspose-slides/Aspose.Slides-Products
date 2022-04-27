@@ -14,7 +14,7 @@ description: C++ 示例代碼，用於在 Windows 32 位、Windows 64 位和 Lin
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 創建 PPT 文件圖表" %}}
 
  為了搜索 PPT 文件，我們將使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp)
  API 是一個功能豐富、功能強大且易於使用的 C++ 平台文檔搜索 API。可以直接下載最新版本，直接打開
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C++ 中創建 PPT 文件圖表的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可使用 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API 繪製基本文檔圖表。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可使用 [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp) API 繪製基本文檔圖表。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 實例化演示類。
@@ -225,7 +225,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的圖表格式" subTitle="使用 C++，可以輕鬆處理不同格式的字符，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/chart/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/chart/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

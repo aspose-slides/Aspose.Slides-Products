@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای افزودن یا حذف وا�
 {{% blocks/products/pf/agp/content h2="نحوه واترمارک کردن فایل PPT با استفاده از سی شارپ" %}}
 
  به منظور واترمارک کردن فایل PPT، از آن استفاده خواهیم کرد
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API دستکاری اسناد غنی، قدرتمند و آسان برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -129,7 +129,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های Watermarking پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان به راحتی فرمت های مختلف از جمله واترمارک کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/watermark/pptx/" name="PPTX" description="قالب ارائه XML را باز کنید" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

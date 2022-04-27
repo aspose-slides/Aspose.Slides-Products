@@ -11,19 +11,19 @@ description: Aspose.Slides, sunumları değiştirmek için bir PowerPoint API'si
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides Yüksek Kod API'leri şunları içerir:" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/tr/net" >}}
 .NET Framework, .NET Core ve COM Interop aracılığıyla diğer platformlar kullanılarak geliştirilen uygulamalarda Microsoft PowerPoint sunumlarını işlemek için Şirket İçi .NET API'leri.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/tr/java" >}}
 Java SE veya EE tabanlı herhangi bir uygulamada Microsoft PowerPoint sunumları, slaytlar ve bunların öğelerini oluşturmak, yüklemek, işlemek, dönüştürmek veya ayrıştırmak için Java API'leri.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/tr/cpp" >}}
 Microsoft PowerPoint dosyalarını oluşturmak, yüklemek, işlemek, dönüştürmek veya işlemek için C++ uygulamaları için yerel kitaplık.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="Tüm Yüksek Kod API'lerini Görüntüle" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/tr/family/" innerText="Tüm Yüksek Kod API'lerini Görüntüle" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

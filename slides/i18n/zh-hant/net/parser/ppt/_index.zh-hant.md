@@ -14,7 +14,7 @@ description: C# 源代碼，用於從 .NET Framework、.NET Core、Windows Azure
 {{% blocks/products/pf/agp/content h2="如何使用 C# 解析 PPT 文件" %}}
 
  為了解析 PPT 文件，我們將使用
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net)
  API 是一個功能豐富、功能強大且易於使用的 C# 平台文檔操作 API。打開
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C# 中解析 PPT 文件的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API 解析基本文檔只需幾行代碼即可完成。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net) API 解析基本文檔只需幾行代碼即可完成。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加載 PPT 文件。
@@ -143,8 +143,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的解析格式" subTitle="使用 C#，可以輕鬆解析其他格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/parser/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/parser/pptx/" name="PPTX" description="打開 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

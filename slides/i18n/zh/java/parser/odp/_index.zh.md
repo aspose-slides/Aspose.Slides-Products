@@ -14,7 +14,7 @@ description: 用于从 JSP/JSF 应用程序和桌面应用程序的 Java 运行�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 解析 ODP 文件" %}}
 
  为了解析 ODP 文件，我们将使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java)
  API 是一个功能丰富、功能强大且易于使用的 Java 平台解析 API。您可以直接从
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  并通过将以下配置添加到 pom.xml 将其安装在基于 Maven 的项目中。
@@ -54,7 +54,7 @@ description: 用于从 JSP/JSF 应用程序和桌面应用程序的 Java 运行�
 
 {{< blocks/products/pf/agp/feature-section-col title="在 Java 中解析 ODP 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for Java](https://products.aspose.com/slides/java) API 解析基本文档只需几行代码即可完成。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java) API 解析基本文档只需几行代码即可完成。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 通过实例化 Presentation 类加载 ODP 文件。
@@ -163,8 +163,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的解析文档" subTitle="使用 Java，可以轻松解析其他格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/java/parser/ppt/" name="PPT" description="微软PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/java/parser/pptx/" name="PPTX" description="打开 XML 表示格式" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

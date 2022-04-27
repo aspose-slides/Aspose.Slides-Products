@@ -12,7 +12,7 @@ description: Kode sumber C# untuk mengedit dokumen POTX di .NET Framework, .NET 
 
 {{% blocks/products/pf/agp/content h2="Cara Mengedit File POTX Menggunakan C#" %}}
 
-Untuk mengedit file POTX, kami akan menggunakan <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API yang kaya fitur dan kuat dan API yang mudah digunakan untuk platform C# untuk editor apa pun. Buka <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> pengelola paket, cari <b>Aspose.Slides</b> dan instal. Anda juga dapat menggunakan perintah berikut dari Package Manager Console.
+Untuk mengedit file POTX, kami akan menggunakan <a href="https://products.aspose.com/slides/id/net">Aspose.Slides for .NET</a> API yang kaya fitur dan kuat dan API yang mudah digunakan untuk platform C# untuk editor apa pun. Buka <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> pengelola paket, cari <b>Aspose.Slides</b> dan instal. Anda juga dapat menggunakan perintah berikut dari Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Memerintah" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Pengeditan dokumen dasar dengan
- [Aspose.Slides untuk .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides untuk .NET](https://products.aspose.com/slides/id/net)
  API dapat dilakukan hanya dengan beberapa baris kode.
 
 {{% /blocks/products/pf/agp/text %}}

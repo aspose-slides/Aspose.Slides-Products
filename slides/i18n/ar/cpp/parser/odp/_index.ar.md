@@ -14,7 +14,7 @@ description: مثال على كود C ++ لاستخراج النصوص والص�
 {{% blocks/products/pf/agp/content h2="كيفية تحليل ملف ODP باستخدام C ++" %}}
 
  من أجل تحليل ملف ODP ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp)
  API وهي غنية بالميزات وقوية وسهلة الاستخدام لتحليل المستندات API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات تحليل ملفات ODP في C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="تحليل مستند أساسي باستخدام [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp) يمكن إجراء واجهات برمجة التطبيقات باستخدام بضعة أسطر من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="تحليل مستند أساسي باستخدام [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp) يمكن إجراء واجهات برمجة التطبيقات باستخدام بضعة أسطر من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل ملف ODP.
@@ -146,8 +146,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="مستندات التحليل المعتمدة الأخرى" subTitle="باستخدام C ++ ، يمكن للمرء بسهولة تحليل التنسيقات الأخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/parser/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/parser/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

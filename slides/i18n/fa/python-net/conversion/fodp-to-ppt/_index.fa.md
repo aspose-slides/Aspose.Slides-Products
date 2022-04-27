@@ -14,7 +14,7 @@ description: کد نمونه برای تبدیل FODP به PPT پایتون. ا�
 
 {{% blocks/products/pf/agp/content h2="FODP را در پایتون به PPT تبدیل کنید" %}}
 
-آیا نیاز به تبدیل فایل های FODP به PPT دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/python-net/) هر توسعه دهنده می تواند FODP را تنها با چند خط کد پایتون به فرمت PPT تبدیل کند.
+آیا نیاز به تبدیل فایل های FODP به PPT دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند FODP را تنها با چند خط کد پایتون به فرمت PPT تبدیل کند.
 
 Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت PPT را از FODP ایجاد می کند. کیفیت تبدیل FODP به PPT را درست در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های FODP را به بسیاری از فرمت های محبوب تبدیل کنید.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.fodp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید FODP را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="تصویر بیت مپ" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="فرمت متافایل پیشرفته" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="فرمت تبادل گرافیکی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="تصویر JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="فرمت ارائه اسناد باز" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="فرمت استاندارد OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="فرمت سند قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="گرافیک شبکه قابل حمل" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="فرمت SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="فرمت تصویر برچسب شده" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="مشخصات کاغذ XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="تصویر بیت مپ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="فرمت متافایل پیشرفته" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="فرمت تبادل گرافیکی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="زبان نشانه گذاری فرا متنی" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="تصویر JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="فرمت ارائه اسناد باز" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="فرمت استاندارد OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="فرمت سند قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="گرافیک شبکه قابل حمل" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="فایل های قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="فایل قالب پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="ارائه الگوی پاورپوینت مایکروسافت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="نمایش اسلاید با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="نمایش اسلاید پاورپوینت" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="فایل ارائه با قابلیت ماکرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="قالب ارائه XML را باز کنید" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="گرافیک برداری مقیاس پذیر" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="فرمت SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="فرمت تصویر برچسب شده" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="مشخصات کاغذ XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

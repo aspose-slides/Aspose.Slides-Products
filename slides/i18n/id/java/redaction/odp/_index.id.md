@@ -14,7 +14,7 @@ description: Kode sampel Java untuk menyunting informasi sensitif dalam file ODP
 {{% blocks/products/pf/agp/content h2="Cara Redact File ODP Menggunakan Java" %}}
 
  Untuk menyunting file ODP, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
  API yang merupakan API redaksi yang kaya fitur, kuat, dan mudah digunakan untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.
@@ -54,7 +54,7 @@ description: Kode sampel Java untuk menyunting informasi sensitif dalam file ODP
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah untuk Redact File ODP di Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pencarian dokumen dasar dan mengganti teks dalam konten, komentar, atau metadata dengan [Aspose.Slides for Java](https://products.aspose.com/slides/java) API dapat dilakukan hanya dengan beberapa baris kode. Temukan dan ganti teks di PowerPoint dan OpenOffice. Edit teks, komentar, metadata dalam presentasi melalui pencocokan data regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Pencarian dokumen dasar dan mengganti teks dalam konten, komentar, atau metadata dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java) API dapat dilakukan hanya dengan beberapa baris kode. Temukan dan ganti teks di PowerPoint dan OpenOffice. Edit teks, komentar, metadata dalam presentasi melalui pencocokan data regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat presentasi ODP.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Dokumen Redaksi Lainnya yang Didukung" subTitle="Menggunakan Java, seseorang dapat dengan mudah menyunting berbagai format termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/redaction/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

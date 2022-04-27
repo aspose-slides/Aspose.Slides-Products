@@ -14,7 +14,7 @@ description: C# सोर्स कोड .NET Framework, .NET Core, Windows Azu
 {{% blocks/products/pf/agp/content h2="सी # का उपयोग कर ओडीपी फ़ाइल को कैसे सुधारें" %}}
 
  ODP फ़ाइल को संशोधित करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी # प्लेटफॉर्म के लिए दस्तावेज़ हेरफेर एपीआई का उपयोग करने में आसान है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="सी # में ओडीपी फाइलों को फिर से तैयार करने के लिए कदम" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="एक बुनियादी दस्तावेज़ खोज और सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट को [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API से बदल देता है, जो कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूंढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुति में टेक्स्ट, टिप्पणियां, मेटाडेटा संपादित करें।" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="एक बुनियादी दस्तावेज़ खोज और सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट को [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net) API से बदल देता है, जो कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूंढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुति में टेक्स्ट, टिप्पणियां, मेटाडेटा संपादित करें।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ओडीपी प्रस्तुति लोड करें।
@@ -134,8 +134,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित सुधार प्रारूप" subTitle="C# का उपयोग करके, कोई भी व्यक्ति विभिन्न स्वरूपों को आसानी से संशोधित कर सकता है, जिसमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/redaction/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/redaction/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

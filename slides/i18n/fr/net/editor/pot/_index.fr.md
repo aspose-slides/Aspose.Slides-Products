@@ -12,7 +12,7 @@ description: Code source C # pour modifier le document POT sur les plates-formes
 
 {{% blocks/products/pf/agp/content h2="Comment modifier un fichier POT à l'aide de C#" %}}
 
-Afin de modifier le fichier POT, nous utiliserons l'API <a href="https://products.aspose.com/slides/net">Aspose.Slides pour .NET</a> qui est une puissante et riche en fonctionnalités et API facile à utiliser pour la plate-forme C # pour n'importe quel éditeur. Ouvrez le gestionnaire de packages <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, recherchez <b>Aspose.Slides</b> et installez. Vous pouvez également utiliser la commande suivante à partir de la console du gestionnaire de packages.
+Afin de modifier le fichier POT, nous utiliserons l'API <a href="https://products.aspose.com/slides/fr/net">Aspose.Slides pour .NET</a> qui est une puissante et riche en fonctionnalités et API facile à utiliser pour la plate-forme C # pour n'importe quel éditeur. Ouvrez le gestionnaire de packages <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, recherchez <b>Aspose.Slides</b> et installez. Vous pouvez également utiliser la commande suivante à partir de la console du gestionnaire de packages.
 
 {{% blocks/products/pf/agp/code-block title="Commande" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Une édition basique de documents avec
- [Aspose.Slides pour .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
  Les API peuvent être réalisées avec seulement quelques lignes de code.
 
 {{% /blocks/products/pf/agp/text %}}

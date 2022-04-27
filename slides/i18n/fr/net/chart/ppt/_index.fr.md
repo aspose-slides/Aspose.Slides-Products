@@ -14,7 +14,7 @@ description: Code source C # pour dessiner et convertir un graphique ou un diagr
 {{% blocks/products/pf/agp/content h2="Comment créer des graphiques PPT à l'aide de C#" %}}
 
  Afin de créer des graphiques PPT, nous utiliserons
- [Aspose.Slides pour .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
  API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour créer des graphiques de fichiers PPT en C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Une représentation graphique de document de base avec les API [Aspose.Slides pour .NET](https://products.aspose.com/slides/net) peut être réalisée avec seulement quelques lignes de code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Une représentation graphique de document de base avec les API [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net) peut être réalisée avec seulement quelques lignes de code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Créer un objet de classe Presentation.
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de graphique pris en charge" subTitle="En utilisant C #, on peut facilement gérer les graphiques avec différents formats, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/chart/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

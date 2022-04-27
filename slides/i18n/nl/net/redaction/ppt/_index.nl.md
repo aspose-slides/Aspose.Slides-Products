@@ -14,7 +14,7 @@ description: C#-broncode om gevoelige informatie in PPT-bestanden op .NET Framew
 {{% blocks/products/pf/agp/content h2="Hoe PPT-bestand te redigeren met behulp van C #" %}}
 
  Om het PPT-bestand te redigeren, gebruiken we
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie voor het C#-platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPT-bestanden in C# te redigeren" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen of metadata met [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API's kan worden gedaan met slechts enkele regels code. Zoek en vervang tekst in PowerPoint en OpenOffice. Bewerk tekst, opmerkingen, metadata in presentatie via regexp data matching." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen of metadata met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net) API's kan worden gedaan met slechts enkele regels code. Zoek en vervang tekst in PowerPoint en OpenOffice. Bewerk tekst, opmerkingen, metadata in presentatie via regexp data matching." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPT-presentatie laden.
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde redactie-indelingen" subTitle="Met behulp van C # kan men gemakkelijk verschillende formaten redigeren, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/redaction/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/redaction/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

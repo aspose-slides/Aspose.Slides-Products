@@ -14,7 +14,7 @@ description: نموذج كود Java لتنقيح المعلومات الحساس
 {{% blocks/products/pf/agp/content h2="كيفية تنقيح ملف ODP باستخدام Java" %}}
 
  من أجل تنقيح ملف ODP ، سنستخدم
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  API وهي واجهة برمجة تطبيقات تنقيح غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -54,7 +54,7 @@ description: نموذج كود Java لتنقيح المعلومات الحساس
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات لتنقيح ملفات ODP في Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستند واستبدال النص في المحتويات أو التعليقات أو البيانات الوصفية باستخدام واجهات برمجة التطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/java) ببضعة سطور من التعليمات البرمجية. ابحث عن النص واستبدله في PowerPoint و OpenOffice. تحرير النص والتعليقات والبيانات الوصفية في العرض التقديمي عبر مطابقة بيانات regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستند واستبدال النص في المحتويات أو التعليقات أو البيانات الوصفية باستخدام واجهات برمجة التطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java) ببضعة سطور من التعليمات البرمجية. ابحث عن النص واستبدله في PowerPoint و OpenOffice. تحرير النص والتعليقات والبيانات الوصفية في العرض التقديمي عبر مطابقة بيانات regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 تحميل عرض ODP.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="مستندات التنقيح المدعومة الأخرى" subTitle="باستخدام Java ، يمكن للمرء أن ينقح تنسيقات مختلفة بسهولة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/redaction/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/redaction/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

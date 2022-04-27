@@ -14,7 +14,7 @@ description: PPSM에서 GIF로 Python 변환을 위한 샘플 코드. PPSM 파�
 
 {{% blocks/products/pf/agp/content h2="Python에서 PPSM을 GIF로 변환" %}}
 
-프로그래밍 방식으로 PPSM 파일을 GIF로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 PPSM을 GIF 형식으로 변환할 수 있습니다.
+프로그래밍 방식으로 PPSM 파일을 GIF로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/ko/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 PPSM을 GIF 형식으로 변환할 수 있습니다.
 
 최신 프레젠테이션 처리 API인 Aspose.Slides for Python은 PPSM에서 GIF를 빠르게 생성합니다. [브라우저](https://products.aspose.app/slides/conversion)에서 바로 PPSM을 GIF로 변환하는 품질을 테스트하세요. Aspose PowerPoint PPTX 라이브러리를 사용하면 PPSM 파일을 널리 사용되는 형식으로 변환할 수 있습니다.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.ppsm") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="PPSM을 다른 많은 파일 형식으로 변환할 수도 있습니다. 아래에서 지원되는 다른 변환을 참조하세요." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="비트맵 이미지" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="향상된 메타파일 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument 플랫 XML 프레젠테이션" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="하이퍼 텍스트 마크업 언어" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG 이미지" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument 프레젠테이션 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument 표준 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="휴대용 문서 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="휴대용 네트워크 그래픽" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="파워포인트 슬라이드 쇼" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="파워포인트 슬라이드 쇼" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Open XML 프레젠테이션 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="확장 가능한 벡터 그래픽" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="태그가 지정된 이미지 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML 용지 사양" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="비트맵 이미지" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="향상된 메타파일 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument 플랫 XML 프레젠테이션" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="하이퍼 텍스트 마크업 언어" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG 이미지" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument 프레젠테이션 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument 표준 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="휴대용 문서 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="휴대용 네트워크 그래픽" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="파워포인트 슬라이드 쇼" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="파워포인트 슬라이드 쇼" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Open XML 프레젠테이션 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="확장 가능한 벡터 그래픽" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="태그가 지정된 이미지 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML 용지 사양" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

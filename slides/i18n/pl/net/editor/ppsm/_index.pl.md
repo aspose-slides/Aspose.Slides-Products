@@ -12,7 +12,7 @@ description: C# kod źródłowy do edycji dokumentu PPSM na platformach .NET Fra
 
 {{% blocks/products/pf/agp/content h2="Jak edytować plik PPSM za pomocą C#" %}}
 
-Aby edytować plik PPSM, użyjemy interfejsu API <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a>, który jest bogatym w funkcje i potężnym i łatwy w użyciu interfejs API dla platformy C# dla dowolnego edytora. Otwórz menedżera pakietów <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, wyszukaj <b>Aspose.Slides</b> i zainstaluj. Możesz również użyć następującego polecenia z konsoli Menedżera pakietów.
+Aby edytować plik PPSM, użyjemy interfejsu API <a href="https://products.aspose.com/slides/pl/net">Aspose.Slides for .NET</a>, który jest bogatym w funkcje i potężnym i łatwy w użyciu interfejs API dla platformy C# dla dowolnego edytora. Otwórz menedżera pakietów <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, wyszukaj <b>Aspose.Slides</b> i zainstaluj. Możesz również użyć następującego polecenia z konsoli Menedżera pakietów.
 
 {{% blocks/products/pf/agp/code-block title="Komenda" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Podstawowa edycja dokumentów z
- [Aspose.Slides dla .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dla .NET](https://products.aspose.com/slides/pl/net)
  API można wykonać za pomocą kilku linijek kodu.
 
 {{% /blocks/products/pf/agp/text %}}

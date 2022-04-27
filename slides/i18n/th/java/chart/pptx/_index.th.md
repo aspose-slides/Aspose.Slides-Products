@@ -14,7 +14,7 @@ description: โค้ดตัวอย่าง Java เพื่อวาด�
 {{% blocks/products/pf/agp/content h2="วิธีสร้างแผนภูมิไฟล์ PPTX โดยใช้ Java" %}}
 
  ในการสร้างแผนภูมิไฟล์ PPTX เราจะใช้
- [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/th/java)
  API ซึ่งเป็น API การสร้างแผนภูมิที่มีคุณลักษณะหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม Java คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้โดยตรงจาก
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  และติดตั้งภายในโปรเจ็กต์ที่ใช้ Maven โดยเพิ่มการกำหนดค่าต่อไปนี้ใน pom.xml
@@ -54,7 +54,7 @@ description: โค้ดตัวอย่าง Java เพื่อวาด�
 
 {{< blocks/products/pf/agp/feature-section-col title="ขั้นตอนในการสร้างแผนภูมิไฟล์ PPTX ใน Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="การสร้างแผนภูมิเอกสารพื้นฐานด้วย API ของ [Aspose.Slides for Java](https://products.aspose.com/slides/java) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="การสร้างแผนภูมิเอกสารพื้นฐานด้วย API ของ [Aspose.Slides for Java](https://products.aspose.com/slides/th/java) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ยกตัวอย่างวัตถุคลาสการนำเสนอ
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบแผนภูมิอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ Java เราสามารถจัดการกับรูปแบบต่างๆ ได้อย่างง่ายดายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

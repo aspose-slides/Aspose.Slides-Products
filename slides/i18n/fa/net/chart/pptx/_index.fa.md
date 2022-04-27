@@ -14,7 +14,7 @@ description: کد منبع سی شارپ برای ترسیم و تبدیل نم�
 {{% blocks/products/pf/agp/content h2="نحوه ایجاد نمودار PPTX با استفاده از سی شارپ" %}}
 
  برای ایجاد نمودارهای PPTX، از
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net)
  API که یک API دستکاری اسناد غنی، قدرتمند و آسان برای پلتفرم C# است. باز کن
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ایجاد نمودار فایل های PPTX در سی شارپ" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net) APIها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 شی کلاس Presentation ایجاد کنید.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های نمودار پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان به راحتی با فرمت های مختلف از جمله نمودارها مقابله کرد." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/chart/ppt/" name="PPT" description="مایکروسافت پاورپوینت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

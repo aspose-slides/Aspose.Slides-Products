@@ -14,7 +14,7 @@ description: Mã mẫu Java để trích xuất văn bản và hình ảnh từ 
 {{% blocks/products/pf/agp/content h2="Cách phân tích cú pháp tệp PPTX bằng Java" %}}
 
  Để phân tích cú pháp tệp PPTX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
  API là một API phân tích cú pháp giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -54,7 +54,7 @@ description: Mã mẫu Java để trích xuất văn bản và hình ảnh từ 
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước để phân tích cú pháp tệp PPTX trong Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện phân tích cú pháp tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/java) chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện phân tích cú pháp tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java) chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải tệp PPTX bằng cách cài đặt lớp Trình bày.
@@ -163,8 +163,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Các tài liệu phân tích cú pháp được hỗ trợ khác" subTitle="Sử dụng Java, người ta có thể dễ dàng phân tích cú pháp các định dạng khác bao gồm." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/parser/odp/" name="ODP" description="Định dạng bản trình bày OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

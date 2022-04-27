@@ -12,7 +12,7 @@ description: C#-forráskód az OTP-dokumentum szerkesztéséhez .NET-keretrendsz
 
 {{% blocks/products/pf/agp/content h2="OTP fájl szerkesztése C# használatával" %}}
 
-Az OTP-fájl szerkesztéséhez az <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API-t használjuk, amely funkciókban gazdag, hatékony. és könnyen használható API C# platformhoz bármely szerkesztő számára. Nyissa meg a <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> csomagkezelőt, keresse meg az <b>Aspose.Slides</b> elemet, és telepítse. A következő parancsot is használhatja a Package Manager konzolból.
+Az OTP-fájl szerkesztéséhez az <a href="https://products.aspose.com/slides/hu/net">Aspose.Slides for .NET</a> API-t használjuk, amely funkciókban gazdag, hatékony. és könnyen használható API C# platformhoz bármely szerkesztő számára. Nyissa meg a <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> csomagkezelőt, keresse meg az <b>Aspose.Slides</b> elemet, és telepítse. A következő parancsot is használhatja a Package Manager konzolból.
 
 {{% blocks/products/pf/agp/code-block title="Parancs" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Alapvető dokumentumszerkesztés
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  Az API-k néhány sornyi kóddal elkészíthetők.
 
 {{% /blocks/products/pf/agp/text %}}

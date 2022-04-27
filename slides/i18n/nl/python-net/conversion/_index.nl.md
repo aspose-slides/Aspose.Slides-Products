@@ -10,12 +10,12 @@ description: Python API om PPT naar PDF te converteren. Converteer presentaties 
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides voor Python via .NET](https://products.aspose.com/slides/python-net/) is een krachtige lokale klassenbibliotheek die wordt gebruikt voor het verwerken van en werken met presentaties. Het is gemakkelijk voor de ontwikkelaars om PowerPoint snel en nauwkeurig naar PDF te converteren. Binnen de kortste keren de resultaten voor het automatiseren van de bedrijfsprocessen. We bespreken hier enkele gevallen om invoer [ondersteunde PowerPoint-indelingen](https://docs.aspose.com/slides/python-net/supported-file-formats/) te lezen of te laden en te schrijven of op te slaan in een ondersteund uitvoerformaat . 
+[Aspose.Slides voor Python via .NET](https://products.aspose.com/slides/nl/python-net/) is een krachtige lokale klassenbibliotheek die wordt gebruikt voor het verwerken van en werken met presentaties. Het is gemakkelijk voor de ontwikkelaars om PowerPoint snel en nauwkeurig naar PDF te converteren. Binnen de kortste keren de resultaten voor het automatiseren van de bedrijfsprocessen. We bespreken hier enkele gevallen om invoer [ondersteunde PowerPoint-indelingen](https://docs.aspose.com/slides/python-net/supported-file-formats/) te lezen of te laden en te schrijven of op te slaan in een ondersteund uitvoerformaat . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Conversie van PowerPoint naar PDF in Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) stelt u in staat bestanden in PowerPoint PPT-, PPTX- en OpenOffice ODP-indelingen naar PDF te converteren. Om een ​​presentatie naar PDF te converteren, geeft u eenvoudig de bestandsnaam en het opslagformaat door aan de [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) methode. De klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) onthult de [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) methode die kan worden aangeroepen om de hele PPT-, PPTX- of ODP-presentatie naar een PDF-document te converteren.
+[Aspose.Slides](https://products.aspose.com/slides/nl/python-net/) stelt u in staat bestanden in PowerPoint PPT-, PPTX- en OpenOffice ODP-indelingen naar PDF te converteren. Om een ​​presentatie naar PDF te converteren, geeft u eenvoudig de bestandsnaam en het opslagformaat door aan de [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) methode. De klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) onthult de [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) methode die kan worden aangeroepen om de hele PPT-, PPTX- of ODP-presentatie naar een PDF-document te converteren.
 
 {{% blocks/products/pf/feature-page-code h3="Python PowerPoint naar PDF-conversie" %}}
 
@@ -26,7 +26,7 @@ description: Python API om PPT naar PDF te converteren. Converteer presentaties 
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Conversie van PDF naar PPT in Python" %}}
-Met [Aspose.Slides](https://products.aspose.com/slides/python-net/) kunt u presentaties importeren uit PDF's. In wezen kunt u een PDF converteren naar een PowerPoint-presentatie. Om PDF naar Powerpoint te converteren, doorloop je deze stappen:
+Met [Aspose.Slides](https://products.aspose.com/slides/nl/python-net/) kunt u presentaties importeren uit PDF's. In wezen kunt u een PDF converteren naar een PowerPoint-presentatie. Om PDF naar Powerpoint te converteren, doorloop je deze stappen:
 - Instantieer een object van de klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
 - Roep de methode [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) aan en geef het PDF-bestand door.
 - Gebruik de methode [opslaan](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) om het bestand in PowerPoint-indeling op te slaan.

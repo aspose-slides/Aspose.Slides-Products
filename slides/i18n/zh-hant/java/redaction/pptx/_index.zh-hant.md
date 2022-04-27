@@ -14,7 +14,7 @@ description: Java 示例代碼，用於在 JSP/JSF 應用程序和桌面應用�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 編輯 PPTX 文件" %}}
 
  為了編輯 PPTX 文件，我們將使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java)
  API 是一個功能豐富、功能強大且易於使用的 Java 平台編輯 API。您可以直接從
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  並通過將以下配置添加到 pom.xml 將其安裝在基於 Maven 的項目中。
@@ -54,7 +54,7 @@ description: Java 示例代碼，用於在 JSP/JSF 應用程序和桌面應用�
 
 {{< blocks/products/pf/agp/feature-section-col title="在 Java 中編輯 PPTX 文件的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for Java](https://products.aspose.com/slides/java) API 只需幾行代碼即可完成基本的文檔搜索和替換內容、評論或元數據中的文本。在 PowerPoint 和 OpenOffice 中查找和替換文本。通過正則表達式數據匹配編輯演示文稿中的文本、評論、元數據。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="使用 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java) API 只需幾行代碼即可完成基本的文檔搜索和替換內容、評論或元數據中的文本。在 PowerPoint 和 OpenOffice 中查找和替換文本。通過正則表達式數據匹配編輯演示文稿中的文本、評論、元數據。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加載 PPTX 演示文稿。
@@ -166,8 +166,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的編輯文檔" subTitle="使用 Java，可以輕鬆地編輯不同的格式，包括。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="OpenDocument 演示格式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="微軟PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/redaction/odp/" name="ODP" description="OpenDocument 演示格式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/redaction/ppt/" name="PPT" description="微軟PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Java-exempelkod för att redigera känslig information i PPT-fil i 
 {{% blocks/products/pf/agp/content h2="Hur man redigerar PPT-fil med Java" %}}
 
  För att redigera PPT-fil kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
  API som är ett funktionsrikt, kraftfullt och lättanvänt redigerings-API för Java-plattformen. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.
@@ -54,7 +54,7 @@ description: Java-exempelkod för att redigera känslig information i PPT-fil i 
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att redigera PPT-filer i Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentsökning och ersätt text i innehåll, kommentarer eller metadata med [Aspose.Slides for Java](https://products.aspose.com/slides/java) API:er kan göras med bara några rader kod. Hitta och ersätt text i PowerPoint och OpenOffice. Redigera text, kommentarer, metadata i presentationen via regexp-datamatchning." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentsökning och ersätt text i innehåll, kommentarer eller metadata med [Aspose.Slides for Java](https://products.aspose.com/slides/sv/java) API:er kan göras med bara några rader kod. Hitta och ersätt text i PowerPoint och OpenOffice. Redigera text, kommentarer, metadata i presentationen via regexp-datamatchning." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Ladda PPT-presentation.
@@ -166,8 +166,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra stödda redigeringsdokument" subTitle="Med Java kan man enkelt redigera olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/redaction/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/redaction/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

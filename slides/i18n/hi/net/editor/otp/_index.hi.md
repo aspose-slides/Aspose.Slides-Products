@@ -12,7 +12,7 @@ description: C# स्रोत कोड .NET Framework, .NET Core, Windows Azu
 
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके OTP फ़ाइल को कैसे संपादित करें" %}}
 
-OTP फ़ाइल को संपादित करने के लिए, हम <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API का उपयोग करेंगे जो एक सुविधा संपन्न, शक्तिशाली है और किसी भी संपादक के लिए सी # प्लेटफॉर्म के लिए एपीआई का उपयोग करना आसान है। <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> पैकेज मैनेजर खोलें, <b>Aspose.Slides</b> खोजें और इंस्टॉल करें। आप पैकेज मैनेजर कंसोल से निम्न कमांड का भी उपयोग कर सकते हैं।
+OTP फ़ाइल को संपादित करने के लिए, हम <a href="https://products.aspose.com/slides/hi/net">Aspose.Slides for .NET</a> API का उपयोग करेंगे जो एक सुविधा संपन्न, शक्तिशाली है और किसी भी संपादक के लिए सी # प्लेटफॉर्म के लिए एपीआई का उपयोग करना आसान है। <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> पैकेज मैनेजर खोलें, <b>Aspose.Slides</b> खोजें और इंस्टॉल करें। आप पैकेज मैनेजर कंसोल से निम्न कमांड का भी उपयोग कर सकते हैं।
 
 {{% blocks/products/pf/agp/code-block title="आज्ञा" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  के साथ एक मूल दस्तावेज़ संपादन
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई कोड की कुछ ही पंक्तियों के साथ किया जा सकता है।
 
 {{% /blocks/products/pf/agp/text %}}

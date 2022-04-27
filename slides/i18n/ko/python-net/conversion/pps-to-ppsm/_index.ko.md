@@ -14,7 +14,7 @@ description: PPS에서 PPSM으로 Python 변환을 위한 샘플 코드입니다
 
 {{% blocks/products/pf/agp/content h2="Python에서 PPS를 PPSM으로 변환" %}}
 
-프로그래밍 방식으로 PPS 파일을 PPSM으로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 PPS를 PPSM 형식으로 변환할 수 있습니다.
+프로그래밍 방식으로 PPS 파일을 PPSM으로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/ko/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 PPS를 PPSM 형식으로 변환할 수 있습니다.
 
 최신 프레젠테이션 처리 API인 Aspose.Slides for Python은 PPS에서 PPSM을 빠르게 생성합니다. [브라우저](https://products.aspose.app/slides/conversion)에서 바로 PPS에서 PPSM으로의 변환 품질을 테스트하세요. Aspose PowerPoint PPTX 라이브러리를 사용하면 PPS 파일을 널리 사용되는 형식으로 변환할 수 있습니다.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.pps") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="PPS를 다른 많은 파일 형식으로 변환할 수도 있습니다. 아래에서 지원되는 다른 변환을 참조하세요." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="비트맵 이미지" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="향상된 메타파일 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument 플랫 XML 프레젠테이션" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="그래픽 교환 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="하이퍼 텍스트 마크업 언어" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG 이미지" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument 프레젠테이션 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument 표준 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="휴대용 문서 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="휴대용 네트워크 그래픽" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="파워포인트 슬라이드 쇼" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Open XML 프레젠테이션 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="확장 가능한 벡터 그래픽" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWF 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="태그가 지정된 이미지 형식" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML 용지 사양" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="비트맵 이미지" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="향상된 메타파일 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument 플랫 XML 프레젠테이션" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="그래픽 교환 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="하이퍼 텍스트 마크업 언어" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG 이미지" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument 프레젠테이션 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument 표준 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="휴대용 문서 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="휴대용 네트워크 그래픽" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="파워포인트 슬라이드 쇼" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Open XML 프레젠테이션 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="확장 가능한 벡터 그래픽" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWF 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="태그가 지정된 이미지 형식" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML 용지 사양" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

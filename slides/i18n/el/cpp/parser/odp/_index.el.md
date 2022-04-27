@@ -14,7 +14,7 @@ description: Παράδειγμα κώδικα C++ για εξαγωγή κει�
 {{% blocks/products/pf/agp/content h2="Πώς να αναλύσετε το αρχείο ODP χρησιμοποιώντας C++" %}}
 
  Για να αναλύσουμε το αρχείο ODP, θα χρησιμοποιήσουμε
- [Aspose.Slides για C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides για C++](https://products.aspose.com/slides/el/cpp)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API ανάλυσης εγγράφων για πλατφόρμα C++. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας, απλά ανοίξτε
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  διαχειριστής πακέτων, αναζητήστε
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για την ανάλυση αρχείων ODP στη C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Μια βασική ανάλυση εγγράφων με [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Μια βασική ανάλυση εγγράφων με [Aspose.Slides for C++](https://products.aspose.com/slides/el/cpp) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Φόρτωση αρχείου ODP.
@@ -146,8 +146,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλα υποστηριζόμενα έγγραφα ανάλυσης" subTitle="Χρησιμοποιώντας C++, μπορεί κανείς να αναλύσει εύκολα άλλες μορφές, συμπεριλαμβανομένων." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/parser/pptx/" name="PPTX" description="Ανοίξτε τη μορφή παρουσίασης XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Kod źródłowy C# do wyszukiwania słów ze wzorcem w pliku ODP na
 {{% blocks/products/pf/agp/content h2="Jak wyszukiwać plik ODP za pomocą C#" %}}
 
  W celu wyszukania pliku ODP użyjemy
- [Aspose.Slides dla .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides dla .NET](https://products.aspose.com/slides/pl/net)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API wyszukiwania prezentacji PowerPoint dla platformy C#. otwarty
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  menedżera pakietów, wyszukaj Aspose.Slides i zainstaluj. Możesz również użyć następującego polecenia z konsoli Menedżera pakietów.
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki wyszukiwania plików ODP w C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wyszukiwanie dokumentów za pomocą interfejsów API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) można przeprowadzić za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wyszukiwanie dokumentów za pomocą interfejsów API [Aspose.Slides for .NET](https://products.aspose.com/slides/pl/net) można przeprowadzić za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj plik ODP.
@@ -151,8 +151,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty wyszukiwania" subTitle="Używając C#, można również przeszukiwać inne formaty, w tym." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/search/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

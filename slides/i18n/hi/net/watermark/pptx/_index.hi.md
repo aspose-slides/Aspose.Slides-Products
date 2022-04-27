@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono या Xamarin प�
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके PPTX फ़ाइल को वॉटरमार्क कैसे करें" %}}
 
  PPTX फ़ाइल को वॉटरमार्क करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी # प्लेटफॉर्म के लिए दस्तावेज़ हेरफेर एपीआई का उपयोग करने में आसान है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -129,7 +129,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित वॉटरमार्किंग प्रारूप" subTitle="सी # का उपयोग करके, कोई भी आसानी से विभिन्न स्वरूपों को वॉटरमार्क कर सकता है।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/watermark/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

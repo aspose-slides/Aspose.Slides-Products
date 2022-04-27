@@ -11,19 +11,19 @@ description: Aspose.Slides는 프레젠테이션을 조작하는 PowerPoint API�
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides 하이 코드 API 포함" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/ko/net" >}}
 COM Interop을 통해 .NET Framework, .NET Core 및 기타 플랫폼을 사용하여 개발된 애플리케이션 내에서 Microsoft PowerPoint 프레젠테이션을 조작하는 온프레미스 .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/ko/java" >}}
 Java SE 또는 EE를 기반으로 하는 모든 애플리케이션에서 Microsoft PowerPoint 프레젠테이션, 슬라이드 및 해당 요소를 생성, 로드, 조작, 변환 또는 구문 분석하는 Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/ko/cpp" >}}
 Microsoft PowerPoint 파일을 생성, 로드, 조작, 변환 또는 렌더링하기 위한 C++ 응용 프로그램용 기본 라이브러리입니다.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="모든 하이 코드 API 보기" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/ko/family/" innerText="모든 하이 코드 API 보기" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

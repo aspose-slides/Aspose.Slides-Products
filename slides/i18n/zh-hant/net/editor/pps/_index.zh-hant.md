@@ -12,7 +12,7 @@ description: 用於在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xam
 
 {{% blocks/products/pf/agp/content h2="如何使用 C# 編輯 PPS 文件" %}}
 
-為了編輯 PPS 文件，我們將使用 <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API，這是一個功能豐富、功能強大的 API以及適用於任何編輯器的 C# 平台的易於使用的 API。打開 <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> 包管理器，搜索 <b>Aspose.Slides</b> 並安裝。您還可以從包管理器控制台使用以下命令。
+為了編輯 PPS 文件，我們將使用 <a href="https://products.aspose.com/slides/zh-hant/net">Aspose.Slides for .NET</a> API，這是一個功能豐富、功能強大的 API以及適用於任何編輯器的 C# 平台的易於使用的 API。打開 <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> 包管理器，搜索 <b>Aspose.Slides</b> 並安裝。您還可以從包管理器控制台使用以下命令。
 
 {{% blocks/products/pf/agp/code-block title="命令" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  一個基本的文檔編輯
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net)
  只需幾行代碼即可完成 API。
 
 {{% /blocks/products/pf/agp/text %}}

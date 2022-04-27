@@ -10,12 +10,12 @@ description: पीपीटी को पीडीएफ में बदलन
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python by .NET](https://products.aspose.com/slides/python-net/) एक शक्तिशाली ऑन-प्रिमाइसेस क्लास लाइब्रेरी है जिसका उपयोग प्रेजेंटेशन के साथ प्रोसेसिंग और काम करने के लिए किया जाता है। डेवलपर्स के लिए गति और सटीकता के साथ पावरपॉइंट को पीडीएफ में बदलना आसान है। व्यावसायिक प्रक्रियाओं को स्वचालित करने के लिए कुछ ही समय में परिणाम प्राप्त करें। हम यहां किसी भी इनपुट [समर्थित पावरपॉइंट प्रारूप](https://docs.aspose.com/slides/python-net/supported-file-formats/) को पढ़ने या लोड करने और किसी समर्थित आउटपुट स्वरूप में लिखने या सहेजने के लिए कुछ मामलों पर चर्चा कर रहे हैं। . 
+[Aspose.Slides for Python by .NET](https://products.aspose.com/slides/hi/python-net/) एक शक्तिशाली ऑन-प्रिमाइसेस क्लास लाइब्रेरी है जिसका उपयोग प्रेजेंटेशन के साथ प्रोसेसिंग और काम करने के लिए किया जाता है। डेवलपर्स के लिए गति और सटीकता के साथ पावरपॉइंट को पीडीएफ में बदलना आसान है। व्यावसायिक प्रक्रियाओं को स्वचालित करने के लिए कुछ ही समय में परिणाम प्राप्त करें। हम यहां किसी भी इनपुट [समर्थित पावरपॉइंट प्रारूप](https://docs.aspose.com/slides/python-net/supported-file-formats/) को पढ़ने या लोड करने और किसी समर्थित आउटपुट स्वरूप में लिखने या सहेजने के लिए कुछ मामलों पर चर्चा कर रहे हैं। . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="पायथन में पावरपॉइंट से पीडीएफ रूपांतरण" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) आपको PowerPoint PPT, PPTX, और OpenOffice ODP प्रारूपों में फ़ाइलों को PDF में बदलने की अनुमति देता है। किसी प्रस्तुति को PDF में बदलने के लिए, बस फ़ाइल का नाम पास करें और प्रारूप को [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) में सहेजें। तरीका। [प्रस्तुति](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) वर्ग [save](https://docs.aspose.com/slides) को उजागर करता है /python-net/api-reference/aspose.slides/presentation/) विधि जिसे संपूर्ण PPT, PPTX, या ODP प्रस्तुति को PDF दस्तावेज़ में बदलने के लिए कहा जा सकता है।
+[Aspose.Slides](https://products.aspose.com/slides/hi/python-net/) आपको PowerPoint PPT, PPTX, और OpenOffice ODP प्रारूपों में फ़ाइलों को PDF में बदलने की अनुमति देता है। किसी प्रस्तुति को PDF में बदलने के लिए, बस फ़ाइल का नाम पास करें और प्रारूप को [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) में सहेजें। तरीका। [प्रस्तुति](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) वर्ग [save](https://docs.aspose.com/slides) को उजागर करता है /python-net/api-reference/aspose.slides/presentation/) विधि जिसे संपूर्ण PPT, PPTX, या ODP प्रस्तुति को PDF दस्तावेज़ में बदलने के लिए कहा जा सकता है।
 
 {{% blocks/products/pf/feature-page-code h3="पीडीएफ रूपांतरण के लिए पायथन पावरपॉइंट" %}}
 
@@ -26,7 +26,7 @@ description: पीपीटी को पीडीएफ में बदलन
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="पायथन में पीडीएफ से पीपीटी रूपांतरण" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) से आप PDF से प्रस्तुतीकरण आयात कर सकते हैं। अनिवार्य रूप से, आपको एक पीडीएफ को पावरपॉइंट प्रेजेंटेशन में बदलने के लिए मिलता है। पीडीएफ को पावरपॉइंट में बदलने के लिए, इन चरणों का पालन करें:
+[Aspose.Slides](https://products.aspose.com/slides/hi/python-net/) से आप PDF से प्रस्तुतीकरण आयात कर सकते हैं। अनिवार्य रूप से, आपको एक पीडीएफ को पावरपॉइंट प्रेजेंटेशन में बदलने के लिए मिलता है। पीडीएफ को पावरपॉइंट में बदलने के लिए, इन चरणों का पालन करें:
 - [प्रस्तुति](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) वर्ग के किसी ऑब्जेक्ट को इंस्टेंट करें।
 - [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) विधि को कॉल करें और पीडीएफ फाइल पास करें।
 - फ़ाइल को PowerPoint प्रारूप में सहेजने के लिए [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) विधि का उपयोग करें।

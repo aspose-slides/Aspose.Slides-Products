@@ -14,7 +14,7 @@ description: C#-källkod för att rita och konvertera diagram eller diagram i PP
 {{% blocks/products/pf/agp/content h2="Hur man skapar PPT-diagram med C#" %}}
 
  För att skapa PPT-diagram kommer vi att använda
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering för C#-plattformen. Öppen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakethanterare, sök efter
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att skapa diagram för PPT-filer i C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentkarta med [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentkarta med [Aspose.Slides for .NET](https://products.aspose.com/slides/sv/net) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Skapa presentationsklassobjekt.
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra kartformat som stöds" subTitle="Med C# kan man enkelt hantera kartläggning med olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/chart/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

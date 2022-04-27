@@ -14,7 +14,7 @@ description: Exemple de code Java pour masquer les informations sensibles dans l
 {{% blocks/products/pf/agp/content h2="Comment expurger un fichier ODP à l'aide de Java" %}}
 
  Pour expurger le fichier ODP, nous utiliserons
- [Aspose.Slides pour Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java)
  API qui est une API de rédaction riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme Java. Vous pouvez télécharger sa dernière version directement depuis
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  et installez-le dans votre projet basé sur Maven en ajoutant les configurations suivantes au fichier pom.xml.
@@ -54,7 +54,7 @@ description: Exemple de code Java pour masquer les informations sensibles dans l
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour expurger les fichiers ODP en Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Une recherche de document de base et le remplacement de texte dans le contenu, les commentaires ou les métadonnées avec les API [Aspose.Slides pour Java](https://products.aspose.com/slides/java) peuvent être effectués avec seulement quelques lignes de code. Recherchez et remplacez du texte dans PowerPoint et OpenOffice. Modifier le texte, les commentaires, les métadonnées dans la présentation via la correspondance des données regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Une recherche de document de base et le remplacement de texte dans le contenu, les commentaires ou les métadonnées avec les API [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java) peuvent être effectués avec seulement quelques lignes de code. Recherchez et remplacez du texte dans PowerPoint et OpenOffice. Modifier le texte, les commentaires, les métadonnées dans la présentation via la correspondance des données regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Charger la présentation ODP.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres documents de rédaction pris en charge" subTitle="En utilisant Java, on peut facilement rédiger différents formats, y compris." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/redaction/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

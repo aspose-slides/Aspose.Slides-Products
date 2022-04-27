@@ -12,7 +12,7 @@ description: Codice sorgente C# per modificare il documento PPT su piattaforme .
 
 {{% blocks/products/pf/agp/content h2="Come modificare il file PPT usando C#" %}}
 
-Per modificare il file PPT, utilizzeremo <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API che è un'API potente e ricca di funzionalità e API facile da usare per la piattaforma C# per qualsiasi editor. Apri <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> gestore pacchetti, cerca <b>Aspose.Slides</b> e installa. È inoltre possibile utilizzare il seguente comando dalla Console di gestione pacchetti.
+Per modificare il file PPT, utilizzeremo <a href="https://products.aspose.com/slides/it/net">Aspose.Slides for .NET</a> API che è un'API potente e ricca di funzionalità e API facile da usare per la piattaforma C# per qualsiasi editor. Apri <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> gestore pacchetti, cerca <b>Aspose.Slides</b> e installa. È inoltre possibile utilizzare il seguente comando dalla Console di gestione pacchetti.
 
 {{% blocks/products/pf/agp/code-block title="Comando" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Una modifica di base del documento con
- [Aspose.Slides per .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides per .NET](https://products.aspose.com/slides/it/net)
  Le API possono essere eseguite con poche righe di codice.
 
 {{% /blocks/products/pf/agp/text %}}

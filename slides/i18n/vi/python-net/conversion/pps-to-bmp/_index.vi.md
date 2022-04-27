@@ -14,7 +14,7 @@ description: Mã mẫu để chuyển đổi PPS sang BMP Python. Sử dụng Po
 
 {{% blocks/products/pf/agp/content h2="Chuyển đổi PPS sang BMP bằng Python" %}}
 
-Bạn cần chuyển đổi các tệp PPS sang BMP theo lập trình? Sử dụng [* Aspose.Slides cho Python qua .NET *](https://products.aspose.com/slides/python-net/), bất kỳ nhà phát triển nào cũng có thể chuyển đổi định dạng PPS sang BMP chỉ với một vài dòng mã Python.
+Bạn cần chuyển đổi các tệp PPS sang BMP theo lập trình? Sử dụng [* Aspose.Slides cho Python qua .NET *](https://products.aspose.com/slides/vi/python-net/), bất kỳ nhà phát triển nào cũng có thể chuyển đổi định dạng PPS sang BMP chỉ với một vài dòng mã Python.
 
 Là một API xử lý bản trình bày hiện đại, Aspose.Slides for Python tạo BMP từ PPS một cách nhanh chóng. Kiểm tra chất lượng của chuyển đổi PPS sang BMP ngay trong [trình duyệt] của bạn (https://products.aspose.app/slides/conversion). Thư viện PPTX của Aspose PowerPoint cho phép bạn chuyển đổi các tệp PPS sang nhiều định dạng phổ biến.
 
@@ -102,27 +102,27 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
     
 {{< blocks/products/pf/agp/other-supported-section title="Các chuyển đổi được hỗ trợ khác" subTitle="Bạn cũng có thể chuyển đổi PPS sang nhiều định dạng tệp khác. Xem các chuyển đổi được hỗ trợ khác bên dưới" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Định dạng siêu tệp nâng cao" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="Bản trình bày XML phẳng OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Định dạng trao đổi đồ họa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Ngôn ngữ đánh dấu siêu văn bản" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="Hình ảnh JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="Định dạng bản trình bày OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="Định dạng chuẩn OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Định dạng tài liệu di động" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="Biểu đồ minh họa mạng lưới không dây" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Tệp mẫu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Trình chiếu hỗ trợ macro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="Trình chiếu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Tệp trình bày hỗ trợ macro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Định dạng bản trình bày XML mở" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Đồ họa vector có thể mở rộng" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Định dạng SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Định dạng hình ảnh được gắn thẻ" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="Thông số kỹ thuật giấy XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Định dạng siêu tệp nâng cao" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="Bản trình bày XML phẳng OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Định dạng trao đổi đồ họa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Ngôn ngữ đánh dấu siêu văn bản" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="Hình ảnh JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="Định dạng bản trình bày OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="Định dạng chuẩn OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Định dạng tài liệu di động" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="Biểu đồ minh họa mạng lưới không dây" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Tệp mẫu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Tệp Mẫu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Bản trình bày mẫu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Trình chiếu hỗ trợ macro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="Trình chiếu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Tệp trình bày hỗ trợ macro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Định dạng bản trình bày XML mở" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Đồ họa vector có thể mở rộng" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Định dạng SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Định dạng hình ảnh được gắn thẻ" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="Thông số kỹ thuật giấy XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

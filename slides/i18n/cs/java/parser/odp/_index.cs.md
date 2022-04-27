@@ -14,7 +14,7 @@ description: Ukázkový kód Java pro extrahování textu a obrázků ze souboru
 {{% blocks/products/pf/agp/content h2="Jak analyzovat soubor ODP pomocí Java" %}}
 
  Abychom mohli analyzovat soubor ODP, použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro analýzu pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.
@@ -54,7 +54,7 @@ description: Ukázkový kód Java pro extrahování textu a obrázků ze souboru
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k analýze souborů ODP v Javě" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní analýzu dokumentu pomocí rozhraní API [Aspose.Slides for Java](https://products.aspose.com/slides/java) lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní analýzu dokumentu pomocí rozhraní API [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java) lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načtěte soubor ODP zadáním třídy prezentace.
@@ -163,8 +163,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované dokumenty analýzy" subTitle="Pomocí Javy lze snadno analyzovat další formáty včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/parser/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

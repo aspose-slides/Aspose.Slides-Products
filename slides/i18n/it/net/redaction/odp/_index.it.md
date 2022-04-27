@@ -14,7 +14,7 @@ description: Codice sorgente C# per oscurare le informazioni riservate nel file 
 {{% blocks/products/pf/agp/content h2="Come redigere il file ODP usando C#" %}}
 
  Per redigere il file ODP, useremo
- [Aspose.Slides per .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides per .NET](https://products.aspose.com/slides/it/net)
  API che è un'API di manipolazione dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C#. Aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestore pacchetti, cerca
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per redigere i file ODP in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire una ricerca di base del documento e sostituire il testo nei contenuti, nei commenti o nei metadati con le API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) con poche righe di codice. Trova e sostituisci testo in PowerPoint e OpenOffice. Modifica testo, commenti, metadati nella presentazione tramite la corrispondenza dei dati regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire una ricerca di base del documento e sostituire il testo nei contenuti, nei commenti o nei metadati con le API [Aspose.Slides for .NET](https://products.aspose.com/slides/it/net) con poche righe di codice. Trova e sostituisci testo in PowerPoint e OpenOffice. Modifica testo, commenti, metadati nella presentazione tramite la corrispondenza dei dati regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica presentazione ODP.
@@ -134,8 +134,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati di redazione supportati" subTitle="Usando C#, si possono facilmente redigere diversi formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/redaction/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

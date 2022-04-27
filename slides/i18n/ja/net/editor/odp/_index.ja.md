@@ -12,7 +12,7 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 
 {{% blocks/products/pf/agp/content h2="C＃を使用してODPファイルを編集する方法" %}}
 
-ODPファイルを編集するには、機能が豊富で強力な<a href="https://products.aspose.com/slides/net"> Aspose.Slides for .NET</a>APIを使用します。あらゆるエディター向けのC＃プラットフォーム用の使いやすいAPI。 <a href="https://www.nuget.org/packages/aspose.slides.net"> NuGet </a>パッケージマネージャーを開き、<b> Aspose.Slides</b>を検索してインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。
+ODPファイルを編集するには、機能が豊富で強力な<a href="https://products.aspose.com/slides/ja/net"> Aspose.Slides for .NET</a>APIを使用します。あらゆるエディター向けのC＃プラットフォーム用の使いやすいAPI。 <a href="https://www.nuget.org/packages/aspose.slides.net"> NuGet </a>パッケージマネージャーを開き、<b> Aspose.Slides</b>を検索してインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。
 
 {{% blocks/products/pf/agp/code-block title="指示" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  を使用した基本的なドキュメント編集
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/net）
+ [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
  APIは、ほんの数行のコードで実行できます。
 
 {{% /blocks/products/pf/agp/text %}}

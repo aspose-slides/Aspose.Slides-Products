@@ -14,7 +14,7 @@ description: C # التعليمات البرمجية المصدر لرسم وت�
 {{% blocks/products/pf/agp/content h2="كيفية إنشاء مخططات PPT باستخدام C #" %}}
 
  من أجل إنشاء مخططات PPT ، سنستخدم
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  API وهو واجهة برمجة تطبيقات لمعالجة المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C #. يفتح
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات إنشاء مخططات ملفات PPT في C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن عمل مخططات أساسية للمستند باستخدام واجهات برمجة تطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/net) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن عمل مخططات أساسية للمستند باستخدام واجهات برمجة تطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 إنشاء كائن فئة العرض التقديمي.
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات الرسوم البيانية الأخرى المدعومة" subTitle="باستخدام C # ، يمكن للمرء بسهولة التعامل مع الرسوم البيانية بتنسيقات مختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/chart/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
