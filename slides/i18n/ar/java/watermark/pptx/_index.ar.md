@@ -14,7 +14,7 @@ description: نموذج كود Java لإضافة أو إزالة العلامة 
 {{% blocks/products/pf/agp/content h2="كيفية وضع علامة مائية على ملف PPTX باستخدام Java" %}}
 
  من أجل وضع علامة مائية على ملف PPTX ، سنستخدمه
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  API وهي واجهة برمجة تطبيقات للعلامات المائية غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -166,7 +166,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات العلامات المائية الأخرى المدعومة" subTitle="باستخدام Java ، يمكن للمرء بسهولة وضع علامة مائية على تنسيقات مختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/watermark/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/watermark/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Пример кода Java для редактирования ил
 {{% blocks/products/pf/agp/content h2="Как извлечь метаданные PPSM с помощью Java" %}}
 
  Чтобы получить метаданные файла PPSM, мы будем использовать
- [Aspose.Slides для Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java)
  API, который представляет собой многофункциональный, мощный и простой в использовании API метаданных для платформы Java. Вы можете скачать его последнюю версию прямо с
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.
@@ -146,16 +146,16 @@ Files with PPSM extension represent Macro-enabled Slide Show file format created
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы метаданных" subTitle="Используя Java, можно также манипулировать метаданными многих других форматов, включая" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/otp/" name="OTP" description="Стандартный формат OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pot/" name="POT" description="Файлы шаблонов Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potm/" name="POTM" description="Файл шаблона Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potx/" name="POTX" description="Презентация шаблона Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pps/" name="PPS" description="Слайд-шоу PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsx/" name="PPSX" description="Слайд-шоу PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptm/" name="PPTM" description="Файл презентации с поддержкой макросов" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/otp/" name="OTP" description="Стандартный формат OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/pot/" name="POT" description="Файлы шаблонов Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/potm/" name="POTM" description="Файл шаблона Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/potx/" name="POTX" description="Презентация шаблона Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/pps/" name="PPS" description="Слайд-шоу PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/ppsx/" name="PPSX" description="Слайд-шоу PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/pptm/" name="PPTM" description="Файл презентации с поддержкой макросов" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/metadata/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

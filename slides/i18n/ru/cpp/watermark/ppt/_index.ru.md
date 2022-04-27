@@ -14,7 +14,7 @@ description: Пример кода C++ для добавления или уда
 {{% blocks/products/pf/agp/content h2="Как поставить водяной знак на файл PPT с помощью C++" %}}
 
  Чтобы поставить водяной знак на файл PPT, мы будем использовать
- [Aspose.Slides для C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides для C++](https://products.aspose.com/slides/ru/cpp)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для водяных знаков документов для платформы C++. Вы можете загрузить его последнюю версию напрямую, просто открыв
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  менеджер пакетов, поиск
@@ -161,7 +161,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы водяных знаков" subTitle="Используя C++, можно легко помечать водяными знаками различные форматы, в том числе." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/watermark/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

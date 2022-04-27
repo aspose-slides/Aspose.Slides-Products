@@ -14,7 +14,7 @@ description: Beispielcode für die PDF-zu-SVG-Python-Konvertierung. Verwenden Si
 
 {{% blocks/products/pf/agp/content h2="Konvertieren Sie PDF in SVG in Python" %}}
 
-Müssen Sie PDF-Dateien programmgesteuert in SVG konvertieren? Mit [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) kann jeder Entwickler mit nur wenigen Zeilen Python-Code PDF in das SVG-Format konvertieren.
+Müssen Sie PDF-Dateien programmgesteuert in SVG konvertieren? Mit [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/de/python-net/) kann jeder Entwickler mit nur wenigen Zeilen Python-Code PDF in das SVG-Format konvertieren.
 
 Als moderne Präsentationsverarbeitungs-API erstellt Aspose.Slides für Python schnell SVG aus PDF. Testen Sie die Qualität der Konvertierung von PDF in SVG direkt in Ihrem [Browser](https://products.aspose.app/slides/conversion). Mit der Aspose PowerPoint PPTX-Bibliothek können Sie PDF-Dateien in viele gängige Formate konvertieren.
 
@@ -105,27 +105,27 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PDF-zu-SVG-Konvertie
     
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Konvertierungen" subTitle="Sie können PDF auch in viele andere Dateiformate konvertieren. Weitere unterstützte Konvertierungen finden Sie weiter unten" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap-Bild" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Verbessertes Metafile-Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="OpenDocument Flat XML-Präsentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="Grafisches Austauschformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hypertext-Auszeichnungssprache" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="JPEG-Bild" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument-Präsentationsformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument-Standardformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Netzwerkgrafiken" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Microsoft PowerPoint-Vorlagendateien" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="Microsoft PowerPoint-Vorlagendatei" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Microsoft PowerPoint-Vorlagenpräsentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="PowerPoint-Diashow" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="Makrofähige Diashow" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="PowerPoint-Diashow" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="Makrofähige Präsentationsdatei" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Offenes XML-Präsentationsformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="SWF-Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Markiertes Bildformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML-Papierspezifikationen" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap-Bild" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Verbessertes Metafile-Format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="OpenDocument Flat XML-Präsentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="Grafisches Austauschformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hypertext-Auszeichnungssprache" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="JPEG-Bild" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument-Präsentationsformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument-Standardformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Netzwerkgrafiken" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Microsoft PowerPoint-Vorlagendateien" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="Microsoft PowerPoint-Vorlagendatei" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Microsoft PowerPoint-Vorlagenpräsentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="PowerPoint-Diashow" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="Makrofähige Diashow" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="PowerPoint-Diashow" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="Makrofähige Präsentationsdatei" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Offenes XML-Präsentationsformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="SWF-Format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Markiertes Bildformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML-Papierspezifikationen" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

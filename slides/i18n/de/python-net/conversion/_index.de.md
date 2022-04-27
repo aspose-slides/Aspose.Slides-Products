@@ -10,12 +10,12 @@ description: Python-API zum Konvertieren von PPT in PDF. Konvertieren Sie Präse
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) ist eine leistungsstarke lokale Klassenbibliothek, die zum Verarbeiten und Arbeiten mit Präsentationen verwendet wird. Für die Entwickler ist es einfach, PowerPoint schnell und genau in PDF umzuwandeln. Erhalten Sie innerhalb kürzester Zeit die Ergebnisse für die Automatisierung der Geschäftsprozesse. Wir diskutieren hier einige Fälle zum Lesen oder Laden von Eingaben [unterstützte PowerPoint-Formate](https://docs.aspose.com/slides/python-net/supported-file-formats/) und zum Schreiben oder Speichern in einem beliebigen unterstützten Ausgabeformat . 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/de/python-net/) ist eine leistungsstarke lokale Klassenbibliothek, die zum Verarbeiten und Arbeiten mit Präsentationen verwendet wird. Für die Entwickler ist es einfach, PowerPoint schnell und genau in PDF umzuwandeln. Erhalten Sie innerhalb kürzester Zeit die Ergebnisse für die Automatisierung der Geschäftsprozesse. Wir diskutieren hier einige Fälle zum Lesen oder Laden von Eingaben [unterstützte PowerPoint-Formate](https://docs.aspose.com/slides/python-net/supported-file-formats/) und zum Schreiben oder Speichern in einem beliebigen unterstützten Ausgabeformat . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="PowerPoint-zu-PDF-Konvertierung in Python" %}}
-Mit [Aspose.Slides](https://products.aspose.com/slides/python-net/) können Sie Dateien in den Formaten PowerPoint PPT, PPTX und OpenOffice ODP in PDF konvertieren. Um eine Präsentation in PDF zu konvertieren, übergeben Sie einfach den Dateinamen und das Speicherformat an [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) Methode. Die Klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) macht die Klasse [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) Methode, die aufgerufen werden kann, um die gesamte PPT-, PPTX- oder ODP-Präsentation in ein PDF-Dokument zu konvertieren.
+Mit [Aspose.Slides](https://products.aspose.com/slides/de/python-net/) können Sie Dateien in den Formaten PowerPoint PPT, PPTX und OpenOffice ODP in PDF konvertieren. Um eine Präsentation in PDF zu konvertieren, übergeben Sie einfach den Dateinamen und das Speicherformat an [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) Methode. Die Klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) macht die Klasse [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) Methode, die aufgerufen werden kann, um die gesamte PPT-, PPTX- oder ODP-Präsentation in ein PDF-Dokument zu konvertieren.
 
 {{% blocks/products/pf/feature-page-code h3="Konvertierung von Python PowerPoint in PDF" %}}
 
@@ -26,7 +26,7 @@ Mit [Aspose.Slides](https://products.aspose.com/slides/python-net/) können Sie 
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="PDF-zu-PPT-Konvertierung in Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) ermöglicht Ihnen das Importieren von Präsentationen aus PDFs. Im Wesentlichen können Sie ein PDF in eine PowerPoint-Präsentation konvertieren. Führen Sie die folgenden Schritte aus, um PDF in Powerpoint zu konvertieren:
+[Aspose.Slides](https://products.aspose.com/slides/de/python-net/) ermöglicht Ihnen das Importieren von Präsentationen aus PDFs. Im Wesentlichen können Sie ein PDF in eine PowerPoint-Präsentation konvertieren. Führen Sie die folgenden Schritte aus, um PDF in Powerpoint zu konvertieren:
 - Instanziieren Sie ein Objekt der Klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
 - Rufen Sie die Methode [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) auf und übergeben Sie die PDF-Datei.
 - Verwenden Sie die Methode [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/), um die Datei im PowerPoint-Format zu speichern.

@@ -14,7 +14,7 @@ description: C#-Quellcode zum Sperren der PPT-Datei mit Kennwort auf .NET Framew
 {{% blocks/products/pf/agp/content h2="So schützen Sie eine PPT-Datei mit C#" %}}
 
  Um die PPT-Datei zu schützen, verwenden wir
- [Aspose.Slides für .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides für .NET](https://products.aspose.com/slides/de/net)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Dokumentenschutz-API für die C#-Plattform ist. Offen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  Paketmanager, suche nach
@@ -121,8 +121,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Schutzformate" subTitle="Mit C# kann man leicht andere Formate schützen, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/protect/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/protect/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

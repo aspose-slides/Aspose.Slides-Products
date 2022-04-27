@@ -14,7 +14,7 @@ description: Исходный код C# для разблокировки защ
 {{% blocks/products/pf/agp/content h2="Как разблокировать файл ODP с помощью C#" %}}
 
  Чтобы удалить файл защиты ODP, мы будем использовать
- [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides для .NET](https://products.aspose.com/slides/ru/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API защиты документов для платформы C#. Открытым
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
@@ -127,8 +127,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы разблокировки" subTitle="С помощью C# можно легко снять защиту/разблокировку разных форматов, в т.ч." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/unlock/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

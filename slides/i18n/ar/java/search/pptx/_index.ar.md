@@ -14,7 +14,7 @@ description: نموذج كود Java للبحث عن الكلمات ذات الن
 {{% blocks/products/pf/agp/content h2="كيفية البحث عن ملف PPTX باستخدام Java" %}}
 
  من أجل البحث في ملف PPTX ، سنستخدم
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  واجهة برمجة التطبيقات (API) وهي واجهة برمجة تطبيقات بحث غنية بالميزات وقوية وسهلة الاستخدام لمنصة جافا. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -170,8 +170,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="مستندات البحث الأخرى المدعومة" subTitle="باستخدام Java ، يمكن للمرء أيضًا البحث عن ملفات أخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/odp/" name="ODP" description="تنسيق العرض التقديمي OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/search/odp/" name="ODP" description="تنسيق العرض التقديمي OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/search/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

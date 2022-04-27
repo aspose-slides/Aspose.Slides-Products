@@ -14,7 +14,7 @@ description: Пример кода для преобразования OTP в PP
 
 {{% blocks/products/pf/agp/content h2="Преобразование OTP в PPSM в Python" %}}
 
-Нужно программно преобразовать файлы OTP в PPSM? Используя [*Aspose.Slides для Python через .NET*](https://products.aspose.com/slides/python-net/), любой разработчик может преобразовать OTP в формат PPSM всего несколькими строками кода Python.
+Нужно программно преобразовать файлы OTP в PPSM? Используя [*Aspose.Slides для Python через .NET*](https://products.aspose.com/slides/ru/python-net/), любой разработчик может преобразовать OTP в формат PPSM всего несколькими строками кода Python.
 
 Как современный API обработки презентаций, Aspose.Slides для Python быстро создает PPSM из OTP. Проверьте качество преобразования OTP в PPSM прямо в вашем [браузере](https://products.aspose.app/slides/conversion). Библиотека Aspose PowerPoint PPTX позволяет конвертировать файлы OTP во многие популярные форматы.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.otp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые преобразования" subTitle="Вы также можете конвертировать OTP во многие другие форматы файлов. Смотрите другие поддерживаемые преобразования ниже" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Растровое изображение" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-emf/" name="OTP TO EMF" description="Расширенный формат метафайла" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-fodp/" name="OTP TO FODP" description="Плоская XML-презентация OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-gif/" name="OTP TO GIF" description="Графический формат обмена" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-html/" name="OTP TO HTML" description="Язык гипертекстовой разметки" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-jpg/" name="OTP TO JPG" description="Изображение в формате JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-odp/" name="OTP TO ODP" description="Формат презентации OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Портативный формат документа" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-png/" name="OTP TO PNG" description="Портативная сетевая графика" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pot/" name="OTP TO POT" description="Файлы шаблонов Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-potm/" name="OTP TO POTM" description="Файл шаблона Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-potx/" name="OTP TO POTX" description="Презентация шаблона Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pps/" name="OTP TO PPS" description="Слайд-шоу PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="Слайд-шоу PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="Файл презентации с поддержкой макросов" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Формат презентации Open XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-svg/" name="OTP TO SVG" description="Масштабируемая векторная графика" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-swf/" name="OTP TO SWF" description="SWF-формат" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Формат изображения с тегами" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-xps/" name="OTP TO XPS" description="Спецификации XML-бумаги" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Растровое изображение" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-emf/" name="OTP TO EMF" description="Расширенный формат метафайла" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-fodp/" name="OTP TO FODP" description="Плоская XML-презентация OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-gif/" name="OTP TO GIF" description="Графический формат обмена" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-html/" name="OTP TO HTML" description="Язык гипертекстовой разметки" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-jpg/" name="OTP TO JPG" description="Изображение в формате JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-odp/" name="OTP TO ODP" description="Формат презентации OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Портативный формат документа" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-png/" name="OTP TO PNG" description="Портативная сетевая графика" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-pot/" name="OTP TO POT" description="Файлы шаблонов Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-potm/" name="OTP TO POTM" description="Файл шаблона Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-potx/" name="OTP TO POTX" description="Презентация шаблона Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-pps/" name="OTP TO PPS" description="Слайд-шоу PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="Слайд-шоу PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="Файл презентации с поддержкой макросов" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Формат презентации Open XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-svg/" name="OTP TO SVG" description="Масштабируемая векторная графика" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-swf/" name="OTP TO SWF" description="SWF-формат" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Формат изображения с тегами" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/otp-to-xps/" name="OTP TO XPS" description="Спецификации XML-бумаги" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

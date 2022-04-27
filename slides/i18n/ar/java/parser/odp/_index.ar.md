@@ -14,7 +14,7 @@ description: نموذج كود Java لاستخراج النصوص والصور �
 {{% blocks/products/pf/agp/content h2="كيفية تحليل ملف ODP باستخدام Java" %}}
 
  من أجل تحليل ملف ODP ، سنستخدم
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  API وهي واجهة برمجة تطبيقات تحليل غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -54,7 +54,7 @@ description: نموذج كود Java لاستخراج النصوص والصور �
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات تحليل ملفات ODP في Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء تحليل مستند أساسي باستخدام واجهات برمجة تطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/java) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء تحليل مستند أساسي باستخدام واجهات برمجة تطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل ملف ODP عن طريق تثبيت فئة العرض التقديمي.
@@ -163,8 +163,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="مستندات التحليل المعتمدة الأخرى" subTitle="باستخدام Java ، يمكن للمرء بسهولة تحليل التنسيقات الأخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/parser/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/parser/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

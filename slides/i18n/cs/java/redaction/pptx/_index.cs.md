@@ -14,7 +14,7 @@ description: Ukázkový kód Java pro redigování citlivých informací v soubo
 {{% blocks/products/pf/agp/content h2="Jak upravit soubor PPTX pomocí Java" %}}
 
  Abychom redigovali soubor PPTX, použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
  API, což je funkčně bohaté, výkonné a snadno použitelné redakční API pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.
@@ -54,7 +54,7 @@ description: Ukázkový kód Java pro redigování citlivých informací v soubo
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k úpravě souborů PPTX v Javě" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní vyhledávání a nahrazování textu v obsahu, komentářích nebo metadatech pomocí [Aspose.Slides for Java](https://products.aspose.com/slides/java) API lze provést pomocí několika řádků kódu. Najděte a nahraďte text v PowerPointu a OpenOffice. Upravte text, komentáře, metadata v prezentaci pomocí shody regulárních výrazů." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní vyhledávání a nahrazování textu v obsahu, komentářích nebo metadatech pomocí [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java) API lze provést pomocí několika řádků kódu. Najděte a nahraďte text v PowerPointu a OpenOffice. Upravte text, komentáře, metadata v prezentaci pomocí shody regulárních výrazů." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načíst prezentaci PPTX.
@@ -166,8 +166,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované dokumenty redakce" subTitle="Pomocí Javy lze snadno upravovat různé formáty včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/redaction/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

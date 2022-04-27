@@ -14,7 +14,7 @@ description: مثال على كود C ++ للبحث عن الكلمات ذات �
 {{% blocks/products/pf/agp/content h2="كيفية البحث عن ملف PPT باستخدام C ++" %}}
 
  من أجل البحث في ملف PPT ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp)
  API وهو عبارة عن واجهة برمجة تطبيقات بحث عن المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن
@@ -144,8 +144,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="مستندات البحث الأخرى المدعومة" subTitle="باستخدام C ++ ، يمكن للمرء أيضًا البحث عن الملفات الأخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/odp/" name="ODP" description="تنسيق العرض التقديمي OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/search/odp/" name="ODP" description="تنسيق العرض التقديمي OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/search/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: نموذج كود Java لرسم وتحويل مخطط أو رسم �
 {{% blocks/products/pf/agp/content h2="كيفية إنشاء مخططات ملف PPT باستخدام Java" %}}
 
  من أجل إنشاء مخططات ملف PPT ، سنستخدم
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  API وهي واجهة برمجة تطبيقات تخطيطية غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -54,7 +54,7 @@ description: نموذج كود Java لرسم وتحويل مخطط أو رسم �
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات إنشاء مخططات ملفات PPT في Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن عمل مخططات أساسية للمستند باستخدام واجهات برمجة تطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/java) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن عمل مخططات أساسية للمستند باستخدام واجهات برمجة تطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 إنشاء كائن فئة العرض التقديمي.
@@ -258,7 +258,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات الرسوم البيانية الأخرى المدعومة" subTitle="باستخدام Java ، يمكن للمرء بسهولة التعامل مع تنسيقات مختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/chart/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

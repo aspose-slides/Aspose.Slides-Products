@@ -14,7 +14,7 @@ description: Zdrojový kód C# pro úpravu nebo zobrazení metadat formátu POTM
 {{% blocks/products/pf/agp/content h2="Jak extrahovat POTM metadata pomocí C#" %}}
 
  Abychom extrahovali metadata POTM, použijeme
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net)
  API, což je funkčně bohaté, výkonné a snadno použitelné API metadat dokumentu pro platformu C#. OTEVŘENO
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  správce balíčků, vyhledejte
@@ -136,16 +136,16 @@ Files with POTM extension are Microsoft PowerPoint template files with support f
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty metadat" subTitle="Pomocí C# lze také manipulovat s metadaty mnoha dalších formátů včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/otp/" name="OTP" description="Standardní formát OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pot/" name="POT" description="Soubory šablon Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potx/" name="POTX" description="Prezentace šablony Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pps/" name="PPS" description="Prezentace PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsm/" name="PPSM" description="Prezentace s podporou maker" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsx/" name="PPSX" description="Prezentace PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptm/" name="PPTM" description="Soubor prezentace s podporou maker" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/otp/" name="OTP" description="Standardní formát OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pot/" name="POT" description="Soubory šablon Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/potx/" name="POTX" description="Prezentace šablony Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pps/" name="PPS" description="Prezentace PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/ppsm/" name="PPSM" description="Prezentace s podporou maker" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/ppsx/" name="PPSX" description="Prezentace PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pptm/" name="PPTM" description="Soubor prezentace s podporou maker" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

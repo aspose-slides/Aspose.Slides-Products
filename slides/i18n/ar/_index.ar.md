@@ -11,19 +11,19 @@ description: Aspose.Slides هي واجهة برمجة تطبيقات PowerPoint 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides تشمل واجهات برمجة التطبيقات ذات الشفرة العالية" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/ar/net" >}}
 في Premise .NET APIs للتعامل مع عروض Microsoft PowerPoint التقديمية داخل التطبيقات التي تم تطويرها باستخدام .NET Framework و .NET Core والأنظمة الأساسية الأخرى عبر COM Interop.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/ar/java" >}}
 Java APIs لإنشاء أو تحميل أو معالجة أو تحويل أو تحليل عروض Microsoft PowerPoint التقديمية والشرائح وعناصرها في أي تطبيق يعتمد على Java SE أو EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/ar/cpp" >}}
 مكتبة أصلية لتطبيقات C ++ لإنشاء ملفات Microsoft PowerPoint أو تحميلها أو معالجتها أو تحويلها أو عرضها.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="عرض جميع واجهات برمجة التطبيقات عالية الكود" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/ar/family/" innerText="عرض جميع واجهات برمجة التطبيقات عالية الكود" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

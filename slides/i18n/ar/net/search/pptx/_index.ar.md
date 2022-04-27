@@ -14,7 +14,7 @@ description: كود مصدر C # للبحث عن الكلمات ذات النم�
 {{% blocks/products/pf/agp/content h2="كيفية البحث عن ملف PPTX باستخدام C #" %}}
 
  من أجل البحث في ملف PPTX ، سنستخدم
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  API وهي غنية بالميزات وقوية وسهلة الاستخدام ملفات Microsoft PowerPoint تبحث عن API لمنصة C #. يفتح
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات البحث عن ملفات PPTX في C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستندات باستخدام واجهات برمجة التطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/net) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستندات باستخدام واجهات برمجة التطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل ملف PPTX.
@@ -153,8 +153,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات البحث الأخرى المدعومة" subTitle="باستخدام C # ، يمكن للمرء أيضًا البحث عن تنسيقات أخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="تنسيق العرض التقديمي OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/search/odp/" name="ODP" description="تنسيق العرض التقديمي OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/search/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

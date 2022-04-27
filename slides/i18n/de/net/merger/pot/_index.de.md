@@ -14,7 +14,7 @@ description: C#-Quellcode zum Kombinieren von POT-Dokumenten auf .NET Framework-
 {{% blocks/products/pf/agp/content h2="So führen Sie POT-Dateien mit C# zusammen" %}}
 
  Um die POT-Datei zusammenzuführen, verwenden wir
- [Aspose.Slides für .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides für .NET](https://products.aspose.com/slides/de/net)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zur Dokumentenbearbeitung und -zusammenführung für die C#-Plattform ist. Offen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Zusammenführen von POT-Dateien in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ein grundlegendes Zusammenführen und Verketten von Dokumenten mit [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ein grundlegendes Zusammenführen und Verketten von Dokumenten mit [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laden Sie alle POT-Dateien mit vollständigem Pfad.
@@ -146,16 +146,16 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Zusammenführungsformate" subTitle="Mit C# kann One auch viele andere Dateiformate zusammenführen, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/otp/" name="OTP" description="OpenDocument-Standardformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potm/" name="POTM" description="Microsoft PowerPoint-Vorlagendatei" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potx/" name="POTX" description="Microsoft PowerPoint-Vorlagenpräsentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pps/" name="PPS" description="PowerPoint-Diashow" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsm/" name="PPSM" description="Makrofähige Diashow" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsx/" name="PPSX" description="PowerPoint-Diashow" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptm/" name="PPTM" description="Makrofähige Präsentationsdatei" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/otp/" name="OTP" description="OpenDocument-Standardformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/potm/" name="POTM" description="Microsoft PowerPoint-Vorlagendatei" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/potx/" name="POTX" description="Microsoft PowerPoint-Vorlagenpräsentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/pps/" name="PPS" description="PowerPoint-Diashow" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/ppsm/" name="PPSM" description="Makrofähige Diashow" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/ppsx/" name="PPSX" description="PowerPoint-Diashow" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/pptm/" name="PPTM" description="Makrofähige Präsentationsdatei" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/merger/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

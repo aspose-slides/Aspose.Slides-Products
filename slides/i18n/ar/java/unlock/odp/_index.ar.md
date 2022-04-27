@@ -14,7 +14,7 @@ description: نموذج كود Java لإلغاء تأمين ملف ODP المح�
 {{% blocks/products/pf/agp/content h2="كيفية إزالة حماية ملف ODP باستخدام Java" %}}
 
  من أجل فتح ملف ODP ، سوف نستخدم
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  API وهو واجهة برمجة تطبيقات حماية غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java الأساسية. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -139,8 +139,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات الفتح المدعومة الأخرى" subTitle="باستخدام Java ، يمكن للمرء بسهولة إزالة الحماية / إلغاء قفل التنسيقات المختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/unlock/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/unlock/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Ukázkový kód pro konverzi PPTX na EMF Python. Použijte PowerPoi
 
 {{% blocks/products/pf/agp/content h2="Převeďte PPTX na EMF v Pythonu" %}}
 
-Potřebujete převést soubory PPTX na EMF programově? Pomocí [*Aspose.Slides pro Python přes .NET*](https://products.aspose.com/slides/python-net/) může každý vývojář převést PPTX do formátu EMF pomocí pouhých několika řádků kódu Python.
+Potřebujete převést soubory PPTX na EMF programově? Pomocí [*Aspose.Slides pro Python přes .NET*](https://products.aspose.com/slides/cs/python-net/) může každý vývojář převést PPTX do formátu EMF pomocí pouhých několika řádků kódu Python.
 
 Aspose.Slides pro Python jako moderní API pro zpracování prezentací rychle vytváří EMF z PPTX. Otestujte kvalitu převodu PPTX na EMF přímo ve svém [prohlížeči](https://products.aspose.app/slides/conversion). Knihovna Aspose PowerPoint PPTX umožňuje převádět soubory PPTX do mnoha oblíbených formátů.
 
@@ -102,27 +102,27 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PP
     
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované konverze" subTitle="Můžete také převést PPTX do mnoha dalších formátů souborů. Další podporované konverze naleznete níže" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmapový obrázek" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-fodp/" name="PPTX TO FODP" description="OpenDocument Flat XML prezentace" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Grafický výměnný formát" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-jpg/" name="PPTX TO JPG" description="Obrázek JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-odp/" name="PPTX TO ODP" description="Formát prezentace OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-otp/" name="PPTX TO OTP" description="Standardní formát OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Přenosný formát dokumentu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-png/" name="PPTX TO PNG" description="Přenosná síťová grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pot/" name="PPTX TO POT" description="Soubory šablon Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-potm/" name="PPTX TO POTM" description="Soubor šablony Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-potx/" name="PPTX TO POTX" description="Prezentace šablony Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pps/" name="PPTX TO PPS" description="Prezentace PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Prezentace s podporou maker" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="Prezentace PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Soubor prezentace s podporou maker" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-svg/" name="PPTX TO SVG" description="Škálovatelná vektorová grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="Formát SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Formát tagovaného obrázku" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="Specifikace papíru XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmapový obrázek" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-fodp/" name="PPTX TO FODP" description="OpenDocument Flat XML prezentace" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Grafický výměnný formát" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-jpg/" name="PPTX TO JPG" description="Obrázek JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-odp/" name="PPTX TO ODP" description="Formát prezentace OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-otp/" name="PPTX TO OTP" description="Standardní formát OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Přenosný formát dokumentu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-png/" name="PPTX TO PNG" description="Přenosná síťová grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-pot/" name="PPTX TO POT" description="Soubory šablon Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-potm/" name="PPTX TO POTM" description="Soubor šablony Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-potx/" name="PPTX TO POTX" description="Prezentace šablony Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-pps/" name="PPTX TO PPS" description="Prezentace PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Prezentace s podporou maker" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="Prezentace PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Soubor prezentace s podporou maker" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-svg/" name="PPTX TO SVG" description="Škálovatelná vektorová grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="Formát SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Formát tagovaného obrázku" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="Specifikace papíru XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

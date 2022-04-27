@@ -14,7 +14,7 @@ description: Ukázkový kód pro konverzi FODP na PPSX Python. Použijte PowerPo
 
 {{% blocks/products/pf/agp/content h2="Převeďte FODP na PPSX v Pythonu" %}}
 
-Potřebujete převést soubory FODP na PPSX programově? Pomocí [*Aspose.Slides pro Python přes .NET*](https://products.aspose.com/slides/python-net/) může každý vývojář převést FODP do formátu PPSX pomocí pouhých několika řádků kódu Python.
+Potřebujete převést soubory FODP na PPSX programově? Pomocí [*Aspose.Slides pro Python přes .NET*](https://products.aspose.com/slides/cs/python-net/) může každý vývojář převést FODP do formátu PPSX pomocí pouhých několika řádků kódu Python.
 
 Jako moderní API pro zpracování prezentací vytváří Aspose.Slides pro Python rychle PPSX z FODP. Otestujte kvalitu převodu FODP na PPSX přímo ve svém [prohlížeči](https://products.aspose.app/slides/conversion). Knihovna Aspose PowerPoint PPTX umožňuje převádět soubory FODP do mnoha oblíbených formátů.
 
@@ -101,27 +101,27 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu FO
     
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované konverze" subTitle="FODP můžete také převést do mnoha dalších formátů souborů. Další podporované konverze naleznete níže" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmapový obrázek" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Vylepšený formát metasouborů" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Grafický výměnný formát" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Obrázek JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Formát prezentace OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="Standardní formát OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Přenosný formát dokumentu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Přenosná síťová grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Soubory šablon Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Soubor šablony Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Prezentace šablony Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Prezentace PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Prezentace s podporou maker" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Soubor prezentace s podporou maker" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Formát otevřené prezentace XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Škálovatelná vektorová grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="Formát SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Formát tagovaného obrázku" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Specifikace papíru XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmapový obrázek" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Vylepšený formát metasouborů" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Grafický výměnný formát" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Obrázek JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Formát prezentace OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="Standardní formát OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Přenosný formát dokumentu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Přenosná síťová grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Soubory šablon Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Soubor šablony Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Prezentace šablony Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Prezentace PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Prezentace s podporou maker" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Soubor prezentace s podporou maker" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Formát otevřené prezentace XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Škálovatelná vektorová grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="Formát SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Formát tagovaného obrázku" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Specifikace papíru XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

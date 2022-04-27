@@ -14,7 +14,7 @@ description: نموذج كود Java لقفل ملف ODP باستخدام كلم�
 {{% blocks/products/pf/agp/content h2="كيفية تأمين ملف ODP باستخدام Java" %}}
 
  من أجل حماية ملف ODP ، سنستخدم ملفات
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
  API وهي واجهة برمجة تطبيقات تشفير غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -141,8 +141,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="مستندات الحماية الأخرى المدعومة" subTitle="باستخدام Java ، يمكن للمرء حماية الملفات الأخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/protect/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/protect/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

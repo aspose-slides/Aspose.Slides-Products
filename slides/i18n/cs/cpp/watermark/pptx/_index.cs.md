@@ -14,7 +14,7 @@ description: Příklad kódu C++ pro přidání nebo odstranění vodoznaku do s
 {{% blocks/products/pf/agp/content h2="Jak vodoznak do souboru PPTX pomocí C++" %}}
 
  K vodoznaku souboru PPTX použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro vodoznakování dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte
@@ -161,7 +161,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty vodoznaků" subTitle="Pomocí C++ lze snadno vodoznakovat různé formáty včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

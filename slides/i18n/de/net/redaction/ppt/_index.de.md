@@ -14,7 +14,7 @@ description: C#-Quellcode zum Schwärzen vertraulicher Informationen in PPT-Date
 {{% blocks/products/pf/agp/content h2="So redigieren Sie eine PPT-Datei mit C#" %}}
 
  Um die PPT-Datei zu redigieren, verwenden wir
- [Aspose.Slides für .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides für .NET](https://products.aspose.com/slides/de/net)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zur Dokumentenmanipulation für die C#-Plattform ist. Offen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Schwärzen von PPT-Dateien in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Eine grundlegende Dokumentensuche und das Ersetzen von Text in Inhalten, Kommentaren oder Metadaten mit [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs kann mit nur wenigen Codezeilen durchgeführt werden. Suchen und ersetzen Sie Text in PowerPoint und OpenOffice. Bearbeiten Sie Text, Kommentare und Metadaten in der Präsentation über den Regexp-Datenabgleich." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Eine grundlegende Dokumentensuche und das Ersetzen von Text in Inhalten, Kommentaren oder Metadaten mit [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net) APIs kann mit nur wenigen Codezeilen durchgeführt werden. Suchen und ersetzen Sie Text in PowerPoint und OpenOffice. Bearbeiten Sie Text, Kommentare und Metadaten in der Präsentation über den Regexp-Datenabgleich." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPT-Präsentation laden.
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Schwärzungsformate" subTitle="Mit C# kann man problemlos verschiedene Formate redigieren, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/redaction/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/redaction/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

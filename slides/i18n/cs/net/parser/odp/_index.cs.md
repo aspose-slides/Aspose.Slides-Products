@@ -14,7 +14,7 @@ description: Zdrojový kód C# pro extrahování textu a obrázků ze souboru OD
 {{% blocks/products/pf/agp/content h2="Jak analyzovat soubor ODP pomocí C#" %}}
 
  Abychom mohli analyzovat soubor ODP, použijeme
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro manipulaci s dokumenty pro platformu C#. OTEVŘENO
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k analýze souborů ODP v C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní analýzu dokumentu pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní analýzu dokumentu pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net) API lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načíst soubor ODP.
@@ -143,8 +143,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty analýzy" subTitle="Pomocí C# lze snadno analyzovat další formáty včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/parser/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

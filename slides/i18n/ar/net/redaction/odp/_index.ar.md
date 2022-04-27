@@ -14,7 +14,7 @@ description: كود المصدر C # لتنقيح المعلومات الحسا�
 {{% blocks/products/pf/agp/content h2="كيفية تنقيح ملف ODP باستخدام C #" %}}
 
  من أجل تنقيح ملف ODP ، سنستخدم
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  API وهو واجهة برمجة تطبيقات لمعالجة المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C #. يفتح
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات تنقيح ملفات ODP في C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستند واستبدال النص الموجود في المحتويات أو التعليقات أو البيانات الوصفية باستخدام واجهات برمجة التطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/net) ببضعة سطور من التعليمات البرمجية. ابحث عن النص واستبدله في PowerPoint و OpenOffice. تحرير النص والتعليقات والبيانات الوصفية في العرض التقديمي عبر مطابقة بيانات regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستند واستبدال النص الموجود في المحتويات أو التعليقات أو البيانات الوصفية باستخدام واجهات برمجة التطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net) ببضعة سطور من التعليمات البرمجية. ابحث عن النص واستبدله في PowerPoint و OpenOffice. تحرير النص والتعليقات والبيانات الوصفية في العرض التقديمي عبر مطابقة بيانات regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 تحميل عرض ODP.
@@ -134,8 +134,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات التنقيح المدعومة الأخرى" subTitle="باستخدام C # ، يمكن للمرء بسهولة تنقيح التنسيقات المختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/redaction/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/redaction/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

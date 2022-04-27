@@ -14,7 +14,7 @@ description: Zdrojový kód C# pro kreslení a převod grafu nebo diagramu do so
 {{% blocks/products/pf/agp/content h2="Jak vytvořit PPT grafy pomocí C#" %}}
 
  K vytvoření PPT grafů použijeme
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro manipulaci s dokumenty pro platformu C#. OTEVŘENO
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k vytvoření grafů souborů PPT v C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní mapování dokumentů pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní mapování dokumentů pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net) API lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Vytvořte objekt třídy Prezentace.
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty grafů" subTitle="Pomocí C# lze snadno pracovat s grafy s různými formáty včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/chart/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

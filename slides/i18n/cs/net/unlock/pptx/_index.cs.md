@@ -14,7 +14,7 @@ description: Zdrojový kód C# pro odemknutí heslem chráněného souboru PPTX 
 {{% blocks/products/pf/agp/content h2="Jak odemknout soubor PPTX pomocí C#" %}}
 
  K odstranění ochranného souboru PPTX použijeme
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro ochranu dokumentů pro platformu C#. OTEVŘENO
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  správce balíčků, vyhledejte
@@ -127,8 +127,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty odemykání" subTitle="Pomocí C# lze snadno odstranit ochranu / odemknutí různých formátů včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/unlock/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

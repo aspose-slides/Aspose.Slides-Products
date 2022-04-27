@@ -14,7 +14,7 @@ description: Zdrojový kód C# pro vyhledávání slov se vzorem v souboru PPT n
 {{% blocks/products/pf/agp/content h2="Jak hledat soubor PPT pomocí C#" %}}
 
  Abychom prohledali soubor PPT, použijeme
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro vyhledávání dokumentů Microsoft PowerPoint pro platformu C#. OTEVŘENO
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k vyhledávání souborů PPT v C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní vyhledávání dokumentů pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní vyhledávání dokumentů pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net) API lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načíst soubor PPT.
@@ -153,8 +153,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty vyhledávání" subTitle="Pomocí C# lze prohledávat i jiné formáty včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/search/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/search/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

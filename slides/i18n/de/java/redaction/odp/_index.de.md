@@ -14,7 +14,7 @@ description: Java-Beispielcode zum Schwärzen vertraulicher Informationen in ODP
 {{% blocks/products/pf/agp/content h2="So redigieren Sie eine ODP-Datei mit Java" %}}
 
  Um die ODP-Datei zu redigieren, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Schwärzungs-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.
@@ -54,7 +54,7 @@ description: Java-Beispielcode zum Schwärzen vertraulicher Informationen in ODP
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Schwärzen von ODP-Dateien in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Eine grundlegende Dokumentensuche und das Ersetzen von Text in Inhalten, Kommentaren oder Metadaten mit [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs kann mit nur wenigen Codezeilen durchgeführt werden. Suchen und ersetzen Sie Text in PowerPoint und OpenOffice. Bearbeiten Sie Text, Kommentare und Metadaten in der Präsentation über den Regexp-Datenabgleich." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Eine grundlegende Dokumentensuche und das Ersetzen von Text in Inhalten, Kommentaren oder Metadaten mit [Aspose.Slides for Java](https://products.aspose.com/slides/de/java) APIs kann mit nur wenigen Codezeilen durchgeführt werden. Suchen und ersetzen Sie Text in PowerPoint und OpenOffice. Bearbeiten Sie Text, Kommentare und Metadaten in der Präsentation über den Regexp-Datenabgleich." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODP-Präsentation laden.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Schwärzungsdokumente" subTitle="Mit Java kann man problemlos verschiedene Formate redigieren, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/redaction/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: C#-Quellcode zum Extrahieren von Text und Bildern aus PPT-Dateien a
 {{% blocks/products/pf/agp/content h2="So analysieren Sie eine PPT-Datei mit C#" %}}
 
  Um die PPT-Datei zu analysieren, verwenden wir
- [Aspose.Slides für .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides für .NET](https://products.aspose.com/slides/de/net)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zur Dokumentenmanipulation für die C#-Plattform ist. Offen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Parsen von PPT-Dateien in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Eine einfache Dokumentenanalyse mit [Aspose.Slides for .NET](https://products.aspose.com/slides/net) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Eine einfache Dokumentenanalyse mit [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPT-Datei laden.
@@ -143,8 +143,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Parsing-Formate" subTitle="Mit C# kann man problemlos andere Formate parsen, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/parser/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/parser/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: كود مصدر C # لإضافة أو إزالة العلامة ا�
 {{% blocks/products/pf/agp/content h2="كيفية وضع علامة مائية على ملف PPTX باستخدام C #" %}}
 
  من أجل وضع علامة مائية على ملف PPTX ، سنستخدمه
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  API وهو واجهة برمجة تطبيقات لمعالجة المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C #. يفتح
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدير الحزم ، ابحث عن
@@ -129,7 +129,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات العلامات المائية الأخرى المدعومة" subTitle="باستخدام C # ، يمكن للمرء بسهولة وضع علامة مائية على تنسيقات مختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/watermark/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

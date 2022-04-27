@@ -12,7 +12,7 @@ description: C#-Quellcode zum Bearbeiten von PPTX-Dokumenten auf .NET Framework-
 
 {{% blocks/products/pf/agp/content h2="So bearbeiten Sie eine PPTX-Datei mit C#" %}}
 
-Um die PPTX-Datei zu bearbeiten, verwenden wir die API <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a>, die funktionsreich und leistungsstark ist und benutzerfreundliche API für die C#-Plattform für jeden Editor. Öffnen Sie den <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>-Paketmanager, suchen Sie nach <b>Aspose.Slides</b> und installieren Sie es. Sie können auch den folgenden Befehl in der Paket-Manager-Konsole verwenden.
+Um die PPTX-Datei zu bearbeiten, verwenden wir die API <a href="https://products.aspose.com/slides/de/net">Aspose.Slides for .NET</a>, die funktionsreich und leistungsstark ist und benutzerfreundliche API für die C#-Plattform für jeden Editor. Öffnen Sie den <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>-Paketmanager, suchen Sie nach <b>Aspose.Slides</b> und installieren Sie es. Sie können auch den folgenden Befehl in der Paket-Manager-Konsole verwenden.
 
 {{% blocks/products/pf/agp/code-block title="Befehl" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Eine grundlegende Dokumentenbearbeitung mit
- [Aspose.Slides für .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides für .NET](https://products.aspose.com/slides/de/net)
  APIs können mit nur wenigen Codezeilen erstellt werden.
 
 {{% /blocks/products/pf/agp/text %}}

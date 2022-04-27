@@ -14,7 +14,7 @@ description: Java-Beispielcode zum Kombinieren von ODP-Dokumenten in Java Runtim
 {{% blocks/products/pf/agp/content h2="So führen Sie ODP-Dateien mit Java zusammen" %}}
 
  Um die ODP-Datei zusammenzuführen, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Merger-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.
@@ -54,7 +54,7 @@ description: Java-Beispielcode zum Kombinieren von ODP-Dokumenten in Java Runtim
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Zusammenführen von ODP-Dateien in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ein grundlegendes Zusammenführen und Verketten von Dokumenten mit [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ein grundlegendes Zusammenführen und Verketten von Dokumenten mit [Aspose.Slides for Java](https://products.aspose.com/slides/de/java) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laden Sie die erste ODP-Datei mit einer Instanz der Presentation-Klasse.
@@ -150,16 +150,16 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Zusammenführungsformate" subTitle="Mit Java kann One auch viele andere Dateiformate zusammenführen, darunter .." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/otp/" name="OTP" description="OpenDocument-Standardformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pot/" name="POT" description="Microsoft PowerPoint-Vorlagendateien" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potm/" name="POTM" description="Microsoft PowerPoint-Vorlagendatei" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potx/" name="POTX" description="Microsoft PowerPoint-Vorlagenpräsentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pps/" name="PPS" description="PowerPoint-Diashow" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppsm/" name="PPSM" description="Makrofähige Diashow" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppsx/" name="PPSX" description="PowerPoint-Diashow" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptm/" name="PPTM" description="Makrofähige Präsentationsdatei" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/otp/" name="OTP" description="OpenDocument-Standardformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/pot/" name="POT" description="Microsoft PowerPoint-Vorlagendateien" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/potm/" name="POTM" description="Microsoft PowerPoint-Vorlagendatei" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/potx/" name="POTX" description="Microsoft PowerPoint-Vorlagenpräsentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/pps/" name="PPS" description="PowerPoint-Diashow" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/ppsm/" name="PPSM" description="Makrofähige Diashow" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/ppsx/" name="PPSX" description="PowerPoint-Diashow" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/pptm/" name="PPTM" description="Makrofähige Präsentationsdatei" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/merger/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

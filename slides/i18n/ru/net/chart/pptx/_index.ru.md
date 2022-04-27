@@ -14,7 +14,7 @@ description: Исходный код C# для рисования и преоб�
 {{% blocks/products/pf/agp/content h2="Как создавать диаграммы PPTX с помощью C#" %}}
 
  Чтобы создать диаграммы PPTX, мы будем использовать
- [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides для .NET](https://products.aspose.com/slides/ru/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для работы с документами для платформы C#. Открытым
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги по созданию диаграмм файлов PPTX в C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовую диаграмму документа с помощью API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) можно создать всего несколькими строками кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовую диаграмму документа с помощью API [Aspose.Slides for .NET](https://products.aspose.com/slides/ru/net) можно создать всего несколькими строками кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Создайте объект класса Presentation.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы графиков" subTitle="С помощью C# можно легко работать с диаграммами различных форматов, в том числе." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

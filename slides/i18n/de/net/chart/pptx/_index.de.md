@@ -14,7 +14,7 @@ description: C#-Quellcode zum Zeichnen und Konvertieren von Diagrammen oder Diag
 {{% blocks/products/pf/agp/content h2="So erstellen Sie PPTX-Diagramme mit C#" %}}
 
  Um PPTX-Diagramme zu erstellen, verwenden wir
- [Aspose.Slides für .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides für .NET](https://products.aspose.com/slides/de/net)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zur Dokumentenmanipulation für die C#-Plattform ist. Offen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Erstellen von PPTX-Dateidiagrammen in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Mit nur wenigen Codezeilen kann ein einfaches Dokumentdiagramm mit [Aspose.Slides for .NET](https://products.aspose.com/slides/net)-APIs erstellt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Mit nur wenigen Codezeilen kann ein einfaches Dokumentdiagramm mit [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net)-APIs erstellt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Objekt der Präsentationsklasse erstellen.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Diagrammformate" subTitle="Mit C# kann man problemlos Diagramme mit verschiedenen Formaten erstellen, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -12,7 +12,7 @@ description: كود المصدر C # لتحرير مستند PPTM على الأ�
 
 {{% blocks/products/pf/agp/content h2="كيفية تحرير ملف PPTM باستخدام C #" %}}
 
-من أجل تحرير ملف PPTM ، سنستخدم <a href="https://products.aspose.com/slides/net"> Aspose.Slides for .NET </a> API وهو غني بالميزات وقوي وسهل الاستخدام API لمنصة C # لأي محرر. افتح مدير الحزمة <a href="https://www.nuget.org/packages/aspose.slides.net"> NuGet </a> ، وابحث عن <b> Aspose.Slides </b> وثبته. يمكنك أيضًا استخدام الأمر التالي من Package Manager Console.
+من أجل تحرير ملف PPTM ، سنستخدم <a href="https://products.aspose.com/slides/ar/net"> Aspose.Slides for .NET </a> API وهو غني بالميزات وقوي وسهل الاستخدام API لمنصة C # لأي محرر. افتح مدير الحزمة <a href="https://www.nuget.org/packages/aspose.slides.net"> NuGet </a> ، وابحث عن <b> Aspose.Slides </b> وثبته. يمكنك أيضًا استخدام الأمر التالي من Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="أمر" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  تحرير مستند أساسي باستخدام
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  يمكن عمل واجهات برمجة التطبيقات ببضعة سطور من التعليمات البرمجية.
 
 {{% /blocks/products/pf/agp/text %}}

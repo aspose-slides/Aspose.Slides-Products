@@ -14,7 +14,7 @@ description: Příklad kódu C++ pro vyhledávání slov se vzorem v souboru PPT
 {{% blocks/products/pf/agp/content h2="Jak hledat soubor PPT pomocí C++" %}}
 
  Abychom prohledali soubor PPT, použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro vyhledávání dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte
@@ -144,8 +144,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované vyhledávací dokumenty" subTitle="Pomocí C++ lze také prohledávat další soubory včetně." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/search/odp/" name="ODP" description="Formát prezentace OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/search/pptx/" name="PPTX" description="Formát otevřené prezentace XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

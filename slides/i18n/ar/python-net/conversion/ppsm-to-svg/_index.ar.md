@@ -14,7 +14,7 @@ description: رمز عينة لتحويل PPSM إلى SVG Python. استخدم P
 
 {{% blocks/products/pf/agp/content h2="تحويل PPSM إلى SVG في Python" %}}
 
-هل تحتاج إلى تحويل ملفات PPSM إلى SVG برمجيًا؟ باستخدام [* Aspose.Slides for Python عبر .NET *](https://products.aspose.com/slides/python-net/) يمكن لأي مطور تحويل PPSM إلى تنسيق SVG ببضعة أسطر فقط من كود Python.
+هل تحتاج إلى تحويل ملفات PPSM إلى SVG برمجيًا؟ باستخدام [* Aspose.Slides for Python عبر .NET *](https://products.aspose.com/slides/ar/python-net/) يمكن لأي مطور تحويل PPSM إلى تنسيق SVG ببضعة أسطر فقط من كود Python.
 
 باعتبارها واجهة برمجة تطبيقات حديثة لمعالجة العروض التقديمية ، تقوم Aspose.Slides for Python بإنشاء SVG من PPSM بسرعة. اختبر جودة تحويل PPSM إلى SVG مباشرة في [المتصفح](https://products.aspose.app/slides/conversion). تسمح لك مكتبة Aspose PowerPoint PPTX بتحويل ملفات PPSM إلى العديد من التنسيقات الشائعة.
 
@@ -103,27 +103,27 @@ with slides.Presentation("presentation.ppsm") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="التحويلات المدعومة الأخرى" subTitle="يمكنك أيضًا تحويل PPSM إلى العديد من تنسيقات الملفات الأخرى. انظر التحويلات الأخرى المدعومة أدناه" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="سيب" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="تنسيق ملف التعريف المحسن" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="عرض تقديمي XML مسطح OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="تنسيق التبادل الرسومي" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="لغة ترميز النصوص التشعبية" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="صورة JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="تنسيق العرض التقديمي OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="تنسيق OpenDocument القياسي" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="نموذج المستندات المحمولة" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="رسومات الشبكة المحمولة" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="ملفات قوالب Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="ملف قالب Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="عرض تقديمي لقالب Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="عرض شرائح PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="عرض شرائح PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="مايكروسوفت باور بوينت 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="ملف العرض التقديمي الممكّن بماكرو" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="افتح تنسيق عرض XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="تنسيق SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="تنسيق الصورة الموسومة" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="مواصفات ورق XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="سيب" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="تنسيق ملف التعريف المحسن" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="عرض تقديمي XML مسطح OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="تنسيق التبادل الرسومي" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="لغة ترميز النصوص التشعبية" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="صورة JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="تنسيق العرض التقديمي OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="تنسيق OpenDocument القياسي" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="نموذج المستندات المحمولة" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="رسومات الشبكة المحمولة" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="ملفات قوالب Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="ملف قالب Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="عرض تقديمي لقالب Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="عرض شرائح PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="عرض شرائح PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="مايكروسوفت باور بوينت 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="ملف العرض التقديمي الممكّن بماكرو" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="افتح تنسيق عرض XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="تنسيق SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="تنسيق الصورة الموسومة" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="مواصفات ورق XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

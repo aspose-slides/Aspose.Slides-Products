@@ -14,7 +14,7 @@ description: C # التعليمات البرمجية المصدر لرسم وت�
 {{% blocks/products/pf/agp/content h2="كيفية إنشاء مخططات PPTX باستخدام C #" %}}
 
  من أجل إنشاء مخططات PPTX ، سنستخدم
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  API وهو واجهة برمجة تطبيقات لمعالجة المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C #. يفتح
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات إنشاء مخططات ملفات PPTX في C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن عمل مخططات أساسية للمستند باستخدام واجهات برمجة تطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/net) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن عمل مخططات أساسية للمستند باستخدام واجهات برمجة تطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 إنشاء كائن فئة العرض التقديمي.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات الرسوم البيانية الأخرى المدعومة" subTitle="باستخدام C # ، يمكن للمرء بسهولة التعامل مع الرسوم البيانية بتنسيقات مختلفة بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/chart/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

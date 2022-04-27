@@ -14,7 +14,7 @@ description: Пример кода C++ для извлечения текста 
 {{% blocks/products/pf/agp/content h2="Как разобрать файл ODP с помощью C++" %}}
 
  Чтобы разобрать файл ODP, мы будем использовать
- [Aspose.Slides для C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides для C++](https://products.aspose.com/slides/ru/cpp)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для анализа документов для платформы C++. Вы можете загрузить его последнюю версию напрямую, просто открыв
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  менеджер пакетов, поиск
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги для разбора файлов ODP в C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовый анализ документа с помощью API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) можно выполнить всего несколькими строками кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовый анализ документа с помощью API [Aspose.Slides for C++](https://products.aspose.com/slides/ru/cpp) можно выполнить всего несколькими строками кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузите ODP-файл.
@@ -146,8 +146,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые документы для синтаксического анализа" subTitle="Используя C++, можно легко анализировать другие форматы, в том числе." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/parser/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

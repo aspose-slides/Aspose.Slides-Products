@@ -14,7 +14,7 @@ description: Ukázkový kód pro převod PPS na PNG Python. Použijte PowerPoint
 
 {{% blocks/products/pf/agp/content h2="Převeďte PPS na PNG v Pythonu" %}}
 
-Potřebujete převést PPS soubory na PNG programově? Pomocí [*Aspose.Slides pro Python přes .NET*](https://products.aspose.com/slides/python-net/) může každý vývojář převést PPS do formátu PNG pomocí pouhých několika řádků kódu Python.
+Potřebujete převést PPS soubory na PNG programově? Pomocí [*Aspose.Slides pro Python přes .NET*](https://products.aspose.com/slides/cs/python-net/) může každý vývojář převést PPS do formátu PNG pomocí pouhých několika řádků kódu Python.
 
 Aspose.Slides pro Python jako moderní API pro zpracování prezentací rychle vytváří PNG z PPS. Otestujte kvalitu převodu PPS na PNG přímo ve svém [prohlížeči](https://products.aspose.app/slides/conversion/ppt-to-png). Knihovna Aspose PowerPoint PPTX umožňuje převádět soubory PPS do mnoha oblíbených formátů.
 
@@ -102,27 +102,27 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PP
     
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované konverze" subTitle="PPS můžete také převést do mnoha dalších formátů souborů. Další podporované konverze naleznete níže" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmapový obrázek" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Vylepšený formát metasouborů" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument Flat XML prezentace" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Grafický výměnný formát" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="Obrázek JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="Formát prezentace OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="Standardní formát OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Přenosný formát dokumentu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Soubory šablon Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Soubor šablony Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Prezentace šablony Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Prezentace s podporou maker" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="Prezentace PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Soubor prezentace s podporou maker" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Formát otevřené prezentace XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Škálovatelná vektorová grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Formát SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Formát tagovaného obrázku" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="Specifikace papíru XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmapový obrázek" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Vylepšený formát metasouborů" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument Flat XML prezentace" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Grafický výměnný formát" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="Obrázek JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="Formát prezentace OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="Standardní formát OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Přenosný formát dokumentu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Soubory šablon Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Soubor šablony Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Prezentace šablony Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Prezentace s podporou maker" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="Prezentace PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Soubor prezentace s podporou maker" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Formát otevřené prezentace XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Škálovatelná vektorová grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Formát SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Formát tagovaného obrázku" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="Specifikace papíru XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

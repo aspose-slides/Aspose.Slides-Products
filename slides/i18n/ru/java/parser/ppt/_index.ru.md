@@ -14,7 +14,7 @@ description: Пример кода Java для извлечения текста
 {{% blocks/products/pf/agp/content h2="Как разобрать файл PPT с помощью Java" %}}
 
  Чтобы разобрать файл PPT, мы будем использовать
- [Aspose.Slides для Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java)
  API, который представляет собой многофункциональный, мощный и простой в использовании API синтаксического анализа для платформы Java. Вы можете скачать его последнюю версию прямо с
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.
@@ -54,7 +54,7 @@ description: Пример кода Java для извлечения текста
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги для разбора файлов PPT в Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовый синтаксический анализ документа с помощью API [Aspose.Slides for Java](https://products.aspose.com/slides/java) можно выполнить с помощью всего нескольких строк кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовый синтаксический анализ документа с помощью API [Aspose.Slides for Java](https://products.aspose.com/slides/ru/java) можно выполнить с помощью всего нескольких строк кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузите файл PPT, установив класс Presentation.
@@ -163,8 +163,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые документы для синтаксического анализа" subTitle="Используя Java, можно легко анализировать другие форматы, в том числе." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/parser/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/parser/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

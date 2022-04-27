@@ -14,7 +14,7 @@ description: Исходный код C# для извлечения текста
 {{% blocks/products/pf/agp/content h2="Как разобрать файл PPTX с помощью C#" %}}
 
  Чтобы разобрать файл PPTX, мы будем использовать
- [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides для .NET](https://products.aspose.com/slides/ru/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для работы с документами для платформы C#. Открытым
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги для разбора файлов PPTX в C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовый анализ документа с помощью API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) можно выполнить всего несколькими строками кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовый анализ документа с помощью API [Aspose.Slides for .NET](https://products.aspose.com/slides/ru/net) можно выполнить всего несколькими строками кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузите файл PPTX.
@@ -143,8 +143,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы синтаксического анализа" subTitle="Используя C#, можно легко анализировать другие форматы, в том числе." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/parser/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

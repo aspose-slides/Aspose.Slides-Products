@@ -14,7 +14,7 @@ description: Java-Beispielcode zum Suchen von Wörtern mit Muster in der PPT-Dat
 {{% blocks/products/pf/agp/content h2="So suchen Sie PPT-Dateien mit Java" %}}
 
  Um die PPT-Datei zu durchsuchen, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Such-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.
@@ -170,8 +170,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Suchdokumente" subTitle="Mit Java kann man auch andere Dateien durchsuchen, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/search/odp/" name="ODP" description="OpenDocument-Präsentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/search/pptx/" name="PPTX" description="Offenes XML-Präsentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

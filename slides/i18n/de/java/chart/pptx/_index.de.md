@@ -14,7 +14,7 @@ description: Java-Beispielcode zum Zeichnen und Konvertieren von Diagrammen oder
 {{% blocks/products/pf/agp/content h2="So erstellen Sie PPTX-Dateidiagramme mit Java" %}}
 
  Um PPTX-Dateidiagramme zu erstellen, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Diagramm-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.
@@ -54,7 +54,7 @@ description: Java-Beispielcode zum Zeichnen und Konvertieren von Diagrammen oder
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Erstellen von PPTX-Dateidiagrammen in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Mit nur wenigen Codezeilen kann ein grundlegendes Dokumentendiagramm mit [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs erstellt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Mit nur wenigen Codezeilen kann ein grundlegendes Dokumentendiagramm mit [Aspose.Slides for Java](https://products.aspose.com/slides/de/java) APIs erstellt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Objekt der Präsentationsklasse instanziieren.
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Diagrammformate" subTitle="Mit Java kann man problemlos mit verschiedenen Formaten umgehen, einschließlich." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: كود مصدر C # للبحث عن الكلمات ذات النم�
 {{% blocks/products/pf/agp/content h2="كيفية البحث عن ملف ODP باستخدام C #" %}}
 
  من أجل البحث في ملف ODP ، سوف نستخدم
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net)
  واجهة برمجة التطبيقات (API) وهي واجهة برمجة تطبيقات غنية بالميزات وقوية وسهلة الاستخدام للبحث عن العروض التقديمية في PowerPoint لمنصة C #. يفتح
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  مدير الحزم ، ابحث عن Aspose.Slides وتثبيته. يمكنك أيضًا استخدام الأمر التالي من Package Manager Console.
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات البحث عن ملفات ODP في C #" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستندات باستخدام واجهات برمجة التطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/net) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء بحث أساسي عن المستندات باستخدام واجهات برمجة التطبيقات [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل ملف ODP.
@@ -151,8 +151,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات البحث الأخرى المدعومة" subTitle="باستخدام C # ، يمكن للمرء أيضًا البحث عن تنسيقات أخرى بما في ذلك." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/search/ppt/" name="PPT" description="مايكروسوفت باور بوينت 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/search/pptx/" name="PPTX" description="افتح تنسيق عرض XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Исходный код C# для редактирования ко
 {{% blocks/products/pf/agp/content h2="Как отредактировать файл PPT с помощью C#" %}}
 
  Чтобы отредактировать файл PPT, мы будем использовать
- [Aspose.Slides для .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides для .NET](https://products.aspose.com/slides/ru/net)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для работы с документами для платформы C#. Открытым
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  менеджер пакетов, поиск
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги по редактированию файлов PPT в C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовый поиск документа и замена текста в содержимом, комментариях или метаданных с помощью API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) можно выполнить всего несколькими строками кода. Поиск и замена текста в PowerPoint и OpenOffice. Редактируйте текст, комментарии, метаданные в презентации с помощью сопоставления данных регулярных выражений." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовый поиск документа и замена текста в содержимом, комментариях или метаданных с помощью API [Aspose.Slides for .NET](https://products.aspose.com/slides/ru/net) можно выполнить всего несколькими строками кода. Поиск и замена текста в PowerPoint и OpenOffice. Редактируйте текст, комментарии, метаданные в презентации с помощью сопоставления данных регулярных выражений." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузить презентацию PPT.
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы редактирования" subTitle="Используя C#, можно легко редактировать различные форматы, в том числе." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/redaction/odp/" name="ODP" description="Формат презентации OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/redaction/pptx/" name="PPTX" description="Формат презентации Open XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

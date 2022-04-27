@@ -14,7 +14,7 @@ description: Пример кода для преобразования FODP в P
 
 {{% blocks/products/pf/agp/content h2="Преобразование FODP в PPT в Python" %}}
 
-Нужно программно преобразовать файлы FODP в PPT? С помощью [*Aspose.Slides for Python через .NET*](https://products.aspose.com/slides/python-net/) любой разработчик может преобразовать FODP в формат PPT всего несколькими строками кода Python.
+Нужно программно преобразовать файлы FODP в PPT? С помощью [*Aspose.Slides for Python через .NET*](https://products.aspose.com/slides/ru/python-net/) любой разработчик может преобразовать FODP в формат PPT всего несколькими строками кода Python.
 
 Как современный API обработки презентаций, Aspose.Slides for Python быстро создает PPT из FODP. Проверьте качество преобразования FODP в PPT прямо в вашем [браузере](https://products.aspose.app/slides/conversion). Библиотека Aspose PowerPoint PPTX позволяет конвертировать файлы FODP во многие популярные форматы.
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.fodp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые преобразования" subTitle="Вы также можете конвертировать FODP во многие другие форматы файлов. Смотрите другие поддерживаемые преобразования ниже" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Растровое изображение" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Расширенный формат метафайла" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Графический формат обмена" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Язык гипертекстовой разметки" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Изображение в формате JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Формат презентации OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="Стандартный формат OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Портативный формат документа" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Портативная сетевая графика" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Файлы шаблонов Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Файл шаблона Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Презентация шаблона Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Слайд-шоу PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Слайд-шоу с поддержкой макросов" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="Слайд-шоу PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Файл презентации с поддержкой макросов" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Формат презентации Open XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Масштабируемая векторная графика" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF-формат" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Формат изображения с тегами" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Спецификации XML-бумаги" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Растровое изображение" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Расширенный формат метафайла" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Графический формат обмена" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Язык гипертекстовой разметки" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Изображение в формате JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Формат презентации OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="Стандартный формат OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Портативный формат документа" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Портативная сетевая графика" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Файлы шаблонов Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Файл шаблона Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Презентация шаблона Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Слайд-шоу PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Слайд-шоу с поддержкой макросов" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="Слайд-шоу PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Файл презентации с поддержкой макросов" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Формат презентации Open XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Масштабируемая векторная графика" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF-формат" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Формат изображения с тегами" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Спецификации XML-бумаги" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
