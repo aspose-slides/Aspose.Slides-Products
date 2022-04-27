@@ -1,16 +1,16 @@
 ---
 title: PHP PowerPoint API. PHP PPTX, PPT from Aspose.Slides
 weight: 5860
-url: /phpjava/ 
+url: /php-java/ 
 description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT. Create edit convert PPT PPTX PPS POT PPSX PPTM PPSM POTX POTM ODP PDF and many more formats.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations. PHP PPTX, PPT" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in PHP without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://downloads.aspose.com/slides/phpjava" >}}
+{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations. PHP PPTX, PPT" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in PHP without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://downloads.aspose.com/slides/php-java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for PHP via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/phpjava" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/phpjava/" installationsDocsLink="https://docs.aspose.com/slides/phpjava/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/phpjava" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/php-java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/php-java/" installationsDocsLink="https://docs.aspose.com/slides/php-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/php-java" >}}
 
 {{< blocks/products/pf/tab-content >}}
 
@@ -35,7 +35,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT.
 {{< blocks/products/pf/carousel >}}
 
 {{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of API capabilities." >}}
-<div class="diagram1 d1-phpjava">
+<div class="diagram1 d1-php-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
    <header>
@@ -126,7 +126,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT.
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Platform Independence" description="PHP Presentation API supports all major platforms including the following." >}}
-<div class="diagram1 d1-phpjava">
+<div class="diagram1 d1-php-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
    <header>
@@ -194,8 +194,8 @@ description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT.
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for PHP via Java supports popular [presentation formats](https://docs.aspose.com/slides/phpjava/supported-file-formats/)  and these export formats." >}}
-<div class="diagram1 d2 d1-phpjava">
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for PHP via Java supports popular [presentation formats](https://docs.aspose.com/slides/php-java/supported-file-formats/)  and these export formats." >}}
+<div class="diagram1 d2 d1-php-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
    <header>
@@ -547,9 +547,9 @@ finally
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/phpjava/" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/php-java/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/phpjava/api-reference/" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/php-java/api-reference/" >}}
 {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -557,7 +557,7 @@ finally
 {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/phpjava/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/php-java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for PHP via Java?" tabId="success-stories" >}}
@@ -567,7 +567,7 @@ finally
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/phpjava" pricingInformationLink="https://purchase.aspose.com/pricing/slides/phpjava" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/php-java" pricingInformationLink="https://purchase.aspose.com/pricing/slides/php-java" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
