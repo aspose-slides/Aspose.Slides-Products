@@ -12,7 +12,7 @@ description: C#-källkod för att redigera PPTX-dokument på .NET Framework, .NE
 
 {{% blocks/products/pf/agp/content h2="Hur man redigerar PPTX-fil med C#" %}}
 
-För att redigera PPTX-fil kommer vi att använda <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API som är en funktionsrik, kraftfull och lättanvänd API för C#-plattform för alla redaktörer. Öppna pakethanteraren <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, sök efter <b>Aspose.Slides</b> och installera. Du kan också använda följande kommando från Package Manager Console.
+För att redigera PPTX-fil kommer vi att använda <a href="https://products.aspose.com/slides/sv/net">Aspose.Slides for .NET</a> API som är en funktionsrik, kraftfull och lättanvänd API för C#-plattform för alla redaktörer. Öppna pakethanteraren <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, sök efter <b>Aspose.Slides</b> och installera. Du kan också använda följande kommando från Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Kommando" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  En grundläggande dokumentredigering med
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API:er kan göras med bara några rader kod.
 
 {{% /blocks/products/pf/agp/text %}}

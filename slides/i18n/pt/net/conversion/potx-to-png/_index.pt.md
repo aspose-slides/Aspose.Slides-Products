@@ -14,7 +14,7 @@ description: Código de exemplo para conversão de POTX para PNG C#. Use o códi
 {{% blocks/products/pf/agp/content h2="Como converter POTX para PNG usando C #" %}}
 
  Para converter POTX para PNG, usaremos
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/pt/net)
  API que é uma API de manipulação e conversão de documentos rica em recursos, poderosa e fácil de usar para a plataforma C#. Aberto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gerenciador de pacotes, procure
@@ -112,26 +112,26 @@ using (var presentation = new Presentation("template.potx"))
     
 {{< blocks/products/pf/agp/other-supported-section title="Outras conversões compatíveis" subTitle="Você também pode converter POTX em muitos outros formatos de arquivo, incluindo alguns listados abaixo." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Imagem em formato bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-emf/" name="POTX TO EMF" description="Formato de metarquivo aprimorado" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-gif/" name="POTX TO GIF" description="Formato de intercâmbio gráfico" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-html/" name="POTX TO HTML" description="Linguagem de marcação de hipertexto" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-jpeg/" name="POTX TO JPEG" description="Imagem JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-odp/" name="POTX TO ODP" description="Formato de apresentação do OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-otp/" name="POTX TO OTP" description="Formato padrão do OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pdf/" name="POTX TO PDF" description="Formato de Documento Portátil" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pot/" name="POTX TO POT" description="Arquivos de modelo do Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-potm/" name="POTX TO POTM" description="Arquivo de modelo do Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pps/" name="POTX TO PPS" description="Apresentação de slides do PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Apresentação de slides habilitada para macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="Apresentação de slides do PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Arquivo de apresentação habilitado para macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Formato de apresentação XML aberto" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-svg/" name="POTX TO SVG" description="Gráficos vetoriais escalonáveis" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-swf/" name="POTX TO SWF" description="Formato SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Formato de imagem marcada" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potx-to-xps/" name="POTX TO XPS" description="Especificações do papel XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Imagem em formato bitmap" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-emf/" name="POTX TO EMF" description="Formato de metarquivo aprimorado" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-gif/" name="POTX TO GIF" description="Formato de intercâmbio gráfico" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-html/" name="POTX TO HTML" description="Linguagem de marcação de hipertexto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-jpeg/" name="POTX TO JPEG" description="Imagem JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-odp/" name="POTX TO ODP" description="Formato de apresentação do OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-otp/" name="POTX TO OTP" description="Formato padrão do OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-pdf/" name="POTX TO PDF" description="Formato de Documento Portátil" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-pot/" name="POTX TO POT" description="Arquivos de modelo do Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-potm/" name="POTX TO POTM" description="Arquivo de modelo do Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-pps/" name="POTX TO PPS" description="Apresentação de slides do PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Apresentação de slides habilitada para macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="Apresentação de slides do PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Arquivo de apresentação habilitado para macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Formato de apresentação XML aberto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-svg/" name="POTX TO SVG" description="Gráficos vetoriais escalonáveis" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-swf/" name="POTX TO SWF" description="Formato SWF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Formato de imagem marcada" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/potx-to-xps/" name="POTX TO XPS" description="Especificações do papel XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

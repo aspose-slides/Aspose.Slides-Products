@@ -14,7 +14,7 @@ description: Código-fonte C# para editar ou exibir metadados de formato POT em 
 {{% blocks/products/pf/agp/content h2="Como extrair metadados POT usando C#" %}}
 
  Para extrair metadados POT, usaremos
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/pt/net)
  API que é uma API de metadados de documentos rica em recursos, poderosa e fácil de usar para a plataforma C#. Aberto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gerenciador de pacotes, procure
@@ -136,16 +136,16 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
 
 {{< blocks/products/pf/agp/other-supported-section title="Outros formatos de metadados suportados" subTitle="Usando C#, também é possível manipular metadados de muitos outros formatos, incluindo." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/odp/" name="ODP" description="Formato de apresentação do OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/otp/" name="OTP" description="Formato padrão do OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potm/" name="POTM" description="Arquivo de modelo do Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potx/" name="POTX" description="Apresentação do modelo do Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pps/" name="PPS" description="Apresentação de slides do PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsm/" name="PPSM" description="Apresentação de slides habilitada para macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsx/" name="PPSX" description="Apresentação de slides do PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptm/" name="PPTM" description="Arquivo de apresentação habilitado para macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptx/" name="PPTX" description="Formato de apresentação XML aberto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/odp/" name="ODP" description="Formato de apresentação do OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/otp/" name="OTP" description="Formato padrão do OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/potm/" name="POTM" description="Arquivo de modelo do Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/potx/" name="POTX" description="Apresentação do modelo do Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/pps/" name="PPS" description="Apresentação de slides do PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/ppsm/" name="PPSM" description="Apresentação de slides habilitada para macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/ppsx/" name="PPSX" description="Apresentação de slides do PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/pptm/" name="PPTM" description="Arquivo de apresentação habilitado para macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/metadata/pptx/" name="PPTX" description="Formato de apresentação XML aberto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

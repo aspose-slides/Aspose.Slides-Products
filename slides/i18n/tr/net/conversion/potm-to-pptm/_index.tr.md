@@ -14,7 +14,7 @@ description: POTM'den PPTM'ye C# dönüştürme için örnek kod. VB.NET, Asp.NE
 {{% blocks/products/pf/agp/content h2="C# Kullanarak POTM'yi PPTM'ye Dönüştürme" %}}
 
  POTM'yi PPTM'ye dönüştürmek için kullanacağız
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net)
  C# platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge işleme ve dönüştürme API'si olan API. Açık
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  paket yöneticisi, ara
@@ -100,26 +100,26 @@ presentation.Save("output.pptm", SaveFormat.Pptm);
     
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Dönüşümler" subTitle="Ayrıca POTM'yi aşağıda listelenen birkaç dosya formatına da dönüştürebilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmap Görüntüsü" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-emf/" name="POTM TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-gif/" name="POTM TO GIF" description="Grafik Değişim Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-html/" name="POTM TO HTML" description="Hiper Metin İşaretleme Dili" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="JPEG Resmi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-odp/" name="POTM TO ODP" description="OpenDocument Sunum Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument Standart Biçimi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Taşınabilir Döküman Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-png/" name="POTM TO PNG" description="taşınabilir Ağ Grafikleri" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pot/" name="POTM TO POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-potx/" name="POTM TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pps/" name="POTM TO PPS" description="PowerPoint Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="PowerPoint Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Açık XML sunum Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-svg/" name="POTM TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-swf/" name="POTM TO SWF" description="SWF Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Etiketli Görüntü Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-xps/" name="POTM TO XPS" description="XML Kağıt Özellikleri" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmap Görüntüsü" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-emf/" name="POTM TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-gif/" name="POTM TO GIF" description="Grafik Değişim Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-html/" name="POTM TO HTML" description="Hiper Metin İşaretleme Dili" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="JPEG Resmi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-odp/" name="POTM TO ODP" description="OpenDocument Sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument Standart Biçimi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Taşınabilir Döküman Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-png/" name="POTM TO PNG" description="taşınabilir Ağ Grafikleri" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-pot/" name="POTM TO POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-potx/" name="POTM TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-pps/" name="POTM TO PPS" description="PowerPoint Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="PowerPoint Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-svg/" name="POTM TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-swf/" name="POTM TO SWF" description="SWF Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Etiketli Görüntü Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/conversion/potm-to-xps/" name="POTM TO XPS" description="XML Kağıt Özellikleri" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

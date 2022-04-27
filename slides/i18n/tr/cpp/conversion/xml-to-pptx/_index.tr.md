@@ -14,7 +14,7 @@ description: XML belgesi için PPTX formatına örnek C++ dönüştürme kodu. H
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak XML'i PPTX'e Dönüştürme" %}}
 
  XML'i PPTX'e dönüştürmek için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge işleme ve dönüştürme API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara
@@ -94,26 +94,26 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
     
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Dönüşümler" subTitle="Ayrıca, XML'i aşağıda listelenen birkaçı da dahil olmak üzere diğer birçok dosya biçimine dönüştürebilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-bmp/" name="XML TO BMP" description="Bitmap Görüntüsü" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-emf/" name="XML TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-gif/" name="XML TO GIF" description="Grafik Değişim Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-html/" name="XML TO HTML" description="Hiper Metin İşaretleme Dili" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-jpeg/" name="XML TO JPEG" description="JPEG Resmi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-odp/" name="XML TO ODP" description="OpenDocument Sunum Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-otp/" name="XML TO OTP" description="OpenDocument Standart Biçimi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-pdf/" name="XML TO PDF" description="Taşınabilir Döküman Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-png/" name="XML TO PNG" description="taşınabilir Ağ Grafikleri" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-pot/" name="XML TO POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-potm/" name="XML TO POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-potx/" name="XML TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-pps/" name="XML TO PPS" description="PowerPoint Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-ppsm/" name="XML TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-ppsx/" name="XML TO PPSX" description="PowerPoint Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-ppt/" name="XML TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-pptm/" name="XML TO PPTM" description="Makro Etkin Sunum Dosyası" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-svg/" name="XML TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-tiff/" name="XML TO TIFF" description="Etiketli Görüntü Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/xml-to-xps/" name="XML TO XPS" description="XML Kağıt Özellikleri" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-bmp/" name="XML TO BMP" description="Bitmap Görüntüsü" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-emf/" name="XML TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-gif/" name="XML TO GIF" description="Grafik Değişim Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-html/" name="XML TO HTML" description="Hiper Metin İşaretleme Dili" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-jpeg/" name="XML TO JPEG" description="JPEG Resmi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-odp/" name="XML TO ODP" description="OpenDocument Sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-otp/" name="XML TO OTP" description="OpenDocument Standart Biçimi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-pdf/" name="XML TO PDF" description="Taşınabilir Döküman Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-png/" name="XML TO PNG" description="taşınabilir Ağ Grafikleri" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-pot/" name="XML TO POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-potm/" name="XML TO POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-potx/" name="XML TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-pps/" name="XML TO PPS" description="PowerPoint Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-ppsm/" name="XML TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-ppsx/" name="XML TO PPSX" description="PowerPoint Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-ppt/" name="XML TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-pptm/" name="XML TO PPTM" description="Makro Etkin Sunum Dosyası" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-svg/" name="XML TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-tiff/" name="XML TO TIFF" description="Etiketli Görüntü Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/xml-to-xps/" name="XML TO XPS" description="XML Kağıt Özellikleri" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

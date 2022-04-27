@@ -10,12 +10,12 @@ description: PPT'yi PDF'ye Dönüştürmek için Python API. Sunumları Python'd
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[.NET aracılığıyla Aspose.Slides for Python](https://products.aspose.com/slides/python-net/) sunumları işlemek ve bunlarla çalışmak için kullanılan güçlü bir şirket içi sınıf kitaplığıdır. Geliştiricilerin PowerPoint'i hızlı ve doğru bir şekilde PDF'ye dönüştürmesi kolaydır. İş süreçlerini otomatikleştirmek için kısa sürede sonuçları alın. Burada, herhangi bir girişi [desteklenen PowerPoint biçimleri](https://docs.aspose.com/slides/python-net/supported-file-formats/) okumak veya yüklemek ve desteklenen herhangi bir çıktı biçimine yazmak veya kaydetmek için birkaç durumu tartışıyoruz. . 
+[.NET aracılığıyla Aspose.Slides for Python](https://products.aspose.com/slides/tr/python-net/) sunumları işlemek ve bunlarla çalışmak için kullanılan güçlü bir şirket içi sınıf kitaplığıdır. Geliştiricilerin PowerPoint'i hızlı ve doğru bir şekilde PDF'ye dönüştürmesi kolaydır. İş süreçlerini otomatikleştirmek için kısa sürede sonuçları alın. Burada, herhangi bir girişi [desteklenen PowerPoint biçimleri](https://docs.aspose.com/slides/python-net/supported-file-formats/) okumak veya yüklemek ve desteklenen herhangi bir çıktı biçimine yazmak veya kaydetmek için birkaç durumu tartışıyoruz. . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Python'da PowerPoint'ten PDF'ye Dönüştürme" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) PowerPoint PPT, PPTX ve OpenOffice ODP formatlarındaki dosyaları PDF'ye dönüştürmenize olanak tanır. Bir sunumu PDF'ye dönüştürmek için dosya adını ve kaydetme biçimini [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) dosyasına iletmeniz yeterlidir. yöntem. [Sunum](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) sınıfı, [save](https://docs.aspose.com/slides) öğesini gösterir. Tüm PPT, PPTX veya ODP sunumunu bir PDF belgesine dönüştürmek için çağrılabilen /python-net/api-reference/aspose.slides/presentation/) yöntemi.
+[Aspose.Slides](https://products.aspose.com/slides/tr/python-net/) PowerPoint PPT, PPTX ve OpenOffice ODP formatlarındaki dosyaları PDF'ye dönüştürmenize olanak tanır. Bir sunumu PDF'ye dönüştürmek için dosya adını ve kaydetme biçimini [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) dosyasına iletmeniz yeterlidir. yöntem. [Sunum](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) sınıfı, [save](https://docs.aspose.com/slides) öğesini gösterir. Tüm PPT, PPTX veya ODP sunumunu bir PDF belgesine dönüştürmek için çağrılabilen /python-net/api-reference/aspose.slides/presentation/) yöntemi.
 
 {{% blocks/products/pf/feature-page-code h3="Python PowerPoint'ten PDF'ye Dönüştürme" %}}
 
@@ -26,7 +26,7 @@ description: PPT'yi PDF'ye Dönüştürmek için Python API. Sunumları Python'd
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Python'da PDF'den PPT'ye Dönüştürme" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/), sunumları PDF'lerden içe aktarmanıza olanak tanır. Esasen, bir PDF'yi bir PowerPoint sunumuna dönüştürebilirsiniz. PDF'yi Powerpoint'e dönüştürmek için şu adımları izleyin:
+[Aspose.Slides](https://products.aspose.com/slides/tr/python-net/), sunumları PDF'lerden içe aktarmanıza olanak tanır. Esasen, bir PDF'yi bir PowerPoint sunumuna dönüştürebilirsiniz. PDF'yi Powerpoint'e dönüştürmek için şu adımları izleyin:
 - [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) sınıfının bir nesnesini örnekleyin.
 - [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) yöntemini çağırın ve PDF dosyasını iletin.
 - Dosyayı PowerPoint biçiminde kaydetmek için [kaydet](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) yöntemini kullanın.

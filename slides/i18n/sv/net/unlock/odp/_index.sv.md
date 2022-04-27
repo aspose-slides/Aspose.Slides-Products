@@ -14,7 +14,7 @@ description: C#-källkod för att låsa upp lösenordsskyddad ODP-fil på .NET F
 {{% blocks/products/pf/agp/content h2="Hur man låser upp ODP-fil med C#" %}}
 
  För att ta bort skydd ODP-fil kommer vi att använda
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API som är ett funktionsrikt, kraftfullt och lättanvänt dokumentskydds-API för C#-plattformen. Öppen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakethanterare, sök efter
@@ -127,8 +127,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra upplåsningsformat som stöds" subTitle="Med C# kan man enkelt ta bort skydd/upplåsning av olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/unlock/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

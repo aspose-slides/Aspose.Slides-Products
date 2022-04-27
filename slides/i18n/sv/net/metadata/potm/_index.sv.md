@@ -14,7 +14,7 @@ description: C#-källkod för att redigera eller visa POTM-formatmetadata på .N
 {{% blocks/products/pf/agp/content h2="Hur man extraherar POTM-metadata med C#" %}}
 
  För att extrahera POTM-metadata kommer vi att använda
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API som är ett funktionsrikt, kraftfullt och lättanvänt dokumentmetadata-API för C#-plattformen. Öppen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakethanterare, sök efter
@@ -136,16 +136,16 @@ Files with POTM extension are Microsoft PowerPoint template files with support f
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra metadataformat som stöds" subTitle="Med C# kan man också manipulera metadata i många andra format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/otp/" name="OTP" description="OpenDocument standardformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pot/" name="POT" description="Microsoft PowerPoint-mallfiler" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potx/" name="POTX" description="Presentation av Microsoft PowerPoint-mall" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pps/" name="PPS" description="PowerPoint-bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsm/" name="PPSM" description="Makroaktiverat bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsx/" name="PPSX" description="PowerPoint-bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptm/" name="PPTM" description="Makroaktiverad presentationsfil" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/otp/" name="OTP" description="OpenDocument standardformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/pot/" name="POT" description="Microsoft PowerPoint-mallfiler" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/potx/" name="POTX" description="Presentation av Microsoft PowerPoint-mall" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/pps/" name="PPS" description="PowerPoint-bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/ppsm/" name="PPSM" description="Makroaktiverat bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/ppsx/" name="PPSX" description="PowerPoint-bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/pptm/" name="PPTM" description="Makroaktiverad presentationsfil" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/metadata/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

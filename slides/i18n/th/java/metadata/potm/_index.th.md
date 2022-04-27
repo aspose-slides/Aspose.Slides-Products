@@ -14,7 +14,7 @@ description: โค้ดตัวอย่าง Java เพื่อแก้�
 {{% blocks/products/pf/agp/content h2="วิธีแยกข้อมูลเมตา POTM โดยใช้ Java" %}}
 
  ในการรับข้อมูลเมตาของไฟล์ POTM เราจะใช้
- [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/th/java)
  API ซึ่งเป็น API ข้อมูลเมตาที่มีคุณลักษณะหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม Java คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้โดยตรงจาก
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  และติดตั้งภายในโปรเจ็กต์ที่ใช้ Maven โดยเพิ่มการกำหนดค่าต่อไปนี้ใน pom.xml
@@ -146,16 +146,16 @@ Files with POTM extension are Microsoft PowerPoint template files with support f
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบข้อมูลเมตาที่รองรับอื่นๆ" subTitle="เมื่อใช้ Java หนึ่งสามารถจัดการข้อมูลเมตาของรูปแบบอื่น ๆ ได้มากมายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/otp/" name="OTP" description="รูปแบบมาตรฐานของ OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pot/" name="POT" description="ไฟล์เทมเพลต Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potx/" name="POTX" description="การนำเสนอเทมเพลต Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pps/" name="PPS" description="สไลด์โชว์ PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsm/" name="PPSM" description="สไลด์โชว์ที่เปิดใช้งานมาโคร" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsx/" name="PPSX" description="สไลด์โชว์ PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptm/" name="PPTM" description="ไฟล์นำเสนอที่เปิดใช้งานมาโคร" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/otp/" name="OTP" description="รูปแบบมาตรฐานของ OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/pot/" name="POT" description="ไฟล์เทมเพลต Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/potx/" name="POTX" description="การนำเสนอเทมเพลต Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/pps/" name="PPS" description="สไลด์โชว์ PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/ppsm/" name="PPSM" description="สไลด์โชว์ที่เปิดใช้งานมาโคร" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/ppsx/" name="PPSX" description="สไลด์โชว์ PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/pptm/" name="PPTM" description="ไฟล์นำเสนอที่เปิดใช้งานมาโคร" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/metadata/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

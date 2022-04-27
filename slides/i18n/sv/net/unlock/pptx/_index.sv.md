@@ -14,7 +14,7 @@ description: C#-källkod för att låsa upp lösenordsskyddad PPTX-fil på .NET 
 {{% blocks/products/pf/agp/content h2="Hur man låser upp PPTX-fil med C#" %}}
 
  För att ta bort skyddet PPTX-fil kommer vi att använda
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API som är ett funktionsrikt, kraftfullt och lättanvänt dokumentskydds-API för C#-plattformen. Öppen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakethanterare, sök efter
@@ -127,8 +127,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra upplåsningsformat som stöds" subTitle="Med C# kan man enkelt ta bort skydd/upplåsning av olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/unlock/odp/" name="ODP" description="OpenDocument presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

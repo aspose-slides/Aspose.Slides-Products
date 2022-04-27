@@ -14,7 +14,7 @@ description: Windows 32 bit, Windows 64 bit ve Linux 64 bit için C++ Runtime En
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak ODP Dosyasını Ayrıştırma" %}}
 
  ODP dosyasını ayrıştırmak için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay belge ayrıştırma API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++'da ODP Dosyalarını Ayrıştırma Adımları" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API'leri ile basit bir belge ayrıştırması yalnızca birkaç satır kodla yapılabilir." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp) API'leri ile basit bir belge ayrıştırması yalnızca birkaç satır kodla yapılabilir." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODP dosyasını yükleyin.
@@ -146,8 +146,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Ayrıştırma Belgeleri" subTitle="C++ kullanarak, dahil olmak üzere diğer formatları kolayca ayrıştırabilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/parser/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

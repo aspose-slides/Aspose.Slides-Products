@@ -14,7 +14,7 @@ description: PPTX'ten PPS Python'a dönüştürme için örnek kod. PPTX dosyala
 
 {{% blocks/products/pf/agp/content h2="Python'da PPTX'i PPS'ye Dönüştür" %}}
 
-PPTX dosyalarını programlı olarak PPS'ye dönüştürmeniz mi gerekiyor? [*Aspose.Slides for Python aracılığıyla .NET*](https://products.aspose.com/slides/python-net/) kullanarak herhangi bir geliştirici, yalnızca birkaç satır Python koduyla PPTX'i PPS formatına dönüştürebilir.
+PPTX dosyalarını programlı olarak PPS'ye dönüştürmeniz mi gerekiyor? [*Aspose.Slides for Python aracılığıyla .NET*](https://products.aspose.com/slides/tr/python-net/) kullanarak herhangi bir geliştirici, yalnızca birkaç satır Python koduyla PPTX'i PPS formatına dönüştürebilir.
 
 Modern bir sunum işleme API'si olan Aspose.Slides for Python, PPTX'ten hızlı bir şekilde PPS oluşturur. PPTX'ten PPS'ye dönüştürme kalitesini doğrudan [tarayıcınızda](https://products.aspose.app/slides/conversion) test edin. Aspose PowerPoint PPTX kitaplığı, PPTX dosyalarını birçok popüler formata dönüştürmenize olanak tanır.
 
@@ -101,27 +101,27 @@ PPTX'ten PPS'ye dönüştürme işleminin bir gösterimini görmek için ücrets
     
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Dönüşümler" subTitle="PPTX'i diğer birçok dosya formatına da dönüştürebilirsiniz. Aşağıda desteklenen diğer dönüşümleri görün" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Görüntüsü" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-emf/" name="PPTX TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-fodp/" name="PPTX TO FODP" description="OpenDocument Düz XML Sunumu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Grafik Değişim Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hiper Metin İşaretleme Dili" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-jpg/" name="PPTX TO JPG" description="JPEG Resmi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-odp/" name="PPTX TO ODP" description="OpenDocument Sunum Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-otp/" name="PPTX TO OTP" description="OpenDocument Standart Biçimi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Taşınabilir Döküman Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-png/" name="PPTX TO PNG" description="taşınabilir Ağ Grafikleri" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pot/" name="PPTX TO POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-potm/" name="PPTX TO POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-potx/" name="PPTX TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="PowerPoint Slayt Gösterisi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Makro Etkin Sunum Dosyası" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-svg/" name="PPTX TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="SWF Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Etiketli Görüntü Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="XML Kağıt Özellikleri" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Görüntüsü" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-emf/" name="PPTX TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-fodp/" name="PPTX TO FODP" description="OpenDocument Düz XML Sunumu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Grafik Değişim Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hiper Metin İşaretleme Dili" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-jpg/" name="PPTX TO JPG" description="JPEG Resmi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-odp/" name="PPTX TO ODP" description="OpenDocument Sunum Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-otp/" name="PPTX TO OTP" description="OpenDocument Standart Biçimi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Taşınabilir Döküman Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-png/" name="PPTX TO PNG" description="taşınabilir Ağ Grafikleri" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-pot/" name="PPTX TO POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-potm/" name="PPTX TO POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-potx/" name="PPTX TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="PowerPoint Slayt Gösterisi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Makro Etkin Sunum Dosyası" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-svg/" name="PPTX TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="SWF Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Etiketli Görüntü Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="XML Kağıt Özellikleri" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -14,7 +14,7 @@ description: Exempelkod för POTM till SVG C#-konvertering. Använd API-exempelk
 {{% blocks/products/pf/agp/content h2="Hur man konverterar POTM till SVG med C#" %}}
 
  För att konvertera POTM till SVG kommer vi att använda
- [Aspose.Slides för .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides för .NET](https://products.aspose.com/slides/sv/net)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulation och konvertering för C#-plattformen. Öppen
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakethanterare, sök efter
@@ -108,26 +108,26 @@ using (Presentation pres = new Presentation("template.potm"))
     
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera POTM till många andra filformat, inklusive några som anges nedan." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmappsbild" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-emf/" name="POTM TO EMF" description="Förbättrat metafilformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-gif/" name="POTM TO GIF" description="Grafiskt utbytesformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-html/" name="POTM TO HTML" description="Hyper Text Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="JPEG-bild" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-odp/" name="POTM TO ODP" description="OpenDocument presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument standardformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Portabelt dokumentformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-png/" name="POTM TO PNG" description="Bärbar nätverksgrafik" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pot/" name="POTM TO POT" description="Microsoft PowerPoint-mallfiler" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-potx/" name="POTM TO POTX" description="Presentation av Microsoft PowerPoint-mall" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pps/" name="POTM TO PPS" description="PowerPoint-bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Makroaktiverat bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="PowerPoint-bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Makroaktiverad presentationsfil" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Öppna XML-presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-swf/" name="POTM TO SWF" description="SWF-format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Taggad bildformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/potm-to-xps/" name="POTM TO XPS" description="XML-pappersspecifikationer" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmappsbild" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-emf/" name="POTM TO EMF" description="Förbättrat metafilformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-gif/" name="POTM TO GIF" description="Grafiskt utbytesformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-html/" name="POTM TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="JPEG-bild" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-odp/" name="POTM TO ODP" description="OpenDocument presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument standardformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Portabelt dokumentformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-png/" name="POTM TO PNG" description="Bärbar nätverksgrafik" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-pot/" name="POTM TO POT" description="Microsoft PowerPoint-mallfiler" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-potx/" name="POTM TO POTX" description="Presentation av Microsoft PowerPoint-mall" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-pps/" name="POTM TO PPS" description="PowerPoint-bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Makroaktiverat bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="PowerPoint-bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-pptm/" name="POTM TO PPTM" description="Makroaktiverad presentationsfil" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-swf/" name="POTM TO SWF" description="SWF-format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Taggad bildformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/conversion/potm-to-xps/" name="POTM TO XPS" description="XML-pappersspecifikationer" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

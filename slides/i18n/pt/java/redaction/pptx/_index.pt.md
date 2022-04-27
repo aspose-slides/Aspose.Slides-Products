@@ -14,7 +14,7 @@ description: Código de amostra Java para redigir informações confidenciais no
 {{% blocks/products/pf/agp/content h2="Como redigir o arquivo PPTX usando Java" %}}
 
  Para redigir o arquivo PPTX, usaremos
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java)
  API que é uma API de redação rica em recursos, poderosa e fácil de usar para plataforma Java. Você pode baixar sua versão mais recente diretamente de
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instale-o em seu projeto baseado em Maven adicionando as seguintes configurações ao pom.xml.
@@ -54,7 +54,7 @@ description: Código de amostra Java para redigir informações confidenciais no
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para redigir arquivos PPTX em Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Uma pesquisa básica de documentos e substituição de texto em conteúdos, comentários ou metadados com APIs [Aspose.Slides for Java](https://products.aspose.com/slides/java) pode ser feita com apenas algumas linhas de código. Localize e substitua texto no PowerPoint e no OpenOffice. Edite texto, comentários, metadados na apresentação via correspondência de dados regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Uma pesquisa básica de documentos e substituição de texto em conteúdos, comentários ou metadados com APIs [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java) pode ser feita com apenas algumas linhas de código. Localize e substitua texto no PowerPoint e no OpenOffice. Edite texto, comentários, metadados na apresentação via correspondência de dados regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carregar apresentação PPTX.
@@ -166,8 +166,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Outros documentos de redação compatíveis" subTitle="Usando Java, pode-se facilmente redigir diferentes formatos, incluindo." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="Formato de apresentação do OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/redaction/odp/" name="ODP" description="Formato de apresentação do OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Exempelkod för konvertering av PPS till PNG Python. Använd PowerP
 
 {{% blocks/products/pf/agp/content h2="Konvertera PPS till PNG i Python" %}}
 
-Behöver du konvertera PPS-filer till PNG programmatiskt? Genom att använda [*Aspose.Slides för Python via .NET*](https://products.aspose.com/slides/python-net/) kan vilken utvecklare som helst konvertera PPS till PNG-format med bara några rader Python-kod.
+Behöver du konvertera PPS-filer till PNG programmatiskt? Genom att använda [*Aspose.Slides för Python via .NET*](https://products.aspose.com/slides/sv/python-net/) kan vilken utvecklare som helst konvertera PPS till PNG-format med bara några rader Python-kod.
 
 Som ett modernt presentationsbearbetnings-API skapar Aspose.Slides för Python PNG från PPS snabbt. Testa kvaliteten på PPS till PNG-konvertering direkt i din [webbläsare](https://products.aspose.app/slides/conversion/ppt-to-png). Aspose PowerPoint PPTX-bibliotek låter dig konvertera PPS-filer till många populära format.
 
@@ -102,27 +102,27 @@ Använd gratisappen för att se en demonstration av PPS till PNG-konverteringspr
     
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera PPS till många andra filformat. Se andra omvandlingar som stöds nedan" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmappsbild" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Förbättrat metafilformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument platt XML-presentation" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Grafiskt utbytesformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG-bild" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument presentationsformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument standardformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Portabelt dokumentformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Microsoft PowerPoint-mallfiler" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Microsoft PowerPoint-mallfil" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Presentation av Microsoft PowerPoint-mall" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Makroaktiverat bildspel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="PowerPoint-bildspel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Makroaktiverad presentationsfil" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Öppna XML-presentationsformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Skalbar vektorgrafik" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWF-format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Taggad bildformat" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML-pappersspecifikationer" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmappsbild" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Förbättrat metafilformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument platt XML-presentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Grafiskt utbytesformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG-bild" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument presentationsformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument standardformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Portabelt dokumentformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Microsoft PowerPoint-mallfiler" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Microsoft PowerPoint-mallfil" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="Presentation av Microsoft PowerPoint-mall" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Makroaktiverat bildspel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="PowerPoint-bildspel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Makroaktiverad presentationsfil" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Öppna XML-presentationsformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Skalbar vektorgrafik" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWF-format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Taggad bildformat" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML-pappersspecifikationer" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

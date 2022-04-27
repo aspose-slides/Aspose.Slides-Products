@@ -14,7 +14,7 @@ description: JSP/JSF Uygulaması ve Masaüstü Uygulamaları için Java Runtime 
 {{% blocks/products/pf/agp/content h2="Java Kullanarak PPT Dosyasını Düzeltme" %}}
 
  PPT dosyasını redakte etmek için kullanacağız
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java)
  Java platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir redaksiyon API'si olan API. En son sürümünü doğrudan adresinden indirebilirsiniz.
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  ve pom.xml dosyasına aşağıdaki konfigürasyonları ekleyerek Maven tabanlı projenize kurun.
@@ -54,7 +54,7 @@ description: JSP/JSF Uygulaması ve Masaüstü Uygulamaları için Java Runtime 
 
 {{< blocks/products/pf/agp/feature-section-col title="Java'da PPT Dosyalarını Düzeltme Adımları" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/java) ile içerik, yorum veya meta verilerde basit bir belge arama ve metin değiştirme API'leri yalnızca birkaç satır kodla yapılabilir. PowerPoint ve OpenOffice'te metin bulun ve değiştirin. Normal ifade veri eşleştirme yoluyla sunumdaki metni, yorumları ve meta verileri düzenleyin." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/tr/java) ile içerik, yorum veya meta verilerde basit bir belge arama ve metin değiştirme API'leri yalnızca birkaç satır kodla yapılabilir. PowerPoint ve OpenOffice'te metin bulun ve değiştirin. Normal ifade veri eşleştirme yoluyla sunumdaki metni, yorumları ve meta verileri düzenleyin." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPT sunumunu yükleyin.
@@ -166,8 +166,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Redaksiyon Belgeleri" subTitle="Java kullanarak, dahil olmak üzere farklı formatları kolayca redaksiyon yapabilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="OpenDocument Sunum Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/redaction/odp/" name="ODP" description="OpenDocument Sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/redaction/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

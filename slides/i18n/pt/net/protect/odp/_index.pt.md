@@ -14,7 +14,7 @@ description: Código-fonte C# para bloquear o arquivo ODP usando senha nas plata
 {{% blocks/products/pf/agp/content h2="Como proteger o arquivo ODP usando C #" %}}
 
  Para proteger o arquivo ODP, usaremos
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/pt/net)
  API que é uma API de proteção de documentos rica em recursos, poderosa e fácil de usar para a plataforma C#. Aberto
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gerenciador de pacotes, procure
@@ -121,8 +121,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Outros formatos de proteção compatíveis" subTitle="Usando C#, pode-se proteger facilmente outros formatos, incluindo." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/pptx/" name="PPTX" description="Formato de apresentação XML aberto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/protect/pptx/" name="PPTX" description="Formato de apresentação XML aberto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: C++ exempelkod för att söka efter ord med mönster i ODP-fil på 
 {{% blocks/products/pf/agp/content h2="Hur man söker ODP-fil med C++" %}}
 
  För att söka ODP-fil använder vi
- [Aspose.Slides för C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentsökning för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter
@@ -144,8 +144,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra sökdokument som stöds" subTitle="Med C++ kan man även söka i andra filer inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/search/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: JSP/JSF Uygulaması ve Masaüstü Uygulamaları için Java Runtime 
 {{% blocks/products/pf/agp/content h2="Java Kullanarak ODP Dosyası Nasıl Aranır" %}}
 
  ODP dosyasını aramak için kullanacağız
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java)
  Java platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir Arama API'sı olan API. En son sürümünü doğrudan adresinden indirebilirsiniz.
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  ve pom.xml dosyasına aşağıdaki konfigürasyonları ekleyerek Maven tabanlı projenize kurun.
@@ -170,8 +170,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Arama Belgeleri" subTitle="Java kullanarak, dahil olmak üzere diğer dosyaları da arayabilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/search/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

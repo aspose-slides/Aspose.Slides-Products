@@ -14,7 +14,7 @@ description: Java-exempelkod för att rita och konvertera diagram eller diagram 
 {{% blocks/products/pf/agp/content h2="Hur man skapar PPT-fildiagram med Java" %}}
 
  För att skapa PPT-fildiagram kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
  API som är ett funktionsrikt, kraftfullt och lättanvänt kart-API för Java-plattformen. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.
@@ -54,7 +54,7 @@ description: Java-exempelkod för att rita och konvertera diagram eller diagram 
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att skapa PPT-filer i Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentkarta med [Aspose.Slides för Java](https://products.aspose.com/slides/java) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentkarta med [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantiera presentationsklassobjekt.
@@ -258,7 +258,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra kartformat som stöds" subTitle="Genom att använda Java kan man enkelt hantera charring med olika format inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/chart/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

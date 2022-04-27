@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platfor
 {{% blocks/products/pf/agp/content h2="C# Kullanarak OTP Meta Verilerini Çıkarma" %}}
 
  OTP meta verilerini çıkarmak için kullanacağız
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net)
  C# platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge meta veri API'si olan API. Açık
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  paket yöneticisi, ara
@@ -136,16 +136,16 @@ Files with .OTP extension represent presentation template files created by appli
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Meta Veri Formatları" subTitle="One, C# kullanarak, dahil olmak üzere diğer birçok biçimin meta verilerini de işleyebilir." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/odp/" name="ODP" description="OpenDocument Sunum Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pot/" name="POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potm/" name="POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/potx/" name="POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pps/" name="PPS" description="PowerPoint Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsm/" name="PPSM" description="Makro Etkin Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppsx/" name="PPSX" description="PowerPoint Slayt Gösterisi" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptm/" name="PPTM" description="Makro Etkin Sunum Dosyası" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/metadata/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/odp/" name="ODP" description="OpenDocument Sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/pot/" name="POT" description="Microsoft PowerPoint Şablon Dosyaları" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/potm/" name="POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/potx/" name="POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/pps/" name="PPS" description="PowerPoint Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/ppsm/" name="PPSM" description="Makro Etkin Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/ppsx/" name="PPSX" description="PowerPoint Slayt Gösterisi" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/pptm/" name="PPTM" description="Makro Etkin Sunum Dosyası" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/metadata/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Java-exempelkod för att söka efter ord med mönster i ODP-fil på
 {{% blocks/products/pf/agp/content h2="Hur man söker ODP-fil med Java" %}}
 
  För att söka ODP-fil använder vi
- [Aspose.Slides för Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
  API som är ett funktionsrikt, kraftfullt och lättanvänt sök-API för Java-plattform. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.
@@ -170,8 +170,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra sökdokument som stöds" subTitle="Med Java kan man också söka i andra filer inklusive." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/search/pptx/" name="PPTX" description="Öppna XML-presentationsformat" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Código de exemplo C++ para extrair texto e imagens do arquivo PPT 
 {{% blocks/products/pf/agp/content h2="Como analisar o arquivo PPT usando C++" %}}
 
  Para analisar o arquivo PPT, usaremos
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp)
  API que é uma API de análise de documentos rica em recursos, poderosa e fácil de usar para plataforma C++. Você pode baixar sua versão mais recente diretamente, basta abrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gerenciador de pacotes, procure
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para analisar arquivos PPT em C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Uma análise básica de documentos com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) pode ser feita com apenas algumas linhas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Uma análise básica de documentos com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp) pode ser feita com apenas algumas linhas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carregar arquivo PPT.
@@ -146,8 +146,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Outros documentos de análise suportados" subTitle="Usando C++, pode-se facilmente analisar outros formatos, incluindo." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/odp/" name="ODP" description="Formato de apresentação do OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="Formato de apresentação XML aberto" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/parser/odp/" name="ODP" description="Formato de apresentação do OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/parser/pptx/" name="PPTX" description="Formato de apresentação XML aberto" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

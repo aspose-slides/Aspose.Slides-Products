@@ -14,7 +14,7 @@ description: Exempel på Java-konverteringskod för PPTM-format till SWF-fil. An
 {{% blocks/products/pf/agp/content h2="Hur man konverterar PPTM till SWF med Java" %}}
 
  För att rendera PPTM till SWF kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
  API som är ett funktionsrikt, kraftfullt och lättanvänt konverterings-API för Java-plattformen. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.
@@ -108,25 +108,25 @@ presentation.save("output.swf", SaveFormat.Swf);
     
 {{< blocks/products/pf/agp/other-supported-section title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera PPTM till många andra filformat inklusive några som anges nedan." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmappsbild" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Grafiskt utbytesformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hyper Text Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG-bild" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument standardformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portabelt dokumentformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-png/" name="PPTM TO PNG" description="Bärbar nätverksgrafik" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-pot/" name="PPTM TO POT" description="Microsoft PowerPoint-mallfiler" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-potm/" name="PPTM TO POTM" description="Microsoft PowerPoint-mallfil" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-potx/" name="PPTM TO POTX" description="Presentation av Microsoft PowerPoint-mall" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-pps/" name="PPTM TO PPS" description="PowerPoint-bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="Makroaktiverat bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="PowerPoint-bildspel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Öppna XML-presentationsformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Skalbar vektorgrafik" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Taggad bildformat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML-pappersspecifikationer" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmappsbild" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Grafiskt utbytesformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG-bild" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument standardformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portabelt dokumentformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-png/" name="PPTM TO PNG" description="Bärbar nätverksgrafik" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-pot/" name="PPTM TO POT" description="Microsoft PowerPoint-mallfiler" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-potm/" name="PPTM TO POTM" description="Microsoft PowerPoint-mallfil" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-potx/" name="PPTM TO POTX" description="Presentation av Microsoft PowerPoint-mall" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-pps/" name="PPTM TO PPS" description="PowerPoint-bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="Makroaktiverat bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="PowerPoint-bildspel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Öppna XML-presentationsformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Skalbar vektorgrafik" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Taggad bildformat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML-pappersspecifikationer" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

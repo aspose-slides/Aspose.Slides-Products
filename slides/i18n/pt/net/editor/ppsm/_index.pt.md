@@ -12,7 +12,7 @@ description: Código-fonte C# para editar o documento PPSM em plataformas .NET F
 
 {{% blocks/products/pf/agp/content h2="Como editar o arquivo PPSM usando C#" %}}
 
-Para editar o arquivo PPSM, usaremos a API <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a>, que é uma API poderosa e rica em recursos e API fácil de usar para plataforma C# para qualquer editor. Abra o gerenciador de pacotes <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, procure por <b>Aspose.Slides</b> e instale. Você também pode usar o seguinte comando do Console do Gerenciador de Pacotes.
+Para editar o arquivo PPSM, usaremos a API <a href="https://products.aspose.com/slides/pt/net">Aspose.Slides for .NET</a>, que é uma API poderosa e rica em recursos e API fácil de usar para plataforma C# para qualquer editor. Abra o gerenciador de pacotes <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, procure por <b>Aspose.Slides</b> e instale. Você também pode usar o seguinte comando do Console do Gerenciador de Pacotes.
 
 {{% blocks/products/pf/agp/code-block title="Comando" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Uma edição básica de documentos com
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/pt/net)
  APIs podem ser feitas com apenas algumas linhas de código.
 
 {{% /blocks/products/pf/agp/text %}}

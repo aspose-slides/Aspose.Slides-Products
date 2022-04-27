@@ -14,7 +14,7 @@ description: Windows 32 bit, Windows 64 bit ve Linux 64 bit için C++ Runtime En
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak PPTX Dosyasını Filigran Etme" %}}
 
  PPTX dosyasını filigranlamak için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge filigran API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara
@@ -161,7 +161,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Filigran Formatları" subTitle="C++ kullanarak, dahil olmak üzere farklı formatları kolayca filigranlayabilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

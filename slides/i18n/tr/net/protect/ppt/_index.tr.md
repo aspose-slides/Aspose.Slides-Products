@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platfor
 {{% blocks/products/pf/agp/content h2="C# Kullanarak PPT Dosyası Nasıl Korunur" %}}
 
  PPT dosyasını korumak için kullanacağız
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net)
  C# platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge koruma API'si olan API. Açık
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  paket yöneticisi, ara
@@ -121,8 +121,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Koruma Formatları" subTitle="C# kullanarak, dahil olmak üzere diğer formatları kolayca koruyabilirsiniz." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/odp/" name="ODP" description="OpenDocument Sunum Formatı" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/protect/odp/" name="ODP" description="OpenDocument Sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/protect/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

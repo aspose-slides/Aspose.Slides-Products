@@ -14,7 +14,7 @@ description: ซอร์สโค้ด C# เพื่อเพิ่มหร
 {{% blocks/products/pf/agp/content h2="วิธีใส่ลายน้ำไฟล์ PPT โดยใช้ C #" %}}
 
  เพื่อใส่ลายน้ำไฟล์ PPT เราจะใช้
- [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/th/net)
  API ซึ่งเป็น API การจัดการเอกสารที่มีคุณลักษณะหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม C# เปิด
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  package manager ค้นหา
@@ -129,7 +129,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบลายน้ำอื่น ๆ ที่รองรับ" subTitle="การใช้ C # สามารถใส่ลายน้ำรูปแบบต่างๆ ได้อย่างง่ายดายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/watermark/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

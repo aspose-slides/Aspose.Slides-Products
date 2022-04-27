@@ -12,7 +12,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platfor
 
 {{% blocks/products/pf/agp/content h2="C# Kullanarak POTM Dosyası Nasıl Düzenlenir" %}}
 
-POTM dosyasını düzenlemek için, zengin özelliklere sahip, güçlü bir <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API'sini kullanacağız. ve herhangi bir düzenleyici için C# platformu için kullanımı kolay API. <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> paket yöneticisini açın, <b>Aspose.Slides</b>'i arayın ve kurun. Paket Yöneticisi Konsolundan aşağıdaki komutu da kullanabilirsiniz.
+POTM dosyasını düzenlemek için, zengin özelliklere sahip, güçlü bir <a href="https://products.aspose.com/slides/tr/net">Aspose.Slides for .NET</a> API'sini kullanacağız. ve herhangi bir düzenleyici için C# platformu için kullanımı kolay API. <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> paket yöneticisini açın, <b>Aspose.Slides</b>'i arayın ve kurun. Paket Yöneticisi Konsolundan aşağıdaki komutu da kullanabilirsiniz.
 
 {{% blocks/products/pf/agp/code-block title="Emretmek" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  ile temel bir belge düzenleme
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net)
  API'ler sadece birkaç satır kodla yapılabilir.
 
 {{% /blocks/products/pf/agp/text %}}

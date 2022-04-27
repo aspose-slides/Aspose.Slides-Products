@@ -14,7 +14,7 @@ description: โค้ดตัวอย่าง C++ สำหรับดึ�
 {{% blocks/products/pf/agp/content h2="วิธีแยกวิเคราะห์ไฟล์ PPT โดยใช้ C++" %}}
 
  เพื่อแยกวิเคราะห์ไฟล์ PPT เราจะใช้
- [Aspose.Slides สำหรับ C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides สำหรับ C++](https://products.aspose.com/slides/th/cpp)
  API ซึ่งเป็น API การแยกวิเคราะห์เอกสารที่มีประสิทธิภาพและใช้งานง่ายสำหรับแพลตฟอร์ม C++ คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้โดยตรง เพียงแค่เปิด
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  package manager ค้นหา
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="ขั้นตอนในการแยกวิเคราะห์ไฟล์ PPT ใน C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="การแยกวิเคราะห์เอกสารพื้นฐานด้วย [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="การแยกวิเคราะห์เอกสารพื้นฐานด้วย [Aspose.Slides for C++](https://products.aspose.com/slides/th/cpp) API สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 โหลดไฟล์ PPT
@@ -146,8 +146,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="เอกสารแยกวิเคราะห์อื่นๆ ที่รองรับ" subTitle="การใช้ C ++ สามารถแยกวิเคราะห์รูปแบบอื่น ๆ ได้อย่างง่ายดายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/cpp/parser/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/cpp/parser/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

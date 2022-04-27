@@ -14,7 +14,7 @@ description: ซอร์สโค้ด C# เพื่อค้นหาคำ
 {{% blocks/products/pf/agp/content h2="วิธีค้นหาไฟล์ ODP โดยใช้ C #" %}}
 
  ในการค้นหาไฟล์ ODP เราจะใช้
- [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides สำหรับ .NET](https://products.aspose.com/slides/th/net)
  API ซึ่งเป็น API การค้นหาการนำเสนอ PowerPoint ที่มีคุณลักษณะหลากหลาย มีประสิทธิภาพ และใช้งานง่ายสำหรับแพลตฟอร์ม C# เปิด
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  package manager ค้นหา Aspose.Slides และติดตั้ง คุณยังสามารถใช้คำสั่งต่อไปนี้จาก Package Manager Console
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="ขั้นตอนในการค้นหาไฟล์ ODP ใน C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="การค้นหาเอกสารพื้นฐานด้วย API ของ [Aspose.Slides for .NET](https://products.aspose.com/slides/net) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="การค้นหาเอกสารพื้นฐานด้วย API ของ [Aspose.Slides for .NET](https://products.aspose.com/slides/th/net) สามารถทำได้โดยใช้โค้ดเพียงไม่กี่บรรทัด" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 โหลดไฟล์ ODP
@@ -151,8 +151,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบการค้นหาอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ C # เรายังสามารถค้นหารูปแบบอื่น ๆ รวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/search/pptx/" name="PPTX" description="เปิดรูปแบบการนำเสนอ XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

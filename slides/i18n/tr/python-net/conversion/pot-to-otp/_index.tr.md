@@ -14,7 +14,7 @@ description: POT'tan OTP Python'a dönüştürme için örnek kod. POT dosyalar�
 
 {{% blocks/products/pf/agp/content h2="Python'da POT'u OTP'ye Dönüştür" %}}
 
-POT dosyalarını programlı olarak OTP'ye dönüştürmeniz mi gerekiyor? [*Aspose.Slides for Python aracılığıyla .NET*](https://products.aspose.com/slides/python-net/) kullanarak herhangi bir geliştirici, yalnızca birkaç satır Python koduyla POT'u OTP formatına dönüştürebilir.
+POT dosyalarını programlı olarak OTP'ye dönüştürmeniz mi gerekiyor? [*Aspose.Slides for Python aracılığıyla .NET*](https://products.aspose.com/slides/tr/python-net/) kullanarak herhangi bir geliştirici, yalnızca birkaç satır Python koduyla POT'u OTP formatına dönüştürebilir.
 
 Modern bir sunum işleme API'si olan Aspose.Slides for Python, POT'tan hızlı bir şekilde OTP oluşturur. POT'tan OTP'ye dönüştürme kalitesini doğrudan [tarayıcınızda](https://products.aspose.app/slides/conversion) test edin. Aspose PowerPoint PPTX kitaplığı, POT dosyalarını birçok popüler formata dönüştürmenize olanak tanır.
 
@@ -101,27 +101,27 @@ POT'tan OTP'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
     
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Dönüşümler" subTitle="POT'u diğer birçok dosya formatına da dönüştürebilirsiniz. Aşağıda desteklenen diğer dönüşümleri görün" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap Görüntüsü" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Düz XML Sunumu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Grafik Değişim Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hiper Metin İşaretleme Dili" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG Resmi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Sunum Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="Taşınabilir Döküman Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-png/" name="POT TO PNG" description="taşınabilir Ağ Grafikleri" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint Slayt Gösterisi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint Slayt Gösterisi" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="Makro Etkin Sunum Dosyası" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Açık XML sunum Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="SWF Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Etiketli Görüntü Formatı" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML Kağıt Özellikleri" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap Görüntüsü" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Gelişmiş Meta Dosyası Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Düz XML Sunumu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Grafik Değişim Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hiper Metin İşaretleme Dili" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG Resmi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Sunum Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="Taşınabilir Döküman Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-png/" name="POT TO PNG" description="taşınabilir Ağ Grafikleri" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint Şablon Dosyası" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint Şablonu Sunumu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint Slayt Gösterisi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Makro Etkin Slayt Gösterisi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint Slayt Gösterisi" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="Makro Etkin Sunum Dosyası" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Açık XML sunum Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="ölçeklendirilebilir Vektör Grafiği" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="SWF Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Etiketli Görüntü Formatı" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML Kağıt Özellikleri" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

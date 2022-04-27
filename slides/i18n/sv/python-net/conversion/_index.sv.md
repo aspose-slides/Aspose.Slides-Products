@@ -10,12 +10,12 @@ description: Python API för att konvertera PPT till PDF. Konvertera presentatio
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides för Python via .NET](https://products.aspose.com/slides/python-net/) är ett kraftfullt lokalt klassbibliotek som används för att bearbeta och arbeta med presentationer. Det är lätt för utvecklarna att konvertera PowerPoint till PDF med snabbhet och noggrannhet. Få resultaten inom nolltid för att automatisera affärsprocesserna. Vi diskuterar här några fall för att läsa eller ladda indata [PowerPoint-format som stöds](https://docs.aspose.com/slides/python-net/supported-file-formats/) och skriva eller spara till vilket utdataformat som stöds . 
+[Aspose.Slides för Python via .NET](https://products.aspose.com/slides/sv/python-net/) är ett kraftfullt lokalt klassbibliotek som används för att bearbeta och arbeta med presentationer. Det är lätt för utvecklarna att konvertera PowerPoint till PDF med snabbhet och noggrannhet. Få resultaten inom nolltid för att automatisera affärsprocesserna. Vi diskuterar här några fall för att läsa eller ladda indata [PowerPoint-format som stöds](https://docs.aspose.com/slides/python-net/supported-file-formats/) och skriva eller spara till vilket utdataformat som stöds . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="PowerPoint till PDF-konvertering i Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) låter dig konvertera filer i PowerPoint PPT-, PPTX- och OpenOffice ODP-format till PDF. För att konvertera en presentation till PDF, skicka helt enkelt filnamnet och spara formatet till [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) metod. Klassen [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) visar [save](https://docs.aspose.com/slides) /python-net/api-reference/aspose.slides/presentation/) metod som kan anropas för att konvertera hela PPT-, PPTX- eller ODP-presentationen till ett PDF-dokument.
+[Aspose.Slides](https://products.aspose.com/slides/sv/python-net/) låter dig konvertera filer i PowerPoint PPT-, PPTX- och OpenOffice ODP-format till PDF. För att konvertera en presentation till PDF, skicka helt enkelt filnamnet och spara formatet till [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) metod. Klassen [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) visar [save](https://docs.aspose.com/slides) /python-net/api-reference/aspose.slides/presentation/) metod som kan anropas för att konvertera hela PPT-, PPTX- eller ODP-presentationen till ett PDF-dokument.
 
 {{% blocks/products/pf/feature-page-code h3="Python PowerPoint till PDF-konvertering" %}}
 
@@ -26,7 +26,7 @@ description: Python API för att konvertera PPT till PDF. Konvertera presentatio
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="PDF till PPT-konvertering i Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) låter dig importera presentationer från PDF-filer. I huvudsak får du konvertera en PDF till en PowerPoint-presentation. För att konvertera PDF till Powerpoint, gå igenom dessa steg:
+[Aspose.Slides](https://products.aspose.com/slides/sv/python-net/) låter dig importera presentationer från PDF-filer. I huvudsak får du konvertera en PDF till en PowerPoint-presentation. För att konvertera PDF till Powerpoint, gå igenom dessa steg:
 - Instantiera ett objekt i klassen [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
 - Anropa metoden [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) och skicka PDF-filen.
 - Använd metoden [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) för att spara filen i PowerPoint-format.

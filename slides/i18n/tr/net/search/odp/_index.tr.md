@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platfor
 {{% blocks/products/pf/agp/content h2="C# Kullanarak ODP Dosyası Nasıl Aranır?" %}}
 
  ODP dosyasını aramak için kullanacağız
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net)
  C# platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir PowerPoint Sunum arama API'sı olan API. Açık
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  paket yöneticisi, Aspose.Slides'i arayın ve kurun. Paket Yöneticisi Konsolundan aşağıdaki komutu da kullanabilirsiniz.
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C#'da ODP Dosyalarını Arama Adımları" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/net) API'leri ile basit bir belge araması sadece birkaç satır kodla yapılabilir." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net) API'leri ile basit bir belge araması sadece birkaç satır kodla yapılabilir." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODP dosyasını yükleyin.
@@ -151,8 +151,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Arama Formatları" subTitle="C# kullanarak, aşağıdakiler de dahil olmak üzere diğer formatlarda arama yapılabilir." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/search/pptx/" name="PPTX" description="Açık XML sunum Formatı" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: โค้ดตัวอย่าง C++ เพื่อเพิ�
 {{% blocks/products/pf/agp/content h2="วิธีใส่ลายน้ำไฟล์ PPTX โดยใช้ C ++" %}}
 
  เพื่อใส่ลายน้ำไฟล์ PPTX เราจะใช้
- [Aspose.Slides สำหรับ C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides สำหรับ C++](https://products.aspose.com/slides/th/cpp)
  API ซึ่งเป็น API ลายน้ำเอกสารที่มีคุณสมบัติหลากหลาย ทรงพลัง และใช้งานง่ายสำหรับแพลตฟอร์ม C++ คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้โดยตรง เพียงแค่เปิด
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  package manager ค้นหา
@@ -161,7 +161,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบลายน้ำอื่น ๆ ที่รองรับ" subTitle="การใช้ C ++ สามารถใส่ลายน้ำรูปแบบต่าง ๆ ได้อย่างง่ายดายรวมถึง" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/cpp/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
