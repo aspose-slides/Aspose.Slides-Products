@@ -14,7 +14,7 @@ description: Codice di esempio Java per modificare o visualizzare i metadati in 
 {{% blocks/products/pf/agp/content h2="Come estrarre i metadati PPTM utilizzando Java" %}}
 
  Per ottenere i metadati dei file PPTM, utilizzeremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di metadati ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -146,16 +146,16 @@ Files with PPTM extension are Macro-enabled Presentation files that are created 
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati di metadati supportati" subTitle="Usando Java, One può anche manipolare metadati di molti altri formati tra cui" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/otp/" name="OTP" description="Formato standard OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pot/" name="POT" description="File modello di Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potm/" name="POTM" description="File modello Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potx/" name="POTX" description="Presentazione del modello di Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pps/" name="PPS" description="Presentazione di PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsm/" name="PPSM" description="Presentazione con attivazione macro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsx/" name="PPSX" description="Presentazione di PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/otp/" name="OTP" description="Formato standard OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/pot/" name="POT" description="File modello di Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/potm/" name="POTM" description="File modello Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/potx/" name="POTX" description="Presentazione del modello di Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/pps/" name="PPS" description="Presentazione di PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/ppsm/" name="PPSM" description="Presentazione con attivazione macro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/ppsx/" name="PPSX" description="Presentazione di PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/metadata/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

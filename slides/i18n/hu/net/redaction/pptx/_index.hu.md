@@ -14,7 +14,7 @@ description: C#-forráskód a PPTX-fájl érzékeny információinak törléséh
 {{% blocks/products/pf/agp/content h2="PPTX fájl szerkesztése C# használatával" %}}
 
  A PPTX fájl szerkesztéséhez használjuk
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési API C# platformhoz. Nyisd ki
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="A PPTX fájlok törlésének lépései C#-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumok keresése és a tartalomban, a megjegyzésekben vagy a metaadatokban található szövegek cseréje az [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API-kkal néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban a reguláris kifejezés adategyeztetésével." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumok keresése és a tartalomban, a megjegyzésekben vagy a metaadatokban található szövegek cseréje az [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net) API-kkal néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban a reguláris kifejezés adategyeztetésével." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPTX prezentáció betöltése.
@@ -134,8 +134,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott szerkesztési formátumok" subTitle="A C# használatával könnyen szerkeszthető a különböző formátumok, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/redaction/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

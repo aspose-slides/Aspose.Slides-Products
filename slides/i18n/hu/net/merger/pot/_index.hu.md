@@ -14,7 +14,7 @@ description: C#-forráskód a POT-dokumentumok kombinálásához .NET-keretrends
 {{% blocks/products/pf/agp/content h2="POT fájl egyesítése C# használatával" %}}
 
  A POT fájl egyesítéséhez használjuk
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és egyesítő API C# platformhoz. Nyisd ki
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="A POT-fájlok egyesítésének lépései C#-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltse be az összes POT fájlt teljes elérési úttal.
@@ -146,16 +146,16 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott egyesítő formátumok" subTitle="A C# használatával sok más fájlformátum is egyesíthető, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/otp/" name="OTP" description="OpenDocument szabványos formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potm/" name="POTM" description="Microsoft PowerPoint sablonfájl" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potx/" name="POTX" description="Microsoft PowerPoint sablon bemutató" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pps/" name="PPS" description="PowerPoint diavetítés" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsm/" name="PPSM" description="Makró-képes diavetítés" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsx/" name="PPSX" description="PowerPoint diavetítés" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptm/" name="PPTM" description="Makró-kompatibilis prezentációs fájl" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/otp/" name="OTP" description="OpenDocument szabványos formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/potm/" name="POTM" description="Microsoft PowerPoint sablonfájl" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/potx/" name="POTX" description="Microsoft PowerPoint sablon bemutató" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/pps/" name="PPS" description="PowerPoint diavetítés" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/ppsm/" name="PPSM" description="Makró-képes diavetítés" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/ppsx/" name="PPSX" description="PowerPoint diavetítés" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/pptm/" name="PPTM" description="Makró-kompatibilis prezentációs fájl" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/merger/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

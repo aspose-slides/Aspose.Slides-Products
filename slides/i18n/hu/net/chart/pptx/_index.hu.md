@@ -14,7 +14,7 @@ description: C#-forráskód diagramok vagy diagramok rajzolásához és konvert�
 {{% blocks/products/pf/agp/content h2="PPTX diagramok létrehozása C# használatával" %}}
 
  A PPTX diagramok létrehozásához használjuk
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési API C# platformhoz. Nyisd ki
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="A PPTX fájldiagramok létrehozásának lépései C#-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API-kkal az alapdokumentum-diagramok néhány sornyi kóddal elkészíthetők." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net) API-kkal az alapdokumentum-diagramok néhány sornyi kóddal elkészíthetők." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Prezentációs osztály objektum létrehozása.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott diagramformátumok" subTitle="A C# használatával könnyen kezelhető a különböző formátumok diagramjai, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

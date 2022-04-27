@@ -14,7 +14,7 @@ description: Kode sampel Java untuk menggabungkan dokumen PPSM di Java Runtime E
 {{% blocks/products/pf/agp/content h2="Cara Menggabungkan File PPSM Menggunakan Java" %}}
 
  Untuk menggabungkan file PPSM, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
  API yang merupakan API penggabungan yang kaya fitur, kuat, dan mudah digunakan untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.
@@ -54,7 +54,7 @@ description: Kode sampel Java untuk menggabungkan dokumen PPSM di Java Runtime E
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah Menggabungkan File PPSM di Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Penggabungan dan penggabungan dokumen dasar dengan [Aspose.Slides for Java](https://products.aspose.com/slides/java) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Penggabungan dan penggabungan dokumen dasar dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat file PPSM pertama dengan instance kelas Presentation.
@@ -150,16 +150,16 @@ Files with PPSM extension represent Macro-enabled Slide Show file format created
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Penggabungan Lainnya yang Didukung" subTitle="Menggunakan Java, One juga dapat menggabungkan banyak format file lain termasuk.." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/otp/" name="OTP" description="Format Standar OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pot/" name="POT" description="File Template Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potm/" name="POTM" description="File Templat Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/potx/" name="POTX" description="Presentasi Template Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pps/" name="PPS" description="Pertunjukan Slide PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppsx/" name="PPSX" description="Pertunjukan Slide PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptm/" name="PPTM" description="File Presentasi berkemampuan makro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/otp/" name="OTP" description="Format Standar OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/pot/" name="POT" description="File Template Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/potm/" name="POTM" description="File Templat Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/potx/" name="POTX" description="Presentasi Template Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/pps/" name="PPS" description="Pertunjukan Slide PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/ppsx/" name="PPSX" description="Pertunjukan Slide PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/pptm/" name="PPTM" description="File Presentasi berkemampuan makro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/merger/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

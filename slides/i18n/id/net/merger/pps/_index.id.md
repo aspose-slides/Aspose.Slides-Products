@@ -14,7 +14,7 @@ description: Kode sumber C# untuk menggabungkan dokumen PPS di .NET Framework, .
 {{% blocks/products/pf/agp/content h2="Cara Menggabungkan File PPS Menggunakan C#" %}}
 
  Untuk menggabungkan file PPS, kami akan menggunakan
- [Aspose.Slides untuk .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides untuk .NET](https://products.aspose.com/slides/id/net)
  API yang kaya fitur, kuat, dan mudah digunakan manipulasi dokumen dan penggabungan API untuk platform C#. Membuka
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  manajer paket, cari
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah untuk Menggabungkan File PPS di C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Penggabungan dan penggabungan dokumen dasar dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Penggabungan dan penggabungan dokumen dasar dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/id/net) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat semua file PPS dengan path lengkap.
@@ -146,16 +146,16 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Penggabungan Lainnya yang Didukung" subTitle="Menggunakan C#, One juga dapat menggabungkan banyak format file lainnya termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/otp/" name="OTP" description="Format Standar OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pot/" name="POT" description="File Template Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potm/" name="POTM" description="File Templat Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potx/" name="POTX" description="Presentasi Template Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsm/" name="PPSM" description="Slide Show yang mendukung makro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsx/" name="PPSX" description="Pertunjukan Slide PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptm/" name="PPTM" description="File Presentasi berkemampuan makro" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/otp/" name="OTP" description="Format Standar OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/pot/" name="POT" description="File Template Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/potm/" name="POTM" description="File Templat Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/potx/" name="POTX" description="Presentasi Template Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/ppsm/" name="PPSM" description="Slide Show yang mendukung makro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/ppsx/" name="PPSX" description="Pertunjukan Slide PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/pptm/" name="PPTM" description="File Presentasi berkemampuan makro" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

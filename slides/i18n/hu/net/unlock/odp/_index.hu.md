@@ -14,7 +14,7 @@ description: C#-forráskód a jelszóval védett ODP-fájl feloldásához .NET-k
 {{% blocks/products/pf/agp/content h2="Hogyan lehet feloldani az ODP-fájlt a C# használatával" %}}
 
  A védelmi ODP-fájl eltávolításához használjuk
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumvédelmi API C# platformhoz. Nyisd ki
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  csomagkezelő, keressen
@@ -127,8 +127,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott feloldási formátumok" subTitle="A C# használatával könnyen eltávolítható a különböző formátumok védelme / feloldása, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/unlock/pptx/" name="PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

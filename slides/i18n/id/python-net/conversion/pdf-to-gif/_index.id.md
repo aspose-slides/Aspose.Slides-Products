@@ -14,7 +14,7 @@ description: Contoh kode untuk konversi PDF ke GIF Python. Gunakan PowerPoint Py
 
 {{% blocks/products/pf/agp/content h2="Konversi PDF ke GIF dengan Python" %}}
 
-Perlu mengonversi file PDF ke GIF secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/python-net/) pengembang mana pun dapat mengonversi format PDF ke GIF hanya dengan beberapa baris kode Python.
+Perlu mengonversi file PDF ke GIF secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format PDF ke GIF hanya dengan beberapa baris kode Python.
 
 Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat GIF dari PDF dengan cepat. Uji kualitas konversi PDF ke GIF langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file PDF ke banyak format populer.
 
@@ -103,27 +103,27 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke GIF.
     
 {{< blocks/products/pf/agp/other-supported-section title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi PDF ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Gambar bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Format Metafile yang Ditingkatkan" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="Presentasi XML Datar OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="Gambar JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="Format Presentasi OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="Format Standar OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="Grafik Jaringan Portabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="File Template Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="File Templat Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Presentasi Template Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="Pertunjukan Slide PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="Slide Show yang mendukung makro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="Pertunjukan Slide PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="File Presentasi berkemampuan makro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Buka Format presentasi XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" description="Grafik Vektor Skalabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="Format SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Format Gambar yang Ditandai" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="Spesifikasi Kertas XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Gambar bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Format Metafile yang Ditingkatkan" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="Presentasi XML Datar OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="Gambar JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="Format Presentasi OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="Format Standar OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="Grafik Jaringan Portabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="File Template Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="File Templat Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="Presentasi Template Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="Pertunjukan Slide PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="Slide Show yang mendukung makro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="Pertunjukan Slide PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="File Presentasi berkemampuan makro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Buka Format presentasi XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" description="Grafik Vektor Skalabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="Format SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Format Gambar yang Ditandai" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="Spesifikasi Kertas XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

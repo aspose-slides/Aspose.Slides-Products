@@ -14,7 +14,7 @@ description: Codice di esempio Java per sbloccare il file ODP protetto da passwo
 {{% blocks/products/pf/agp/content h2="Come rimuovere il file ODP di protezione utilizzando Java" %}}
 
  Per sbloccare il file ODP, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di protezione ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -139,8 +139,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati di sblocco supportati" subTitle="Utilizzando Java, è possibile rimuovere facilmente la protezione / sblocco di diversi formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/unlock/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

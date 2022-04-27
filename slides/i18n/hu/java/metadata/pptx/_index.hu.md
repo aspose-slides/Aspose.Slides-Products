@@ -14,7 +14,7 @@ description: Java mintakód a PPTX formátumú metaadatok szerkesztéséhez vagy
 {{% blocks/products/pf/agp/content h2="PPTX metaadatok kinyerése Java használatával" %}}
 
  A PPTX fájl metaadatainak beszerzéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
  API, amely funkciókban gazdag, hatékony és könnyen használható metaadat API a Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.
@@ -146,16 +146,16 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott metaadat-formátumok" subTitle="A Java használatával sok más formátum metaadatait is lehet manipulálni, beleértve" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/otp/" name="OTP" description="OpenDocument szabványos formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pot/" name="POT" description="Microsoft PowerPoint sablonfájlok" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potm/" name="POTM" description="Microsoft PowerPoint sablonfájl" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/potx/" name="POTX" description="Microsoft PowerPoint sablon bemutató" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pps/" name="PPS" description="PowerPoint diavetítés" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsm/" name="PPSM" description="Makró-képes diavetítés" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppsx/" name="PPSX" description="PowerPoint diavetítés" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/metadata/pptm/" name="PPTM" description="Makró-kompatibilis prezentációs fájl" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/otp/" name="OTP" description="OpenDocument szabványos formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pot/" name="POT" description="Microsoft PowerPoint sablonfájlok" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/potm/" name="POTM" description="Microsoft PowerPoint sablonfájl" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/potx/" name="POTX" description="Microsoft PowerPoint sablon bemutató" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pps/" name="PPS" description="PowerPoint diavetítés" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/ppsm/" name="PPSM" description="Makró-képes diavetítés" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/ppsx/" name="PPSX" description="PowerPoint diavetítés" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pptm/" name="PPTM" description="Makró-kompatibilis prezentációs fájl" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

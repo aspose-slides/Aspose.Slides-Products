@@ -14,7 +14,7 @@ description: Codice di esempio Java per bloccare il file ODP utilizzando la pass
 {{% blocks/products/pf/agp/content h2="Come proteggere il file ODP utilizzando Java" %}}
 
  Per proteggere il file ODP, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di crittografia ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -141,8 +141,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri documenti di protezione supportati" subTitle="Usando Java, è possibile proteggere altri file inclusi." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/protect/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

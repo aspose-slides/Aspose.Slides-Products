@@ -14,7 +14,7 @@ description: जेएसपी/जेएसएफ एप्लिकेशन �
 {{% blocks/products/pf/agp/content h2="Java का उपयोग करके सुरक्षा PPTX फ़ाइल कैसे निकालें" %}}
 
  PPTX फ़ाइल को अनलॉक करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और जावा प्लेटफॉर्म के लिए उपयोग में आसान सुरक्षा एपीआई है। आप इसका नवीनतम संस्करण सीधे से डाउनलोड कर सकते हैं
  [मेवेन](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  और pom.xml में निम्नलिखित कॉन्फ़िगरेशन जोड़कर इसे अपने मावेन-आधारित प्रोजेक्ट में स्थापित करें।
@@ -139,8 +139,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित अनलॉकिंग प्रारूप" subTitle="जावा का उपयोग करके, कोई भी आसानी से विभिन्न स्वरूपों की सुरक्षा/अनलॉकिंग को हटा सकता है, जिसमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/unlock/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/unlock/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

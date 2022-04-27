@@ -14,7 +14,7 @@ description: Kode sumber C# untuk menyunting informasi sensitif dalam file PPT d
 {{% blocks/products/pf/agp/content h2="Cara Redact File PPT Menggunakan C#" %}}
 
  Untuk menyunting file PPT, kami akan menggunakan
- [Aspose.Slides untuk .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides untuk .NET](https://products.aspose.com/slides/id/net)
  API yang merupakan API manipulasi dokumen yang kaya fitur, kuat, dan mudah digunakan untuk platform C#. Membuka
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  manajer paket, cari
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah untuk Redact File PPT di C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pencarian dokumen dasar dan mengganti teks dalam konten, komentar, atau metadata dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API dapat dilakukan hanya dengan beberapa baris kode. Temukan dan ganti teks di PowerPoint dan OpenOffice. Edit teks, komentar, metadata dalam presentasi melalui pencocokan data regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Pencarian dokumen dasar dan mengganti teks dalam konten, komentar, atau metadata dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/id/net) API dapat dilakukan hanya dengan beberapa baris kode. Temukan dan ganti teks di PowerPoint dan OpenOffice. Edit teks, komentar, metadata dalam presentasi melalui pencocokan data regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat presentasi PPT.
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Redaksi Lainnya yang Didukung" subTitle="Menggunakan C#, seseorang dapat dengan mudah menyunting berbagai format termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/redaction/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/redaction/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

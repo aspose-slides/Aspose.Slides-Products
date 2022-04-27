@@ -14,7 +14,7 @@ description: Mintakód a FODP-ből HTML-be való Python konverzióhoz. Használj
 
 {{% blocks/products/pf/agp/content h2="Konvertálja a FODP-t HTML-re Pythonban" %}}
 
-A FODP fájlokat programozottan HTML-re kell konvertálnia? Az [*Aspose.Slides for Python .NET-en keresztüli*] használatával (https://products.aspose.com/slides/python-net/) bármely fejlesztő képes konvertálni a FODP-t HTML formátumba, mindössze néhány sor Python kóddal.
+A FODP fájlokat programozottan HTML-re kell konvertálnia? Az [*Aspose.Slides for Python .NET-en keresztüli*] használatával (https://products.aspose.com/slides/hu/python-net/) bármely fejlesztő képes konvertálni a FODP-t HTML formátumba, mindössze néhány sor Python kóddal.
 
 Modern prezentáció-feldolgozási API-ként az Aspose.Slides for Python gyorsan létrehozza a HTML-t FODP-ből. Tesztelje a FODP-HTML konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi a FODP fájlok számos népszerű formátumba való konvertálását.
 
@@ -101,27 +101,27 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-HTML-konverziós fo
     
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A FODP-t sok más fájlformátumra is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bittérképes kép" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Továbbfejlesztett metafájl formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Grafikus csereformátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="JPEG kép" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument prezentációs formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument szabványos formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Hordozható dokumentum formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Hordozható hálózati grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Microsoft PowerPoint sablonfájlok" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Microsoft PowerPoint sablonfájl" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Microsoft PowerPoint sablon bemutató" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="PowerPoint diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Makró-képes diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="PowerPoint diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Makró-kompatibilis prezentációs fájl" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Skálázható vektorgrafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Címkézett képformátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="XML papírspecifikációk" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bittérképes kép" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Továbbfejlesztett metafájl formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Grafikus csereformátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="JPEG kép" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument prezentációs formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument szabványos formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Hordozható dokumentum formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Hordozható hálózati grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Microsoft PowerPoint sablonfájlok" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Microsoft PowerPoint sablonfájl" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Microsoft PowerPoint sablon bemutató" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="PowerPoint diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Makró-képes diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="PowerPoint diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Makró-kompatibilis prezentációs fájl" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Skálázható vektorgrafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Címkézett képformátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="XML papírspecifikációk" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

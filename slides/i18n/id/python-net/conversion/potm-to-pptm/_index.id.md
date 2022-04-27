@@ -14,7 +14,7 @@ description: Contoh kode untuk konversi POTM ke PPTM Python. Gunakan PowerPoint 
 
 {{% blocks/products/pf/agp/content h2="Konversi POTM ke PPTM dengan Python" %}}
 
-Perlu mengonversi file POTM ke PPTM secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/python-net/) pengembang mana pun dapat mengonversi format POTM ke PPTM hanya dengan beberapa baris kode Python.
+Perlu mengonversi file POTM ke PPTM secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format POTM ke PPTM hanya dengan beberapa baris kode Python.
 
 Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat PPTM dari POTM dengan cepat. Uji kualitas konversi POTM ke PPTM langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file POTM ke banyak format populer.
 
@@ -101,27 +101,27 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTM ke PPTM.
     
 {{< blocks/products/pf/agp/other-supported-section title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi POTM ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Gambar bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="Format Metafile yang Ditingkatkan" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-fodp/" name="POTM TO FODP" description="Presentasi XML Datar OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-gif/" name="POTM TO GIF" description="Format Pertukaran Grafis" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-html/" name="POTM TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-jpg/" name="POTM TO JPG" description="Gambar JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-odp/" name="POTM TO ODP" description="Format Presentasi OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-otp/" name="POTM TO OTP" description="Format Standar OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Format Dokumen Portabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-png/" name="POTM TO PNG" description="Grafik Jaringan Portabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pot/" name="POTM TO POT" description="File Template Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-potx/" name="POTM TO POTX" description="Presentasi Template Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pps/" name="POTM TO PPS" description="Pertunjukan Slide PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Slide Show yang mendukung makro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="Pertunjukan Slide PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Buka Format presentasi XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-svg/" name="POTM TO SVG" description="Grafik Vektor Skalabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-swf/" name="POTM TO SWF" description="Format SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Format Gambar yang Ditandai" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-xps/" name="POTM TO XPS" description="Spesifikasi Kertas XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Gambar bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="Format Metafile yang Ditingkatkan" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-fodp/" name="POTM TO FODP" description="Presentasi XML Datar OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-gif/" name="POTM TO GIF" description="Format Pertukaran Grafis" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-html/" name="POTM TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-jpg/" name="POTM TO JPG" description="Gambar JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-odp/" name="POTM TO ODP" description="Format Presentasi OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-otp/" name="POTM TO OTP" description="Format Standar OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Format Dokumen Portabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-png/" name="POTM TO PNG" description="Grafik Jaringan Portabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-pot/" name="POTM TO POT" description="File Template Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-potx/" name="POTM TO POTX" description="Presentasi Template Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-pps/" name="POTM TO PPS" description="Pertunjukan Slide PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-ppsm/" name="POTM TO PPSM" description="Slide Show yang mendukung makro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-ppsx/" name="POTM TO PPSX" description="Pertunjukan Slide PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-ppt/" name="POTM TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Buka Format presentasi XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-svg/" name="POTM TO SVG" description="Grafik Vektor Skalabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-swf/" name="POTM TO SWF" description="Format SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Format Gambar yang Ditandai" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/potm-to-xps/" name="POTM TO XPS" description="Spesifikasi Kertas XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

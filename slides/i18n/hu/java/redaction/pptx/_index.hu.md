@@ -14,7 +14,7 @@ description: Java-mintakód a PPTX-fájl érzékeny információinak törléséh
 {{% blocks/products/pf/agp/content h2="PPTX fájl szerkesztése Java használatával" %}}
 
  A PPTX fájl szerkesztéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
  API, amely funkciókban gazdag, hatékony és könnyen használható szerkesztési API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.
@@ -54,7 +54,7 @@ description: Java-mintakód a PPTX-fájl érzékeny információinak törléséh
 
 {{< blocks/products/pf/agp/feature-section-col title="A PPTX-fájlok visszaállításának lépései Java-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumok keresése és a tartalomban, a megjegyzésekben vagy a metaadatokban található szövegek cseréje az [Aspose.Slides for Java](https://products.aspose.com/slides/java) API-kkal néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban a reguláris kifejezés adategyeztetésével." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumok keresése és a tartalomban, a megjegyzésekben vagy a metaadatokban található szövegek cseréje az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java) API-kkal néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban a reguláris kifejezés adategyeztetésével." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPTX prezentáció betöltése.
@@ -166,8 +166,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott szerkesztési dokumentumok" subTitle="A Java használatával könnyen szerkeszthető a különböző formátumok, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/redaction/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

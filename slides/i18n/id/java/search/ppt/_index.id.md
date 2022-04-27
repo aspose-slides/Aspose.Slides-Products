@@ -14,7 +14,7 @@ description: Kode sampel Java untuk mencari kata dengan pola dalam file PPT di J
 {{% blocks/products/pf/agp/content h2="Cara Mencari File PPT Menggunakan Java" %}}
 
  Untuk mencari file PPT, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
  API yang kaya fitur, kuat, dan mudah digunakan API Pencarian untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.
@@ -170,8 +170,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Dokumen Pencarian Lainnya yang Didukung" subTitle="Menggunakan Java, seseorang juga dapat mencari file lain termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/search/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/search/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

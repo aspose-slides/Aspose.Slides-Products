@@ -14,7 +14,7 @@ description: C# सोर्स कोड .NET Framework, .NET Core, Windows Azu
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके पीपीटी फ़ाइल को वॉटरमार्क कैसे करें" %}}
 
  पीपीटी फ़ाइल को वॉटरमार्क करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी # प्लेटफॉर्म के लिए दस्तावेज़ हेरफेर एपीआई का उपयोग करने में आसान है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -129,7 +129,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित वॉटरमार्किंग प्रारूप" subTitle="सी # का उपयोग करके, कोई भी आसानी से विभिन्न स्वरूपों को वॉटरमार्क कर सकता है।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/watermark/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

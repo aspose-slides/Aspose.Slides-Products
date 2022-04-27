@@ -14,7 +14,7 @@ description: Codice sorgente C# per aggiungere o rimuovere filigrana nel file PP
 {{% blocks/products/pf/agp/content h2="Come filigranare il file PPTX usando C#" %}}
 
  Per filigranare il file PPTX, useremo
- [Aspose.Slides per .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides per .NET](https://products.aspose.com/slides/it/net)
  API che è un'API di manipolazione dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C#. Aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestore pacchetti, cerca
@@ -129,7 +129,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati di filigrana supportati" subTitle="Usando C#, si possono facilmente filigranare diversi formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

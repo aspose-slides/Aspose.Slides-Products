@@ -14,7 +14,7 @@ description: Codice di esempio Java per sbloccare il file PPTX protetto da passw
 {{% blocks/products/pf/agp/content h2="Come rimuovere il file PPTX di protezione utilizzando Java" %}}
 
  Per sbloccare il file PPTX, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di protezione ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -139,8 +139,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati di sblocco supportati" subTitle="Utilizzando Java, è possibile rimuovere facilmente la protezione / sblocco di diversi formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/unlock/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: C#-forráskód a jelszóval védett PPTX-fájl feloldásához .NET-
 {{% blocks/products/pf/agp/content h2="PPTX fájl feloldása C# használatával" %}}
 
  A védő PPTX fájl eltávolításához használjuk
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumvédelmi API C# platformhoz. Nyisd ki
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  csomagkezelő, keressen
@@ -127,8 +127,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott feloldási formátumok" subTitle="A C# használatával könnyen eltávolítható a különböző formátumok védelme / feloldása, beleértve." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/unlock/odp/" name="ODP" description="OpenDocument prezentációs formátum" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: विंडोज 32 बिट, विंडोज 64 बिट �
 {{% blocks/products/pf/agp/content h2="C++ का उपयोग करके पीपीटी फ़ाइल को कैसे सुरक्षित करें" %}}
 
  पीपीटी फ़ाइल की सुरक्षा के लिए, हम उपयोग करेंगे
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी ++ प्लेटफॉर्म के लिए दस्तावेज़ एन्क्रिप्शन एपीआई का उपयोग करने में आसान है। आप इसका नवीनतम संस्करण सीधे डाउनलोड कर सकते हैं, बस खोलें
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  पैकेज मैनेजर, खोजें
@@ -124,8 +124,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित सुरक्षा दस्तावेज" subTitle="C++ का उपयोग करके, कोई अन्य फ़ाइलों की सुरक्षा कर सकता है, जिनमें शामिल हैं।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/protect/odp/" name="ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/protect/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

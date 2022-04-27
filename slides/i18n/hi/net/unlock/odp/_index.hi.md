@@ -14,7 +14,7 @@ description: .NET फ्रेमवर्क, .NET Core, Windows Azure, Mono �
 {{% blocks/products/pf/agp/content h2="C# का उपयोग करके ODP फ़ाइल को कैसे अनलॉक करें" %}}
 
  सुरक्षा ODP फ़ाइल को हटाने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी # प्लेटफॉर्म के लिए दस्तावेज़ सुरक्षा एपीआई का उपयोग करने में आसान है। खुला
  [नुगेट](https://www.nuget.org/packages/aspose.slides.net)
  पैकेज मैनेजर, खोजें
@@ -127,8 +127,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित अनलॉकिंग प्रारूप" subTitle="सी # का उपयोग करके, कोई भी आसानी से विभिन्न प्रारूपों की सुरक्षा/अनलॉकिंग को हटा सकता है।" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/unlock/ppt/" name="PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/unlock/pptx/" name="PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

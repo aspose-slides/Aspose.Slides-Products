@@ -14,7 +14,7 @@ description: Codice sorgente C# per disegnare e convertire grafici o diagrammi i
 {{% blocks/products/pf/agp/content h2="Come creare grafici PPTX usando C#" %}}
 
  Per creare grafici PPTX, utilizzeremo
- [Aspose.Slides per .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides per .NET](https://products.aspose.com/slides/it/net)
  API che è un'API di manipolazione dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C#. Aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestore pacchetti, cerca
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per creare grafici di file PPTX in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Una creazione di grafici di documenti di base con le API [Aspose.Slides for .NET](https://products.aspose.com/slides/net) può essere eseguita con poche righe di codice." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Una creazione di grafici di documenti di base con le API [Aspose.Slides for .NET](https://products.aspose.com/slides/it/net) può essere eseguita con poche righe di codice." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Crea oggetto classe Presentazione.
@@ -180,7 +180,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati grafici supportati" subTitle="Utilizzando C#, è possibile gestire facilmente la creazione di grafici con diversi formati, tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

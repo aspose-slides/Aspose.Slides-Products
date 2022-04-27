@@ -14,7 +14,7 @@ description: Kode sumber C# untuk mencari kata-kata dengan pola dalam file PPT d
 {{% blocks/products/pf/agp/content h2="Cara Mencari File PPT Menggunakan C#" %}}
 
  Untuk mencari file PPT, kami akan menggunakan
- [Aspose.Slides untuk .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides untuk .NET](https://products.aspose.com/slides/id/net)
  API yang kaya fitur, kuat, dan mudah digunakan untuk mencari dokumen Microsoft PowerPoint API untuk platform C#. Membuka
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  manajer paket, cari
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah untuk Mencari File PPT di C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pencarian dokumen dasar dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Pencarian dokumen dasar dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/id/net) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat file PPT.
@@ -153,8 +153,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Pencarian yang Didukung Lainnya" subTitle="Menggunakan C#, seseorang juga dapat mencari format lain termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/search/odp/" name="ODP" description="Format Presentasi OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/search/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

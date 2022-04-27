@@ -14,7 +14,7 @@ description: Kode sumber C# untuk menambah atau menghapus tanda air ke file PPTX
 {{% blocks/products/pf/agp/content h2="Cara Watermark File PPTX Menggunakan C#" %}}
 
  Untuk menandai file PPTX, kami akan menggunakan
- [Aspose.Slides untuk .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides untuk .NET](https://products.aspose.com/slides/id/net)
  API yang merupakan API manipulasi dokumen yang kaya fitur, kuat, dan mudah digunakan untuk platform C#. Membuka
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  manajer paket, cari
@@ -129,7 +129,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Watermarking Lainnya yang Didukung" subTitle="Menggunakan C#, seseorang dapat dengan mudah menandai format yang berbeda termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

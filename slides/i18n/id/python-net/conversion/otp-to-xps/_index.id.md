@@ -14,7 +14,7 @@ description: Contoh kode untuk konversi OTP ke XPS Python. Gunakan PowerPoint Py
 
 {{% blocks/products/pf/agp/content h2="Konversi OTP ke XPS dengan Python" %}}
 
-Perlu mengonversi file OTP ke XPS secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/python-net/) pengembang mana pun dapat mengonversi format OTP ke XPS hanya dengan beberapa baris kode Python.
+Perlu mengonversi file OTP ke XPS secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format OTP ke XPS hanya dengan beberapa baris kode Python.
 
 Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat XPS dari OTP dengan cepat. Uji kualitas konversi OTP ke XPS langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file OTP ke banyak format populer.
 
@@ -101,27 +101,27 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi OTP ke XPS.
     
 {{< blocks/products/pf/agp/other-supported-section title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi OTP ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Gambar bitmap" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-emf/" name="OTP TO EMF" description="Format Metafile yang Ditingkatkan" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-fodp/" name="OTP TO FODP" description="Presentasi XML Datar OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-gif/" name="OTP TO GIF" description="Format Pertukaran Grafis" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-html/" name="OTP TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-jpg/" name="OTP TO JPG" description="Gambar JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-odp/" name="OTP TO ODP" description="Format Presentasi OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Format Dokumen Portabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-png/" name="OTP TO PNG" description="Grafik Jaringan Portabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pot/" name="OTP TO POT" description="File Template Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-potm/" name="OTP TO POTM" description="File Templat Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-potx/" name="OTP TO POTX" description="Presentasi Template Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pps/" name="OTP TO PPS" description="Pertunjukan Slide PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="Slide Show yang mendukung makro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="Pertunjukan Slide PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="File Presentasi berkemampuan makro" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Buka Format presentasi XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-svg/" name="OTP TO SVG" description="Grafik Vektor Skalabel" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-swf/" name="OTP TO SWF" description="Format SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Format Gambar yang Ditandai" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Gambar bitmap" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-emf/" name="OTP TO EMF" description="Format Metafile yang Ditingkatkan" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-fodp/" name="OTP TO FODP" description="Presentasi XML Datar OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-gif/" name="OTP TO GIF" description="Format Pertukaran Grafis" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-html/" name="OTP TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-jpg/" name="OTP TO JPG" description="Gambar JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-odp/" name="OTP TO ODP" description="Format Presentasi OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Format Dokumen Portabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-png/" name="OTP TO PNG" description="Grafik Jaringan Portabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-pot/" name="OTP TO POT" description="File Template Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-potm/" name="OTP TO POTM" description="File Templat Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-potx/" name="OTP TO POTX" description="Presentasi Template Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-pps/" name="OTP TO PPS" description="Pertunjukan Slide PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="Slide Show yang mendukung makro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="Pertunjukan Slide PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="File Presentasi berkemampuan makro" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Buka Format presentasi XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-svg/" name="OTP TO SVG" description="Grafik Vektor Skalabel" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-swf/" name="OTP TO SWF" description="Format SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Format Gambar yang Ditandai" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

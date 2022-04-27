@@ -14,7 +14,7 @@ description: पीडीएफ से पीपीटी पायथन रू
 
 {{% blocks/products/pf/agp/content h2="पायथन में पीडीएफ को पीपीटी में बदलें" %}}
 
-पीडीएफ फाइलों को प्रोग्रामेटिक रूप से पीपीटी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/python-net/) के माध्यम से [*Aspose.Slides for Python का उपयोग करके कोई भी डेवलपर Python कोड की कुछ पंक्तियों के साथ PDF को PPT प्रारूप में परिवर्तित कर सकता है।
+पीडीएफ फाइलों को प्रोग्रामेटिक रूप से पीपीटी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से [*Aspose.Slides for Python का उपयोग करके कोई भी डेवलपर Python कोड की कुछ पंक्तियों के साथ PDF को PPT प्रारूप में परिवर्तित कर सकता है।
 
 एक आधुनिक प्रस्तुति प्रसंस्करण API के रूप में, Aspose.Slides for Python जल्दी से PDF से PPT बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में पीडीएफ से पीपीटी रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको पीडीएफ फाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
@@ -103,27 +103,27 @@ with slides.Presentation() as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप पीडीएफ को कई अन्य फाइल फॉर्मेट में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="बिटमैप चित्र" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="ओपन डॉक्यूमेंट फ्लैट एक्सएमएल प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="जेपीईजी छवि" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument मानक प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="पोर्टेबल नेटवर्क ग्राफ़िक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Microsoft PowerPoint टेम्पलेट फ़ाइलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="Microsoft PowerPoint टेम्पलेट फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="बिटमैप चित्र" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="ओपन डॉक्यूमेंट फ्लैट एक्सएमएल प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="जेपीईजी छवि" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument मानक प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-png/" name="PDF TO PNG" description="पोर्टेबल नेटवर्क ग्राफ़िक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-pot/" name="PDF TO POT" description="Microsoft PowerPoint टेम्पलेट फ़ाइलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-potm/" name="PDF TO POTM" description="Microsoft PowerPoint टेम्पलेट फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-potx/" name="PDF TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-pps/" name="PDF TO PPS" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

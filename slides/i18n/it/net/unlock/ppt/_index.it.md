@@ -14,7 +14,7 @@ description: Codice sorgente C# per sbloccare il file PPT protetto da password s
 {{% blocks/products/pf/agp/content h2="Come sbloccare il file PPT usando C#" %}}
 
  Per rimuovere il file PPT di protezione, utilizzeremo
- [Aspose.Slides per .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides per .NET](https://products.aspose.com/slides/it/net)
  API che è un'API di protezione dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C#. Aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestore pacchetti, cerca
@@ -127,8 +127,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati di sblocco supportati" subTitle="Usando C#, è possibile rimuovere facilmente la protezione/sblocco di diversi formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/unlock/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/unlock/pptx/" name="PPTX" description="Apri il formato di presentazione XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

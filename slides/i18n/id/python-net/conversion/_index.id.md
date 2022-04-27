@@ -10,12 +10,12 @@ description: Python API untuk Mengonversi PPT ke PDF. Konversikan Presentasi ke 
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) adalah library kelas lokal yang kuat yang digunakan untuk memproses dan bekerja dengan presentasi. Sangat mudah bagi para pengembang untuk mengonversi PowerPoint ke PDF dengan kecepatan dan akurasi. Dapatkan hasil dalam waktu singkat untuk mengotomatisasi proses bisnis. Kami membahas di sini beberapa kasus untuk membaca atau memuat input apa pun [format PowerPoint yang didukung](https://docs.aspose.com/slides/python-net/supported-file-formats/) dan menulis atau menyimpan ke format output apa pun yang didukung . 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/) adalah library kelas lokal yang kuat yang digunakan untuk memproses dan bekerja dengan presentasi. Sangat mudah bagi para pengembang untuk mengonversi PowerPoint ke PDF dengan kecepatan dan akurasi. Dapatkan hasil dalam waktu singkat untuk mengotomatisasi proses bisnis. Kami membahas di sini beberapa kasus untuk membaca atau memuat input apa pun [format PowerPoint yang didukung](https://docs.aspose.com/slides/python-net/supported-file-formats/) dan menulis atau menyimpan ke format output apa pun yang didukung . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Konversi PowerPoint ke PDF dengan Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) memungkinkan Anda mengonversi file dalam format PowerPoint PPT, PPTX, dan OpenOffice ODP ke PDF. Untuk mengonversi presentasi ke PDF, cukup berikan nama file dan simpan format ke [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) metode. Kelas [Presentasi](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) mengekspos kelas [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) yang dapat dipanggil untuk mengonversi seluruh presentasi PPT, PPTX, atau ODP menjadi dokumen PDF.
+[Aspose.Slides](https://products.aspose.com/slides/id/python-net/) memungkinkan Anda mengonversi file dalam format PowerPoint PPT, PPTX, dan OpenOffice ODP ke PDF. Untuk mengonversi presentasi ke PDF, cukup berikan nama file dan simpan format ke [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) metode. Kelas [Presentasi](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) mengekspos kelas [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) yang dapat dipanggil untuk mengonversi seluruh presentasi PPT, PPTX, atau ODP menjadi dokumen PDF.
 
 {{% blocks/products/pf/feature-page-code h3="Konversi Python PowerPoint ke PDF" %}}
 
@@ -26,7 +26,7 @@ description: Python API untuk Mengonversi PPT ke PDF. Konversikan Presentasi ke 
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Konversi PDF ke PPT dengan Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/) memungkinkan Anda mengimpor presentasi dari PDF. Pada dasarnya, Anda dapat mengonversi PDF ke presentasi PowerPoint. Untuk mengonversi PDF ke Powerpoint, lakukan langkah-langkah berikut:
+[Aspose.Slides](https://products.aspose.com/slides/id/python-net/) memungkinkan Anda mengimpor presentasi dari PDF. Pada dasarnya, Anda dapat mengonversi PDF ke presentasi PowerPoint. Untuk mengonversi PDF ke Powerpoint, lakukan langkah-langkah berikut:
 - Membuat instance objek dari kelas [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
 - Panggil metode [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) dan teruskan file PDF.
 - Gunakan metode [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) untuk menyimpan file dalam format PowerPoint.

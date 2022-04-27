@@ -14,7 +14,7 @@ description: Mintakód POT-ból PDF Python konvertáláshoz. Használja a PowerP
 
 {{% blocks/products/pf/agp/content h2="Konvertálja a POT-ot PDF-be Pythonban" %}}
 
-A POT fájlokat programozottan PDF-be kell konvertálnia? Az [*Aspose.Slides for Python for .NET használatával*](https://products.aspose.com/slides/python-net/) bármely fejlesztő konvertálhatja a POT-ot PDF formátumba, mindössze néhány sor Python kóddal.
+A POT fájlokat programozottan PDF-be kell konvertálnia? Az [*Aspose.Slides for Python for .NET használatával*](https://products.aspose.com/slides/hu/python-net/) bármely fejlesztő konvertálhatja a POT-ot PDF formátumba, mindössze néhány sor Python kóddal.
 
 Modern prezentáció-feldolgozási API-ként az Aspose.Slides for Python gyorsan létrehozza a PDF-et POT-ból. Tesztelje a POT PDF konvertálás minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi a POT-fájlok számos népszerű formátumba való konvertálását.
 
@@ -101,27 +101,27 @@ Az ingyenes alkalmazás segítségével megtekintheti a POT PDF-be konvertálás
     
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A POT-ot sok más fájlformátumra is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bittérképes kép" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Továbbfejlesztett metafájl formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML-bemutató" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Grafikus csereformátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hyper Text Markup Language" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG kép" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument prezentációs formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument szabványos formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-png/" name="POT TO PNG" description="Hordozható hálózati grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint sablonfájl" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint sablon bemutató" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Makró-képes diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="Makró-kompatibilis prezentációs fájl" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="Skálázható vektorgrafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="SWF formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Címkézett képformátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML papírspecifikációk" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bittérképes kép" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Továbbfejlesztett metafájl formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML-bemutató" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Grafikus csereformátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG kép" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument prezentációs formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument szabványos formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-png/" name="POT TO PNG" description="Hordozható hálózati grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint sablonfájl" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint sablon bemutató" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Makró-képes diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="Makró-kompatibilis prezentációs fájl" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="Skálázható vektorgrafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="SWF formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Címkézett képformátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML papírspecifikációk" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

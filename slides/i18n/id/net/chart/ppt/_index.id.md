@@ -14,7 +14,7 @@ description: Kode sumber C# untuk menggambar dan mengonversi bagan atau diagram 
 {{% blocks/products/pf/agp/content h2="Cara Membuat Grafik PPT Menggunakan C#" %}}
 
  Untuk membuat grafik PPT, kami akan menggunakan
- [Aspose.Slides untuk .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides untuk .NET](https://products.aspose.com/slides/id/net)
  API yang merupakan API manipulasi dokumen yang kaya fitur, kuat, dan mudah digunakan untuk platform C#. Membuka
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  manajer paket, cari
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah untuk Membuat Bagan File PPT di C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pembuatan bagan dokumen dasar dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Pembuatan bagan dokumen dasar dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/id/net) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Buat objek kelas Presentasi.
@@ -180,7 +180,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Charting yang Didukung Lainnya" subTitle="Menggunakan C #, seseorang dapat dengan mudah menangani pembuatan bagan dengan berbagai format termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/chart/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/chart/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

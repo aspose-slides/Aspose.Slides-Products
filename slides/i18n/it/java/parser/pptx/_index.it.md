@@ -14,7 +14,7 @@ description: Codice di esempio Java per estrarre testo e immagini dal file PPTX 
 {{% blocks/products/pf/agp/content h2="Come analizzare il file PPTX utilizzando Java" %}}
 
  Per analizzare il file PPTX, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
  API che è un'API di analisi ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -54,7 +54,7 @@ description: Codice di esempio Java per estrarre testo e immagini dal file PPTX 
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per analizzare i file PPTX in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire un'analisi di base del documento con le API [Aspose.Slides for Java](https://products.aspose.com/slides/java) con poche righe di codice." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire un'analisi di base del documento con le API [Aspose.Slides for Java](https://products.aspose.com/slides/it/java) con poche righe di codice." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica il file PPTX instaurando la classe Presentation.
@@ -163,8 +163,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri documenti di analisi supportati" subTitle="Usando Java, si possono facilmente analizzare altri formati tra cui." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/parser/odp/" name="ODP" description="Formato di presentazione OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

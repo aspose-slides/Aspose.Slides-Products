@@ -12,7 +12,7 @@ description: C#-forráskód a PPT-dokumentum szerkesztéséhez .NET-keretrendsze
 
 {{% blocks/products/pf/agp/content h2="PPT fájl szerkesztése C# használatával" %}}
 
-A PPT-fájl szerkesztéséhez az <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API-t használjuk, amely funkciókban gazdag, hatékony. és könnyen használható API C# platformhoz bármely szerkesztő számára. Nyissa meg a <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> csomagkezelőt, keresse meg az <b>Aspose.Slides</b> elemet, és telepítse. A következő parancsot is használhatja a Package Manager konzolból.
+A PPT-fájl szerkesztéséhez az <a href="https://products.aspose.com/slides/hu/net">Aspose.Slides for .NET</a> API-t használjuk, amely funkciókban gazdag, hatékony. és könnyen használható API C# platformhoz bármely szerkesztő számára. Nyissa meg a <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> csomagkezelőt, keresse meg az <b>Aspose.Slides</b> elemet, és telepítse. A következő parancsot is használhatja a Package Manager konzolból.
 
 {{% blocks/products/pf/agp/code-block title="Parancs" offSpacer="true" %}}
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  Alapvető dokumentumszerkesztés
- [Aspose.Slides for .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net)
  Az API-k néhány sornyi kóddal elkészíthetők.
 
 {{% /blocks/products/pf/agp/text %}}

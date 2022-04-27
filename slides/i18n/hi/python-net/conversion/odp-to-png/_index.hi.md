@@ -14,7 +14,7 @@ description: ओडीपी के लिए पीएनजी पायथन
 
 {{% blocks/products/pf/agp/content h2="पायथन में ODP को PNG में बदलें" %}}
 
-ओडीपी फाइलों को प्रोग्रामेटिक रूप से पीएनजी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/python-net/) के माध्यम से पाइथॉन के लिए [*Aspose.Slides का उपयोग करके कोई भी डेवलपर पाइथन कोड की कुछ पंक्तियों के साथ ODP को PNG प्रारूप में परिवर्तित कर सकता है।
+ओडीपी फाइलों को प्रोग्रामेटिक रूप से पीएनजी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से पाइथॉन के लिए [*Aspose.Slides का उपयोग करके कोई भी डेवलपर पाइथन कोड की कुछ पंक्तियों के साथ ODP को PNG प्रारूप में परिवर्तित कर सकता है।
 
 एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से ODP से PNG बनाता है। अपने [ब्राउज़र](https://products.aspose.app/slides/conversion/ppt-to-png) में ODP से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको ODP फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
@@ -102,27 +102,27 @@ with slides.Presentation("presentation.odp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप ODP को कई अन्य फ़ाइल स्वरूपों में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="बिटमैप चित्र" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-emf/" name="ODP TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-fodp/" name="ODP TO FODP" description="ओपन डॉक्यूमेंट फ्लैट एक्सएमएल प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-gif/" name="ODP TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-html/" name="ODP TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-jpg/" name="ODP TO JPG" description="जेपीईजी छवि" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument मानक प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pdf/" name="ODP TO PDF" description="वहनीय दस्तावेज़ स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pot/" name="ODP TO POT" description="Microsoft PowerPoint टेम्पलेट फ़ाइलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-potm/" name="ODP TO POTM" description="Microsoft PowerPoint टेम्पलेट फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-potx/" name="ODP TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pps/" name="ODP TO PPS" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-ppt/" name="ODP TO PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pptm/" name="ODP TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-pptx/" name="ODP TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-svg/" name="ODP TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-swf/" name="ODP TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-tiff/" name="ODP TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-xps/" name="ODP TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="बिटमैप चित्र" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-emf/" name="ODP TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-fodp/" name="ODP TO FODP" description="ओपन डॉक्यूमेंट फ्लैट एक्सएमएल प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-gif/" name="ODP TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-html/" name="ODP TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-jpg/" name="ODP TO JPG" description="जेपीईजी छवि" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument मानक प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-pdf/" name="ODP TO PDF" description="वहनीय दस्तावेज़ स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-pot/" name="ODP TO POT" description="Microsoft PowerPoint टेम्पलेट फ़ाइलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-potm/" name="ODP TO POTM" description="Microsoft PowerPoint टेम्पलेट फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-potx/" name="ODP TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-pps/" name="ODP TO PPS" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-ppt/" name="ODP TO PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-pptm/" name="ODP TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-pptx/" name="ODP TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-svg/" name="ODP TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-swf/" name="ODP TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-tiff/" name="ODP TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-xps/" name="ODP TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

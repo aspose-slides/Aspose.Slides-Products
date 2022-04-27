@@ -14,7 +14,7 @@ description: एफओडीपी के लिए पीओटी पायथ
 
 {{% blocks/products/pf/agp/content h2="पायथन में FODP को POT में बदलें" %}}
 
-एफओडीपी फाइलों को प्रोग्रामेटिक रूप से पीओटी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/python-net/) के माध्यम से पाइथॉन के लिए [*Aspose.Slides का उपयोग करके कोई भी डेवलपर FODP को POT प्रारूप में केवल कुछ पंक्तियों के साथ Python कोड में बदल सकता है।
+एफओडीपी फाइलों को प्रोग्रामेटिक रूप से पीओटी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से पाइथॉन के लिए [*Aspose.Slides का उपयोग करके कोई भी डेवलपर FODP को POT प्रारूप में केवल कुछ पंक्तियों के साथ Python कोड में बदल सकता है।
 
 एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से FODP से POT बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में FODP से POT रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको FODP फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.fodp") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप FODP को कई अन्य फ़ाइल स्वरूपों में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="बिटमैप चित्र" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="जेपीईजी छवि" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument मानक प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="वहनीय दस्तावेज़ स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="पोर्टेबल नेटवर्क ग्राफ़िक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Microsoft PowerPoint टेम्पलेट फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="बिटमैप चित्र" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="जेपीईजी छवि" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument मानक प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="वहनीय दस्तावेज़ स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="पोर्टेबल नेटवर्क ग्राफ़िक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Microsoft PowerPoint टेम्पलेट फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -14,7 +14,7 @@ description: Kode sampel Java untuk menggambar dan mengonversi bagan atau diagra
 {{% blocks/products/pf/agp/content h2="Cara Membuat Bagan File PPTX Menggunakan Java" %}}
 
  Untuk membuat bagan file PPTX, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
  API yang merupakan API charting yang kaya fitur, kuat, dan mudah digunakan untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.
@@ -54,7 +54,7 @@ description: Kode sampel Java untuk menggambar dan mengonversi bagan atau diagra
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah Membuat Bagan File PPTX di Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pembuatan bagan dokumen dasar dengan [Aspose.Slides for Java](https://products.aspose.com/slides/java) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Pembuatan bagan dokumen dasar dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Buat instance objek kelas Presentasi.
@@ -258,7 +258,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Charting yang Didukung Lainnya" subTitle="Menggunakan Java, seseorang dapat dengan mudah menangani charing dengan berbagai format termasuk." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

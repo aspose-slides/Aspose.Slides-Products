@@ -10,12 +10,12 @@ description: Python API a PPT PDF-be konvertálásához. Konvertálja a prezent�
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-Az [Aspose.Slides for Python .NET-en keresztül](https://products.aspose.com/slides/python-net/) egy hatékony helyszíni osztálykönyvtár, amelyet prezentációk feldolgozására és kezelésére használnak. A fejlesztők könnyen konvertálhatják a PowerPointot PDF formátumba gyorsan és pontosan. Gyorsan elérheti az eredményeket az üzleti folyamatok automatizálásával. Itt néhány olyan esetet tárgyalunk, amikor be kell olvasni vagy betölteni bármilyen bemenetet [támogatott PowerPoint formátumok](https://docs.aspose.com/slides/python-net/supported-file-formats/), és bármilyen támogatott kimeneti formátumba írni vagy menteni. . 
+Az [Aspose.Slides for Python .NET-en keresztül](https://products.aspose.com/slides/hu/python-net/) egy hatékony helyszíni osztálykönyvtár, amelyet prezentációk feldolgozására és kezelésére használnak. A fejlesztők könnyen konvertálhatják a PowerPointot PDF formátumba gyorsan és pontosan. Gyorsan elérheti az eredményeket az üzleti folyamatok automatizálásával. Itt néhány olyan esetet tárgyalunk, amikor be kell olvasni vagy betölteni bármilyen bemenetet [támogatott PowerPoint formátumok](https://docs.aspose.com/slides/python-net/supported-file-formats/), és bármilyen támogatott kimeneti formátumba írni vagy menteni. . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="PowerPoint konvertálása PDF-be Pythonban" %}}
-Az [Aspose.Slides](https://products.aspose.com/slides/python-net/) lehetővé teszi a PowerPoint PPT, PPTX és OpenOffice ODP formátumú fájlok PDF formátumba konvertálását. A prezentáció PDF formátumba konvertálásához egyszerűen adja át a fájl nevét és a mentési formátumot a [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) fájlba. módszer. A [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) osztály a [save](https://docs.aspose.com/slides) /python-net/api-reference/aspose.slides/presentation/) metódus, amellyel a teljes PPT, PPTX vagy ODP prezentáció PDF dokumentummá konvertálható.
+Az [Aspose.Slides](https://products.aspose.com/slides/hu/python-net/) lehetővé teszi a PowerPoint PPT, PPTX és OpenOffice ODP formátumú fájlok PDF formátumba konvertálását. A prezentáció PDF formátumba konvertálásához egyszerűen adja át a fájl nevét és a mentési formátumot a [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) fájlba. módszer. A [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) osztály a [save](https://docs.aspose.com/slides) /python-net/api-reference/aspose.slides/presentation/) metódus, amellyel a teljes PPT, PPTX vagy ODP prezentáció PDF dokumentummá konvertálható.
 
 {{% blocks/products/pf/feature-page-code h3="Python PowerPoint konvertálása PDF-be" %}}
 
@@ -26,7 +26,7 @@ Az [Aspose.Slides](https://products.aspose.com/slides/python-net/) lehetővé te
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="PDF konvertálása PPT-be Pythonban" %}}
-Az [Aspose.Slides](https://products.aspose.com/slides/python-net/) lehetővé teszi prezentációk importálását PDF-ekből. Lényegében a PDF-fájlt PowerPoint-bemutatóvá alakíthatja. A PDF-fájl Powerpoint formátumba konvertálásához kövesse az alábbi lépéseket:
+Az [Aspose.Slides](https://products.aspose.com/slides/hu/python-net/) lehetővé teszi prezentációk importálását PDF-ekből. Lényegében a PDF-fájlt PowerPoint-bemutatóvá alakíthatja. A PDF-fájl Powerpoint formátumba konvertálásához kövesse az alábbi lépéseket:
 - Példányosítsa a [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) osztály objektumát.
 - Hívja meg az [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) metódust, és adja át a PDF-fájlt.
 - A [mentés](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) módszerrel mentse a fájlt PowerPoint formátumban.

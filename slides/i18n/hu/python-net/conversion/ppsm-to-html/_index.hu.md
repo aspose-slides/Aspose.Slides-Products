@@ -14,7 +14,7 @@ description: Mintakód a PPSM-ből HTML-be való Python konverzióhoz. Használj
 
 {{% blocks/products/pf/agp/content h2="Konvertálja a PPSM-et HTML-vé Pythonban" %}}
 
-Programozottan kell konvertálnia a PPSM fájlokat HTML formátumba? Az [*Aspose.Slides for Python .NET-en keresztül történő használatával*](https://products.aspose.com/slides/python-net/) bármely fejlesztő képes konvertálni a PPSM-et HTML formátumba, mindössze néhány sor Python kóddal.
+Programozottan kell konvertálnia a PPSM fájlokat HTML formátumba? Az [*Aspose.Slides for Python .NET-en keresztül történő használatával*](https://products.aspose.com/slides/hu/python-net/) bármely fejlesztő képes konvertálni a PPSM-et HTML formátumba, mindössze néhány sor Python kóddal.
 
 Modern prezentáció-feldolgozási API-ként az Aspose.Slides for Python gyorsan létrehozza a HTML-t PPSM-ből. Tesztelje a PPSM-HTML konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi a PPSM fájlok számos népszerű formátumba való konvertálását.
 
@@ -101,27 +101,27 @@ Használja az ingyenes alkalmazást a PPSM-HTML konvertálási folyamat bemutat�
     
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A PPSM-et számos más fájlformátumba is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bittérképes kép" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="Továbbfejlesztett metafájl formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument Flat XML-bemutató" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Grafikus csereformátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG kép" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument prezentációs formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument szabványos formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="Hordozható dokumentum formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="Hordozható hálózati grafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="Microsoft PowerPoint sablonfájlok" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="Microsoft PowerPoint sablonfájl" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="Microsoft PowerPoint sablon bemutató" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="PowerPoint diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="PowerPoint diavetítés" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="Makró-kompatibilis prezentációs fájl" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="Skálázható vektorgrafika" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF formátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Címkézett képformátum" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML papírspecifikációk" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bittérképes kép" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="Továbbfejlesztett metafájl formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument Flat XML-bemutató" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Grafikus csereformátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG kép" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument prezentációs formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument szabványos formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="Hordozható dokumentum formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="Hordozható hálózati grafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="Microsoft PowerPoint sablonfájlok" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="Microsoft PowerPoint sablonfájl" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="Microsoft PowerPoint sablon bemutató" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="PowerPoint diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="PowerPoint diavetítés" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="Makró-kompatibilis prezentációs fájl" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Nyissa meg az XML prezentációs formátumot" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="Skálázható vektorgrafika" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF formátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Címkézett képformátum" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML papírspecifikációk" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

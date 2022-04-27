@@ -14,7 +14,7 @@ description: पीपीएस से पीओटीएम पायथन र
 
 {{% blocks/products/pf/agp/content h2="PPS को Python में POTM में बदलें" %}}
 
-PPS फ़ाइलों को प्रोग्रामेटिक रूप से POTM में बदलने की आवश्यकता है? .NET*](https://products.aspose.com/slides/python-net/) के माध्यम से [*Aspose.Slides for Python का उपयोग करके कोई भी डेवलपर PPS को POTM प्रारूप में केवल कुछ पंक्तियों में Python कोड के साथ परिवर्तित कर सकता है।
+PPS फ़ाइलों को प्रोग्रामेटिक रूप से POTM में बदलने की आवश्यकता है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से [*Aspose.Slides for Python का उपयोग करके कोई भी डेवलपर PPS को POTM प्रारूप में केवल कुछ पंक्तियों में Python कोड के साथ परिवर्तित कर सकता है।
 
 एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से PPS से POTM बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में PPS से POTM रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको PPS फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.pps") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रूपांतरण" subTitle="आप PPS को कई अन्य फ़ाइल स्वरूपों में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="बिटमैप चित्र" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="ओपन डॉक्यूमेंट फ्लैट एक्सएमएल प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="जेपीईजी छवि" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument मानक प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="वहनीय दस्तावेज़ स्वरूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="पोर्टेबल नेटवर्क ग्राफ़िक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Microsoft PowerPoint टेम्पलेट फ़ाइलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="बिटमैप चित्र" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="उन्नत मेटाफ़ाइल स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="ओपन डॉक्यूमेंट फ्लैट एक्सएमएल प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="ग्राफिकल इंटरचेंज प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="हाइपर टेक्स्ट मार्कअप लैंग्वेज" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="जेपीईजी छवि" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument प्रस्तुति स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument मानक प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="वहनीय दस्तावेज़ स्वरूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="पोर्टेबल नेटवर्क ग्राफ़िक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="Microsoft PowerPoint टेम्पलेट फ़ाइलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="माइक्रोसॉफ्ट पावरपॉइंट टेम्पलेट प्रेजेंटेशन" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="मैक्रो-सक्षम स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="पावरपॉइंट स्लाइड शो" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="माइक्रोसॉफ्ट पावरपॉइंट 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="मैक्रो-सक्षम प्रस्तुति फ़ाइल" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="एक्सएमएल प्रस्तुति प्रारूप खोलें" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="स्केलेबल वेक्टर ग्राफिक्स" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="एसडब्ल्यूएफ प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="टैग की गई छवि प्रारूप" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="एक्सएमएल पेपर निर्दिष्टीकरण" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
