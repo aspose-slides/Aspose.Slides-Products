@@ -14,7 +14,7 @@ description: PPTM에서 POTM C#으로의 변환을 위한 샘플 코드입니다
 {{% blocks/products/pf/agp/content h2="C#을 사용하여 PPTM을 POTM으로 변환하는 방법" %}}
 
  PPTM을 POTM으로 변환하려면 다음을 사용합니다.
- [.NET용 Aspose.Slides](https://products.aspose.com/slides/net)
+ [.NET용 Aspose.Slides](https://products.aspose.com/slides/ko/net)
  기능이 풍부하고 강력하며 사용하기 쉬운 C# 플랫폼용 문서 조작 및 변환 API인 API입니다. 열려 있는
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  패키지 관리자, 검색
@@ -100,26 +100,26 @@ presentation.Save("output.potm", SaveFormat.Potm);
     
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 PPTM을 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="비트맵 이미지" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="향상된 메타파일 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="그래픽 교환 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-html/" name="PPTM TO HTML" description="하이퍼 텍스트 마크업 언어" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG 이미지" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument 표준 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="휴대용 문서 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-png/" name="PPTM TO PNG" description="휴대용 네트워크 그래픽" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-pot/" name="PPTM TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-potx/" name="PPTM TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-pps/" name="PPTM TO PPS" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="매크로 사용 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Open XML 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="확장 가능한 벡터 그래픽" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-swf/" name="PPTM TO SWF" description="SWF 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="태그가 지정된 이미지 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML 용지 사양" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="비트맵 이미지" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="향상된 메타파일 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="그래픽 교환 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-html/" name="PPTM TO HTML" description="하이퍼 텍스트 마크업 언어" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG 이미지" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument 표준 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="휴대용 문서 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-png/" name="PPTM TO PNG" description="휴대용 네트워크 그래픽" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-pot/" name="PPTM TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-potx/" name="PPTM TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-pps/" name="PPTM TO PPS" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="매크로 사용 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Open XML 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="확장 가능한 벡터 그래픽" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-swf/" name="PPTM TO SWF" description="SWF 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="태그가 지정된 이미지 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML 용지 사양" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

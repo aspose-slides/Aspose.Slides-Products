@@ -14,7 +14,7 @@ description: C#-broncode om het PPTX-bestand te vergrendelen met een wachtwoord 
 {{% blocks/products/pf/agp/content h2="Hoe PPTX-bestand te beschermen met C #" %}}
 
  Om het PPTX-bestand te beschermen, gebruiken we
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentbeveiliging voor het C#-platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakketbeheerder, zoek naar
@@ -121,8 +121,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde beveiligingsformaten" subTitle="Met behulp van C# kan men gemakkelijk andere formaten beschermen, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/protect/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

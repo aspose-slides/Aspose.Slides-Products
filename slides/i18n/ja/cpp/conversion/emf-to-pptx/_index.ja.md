@@ -14,7 +14,7 @@ description: EMFドキュメントからPPTX形式へのサンプルC++変換コ
 {{% blocks/products/pf/agp/content h2="C++を使用してEMFをPPTXに変換する方法" %}}
 
  EMFをPPTXに変換するために、
- [Aspose.Slides for C ++]（https://products.aspose.com/slides/cpp）
+ [Aspose.Slides for C ++]（https://products.aspose.com/slides/ja/cpp）
  機能が豊富で強力で使いやすいC++プラットフォーム用のドキュメント操作および変換APIであるAPI。最新バージョンを直接ダウンロードできます。開くだけです。
  [NuGet]（https://www.nuget.org/packages/aspose.slides）
  パッケージマネージャー、検索
@@ -94,26 +94,26 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
     
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="また、EMFを、以下にリストされているいくつかを含む他の多くのファイル形式に変換することもできます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-bmp/" name="EMF TO BMP" description="ビットマップ画像" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-gif/" name="EMF TO GIF" description="グラフィカルな交換形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-html/" name="EMF TO HTML" description="ハイパーテキストマークアップ言語" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-jpeg/" name="EMF TO JPEG" description="JPEG画像" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-odp/" name="EMF TO ODP" description="OpenDocumentプレゼンテーション形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-otp/" name="EMF TO OTP" description="OpenDocument標準フォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-pdf/" name="EMF TO PDF" description="ポータブルドキュメントフォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-png/" name="EMF TO PNG" description="ポータブルネットワークグラフィックス" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-pot/" name="EMF TO POT" description="MicrosoftPowerPointテンプレートファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-potm/" name="EMF TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-potx/" name="EMF TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-pps/" name="EMF TO PPS" description="PowerPointのスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-ppsm/" name="EMF TO PPSM" description="マクロ対応のスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-ppsx/" name="EMF TO PPSX" description="PowerPointのスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-ppt/" name="EMF TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-pptm/" name="EMF TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-svg/" name="EMF TO SVG" description="スケーラブルベクターグラフィックス" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-tiff/" name="EMF TO TIFF" description="タグ付き画像形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-xml/" name="EMF TO XML" description="拡張マークアップ言語" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/emf-to-xps/" name="EMF TO XPS" description="XML用紙仕様" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-bmp/" name="EMF TO BMP" description="ビットマップ画像" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-gif/" name="EMF TO GIF" description="グラフィカルな交換形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-html/" name="EMF TO HTML" description="ハイパーテキストマークアップ言語" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-jpeg/" name="EMF TO JPEG" description="JPEG画像" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-odp/" name="EMF TO ODP" description="OpenDocumentプレゼンテーション形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-otp/" name="EMF TO OTP" description="OpenDocument標準フォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-pdf/" name="EMF TO PDF" description="ポータブルドキュメントフォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-png/" name="EMF TO PNG" description="ポータブルネットワークグラフィックス" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-pot/" name="EMF TO POT" description="MicrosoftPowerPointテンプレートファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-potm/" name="EMF TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-potx/" name="EMF TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-pps/" name="EMF TO PPS" description="PowerPointのスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-ppsm/" name="EMF TO PPSM" description="マクロ対応のスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-ppsx/" name="EMF TO PPSX" description="PowerPointのスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-ppt/" name="EMF TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-pptm/" name="EMF TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-svg/" name="EMF TO SVG" description="スケーラブルベクターグラフィックス" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-tiff/" name="EMF TO TIFF" description="タグ付き画像形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-xml/" name="EMF TO XML" description="拡張マークアップ言語" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/emf-to-xps/" name="EMF TO XPS" description="XML用紙仕様" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

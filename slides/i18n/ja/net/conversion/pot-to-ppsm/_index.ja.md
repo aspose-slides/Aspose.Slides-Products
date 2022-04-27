@@ -14,7 +14,7 @@ description: POTからPPSMへのC＃変換のサンプルコード。 VB.NET、A
 {{% blocks/products/pf/agp/content h2="C＃を使用してPOTをPPSMに変換する方法" %}}
 
  POTをPPSMに変換するには、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/net）
+ [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
  機能が豊富で強力で使いやすいC＃プラットフォーム用のドキュメント操作および変換APIであるAPI。開ける
  [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
  パッケージマネージャー、検索
@@ -100,26 +100,26 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
     
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="また、POTを、以下にリストされているいくつかを含む他の多くのファイル形式に変換することもできます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-bmp/" name="POT TO BMP" description="ビットマップ画像" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-emf/" name="POT TO EMF" description="強化されたメタファイル形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-gif/" name="POT TO GIF" description="グラフィカルな交換形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-html/" name="POT TO HTML" description="ハイパーテキストマークアップ言語" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG画像" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocumentプレゼンテーション形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument標準フォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pdf/" name="POT TO PDF" description="ポータブルドキュメントフォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-png/" name="POT TO PNG" description="ポータブルネットワークグラフィックス" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-potm/" name="POT TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-potx/" name="POT TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPointのスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPointのスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pptm/" name="POT TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-pptx/" name="POT TO PPTX" description="XMLプレゼンテーション形式を開く" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-svg/" name="POT TO SVG" description="スケーラブルベクターグラフィックス" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-swf/" name="POT TO SWF" description="SWFフォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-tiff/" name="POT TO TIFF" description="タグ付き画像形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pot-to-xps/" name="POT TO XPS" description="XML用紙仕様" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-bmp/" name="POT TO BMP" description="ビットマップ画像" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-emf/" name="POT TO EMF" description="強化されたメタファイル形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-gif/" name="POT TO GIF" description="グラフィカルな交換形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-html/" name="POT TO HTML" description="ハイパーテキストマークアップ言語" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG画像" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocumentプレゼンテーション形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument標準フォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-pdf/" name="POT TO PDF" description="ポータブルドキュメントフォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-png/" name="POT TO PNG" description="ポータブルネットワークグラフィックス" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-potm/" name="POT TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-potx/" name="POT TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPointのスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPointのスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-pptm/" name="POT TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-pptx/" name="POT TO PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-svg/" name="POT TO SVG" description="スケーラブルベクターグラフィックス" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-swf/" name="POT TO SWF" description="SWFフォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-tiff/" name="POT TO TIFF" description="タグ付き画像形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/pot-to-xps/" name="POT TO XPS" description="XML用紙仕様" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

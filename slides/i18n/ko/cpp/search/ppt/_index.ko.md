@@ -14,7 +14,7 @@ description: Windows 32비트, Windows 64비트 및 Linux 64비트용 C++ 런타
 {{% blocks/products/pf/agp/content h2="C++를 사용하여 PPT 파일을 검색하는 방법" %}}
 
  PPT 파일을 검색하기 위해, 우리는
- [C++용 Aspose.Slides](https://products.aspose.com/slides/cpp)
+ [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp)
  기능이 풍부하고 강력하며 사용하기 쉬운 C++ 플랫폼용 문서 검색 API인 API입니다. 최신 버전을 직접 다운로드할 수 있습니다.
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  패키지 관리자, 검색
@@ -144,8 +144,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 검색 문서" subTitle="C++를 사용하여 다음을 포함한 다른 파일도 검색할 수 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" description="Open XML 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/search/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/search/pptx/" name="PPTX" description="Open XML 프레젠테이션 형식" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

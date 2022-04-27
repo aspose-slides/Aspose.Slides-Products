@@ -14,7 +14,7 @@ description: Przykładowy kod Java do wyszukiwania słów ze wzorcem w pliku PPT
 {{% blocks/products/pf/agp/content h2="Jak wyszukiwać plik PPTX za pomocą Javy" %}}
 
  Aby wyszukać plik PPTX, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API wyszukiwania dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.
@@ -170,8 +170,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane dokumenty wyszukiwania" subTitle="Za pomocą Javy można również przeszukiwać inne pliki, w tym." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/search/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

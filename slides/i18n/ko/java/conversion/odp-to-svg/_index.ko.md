@@ -14,7 +14,7 @@ description: SVG 파일에 대한 ODP 형식의 샘플 Java 변환 코드. 이 �
 {{% blocks/products/pf/agp/content h2="Java를 사용하여 ODP를 SVG로 변환하는 방법" %}}
 
  ODP를 SVG로 렌더링하려면 다음을 사용합니다.
- [자바용 Aspose.Slides](https://products.aspose.com/slides/java)
+ [자바용 Aspose.Slides](https://products.aspose.com/slides/ko/java)
  기능이 풍부하고 강력하며 사용하기 쉬운 Java 플랫폼용 변환 API인 API입니다. 에서 직접 최신 버전을 다운로드할 수 있습니다.
  [메이븐](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  다음 구성을 pom.xml에 추가하여 Maven 기반 프로젝트 내에 설치합니다.
@@ -121,25 +121,25 @@ try {
     
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 ODP를 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-bmp/" name="ODP TO BMP" description="비트맵 이미지" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-gif/" name="ODP TO GIF" description="그래픽 교환 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-html/" name="ODP TO HTML" description="하이퍼 텍스트 마크업 언어" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-jpeg/" name="ODP TO JPEG" description="JPEG 이미지" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument 표준 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pdf/" name="ODP TO PDF" description="휴대용 문서 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-png/" name="ODP TO PNG" description="휴대용 네트워크 그래픽" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pot/" name="ODP TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-potm/" name="ODP TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-potx/" name="ODP TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pps/" name="ODP TO PPS" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="매크로 사용 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-ppt/" name="ODP TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pptm/" name="ODP TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-pptx/" name="ODP TO PPTX" description="Open XML 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-swf/" name="ODP TO SWF" description="SWF 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-tiff/" name="ODP TO TIFF" description="태그가 지정된 이미지 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/odp-to-xps/" name="ODP TO XPS" description="XML 용지 사양" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-bmp/" name="ODP TO BMP" description="비트맵 이미지" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-gif/" name="ODP TO GIF" description="그래픽 교환 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-html/" name="ODP TO HTML" description="하이퍼 텍스트 마크업 언어" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-jpeg/" name="ODP TO JPEG" description="JPEG 이미지" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument 표준 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-pdf/" name="ODP TO PDF" description="휴대용 문서 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-png/" name="ODP TO PNG" description="휴대용 네트워크 그래픽" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-pot/" name="ODP TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-potm/" name="ODP TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-potx/" name="ODP TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-pps/" name="ODP TO PPS" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="매크로 사용 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-ppt/" name="ODP TO PPT" description="마이크로소프트 파워포인트 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-pptm/" name="ODP TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-pptx/" name="ODP TO PPTX" description="Open XML 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-swf/" name="ODP TO SWF" description="SWF 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-tiff/" name="ODP TO TIFF" description="태그가 지정된 이미지 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/conversion/odp-to-xps/" name="ODP TO XPS" description="XML 용지 사양" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

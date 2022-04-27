@@ -14,7 +14,7 @@ description: Przykładowy kod C++ do łączenia dokumentów PPSX w C++ Runtime E
 {{% blocks/products/pf/agp/content h2="Jak scalić plik PPSX za pomocą C++" %}}
 
  Aby scalić plik PPSX, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu API do łączenia dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki scalania plików PPSX w C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe łączenie i łączenie dokumentów z interfejsami API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe łączenie i łączenie dokumentów z interfejsami API [Aspose.Slides for C++](https://products.aspose.com/slides/pl/cpp) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj oba pliki PPSX.
@@ -131,16 +131,16 @@ PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 a
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty scalania" subTitle="Używając C++, można również połączyć wiele innych formatów plików, w tym..." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/otp/" name="OTP" description="Standardowy format OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pot/" name="POT" description="Pliki szablonów programu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/potm/" name="POTM" description="Plik szablonu programu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/potx/" name="POTX" description="Prezentacja szablonu Microsoft PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pps/" name="PPS" description="Pokaz slajdów programu PowerPoint" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppsm/" name="PPSM" description="Pokaz slajdów z obsługą makr" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pptm/" name="PPTM" description="Plik prezentacji z obsługą makr" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/otp/" name="OTP" description="Standardowy format OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/pot/" name="POT" description="Pliki szablonów programu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/potm/" name="POTM" description="Plik szablonu programu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/potx/" name="POTX" description="Prezentacja szablonu Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/pps/" name="PPS" description="Pokaz slajdów programu PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/ppsm/" name="PPSM" description="Pokaz slajdów z obsługą makr" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/pptm/" name="PPTM" description="Plik prezentacji z obsługą makr" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/merger/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

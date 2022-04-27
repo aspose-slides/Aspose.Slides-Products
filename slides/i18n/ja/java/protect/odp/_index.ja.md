@@ -14,7 +14,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 {{% blocks/products/pf/agp/content h2="Javaを使用してODPファイルを保護する方法" %}}
 
  ODPファイルを保護するために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/java）
+ [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
  機能豊富で強力で使いやすいJavaプラットフォーム用の暗号化APIであるAPI。最新バージョンはから直接ダウンロードできます
  [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
@@ -141,8 +141,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている保護ドキュメント" subTitle="Javaを使用すると、を含む他のファイルを保護できます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/protect/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: C#-broncode om tekst en afbeeldingen uit een PPTX-bestand te extrah
 {{% blocks/products/pf/agp/content h2="Hoe PPTX-bestand te parseren met behulp van C #" %}}
 
  Om het PPTX-bestand te ontleden, gebruiken we
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie voor het C#-platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPTX-bestanden te ontleden in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument ontleden met [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument ontleden met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad PPTX-bestand.
@@ -143,8 +143,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde parseerformaten" subTitle="Met behulp van C# kan men gemakkelijk andere formaten ontleden, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/parser/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

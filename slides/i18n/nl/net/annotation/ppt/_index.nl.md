@@ -14,7 +14,7 @@ description: C#-broncode om annotaties in PPT-indeling op .NET Framework-, .NET 
 {{% blocks/products/pf/agp/content h2="Hoe een PPT-bestand annoteren met C#" %}}
 
  Om het PPT-bestand te annoteren, gebruiken we
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie voor het C#-platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakketbeheerder, zoek naar
@@ -134,8 +134,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde annotatie-indelingen" subTitle="Met behulp van C# kan men gemakkelijk andere formaten annoteren, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/annotation/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/annotation/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/annotation/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/annotation/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

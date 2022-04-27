@@ -14,7 +14,7 @@ description: Voorbeeldcode voor conversie van PPSX naar POT C#. Gebruik API-voor
 {{% blocks/products/pf/agp/content h2="Hoe PPSX naar POT te converteren met C#" %}}
 
  Om PPSX naar POT te converteren, gebruiken we
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie en -conversie voor het C#-platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakketbeheerder, zoek naar
@@ -100,26 +100,26 @@ presentation.Save("output.pot", SaveFormat.Pot);
     
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde conversies" subTitle="U kunt PPSX ook converteren naar vele andere bestandsindelingen, waaronder enkele die hieronder worden vermeld." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Bitmap afbeelding" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="Verbeterde metabestandsindeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="Grafisch uitwisselingsformaat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="Hypertekst-opmaaktaal" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-jpeg/" name="PPSX TO JPEG" description="JPEG-afbeelding" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="Standaardformaat OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="Draagbaar documentformaat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-png/" name="PPSX TO PNG" description="Draagbare netwerkgrafieken" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-potm/" name="PPSX TO POTM" description="Microsoft PowerPoint-sjabloonbestand" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-potx/" name="PPSX TO POTX" description="Microsoft PowerPoint-sjabloonpresentatie" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-pps/" name="PPSX TO PPS" description="PowerPoint-diavoorstelling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" description="Diavoorstelling met macro's" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-ppt/" name="PPSX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" description="Presentatiebestand met macro's" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="Open XML-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-svg/" name="PPSX TO SVG" description="Schaalbare vectorafbeeldingen" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="SWF-formaat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="Gelabelde afbeeldingsindeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="XML-papierspecificaties" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Bitmap afbeelding" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="Verbeterde metabestandsindeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="Grafisch uitwisselingsformaat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="Hypertekst-opmaaktaal" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-jpeg/" name="PPSX TO JPEG" description="JPEG-afbeelding" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="Standaardformaat OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="Draagbaar documentformaat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-png/" name="PPSX TO PNG" description="Draagbare netwerkgrafieken" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-potm/" name="PPSX TO POTM" description="Microsoft PowerPoint-sjabloonbestand" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-potx/" name="PPSX TO POTX" description="Microsoft PowerPoint-sjabloonpresentatie" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-pps/" name="PPSX TO PPS" description="PowerPoint-diavoorstelling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" description="Diavoorstelling met macro's" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-ppt/" name="PPSX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" description="Presentatiebestand met macro's" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-svg/" name="PPSX TO SVG" description="Schaalbare vectorafbeeldingen" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="SWF-formaat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="Gelabelde afbeeldingsindeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="XML-papierspecificaties" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

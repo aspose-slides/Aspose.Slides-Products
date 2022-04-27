@@ -14,7 +14,7 @@ description: PPTドキュメントからTIFF形式へのサンプルC++変換コ
 {{% blocks/products/pf/agp/content h2="C++を使用してPPTをTIFFに変換する方法" %}}
 
  PPTをTIFFに変換するために、
- [Aspose.Slides for C ++]（https://products.aspose.com/slides/cpp）
+ [Aspose.Slides for C ++]（https://products.aspose.com/slides/ja/cpp）
  機能が豊富で強力で使いやすいC++プラットフォーム用のドキュメント操作および変換APIであるAPI。最新バージョンを直接ダウンロードできます。開くだけです。
  [NuGet]（https://www.nuget.org/packages/aspose.slides）
  パッケージマネージャー、検索
@@ -94,26 +94,26 @@ prs->Save(u"convertedFile.tiff", Aspose::Slides::Export::SaveFormat::Tiff);
     
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="また、PPTを、以下にリストされているいくつかを含む他の多くのファイル形式に変換することもできます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" description="ビットマップ画像" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" description="強化されたメタファイル形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" description="グラフィカルな交換形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-html/" name="PPT TO HTML" description="ハイパーテキストマークアップ言語" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" description="JPEG画像" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocumentプレゼンテーション形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument標準フォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" description="ポータブルドキュメントフォーマット" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-png/" name="PPT TO PNG" description="ポータブルネットワークグラフィックス" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-pot/" name="PPT TO POT" description="MicrosoftPowerPointテンプレートファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-potm/" name="PPT TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-potx/" name="PPT TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-pps/" name="PPT TO PPS" description="PowerPointのスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="マクロ対応のスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="PowerPointのスライドショー" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="XMLプレゼンテーション形式を開く" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" description="スケーラブルベクターグラフィックス" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-xml/" name="PPT TO XML" description="拡張マークアップ言語" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML用紙仕様" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" description="ビットマップ画像" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" description="強化されたメタファイル形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" description="グラフィカルな交換形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-html/" name="PPT TO HTML" description="ハイパーテキストマークアップ言語" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" description="JPEG画像" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocumentプレゼンテーション形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument標準フォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" description="ポータブルドキュメントフォーマット" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-png/" name="PPT TO PNG" description="ポータブルネットワークグラフィックス" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-pot/" name="PPT TO POT" description="MicrosoftPowerPointテンプレートファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-potm/" name="PPT TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-potx/" name="PPT TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-pps/" name="PPT TO PPS" description="PowerPointのスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="マクロ対応のスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="PowerPointのスライドショー" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" description="スケーラブルベクターグラフィックス" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-xml/" name="PPT TO XML" description="拡張マークアップ言語" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML用紙仕様" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

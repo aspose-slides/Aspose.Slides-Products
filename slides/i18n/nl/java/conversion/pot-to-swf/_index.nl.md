@@ -14,7 +14,7 @@ description: Voorbeeld Java-conversiecode voor POT-indeling naar SWF-bestand. Ge
 {{% blocks/products/pf/agp/content h2="Hoe POT naar SWF te converteren met Java" %}}
 
  Om POT naar SWF te renderen, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
  API, een veelzijdige, krachtige en gebruiksvriendelijke conversie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -108,25 +108,25 @@ presentation.save("output.swf", SaveFormat.Swf);
     
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde conversies" subTitle="U kunt POT ook converteren naar vele andere bestandsindelingen, waaronder enkele die hieronder worden vermeld." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap afbeelding" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-gif/" name="POT TO GIF" description="Grafisch uitwisselingsformaat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-html/" name="POT TO HTML" description="Hypertekst-opmaaktaal" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG-afbeelding" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-otp/" name="POT TO OTP" description="Standaardformaat OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-pdf/" name="POT TO PDF" description="Draagbaar documentformaat" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-png/" name="POT TO PNG" description="Draagbare netwerkgrafieken" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint-sjabloonbestand" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint-sjabloonpresentatie" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint-diavoorstelling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Diavoorstelling met macro's" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint-diavoorstelling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-pptm/" name="POT TO PPTM" description="Presentatiebestand met macro's" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-pptx/" name="POT TO PPTX" description="Open XML-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-svg/" name="POT TO SVG" description="Schaalbare vectorafbeeldingen" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-tiff/" name="POT TO TIFF" description="Gelabelde afbeeldingsindeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pot-to-xps/" name="POT TO XPS" description="XML-papierspecificaties" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap afbeelding" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-gif/" name="POT TO GIF" description="Grafisch uitwisselingsformaat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-html/" name="POT TO HTML" description="Hypertekst-opmaaktaal" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG-afbeelding" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-otp/" name="POT TO OTP" description="Standaardformaat OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-pdf/" name="POT TO PDF" description="Draagbaar documentformaat" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-png/" name="POT TO PNG" description="Draagbare netwerkgrafieken" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint-sjabloonbestand" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint-sjabloonpresentatie" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint-diavoorstelling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Diavoorstelling met macro's" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint-diavoorstelling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-pptm/" name="POT TO PPTM" description="Presentatiebestand met macro's" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-pptx/" name="POT TO PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-svg/" name="POT TO SVG" description="Schaalbare vectorafbeeldingen" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-tiff/" name="POT TO TIFF" description="Gelabelde afbeeldingsindeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/pot-to-xps/" name="POT TO XPS" description="XML-papierspecificaties" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -14,7 +14,7 @@ description: Java-voorbeeldcode om gevoelige informatie in ODP-bestand op Java R
 {{% blocks/products/pf/agp/content h2="Hoe een ODP-bestand te redigeren met Java" %}}
 
  Om het ODP-bestand te redigeren, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
  API, een veelzijdige, krachtige en gebruiksvriendelijke redactie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -54,7 +54,7 @@ description: Java-voorbeeldcode om gevoelige informatie in ODP-bestand op Java R
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om ODP-bestanden in Java te redigeren" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen of metadata met [Aspose.Slides for Java](https://products.aspose.com/slides/java) API's kunnen worden gedaan met slechts enkele regels code. Zoek en vervang tekst in PowerPoint en OpenOffice. Bewerk tekst, opmerkingen, metadata in presentatie via regexp data matching." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen of metadata met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java) API's kunnen worden gedaan met slechts enkele regels code. Zoek en vervang tekst in PowerPoint en OpenOffice. Bewerk tekst, opmerkingen, metadata in presentatie via regexp data matching." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODP-presentatie laden.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde redactiedocumenten" subTitle="Met Java kan men gemakkelijk verschillende formaten redigeren, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/redaction/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

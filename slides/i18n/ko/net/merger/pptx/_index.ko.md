@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono 또는 Xamarin 플�
 {{% blocks/products/pf/agp/content h2="C#을 사용하여 PPTX 파일을 병합하는 방법" %}}
 
  PPTX 파일을 병합하려면 다음을 사용합니다.
- [.NET용 Aspose.Slides](https://products.aspose.com/slides/net)
+ [.NET용 Aspose.Slides](https://products.aspose.com/slides/ko/net)
  기능이 풍부하고 강력하며 사용하기 쉬운 문서 조작 및 병합 API인 C# 플랫폼용 API입니다. 열려 있는
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  패키지 관리자, 검색
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C#에서 PPTX 파일을 병합하는 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/net) API로 기본 문서 병합 및 연결을 몇 줄의 코드로 수행할 수 있습니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/ko/net) API로 기본 문서 병합 및 연결을 몇 줄의 코드로 수행할 수 있습니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 전체 경로로 모든 PPTX 파일을 로드합니다.
@@ -146,16 +146,16 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 병합 형식" subTitle="C#을 사용하여 One은 다음을 포함한 많은 다른 파일 형식을 병합할 수도 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/otp/" name="OTP" description="OpenDocument 표준 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pot/" name="POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potm/" name="POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/potx/" name="POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pps/" name="PPS" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsm/" name="PPSM" description="매크로 사용 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppsx/" name="PPSX" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/ppt/" name="PPT" description="마이크로소프트 파워포인트 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pptm/" name="PPTM" description="매크로 사용 프레젠테이션 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/otp/" name="OTP" description="OpenDocument 표준 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/pot/" name="POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/potm/" name="POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/potx/" name="POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/pps/" name="PPS" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/ppsm/" name="PPSM" description="매크로 사용 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/ppsx/" name="PPSX" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/ppt/" name="PPT" description="마이크로소프트 파워포인트 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/merger/pptm/" name="PPTM" description="매크로 사용 프레젠테이션 파일" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

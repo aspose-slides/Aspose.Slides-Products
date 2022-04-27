@@ -14,7 +14,7 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 {{% blocks/products/pf/agp/content h2="C＃を使用してPPTXファイルを検索する方法" %}}
 
  PPTXファイルを検索するには、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/net）
+ [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
  APIは、C＃プラットフォーム用のAPIを検索する、機能が豊富で強力で使いやすいMicrosoftPowerPointファイルです。開ける
  [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
  パッケージマネージャー、検索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C＃でPPTXファイルを検索する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET]（https://products.aspose.com/slides/net）APIを使用した基本的なドキュメント検索は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）APIを使用した基本的なドキュメント検索は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPTXファイルをロードします。
@@ -153,8 +153,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている検索形式" subTitle="C＃を使用すると、を含む他の形式を検索することもできます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="OpenDocumentプレゼンテーション形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/search/odp/" name="ODP" description="OpenDocumentプレゼンテーション形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/search/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

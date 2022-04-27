@@ -14,7 +14,7 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 {{% blocks/products/pf/agp/content h2="C＃を使用してODPファイルを解析する方法" %}}
 
  ODPファイルを解析するために、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/net）
+ [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
  C＃プラットフォーム用の機能豊富で強力で使いやすいドキュメント操作APIであるAPI。開ける
  [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
  パッケージマネージャー、検索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C＃でODPファイルを解析する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET]（https://products.aspose.com/slides/net）APIを使用した基本的なドキュメントの解析は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）APIを使用した基本的なドキュメントの解析は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODPファイルをロードします。
@@ -143,8 +143,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている解析形式" subTitle="C＃を使用すると、を含む他の形式を簡単に解析できます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/parser/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/parser/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

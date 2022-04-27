@@ -14,7 +14,7 @@ description: PPSからTIFFPythonへの変換のサンプルコード。 PowerPoi
 
 {{% blocks/products/pf/agp/content h2="PythonでPPSをTIFFに変換する" %}}
 
-プログラムでPPSファイルをTIFFに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/python-net/）を使用すると、開発者は数行のPythonコードでPPSをTIFF形式に変換できます。
+プログラムでPPSファイルをTIFFに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/ja/python-net/）を使用すると、開発者は数行のPythonコードでPPSをTIFF形式に変換できます。
 
 最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPPSからTIFFをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion）でPPSからTIFFへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、PPSファイルを多くの一般的な形式に変換できます。
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.pps") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="PPSを他の多くのファイル形式に変換することもできます。以下のサポートされている他の変換を参照してください" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="ビットマップ画像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="強化されたメタファイル形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocumentフラットXMLプレゼンテーション" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="グラフィカルな交換形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="ハイパーテキストマークアップ言語" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG画像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocumentプレゼンテーション形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument標準フォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="ポータブルドキュメントフォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="ポータブルネットワークグラフィックス" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="MicrosoftPowerPointテンプレートファイル" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="マクロ対応のスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="PowerPointのスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="XMLプレゼンテーション形式を開く" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="スケーラブルベクターグラフィックス" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWFフォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML用紙仕様" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="ビットマップ画像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="強化されたメタファイル形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocumentフラットXMLプレゼンテーション" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="グラフィカルな交換形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="ハイパーテキストマークアップ言語" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG画像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocumentプレゼンテーション形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument標準フォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="ポータブルドキュメントフォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="ポータブルネットワークグラフィックス" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="MicrosoftPowerPointテンプレートファイル" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="マクロ対応のスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="PowerPointのスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="XMLプレゼンテーション形式を開く" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="スケーラブルベクターグラフィックス" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWFフォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML用紙仕様" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

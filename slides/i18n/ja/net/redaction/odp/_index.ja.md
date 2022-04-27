@@ -14,7 +14,7 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 {{% blocks/products/pf/agp/content h2="C＃を使用してODPファイルを編集する方法" %}}
 
  ODPファイルを編集するために、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/net）
+ [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
  C＃プラットフォーム用の機能豊富で強力で使いやすいドキュメント操作APIであるAPI。開ける
  [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
  パッケージマネージャー、検索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C＃でODPファイルを編集する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="基本的なドキュメント検索と、コンテンツ、コメント、またはメタデータのテキストを[Aspose.Slides for .NET]（https://products.aspose.com/slides/net）APIに置き換えると、わずか数行のコードで実行できます。 PowerPointとOpenOfficeでテキストを検索して置き換えます。正規表現データマッチングを介して、プレゼンテーションのテキスト、コメント、メタデータを編集します。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="基本的なドキュメント検索と、コンテンツ、コメント、またはメタデータのテキストを[Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）APIに置き換えると、わずか数行のコードで実行できます。 PowerPointとOpenOfficeでテキストを検索して置き換えます。正規表現データマッチングを介して、プレゼンテーションのテキスト、コメント、メタデータを編集します。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODPプレゼンテーションをロードします。
@@ -134,8 +134,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている編集フォーマット" subTitle="C＃を使用すると、次のようなさまざまな形式を簡単に編集できます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/redaction/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

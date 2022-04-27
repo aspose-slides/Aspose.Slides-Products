@@ -14,7 +14,7 @@ description: POTからPPTMへのPython変換のサンプルコード。 PowerPoi
 
 {{% blocks/products/pf/agp/content h2="PythonでPOTをPPTMに変換する" %}}
 
-プログラムでPOTフ​​ァイルをPPTMに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/python-net/）を使用すると、開発者は数行のPythonコードでPOTをPPTM形式に変換できます。
+プログラムでPOTフ​​ァイルをPPTMに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/ja/python-net/）を使用すると、開発者は数行のPythonコードでPOTをPPTM形式に変換できます。
 
 最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPOTからPPTMをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion）でPOTからPPTMへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、POTファイルを多くの一般的な形式に変換できます。
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.pot") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="POTを他の多くのファイル形式に変換することもできます。以下のサポートされている他の変換を参照してください" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="ビットマップ画像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="強化されたメタファイル形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocumentフラットXMLプレゼンテーション" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="グラフィカルな交換形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="ハイパーテキストマークアップ言語" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG画像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocumentプレゼンテーション形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument標準フォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="ポータブルドキュメントフォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-png/" name="POT TO PNG" description="ポータブルネットワークグラフィックス" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPointのスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="マクロ対応のスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPointのスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="XMLプレゼンテーション形式を開く" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="スケーラブルベクターグラフィックス" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="SWFフォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="タグ付き画像形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML用紙仕様" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="ビットマップ画像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="強化されたメタファイル形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocumentフラットXMLプレゼンテーション" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="グラフィカルな交換形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-html/" name="POT TO HTML" description="ハイパーテキストマークアップ言語" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG画像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocumentプレゼンテーション形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument標準フォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="ポータブルドキュメントフォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-png/" name="POT TO PNG" description="ポータブルネットワークグラフィックス" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="MicrosoftPowerPointテンプレートプレゼンテーション" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPointのスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="マクロ対応のスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPointのスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="XMLプレゼンテーション形式を開く" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="スケーラブルベクターグラフィックス" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="SWFフォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="タグ付き画像形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML用紙仕様" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

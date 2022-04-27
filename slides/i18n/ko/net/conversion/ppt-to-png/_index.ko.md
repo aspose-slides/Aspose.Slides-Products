@@ -14,7 +14,7 @@ description: PPT에서 PNG C#으로 변환하기 위한 샘플 코드입니다. 
 {{% blocks/products/pf/agp/content h2="C#을 사용하여 PPT를 PNG로 변환하는 방법" %}}
 
  PPT를 PNG로 변환하려면 다음을 사용합니다.
- [.NET용 Aspose.Slides](https://products.aspose.com/slides/net)
+ [.NET용 Aspose.Slides](https://products.aspose.com/slides/ko/net)
  기능이 풍부하고 강력하며 사용하기 쉬운 C# 플랫폼용 문서 조작 및 변환 API인 API입니다. 열려 있는
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  패키지 관리자, 검색
@@ -112,26 +112,26 @@ using (var presentation = new Presentation("template.ppt"))
     
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 변환" subTitle="아래에 나열된 몇 가지를 포함하여 PPT를 다른 많은 파일 형식으로 변환할 수도 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="비트맵 이미지" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-emf/" name="PPT TO EMF" description="향상된 메타파일 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="그래픽 교환 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-html/" name="PPT TO HTML" description="하이퍼 텍스트 마크업 언어" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" description="JPEG 이미지" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocument 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument 표준 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-pdf/" name="PPT TO PDF" description="휴대용 문서 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-pot/" name="PPT TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-potm/" name="PPT TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-potx/" name="PPT TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-pps/" name="PPT TO PPS" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="매크로 사용 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="파워포인트 슬라이드 쇼" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Open XML 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-svg/" name="PPT TO SVG" description="확장 가능한 벡터 그래픽" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="태그가 지정된 이미지 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML 용지 사양" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="비트맵 이미지" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-emf/" name="PPT TO EMF" description="향상된 메타파일 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="그래픽 교환 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-html/" name="PPT TO HTML" description="하이퍼 텍스트 마크업 언어" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" description="JPEG 이미지" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocument 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument 표준 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-pdf/" name="PPT TO PDF" description="휴대용 문서 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-pot/" name="PPT TO POT" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-potm/" name="PPT TO POTM" description="마이크로소프트 파워포인트 템플릿 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-potx/" name="PPT TO POTX" description="마이크로소프트 파워포인트 템플릿 프레젠테이션" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-pps/" name="PPT TO PPS" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="매크로 사용 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="파워포인트 슬라이드 쇼" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="매크로 사용 프레젠테이션 파일" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Open XML 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-svg/" name="PPT TO SVG" description="확장 가능한 벡터 그래픽" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="태그가 지정된 이미지 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML 용지 사양" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

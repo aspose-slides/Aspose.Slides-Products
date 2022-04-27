@@ -14,7 +14,7 @@ description: Przykładowy kod Java do dodawania lub usuwania znaku wodnego do pl
 {{% blocks/products/pf/agp/content h2="Jak dodać znak wodny do pliku PPT za pomocą Java" %}}
 
  Aby oznaczyć plik PPT ze znakiem wodnym, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API do znakowania wodnego dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.
@@ -166,7 +166,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty znaków wodnych" subTitle="Korzystając z Javy, można łatwo znakować różne formaty, w tym." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/watermark/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/watermark/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

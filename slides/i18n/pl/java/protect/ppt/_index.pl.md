@@ -14,7 +14,7 @@ description: Przykładowy kod Java do blokowania pliku PPT przy użyciu hasła w
 {{% blocks/products/pf/agp/content h2="Jak zabezpieczyć plik PPT za pomocą Javy" %}}
 
  W celu ochrony pliku PPT użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API szyfrowania dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.
@@ -141,8 +141,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane dokumenty dotyczące ochrony" subTitle="Za pomocą Javy można chronić inne pliki, w tym." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/protect/odp/" name="ODP" description="Format prezentacji OpenDocument" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/protect/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

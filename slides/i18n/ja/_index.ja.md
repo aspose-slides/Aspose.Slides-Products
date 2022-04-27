@@ -11,19 +11,19 @@ description: Aspose.Slidesはプレゼンテーションを操作するための
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.SlidesハイコードAPIには次のものが含まれます" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/ja/net" >}}
 オンプレミス.NETAPIは、COM相互運用機能を介して.NET Framework、.NET Core、およびその他のプラットフォームを使用して開発されたアプリケーション内でMicrosoftPowerPointプレゼンテーションを操作します。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/ja/java" >}}
 JavaSEまたはEEに基づく任意のアプリケーションでMicrosoftPowerPointプレゼンテーション、スライド、およびそれらの要素を作成、ロード、操作、変換、または解析するためのJavaAPI。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/ja/cpp" >}}
 Microsoft PowerPointファイルを作成、ロード、操作、変換、またはレンダリングするためのC++アプリケーション用のネイティブライブラリ。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="すべてのハイコードAPIを表示" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/slides/ja/family/" innerText="すべてのハイコードAPIを表示" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

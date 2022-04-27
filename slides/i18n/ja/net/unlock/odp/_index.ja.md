@@ -14,7 +14,7 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 {{% blocks/products/pf/agp/content h2="C＃を使用してODPファイルのロックを解除する方法" %}}
 
  保護ODPファイルを削除するために、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/net）
+ [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
  C＃プラットフォーム用の機能が豊富で強力で使いやすいドキュメント保護APIであるAPI。開ける
  [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
  パッケージマネージャー、検索
@@ -127,8 +127,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされているロック解除フォーマット" subTitle="C＃を使用すると、を含むさまざまな形式の保護/ロック解除を簡単に削除できます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/unlock/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/unlock/pptx/" name="PPTX" description="XMLプレゼンテーション形式を開く" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

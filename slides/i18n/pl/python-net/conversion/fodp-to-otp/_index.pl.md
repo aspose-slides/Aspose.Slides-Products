@@ -14,7 +14,7 @@ description: Przykładowy kod do konwersji FODP na OTP Python. Użyj PowerPoint 
 
 {{% blocks/products/pf/agp/content h2="Konwertuj FODP na OTP w Pythonie" %}}
 
-Chcesz programowo przekonwertować pliki FODP na OTP? Używając [*Aspose.Slides for Python przez .NET*](https://products.aspose.com/slides/python-net/) każdy programista może przekonwertować FODP na format OTP za pomocą zaledwie kilku wierszy kodu Pythona.
+Chcesz programowo przekonwertować pliki FODP na OTP? Używając [*Aspose.Slides for Python przez .NET*](https://products.aspose.com/slides/pl/python-net/) każdy programista może przekonwertować FODP na format OTP za pomocą zaledwie kilku wierszy kodu Pythona.
 
 Jako nowoczesny interfejs API do przetwarzania prezentacji, Aspose.Slides for Python szybko tworzy OTP z FODP. Przetestuj jakość konwersji FODP na OTP bezpośrednio w [przeglądarce](https://products.aspose.app/slides/conversion). Biblioteka Aspose PowerPoint PPTX umożliwia konwersję plików FODP do wielu popularnych formatów.
 
@@ -101,27 +101,27 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
     
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane konwersje" subTitle="Możesz także przekonwertować FODP na wiele innych formatów plików. Zobacz inne obsługiwane konwersje poniżej" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmapa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Ulepszony format metapliku" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Graficzny format wymiany" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="hipertekstowy język znaczników" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Obraz JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Format prezentacji OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="format dokumentu przenośnego" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Przenośna Grafika Sieciowa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Pliki szablonów programu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Plik szablonu programu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Prezentacja szablonu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Pokaz slajdów programu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Pokaz slajdów z obsługą makr" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="Pokaz slajdów programu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Plik prezentacji z obsługą makr" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Otwórz format prezentacji XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Skalowalna Grafika wektorowa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="Format SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Oznaczony format obrazu" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Specyfikacje papieru XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmapa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Ulepszony format metapliku" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Graficzny format wymiany" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="hipertekstowy język znaczników" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="Obraz JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="Format prezentacji OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-pdf/" name="FODP TO PDF" description="format dokumentu przenośnego" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-png/" name="FODP TO PNG" description="Przenośna Grafika Sieciowa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-pot/" name="FODP TO POT" description="Pliki szablonów programu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-potm/" name="FODP TO POTM" description="Plik szablonu programu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-potx/" name="FODP TO POTX" description="Prezentacja szablonu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-pps/" name="FODP TO PPS" description="Pokaz slajdów programu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Pokaz slajdów z obsługą makr" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="Pokaz slajdów programu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Plik prezentacji z obsługą makr" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-pptx/" name="FODP TO PPTX" description="Otwórz format prezentacji XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-svg/" name="FODP TO SVG" description="Skalowalna Grafika wektorowa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-swf/" name="FODP TO SWF" description="Format SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Oznaczony format obrazu" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/fodp-to-xps/" name="FODP TO XPS" description="Specyfikacje papieru XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

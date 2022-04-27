@@ -14,7 +14,7 @@ description: Java-voorbeeldcode om PPT-bestand te vergrendelen met wachtwoord in
 {{% blocks/products/pf/agp/content h2="Hoe PPT-bestand te beveiligen met Java" %}}
 
  Om het PPT-bestand te beschermen, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
  API, een veelzijdige, krachtige en gebruiksvriendelijke encryptie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -141,8 +141,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde beveiligingsdocumenten" subTitle="Met Java kan men andere bestanden beschermen, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/protect/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/protect/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/protect/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

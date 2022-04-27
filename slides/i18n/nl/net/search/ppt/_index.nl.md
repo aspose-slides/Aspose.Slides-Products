@@ -14,7 +14,7 @@ description: C# broncode om woorden met patroon te zoeken in PPT-bestand op .NET
 {{% blocks/products/pf/agp/content h2="Hoe PPT-bestand te zoeken met behulp van C #" %}}
 
  Om het PPT-bestand te zoeken, gebruiken we
- [Aspose.Slides voor .NET](https://products.aspose.com/slides/net)
+ [Aspose.Slides voor .NET](https://products.aspose.com/slides/nl/net)
  API, een veelzijdige, krachtige en gebruiksvriendelijke Microsoft PowerPoint-documenten die API voor het C#-platform zoeken. Open
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPT-bestanden te zoeken in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een eenvoudige documentzoekopdracht met [Aspose.Slides for .NET](https://products.aspose.com/slides/net) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een eenvoudige documentzoekopdracht met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad PPT-bestand.
@@ -153,8 +153,8 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde zoekformaten" subTitle="Met C# kan men ook in andere formaten zoeken, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/search/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/search/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

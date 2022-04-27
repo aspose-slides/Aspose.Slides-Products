@@ -14,7 +14,7 @@ description: C++ voorbeeldcode om PPTX-bestand te vergrendelen met wachtwoord op
 {{% blocks/products/pf/agp/content h2="Hoe PPTX-bestand te beveiligen met C++" %}}
 
  Om het PPTX-bestand te beschermen, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentcodering voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar
@@ -124,8 +124,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde beveiligingsdocumenten" subTitle="Met behulp van C ++ kan men andere bestanden beschermen, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/protect/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

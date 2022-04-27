@@ -14,7 +14,7 @@ description: .NET Framework, .NET Core, Windows Azure, Mono 또는 Xamarin 플�
 {{% blocks/products/pf/agp/content h2="C#을 사용하여 PPTX 파일을 수정하는 방법" %}}
 
  PPTX 파일을 수정하려면 다음을 사용합니다.
- [.NET용 Aspose.Slides](https://products.aspose.com/slides/net)
+ [.NET용 Aspose.Slides](https://products.aspose.com/slides/ko/net)
  기능이 풍부하고 강력하며 사용하기 쉬운 C# 플랫폼용 문서 조작 API인 API입니다. 열려 있는
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  패키지 관리자, 검색
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C#에서 PPTX 파일을 수정하는 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/net) API를 사용하여 기본 문서 검색 및 콘텐츠, 주석 또는 메타데이터의 텍스트를 몇 줄의 코드로 대체할 수 있습니다. PowerPoint 및 OpenOffice에서 텍스트 찾기 및 바꾸기. 정규 표현식 데이터 일치를 통해 프레젠테이션의 텍스트, 주석, 메타데이터를 편집합니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/ko/net) API를 사용하여 기본 문서 검색 및 콘텐츠, 주석 또는 메타데이터의 텍스트를 몇 줄의 코드로 대체할 수 있습니다. PowerPoint 및 OpenOffice에서 텍스트 찾기 및 바꾸기. 정규 표현식 데이터 일치를 통해 프레젠테이션의 텍스트, 주석, 메타데이터를 편집합니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPTX 프레젠테이션을 로드합니다.
@@ -134,8 +134,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 수정 형식" subTitle="C#을 사용하면 다음을 포함한 다양한 형식을 쉽게 수정할 수 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/redaction/ppt/" name="PPT" description="마이크로소프트 파워포인트 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/redaction/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/net/redaction/ppt/" name="PPT" description="마이크로소프트 파워포인트 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

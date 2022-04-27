@@ -14,7 +14,7 @@ description: Przykładowy kod Java do redagowania poufnych informacji w pliku OD
 {{% blocks/products/pf/agp/content h2="Jak zredagować plik ODP za pomocą Javy" %}}
 
  Aby zredagować plik ODP, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API redakcyjnym dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.
@@ -54,7 +54,7 @@ description: Przykładowy kod Java do redagowania poufnych informacji w pliku OD
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki redagowania plików ODP w Javie" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wyszukiwanie dokumentów i zamienianie tekstu w treści, komentarzach lub metadanych za pomocą interfejsów API [Aspose.Slides for Java](https://products.aspose.com/slides/java) można wykonać za pomocą zaledwie kilku wierszy kodu. Znajdź i zamień tekst w PowerPoint i OpenOffice. Edytuj tekst, komentarze, metadane w prezentacji poprzez dopasowanie danych regexp." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wyszukiwanie dokumentów i zamienianie tekstu w treści, komentarzach lub metadanych za pomocą interfejsów API [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java) można wykonać za pomocą zaledwie kilku wierszy kodu. Znajdź i zamień tekst w PowerPoint i OpenOffice. Edytuj tekst, komentarze, metadane w prezentacji poprzez dopasowanie danych regexp." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj prezentację ODP.
@@ -166,8 +166,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane dokumenty redakcyjne" subTitle="Korzystając z Javy, można łatwo redagować różne formaty, w tym." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/redaction/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/redaction/pptx/" name="PPTX" description="Otwórz format prezentacji XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

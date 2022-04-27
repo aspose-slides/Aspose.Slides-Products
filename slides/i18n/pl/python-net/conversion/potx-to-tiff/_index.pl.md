@@ -14,7 +14,7 @@ description: Przykładowy kod do konwersji POTX do TIFF w Pythonie. Użyj PowerP
 
 {{% blocks/products/pf/agp/content h2="Konwertuj POTX na TIFF w Pythonie" %}}
 
-Chcesz programowo przekonwertować pliki POTX na TIFF? Używając [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/python-net/) każdy programista może przekonwertować POTX na format TIFF za pomocą zaledwie kilku wierszy kodu Pythona.
+Chcesz programowo przekonwertować pliki POTX na TIFF? Używając [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/pl/python-net/) każdy programista może przekonwertować POTX na format TIFF za pomocą zaledwie kilku wierszy kodu Pythona.
 
 Jako nowoczesny interfejs API do przetwarzania prezentacji, Aspose.Slides for Python szybko tworzy TIFF z POTX. Przetestuj jakość konwersji POTX na TIFF bezpośrednio w [przeglądarce](https://products.aspose.app/slides/conversion). Biblioteka Aspose PowerPoint PPTX umożliwia konwersję plików POTX do wielu popularnych formatów.
 
@@ -101,27 +101,27 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
     
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane konwersje" subTitle="Możesz także przekonwertować POTX na wiele innych formatów plików. Zobacz inne obsługiwane konwersje poniżej" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmapa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-emf/" name="POTX TO EMF" description="Ulepszony format metapliku" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-fodp/" name="POTX TO FODP" description="Prezentacja OpenDocument Flat XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-gif/" name="POTX TO GIF" description="Graficzny format wymiany" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-html/" name="POTX TO HTML" description="hipertekstowy język znaczników" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-jpg/" name="POTX TO JPG" description="Obraz JPEG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-odp/" name="POTX TO ODP" description="Format prezentacji OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-otp/" name="POTX TO OTP" description="Standardowy format OpenDocument" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pdf/" name="POTX TO PDF" description="format dokumentu przenośnego" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-png/" name="POTX TO PNG" description="Przenośna Grafika Sieciowa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pot/" name="POTX TO POT" description="Pliki szablonów programu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-potm/" name="POTX TO POTM" description="Plik szablonu programu Microsoft PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pps/" name="POTX TO PPS" description="Pokaz slajdów programu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Pokaz slajdów z obsługą makr" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="Pokaz slajdów programu PowerPoint" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Plik prezentacji z obsługą makr" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Otwórz format prezentacji XML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-svg/" name="POTX TO SVG" description="Skalowalna Grafika wektorowa" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-swf/" name="POTX TO SWF" description="Format SWF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-xps/" name="POTX TO XPS" description="Specyfikacje papieru XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmapa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-emf/" name="POTX TO EMF" description="Ulepszony format metapliku" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-fodp/" name="POTX TO FODP" description="Prezentacja OpenDocument Flat XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-gif/" name="POTX TO GIF" description="Graficzny format wymiany" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-html/" name="POTX TO HTML" description="hipertekstowy język znaczników" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-jpg/" name="POTX TO JPG" description="Obraz JPEG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-odp/" name="POTX TO ODP" description="Format prezentacji OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-otp/" name="POTX TO OTP" description="Standardowy format OpenDocument" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-pdf/" name="POTX TO PDF" description="format dokumentu przenośnego" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-png/" name="POTX TO PNG" description="Przenośna Grafika Sieciowa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-pot/" name="POTX TO POT" description="Pliki szablonów programu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-potm/" name="POTX TO POTM" description="Plik szablonu programu Microsoft PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-pps/" name="POTX TO PPS" description="Pokaz slajdów programu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Pokaz slajdów z obsługą makr" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="Pokaz slajdów programu PowerPoint" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Plik prezentacji z obsługą makr" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Otwórz format prezentacji XML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-svg/" name="POTX TO SVG" description="Skalowalna Grafika wektorowa" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-swf/" name="POTX TO SWF" description="Format SWF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/conversion/potx-to-xps/" name="POTX TO XPS" description="Specyfikacje papieru XML" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

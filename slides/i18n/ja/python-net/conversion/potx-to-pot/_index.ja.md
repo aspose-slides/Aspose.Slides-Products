@@ -14,7 +14,7 @@ description: POTXからPOTPythonへの変換のサンプルコード。 PowerPoi
 
 {{% blocks/products/pf/agp/content h2="PythonでPOTXをPOTに変換する" %}}
 
-プログラムでPOTXファイルをPOTに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/python-net/）を使用すると、開発者は数行のPythonコードでPOTXをPOT形式に変換できます。
+プログラムでPOTXファイルをPOTに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/ja/python-net/）を使用すると、開発者は数行のPythonコードでPOTXをPOT形式に変換できます。
 
 最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPOTXからPOTをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion）でPOTXからPOTへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、POTXファイルを多くの一般的な形式に変換できます。
 
@@ -101,27 +101,27 @@ with slides.Presentation("presentation.potx") as presentation:
     
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="POTXを他の多くのファイル形式に変換することもできます。以下のサポートされている他の変換を参照してください" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="ビットマップ画像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-emf/" name="POTX TO EMF" description="強化されたメタファイル形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-fodp/" name="POTX TO FODP" description="OpenDocumentフラットXMLプレゼンテーション" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-gif/" name="POTX TO GIF" description="グラフィカルな交換形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-html/" name="POTX TO HTML" description="ハイパーテキストマークアップ言語" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-jpg/" name="POTX TO JPG" description="JPEG画像" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-odp/" name="POTX TO ODP" description="OpenDocumentプレゼンテーション形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument標準フォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pdf/" name="POTX TO PDF" description="ポータブルドキュメントフォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-png/" name="POTX TO PNG" description="ポータブルネットワークグラフィックス" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-potm/" name="POTX TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pps/" name="POTX TO PPS" description="PowerPointのスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="マクロ対応のスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="PowerPointのスライドショー" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="XMLプレゼンテーション形式を開く" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-svg/" name="POTX TO SVG" description="スケーラブルベクターグラフィックス" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-swf/" name="POTX TO SWF" description="SWFフォーマット" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="タグ付き画像形式" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potx-to-xps/" name="POTX TO XPS" description="XML用紙仕様" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="ビットマップ画像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-emf/" name="POTX TO EMF" description="強化されたメタファイル形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-fodp/" name="POTX TO FODP" description="OpenDocumentフラットXMLプレゼンテーション" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-gif/" name="POTX TO GIF" description="グラフィカルな交換形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-html/" name="POTX TO HTML" description="ハイパーテキストマークアップ言語" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-jpg/" name="POTX TO JPG" description="JPEG画像" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-odp/" name="POTX TO ODP" description="OpenDocumentプレゼンテーション形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument標準フォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-pdf/" name="POTX TO PDF" description="ポータブルドキュメントフォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-png/" name="POTX TO PNG" description="ポータブルネットワークグラフィックス" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-potm/" name="POTX TO POTM" description="MicrosoftPowerPointテンプレートファイル" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-pps/" name="POTX TO PPS" description="PowerPointのスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="マクロ対応のスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="PowerPointのスライドショー" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-pptm/" name="POTX TO PPTM" description="マクロ対応のプレゼンテーションファイル" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="XMLプレゼンテーション形式を開く" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-svg/" name="POTX TO SVG" description="スケーラブルベクターグラフィックス" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-swf/" name="POTX TO SWF" description="SWFフォーマット" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="タグ付き画像形式" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/potx-to-xps/" name="POTX TO XPS" description="XML用紙仕様" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

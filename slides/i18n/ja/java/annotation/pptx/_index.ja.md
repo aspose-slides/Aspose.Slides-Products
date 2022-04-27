@@ -14,7 +14,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 {{% blocks/products/pf/agp/content h2="Javaを使用してPPTXファイルに注釈を付ける方法" %}}
 
  PPTXファイルに注釈を付けるために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/java）
+ [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
  機能豊富で強力で使いやすいJavaプラットフォーム用のアノテーションAPIであるAPI。最新バージョンはから直接ダウンロードできます
  [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
@@ -167,8 +167,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている注釈形式" subTitle="Javaを使用すると、を含む他の形式に簡単に注釈を付けることができます。" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/annotation/odp/" name="ODP" description="OpenDocumentプレゼンテーション形式" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/annotation/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/annotation/odp/" name="ODP" description="OpenDocumentプレゼンテーション形式" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/annotation/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

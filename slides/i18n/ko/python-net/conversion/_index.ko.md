@@ -10,12 +10,12 @@ description: PPT를 PDF로 변환하는 Python API. 프레젠테이션을 Python
 
 {{% blocks/products/pf/feature-page-summary %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/)은 프레젠테이션을 처리하고 작업하는 데 사용되는 강력한 사내 클래스 라이브러리입니다. 개발자가 빠르고 정확하게 PowerPoint를 PDF로 변환하는 것은 쉽습니다. 비즈니스 프로세스를 자동화하기 위해 짧은 시간 안에 결과를 얻으십시오. 여기서는 입력[지원되는 PowerPoint 형식](https://docs.aspose.com/slides/python-net/supported-file-formats/)을 읽거나 로드하고 지원되는 출력 형식으로 쓰거나 저장하는 몇 가지 경우에 대해 논의하고 있습니다. . 
+[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)은 프레젠테이션을 처리하고 작업하는 데 사용되는 강력한 사내 클래스 라이브러리입니다. 개발자가 빠르고 정확하게 PowerPoint를 PDF로 변환하는 것은 쉽습니다. 비즈니스 프로세스를 자동화하기 위해 짧은 시간 안에 결과를 얻으십시오. 여기서는 입력[지원되는 PowerPoint 형식](https://docs.aspose.com/slides/python-net/supported-file-formats/)을 읽거나 로드하고 지원되는 출력 형식으로 쓰거나 저장하는 몇 가지 경우에 대해 논의하고 있습니다. . 
 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Python에서 PowerPoint에서 PDF로 변환" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/)를 사용하면 PowerPoint PPT, PPTX 및 OpenOffice ODP 형식의 파일을 PDF로 변환할 수 있습니다. 프레젠테이션을 PDF로 변환하려면 [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/)에 파일 이름과 저장 형식을 전달하기만 하면 됩니다. 방법. [프레젠테이션](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 클래스는 [저장](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) 전체 PPT, PPTX 또는 ODP 프레젠테이션을 PDF 문서로 변환하기 위해 호출할 수 있는 메서드입니다.
+[Aspose.Slides](https://products.aspose.com/slides/ko/python-net/)를 사용하면 PowerPoint PPT, PPTX 및 OpenOffice ODP 형식의 파일을 PDF로 변환할 수 있습니다. 프레젠테이션을 PDF로 변환하려면 [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/)에 파일 이름과 저장 형식을 전달하기만 하면 됩니다. 방법. [프레젠테이션](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 클래스는 [저장](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) 전체 PPT, PPTX 또는 ODP 프레젠테이션을 PDF 문서로 변환하기 위해 호출할 수 있는 메서드입니다.
 
 {{% blocks/products/pf/feature-page-code h3="Python PowerPoint에서 PDF로 변환" %}}
 
@@ -26,7 +26,7 @@ description: PPT를 PDF로 변환하는 Python API. 프레젠테이션을 Python
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Python에서 PDF를 PPT로 변환" %}}
-[Aspose.Slides](https://products.aspose.com/slides/python-net/)를 사용하면 PDF에서 프레젠테이션을 가져올 수 있습니다. 기본적으로 PDF를 PowerPoint 프레젠테이션으로 변환할 수 있습니다. PDF를 PowerPoint로 변환하려면 다음 단계를 수행하십시오.
+[Aspose.Slides](https://products.aspose.com/slides/ko/python-net/)를 사용하면 PDF에서 프레젠테이션을 가져올 수 있습니다. 기본적으로 PDF를 PowerPoint 프레젠테이션으로 변환할 수 있습니다. PDF를 PowerPoint로 변환하려면 다음 단계를 수행하십시오.
 - [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 클래스의 개체를 인스턴스화합니다.
 - [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) 메서드를 호출하여 PDF 파일을 전달합니다.
 - [저장](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 방법을 사용하여 PowerPoint 형식으로 파일을 저장합니다.

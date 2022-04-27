@@ -14,7 +14,7 @@ description: C++ voorbeeldcode om het ODP-bestand te vergrendelen met een wachtw
 {{% blocks/products/pf/agp/content h2="Hoe een ODP-bestand te beveiligen met C++" %}}
 
  Om het ODP-bestand te beschermen, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentcodering voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar
@@ -124,8 +124,8 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde beveiligingsdocumenten" subTitle="Met behulp van C ++ kan men andere bestanden beschermen, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/protect/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/protect/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

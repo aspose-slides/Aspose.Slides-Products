@@ -14,7 +14,7 @@ description: Java-voorbeeldcode om tekst en afbeeldingen uit een PPTX-bestand te
 {{% blocks/products/pf/agp/content h2="Hoe een PPTX-bestand te parseren met Java" %}}
 
  Om het PPTX-bestand te ontleden, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
  API, een functierijke, krachtige en gebruiksvriendelijke parsing-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -54,7 +54,7 @@ description: Java-voorbeeldcode om tekst en afbeeldingen uit een PPTX-bestand te
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPTX-bestanden in Java te ontleden" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument parseren met [Aspose.Slides for Java](https://products.aspose.com/slides/java) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument parseren met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad het PPTX-bestand door de presentatieklasse in te voeren.
@@ -163,8 +163,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde documenten parseren" subTitle="Met Java kan men gemakkelijk andere formaten ontleden, waaronder." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/parser/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

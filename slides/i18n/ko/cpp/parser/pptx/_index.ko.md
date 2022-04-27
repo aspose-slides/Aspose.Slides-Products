@@ -14,7 +14,7 @@ description: Windows 32비트, Windows 64비트 및 Linux 64비트용 C++ 런타
 {{% blocks/products/pf/agp/content h2="C++를 사용하여 PPTX 파일을 구문 분석하는 방법" %}}
 
  PPTX 파일을 구문 분석하기 위해
- [C++용 Aspose.Slides](https://products.aspose.com/slides/cpp)
+ [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp)
  기능이 풍부하고 강력하며 사용하기 쉬운 C++ 플랫폼용 문서 구문 분석 API인 API입니다. 최신 버전을 직접 다운로드할 수 있습니다.
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  패키지 관리자, 검색
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++에서 PPTX 파일을 구문 분석하는 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API를 사용한 기본 문서 파싱은 몇 줄의 코드로 완료할 수 있습니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/ko/cpp) API를 사용한 기본 문서 파싱은 몇 줄의 코드로 완료할 수 있습니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPTX 파일을 로드합니다.
@@ -146,8 +146,8 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 구문 분석 문서" subTitle="C++를 사용하면 다음을 포함한 다른 형식을 쉽게 구문 분석할 수 있습니다." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/parser/ppt/" name="PPT" description="마이크로소프트 파워포인트 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/parser/odp/" name="ODP" description="OpenDocument 프레젠테이션 형식" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/parser/ppt/" name="PPT" description="마이크로소프트 파워포인트 97-2003" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
