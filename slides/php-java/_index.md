@@ -1,12 +1,12 @@
 ---
-title: PHP PowerPoint API. PHP PPTX, PPT from Aspose.Slides
+title: PHP PowerPoint API. PHP Presentation, PPT from Aspose.Slides
 weight: 5860
 url: /php-java/ 
-description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT. Create edit convert PPT PPTX PPS POT PPSX PPTM PPSM POTX POTM ODP PDF and many more formats.
+description: PHP library to work with Microsoft PowerPoint files. PHP Presentation, PPT, PPTX. Create edit convert PPT PPTX PPS POT PPSX PPTM PPSM POTX POTM ODP PDF and many more formats.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations. PHP PPTX, PPT" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in PHP without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://downloads.aspose.com/slides/php-java" >}}
+{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations. PHP Presentation, PPT, PPTX, ODP" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in PHP without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://downloads.aspose.com/slides/php-java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for PHP via Java" >}}
 
@@ -27,7 +27,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT.
     <li>And many more features.</li>
 </ul>
 
-<p>PHP is a popular general-purpose scripting language that is especially suited to web development. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for PHP via Java</strong> to the PHP community. </p>
+<p>PHP is a popular general-purpose scripting language, especially for web development purposes. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for PHP via Java</strong> to the PHP community. </p>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -371,7 +371,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP PPTX, PPT.
 	<pre><code>composer require aspose/slides</code></pre>
    </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Create New PowerPoint Presentation. PHP PPTX, PPT, or ODP</h2>
+        <h2 class="h2title">Create New PowerPoint Presentation. PHP Presentation: PPT, PPTX, ODP</h2>
         <p>In the example given below, we have added a line to the first slide of the presentation.</p>
         <pre>
             <code class="php">	
@@ -400,7 +400,7 @@ finally
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Merge Presentations: PHP PPTX, PPT, or ODP</h2>
+        <h2 class="h2title">Merge Presentations. PHP Presentation: PPT, PPTX, ODP</h2>
         <p>This PHP code shows you how to merge presentations:</p>
         <pre>
             <code class="php">
@@ -431,7 +431,7 @@ finally
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title"> Import Presentation From PDF: PHP PPTX, PPT, or ODP</h2>
+        <h2 class="h2title"> Import Presentation From PDF. PHP Presentation: PDF to PPT, PDF to PPTX, PDF to ODP</h2>
         <p>This PHP code demonstrates the PDF to PowerPoint conversion process:</p>
         <pre>
             <code class="php">
@@ -458,7 +458,7 @@ finally
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to PDF with Default Options: PHP PPTX, PPT, or ODP to PDF</h2>
+        <h2 class="h2title">Convert PowerPoint to PDF with Default Options: PHP Presentation, PPT, PPTX or ODP to PDF</h2>
         <p>This PHP code shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document to a PDF document using the default options. The resulting file is a PDF document at the maximum quality levels</p>
         <pre>
             <code class="php">
@@ -485,7 +485,7 @@ finally
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to JPG: PHP PPTX, PPT, or ODP to JPEG</h2>
+        <h2 class="h2title">Convert PowerPoint to JPG. PHP Presentation. PPT to JPG, PPTX to JPG, ODP to JPG</h2>
         <p>The following example shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document into a set of JPEG images.</p>
         <pre>
             <code class="php">
