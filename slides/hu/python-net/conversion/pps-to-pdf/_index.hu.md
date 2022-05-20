@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPS-ből PDF-be konvert�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pdf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához PDF -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához PDF -re](https://products.aspose.app/slides/conversion/)" 
     >}}

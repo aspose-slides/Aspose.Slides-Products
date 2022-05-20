@@ -94,7 +94,7 @@ PPTM에서 POTM으로의 변환 프로세스의 데모를 보려면 무료 앱�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-potm"
+        extension=""
         sectionTitle="PPTM을 POTM로 변환하는 무료 앱" 
         sectionDescription="[무료 Collage 앱을 사용해보십시오](https://products.aspose.app/slides/collage/)" 
     >}}

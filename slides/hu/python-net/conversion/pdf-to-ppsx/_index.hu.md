@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből PPSX-be konvert
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PPSX -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PPSX -re](https://products.aspose.app/slides/import/)" 
     >}}

@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pptm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-xps"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PPTM إلى XPS" 
         sectionDescription="[جرب التطبيق لدينا Collage](https://products.aspose.app/slides/collage/)" 
     >}}

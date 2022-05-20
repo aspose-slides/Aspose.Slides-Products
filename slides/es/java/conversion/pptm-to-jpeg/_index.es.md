@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-jpeg"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPTM a JPEG" 
         sectionDescription="[Pruebe nuestra aplicación gratuita para convertir PPT a JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

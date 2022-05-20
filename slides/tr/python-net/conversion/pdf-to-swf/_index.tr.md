@@ -96,7 +96,7 @@ PDF'den SWF'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-swf"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama SWF" 
         sectionDescription="[PDF için SWF dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT PPT konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppt"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához PPT -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

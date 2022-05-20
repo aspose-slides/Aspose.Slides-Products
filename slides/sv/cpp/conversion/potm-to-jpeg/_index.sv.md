@@ -104,7 +104,7 @@ bitmap->Save(u"output.jpeg", ImageFormat::get_Jpeg());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-jpeg"
+        extension=""
         sectionTitle="Gratis app att konvertera POTM till JPEG" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

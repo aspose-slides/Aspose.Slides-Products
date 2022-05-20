@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a POTX EMF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

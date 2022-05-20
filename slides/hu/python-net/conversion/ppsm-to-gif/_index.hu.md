@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSM GIF átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

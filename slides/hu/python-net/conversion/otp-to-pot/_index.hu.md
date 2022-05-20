@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP POT konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pot"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához POT -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

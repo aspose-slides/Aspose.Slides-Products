@@ -94,7 +94,7 @@ PPT'den PDF'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-pdf"
+        extension=""
         sectionTitle="PPT 'a dönüştürmek için ücretsiz uygulama PDF" 
         sectionDescription="[PPT için PDF dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/)" 
     >}}

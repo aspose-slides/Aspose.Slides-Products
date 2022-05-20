@@ -93,7 +93,7 @@ presentation.Save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-ppsx"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPT na PPSX" 
         sectionDescription="[Vyzkoušejte zdarma Collage App](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pptx"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل POTM إلى PPTX" 
         sectionDescription="[جرب التطبيق لدينا Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

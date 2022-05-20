@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPTX till OTP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-otp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTX till OTP" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PP
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-svg"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPSM na SVG" 
         sectionDescription="[Vyzkoušejte zdarma Text To Gif App](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

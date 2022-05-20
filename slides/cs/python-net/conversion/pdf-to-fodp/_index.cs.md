@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-fodp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na FODP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až FODP](https://products.aspose.app/slides/import/)" 
     >}}

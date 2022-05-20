@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het ODP naar POT-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pot"
+        extension=""
         sectionTitle="Gratis app om ODP te converteren naar POT" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

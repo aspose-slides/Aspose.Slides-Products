@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTX ke HTML.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-html"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POTX ke HTML" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

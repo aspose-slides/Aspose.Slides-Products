@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsx", Aspose::Slides::Export::SaveFormat::Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsx"
+        extension=""
         sectionTitle="Free App to Convert ODP to PPSX" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

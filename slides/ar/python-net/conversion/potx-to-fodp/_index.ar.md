@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-fodp"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل POTX إلى FODP" 
         sectionDescription="[جرب التطبيق لدينا Collage](https://products.aspose.app/slides/collage/)" 
     >}}

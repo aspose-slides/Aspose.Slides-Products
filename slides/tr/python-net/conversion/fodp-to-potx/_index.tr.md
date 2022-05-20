@@ -94,7 +94,7 @@ FODP'den POTX'e dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-potx"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama POTX" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

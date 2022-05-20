@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSX-XPS átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

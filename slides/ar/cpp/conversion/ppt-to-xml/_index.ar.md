@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-xml"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PPT إلى XML" 
         sectionDescription="[جرب التطبيق لدينا Collage](https://products.aspose.app/slides/collage/)" 
     >}}

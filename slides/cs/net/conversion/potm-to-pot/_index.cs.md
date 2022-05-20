@@ -93,7 +93,7 @@ presentation.Save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pot"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu POTM na POT" 
         sectionDescription="[Vyzkoušejte zdarma Collage App](https://products.aspose.app/slides/collage/)" 
     >}}

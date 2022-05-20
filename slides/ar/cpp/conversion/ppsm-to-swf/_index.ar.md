@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-swf"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PPSM إلى SWF" 
         sectionDescription="[جرب التطبيق لدينا Editor](https://products.aspose.app/slides/editor/)" 
     >}}

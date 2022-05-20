@@ -95,7 +95,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTM-ből PNG-be való �
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-png"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához PNG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához PNG -re](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-png"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu POTX na PNG" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

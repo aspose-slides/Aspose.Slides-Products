@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-png"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل POT إلى PNG" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PPT إلى PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

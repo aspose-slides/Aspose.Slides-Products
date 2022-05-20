@@ -95,7 +95,7 @@ Använd gratisappen för att se en demonstration av FODP till PNG-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-png"
+        extension=""
         sectionTitle="Gratis app att konvertera FODP till PNG" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

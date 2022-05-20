@@ -97,7 +97,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-emf"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PDF إلى EMF" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PDF إلى EMF](https://products.aspose.app/slides/import/)" 
     >}}

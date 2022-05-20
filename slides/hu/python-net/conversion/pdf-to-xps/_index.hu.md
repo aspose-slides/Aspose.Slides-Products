@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből XPS-be konvert�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához XPS -re](https://products.aspose.app/slides/import/)" 
     >}}

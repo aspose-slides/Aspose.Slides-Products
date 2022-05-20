@@ -96,7 +96,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des FODP-zu-SVG-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-svg"
+        extension=""
         sectionTitle="Kostenlose App, um FODP in SVG zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Video App aus](https://products.aspose.app/slides/video/)" 
     >}}

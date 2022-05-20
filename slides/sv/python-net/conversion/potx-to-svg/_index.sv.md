@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av POTX till SVG-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-svg"
+        extension=""
         sectionTitle="Gratis app att konvertera POTX till SVG" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

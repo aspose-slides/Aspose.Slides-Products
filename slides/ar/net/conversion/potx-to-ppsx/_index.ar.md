@@ -93,7 +93,7 @@ presentation.Save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-ppsx"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل POTX إلى PPSX" 
         sectionDescription="[جرب التطبيق لدينا Collage](https://products.aspose.app/slides/collage/)" 
     >}}

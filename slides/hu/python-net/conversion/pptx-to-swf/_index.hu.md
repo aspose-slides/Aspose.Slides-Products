@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPTX-SWF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-swf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához SWF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pdf"
+        extension=""
         sectionTitle="OTP을 PDF로 변환하는 무료 앱" 
         sectionDescription="[PPT을 PDF로 변환하려면 무료 앱을 사용해보십시오.](https://products.aspose.app/slides/conversion/)" 
     >}}

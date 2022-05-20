@@ -95,7 +95,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PP
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-jpg"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPSM na JPG" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

@@ -94,7 +94,7 @@ with slides.Presentation("presentation.otp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-swf"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل OTP إلى SWF" 
         sectionDescription="[جرب التطبيق لدينا Video](https://products.aspose.app/slides/video/)" 
     >}}

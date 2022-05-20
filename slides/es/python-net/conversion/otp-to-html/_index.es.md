@@ -94,7 +94,7 @@ Use la aplicación gratuita para ver una demostración del proceso de conversió
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-html"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir OTP a HTML" 
         sectionDescription="[Pruebe nuestra aplicación gratuita para convertir PPT a HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

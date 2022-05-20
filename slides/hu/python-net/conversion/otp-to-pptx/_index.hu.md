@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP-PPTX átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához PPTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-fodp"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPTM thành FODP" 
         sectionDescription="[Hãy thử ứng dụng Collage miễn phí của chúng tôi](https://products.aspose.app/slides/collage/)" 
     >}}

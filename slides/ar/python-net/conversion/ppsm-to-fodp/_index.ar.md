@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-fodp"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PPSM إلى FODP" 
         sectionDescription="[جرب التطبيق لدينا Editor](https://products.aspose.app/slides/editor/)" 
     >}}

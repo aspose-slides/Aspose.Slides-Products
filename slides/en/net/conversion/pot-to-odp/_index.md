@@ -93,7 +93,7 @@ presentation.Save("output.odp", SaveFormat.Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-odp"
+        extension=""
         sectionTitle="Free App to Convert POT to ODP" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

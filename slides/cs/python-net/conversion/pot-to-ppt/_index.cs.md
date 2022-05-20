@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppt"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu POT na PPT" 
         sectionDescription="[Vyzkoušejte zdarma Collage App](https://products.aspose.app/slides/collage/)" 
     >}}

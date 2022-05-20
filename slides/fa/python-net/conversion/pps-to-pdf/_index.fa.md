@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pps") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pdf"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPS به PDF" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PPT به PDF امتحان کنید](https://products.aspose.app/slides/conversion/)" 
     >}}

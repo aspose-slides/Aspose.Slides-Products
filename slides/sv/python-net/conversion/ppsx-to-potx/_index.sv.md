@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen PPSX 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-potx"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till POTX" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

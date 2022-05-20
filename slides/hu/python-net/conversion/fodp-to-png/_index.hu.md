@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a FODP-PNG átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-png"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához PNG -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

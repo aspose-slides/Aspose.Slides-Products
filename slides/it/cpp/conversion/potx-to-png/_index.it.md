@@ -104,7 +104,7 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-png"
+        extension=""
         sectionTitle="App gratuita da convertire POTX in PNG" 
         sectionDescription="[Prova la nostra app gratuita per convertire PPT in PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

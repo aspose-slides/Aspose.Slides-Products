@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-otp"
+        extension=""
         sectionTitle="免費應用程序將PDF轉換為OTP" 
         sectionDescription="[嘗試我們的免費應用程序將PDF轉換為OTP](https://products.aspose.app/slides/import/)" 
     >}}

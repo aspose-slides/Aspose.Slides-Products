@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pot"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu POTM na POT" 
         sectionDescription="[Vyzkoušejte zdarma Video App](https://products.aspose.app/slides/video/)" 
     >}}

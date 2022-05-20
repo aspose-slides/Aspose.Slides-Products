@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the POT to ODP conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-odp"
+        extension=""
         sectionTitle="Free App to Convert POT to ODP" 
         sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

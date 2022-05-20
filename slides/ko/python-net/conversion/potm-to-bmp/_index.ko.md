@@ -95,7 +95,7 @@ with slides.Presentation("presentation.potm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-bmp"
+        extension=""
         sectionTitle="POTM을 BMP로 변환하는 무료 앱" 
         sectionDescription="[PPT을 BMP로 변환하려면 무료 앱을 사용해보십시오.](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

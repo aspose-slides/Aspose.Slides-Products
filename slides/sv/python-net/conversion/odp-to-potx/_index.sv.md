@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av ODP till POTX-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-potx"
+        extension=""
         sectionTitle="Gratis app att konvertera ODP till POTX" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

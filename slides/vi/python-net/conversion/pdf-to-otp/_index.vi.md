@@ -96,7 +96,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-otp"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PDF thành OTP" 
         sectionDescription="[Hãy thử ứng dụng miễn phí của chúng tôi để chuyển đổi PDF sang OTP](https://products.aspose.app/slides/import/)" 
     >}}

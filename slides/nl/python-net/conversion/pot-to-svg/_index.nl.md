@@ -96,7 +96,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POT naar SVG-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-svg"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar SVG" 
         sectionDescription="[Probeer onze gratis MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

@@ -94,7 +94,7 @@ FODP'den POT'a dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pot"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama POT" 
         sectionDescription="[Ücretsiz MP4 To MP3 uygulamamızı deneyin](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

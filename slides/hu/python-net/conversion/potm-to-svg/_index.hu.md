@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a POTM-SVG átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

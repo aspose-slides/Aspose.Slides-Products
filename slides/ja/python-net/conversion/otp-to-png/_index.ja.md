@@ -95,7 +95,7 @@ with slides.Presentation("presentation.otp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-png"
+        extension=""
         sectionTitle="OTPをPNGに変換するための無料アプリ" 
         sectionDescription="[PPTをPNGに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

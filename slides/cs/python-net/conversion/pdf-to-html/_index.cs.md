@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-html"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na HTML" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až HTML](https://products.aspose.app/slides/import/)" 
     >}}

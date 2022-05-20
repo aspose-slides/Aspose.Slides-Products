@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.ppsm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-png"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPSM a PNG" 
         sectionDescription="[Pruebe nuestra aplicación gratuita para convertir PPT a PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

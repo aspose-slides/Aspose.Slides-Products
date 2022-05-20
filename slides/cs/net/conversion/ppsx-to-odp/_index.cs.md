@@ -93,7 +93,7 @@ presentation.Save("output.odp", SaveFormat.Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-odp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPSX na ODP" 
         sectionDescription="[Vyzkoušejte zdarma Video App](https://products.aspose.app/slides/video/)" 
     >}}

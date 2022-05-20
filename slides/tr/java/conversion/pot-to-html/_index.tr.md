@@ -101,7 +101,7 @@ presentation.save("output.html", SaveFormat.Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-html"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama HTML" 
         sectionDescription="[PPT için HTML dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

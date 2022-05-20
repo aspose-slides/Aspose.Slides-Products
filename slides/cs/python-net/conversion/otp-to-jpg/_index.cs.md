@@ -95,7 +95,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu OT
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-jpg"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu OTP na JPG" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

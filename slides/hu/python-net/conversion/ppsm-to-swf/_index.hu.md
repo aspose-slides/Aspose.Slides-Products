@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSM-SWF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-swf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához SWF -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

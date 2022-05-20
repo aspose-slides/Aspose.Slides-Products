@@ -101,7 +101,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pdf"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji POTX do PDF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

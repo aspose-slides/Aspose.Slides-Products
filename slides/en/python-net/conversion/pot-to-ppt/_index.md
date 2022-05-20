@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the POT to PPT conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppt"
+        extension=""
         sectionTitle="Free App to Convert POT to PPT" 
         sectionDescription="[Try our free Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

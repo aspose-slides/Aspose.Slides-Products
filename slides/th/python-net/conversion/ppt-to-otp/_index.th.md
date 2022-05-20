@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppt") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-otp"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPT เป็น OTP" 
         sectionDescription="[ลองใช้แอป Text To Gif ฟรีของเรา](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

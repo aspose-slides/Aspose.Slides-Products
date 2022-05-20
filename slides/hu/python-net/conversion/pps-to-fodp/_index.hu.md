@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPS-FODP konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-fodp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához FODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pot"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPS thành POT" 
         sectionDescription="[Hãy thử ứng dụng Text To Gif miễn phí của chúng tôi](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

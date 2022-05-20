@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-fodp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu POTX na FODP" 
         sectionDescription="[Vyzkoušejte zdarma Collage App](https://products.aspose.app/slides/collage/)" 
     >}}

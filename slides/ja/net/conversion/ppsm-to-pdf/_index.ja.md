@@ -93,7 +93,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pdf"
+        extension=""
         sectionTitle="PPSMをPDFに変換するための無料アプリ" 
         sectionDescription="[PPTをPDFに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/)" 
     >}}

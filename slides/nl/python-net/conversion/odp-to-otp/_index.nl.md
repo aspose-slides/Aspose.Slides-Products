@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het ODP naar OTP-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-otp"
+        extension=""
         sectionTitle="Gratis app om ODP te converteren naar OTP" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

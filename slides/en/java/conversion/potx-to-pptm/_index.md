@@ -101,7 +101,7 @@ presentation.save("output.pptm", SaveFormat.Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pptm"
+        extension=""
         sectionTitle="Free App to Convert POTX to PPTM" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

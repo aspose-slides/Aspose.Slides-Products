@@ -95,7 +95,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu FO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-png"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu FODP na PNG" 
         sectionDescription="[Vyzkoušejte zdarma Video App](https://products.aspose.app/slides/video/)" 
     >}}

@@ -95,7 +95,7 @@ with slides.Presentation("presentation.pptm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-png"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PPTM إلى PNG" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PPT إلى PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

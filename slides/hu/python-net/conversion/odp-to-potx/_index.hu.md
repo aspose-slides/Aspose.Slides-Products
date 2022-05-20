@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az ODP-POTX átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a ODP konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

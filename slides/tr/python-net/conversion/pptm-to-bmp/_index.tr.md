@@ -95,7 +95,7 @@ PPTM'den BMP'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-bmp"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama BMP" 
         sectionDescription="[PPT için BMP dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-PPTX átalakítási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pptx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához PPTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.html", SaveFormat.Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-html"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához HTML -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához HTML -re](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

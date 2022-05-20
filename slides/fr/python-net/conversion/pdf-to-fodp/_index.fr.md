@@ -96,7 +96,7 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-fodp"
+        extension=""
         sectionTitle="Application gratuite pour convertir PDF en FODP" 
         sectionDescription="[Essayez notre application gratuite pour convertir PDF en FODP](https://products.aspose.app/slides/import/)" 
     >}}

@@ -94,7 +94,7 @@ OTP'den GIF'e dönüştürme işleminin bir gösterimini görmek için ücretsiz
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-gif"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama GIF" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

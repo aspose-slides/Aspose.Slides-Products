@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a PPS-EMF konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

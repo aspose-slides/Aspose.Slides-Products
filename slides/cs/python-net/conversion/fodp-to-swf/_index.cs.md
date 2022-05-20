@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu FO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-swf"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu FODP na SWF" 
         sectionDescription="[Vyzkoušejte zdarma MP4 To MP3 App](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

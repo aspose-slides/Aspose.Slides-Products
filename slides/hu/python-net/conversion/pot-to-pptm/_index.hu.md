@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT PPTM konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pptm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához PPTM -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

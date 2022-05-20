@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPTM till PPSM-konverterings
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-ppsm"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTM till PPSM" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

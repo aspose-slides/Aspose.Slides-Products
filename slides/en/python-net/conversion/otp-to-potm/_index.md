@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the OTP to POTM conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potm"
+        extension=""
         sectionTitle="Free App to Convert OTP to POTM" 
         sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

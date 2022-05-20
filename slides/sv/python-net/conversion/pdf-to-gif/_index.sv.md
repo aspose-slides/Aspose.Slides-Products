@@ -96,7 +96,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-gif"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till GIF" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till GIF](https://products.aspose.app/slides/import/)" 
     >}}

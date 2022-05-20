@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPTM till SWF-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTM till SWF" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

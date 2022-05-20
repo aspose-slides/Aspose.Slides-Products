@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTM ke HTML.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-html"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POTM ke HTML" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPTM-PPSM átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

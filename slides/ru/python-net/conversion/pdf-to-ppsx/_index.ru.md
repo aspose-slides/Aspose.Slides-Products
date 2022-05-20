@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsx"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PDF в PPSX" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PDF в PPSX](https://products.aspose.app/slides/import/)" 
     >}}

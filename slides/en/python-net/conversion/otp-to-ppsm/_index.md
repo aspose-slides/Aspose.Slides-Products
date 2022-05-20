@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the OTP to PPSM conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsm"
+        extension=""
         sectionTitle="Free App to Convert OTP to PPSM" 
         sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

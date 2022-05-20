@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.tiff", Aspose::Slides::Export::SaveFormat::Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-tiff"
+        extension=""
         sectionTitle="POTM을 TIFF로 변환하는 무료 앱" 
         sectionDescription="[무료 Editor 앱을 사용해보십시오](https://products.aspose.app/slides/editor/)" 
     >}}

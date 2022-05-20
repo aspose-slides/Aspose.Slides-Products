@@ -97,7 +97,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-jpg"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till JPG" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till JPG](https://products.aspose.app/slides/import/)" 
     >}}

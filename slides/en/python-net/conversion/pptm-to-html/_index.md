@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the PPTM to HTML conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-html"
+        extension=""
         sectionTitle="Free App to Convert PPTM to HTML" 
         sectionDescription="[Try our free app to convert PPT to HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

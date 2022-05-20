@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des Konvertierungsprozes
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pptm"
+        extension=""
         sectionTitle="Kostenlose App, um PPSX in PPTM zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pps"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-bmp"
+        extension=""
         sectionTitle="Kostenlose App, um PPS in BMP zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PPT in BMP konvertieren zu können](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

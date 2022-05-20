@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSM–XPS átalakítás
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

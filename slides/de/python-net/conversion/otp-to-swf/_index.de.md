@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des OTP-zu-SWF-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-swf"
+        extension=""
         sectionTitle="Kostenlose App, um OTP in SWF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Video App aus](https://products.aspose.app/slides/video/)" 
     >}}

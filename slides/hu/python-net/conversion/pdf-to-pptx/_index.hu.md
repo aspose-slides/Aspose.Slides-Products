@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF–PPTX átalakítási folyamat bemutat
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PPTX -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PPTX -re](https://products.aspose.app/slides/import/)" 
     >}}

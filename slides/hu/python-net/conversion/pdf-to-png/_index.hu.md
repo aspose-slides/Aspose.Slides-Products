@@ -97,7 +97,7 @@ Használja az ingyenes alkalmazást a PDF-ből PNG-be konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-png"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PNG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PNG -re](https://products.aspose.app/slides/import/)" 
     >}}

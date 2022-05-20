@@ -96,7 +96,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke PPTM.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptm"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PDF ke PPTM" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PDF ke PPTM](https://products.aspose.app/slides/import/)" 
     >}}

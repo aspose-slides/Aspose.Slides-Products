@@ -95,7 +95,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da F
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-jpg"
+        extension=""
         sectionTitle="App gratuita da convertire FODP in JPG" 
         sectionDescription="[Prova la nostra app gratuita MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

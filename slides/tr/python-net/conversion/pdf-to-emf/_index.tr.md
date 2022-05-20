@@ -97,7 +97,7 @@ PDF'den EMF'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-emf"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama EMF" 
         sectionDescription="[PDF için EMF dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

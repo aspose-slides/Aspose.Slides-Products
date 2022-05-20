@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des POT-zu-TIFF-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-tiff"
+        extension=""
         sectionTitle="Kostenlose App, um POT in TIFF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Collage App aus](https://products.aspose.app/slides/collage/)" 
     >}}

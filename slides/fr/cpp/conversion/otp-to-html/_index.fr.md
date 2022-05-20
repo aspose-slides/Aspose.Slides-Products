@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.html", Aspose::Slides::Export::SaveFormat::Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-html"
+        extension=""
         sectionTitle="Application gratuite pour convertir OTP en HTML" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

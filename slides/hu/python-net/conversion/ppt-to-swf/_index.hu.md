@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPT-SWF konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-swf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPT konvertálásához SWF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

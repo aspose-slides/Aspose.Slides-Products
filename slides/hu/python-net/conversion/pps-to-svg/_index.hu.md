@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PPS-SVG átalakítási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

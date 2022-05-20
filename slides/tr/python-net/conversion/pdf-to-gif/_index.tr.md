@@ -96,7 +96,7 @@ PDF'den GIF'e dönüştürme işleminin bir gösterimini görmek için ücretsiz
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-gif"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama GIF" 
         sectionDescription="[PDF için GIF dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

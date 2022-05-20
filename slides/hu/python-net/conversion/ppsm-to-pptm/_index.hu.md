@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSM-PPTM konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pptm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához PPTM -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

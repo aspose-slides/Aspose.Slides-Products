@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPS till PDF-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pdf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till PDF" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

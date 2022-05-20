@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást az OTP-PNG konverziós folyamat bemutatójá
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-png"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához PNG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához PNG -re](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

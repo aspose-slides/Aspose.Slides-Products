@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the POTM to PPSX conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppsx"
+        extension=""
         sectionTitle="Free App to Convert POTM to PPSX" 
         sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP GIF átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

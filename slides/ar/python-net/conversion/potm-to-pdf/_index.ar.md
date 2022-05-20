@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pdf"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل POTM إلى PDF" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PPT إلى PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

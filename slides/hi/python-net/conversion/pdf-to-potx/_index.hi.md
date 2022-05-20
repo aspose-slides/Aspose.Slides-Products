@@ -96,7 +96,7 @@ PDF से POTX रूपांतरण प्रक्रिया का प�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potx"
+        extension=""
         sectionTitle="मुफ्त ऐप PDF को POTX में कन्वर्ट करने के लिए" 
         sectionDescription="[PDF को POTX को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/import/)" 
     >}}

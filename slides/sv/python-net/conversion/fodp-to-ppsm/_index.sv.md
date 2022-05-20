@@ -94,7 +94,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppsm"
+        extension=""
         sectionTitle="Gratis app att konvertera FODP till PPSM" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

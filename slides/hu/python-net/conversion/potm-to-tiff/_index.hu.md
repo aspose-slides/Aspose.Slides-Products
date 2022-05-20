@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTM-TIFF konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-tiff"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához TIFF -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

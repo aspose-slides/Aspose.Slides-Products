@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-POTX konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához POTX -re](https://products.aspose.app/slides/import/)" 
     >}}

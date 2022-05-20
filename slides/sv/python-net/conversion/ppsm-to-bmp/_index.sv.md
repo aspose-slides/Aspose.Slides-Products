@@ -95,7 +95,7 @@ Använd gratisappen för att se en demonstration av PPSM till BMP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-bmp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till BMP" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

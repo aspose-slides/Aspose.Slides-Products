@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a PPSX-JPG konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-jpg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához JPG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához JPG -re](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

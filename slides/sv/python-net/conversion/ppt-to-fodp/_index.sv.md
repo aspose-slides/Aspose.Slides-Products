@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPT till FODP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-fodp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPT till FODP" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

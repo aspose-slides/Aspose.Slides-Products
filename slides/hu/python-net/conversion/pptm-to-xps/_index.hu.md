@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTM XPS konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti az OTP-POTX konverziós fo
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

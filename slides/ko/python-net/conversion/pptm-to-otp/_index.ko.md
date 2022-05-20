@@ -94,7 +94,7 @@ PPTM에서 OTP로의 변환 프로세스의 데모를 보려면 무료 앱을 �
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-otp"
+        extension=""
         sectionTitle="PPTM을 OTP로 변환하는 무료 앱" 
         sectionDescription="[무료 MP4 To MP3 앱을 사용해보십시오](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

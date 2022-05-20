@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av PDF till ODP-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-odp"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till ODP" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till ODP](https://products.aspose.app/slides/import/)" 
     >}}

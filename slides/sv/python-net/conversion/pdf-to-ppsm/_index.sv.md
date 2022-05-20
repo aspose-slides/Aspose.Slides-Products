@@ -96,7 +96,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsm"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till PPSM" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till PPSM](https://products.aspose.app/slides/import/)" 
     >}}

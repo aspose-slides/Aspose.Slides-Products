@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av PDF till PPTX-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptx"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till PPTX" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till PPTX](https://products.aspose.app/slides/import/)" 
     >}}

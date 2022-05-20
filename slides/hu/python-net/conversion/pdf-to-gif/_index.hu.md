@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből GIF-be konvert�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához GIF -re](https://products.aspose.app/slides/import/)" 
     >}}

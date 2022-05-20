@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTX-PPT konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-ppt"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához PPT -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

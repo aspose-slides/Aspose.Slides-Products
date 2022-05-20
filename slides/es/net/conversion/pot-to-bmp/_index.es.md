@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pot"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-bmp"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir POT a BMP" 
         sectionDescription="[Pruebe nuestra aplicación gratuita para convertir PPT a BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

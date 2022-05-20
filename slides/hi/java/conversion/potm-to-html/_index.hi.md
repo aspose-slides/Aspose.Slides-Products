@@ -101,7 +101,7 @@ presentation.save("output.html", SaveFormat.Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-html"
+        extension=""
         sectionTitle="मुफ्त ऐप POTM को HTML में कन्वर्ट करने के लिए" 
         sectionDescription="[PPT को HTML को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

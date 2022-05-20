@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PPTM-zu-POTX-Konvert
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-potx"
+        extension=""
         sectionTitle="Kostenlose App, um PPTM in POTX zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

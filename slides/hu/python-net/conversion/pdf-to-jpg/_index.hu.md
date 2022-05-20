@@ -97,7 +97,7 @@ Használja az ingyenes alkalmazást a PDF-ből JPG-be konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-jpg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához JPG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához JPG -re](https://products.aspose.app/slides/import/)" 
     >}}

@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTM-PPS konverziós fol
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához PPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

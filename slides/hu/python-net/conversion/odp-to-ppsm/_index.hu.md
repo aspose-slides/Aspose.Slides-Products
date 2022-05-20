@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az ODP-PPSM átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a ODP konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

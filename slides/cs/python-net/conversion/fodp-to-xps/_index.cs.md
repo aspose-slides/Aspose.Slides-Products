@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu FO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-xps"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu FODP na XPS" 
         sectionDescription="[Vyzkoušejte zdarma Collage App](https://products.aspose.app/slides/collage/)" 
     >}}

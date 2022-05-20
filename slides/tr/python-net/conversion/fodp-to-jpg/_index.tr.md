@@ -95,7 +95,7 @@ FODP'den JPG'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-jpg"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama JPG" 
         sectionDescription="[Ücretsiz MP4 To MP3 uygulamamızı deneyin](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

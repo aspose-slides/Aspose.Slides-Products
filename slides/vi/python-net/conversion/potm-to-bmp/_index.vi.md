@@ -95,7 +95,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-bmp"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi POTM thành BMP" 
         sectionDescription="[Hãy thử ứng dụng miễn phí của chúng tôi để chuyển đổi PPT sang BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

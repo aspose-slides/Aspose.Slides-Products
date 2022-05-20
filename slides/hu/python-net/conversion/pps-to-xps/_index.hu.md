@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPS XPS konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a POT EMF konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

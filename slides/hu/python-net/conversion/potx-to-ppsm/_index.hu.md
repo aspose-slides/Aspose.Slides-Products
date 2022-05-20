@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTX-PPSM konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

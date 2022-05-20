@@ -96,7 +96,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppt"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PDF para PPT" 
         sectionDescription="[Experimente nosso aplicativo gratuito para converter PDF para PPT](https://products.aspose.app/slides/import/)" 
     >}}

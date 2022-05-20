@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des FODP-zu-GIF-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-gif"
+        extension=""
         sectionTitle="Kostenlose App, um FODP in GIF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

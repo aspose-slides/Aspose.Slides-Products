@@ -95,7 +95,7 @@ PPSX'ten PNG'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-png"
+        extension=""
         sectionTitle="PPSX 'a dönüştürmek için ücretsiz uygulama PNG" 
         sectionDescription="[PPT için PNG dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

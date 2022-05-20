@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTM-POTM konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-potm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához POTM -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

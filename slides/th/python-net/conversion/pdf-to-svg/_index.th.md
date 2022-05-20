@@ -98,7 +98,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-svg"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PDF เป็น SVG" 
         sectionDescription="[ลองใช้แอปฟรีของเราเพื่อแปลง PDF เพื่อ SVG](https://products.aspose.app/slides/import/)" 
     >}}

@@ -96,7 +96,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PDF-zu-GIF-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-gif"
+        extension=""
         sectionTitle="Kostenlose App, um PDF in GIF zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PDF in GIF konvertieren zu können](https://products.aspose.app/slides/import/)" 
     >}}

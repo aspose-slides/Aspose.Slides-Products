@@ -96,7 +96,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till SWF" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till SWF](https://products.aspose.app/slides/import/)" 
     >}}

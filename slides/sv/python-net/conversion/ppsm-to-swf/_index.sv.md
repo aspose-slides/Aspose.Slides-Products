@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSM till SWF-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till SWF" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

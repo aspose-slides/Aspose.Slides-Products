@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POT-ból GIF-be konvert�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

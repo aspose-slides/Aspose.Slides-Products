@@ -95,7 +95,7 @@ POTM से EMF रूपांतरण प्रक्रिया का प�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-emf"
+        extension=""
         sectionTitle="मुफ्त ऐप POTM को EMF में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Video ऐप आज़माएं](https://products.aspose.app/slides/video/)" 
     >}}

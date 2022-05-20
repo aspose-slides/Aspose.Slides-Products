@@ -97,7 +97,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-bmp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na BMP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až BMP](https://products.aspose.app/slides/import/)" 
     >}}

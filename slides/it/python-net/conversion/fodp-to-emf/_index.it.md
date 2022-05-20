@@ -95,7 +95,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da F
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-emf"
+        extension=""
         sectionTitle="App gratuita da convertire FODP in EMF" 
         sectionDescription="[Prova la nostra app gratuita Collage](https://products.aspose.app/slides/collage/)" 
     >}}

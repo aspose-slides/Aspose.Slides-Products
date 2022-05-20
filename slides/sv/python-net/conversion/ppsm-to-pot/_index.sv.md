@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSM till POT-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pot"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till POT" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

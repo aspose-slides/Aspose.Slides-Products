@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pot", Aspose::Slides::Export::SaveFormat::Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pot"
+        extension=""
         sectionTitle="Free App to Convert ODP to POT" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

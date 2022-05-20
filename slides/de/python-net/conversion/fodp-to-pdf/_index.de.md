@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des FODP-zu-PDF-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pdf"
+        extension=""
         sectionTitle="Kostenlose App, um FODP in PDF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

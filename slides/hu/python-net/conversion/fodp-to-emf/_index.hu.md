@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a FODP EMF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-SVG konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

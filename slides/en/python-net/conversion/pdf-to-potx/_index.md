@@ -96,7 +96,7 @@ Use the free app to see a demonstration of the PDF to POTX conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potx"
+        extension=""
         sectionTitle="Free App to Convert PDF to POTX" 
         sectionDescription="[Try our free app to convert PDF to POTX](https://products.aspose.app/slides/import/)" 
     >}}

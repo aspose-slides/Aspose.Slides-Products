@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-tiff"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPSM thành TIFF" 
         sectionDescription="[Hãy thử ứng dụng MP4 To MP3 miễn phí của chúng tôi](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

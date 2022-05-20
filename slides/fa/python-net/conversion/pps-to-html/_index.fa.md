@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pps") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-html"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPS به HTML" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PPT به HTML امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

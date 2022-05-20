@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti az ODP-PPSX konverziós fo
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a ODP konvertálásához PPSX -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

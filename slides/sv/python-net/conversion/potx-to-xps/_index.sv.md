@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av POTX till XPS-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-xps"
+        extension=""
         sectionTitle="Gratis app att konvertera POTX till XPS" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

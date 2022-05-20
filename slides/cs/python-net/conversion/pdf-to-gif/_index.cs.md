@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-gif"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na GIF" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až GIF](https://products.aspose.app/slides/import/)" 
     >}}

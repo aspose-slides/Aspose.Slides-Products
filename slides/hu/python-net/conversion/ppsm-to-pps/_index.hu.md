@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSM-PPS konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához PPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POTM-POT konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pot"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához POT -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

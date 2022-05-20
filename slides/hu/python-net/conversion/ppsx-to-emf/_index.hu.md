@@ -95,7 +95,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSX EMF konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

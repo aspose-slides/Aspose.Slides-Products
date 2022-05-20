@@ -97,7 +97,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-jpg"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PDF إلى JPG" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PDF إلى JPG](https://products.aspose.app/slides/import/)" 
     >}}

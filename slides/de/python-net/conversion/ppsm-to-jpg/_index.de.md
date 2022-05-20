@@ -95,7 +95,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PPSM-zu-JPG-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-jpg"
+        extension=""
         sectionTitle="Kostenlose App, um PPSM in JPG zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PPT in JPG konvertieren zu können](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

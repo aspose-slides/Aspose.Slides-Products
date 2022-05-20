@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF TIFF formátumba konvertálási folyam
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-tiff"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához TIFF -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához TIFF -re](https://products.aspose.app/slides/import/)" 
     >}}

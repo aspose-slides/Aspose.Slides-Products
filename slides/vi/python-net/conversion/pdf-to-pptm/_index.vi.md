@@ -96,7 +96,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptm"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PDF thành PPTM" 
         sectionDescription="[Hãy thử ứng dụng miễn phí của chúng tôi để chuyển đổi PDF sang PPTM](https://products.aspose.app/slides/import/)" 
     >}}

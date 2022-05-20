@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPTM GIF átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

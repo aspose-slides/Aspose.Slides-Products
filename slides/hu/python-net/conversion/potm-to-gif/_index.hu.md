@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POTM GIF átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

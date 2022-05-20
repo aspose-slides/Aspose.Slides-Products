@@ -101,7 +101,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pdf"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu OTP na PDF" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

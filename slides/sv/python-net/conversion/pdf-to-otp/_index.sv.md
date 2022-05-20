@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av PDF till OTP-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-otp"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till OTP" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till OTP](https://products.aspose.app/slides/import/)" 
     >}}

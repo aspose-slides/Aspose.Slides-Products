@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-tiff"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PDF إلى TIFF" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PDF إلى TIFF](https://products.aspose.app/slides/import/)" 
     >}}

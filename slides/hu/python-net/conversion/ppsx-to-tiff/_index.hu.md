@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSX-TIFF átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-tiff"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához TIFF -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

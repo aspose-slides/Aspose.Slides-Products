@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-HTML-konverziós fo
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-html"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához HTML -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

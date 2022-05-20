@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTM naar POTX c
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-potx"
+        extension=""
         sectionTitle="Gratis app om POTM te converteren naar POTX" 
         sectionDescription="[Probeer onze gratis MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

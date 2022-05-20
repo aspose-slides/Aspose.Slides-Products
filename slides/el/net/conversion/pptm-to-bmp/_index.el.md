@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pptm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-bmp"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή PPTM σε BMP" 
         sectionDescription="[Δοκιμάστε την δωρεάν εφαρμογή μας για να μετατρέψετε PPT σε BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

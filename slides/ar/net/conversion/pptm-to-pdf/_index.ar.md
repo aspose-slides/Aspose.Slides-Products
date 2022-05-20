@@ -93,7 +93,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-pdf"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PPTM إلى PDF" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PPT إلى PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

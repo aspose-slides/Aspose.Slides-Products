@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből PPT-be konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppt"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PPT -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PPT -re](https://products.aspose.app/slides/import/)" 
     >}}

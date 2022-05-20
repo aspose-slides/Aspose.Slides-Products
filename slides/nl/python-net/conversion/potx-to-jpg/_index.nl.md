@@ -95,7 +95,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar JPG-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-jpg"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar JPG" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

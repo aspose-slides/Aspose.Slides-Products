@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar PDF-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pdf"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar PDF" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

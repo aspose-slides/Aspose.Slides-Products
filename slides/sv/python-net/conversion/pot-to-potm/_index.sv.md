@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av POT till POTM-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-potm"
+        extension=""
         sectionTitle="Gratis app att konvertera POT till POTM" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

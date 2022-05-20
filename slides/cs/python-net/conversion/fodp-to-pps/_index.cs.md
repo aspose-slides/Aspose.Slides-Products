@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu FO
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pps"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu FODP na PPS" 
         sectionDescription="[Vyzkoušejte zdarma Text To Gif App](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

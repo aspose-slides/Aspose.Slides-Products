@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPTX-POTX átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

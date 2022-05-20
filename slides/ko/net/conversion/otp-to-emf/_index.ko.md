@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-emf"
+        extension=""
         sectionTitle="OTP을 EMF로 변환하는 무료 앱" 
         sectionDescription="[무료 Editor 앱을 사용해보십시오](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTX-PPSM konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

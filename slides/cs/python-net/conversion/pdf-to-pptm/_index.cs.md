@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptm"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na PPTM" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až PPTM](https://products.aspose.app/slides/import/)" 
     >}}

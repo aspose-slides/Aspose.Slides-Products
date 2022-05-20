@@ -96,7 +96,7 @@ PDF'den XPS'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-xps"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama XPS" 
         sectionDescription="[PDF için XPS dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

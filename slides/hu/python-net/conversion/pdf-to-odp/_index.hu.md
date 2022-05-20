@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF ODP konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-odp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához ODP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához ODP -re](https://products.aspose.app/slides/import/)" 
     >}}

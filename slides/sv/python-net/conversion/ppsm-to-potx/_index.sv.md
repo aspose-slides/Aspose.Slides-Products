@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSM till POTX-konverterings
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-potx"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till POTX" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

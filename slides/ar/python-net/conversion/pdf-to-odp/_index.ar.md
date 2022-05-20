@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-odp"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PDF إلى ODP" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PDF إلى ODP](https://products.aspose.app/slides/import/)" 
     >}}

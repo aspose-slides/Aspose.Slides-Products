@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-xps"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PDF به XPS" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PDF به XPS امتحان کنید](https://products.aspose.app/slides/import/)" 
     >}}

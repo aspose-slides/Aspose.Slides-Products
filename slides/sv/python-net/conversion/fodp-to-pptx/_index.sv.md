@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av FODP till PPTX-konverterings
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pptx"
+        extension=""
         sectionTitle="Gratis app att konvertera FODP till PPTX" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

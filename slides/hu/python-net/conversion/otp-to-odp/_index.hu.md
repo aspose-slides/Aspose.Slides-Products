@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP ODP konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-odp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához ODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

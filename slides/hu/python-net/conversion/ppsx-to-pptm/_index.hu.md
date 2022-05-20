@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSX PPTM átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pptm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához PPTM -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

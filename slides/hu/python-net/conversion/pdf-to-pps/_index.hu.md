@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből PPS-be konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PPS -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PPS -re](https://products.aspose.app/slides/import/)" 
     >}}

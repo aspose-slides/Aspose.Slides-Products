@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pdf"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPS en PDF" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

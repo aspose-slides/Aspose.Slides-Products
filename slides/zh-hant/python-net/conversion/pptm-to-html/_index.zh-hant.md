@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pptm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-html"
+        extension=""
         sectionTitle="免費應用程序將PPTM轉換為HTML" 
         sectionDescription="[嘗試我們的免費應用程序將PPT轉換為HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

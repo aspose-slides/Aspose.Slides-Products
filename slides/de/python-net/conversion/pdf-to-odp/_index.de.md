@@ -96,7 +96,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PDF-zu-ODP-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-odp"
+        extension=""
         sectionTitle="Kostenlose App, um PDF in ODP zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PDF in ODP konvertieren zu können](https://products.aspose.app/slides/import/)" 
     >}}

@@ -95,7 +95,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des POT-zu-EMF-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-emf"
+        extension=""
         sectionTitle="Kostenlose App, um POT in EMF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Collage App aus](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PPTM-SVG átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

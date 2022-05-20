@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-swf"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PDF в SWF" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PDF в SWF](https://products.aspose.app/slides/import/)" 
     >}}

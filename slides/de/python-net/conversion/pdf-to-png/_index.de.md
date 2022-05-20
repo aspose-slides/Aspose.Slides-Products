@@ -97,7 +97,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PDF-zu-PNG-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-png"
+        extension=""
         sectionTitle="Kostenlose App, um PDF in PNG zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PDF in PNG konvertieren zu können](https://products.aspose.app/slides/import/)" 
     >}}

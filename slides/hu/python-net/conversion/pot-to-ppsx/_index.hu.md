@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT PPSX konverziós folyamat bemutatójá
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppsx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához PPSX -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

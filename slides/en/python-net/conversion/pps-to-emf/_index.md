@@ -95,7 +95,7 @@ Use the free app to see a demonstration of the PPS to EMF conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-emf"
+        extension=""
         sectionTitle="Free App to Convert PPS to EMF" 
         sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}
