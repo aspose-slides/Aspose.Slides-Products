@@ -101,7 +101,7 @@ presentation.save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pot"
+        extension=""
         sectionTitle="Kostenlose App, um PPS in POT zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

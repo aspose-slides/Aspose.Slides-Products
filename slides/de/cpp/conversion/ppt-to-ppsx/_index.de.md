@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsx", Aspose::Slides::Export::SaveFormat::Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-ppsx"
+        extension=""
         sectionTitle="Kostenlose App, um PPT in PPSX zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

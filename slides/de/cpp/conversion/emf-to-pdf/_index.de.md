@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-pdf"
+        extension=""
         sectionTitle="Kostenlose App, um EMF in PDF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

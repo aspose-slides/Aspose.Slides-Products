@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des OTP-zu-PDF-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pdf"
+        extension=""
         sectionTitle="Kostenlose App, um OTP in PDF zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PPT in PDF konvertieren zu können](https://products.aspose.app/slides/conversion/)" 
     >}}

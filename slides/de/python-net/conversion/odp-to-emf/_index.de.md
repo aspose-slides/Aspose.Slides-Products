@@ -95,7 +95,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des ODP-zu-EMF-Konvertie
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-emf"
+        extension=""
         sectionTitle="Kostenlose App, um ODP in EMF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

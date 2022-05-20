@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.odp", Aspose::Slides::Export::SaveFormat::Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-odp"
+        extension=""
         sectionTitle="Kostenlose App, um TIFF in ODP zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Text To Gif App aus](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

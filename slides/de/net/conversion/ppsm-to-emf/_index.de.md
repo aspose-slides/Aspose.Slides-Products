@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-emf"
+        extension=""
         sectionTitle="Kostenlose App, um PPSM in EMF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

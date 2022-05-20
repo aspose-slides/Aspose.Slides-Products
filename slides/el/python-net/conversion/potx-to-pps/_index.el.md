@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pps"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή POTX σε PPS" 
         sectionDescription="[Δοκιμάστε τη δωρεάν εφαρμογή Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

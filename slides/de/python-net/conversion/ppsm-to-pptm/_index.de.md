@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PPSM-zu-PPTM-Konvert
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pptm"
+        extension=""
         sectionTitle="Kostenlose App, um PPSM in PPTM zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-xps"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή TIFF σε XPS" 
         sectionDescription="[Δοκιμάστε τη δωρεάν εφαρμογή Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

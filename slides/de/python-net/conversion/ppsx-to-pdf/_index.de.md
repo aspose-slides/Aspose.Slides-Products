@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PPSX-in-PDF-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pdf"
+        extension=""
         sectionTitle="Kostenlose App, um PPSX in PDF zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PPT in PDF konvertieren zu können](https://products.aspose.app/slides/conversion/)" 
     >}}

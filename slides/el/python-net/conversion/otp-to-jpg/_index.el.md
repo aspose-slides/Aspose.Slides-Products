@@ -95,7 +95,7 @@ with slides.Presentation("presentation.otp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-jpg"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή OTP σε JPG" 
         sectionDescription="[Δοκιμάστε την δωρεάν εφαρμογή μας για να μετατρέψετε PPT σε JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

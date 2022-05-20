@@ -100,7 +100,7 @@ using (Presentation pres = new Presentation("template.ppsm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-svg"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή PPSM σε SVG" 
         sectionDescription="[Δοκιμάστε τη δωρεάν εφαρμογή Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

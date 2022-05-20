@@ -94,7 +94,7 @@ with slides.Presentation("presentation.odp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pptx"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή ODP σε PPTX" 
         sectionDescription="[Δοκιμάστε τη δωρεάν εφαρμογή MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

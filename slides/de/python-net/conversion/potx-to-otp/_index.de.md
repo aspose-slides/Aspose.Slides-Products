@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des POTX-zu-OTP-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-otp"
+        extension=""
         sectionTitle="Kostenlose App, um POTX in OTP zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose MP4 To MP3 App aus](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

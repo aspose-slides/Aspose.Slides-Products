@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PPSX-zu-GIF-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-gif"
+        extension=""
         sectionTitle="Kostenlose App, um PPSX in GIF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Video App aus](https://products.aspose.app/slides/video/)" 
     >}}

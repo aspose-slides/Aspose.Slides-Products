@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.odp"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-jpeg"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή ODP σε JPEG" 
         sectionDescription="[Δοκιμάστε την δωρεάν εφαρμογή μας για να μετατρέψετε PPT σε JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

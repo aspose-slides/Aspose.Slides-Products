@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des FODP-zu-TIFF-Konvert
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-tiff"
+        extension=""
         sectionTitle="Kostenlose App, um FODP in TIFF zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -95,7 +95,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-jpg"
+        extension=""
         sectionTitle="Δωρεάν εφαρμογή για μετατροπή POT σε JPG" 
         sectionDescription="[Δοκιμάστε την δωρεάν εφαρμογή μας για να μετατρέψετε PPT σε JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

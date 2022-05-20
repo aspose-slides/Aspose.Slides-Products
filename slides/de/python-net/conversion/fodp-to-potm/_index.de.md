@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des Konvertierungsprozes
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-potm"
+        extension=""
         sectionTitle="Kostenlose App, um FODP in POTM zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

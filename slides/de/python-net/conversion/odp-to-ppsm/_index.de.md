@@ -94,7 +94,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des ODP-zu-PPSM-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsm"
+        extension=""
         sectionTitle="Kostenlose App, um ODP in PPSM zu konvertieren" 
         sectionDescription="[Probieren Sie unsere kostenlose Editor App aus](https://products.aspose.app/slides/editor/)" 
     >}}

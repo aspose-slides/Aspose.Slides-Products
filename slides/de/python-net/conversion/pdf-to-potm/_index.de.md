@@ -96,7 +96,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des PDF-zu-POTM-Konverti
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potm"
+        extension=""
         sectionTitle="Kostenlose App, um PDF in POTM zu konvertieren" 
         sectionDescription="[Versuchen Sie unsere kostenlose App, um PDF in POTM konvertieren zu können](https://products.aspose.app/slides/import/)" 
     >}}
