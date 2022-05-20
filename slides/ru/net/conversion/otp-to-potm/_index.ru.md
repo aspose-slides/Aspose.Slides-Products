@@ -93,7 +93,7 @@ presentation.Save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potm"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования OTP в POTM" 
         sectionDescription="[Попробуйте наше бесплатное приложение MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

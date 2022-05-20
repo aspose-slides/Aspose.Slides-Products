@@ -93,7 +93,7 @@ presentation.Save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-xps"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPSM ke XPS" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

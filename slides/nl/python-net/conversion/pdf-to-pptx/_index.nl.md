@@ -96,7 +96,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptx"
+        extension=""
         sectionTitle="Gratis app om PDF te converteren naar PPTX" 
         sectionDescription="[Probeer onze gratis app om PDF te converteren naar PPTX](https://products.aspose.app/slides/import/)" 
     >}}

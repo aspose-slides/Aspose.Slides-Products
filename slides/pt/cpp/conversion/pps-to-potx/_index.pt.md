@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potx", Aspose::Slides::Export::SaveFormat::Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-potx"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPS para POTX" 
         sectionDescription="[Experimente nosso aplicativo Collage grátis](https://products.aspose.app/slides/collage/)" 
     >}}

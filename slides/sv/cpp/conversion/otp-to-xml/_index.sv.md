@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-xml"
+        extension=""
         sectionTitle="Gratis app att konvertera OTP till XML" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

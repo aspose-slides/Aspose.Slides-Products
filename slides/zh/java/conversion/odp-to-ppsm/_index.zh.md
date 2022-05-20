@@ -101,7 +101,7 @@ presentation.save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsm"
+        extension=""
         sectionTitle="免費應用程序將ODP轉換為PPSM" 
         sectionDescription="[嘗試我們的免費Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

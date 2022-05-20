@@ -93,7 +93,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-tiff"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPSX para TIFF" 
         sectionDescription="[Experimente nosso aplicativo Editor grátis](https://products.aspose.app/slides/editor/)" 
     >}}

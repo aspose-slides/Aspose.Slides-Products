@@ -93,7 +93,7 @@ presentation.Save("output.swf", SaveFormat.Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-swf"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования OTP в SWF" 
         sectionDescription="[Попробуйте наше бесплатное приложение Video](https://products.aspose.app/slides/video/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pps"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTX ke PPS" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

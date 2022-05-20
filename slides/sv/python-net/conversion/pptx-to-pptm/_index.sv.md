@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPTX till PPTM-konverterings
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pptm"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTX till PPTM" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

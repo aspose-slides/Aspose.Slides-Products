@@ -95,7 +95,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da P
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-emf"
+        extension=""
         sectionTitle="App gratuita da convertire PPT in EMF" 
         sectionDescription="[Prova la nostra app gratuita Video](https://products.aspose.app/slides/video/)" 
     >}}

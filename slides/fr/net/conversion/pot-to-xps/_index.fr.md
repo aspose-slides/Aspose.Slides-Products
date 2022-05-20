@@ -93,7 +93,7 @@ presentation.Save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-xps"
+        extension=""
         sectionTitle="Application gratuite pour convertir POT en XPS" 
         sectionDescription="[Essayez notre application gratuite Collage](https://products.aspose.app/slides/collage/)" 
     >}}

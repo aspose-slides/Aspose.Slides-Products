@@ -95,7 +95,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het OTP naar JPG-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-jpg"
+        extension=""
         sectionTitle="Gratis app om OTP te converteren naar JPG" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

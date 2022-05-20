@@ -94,7 +94,7 @@ with slides.Presentation("presentation.odp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-gif"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования ODP в GIF" 
         sectionDescription="[Попробуйте наше бесплатное приложение MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

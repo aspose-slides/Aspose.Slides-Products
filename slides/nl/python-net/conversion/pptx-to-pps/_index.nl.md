@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPTX naar PPS-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pps"
+        extension=""
         sectionTitle="Gratis app om PPTX te converteren naar PPS" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

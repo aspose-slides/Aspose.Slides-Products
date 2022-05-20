@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.html", Aspose::Slides::Export::SaveFormat::Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-html"
+        extension=""
         sectionTitle="मुफ्त ऐप PPSX को HTML में कन्वर्ट करने के लिए" 
         sectionDescription="[PPT को HTML को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

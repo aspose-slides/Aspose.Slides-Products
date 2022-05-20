@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PPSM-SVG átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

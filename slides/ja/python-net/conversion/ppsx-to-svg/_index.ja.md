@@ -96,7 +96,7 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-svg"
+        extension=""
         sectionTitle="PPSXをSVGに変換するための無料アプリ" 
         sectionDescription="[無料のMP4 To MP3アプリを試してください](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

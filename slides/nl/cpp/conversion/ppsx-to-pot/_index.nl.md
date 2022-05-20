@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pot", Aspose::Slides::Export::SaveFormat::Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pot"
+        extension=""
         sectionTitle="Gratis app om PPSX te converteren naar POT" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

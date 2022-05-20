@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.emf", Aspose::Slides::Export::SaveFormat::Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-emf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPSM เป็น EMF" 
         sectionDescription="[ลองใช้แอป Text To Gif ฟรีของเรา](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

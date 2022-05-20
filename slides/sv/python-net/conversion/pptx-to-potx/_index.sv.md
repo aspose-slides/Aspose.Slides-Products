@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-potx"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTX till POTX" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

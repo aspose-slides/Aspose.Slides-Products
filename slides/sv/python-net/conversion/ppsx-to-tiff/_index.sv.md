@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSX till TIFF-konverterings
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till TIFF" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

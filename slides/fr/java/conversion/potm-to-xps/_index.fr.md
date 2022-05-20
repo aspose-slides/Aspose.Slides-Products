@@ -101,7 +101,7 @@ presentation.save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-xps"
+        extension=""
         sectionTitle="Application gratuite pour convertir POTM en XPS" 
         sectionDescription="[Essayez notre application gratuite Video](https://products.aspose.app/slides/video/)" 
     >}}

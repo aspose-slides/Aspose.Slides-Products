@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-swf"
+        extension=""
         sectionTitle="PPTをSWFに変換するための無料アプリ" 
         sectionDescription="[無料のMP4 To MP3アプリを試してください](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

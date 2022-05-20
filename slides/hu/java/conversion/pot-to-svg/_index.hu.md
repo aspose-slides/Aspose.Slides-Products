@@ -114,7 +114,7 @@ try {
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

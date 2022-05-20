@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pot"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-gif"
+        extension=""
         sectionTitle="App gratuita da convertire POT in GIF" 
         sectionDescription="[Prova la nostra app gratuita Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

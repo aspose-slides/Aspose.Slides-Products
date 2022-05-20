@@ -95,7 +95,7 @@ POTX'ten EMF'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-emf"
+        extension=""
         sectionTitle="POTX 'a dönüştürmek için ücretsiz uygulama EMF" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

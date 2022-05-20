@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pptx"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama PPTX" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

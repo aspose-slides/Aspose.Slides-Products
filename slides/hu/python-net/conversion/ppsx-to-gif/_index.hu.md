@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSX-GIF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

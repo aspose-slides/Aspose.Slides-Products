@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-xml"
+        extension=""
         sectionTitle="免費應用程序將TIFF轉換為XML" 
         sectionDescription="[嘗試我們的免費Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

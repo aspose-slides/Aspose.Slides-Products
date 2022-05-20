@@ -101,7 +101,7 @@ presentation.save("output.odp", SaveFormat.Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-odp"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง OTP เป็น ODP" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

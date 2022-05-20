@@ -94,7 +94,7 @@ with slides.Presentation("presentation.otp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-odp"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования OTP в ODP" 
         sectionDescription="[Попробуйте наше бесплатное приложение Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

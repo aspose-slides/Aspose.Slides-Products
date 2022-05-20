@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-xml"
+        extension=""
         sectionTitle="PPTX 'a dönüştürmek için ücretsiz uygulama XML" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.html", Aspose::Slides::Export::SaveFormat::Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-html"
+        extension=""
         sectionTitle="Application gratuite pour convertir EMF en HTML" 
         sectionDescription="[Essayez notre application gratuite Collage](https://products.aspose.app/slides/collage/)" 
     >}}

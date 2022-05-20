@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppt", Aspose::Slides::Export::SaveFormat::Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppt"
+        extension=""
         sectionTitle="POTをPPTに変換するための無料アプリ" 
         sectionDescription="[無料のVideoアプリを試してください](https://products.aspose.app/slides/video/)" 
     >}}

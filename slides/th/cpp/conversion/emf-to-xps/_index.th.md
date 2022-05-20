@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-xps"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง EMF เป็น XPS" 
         sectionDescription="[ลองใช้แอป MP4 To MP3 ฟรีของเรา](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

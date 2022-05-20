@@ -93,7 +93,7 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsm"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter OTP para PPSM" 
         sectionDescription="[Experimente nosso aplicativo Text To Gif grátis](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

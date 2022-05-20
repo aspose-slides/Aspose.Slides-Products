@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTM ke PPT.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-ppt"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTM ke PPT" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

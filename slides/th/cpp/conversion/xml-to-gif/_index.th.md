@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-gif"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง XML เป็น GIF" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

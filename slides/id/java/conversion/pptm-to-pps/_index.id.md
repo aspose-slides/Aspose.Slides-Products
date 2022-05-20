@@ -101,7 +101,7 @@ presentation.save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-pps"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTM ke PPS" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

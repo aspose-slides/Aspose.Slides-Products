@@ -101,7 +101,7 @@ presentation.save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-potm"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPSX в POTM" 
         sectionDescription="[Попробуйте наше бесплатное приложение Video](https://products.aspose.app/slides/video/)" 
     >}}

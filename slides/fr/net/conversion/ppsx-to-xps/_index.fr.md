@@ -93,7 +93,7 @@ presentation.Save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-xps"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPSX en XPS" 
         sectionDescription="[Essayez notre application gratuite Collage](https://products.aspose.app/slides/collage/)" 
     >}}

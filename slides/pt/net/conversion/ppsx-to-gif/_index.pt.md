@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.ppsx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-gif"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPSX para GIF" 
         sectionDescription="[Experimente nosso aplicativo Text To Gif grátis](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

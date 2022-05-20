@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-xml"
+        extension=""
         sectionTitle="App gratuita da convertire POT in XML" 
         sectionDescription="[Prova la nostra app gratuita MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.ppt", SaveFormat.Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-ppt"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter POTX para PPT" 
         sectionDescription="[Experimente nosso aplicativo Text To Gif grátis](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

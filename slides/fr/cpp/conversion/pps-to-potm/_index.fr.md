@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potm", Aspose::Slides::Export::SaveFormat::Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-potm"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPS en POTM" 
         sectionDescription="[Essayez notre application gratuite Editor](https://products.aspose.app/slides/editor/)" 
     >}}

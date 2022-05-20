@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.odp", Aspose::Slides::Export::SaveFormat::Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-odp"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar ODP" 
         sectionDescription="[Probeer onze gratis Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

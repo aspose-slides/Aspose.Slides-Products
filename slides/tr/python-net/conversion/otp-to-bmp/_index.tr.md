@@ -95,7 +95,7 @@ OTP'den BMP'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-bmp"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama BMP" 
         sectionDescription="[PPT için BMP dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

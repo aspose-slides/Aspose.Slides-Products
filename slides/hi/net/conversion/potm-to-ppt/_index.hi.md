@@ -93,7 +93,7 @@ presentation.Save("output.ppt", SaveFormat.Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppt"
+        extension=""
         sectionTitle="मुफ्त ऐप POTM को PPT में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Collage ऐप आज़माएं](https://products.aspose.app/slides/collage/)" 
     >}}

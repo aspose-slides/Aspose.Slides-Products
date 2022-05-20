@@ -93,7 +93,7 @@ presentation.Save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-xps"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPTM en XPS" 
         sectionDescription="[Essayez notre application gratuite Video](https://products.aspose.app/slides/video/)" 
     >}}

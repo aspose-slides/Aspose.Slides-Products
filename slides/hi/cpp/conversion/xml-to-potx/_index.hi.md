@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potx", Aspose::Slides::Export::SaveFormat::Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-potx"
+        extension=""
         sectionTitle="मुफ्त ऐप XML को POTX में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त MP4 To MP3 ऐप आज़माएं](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

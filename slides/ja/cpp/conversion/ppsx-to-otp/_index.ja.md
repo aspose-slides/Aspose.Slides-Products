@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.otp", Aspose::Slides::Export::SaveFormat::Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-otp"
+        extension=""
         sectionTitle="PPSXをOTPに変換するための無料アプリ" 
         sectionDescription="[無料のText To Gifアプリを試してください](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

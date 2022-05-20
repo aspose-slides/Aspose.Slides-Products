@@ -93,7 +93,7 @@ presentation.Save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsx"
+        extension=""
         sectionTitle="App gratuita da convertire ODP in PPSX" 
         sectionDescription="[Prova la nostra app gratuita Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.potx", SaveFormat.Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-potx"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POTM в POTX" 
         sectionDescription="[Попробуйте наше бесплатное приложение Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.potx", SaveFormat.Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-potx"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPSX do POTX" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

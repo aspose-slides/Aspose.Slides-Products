@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-emf"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPT в EMF" 
         sectionDescription="[Попробуйте наше бесплатное приложение Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

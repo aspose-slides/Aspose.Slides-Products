@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.ppsm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-gif"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPSM ke GIF" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

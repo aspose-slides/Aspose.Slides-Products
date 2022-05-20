@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsm", Aspose::Slides::Export::SaveFormat::Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppsm"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POTM เป็น PPSM" 
         sectionDescription="[ลองใช้แอป Video ฟรีของเรา](https://products.aspose.app/slides/video/)" 
     >}}

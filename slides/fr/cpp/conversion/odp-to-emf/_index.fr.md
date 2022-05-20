@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.emf", Aspose::Slides::Export::SaveFormat::Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-emf"
+        extension=""
         sectionTitle="Application gratuite pour convertir ODP en EMF" 
         sectionDescription="[Essayez notre application gratuite Editor](https://products.aspose.app/slides/editor/)" 
     >}}

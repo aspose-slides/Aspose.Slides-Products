@@ -94,7 +94,7 @@ FODP'den XPS'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-xps"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama XPS" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

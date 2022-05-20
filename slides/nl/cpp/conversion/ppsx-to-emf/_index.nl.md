@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.emf", Aspose::Slides::Export::SaveFormat::Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-emf"
+        extension=""
         sectionTitle="Gratis app om PPSX te converteren naar EMF" 
         sectionDescription="[Probeer onze gratis MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

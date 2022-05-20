@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av FODP till OTP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-otp"
+        extension=""
         sectionTitle="Gratis app att konvertera FODP till OTP" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

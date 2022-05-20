@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-pdf"
+        extension=""
         sectionTitle="TIFF 'a dönüştürmek için ücretsiz uygulama PDF" 
         sectionDescription="[Ücretsiz MP4 To MP3 uygulamamızı deneyin](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

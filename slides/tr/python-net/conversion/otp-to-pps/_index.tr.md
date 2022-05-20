@@ -94,7 +94,7 @@ OTP'den PPS'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pps"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama PPS" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

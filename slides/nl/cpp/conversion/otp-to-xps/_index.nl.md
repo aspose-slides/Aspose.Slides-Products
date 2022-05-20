@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-xps"
+        extension=""
         sectionTitle="Gratis app om OTP te converteren naar XPS" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

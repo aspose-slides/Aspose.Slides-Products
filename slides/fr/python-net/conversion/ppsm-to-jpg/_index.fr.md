@@ -95,7 +95,7 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-jpg"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPSM en JPG" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

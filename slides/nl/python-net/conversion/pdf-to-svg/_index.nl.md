@@ -98,7 +98,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-svg"
+        extension=""
         sectionTitle="Gratis app om PDF te converteren naar SVG" 
         sectionDescription="[Probeer onze gratis app om PDF te converteren naar SVG](https://products.aspose.app/slides/import/)" 
     >}}

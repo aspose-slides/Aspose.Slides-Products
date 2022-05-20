@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-xml"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования ODP в XML" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -96,7 +96,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-svg"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji FODP do SVG" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Video](https://products.aspose.app/slides/video/)" 
     >}}

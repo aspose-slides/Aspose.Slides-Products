@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-gif"
+        extension=""
         sectionTitle="Gratis app om PPSM te converteren naar GIF" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

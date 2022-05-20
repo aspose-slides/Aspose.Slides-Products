@@ -101,7 +101,7 @@ presentation.save("output.odp", SaveFormat.Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-odp"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POTM в ODP" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

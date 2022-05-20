@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-emf"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama EMF" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pps", Aspose::Slides::Export::SaveFormat::Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pps"
+        extension=""
         sectionTitle="Gratis app att konvertera OTP till PPS" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

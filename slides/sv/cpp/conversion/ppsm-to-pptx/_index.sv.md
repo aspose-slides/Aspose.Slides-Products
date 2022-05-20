@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pptx"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till PPTX" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

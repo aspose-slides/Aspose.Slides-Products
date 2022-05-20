@@ -101,7 +101,7 @@ presentation.save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

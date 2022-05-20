@@ -94,7 +94,7 @@ PPTM'den PPT'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-ppt"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama PPT" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

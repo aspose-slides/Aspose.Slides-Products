@@ -93,7 +93,7 @@ presentation.Save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pot"
+        extension=""
         sectionTitle="OTPをPOTに変換するための無料アプリ" 
         sectionDescription="[無料のVideoアプリを試してください](https://products.aspose.app/slides/video/)" 
     >}}

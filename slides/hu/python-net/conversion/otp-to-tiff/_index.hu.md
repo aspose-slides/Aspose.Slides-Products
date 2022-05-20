@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP TIFF átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-tiff"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához TIFF -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

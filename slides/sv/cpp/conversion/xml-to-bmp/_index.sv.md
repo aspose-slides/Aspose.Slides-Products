@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-bmp"
+        extension=""
         sectionTitle="Gratis app att konvertera XML till BMP" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

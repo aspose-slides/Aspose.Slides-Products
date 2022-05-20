@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-bmp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a EMF konvertálásához BMP -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

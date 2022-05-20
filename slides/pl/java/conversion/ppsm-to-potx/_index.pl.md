@@ -101,7 +101,7 @@ presentation.save("output.potx", SaveFormat.Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-potx"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPSM do POTX" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

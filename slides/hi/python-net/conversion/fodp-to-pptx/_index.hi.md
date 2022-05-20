@@ -94,7 +94,7 @@ FODP से PPTX रूपांतरण प्रक्रिया का प
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pptx"
+        extension=""
         sectionTitle="मुफ्त ऐप FODP को PPTX में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Text To Gif ऐप आज़माएं](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.ppt", SaveFormat.Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppt"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POT в PPT" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

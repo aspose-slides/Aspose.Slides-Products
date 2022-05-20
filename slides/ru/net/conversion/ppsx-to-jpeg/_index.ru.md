@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.ppsx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-jpeg"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPSX в JPEG" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PPT в JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

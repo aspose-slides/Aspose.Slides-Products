@@ -101,7 +101,7 @@ presentation.save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pps"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama PPS" 
         sectionDescription="[Ücretsiz MP4 To MP3 uygulamamızı deneyin](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.odp"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-gif"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования ODP в GIF" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POT ke PPTM.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pptm"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POT ke PPTM" 
         sectionDescription="[Coba aplikasi Text To Gif gratis kami](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

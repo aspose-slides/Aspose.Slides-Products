@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből PPSM-be konvertálási folyamat b
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PPSM -re](https://products.aspose.app/slides/import/)" 
     >}}

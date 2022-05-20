@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-swf"
+        extension=""
         sectionTitle="App gratuita da convertire POT in SWF" 
         sectionDescription="[Prova la nostra app gratuita Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

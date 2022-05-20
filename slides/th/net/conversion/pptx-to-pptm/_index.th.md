@@ -93,7 +93,7 @@ presentation.Save("output.pptm", SaveFormat.Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pptm"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPTX เป็น PPTM" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

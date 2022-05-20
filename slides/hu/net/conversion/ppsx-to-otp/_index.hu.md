@@ -93,7 +93,7 @@ presentation.Save("output.otp", SaveFormat.Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-otp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához OTP -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

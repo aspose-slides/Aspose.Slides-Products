@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pot", Aspose::Slides::Export::SaveFormat::Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pot"
+        extension=""
         sectionTitle="Gratis app om PPTX te converteren naar POT" 
         sectionDescription="[Probeer onze gratis MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

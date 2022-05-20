@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av PDF till HTML-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-html"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till HTML" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till HTML](https://products.aspose.app/slides/import/)" 
     >}}

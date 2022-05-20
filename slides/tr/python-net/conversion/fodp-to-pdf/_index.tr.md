@@ -94,7 +94,7 @@ FODP'den PDF'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pdf"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama PDF" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

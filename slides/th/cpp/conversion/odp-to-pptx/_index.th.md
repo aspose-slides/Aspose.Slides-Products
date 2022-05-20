@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pptx"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง ODP เป็น PPTX" 
         sectionDescription="[ลองใช้แอป Collage ฟรีของเรา](https://products.aspose.app/slides/collage/)" 
     >}}

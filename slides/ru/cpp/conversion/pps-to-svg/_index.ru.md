@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.svg", Aspose::Slides::Export::SaveFormat::Svg);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-svg"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPS в SVG" 
         sectionDescription="[Попробуйте наше бесплатное приложение Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

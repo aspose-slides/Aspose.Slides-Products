@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsx", Aspose::Slides::Export::SaveFormat::Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-ppsx"
+        extension=""
         sectionTitle="Gratis app om EMF te converteren naar PPSX" 
         sectionDescription="[Probeer onze gratis Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

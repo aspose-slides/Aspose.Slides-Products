@@ -96,7 +96,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-html"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PDF do HTML" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PDF na HTML](https://products.aspose.app/slides/import/)" 
     >}}

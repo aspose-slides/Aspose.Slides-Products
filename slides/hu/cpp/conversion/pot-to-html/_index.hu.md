@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.html", Aspose::Slides::Export::SaveFormat::Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-html"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához HTML -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához HTML -re](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

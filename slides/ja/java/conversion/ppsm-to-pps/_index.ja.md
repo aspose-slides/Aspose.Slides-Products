@@ -101,7 +101,7 @@ presentation.save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pps"
+        extension=""
         sectionTitle="PPSMをPPSに変換するための無料アプリ" 
         sectionDescription="[無料のEditorアプリを試してください](https://products.aspose.app/slides/editor/)" 
     >}}

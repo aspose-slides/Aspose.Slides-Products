@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pot", Aspose::Slides::Export::SaveFormat::Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pot"
+        extension=""
         sectionTitle="Gratis app att konvertera POTX till POT" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

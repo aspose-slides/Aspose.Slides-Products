@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-xps"
+        extension=""
         sectionTitle="मुफ्त ऐप PPTM को XPS में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त MP4 To MP3 ऐप आज़माएं](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

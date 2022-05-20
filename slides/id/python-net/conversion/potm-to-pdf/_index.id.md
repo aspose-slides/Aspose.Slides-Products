@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTM ke PDF.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pdf"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POTM ke PDF" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

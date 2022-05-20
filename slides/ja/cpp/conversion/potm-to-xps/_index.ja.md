@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-xps"
+        extension=""
         sectionTitle="POTMをXPSに変換するための無料アプリ" 
         sectionDescription="[無料のText To Gifアプリを試してください](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

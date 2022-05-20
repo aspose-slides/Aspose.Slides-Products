@@ -101,7 +101,7 @@ presentation.save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-potm"
+        extension=""
         sectionTitle="Gratis app om ODP te converteren naar POTM" 
         sectionDescription="[Probeer onze gratis Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

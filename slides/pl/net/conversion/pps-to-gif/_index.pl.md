@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pps"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-gif"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPS do GIF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Editor](https://products.aspose.app/slides/editor/)" 
     >}}

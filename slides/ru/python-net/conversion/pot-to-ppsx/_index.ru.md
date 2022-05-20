@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppsx"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POT в PPSX" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

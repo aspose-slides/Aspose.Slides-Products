@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.otp"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-gif"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji OTP do GIF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Collage](https://products.aspose.app/slides/collage/)" 
     >}}

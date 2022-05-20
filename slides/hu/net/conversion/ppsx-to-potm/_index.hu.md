@@ -93,7 +93,7 @@ presentation.Save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-potm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához POTM -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

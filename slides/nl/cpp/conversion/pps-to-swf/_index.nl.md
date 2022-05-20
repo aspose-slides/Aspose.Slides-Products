@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-swf"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar SWF" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

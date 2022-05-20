@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsm", Aspose::Slides::Export::SaveFormat::Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-ppsm"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji XML do PPSM" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Collage](https://products.aspose.app/slides/collage/)" 
     >}}

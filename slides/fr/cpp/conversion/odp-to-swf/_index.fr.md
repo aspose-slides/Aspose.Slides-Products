@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-swf"
+        extension=""
         sectionTitle="Application gratuite pour convertir ODP en SWF" 
         sectionDescription="[Essayez notre application gratuite Video](https://products.aspose.app/slides/video/)" 
     >}}

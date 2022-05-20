@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-ppsm"
+        extension=""
         sectionTitle="PPSXをPPSMに変換するための無料アプリ" 
         sectionDescription="[無料のEditorアプリを試してください](https://products.aspose.app/slides/editor/)" 
     >}}

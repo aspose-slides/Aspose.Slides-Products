@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.tiff", Aspose::Slides::Export::SaveFormat::Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till TIFF" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

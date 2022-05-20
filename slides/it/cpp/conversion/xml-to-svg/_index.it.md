@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.svg", Aspose::Slides::Export::SaveFormat::Svg);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-svg"
+        extension=""
         sectionTitle="App gratuita da convertire XML in SVG" 
         sectionDescription="[Prova la nostra app gratuita Collage](https://products.aspose.app/slides/collage/)" 
     >}}

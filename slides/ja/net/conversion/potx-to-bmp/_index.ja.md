@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-bmp"
+        extension=""
         sectionTitle="POTXをBMPに変換するための無料アプリ" 
         sectionDescription="[PPTをBMPに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-gif"
+        extension=""
         sectionTitle="Application gratuite pour convertir ODP en GIF" 
         sectionDescription="[Essayez notre application gratuite Collage](https://products.aspose.app/slides/collage/)" 
     >}}

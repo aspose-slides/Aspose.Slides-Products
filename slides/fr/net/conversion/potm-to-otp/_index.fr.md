@@ -93,7 +93,7 @@ presentation.Save("output.otp", SaveFormat.Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-otp"
+        extension=""
         sectionTitle="Application gratuite pour convertir POTM en OTP" 
         sectionDescription="[Essayez notre application gratuite Editor](https://products.aspose.app/slides/editor/)" 
     >}}

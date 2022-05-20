@@ -93,7 +93,7 @@ presentation.Save("output.otp", SaveFormat.Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-otp"
+        extension=""
         sectionTitle="PPTX 'a dönüştürmek için ücretsiz uygulama OTP" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

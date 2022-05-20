@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-gif"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPSX в GIF" 
         sectionDescription="[Попробуйте наше бесплатное приложение Video](https://products.aspose.app/slides/video/)" 
     >}}

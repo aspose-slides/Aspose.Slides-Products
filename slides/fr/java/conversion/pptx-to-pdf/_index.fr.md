@@ -101,7 +101,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pdf"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPTX en PDF" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

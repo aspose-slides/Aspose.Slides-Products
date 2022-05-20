@@ -101,7 +101,7 @@ presentation.save("output.otp", SaveFormat.Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-otp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till OTP" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

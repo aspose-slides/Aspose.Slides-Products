@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptm"
+        extension=""
         sectionTitle="Gratis app om OTP te converteren naar PPTM" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

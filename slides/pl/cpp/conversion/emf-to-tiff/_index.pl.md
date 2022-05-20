@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.tiff", Aspose::Slides::Export::SaveFormat::Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-tiff"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji EMF do TIFF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

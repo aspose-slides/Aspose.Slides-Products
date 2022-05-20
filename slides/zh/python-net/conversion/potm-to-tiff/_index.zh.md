@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-tiff"
+        extension=""
         sectionTitle="免費應用程序將POTM轉換為TIFF" 
         sectionDescription="[嘗試我們的免費Video app](https://products.aspose.app/slides/video/)" 
     >}}

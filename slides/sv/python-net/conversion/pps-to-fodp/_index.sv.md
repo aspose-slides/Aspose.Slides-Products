@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPS till FODP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-fodp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till FODP" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

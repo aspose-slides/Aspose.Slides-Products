@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSX ke FODP.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-fodp"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPSX ke FODP" 
         sectionDescription="[Coba aplikasi Text To Gif gratis kami](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

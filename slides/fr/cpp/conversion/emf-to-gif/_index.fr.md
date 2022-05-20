@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-gif"
+        extension=""
         sectionTitle="Application gratuite pour convertir EMF en GIF" 
         sectionDescription="[Essayez notre application gratuite Editor](https://products.aspose.app/slides/editor/)" 
     >}}

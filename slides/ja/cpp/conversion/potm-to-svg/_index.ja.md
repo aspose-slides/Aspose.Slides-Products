@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.svg", Aspose::Slides::Export::SaveFormat::Svg);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-svg"
+        extension=""
         sectionTitle="POTMをSVGに変換するための無料アプリ" 
         sectionDescription="[無料のVideoアプリを試してください](https://products.aspose.app/slides/video/)" 
     >}}

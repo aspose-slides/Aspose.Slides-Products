@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-bmp"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter POTM para BMP" 
         sectionDescription="[Experimente nosso aplicativo gratuito para converter PPT para BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

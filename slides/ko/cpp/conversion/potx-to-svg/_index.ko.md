@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.svg", Aspose::Slides::Export::SaveFormat::Svg);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-svg"
+        extension=""
         sectionTitle="POTX을 SVG로 변환하는 무료 앱" 
         sectionDescription="[무료 Editor 앱을 사용해보십시오](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar TIFF-c
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-tiff"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar TIFF" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

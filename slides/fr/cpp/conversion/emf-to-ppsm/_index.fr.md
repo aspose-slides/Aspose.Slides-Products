@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsm", Aspose::Slides::Export::SaveFormat::Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-ppsm"
+        extension=""
         sectionTitle="Application gratuite pour convertir EMF en PPSM" 
         sectionDescription="[Essayez notre application gratuite Collage](https://products.aspose.app/slides/collage/)" 
     >}}

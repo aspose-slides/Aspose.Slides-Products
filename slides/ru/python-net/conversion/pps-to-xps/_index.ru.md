@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pps") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-xps"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPS в XPS" 
         sectionDescription="[Попробуйте наше бесплатное приложение Video](https://products.aspose.app/slides/video/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-xps"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPSX thành XPS" 
         sectionDescription="[Hãy thử ứng dụng Editor miễn phí của chúng tôi](https://products.aspose.app/slides/editor/)" 
     >}}

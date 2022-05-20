@@ -94,7 +94,7 @@ ODP'den POT'a dönüştürme işleminin bir gösterimini görmek için ücretsiz
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pot"
+        extension=""
         sectionTitle="ODP 'a dönüştürmek için ücretsiz uygulama POT" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

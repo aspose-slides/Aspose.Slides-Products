@@ -96,7 +96,7 @@ PDF'den PPTX'e dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptx"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama PPTX" 
         sectionDescription="[PDF için PPTX dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

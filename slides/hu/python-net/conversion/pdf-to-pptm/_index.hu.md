@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből PPTM-be konvert
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához PPTM -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához PPTM -re](https://products.aspose.app/slides/import/)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptx"
+        extension=""
         sectionTitle="Application gratuite pour convertir OTP en PPTX" 
         sectionDescription="[Essayez notre application gratuite MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

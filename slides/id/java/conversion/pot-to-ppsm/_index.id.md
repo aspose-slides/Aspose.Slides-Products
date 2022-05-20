@@ -101,7 +101,7 @@ presentation.save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppsm"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POT ke PPSM" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

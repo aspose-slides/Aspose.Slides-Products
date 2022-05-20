@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.tiff", Aspose::Slides::Export::SaveFormat::Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-tiff"
+        extension=""
         sectionTitle="PPSM 'a dönüştürmek için ücretsiz uygulama TIFF" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

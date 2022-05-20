@@ -94,7 +94,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da O
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-tiff"
+        extension=""
         sectionTitle="App gratuita da convertire OTP in TIFF" 
         sectionDescription="[Prova la nostra app gratuita MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-png"
+        extension=""
         sectionTitle="EMFをPNGに変換するための無料アプリ" 
         sectionDescription="[無料のCollageアプリを試してください](https://products.aspose.app/slides/collage/)" 
     >}}

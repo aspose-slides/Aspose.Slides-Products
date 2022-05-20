@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-fodp"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POT в FODP" 
         sectionDescription="[Попробуйте наше бесплатное приложение Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

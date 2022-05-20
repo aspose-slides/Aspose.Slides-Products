@@ -98,7 +98,7 @@ Használja az ingyenes alkalmazást a PDF-SVG átalakítási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához SVG -re](https://products.aspose.app/slides/import/)" 
     >}}

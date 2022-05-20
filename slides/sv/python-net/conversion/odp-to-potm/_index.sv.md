@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av ODP till POTM-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-potm"
+        extension=""
         sectionTitle="Gratis app att konvertera ODP till POTM" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

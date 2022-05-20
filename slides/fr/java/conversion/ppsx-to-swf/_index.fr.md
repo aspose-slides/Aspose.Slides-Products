@@ -101,7 +101,7 @@ presentation.save("output.swf", SaveFormat.Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-swf"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPSX en SWF" 
         sectionDescription="[Essayez notre application gratuite Collage](https://products.aspose.app/slides/collage/)" 
     >}}

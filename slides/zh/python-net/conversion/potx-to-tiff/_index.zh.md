@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-tiff"
+        extension=""
         sectionTitle="免費應用程序將POTX轉換為TIFF" 
         sectionDescription="[嘗試我們的免費Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

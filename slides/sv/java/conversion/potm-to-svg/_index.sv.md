@@ -114,7 +114,7 @@ try {
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-svg"
+        extension=""
         sectionTitle="Gratis app att konvertera POTM till SVG" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

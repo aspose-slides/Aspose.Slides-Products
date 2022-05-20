@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-bmp"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования OTP в BMP" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PPT в BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

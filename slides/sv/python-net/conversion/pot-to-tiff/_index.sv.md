@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera POT till TIFF" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

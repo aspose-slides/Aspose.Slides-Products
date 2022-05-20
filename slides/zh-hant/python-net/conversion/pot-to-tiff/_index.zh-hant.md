@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-tiff"
+        extension=""
         sectionTitle="免費應用程序將POT轉換為TIFF" 
         sectionDescription="[嘗試我們的免費Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

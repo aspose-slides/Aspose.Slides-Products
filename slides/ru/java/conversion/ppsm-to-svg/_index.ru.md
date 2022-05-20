@@ -114,7 +114,7 @@ try {
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-svg"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPSM в SVG" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

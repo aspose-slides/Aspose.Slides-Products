@@ -93,7 +93,7 @@ presentation.Save("output.otp", SaveFormat.Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-otp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához OTP -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

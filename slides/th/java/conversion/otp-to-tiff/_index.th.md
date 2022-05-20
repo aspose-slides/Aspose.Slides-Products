@@ -101,7 +101,7 @@ presentation.save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-tiff"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง OTP เป็น TIFF" 
         sectionDescription="[ลองใช้แอป Text To Gif ฟรีของเรา](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

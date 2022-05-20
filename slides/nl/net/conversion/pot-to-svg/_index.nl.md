@@ -100,7 +100,7 @@ using (Presentation pres = new Presentation("template.pot"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-svg"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar SVG" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

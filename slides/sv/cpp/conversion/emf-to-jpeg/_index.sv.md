@@ -104,7 +104,7 @@ bitmap->Save(u"output.jpeg", ImageFormat::get_Jpeg());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-jpeg"
+        extension=""
         sectionTitle="Gratis app att konvertera EMF till JPEG" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

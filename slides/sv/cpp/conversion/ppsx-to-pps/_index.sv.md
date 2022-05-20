@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pps", Aspose::Slides::Export::SaveFormat::Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pps"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till PPS" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

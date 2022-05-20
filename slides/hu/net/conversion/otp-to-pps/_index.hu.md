@@ -93,7 +93,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához PPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

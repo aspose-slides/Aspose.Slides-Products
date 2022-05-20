@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.emf", Aspose::Slides::Export::SaveFormat::Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-emf"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPTM do EMF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Video](https://products.aspose.app/slides/video/)" 
     >}}

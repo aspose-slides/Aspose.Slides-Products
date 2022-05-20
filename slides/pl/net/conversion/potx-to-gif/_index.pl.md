@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-gif"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji POTX do GIF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

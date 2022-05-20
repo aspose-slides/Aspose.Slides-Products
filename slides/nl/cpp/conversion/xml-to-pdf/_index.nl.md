@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-pdf"
+        extension=""
         sectionTitle="Gratis app om XML te converteren naar PDF" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

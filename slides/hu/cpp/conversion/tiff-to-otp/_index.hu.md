@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.otp", Aspose::Slides::Export::SaveFormat::Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-otp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a TIFF konvertálásához OTP -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

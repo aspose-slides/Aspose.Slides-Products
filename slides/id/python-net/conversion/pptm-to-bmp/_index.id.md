@@ -95,7 +95,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTM ke BMP.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-bmp"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTM ke BMP" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

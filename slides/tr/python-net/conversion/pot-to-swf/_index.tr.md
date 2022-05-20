@@ -94,7 +94,7 @@ POT'tan SWF'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-swf"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama SWF" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

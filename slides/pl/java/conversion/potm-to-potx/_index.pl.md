@@ -101,7 +101,7 @@ presentation.save("output.potx", SaveFormat.Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-potx"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji POTM do POTX" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Video](https://products.aspose.app/slides/video/)" 
     >}}

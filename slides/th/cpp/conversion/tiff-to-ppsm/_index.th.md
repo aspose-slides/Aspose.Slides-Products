@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsm", Aspose::Slides::Export::SaveFormat::Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-ppsm"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง TIFF เป็น PPSM" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

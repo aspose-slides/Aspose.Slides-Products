@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a POT SVG átalakítási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

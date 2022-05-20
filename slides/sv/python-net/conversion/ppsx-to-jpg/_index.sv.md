@@ -95,7 +95,7 @@ Använd gratisappen för att se en demonstration av PPSX till JPG-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-jpg"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till JPG" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.pptm", SaveFormat.Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pptm"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPTX do PPTM" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

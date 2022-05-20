@@ -100,7 +100,7 @@ using (Presentation pres = new Presentation("template.ppsx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-svg"
+        extension=""
         sectionTitle="App gratuita da convertire PPSX in SVG" 
         sectionDescription="[Prova la nostra app gratuita Video](https://products.aspose.app/slides/video/)" 
     >}}

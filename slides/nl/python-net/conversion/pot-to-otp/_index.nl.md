@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POT naar OTP-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-otp"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar OTP" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.swf", SaveFormat.Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-swf"
+        extension=""
         sectionTitle="免費應用程序將PPT轉換為SWF" 
         sectionDescription="[嘗試我們的免費Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pptm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-png"
+        extension=""
         sectionTitle="App gratuita da convertire PPTM in PNG" 
         sectionDescription="[Prova la nostra app gratuita per convertire PPT in PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

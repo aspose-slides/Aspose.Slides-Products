@@ -101,7 +101,7 @@ presentation.save("output.swf", SaveFormat.Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-swf"
+        extension=""
         sectionTitle="Gratis app om PPSM te converteren naar SWF" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

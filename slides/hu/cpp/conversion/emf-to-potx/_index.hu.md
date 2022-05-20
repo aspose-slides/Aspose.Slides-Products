@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potx", Aspose::Slides::Export::SaveFormat::Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a EMF konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pot"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till POT" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

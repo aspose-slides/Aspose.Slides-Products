@@ -93,7 +93,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pdf"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama PDF" 
         sectionDescription="[PPT için PDF dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/)" 
     >}}

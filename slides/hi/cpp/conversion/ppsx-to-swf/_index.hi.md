@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-swf"
+        extension=""
         sectionTitle="मुफ्त ऐप PPSX को SWF में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Text To Gif ऐप आज़माएं](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

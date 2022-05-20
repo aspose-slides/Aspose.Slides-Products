@@ -101,7 +101,7 @@ presentation.save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pot"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter OTP para POT" 
         sectionDescription="[Experimente nosso aplicativo Collage grátis](https://products.aspose.app/slides/collage/)" 
     >}}

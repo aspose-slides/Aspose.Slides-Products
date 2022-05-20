@@ -101,7 +101,7 @@ presentation.save("output.ppt", SaveFormat.Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-ppt"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPSM do PPT" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

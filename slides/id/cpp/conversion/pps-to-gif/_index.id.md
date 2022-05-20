@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-gif"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPS ke GIF" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

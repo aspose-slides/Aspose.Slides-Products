@@ -93,7 +93,7 @@ presentation.Save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-potm"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPSM thành POTM" 
         sectionDescription="[Hãy thử ứng dụng Editor miễn phí của chúng tôi](https://products.aspose.app/slides/editor/)" 
     >}}

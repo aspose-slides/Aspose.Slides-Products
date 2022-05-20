@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-emf"
+        extension=""
         sectionTitle="Application gratuite pour convertir POTM en EMF" 
         sectionDescription="[Essayez notre application gratuite Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

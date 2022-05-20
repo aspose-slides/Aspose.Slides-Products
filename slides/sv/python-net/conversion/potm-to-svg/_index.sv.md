@@ -96,7 +96,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-svg"
+        extension=""
         sectionTitle="Gratis app att konvertera POTM till SVG" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

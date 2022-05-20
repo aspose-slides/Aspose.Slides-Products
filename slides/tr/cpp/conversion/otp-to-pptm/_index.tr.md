@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptm", Aspose::Slides::Export::SaveFormat::Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptm"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama PPTM" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

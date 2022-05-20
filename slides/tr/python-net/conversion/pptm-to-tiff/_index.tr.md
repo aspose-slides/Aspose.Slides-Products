@@ -94,7 +94,7 @@ PPTM'den TIFF'e dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-tiff"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama TIFF" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

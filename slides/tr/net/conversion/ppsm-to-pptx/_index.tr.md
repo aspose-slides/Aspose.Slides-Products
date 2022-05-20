@@ -93,7 +93,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pptx"
+        extension=""
         sectionTitle="PPSM 'a dönüştürmek için ücretsiz uygulama PPTX" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

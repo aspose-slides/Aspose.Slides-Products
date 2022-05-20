@@ -93,7 +93,7 @@ presentation.Save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsx"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama PPSX" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

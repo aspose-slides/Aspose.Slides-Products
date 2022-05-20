@@ -101,7 +101,7 @@ using (Presentation pres = new Presentation("template.otp"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-svg"
+        extension=""
         sectionTitle="App gratuita da convertire OTP in SVG" 
         sectionDescription="[Prova la nostra app gratuita Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.swf", SaveFormat.Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-swf"
+        extension=""
         sectionTitle="POTM 'a dönüştürmek için ücretsiz uygulama SWF" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

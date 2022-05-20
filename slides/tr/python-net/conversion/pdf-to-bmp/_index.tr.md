@@ -97,7 +97,7 @@ PDF'den BMP'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-bmp"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama BMP" 
         sectionDescription="[PDF için BMP dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

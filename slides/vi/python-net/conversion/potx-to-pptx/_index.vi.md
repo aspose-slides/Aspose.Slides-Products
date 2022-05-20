@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pptx"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi POTX thành PPTX" 
         sectionDescription="[Hãy thử ứng dụng Text To Gif miễn phí của chúng tôi](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

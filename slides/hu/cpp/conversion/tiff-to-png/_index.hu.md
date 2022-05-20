@@ -104,7 +104,7 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-png"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a TIFF konvertálásához PNG -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

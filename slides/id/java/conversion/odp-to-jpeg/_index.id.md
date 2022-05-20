@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-jpeg"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi ODP ke JPEG" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

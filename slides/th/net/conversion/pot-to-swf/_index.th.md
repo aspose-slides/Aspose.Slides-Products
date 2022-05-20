@@ -93,7 +93,7 @@ presentation.Save("output.swf", SaveFormat.Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-swf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POT เป็น SWF" 
         sectionDescription="[ลองใช้แอป MP4 To MP3 ฟรีของเรา](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

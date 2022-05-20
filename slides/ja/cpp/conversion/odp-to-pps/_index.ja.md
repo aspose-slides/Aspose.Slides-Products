@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pps", Aspose::Slides::Export::SaveFormat::Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pps"
+        extension=""
         sectionTitle="ODPをPPSに変換するための無料アプリ" 
         sectionDescription="[無料のCollageアプリを試してください](https://products.aspose.app/slides/collage/)" 
     >}}

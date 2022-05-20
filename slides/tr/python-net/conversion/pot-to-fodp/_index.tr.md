@@ -94,7 +94,7 @@ POT'tan FODP'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-fodp"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama FODP" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

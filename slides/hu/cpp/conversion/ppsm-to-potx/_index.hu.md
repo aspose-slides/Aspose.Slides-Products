@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potx", Aspose::Slides::Export::SaveFormat::Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

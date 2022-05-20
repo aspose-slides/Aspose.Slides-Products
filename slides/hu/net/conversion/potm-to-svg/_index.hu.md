@@ -101,7 +101,7 @@ using (Presentation pres = new Presentation("template.potm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-svg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához SVG -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

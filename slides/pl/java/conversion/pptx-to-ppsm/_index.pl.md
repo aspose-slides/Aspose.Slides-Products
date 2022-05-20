@@ -101,7 +101,7 @@ presentation.save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-ppsm"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPTX do PPSM" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Collage](https://products.aspose.app/slides/collage/)" 
     >}}

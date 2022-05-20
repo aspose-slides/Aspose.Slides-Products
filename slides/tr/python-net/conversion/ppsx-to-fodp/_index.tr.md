@@ -94,7 +94,7 @@ PPSX'ten FODP'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-fodp"
+        extension=""
         sectionTitle="PPSX 'a dönüştürmek için ücretsiz uygulama FODP" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

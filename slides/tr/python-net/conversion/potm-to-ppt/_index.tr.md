@@ -94,7 +94,7 @@ POTM'den PPT'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppt"
+        extension=""
         sectionTitle="POTM 'a dönüştürmek için ücretsiz uygulama PPT" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

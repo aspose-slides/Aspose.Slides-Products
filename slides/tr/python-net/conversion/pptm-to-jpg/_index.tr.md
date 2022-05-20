@@ -95,7 +95,7 @@ PPTM'den JPG'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-jpg"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama JPG" 
         sectionDescription="[PPT için JPG dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

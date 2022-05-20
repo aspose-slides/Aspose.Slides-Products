@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar POT-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pot"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar POT" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

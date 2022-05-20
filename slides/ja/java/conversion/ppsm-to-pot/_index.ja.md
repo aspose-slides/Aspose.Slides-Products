@@ -101,7 +101,7 @@ presentation.save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pot"
+        extension=""
         sectionTitle="PPSMをPOTに変換するための無料アプリ" 
         sectionDescription="[無料のText To Gifアプリを試してください](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

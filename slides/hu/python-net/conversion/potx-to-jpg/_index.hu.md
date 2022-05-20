@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a POTX-JPG konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-jpg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához JPG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához JPG -re](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

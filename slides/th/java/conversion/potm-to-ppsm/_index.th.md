@@ -101,7 +101,7 @@ presentation.save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppsm"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POTM เป็น PPSM" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

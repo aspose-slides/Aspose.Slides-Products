@@ -95,7 +95,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSX-BMP konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-bmp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához BMP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához BMP -re](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

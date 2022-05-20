@@ -101,7 +101,7 @@ presentation.save("output.odp", SaveFormat.Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-odp"
+        extension=""
         sectionTitle="免費應用程序將PPS轉換為ODP" 
         sectionDescription="[嘗試我們的免費Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

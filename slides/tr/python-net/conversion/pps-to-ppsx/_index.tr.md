@@ -94,7 +94,7 @@ PPS'den PPSX'e dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-ppsx"
+        extension=""
         sectionTitle="PPS 'a dönüştürmek için ücretsiz uygulama PPSX" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

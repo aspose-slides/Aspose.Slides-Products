@@ -95,7 +95,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-emf"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter POTM para EMF" 
         sectionDescription="[Experimente nosso aplicativo Video grátis](https://products.aspose.app/slides/video/)" 
     >}}

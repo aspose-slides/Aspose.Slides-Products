@@ -94,7 +94,7 @@ POTX'ten OTP'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-otp"
+        extension=""
         sectionTitle="POTX 'a dönüştürmek için ücretsiz uygulama OTP" 
         sectionDescription="[Ücretsiz MP4 To MP3 uygulamamızı deneyin](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

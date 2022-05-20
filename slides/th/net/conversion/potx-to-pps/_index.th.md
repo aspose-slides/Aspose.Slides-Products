@@ -93,7 +93,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pps"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POTX เป็น PPS" 
         sectionDescription="[ลองใช้แอป MP4 To MP3 ฟรีของเรา](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

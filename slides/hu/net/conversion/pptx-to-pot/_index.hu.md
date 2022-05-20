@@ -93,7 +93,7 @@ presentation.Save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pot"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához POT -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

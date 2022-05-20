@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POTM OTP konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-otp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához OTP -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

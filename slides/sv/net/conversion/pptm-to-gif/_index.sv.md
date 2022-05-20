@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pptm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-gif"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTM till GIF" 
         sectionDescription="[Prova vår gratis MP4 To MP3 -app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

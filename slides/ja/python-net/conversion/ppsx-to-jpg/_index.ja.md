@@ -95,7 +95,7 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-jpg"
+        extension=""
         sectionTitle="PPSXをJPGに変換するための無料アプリ" 
         sectionDescription="[PPTをJPGに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

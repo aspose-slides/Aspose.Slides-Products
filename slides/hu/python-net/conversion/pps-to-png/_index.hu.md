@@ -95,7 +95,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPS-ből PNG-be való á
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-png"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához PNG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához PNG -re](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

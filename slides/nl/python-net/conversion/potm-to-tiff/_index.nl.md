@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTM naar TIFF-c
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-tiff"
+        extension=""
         sectionTitle="Gratis app om POTM te converteren naar TIFF" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

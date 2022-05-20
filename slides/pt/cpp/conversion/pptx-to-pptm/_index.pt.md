@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptm", Aspose::Slides::Export::SaveFormat::Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pptm"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPTX para PPTM" 
         sectionDescription="[Experimente nosso aplicativo Collage grátis](https://products.aspose.app/slides/collage/)" 
     >}}

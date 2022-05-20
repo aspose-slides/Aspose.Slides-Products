@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppt", Aspose::Slides::Export::SaveFormat::Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-ppt"
+        extension=""
         sectionTitle="EMF 'a dönüştürmek için ücretsiz uygulama PPT" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

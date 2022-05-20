@@ -93,7 +93,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-tiff"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPTM para TIFF" 
         sectionDescription="[Experimente nosso aplicativo Text To Gif grátis](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

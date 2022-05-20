@@ -101,7 +101,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pdf"
+        extension=""
         sectionTitle="PPSXをPDFに変換するための無料アプリ" 
         sectionDescription="[PPTをPDFに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/)" 
     >}}

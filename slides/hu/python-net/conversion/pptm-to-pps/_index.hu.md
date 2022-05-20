@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPTM-PPS konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-pps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához PPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

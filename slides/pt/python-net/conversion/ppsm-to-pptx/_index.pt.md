@@ -94,7 +94,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pptx"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPSM para PPTX" 
         sectionDescription="[Experimente nosso aplicativo Collage grátis](https://products.aspose.app/slides/collage/)" 
     >}}

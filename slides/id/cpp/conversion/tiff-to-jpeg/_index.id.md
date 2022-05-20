@@ -104,7 +104,7 @@ bitmap->Save(u"output.jpeg", ImageFormat::get_Jpeg());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-jpeg"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi TIFF ke JPEG" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

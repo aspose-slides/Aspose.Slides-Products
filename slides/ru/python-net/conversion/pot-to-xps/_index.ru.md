@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-xps"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POT в XPS" 
         sectionDescription="[Попробуйте наше бесплатное приложение Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

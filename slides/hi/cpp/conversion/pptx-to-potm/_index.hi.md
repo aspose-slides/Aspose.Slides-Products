@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potm", Aspose::Slides::Export::SaveFormat::Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-potm"
+        extension=""
         sectionTitle="मुफ्त ऐप PPTX को POTM में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Editor ऐप आज़माएं](https://products.aspose.app/slides/editor/)" 
     >}}

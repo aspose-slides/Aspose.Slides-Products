@@ -96,7 +96,7 @@ PDF'den POTM'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potm"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama POTM" 
         sectionDescription="[PDF için POTM dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

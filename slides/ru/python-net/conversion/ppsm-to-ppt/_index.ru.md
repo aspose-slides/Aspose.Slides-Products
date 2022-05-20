@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-ppt"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPSM в PPT" 
         sectionDescription="[Попробуйте наше бесплатное приложение MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

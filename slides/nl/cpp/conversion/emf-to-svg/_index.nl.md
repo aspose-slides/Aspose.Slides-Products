@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.svg", Aspose::Slides::Export::SaveFormat::Svg);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-svg"
+        extension=""
         sectionTitle="Gratis app om EMF te converteren naar SVG" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pps"
+        extension=""
         sectionTitle="免費應用程序將PPSM轉換為PPS" 
         sectionDescription="[嘗試我們的免費Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

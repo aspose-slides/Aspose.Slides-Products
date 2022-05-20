@@ -96,7 +96,7 @@ PDF'den PPSM'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsm"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama PPSM" 
         sectionDescription="[PDF için PPSM dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

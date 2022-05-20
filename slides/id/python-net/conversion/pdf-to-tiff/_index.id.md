@@ -96,7 +96,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke TIFF.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-tiff"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PDF ke TIFF" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PDF ke TIFF](https://products.aspose.app/slides/import/)" 
     >}}

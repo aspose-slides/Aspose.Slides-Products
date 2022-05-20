@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-fodp"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PDF в FODP" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PDF в FODP](https://products.aspose.app/slides/import/)" 
     >}}

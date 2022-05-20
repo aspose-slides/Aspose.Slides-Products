@@ -93,7 +93,7 @@ presentation.Save("output.potx", SaveFormat.Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potx"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi OTP ke POTX" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

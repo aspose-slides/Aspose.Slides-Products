@@ -95,7 +95,7 @@ Använd gratisappen för att se en demonstration av PPSX till EMF-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-emf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till EMF" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

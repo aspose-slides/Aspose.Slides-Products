@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptm", Aspose::Slides::Export::SaveFormat::Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pptm"
+        extension=""
         sectionTitle="ODPをPPTMに変換するための無料アプリ" 
         sectionDescription="[無料のEditorアプリを試してください](https://products.aspose.app/slides/editor/)" 
     >}}

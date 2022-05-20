@@ -93,7 +93,7 @@ presentation.Save("output.odp", SaveFormat.Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-odp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához ODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-gif"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till GIF" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

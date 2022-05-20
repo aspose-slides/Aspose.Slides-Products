@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het OTP naar GIF-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-gif"
+        extension=""
         sectionTitle="Gratis app om OTP te converteren naar GIF" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

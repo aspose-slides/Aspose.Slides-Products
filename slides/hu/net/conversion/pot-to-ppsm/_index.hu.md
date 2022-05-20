@@ -93,7 +93,7 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

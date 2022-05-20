@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptm", Aspose::Slides::Export::SaveFormat::Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pptm"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPSM para PPTM" 
         sectionDescription="[Experimente nosso aplicativo Text To Gif grátis](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

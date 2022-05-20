@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pot", Aspose::Slides::Export::SaveFormat::Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pot"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPSM เป็น POT" 
         sectionDescription="[ลองใช้แอป Collage ฟรีของเรา](https://products.aspose.app/slides/collage/)" 
     >}}

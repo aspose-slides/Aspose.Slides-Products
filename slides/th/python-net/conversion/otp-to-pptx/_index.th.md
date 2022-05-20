@@ -94,7 +94,7 @@ with slides.Presentation("presentation.otp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptx"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง OTP เป็น PPTX" 
         sectionDescription="[ลองใช้แอป Collage ฟรีของเรา](https://products.aspose.app/slides/collage/)" 
     >}}

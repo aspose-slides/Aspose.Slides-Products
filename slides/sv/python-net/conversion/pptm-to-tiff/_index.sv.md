@@ -94,7 +94,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTM till TIFF" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

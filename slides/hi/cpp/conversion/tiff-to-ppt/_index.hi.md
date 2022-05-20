@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppt", Aspose::Slides::Export::SaveFormat::Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-ppt"
+        extension=""
         sectionTitle="मुफ्त ऐप TIFF को PPT में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Text To Gif ऐप आज़माएं](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

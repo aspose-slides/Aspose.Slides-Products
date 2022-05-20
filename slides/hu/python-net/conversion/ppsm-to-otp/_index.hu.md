@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSM OTP konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-otp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához OTP -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

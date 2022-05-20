@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.odp", Aspose::Slides::Export::SaveFormat::Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-odp"
+        extension=""
         sectionTitle="Gratis app om POTM te converteren naar ODP" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

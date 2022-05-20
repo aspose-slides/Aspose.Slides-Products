@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-png"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till PNG" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

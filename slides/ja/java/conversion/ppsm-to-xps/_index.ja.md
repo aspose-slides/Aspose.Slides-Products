@@ -101,7 +101,7 @@ presentation.save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-xps"
+        extension=""
         sectionTitle="PPSMをXPSに変換するための無料アプリ" 
         sectionDescription="[無料のVideoアプリを試してください](https://products.aspose.app/slides/video/)" 
     >}}

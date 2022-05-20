@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSX till POT-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pot"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till POT" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

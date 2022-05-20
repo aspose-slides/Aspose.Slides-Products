@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a PPTX EMF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsm", Aspose::Slides::Export::SaveFormat::Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsm"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama PPSM" 
         sectionDescription="[Ücretsiz MP4 To MP3 uygulamamızı deneyin](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

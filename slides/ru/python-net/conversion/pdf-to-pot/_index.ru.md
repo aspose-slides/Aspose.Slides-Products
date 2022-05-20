@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pot"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PDF в POT" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PDF в POT](https://products.aspose.app/slides/import/)" 
     >}}

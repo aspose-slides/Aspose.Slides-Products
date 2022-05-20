@@ -100,7 +100,7 @@ using (Presentation pres = new Presentation("template.potx"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-svg"
+        extension=""
         sectionTitle="POTXをSVGに変換するための無料アプリ" 
         sectionDescription="[無料のEditorアプリを試してください](https://products.aspose.app/slides/editor/)" 
     >}}

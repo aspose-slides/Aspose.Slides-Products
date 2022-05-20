@@ -93,7 +93,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptx"
+        extension=""
         sectionTitle="Gratis app att konvertera OTP till PPTX" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

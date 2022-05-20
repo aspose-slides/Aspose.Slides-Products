@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POT-ból SWF-be való á
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-swf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához SWF -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

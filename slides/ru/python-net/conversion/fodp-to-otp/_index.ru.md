@@ -94,7 +94,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-otp"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования FODP в OTP" 
         sectionDescription="[Попробуйте наше бесплатное приложение Collage](https://products.aspose.app/slides/collage/)" 
     >}}

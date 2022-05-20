@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a PPT EMF konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPT konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

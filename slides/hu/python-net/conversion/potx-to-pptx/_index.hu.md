@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTX-PPTX átalakítási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pptx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához PPTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -94,7 +94,7 @@ POTM से TIFF रूपांतरण प्रक्रिया का प
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-tiff"
+        extension=""
         sectionTitle="मुफ्त ऐप POTM को TIFF में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Video ऐप आज़माएं](https://products.aspose.app/slides/video/)" 
     >}}

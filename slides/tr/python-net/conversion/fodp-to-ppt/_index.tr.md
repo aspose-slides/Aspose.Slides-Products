@@ -94,7 +94,7 @@ FODP'den PPT'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppt"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama PPT" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

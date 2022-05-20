@@ -93,7 +93,7 @@ presentation.Save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-ppsx"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPSM เป็น PPSX" 
         sectionDescription="[ลองใช้แอป Video ฟรีของเรา](https://products.aspose.app/slides/video/)" 
     >}}

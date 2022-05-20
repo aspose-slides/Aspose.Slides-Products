@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi FODP ke XPS.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-xps"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi FODP ke XPS" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

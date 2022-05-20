@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptx"
+        extension=""
         sectionTitle="免費應用程序將PDF轉換為PPTX" 
         sectionDescription="[嘗試我們的免費應用程序將PDF轉換為PPTX](https://products.aspose.app/slides/import/)" 
     >}}

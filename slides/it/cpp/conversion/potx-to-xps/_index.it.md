@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-xps"
+        extension=""
         sectionTitle="App gratuita da convertire POTX in XPS" 
         sectionDescription="[Prova la nostra app gratuita MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

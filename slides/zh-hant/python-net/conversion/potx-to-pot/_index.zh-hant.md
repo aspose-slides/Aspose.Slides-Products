@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pot"
+        extension=""
         sectionTitle="免費應用程序將POTX轉換為POT" 
         sectionDescription="[嘗試我們的免費Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

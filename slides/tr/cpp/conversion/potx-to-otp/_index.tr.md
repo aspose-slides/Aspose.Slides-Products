@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.otp", Aspose::Slides::Export::SaveFormat::Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-otp"
+        extension=""
         sectionTitle="POTX 'a dönüştürmek için ücretsiz uygulama OTP" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

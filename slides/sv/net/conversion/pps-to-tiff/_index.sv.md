@@ -93,7 +93,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till TIFF" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

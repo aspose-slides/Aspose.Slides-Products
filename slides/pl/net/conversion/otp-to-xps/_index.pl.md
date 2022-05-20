@@ -93,7 +93,7 @@ presentation.Save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-xps"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji OTP do XPS" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację Editor](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.odp", Aspose::Slides::Export::SaveFormat::Odp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-odp"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi OTP thành ODP" 
         sectionDescription="[Hãy thử ứng dụng MP4 To MP3 miễn phí của chúng tôi](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

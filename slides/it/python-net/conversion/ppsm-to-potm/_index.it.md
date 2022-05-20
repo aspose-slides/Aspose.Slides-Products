@@ -94,7 +94,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da P
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-potm"
+        extension=""
         sectionTitle="App gratuita da convertire PPSM in POTM" 
         sectionDescription="[Prova la nostra app gratuita Editor](https://products.aspose.app/slides/editor/)" 
     >}}

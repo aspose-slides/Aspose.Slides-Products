@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.tiff", Aspose::Slides::Export::SaveFormat::Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-tiff"
+        extension=""
         sectionTitle="Application gratuite pour convertir POTX en TIFF" 
         sectionDescription="[Essayez notre application gratuite Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -101,7 +101,7 @@ presentation.save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-ppsx"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPT เป็น PPSX" 
         sectionDescription="[ลองใช้แอป Text To Gif ฟรีของเรา](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

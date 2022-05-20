@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a FODP PDF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pdf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához PDF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

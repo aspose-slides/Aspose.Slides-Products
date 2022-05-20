@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-svg"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till SVG" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

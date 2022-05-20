@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POTM ODP konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-odp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához ODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

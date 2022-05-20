@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-bmp"
+        extension=""
         sectionTitle="मुफ्त ऐप TIFF को BMP में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Text To Gif ऐप आज़माएं](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

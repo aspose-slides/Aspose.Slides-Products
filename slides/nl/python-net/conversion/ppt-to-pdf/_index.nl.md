@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPT naar PDF-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-pdf"
+        extension=""
         sectionTitle="Gratis app om PPT te converteren naar PDF" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

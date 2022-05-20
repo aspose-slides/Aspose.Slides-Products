@@ -94,7 +94,7 @@ FODP'den ODP'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-odp"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama ODP" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

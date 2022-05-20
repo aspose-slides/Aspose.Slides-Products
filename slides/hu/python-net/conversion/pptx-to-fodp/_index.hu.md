@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTX-FODP konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-fodp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTX konvertálásához FODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

@@ -94,7 +94,7 @@ POTM'den POT'a dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pot"
+        extension=""
         sectionTitle="POTM 'a dönüştürmek için ücretsiz uygulama POT" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

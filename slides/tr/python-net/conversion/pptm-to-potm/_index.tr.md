@@ -94,7 +94,7 @@ PPTM'den POTM'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-potm"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama POTM" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

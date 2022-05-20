@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi FODP ke PPT.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppt"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi FODP ke PPT" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

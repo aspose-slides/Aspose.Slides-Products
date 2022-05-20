@@ -94,7 +94,7 @@ PPSX'ten PPSM'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-ppsm"
+        extension=""
         sectionTitle="PPSX 'a dönüştürmek için ücretsiz uygulama PPSM" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

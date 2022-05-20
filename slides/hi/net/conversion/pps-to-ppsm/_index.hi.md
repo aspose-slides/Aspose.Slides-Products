@@ -93,7 +93,7 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-ppsm"
+        extension=""
         sectionTitle="मुफ्त ऐप PPS को PPSM में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Collage ऐप आज़माएं](https://products.aspose.app/slides/collage/)" 
     >}}

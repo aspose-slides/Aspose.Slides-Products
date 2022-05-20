@@ -114,7 +114,7 @@ try {
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-svg"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POT ke SVG" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-odp"
+        extension=""
         sectionTitle="POTM을 ODP로 변환하는 무료 앱" 
         sectionDescription="[무료 Collage 앱을 사용해보십시오](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.ppt", SaveFormat.Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-ppt"
+        extension=""
         sectionTitle="Application gratuite pour convertir POTX en PPT" 
         sectionDescription="[Essayez notre application gratuite Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

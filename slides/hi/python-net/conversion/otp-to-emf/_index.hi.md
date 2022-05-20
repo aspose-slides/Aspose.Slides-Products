@@ -95,7 +95,7 @@ with slides.Presentation("presentation.otp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-emf"
+        extension=""
         sectionTitle="मुफ्त ऐप OTP को EMF में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त MP4 To MP3 ऐप आज़माएं](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

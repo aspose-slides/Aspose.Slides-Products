@@ -94,7 +94,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pptm"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPS para PPTM" 
         sectionDescription="[Experimente nosso aplicativo Video grátis](https://products.aspose.app/slides/video/)" 
     >}}

@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-jpeg"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter POTM para JPEG" 
         sectionDescription="[Experimente nosso aplicativo gratuito para converter PPT para JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

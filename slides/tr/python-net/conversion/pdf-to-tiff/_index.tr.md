@@ -96,7 +96,7 @@ PDF'den TIFF'e dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-tiff"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama TIFF" 
         sectionDescription="[PDF için TIFF dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

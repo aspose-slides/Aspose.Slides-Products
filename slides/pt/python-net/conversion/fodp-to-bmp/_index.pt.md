@@ -95,7 +95,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-bmp"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter FODP para BMP" 
         sectionDescription="[Experimente nosso aplicativo Editor grátis](https://products.aspose.app/slides/editor/)" 
     >}}

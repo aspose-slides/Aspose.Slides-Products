@@ -101,7 +101,7 @@ presentation.save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-tiff"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához TIFF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

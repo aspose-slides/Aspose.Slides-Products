@@ -94,7 +94,7 @@ PPSX'ten POT'a dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pot"
+        extension=""
         sectionTitle="PPSX 'a dönüştürmek için ücretsiz uygulama POT" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

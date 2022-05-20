@@ -104,7 +104,7 @@ bitmap->Save(u"output.jpeg", ImageFormat::get_Jpeg());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-jpeg"
+        extension=""
         sectionTitle="XML 'a dönüştürmek için ücretsiz uygulama JPEG" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

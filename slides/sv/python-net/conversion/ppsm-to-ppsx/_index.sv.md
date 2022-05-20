@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-ppsx"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till PPSX" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

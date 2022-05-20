@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av FODP till PPT-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppt"
+        extension=""
         sectionTitle="Gratis app att konvertera FODP till PPT" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

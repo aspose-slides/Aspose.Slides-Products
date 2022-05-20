@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.html", Aspose::Slides::Export::SaveFormat::Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-html"
+        extension=""
         sectionTitle="POTMをHTMLに変換するための無料アプリ" 
         sectionDescription="[PPTをHTMLに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

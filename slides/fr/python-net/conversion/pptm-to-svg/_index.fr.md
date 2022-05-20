@@ -96,7 +96,7 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-svg"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPTM en SVG" 
         sectionDescription="[Essayez notre application gratuite Video](https://products.aspose.app/slides/video/)" 
     >}}

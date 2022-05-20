@@ -94,7 +94,7 @@ PPTX'ten POTM'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-potm"
+        extension=""
         sectionTitle="PPTX 'a dönüştürmek için ücretsiz uygulama POTM" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

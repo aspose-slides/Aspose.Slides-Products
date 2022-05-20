@@ -94,7 +94,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-tiff"
+        extension=""
         sectionTitle="FODPをTIFFに変換するための無料アプリ" 
         sectionDescription="[無料のEditorアプリを試してください](https://products.aspose.app/slides/editor/)" 
     >}}

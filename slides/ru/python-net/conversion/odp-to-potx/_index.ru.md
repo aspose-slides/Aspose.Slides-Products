@@ -94,7 +94,7 @@ with slides.Presentation("presentation.odp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-potx"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования ODP в POTX" 
         sectionDescription="[Попробуйте наше бесплатное приложение Video](https://products.aspose.app/slides/video/)" 
     >}}

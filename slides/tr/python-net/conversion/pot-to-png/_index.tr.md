@@ -95,7 +95,7 @@ POT'tan PNG'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-png"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama PNG" 
         sectionDescription="[PPT için PNG dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

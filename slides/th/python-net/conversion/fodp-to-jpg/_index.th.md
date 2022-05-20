@@ -95,7 +95,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-jpg"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง FODP เป็น JPG" 
         sectionDescription="[ลองใช้แอป MP4 To MP3 ฟรีของเรา](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

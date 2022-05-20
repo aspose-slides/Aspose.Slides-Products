@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből HTML-be konvertálási folyamat b
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-html"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához HTML -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához HTML -re](https://products.aspose.app/slides/import/)" 
     >}}

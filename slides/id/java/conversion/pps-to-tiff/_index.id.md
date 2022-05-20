@@ -101,7 +101,7 @@ presentation.save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-tiff"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPS ke TIFF" 
         sectionDescription="[Coba aplikasi Text To Gif gratis kami](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

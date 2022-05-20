@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSM-PPSX konverziós folyamat bemutatój�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-ppsx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSM konvertálásához PPSX -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

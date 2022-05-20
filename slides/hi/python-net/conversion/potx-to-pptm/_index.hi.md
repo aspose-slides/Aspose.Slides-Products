@@ -94,7 +94,7 @@ POTX से PPTM रूपांतरण प्रक्रिया का प
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pptm"
+        extension=""
         sectionTitle="मुफ्त ऐप POTX को PPTM में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Collage ऐप आज़माएं](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potx", Aspose::Slides::Export::SaveFormat::Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-potx"
+        extension=""
         sectionTitle="मुफ्त ऐप TIFF को POTX में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Video ऐप आज़माएं](https://products.aspose.app/slides/video/)" 
     >}}

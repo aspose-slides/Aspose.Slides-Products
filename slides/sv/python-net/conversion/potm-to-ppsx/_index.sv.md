@@ -94,7 +94,7 @@ Använd den kostnadsfria appen för att se en demonstration av konverteringsproc
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppsx"
+        extension=""
         sectionTitle="Gratis app att konvertera POTM till PPSX" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

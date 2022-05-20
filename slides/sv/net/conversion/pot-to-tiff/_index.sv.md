@@ -93,7 +93,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera POT till TIFF" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

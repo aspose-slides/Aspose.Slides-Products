@@ -100,7 +100,7 @@ using (Presentation pres = new Presentation("template.pptm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-svg"
+        extension=""
         sectionTitle="Aplicativo gratuito para converter PPTM para SVG" 
         sectionDescription="[Experimente nosso aplicativo Editor grátis](https://products.aspose.app/slides/editor/)" 
     >}}

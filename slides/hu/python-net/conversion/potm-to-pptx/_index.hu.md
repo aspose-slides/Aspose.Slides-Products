@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTM-PPTX átalakítási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pptx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához PPTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -95,7 +95,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POT naar BMP con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-bmp"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar BMP" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

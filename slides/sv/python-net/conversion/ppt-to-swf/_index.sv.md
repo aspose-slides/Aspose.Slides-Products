@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPT till SWF-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPT till SWF" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

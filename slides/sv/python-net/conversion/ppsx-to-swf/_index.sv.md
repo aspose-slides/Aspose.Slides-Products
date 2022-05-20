@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSX till SWF-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSX till SWF" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

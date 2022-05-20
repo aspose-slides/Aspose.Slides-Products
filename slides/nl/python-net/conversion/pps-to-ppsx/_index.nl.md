@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPS naar PPSX-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-ppsx"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar PPSX" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

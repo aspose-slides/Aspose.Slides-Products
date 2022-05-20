@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-gif"
+        extension=""
         sectionTitle="POTM을 GIF로 변환하는 무료 앱" 
         sectionDescription="[무료 Video 앱을 사용해보십시오](https://products.aspose.app/slides/video/)" 
     >}}

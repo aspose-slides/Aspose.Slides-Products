@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-tiff"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi POTM thành TIFF" 
         sectionDescription="[Hãy thử ứng dụng Video miễn phí của chúng tôi](https://products.aspose.app/slides/video/)" 
     >}}

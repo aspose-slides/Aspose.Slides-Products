@@ -94,7 +94,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-html"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง FODP เป็น HTML" 
         sectionDescription="[ลองใช้แอป Video ฟรีของเรา](https://products.aspose.app/slides/video/)" 
     >}}

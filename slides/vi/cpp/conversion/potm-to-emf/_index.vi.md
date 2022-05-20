@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.emf", Aspose::Slides::Export::SaveFormat::Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-emf"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi POTM thành EMF" 
         sectionDescription="[Hãy thử ứng dụng Collage miễn phí của chúng tôi](https://products.aspose.app/slides/collage/)" 
     >}}

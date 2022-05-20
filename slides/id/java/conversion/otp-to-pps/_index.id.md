@@ -101,7 +101,7 @@ presentation.save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pps"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi OTP ke PPS" 
         sectionDescription="[Coba aplikasi MP4 To MP3 gratis kami](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTM naar SWF-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-swf"
+        extension=""
         sectionTitle="Gratis app om POTM te converteren naar SWF" 
         sectionDescription="[Probeer onze gratis Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

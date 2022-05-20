@@ -101,7 +101,7 @@ presentation.save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-ppsx"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar PPSX" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

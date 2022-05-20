@@ -95,7 +95,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-bmp"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPSX do BMP" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

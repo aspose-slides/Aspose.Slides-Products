@@ -94,7 +94,7 @@ PPSM'den OTP'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-otp"
+        extension=""
         sectionTitle="PPSM 'a dönüştürmek için ücretsiz uygulama OTP" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

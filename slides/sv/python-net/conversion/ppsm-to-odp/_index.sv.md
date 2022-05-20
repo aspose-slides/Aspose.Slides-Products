@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPSM till ODP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-odp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPSM till ODP" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

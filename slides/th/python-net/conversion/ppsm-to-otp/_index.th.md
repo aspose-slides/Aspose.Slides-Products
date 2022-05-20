@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-otp"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPSM เป็น OTP" 
         sectionDescription="[ลองใช้แอป Video ฟรีของเรา](https://products.aspose.app/slides/video/)" 
     >}}

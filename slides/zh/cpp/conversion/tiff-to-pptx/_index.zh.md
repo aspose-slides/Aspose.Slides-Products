@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-pptx"
+        extension=""
         sectionTitle="免費應用程序將TIFF轉換為PPTX" 
         sectionDescription="[嘗試我們的免費MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

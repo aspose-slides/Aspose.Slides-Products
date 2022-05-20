@@ -95,7 +95,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi FODP ke PNG.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-png"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi FODP ke PNG" 
         sectionDescription="[Coba aplikasi Video gratis kami](https://products.aspose.app/slides/video/)" 
     >}}

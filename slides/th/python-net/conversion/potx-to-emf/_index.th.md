@@ -95,7 +95,7 @@ with slides.Presentation("presentation.potx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-emf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POTX เป็น EMF" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

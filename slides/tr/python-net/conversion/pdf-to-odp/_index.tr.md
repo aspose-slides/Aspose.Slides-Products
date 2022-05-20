@@ -96,7 +96,7 @@ PDF'den ODP'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-odp"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama ODP" 
         sectionDescription="[PDF için ODP dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

@@ -95,7 +95,7 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-emf"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPTM en EMF" 
         sectionDescription="[Essayez notre application gratuite Editor](https://products.aspose.app/slides/editor/)" 
     >}}

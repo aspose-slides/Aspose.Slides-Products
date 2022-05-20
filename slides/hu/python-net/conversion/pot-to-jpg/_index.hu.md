@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást a POT JPG formátumba konvertálási folyama
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-jpg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához JPG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához JPG -re](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

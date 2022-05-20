@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSM ke FODP.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-fodp"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPSM ke FODP" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-bmp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához BMP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához BMP -re](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

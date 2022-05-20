@@ -94,7 +94,7 @@ PPS'den FODP'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-fodp"
+        extension=""
         sectionTitle="PPS 'a dönüştürmek için ücretsiz uygulama FODP" 
         sectionDescription="[Ücretsiz Video uygulamamızı deneyin](https://products.aspose.app/slides/video/)" 
     >}}

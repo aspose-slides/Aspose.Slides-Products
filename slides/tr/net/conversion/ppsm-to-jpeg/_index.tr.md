@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.ppsm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-jpeg"
+        extension=""
         sectionTitle="PPSM 'a dönüştürmek için ücretsiz uygulama JPEG" 
         sectionDescription="[PPT için JPG dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

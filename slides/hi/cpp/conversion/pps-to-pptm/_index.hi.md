@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pptm", Aspose::Slides::Export::SaveFormat::Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-pptm"
+        extension=""
         sectionTitle="मुफ्त ऐप PPS को PPTM में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Editor ऐप आज़माएं](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-jpeg"
+        extension=""
         sectionTitle="POT 'a dönüştürmek için ücretsiz uygulama JPEG" 
         sectionDescription="[PPT için JPG dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

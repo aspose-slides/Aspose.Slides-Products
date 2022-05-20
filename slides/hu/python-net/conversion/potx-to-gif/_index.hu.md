@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POTX GIF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-gif"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTX konvertálásához GIF -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

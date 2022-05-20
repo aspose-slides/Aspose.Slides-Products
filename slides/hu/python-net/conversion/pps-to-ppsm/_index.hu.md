@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPS-PPSM átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

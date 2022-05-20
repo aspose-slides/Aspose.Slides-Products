@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti az ODP-FODP-konverziós fo
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-fodp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a ODP konvertálásához FODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

@@ -95,7 +95,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-emf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง FODP เป็น EMF" 
         sectionDescription="[ลองใช้แอป Collage ฟรีของเรา](https://products.aspose.app/slides/collage/)" 
     >}}

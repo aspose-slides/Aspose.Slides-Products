@@ -95,7 +95,7 @@ with slides.Presentation("presentation.potm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-jpg"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования POTM в JPG" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PPT в JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

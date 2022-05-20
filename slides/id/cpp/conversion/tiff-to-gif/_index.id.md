@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-gif"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi TIFF ke GIF" 
         sectionDescription="[Coba aplikasi MP4 To MP3 gratis kami](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

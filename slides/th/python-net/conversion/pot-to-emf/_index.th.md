@@ -95,7 +95,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-emf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POT เป็น EMF" 
         sectionDescription="[ลองใช้แอป Collage ฟรีของเรา](https://products.aspose.app/slides/collage/)" 
     >}}

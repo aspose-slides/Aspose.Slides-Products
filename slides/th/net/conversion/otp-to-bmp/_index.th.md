@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.otp"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-bmp"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง OTP เป็น BMP" 
         sectionDescription="[ลองใช้แอปฟรีของเราเพื่อแปลง PPT เพื่อ BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

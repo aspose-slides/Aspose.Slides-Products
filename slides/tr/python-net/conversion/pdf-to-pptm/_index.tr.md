@@ -96,7 +96,7 @@ PDF'den PPTM'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptm"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama PPTM" 
         sectionDescription="[PDF için PPTM dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

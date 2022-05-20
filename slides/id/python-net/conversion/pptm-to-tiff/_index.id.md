@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTM ke TIFF.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-tiff"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTM ke TIFF" 
         sectionDescription="[Coba aplikasi Editor gratis kami](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.potm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-png"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POTM ke PNG" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

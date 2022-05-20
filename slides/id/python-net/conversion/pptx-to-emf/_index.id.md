@@ -95,7 +95,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTX ke EMF.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-emf"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTX ke EMF" 
         sectionDescription="[Coba aplikasi Text To Gif gratis kami](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

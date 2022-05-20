@@ -114,7 +114,7 @@ try {
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-svg"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง POTX เป็น SVG" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

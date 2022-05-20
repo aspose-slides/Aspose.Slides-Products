@@ -97,7 +97,7 @@ Használja az ingyenes alkalmazást a PDF EMF konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-emf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához EMF -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához EMF -re](https://products.aspose.app/slides/import/)" 
     >}}

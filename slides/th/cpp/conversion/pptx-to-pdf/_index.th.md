@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pdf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPTX เป็น PDF" 
         sectionDescription="[ลองใช้แอปฟรีของเราเพื่อแปลง PPT เพื่อ PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

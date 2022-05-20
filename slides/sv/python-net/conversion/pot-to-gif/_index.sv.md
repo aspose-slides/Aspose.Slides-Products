@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av POT till GIF-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-gif"
+        extension=""
         sectionTitle="Gratis app att konvertera POT till GIF" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

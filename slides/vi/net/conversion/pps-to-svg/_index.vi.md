@@ -100,7 +100,7 @@ using (Presentation pres = new Presentation("template.pps"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-svg"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPS thành SVG" 
         sectionDescription="[Hãy thử ứng dụng Collage miễn phí của chúng tôi](https://products.aspose.app/slides/collage/)" 
     >}}

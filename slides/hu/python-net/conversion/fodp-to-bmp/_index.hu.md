@@ -95,7 +95,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-BMP konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-bmp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához BMP -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

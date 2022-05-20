@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPT ke OTP.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-otp"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPT ke OTP" 
         sectionDescription="[Coba aplikasi Text To Gif gratis kami](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

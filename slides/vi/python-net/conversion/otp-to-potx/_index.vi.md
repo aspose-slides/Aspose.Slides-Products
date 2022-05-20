@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chu
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potx"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi OTP thành POTX" 
         sectionDescription="[Hãy thử ứng dụng Editor miễn phí của chúng tôi](https://products.aspose.app/slides/editor/)" 
     >}}

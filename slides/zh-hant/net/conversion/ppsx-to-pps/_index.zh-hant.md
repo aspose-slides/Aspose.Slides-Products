@@ -93,7 +93,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pps"
+        extension=""
         sectionTitle="免費應用程序將PPSX轉換為PPS" 
         sectionDescription="[嘗試我們的免費Video app](https://products.aspose.app/slides/video/)" 
     >}}

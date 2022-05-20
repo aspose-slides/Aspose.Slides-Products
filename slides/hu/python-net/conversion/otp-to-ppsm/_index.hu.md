@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP-PPSM átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

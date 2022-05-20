@@ -101,7 +101,7 @@ presentation.save("output.ppsx", SaveFormat.Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-ppsx"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPTM ke PPSX" 
         sectionDescription="[Coba aplikasi Text To Gif gratis kami](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

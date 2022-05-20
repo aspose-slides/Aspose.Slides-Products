@@ -101,7 +101,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-pdf"
+        extension=""
         sectionTitle="App gratuita da convertire PPTM in PDF" 
         sectionDescription="[Prova la nostra app gratuita per convertire PPT in PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

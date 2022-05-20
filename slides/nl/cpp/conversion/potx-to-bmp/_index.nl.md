@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-bmp"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar BMP" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

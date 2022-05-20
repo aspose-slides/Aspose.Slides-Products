@@ -94,7 +94,7 @@ with slides.Presentation("presentation.odp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsx"
+        extension=""
         sectionTitle="ODPをPPSXに変換するための無料アプリ" 
         sectionDescription="[無料のCollageアプリを試してください](https://products.aspose.app/slides/collage/)" 
     >}}

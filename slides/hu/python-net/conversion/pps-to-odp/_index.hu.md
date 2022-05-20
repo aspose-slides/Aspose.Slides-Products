@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPS ODP konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-odp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához ODP -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

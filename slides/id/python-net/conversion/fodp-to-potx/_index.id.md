@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi FODP ke POTX.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-potx"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi FODP ke POTX" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

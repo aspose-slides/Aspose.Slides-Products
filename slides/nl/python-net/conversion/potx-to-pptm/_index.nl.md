@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar PPTM-c
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pptm"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar PPTM" 
         sectionDescription="[Probeer onze gratis Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

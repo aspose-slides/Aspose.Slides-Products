@@ -93,7 +93,7 @@ presentation.Save("output.html", SaveFormat.Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-html"
+        extension=""
         sectionTitle="Application gratuite pour convertir POTX en HTML" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

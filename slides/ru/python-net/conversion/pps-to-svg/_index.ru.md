@@ -96,7 +96,7 @@ with slides.Presentation("presentation.pps") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-svg"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPS в SVG" 
         sectionDescription="[Попробуйте наше бесплатное приложение Editor](https://products.aspose.app/slides/editor/)" 
     >}}

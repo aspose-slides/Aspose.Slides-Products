@@ -94,7 +94,7 @@ POTM'den PPS'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pps"
+        extension=""
         sectionTitle="POTM 'a dönüştürmek için ücretsiz uygulama PPS" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

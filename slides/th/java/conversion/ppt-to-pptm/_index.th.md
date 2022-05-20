@@ -101,7 +101,7 @@ presentation.save("output.pptm", SaveFormat.Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-pptm"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPT เป็น PPTM" 
         sectionDescription="[ลองใช้แอป Video ฟรีของเรา](https://products.aspose.app/slides/video/)" 
     >}}

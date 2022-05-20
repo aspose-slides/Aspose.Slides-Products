@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT-PPS konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához PPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

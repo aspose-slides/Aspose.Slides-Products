@@ -95,7 +95,7 @@ PPSX'ten EMF'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-emf"
+        extension=""
         sectionTitle="PPSX 'a dönüştürmek için ücretsiz uygulama EMF" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

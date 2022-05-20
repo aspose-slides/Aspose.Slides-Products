@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.pot"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-png"
+        extension=""
         sectionTitle="Application gratuite pour convertir POT en PNG" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.otp", Aspose::Slides::Export::SaveFormat::Otp);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-otp"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPS thành OTP" 
         sectionDescription="[Hãy thử ứng dụng Video miễn phí của chúng tôi](https://products.aspose.app/slides/video/)" 
     >}}

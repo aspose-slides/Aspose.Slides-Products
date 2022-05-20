@@ -94,7 +94,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pdf"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPTX do PDF" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

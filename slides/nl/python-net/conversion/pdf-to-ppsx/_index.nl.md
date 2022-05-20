@@ -96,7 +96,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsx"
+        extension=""
         sectionTitle="Gratis app om PDF te converteren naar PPSX" 
         sectionDescription="[Probeer onze gratis app om PDF te converteren naar PPSX](https://products.aspose.app/slides/import/)" 
     >}}

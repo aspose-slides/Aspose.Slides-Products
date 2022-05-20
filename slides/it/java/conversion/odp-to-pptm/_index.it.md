@@ -101,7 +101,7 @@ presentation.save("output.pptm", SaveFormat.Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pptm"
+        extension=""
         sectionTitle="App gratuita da convertire ODP in PPTM" 
         sectionDescription="[Prova la nostra app gratuita Video](https://products.aspose.app/slides/video/)" 
     >}}

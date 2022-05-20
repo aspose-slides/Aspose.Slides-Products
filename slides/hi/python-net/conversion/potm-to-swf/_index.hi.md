@@ -94,7 +94,7 @@ POTM से SWF रूपांतरण प्रक्रिया का प�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-swf"
+        extension=""
         sectionTitle="मुफ्त ऐप POTM को SWF में कन्वर्ट करने के लिए" 
         sectionDescription="[हमारी मुफ्त Text To Gif ऐप आज़माएं](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

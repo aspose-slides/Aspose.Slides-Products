@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-PPSM konvertálási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppsm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához PPSM -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPTM-TIFF átalakítási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-tiff"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához TIFF -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

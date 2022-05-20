@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből SWF-be konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-swf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához SWF -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához SWF -re](https://products.aspose.app/slides/import/)" 
     >}}

@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT XPS konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-xps"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához XPS -re" 
         sectionDescription="[Próbálja ki az ingyenes Text To Gif alkalmazást](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

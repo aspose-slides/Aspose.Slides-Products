@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből POTM-má konvertálási folyamat 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához POTM -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához POTM -re](https://products.aspose.app/slides/import/)" 
     >}}

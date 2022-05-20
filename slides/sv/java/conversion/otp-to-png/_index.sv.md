@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-png"
+        extension=""
         sectionTitle="Gratis app att konvertera OTP till PNG" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

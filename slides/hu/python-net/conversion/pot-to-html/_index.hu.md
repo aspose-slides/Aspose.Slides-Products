@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT HTML-be konvertálási folyamat bemuta
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-html"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához HTML -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához HTML -re](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

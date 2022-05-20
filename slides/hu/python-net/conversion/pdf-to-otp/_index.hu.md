@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF OTP konvertálási folyamat bemutatój
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-otp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához OTP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához OTP -re](https://products.aspose.app/slides/import/)" 
     >}}

@@ -96,7 +96,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPS naar SVG-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-svg"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar SVG" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

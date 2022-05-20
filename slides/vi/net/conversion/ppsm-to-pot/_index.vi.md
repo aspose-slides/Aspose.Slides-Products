@@ -93,7 +93,7 @@ presentation.Save("output.pot", SaveFormat.Pot);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pot"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPSM thành POT" 
         sectionDescription="[Hãy thử ứng dụng MP4 To MP3 miễn phí của chúng tôi](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

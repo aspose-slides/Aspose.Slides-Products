@@ -96,7 +96,7 @@ PDF'den OTP'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-otp"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama OTP" 
         sectionDescription="[PDF için OTP dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

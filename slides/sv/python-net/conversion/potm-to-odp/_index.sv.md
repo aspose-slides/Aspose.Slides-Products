@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av POTM till ODP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-odp"
+        extension=""
         sectionTitle="Gratis app att konvertera POTM till ODP" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

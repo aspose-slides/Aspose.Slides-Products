@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPS naar XPS-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-xps"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar XPS" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

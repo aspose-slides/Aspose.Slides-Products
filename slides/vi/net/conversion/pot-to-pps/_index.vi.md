@@ -93,7 +93,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pps"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi POT thành PPS" 
         sectionDescription="[Hãy thử ứng dụng Text To Gif miễn phí của chúng tôi](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

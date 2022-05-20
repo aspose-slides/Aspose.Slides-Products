@@ -95,7 +95,7 @@ Használja az ingyenes alkalmazást, hogy megtekinthesse a POT-ból BMP konverzi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-bmp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához BMP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához BMP -re](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

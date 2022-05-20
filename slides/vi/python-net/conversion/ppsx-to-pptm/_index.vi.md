@@ -94,7 +94,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pptm"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PPSX thành PPTM" 
         sectionDescription="[Hãy thử ứng dụng Text To Gif miễn phí của chúng tôi](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

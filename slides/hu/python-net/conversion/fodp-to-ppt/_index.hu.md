@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-PPT konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppt"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához PPT -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

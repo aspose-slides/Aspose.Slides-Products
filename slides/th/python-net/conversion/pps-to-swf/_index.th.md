@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pps") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-swf"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPS เป็น SWF" 
         sectionDescription="[ลองใช้แอป Collage ฟรีของเรา](https://products.aspose.app/slides/collage/)" 
     >}}

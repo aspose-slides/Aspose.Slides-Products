@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi ODP ke PPSX.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-ppsx"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi ODP ke PPSX" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ FODP'den POTM'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-potm"
+        extension=""
         sectionTitle="FODP 'a dönüştürmek için ücretsiz uygulama POTM" 
         sectionDescription="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-png"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPS do PNG" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

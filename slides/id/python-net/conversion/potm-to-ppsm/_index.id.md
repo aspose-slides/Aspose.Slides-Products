@@ -94,7 +94,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTM ke PPSM.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppsm"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi POTM ke PPSM" 
         sectionDescription="[Coba aplikasi Collage gratis kami](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ PPTX'ten SWF'ye dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-swf"
+        extension=""
         sectionTitle="PPTX 'a dönüştürmek için ücretsiz uygulama SWF" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

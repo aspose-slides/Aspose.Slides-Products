@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást az OTP-PPTM konvertálási folyamat bemutat�
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptm"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a OTP konvertálásához PPTM -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

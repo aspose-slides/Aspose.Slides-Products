@@ -94,7 +94,7 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-html"
+        extension=""
         sectionTitle="Application gratuite pour convertir PPS en HTML" 
         sectionDescription="[Essayez notre application gratuite pour convertir PPT en HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

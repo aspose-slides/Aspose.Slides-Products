@@ -97,7 +97,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-png"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi PDF thành PNG" 
         sectionDescription="[Hãy thử ứng dụng miễn phí của chúng tôi để chuyển đổi PDF sang PNG](https://products.aspose.app/slides/import/)" 
     >}}

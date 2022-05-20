@@ -94,7 +94,7 @@ PPSX'ten HTML'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-html"
+        extension=""
         sectionTitle="PPSX 'a dönüştürmek için ücretsiz uygulama HTML" 
         sectionDescription="[PPT için HTML dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

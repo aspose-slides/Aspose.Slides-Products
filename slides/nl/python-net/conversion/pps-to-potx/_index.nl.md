@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPS naar POTX-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-potx"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar POTX" 
         sectionDescription="[Probeer onze gratis MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

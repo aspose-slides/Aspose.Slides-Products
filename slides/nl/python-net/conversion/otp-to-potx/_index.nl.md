@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie van het OTP naar POTX-conversiep
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potx"
+        extension=""
         sectionTitle="Gratis app om OTP te converteren naar POTX" 
         sectionDescription="[Probeer onze gratis Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

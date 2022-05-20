@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potm"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till POTM" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till POTM](https://products.aspose.app/slides/import/)" 
     >}}

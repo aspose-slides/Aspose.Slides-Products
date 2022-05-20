@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het OTP naar PPSX-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsx"
+        extension=""
         sectionTitle="Gratis app om OTP te converteren naar PPSX" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

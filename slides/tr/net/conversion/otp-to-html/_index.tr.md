@@ -93,7 +93,7 @@ presentation.Save("output.html", SaveFormat.Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-html"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama HTML" 
         sectionDescription="[PPT için HTML dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

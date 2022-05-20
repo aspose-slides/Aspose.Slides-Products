@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPS till TIFF-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-tiff"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till TIFF" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

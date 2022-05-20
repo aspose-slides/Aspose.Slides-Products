@@ -96,7 +96,7 @@ OTP'den SVG'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-svg"
+        extension=""
         sectionTitle="OTP 'a dönüştürmek için ücretsiz uygulama SVG" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

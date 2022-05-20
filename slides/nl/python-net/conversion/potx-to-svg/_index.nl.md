@@ -96,7 +96,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar SVG-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-svg"
+        extension=""
         sectionTitle="Gratis app om POTX te converteren naar SVG" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

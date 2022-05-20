@@ -95,7 +95,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-jpg"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi POTX thành JPG" 
         sectionDescription="[Hãy thử ứng dụng miễn phí của chúng tôi để chuyển đổi PPT sang JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

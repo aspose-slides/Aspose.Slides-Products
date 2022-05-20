@@ -94,7 +94,7 @@ PPTM'den POTX'e dönüştürme işleminin bir gösterimini görmek için ücrets
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-potx"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama POTX" 
         sectionDescription="[Ücretsiz Text To Gif uygulamamızı deneyin](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

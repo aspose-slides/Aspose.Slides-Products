@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pdf"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPSX в PDF" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PPT в PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pdf"
+        extension=""
         sectionTitle="Gratis app att konvertera POTX till PDF" 
         sectionDescription="[Prova vår gratis app att konvertera PPT till PDF](https://products.aspose.app/slides/conversion/)" 
     >}}

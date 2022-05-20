@@ -94,7 +94,7 @@ PPTM'den FODP'ye dönüştürme işleminin bir gösterimini görmek için ücret
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-fodp"
+        extension=""
         sectionTitle="PPTM 'a dönüştürmek için ücretsiz uygulama FODP" 
         sectionDescription="[Ücretsiz Collage uygulamamızı deneyin](https://products.aspose.app/slides/collage/)" 
     >}}

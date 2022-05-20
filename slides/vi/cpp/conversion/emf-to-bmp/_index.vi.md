@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="emf-to-bmp"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi EMF thành BMP" 
         sectionDescription="[Hãy thử ứng dụng Viewer miễn phí của chúng tôi](https://products.aspose.app/slides/viewer/)" 
     >}}

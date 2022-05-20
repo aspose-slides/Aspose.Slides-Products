@@ -93,7 +93,7 @@ presentation.Save("output.html", SaveFormat.Html);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-html"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji POT do HTML" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

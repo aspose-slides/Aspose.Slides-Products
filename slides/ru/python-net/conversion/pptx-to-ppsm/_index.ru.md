@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pptx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-ppsm"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PPTX в PPSM" 
         sectionDescription="[Попробуйте наше бесплатное приложение Collage](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPS-ből PPSX-be való �
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-ppsx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPS konvertálásához PPSX -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

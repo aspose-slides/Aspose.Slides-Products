@@ -96,7 +96,7 @@ PDF'den PPSX'e dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsx"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama PPSX" 
         sectionDescription="[PDF için PPSX dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

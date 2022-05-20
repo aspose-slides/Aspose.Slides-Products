@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-html"
+        extension=""
         sectionTitle="Бесплатное приложение для преобразования PDF в HTML" 
         sectionDescription="[Попробуйте наше бесплатное приложение, чтобы преобразовать PDF в HTML](https://products.aspose.app/slides/import/)" 
     >}}

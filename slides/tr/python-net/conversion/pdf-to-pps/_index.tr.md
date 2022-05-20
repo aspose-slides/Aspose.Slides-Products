@@ -96,7 +96,7 @@ PDF'den PPS'ye dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pps"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama PPS" 
         sectionDescription="[PDF için PPS dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

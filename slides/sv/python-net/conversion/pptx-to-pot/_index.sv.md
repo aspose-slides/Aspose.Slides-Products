@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPTX till POT-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pot"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTX till POT" 
         sectionDescription="[Prova vår gratis Text To Gif -app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

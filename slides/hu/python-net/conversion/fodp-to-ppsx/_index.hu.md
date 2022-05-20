@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-PPSX konverziós fo
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-ppsx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához PPSX -re" 
         sectionDescription="[Próbálja ki az ingyenes MP4 To MP3 alkalmazást](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

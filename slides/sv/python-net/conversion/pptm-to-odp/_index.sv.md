@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPTM till ODP-konverteringsp
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-odp"
+        extension=""
         sectionTitle="Gratis app att konvertera PPTM till ODP" 
         sectionDescription="[Prova vår gratis Video -app](https://products.aspose.app/slides/video/)" 
     >}}

@@ -96,7 +96,7 @@ Använd gratisappen för att se en demonstration av PDF till XPS-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-xps"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till XPS" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till XPS](https://products.aspose.app/slides/import/)" 
     >}}

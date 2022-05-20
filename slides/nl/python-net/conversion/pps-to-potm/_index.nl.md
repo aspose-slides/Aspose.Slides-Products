@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het PPS naar POTM-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-potm"
+        extension=""
         sectionTitle="Gratis app om PPS te converteren naar POTM" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

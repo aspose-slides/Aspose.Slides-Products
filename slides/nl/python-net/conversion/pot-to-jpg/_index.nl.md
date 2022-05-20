@@ -95,7 +95,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POT naar JPG-con
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-jpg"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar JPG" 
         sectionDescription="[Probeer onze gratis app om PPT te converteren naar JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

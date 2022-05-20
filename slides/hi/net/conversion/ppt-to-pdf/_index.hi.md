@@ -93,7 +93,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppt-to-pdf"
+        extension=""
         sectionTitle="मुफ्त ऐप PPT को PDF में कन्वर्ट करने के लिए" 
         sectionDescription="[PPT को PDF को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/)" 
     >}}

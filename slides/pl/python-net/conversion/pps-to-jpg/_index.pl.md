@@ -95,7 +95,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-jpg"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPS do JPG" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

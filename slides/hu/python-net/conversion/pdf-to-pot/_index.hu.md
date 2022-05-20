@@ -96,7 +96,7 @@ Használja az ingyenes alkalmazást a PDF-ből POT-ba konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pot"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához POT -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához POT -re](https://products.aspose.app/slides/import/)" 
     >}}

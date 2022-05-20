@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a PPSX-SWF konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-swf"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPSX konvertálásához SWF -re" 
         sectionDescription="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POT naar PPTX-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pptx"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar PPTX" 
         sectionDescription="[Probeer onze gratis Video app](https://products.aspose.app/slides/video/)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-bmp"
+        extension=""
         sectionTitle="Darmowa aplikacja do konwersji PPS do BMP" 
         sectionDescription="[Wypróbuj naszą bezpłatną aplikację, aby przekonwertować PPT na BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

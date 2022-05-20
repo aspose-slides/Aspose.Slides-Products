@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av ODP till SWF-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera ODP till SWF" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

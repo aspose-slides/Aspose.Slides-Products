@@ -94,7 +94,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP-POTX átalakítási
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-potx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a FODP konvertálásához POTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Collage alkalmazást](https://products.aspose.app/slides/collage/)" 
     >}}

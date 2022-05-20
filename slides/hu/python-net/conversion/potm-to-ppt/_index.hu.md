@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POTM PPT konvertálási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-ppt"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POTM konvertálásához PPT -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

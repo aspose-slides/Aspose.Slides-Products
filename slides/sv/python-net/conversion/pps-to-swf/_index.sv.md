@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av PPS till SWF-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-swf"
+        extension=""
         sectionTitle="Gratis app att konvertera PPS till SWF" 
         sectionDescription="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" 
     >}}

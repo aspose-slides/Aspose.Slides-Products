@@ -95,7 +95,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTM-JPG konvertálási 
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-jpg"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PPTM konvertálásához JPG -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához JPG -re](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

@@ -96,7 +96,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből FODP-be konvert
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-fodp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához FODP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához FODP -re](https://products.aspose.app/slides/import/)" 
     >}}

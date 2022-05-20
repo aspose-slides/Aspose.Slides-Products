@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pptm") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-ppsx"
+        extension=""
         sectionTitle="แอปฟรีเพื่อแปลง PPTM เป็น PPSX" 
         sectionDescription="[ลองใช้แอป Editor ฟรีของเรา](https://products.aspose.app/slides/editor/)" 
     >}}

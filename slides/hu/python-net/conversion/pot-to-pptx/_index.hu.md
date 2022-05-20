@@ -94,7 +94,7 @@ Használja az ingyenes alkalmazást a POT-PPTX átalakítási folyamat bemutató
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pptx"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a POT konvertálásához PPTX -re" 
         sectionDescription="[Próbálja ki az ingyenes Video alkalmazást](https://products.aspose.app/slides/video/)" 
     >}}

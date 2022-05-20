@@ -104,7 +104,7 @@ bitmap->Save(u"output.jpeg", ImageFormat::get_Jpeg());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-jpeg"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PPSX ke JPEG" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PPT ke JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

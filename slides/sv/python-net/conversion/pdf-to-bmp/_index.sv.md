@@ -97,7 +97,7 @@ Använd gratisappen för att se en demonstration av PDF till BMP-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-bmp"
+        extension=""
         sectionTitle="Gratis app att konvertera PDF till BMP" 
         sectionDescription="[Prova vår gratis app att konvertera PDF till BMP](https://products.aspose.app/slides/import/)" 
     >}}

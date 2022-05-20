@@ -94,7 +94,7 @@ Använd gratisappen för att se en demonstration av OTP till XPS-konverteringspr
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-xps"
+        extension=""
         sectionTitle="Gratis app att konvertera OTP till XPS" 
         sectionDescription="[Prova vår gratis Editor -app](https://products.aspose.app/slides/editor/)" 
     >}}

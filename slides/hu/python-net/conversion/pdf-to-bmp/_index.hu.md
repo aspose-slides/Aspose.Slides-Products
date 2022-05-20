@@ -97,7 +97,7 @@ Használja az ingyenes alkalmazást a PDF-ből BMP-be konvertálási folyamat be
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-bmp"
+        extension=""
         sectionTitle="Ingyenes alkalmazás a PDF konvertálásához BMP -re" 
         sectionDescription="[Próbálja ki az ingyenes alkalmazást a PDF konvertálásához BMP -re](https://products.aspose.app/slides/import/)" 
     >}}

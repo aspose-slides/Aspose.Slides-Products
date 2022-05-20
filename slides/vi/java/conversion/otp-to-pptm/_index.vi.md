@@ -101,7 +101,7 @@ presentation.save("output.pptm", SaveFormat.Pptm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptm"
+        extension=""
         sectionTitle="Ứng dụng miễn phí để chuyển đổi OTP thành PPTM" 
         sectionDescription="[Hãy thử ứng dụng Video miễn phí của chúng tôi](https://products.aspose.app/slides/video/)" 
     >}}

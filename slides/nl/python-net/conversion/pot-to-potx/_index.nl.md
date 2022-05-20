@@ -94,7 +94,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het POT naar POTX-co
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-potx"
+        extension=""
         sectionTitle="Gratis app om POT te converteren naar POTX" 
         sectionDescription="[Probeer onze gratis Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

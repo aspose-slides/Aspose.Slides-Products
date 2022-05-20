@@ -96,7 +96,7 @@ PDF'den POTX'e dönüştürme işleminin bir gösterimini görmek için ücretsi
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potx"
+        extension=""
         sectionTitle="PDF 'a dönüştürmek için ücretsiz uygulama POTX" 
         sectionDescription="[PDF için POTX dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/import/)" 
     >}}

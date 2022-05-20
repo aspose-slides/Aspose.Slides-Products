@@ -96,7 +96,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke POT.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pot"
+        extension=""
         sectionTitle="Aplikasi gratis untuk mengonversi PDF ke POT" 
         sectionDescription="[Coba aplikasi gratis kami untuk mengonversi PDF ke POT](https://products.aspose.app/slides/import/)" 
     >}}
