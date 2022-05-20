@@ -97,7 +97,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-png"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PDF به PNG" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PDF به PNG امتحان کنید](https://products.aspose.app/slides/import/)" 
     >}}

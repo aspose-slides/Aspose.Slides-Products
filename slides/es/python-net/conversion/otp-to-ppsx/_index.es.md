@@ -94,7 +94,7 @@ Use la aplicación gratuita para ver una demostración del proceso de conversió
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppsx"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir OTP a PPSX" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Video](https://products.aspose.app/slides/video/)" 
     >}}

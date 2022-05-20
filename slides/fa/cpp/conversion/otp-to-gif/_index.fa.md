@@ -104,7 +104,7 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-gif"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل OTP به GIF" 
         sectionDescription="[برنامه رایگان Video ما را امتحان کنید](https://products.aspose.app/slides/video/)" 
     >}}

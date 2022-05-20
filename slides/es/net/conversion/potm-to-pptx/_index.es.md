@@ -93,7 +93,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pptx"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir POTM a PPTX" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Video](https://products.aspose.app/slides/video/)" 
     >}}

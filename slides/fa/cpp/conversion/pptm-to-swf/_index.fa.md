@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-swf"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPTM به SWF" 
         sectionDescription="[برنامه رایگان Collage ما را امتحان کنید](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pot") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-html"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل POT به HTML" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PPT به HTML امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-html)" 
     >}}

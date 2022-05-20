@@ -94,7 +94,7 @@ with slides.Presentation("presentation.potx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-xps"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل POTX به XPS" 
         sectionDescription="[برنامه رایگان Collage ما را امتحان کنید](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-pps"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPTM a PPS" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Editor](https://products.aspose.app/slides/editor/)" 
     >}}

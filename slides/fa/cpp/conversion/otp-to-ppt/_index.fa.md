@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppt", Aspose::Slides::Export::SaveFormat::Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-ppt"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل OTP به PPT" 
         sectionDescription="[برنامه رایگان Collage ما را امتحان کنید](https://products.aspose.app/slides/collage/)" 
     >}}

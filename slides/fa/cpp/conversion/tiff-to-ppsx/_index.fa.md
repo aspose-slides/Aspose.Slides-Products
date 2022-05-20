@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.ppsx", Aspose::Slides::Export::SaveFormat::Ppsx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="tiff-to-ppsx"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل TIFF به PPSX" 
         sectionDescription="[برنامه رایگان Collage ما را امتحان کنید](https://products.aspose.app/slides/collage/)" 
     >}}

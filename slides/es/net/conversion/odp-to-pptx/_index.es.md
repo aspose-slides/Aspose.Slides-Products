@@ -93,7 +93,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-pptx"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir ODP a PPTX" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Editor](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.pps", Aspose::Slides::Export::SaveFormat::Pps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-pps"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل XML به PPS" 
         sectionDescription="[برنامه رایگان Editor ما را امتحان کنید](https://products.aspose.app/slides/editor/)" 
     >}}

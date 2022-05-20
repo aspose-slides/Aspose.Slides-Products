@@ -94,7 +94,7 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-pps"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPSM a PPS" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Text To Gif](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

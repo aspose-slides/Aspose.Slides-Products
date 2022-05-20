@@ -94,7 +94,7 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-pot"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPSX به POT" 
         sectionDescription="[برنامه رایگان Collage ما را امتحان کنید](https://products.aspose.app/slides/collage/)" 
     >}}

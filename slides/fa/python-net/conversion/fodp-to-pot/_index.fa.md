@@ -94,7 +94,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pot"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل FODP به POT" 
         sectionDescription="[برنامه رایگان MP4 To MP3 ما را امتحان کنید](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

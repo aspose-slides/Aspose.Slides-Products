@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.potm", Aspose::Slides::Export::SaveFormat::Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-potm"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل POT به POTM" 
         sectionDescription="[برنامه رایگان Video ما را امتحان کنید](https://products.aspose.app/slides/video/)" 
     >}}

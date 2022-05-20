@@ -82,7 +82,7 @@ prs->Save(u"convertedFile.swf", Aspose::Slides::Export::SaveFormat::Swf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-swf"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPTX a SWF" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Video](https://products.aspose.app/slides/video/)" 
     >}}

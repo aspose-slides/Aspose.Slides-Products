@@ -94,7 +94,7 @@ Use la aplicación gratuita para ver una demostración del proceso de conversió
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-pot"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir POTX a POT" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Editor](https://products.aspose.app/slides/editor/)" 
     >}}

@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-xml"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPSM به XML" 
         sectionDescription="[برنامه رایگان Text To Gif ما را امتحان کنید](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

@@ -114,7 +114,7 @@ try {
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-svg"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPS a SVG" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Editor](https://products.aspose.app/slides/editor/)" 
     >}}

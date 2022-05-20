@@ -94,7 +94,7 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-xps"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PPSM a XPS" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Editor](https://products.aspose.app/slides/editor/)" 
     >}}

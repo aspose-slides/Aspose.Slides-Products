@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pptm"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PDF به PPTM" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PDF به PPTM امتحان کنید](https://products.aspose.app/slides/import/)" 
     >}}

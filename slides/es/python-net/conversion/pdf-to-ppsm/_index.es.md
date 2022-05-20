@@ -96,7 +96,7 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsm"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir PDF a PPSM" 
         sectionDescription="[Pruebe nuestra aplicación gratuita para convertir PDF a PPSM](https://products.aspose.app/slides/import/)" 
     >}}

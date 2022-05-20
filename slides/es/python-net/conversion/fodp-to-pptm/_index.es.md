@@ -94,7 +94,7 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="fodp-to-pptm"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir FODP a PPTM" 
         sectionDescription="[Pruebe nuestra aplicación gratuita Collage](https://products.aspose.app/slides/collage/)" 
     >}}

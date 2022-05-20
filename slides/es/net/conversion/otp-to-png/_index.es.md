@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.otp"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-png"
+        extension=""
         sectionTitle="Aplicación gratuita para convertir OTP a PNG" 
         sectionDescription="[Pruebe nuestra aplicación gratuita para convertir PPT a PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

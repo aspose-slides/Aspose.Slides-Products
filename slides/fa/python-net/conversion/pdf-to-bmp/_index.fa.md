@@ -97,7 +97,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-bmp"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PDF به BMP" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PDF به BMP امتحان کنید](https://products.aspose.app/slides/import/)" 
     >}}

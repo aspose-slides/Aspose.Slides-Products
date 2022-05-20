@@ -95,7 +95,7 @@ with slides.Presentation("presentation.pptx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-emf"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPTX به EMF" 
         sectionDescription="[برنامه رایگان Text To Gif ما را امتحان کنید](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

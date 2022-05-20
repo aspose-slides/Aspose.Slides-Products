@@ -94,7 +94,7 @@ with slides.Presentation("presentation.pptx") as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-fodp"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPTX به FODP" 
         sectionDescription="[برنامه رایگان Video ما را امتحان کنید](https://products.aspose.app/slides/video/)" 
     >}}

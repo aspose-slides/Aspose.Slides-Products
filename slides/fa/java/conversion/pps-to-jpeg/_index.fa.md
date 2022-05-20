@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-jpeg"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل PPS به JPEG" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PPT به JPG امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

@@ -104,7 +104,7 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-png"
+        extension=""
         sectionTitle="برنامه رایگان برای تبدیل POTM به PNG" 
         sectionDescription="[برنامه رایگان ما را برای تبدیل PPT به PNG امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}
