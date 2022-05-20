@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the POTM to PPTX conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-pptx"
+        extension=""
         sectionTitle="Free App to Convert POTM to PPTX" 
         sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

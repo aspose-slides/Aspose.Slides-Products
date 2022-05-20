@@ -101,7 +101,7 @@ presentation.save("output.ppt", SaveFormat.Ppt);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-ppt"
+        extension=""
         sectionTitle="Free App to Convert POT to PPT" 
         sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

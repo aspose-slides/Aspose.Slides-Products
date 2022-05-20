@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xps", Aspose::Slides::Export::SaveFormat::Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="xml-to-xps"
+        extension=""
         sectionTitle="Free App to Convert XML to XPS" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

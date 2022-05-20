@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the OTP to PPTX conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-pptx"
+        extension=""
         sectionTitle="Free App to Convert OTP to PPTX" 
         sectionDescription="[Try our free Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

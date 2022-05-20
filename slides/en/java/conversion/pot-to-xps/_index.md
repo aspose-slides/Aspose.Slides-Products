@@ -101,7 +101,7 @@ presentation.save("output.xps", SaveFormat.Xps);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-xps"
+        extension=""
         sectionTitle="Free App to Convert POT to XPS" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

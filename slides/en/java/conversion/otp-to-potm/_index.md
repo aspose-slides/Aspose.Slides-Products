@@ -101,7 +101,7 @@ presentation.save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-potm"
+        extension=""
         sectionTitle="Free App to Convert OTP to POTM" 
         sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
     >}}

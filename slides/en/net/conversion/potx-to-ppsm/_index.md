@@ -93,7 +93,7 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-ppsm"
+        extension=""
         sectionTitle="Free App to Convert POTX to PPSM" 
         sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

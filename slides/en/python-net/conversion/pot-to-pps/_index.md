@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the POT to PPS conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-pps"
+        extension=""
         sectionTitle="Free App to Convert POT to PPS" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

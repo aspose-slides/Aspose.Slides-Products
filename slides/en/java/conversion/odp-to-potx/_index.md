@@ -101,7 +101,7 @@ presentation.save("output.potx", SaveFormat.Potx);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-potx"
+        extension=""
         sectionTitle="Free App to Convert ODP to POTX" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

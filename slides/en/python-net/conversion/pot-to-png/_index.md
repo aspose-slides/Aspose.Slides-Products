@@ -95,7 +95,7 @@ Use the free app to see a demonstration of the POT to PNG conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-png"
+        extension=""
         sectionTitle="Free App to Convert POT to PNG" 
         sectionDescription="[Try our free app to convert PPT to PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

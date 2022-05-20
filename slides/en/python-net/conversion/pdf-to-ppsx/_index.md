@@ -96,7 +96,7 @@ Use the free app to see a demonstration of the PDF to PPSX conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsx"
+        extension=""
         sectionTitle="Free App to Convert PDF to PPSX" 
         sectionDescription="[Try our free app to convert PDF to PPSX](https://products.aspose.app/slides/import/)" 
     >}}

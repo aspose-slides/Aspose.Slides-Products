@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the PPS to ODP conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-odp"
+        extension=""
         sectionTitle="Free App to Convert PPS to ODP" 
         sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

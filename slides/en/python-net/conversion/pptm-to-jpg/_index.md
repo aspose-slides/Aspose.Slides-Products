@@ -95,7 +95,7 @@ Use the free app to see a demonstration of the PPTM to JPG conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-jpg"
+        extension=""
         sectionTitle="Free App to Convert PPTM to JPG" 
         sectionDescription="[Try our free app to convert PPT to JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
     >}}

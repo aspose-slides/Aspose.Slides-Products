@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the PPS to OTP conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-otp"
+        extension=""
         sectionTitle="Free App to Convert PPS to OTP" 
         sectionDescription="[Try our free Collage app](https://products.aspose.app/slides/collage/)" 
     >}}

@@ -93,7 +93,7 @@ presentation.Save("output.emf", SaveFormat.Emf);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-emf"
+        extension=""
         sectionTitle="Free App to Convert POTX to EMF" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

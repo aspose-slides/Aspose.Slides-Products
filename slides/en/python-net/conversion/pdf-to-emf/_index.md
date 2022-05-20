@@ -97,7 +97,7 @@ Use the free app to see a demonstration of the PDF to EMF conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-emf"
+        extension=""
         sectionTitle="Free App to Convert PDF to EMF" 
         sectionDescription="[Try our free app to convert PDF to EMF](https://products.aspose.app/slides/import/)" 
     >}}

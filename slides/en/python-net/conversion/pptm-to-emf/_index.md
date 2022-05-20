@@ -95,7 +95,7 @@ Use the free app to see a demonstration of the PPTM to EMF conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-emf"
+        extension=""
         sectionTitle="Free App to Convert PPTM to EMF" 
         sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

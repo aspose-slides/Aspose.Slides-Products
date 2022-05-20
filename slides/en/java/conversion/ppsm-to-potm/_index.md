@@ -101,7 +101,7 @@ presentation.save("output.potm", SaveFormat.Potm);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-potm"
+        extension=""
         sectionTitle="Free App to Convert PPSM to POTM" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

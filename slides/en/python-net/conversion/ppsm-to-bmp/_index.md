@@ -95,7 +95,7 @@ Use the free app to see a demonstration of the PPSM to BMP conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-bmp"
+        extension=""
         sectionTitle="Free App to Convert PPSM to BMP" 
         sectionDescription="[Try our free app to convert PPT to BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

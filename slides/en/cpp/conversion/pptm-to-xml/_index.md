@@ -87,7 +87,7 @@ prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-xml"
+        extension=""
         sectionTitle="Free App to Convert PPTM to XML" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}

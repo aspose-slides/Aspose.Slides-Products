@@ -96,7 +96,7 @@ Use the free app to see a demonstration of the PPSX to SVG conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsx-to-svg"
+        extension=""
         sectionTitle="Free App to Convert PPSX to SVG" 
         sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

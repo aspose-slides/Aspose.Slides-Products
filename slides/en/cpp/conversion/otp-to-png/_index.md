@@ -104,7 +104,7 @@ bitmap->Save(u"output.png", ImageFormat::get_Png());
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-png"
+        extension=""
         sectionTitle="Free App to Convert OTP to PNG" 
         sectionDescription="[Try our free app to convert PPT to PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
     >}}

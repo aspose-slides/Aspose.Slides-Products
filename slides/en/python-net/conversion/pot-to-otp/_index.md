@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the POT to OTP conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pot-to-otp"
+        extension=""
         sectionTitle="Free App to Convert POT to OTP" 
         sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

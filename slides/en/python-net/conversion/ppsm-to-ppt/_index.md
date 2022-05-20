@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the PPSM to PPT conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-ppt"
+        extension=""
         sectionTitle="Free App to Convert PPSM to PPT" 
         sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
     >}}

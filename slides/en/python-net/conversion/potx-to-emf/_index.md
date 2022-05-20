@@ -95,7 +95,7 @@ Use the free app to see a demonstration of the POTX to EMF conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potx-to-emf"
+        extension=""
         sectionTitle="Free App to Convert POTX to EMF" 
         sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
     >}}

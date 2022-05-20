@@ -94,7 +94,7 @@ Use the free app to see a demonstration of the PPSM to OTP conversion process.
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-otp"
+        extension=""
         sectionTitle="Free App to Convert PPSM to OTP" 
         sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
     >}}
