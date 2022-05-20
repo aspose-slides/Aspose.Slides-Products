@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pps-to-bmp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPS na BMP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

@@ -114,7 +114,7 @@ for (ISlide sld : presentation.getSlides())
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="potm-to-bmp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu POTM na BMP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

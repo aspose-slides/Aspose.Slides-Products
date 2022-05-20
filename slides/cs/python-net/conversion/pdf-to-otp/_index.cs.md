@@ -96,7 +96,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PDF na
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-otp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na OTP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až OTP](https://products.aspose.app/slides/import/)" 
     >}}

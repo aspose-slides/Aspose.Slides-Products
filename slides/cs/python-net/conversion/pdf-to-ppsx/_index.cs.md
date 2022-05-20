@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-ppsx"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na PPSX" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až PPSX](https://products.aspose.app/slides/import/)" 
     >}}

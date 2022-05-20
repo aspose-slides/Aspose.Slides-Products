@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu OD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="odp-to-fodp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu ODP na FODP" 
         sectionDescription="[Vyzkoušejte zdarma Video App](https://products.aspose.app/slides/video/)" 
     >}}

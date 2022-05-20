@@ -105,7 +105,7 @@ using (var presentation = new Presentation("template.ppsm"))
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="ppsm-to-bmp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPSM na BMP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

@@ -96,7 +96,7 @@ with slides.Presentation() as presentation:
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-potx"
+        extension=""
         sectionTitle="تطبيق مجاني لتحويل PDF إلى POTX" 
         sectionDescription="[جرب تطبيقنا المجاني لتحويل PDF إلى POTX](https://products.aspose.app/slides/import/)" 
     >}}

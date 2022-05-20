@@ -95,7 +95,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu OT
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="otp-to-bmp"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu OTP na BMP" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
     >}}

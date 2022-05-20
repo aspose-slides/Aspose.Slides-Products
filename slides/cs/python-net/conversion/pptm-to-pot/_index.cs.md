@@ -94,7 +94,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu konverze PPTM n
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptm-to-pot"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPTM na POT" 
         sectionDescription="[Vyzkoušejte zdarma Editor App](https://products.aspose.app/slides/editor/)" 
     >}}

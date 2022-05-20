@@ -96,7 +96,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-pot"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na POT" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až POT](https://products.aspose.app/slides/import/)" 
     >}}

@@ -97,7 +97,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PD
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pdf-to-png"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PDF na PNG" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PDF až PNG](https://products.aspose.app/slides/import/)" 
     >}}

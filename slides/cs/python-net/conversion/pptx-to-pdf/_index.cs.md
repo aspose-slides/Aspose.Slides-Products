@@ -94,7 +94,7 @@ Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PP
 
     {{< blocks/slides-app-widget 
         appName="conversion"
-        extension="pptx-to-pdf"
+        extension=""
         sectionTitle="Aplikace zdarma k převodu PPTX na PDF" 
         sectionDescription="[Vyzkoušejte naši bezplatnou aplikaci pro převod PPT až PDF](https://products.aspose.app/slides/conversion/)" 
     >}}
