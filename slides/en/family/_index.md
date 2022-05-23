@@ -31,6 +31,10 @@ PowerPoint API for generating and manipulating presentations with Python scripts
 PowerPoint API for manipulating PowerPoint Presentations in Android mobile applications.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/php-java/" >}}
+PowerPoint API for generating and manipulating presentations with PHP scripts.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/sharepoint/" >}}
 PowerPoint API for converting presentations to PDF in SharePoint.
 {{< /blocks/products/pf/product >}}
