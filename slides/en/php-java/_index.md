@@ -549,7 +549,7 @@ finally
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/php-java/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/slides/java" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/slides/php-java/api-reference" >}}
 {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
