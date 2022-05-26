@@ -1,5 +1,5 @@
 ---
-title: پاورپوینت دات نت Java C++ Python Android API
+title: پاورپوینت دات نت Java C++ Python Android PHP API
 weight: 10
 url: /fa/family
 description: پاورپوینت API برای دات نت، جاوا، سی پلاس پلاس، پایتون. ایجاد نوشتن ویرایش رندر چاپ پاورپوینت PPT، PPTX، ODP. اسلایدها را در SSRS و JasperReports صادر کنید
@@ -11,43 +11,47 @@ description: پاورپوینت API برای دات نت، جاوا، سی پل�
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides پاورپوینت APIs شامل" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/fa/net/" >}}
 پاورپوینت API فرم‌های ویندوز، ASP.NET، WPF، WCF یا هر نوع برنامه‌ای مبتنی بر دات نت فریم ورک 2.0 یا بالاتر را هدف قرار می‌دهد.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/fa/java/" >}}
 PowerPoint Java API برای دسکتاپ، وب یا هر برنامه کاربردی مبتنی بر Java SE یا EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/cpp/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/fa/cpp/" >}}
 PowerPoint API برای دستکاری و رندر ارائه ها و اسلایدهای پاورپوینت در برنامه های CPP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="پایتون از طریق دات نت" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="پایتون از طریق دات نت" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/fa/python-net/" >}}
 پاورپوینت API برای تولید و دستکاری ارائه ها با اسکریپت های پایتون.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="اندروید از طریق جاوا" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="اندروید از طریق جاوا" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/fa/android-java/" >}}
 PowerPoint API برای دستکاری ارائه های پاورپوینت در برنامه های تلفن همراه اندروید.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="شیرپوینت" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/sharepoint/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/fa/php-java/" >}}
+پاورپوینت API برای تولید و دستکاری ارائه ها با اسکریپت های PHP.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="شیرپوینت" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/fa/sharepoint/" >}}
 PowerPoint API برای تبدیل ارائه ها به PDF در شیرپوینت.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="خدمات گزارش دهی" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/reporting-services/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="خدمات گزارش دهی" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/fa/reporting-services/" >}}
 پاورپوینت API برای صادرات گزارش های RDL به پاورپوینت از سرویس های گزارش دهی سرور SQL.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/jasperreports/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/fa/jasperreports/" >}}
 پاورپوینت API برای صادرات گزارش به پاورپوینت از JasperReports یا JasperServer.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/net-core/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/fa/net-core/" >}}
 PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی هسته دات نت برای پردازش ارائه‌ها در ویندوز، لینوکس یا macOS.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="زامارین" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/xamarin/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="زامارین" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/fa/xamarin/" >}}
 پاورپوینت API برای ساخت برنامه های کراس پلتفرم Xamarin و مدیریت ارائه ها در اندروید، iOS یا ویندوز.
 {{< /blocks/products/pf/product >}}
 
