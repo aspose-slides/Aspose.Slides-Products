@@ -419,6 +419,7 @@ Aspose.Slides는 사용하기 쉽고 ASP.Net 서버에서 잘 작동합니다. �
     {{< blocks/products/pf/offers-section-item link="/slides/ko/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ko/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ko/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/ko/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ko/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ko/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ko/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
