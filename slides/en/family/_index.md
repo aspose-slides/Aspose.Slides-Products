@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android APIs
+title: PowerPoint .NET Java C++ Python PHP Android APIs
 weight: 10
 url: /family
-description: PowerPoint API for .NET, Java, C++, Python. Create Write Edit Render Print PowerPoint PPT, PPTX, ODP. Export Slides in SSRS and JasperReports
+description: PowerPoint API for .NET, Java, C++, Python, PHP. Create Write Edit Render Print PowerPoint PPT, PPTX, ODP. Export Slides in SSRS and JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint APIs: .NET, Java, C++, Python" h2="Native APIs for cross platform development. Generate, manage and convert PowerPoint Presentations & Slides in .NET, Java, C++, Python, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint APIs: .NET, Java, C++, Python, PHP" h2="Native APIs for cross platform development. Generate, manage and convert PowerPoint Presentations & Slides in .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint APIs Include" >}}
@@ -29,6 +29,10 @@ PowerPoint API for generating and manipulating presentations with Python scripts
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
 PowerPoint API for manipulating PowerPoint Presentations in Android mobile applications.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/php-java/" >}}
+PowerPoint API for generating and manipulating presentations with PHP scripts.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/sharepoint/" >}}
