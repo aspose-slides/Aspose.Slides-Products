@@ -549,7 +549,7 @@ Aspose.Slidesは使いやすく、サーバー上でうまく機能すること�
 {{< blocks/products/pf/slr-tab tabTitle="学習リソース" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="ドキュメンテーション" href="https://docs.aspose.com/slides/php-java/" >}}
 {{< blocks/products/pf/slr-element name="ソースコード" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://apireference.aspose.com/slides/php-java/api-reference" >}}
+{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://docs.aspose.com/slides/php-java/api-reference/" >}}
 {{< blocks/products/pf/slr-element name="チュートリアルビデオ" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 

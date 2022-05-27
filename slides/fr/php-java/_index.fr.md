@@ -549,7 +549,7 @@ Le produit fonctionnait comme annoncé, la documentation était facile à suivre
 {{< blocks/products/pf/slr-tab tabTitle="Ressources d'apprentissage" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/php-java/" >}}
 {{< blocks/products/pf/slr-element name="Code source" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="Références API" href="https://apireference.aspose.com/slides/php-java/api-reference" >}}
+{{< blocks/products/pf/slr-element name="Références API" href="https://docs.aspose.com/slides/php-java/api-reference/" >}}
 {{< blocks/products/pf/slr-element name="Vidéos didactiques" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 

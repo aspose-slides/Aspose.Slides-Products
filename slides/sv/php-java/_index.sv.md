@@ -549,7 +549,7 @@ Produkten fungerade som annonserad, dokumentationen var lätt att följa och sup
 {{< blocks/products/pf/slr-tab tabTitle="Lärresurser" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Dokumentation" href="https://docs.aspose.com/slides/php-java/" >}}
 {{< blocks/products/pf/slr-element name="Källkod" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="API-referenser" href="https://apireference.aspose.com/slides/php-java/api-reference" >}}
+{{< blocks/products/pf/slr-element name="API-referenser" href="https://docs.aspose.com/slides/php-java/api-reference/" >}}
 {{< blocks/products/pf/slr-element name="Handledningsvideor" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
