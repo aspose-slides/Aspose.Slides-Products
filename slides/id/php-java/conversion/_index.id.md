@@ -1,7 +1,7 @@
 ---
 title: Konversi Presentasi Microsoft PowerPoint ke PDF di PHP
 url: /id/php-java/conversion/
-keyslides: "Convert, PowerPoint, Presentation, PHP, PDF, Convert to PDF, PPT to PDF"
+keywords: "Convert, PowerPoint, Presentation, PHP, PDF, Convert to PDF, PPT to PDF"
 description: PHP API untuk Mengonversi PPT ke PDF. Konversikan Presentasi ke JPG, PNG, dan format lain di PHP.
 ---
 

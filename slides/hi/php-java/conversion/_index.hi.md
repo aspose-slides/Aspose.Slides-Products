@@ -1,7 +1,7 @@
 ---
 title: माइक्रोसॉफ्ट पावरपॉइंट प्रेजेंटेशन PHP में पीडीएफ में रूपांतरण
 url: /hi/php-java/conversion/
-keyslides: "Convert, PowerPoint, Presentation, PHP, PDF, Convert to PDF, PPT to PDF"
+keywords: "Convert, PowerPoint, Presentation, PHP, PDF, Convert to PDF, PPT to PDF"
 description: पीपीटी को पीडीएफ में बदलने के लिए पीएचपी एपीआई। पीएचपी में प्रस्तुतियों को जेपीजी, पीएनजी और अन्य प्रारूपों में कनवर्ट करें।
 ---
 
