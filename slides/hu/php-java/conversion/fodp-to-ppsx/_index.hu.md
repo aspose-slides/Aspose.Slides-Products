@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP és a PPSX között
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-ppsx"
+extension=""
 sectionTitle="Free App to Convert FODP to PPSX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

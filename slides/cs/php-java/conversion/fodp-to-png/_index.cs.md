@@ -110,7 +110,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu FODP d
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-png"
+extension=""
 sectionTitle="Free App to Convert FODP to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

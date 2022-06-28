@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTX és a XPS közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-xps"
+extension=""
 sectionTitle="Free App to Convert PPTX to XPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

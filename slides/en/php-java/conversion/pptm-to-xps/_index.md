@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPTM to XPS conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-xps"
+extension=""
 sectionTitle="Free App to Convert PPTM to XPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

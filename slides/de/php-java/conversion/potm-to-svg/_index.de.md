@@ -109,7 +109,7 @@ Verwenden Sie die kostenlose App, um eine Demonstration des Umwandlungsprozesses
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-svg"
+extension=""
 sectionTitle="Free App to Convert POTM to SVG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

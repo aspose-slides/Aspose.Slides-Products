@@ -104,7 +104,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PPT do
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-pps"
+extension=""
 sectionTitle="Free App to Convert PPT to PPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

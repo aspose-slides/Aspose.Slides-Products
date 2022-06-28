@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPS ke ODP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-odp"
+extension=""
 sectionTitle="Free App to Convert PPS to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

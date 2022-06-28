@@ -104,7 +104,7 @@ PPTX - GIF dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-gif"
+extension=""
 sectionTitle="Free App to Convert PPTX to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

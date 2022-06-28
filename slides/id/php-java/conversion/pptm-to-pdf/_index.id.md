@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTM ke PDF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-pdf"
+extension=""
 sectionTitle="Free App to Convert PPTM to PDF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

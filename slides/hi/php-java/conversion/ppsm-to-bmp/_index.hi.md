@@ -110,7 +110,7 @@ PPSM से BMP रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-bmp"
+extension=""
 sectionTitle="Free App to Convert PPSM to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

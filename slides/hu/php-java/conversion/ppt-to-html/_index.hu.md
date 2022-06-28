@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPT és a HTML közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-html"
+extension=""
 sectionTitle="Free App to Convert PPT to HTML" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

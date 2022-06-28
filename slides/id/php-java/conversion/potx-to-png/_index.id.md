@@ -110,7 +110,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTX ke PNG.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-png"
+extension=""
 sectionTitle="Free App to Convert POTX to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

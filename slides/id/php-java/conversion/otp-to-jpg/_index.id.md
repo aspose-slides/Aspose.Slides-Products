@@ -110,7 +110,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi OTP ke JPG.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-jpg"
+extension=""
 sectionTitle="Free App to Convert OTP to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

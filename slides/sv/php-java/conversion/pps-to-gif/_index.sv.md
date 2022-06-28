@@ -104,7 +104,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-gif"
+extension=""
 sectionTitle="Free App to Convert PPS to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

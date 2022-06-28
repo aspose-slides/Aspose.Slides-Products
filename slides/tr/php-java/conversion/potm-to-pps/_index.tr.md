@@ -104,7 +104,7 @@ POTM - PPS dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-pps"
+extension=""
 sectionTitle="Free App to Convert POTM to PPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

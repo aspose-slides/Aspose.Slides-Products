@@ -110,7 +110,7 @@ PPS से PNG रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-png"
+extension=""
 sectionTitle="Free App to Convert PPS to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

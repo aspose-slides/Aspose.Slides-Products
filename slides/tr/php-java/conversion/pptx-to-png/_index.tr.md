@@ -110,7 +110,7 @@ PPTX - PNG dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-png"
+extension=""
 sectionTitle="Free App to Convert PPTX to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

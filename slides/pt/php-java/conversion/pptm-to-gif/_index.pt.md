@@ -104,7 +104,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-gif"
+extension=""
 sectionTitle="Free App to Convert PPTM to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

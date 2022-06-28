@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSM ke PPTM.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-pptm"
+extension=""
 sectionTitle="Free App to Convert PPSM to PPTM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -110,7 +110,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTX és a JPG közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-jpg"
+extension=""
 sectionTitle="Free App to Convert PPTX to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

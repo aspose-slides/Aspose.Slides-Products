@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPSX to HTML conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsx-to-html"
+extension=""
 sectionTitle="Free App to Convert PPSX to HTML" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

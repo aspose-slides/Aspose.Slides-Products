@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTX és a POT közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-pot"
+extension=""
 sectionTitle="Free App to Convert POTX to POT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

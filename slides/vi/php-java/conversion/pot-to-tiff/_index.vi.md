@@ -104,7 +104,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-tiff"
+extension=""
 sectionTitle="Free App to Convert POT to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

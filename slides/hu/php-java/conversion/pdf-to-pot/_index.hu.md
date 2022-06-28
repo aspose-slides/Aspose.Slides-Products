@@ -106,7 +106,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF és a POT közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-pot"
+extension=""
 sectionTitle="Free App to Convert PDF to POT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

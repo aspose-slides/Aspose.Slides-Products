@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTX ke ODP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-odp"
+extension=""
 sectionTitle="Free App to Convert PPTX to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPT ke PPTX.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-pptx"
+extension=""
 sectionTitle="Free App to Convert PPT to PPTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

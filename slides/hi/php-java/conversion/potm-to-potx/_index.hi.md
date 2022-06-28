@@ -104,7 +104,7 @@ POTM से POTX रूपांतरण प्रक्रिया का प
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-potx"
+extension=""
 sectionTitle="Free App to Convert POTM to POTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PPSM d
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-ppsx"
+extension=""
 sectionTitle="Free App to Convert PPSM to PPSX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

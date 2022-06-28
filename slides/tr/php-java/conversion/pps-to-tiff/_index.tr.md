@@ -104,7 +104,7 @@ PPS - TIFF dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-tiff"
+extension=""
 sectionTitle="Free App to Convert PPS to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

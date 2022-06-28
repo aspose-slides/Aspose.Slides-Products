@@ -104,7 +104,7 @@ OTP - POT dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygula
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-pot"
+extension=""
 sectionTitle="Free App to Convert OTP to POT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

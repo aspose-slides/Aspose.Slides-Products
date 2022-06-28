@@ -104,7 +104,7 @@ finally
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-tiff"
+extension=""
 sectionTitle="Free App to Convert PPSM to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

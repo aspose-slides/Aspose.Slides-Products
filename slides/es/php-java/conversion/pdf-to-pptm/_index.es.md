@@ -106,7 +106,7 @@ Utilice la aplicación gratuita para ver una demostración del proceso de conver
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-pptm"
+extension=""
 sectionTitle="Free App to Convert PDF to PPTM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

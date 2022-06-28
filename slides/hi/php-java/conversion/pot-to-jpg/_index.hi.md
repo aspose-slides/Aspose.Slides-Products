@@ -110,7 +110,7 @@ POT से JPG रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-jpg"
+extension=""
 sectionTitle="Free App to Convert POT to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

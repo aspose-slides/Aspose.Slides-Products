@@ -110,7 +110,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-jpg"
+extension=""
 sectionTitle="Free App to Convert POTM to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

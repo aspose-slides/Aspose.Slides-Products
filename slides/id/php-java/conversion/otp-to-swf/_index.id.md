@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi OTP ke SWF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-swf"
+extension=""
 sectionTitle="Free App to Convert OTP to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ POTX से TIFF रूपांतरण प्रक्रिया का प
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-tiff"
+extension=""
 sectionTitle="Free App to Convert POTX to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

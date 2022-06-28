@@ -109,7 +109,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-svg"
+extension=""
 sectionTitle="Free App to Convert FODP to SVG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

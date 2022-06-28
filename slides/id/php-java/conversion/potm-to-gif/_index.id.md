@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTM ke GIF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-gif"
+extension=""
 sectionTitle="Free App to Convert POTM to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

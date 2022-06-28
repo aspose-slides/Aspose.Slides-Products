@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the POT to POTX conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-potx"
+extension=""
 sectionTitle="Free App to Convert POT to POTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSM ke PPS.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-pps"
+extension=""
 sectionTitle="Free App to Convert PPSM to PPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

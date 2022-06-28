@@ -104,7 +104,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-fodp"
+extension=""
 sectionTitle="Free App to Convert PPTX to FODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

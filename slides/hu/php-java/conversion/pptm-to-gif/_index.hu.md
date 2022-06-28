@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTM és a GIF közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-gif"
+extension=""
 sectionTitle="Free App to Convert PPTM to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

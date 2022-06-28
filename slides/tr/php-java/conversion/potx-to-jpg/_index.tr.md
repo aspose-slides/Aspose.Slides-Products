@@ -110,7 +110,7 @@ POTX - JPG dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-jpg"
+extension=""
 sectionTitle="Free App to Convert POTX to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

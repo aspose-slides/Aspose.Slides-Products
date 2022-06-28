@@ -110,7 +110,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-bmp"
+extension=""
 sectionTitle="Free App to Convert POTX to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -110,7 +110,7 @@ Use the free app to see a demonstration of the PPTX to BMP conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-bmp"
+extension=""
 sectionTitle="Free App to Convert PPTX to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

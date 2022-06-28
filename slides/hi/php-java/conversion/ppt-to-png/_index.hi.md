@@ -110,7 +110,7 @@ PPT से PNG रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-png"
+extension=""
 sectionTitle="Free App to Convert PPT to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

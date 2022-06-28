@@ -106,7 +106,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF és a POTX közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-potx"
+extension=""
 sectionTitle="Free App to Convert PDF to POTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

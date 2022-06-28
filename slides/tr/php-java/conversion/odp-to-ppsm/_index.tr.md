@@ -104,7 +104,7 @@ ODP - PPSM dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="odp-to-ppsm"
+extension=""
 sectionTitle="Free App to Convert ODP to PPSM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

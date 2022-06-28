@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the ODP to POTM conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="odp-to-potm"
+extension=""
 sectionTitle="Free App to Convert ODP to POTM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

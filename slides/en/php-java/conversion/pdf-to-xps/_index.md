@@ -106,7 +106,7 @@ Use the free app to see a demonstration of the PDF to XPS conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-xps"
+extension=""
 sectionTitle="Free App to Convert PDF to XPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

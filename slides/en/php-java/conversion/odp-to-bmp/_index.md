@@ -110,7 +110,7 @@ Use the free app to see a demonstration of the ODP to BMP conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="odp-to-bmp"
+extension=""
 sectionTitle="Free App to Convert ODP to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

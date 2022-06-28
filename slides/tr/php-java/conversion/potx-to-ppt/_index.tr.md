@@ -104,7 +104,7 @@ POTX - PPT dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-ppt"
+extension=""
 sectionTitle="Free App to Convert POTX to PPT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

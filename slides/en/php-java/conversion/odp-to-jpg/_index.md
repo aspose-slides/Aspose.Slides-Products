@@ -110,7 +110,7 @@ Use the free app to see a demonstration of the ODP to JPG conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="odp-to-jpg"
+extension=""
 sectionTitle="Free App to Convert ODP to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

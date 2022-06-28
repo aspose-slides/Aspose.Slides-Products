@@ -104,7 +104,7 @@ POTM से SWF रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-swf"
+extension=""
 sectionTitle="Free App to Convert POTM to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

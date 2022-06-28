@@ -110,7 +110,7 @@ finally
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-png"
+extension=""
 sectionTitle="Free App to Convert PPTM to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

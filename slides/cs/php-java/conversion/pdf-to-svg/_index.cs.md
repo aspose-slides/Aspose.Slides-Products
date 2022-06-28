@@ -111,7 +111,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PDF do
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-svg"
+extension=""
 sectionTitle="Free App to Convert PDF to SVG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

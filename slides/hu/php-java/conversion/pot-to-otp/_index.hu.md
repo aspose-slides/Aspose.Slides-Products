@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POT és a OTP közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-otp"
+extension=""
 sectionTitle="Free App to Convert POT to OTP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

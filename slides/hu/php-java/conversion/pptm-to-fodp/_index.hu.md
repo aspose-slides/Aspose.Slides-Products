@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTM és a FODP között
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-fodp"
+extension=""
 sectionTitle="Free App to Convert PPTM to FODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

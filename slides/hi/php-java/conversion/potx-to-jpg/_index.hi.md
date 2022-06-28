@@ -110,7 +110,7 @@ POTX से JPG रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-jpg"
+extension=""
 sectionTitle="Free App to Convert POTX to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

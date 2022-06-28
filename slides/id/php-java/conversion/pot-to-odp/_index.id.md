@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POT ke ODP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-odp"
+extension=""
 sectionTitle="Free App to Convert POT to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu FODP d
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-odp"
+extension=""
 sectionTitle="Free App to Convert FODP to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

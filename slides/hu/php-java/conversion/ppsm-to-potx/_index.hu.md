@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSM és a POTX között
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-potx"
+extension=""
 sectionTitle="Free App to Convert PPSM to POTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

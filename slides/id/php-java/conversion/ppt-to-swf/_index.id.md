@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPT ke SWF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-swf"
+extension=""
 sectionTitle="Free App to Convert PPT to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

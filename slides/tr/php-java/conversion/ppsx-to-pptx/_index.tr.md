@@ -104,7 +104,7 @@ PPSX - PPTX dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygu
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsx-to-pptx"
+extension=""
 sectionTitle="Free App to Convert PPSX to PPTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ PPS से TIFF रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-tiff"
+extension=""
 sectionTitle="Free App to Convert PPS to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

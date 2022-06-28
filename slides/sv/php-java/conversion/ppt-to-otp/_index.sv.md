@@ -104,7 +104,7 @@ Använd gratisappen för att se en demonstration av konverteringsprocessen från
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-otp"
+extension=""
 sectionTitle="Free App to Convert PPT to OTP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

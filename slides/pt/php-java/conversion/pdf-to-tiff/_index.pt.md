@@ -106,7 +106,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-tiff"
+extension=""
 sectionTitle="Free App to Convert PDF to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

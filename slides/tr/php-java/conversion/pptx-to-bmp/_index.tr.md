@@ -110,7 +110,7 @@ PPTX - BMP dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-bmp"
+extension=""
 sectionTitle="Free App to Convert PPTX to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

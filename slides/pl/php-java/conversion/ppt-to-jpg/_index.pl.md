@@ -110,7 +110,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-jpg"
+extension=""
 sectionTitle="Free App to Convert PPT to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

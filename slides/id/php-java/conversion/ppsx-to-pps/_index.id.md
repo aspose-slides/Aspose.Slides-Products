@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSX ke PPS.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsx-to-pps"
+extension=""
 sectionTitle="Free App to Convert PPSX to PPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

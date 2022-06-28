@@ -109,7 +109,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTX ke SVG.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-svg"
+extension=""
 sectionTitle="Free App to Convert PPTX to SVG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

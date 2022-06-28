@@ -104,7 +104,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PPSM d
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-html"
+extension=""
 sectionTitle="Free App to Convert PPSM to HTML" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

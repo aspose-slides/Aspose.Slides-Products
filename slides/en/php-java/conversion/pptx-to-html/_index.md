@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPTX to HTML conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-html"
+extension=""
 sectionTitle="Free App to Convert PPTX to HTML" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

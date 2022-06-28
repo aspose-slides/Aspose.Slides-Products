@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP és a POTM között
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-potm"
+extension=""
 sectionTitle="Free App to Convert FODP to POTM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

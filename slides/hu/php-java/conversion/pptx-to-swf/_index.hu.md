@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPTX és a SWF közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-swf"
+extension=""
 sectionTitle="Free App to Convert PPTX to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

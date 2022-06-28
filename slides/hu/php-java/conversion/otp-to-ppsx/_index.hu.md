@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a OTP és a PPSX közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-ppsx"
+extension=""
 sectionTitle="Free App to Convert OTP to PPSX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

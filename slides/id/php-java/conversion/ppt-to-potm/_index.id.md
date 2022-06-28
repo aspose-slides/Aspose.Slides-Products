@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPT ke POTM.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-potm"
+extension=""
 sectionTitle="Free App to Convert PPT to POTM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}
