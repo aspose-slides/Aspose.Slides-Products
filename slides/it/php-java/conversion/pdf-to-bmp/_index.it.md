@@ -112,7 +112,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da P
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-bmp"
+extension=""
 sectionTitle="Free App to Convert PDF to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

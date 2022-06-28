@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPT to POTX conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-potx"
+extension=""
 sectionTitle="Free App to Convert PPT to POTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

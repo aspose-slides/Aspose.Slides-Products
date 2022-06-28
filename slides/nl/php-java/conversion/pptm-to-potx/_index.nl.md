@@ -104,7 +104,7 @@ Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-potx"
+extension=""
 sectionTitle="Free App to Convert PPTM to POTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

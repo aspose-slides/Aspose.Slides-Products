@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSM és a ODP közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-odp"
+extension=""
 sectionTitle="Free App to Convert PPSM to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

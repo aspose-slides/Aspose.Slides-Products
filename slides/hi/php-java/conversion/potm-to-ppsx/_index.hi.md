@@ -104,7 +104,7 @@ POTM से PPSX रूपांतरण प्रक्रिया का प
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-ppsx"
+extension=""
 sectionTitle="Free App to Convert POTM to PPSX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

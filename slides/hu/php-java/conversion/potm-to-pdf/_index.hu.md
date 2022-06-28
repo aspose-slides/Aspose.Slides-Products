@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTM és a PDF közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-pdf"
+extension=""
 sectionTitle="Free App to Convert POTM to PDF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

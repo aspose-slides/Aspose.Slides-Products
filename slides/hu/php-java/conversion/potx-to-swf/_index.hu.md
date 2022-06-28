@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a POTX és a SWF közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-swf"
+extension=""
 sectionTitle="Free App to Convert POTX to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

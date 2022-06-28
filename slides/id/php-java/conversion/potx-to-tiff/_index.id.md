@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTX ke TIFF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-tiff"
+extension=""
 sectionTitle="Free App to Convert POTX to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

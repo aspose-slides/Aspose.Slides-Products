@@ -106,7 +106,7 @@ PDF से PPTX रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-pptx"
+extension=""
 sectionTitle="Free App to Convert PDF to PPTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

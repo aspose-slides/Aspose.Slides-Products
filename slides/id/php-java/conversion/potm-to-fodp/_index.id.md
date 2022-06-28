@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTM ke FODP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-fodp"
+extension=""
 sectionTitle="Free App to Convert POTM to FODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -106,7 +106,7 @@ finally
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-gif"
+extension=""
 sectionTitle="Free App to Convert PDF to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

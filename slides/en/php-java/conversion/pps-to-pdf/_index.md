@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPS to PDF conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-pdf"
+extension=""
 sectionTitle="Free App to Convert PPS to PDF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

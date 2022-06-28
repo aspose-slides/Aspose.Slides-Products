@@ -112,7 +112,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke JPG.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-jpg"
+extension=""
 sectionTitle="Free App to Convert PDF to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -110,7 +110,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPS ke JPG.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-jpg"
+extension=""
 sectionTitle="Free App to Convert PPS to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

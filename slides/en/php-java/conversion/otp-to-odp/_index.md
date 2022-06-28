@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the OTP to ODP conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-odp"
+extension=""
 sectionTitle="Free App to Convert OTP to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

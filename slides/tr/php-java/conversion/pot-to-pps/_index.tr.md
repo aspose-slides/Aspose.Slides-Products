@@ -104,7 +104,7 @@ POT - PPS dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygula
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-pps"
+extension=""
 sectionTitle="Free App to Convert POT to PPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu POTM d
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-xps"
+extension=""
 sectionTitle="Free App to Convert POTM to XPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

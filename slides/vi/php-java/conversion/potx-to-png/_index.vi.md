@@ -110,7 +110,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-png"
+extension=""
 sectionTitle="Free App to Convert POTX to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

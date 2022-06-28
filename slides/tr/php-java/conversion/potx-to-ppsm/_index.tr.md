@@ -104,7 +104,7 @@ POTX - PPSM dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygu
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-ppsm"
+extension=""
 sectionTitle="Free App to Convert POTX to PPSM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

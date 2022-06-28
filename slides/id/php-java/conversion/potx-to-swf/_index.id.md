@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POTX ke SWF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-swf"
+extension=""
 sectionTitle="Free App to Convert POTX to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

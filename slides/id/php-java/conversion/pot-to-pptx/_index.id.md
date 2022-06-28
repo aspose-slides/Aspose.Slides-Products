@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POT ke PPTX.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-pptx"
+extension=""
 sectionTitle="Free App to Convert POT to PPTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

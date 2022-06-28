@@ -104,7 +104,7 @@ FODP - PPSX dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygu
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-ppsx"
+extension=""
 sectionTitle="Free App to Convert FODP to PPSX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -109,7 +109,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu OTP do
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-svg"
+extension=""
 sectionTitle="Free App to Convert OTP to SVG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

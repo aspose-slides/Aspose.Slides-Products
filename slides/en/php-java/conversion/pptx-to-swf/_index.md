@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPTX to SWF conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptx-to-swf"
+extension=""
 sectionTitle="Free App to Convert PPTX to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

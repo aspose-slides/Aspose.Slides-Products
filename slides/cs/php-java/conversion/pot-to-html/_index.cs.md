@@ -104,7 +104,7 @@ Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu POT do
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-html"
+extension=""
 sectionTitle="Free App to Convert POT to HTML" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

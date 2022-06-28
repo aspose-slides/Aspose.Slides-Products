@@ -104,7 +104,7 @@ Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersj
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-ppsx"
+extension=""
 sectionTitle="Free App to Convert POT to PPSX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

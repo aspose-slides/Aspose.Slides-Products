@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a FODP és a TIFF között
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-tiff"
+extension=""
 sectionTitle="Free App to Convert FODP to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

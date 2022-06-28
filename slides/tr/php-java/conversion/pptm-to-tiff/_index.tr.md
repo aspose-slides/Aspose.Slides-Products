@@ -104,7 +104,7 @@ PPTM - TIFF dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygu
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-tiff"
+extension=""
 sectionTitle="Free App to Convert PPTM to TIFF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

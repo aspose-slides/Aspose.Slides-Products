@@ -104,7 +104,7 @@ Use o aplicativo gratuito para ver uma demonstração do processo de conversão 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-pot"
+extension=""
 sectionTitle="Free App to Convert PPSM to POT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

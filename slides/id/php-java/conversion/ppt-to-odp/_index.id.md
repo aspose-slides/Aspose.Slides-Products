@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPT ke ODP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-odp"
+extension=""
 sectionTitle="Free App to Convert PPT to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

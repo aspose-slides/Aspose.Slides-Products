@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPSM és a PDF közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsm-to-pdf"
+extension=""
 sectionTitle="Free App to Convert PPSM to PDF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

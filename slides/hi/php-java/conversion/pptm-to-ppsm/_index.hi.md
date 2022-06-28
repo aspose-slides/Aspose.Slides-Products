@@ -104,7 +104,7 @@ PPTM से PPSM रूपांतरण प्रक्रिया का प
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-ppsm"
+extension=""
 sectionTitle="Free App to Convert PPTM to PPSM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

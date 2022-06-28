@@ -104,7 +104,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-pot"
+extension=""
 sectionTitle="Free App to Convert PPT to POT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

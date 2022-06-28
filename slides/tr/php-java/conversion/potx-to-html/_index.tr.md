@@ -104,7 +104,7 @@ POTX - HTML dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygu
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potx-to-html"
+extension=""
 sectionTitle="Free App to Convert POTX to HTML" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

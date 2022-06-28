@@ -110,7 +110,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POT ke BMP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-bmp"
+extension=""
 sectionTitle="Free App to Convert POT to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

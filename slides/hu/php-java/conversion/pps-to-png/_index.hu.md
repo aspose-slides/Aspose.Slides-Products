@@ -110,7 +110,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPS és a PNG közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pps-to-png"
+extension=""
 sectionTitle="Free App to Convert PPS to PNG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

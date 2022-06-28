@@ -110,7 +110,7 @@ Use the free app to see a demonstration of the OTP to BMP conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-bmp"
+extension=""
 sectionTitle="Free App to Convert OTP to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

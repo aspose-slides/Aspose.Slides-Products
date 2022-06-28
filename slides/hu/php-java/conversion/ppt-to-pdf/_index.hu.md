@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPT és a PDF közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-pdf"
+extension=""
 sectionTitle="Free App to Convert PPT to PDF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

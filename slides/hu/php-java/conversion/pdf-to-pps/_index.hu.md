@@ -106,7 +106,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF és a PPS közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-pps"
+extension=""
 sectionTitle="Free App to Convert PDF to PPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

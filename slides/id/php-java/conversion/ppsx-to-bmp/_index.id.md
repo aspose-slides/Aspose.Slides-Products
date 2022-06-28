@@ -110,7 +110,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPSX ke BMP.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsx-to-bmp"
+extension=""
 sectionTitle="Free App to Convert PPSX to BMP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ OTP से PPT रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-ppt"
+extension=""
 sectionTitle="Free App to Convert OTP to PPT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

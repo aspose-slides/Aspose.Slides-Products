@@ -104,7 +104,7 @@ finally
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pptm-to-pptx"
+extension=""
 sectionTitle="Free App to Convert PPTM to PPTX" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

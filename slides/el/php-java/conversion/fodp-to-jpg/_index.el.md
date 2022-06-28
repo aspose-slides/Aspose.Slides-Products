@@ -110,7 +110,7 @@ finally
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-jpg"
+extension=""
 sectionTitle="Free App to Convert FODP to JPG" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

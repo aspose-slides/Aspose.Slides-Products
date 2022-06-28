@@ -104,7 +104,7 @@ Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình ch
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-gif"
+extension=""
 sectionTitle="Free App to Convert FODP to GIF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

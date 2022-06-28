@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a ODP és a PPT közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="odp-to-ppt"
+extension=""
 sectionTitle="Free App to Convert ODP to PPT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

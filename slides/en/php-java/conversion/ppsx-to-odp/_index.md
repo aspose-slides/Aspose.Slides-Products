@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPSX to ODP conversion process.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsx-to-odp"
+extension=""
 sectionTitle="Free App to Convert PPSX to ODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

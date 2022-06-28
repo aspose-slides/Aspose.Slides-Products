@@ -104,7 +104,7 @@ Utilisez l'application gratuite pour voir une démonstration du processus de con
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-fodp"
+extension=""
 sectionTitle="Free App to Convert POT to FODP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

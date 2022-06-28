@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a OTP és a POTM közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="otp-to-potm"
+extension=""
 sectionTitle="Free App to Convert OTP to POTM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

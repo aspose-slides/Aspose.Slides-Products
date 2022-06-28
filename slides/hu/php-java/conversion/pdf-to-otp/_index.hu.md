@@ -106,7 +106,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PDF és a OTP közötti 
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pdf-to-otp"
+extension=""
 sectionTitle="Free App to Convert PDF to OTP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

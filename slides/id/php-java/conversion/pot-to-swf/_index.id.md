@@ -104,7 +104,7 @@ Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi POT ke SWF.
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="pot-to-swf"
+extension=""
 sectionTitle="Free App to Convert POT to SWF" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

@@ -104,7 +104,7 @@ PPSX से XPS रूपांतरण प्रक्रिया का प�
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppsx-to-xps"
+extension=""
 sectionTitle="Free App to Convert PPSX to XPS" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

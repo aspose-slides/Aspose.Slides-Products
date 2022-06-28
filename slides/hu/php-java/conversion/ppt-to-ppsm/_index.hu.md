@@ -104,7 +104,7 @@ Az ingyenes alkalmazás segítségével megtekintheti a PPT és a PPSM közötti
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="ppt-to-ppsm"
+extension=""
 sectionTitle="Free App to Convert PPT to PPSM" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

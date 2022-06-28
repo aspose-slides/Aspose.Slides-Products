@@ -104,7 +104,7 @@ POTM - OTP dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygul
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="potm-to-otp"
+extension=""
 sectionTitle="Free App to Convert POTM to OTP" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}

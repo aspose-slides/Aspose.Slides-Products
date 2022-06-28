@@ -104,7 +104,7 @@ Usa l'app gratuita per vedere una dimostrazione del processo di conversione da F
 
 {{< blocks/slides-app-widget 
 appName="conversion"
-extension="fodp-to-ppt"
+extension=""
 sectionTitle="Free App to Convert FODP to PPT" 
 sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
 >}}
