@@ -16,7 +16,7 @@ description: Contoh kode untuk PDF ke PPSX konversi PHP. Gunakan PowerPoint PHP 
 
 Perlu mengonversi file PDF ke PPSX secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format PDF ke PPSX hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PPSX dari PDF dengan cepat. Uji kualitas konversi PDF ke PPSX langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PDF ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PPSX dari PDF dengan cepat. Uji kualitas konversi PDF ke PPSX langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PDF ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

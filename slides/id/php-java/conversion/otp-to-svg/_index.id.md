@@ -16,7 +16,7 @@ description: Contoh kode untuk OTP ke SVG konversi PHP. Gunakan PowerPoint PHP A
 
 Perlu mengonversi file OTP ke SVG secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format OTP ke SVG hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat SVG dari OTP dengan cepat. Uji kualitas konversi OTP ke SVG langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file OTP ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat SVG dari OTP dengan cepat. Uji kualitas konversi OTP ke SVG langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file OTP ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

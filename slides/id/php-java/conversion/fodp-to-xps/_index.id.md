@@ -16,7 +16,7 @@ description: Contoh kode untuk FODP ke XPS konversi PHP. Gunakan PowerPoint PHP 
 
 Perlu mengonversi file FODP ke XPS secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format FODP ke XPS hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat XPS dari FODP dengan cepat. Uji kualitas konversi FODP ke XPS langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file FODP ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat XPS dari FODP dengan cepat. Uji kualitas konversi FODP ke XPS langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file FODP ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

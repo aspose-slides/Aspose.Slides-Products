@@ -16,7 +16,7 @@ description: Contoh kode untuk PPSX ke POTX konversi PHP. Gunakan PowerPoint PHP
 
 Perlu mengonversi file PPSX ke POTX secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format PPSX ke POTX hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat POTX dari PPSX dengan cepat. Uji kualitas konversi PPSX ke POTX langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPSX ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat POTX dari PPSX dengan cepat. Uji kualitas konversi PPSX ke POTX langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPSX ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

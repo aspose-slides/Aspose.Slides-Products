@@ -16,7 +16,7 @@ description: Contoh kode untuk PPS ke POTM konversi PHP. Gunakan PowerPoint PHP 
 
 Perlu mengonversi file PPS ke POTM secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format PPS ke POTM hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat POTM dari PPS dengan cepat. Uji kualitas konversi PPS ke POTM langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPS ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat POTM dari PPS dengan cepat. Uji kualitas konversi PPS ke POTM langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPS ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 
