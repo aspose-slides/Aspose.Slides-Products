@@ -16,7 +16,7 @@ description: Contoh kode untuk PPTM ke BMP konversi PHP. Gunakan PowerPoint PHP 
 
 Perlu mengonversi file PPTM ke BMP secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format PPTM ke BMP hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat BMP dari PPTM dengan cepat. Uji kualitas konversi PPTM ke BMP langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPTM ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat BMP dari PPTM dengan cepat. Uji kualitas konversi PPTM ke BMP langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPTM ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

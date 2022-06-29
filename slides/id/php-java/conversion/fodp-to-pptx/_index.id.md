@@ -16,7 +16,7 @@ description: Contoh kode untuk FODP ke PPTX konversi PHP. Gunakan PowerPoint PHP
 
 Perlu mengonversi file FODP ke PPTX secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format FODP ke PPTX hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PPTX dari FODP dengan cepat. Uji kualitas konversi FODP ke PPTX langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file FODP ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PPTX dari FODP dengan cepat. Uji kualitas konversi FODP ke PPTX langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file FODP ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

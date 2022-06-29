@@ -16,7 +16,7 @@ description: Contoh kode untuk POTM ke SVG konversi PHP. Gunakan PowerPoint PHP 
 
 Perlu mengonversi file POTM ke SVG secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format POTM ke SVG hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat SVG dari POTM dengan cepat. Uji kualitas konversi POTM ke SVG langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file POTM ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat SVG dari POTM dengan cepat. Uji kualitas konversi POTM ke SVG langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file POTM ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

@@ -16,7 +16,7 @@ description: Contoh kode untuk PPSM ke PPT konversi PHP. Gunakan PowerPoint PHP 
 
 Perlu mengonversi file PPSM ke PPT secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format PPSM ke PPT hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PPT dari PPSM dengan cepat. Uji kualitas konversi PPSM ke PPT langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPSM ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PPT dari PPSM dengan cepat. Uji kualitas konversi PPSM ke PPT langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file PPSM ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 

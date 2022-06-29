@@ -16,7 +16,7 @@ description: Contoh kode untuk ODP ke PDF konversi PHP. Gunakan PowerPoint PHP A
 
 Perlu mengonversi file ODP ke PDF secara terprogram? Menggunakan [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/id/php-java/) pengembang mana pun dapat mengonversi format ODP ke PDF hanya dengan beberapa baris kode PHP .
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PDF dari ODP dengan cepat. Uji kualitas konversi ODP ke PDF langsung di [browser](https://products.aspose.app/slides/conversion Anda). Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file ODP ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk PHP membuat PDF dari ODP dengan cepat. Uji kualitas konversi ODP ke PDF langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Pustaka Aspose PowerPoint PPTX memungkinkan Anda mengonversi file ODP ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [Komposer](https://packagist.org/packages/aspose/slides) menggunakan perintah berikut:
 
