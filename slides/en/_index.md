@@ -6,13 +6,13 @@ description: Aspose.Slides is a PowerPoint API to manipulate presentations and c
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Aspose.Slides On Premise, Cloud & App Based PowerPoint Formats Solution" h2="Manipulate presentations, slides and elements in .NET, Java, Python, Android, Xamarin and Cloud applications without requiring Microsoft Office." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
+{{< blocks/products/pf/upper-banner h1="Aspose.Slides On-Premises, Cloud & App Based PowerPoint Formats Solution" h2="Manipulate presentations, slides and elements in .NET, Java, Python, Android, Xamarin and Cloud applications without requiring Microsoft Office." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net" >}}
-On Premise .NET APIs to manipulate Microsoft PowerPoint presentations within applications developed using .NET Framework, .NET Core and other platforms via COM Interop.
+On-Premises .NET APIs to manipulate Microsoft PowerPoint presentations within applications developed using .NET Framework, .NET Core and other platforms via COM Interop.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java" >}}
