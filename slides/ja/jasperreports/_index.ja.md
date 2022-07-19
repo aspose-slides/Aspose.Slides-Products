@@ -10,7 +10,7 @@ description: Aspose.Slides PowerPoint API for JaspreReportは、レポートをJ
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for JasperReports" >}}
 
-{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/jasperreports" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/jasperreports/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/jasperreport" >}}
+{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/jasperreports" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/jasperreports/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/jasperreport" >}}
 
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>
