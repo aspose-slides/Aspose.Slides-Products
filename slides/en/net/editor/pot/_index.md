@@ -1,5 +1,5 @@
 ---
-title: Edit POT files via .NET 
+title: Edit POT files using .NET 
 url: /net/editor/pot/ 
 description: C# source code to edit POT document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

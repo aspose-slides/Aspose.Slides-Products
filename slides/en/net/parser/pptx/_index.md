@@ -1,5 +1,5 @@
 ---
-title: Extract text and images from PPTX document via .NET 
+title: Extract text and images from PPTX document using .NET 
 weight: 1480
 url: /net/parser/pptx/ 
 description: C# source code to extract text and images from PPTX file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

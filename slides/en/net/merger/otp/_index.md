@@ -1,5 +1,5 @@
 ---
-title: Merge OTP Files via .NET 
+title: Merge OTP Files using .NET 
 weight: 7430
 url: /net/merger/otp/ 
 description: C# source code to combine OTP documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: Edit PPT files via .NET 
+title: Edit PPT files using .NET 
 url: /net/editor/ppt/ 
 description: C# source code to edit PPT document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

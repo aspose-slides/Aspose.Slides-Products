@@ -1,5 +1,5 @@
 ---
-title: Search and replace text in PPT document via .NET 
+title: Search and replace text in PPT document using .NET 
 weight: 1410
 url: /net/redaction/ppt/ 
 description: C# source code to redact sensitive information in PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

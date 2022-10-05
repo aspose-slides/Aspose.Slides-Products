@@ -1,5 +1,5 @@
 ---
-title: Search ODP document without opening via C# 
+title: Search ODP document without opening using C# 
 weight: 8110
 url: /net/search/odp/ 
 description: C# source code to search words with pattern in ODP file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

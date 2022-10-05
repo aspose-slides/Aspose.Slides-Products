@@ -1,5 +1,5 @@
 ---
-title: Merge PPT Files via .NET 
+title: Merge PPT Files using .NET 
 weight: 7610
 url: /net/merger/ppt/ 
 description: C# source code to combine PPT documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: Merge PPSM Files via Java 
+title: Merge PPSM Files using Java 
 weight: 3190
 url: /java/merger/ppsm/ 
 description: Java sample code to combine PPSM documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

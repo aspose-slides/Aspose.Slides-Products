@@ -1,5 +1,5 @@
 ---
-title: Search PPTX document without opening via C# 
+title: Search PPTX document without opening using C# 
 weight: 7300
 url: /net/search/pptx/ 
 description: C# source code to search words with pattern in PPTX file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

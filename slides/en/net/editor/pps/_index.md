@@ -1,5 +1,5 @@
 ---
-title: Edit PPS files via .NET 
+title: Edit PPS files using .NET 
 url: /net/editor/pps/ 
 description: C# source code to edit PPS document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

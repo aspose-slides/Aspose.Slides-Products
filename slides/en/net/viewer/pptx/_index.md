@@ -1,5 +1,5 @@
 ---
-title: View PPTX File Formats via .NET 
+title: View PPTX File Formats using .NET 
 weight: 6390
 url: /net/viewer/pptx/ 
 description: C# source code to load, render and display PPTX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

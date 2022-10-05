@@ -1,5 +1,5 @@
 ---
-title: Search and replace text in PPTX document via .NET 
+title: Search and replace text in PPTX document using .NET 
 weight: 4070
 url: /net/redaction/pptx/ 
 description: C# source code to redact sensitive information in PPTX file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

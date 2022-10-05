@@ -1,5 +1,5 @@
 ---
-title: Merge POTM Files via .NET 
+title: Merge POTM Files using .NET 
 weight: 4860
 url: /net/merger/potm/ 
 description: C# source code to combine POTM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

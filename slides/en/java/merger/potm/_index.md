@@ -1,5 +1,5 @@
 ---
-title: Merge POTM Files via Java 
+title: Merge POTM Files using Java 
 weight: 6620
 url: /java/merger/potm/ 
 description: Java sample code to combine POTM documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

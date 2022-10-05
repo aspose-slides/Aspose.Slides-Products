@@ -1,5 +1,5 @@
 ---
-title: Merge PPTM Files via .NET 
+title: Merge PPTM Files using .NET 
 weight: 5580
 url: /net/merger/pptm/ 
 description: C# source code to combine PPTM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

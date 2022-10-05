@@ -1,5 +1,5 @@
 ---
-title: PPTX document chart via Java 
+title: PPTX document chart using Java 
 weight: 160
 url: /java/chart/pptx/ 
 description: Java sample code to draw and convert chart or diagram in PPTX file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

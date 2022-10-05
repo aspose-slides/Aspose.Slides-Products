@@ -1,5 +1,5 @@
 ---
-title: Merge POTX Files via .NET 
+title: Merge POTX Files using .NET 
 weight: 2510
 url: /net/merger/potx/ 
 description: C# source code to combine POTX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

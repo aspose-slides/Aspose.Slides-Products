@@ -1,5 +1,5 @@
 ---
-title: Search and replace text in PPT document via Java 
+title: Search and replace text in PPT document using Java 
 weight: 3270
 url: /java/redaction/ppt/ 
 description: Java sample code to redact sensitive information in PPT file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

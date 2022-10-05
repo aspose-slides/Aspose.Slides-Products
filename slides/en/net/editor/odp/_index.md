@@ -1,5 +1,5 @@
 ---
-title: Edit ODP files via .NET 
+title: Edit ODP files using .NET 
 url: /net/editor/odp/ 
 description: C# source code to edit ODP document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

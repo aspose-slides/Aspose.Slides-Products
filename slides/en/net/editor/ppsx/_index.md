@@ -1,5 +1,5 @@
 ---
-title: Edit PPSX files via .NET 
+title: Edit PPSX files using .NET 
 url: /net/editor/ppsx/ 
 description: C# source code to edit PPSX document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

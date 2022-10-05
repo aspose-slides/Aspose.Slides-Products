@@ -1,5 +1,5 @@
 ---
-title: Edit PPTM files via .NET 
+title: Edit PPTM files using .NET 
 url: /net/editor/pptm/ 
 description: C# source code to edit PPTM document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

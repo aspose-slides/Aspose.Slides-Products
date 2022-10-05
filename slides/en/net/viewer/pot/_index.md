@@ -1,5 +1,5 @@
 ---
-title: View POT File Formats via .NET 
+title: View POT File Formats using .NET 
 weight: 6750
 url: /net/viewer/pot/ 
 description: C# source code to load, render and display POT documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

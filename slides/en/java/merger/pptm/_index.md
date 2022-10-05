@@ -1,5 +1,5 @@
 ---
-title: Merge PPTM Files via Java 
+title: Merge PPTM Files using Java 
 weight: 6010
 url: /java/merger/pptm/ 
 description: Java sample code to combine PPTM documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

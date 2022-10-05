@@ -1,5 +1,5 @@
 ---
-title: Edit OTP files via .NET 
+title: Edit OTP files using .NET 
 url: /net/editor/otp/ 
 description: C# source code to edit OTP document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

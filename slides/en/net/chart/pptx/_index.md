@@ -1,5 +1,5 @@
 ---
-title:  PPTX document chart via .NET 
+title:  PPTX document chart using .NET 
 weight: 7100
 url: /net/chart/pptx/ 
 description: C# source code to draw and convert chart or diagram in PPTX file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

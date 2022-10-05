@@ -1,5 +1,5 @@
 ---
-title: Merge ODP Files via .NET 
+title: Merge ODP Files using .NET 
 weight: 4610
 url: /net/merger/odp/ 
 description: C# source code to combine ODP documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: PPT document chart via Java 
+title: PPT document chart using Java 
 weight: 5050
 url: /java/chart/ppt/ 
 description: Java sample code to draw and convert chart or diagram in PPT file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

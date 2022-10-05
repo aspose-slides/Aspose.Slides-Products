@@ -1,5 +1,5 @@
 ---
-title: Search PPT document without opening via C# 
+title: Search PPT document without opening using C# 
 weight: 6250
 url: /net/search/ppt/ 
 description: C# source code to search words with pattern in PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title:  PPT document chart via .NET 
+title:  PPT document chart using .NET 
 weight: 7050
 url: /net/chart/ppt/ 
 description: C# source code to draw and convert chart or diagram in PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: View PPSX File Formats via .NET 
+title: View PPSX File Formats using .NET 
 weight: 2370
 url: /net/viewer/ppsx/ 
 description: C# source code to load, render and display PPSX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

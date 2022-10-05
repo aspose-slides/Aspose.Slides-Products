@@ -1,5 +1,5 @@
 ---
-title: Merge PPS Files via .NET 
+title: Merge PPS Files using .NET 
 weight: 5830
 url: /net/merger/pps/ 
 description: C# source code to combine PPS documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

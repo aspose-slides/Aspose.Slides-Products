@@ -1,5 +1,5 @@
 ---
-title: Edit POTM files via .NET 
+title: Edit POTM files using .NET 
 url: /net/editor/potm/ 
 description: C# source code to edit POTM document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

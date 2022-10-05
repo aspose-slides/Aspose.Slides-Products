@@ -1,5 +1,5 @@
 ---
-title: Merge PPTX Files via Java 
+title: Merge PPTX Files using Java 
 weight: 3900
 url: /java/merger/pptx/ 
 description: Java sample code to combine PPTX documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

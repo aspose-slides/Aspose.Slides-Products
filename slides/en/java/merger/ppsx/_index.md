@@ -1,5 +1,5 @@
 ---
-title: Merge PPSX Files via Java 
+title: Merge PPSX Files using Java 
 weight: 5500
 url: /java/merger/ppsx/ 
 description: Java sample code to combine PPSX documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

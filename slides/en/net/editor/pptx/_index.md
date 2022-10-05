@@ -1,5 +1,5 @@
 ---
-title: Edit PPTX files via .NET 
+title: Edit PPTX files using .NET 
 url: /net/editor/pptx/ 
 description: C# source code to edit PPTX document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Merge POTX Files via Java 
+title: Merge POTX Files using Java 
 weight: 4290
 url: /java/merger/potx/ 
 description: Java sample code to combine POTX documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

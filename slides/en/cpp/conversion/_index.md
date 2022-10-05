@@ -5,7 +5,7 @@ description: Convert Microsoft PowerPoint Slides to multiple files including HTM
 ---
 
 {{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Microsoft<sup>&reg;</sup> PowerPoint Presentation Conversion via C++" h2="C++ example codes for different conversion scenarios to convert slides to Images, HTML, PDF and other formats." >}}
+{{< blocks/products/pf/feature-page-header h1="Microsoft<sup>&reg;</sup> PowerPoint Presentation Conversion in C++" h2="C++ example codes for different conversion scenarios to convert slides to Images, HTML, PDF and other formats." >}}
 
 {{% blocks/products/pf/feature-page-summary %}}
 

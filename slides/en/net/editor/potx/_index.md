@@ -1,5 +1,5 @@
 ---
-title: Edit POTX files via .NET 
+title: Edit POTX files using .NET 
 url: /net/editor/potx/ 
 description: C# source code to edit POTX document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---

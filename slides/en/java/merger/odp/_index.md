@@ -1,5 +1,5 @@
 ---
-title: Merge ODP Files via Java 
+title: Merge ODP Files using Java 
 weight: 2500
 url: /java/merger/odp/ 
 description: Java sample code to combine ODP documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

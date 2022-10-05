@@ -1,5 +1,5 @@
 ---
-title: View PPT File Formats via .NET 
+title: View PPT File Formats using .NET 
 weight: 6310
 url: /net/viewer/ppt/ 
 description: C# source code to load, render and display PPT documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
