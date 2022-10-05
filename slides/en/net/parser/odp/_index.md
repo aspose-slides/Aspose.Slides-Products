@@ -1,5 +1,5 @@
 ---
-title: Extract text and images from ODP document via .NET 
+title: Extract text and images from ODP document using .NET 
 weight: 3070
 url: /net/parser/odp/ 
 description: C# source code to extract text and images from ODP file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

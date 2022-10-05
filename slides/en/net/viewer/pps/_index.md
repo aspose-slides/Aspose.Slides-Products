@@ -1,5 +1,5 @@
 ---
-title: View PPS File Formats via .NET 
+title: View PPS File Formats using .NET 
 weight: 7110
 url: /net/viewer/pps/ 
 description: C# source code to load, render and display PPS documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

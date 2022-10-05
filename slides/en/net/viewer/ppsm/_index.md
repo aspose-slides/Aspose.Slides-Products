@@ -1,5 +1,5 @@
 ---
-title: View PPSM File Formats via .NET 
+title: View PPSM File Formats using .NET 
 weight: 4780
 url: /net/viewer/ppsm/ 
 description: C# source code to load, render and display PPSM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: View ODP File Formats via .NET 
+title: View ODP File Formats using .NET 
 weight: 8370
 url: /net/viewer/odp/ 
 description: C# source code to load, render and display ODP documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

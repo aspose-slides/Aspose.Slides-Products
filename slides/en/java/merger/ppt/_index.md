@@ -1,5 +1,5 @@
 ---
-title: Merge PPT Files via Java 
+title: Merge PPT Files using Java 
 weight: 730
 url: /java/merger/ppt/ 
 description: Java sample code to combine PPT documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

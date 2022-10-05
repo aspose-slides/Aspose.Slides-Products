@@ -1,5 +1,5 @@
 ---
-title: View POTX File Formats via .NET 
+title: View POTX File Formats using .NET 
 weight: 5740
 url: /net/viewer/potx/ 
 description: C# source code to load, render and display POTX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

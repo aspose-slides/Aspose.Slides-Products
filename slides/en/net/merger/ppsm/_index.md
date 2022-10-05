@@ -1,5 +1,5 @@
 ---
-title: Merge PPSM Files via .NET 
+title: Merge PPSM Files using .NET 
 weight: 3860
 url: /net/merger/ppsm/ 
 description: C# source code to combine PPSM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: Search and replace text in ODP document via Java 
+title: Search and replace text in ODP document using Java 
 weight: 240
 url: /java/redaction/odp/ 
 description: Java sample code to redact sensitive information in ODP file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

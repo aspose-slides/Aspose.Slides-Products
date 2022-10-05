@@ -1,5 +1,5 @@
 ---
-title: Search and replace text in ODP document via .NET 
+title: Search and replace text in ODP document using .NET 
 weight: 4100
 url: /net/redaction/odp/ 
 description: C# source code to redact sensitive information in ODP file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

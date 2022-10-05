@@ -5,7 +5,7 @@ description: Convert Microsoft PowerPoint Slides to different files including HT
 ---
 
 {{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Microsoft<sup>&reg;</sup> PowerPoint Presentation Conversion via Java" h2="Java source codes for various conversion scenarios to convert slides to images, HTML, PDF and other formats." >}}
+{{< blocks/products/pf/feature-page-header h1="Microsoft<sup>&reg;</sup> PowerPoint Presentation Conversion in Java" h2="Java source codes for various conversion scenarios to convert slides to images, HTML, PDF and other formats." >}}
 
 {{% blocks/products/pf/feature-page-summary %}}
 

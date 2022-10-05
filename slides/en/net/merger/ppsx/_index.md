@@ -1,5 +1,5 @@
 ---
-title: Merge PPSX Files via .NET 
+title: Merge PPSX Files using .NET 
 weight: 6100
 url: /net/merger/ppsx/ 
 description: C# source code to combine PPSX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

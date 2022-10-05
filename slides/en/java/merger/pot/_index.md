@@ -1,5 +1,5 @@
 ---
-title: Merge POT Files via Java 
+title: Merge POT Files using Java 
 weight: 1100
 url: /java/merger/pot/ 
 description: Java sample code to combine POT documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

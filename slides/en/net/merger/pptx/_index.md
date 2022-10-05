@@ -1,5 +1,5 @@
 ---
-title: Merge PPTX Files via .NET 
+title: Merge PPTX Files using .NET 
 weight: 3150
 url: /net/merger/pptx/ 
 description: C# source code to combine PPTX documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

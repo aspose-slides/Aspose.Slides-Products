@@ -1,5 +1,5 @@
 ---
-title: Extract text and images from PPT document via .NET 
+title: Extract text and images from PPT document using .NET 
 weight: 70
 url: /net/parser/ppt/ 
 description: C# source code to extract text and images from PPT file on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

@@ -1,5 +1,5 @@
 ---
-title: Merge POT Files via .NET 
+title: Merge POT Files using .NET 
 weight: 7360
 url: /net/merger/pot/ 
 description: C# source code to combine POT documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

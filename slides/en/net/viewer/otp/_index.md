@@ -1,5 +1,5 @@
 ---
-title: View OTP File Formats via .NET 
+title: View OTP File Formats using .NET 
 weight: 6830
 url: /net/viewer/otp/ 
 description: C# source code to load, render and display OTP documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

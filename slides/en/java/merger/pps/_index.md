@@ -1,5 +1,5 @@
 ---
-title: Merge PPS Files via Java 
+title: Merge PPS Files using Java 
 weight: 3930
 url: /java/merger/pps/ 
 description: Java sample code to combine PPS documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

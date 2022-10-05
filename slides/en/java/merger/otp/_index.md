@@ -1,5 +1,5 @@
 ---
-title: Merge OTP Files via Java 
+title: Merge OTP Files using Java 
 weight: 920
 url: /java/merger/otp/ 
 description: Java sample code to combine OTP documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.

@@ -1,5 +1,5 @@
 ---
-title: View PPTM File Formats via .NET 
+title: View PPTM File Formats using .NET 
 weight: 4190
 url: /net/viewer/pptm/ 
 description: C# source code to load, render and display PPTM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

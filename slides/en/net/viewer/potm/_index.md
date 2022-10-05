@@ -1,5 +1,5 @@
 ---
-title: View POTM File Formats via .NET 
+title: View POTM File Formats using .NET 
 weight: 3310
 url: /net/viewer/potm/ 
 description: C# source code to load, render and display POTM documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.

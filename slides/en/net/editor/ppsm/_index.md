@@ -1,5 +1,5 @@
 ---
-title: Edit PPSM files via .NET 
+title: Edit PPSM files using .NET 
 url: /net/editor/ppsm/ 
 description: C# source code to edit PPSM document on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
