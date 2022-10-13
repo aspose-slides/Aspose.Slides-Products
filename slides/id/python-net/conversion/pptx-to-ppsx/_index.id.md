@@ -16,7 +16,7 @@ description: Contoh kode untuk konversi PPTX ke PPSX Python. Gunakan PowerPoint 
 
 Perlu mengonversi file PPTX ke PPSX secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format PPTX ke PPSX hanya dengan beberapa baris kode Python.
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat PPSX dari PPTX dengan cepat. Uji kualitas konversi PPTX ke PPSX langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Apose PowerPoint PPTX library memungkinkan Anda untuk mengonversi file PPTX ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat PPSX dari PPTX dengan cepat. Uji kualitas konversi PPTX ke PPSX langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Aspose PowerPoint PPTX library memungkinkan Anda untuk mengonversi file PPTX ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [PyPI](https://pypi.org/project/Aspose.Slides/) menggunakan perintah pip berikut:
 

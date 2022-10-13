@@ -1,5 +1,5 @@
 ---
-title: C++ PowerPoint API | Apose Slide
+title: C++ PowerPoint API | Aspose Slide
 weight: 6580
 url: /id/cpp/ 
 description: Aspose.Slides API untuk C++ adalah C++ PPT PowerPoint API untuk membuat, melihat, memanipulasi, dan mengonversi PPT pada C++.

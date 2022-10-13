@@ -16,7 +16,7 @@ description: Contoh kode untuk konversi POT ke FODP Python. Gunakan PowerPoint P
 
 Perlu mengonversi file POT ke FODP secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format POT ke FODP hanya dengan beberapa baris kode Python.
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat FODP dari POT dengan cepat. Uji kualitas konversi POT ke FODP langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Apose PowerPoint PPTX library memungkinkan Anda untuk mengonversi file POT ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat FODP dari POT dengan cepat. Uji kualitas konversi POT ke FODP langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Aspose PowerPoint PPTX library memungkinkan Anda untuk mengonversi file POT ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [PyPI](https://pypi.org/project/Aspose.Slides/) menggunakan perintah pip berikut:
 

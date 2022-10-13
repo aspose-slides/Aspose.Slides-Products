@@ -2,7 +2,7 @@
 title: C# .NET PowerPoint Processing API | Aspose.Slide
 weight: 1890
 url: /id/net/ 
-description: Aspose.Slides adalah C# .NET PowerPoint API. Apose Slides API untuk membuat C# PPT secara terprogram.
+description: Aspose.Slides adalah C# .NET PowerPoint API. Aspose Slides API untuk membuat C# PPT secara terprogram.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

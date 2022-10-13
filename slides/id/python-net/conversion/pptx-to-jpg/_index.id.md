@@ -16,7 +16,7 @@ description: Contoh kode untuk konversi PPTX ke JPG Python. Gunakan PowerPoint P
 
 Perlu mengonversi file PPTX ke JPG secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format PPTX ke JPG hanya dengan beberapa baris kode Python.
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat JPG dari PPTX dengan cepat. Uji kualitas konversi PPTX ke JPG langsung di [browser](https://products.aspose.app/slides/conversion/ppt-to-jpg) Anda. Apose PowerPoint PPTX library memungkinkan Anda untuk mengonversi file PPTX ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat JPG dari PPTX dengan cepat. Uji kualitas konversi PPTX ke JPG langsung di [browser](https://products.aspose.app/slides/conversion/ppt-to-jpg) Anda. Aspose PowerPoint PPTX library memungkinkan Anda untuk mengonversi file PPTX ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [PyPI](https://pypi.org/project/Aspose.Slides/) menggunakan perintah pip berikut:
 
