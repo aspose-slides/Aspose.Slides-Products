@@ -1,0 +1,113 @@
+---
+title: पायथन का उपयोग करके POTX फ़ाइलों को POT में मर्ज करें
+url: /hi/python-net/merge/potx-to-pot/
+keywords: POTX को POT में मिलाएं, POTX से POT में शामिल हों, POTX से POT, PowerPoint, प्रेजेंटेशन, POT, Python, Aspose को मिलाएं
+description: पायथन में कई POTX फ़ाइलें मर्ज करें।
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="Python में POTX फ़ाइलों को POT में एक साथ मर्ज करें" h2="हाई-स्पीड और क्रॉस-प्लेटफॉर्म पायथन एपीआई जो माइक्रोसॉफ्ट या ओपन ऑफिस, एडोब पीडीएफ जैसे किसी भी सॉफ्टवेयर के उपयोग के बिना माइक्रोसॉफ्ट पावरपॉइंट और ओपनऑफिस प्रेजेंटेशन फाइलों को बनाने, मर्ज करने, निरीक्षण करने या परिवर्तित करने की क्षमता वाले अनुप्रयोगों को विकसित करने में मदद करता है।" >}}
+
+{{% blocks/products/pf/feature-page-section h2="पायथन में POTX को POT में मर्ज करें" %}}
+
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/hi/python-net/) प्रेजेंटेशन फाइल बनाने और उसमें हेरफेर करने के लिए एक शक्तिशाली पायथन लाइब्रेरी है। इसके अलावा, यह कई POTX प्रस्तुतियों को संयोजित करने के लचीले तरीके प्रदान करता है। जब आप एक प्रस्तुति को दूसरे में मर्ज करते हैं, तो आप एक फ़ाइल प्राप्त करने के लिए उनकी स्लाइड्स को एक प्रस्तुति में प्रभावी रूप से संयोजित कर रहे हैं। Aspose.Slides आपको दो प्रस्तुतियों को अलग-अलग तरीकों से मर्ज करने की अनुमति देता है। आप गुणवत्ता या डेटा के नुकसान के बारे में चिंता किए बिना प्रस्तुतियों को उनके सभी आकारों, शैलियों, ग्रंथों, स्वरूपण, टिप्पणियों, एनिमेशन आदि के साथ मर्ज कर सकते हैं।
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="Python का उपयोग करके POTX फ़ाइलों को POT में मर्ज करें" %}}
+PowerPoint प्रस्तुतियों को मर्ज करने के लिए, आपको स्लाइडों को एक प्रस्तुति से दूसरी प्रस्तुति में क्लोन करना होगा।
+
+{{% blocks/products/pf/agp/code-block title="एकाधिक POTX को एकल POT फ़ाइल में मर्ज करने के लिए पायथन कोड" offSpacer="true" %}}
+
+```python
+
+import aspose.slides as slides
+
+
+with slides.Presentation("presentation1.potx") as pres1:
+    with slides.Presentation("presentation2.potx") as pres2:
+        for slide in pres2.slides:
+            pres1.slides.add_clone(slide)
+    pres1.save("presentation.pot", slides.export.SaveFormat.POT)
+```
+
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="Aspose.Slides for Python API का उपयोग करके POTX को POT में कैसे मर्ज करें?" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="ये दो POTX फाइलों को मर्ज करने और परिणाम को पायथन में POT के रूप में सहेजने के चरण हैं।" >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/hi/python-net/) इंस्टॉल करें।
+```
+pip install aspose.slides
+```
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+अपने पायथन प्रोजेक्ट में लाइब्रेरी संदर्भ (लाइब्रेरी आयात करें) जोड़ें।
+```
+import aspose.slides as slides
+```
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+पायथन में स्रोत POTX फ़ाइलें खोलें।
+```
+pres1 = slides.Presentation('pres1.potx')
+pres2 = slides.Presentation('pres2.potx')
+```
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+[**add_clone**](https://reference.aspose.com/slides/python-net/aspose.slides/islidecollection/#methods) पद्धति का उपयोग करके POTX फाइलों को मिलाएं।
+```
+for slide in pres2.slides:
+    pres1.slides.add_clone(slide)
+```
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+प्रस्तुति सहेजें और परिणाम एकल POT फ़ाइल के रूप में प्राप्त करें।
+```
+pres1.save("presentation.pot", slides.export.SaveFormat.POT)
+```
+
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="POTX अन्य समर्थित प्रारूपों में निर्यात करें" subTitle="आप POTX को भी जोड़ सकते हैं और अन्य फ़ाइल स्वरूपों में सहेज सकते हैं। सभी समर्थित प्रारूप नीचे देखें" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-pptx/" name="POTX TO PPTX" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-ppt/" name="POTX TO PPT" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-pdf/" name="POTX TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-html/" name="POTX TO HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-png/" name="POTX TO PNG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-bmp/" name="POTX TO BMP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-jpg/" name="POTX TO JPG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-fodp/" name="POTX TO FODP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-gif/" name="POTX TO GIF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-odp/" name="POTX TO ODP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-otp/" name="POTX TO OTP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-potm/" name="POTX TO POTM" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-pps/" name="POTX TO PPS" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-ppsm/" name="POTX TO PPSM" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-ppsx/" name="POTX TO PPSX" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-pptm/" name="POTX TO PPTM" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-svg/" name="POTX TO SVG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-tiff/" name="POTX TO TIFF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/potx-to-xps/" name="POTX TO XPS" >}}  
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}

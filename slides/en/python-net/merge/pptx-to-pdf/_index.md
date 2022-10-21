@@ -1,7 +1,7 @@
 ---
 title:  Merge PPTX Files To PDF Using Python
 url: /python-net/merge/pptx-to-pdf/
-keywords: "Merge PPTX to PDF, Join PPTX to PDF, Combine PPTX to PDF, PowerPoint, Presentation, PDF, Python, Aspose"
+keywords: Merge PPTX to PDF, Join PPTX to PDF, Combine PPTX to PDF, PowerPoint, Presentation, PDF, Python, Aspose
 description: Merge multiple PPTX files in Python. 
 ---
 
@@ -12,7 +12,7 @@ description: Merge multiple PPTX files in Python.
 
 {{% blocks/products/pf/feature-page-section h2="Merge PPTX to PDF in Python" %}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple PPT/PPTX presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple PPTX presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -25,16 +25,12 @@ To merge the PowerPoint presentations, you will need to clone the slides from on
 
 import aspose.slides as slides
 
-# open first presentation
+
 with slides.Presentation("presentation1.pptx") as pres1:
-    # open second presentation
     with slides.Presentation("presentation2.pptx") as pres2:
-        # loop through slides
         for slide in pres2.slides:
-            # clone slide
             pres1.slides.add_clone(slide)
-        # save merged presentation
-        pres1.save("combined.pdf", slides.export.SaveFormat.PDF)
+    pres1.save("presentation.pdf", slides.export.SaveFormat.PDF)
 ```
 
 
@@ -47,7 +43,7 @@ with slides.Presentation("presentation1.pptx") as pres1:
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two PPTX files and save result as PDF in Python." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/python-net/).
+Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
 ```
 pip install aspose.slides
 ```
@@ -79,7 +75,7 @@ for slide in pres2.slides:
 {{< blocks/products/pf/agp/step-autogen >}}
 Save presentation and get result as single PDF file.
 ```
-pres1.save("result.pdf", slides.export.SaveFormat.PDF)
+pres1.save("presentation.pdf", slides.export.SaveFormat.PDF)
 ```
 
 {{< /blocks/products/pf/agp/step-autogen >}}
@@ -90,9 +86,26 @@ pres1.save("result.pdf", slides.export.SaveFormat.PDF)
 
 {{< blocks/products/pf/agp/other-supported-section title="Export PPTX To Other Supported Formats" subTitle="You can also combine PPTX and save to other file formats. See all supported formats below" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-ppt/" name="PPTX to PPT" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-ppt/" name="PPTX TO PPT" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-html/" name="PPTX TO HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-png/" name="PPTX TO PNG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-bmp/" name="PPTX TO BMP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-jpg/" name="PPTX TO JPG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-fodp/" name="PPTX TO FODP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-gif/" name="PPTX TO GIF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-odp/" name="PPTX TO ODP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-otp/" name="PPTX TO OTP" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-pot/" name="PPTX TO POT" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-potm/" name="PPTX TO POTM" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-potx/" name="PPTX TO POTX" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-pps/" name="PPTX TO PPS" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-ppsm/" name="PPTX TO PPSM" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-ppsx/" name="PPTX TO PPSX" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-pptm/" name="PPTX TO PPTM" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-svg/" name="PPTX TO SVG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-tiff/" name="PPTX TO TIFF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-xps/" name="PPTX TO XPS" >}}  
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx-to-html/" name="PPTX to HTML" >}}  
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
