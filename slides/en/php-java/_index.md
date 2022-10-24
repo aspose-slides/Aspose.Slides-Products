@@ -144,9 +144,9 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
     <li>
      Windows 10 (x64, x86)
     </li>
-	<li>
-	 and others
-	</li>
+    <li>
+     and others
+    </li>
    </ul>
   </div>
   <!--/left-->
@@ -166,9 +166,9 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
     <li>
      CentOS
     </li>
-	<li>
-	 and others
-	</li>
+    <li>
+     and others
+    </li>
    </ul>
   </div>
   <!--/right-->
@@ -360,7 +360,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
      System Requirements
     </h2>
     <ul>
-	  <li>Compatible with PHP 7 or later</li>
+      <li>Compatible with PHP 7 or later</li>
     </ul>
    </div>
    <div class="col-lg-12">
@@ -368,7 +368,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
      How to Install
     </h2>
     <p>Use <strong>packagist</strong> to install our PHP library for Presentation processing from the <a href="https://packagist.org/packages/aspose/slides">PHP Package repository:</a></p>
-	<pre><code>composer require aspose/slides</code></pre>
+    <pre><code>composer require aspose/slides</code></pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">Create New PowerPoint Presentation. PHP Presentation: PPT, PPTX, ODP</h2>
@@ -416,16 +416,16 @@ $pres1 = new Presentation("pres1.pptx");
 $pres2 = new Presentation("pres2.pptx");
 try
 {
-	for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-	{
-		$pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
-	}
-	$pres1->save("combined.pptx", SaveFormat::Pptx);
+    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
+    {
+        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
+    }
+    $pres1->save("combined.pptx", SaveFormat::Pptx);
 }
 finally
 {
     if ($pres1 != null) $pres1->dispose();
-	if ($pres2 != null) $pres2->dispose();
+    if ($pres2 != null) $pres2->dispose();
 }
             </code>
         </pre>
@@ -504,10 +504,10 @@ try
     for ($i = 0; $i < java_values($pres->getSlides()->size()); $i++)
     {
         $bmp = $pres->getSlides()->get_Item($i)->getThumbnail(1, 1);
-		$imageio = new Java("javax.imageio.ImageIO");
-		$javafile = new Java("java.io.File", "slide_". $i .".jpg");
-		$imageio->write($bmp, "JPEG", $javafile);
-	}
+        $imageio = new Java("javax.imageio.ImageIO");
+        $javafile = new Java("java.io.File", "slide_". $i .".jpg");
+        $imageio->write($bmp, "JPEG", $javafile);
+    }
 }
 finally
 {
@@ -574,7 +574,7 @@ finally
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-	{{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="Python via .NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="Python via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
