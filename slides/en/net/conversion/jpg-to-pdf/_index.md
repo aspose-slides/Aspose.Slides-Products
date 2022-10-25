@@ -17,7 +17,7 @@ description: Convert JPG to PDF in C#. Use .NET library API to convert JPG JPEG 
 
 How do I convert JPG to PDF programmatically? 
 
-Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), any developer or application can convert PPT to PDF format with just a few lines of C# code.
+Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), any developer or application can convert JPG to PDF format with just a few lines of C# code.
 
 As a modern document processing API, Aspose.Slides for .NET creates PDFs from JPG images quickly. Aspose PowerPoint library allows you to convert JPG to PDF and many other file formats
 
@@ -78,11 +78,11 @@ Call the save method to save the file as PDF.
 
 ```cs
 using (Presentation pres = new Presentation())
-    {
-        IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.jpg"));
-        pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, image);
-        pres.Save("image.pdf", SaveFormat.Pdf);
-    }
+{
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.jpg"));
+    pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, image);
+    pres.Save("image.pdf", SaveFormat.Pdf);
+}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
