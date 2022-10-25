@@ -78,12 +78,12 @@ Call the save method to save the file as PDF.
 
 ```cs
 using (Presentation pres = new Presentation())
-    {
-        pres.Slides.AddFromHtml("page.html");
-        pres.Slides.RemoveAt(0); // remove default empty slide
+{
+    pres.Slides.AddFromHtml("page.html");
+    pres.Slides.RemoveAt(0); // remove default empty slide
 
-        pres.Save("doc.pdf", SaveFormat.Pdf);
-    }
+    pres.Save("doc.pdf", SaveFormat.Pdf);
+}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

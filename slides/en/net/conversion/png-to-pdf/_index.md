@@ -82,11 +82,11 @@ Call the save method to save the file as PDF.
 
 ```cs
 using (Presentation pres = new Presentation())
-    {
-        IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
-        pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, image);
-        pres.Save("image.pdf", SaveFormat.Pdf);
-    }
+{
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
+    pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, image);
+    pres.Save("image.pdf", SaveFormat.Pdf);
+}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
