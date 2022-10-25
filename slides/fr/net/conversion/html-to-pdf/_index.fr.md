@@ -40,7 +40,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Étapes pour convertir HTML en PDF en C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Étapes pour convertir HTML en PDF en C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Les développeurs et les applications peuvent convertir HTML en PDF de cette façon :" >}}
 
