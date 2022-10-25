@@ -15,7 +15,7 @@ description: Exemple de code pour la conversion PPTM vers SVG C#. Utilisez le co
 
  Afin de convertir PPTM en SVG, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  Aspose.Slides

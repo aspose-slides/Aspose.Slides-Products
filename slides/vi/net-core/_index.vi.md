@@ -18,7 +18,7 @@ description: Aspose.Slides .NET Core API để xây dựng các giải pháp Pow
 </p>
 
 <p>
- Mở rộng cho bạn các ứng dụng với trình xem bản trình bày, trình tạo, trình chuyển đổi, trình chỉnh sửa, trình tạo mẫu, trình quản lý, hợp nhất, trình so sánh, bộ chia, máy in, trình bảo vệ và các ứng dụng khác. Cho phép ứng dụng C # sửa đổi bất kỳ nội dung trình bày nào: văn bản, bảng, biểu đồ, phương tiện, SmartArts, ActiveX.
+ Mở rộng cho bạn các ứng dụng với trình xem bản trình bày, trình tạo, trình chuyển đổi, trình chỉnh sửa, trình tạo mẫu, trình quản lý, hợp nhất, trình so sánh, bộ chia, máy in, trình bảo vệ và các ứng dụng khác. Cho phép ứng dụng C# sửa đổi bất kỳ nội dung trình bày nào: văn bản, bảng, biểu đồ, phương tiện, SmartArts, ActiveX.
 </p>
 
 <p>
@@ -312,7 +312,7 @@ Web:
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Kết xuất bản trình bày - C #
+      Kết xuất bản trình bày - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
 

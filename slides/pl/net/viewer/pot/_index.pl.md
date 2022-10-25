@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Kroki, aby wyświetlić POT za pomocą C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Kroki, aby wyświetlić POT za pomocą C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Aspose.Slides ułatwia programistom przeglądanie pliku POT za pomocą zaledwie kilku linijek kodu." >}}
 

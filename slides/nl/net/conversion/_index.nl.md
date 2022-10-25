@@ -1,5 +1,5 @@
 ---
-title: Microsoft PowerPoint-presentatieconversie naar meerdere bestanden met C #
+title: Microsoft PowerPoint-presentatieconversie naar meerdere bestanden met C#
 url: /nl/net/conversion/
 description: Converteer Microsoft PowerPoint-dia's naar verschillende bestanden, waaronder PDF-, HTML- en afbeeldingsformaten op .NET Framework, .NET Core, Windows Azure, Mono of Xamarin Platforms.
 ---

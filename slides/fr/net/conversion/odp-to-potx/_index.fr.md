@@ -15,7 +15,7 @@ description: Exemple de code pour la conversion ODP vers POTX C#. Utilisez un ex
 
  Afin de convertir ODP en POTX, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  Aspose.Slides
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Étapes pour convertir ODP en POTX via C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Étapes pour convertir ODP en POTX via C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Les développeurs .NET peuvent facilement charger et convertir des fichiers ODP en POTX en quelques lignes de code seulement." >}}
 
@@ -70,7 +70,7 @@ Le fichier POTX sera enregistré dans le chemin spécifié
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Cet exemple de code montre la conversion ODP en POTX C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Cet exemple de code montre la conversion ODP en POTX C#" offSpacer="" %}}
 
 ```cs
 // instantiate a Presentation object that represents a ODP file

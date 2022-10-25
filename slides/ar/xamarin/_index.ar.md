@@ -308,7 +308,7 @@ SVG
     </p>
     <div class="codeblock" id="code">
      <h3>
-      تقديم العروض - C #
+      تقديم العروض - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
 

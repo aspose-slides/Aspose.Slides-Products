@@ -5,7 +5,7 @@ description: Convertissez les diapositives Microsoft PowerPoint en différents f
 ---
 
 {{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Conversion de présentation PowerPoint Microsoft<sup>®</sup> via C#" h2="Codes sources C # pour différents cas de conversion pour convertir des fichiers en images, PDF, HTML et autres formats." >}}
+{{< blocks/products/pf/i18n/feature-page-header h1="Conversion de présentation PowerPoint Microsoft<sup>®</sup> via C#" h2="Codes sources C# pour différents cas de conversion pour convertir des fichiers en images, PDF, HTML et autres formats." >}}
 
 {{% blocks/products/pf/feature-page-summary %}}
 
@@ -95,7 +95,7 @@ powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt
 
 {{% blocks/products/pf/feature-page-section  h2="Convertir des diapositives PowerPoint en formats d'image" %}}
 La conversion des formats Microsoft<sup>®</sup> PowerPoint en images JPEG, PNG, TIFF, etc. est un autre cas d'utilisation courant principalement utilisé pour créer des vignettes de diapositives. Le processus de codage est simple. Après avoir chargé le document, utilisez [l'interface ISlide](https://apireference.aspose.com/net/slides/aspose.slides/islide) pour parcourir chaque diapositive. Au cours de chaque itération, utilisez (Objet Bitmap) [https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8] avec son mehtod GetThumbnail ayant des dimensions d'image personnalisées. Enfin, enregistrez l'image dans le format requis.
-{{% blocks/products/pf/feature-page-code h3="C # PowerPoint en code de convertisseur d'image" %}}
+{{% blocks/products/pf/feature-page-code h3="C# PowerPoint en code de convertisseur d'image" %}}
 ```cs
 using (Presentation powerpointtoimage = new Presentation("source-file.ppt")){
 foreach (ISlide sld in powerpointtoimage.Slides){

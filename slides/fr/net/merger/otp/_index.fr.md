@@ -2,7 +2,7 @@
 title: Fusionner des fichiers OTP via .NET
 weight: 7430
 url: /fr/net/merger/otp/ 
-description: Code source C # pour combiner des documents OTP sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour combiner des documents OTP sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour combiner des documents OTP sur les plates-form
 
  Afin de fusionner le fichier OTP, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de manipulation et de fusion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de manipulation et de fusion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -144,7 +144,7 @@ Files with .OTP extension represent presentation template files created by appli
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de fusion pris en charge" subTitle="En utilisant C #, on peut également fusionner de nombreux autres formats de fichiers, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de fusion pris en charge" subTitle="En utilisant C#, on peut également fusionner de nombreux autres formats de fichiers, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/merger/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/merger/pot/" name="POT" description="Fichiers de modèle Microsoft PowerPoint" >}}

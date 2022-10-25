@@ -86,7 +86,7 @@ Lưu kết quả ở định dạng PPTX
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Mở khóa tệp PPTX qua C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Mở khóa tệp PPTX qua C#" offSpacer="" %}}
 
 ```cs
 

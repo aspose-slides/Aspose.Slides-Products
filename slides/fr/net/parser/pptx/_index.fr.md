@@ -2,7 +2,7 @@
 title: Extraire du texte et des images d'un document PPTX via .NET
 weight: 1480
 url: /fr/net/parser/pptx/ 
-description: Code source C # pour extraire du texte et des images d'un fichier PPTX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour extraire du texte et des images d'un fichier PPTX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour extraire du texte et des images d'un fichier P
 
  Afin d'analyser le fichier PPTX, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -141,7 +141,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats d'analyse pris en charge" subTitle="En utilisant C #, on peut facilement analyser d'autres formats, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats d'analyse pris en charge" subTitle="En utilisant C#, on peut facilement analyser d'autres formats, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/parser/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}

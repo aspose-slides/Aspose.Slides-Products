@@ -178,7 +178,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Format Charting yang Didukung Lainnya" subTitle="Menggunakan C #, seseorang dapat dengan mudah menangani pembuatan bagan dengan berbagai format termasuk." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Format Charting yang Didukung Lainnya" subTitle="Menggunakan C#, seseorang dapat dengan mudah menangani pembuatan bagan dengan berbagai format termasuk." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/chart/pptx/" name="PPTX" description="Buka Format presentasi XML" >}}
 

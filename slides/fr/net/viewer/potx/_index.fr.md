@@ -2,7 +2,7 @@
 title: Afficher les formats de fichiers POTX via .NET
 weight: 5740
 url: /fr/net/viewer/potx/ 
-description: Code source C # pour charger, restituer et afficher des documents POTX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour charger, restituer et afficher des documents POTX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour charger, restituer et afficher des documents P
 
  Pour afficher le fichier POTX, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C # à utiliser avec n'importe quel visualiseur. Ouvrir
+ API qui est une API riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C# à utiliser avec n'importe quel visualiseur. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Étapes pour afficher POTX via C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Étapes pour afficher POTX via C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Aspose.Slides permet aux développeurs de visualiser facilement le fichier POTX avec seulement quelques lignes de code." >}}
 
@@ -137,7 +137,7 @@ Files with .POTX extension represent Microsoft PowerPoint template presentations
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de visionneuse pris en charge" subTitle="En utilisant C #, on peut également afficher de nombreux autres formats de fichiers, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de visionneuse pris en charge" subTitle="En utilisant C#, on peut également afficher de nombreux autres formats de fichiers, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/viewer/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/viewer/otp/" name="OTP" description="Format standard OpenDocument" >}}

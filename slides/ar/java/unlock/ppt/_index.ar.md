@@ -86,7 +86,7 @@ description: نموذج كود Java لإلغاء تأمين ملف PPT المح�
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="فتح ملفات PPT عبر C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="فتح ملفات PPT عبر C#" offSpacer="" %}}
 
 ```cs
 

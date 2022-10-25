@@ -1,5 +1,5 @@
 ---
-title: การแปลงงานนำเสนอ Microsoft PowerPoint เป็นหลายไฟล์โดยใช้ C #
+title: การแปลงงานนำเสนอ Microsoft PowerPoint เป็นหลายไฟล์โดยใช้ C#
 url: /th/net/conversion/
 description: แปลง Microsoft PowerPoint Slides เป็นไฟล์ต่างๆ รวมถึง PDF, HTML และรูปแบบรูปภาพบน .NET Framework, .NET Core, Windows Azure, Mono หรือ Xamarin Platforms
 ---
@@ -31,7 +31,7 @@ pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);
 {{% blocks/products/pf/feature-page-section  h2="การแปลง C# PowerPoint เป็น PDF" %}}
 
 สำหรับการแปลงสไลด์ PowerPoint เป็น PDF อย่างแม่นยำ โปรแกรมเมอร์สามารถโหลดเอกสารโดยใช้คลาสการนำเสนอและใช้ [คลาส PdfOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/pdfoptions) สำหรับข้อมูลเฉพาะและกำหนดเองทั้งหมด ตัวเลือกต่างๆ เช่น ระดับการบีบอัดข้อความ, คุณภาพของ Jpeg, การทำงานของ metafiles, การแปลงสไลด์ที่ซ่อนอยู่ตลอดจนการเลือกสไลด์เฉพาะ และอื่นๆ มีตัวเลือกในการป้องกันไฟล์ PDF ที่แปลงแล้วด้วยรหัสผ่าน
-{{% blocks/products/pf/feature-page-code h3="C # PowerPoint เป็น PDF Converter Code" %}}
+{{% blocks/products/pf/feature-page-code h3="C# PowerPoint เป็น PDF Converter Code" %}}
 
 ```cs
 // Load PowerPoint file
@@ -70,7 +70,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 
 {{% blocks/products/pf/feature-page-section  h2="การแปลง Microsoft PowerPoint เป็น HTML" %}}
 เมื่อจำเป็นต้องฝังงานนำเสนอภายในหน้าเว็บ ก็จำเป็นต้องแปลงสไลด์เป็น HTML API ให้ [คลาส HtmlOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions) ใช้หลังจากโหลดไฟล์สำหรับการตั้งค่าพิเศษ เช่น สไลด์ที่ซ่อนอยู่ ตามค่าเริ่มต้น สิ่งเหล่านี้จะไม่ รวมอยู่ในกระบวนการแปลง ผ่านตัวเลือกที่สรุปผลไปยังวิธีบันทึกสำหรับการแปลง
-{{% blocks/products/pf/feature-page-code h3="รหัส C # สำหรับการแปลง PowerPoint เป็น HTML" %}}
+{{% blocks/products/pf/feature-page-code h3="รหัส C# สำหรับการแปลง PowerPoint เป็น HTML" %}}
 
 ```cs
 
@@ -95,7 +95,7 @@ powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt
 
 {{% blocks/products/pf/feature-page-section  h2="แปลงสไลด์ PowerPoint เป็นรูปแบบรูปภาพ" %}}
 การแปลงรูปแบบ Microsoft<sup>®</sup> เป็นรูปภาพ JPEG, PNG, TIFF เป็นต้น เป็นอีกกรณีหนึ่งที่ใช้กันทั่วไปซึ่งส่วนใหญ่ใช้สำหรับสร้างภาพขนาดย่อของสไลด์ ขั้นตอนการเข้ารหัสเป็นเรื่องง่าย หลังจากโหลดเอกสารแล้ว ให้ใช้ [ISlide interface](https://apireference.aspose.com/net/slides/aspose.slides/islide) เพื่อวนซ้ำในแต่ละสไลด์ ในระหว่างการทำซ้ำแต่ละครั้ง ให้ใช้ (Bitmap Object)[https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8] พร้อมกับ GetThumbnail mehtod ที่มีขนาดรูปภาพที่กำหนดเอง สุดท้ายบันทึกภาพในรูปแบบที่ต้องการ
-{{% blocks/products/pf/feature-page-code h3="C # PowerPoint เป็นรหัสแปลงรูปภาพ" %}}
+{{% blocks/products/pf/feature-page-code h3="C# PowerPoint เป็นรหัสแปลงรูปภาพ" %}}
 ```cs
 using (Presentation powerpointtoimage = new Presentation("source-file.ppt")){
 foreach (ISlide sld in powerpointtoimage.Slides){

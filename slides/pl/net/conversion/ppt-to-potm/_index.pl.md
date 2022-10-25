@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Kroki, aby przekonwertować PPT na POTM za pomocą C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Kroki, aby przekonwertować PPT na POTM za pomocą C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Programiści .NET mogą łatwo ładować i konwertować pliki PPT do POTM w zaledwie kilku linijkach kodu." >}}
 

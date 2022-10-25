@@ -1,7 +1,7 @@
 ---
 title: Modifier les fichiers PPT via .NET
 url: /fr/net/editor/ppt/ 
-description: Code source C # pour éditer un document PPT sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour éditer un document PPT sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -12,7 +12,7 @@ description: Code source C # pour éditer un document PPT sur les plates-formes 
 
 {{% blocks/products/pf/agp/content h2="Comment modifier un fichier PPT à l'aide de C#" %}}
 
-Afin de modifier le fichier PPT, nous utiliserons l'API <a href="https://products.aspose.com/slides/fr/net">Aspose.Slides pour .NET</a> qui est une puissante et riche en fonctionnalités et API facile à utiliser pour la plate-forme C # pour n'importe quel éditeur. Ouvrez le gestionnaire de packages <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, recherchez <b>Aspose.Slides</b> et installez. Vous pouvez également utiliser la commande suivante à partir de la console du gestionnaire de packages.
+Afin de modifier le fichier PPT, nous utiliserons l'API <a href="https://products.aspose.com/slides/fr/net">Aspose.Slides pour .NET</a> qui est une puissante et riche en fonctionnalités et API facile à utiliser pour la plate-forme C# pour n'importe quel éditeur. Ouvrez le gestionnaire de packages <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, recherchez <b>Aspose.Slides</b> et installez. Vous pouvez également utiliser la commande suivante à partir de la console du gestionnaire de packages.
 
 {{% blocks/products/pf/agp/code-block title="Commande" offSpacer="true" %}}
 

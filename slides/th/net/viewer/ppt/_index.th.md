@@ -137,7 +137,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบตัวแสดงที่รองรับอื่น ๆ" subTitle="การใช้ C # สามารถดูรูปแบบไฟล์อื่น ๆ ได้มากมายรวมทั้ง" >}}
+{{< blocks/products/pf/agp/other-supported-section title="รูปแบบตัวแสดงที่รองรับอื่น ๆ" subTitle="การใช้ C# สามารถดูรูปแบบไฟล์อื่น ๆ ได้มากมายรวมทั้ง" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/viewer/odp/" name="ODP" description="รูปแบบการนำเสนอ OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/viewer/otp/" name="OTP" description="รูปแบบมาตรฐานของ OpenDocument" >}}

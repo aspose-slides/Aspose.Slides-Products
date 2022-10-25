@@ -137,7 +137,7 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de visor admitidos" subTitle="Usando C #, también se pueden ver muchos otros formatos de archivo, incluidos." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de visor admitidos" subTitle="Usando C#, también se pueden ver muchos otros formatos de archivo, incluidos." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/viewer/otp/" name="OTP" description="Formato estándar de OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/viewer/pot/" name="POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}

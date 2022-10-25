@@ -86,7 +86,7 @@ Lưu kết quả ở định dạng PPT
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Mở khóa tệp PPT qua C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Mở khóa tệp PPT qua C#" offSpacer="" %}}
 
 ```cs
 
