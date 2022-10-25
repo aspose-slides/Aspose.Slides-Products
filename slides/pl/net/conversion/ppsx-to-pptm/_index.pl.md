@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Kroki, aby przekonwertować PPSX na PPTM za pomocą C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Kroki, aby przekonwertować PPSX na PPTM za pomocą C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Programiści .NET mogą łatwo ładować i konwertować pliki PPSX na PPTM w zaledwie kilku linijkach kodu." >}}
 

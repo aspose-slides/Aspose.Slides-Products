@@ -86,7 +86,7 @@ description: โค้ดตัวอย่าง Java เพื่อปลด�
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="ปลดล็อกไฟล์ PPT ผ่าน C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="ปลดล็อกไฟล์ PPT ผ่าน C#" offSpacer="" %}}
 
 ```cs
 

@@ -2,7 +2,7 @@
 title: C# .NET PowerPoint กำลังประมวลผล API | Aspose.สไลด์
 weight: 1890
 url: /th/net/ 
-description: Aspose.Slides เป็น C# .NET PowerPoint API Aspose Slides API เพื่อสร้าง C # PPT โดยทางโปรแกรม
+description: Aspose.Slides เป็น C# .NET PowerPoint API Aspose Slides API เพื่อสร้าง C# PPT โดยทางโปรแกรม
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -371,7 +371,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
      ป้องกันการนำเสนอใน .NET C#
     </h2>
     <p>
-     Aspose.Slides สำหรับ .NET API สามารถล็อกไฟล์การนำเสนอเพื่อป้องกันการเปลี่ยนแปลงเนื้อหา นักพัฒนาอาจใช้รหัสผ่านป้องกัน PPT ใน C # เช่นเดียวกับเอกสาร PDF ที่แปลงแล้วเพื่อการแจกจ่ายที่ปลอดภัย C# PowerPoint API ยังสนับสนุนโหมดการเข้าถึงแบบอ่านอย่างเดียวสำหรับการนำเสนอที่สร้างขึ้นและคุณสมบัติของเอกสาร
+     Aspose.Slides สำหรับ .NET API สามารถล็อกไฟล์การนำเสนอเพื่อป้องกันการเปลี่ยนแปลงเนื้อหา นักพัฒนาอาจใช้รหัสผ่านป้องกัน PPT ใน C# เช่นเดียวกับเอกสาร PDF ที่แปลงแล้วเพื่อการแจกจ่ายที่ปลอดภัย C# PowerPoint API ยังสนับสนุนโหมดการเข้าถึงแบบอ่านอย่างเดียวสำหรับการนำเสนอที่สร้างขึ้นและคุณสมบัติของเอกสาร
     </p>
    </div>
    <div class="col-lg-12">

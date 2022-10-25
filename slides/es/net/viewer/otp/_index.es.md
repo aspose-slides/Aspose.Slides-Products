@@ -137,7 +137,7 @@ Files with .OTP extension represent presentation template files created by appli
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de visor admitidos" subTitle="Usando C #, también se pueden ver muchos otros formatos de archivo, incluidos." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de visor admitidos" subTitle="Usando C#, también se pueden ver muchos otros formatos de archivo, incluidos." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/viewer/odp/" name="ODP" description="Formato de presentación de OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/viewer/pot/" name="POT" description="Archivos de plantilla de Microsoft PowerPoint" >}}

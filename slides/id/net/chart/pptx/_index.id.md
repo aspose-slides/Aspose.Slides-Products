@@ -178,7 +178,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Format Charting yang Didukung Lainnya" subTitle="Menggunakan C #, seseorang dapat dengan mudah menangani pembuatan bagan dengan berbagai format termasuk." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Format Charting yang Didukung Lainnya" subTitle="Menggunakan C#, seseorang dapat dengan mudah menangani pembuatan bagan dengan berbagai format termasuk." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 

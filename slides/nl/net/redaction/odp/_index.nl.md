@@ -132,7 +132,7 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde redactie-indelingen" subTitle="Met behulp van C # kan men gemakkelijk verschillende formaten redigeren, waaronder." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde redactie-indelingen" subTitle="Met behulp van C# kan men gemakkelijk verschillende formaten redigeren, waaronder." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/redaction/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/redaction/pptx/" name="PPTX" description="Open XML-presentatie-indeling" >}}

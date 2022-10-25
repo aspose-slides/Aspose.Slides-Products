@@ -1,7 +1,7 @@
 ---
 title: Modifier les fichiers POTX via .NET
 url: /fr/net/editor/potx/ 
-description: Code source C # pour modifier le document POTX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour modifier le document POTX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -12,7 +12,7 @@ description: Code source C # pour modifier le document POTX sur les plates-forme
 
 {{% blocks/products/pf/agp/content h2="Comment modifier un fichier POTX à l'aide de C#" %}}
 
-Afin de modifier le fichier POTX, nous utiliserons l'API <a href="https://products.aspose.com/slides/fr/net">Aspose.Slides pour .NET</a> qui est une puissante et riche en fonctionnalités et API facile à utiliser pour la plate-forme C # pour n'importe quel éditeur. Ouvrez le gestionnaire de packages <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, recherchez <b>Aspose.Slides</b> et installez. Vous pouvez également utiliser la commande suivante à partir de la console du gestionnaire de packages.
+Afin de modifier le fichier POTX, nous utiliserons l'API <a href="https://products.aspose.com/slides/fr/net">Aspose.Slides pour .NET</a> qui est une puissante et riche en fonctionnalités et API facile à utiliser pour la plate-forme C# pour n'importe quel éditeur. Ouvrez le gestionnaire de packages <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, recherchez <b>Aspose.Slides</b> et installez. Vous pouvez également utiliser la commande suivante à partir de la console du gestionnaire de packages.
 
 {{% blocks/products/pf/agp/code-block title="Commande" offSpacer="true" %}}
 
@@ -56,7 +56,7 @@ PM> Install-Package Aspose.Slides
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Modifier les fichiers POTX - C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Modifier les fichiers POTX - C#" offSpacer="" %}}
 
 ```cs
 

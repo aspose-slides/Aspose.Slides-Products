@@ -308,7 +308,7 @@ Web:
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Kết xuất bản trình bày - C #
+      Kết xuất bản trình bày - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
 

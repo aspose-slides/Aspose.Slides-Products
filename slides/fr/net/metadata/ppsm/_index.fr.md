@@ -2,7 +2,7 @@
 title: Afficher ou modifier les métadonnées des fichiers PPSM via .NET
 weight: 8130
 url: /fr/net/metadata/ppsm/ 
-description: Code source C # pour modifier ou afficher les métadonnées au format PPSM sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour modifier ou afficher les métadonnées au format PPSM sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour modifier ou afficher les métadonnées au form
 
  Afin d'extraire les métadonnées PPSM, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de métadonnées de document riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de métadonnées de document riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -134,7 +134,7 @@ Files with PPSM extension represent Macro-enabled Slide Show file format created
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de métadonnées pris en charge" subTitle="En utilisant C #, on peut également manipuler les métadonnées de nombreux autres formats, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de métadonnées pris en charge" subTitle="En utilisant C#, on peut également manipuler les métadonnées de nombreux autres formats, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/metadata/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/metadata/otp/" name="OTP" description="Format standard OpenDocument" >}}

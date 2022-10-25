@@ -1,21 +1,21 @@
 ---
-title: API xử lý PowerPoint của C # .NET | Aspose.Slides
+title: API xử lý PowerPoint của C# .NET | Aspose.Slides
 weight: 1890
 url: /vi/net/ 
-description: Aspose.Slides là một API C # .NET PowerPoint. API Aspose Slides để tạo C # PPT theo lập trình.
+description: Aspose.Slides là một API C# .NET PowerPoint. API Aspose Slides để tạo C# PPT theo lập trình.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1=".NET API cho các định dạng tệp PowerPoint" h2="Đọc, viết, sửa đổi, hợp nhất, sao chép, bảo vệ và chuyển đổi các bản trình bày PowerPoint và OpenOffice trong .NET C # mà không cần bất kỳ phần mềm bên ngoài nào." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/i18n/upper-banner h1=".NET API cho các định dạng tệp PowerPoint" h2="Đọc, viết, sửa đổi, hợp nhất, sao chép, bảo vệ và chuyển đổi các bản trình bày PowerPoint và OpenOffice trong .NET C# mà không cần bất kỳ phần mềm bên ngoài nào." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/i18n/tab-content >}}
-<p>Aspose.Slides for .NET là một API xử lý bản trình bày cho các định dạng PowerPoint và OpenOffice. Aspose.Slides cho phép các ứng dụng đọc, viết, bảo vệ, sửa đổi và chuyển đổi bản trình bày trong .NET C #. Quản lý văn bản trình bày, hình dạng, biểu đồ, bảng và hoạt ảnh, thêm âm thanh và video vào trang trình bày, xem trước trang trình bày.</p>
+<p>Aspose.Slides for .NET là một API xử lý bản trình bày cho các định dạng PowerPoint và OpenOffice. Aspose.Slides cho phép các ứng dụng đọc, viết, bảo vệ, sửa đổi và chuyển đổi bản trình bày trong .NET C#. Quản lý văn bản trình bày, hình dạng, biểu đồ, bảng và hoạt ảnh, thêm âm thanh và video vào trang trình bày, xem trước trang trình bày.</p>
 
-<p>Aspose.Slides for .NET hỗ trợ tất cả các định dạng trình bày phổ biến. Sử dụng C # để hợp nhất, tách, sao chép và sử dụng lại nhiều bản trình bày, mẫu và trang chiếu PowerPoint theo nhiều cách. Hơn nữa, API cung cấp một số tính năng nâng cao như in trên máy in vật lý và hiển thị bản trình bày sang các định dạng bố cục cố định, HTML và hình ảnh.</p>
+<p>Aspose.Slides for .NET hỗ trợ tất cả các định dạng trình bày phổ biến. Sử dụng C# để hợp nhất, tách, sao chép và sử dụng lại nhiều bản trình bày, mẫu và trang chiếu PowerPoint theo nhiều cách. Hơn nữa, API cung cấp một số tính năng nâng cao như in trên máy in vật lý và hiển thị bản trình bày sang các định dạng bố cục cố định, HTML và hình ảnh.</p>
 
 <p>Aspose.Slides cho .NET là một API độc lập và không yêu cầu Microsoft PowerPoint hoặc bất kỳ phần mềm hoặc thư viện bổ sung nào khác.</p>
 
@@ -252,7 +252,7 @@ Web:
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">
-    Các tính năng nâng cao của .NET C # PowerPoint API
+    Các tính năng nâng cao của .NET C# PowerPoint API
    </h2>
    <p>
    </p>
@@ -321,14 +321,14 @@ Web:
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Chuyển đổi bản trình bày sang PDF, HTML, TIFF hoặc XPS trong .NET C #
+     Chuyển đổi bản trình bày sang PDF, HTML, TIFF hoặc XPS trong .NET C#
     </h2>
     <p>
-     Aspose.Slides cho .NET API có công cụ kết xuất riêng, được thiết kế đặc biệt để kết xuất các định dạng PowerPoint và OpenOffice với độ trung thực cao nhất. API .NET C # PowerPoint cho phép bạn xuất bản trình bày sang một số định dạng tiêu chuẩn công nghiệp như PDF, HTML, TIFF và XPS với kết quả giống với bản trình bày gốc. Hơn nữa, để chuyển đổi PPT trong C #, bạn chỉ cần tải tệp trình bày và gọi phương thức Lưu cùng với định dạng đầu ra mong muốn. Chuyển đổi C # PowerPoint thực sự đơn giản với Aspose.Slides cho .NET API.
+     Aspose.Slides cho .NET API có công cụ kết xuất riêng, được thiết kế đặc biệt để kết xuất các định dạng PowerPoint và OpenOffice với độ trung thực cao nhất. API .NET C# PowerPoint cho phép bạn xuất bản trình bày sang một số định dạng tiêu chuẩn công nghiệp như PDF, HTML, TIFF và XPS với kết quả giống với bản trình bày gốc. Hơn nữa, để chuyển đổi PPT trong C#, bạn chỉ cần tải tệp trình bày và gọi phương thức Lưu cùng với định dạng đầu ra mong muốn. Chuyển đổi C# PowerPoint thực sự đơn giản với Aspose.Slides cho .NET API.
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Kết xuất bản trình bày - C #
+      Kết xuất bản trình bày - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
 
@@ -352,38 +352,38 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 </div>-->
    <div class="col-lg-12">
     <h2 class="h2title">
-     Định dạng nội dung bản trình bày trong .NET C #
+     Định dạng nội dung bản trình bày trong .NET C#
     </h2>
     <p>
-     Có thể định dạng văn bản và hình dạng trên trang trình bày trong C # bằng cách sử dụng API Aspose.Slides .NET. Văn bản trên bản trình bày được quản lý với sự trợ giúp của các khung văn bản được liên kết với các hình dạng. Do đó, giúp các nhà phát triển dễ dàng định dạng văn bản bằng cách sử dụng các đoạn và phần được liên kết với khung văn bản. Bạn cũng có thể thao tác các thuộc tính của các phần tử hình dạng như vị trí, kích thước, dòng, hình ảnh, văn bản và điền bằng cách sử dụng API C # PowerPoint của chúng tôi.
+     Có thể định dạng văn bản và hình dạng trên trang trình bày trong C# bằng cách sử dụng API Aspose.Slides .NET. Văn bản trên bản trình bày được quản lý với sự trợ giúp của các khung văn bản được liên kết với các hình dạng. Do đó, giúp các nhà phát triển dễ dàng định dạng văn bản bằng cách sử dụng các đoạn và phần được liên kết với khung văn bản. Bạn cũng có thể thao tác các thuộc tính của các phần tử hình dạng như vị trí, kích thước, dòng, hình ảnh, văn bản và điền bằng cách sử dụng API C# PowerPoint của chúng tôi.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Tạo và sửa đổi PowerPoint SmartArt trong .NET C #
+     Tạo và sửa đổi PowerPoint SmartArt trong .NET C#
     </h2>
     <p>
-     Aspose.Slides for .NET tạo điều kiện thuận lợi trong việc tạo các hình dạng SmartArt từ đầu cũng như cung cấp khả năng truy cập, thao tác hoặc xóa các đối tượng SmartArt hiện có khỏi một trang chiếu. Hơn nữa, .NET C # PowerPoint API cung cấp khả năng thêm, xóa hoặc lặp lại các nút của SmartArt. Bạn cũng có thể tự động sửa đổi giao diện của SmartArt, chẳng hạn như kiểu thiết lập, màu sắc và bố cục.
+     Aspose.Slides for .NET tạo điều kiện thuận lợi trong việc tạo các hình dạng SmartArt từ đầu cũng như cung cấp khả năng truy cập, thao tác hoặc xóa các đối tượng SmartArt hiện có khỏi một trang chiếu. Hơn nữa, .NET C# PowerPoint API cung cấp khả năng thêm, xóa hoặc lặp lại các nút của SmartArt. Bạn cũng có thể tự động sửa đổi giao diện của SmartArt, chẳng hạn như kiểu thiết lập, màu sắc và bố cục.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Bảo vệ bản trình bày trong .NET C #
+     Bảo vệ bản trình bày trong .NET C#
     </h2>
     <p>
-     API Aspose.Slides cho .NET có thể khóa các tệp bản trình bày để bảo vệ nội dung không bị thay đổi. Các nhà phát triển cũng có thể bảo vệ bằng mật khẩu PPT trong C #, cũng như tài liệu PDF đã chuyển đổi để phân phối an toàn. API C # PowerPoint cũng hỗ trợ chế độ truy cập chỉ đọc cho các bản trình bày đã tạo và các thuộc tính tài liệu của nó.
+     API Aspose.Slides cho .NET có thể khóa các tệp bản trình bày để bảo vệ nội dung không bị thay đổi. Các nhà phát triển cũng có thể bảo vệ bằng mật khẩu PPT trong C#, cũng như tài liệu PDF đã chuyển đổi để phân phối an toàn. API C# PowerPoint cũng hỗ trợ chế độ truy cập chỉ đọc cho các bản trình bày đã tạo và các thuộc tính tài liệu của nó.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Tạo Trình xem Bản trình bày với Hình thu nhỏ Trang chiếu trong .NET C #
+     Tạo Trình xem Bản trình bày với Hình thu nhỏ Trang chiếu trong .NET C#
     </h2>
     <p>
-     Aspose.Slides for .NET có thể tạo hình thu nhỏ của các trang trình bày để bạn có thể phân phối hình ảnh trang chiếu cho những người dùng chưa cài đặt ứng dụng PowerPoint trên máy của họ. Bạn có thể sử dụng API C # PowerPoint để xem PPT trong ứng dụng .NET C # thuộc bất kỳ loại nào: trang web tùy chỉnh, ứng dụng dành cho máy tính để bàn, v.v. Sử dụng tính năng này để tạo trình xem bản trình bày của riêng bạn trong C #.
+     Aspose.Slides for .NET có thể tạo hình thu nhỏ của các trang trình bày để bạn có thể phân phối hình ảnh trang chiếu cho những người dùng chưa cài đặt ứng dụng PowerPoint trên máy của họ. Bạn có thể sử dụng API C# PowerPoint để xem PPT trong ứng dụng .NET C# thuộc bất kỳ loại nào: trang web tùy chỉnh, ứng dụng dành cho máy tính để bàn, v.v. Sử dụng tính năng này để tạo trình xem bản trình bày của riêng bạn trong C#.
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Tạo hình thu nhỏ trang chiếu qua .NET - C #
+      Tạo hình thu nhỏ trang chiếu qua .NET - C#
      </h3>
      <pre><code class="cs">// load the presentation file
 

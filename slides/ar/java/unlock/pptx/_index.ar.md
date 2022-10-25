@@ -86,7 +86,7 @@ description: نموذج كود Java لإلغاء تأمين ملف PPTX المح
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="فتح ملفات PPTX عبر C #" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="فتح ملفات PPTX عبر C#" offSpacer="" %}}
 
 ```cs
 

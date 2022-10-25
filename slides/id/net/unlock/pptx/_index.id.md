@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Buka kunci PPTX melalui C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Buka kunci PPTX melalui C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Anda memerlukan [aspose.slides.dll](https://downloads.aspose.com/slides/net) yang dirujuk dalam proyek Anda untuk menjalankan alur kerja berikut." >}}
 

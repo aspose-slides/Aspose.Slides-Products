@@ -2,7 +2,7 @@
 title: API de traitement PowerPoint C# .NET | Aspose.Slides
 weight: 1890
 url: /fr/net/ 
-description: Aspose.Slides est une API C# .NET PowerPoint. API Aspose Slides pour créer C # PPT par programme.
+description: Aspose.Slides est une API C# .NET PowerPoint. API Aspose Slides pour créer C# PPT par programme.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -324,7 +324,7 @@ La toile:
      Convertir une présentation en PDF, HTML, TIFF ou XPS dans .NET C#
     </h2>
     <p>
-     L'API Aspose.Slides pour .NET possède son propre moteur de rendu, spécialement conçu pour rendre les formats PowerPoint et OpenOffice avec la plus grande fidélité. L'API .NET C# PowerPoint vous permet d'exporter des présentations dans un certain nombre de formats standard tels que PDF, HTML, TIFF et XPS avec des résultats identiques à la présentation d'origine. De plus, pour convertir un PPT en C #, il vous suffit de charger le fichier de présentation et d'appeler la méthode Save avec le format de sortie souhaité. La conversion C # PowerPoint est vraiment aussi simple avec Aspose.Slides pour l'API .NET.
+     L'API Aspose.Slides pour .NET possède son propre moteur de rendu, spécialement conçu pour rendre les formats PowerPoint et OpenOffice avec la plus grande fidélité. L'API .NET C# PowerPoint vous permet d'exporter des présentations dans un certain nombre de formats standard tels que PDF, HTML, TIFF et XPS avec des résultats identiques à la présentation d'origine. De plus, pour convertir un PPT en C#, il vous suffit de charger le fichier de présentation et d'appeler la méthode Save avec le format de sortie souhaité. La conversion C# PowerPoint est vraiment aussi simple avec Aspose.Slides pour l'API .NET.
     </p>
     <div class="codeblock" id="code">
      <h3>
@@ -355,7 +355,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
      Formater le contenu de la présentation dans .NET C#
     </h2>
     <p>
-     Il est possible de formater du texte et des formes sur des diapositives en C # à l'aide de l'API Aspose.Slides .NET. Le texte des présentations est géré à l'aide de blocs de texte associés à des formes. Ainsi, il est facile pour les développeurs de formater le texte en utilisant des paragraphes et des parties associées aux cadres de texte. Vous pouvez également manipuler les attributs des éléments de forme tels que la position, la taille, la ligne, l'image, le texte et le remplissage à l'aide de notre API C# PowerPoint.
+     Il est possible de formater du texte et des formes sur des diapositives en C# à l'aide de l'API Aspose.Slides .NET. Le texte des présentations est géré à l'aide de blocs de texte associés à des formes. Ainsi, il est facile pour les développeurs de formater le texte en utilisant des paragraphes et des parties associées aux cadres de texte. Vous pouvez également manipuler les attributs des éléments de forme tels que la position, la taille, la ligne, l'image, le texte et le remplissage à l'aide de notre API C# PowerPoint.
     </p>
    </div>
    <div class="col-lg-12">

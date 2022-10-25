@@ -127,7 +127,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de marca de agua admitidos" subTitle="Usando C #, uno puede marcar fácilmente diferentes formatos, incluidos." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de marca de agua admitidos" subTitle="Usando C#, uno puede marcar fácilmente diferentes formatos, incluidos." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/watermark/pptx/" name="PPTX" description="Formato de presentación XML abierto" >}}
 

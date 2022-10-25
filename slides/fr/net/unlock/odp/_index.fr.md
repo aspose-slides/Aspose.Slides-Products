@@ -2,7 +2,7 @@
 title: Déverrouiller le document ODP via .NET
 weight: 5780
 url: /fr/net/unlock/odp/ 
-description: Code source C # pour déverrouiller le fichier ODP protégé par mot de passe sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour déverrouiller le fichier ODP protégé par mot de passe sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour déverrouiller le fichier ODP protégé par mo
 
  Afin de supprimer le fichier ODP de protection, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de protection de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de protection de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Déverrouiller ODP via C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Déverrouiller ODP via C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Vous avez besoin de [aspose.slides.dll](https://downloads.aspose.com/slides/net) référencé dans votre projet pour exécuter le workflow suivant." >}}
 
@@ -125,7 +125,7 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de déverrouillage pris en charge" subTitle="En utilisant C #, on peut facilement supprimer la protection / déverrouillage de différents formats, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de déverrouillage pris en charge" subTitle="En utilisant C#, on peut facilement supprimer la protection / déverrouillage de différents formats, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/unlock/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/unlock/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}

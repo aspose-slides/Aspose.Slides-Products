@@ -137,7 +137,7 @@ Files with .POT extension represent Microsoft PowerPoint template files created 
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde viewerformaten" subTitle="Met behulp van C # kan men ook vele andere bestandsindelingen bekijken, waaronder." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde viewerformaten" subTitle="Met behulp van C# kan men ook vele andere bestandsindelingen bekijken, waaronder." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/viewer/odp/" name="ODP" description="OpenDocument-presentatie-indeling" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/viewer/otp/" name="OTP" description="Standaardformaat OpenDocument" >}}

@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Шаги для преобразования POTX в PDF через C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Шаги для преобразования POTX в PDF через C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Разработчики .NET могут легко загружать и преобразовывать файлы POTX в PDF, написав всего несколько строк кода." >}}
 

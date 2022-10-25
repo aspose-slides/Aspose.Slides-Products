@@ -127,7 +127,7 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de marca de agua admitidos" subTitle="Usando C #, uno puede marcar fácilmente diferentes formatos, incluidos." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de marca de agua admitidos" subTitle="Usando C#, uno puede marcar fácilmente diferentes formatos, incluidos." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/watermark/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 

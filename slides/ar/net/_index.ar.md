@@ -1,21 +1,21 @@
 ---
-title: C # .NET واجهة برمجة تطبيقات معالجة PowerPoint | ينزلق
+title: C# .NET واجهة برمجة تطبيقات معالجة PowerPoint | ينزلق
 weight: 1890
 url: /ar/net/ 
-description: Aspose.Slides هي واجهة برمجة تطبيقات باوربوينت C # .NET. Aspose Slides API لإنشاء C # PPT برمجيًا.
+description: Aspose.Slides هي واجهة برمجة تطبيقات باوربوينت C# .NET. Aspose Slides API لإنشاء C# PPT برمجيًا.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="NET API لتنسيقات ملفات PowerPoint" h2="قراءة وكتابة وتعديل ودمج واستنساخ وحماية وتحويل عروض PowerPoint و OpenOffice التقديمية في .NET C # بدون أي برامج خارجية." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="NET API لتنسيقات ملفات PowerPoint" h2="قراءة وكتابة وتعديل ودمج واستنساخ وحماية وتحويل عروض PowerPoint و OpenOffice التقديمية في .NET C# بدون أي برامج خارجية." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/i18n/tab-content >}}
-<p>Aspose.Slides for .NET هي واجهة برمجة تطبيقات لمعالجة العروض التقديمية لتنسيقات PowerPoint و OpenOffice. Aspose.Slides تمكن التطبيقات من قراءة العروض التقديمية وكتابتها وحمايتها وتعديلها وتحويلها في .NET C #. إدارة نص العرض التقديمي والأشكال والمخططات والجداول والرسوم المتحركة وإضافة الصوت والفيديو إلى الشرائح ومعاينة الشرائح.</p>
+<p>Aspose.Slides for .NET هي واجهة برمجة تطبيقات لمعالجة العروض التقديمية لتنسيقات PowerPoint و OpenOffice. Aspose.Slides تمكن التطبيقات من قراءة العروض التقديمية وكتابتها وحمايتها وتعديلها وتحويلها في .NET C#. إدارة نص العرض التقديمي والأشكال والمخططات والجداول والرسوم المتحركة وإضافة الصوت والفيديو إلى الشرائح ومعاينة الشرائح.</p>
 
-<p>Aspose.Slides for .NET يدعم جميع تنسيقات العروض التقديمية الشائعة. استخدم C # لدمج العديد من عروض PowerPoint التقديمية والقوالب والشرائح وتقسيمها واستنساخها وإعادة استخدامها بعدة طرق. علاوة على ذلك ، تقدم API عددًا من الميزات المتقدمة مثل الطباعة على الطابعات المادية وتقديم العروض إلى تنسيقات ذات تخطيط ثابت و HTML والصور.</p>
+<p>Aspose.Slides for .NET يدعم جميع تنسيقات العروض التقديمية الشائعة. استخدم C# لدمج العديد من عروض PowerPoint التقديمية والقوالب والشرائح وتقسيمها واستنساخها وإعادة استخدامها بعدة طرق. علاوة على ذلك ، تقدم API عددًا من الميزات المتقدمة مثل الطباعة على الطابعات المادية وتقديم العروض إلى تنسيقات ذات تخطيط ثابت و HTML والصور.</p>
 
 <p>Aspose.Slides for .NET هي واجهة برمجة تطبيقات مستقلة ولا تتطلب Microsoft PowerPoint أو أي برامج أو مكتبة إضافية أخرى.</p>
 
@@ -252,7 +252,7 @@ SVG
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">
-    الميزات المتقدمة لـ .NET C # PowerPoint API
+    الميزات المتقدمة لـ .NET C# PowerPoint API
    </h2>
    <p>
    </p>
@@ -321,14 +321,14 @@ SVG
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     تحويل العرض التقديمي إلى PDF أو HTML أو TIFF أو XPS في .NET C #
+     تحويل العرض التقديمي إلى PDF أو HTML أو TIFF أو XPS في .NET C#
     </h2>
     <p>
-     Aspose.Slides for .NET API لها محرك عرض خاص بها ، مصمم خصيصًا لتقديم تنسيقات PowerPoint و OpenOffice بأعلى دقة. تسمح لك .NET C # PowerPoint API بتصدير العروض التقديمية إلى عدد من التنسيقات المتوافقة مع معايير الصناعة مثل PDF و HTML و TIFF و XPS بنتائج مماثلة للعرض التقديمي الأصلي. علاوة على ذلك ، من أجل تحويل PPT في C # ، ما عليك سوى تحميل ملف العرض التقديمي واستدعاء طريقة Save مع تنسيق الإخراج المطلوب. C # تحويل PowerPoint هو حقًا بهذه البساطة مع Aspose.Slides for .NET API.
+     Aspose.Slides for .NET API لها محرك عرض خاص بها ، مصمم خصيصًا لتقديم تنسيقات PowerPoint و OpenOffice بأعلى دقة. تسمح لك .NET C# PowerPoint API بتصدير العروض التقديمية إلى عدد من التنسيقات المتوافقة مع معايير الصناعة مثل PDF و HTML و TIFF و XPS بنتائج مماثلة للعرض التقديمي الأصلي. علاوة على ذلك ، من أجل تحويل PPT في C# ، ما عليك سوى تحميل ملف العرض التقديمي واستدعاء طريقة Save مع تنسيق الإخراج المطلوب. C# تحويل PowerPoint هو حقًا بهذه البساطة مع Aspose.Slides for .NET API.
     </p>
     <div class="codeblock" id="code">
      <h3>
-      تقديم العروض - C #
+      تقديم العروض - C#
      </h3>
      <pre><code class="cs">// load the file to be converted
 
@@ -352,38 +352,38 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 </div>-->
    <div class="col-lg-12">
     <h2 class="h2title">
-     تنسيق محتوى العرض التقديمي في .NET C #
+     تنسيق محتوى العرض التقديمي في .NET C#
     </h2>
     <p>
-     من الممكن تنسيق النص والأشكال على الشرائح في C # باستخدام Aspose.Slides .NET API. تتم إدارة النص في العروض التقديمية بمساعدة إطارات النص المرتبطة بالأشكال. ومن ثم يسهل على المطورين تنسيق النص باستخدام الفقرات والأجزاء المرتبطة بإطارات النص. يمكنك أيضًا معالجة سمات عناصر الشكل مثل الموضع والحجم والخط والصورة والنص والتعبئة باستخدام C # PowerPoint API.
+     من الممكن تنسيق النص والأشكال على الشرائح في C# باستخدام Aspose.Slides .NET API. تتم إدارة النص في العروض التقديمية بمساعدة إطارات النص المرتبطة بالأشكال. ومن ثم يسهل على المطورين تنسيق النص باستخدام الفقرات والأجزاء المرتبطة بإطارات النص. يمكنك أيضًا معالجة سمات عناصر الشكل مثل الموضع والحجم والخط والصورة والنص والتعبئة باستخدام C# PowerPoint API.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     إنشاء وتعديل PowerPoint SmartArt في .NET C #
+     إنشاء وتعديل PowerPoint SmartArt في .NET C#
     </h2>
     <p>
-     يسهل Aspose.Slides for .NET إنشاء أشكال SmartArt من البداية بالإضافة إلى توفير القدرة على الوصول إلى كائنات SmartArt الموجودة ومعالجتها وإزالتها من الشريحة. علاوة على ذلك ، يوفر .NET C # PowerPoint API القدرة على إضافة أو إزالة أو تكرار عقد SmartArt. يمكنك أيضًا تعديل مظهر SmartArt ديناميكيًا مثل إعداد النمط واللون والتخطيط.
+     يسهل Aspose.Slides for .NET إنشاء أشكال SmartArt من البداية بالإضافة إلى توفير القدرة على الوصول إلى كائنات SmartArt الموجودة ومعالجتها وإزالتها من الشريحة. علاوة على ذلك ، يوفر .NET C# PowerPoint API القدرة على إضافة أو إزالة أو تكرار عقد SmartArt. يمكنك أيضًا تعديل مظهر SmartArt ديناميكيًا مثل إعداد النمط واللون والتخطيط.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     حماية العرض التقديمي في .NET C #
+     حماية العرض التقديمي في .NET C#
     </h2>
     <p>
-     Aspose.Slides for .NET API يمكن قفل ملفات العرض من أجل حماية المحتويات من التغيير. يمكن للمطورين أيضًا حماية كلمة مرور PPT في C # ، بالإضافة إلى مستند PDF المحول للتوزيع الآمن. تدعم واجهة برمجة تطبيقات C # PowerPoint أيضًا وضع الوصول للقراءة فقط للعروض التقديمية التي تم إنشاؤها وخصائص المستند الخاصة بها.
+     Aspose.Slides for .NET API يمكن قفل ملفات العرض من أجل حماية المحتويات من التغيير. يمكن للمطورين أيضًا حماية كلمة مرور PPT في C# ، بالإضافة إلى مستند PDF المحول للتوزيع الآمن. تدعم واجهة برمجة تطبيقات C# PowerPoint أيضًا وضع الوصول للقراءة فقط للعروض التقديمية التي تم إنشاؤها وخصائص المستند الخاصة بها.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     إنشاء عارض عرض تقديمي باستخدام صور مصغرة للشرائح في .NET C #
+     إنشاء عارض عرض تقديمي باستخدام صور مصغرة للشرائح في .NET C#
     </h2>
     <p>
-     يمكن لـ Aspose.Slides for .NET إنشاء صور مصغرة للشرائح بحيث يمكنك توزيع صور الشرائح على المستخدمين الذين ليس لديهم تطبيق PowerPoint مثبتًا على أجهزتهم. يمكنك استخدام C # PowerPoint API لعرض PPT في تطبيق .NET C # من أي نوع: موقع ويب مخصص ، تطبيق سطح مكتب ، إلخ. استخدم هذه الميزة لإنشاء عارض العرض التقديمي الخاص بك في C #.
+     يمكن لـ Aspose.Slides for .NET إنشاء صور مصغرة للشرائح بحيث يمكنك توزيع صور الشرائح على المستخدمين الذين ليس لديهم تطبيق PowerPoint مثبتًا على أجهزتهم. يمكنك استخدام C# PowerPoint API لعرض PPT في تطبيق .NET C# من أي نوع: موقع ويب مخصص ، تطبيق سطح مكتب ، إلخ. استخدم هذه الميزة لإنشاء عارض العرض التقديمي الخاص بك في C#.
     </p>
     <div class="codeblock" id="code">
      <h3>
-      إنشاء صور مصغرة للشرائح عبر .NET - C #
+      إنشاء صور مصغرة للشرائح عبر .NET - C#
      </h3>
      <pre><code class="cs">// load the presentation file
 

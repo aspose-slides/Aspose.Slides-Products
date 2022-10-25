@@ -2,7 +2,7 @@
 title: Protégez et verrouillez le document ODP via .NET
 weight: 4230
 url: /fr/net/protect/odp/ 
-description: Code source C # pour verrouiller le fichier ODP à l'aide d'un mot de passe sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour verrouiller le fichier ODP à l'aide d'un mot de passe sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour verrouiller le fichier ODP à l'aide d'un mot 
 
  Afin de protéger le fichier ODP, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de protection de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de protection de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -119,7 +119,7 @@ Files with ODP extension represent presentation file format used by OpenOffice.o
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de protection pris en charge" subTitle="En utilisant C #, on peut facilement protéger d'autres formats, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de protection pris en charge" subTitle="En utilisant C#, on peut facilement protéger d'autres formats, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/protect/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/protect/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}

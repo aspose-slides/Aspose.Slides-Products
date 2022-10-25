@@ -2,7 +2,7 @@
 title: Rechercher et remplacer du texte dans un document PPT via .NET
 weight: 1410
 url: /fr/net/redaction/ppt/ 
-description: Code source C # pour expurger les informations sensibles dans le fichier PPT sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour expurger les informations sensibles dans le fichier PPT sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour expurger les informations sensibles dans le fi
 
  Pour expurger le fichier PPT, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de manipulation de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -132,7 +132,7 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de rédaction pris en charge" subTitle="En utilisant C #, on peut facilement rédiger différents formats, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de rédaction pris en charge" subTitle="En utilisant C#, on peut facilement rédiger différents formats, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/redaction/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/redaction/pptx/" name="PPTX" description="Format de présentation XML ouvert" >}}

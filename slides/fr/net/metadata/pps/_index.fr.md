@@ -2,7 +2,7 @@
 title: Afficher ou modifier les métadonnées des fichiers PPS via .NET
 weight: 7210
 url: /fr/net/metadata/pps/ 
-description: Code source C # pour modifier ou afficher les métadonnées au format PPS sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
+description: Code source C# pour modifier ou afficher les métadonnées au format PPS sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -15,7 +15,7 @@ description: Code source C # pour modifier ou afficher les métadonnées au form
 
  Afin d'extraire les métadonnées PPS, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de métadonnées de document riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de métadonnées de document riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  **Aspose.Slides**
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Étapes pour extraire les métadonnées de PPS via C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Étapes pour extraire les métadonnées de PPS via C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="La classe IDocumentProperties représente les propriétés de document associées à un fichier de présentation. Les développeurs peuvent utiliser cette propriété pour accéder aux métadonnées comme décrit ci-dessous." >}}
 
@@ -134,7 +134,7 @@ PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Sli
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de métadonnées pris en charge" subTitle="En utilisant C #, on peut également manipuler les métadonnées de nombreux autres formats, y compris." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Autres formats de métadonnées pris en charge" subTitle="En utilisant C#, on peut également manipuler les métadonnées de nombreux autres formats, y compris." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/metadata/odp/" name="ODP" description="Format de présentation OpenDocument" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/metadata/otp/" name="OTP" description="Format standard OpenDocument" >}}

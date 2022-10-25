@@ -15,7 +15,7 @@ description: Exemple de code pour la conversion PPTM en SWF C#. Utilisez le code
 
  Pour convertir PPTM en SWF, nous utiliserons
  [Aspose.Slides pour .NET](https://products.aspose.com/slides/fr/net)
- API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C #. Ouvrir
+ API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C#. Ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  gestionnaire de paquets, recherchez
  Aspose.Slides
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Étapes pour convertir PPTM en SWF via C #" >}}
+{{< blocks/products/pf/agp/feature-section-col title="Étapes pour convertir PPTM en SWF via C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Les développeurs .NET peuvent facilement charger et convertir des fichiers PPTM en SWF en quelques lignes de code seulement." >}}
 
