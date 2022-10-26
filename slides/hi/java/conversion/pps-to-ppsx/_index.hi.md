@@ -26,7 +26,7 @@ description: PPS प्रारूप से PPSX फ़ाइल के लि
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

@@ -26,7 +26,7 @@ description: Código de amostra Java para extrair texto e imagens do arquivo PPT
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

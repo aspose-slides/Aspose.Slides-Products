@@ -26,7 +26,7 @@ description: نموذج كود Java لدمج مستندات PPSM في Java Runti
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

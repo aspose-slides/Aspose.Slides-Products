@@ -26,7 +26,7 @@ description: Beispiel-Java-Konvertierungscode für das POTX-Format in die POTM-D
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

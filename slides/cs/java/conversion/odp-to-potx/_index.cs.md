@@ -26,7 +26,7 @@ description: Ukázkový konverzní kód Java pro formát ODP na soubor POTX. Ten
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

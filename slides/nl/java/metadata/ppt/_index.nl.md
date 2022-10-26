@@ -26,7 +26,7 @@ description: Java-voorbeeldcode om metadata in PPT-indeling te bewerken of te be
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

@@ -26,7 +26,7 @@ description: Przykładowy kod Java do wyszukiwania słów ze wzorcem w pliku PPT
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

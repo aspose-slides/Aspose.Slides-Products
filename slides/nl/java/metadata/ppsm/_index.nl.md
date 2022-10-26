@@ -26,7 +26,7 @@ description: Java-voorbeeldcode om metadata in PPSM-indeling te bewerken of te b
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

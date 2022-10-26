@@ -26,7 +26,7 @@ description: POT 형식을 PDF 파일로 변환하는 샘플 Java 변환 코드.
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

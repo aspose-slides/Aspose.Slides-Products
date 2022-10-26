@@ -26,7 +26,7 @@ description: Código de muestra de Java para editar o ver metadatos en formato O
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

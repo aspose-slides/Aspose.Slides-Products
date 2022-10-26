@@ -26,7 +26,7 @@ description: نموذج كود Java لإلغاء تأمين ملف PPTX المح
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

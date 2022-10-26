@@ -26,7 +26,7 @@ description: Codice di esempio Java per sbloccare il file ODP protetto da passwo
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

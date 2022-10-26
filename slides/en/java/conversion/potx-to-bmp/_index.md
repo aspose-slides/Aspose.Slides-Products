@@ -26,7 +26,7 @@ description: Sample Java conversion code for POTX format to BMP file. Use this e
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

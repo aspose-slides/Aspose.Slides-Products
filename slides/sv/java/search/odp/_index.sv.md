@@ -26,7 +26,7 @@ description: Java-exempelkod för att söka efter ord med mönster i ODP-fil på
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

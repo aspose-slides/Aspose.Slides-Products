@@ -26,7 +26,7 @@ description: Exemple de code Java pour supprimer les annotations au format ODP s
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

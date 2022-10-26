@@ -26,7 +26,7 @@ description: Java 示例代碼，用於刪除 JSP/JSF 應用程序和桌面應�
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

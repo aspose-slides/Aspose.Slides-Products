@@ -26,7 +26,7 @@ description: Java-exempelkod för att låsa ODP-fil med lösenord på Java Runti
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

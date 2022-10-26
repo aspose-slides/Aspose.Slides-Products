@@ -26,7 +26,7 @@ description: Esempio di codice di conversione Java per il formato PPS in file HT
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

@@ -26,7 +26,7 @@ description: Java-exempelkod för att kombinera PPT-dokument i Java Runtime Envi
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

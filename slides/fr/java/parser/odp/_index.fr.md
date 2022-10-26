@@ -26,7 +26,7 @@ description: Exemple de code Java pour extraire du texte et des images d'un fich
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

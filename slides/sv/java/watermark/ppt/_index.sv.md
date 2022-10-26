@@ -26,7 +26,7 @@ description: Java-exempelkod för att lägga till eller ta bort vattenstämpel t
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

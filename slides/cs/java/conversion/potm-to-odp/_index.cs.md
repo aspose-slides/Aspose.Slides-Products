@@ -26,7 +26,7 @@ description: Ukázkový konverzní kód Java pro formát POTM na soubor ODP. Ten
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

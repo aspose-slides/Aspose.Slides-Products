@@ -26,7 +26,7 @@ description: Ukázkový kód Java pro uzamčení souboru PPT pomocí hesla v pro
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

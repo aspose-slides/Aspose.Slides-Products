@@ -26,7 +26,7 @@ description: SVG 파일로 PPTM 형식에 대한 샘플 Java 변환 코드. 이 
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

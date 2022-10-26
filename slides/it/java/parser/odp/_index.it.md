@@ -26,7 +26,7 @@ description: Codice di esempio Java per estrarre testo e immagini dal file ODP s
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

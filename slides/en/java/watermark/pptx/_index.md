@@ -26,7 +26,7 @@ description: Java sample code to add or remove watermark to PPTX file on Java Ru
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

@@ -26,7 +26,7 @@ description: JSP/JSF 응용 프로그램 및 데스크탑 응용 프로그램용
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

@@ -26,7 +26,7 @@ description: Przykładowy kod konwersji Java dla formatu PPSM do pliku PPS. Uży
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```

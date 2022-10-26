@@ -26,7 +26,7 @@ description: Exemplo de código de conversão Java para formato PPSM para arquiv
 <repository>
 <id>AsposeJavaAPI</id>
 <name>Aspose Java API</name>
-<url>https://repository.aspose.com/repo/</url>
+<url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```
