@@ -21,12 +21,12 @@ description: 用于将 JSP/JSF 应用程序和桌面应用程序的 Java 运行�
 
 {{% blocks/products/pf/agp/code-block title="存储库" offSpacer="true" %}}
 
-```cs
+```xml
 
 <repository>
-<id>AsposeJavaAPI</id>
-<name>Aspose Java API</name>
-<url>https://releases.aspose.com/java/repo/</url>
+    <id>AsposeJavaAPI</id>
+    <name>Aspose Java API</name>
+    <url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```
@@ -35,12 +35,12 @@ description: 用于将 JSP/JSF 应用程序和桌面应用程序的 Java 运行�
 
 {{% blocks/products/pf/agp/code-block title="依赖" offSpacer="true" %}}
 
-```cs
+```xml
 <dependency>
-<groupId>com.aspose</groupId>
-<artifactId>aspose-slides</artifactId>
-<version>version of aspose-slides API</version>
-<classifier>jdk17</classifier>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>version of aspose-slides API</version>
+    <classifier>jdk17</classifier>
 </dependency>
 
 ```

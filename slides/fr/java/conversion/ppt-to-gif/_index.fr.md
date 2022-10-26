@@ -21,12 +21,12 @@ description: Exemple de code de conversion Java pour le format PPT en fichier GI
 
 {{% blocks/products/pf/agp/code-block title="Dépôt" offSpacer="true" %}}
 
-```cs
+```xml
 
 <repository>
-<id>AsposeJavaAPI</id>
-<name>Aspose Java API</name>
-<url>https://releases.aspose.com/java/repo/</url>
+    <id>AsposeJavaAPI</id>
+    <name>Aspose Java API</name>
+    <url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```
@@ -35,12 +35,12 @@ description: Exemple de code de conversion Java pour le format PPT en fichier GI
 
 {{% blocks/products/pf/agp/code-block title="Dépendance" offSpacer="true" %}}
 
-```cs
+```xml
 <dependency>
-<groupId>com.aspose</groupId>
-<artifactId>aspose-slides</artifactId>
-<version>version of aspose-slides API</version>
-<classifier>jdk17</classifier>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>version of aspose-slides API</version>
+    <classifier>jdk17</classifier>
 </dependency>
 
 ```

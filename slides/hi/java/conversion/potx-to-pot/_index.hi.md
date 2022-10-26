@@ -21,12 +21,12 @@ description: POTX प्रारूप के लिए POT फ़ाइल क
 
 {{% blocks/products/pf/agp/code-block title="कोष" offSpacer="true" %}}
 
-```cs
+```xml
 
 <repository>
-<id>AsposeJavaAPI</id>
-<name>Aspose Java API</name>
-<url>https://releases.aspose.com/java/repo/</url>
+    <id>AsposeJavaAPI</id>
+    <name>Aspose Java API</name>
+    <url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```
@@ -35,12 +35,12 @@ description: POTX प्रारूप के लिए POT फ़ाइल क
 
 {{% blocks/products/pf/agp/code-block title="निर्भरता" offSpacer="true" %}}
 
-```cs
+```xml
 <dependency>
-<groupId>com.aspose</groupId>
-<artifactId>aspose-slides</artifactId>
-<version>version of aspose-slides API</version>
-<classifier>jdk17</classifier>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>version of aspose-slides API</version>
+    <classifier>jdk17</classifier>
 </dependency>
 
 ```

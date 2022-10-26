@@ -21,12 +21,12 @@ description: PPT 格式到 TIFF 文件的示例 Java 轉換代碼。使用此示
 
 {{% blocks/products/pf/agp/code-block title="存儲庫" offSpacer="true" %}}
 
-```cs
+```xml
 
 <repository>
-<id>AsposeJavaAPI</id>
-<name>Aspose Java API</name>
-<url>https://releases.aspose.com/java/repo/</url>
+    <id>AsposeJavaAPI</id>
+    <name>Aspose Java API</name>
+    <url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```
@@ -35,12 +35,12 @@ description: PPT 格式到 TIFF 文件的示例 Java 轉換代碼。使用此示
 
 {{% blocks/products/pf/agp/code-block title="依賴" offSpacer="true" %}}
 
-```cs
+```xml
 <dependency>
-<groupId>com.aspose</groupId>
-<artifactId>aspose-slides</artifactId>
-<version>version of aspose-slides API</version>
-<classifier>jdk17</classifier>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>version of aspose-slides API</version>
+    <classifier>jdk17</classifier>
 </dependency>
 
 ```

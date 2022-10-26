@@ -21,12 +21,12 @@ description: OTP 형식을 PPSM 파일로 변환하는 샘플 Java 변환 코드
 
 {{% blocks/products/pf/agp/code-block title="저장소" offSpacer="true" %}}
 
-```cs
+```xml
 
 <repository>
-<id>AsposeJavaAPI</id>
-<name>Aspose Java API</name>
-<url>https://releases.aspose.com/java/repo/</url>
+    <id>AsposeJavaAPI</id>
+    <name>Aspose Java API</name>
+    <url>https://releases.aspose.com/java/repo/</url>
 </repository>
 
 ```
@@ -35,12 +35,12 @@ description: OTP 형식을 PPSM 파일로 변환하는 샘플 Java 변환 코드
 
 {{% blocks/products/pf/agp/code-block title="의존" offSpacer="true" %}}
 
-```cs
+```xml
 <dependency>
-<groupId>com.aspose</groupId>
-<artifactId>aspose-slides</artifactId>
-<version>version of aspose-slides API</version>
-<classifier>jdk17</classifier>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>version of aspose-slides API</version>
+    <classifier>jdk17</classifier>
 </dependency>
 
 ```
