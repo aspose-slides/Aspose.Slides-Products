@@ -36,13 +36,13 @@ description: SVG 파일로 PPTM 형식에 대한 샘플 Java 변환 코드. 이 
 {{% blocks/products/pf/agp/code-block title="의존" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -36,13 +36,13 @@ description: PPSM 格式到 BMP 文件的示例 Java 轉換代碼。使用此示
 {{% blocks/products/pf/agp/code-block title="依賴" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -36,13 +36,13 @@ description: JSP/JSF 응용 프로그램 및 데스크탑 응용 프로그램용
 {{% blocks/products/pf/agp/code-block title="의존" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

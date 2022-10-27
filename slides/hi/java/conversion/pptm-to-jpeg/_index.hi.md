@@ -36,13 +36,13 @@ description: जेपीईजी फ़ाइल में पीपीटी�
 {{% blocks/products/pf/agp/code-block title="निर्भरता" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

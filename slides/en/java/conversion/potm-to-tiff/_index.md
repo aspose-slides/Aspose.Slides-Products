@@ -36,13 +36,13 @@ description: Sample Java conversion code for POTM format to TIFF file. Use this 
 {{% blocks/products/pf/agp/code-block title="Dependency" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

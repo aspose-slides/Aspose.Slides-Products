@@ -36,13 +36,13 @@ description: Esempio di codice di conversione Java per il formato PPS in file PP
 {{% blocks/products/pf/agp/code-block title="Dipendenza" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

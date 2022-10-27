@@ -36,13 +36,13 @@ description: Ukázka převodního kódu Java pro formát PPTX do souboru PDF. Te
 {{% blocks/products/pf/agp/code-block title="Závislost" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

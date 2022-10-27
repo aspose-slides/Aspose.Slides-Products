@@ -36,13 +36,13 @@ description: Beispiel-Java-Konvertierungscode für das OTP-Format in eine JPEG-D
 {{% blocks/products/pf/agp/code-block title="Abhängigkeit" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

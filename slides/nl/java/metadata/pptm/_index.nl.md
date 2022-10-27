@@ -36,13 +36,13 @@ description: Java-voorbeeldcode om metadata in PPTM-indeling te bewerken of te b
 {{% blocks/products/pf/agp/code-block title="Afhankelijkheid" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

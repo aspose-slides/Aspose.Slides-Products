@@ -36,13 +36,13 @@ description: एसडब्ल्यूएफ फ़ाइल में पी�
 {{% blocks/products/pf/agp/code-block title="निर्भरता" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

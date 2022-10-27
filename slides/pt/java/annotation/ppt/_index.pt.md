@@ -36,13 +36,13 @@ description: Código de amostra Java para excluir anotações de formato PPT no 
 {{% blocks/products/pf/agp/code-block title="Dependência" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

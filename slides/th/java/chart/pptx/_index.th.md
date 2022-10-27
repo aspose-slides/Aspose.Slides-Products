@@ -36,13 +36,13 @@ description: โค้ดตัวอย่าง Java เพื่อวาด�
 {{% blocks/products/pf/agp/code-block title="การพึ่งพา" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

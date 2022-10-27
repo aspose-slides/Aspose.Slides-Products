@@ -36,13 +36,13 @@ description: نموذج كود Java للبحث عن الكلمات ذات الن
 {{% blocks/products/pf/agp/code-block title="الاعتماد" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -36,13 +36,13 @@ description: کد نمونه جاوا برای ترکیب اسناد OTP در Ja
 {{% blocks/products/pf/agp/code-block title="وابستگی" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

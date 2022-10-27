@@ -36,13 +36,13 @@ description: Exemple de code Java pour combiner des documents POT sur l'environn
 {{% blocks/products/pf/agp/code-block title="Dépendance" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

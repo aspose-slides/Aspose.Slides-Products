@@ -36,13 +36,13 @@ description: PPTX 格式到 POTM 文件的示例 Java 转换代码。使用此�
 {{% blocks/products/pf/agp/code-block title="依赖" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

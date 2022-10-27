@@ -36,13 +36,13 @@ description: OTP形式からPDFファイルへのサンプルJava変換コード
 {{% blocks/products/pf/agp/code-block title="依存" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

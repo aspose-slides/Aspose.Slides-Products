@@ -36,13 +36,13 @@ description: Przykładowy kod Java do blokowania pliku ODP za pomocą hasła w �
 {{% blocks/products/pf/agp/code-block title="Magazyn" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

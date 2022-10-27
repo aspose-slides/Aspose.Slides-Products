@@ -36,13 +36,13 @@ description: Java sample code to lock PPT file using password on Java Runtime En
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

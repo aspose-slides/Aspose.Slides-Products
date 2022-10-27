@@ -36,13 +36,13 @@ description: POTM प्रारूप के लिए PPSX फ़ाइल �
 {{% blocks/products/pf/agp/code-block title="निर्भरता" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

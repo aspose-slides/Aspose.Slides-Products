@@ -36,13 +36,13 @@ description: Contoh kode konversi Java untuk format PPSM ke file TIFF. Gunakan k
 {{% blocks/products/pf/agp/code-block title="Ketergantungan" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

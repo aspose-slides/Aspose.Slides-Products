@@ -36,13 +36,13 @@ description: Exemple de code Java pour supprimer les annotations au format PPT s
 {{% blocks/products/pf/agp/code-block title="Dépendance" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

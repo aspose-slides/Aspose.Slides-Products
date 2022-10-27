@@ -36,13 +36,13 @@ description: Codice di esempio Java per combinare documenti ODP su Java Runtime 
 {{% blocks/products/pf/agp/code-block title="Dipendenza" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

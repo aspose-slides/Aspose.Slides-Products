@@ -36,13 +36,13 @@ description: Kode sampel Java untuk menambah atau menghapus tanda air ke file PP
 {{% blocks/products/pf/agp/code-block title="Ketergantungan" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

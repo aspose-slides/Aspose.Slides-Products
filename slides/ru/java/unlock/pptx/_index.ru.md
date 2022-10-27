@@ -36,13 +36,13 @@ description: Пример кода Java для разблокировки защ
 {{% blocks/products/pf/agp/code-block title="Зависимость" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

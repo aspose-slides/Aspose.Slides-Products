@@ -36,13 +36,13 @@ description: 用於在 JSP/JSF 應用程序和桌面應用程序的 Java 運行�
 {{% blocks/products/pf/agp/code-block title="依賴" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

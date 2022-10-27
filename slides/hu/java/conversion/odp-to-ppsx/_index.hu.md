@@ -36,13 +36,13 @@ description: Minta Java konverziós kód az ODP formátumhoz PPSX fájlba. Ezzel
 {{% blocks/products/pf/agp/code-block title="Függőség" offSpacer="true" %}}
 
 ```xml
+
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>version of aspose-slides API</version>
     <classifier>jdk17</classifier>
 </dependency>
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
