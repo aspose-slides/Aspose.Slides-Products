@@ -84,7 +84,7 @@ Call the save method to save the slides to HTML.
 using (Presentation pres = new Presentation())
     {
         pres.Slides.AddFromPdf("doc.pdf");
-        pres.Slides.RemoveAt(0); // remove default empty slide
+        pres.Slides.RemoveAt(0); // removes default empty slide
         pres.Save("doc.html", SaveFormat.Html);
     }
 ```

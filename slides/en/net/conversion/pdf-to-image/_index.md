@@ -84,7 +84,7 @@ Call the save method to save the slides as images.
 using (Presentation pres = new Presentation())
     {
         pres.Slides.AddFromPdf("doc.pdf");
-        pres.Slides.RemoveAt(0); // remove default empty slide
+        pres.Slides.RemoveAt(0); // removes default empty slide
 
         for (var index = 0; index < pres.Slides.Count; index++)
         {

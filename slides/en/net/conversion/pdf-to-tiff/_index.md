@@ -80,7 +80,7 @@ Call the save method to save the slides as TIFF images.
 using (Presentation pres = new Presentation())
     {
         pres.Slides.AddFromPdf("doc.pdf");
-        pres.Slides.RemoveAt(0); // remove default empty slide
+        pres.Slides.RemoveAt(0); // removes default empty slide
 
         pres.Save("doc.tiff", SaveFormat.Tiff);
     }
