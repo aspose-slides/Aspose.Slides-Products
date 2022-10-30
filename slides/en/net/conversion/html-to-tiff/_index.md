@@ -80,7 +80,7 @@ Save the document to TIFF.
 using (Presentation pres = new Presentation())
     {
         pres.Slides.AddFromHtml("page.html");
-        pres.Slides.RemoveAt(0); // remove default empty slide
+        pres.Slides.RemoveAt(0); // removes default empty slide
 
         pres.Save("doc.tiff", SaveFormat.Tiff);
     }
