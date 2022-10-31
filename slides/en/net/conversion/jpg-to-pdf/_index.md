@@ -40,7 +40,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert JPG to PDF in C#" >}}
+{{< blocks/products/pf/agp/feature-section-col title="How to Convert JPG to PDF in C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Developers and applications can convert JPG to PDF this way:" >}}
 
