@@ -40,7 +40,7 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 
-{{< blocks/products/pf/agp/feature-section-col title="Steps to Convert PDF to SVG in C#" >}}
+{{< blocks/products/pf/agp/feature-section-col title="How to Convert PDF to SVG in C#" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Developers and applications can convert PDF to SVG this way:" >}}
 
