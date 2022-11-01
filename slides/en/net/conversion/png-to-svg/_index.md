@@ -19,7 +19,7 @@ How do I convert PNG to SVG in code?
 
 Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), any developer or application can convert PNG to SVG with just a few lines of C# code.
 
-As a modern document processing API, Aspose.Slides for .NET exports PNG files to SVG images in other formats quickly. Aspose PowerPoint library allows you to convert PNG to SVG and images in other formats.
+As a modern document processing API, Aspose.Slides for .NET exports PNG files to SVG quickly. Aspose PowerPoint library allows you to convert PNG to SVG and images in other formats.
 
 To install Aspose.Slides: Open [NuGet](https://www.nuget.org/packages/aspose.slides.net) package manager. Search for Aspose.Slides and install it. 
  

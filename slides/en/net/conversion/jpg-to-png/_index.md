@@ -19,7 +19,7 @@ How do I convert JPG to PNG in code?
 
 Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), any developer or application can convert JPG to PNG with just a few lines of C# code.
 
-As a modern document processing API, Aspose.Slides for .NET exports JPG files to PNG images in other formats quickly. Aspose PowerPoint library allows you to convert JPG to PNG and images in other formats.
+As a modern document processing API, Aspose.Slides for .NET exports JPG files to PNG quickly. Aspose PowerPoint library allows you to convert JPG to PNG and images in other formats.
 
 To install Aspose.Slides: Open [NuGet](https://www.nuget.org/packages/aspose.slides.net) package manager. Search for Aspose.Slides and install it. 
  
