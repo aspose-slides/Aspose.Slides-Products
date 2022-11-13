@@ -1,36 +1,38 @@
 ---
-title:  Merge PDF Files in C#
-url: /net/merge/pdf-to-pdf
-keywords: Merge PDF, PDF to PDF, Join PDF, Combine PDF, C# API, .NET Library
-description: Merge PDF to PDF in C#. Use .NET library API to combine PDF files
+title:  Merge Images in C#
+url: /net/merge/image-to-image
+keywords: Merge image, image to image, Join images, Combine images, C# API, .NET Library
+description: Merge image to image in C#. Use .NET library API to combine images
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge PDF in C#" h2="Powerful cross-platform .NET API for merging PDF files using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge image in C#" h2="Powerful cross-platform .NET API for merging images using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge PDF to PDF using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Merge image to image using Aspose.Slides" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, convert, merge, and manipulate presentations, PDFs, and other documents. When you merge PDF to PDF, you are effectively combining pages from 2 documents to obtain one PDF file. Aspose.Slides allows you merge PDFs in different ways. You get to merge PDFs with all their shapes, styles, texts, formatting, etc.
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to merge and manipulate presentations, images, and other files. When you merge image to image, you are effectively combining two images to get one picture.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="Merge PDF to PDF in C#" %}}
-Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can merge PDF files quickly with just a few lines of code
+{{% blocks/products/pf/feature-page-section  h2="Merge image to image in C#" %}}
+Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can merge image files quickly with just a few lines of code
 
-{{% blocks/products/pf/agp/code-block title="C# code for merging PDF to PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C# code for merging image to image" offSpacer="true" %}}
 ```cs
 using (Presentation pres = new Presentation())
             {
-                pres.Slides.RemoveAt(0); // removes default empty slide
-                pres.Slides.AddFromPdf("firstFile.pdf");
-                pres.Slides.AddFromPdf("secondFile.pdf");
+                IPPImage image = pres.Images.AddImage(File.ReadAllBytes("imagepath1"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 360, 540, image);
 
-                pres.Save("merged.pdf", SaveFormat.Pdf);
+                IPPImage image2 = pres.Images.AddImage(File.ReadAllBytes("imagepath2"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 360, 0, 360, 540, image2);
+
+                pres.Slides[0].GetThumbnail(new Size(960, 720)).Save($"merged-image.png", ImageFormat.Png);
             }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -40,7 +42,7 @@ using (Presentation pres = new Presentation())
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge PDF in C# >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge images in C# >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
@@ -59,11 +61,11 @@ Create an instance of the Presentation class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the PDF files you want to merge.
+Load the images you want to merge as picture frames.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting PDF.
+Save the resulting image.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -77,8 +79,7 @@ Save the resulting PDF.
 
 {{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-jpg/" name="JPG to JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-jpg/" name="JPG to JPG" >}}    
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-html/" name="HTML TO HTML" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}  
