@@ -79,12 +79,15 @@ Save the resulting image.
 
 {{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-jpg/" name="JPG to JPG" >}}    
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-jpg/" name="JPG TO JPG" >}}    
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-html/" name="HTML TO HTML" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-pdf/" name="PNG TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/svg-to-png/" name="SVG TO PNG" >}} 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-bmp/" name="IMAGE TO BMP" >}} 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-image/" name="HTML TO IMAGE" >}}    
   
 
 
