@@ -33,7 +33,7 @@ xxx
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge JPG to PDF in C# >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge JPG to PDF in C#" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
