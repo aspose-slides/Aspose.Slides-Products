@@ -1,6 +1,6 @@
 ---
 title:  Merge PDF Files in C#
-url: /net/merge/pdf-to-pdf
+url: /net/merger/pdf-to-pdf
 keywords: Merge PDF, PDF to PDF, Join PDF, Combine PDF, C# API, .NET Library
 description: Merge PDF to PDF in C#. Use .NET library API to combine PDF files
 ---

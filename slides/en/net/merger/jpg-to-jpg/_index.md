@@ -1,6 +1,6 @@
 ---
 title:  Merge JPG Images in C#
-url: /net/merge/jpg-to-jpg
+url: /net/merger/jpg-to-jpg
 keywords: Merge JPG, JPG to JPG, Join JPG, Combine JPG, C# API, .NET Library
 description: Merge JPG to JPG in C#. Use .NET library API to combine JPG files
 ---

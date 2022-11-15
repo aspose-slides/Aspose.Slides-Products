@@ -1,6 +1,6 @@
 ---
 title:  Merge TIFF to PDF in C#
-url: /net/merge/tiff-to-pdf
+url: /net/merger/tiff-to-pdf
 keywords: TIFF to PDF, Merge TIFF to PDF, Join TIFF to PDF, PDF, TIFF, C# API, .NET Library
 description: Merge TIFF to PDF in C#. Use .NET library API to combine TIFF and PDF
 ---

@@ -1,6 +1,6 @@
 ---
 title:  Merge Image to PDF in C#
-url: /net/merge/image-to-pdf
+url: /net/merger/image-to-pdf
 keywords: Image to PDF, Merge Image to PDF, Join Image to PDF, PDF, Image, C# API, .NET Library
 description: Merge Image to PDF in C#. Use .NET library API to combine Image and PDF
 ---
@@ -33,7 +33,7 @@ xxx
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge Image to PDF in C# >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge Image to PDF in C#" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}

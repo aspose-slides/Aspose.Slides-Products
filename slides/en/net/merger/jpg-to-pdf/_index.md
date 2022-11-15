@@ -1,6 +1,6 @@
 ---
 title:  Merge JPG to PDF in C#
-url: /net/merge/jpg-to-pdf
+url: /net/merger/jpg-to-pdf
 keywords: JPG to PDF, Merge JPG to PDF, Join JPG to PDF, PDF, JPG, C# API, .NET Library
 description: Merge JPG to PDF in C#. Use .NET library API to combine JPG and PDF
 ---

@@ -1,6 +1,6 @@
 ---
 title:  Merge HTML Files in C#
-url: /net/merge/html-to-html
+url: /net/merger/html-to-html
 keywords: Merge HTML, HTML to HTML, Join HTML, Combine HTML, C# API, .NET Library
 description: Merge HTML to HTML in C#. Use .NET library API to combine HTML files
 ---

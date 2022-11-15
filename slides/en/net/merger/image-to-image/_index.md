@@ -1,6 +1,6 @@
 ---
 title:  Merge Images in C#
-url: /net/merge/image-to-image
+url: /net/merger/image-to-image
 keywords: Merge image, image to image, Join images, Combine images, C# API, .NET Library
 description: Merge image to image in C#. Use .NET library API to combine images
 ---

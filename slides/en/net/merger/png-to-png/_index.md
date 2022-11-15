@@ -1,6 +1,6 @@
 ---
 title:  Merge PNG Images in C#
-url: /net/merge/png-to-png
+url: /net/merger/png-to-png
 keywords: Merge PNG, PNG to PNG, Join PNG, Combine PNG, C# API, .NET Library
 description: Merge PNG to PNG in C#. Use .NET library API to combine PNG files
 ---
