@@ -40,10 +40,10 @@ using (Presentation pres = new Presentation())
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge PDF in C# >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge PDF in C#" >}}
 
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name= "" >}}
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
