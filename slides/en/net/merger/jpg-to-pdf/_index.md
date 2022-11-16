@@ -12,7 +12,7 @@ description: Merge JPG to PDF in C#. Use .NET library API to combine JPG and PDF
 
 {{% blocks/products/pf/feature-page-section h2="Merge JPG to PDF using Aspose.Slides" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, convert, merge, and manipulate presentations, PDFs, images, and other files. When you merge JPG to PDF, you are effectively combining an image and a document to obtain a single file.
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, convert, merge, and manipulate presentations, PDFs, images, and other files. When you merge JPG to PDF, you are effectively combining JPG images to get a single PDF file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -52,7 +52,7 @@ Create an instance of the Presentation class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the JPG and PDF files you want to merge together.
+Load the JPG files you want to merge together.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
