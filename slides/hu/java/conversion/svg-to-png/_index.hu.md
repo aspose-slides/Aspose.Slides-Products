@@ -1,0 +1,83 @@
+---
+title: Konvertálja a(z) SVG fájlt PNG formátumra Java nyelven
+url: /hu/java/conversion/svg-to-png/
+keywords: SVG to PNG, SVG konvertálása PNG formátumba, Java API, Java Library, SVG, PNG
+description: Konvertálja a(z) SVG fájlt PNG formátumra Java nyelven. Használja a Java könyvtár API-t a SVG fájlok konvertálásához PNG formátumúvá
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="Konvertálja a(z) SVG fájlt PNG formátumra Java nyelven" h2="Nagy sebességű és többplatformos Java Library, amely segít olyan alkalmazások fejlesztésében, amelyek képesek Microsoft PowerPoint és OpenOffice prezentációs fájlok létrehozására, egyesítésére, ellenőrzésére vagy konvertálására bármilyen szoftver, például Microsoft vagy Open Office, Adobe PDF használata nélkül." >}}
+
+{{% blocks/products/pf/feature-page-section h2="Konvertálja a(z) SVG fájlt PNG formátumra Java nyelven" %}}
+
+Az [**Aspose.Slides for Java**](https://products.aspose.com/slides/hu/java/) egy hatékony Java-könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a SVG PNG formátumra való konvertálására. Az **Aspose.Slides for Java** használatával bármely fejlesztő vagy alkalmazás képes a SVG fájlokat PNG fájlokra konvertálni, mindössze néhány soros Java kóddal.
+
+Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Java gyorsan exportál SVG fájlokat PNG fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) SVG fájl konvertálását PNG-re és sok más fájlformátumra
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="Konvertálja a(z) SVG fájlt PNG formátumra Java használatával" %}}
+A SVG formátum PNG formátumra konvertálásához létre kell hoznia egy prezentációt a SVG fájlból, és el kell mentenie PNG néven.
+
+{{% blocks/products/pf/agp/code-block title="Java kód a SVG PNG formátumba való konvertálásához" offSpacer="true" %}}
+
+```java
+
+Presentation pres = new Presentation();
+try {
+    String svgContent = new String(Files.readAllBytes(Paths.get("image.svg")));
+    ISvgImage svgImage = new SvgImage(svgContent);
+    IPPImage ppImage = pres.getImages().addImage(svgImage);
+    pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 
+			ppImage.getWidth(), ppImage.getHeight(), ppImage);
+    Dimension size = new Dimension(960, 720);
+    for (int index = 0; index < pres.getSlides().size(); index++)
+    {
+        ISlide slide = pres.getSlides().get_Item(index);
+        BufferedImage bufferedImage = slide.getThumbnail(size);
+        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+    }
+} finally {
+    if (pres != null) pres.dispose();
+}
+```
+
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="A SVG konvertálása PNG formátumba az Aspose.Slides for Java API segítségével" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a SVG PNG formátumra konvertálásához Java nyelven." >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/hu/java/).
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add a library reference (import the library) to your Java project.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Open the source SVG files in Java.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save result as PNG file.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="A(z) SVG konvertálása más támogatott formátumokká" subTitle="A SVG formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
+
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
