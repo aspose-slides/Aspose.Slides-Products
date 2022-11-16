@@ -24,7 +24,15 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for merging HTML to image" offSpacer="true" %}}
 ```cs
-xxx
+using (Presentation pres = new Presentation())
+            {
+                pres.Slides.RemoveAt(0); // remove default empty slide
+
+                pres.Slides.AddFromHtml("page_1.html");
+                pres.Slides.AddFromHtml("page_2.html");
+
+                pres.Slides[0].GetThumbnail(new Size(960, 720)).Save("MergedFile.png", ImageFormat.Png);
+            }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

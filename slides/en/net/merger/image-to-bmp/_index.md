@@ -24,7 +24,16 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for merging Image to BMP" offSpacer="true" %}}
 ```cs
-xxx
+ using (Presentation pres = new Presentation())
+            {
+                IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image1.png"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 100, 100, image);
+
+                IPPImage image2 = pres.Images.AddImage(File.ReadAllBytes("image2.png"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 200, 100, 100, image2);
+
+                pres.Slides[0].GetThumbnail(new Size(960, 720)).Save("MergedFile.bmp", ImageFormat.Bmp);
+            }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -52,7 +61,7 @@ Create an instance of the Presentation class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the images you want to merge together.
+Load the images you want to merge together as picture frames.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

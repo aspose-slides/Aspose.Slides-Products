@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation())
                 pres.Slides.AddFromPdf("firstFile.pdf");
                 pres.Slides.AddFromPdf("secondFile.pdf");
 
-                pres.Save("merged.pdf", SaveFormat.Pdf);
+                pres.Save("MergedFile.pdf", SaveFormat.Pdf);
             }
 ```
 {{% /blocks/products/pf/agp/code-block %}}

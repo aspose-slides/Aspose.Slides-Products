@@ -24,7 +24,16 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for merging JPG to PDF" offSpacer="true" %}}
 ```cs
-xxx
+using (Presentation pres = new Presentation())
+            {
+                IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image1.jpg"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 100, 100, image);
+
+                IPPImage image2 = pres.Images.AddImage(File.ReadAllBytes("image2.jpg"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 200, 100, 100, image2);
+
+                pres.Save("MergedFile.pdf", SaveFormat.Pdf);
+            }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -52,11 +61,11 @@ Create an instance of the Presentation class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the JPG files you want to merge together.
+Load the JPG images you want to merge together as picture frames.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting PDF.
+Save the resulting PDF file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 

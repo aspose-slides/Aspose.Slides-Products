@@ -24,7 +24,18 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for merging SVG to PNG" offSpacer="true" %}}
 ```cs
-xxx
+using (Presentation pres = new Presentation())
+            {
+                ISvgImage svgImage = new SvgImage("doc.svg");
+                IPPImage image = pres.Images.AddImage(svgImage);
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 360, 540, image);
+
+                ISvgImage svgImage2 = new SvgImage("doc.svg");
+                IPPImage image2 = pres.Images.AddImage(svgImage);
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 360, 0, 360, 540, image2);
+
+                pres.Slides[0].GetThumbnail(new Size(960, 720)).Save("MergedFile.png", ImageFormat.Png);
+            }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

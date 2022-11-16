@@ -24,7 +24,16 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for merging TIFF to PDF" offSpacer="true" %}}
 ```cs
-xxx
+using (Presentation pres = new Presentation())
+            {
+                IPPImage tiff1 = pres.Images.AddImage(File.ReadAllBytes("image1.tiff"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 100, 100, tiff1);
+
+                IPPImage tiff2 = pres.Images.AddImage(File.ReadAllBytes("image2.tiff"));
+                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 200, 100, 100, tiff2);
+
+                pres.Save("MergedFile.pdf", SaveFormat.Pdf);
+            }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -52,7 +61,7 @@ Create an instance of the Presentation class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the TIFF files you want to merge together.
+Load the TIFF files you want to merge as picture frames.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
