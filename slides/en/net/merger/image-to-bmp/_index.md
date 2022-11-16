@@ -1,28 +1,28 @@
 ---
-title:  Merge HTML Files in C#
-url: /net/merger/html-to-html
-keywords: Merge HTML, HTML to HTML, Join HTML, Combine HTML, C# API, .NET Library
-description: Merge HTML to HTML in C#. Use .NET library API to combine HTML files
+title:  Merge Image to BMP in C#
+url: /net/merger/image-to-bmp
+keywords: Image to BMP, Merge image to BMP, Join image to BMP, Combine images, Image, BMP, C# API, .NET Library
+description: Merge Image to BMP in C#. Use .NET library API to combine Images
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge HTML in C#" h2="Powerful cross-platform .NET API for merging HTML files using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge Image to BMP in C#" h2="Powerful cross-platform .NET API for merging Image to BMP files using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge HTML to HTML using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Merge Image to BMP using Aspose.Slides" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, convert, merge, and manipulate presentations, HTML files, and other documents. When you merge HTML to HTML, you are effectively combining the contents from 2 documents to obtain one HTML file. Aspose.Slides allows you merge HTML docs in different ways. You get to merge HTML with all their texts, formatting,styles, etc.
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, convert, merge, and manipulate presentations, PDFs, images, and other files. When you merge image to BMP, you are effectively combining images to obtain a single BMP file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="Merge HTML to HTML in C#" %}}
-Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can merge HTML files quickly with just a few lines of code
+{{% blocks/products/pf/feature-page-section  h2="Merge Image to BMP in C#" %}}
+Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can merge image to BMP quickly with just a few lines of code
 
-{{% blocks/products/pf/agp/code-block title="C# code for merging HTML to HTML" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C# code for merging Image to BMP" offSpacer="true" %}}
 ```cs
 xxx
 ```
@@ -33,7 +33,7 @@ xxx
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge HTML in C#" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge Image to BMP in C#" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
@@ -52,11 +52,11 @@ Create an instance of the Presentation class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the HTML files you want to merge.
+Load the images you want to merge together.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting HTML doc.
+Save the resulting BMP file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -72,13 +72,12 @@ Save the resulting HTML doc.
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-jpg/" name="JPG TO JPG" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/pdf-to-pdf/" name="PDF TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-html/" name="HTML TO HTML" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/pdf-to-pdf/" name="PDF TO PDF" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-pdf/" name="PNG TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-bmp/" name="IMAGE TO BMP" >}} 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-image/" name="HTML TO IMAGE" >}}  
   
 
