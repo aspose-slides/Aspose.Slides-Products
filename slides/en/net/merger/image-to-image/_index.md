@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
                 IPPImage image2 = pres.Images.AddImage(File.ReadAllBytes("imagepath2"));
                 pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 360, 0, 360, 540, image2);
 
-                pres.Slides[0].GetThumbnail(new Size(960, 720)).Save($"merged-image.png", ImageFormat.Png);
+                pres.Slides[0].GetThumbnail(new Size(960, 720)).Save("merged-image.png", ImageFormat.Png);
             }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
