@@ -1,0 +1,83 @@
+---
+title: แปลง SVG เป็น PNG ใน Java
+url: /th/java/conversion/svg-to-png/
+keywords: SVG เป็น PNG, แปลง SVG เป็น PNG, Java API, Java Library, SVG, PNG
+description: แปลง SVG เป็น PNG ใน Java ใช้ Java library API เพื่อแปลงไฟล์ SVG เป็น PNG
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="แปลง SVG เป็น PNG ใน Java" h2="Java Library ความเร็วสูงและข้ามแพลตฟอร์มที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
+
+{{% blocks/products/pf/feature-page-section h2="แปลง SVG เป็น PNG ใน Java" %}}
+
+[**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/) เป็นไลบรารี Java ที่ทรงพลังสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ ยังมีวิธีที่ยืดหยุ่นในการแปลง SVG เป็น PNG เมื่อใช้ **Aspose.Slides สำหรับ Java** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ SVG เป็น PNG ด้วยโค้ด Java เพียงไม่กี่บรรทัด
+
+ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Java จะส่งออกไฟล์ SVG เป็นรูปแบบไฟล์ PNG ได้อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลง SVG เป็น PNG และรูปแบบไฟล์อื่นๆ อีกมากมาย
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="แปลง SVG เป็น PNG โดยใช้ Java" %}}
+หากต้องการแปลง SVG เป็น PNG คุณจะต้องสร้างงานนำเสนอจากไฟล์ SVG และบันทึกเป็น PNG
+
+{{% blocks/products/pf/agp/code-block title="โค้ด Java สำหรับแปลง SVG เป็น PNG" offSpacer="true" %}}
+
+```java
+
+Presentation pres = new Presentation();
+try {
+    String svgContent = new String(Files.readAllBytes(Paths.get("image.svg")));
+    ISvgImage svgImage = new SvgImage(svgContent);
+    IPPImage ppImage = pres.getImages().addImage(svgImage);
+    pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 
+			ppImage.getWidth(), ppImage.getHeight(), ppImage);
+    Dimension size = new Dimension(960, 720);
+    for (int index = 0; index < pres.getSlides().size(); index++)
+    {
+        ISlide slide = pres.getSlides().get_Item(index);
+        BufferedImage bufferedImage = slide.getThumbnail(size);
+        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+    }
+} finally {
+    if (pres != null) pres.dispose();
+}
+```
+
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="วิธีแปลง SVG เป็น PNG โดยใช้ Aspose.Slides สำหรับ Java API" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแปลง SVG เป็น PNG ใน Java" >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/th/java/).
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Add a library reference (import the library) to your Java project.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Open the source SVG files in Java.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Save result as PNG file.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="แปลง SVG เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง SVG และบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
+
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
