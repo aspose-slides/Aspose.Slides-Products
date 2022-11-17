@@ -1,6 +1,6 @@
 ---
 title:  Merge JPG to PDF in C#
-url: /net/merger/jpg-to-pdf
+url: /net/merger/jpg-to-pdf/
 keywords: JPG to PDF, Merge JPG to PDF, Join JPG to PDF, PDF, JPG, C# API, .NET Library
 description: Merge JPG to PDF in C#. Use .NET library API to combine JPG and PDF
 ---
@@ -25,15 +25,15 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 {{% blocks/products/pf/agp/code-block title="C# code for merging JPG to PDF" offSpacer="true" %}}
 ```cs
 using (Presentation pres = new Presentation())
-            {
-                IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image1.jpg"));
-                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 100, 100, image);
+{
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image1.jpg"));
+    pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 100, 100, image);
 
-                IPPImage image2 = pres.Images.AddImage(File.ReadAllBytes("image2.jpg"));
-                pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 200, 100, 100, image2);
+    IPPImage image2 = pres.Images.AddImage(File.ReadAllBytes("image2.jpg"));
+    pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 200, 100, 100, image2);
 
-                pres.Save("MergedFile.pdf", SaveFormat.Pdf);
-            }
+    pres.Save("MergedFile.pdf", SaveFormat.Pdf);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -79,16 +79,16 @@ Save the resulting PDF file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/jpg-to-jpg/" name="JPG TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/png-to-pdf/" name="PNG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merge/html-to-image/" name="HTML TO IMAGE" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/png-to-pdf/" name="PNG TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/svg-to-png/" name="SVG TO PNG" >}} 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/merger/html-to-image/" name="HTML TO IMAGE" >}}  
   
 
 
