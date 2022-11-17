@@ -46,19 +46,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="これらは、Java で Image を PDF に変換する手順です。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ja/java/).
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/ja/java/) をインストールします。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+ライブラリ参照を Java プロジェクトに追加 (ライブラリをインポート) します。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source Image files in Java.
+ソース Image ファイルを Java で開きます。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PDF file.
+結果を PDF ファイルとして保存します。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

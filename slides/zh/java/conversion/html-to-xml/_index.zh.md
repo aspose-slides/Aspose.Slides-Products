@@ -55,19 +55,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="这些是在 Java 中将 HTML 转换为 XML 的步骤。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/zh/java/).
+安装 [**Aspose.Slides for Java**](https://products.aspose.com/slides/zh/java/)。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+将库引用（导入库）添加到您的 Java 项目。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+在 Java 中打开源 HTML 文件。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as XML file.
+将结果保存为 XML 文件。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

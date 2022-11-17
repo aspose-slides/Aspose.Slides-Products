@@ -44,19 +44,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk mengonversi PDF ke PPT di Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/id/java/).
+Instal [**Aspose.Slides for Java**](https://products.aspose.com/slides/id/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Java Anda.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+Buka file sumber PDF di Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PPT file.
+Simpan hasilnya sebagai file PPT.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

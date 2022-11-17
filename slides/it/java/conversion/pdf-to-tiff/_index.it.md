@@ -44,19 +44,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per convertire PDF in TIFF in Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/it/java/).
+Installa [**Aspose.Slides per Java**](https://products.aspose.com/slides/it/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Aggiungi un riferimento alla libreria (importa la libreria) al tuo progetto Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+Apri i file di origine PDF in Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as TIFF file.
+Salva il risultato come file TIFF.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

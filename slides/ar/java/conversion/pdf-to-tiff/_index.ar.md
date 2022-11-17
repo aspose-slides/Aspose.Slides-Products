@@ -44,19 +44,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات تحويل PDF إلى TIFF في جافا." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ar/java/).
+قم بتثبيت [** Aspose.Slides for Java **](https://products.aspose.com/slides/ar/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+أضف مرجع مكتبة (استيراد المكتبة) إلى مشروع Java الخاص بك.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+افتح المصدر من ملفات PDF بجافا.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as TIFF file.
+حفظ النتيجة كملف TIFF.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

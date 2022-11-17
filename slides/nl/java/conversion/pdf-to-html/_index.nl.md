@@ -44,19 +44,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om PDF naar HTML in Java te converteren." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/nl/java/).
+Installeer [**Aspose.Slides voor Java**](https://products.aspose.com/slides/nl/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Voeg een bibliotheekreferentie toe (importeer de bibliotheek) aan uw Java-project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+Open de bronbestanden PDF in Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as HTML file.
+Sla resultaat op als HTML bestand.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

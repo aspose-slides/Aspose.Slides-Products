@@ -52,19 +52,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Konvertieren von JPG in PNG in Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/de/java/).
+Installieren Sie [**Aspose.Slides für Java**](https://products.aspose.com/slides/de/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Fügen Sie Ihrem Java-Projekt eine Bibliotheksreferenz hinzu (importieren Sie die Bibliothek).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source JPG files in Java.
+Öffnen Sie die Quelldateien JPG in Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PNG file.
+Ergebnis als PNG-Datei speichern.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

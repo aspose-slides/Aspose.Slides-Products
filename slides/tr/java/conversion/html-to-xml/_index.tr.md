@@ -55,19 +55,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, Java'da HTML biçimini XML biçimine dönüştürme adımlarıdır." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/tr/java/).
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/tr/java/) yükleyin.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Java projenize bir kitaplık referansı ekleyin (kütüphaneyi içe aktarın).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+Kaynak HTML dosyalarını Java'da açın.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as XML file.
+Sonucu XML dosyası olarak kaydedin.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

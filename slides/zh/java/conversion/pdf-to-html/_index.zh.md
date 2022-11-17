@@ -44,19 +44,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="这些是在 Java 中将 PDF 转换为 HTML 的步骤。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/zh/java/).
+安装 [**Aspose.Slides for Java**](https://products.aspose.com/slides/zh/java/)。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+将库引用（导入库）添加到您的 Java 项目。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+在 Java 中打开源 PDF 文件。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as HTML file.
+将结果保存为 HTML 文件。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

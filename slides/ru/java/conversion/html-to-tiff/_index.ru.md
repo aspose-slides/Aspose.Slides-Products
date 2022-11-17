@@ -45,19 +45,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для преобразования HTML в TIFF в Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ru/java/).
+Установите [**Aspose.Slides для Java**](https://products.aspose.com/slides/ru/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Добавьте ссылку на библиотеку (импортируйте библиотеку) в свой проект Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+Откройте исходные файлы HTML в Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as TIFF file.
+Сохранить результат как файл TIFF.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

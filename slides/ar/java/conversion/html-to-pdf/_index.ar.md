@@ -45,19 +45,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات تحويل HTML إلى PDF في جافا." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ar/java/).
+قم بتثبيت [** Aspose.Slides for Java **](https://products.aspose.com/slides/ar/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+أضف مرجع مكتبة (استيراد المكتبة) إلى مشروع Java الخاص بك.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+افتح المصدر من ملفات HTML بجافا.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PDF file.
+حفظ النتيجة كملف PDF.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

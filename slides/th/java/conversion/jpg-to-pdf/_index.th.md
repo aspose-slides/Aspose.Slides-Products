@@ -46,19 +46,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแปลง JPG เป็น PDF ใน Java" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/th/java/).
+ติดตั้ง [**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/)
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ไปยังโปรเจ็กต์ Java ของคุณ
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source JPG files in Java.
+เปิดซอร์สไฟล์ JPG ใน Java
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PDF file.
+บันทึกผลลัพธ์เป็นไฟล์ PDF
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

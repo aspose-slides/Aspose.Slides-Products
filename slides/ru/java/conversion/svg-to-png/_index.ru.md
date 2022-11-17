@@ -54,19 +54,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для преобразования SVG в PNG в Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ru/java/).
+Установите [**Aspose.Slides для Java**](https://products.aspose.com/slides/ru/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Добавьте ссылку на библиотеку (импортируйте библиотеку) в свой проект Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source SVG files in Java.
+Откройте исходные файлы SVG в Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PNG file.
+Сохранить результат как файл PNG.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

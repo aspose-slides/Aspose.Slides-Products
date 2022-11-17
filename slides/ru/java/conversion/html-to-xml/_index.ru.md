@@ -55,19 +55,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для преобразования HTML в XML в Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ru/java/).
+Установите [**Aspose.Slides для Java**](https://products.aspose.com/slides/ru/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Добавьте ссылку на библиотеку (импортируйте библиотеку) в свой проект Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+Откройте исходные файлы HTML в Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as XML file.
+Сохранить результат как файл XML.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

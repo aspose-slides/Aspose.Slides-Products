@@ -52,19 +52,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để chuyển đổi Image thành JPG trong Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/vi/java/).
+Cài đặt [**Aspose.Slides cho Java**](https://products.aspose.com/slides/vi/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Thêm tham chiếu thư viện (nhập thư viện) vào dự án Java của bạn.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source Image files in Java.
+Mở các tệp Image nguồn trong Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
+Lưu kết quả dưới dạng tệp JPG.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

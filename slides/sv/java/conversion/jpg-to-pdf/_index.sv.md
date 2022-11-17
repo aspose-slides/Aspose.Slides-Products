@@ -46,19 +46,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att konvertera JPG till PDF i Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/).
+Installera [**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Lägg till en biblioteksreferens (importera biblioteket) till ditt Java-projekt.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source JPG files in Java.
+Öppna källfilerna JPG i Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PDF file.
+Spara resultatet som PDF-fil.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
