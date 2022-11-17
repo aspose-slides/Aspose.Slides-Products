@@ -55,19 +55,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแปลง HTML เป็น XML ใน Java" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/th/java/).
+ติดตั้ง [**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/)
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ไปยังโปรเจ็กต์ Java ของคุณ
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+เปิดซอร์สไฟล์ HTML ใน Java
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as XML file.
+บันทึกผลลัพธ์เป็นไฟล์ XML
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

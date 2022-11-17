@@ -50,19 +50,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Java에서 PDF을 PNG으로 변환하는 단계입니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/ko/java/).
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/ko/java/)를 설치합니다.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Java 프로젝트에 라이브러리 참조를 추가합니다(라이브러리 가져오기).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+Java에서 소스 PDF 파일을 엽니다.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PNG file.
+결과를 PNG 파일로 저장합니다.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

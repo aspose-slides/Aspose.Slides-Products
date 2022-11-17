@@ -52,19 +52,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att konvertera Image till JPG i Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/).
+Installera [**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Lägg till en biblioteksreferens (importera biblioteket) till ditt Java-projekt.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source Image files in Java.
+Öppna källfilerna Image i Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
+Spara resultatet som JPG-fil.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

@@ -46,19 +46,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Konvertieren von Image in PDF in Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/de/java/).
+Installieren Sie [**Aspose.Slides für Java**](https://products.aspose.com/slides/de/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Fügen Sie Ihrem Java-Projekt eine Bibliotheksreferenz hinzu (importieren Sie die Bibliothek).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source Image files in Java.
+Öffnen Sie die Quelldateien Image in Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as PDF file.
+Ergebnis als PDF-Datei speichern.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

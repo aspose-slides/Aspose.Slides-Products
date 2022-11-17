@@ -51,19 +51,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای تبدیل HTML به JPG در جاوا است." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/).
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/) را نصب کنید.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه جاوا خود اضافه کنید.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+فایل های منبع HTML را در جاوا باز کنید.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
+نتیجه را به عنوان فایل JPG ذخیره کنید.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

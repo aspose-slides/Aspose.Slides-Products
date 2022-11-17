@@ -52,19 +52,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="ये जावा में JPG को Image में बदलने के चरण हैं।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/hi/java/).
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/hi/java/) इंस्टॉल करें।
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+अपने जावा प्रोजेक्ट में लाइब्रेरी संदर्भ (लाइब्रेरी आयात करें) जोड़ें।
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source JPG files in Java.
+जावा में स्रोत JPG फ़ाइलें खोलें।
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as Image file.
+परिणाम को Image फ़ाइल के रूप में सहेजें।
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

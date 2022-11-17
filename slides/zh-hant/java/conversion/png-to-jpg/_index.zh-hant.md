@@ -52,19 +52,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="這些是在 Java 中將 PNG 轉換為 JPG 的步驟。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/zh-hant/java/).
+安裝 [**Aspose.Slides for Java**](https://products.aspose.com/slides/zh-hant/java/)。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+將庫引用（導入庫）添加到您的 Java 項目。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PNG files in Java.
+在 Java 中打開源 PNG 文件。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
+將結果保存為 JPG 文件。
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

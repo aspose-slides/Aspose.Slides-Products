@@ -52,19 +52,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a JPG Image formátumra konvertálásához Java nyelven." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/hu/java/).
+Telepítse az [**Aspose.Slides for Java**] programot (https://products.aspose.com/slides/hu/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Java projekthez.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source JPG files in Java.
+Nyissa meg a forrás JPG fájljait Java nyelven.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as Image file.
+Az eredmény mentése Image fájlként.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

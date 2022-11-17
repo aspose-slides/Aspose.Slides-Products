@@ -51,19 +51,19 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k převodu HTML do Image v Javě." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/).
+Nainstalujte [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Java project.
+Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+Otevřete zdrojové soubory HTML v Javě.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as Image file.
+Uložit výsledek jako soubor Image.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
