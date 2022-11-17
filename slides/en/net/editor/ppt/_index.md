@@ -79,8 +79,8 @@ Save the changed PowerPoint file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/edit/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/edit/html/" name="Edit HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/editor/html/" name="Edit HTML" >}}  
 
 
 
