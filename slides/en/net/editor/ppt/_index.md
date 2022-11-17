@@ -1,6 +1,6 @@
 ---
 title:  Edit PPT in C#
-url: /net/editor/ppt
+url: /net/editor/ppt/
 keywords: Edit PPT, Edit PowerPoint, PPT, PowerPoint, C# API, .NET Library
 description: Edit PPT in C#. Use .NET library API to edit PowerPoint presentation
 ---
@@ -25,11 +25,11 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 {{% blocks/products/pf/agp/code-block title="C# code for editing PPT" offSpacer="true" %}}
 ```cs
 using (Presentation presentation = new Presentation("pres.ppt"))
-            {
-                AutoShape shape = (AutoShape) presentation.Slides[0].Shapes[0];
-                shape.TextFrame.Text = "New text";
-                presentation.Save("pres.ppt", SaveFormat.Ppt);
-            }
+{
+    AutoShape shape = (AutoShape)presentation.Slides[0].Shapes[0];
+    shape.TextFrame.Text = "New text";
+    presentation.Save("pres.ppt", SaveFormat.Ppt);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

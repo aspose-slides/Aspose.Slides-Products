@@ -1,6 +1,6 @@
 ---
 title:  Edit PDF in C#
-url: /net/editor/pdf
+url: /net/editor/pdf/
 keywords: Edit PDF, PDF, C# API, .NET Library
 description: Edit PDF in C#. Use .NET library API to edit PDF document
 ---
@@ -25,15 +25,15 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 {{% blocks/products/pf/agp/code-block title="C# code for editing PDF" offSpacer="true" %}}
 ```cs
 using (Presentation pres = new Presentation())
-            {
-                pres.Slides.RemoveAt(0); // remove default empty slide
-                pres.Slides.AddFromPdf("doc.pdf");
+{
+    pres.Slides.RemoveAt(0); // remove default empty slide
+    pres.Slides.AddFromPdf("doc.pdf");
 
-                AutoShape shape = (AutoShape) pres.Slides[0].Shapes[0];
-                shape.TextFrame.Text = "New text";
+    AutoShape shape = (AutoShape)pres.Slides[0].Shapes[0];
+    shape.TextFrame.Text = "New text";
 
-                pres.Save("doc.pdf", SaveFormat.Pdf);
-            }
+    pres.Save("doc.pdf", SaveFormat.Pdf);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

@@ -1,6 +1,6 @@
 ---
 title:  Edit HTML in C#
-url: /net/editor/html
+url: /net/editor/html/
 keywords: Edit HTML, HTML, C# API, .NET Library
 description: Edit HTML in C#. Use .NET library API to edit HTML file
 ---
@@ -25,15 +25,15 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 {{% blocks/products/pf/agp/code-block title="C# code for editing HTML" offSpacer="true" %}}
 ```cs
 using (Presentation pres = new Presentation())
-            {
-                pres.Slides.RemoveAt(0); // removes default empty slide
-                pres.Slides.AddFromHtml("page.html");
+{
+    pres.Slides.RemoveAt(0); // removes default empty slide
+    pres.Slides.AddFromHtml("page.html");
 
-                AutoShape shape = (AutoShape) pres.Slides[0].Shapes[0];
-                shape.TextFrame.Text = "New text";
+    AutoShape shape = (AutoShape)pres.Slides[0].Shapes[0];
+    shape.TextFrame.Text = "New text";
 
-                pres.Save("page.html", SaveFormat.Html);
-            }
+    pres.Save("page.html", SaveFormat.Html);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -84,7 +84,7 @@ Save the changed HTML file.
 {{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/edit/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/edit/pdf" name="Edit PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/edit/pdf/" name="Edit PDF" >}}  
 
 
 
