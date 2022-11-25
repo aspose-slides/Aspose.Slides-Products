@@ -48,6 +48,7 @@ foreach (var slide in presentation.Slides)
 
     builder.InsertBreak(BreakType.PageBreak);
 }
+doc.Save("document.docx");
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
