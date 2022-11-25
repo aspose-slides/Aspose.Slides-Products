@@ -22,7 +22,15 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for converting HTML to PPT" offSpacer="true" %}}
 ```cs
-xxx
+using (var presentation = new Presentation())
+{
+    using (var htmlStream = File.OpenRead("page.html"))
+    {
+        presentation.Slides.AddFromHtml(htmlStream);
+    }
+
+    presentation.Save("Presentation.ppt", SaveFormat.Ppt);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

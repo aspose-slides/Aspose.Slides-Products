@@ -22,7 +22,15 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for converting HTML to PPTX" offSpacer="true" %}}
 ```cs
-xxx
+using (var presentation = new Presentation())
+{
+    using (var htmlStream = File.OpenRead("page.html"))
+    {
+        presentation.Slides.AddFromHtml(htmlStream);
+    }
+
+    presentation.Save("Presentation.pptx", SaveFormat.Pptx);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

@@ -22,7 +22,11 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for converting PDF to PPTX" offSpacer="true" %}}
 ```cs
-xxx
+using (Presentation pres = new Presentation())
+{
+    pres.Slides.AddFromPdf("InputPDF.pdf");
+    pres.Save("OutputPresentation.pptx", SaveFormat.Pptx);
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
