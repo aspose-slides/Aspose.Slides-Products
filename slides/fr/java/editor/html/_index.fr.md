@@ -1,0 +1,104 @@
+---
+title: Modifier HTML en Java
+url: /fr/java/editor/html/
+keywords: Modifier HTML, HTML, API Java, bibliothèque Java
+description: Modifier HTML en Java. Utiliser l'API de la bibliothèque Java pour modifier le fichier HTML
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="Modifier HTML en Java" h2="Bibliothèque Java haute vitesse et multiplateforme pour l'édition HTML à l'aide de code Java" >}}
+
+{{% blocks/products/pf/feature-page-section h2="Modifier le code HTML à l'aide d'Aspose.Slides" %}}
+
+[**Aspose.Slides pour Java**](https://products.aspose.com/slides/fr/java/) est une puissante bibliothèque Java utilisée pour manipuler et modifier des présentations, des documents HTML et d'autres fichiers. Vous pouvez modifier un document HTML en y ajoutant une nouvelle ligne de texte. 
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+
+
+
+{{% blocks/products/pf/feature-page-section  h2="Modifier HTML en Java" %}}
+En utilisant [**Aspose.Slides pour Java**](https://products.aspose.com/slides/fr/java/), vous pouvez ajouter une nouvelle ligne de texte à un document HTML avec seulement quelques lignes de code.
+
+{{% blocks/products/pf/agp/code-block title="Code Java pour l'édition HTML" offSpacer="true" %}}
+```java
+
+Presentation pres = new Presentation();
+try {
+    pres.getSlides().removeAt(0);
+    FileInputStream htmlStream = new FileInputStream("page.html");
+    try {
+        pres.getSlides().addFromHtml(htmlStream);
+    } finally {
+        if (htmlStream != null) htmlStream.close();
+    }
+
+    ISlide slide = pres.getSlides().get_Item(0);
+    IAutoShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 100, 50);
+    shape.getTextFrame().setText("New text");
+
+    pres.save("page.html", SaveFormat.Html5);
+} catch(IOException e) {
+} finally {
+    if (pres != null) pres.dispose();
+}
+```
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+
+
+
+{{< blocks/products/pf/feature-page-section  h2="Comment éditer du HTML en Java" >}}
+
+
+{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Installez **Aspose.Slides pour Java**. Voir [**Installation**](https://docs.aspose.com/slides/java/installation/).
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Ajoutez la bibliothèque comme référence dans votre projet.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Créez une instance de la classe Presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Chargez le document HTML que vous souhaitez modifier.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Ajoutez une nouvelle ligne de texte.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Enregistrez le fichier HTML modifié.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+
+
+
+{{< blocks/products/pf/agp/other-supported-section title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/editor/pdf/" name="Edit PDF" >}}  
+
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
