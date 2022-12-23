@@ -1,0 +1,95 @@
+---
+title: Editar HTML en C++
+url: /es/cpp/editor/html/
+keywords: Editar HTML, HTML, API de C++, biblioteca de C++
+description: Editar HTML en C++. Use la API de la biblioteca C++ para editar el archivo HTML
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="Editar HTML en C++" h2="Biblioteca C++ de alta velocidad y multiplataforma para editar HTML usando código C++" >}}
+
+{{% blocks/products/pf/feature-page-section h2="Editar HTML usando Aspose.Slides" %}}
+
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/es/cpp/) es una potente biblioteca de C++ que se utiliza para manipular y editar presentaciones, documentos HTML y otros archivos. Puede editar un documento HTML añadiéndole una nueva línea de texto. 
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+
+
+
+{{% blocks/products/pf/feature-page-section  h2="Editar HTML en C++" %}}
+Usando [**Aspose.Slides para C++**](https://products.aspose.com/slides/es/cpp/), puede agregar una nueva línea de texto a un documento HTML con solo unas pocas líneas de código.
+
+{{% blocks/products/pf/agp/code-block title="Código C++ para editar HTML" offSpacer="true" %}}
+```cpp
+
+auto pres = System::MakeObject<Presentation>();
+
+pres->get_Slides()->RemoveAt(0);
+pres->get_Slides()->AddFromHtml(htmlText1);
+
+auto slide = pres->get_Slides()->idx_get(0);
+auto shape = slide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 10.0f, 10.0f, 100.0f, 50.0f);
+shape->get_TextFrame()->set_Text(u"New text");
+
+pres->Save(u"page.html", SaveFormat::Html5);
+```
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+
+
+
+{{< blocks/products/pf/feature-page-section  h2="Cómo editar HTML en C++" >}}
+
+
+{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Instale **Aspose.Slides para C++**. Consulte [**Instalación**](https://docs.aspose.com/slides/cpp/installation/).
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Agregue la biblioteca como referencia en su proyecto.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Crea una instancia de la clase Presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Cargue el documento HTML que desea editar.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Agrega una nueva línea de texto.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Guarde el archivo HTML modificado.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+
+
+
+{{< blocks/products/pf/agp/other-supported-section title="Editar otros archivos" subTitle="También puedes editar archivos en otros formatos" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/editor/pdf/" name="Edit PDF" >}}  
+
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
