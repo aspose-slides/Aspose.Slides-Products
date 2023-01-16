@@ -19,7 +19,7 @@ Bagaimana cara mengonversi HTML ke XML dalam kode?
 
 Menggunakan [**Aspose.Slides for .NET**](https://products.aspose.com/slides/id/net/), pengembang atau aplikasi apa pun dapat mengonversi file HTML ke XML hanya dengan beberapa baris kode C#.
 
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET mengekspor konten dalam HTML ke XML dengan cepat. Pustaka Apose PowerPoint memungkinkan Anda untuk mengonversi HTML ke XML dan banyak format file lainnya.
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET mengekspor konten dalam HTML ke XML dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda untuk mengonversi HTML ke XML dan banyak format file lainnya.
 
 Untuk menginstal Aspose.Slides: Buka [NuGet](https://www.nuget.org/packages/aspose.slides.net) pengelola paket. Cari *Aspose.Slides* dan instal.
  

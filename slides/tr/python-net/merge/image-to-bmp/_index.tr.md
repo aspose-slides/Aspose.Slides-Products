@@ -54,7 +54,7 @@ with slides.Presentation() as pres:
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-**Apose.Slides for Python'u .NET üzerinden** kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/python-net/installation/).
+**Aspose.Slides for Python'u .NET üzerinden** kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/python-net/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

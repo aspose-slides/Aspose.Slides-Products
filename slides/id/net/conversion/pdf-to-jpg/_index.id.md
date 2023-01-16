@@ -19,7 +19,7 @@ Bagaimana cara mengonversi PDF ke JPG dalam kode?
 
 Menggunakan [**Aspose.Slides for .NET**](https://products.aspose.com/slides/id/net/), pengembang atau aplikasi apa pun dapat mengonversi PDF ke format JPG hanya dengan beberapa baris kode C#.
 
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET mengekspor halaman PDF ke JPG dengan cepat. Perpustakaan Apose PowerPoint memungkinkan Anda mengonversi PDF ke JPG dan banyak format file lainnya
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET mengekspor halaman PDF ke JPG dengan cepat. Perpustakaan Aspose PowerPoint memungkinkan Anda mengonversi PDF ke JPG dan banyak format file lainnya
 
 Untuk menginstal Aspose.Slides: Buka [NuGet](https://www.nuget.org/packages/aspose.slides.net) pengelola paket. Cari *Aspose.Slides* dan instal.
  

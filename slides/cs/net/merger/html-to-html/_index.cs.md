@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte **Apose.Slides for .NET**. Viz [**Instalace**](https://docs.aspose.com/slides/net/installation/).
+Nainstalujte **Aspose.Slides for .NET**. Viz [**Instalace**](https://docs.aspose.com/slides/net/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

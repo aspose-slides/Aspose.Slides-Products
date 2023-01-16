@@ -19,7 +19,7 @@ Bagaimana cara mengonversi PNG ke PDF secara terprogram?
 
 Menggunakan [**Aspose.Slides for .NET**](https://products.aspose.com/slides/id/net/), pengembang atau aplikasi apa pun dapat mengonversi PNG ke format PDF hanya dengan beberapa baris kode C#.
 
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET membuat PDF dari gambar PNG dengan cepat. Perpustakaan Apose PowerPoint memungkinkan Anda mengonversi PNG ke PDF dan banyak format file lainnya
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET membuat PDF dari gambar PNG dengan cepat. Perpustakaan Aspose PowerPoint memungkinkan Anda mengonversi PNG ke PDF dan banyak format file lainnya
 
 Untuk menginstal Aspose.Slides: Buka [NuGet](https://www.nuget.org/packages/aspose.slides.net) pengelola paket. Cari *Aspose.Slides* dan instal.
  

@@ -19,7 +19,7 @@ Bagaimana cara mengonversi Gambar ke JPG dalam kode?
 
 Menggunakan [**Aspose.Slides for .NET**](https://products.aspose.com/slides/id/net/), pengembang atau aplikasi apa pun dapat mengonversi gambar menjadi gambar JPG hanya dengan beberapa baris kode C# .
 
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET mengekspor gambar dalam format populer ke JPG dengan cepat. Pustaka Apose PowerPoint memungkinkan Anda mengonversi gambar ke JPG dan banyak format gambar lainnya.
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk .NET mengekspor gambar dalam format populer ke JPG dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi gambar ke JPG dan banyak format gambar lainnya.
 
 Untuk menginstal Aspose.Slides: Buka [NuGet](https://www.nuget.org/packages/aspose.slides.net) pengelola paket. Cari *Aspose.Slides* dan instal.
  

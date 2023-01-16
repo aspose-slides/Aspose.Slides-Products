@@ -20,7 +20,7 @@ description: รวมรูปภาพเป็น BMP ใน C++ ใช้ AP
 
 
 {{% blocks/products/pf/feature-page-section  h2="รวมรูปภาพเป็น BMP ใน C++" %}}
-เมื่อใช้ [**Apose.Slides สำหรับ C+**](https://products.aspose.com/slides/th/cpp/) คุณสามารถผสานรูปภาพเข้ากับ BMP ได้อย่างรวดเร็วด้วยโค้ดเพียงไม่กี่บรรทัด
+เมื่อใช้ [**Aspose.Slides สำหรับ C+**](https://products.aspose.com/slides/th/cpp/) คุณสามารถผสานรูปภาพเข้ากับ BMP ได้อย่างรวดเร็วด้วยโค้ดเพียงไม่กี่บรรทัด
 
 {{% blocks/products/pf/agp/code-block title="รหัส C++ สำหรับการรวมรูปภาพเป็น BMP" offSpacer="true" %}}
 ```cpp
