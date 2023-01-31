@@ -26,7 +26,7 @@ import aspose.slides as slides
 
 with slides.Presentation() as pres:
     slide = pres.slides[0]
-    with open("img.jpeg", "rb") as in_file:
+    with open("img.jpg", "rb") as in_file:
         image = pres.images.add_image(in_file)
         slide.shapes.add_picture_frame(slides.ShapeType.RECTANGLE, 10, 10, 100, 100, image)
     

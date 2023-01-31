@@ -25,7 +25,7 @@ Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), yo
 Presentation pres = new Presentation();
 try {
 	ISlide slide = pres.getSlides().get_Item(0);
-	IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
+	IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.jpg")));
 	slide.getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
 
 	pres.save("pres.pptx", SaveFormat.Pptx);

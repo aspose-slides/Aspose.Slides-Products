@@ -25,7 +25,7 @@ Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you 
 auto pres = System::MakeObject<Presentation>();
 
 auto slide = pres->get_Slides()->idx_get(0);
-auto image = pres->get_Images()->AddImage(File::ReadAllBytes(u"image.png"));
+auto image = pres->get_Images()->AddImage(File::ReadAllBytes(u"image.jpg"));
 slide->get_Shapes()->AddPictureFrame(ShapeType::Rectangle, 10.0f, 10.0f, 100.0f, 100.0f, image);
 
 pres->Save(u"pres.pptx", SaveFormat::Pptx);
