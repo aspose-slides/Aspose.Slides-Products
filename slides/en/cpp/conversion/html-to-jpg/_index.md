@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports HTML files to
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to JPG using C++" %}}
 To convert the HTML to JPG, you will need to create Presentation from HTML file and save it as JPG.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert HTML into JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into JPG" offSpacer="true" %}}
 
 ```cpp
 xxx
