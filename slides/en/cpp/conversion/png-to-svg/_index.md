@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports PNG files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to SVG using C++" %}}
 To convert the PNG to SVG, you will need to create Presentation from PNG file and save it as SVG.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert PNG into SVG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting PNG into SVG" offSpacer="true" %}}
 
 ```cpp
 

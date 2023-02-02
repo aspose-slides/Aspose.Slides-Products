@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports JPG files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to PDF using C++" %}}
 To convert the JPG to PDF, you will need to create Presentation from JPG file and save it as PDF.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert JPG into PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting JPG into PDF" offSpacer="true" %}}
 
 ```cpp
 

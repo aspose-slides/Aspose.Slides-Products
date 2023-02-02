@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Python exports PDF files 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PNG using Python" %}}
 To convert the PDF to PNG, you will need to create Presentation from PDF file and save it as PNG.
 
-{{% blocks/products/pf/agp/code-block title="Python code for convert PDF into PNG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PDF into PNG" offSpacer="true" %}}
 
 ```python
 

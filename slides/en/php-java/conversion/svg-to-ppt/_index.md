@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports SVG files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert SVG to PPT using PHP" %}}
 To convert the SVG to PPT, you will need to create Presentation from SVG file and save it as PPT.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert SVG into PPT" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting SVG into PPT" offSpacer="true" %}}
 
 ```php
 

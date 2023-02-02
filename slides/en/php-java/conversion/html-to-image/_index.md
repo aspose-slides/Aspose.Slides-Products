@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports HTML files to
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to Image using PHP" %}}
 To convert the HTML to Image, you will need to create Presentation from HTML file and save it as Image.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert HTML into Image" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting HTML into Image" offSpacer="true" %}}
 
 ```php
 

@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Python exports SVG files 
 {{% blocks/products/pf/feature-page-section  h2="Convert SVG to PNG using Python" %}}
 To convert the SVG to PNG, you will need to create Presentation from SVG file and save it as PNG.
 
-{{% blocks/products/pf/agp/code-block title="Python code for convert SVG into PNG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting SVG into PNG" offSpacer="true" %}}
 
 ```python
 

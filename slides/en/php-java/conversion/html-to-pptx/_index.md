@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports HTML files to
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to PPTX using PHP" %}}
 To convert the HTML to PPTX, you will need to create Presentation from HTML file and save it as PPTX.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert HTML into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting HTML into PPTX" offSpacer="true" %}}
 
 ```php
 

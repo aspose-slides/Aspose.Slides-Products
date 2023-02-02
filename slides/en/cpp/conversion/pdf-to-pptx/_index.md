@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports PDF files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PPTX using C++" %}}
 To convert the PDF to PPTX, you will need to create Presentation from PDF file and save it as PPTX.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert PDF into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting PDF into PPTX" offSpacer="true" %}}
 
 ```cpp
 

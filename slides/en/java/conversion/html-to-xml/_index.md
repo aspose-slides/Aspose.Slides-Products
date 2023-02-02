@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Java exports HTML files t
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to XML using Java" %}}
 To convert the HTML to XML, you will need to create Presentation from HTML file and save it as XML.
 
-{{% blocks/products/pf/agp/code-block title="Java code for convert HTML into XML" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for converting HTML into XML" offSpacer="true" %}}
 
 ```java
 

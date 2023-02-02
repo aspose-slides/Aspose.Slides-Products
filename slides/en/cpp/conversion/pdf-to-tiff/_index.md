@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports PDF files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to TIFF using C++" %}}
 To convert the PDF to TIFF, you will need to create Presentation from PDF file and save it as TIFF.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert PDF into TIFF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting PDF into TIFF" offSpacer="true" %}}
 
 ```cpp
 

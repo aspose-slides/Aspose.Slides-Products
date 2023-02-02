@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Python exports Image file
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to PDF using Python" %}}
 To convert the Image to PDF, you will need to create Presentation from Image file and save it as PDF.
 
-{{% blocks/products/pf/agp/code-block title="Python code for convert Image into PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting Image into PDF" offSpacer="true" %}}
 
 ```python
 

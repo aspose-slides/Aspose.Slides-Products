@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports PNG files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to PPTX using PHP" %}}
 To convert the PNG to PPTX, you will need to create Presentation from PNG file and save it as PPTX.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert PNG into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting PNG into PPTX" offSpacer="true" %}}
 
 ```php
 

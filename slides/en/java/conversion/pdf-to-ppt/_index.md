@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Java exports PDF files to
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PPT using Java" %}}
 To convert the PDF to PPT, you will need to create Presentation from PDF file and save it as PPT.
 
-{{% blocks/products/pf/agp/code-block title="Java code for convert PDF into PPT" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for converting PDF into PPT" offSpacer="true" %}}
 
 ```java
 
