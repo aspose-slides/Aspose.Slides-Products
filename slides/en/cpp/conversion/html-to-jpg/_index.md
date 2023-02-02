@@ -24,7 +24,19 @@ To convert the HTML to JPG, you will need to create Presentation from HTML file 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into JPG" offSpacer="true" %}}
 
 ```cpp
-xxx
+
+auto pres = System::MakeObject<Presentation>();
+
+pres->get_Slides()->RemoveAt(0);
+auto htmlStream = System::IO::File::OpenRead(u"page.html");
+pres->get_Slides()->AddFromHtml(htmlStream);
+
+for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
+{
+    auto slide = pres->get_Slides()->idx_get(index);
+    auto fileName = String::Format(u"slide_{0}.jpg", index);
+    slide->GetThumbnail()->Save(fileName, ImageFormat::get_Jpeg());
+}
 ```
 
 

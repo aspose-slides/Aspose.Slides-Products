@@ -24,7 +24,20 @@ To convert the HTML to XML, you will need to create Presentation from HTML file 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into XML" offSpacer="true" %}}
 
 ```cpp
-xxx
+auto pres = System::MakeObject<Presentation>();
+
+pres->get_Slides()->RemoveAt(0);
+auto htmlStream = System::IO::File::OpenRead(u"page.html");
+pres->get_Slides()->AddFromHtml(htmlStream);
+
+for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
+{
+    auto fileName = String::Format(u"slide-{0}.xml", index);
+    auto fileStream = System::MakeObject<FileStream>(fileName, FileMode::Create, FileAccess::Write);
+
+    auto slide = pres->get_Slides()->idx_get(index);
+    slide->WriteAsSvg(fileStream);
+}
 ```
 
 
