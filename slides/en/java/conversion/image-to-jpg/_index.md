@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Java exports Image files 
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to JPG using Java" %}}
 To convert the Image to JPG, you will need to create Presentation from Image file and save it as JPG.
 
-{{% blocks/products/pf/agp/code-block title="Java code for convert Image into JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for converting Image into JPG" offSpacer="true" %}}
 
 ```java
 

@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Python exports PDF files 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PPTX using Python" %}}
 To convert the PDF to PPTX, you will need to create Presentation from PDF file and save it as PPTX.
 
-{{% blocks/products/pf/agp/code-block title="Python code for convert PDF into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PDF into PPTX" offSpacer="true" %}}
 
 ```python
 

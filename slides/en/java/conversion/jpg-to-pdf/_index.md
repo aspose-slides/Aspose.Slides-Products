@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Java exports JPG files to
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to PDF using Java" %}}
 To convert the JPG to PDF, you will need to create Presentation from JPG file and save it as PDF.
 
-{{% blocks/products/pf/agp/code-block title="Java code for convert JPG into PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for converting JPG into PDF" offSpacer="true" %}}
 
 ```java
 

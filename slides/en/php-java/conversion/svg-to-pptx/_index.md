@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports SVG files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert SVG to PPTX using PHP" %}}
 To convert the SVG to PPTX, you will need to create Presentation from SVG file and save it as PPTX.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert SVG into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting SVG into PPTX" offSpacer="true" %}}
 
 ```php
 

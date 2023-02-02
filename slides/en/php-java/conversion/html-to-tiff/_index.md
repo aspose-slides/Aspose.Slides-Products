@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports HTML files to
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to TIFF using PHP" %}}
 To convert the HTML to TIFF, you will need to create Presentation from HTML file and save it as TIFF.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert HTML into TIFF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting HTML into TIFF" offSpacer="true" %}}
 
 ```php
 

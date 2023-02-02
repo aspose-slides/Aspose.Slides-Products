@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Java exports HTML files t
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to PDF using Java" %}}
 To convert the HTML to PDF, you will need to create Presentation from HTML file and save it as PDF.
 
-{{% blocks/products/pf/agp/code-block title="Java code for convert HTML into PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for converting HTML into PDF" offSpacer="true" %}}
 
 ```java
 

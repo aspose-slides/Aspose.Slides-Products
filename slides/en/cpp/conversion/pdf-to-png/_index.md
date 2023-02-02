@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports PDF files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PNG using C++" %}}
 To convert the PDF to PNG, you will need to create Presentation from PDF file and save it as PNG.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert PDF into PNG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting PDF into PNG" offSpacer="true" %}}
 
 ```cpp
 

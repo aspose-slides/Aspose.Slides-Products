@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for C++ exports PDF files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to Image using C++" %}}
 To convert the PDF to Image, you will need to create Presentation from PDF file and save it as Image.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for convert PDF into Image" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting PDF into Image" offSpacer="true" %}}
 
 ```cpp
 

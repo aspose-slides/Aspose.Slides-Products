@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports Image files t
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to PPT using PHP" %}}
 To convert the Image to PPT, you will need to create Presentation from Image file and save it as PPT.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert Image into PPT" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting Image into PPT" offSpacer="true" %}}
 
 ```php
 

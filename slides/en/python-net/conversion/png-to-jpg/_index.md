@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Python exports PNG files 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to JPG using Python" %}}
 To convert the PNG to JPG, you will need to create Presentation from PNG file and save it as JPG.
 
-{{% blocks/products/pf/agp/code-block title="Python code for convert PNG into JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PNG into JPG" offSpacer="true" %}}
 
 ```python
 

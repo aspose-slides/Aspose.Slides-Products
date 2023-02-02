@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports PDF files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to Image using PHP" %}}
 To convert the PDF to Image, you will need to create Presentation from PDF file and save it as Image.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert PDF into Image" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting PDF into Image" offSpacer="true" %}}
 
 ```php
 

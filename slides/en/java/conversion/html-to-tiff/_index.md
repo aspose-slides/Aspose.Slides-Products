@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for Java exports HTML files t
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to TIFF using Java" %}}
 To convert the HTML to TIFF, you will need to create Presentation from HTML file and save it as TIFF.
 
-{{% blocks/products/pf/agp/code-block title="Java code for convert HTML into TIFF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for converting HTML into TIFF" offSpacer="true" %}}
 
 ```java
 

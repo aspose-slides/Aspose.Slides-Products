@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports PNG files to 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to PDF using PHP" %}}
 To convert the PNG to PDF, you will need to create Presentation from PNG file and save it as PDF.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert PNG into PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting PNG into PDF" offSpacer="true" %}}
 
 ```php
 

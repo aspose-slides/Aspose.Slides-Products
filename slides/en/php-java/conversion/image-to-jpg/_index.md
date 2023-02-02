@@ -21,7 +21,7 @@ As a modern document processing API, Aspose.Slides for PHP exports Image files t
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to JPG using PHP" %}}
 To convert the Image to JPG, you will need to create Presentation from Image file and save it as JPG.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for convert Image into JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting Image into JPG" offSpacer="true" %}}
 
 ```php
 
