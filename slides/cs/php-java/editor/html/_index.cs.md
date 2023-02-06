@@ -1,0 +1,114 @@
+---
+title: Upravte HTML v PHP
+url: /cs/php-java/editor/html/
+keywords: Upravit HTML, Upravit PowerPoint, HTML, PowerPoint, PHP API, PHP Library
+description: Upravte HTML v PHP. K úpravě souborů HTML použijte API knihovny PHP
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="Upravte HTML v PHP" h2="Vysokorychlostní a multiplatformní PHP knihovna pro editaci HTML pomocí PHP kódu" >}}
+
+{{% blocks/products/pf/feature-page-section h2="Upravte HTML pomocí Aspose.Slides" %}}
+
+[**Aspose.Slides pro PHP přes Javu**](https://products.aspose.com/slides/cs/php-java/) je výkonná PHP knihovna používaná k manipulaci a úpravám prezentací. Prezentaci HTML můžete upravit přidáním nového řádku textu. 
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="Upravte HTML v PHP" %}}
+Pomocí [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/cs/php-java/) můžete přidat nový řádek textu do dokumentu HTML pouhým několik řádků kódu.
+
+{{% blocks/products/pf/agp/code-block title="PHP kód pro úpravu HTML" offSpacer="true" %}}
+
+```php
+
+<?php
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+        
+$pres = new Presentation();
+try
+{
+    $pres->getSlides()->removeAt(0);
+    
+    $filename = 'file.html';
+    $f = fopen($filename, 'r');
+    if ($f) {
+        $contents = fread($f, filesize($filename));
+        fclose($f);
+    }
+    
+    $pres->getSlides()->addFromHtml($contents);
+
+    $slide = $pres->getSlides()->get_Item(0);     
+    $shape = $slide->getShapes()->addAutoShape(ShapeType::Rectangle, 10, 10, 100, 50);
+    $shape->getTextFrame()->setText("New text");
+
+    $pres->save("input.html", SaveFormat::Html5);        
+}
+finally
+{
+    if ($pres != null) $pres->dispose();
+}
+?>
+```
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="Jak upravit HTML v PHP" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Nainstalujte **Aspose.Slides pro PHP přes Java**. Viz [**Instalace**](https://docs.aspose.com/slides/php-java/installation/).
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Přidejte knihovnu jako referenci do svého projektu.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Vytvořte instanci třídy Presentation.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Načtěte prezentaci HTML, kterou chcete upravit.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Přidejte nový řádek textu.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Uložte změněný soubor.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="Upravte další soubory" subTitle="Můžete také upravovat soubory v jiných formátech" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/php-java/editor/pptx/" name="PPTX" >}}
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
