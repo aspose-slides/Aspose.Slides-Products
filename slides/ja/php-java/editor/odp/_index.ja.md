@@ -12,7 +12,8 @@ description: PHP で ODP を編集します。 PHP ライブラリ API を使用
 
 {{% blocks/products/pf/feature-page-section h2="Aspose.Slides を使用して ODP を編集" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ja/php-java/) は、プレゼンテーションの操作と編集に使用される強力な PHP ライブラリです。新しいテキスト行を追加することで、ODP プレゼンテーションを編集できます。 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ja/php-java/) は、プレゼンテーションをすばやく簡単に編集するための強力な PHP ライブラリです。幅広い機能をユーザーに提供し、プロ並みのスライドをすぐに作成できるようにします。 Aspose を使用すると、ユーザーはテキストを編集したり、イメージ、アニメーション、トランジションをプレゼンテーションに追加したり、フォント タイプや色の選択などのさまざまなフォーマット オプションを適用したりできます。さらに、このライブラリは PowerPoint (PPT) ファイルと OpenOffice プレゼンテーション (ODP) 形式の両方をサポートしているため、互換性の問題が発生することなく、さまざまなプラットフォーム間でプレゼンテーションを簡単に共有できます。次のプレゼンテーションを作成または編集する際に Aspose のライブラリの機能を活用することで、スライドの見栄えを毎回良くすることができます!
+新しいテキスト行を追加することで、ODP ファイルを編集できます。 
 
 {{% /blocks/products/pf/feature-page-section %}}
 

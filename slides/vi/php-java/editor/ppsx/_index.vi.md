@@ -12,7 +12,8 @@ description: Chỉnh sửa PPSX trong PHP. Sử dụng API thư viện PHP để
 
 {{% blocks/products/pf/feature-page-section h2="Chỉnh sửa PPSX bằng Aspose.Slides" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/vi/php-java/) là một thư viện PHP mạnh mẽ dùng để thao tác và chỉnh sửa bản trình bày. Bạn có thể chỉnh sửa bản trình bày PPSX bằng cách thêm một dòng văn bản mới vào bản trình bày đó. 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/vi/php-java/) là một thư viện PHP mạnh mẽ để chỉnh sửa bản trình bày một cách nhanh chóng và dễ dàng. Nó cung cấp cho người dùng một loạt các tính năng để giúp họ tạo các trang trình bày chuyên nghiệp một cách nhanh chóng. Với Aspose, người dùng có thể chỉnh sửa văn bản, thêm hình ảnh, hoạt ảnh và chuyển tiếp vào bản trình bày của họ cũng như áp dụng các tùy chọn định dạng khác nhau như loại phông chữ và lựa chọn màu sắc. Ngoài ra, thư viện cung cấp hỗ trợ cho cả tệp PowerPoint (PPT) và định dạng Bản trình bày OpenOffice (ODP), giúp chia sẻ bản trình bày trên các nền tảng khác nhau dễ dàng hơn bao giờ hết mà không phát sinh bất kỳ sự cố tương thích nào. Bằng cách tận dụng sức mạnh của thư viện Aspose khi tạo hoặc chỉnh sửa bản trình bày tiếp theo của bạn, bạn sẽ chắc chắn rằng các trang trình bày của mình luôn trông tuyệt vời!
+Bạn có thể chỉnh sửa tệp PPSX bằng cách thêm một dòng văn bản mới vào tệp đó. 
 
 {{% /blocks/products/pf/feature-page-section %}}
 

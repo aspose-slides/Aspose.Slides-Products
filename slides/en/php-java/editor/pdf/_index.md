@@ -12,7 +12,8 @@ description: Edit PDF in PHP. Use PHP library API to edit PDF files
 
 {{% blocks/products/pf/feature-page-section h2="Edit PDF using Aspose.Slides" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library used to manipulate and edit presentations. You can edit a PDF presentation by adding a new line of text to it. 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library for editing presentations quickly and easily. It provides users with an extensive range of features to help them create professional-looking slides in no time at all. With Aspose, users can edit text, add images, animations and transitions to their presentation as well as apply various formatting options such as font type and color selection. Additionally, the library offers support for both PowerPoint (PPT) files and OpenOffice Presentation (ODP) formats which makes it easier than ever to share presentations across different platforms without any compatibility issues arising. By leveraging the power of Aspose's library when creating or editing your next presentation you'll be sure that your slides look great every time! 
+You can edit a PDF file by adding a new line of text to it. 
 
 {{% /blocks/products/pf/feature-page-section %}}
 

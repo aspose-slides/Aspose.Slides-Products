@@ -12,7 +12,8 @@ description: Bewerk HTML in PHP. Gebruik de PHP-bibliotheek-API om HTML-bestande
 
 {{% blocks/products/pf/feature-page-section h2="Bewerk HTML met Aspose.Slides" %}}
 
-[**Aspose.Slides voor PHP via Java**](https://products.aspose.com/slides/nl/php-java/) is een krachtige PHP-bibliotheek die wordt gebruikt om presentaties te manipuleren en te bewerken. Je kunt een HTML presentatie bewerken door er een nieuwe regel tekst aan toe te voegen. 
+[**Aspose.Slides voor PHP via Java**](https://products.aspose.com/slides/nl/php-java/) is een krachtige PHP-bibliotheek voor het snel en gemakkelijk bewerken van presentaties. Het biedt gebruikers een uitgebreid scala aan functies waarmee ze in een mum van tijd professioneel ogende dia's kunnen maken. Met Aspose kunnen gebruikers tekst bewerken, afbeeldingen, animaties en overgangen aan hun presentatie toevoegen en verschillende opmaakopties toepassen, zoals lettertype en kleurselectie. Bovendien biedt de bibliotheek ondersteuning voor zowel PowerPoint-bestanden (PPT) als OpenOffice Presentation-indelingen (ODP), waardoor het gemakkelijker dan ooit is om presentaties op verschillende platforms te delen zonder dat er compatibiliteitsproblemen optreden. Door gebruik te maken van de kracht van de Aspose-bibliotheek bij het maken of bewerken van uw volgende presentatie, weet u zeker dat uw dia's er elke keer geweldig uitzien!
+U kunt een HTML-bestand bewerken door er een nieuwe regel tekst aan toe te voegen. 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
