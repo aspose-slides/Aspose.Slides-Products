@@ -12,7 +12,8 @@ description: 在 PHP 中编辑 POTM。使用 PHP 库 API 编辑 POTM 文件
 
 {{% blocks/products/pf/feature-page-section h2="使用 Aspose.Slides 编辑 POTM" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh/php-java/) 是一个功能强大的 PHP 库，用于操作和编辑演示文稿。您可以通过向其中添加新的文本行来编辑 POTM 演示文稿。 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh/php-java/) 是一个功能强大的 PHP 库，可快速轻松地编辑演示文稿。它为用户提供了广泛的功能，可帮助他们立即创建具有专业外观的幻灯片。使用 Aspose，用户可以编辑文本、添加图像、动画和过渡到他们的演示文稿，以及应用各种格式选项，如字体类型和颜色选择。此外，该库还支持 PowerPoint (PPT) 文件和 OpenOffice Presentation (ODP) 格式，这使得跨不同平台共享演示文稿比以往任何时候都更容易，而不会出现任何兼容性问题。通过在创建或编辑您的下一个演示文稿时利用 Aspose 库的强大功能，您将确保您的幻灯片每次看起来都很棒！
+您可以通过向其中添加新的文本行来编辑 POTM 文件。 
 
 {{% /blocks/products/pf/feature-page-section %}}
 

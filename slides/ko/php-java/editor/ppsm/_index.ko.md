@@ -12,7 +12,8 @@ description: PHP에서 PPSM을 편집합니다. PHP 라이브러리 API를 사�
 
 {{% blocks/products/pf/feature-page-section h2="Aspose.Slides를 사용하여 PPSM 편집" %}}
 
-[**Java를 통한 PHP용 Aspose.Slides**](https://products.aspose.com/slides/ko/php-java/)는 프레젠테이션을 조작하고 편집하는 데 사용되는 강력한 PHP 라이브러리입니다. 새 텍스트 줄을 추가하여 PPSM 프레젠테이션을 편집할 수 있습니다. 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ko/php-java/)는 프레젠테이션을 빠르고 쉽게 편집할 수 있는 강력한 PHP 라이브러리입니다. 전문가 수준의 슬라이드를 즉시 만들 수 있도록 광범위한 기능을 사용자에게 제공합니다. Aspose를 사용하여 사용자는 텍스트를 편집하고 이미지, 애니메이션 및 전환을 프리젠테이션에 추가할 수 있을 뿐만 아니라 글꼴 유형 및 색상 선택과 같은 다양한 서식 옵션을 적용할 수 있습니다. 또한 라이브러리는 PowerPoint(PPT) 파일과 OpenOffice Presentation(ODP) 형식을 모두 지원하므로 호환성 문제 없이 다른 플랫폼에서 프레젠테이션을 이전보다 더 쉽게 공유할 수 있습니다. 다음 프레젠테이션을 만들거나 편집할 때 Aspose 라이브러리의 기능을 활용하면 매번 멋진 슬라이드를 만들 수 있습니다!
+새 텍스트 줄을 추가하여 PPSM 파일을 편집할 수 있습니다. 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
