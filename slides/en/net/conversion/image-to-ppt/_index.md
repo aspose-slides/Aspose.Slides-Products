@@ -22,6 +22,7 @@ Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you
 
 {{% blocks/products/pf/agp/code-block title="C# code for converting image to PPT" offSpacer="true" %}}
 ```cs
+
 using (Presentation pres = new Presentation())
 {
     IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.jpg"));
