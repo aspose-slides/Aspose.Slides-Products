@@ -1,0 +1,103 @@
+---
+title: 使用 PHP 合併 PDF、PPT、PPTX 和許多其他文件格式
+url: /zh-hant/php-java/merger/
+keywords: 合併、加入、PowerPoint、演示文稿、PHP、Aspose
+description: 合併 PHP PPT、PPTX、ODP、PDF、PNG、JPG 等格式的多個文件。
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/feature-page-header h1="在 PHP 中合併 Powerpoint、PDF、PPT 或其他文檔" h2="高速PHP庫合併PPT、PPTX、PDF、PNG、JPEG等格式。" >}}
+
+{{% blocks/products/pf/feature-page-section h2="使用 PHP 合併 PPT、PPTX、PDF" %}}
+
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh-hant/php-java/) 是一個強大的 PHP 庫，用於創建和操作演示文稿文件。此外，它還提供了組合多個 PPT/PPTX 演示文稿的靈活方式。將一個演示文稿合併到另一個演示文稿時，實際上是將它們的幻燈片合併到一個演示文稿中以獲得一個文件。 Aspose.Slides 允許您以不同的方式合併兩個演示文稿。您可以將演示文稿與其所有形狀、樣式、文本、格式、評論、動畫等合併，而不必擔心質量或數據丟失。
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="在 PHP 中合併 PowerPoint 演示文稿" %}}
+要合併 PowerPoint 演示文稿，您需要將幻燈片從一個演示文稿克隆到另一個演示文稿。
+
+{{% blocks/products/pf/agp/code-block title="使用 PHP 合併 PPTX 文件" offSpacer="true" %}}
+
+```php
+
+<?php
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+ 
+use aspose\slides\Presentation;
+use aspose\slides\SaveFormat;
+ 
+$pres1 = new Presentation("document1.ppt");
+$pres2 = new Presentation("document2.ppt");
+try
+{
+    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
+    {
+        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
+    }
+
+    $pres1->save("merged.ppt", SaveFormat::Ppt);
+}
+finally
+{
+    if ($pres1 != null) $pres1->dispose();
+    if ($pres2 != null) $pres2->dispose();
+}
+?>
+```
+
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="如何使用 Aspose.Slides for PHP API 合併演示文稿" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="這些是在 PHP 中合併兩個 PPTX 文件並將結果另存為 PDF 的步驟。" >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+安裝 [**Aspose.Slides for PHP via Java**](https://docs.aspose.com/slides/php-java/installation/)。 
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+將庫引用（導入庫）添加到您的 PHP 項目。
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+在 PHP 中打開源 PPTX 文件。
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+使用 **addClone** 方法合併 PPTX 文件。
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+保存演示文稿並將結果保存為單個 PDF 文件。
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="其他支持的合併格式" subTitle="您還可以組合其他文件格式。請參閱下面的其他支持的格式。" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/potm/" name="POTM" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/potx/" name="POTX" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/ppsm/" name="PPSM" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/ppsx/" name="PPSX" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/pptm/" name="PPTM" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/fodp/" name="FODP" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/merger/pdf-to-pdf/" name="PDF" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
