@@ -1,0 +1,103 @@
+---
+title: Gabungkan PDF, PPT, PPTX, dan Banyak Format File Lainnya Menggunakan PHP
+url: /id/php-java/merger/
+keywords: Menggabungkan, Bergabung, PowerPoint, Presentasi, PHP, Aspose
+description: Gabungkan banyak file dalam PHP PPT, PPTX, ODP, PDF, PNG, JPG, dan banyak lagi.
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/feature-page-header h1="Gabungkan Powerpoint, PDF, PPT atau dokumen lainnya bersama-sama dalam PHP" h2="Pustaka PHP berkecepatan tinggi untuk menggabungkan format PPT, PPTX, PDF, PNG, JPEG, dan lainnya." >}}
+
+{{% blocks/products/pf/feature-page-section h2="Gabungkan PPT, PPTX, PDF menggunakan PHP" %}}
+
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/) adalah library PHP yang andal untuk membuat dan memanipulasi file presentasi. Selain itu, ini menyediakan cara yang fleksibel untuk menggabungkan beberapa presentasi PPT/PPTX. Saat Anda menggabungkan satu presentasi ke presentasi lainnya, Anda secara efektif menggabungkan slide mereka dalam satu presentasi untuk mendapatkan satu file. Aspose.Slides memungkinkan Anda menggabungkan dua presentasi dengan cara yang berbeda. Anda dapat menggabungkan presentasi dengan semua bentuk, gaya, teks, pemformatan, komentar, animasi, dll. tanpa harus khawatir kehilangan kualitas atau data.
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="Menggabungkan presentasi PowerPoint dalam PHP" %}}
+Untuk menggabungkan presentasi PowerPoint, Anda perlu mengkloning slide dari satu presentasi ke presentasi lainnya.
+
+{{% blocks/products/pf/agp/code-block title="Gabungkan file PPTX menggunakan PHP" offSpacer="true" %}}
+
+```php
+
+<?php
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+ 
+use aspose\slides\Presentation;
+use aspose\slides\SaveFormat;
+ 
+$pres1 = new Presentation("document1.ppt");
+$pres2 = new Presentation("document2.ppt");
+try
+{
+    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
+    {
+        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
+    }
+
+    $pres1->save("merged.ppt", SaveFormat::Ppt);
+}
+finally
+{
+    if ($pres1 != null) $pres1->dispose();
+    if ($pres2 != null) $pres2->dispose();
+}
+?>
+```
+
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="Cara menggabungkan Presentasi menggunakan Aspose.Slides untuk PHP API" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk menggabungkan dua file PPTX dan menyimpan hasilnya sebagai PDF di PHP." >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Instal [**Aspose.Slides untuk PHP melalui Java**](https://docs.aspose.com/slides/php-java/installation/). 
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek PHP Anda.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Buka file sumber PPTX di PHP.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Gabungkan file PPTX menggunakan metode **addClone**.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Simpan presentasi dan dapatkan hasilnya sebagai file PDF tunggal.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="Format yang Didukung Lainnya Untuk Digabung" subTitle="Anda juga dapat menggabungkan format file lainnya. Lihat format lain yang didukung di bawah." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/potm/" name="POTM" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/potx/" name="POTX" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/ppsm/" name="PPSM" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/ppsx/" name="PPSX" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/pptm/" name="PPTM" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/fodp/" name="FODP" >}}        
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/pdf-to-pdf/" name="PDF" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
