@@ -25,7 +25,7 @@ pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);
 ```
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="C# PowerPoint에서 PDF로 변환" %}}
@@ -65,7 +65,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 ```
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf pdf-to-html pdf-to-image pdf-to-jpg pdf-to-png pdf-to-svg pdf-to-tiff pdf-to-xml" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint에서 HTML로 변환" %}}
@@ -91,7 +91,7 @@ powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html html-to-image html-to-jpg html-to-pdf html-to-tiff html-to-xml" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="PowerPoint 슬라이드를 이미지 형식으로 변환" %}}
 Microsoft<sup>®</sup> PowerPoint 형식을 JPEG, PNG, TIFF 등의 이미지로 변환하는 것은 슬라이드 축소판을 만드는 데 주로 사용되는 또 다른 일반적인 사용 사례입니다. 코딩 과정은 간단합니다. 문서를 로드한 후 [ISlide 인터페이스](https://apireference.aspose.com/net/slides/aspose.slides/islide)를 사용하여 각 슬라이드를 반복합니다. 각 반복 중에 (Bitmap Object)[https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8]를 사용자 정의된 이미지 크기가 있는 GetThumbnail 메소드와 함께 사용하십시오. 마지막으로 필요한 형식으로 이미지를 저장합니다.
@@ -112,4 +112,4 @@ bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp image-to-jpg image-to-pdf jpg-to-image jpg-to-pdf jpg-to-png png-to-jpg png-to-pdf png-to-svg svg-to-png" >}}

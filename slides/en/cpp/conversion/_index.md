@@ -14,7 +14,7 @@ Conversion process of Microsoft<sup>&reg;</sup> PowerPoint formats is simple and
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Inter Conversion Of Microsoft PowerPoint Formats" %}}
-Interconversion of Microsoft<sup>&reg;</sup> PowerPoint documents including PPT, PPTX programmatically is just a two lines code. Load the file using [Presentation class](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation) and calling the [Save method](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation#afcd59ec697bf05c10f78c3869de2ec9e) having the output file and SaveFormat.OutputFormats as parameters.
+Interconversion of Microsoft<sup>&reg;</sup> PowerPoint documents including PPT, PPTX programmatically is just a two lines code. Load the file using [Presentation class](https://reference.aspose.com/slides/cpp/class/aspose.slides.presentation) and calling the [Save method](https://reference.aspose.com/slides/cpp/class/aspose.slides.presentation#afcd59ec697bf05c10f78c3869de2ec9e) having the output file and SaveFormat.OutputFormats as parameters.
 
 {{% blocks/products/pf/feature-page-code h3="C++ Conversion Code" %}}
 
@@ -23,12 +23,12 @@ Interconversion of Microsoft<sup>&reg;</sup> PowerPoint documents including PPT,
 
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint Files to PDF" %}}
 
-Converting Microsoft<sup>&reg;</sup> PowerPoint to PDF is a common scenario due the huge sharing of PDF documents. Programmers can automate it and set the relevant PDF conversion settings using [PdfOptions class](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options). Few of the specific settings such as text compression level, JPEG quality [JpegQuality](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#a6bbf3bd303430757aa85ac9e3d184861), PDF compliance level [Compliance](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#aa9dfc92dd22455248ac171c24876cb8f), converting hidden slides [ShowHiddenSlides](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#ad11e5a17110d70456df91cc1a5dade23), selected slides and generating locked [Password](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#ab42606dbbf983fe00cc45a19565391a7) protected PDF files.
+Converting Microsoft<sup>&reg;</sup> PowerPoint to PDF is a common scenario due the huge sharing of PDF documents. Programmers can automate it and set the relevant PDF conversion settings using [PdfOptions class](https://reference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options). Few of the specific settings such as text compression level, JPEG quality [JpegQuality](https://reference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#a6bbf3bd303430757aa85ac9e3d184861), PDF compliance level [Compliance](https://reference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#aa9dfc92dd22455248ac171c24876cb8f), converting hidden slides [ShowHiddenSlides](https://reference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#ad11e5a17110d70456df91cc1a5dade23), selected slides and generating locked [Password](https://reference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#ab42606dbbf983fe00cc45a19565391a7) protected PDF files.
 
 {{% blocks/products/pf/feature-page-code h3="C++ PowerPoint to PDF Conversion Code" %}}
 
@@ -36,11 +36,11 @@ Converting Microsoft<sup>&reg;</sup> PowerPoint to PDF is a common scenario due 
 
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf ppt-to-word pptx-to-word svg-to-png" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Save Microsoft PowerPoint Slides As Images" %}}
-when ever there is the case to display presentation content on web, then there is need to render files as HTML or images JPG, TIFF, PNG, etc. Process of converting slides as images is simple. Get all the slides using [get_Slides()](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation#a9981b38f5a01d9fa5482f05b0a75974c)  and iterate through each slide one by one. During each iteration use [ISlide->GetThumbnail](https://apireference.aspose.com/slides/cpp/class/aspose.slides.i_slide#a7bd377d403ff886232df21351c1fe783) for the slide image and then save into the required image format. 
+when ever there is the case to display presentation content on web, then there is need to render files as HTML or images JPG, TIFF, PNG, etc. Process of converting slides as images is simple. Get all the slides using [get_Slides()](https://reference.aspose.com/slides/cpp/class/aspose.slides.presentation#a9981b38f5a01d9fa5482f05b0a75974c)  and iterate through each slide one by one. During each iteration use [ISlide->GetThumbnail](https://reference.aspose.com/slides/cpp/class/aspose.slides.i_slide#a7bd377d403ff886232df21351c1fe783) for the slide image and then save into the required image format. 
 
 {{% blocks/products/pf/feature-page-code h3="C++ PowerPoint to Image Conversion" %}}
 
@@ -49,4 +49,12 @@ when ever there is the case to display presentation content on web, then there i
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp ppt-to-word pptx-to-word svg-to-png" >}}
+
+{{< blocks/slides-app-widget 
+    appName="conversion"
+    extension=""
+    sectionTitle="Convert PowerPoint Presentations online" 
+    sectionDescription="[Learn how to convert ppt to pdf in C++](https://products.aspose.com/slides/cpp/conversion/ppt-to-pdf/)" >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
