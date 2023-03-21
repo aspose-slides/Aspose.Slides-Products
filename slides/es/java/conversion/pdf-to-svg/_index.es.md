@@ -73,6 +73,8 @@ Guardar resultado como archivo SVG.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Convertidor en línea gratuito" sectionDescription="[Cómo convertir PPT a HTML en Python](https://products.aspose.com/slides/es/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Convertir PDF a otros formatos admitidos" subTitle="También puede convertir PDF y guardar en otros formatos de archivo. Ver todos los formatos admitidos a continuación" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/conversion/pdf-to-html/" name="PDF TO HTML" >}}

@@ -78,6 +78,8 @@ C++에서 소스 Image 파일을 엽니다.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="무료 온라인 변환기" sectionDescription="[Python에서 PPT를 HTML로 변환하는 방법](https://products.aspose.com/slides/ko/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Image을 지원되는 다른 형식으로 변환" subTitle="Image을 변환하고 다른 파일 형식으로 저장할 수도 있습니다. 아래에서 지원되는 모든 형식 보기" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/conversion/image-to-pdf/" name="IMAGE TO PDF" >}}

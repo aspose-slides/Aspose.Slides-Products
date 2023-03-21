@@ -86,6 +86,8 @@ Ergebnis als Image-Datei speichern.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Kostenloser Online-Konverter" sectionDescription="[So konvertieren Sie PPT in HTML in Python](https://products.aspose.com/slides/de/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Konvertieren Sie HTML in andere unterstützte Formate" subTitle="Sie können HTML auch konvertieren und in anderen Dateiformaten speichern. Siehe unten alle unterstützten Formate" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/conversion/html-to-jpg/" name="HTML TO JPG" >}}

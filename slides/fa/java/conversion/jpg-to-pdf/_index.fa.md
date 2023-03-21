@@ -65,6 +65,8 @@ try {
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="تبدیل JPG به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید JPG را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}

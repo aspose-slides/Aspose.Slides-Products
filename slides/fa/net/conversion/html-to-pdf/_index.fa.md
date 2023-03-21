@@ -93,6 +93,8 @@ using (Presentation pres = new Presentation())
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
+
 <!-- aboutfile Starts -->
 
 <!-- aboutfile Ends -->

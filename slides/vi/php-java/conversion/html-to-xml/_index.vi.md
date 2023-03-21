@@ -85,6 +85,8 @@ Lưu kết quả dưới dạng tệp XML.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Chuyển đổi trực tuyến miễn phí" sectionDescription="[Cách chuyển đổi PPT sang HTML bằng Python](https://products.aspose.com/slides/vi/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Chuyển đổi HTML sang các định dạng được hỗ trợ khác" subTitle="Bạn cũng có thể chuyển đổi HTML và lưu sang các định dạng tệp khác. Xem tất cả các định dạng được hỗ trợ bên dưới" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/conversion/html-to-image/" name="HTML TO IMAGE" >}}

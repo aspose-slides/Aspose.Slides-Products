@@ -92,6 +92,8 @@ using (Presentation pres = new Presentation())
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Ingyenes online konverter" sectionDescription="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
+
 <!-- aboutfile Starts -->
 
 <!-- aboutfile Ends -->

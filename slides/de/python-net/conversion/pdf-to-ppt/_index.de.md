@@ -63,6 +63,8 @@ Ergebnis als PPT-Datei speichern.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Kostenloser Online-Konverter" sectionDescription="[So konvertieren Sie PPT in HTML in Python](https://products.aspose.com/slides/de/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Konvertieren Sie PDF in andere unterstützte Formate" subTitle="Sie können PDF auch konvertieren und in anderen Dateiformaten speichern. Siehe unten alle unterstützten Formate" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/conversion/pdf-to-html/" name="PDF TO HTML" >}}

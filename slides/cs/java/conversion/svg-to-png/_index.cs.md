@@ -73,6 +73,8 @@ Uložit výsledek jako soubor PNG.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Zdarma online konvertor" sectionDescription="[Jak převést PPT na HTML v Pythonu](https://products.aspose.com/slides/cs/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Převést SVG do jiných podporovaných formátů" subTitle="Můžete také převést SVG a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
 
 

@@ -65,6 +65,8 @@ Az eredmény mentése PPTX fájlként.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Ingyenes online konverter" sectionDescription="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Kép konvertálása más támogatott formátumokba" subTitle="A képeket konvertálhatja és más fájlformátumokba is mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}

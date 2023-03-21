@@ -61,6 +61,8 @@ pres->Save(u"presentation.pptx", SaveFormat::Pptx);
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="محول مجاني على الإنترنت" sectionDescription="[كيفية تحويل PPT إلى HTML في Python](https://products.aspose.com/slides/ar/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="تحويل الصورة إلى تنسيقات أخرى مدعومة" subTitle="يمكنك أيضًا تحويل الصورة وحفظها في تنسيقات ملفات أخرى. انظر جميع التنسيقات المدعومة أدناه" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}

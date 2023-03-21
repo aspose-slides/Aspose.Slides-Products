@@ -87,6 +87,8 @@ finally
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="免费在线转换器" sectionDescription="[如何在 Python 中将 PPT 转换为 HTML](https://products.aspose.com/slides/zh/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="将 PNG 转换为其他支持的格式" subTitle="您还可以转换 PNG 并保存为其他文件格式。查看下面所有支持的格式" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}

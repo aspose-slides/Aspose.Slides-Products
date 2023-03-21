@@ -82,6 +82,8 @@ Simpan hasilnya sebagai file PPT.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Konverter Daring Gratis" sectionDescription="[Cara Mengonversi PPT ke HTML dengan Python](https://products.aspose.com/slides/id/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Konversikan Image Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi Image dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah ini" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/conversion/image-to-html/" name="IMAGE TO HTML" >}}
