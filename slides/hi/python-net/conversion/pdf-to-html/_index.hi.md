@@ -30,7 +30,7 @@ import aspose.pydrawing as drawing
         
 with slides.Presentation() as pres:
     pres.slides.add_from_pdf("document.pdf")
-    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
+    pres.save("OutputPresentation.html", slides.export.SaveFormat.HTML5)
 
 ```
 
@@ -62,6 +62,8 @@ with slides.Presentation() as pres:
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="मुफ्त ऑनलाइन कनवर्टर" sectionDescription="[पायथन में पीपीटी को एचटीएमएल में कैसे बदलें](https://products.aspose.com/slides/hi/python-net/conversion/ppt-to-html/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="PDF को अन्य समर्थित प्रारूपों में बदलें" subTitle="आप PDF को भी रूपांतरित कर सकते हैं और अन्य फ़ाइल स्वरूपों में सहेज सकते हैं। नीचे सभी समर्थित प्रारूप देखें" >}}
 

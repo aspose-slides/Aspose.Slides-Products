@@ -67,6 +67,8 @@ Python でソース Image ファイルを開きます。
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="無料のオンラインコンバーター" sectionDescription="[Python で PPT を HTML に変換する方法](https://products.aspose.com/slides/ja/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Image を他のサポートされている形式に変換する" subTitle="Image を変換して、他のファイル形式に保存することもできます。以下のサポートされているすべての形式を参照してください" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/conversion/image-to-pdf/" name="IMAGE TO PDF" >}}

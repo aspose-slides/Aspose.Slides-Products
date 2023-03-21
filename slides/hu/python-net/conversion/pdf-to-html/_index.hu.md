@@ -30,7 +30,7 @@ import aspose.pydrawing as drawing
         
 with slides.Presentation() as pres:
     pres.slides.add_from_pdf("document.pdf")
-    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
+    pres.save("OutputPresentation.html", slides.export.SaveFormat.HTML5)
 
 ```
 
@@ -62,6 +62,8 @@ Az eredmény mentése HTML fájlként.
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Ingyenes online konverter" sectionDescription="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="A(z) PDF konvertálása más támogatott formátumokká" subTitle="A PDF formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
 

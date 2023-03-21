@@ -25,7 +25,7 @@ pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);
 ```
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Chuyển đổi C# PowerPoint sang PDF" %}}
@@ -65,7 +65,7 @@ pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
 ```
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf pdf-to-html pdf-to-image pdf-to-jpg pdf-to-png pdf-to-svg pdf-to-tiff pdf-to-xml" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Chuyển đổi Microsoft PowerPoint sang HTML" %}}
@@ -91,7 +91,7 @@ powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html html-to-image html-to-jpg html-to-pdf html-to-tiff html-to-xml" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Chuyển đổi Trang trình bày PowerPoint sang Định dạng Hình ảnh" %}}
 Chuyển đổi định dạng Microsoft <sup> ® </sup> PowerPoint sang hình ảnh JPEG, PNG, TIFF, v.v. là một trường hợp sử dụng phổ biến khác được sử dụng chủ yếu để tạo hình thu nhỏ của trang chiếu. Quá trình mã hóa rất đơn giản. Sau khi tải tài liệu, Sử dụng [giao diện ISlide](https://apireference.aspose.com/net/slides/aspose.slides/islide) để lặp qua từng trang trình bày. Trong mỗi lần lặp, hãy sử dụng (Đối tượng Bitmap) [https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8] cùng với mehtod GetThumbnail của nó có kích thước hình ảnh tùy chỉnh. Cuối cùng lưu ảnh ở định dạng yêu cầu.
@@ -112,4 +112,4 @@ bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp image-to-jpg image-to-pdf jpg-to-image jpg-to-pdf jpg-to-png png-to-jpg png-to-pdf png-to-svg svg-to-png" >}}

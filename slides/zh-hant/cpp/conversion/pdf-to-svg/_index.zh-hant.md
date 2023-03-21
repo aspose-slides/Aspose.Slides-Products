@@ -67,6 +67,8 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="免費在線轉換器" sectionDescription="[如何在 Python 中將 PPT 轉換為 HTML](https://products.aspose.com/slides/zh-hant/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="將 PDF 轉換為其他支持的格式" subTitle="您還可以轉換 PDF 並保存為其他文件格式。查看下面所有支持的格式" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/conversion/pdf-to-html/" name="PDF TO HTML" >}}

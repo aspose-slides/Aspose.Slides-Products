@@ -30,7 +30,7 @@ import aspose.pydrawing as drawing
         
 with slides.Presentation() as pres:
     pres.slides.add_from_pdf("document.pdf")
-    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
+    pres.save("OutputPresentation.html", slides.export.SaveFormat.HTML5)
 
 ```
 
@@ -62,6 +62,8 @@ Guardar resultado como archivo HTML.
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Convertidor en línea gratuito" sectionDescription="[Cómo convertir PPT a HTML en Python](https://products.aspose.com/slides/es/python-net/conversion/ppt-to-html/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Convertir PDF a otros formatos admitidos" subTitle="También puede convertir PDF y guardar en otros formatos de archivo. Ver todos los formatos admitidos a continuación" >}}
 

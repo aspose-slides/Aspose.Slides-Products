@@ -30,7 +30,7 @@ import aspose.pydrawing as drawing
         
 with slides.Presentation() as pres:
     pres.slides.add_from_pdf("document.pdf")
-    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
+    pres.save("OutputPresentation.html", slides.export.SaveFormat.HTML5)
 
 ```
 
@@ -62,6 +62,8 @@ with slides.Presentation() as pres:
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Δωρεάν Online Μετατροπέας" sectionDescription="[Πώς να μετατρέψετε το PPT σε HTML στην Python](https://products.aspose.com/slides/el/python-net/conversion/ppt-to-html/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Μετατροπή PDF σε άλλες υποστηριζόμενες μορφές" subTitle="Μπορείτε επίσης να μετατρέψετε το PDF και να το αποθηκεύσετε σε άλλες μορφές αρχείων. Δείτε όλες τις υποστηριζόμενες μορφές παρακάτω" >}}
 

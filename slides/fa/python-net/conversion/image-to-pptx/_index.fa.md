@@ -65,6 +65,8 @@ with slides.Presentation() as pres:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="تبدیل تصویر به سایر فرمت های پشتیبانی شده" subTitle="شما همچنین می توانید تصویر را تبدیل کرده و به فرمت های فایل دیگر ذخیره کنید. همه فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}

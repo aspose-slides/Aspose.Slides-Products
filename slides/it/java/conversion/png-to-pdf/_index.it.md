@@ -65,6 +65,8 @@ Salva il risultato come file PDF.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Convertitore online gratuito" sectionDescription="[Come convertire PPT in HTML in Python](https://products.aspose.com/slides/it/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Converti PNG in altri formati supportati" subTitle="Puoi anche convertire PNG e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/java/conversion/png-to-jpg/" name="PNG TO JPG" >}}

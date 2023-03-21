@@ -23,7 +23,7 @@ description: Python API to Convert PPT to PDF. Convert Presentations to JPG, PNG
 
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf ppt-to-word pptx-to-word svg-to-png" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="PDF to PPT Conversion in Python" %}}
 [Aspose.Slides](https://products.aspose.com/slides/python-net/) allows you to import presentations from PDFs. Essentially, you get to convert a PDF to a PowerPoint presentation. To convert PDF to Powerpoint, Go through these steps:
@@ -37,7 +37,7 @@ description: Python API to Convert PPT to PDF. Convert Presentations to JPG, PNG
 
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html ppt-to-word pptx-to-word svg-to-png" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PPT to PDF with custom options in Python" %}}
 
@@ -49,7 +49,7 @@ For converting PowerPoint slides to PDF accurately, Programmers can load the doc
 
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf ppt-to-word pptx-to-word svg-to-png" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Mircrosoft PowerPoint to HTML Conversion in Python" %}}
 When ever there is need to embed presentations within webpages, then there is need to convert slides to HTML.
@@ -60,7 +60,7 @@ When ever there is need to embed presentations within webpages, then there is ne
 
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html ppt-to-word pptx-to-word svg-to-png" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to JPG" %}}
 Converting Microsoft<sup>&reg;</sup> PowerPoint formats to images JPEG, PNG, TIFF etc is another commom use case mostly used for creating slides thumbnails. 
@@ -70,4 +70,10 @@ Converting Microsoft<sup>&reg;</sup> PowerPoint formats to images JPEG, PNG, TIF
 
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif ppt-to-word pptx-to-word svg-to-png" >}}
+
+{{< blocks/slides-app-widget 
+    appName="conversion"
+    extension=""
+    sectionTitle="Convert PowerPoint Presentations online" 
+    sectionDescription="[Learn how to convert ppt to pdf in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-pdf/)" >}}

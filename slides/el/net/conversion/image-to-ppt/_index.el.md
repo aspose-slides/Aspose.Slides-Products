@@ -72,6 +72,8 @@ using (Presentation pres = new Presentation())
 
 
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Δωρεάν Online Μετατροπέας" sectionDescription="[Πώς να μετατρέψετε το PPT σε HTML στην Python](https://products.aspose.com/slides/el/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές PowerPoint" subTitle="Μπορείτε επίσης να μετατρέψετε αρχεία σε άλλες μορφές σε PowerPoint" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}

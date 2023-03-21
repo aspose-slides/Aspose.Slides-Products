@@ -182,3 +182,11 @@ finally
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+
+{{< blocks/slides-app-widget 
+    appName="conversion"
+    extension=""
+    sectionTitle="Convert PowerPoint Presentations online" 
+    sectionDescription="[Learn how to convert ppt to pdf in PHP](https://products.aspose.com/slides/php-java/conversion/ppt-to-pdf/)" >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}

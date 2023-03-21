@@ -78,6 +78,8 @@ for (int32_t i = 0; i < pres->get_Slides()->get_Count(); i++)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Бесплатный онлайн-конвертер" sectionDescription="[Как преобразовать PPT в HTML в Python](https://products.aspose.com/slides/ru/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Конвертировать JPG в другие поддерживаемые форматы" subTitle="Вы также можете конвертировать JPG и сохранять в файлы других форматов. См. все поддерживаемые форматы ниже" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}

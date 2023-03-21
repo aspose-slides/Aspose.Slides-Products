@@ -65,6 +65,8 @@ Enregistrer le résultat sous forme de fichier PPT.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Convertisseur en ligne gratuit" sectionDescription="[Comment convertir PPT en HTML en Python](https://products.aspose.com/slides/fr/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Convertir l'image en d'autres formats pris en charge" subTitle="Vous pouvez également convertir l'image et l'enregistrer dans d'autres formats de fichiers. Voir tous les formats pris en charge ci-dessous" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}

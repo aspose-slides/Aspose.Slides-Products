@@ -61,6 +61,8 @@ Salve o resultado como arquivo PPTX.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Conversor Online Gratuito" sectionDescription="[Como converter PPT para HTML em Python](https://products.aspose.com/slides/pt/python-net/conversion/ppt-to-html/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Converter imagem para outros formatos suportados" subTitle="Você também pode converter a imagem e salvar em outros formatos de arquivo. Veja todos os formatos suportados abaixo" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}
