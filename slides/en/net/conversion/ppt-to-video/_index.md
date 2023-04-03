@@ -10,7 +10,7 @@ description: Convert PPT to video in C#. Use .NET library API to convert PowerPo
 
 {{< blocks/products/pf/feature-page-header h1="Convert PPT to video in C#" h2="Powerful cross-platform .NET API for converting PowerPoint to video using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to video using Aspose.Slides and Aspose.Words" %}}
+{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to video using Aspose.Slides" %}}
 
 [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, edit and manipulate presentations and also convert PowerPoint presentations to other documents and videos. In this case, to convert PowerPoint to video, you need to use **Aspose.Slides** alongside **ffmpeg** and **FFMpegCore** (a free NET ffmpeg wrapper). 
 
@@ -26,7 +26,7 @@ This is how the PPT to video conversion process works: Aspose.Slides is used to 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for .NET** and **Aspose.Words for .NET**: Run `dotnet add package Aspose.Slides.NET --version 22.12.0` and then run `dotnet add package FFMpegCore --version 4.8.0`
+Install **Aspose.Slides for .NET**: Run `dotnet add package Aspose.Slides.NET --version 22.12.0` and then run `dotnet add package FFMpegCore --version 4.8.0`
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
