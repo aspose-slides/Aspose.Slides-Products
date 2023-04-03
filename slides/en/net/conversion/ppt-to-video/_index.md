@@ -26,7 +26,7 @@ This is how the PPT to video conversion process works: Aspose.Slides is used to 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for .NET**: Run `dotnet add package Aspose.Slides.NET --version 22.12.0` and then run `dotnet add package FFMpegCore --version 4.8.0`
+Install **Aspose.Slides for .NET** and **FFMpegcore**: Run `dotnet add package Aspose.Slides.NET --version 22.12.0` and then run `dotnet add package FFMpegCore --version 4.8.0`
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
