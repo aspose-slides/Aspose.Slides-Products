@@ -121,6 +121,8 @@ prest1.save("merged-presentation.potm", SaveFormat.Potm);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Mesclar arquivos PDF on-line" sectionDescription="[Como mesclar PDF em Python](https://products.aspose.com/slides/pt/python-net/merge/pdf/)" >}}
+
 <!-- aboutfile Starts -->
 
     {{% blocks/products/pf/agp/content h2="Sobre Aspose.Slides para API Java" %}}

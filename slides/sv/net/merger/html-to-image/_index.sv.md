@@ -76,6 +76,8 @@ Spara den resulterande bilden.
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Slå samman PDF-filer online" sectionDescription="[Hur man sammanfogar PDF i Python](https://products.aspose.com/slides/sv/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Slå ihop andra filer" subTitle="Du kan också kombinera filer i andra format för att få en enda fil" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    

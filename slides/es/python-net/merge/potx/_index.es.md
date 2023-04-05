@@ -85,6 +85,8 @@ pres1.save("result.potx", slides.export.SaveFormat.POTX)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Combinar archivos PDF en línea" sectionDescription="[Cómo fusionar PDF en Python](https://products.aspose.com/slides/es/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportar POTX a otros formatos admitidos" subTitle="También puede combinar POTX y guardar en otros formatos de archivo. Ver todos los formatos admitidos a continuación" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/merge/potx-to-pptx/" name="POTX TO PPTX" >}}  

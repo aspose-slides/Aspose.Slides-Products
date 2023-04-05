@@ -89,6 +89,8 @@ pres1.save("presentation.otp", slides.export.SaveFormat.OTP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="ادغام فایل های PDF به صورت آنلاین" sectionDescription="[نحوه ادغام PDF در پایتون](https://products.aspose.com/slides/fa/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="PDF را به سایر قالب‌های پشتیبانی شده صادر کنید" subTitle="همچنین می‌توانید PDF را ترکیب کرده و در قالب‌های دیگر فایل ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/merge/pdf-to-pptx/" name="PDF TO PPTX" >}}  

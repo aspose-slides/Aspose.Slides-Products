@@ -121,6 +121,8 @@ prest1.save("merged-presentation.ppsm", SaveFormat.Ppsm);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Combinar archivos PDF en línea" sectionDescription="[Cómo fusionar PDF en Python](https://products.aspose.com/slides/es/python-net/merge/pdf/)" >}}
+
 <!-- aboutfile Starts -->
 
     {{% blocks/products/pf/agp/content h2="Acerca de Aspose.Slides para la API de Java" %}}

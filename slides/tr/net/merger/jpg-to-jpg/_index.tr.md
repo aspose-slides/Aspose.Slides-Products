@@ -77,6 +77,8 @@ Ortaya çıkan JPG görüntüsünü kaydedin.
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF Dosyalarını Çevrimiçi Birleştirme" sectionDescription="[Python'da PDF Nasıl Birleştirilir](https://products.aspose.com/slides/tr/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Diğer dosyaları birleştir" subTitle="Tek bir dosya elde etmek için diğer formatlardaki dosyaları da birleştirebilirsiniz." >}}
   
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/merger/png-to-png/" name="PNG TO PNG" >}}  

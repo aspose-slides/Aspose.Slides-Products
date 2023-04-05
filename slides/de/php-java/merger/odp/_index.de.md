@@ -79,6 +79,8 @@ Speichern Sie das resultierende ODP-Dokument.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF-Dateien online zusammenführen" sectionDescription="[Wie man PDF in Python zusammenführt](https://products.aspose.com/slides/de/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="ODP in andere unterstützte Formate exportieren" subTitle="Sie können ODP auch kombinieren und in anderen Dateiformaten speichern. Siehe unten alle unterstützten Formate" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/ppt/" name="PPT" >}}

@@ -91,6 +91,8 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Объединить PDF-файлы онлайн" sectionDescription="[Как объединить PDF в Python](https://products.aspose.com/slides/ru/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Экспорт PDF в другие поддерживаемые форматы" subTitle="Вы также можете комбинировать PDF и сохранять в файлы других форматов. См. все поддерживаемые форматы ниже" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/merge/pdf-to-pptx/" name="PDF TO PPTX" >}}  

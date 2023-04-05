@@ -89,6 +89,8 @@ pres1.save("presentation.pptx", slides.export.SaveFormat.PPTX)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF-Dateien online zusammenführen" sectionDescription="[Wie man PDF in Python zusammenführt](https://products.aspose.com/slides/de/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="PDF in andere unterstützte Formate exportieren" subTitle="Sie können PDF auch kombinieren und in anderen Dateiformaten speichern. Siehe unten alle unterstützten Formate" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/merge/pdf-to-ppt/" name="PDF TO PPT" >}}  

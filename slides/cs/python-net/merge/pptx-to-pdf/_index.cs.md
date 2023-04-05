@@ -84,6 +84,8 @@ pres1.save("presentation.pdf", slides.export.SaveFormat.PDF)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Sloučit soubory PDF online" sectionDescription="[Jak sloučit PDF v Pythonu](https://products.aspose.com/slides/cs/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportovat PPTX do jiných podporovaných formátů" subTitle="Můžete také kombinovat PPTX a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/merge/pptx-to-ppt/" name="PPTX TO PPT" >}}  

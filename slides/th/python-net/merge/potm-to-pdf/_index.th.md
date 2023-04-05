@@ -84,6 +84,8 @@ pres1.save("presentation.pdf", slides.export.SaveFormat.PDF)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="รวมไฟล์ PDF ออนไลน์" sectionDescription="[วิธีผสาน PDF ใน Python](https://products.aspose.com/slides/th/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="ส่งออก POTM เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถรวม POTM และบันทึกเป็นรูปแบบไฟล์อื่นได้ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/merge/potm-to-pptx/" name="POTM TO PPTX" >}}  

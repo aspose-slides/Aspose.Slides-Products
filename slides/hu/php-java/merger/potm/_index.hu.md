@@ -79,6 +79,8 @@ Mentse el a kapott POTM dokumentumot.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF fájlok online egyesítése" sectionDescription="[Hogyan lehet PDF-et egyesíteni Pythonban](https://products.aspose.com/slides/hu/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="POTM exportálása más támogatott formátumokba" subTitle="A POTM formátumot kombinálhatja is, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/merger/ppt/" name="PPT" >}}

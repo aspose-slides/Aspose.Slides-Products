@@ -84,6 +84,8 @@ pres1.save("presentation.fodp", slides.export.SaveFormat.FODP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF fájlok online egyesítése" sectionDescription="[Hogyan lehet PDF-et egyesíteni Pythonban](https://products.aspose.com/slides/hu/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="PPTM exportálása más támogatott formátumokba" subTitle="A PPTM formátumot kombinálhatja is, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/pptm-to-pptx/" name="PPTM TO PPTX" >}}  

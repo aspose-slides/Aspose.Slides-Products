@@ -77,6 +77,8 @@ try {
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="ادغام فایل های PDF به صورت آنلاین" sectionDescription="[نحوه ادغام PDF در پایتون](https://products.aspose.com/slides/fa/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="فایل های دیگر را ادغام کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ترکیب کنید تا یک فایل واحد بدست آورید" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

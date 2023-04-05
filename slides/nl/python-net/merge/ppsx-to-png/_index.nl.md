@@ -86,6 +86,8 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF-bestanden online samenvoegen" sectionDescription="[PDF samenvoegen in Python](https://products.aspose.com/slides/nl/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exporteer PPSX naar andere ondersteunde formaten" subTitle="U kunt PPSX ook combineren en opslaan in andere bestandsindelingen. Bekijk hieronder alle ondersteunde formaten" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/merge/ppsx-to-pptx/" name="PPSX TO PPTX" >}}  

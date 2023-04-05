@@ -84,6 +84,8 @@ pres1.save("presentation.potm", slides.export.SaveFormat.POTM)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Sloučit soubory PDF online" sectionDescription="[Jak sloučit PDF v Pythonu](https://products.aspose.com/slides/cs/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportovat OTP do jiných podporovaných formátů" subTitle="Můžete také kombinovat OTP a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/merge/otp-to-pptx/" name="OTP TO PPTX" >}}  

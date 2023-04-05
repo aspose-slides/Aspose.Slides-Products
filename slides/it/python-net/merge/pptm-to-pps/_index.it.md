@@ -84,6 +84,8 @@ pres1.save("presentation.pps", slides.export.SaveFormat.PPS)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Unisci file PDF online" sectionDescription="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Esporta PPTM in altri formati supportati" subTitle="Puoi anche combinare PPTM e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/merge/pptm-to-pptx/" name="PPTM TO PPTX" >}}  

@@ -102,6 +102,8 @@ presentation1->Save(outputFilePath, SaveFormat::Potx);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="รวมไฟล์ PDF ออนไลน์" sectionDescription="[วิธีผสาน PDF ใน Python](https://products.aspose.com/slides/th/python-net/merge/pdf/)" >}}
+
 <!-- aboutfile Starts -->
 
     {{% blocks/products/pf/agp/content h2="เกี่ยวกับ Aspose.Slides สำหรับ C++ API" %}}

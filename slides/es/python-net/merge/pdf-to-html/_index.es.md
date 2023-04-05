@@ -89,6 +89,8 @@ pres1.save("presentation.html", slides.export.SaveFormat.HTML5)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Combinar archivos PDF en línea" sectionDescription="[Cómo fusionar PDF en Python](https://products.aspose.com/slides/es/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportar PDF a otros formatos admitidos" subTitle="También puede combinar PDF y guardar en otros formatos de archivo. Ver todos los formatos admitidos a continuación" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/merge/pdf-to-pptx/" name="PDF TO PPTX" >}}  

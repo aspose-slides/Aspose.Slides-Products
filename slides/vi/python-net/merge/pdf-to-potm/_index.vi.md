@@ -89,6 +89,8 @@ pres1.save("presentation.potm", slides.export.SaveFormat.POTM)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Hợp nhất các tệp PDF trực tuyến" sectionDescription="[Cách hợp nhất PDF trong Python](https://products.aspose.com/slides/vi/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Xuất PDF sang các định dạng được hỗ trợ khác" subTitle="Bạn cũng có thể kết hợp PDF và lưu vào các định dạng tệp khác. Xem tất cả các định dạng được hỗ trợ bên dưới" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/pdf-to-pptx/" name="PDF TO PPTX" >}}  

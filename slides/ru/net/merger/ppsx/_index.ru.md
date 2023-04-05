@@ -117,6 +117,8 @@ var ps1 = new Presentation("presen1.ppsx");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Объединить PDF-файлы онлайн" sectionDescription="[Как объединить PDF в Python](https://products.aspose.com/slides/ru/python-net/merge/pdf/)" >}}
+
 <!-- aboutfile Starts -->
 
     {{% blocks/products/pf/agp/content h2="О Aspose.Slides для .NET API" %}}

@@ -84,6 +84,8 @@ pres1.save("presentation.pdf", slides.export.SaveFormat.PDF)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="دمج ملفات PDF على الإنترنت" sectionDescription="[كيفية دمج ملفات PDF في بايثون](https://products.aspose.com/slides/ar/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="تصدير PPSM إلى التنسيقات المدعومة الأخرى" subTitle="يمكنك أيضًا دمج PPSM وحفظه في تنسيقات ملفات أخرى. انظر جميع التنسيقات المدعومة أدناه" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/merge/ppsm-to-pptx/" name="PPSM TO PPTX" >}}  

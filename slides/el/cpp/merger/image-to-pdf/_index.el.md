@@ -76,6 +76,8 @@ pres->Save(u"pres.pdf", SaveFormat::Pdf);
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Συγχώνευση αρχείων PDF στο Διαδίκτυο" sectionDescription="[Πώς να συγχωνεύσετε το PDF στην Python](https://products.aspose.com/slides/el/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Συγχώνευση άλλων αρχείων" subTitle="Μπορείτε επίσης να συνδυάσετε αρχεία σε άλλες μορφές για να αποκτήσετε ένα μόνο αρχείο" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/merger/jpg-to-jpg/" name="JPG to JPG" >}}  

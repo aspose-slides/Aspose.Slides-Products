@@ -86,6 +86,8 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Combinar archivos PDF en línea" sectionDescription="[Cómo fusionar PDF en Python](https://products.aspose.com/slides/es/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportar PPTM a otros formatos admitidos" subTitle="También puede combinar PPTM y guardar en otros formatos de archivo. Ver todos los formatos admitidos a continuación" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/python-net/merge/pptm-to-pptx/" name="PPTM TO PPTX" >}}  

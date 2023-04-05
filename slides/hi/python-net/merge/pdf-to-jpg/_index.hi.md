@@ -91,6 +91,8 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="पीडीएफ फाइलों को ऑनलाइन मर्ज करें" sectionDescription="[पायथन में पीडीएफ को कैसे मर्ज करें](https://products.aspose.com/slides/hi/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="PDF अन्य समर्थित प्रारूपों में निर्यात करें" subTitle="आप PDF को भी जोड़ सकते हैं और अन्य फ़ाइल स्वरूपों में सहेज सकते हैं। सभी समर्थित प्रारूप नीचे देखें" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/merge/pdf-to-pptx/" name="PDF TO PPTX" >}}  

@@ -84,6 +84,8 @@ pres1.save("presentation.odp", slides.export.SaveFormat.ODP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Slå samman PDF-filer online" sectionDescription="[Hur man sammanfogar PDF i Python](https://products.aspose.com/slides/sv/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportera PPTX till andra format som stöds" subTitle="Du kan också kombinera PPTX och spara till andra filformat. Se alla format som stöds nedan" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/merge/pptx-to-ppt/" name="PPTX TO PPT" >}}  

@@ -86,6 +86,8 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Slå samman PDF-filer online" sectionDescription="[Hur man sammanfogar PDF i Python](https://products.aspose.com/slides/sv/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportera POTX till andra format som stöds" subTitle="Du kan också kombinera POTX och spara till andra filformat. Se alla format som stöds nedan" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/merge/potx-to-pptx/" name="POTX TO PPTX" >}}  

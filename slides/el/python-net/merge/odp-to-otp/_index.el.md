@@ -84,6 +84,8 @@ pres1.save("presentation.otp", slides.export.SaveFormat.OTP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Συγχώνευση αρχείων PDF στο Διαδίκτυο" sectionDescription="[Πώς να συγχωνεύσετε το PDF στην Python](https://products.aspose.com/slides/el/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Εξαγωγή ODP σε άλλες υποστηριζόμενες μορφές" subTitle="Μπορείτε επίσης να συνδυάσετε το ODP και να το αποθηκεύσετε σε άλλες μορφές αρχείων. Δείτε όλες τις υποστηριζόμενες μορφές παρακάτω" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/merge/odp-to-pptx/" name="ODP TO PPTX" >}}  

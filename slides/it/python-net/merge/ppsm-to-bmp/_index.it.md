@@ -86,6 +86,8 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Unisci file PDF online" sectionDescription="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Esporta PPSM in altri formati supportati" subTitle="Puoi anche combinare PPSM e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/merge/ppsm-to-pptx/" name="PPSM TO PPTX" >}}  

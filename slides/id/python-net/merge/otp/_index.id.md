@@ -85,6 +85,8 @@ pres1.save("result.otp", slides.export.SaveFormat.OTP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Menggabungkan File PDF Online" sectionDescription="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Ekspor OTP Ke Format Lain yang Didukung" subTitle="Anda juga dapat menggabungkan OTP dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/merge/otp-to-pptx/" name="OTP TO PPTX" >}}  

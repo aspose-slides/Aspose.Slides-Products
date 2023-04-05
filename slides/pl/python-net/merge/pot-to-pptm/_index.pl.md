@@ -84,6 +84,8 @@ pres1.save("presentation.pptm", slides.export.SaveFormat.PPTM)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Scal pliki PDF online" sectionDescription="[Jak scalić PDF w Pythonie](https://products.aspose.com/slides/pl/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Eksportuj POT do innych obsługiwanych formatów" subTitle="Możesz też łączyć POT i zapisywać w innych formatach plików. Zobacz wszystkie obsługiwane formaty poniżej" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/pot-to-pptx/" name="POT TO PPTX" >}}  
