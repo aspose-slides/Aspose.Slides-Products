@@ -1,9 +1,47 @@
 ---
 title: 在 Windows、Linux 和 macOS 上合并 PowerPoint 文件
 weight: 7730
-url: /zh/merger
-description: 结合 PowerPoint PPT、PPS、PPTX、POTX、PPSX、PPTM、PPSM、POTM、ODP 和 OTP 的免费应用程序和 API
+url: /zh/merger/
+description: 用于合并 PowerPoint PPT、PPS、PPTX、PDF、POTX、PPSX、PPTM、PPSM、POTM、ODP 和 OTP 的免费应用程序和 API
 ---
 
-{{< blocks/products/pf/agp/feature-solution >}} 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/upper-banner h1="PowerPoint API：.NET、Java、C++、Python、PHP" h2="Aspose.Slides 是一个功能强大的类库，用于处理或处理演示文稿。它为 .NET、Java、C++、Python、PHP 和 Android 提供 API。使用 Aspose.Slides，您可以在 .NET、Java、C++、Python、PHP、Android 中生成、合并和转换 PowerPoint 演示文稿和幻灯片。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" >}}
+
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/slides-app-widget 
+    appName="merger"
+    extension=""
+    sectionTitle="在线合并 PowerPoint 演示文稿" 
+    sectionDescription="[了解如何在 Python 中将 ppt 合并为 pdf](https://products.aspose.com/slides/zh/python-net/merge/ppt-to-pdf/)" >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API 包括" >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/merger/" >}}
+强大的 .NET 库，用于创建、转换、合并和操作演示文稿、HTML 文件和其他文档。您可以使用 Aspose.Slides for .NET 以编程方式使用 C# 合并 PowerPoint 演示文稿
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="通过 .NET 的 Python" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/merge/" >}}
+提供合并多个文档的灵活方法的 Python 库。它提供对流行文档格式的全面支持，包括 PowerPoint 演示文稿（PPT 和 PPTX）、OpenDocument 演示文稿 (ODP) 和便携式文档格式 (PDF)。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/java/merger/" >}}
+用于合并和转换演示文稿的 PowerPoint Java API。该 API 还支持各种格式，例如 Microsoft PowerPoint (PPT)、OpenDocument Presentation (ODP)、可移植文档格式 (PDF) 或 JPEG、PNG 等图像文件，使其成为跨多个文件共享文档的理想解决方案平台或设备没有任何兼容性问题。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/cpp/merger/" >}}
+高速 C++ 库，使您可以轻松地将文档从一种格式合并和转换为另一种格式，为您提供方便、快速和高质量的结果。使用 Aspose.Slides for C++，您可以将您的文档合并为流行的格式，如 PPT、PPTX、PDF、HTML 和许多其他格式。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP 通过 Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/php-java/merger/" >}}
+强大的库，可让您轻松合并多个演示文稿并将结果转换为各种格式，例如 PDF、TIFF、HTML 和 SVG。这为需要与无法访问演示软件的人共享演示文稿的用户提供了便利。
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
