@@ -84,6 +84,8 @@ pres1.save("presentation.ppsx", slides.export.SaveFormat.PPSX)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Mesclar arquivos PDF on-line" sectionDescription="[Como mesclar PDF em Python](https://products.aspose.com/slides/pt/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportar PPS para outros formatos suportados" subTitle="Você também pode combinar PPS e salvar em outros formatos de arquivo. Veja todos os formatos suportados abaixo" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/python-net/merge/pps-to-pptx/" name="PPS TO PPTX" >}}  

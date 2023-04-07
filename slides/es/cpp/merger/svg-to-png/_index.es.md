@@ -80,6 +80,8 @@ Guarde la imagen PNG resultante.
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Combinar archivos PDF en línea" sectionDescription="[Cómo fusionar PDF en Python](https://products.aspose.com/slides/es/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Combinar otros archivos" subTitle="También puede combinar archivos en otros formatos para obtener un solo archivo" >}}
   
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

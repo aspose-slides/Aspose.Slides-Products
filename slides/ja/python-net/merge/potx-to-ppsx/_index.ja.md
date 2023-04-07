@@ -84,6 +84,8 @@ pres1.save("presentation.ppsx", slides.export.SaveFormat.PPSX)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDFファイルをオンラインで結合" sectionDescription="[Python で PDF をマージする方法](https://products.aspose.com/slides/ja/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="POTX を他のサポートされている形式にエクスポート" subTitle="POTX を組み合わせて、他のファイル形式に保存することもできます。以下のサポートされているすべての形式を参照してください" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/merge/potx-to-pptx/" name="POTX TO PPTX" >}}  

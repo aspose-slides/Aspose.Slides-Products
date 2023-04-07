@@ -85,6 +85,8 @@ pres1.save("result.fodp", slides.export.SaveFormat.FODP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Mesclar arquivos PDF on-line" sectionDescription="[Como mesclar PDF em Python](https://products.aspose.com/slides/pt/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Exportar FODP para outros formatos suportados" subTitle="Você também pode combinar FODP e salvar em outros formatos de arquivo. Veja todos os formatos suportados abaixo" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/python-net/merge/fodp-to-pptx/" name="FODP TO PPTX" >}}  

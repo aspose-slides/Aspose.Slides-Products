@@ -84,6 +84,8 @@ pres1.save("presentation.fodp", slides.export.SaveFormat.FODP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="在线合并 PDF 文件" sectionDescription="[如何在 Python 中合并 PDF](https://products.aspose.com/slides/zh/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="将 PPT 导出为其他支持的格式" subTitle="您还可以组合 PPT 并保存为其他文件格式。查看下面所有支持的格式" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/merge/ppt-to-pptx/" name="PPT TO PPTX" >}}  

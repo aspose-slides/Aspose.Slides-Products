@@ -84,6 +84,8 @@ pres1.save("presentation.xps", slides.export.SaveFormat.XPS)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="دمج ملفات PDF على الإنترنت" sectionDescription="[كيفية دمج ملفات PDF في بايثون](https://products.aspose.com/slides/ar/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="تصدير PPSX إلى التنسيقات المدعومة الأخرى" subTitle="يمكنك أيضًا دمج PPSX وحفظه في تنسيقات ملفات أخرى. انظر جميع التنسيقات المدعومة أدناه" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/merge/ppsx-to-pptx/" name="PPSX TO PPTX" >}}  

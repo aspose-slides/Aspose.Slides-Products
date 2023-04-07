@@ -84,6 +84,8 @@ pres1.save("presentation.otp", slides.export.SaveFormat.OTP)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Объединить PDF-файлы онлайн" sectionDescription="[Как объединить PDF в Python](https://products.aspose.com/slides/ru/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Экспорт POTM в другие поддерживаемые форматы" subTitle="Вы также можете комбинировать POTM и сохранять в файлы других форматов. См. все поддерживаемые форматы ниже" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/merge/potm-to-pptx/" name="POTM TO PPTX" >}}  

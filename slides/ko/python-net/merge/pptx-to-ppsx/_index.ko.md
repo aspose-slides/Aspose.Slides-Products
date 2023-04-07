@@ -84,6 +84,8 @@ pres1.save("presentation.ppsx", slides.export.SaveFormat.PPSX)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="온라인으로 PDF 파일 병합" sectionDescription="[Python에서 PDF를 병합하는 방법](https://products.aspose.com/slides/ko/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="지원되는 다른 형식으로 PPTX 내보내기" subTitle="PPTX을 결합하여 다른 파일 형식으로 저장할 수도 있습니다. 아래에서 지원되는 모든 형식 보기" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/merge/pptx-to-ppt/" name="PPTX TO PPT" >}}  

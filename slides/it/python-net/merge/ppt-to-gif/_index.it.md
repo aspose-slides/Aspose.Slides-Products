@@ -84,6 +84,8 @@ pres1.save("presentation.gif", slides.export.SaveFormat.GIF)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Unisci file PDF online" sectionDescription="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Esporta PPT in altri formati supportati" subTitle="Puoi anche combinare PPT e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/merge/ppt-to-pptx/" name="PPT TO PPTX" >}}  

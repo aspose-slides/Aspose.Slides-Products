@@ -85,6 +85,8 @@ Uložte výsledný obrázek JPG.
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Sloučit soubory PDF online" sectionDescription="[Jak sloučit PDF v Pythonu](https://products.aspose.com/slides/cs/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Sloučit další soubory" subTitle="Můžete také kombinovat soubory v jiných formátech a získat tak jeden soubor" >}}
   
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/png-to-png/" name="PNG TO PNG" >}}  

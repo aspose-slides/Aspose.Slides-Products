@@ -96,6 +96,8 @@ Presentation 클래스의 인스턴스를 만듭니다.
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="온라인으로 PDF 파일 병합" sectionDescription="[Python에서 PDF를 병합하는 방법](https://products.aspose.com/slides/ko/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="다른 파일 병합" subTitle="다른 형식의 파일을 결합하여 단일 파일을 얻을 수도 있습니다." >}}
   
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

@@ -84,6 +84,8 @@ pres1.save("presentation.gif", slides.export.SaveFormat.GIF)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Menggabungkan File PDF Online" sectionDescription="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Ekspor PPSM Ke Format Lain yang Didukung" subTitle="Anda juga dapat menggabungkan PPSM dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/merge/ppsm-to-pptx/" name="PPSM TO PPTX" >}}  

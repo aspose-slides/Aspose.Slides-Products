@@ -80,6 +80,8 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 
 
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="在線合併 PDF 文件" sectionDescription="[如何在 Python 中合併 PDF](https://products.aspose.com/slides/zh-hant/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="合併其他文件" subTitle="您還可以合併其他格式的文件以獲得單個文件" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    

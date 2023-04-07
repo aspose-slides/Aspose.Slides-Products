@@ -79,6 +79,8 @@ Save the resulting FODP doc.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
+{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
+
 {{< blocks/products/pf/agp/other-supported-section title="Export FODP To Other Supported Formats" subTitle="You can also combine FODP and save to other file formats. See all supported formats below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/ppt/" name="PPT" >}}
