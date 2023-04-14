@@ -50,7 +50,7 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PDF PNG formátumra konvertálásához Java nyelven." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for Java**] programot (https://products.aspose.com/slides/hu/java/).
+Telepítse az [**Aspose.Slides for Java**](https://products.aspose.com/slides/hu/java/) programot.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

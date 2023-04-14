@@ -59,7 +59,7 @@ for (int32_t i = 0; i < pres->get_Slides()->get_Count(); i++)
 {{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PNG konvertálásához JPG-re C++ nyelven." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for C++**] programot (https://products.aspose.com/slides/hu/cpp/).
+Telepítse az [**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) programot.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
