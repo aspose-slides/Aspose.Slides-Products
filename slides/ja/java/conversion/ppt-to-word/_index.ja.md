@@ -93,7 +93,7 @@ Word に変換する PPT プレゼンテーションを読み込みます。
 
 
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="無料のオンラインコンバーター" sectionDescription="[Python で PPT を HTML に変換する方法](https://products.aspose.com/slides/ja/en/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="無料のオンラインコンバーター" sectionDescription="[Python で PPT を HTML に変換する方法](https://products.aspose.com/slides/ja/python-net/conversion/ppt-to-html/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="PowerPoint を他の形式のファイルに変換することもできます" >}}
 
@@ -103,7 +103,7 @@ Word に変換する PPT プレゼンテーションを読み込みます。
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
 
 

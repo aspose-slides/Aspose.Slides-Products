@@ -42,7 +42,7 @@ pres->Save(u"presentation.ppt", SaveFormat::Ppt);
 {{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a kép PPT-vé konvertálásához C++ nyelven." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for C++**] programot (https://products.aspose.com/slides/hu/cpp/).
+Telepítse az [**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) programot.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
