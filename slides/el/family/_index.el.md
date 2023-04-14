@@ -56,6 +56,59 @@ PowerPoint API για τη δημιουργία εφαρμογών Xamarin πο�
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Δείγματα Κώδικα Online Περιλαμβάνονται" >}}
+
+{{< blocks/products/pf/product pfName="" title="Σχόλιο" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/el/annotation/" >}}
+Πώς να αφαιρέσετε σχολιασμούς από την παρουσίαση με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Σύγκριση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/el/comparison/" >}}
+Πώς να συγκρίνετε έγγραφα PowerPoint μέσω του Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Μετατροπή" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/conversion/" >}}
+Πώς να μετατρέψετε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Συγχώνευση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/el/merger/" >}}
+Τρόπος συγχώνευσης παρουσιάσεων χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Μεταδεδομένα" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/metadata/" >}}
+Τρόπος επεξεργασίας ιδιοτήτων παρουσίασης χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Προστατεύω" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/el/protect/" >}}
+Τρόπος προστασίας με κωδικό πρόσβασης παρουσίαση PowerPoint με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Σύνταξη" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/el/redaction/" >}}
+Πώς να επεξεργαστείτε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Υπογραφή" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/el/signature/" >}}
+Πώς να υπογράψετε την παρουσίαση με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Σχίστης" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/el/splitter/" >}}
+Πώς να χωρίσετε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Ξεκλείδωμα" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/el/unlock/" >}}
+Πώς να αφαιρέσετε τον κωδικό πρόσβασης από το PowerPoint με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Θεατής" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/el/viewer/" >}}
+Πώς να ανοίξετε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Αφανής σφραγίδα χάρτου" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/el/watermark/" >}}
+Πώς να προσθέσετε υδατογράφημα χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

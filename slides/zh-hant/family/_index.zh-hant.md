@@ -56,6 +56,59 @@ PowerPoint API，用於使用 PHP 腳本生成和操作演示文稿。
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 代碼示例在線包括" >}}
+
+{{< blocks/products/pf/product pfName="" title="註解" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/zh-hant/annotation/" >}}
+如何使用 Aspose.Slides API 從演示文稿中刪除註釋。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="比較" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/zh-hant/comparison/" >}}
+如何通過 Aspose.Slides API 比較 PowerPoint 文檔。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="轉換" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh-hant/conversion/" >}}
+如何使用 Aspose.Slides API 轉換 PowerPoint 演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="合併" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh-hant/merger/" >}}
+如何使用 Aspose.Slides API 合併演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="元數據" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/metadata/" >}}
+如何使用 Aspose.Slides API 編輯演示文稿屬性。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="保護" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/zh-hant/protect/" >}}
+如何使用 Aspose.Slides API 密碼保護 PowerPoint 演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="編輯" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/zh-hant/redaction/" >}}
+如何使用 Aspose.Slides API 編輯演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="簽名" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/zh-hant/signature/" >}}
+如何使用 Aspose.Slides API 簽署演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="分配器" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/zh-hant/splitter/" >}}
+如何使用 Aspose.Slides API 拆分 PowerPoint 演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="開鎖" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/zh-hant/unlock/" >}}
+如何使用 Aspose.Slides API 從 PowerPoint 中刪除密碼。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="查看器" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/zh-hant/viewer/" >}}
+如何使用 Aspose.Slides API 打開演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="水印" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/zh-hant/watermark/" >}}
+如何使用 Aspose.Slides API 添加水印。
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

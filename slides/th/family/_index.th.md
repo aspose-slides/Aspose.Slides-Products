@@ -56,6 +56,59 @@ PowerPoint API สำหรับสร้างแอปพลิเคชั�
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides ตัวอย่างโค้ด PowerPoint ออนไลน์รวม" >}}
+
+{{< blocks/products/pf/product pfName="" title="คำอธิบายประกอบ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/th/annotation/" >}}
+วิธีลบคำอธิบายประกอบออกจากงานนำเสนอด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การเปรียบเทียบ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/th/comparison/" >}}
+วิธีเปรียบเทียบเอกสาร PowerPoint ผ่าน Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การแปลง" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/th/conversion/" >}}
+วิธีแปลงงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การควบรวมกิจการ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/th/merger/" >}}
+วิธีผสานงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ข้อมูลเมตา" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/metadata/" >}}
+วิธีแก้ไขคุณสมบัติการนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ปกป้อง" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/th/protect/" >}}
+วิธีรหัสผ่านป้องกันงานนำเสนอ PowerPoint ด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ปฏิกิริยา" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/th/redaction/" >}}
+วิธีแก้ไขงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ลายเซ็น" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/th/signature/" >}}
+วิธีลงชื่อการนำเสนอด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ตัวแยกสัญญาณ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/th/splitter/" >}}
+วิธีแยกงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ปลดล็อค" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/th/unlock/" >}}
+วิธีลบรหัสผ่านออกจาก PowerPoint ด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ผู้ดู" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/th/viewer/" >}}
+วิธีเปิดงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ลายน้ำ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/th/watermark/" >}}
+วิธีเพิ่มลายน้ำโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

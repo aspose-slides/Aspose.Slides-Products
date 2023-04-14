@@ -56,6 +56,60 @@ PowerPoint API لبناء تطبيقات Xamarin عبر الأنظمة الأس�
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides نماذج أكواد PowerPoint على الإنترنت تشمل" >}}
+
+{{< blocks/products/pf/product pfName="" title="حاشية. ملاحظة" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/ar/annotation/" >}}
+كيفية إزالة التعليقات التوضيحية من العرض باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="مقارنة" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/ar/comparison/" >}}
+كيفية مقارنة مستندات PowerPoint عبر Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="تحويل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ar/conversion/" >}}
+كيفية تحويل عروض PowerPoint التقديمية باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="الاندماج" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ar/merger/" >}}
+كيفية دمج العروض التقديمية باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="البيانات الوصفية" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/metadata/" >}}
+كيفية تحرير خصائص العرض التقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="يحمي" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ar/protect/" >}}
+كيفية حماية كلمة مرور عرض PowerPoint التقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="تنقيح" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/ar/redaction/" >}}
+كيفية تنقيح عرض تقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="إمضاء" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/ar/signature/" >}}
+كيفية توقيع العرض التقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="الفاصل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/ar/splitter/" >}}
+كيفية تقسيم عرض PowerPoint التقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="الغاء القفل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/ar/unlock/" >}}
+كيفية إزالة كلمة المرور من PowerPoint باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="مشاهد" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/ar/viewer/" >}}
+كيفية فتح عرض تقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="علامة مائية" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/ar/watermark/" >}}
+كيفية إضافة علامة مائية باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

@@ -56,6 +56,59 @@ PowerPoint API Xamarin többplatformos alkalmazások készítéséhez és prezen
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint kódminták online tartalmazzák" >}}
+
+{{< blocks/products/pf/product pfName="" title="Annotáció" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/hu/annotation/" >}}
+A kommentárok eltávolítása a prezentációból az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Összehasonlítás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/hu/comparison/" >}}
+PowerPoint-dokumentumok összehasonlítása az Aspose.Slides API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Átalakítás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/conversion/" >}}
+PowerPoint prezentációk konvertálása az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Egyesülés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/merger/" >}}
+Prezentációk egyesítése az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Metaadatok" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/metadata/" >}}
+A prezentáció tulajdonságainak szerkesztése az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Védje" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hu/protect/" >}}
+PowerPoint prezentáció jelszavas védelme az Aspose.Slides API-val.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Szerkesztés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/hu/redaction/" >}}
+Prezentáció szerkesztése az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Aláírás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/hu/signature/" >}}
+Prezentáció aláírása az Aspose.Slides API-val.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Splitter" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/hu/splitter/" >}}
+PowerPoint-prezentáció felosztása az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Kinyit" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/hu/unlock/" >}}
+Jelszó eltávolítása a PowerPointból az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Néző" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/hu/viewer/" >}}
+Prezentáció megnyitása az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Vízjel" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/hu/watermark/" >}}
+Vízjel hozzáadása az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

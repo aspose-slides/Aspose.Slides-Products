@@ -56,6 +56,58 @@ PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی ه
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides پاورپوینت نمونه کد آنلاین شامل" >}}
+
+{{< blocks/products/pf/product pfName="" title="حاشیه نویسی" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/fa/annotation/" >}}
+نحوه حذف حاشیه نویسی از ارائه با Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="مقایسه" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/fa/comparison/" >}}
+نحوه مقایسه اسناد پاورپوینت از طریق Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="تبدیل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fa/conversion/" >}}
+نحوه تبدیل ارائه های پاورپوینت با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ادغام" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/fa/merger/" >}}
+نحوه ادغام ارائه ها با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="فراداده" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fa/metadata/" >}}
+نحوه ویرایش ویژگی های ارائه با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="محافظت" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/fa/protect/" >}}
+نحوه محافظت از ارائه پاورپوینت با رمز عبور با Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ویرایش" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/fa/redaction/" >}}
+نحوه ویرایش یک ارائه با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="امضا" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/fa/signature/" >}}
+نحوه امضای ارائه با Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="شکافنده" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/fa/splitter/" >}}
+چگونه یک ارائه پاورپوینت را با استفاده از Aspose.Slides API تقسیم کنیم.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="باز کردن قفل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/fa/unlock/" >}}
+نحوه حذف رمز عبور از پاورپوینت با Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="بیننده" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/fa/viewer/" >}}
+نحوه باز کردن یک ارائه با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="واترمارک" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/fa/watermark/" >}}
+نحوه اضافه کردن واترمارک با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

@@ -56,6 +56,59 @@ Xamarin 플랫폼 간 애플리케이션을 빌드하고 Android, iOS 또는 Win
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 코드 샘플 온라인 포함" >}}
+
+{{< blocks/products/pf/product pfName="" title="주석" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/ko/annotation/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션에서 주석을 제거하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="비교" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/ko/comparison/" >}}
+Aspose.Slides API를 통해 PowerPoint 문서를 비교하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="변환" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ko/conversion/" >}}
+Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션을 변환하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="합병" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ko/merger/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션을 병합하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="메타데이터" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ko/metadata/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션 속성을 편집하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="보호하다" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ko/protect/" >}}
+Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션을 암호로 보호하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="편집" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/ko/redaction/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션을 편집하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="서명" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/ko/signature/" >}}
+Aspose.Slides API로 프레젠테이션에 서명하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="쪼개는 도구" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/ko/splitter/" >}}
+Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션을 분할하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="터놓다" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/ko/unlock/" >}}
+Aspose.Slides API를 사용하여 PowerPoint에서 비밀번호를 제거하는 방법
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="뷰어" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/ko/viewer/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션을 여는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="양수표" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/ko/watermark/" >}}
+Aspose.Slides API를 사용하여 워터마크를 추가하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}
