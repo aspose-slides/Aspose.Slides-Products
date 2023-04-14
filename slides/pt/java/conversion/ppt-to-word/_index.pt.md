@@ -103,7 +103,7 @@ Salve o documento do Word resultante.
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
 
 
