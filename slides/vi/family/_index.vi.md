@@ -56,6 +56,59 @@ API PowerPoint để xây dựng ứng dụng đa nền tảng Xamarin và quả
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Bao gồm các mẫu mã Aspose.Slides PowerPoint trực tuyến" >}}
+
+{{< blocks/products/pf/product pfName="" title="Chú thích" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/vi/annotation/" >}}
+Cách xóa chú thích khỏi bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="so sánh" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/vi/comparison/" >}}
+Cách so sánh tài liệu PowerPoint qua API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="chuyển đổi" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/conversion/" >}}
+Cách chuyển đổi bản trình bày PowerPoint bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="sáp nhập" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/merger/" >}}
+Cách hợp nhất các bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="metadata" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/metadata/" >}}
+Cách chỉnh sửa thuộc tính Bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Bảo vệ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/vi/protect/" >}}
+Cách đặt mật khẩu bảo vệ bản trình bày PowerPoint bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Sự biên tập" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/vi/redaction/" >}}
+Cách tạo lại bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Chữ ký" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/vi/signature/" >}}
+Cách ký bản trình bày với API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Bộ chia" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/vi/splitter/" >}}
+Cách chia nhỏ bản trình bày PowerPoint bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="mở khóa" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/vi/unlock/" >}}
+Cách xóa mật khẩu khỏi PowerPoint bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Người xem" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/vi/viewer/" >}}
+Cách mở bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Chữ ký ảnh" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/vi/watermark/" >}}
+Cách thêm hình mờ bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

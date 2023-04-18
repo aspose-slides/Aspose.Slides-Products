@@ -56,6 +56,61 @@ PowerPoint API pro vytváření Xamarin multiplatformních aplikací a správu p
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Online ukázky kódu PowerPoint" >}}
+
+{{< blocks/products/pf/product pfName="" title="Anotace" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/cs/annotation/" >}}
+Jak odstranit anotace z prezentace pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Srovnání" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/cs/comparison/" >}}
+Jak porovnávat PowerPoint dokumenty přes Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Konverze" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/cs/conversion/" >}}
+Jak převést PowerPointové prezentace pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Fúze" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/merger/" >}}
+Jak sloučit prezentace pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Metadata" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/cs/metadata/" >}}
+Jak upravit vlastnosti prezentace pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Chránit" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/cs/protect/" >}}
+Jak chránit heslem PowerPoint prezentaci s Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Redakce" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/cs/redaction/" >}}
+Jak upravit prezentaci pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Podpis" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/cs/signature/" >}}
+Jak podepsat prezentaci pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Splitter" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/cs/splitter/" >}}
+Jak rozdělit prezentaci v PowerPointu pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Odemknout" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/cs/unlock/" >}}
+Jak odstranit heslo z PowerPointu pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Divák" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/cs/viewer/" >}}
+Jak otevřít prezentaci pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Vodoznak" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/cs/watermark/" >}}
+Jak přidat vodoznak pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

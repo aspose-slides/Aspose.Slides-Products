@@ -56,6 +56,59 @@ API do PowerPoint para criar aplicativos de plataforma cruzada Xamarin e gerenci
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Amostras de código do PowerPoint on-line incluem" >}}
+
+{{< blocks/products/pf/product pfName="" title="Anotação" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/pt/annotation/" >}}
+Como remover anotações da apresentação com a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Comparação" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/pt/comparison/" >}}
+Como comparar documentos do PowerPoint via API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Conversão" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pt/conversion/" >}}
+Como converter apresentações do PowerPoint usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Fusão" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pt/merger/" >}}
+Como mesclar apresentações usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Metadados" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/metadata/" >}}
+Como editar as propriedades da apresentação usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Proteger" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/pt/protect/" >}}
+Como proteger com senha uma apresentação do PowerPoint com a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Redação" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/pt/redaction/" >}}
+Como redigir uma apresentação usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Assinatura" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/pt/signature/" >}}
+Como assinar uma apresentação com a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Divisor" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/pt/splitter/" >}}
+Como dividir uma apresentação do PowerPoint usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="desbloquear" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/pt/unlock/" >}}
+Como remover a senha do PowerPoint com a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Visualizador" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/pt/viewer/" >}}
+Como abrir uma apresentação usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Marca d'água" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/pt/watermark/" >}}
+Como adicionar marca d'água usando a API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

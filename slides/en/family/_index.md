@@ -1,7 +1,7 @@
 ---
 title: PowerPoint .NET Java C++ Python PHP Android APIs
 weight: 10
-url: /family
+url: /family/
 description: PowerPoint API for .NET, Java, C++, Python, PHP. Create Write Edit Render Print PowerPoint PPT, PPTX, ODP. Export Slides in SSRS and JasperReports
 ---
 
@@ -56,6 +56,59 @@ PowerPoint API for building Xamarin cross-platform applications and managing pre
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Code Samples Online Include" >}}
+
+{{< blocks/products/pf/product pfName="" title="Annotation" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/annotation/" >}}
+How to remove annotations from presentation with Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Comparison" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/comparison/" >}}
+How to Compare PowerPoint documents via Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Conversion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/conversion/" >}}
+How to Convert PowerPoint presentations using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Merger" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/merger/" >}}
+How to Merge Presentations using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Metadata" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/metadata/" >}}
+How to Edit Presentation properties using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Protect" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/protect/" >}}
+How to Password Protect PowerPoint presentation with Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Redaction" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/redaction/" >}}
+How to Redact a presentation using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Signature" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/signature/" >}}
+How to Sign Presentation with Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Splitter" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/splitter/" >}}
+How to Split a PowerPoint Presentation using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Unlock" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/unlock/" >}}
+How to Remove Password From PowerPoint with Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/viewer/" >}}
+How to open a presentation using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Watermark" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/watermark/" >}}
+How to Add Watermark Using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}

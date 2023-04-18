@@ -56,6 +56,58 @@ API PowerPoint pour créer des applications multiplateformes Xamarin et gérer d
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Exemples de code PowerPoint Aspose.Slides en ligne inclus" >}}
+
+{{< blocks/products/pf/product pfName="" title="Annotation" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/fr/annotation/" >}}
+Comment supprimer les annotations de la présentation avec l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Comparaison" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/fr/comparison/" >}}
+Comment comparer des documents PowerPoint via l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Conversion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/conversion/" >}}
+Comment convertir des présentations PowerPoint à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Fusionnement" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/fr/merger/" >}}
+Comment fusionner des présentations à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Métadonnées" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/metadata/" >}}
+Comment modifier les propriétés de présentation à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Protéger" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/fr/protect/" >}}
+Comment protéger par mot de passe la présentation PowerPoint avec l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Rédaction" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/fr/redaction/" >}}
+Comment rédiger une présentation à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Signature" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/fr/signature/" >}}
+Comment signer une présentation avec l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Séparateur" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/fr/splitter/" >}}
+Comment diviser une présentation PowerPoint à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Ouvrir" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/fr/unlock/" >}}
+Comment supprimer le mot de passe de PowerPoint avec l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Téléspectateur" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/fr/viewer/" >}}
+Comment ouvrir une présentation à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Filigrane" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/fr/watermark/" >}}
+Comment ajouter un filigrane à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

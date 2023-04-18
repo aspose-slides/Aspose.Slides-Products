@@ -56,6 +56,59 @@ PowerPoint API voor het bouwen van platformonafhankelijke Xamarin-applicaties en
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint-codevoorbeelden online opnemen" >}}
+
+{{< blocks/products/pf/product pfName="" title="Annotatie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/nl/annotation/" >}}
+Hoe annotaties uit de presentatie te verwijderen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Vergelijking" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/nl/comparison/" >}}
+PowerPoint-documenten vergelijken via Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Conversie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/conversion/" >}}
+PowerPoint-presentaties converteren met de Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Fusie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/nl/merger/" >}}
+Presentaties samenvoegen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Metagegevens" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/metadata/" >}}
+Presentatie-eigenschappen bewerken met de Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Beschermen" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/nl/protect/" >}}
+PowerPoint-presentatie met een wachtwoord beveiligen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="redactie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/nl/redaction/" >}}
+Een presentatie redigeren met de Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Handtekening" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/nl/signature/" >}}
+Presentatie ondertekenen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Splitser" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/nl/splitter/" >}}
+Een PowerPoint-presentatie splitsen met de Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Ontgrendelen" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/nl/unlock/" >}}
+Hoe wachtwoord uit PowerPoint te verwijderen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="kijker" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/nl/viewer/" >}}
+Een presentatie openen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Watermerk" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/nl/watermark/" >}}
+Watermerk toevoegen met Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

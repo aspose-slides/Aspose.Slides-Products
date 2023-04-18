@@ -56,6 +56,59 @@ Xamarinクロスプラットフォームアプリケーションを構築し、A
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint コード サンプル オンライン インクルード" >}}
+
+{{< blocks/products/pf/product pfName="" title="注釈" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/ja/annotation/" >}}
+Aspose.Slides API を使用してプレゼンテーションから注釈を削除する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="比較" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/ja/comparison/" >}}
+Aspose.Slides API を介して PowerPoint ドキュメントを比較する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="会話" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/conversion/" >}}
+Aspose.Slides API を使用して PowerPoint プレゼンテーションを変換する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="合併" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ja/merger/" >}}
+Aspose.Slides API を使用してプレゼンテーションをマージする方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="メタデータ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ja/metadata/" >}}
+Aspose.Slides API を使用してプレゼンテーション プロパティを編集する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="守る" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ja/protect/" >}}
+Aspose.Slides API を使用して PowerPoint プレゼンテーションをパスワード保護する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="編集" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/ja/redaction/" >}}
+Aspose.Slides API を使用してプレゼンテーションを編集する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="サイン" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/ja/signature/" >}}
+Aspose.Slides API を使用してプレゼンテーションに署名する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="スプリッター" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/ja/splitter/" >}}
+Aspose.Slides API を使用して PowerPoint プレゼンテーションを分割する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ロック解除" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/ja/unlock/" >}}
+Aspose.Slides API を使用して PowerPoint からパスワードを削除する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ビューアー" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/ja/viewer/" >}}
+Aspose.Slides API を使用してプレゼンテーションを開く方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="透かし" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/ja/watermark/" >}}
+Aspose.Slides API を使用して透かしを追加する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

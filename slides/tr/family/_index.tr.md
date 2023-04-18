@@ -56,6 +56,59 @@ Android, iOS veya Windows'ta Xamarin çapraz platform uygulamaları oluşturmak 
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Kod Örnekleri Çevrimiçi Dahil" >}}
+
+{{< blocks/products/pf/product pfName="" title="Dipnot" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/tr/annotation/" >}}
+Aspose.Slides API ile sunumdan açıklamalar nasıl kaldırılır.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Karşılaştırmak" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/tr/comparison/" >}}
+Aspose.Slides API aracılığıyla PowerPoint belgeleri nasıl karşılaştırılır?
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Dönüştürmek" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/tr/conversion/" >}}
+Aspose.Slides API kullanarak PowerPoint sunumlarını dönüştürme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Birleşme" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/merger/" >}}
+Aspose.Slides API kullanarak Sunumları Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Meta veriler" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/metadata/" >}}
+Aspose.Slides API kullanarak Sunum özelliklerini Düzenleme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Korumak" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/tr/protect/" >}}
+Aspose.Slides API ile PowerPoint sunumunu Parolayla Koruma.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Redaksiyon" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/tr/redaction/" >}}
+Aspose.Slides API'sini kullanarak bir sunumu yeniden düzenleme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="İmza" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/tr/signature/" >}}
+Aspose.Slides API ile Sunum Nasıl İmzalanır?
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Bölücü" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/tr/splitter/" >}}
+Aspose.Slides API kullanarak PowerPoint Sunumunu Bölme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Kilidini aç" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/tr/unlock/" >}}
+Aspose.Slides API ile PowerPoint'ten Parola Nasıl Kaldırılır?
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="görüntüleyici" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/tr/viewer/" >}}
+Aspose.Slides API kullanarak bir sunum nasıl açılır.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Filigran" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/tr/watermark/" >}}
+Aspose.Slides API Kullanarak Filigran Nasıl Eklenir?
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}

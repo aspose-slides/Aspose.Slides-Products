@@ -56,6 +56,59 @@ Xamarin क्रॉस-प्लेटफ़ॉर्म एप्लिके�
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint कोड नमूने ऑनलाइन शामिल करें" >}}
+
+{{< blocks/products/pf/product pfName="" title="टिप्पणी" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/hi/annotation/" >}}
+Aspose.Slides API के साथ प्रस्तुति से एनोटेशन कैसे निकालें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="तुलना" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/hi/comparison/" >}}
+Aspose.Slides API के माध्यम से PowerPoint दस्तावेज़ों की तुलना कैसे करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="परिवर्तन" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/conversion/" >}}
+Aspose.Slides API का उपयोग करके PowerPoint प्रस्तुतियों को कैसे बदलें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="विलयन" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/merger/" >}}
+Aspose.Slides API का उपयोग करके प्रस्तुतियों को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="मेटाडाटा" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/metadata/" >}}
+Aspose.Slides API का उपयोग करके प्रस्तुति गुणों को कैसे संपादित करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="रक्षा करना" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hi/protect/" >}}
+Aspose.Slides API के साथ PowerPoint प्रस्तुति को पासवर्ड कैसे सुरक्षित करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="संपादकीय विभाग" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/hi/redaction/" >}}
+Aspose.Slides API का उपयोग करके किसी प्रस्तुतिकरण को कैसे संपादित करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="हस्ताक्षर" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/hi/signature/" >}}
+Aspose.Slides API के साथ प्रस्तुति पर हस्ताक्षर कैसे करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="फाड़नेवाला" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/hi/splitter/" >}}
+Aspose.Slides API का उपयोग करके किसी PowerPoint प्रस्तुति को कैसे विभाजित करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="अनलॉक" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/hi/unlock/" >}}
+Aspose.Slides API के साथ PowerPoint से पासवर्ड कैसे निकालें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="दर्शक" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/hi/viewer/" >}}
+Aspose.Slides API का उपयोग करके प्रस्तुति कैसे खोलें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="वाटर-मार्क" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/hi/watermark/" >}}
+Aspose.Slides API का उपयोग करके वॉटरमार्क कैसे जोड़ें।
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}
