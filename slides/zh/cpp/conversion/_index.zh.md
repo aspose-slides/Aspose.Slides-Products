@@ -4,49 +4,83 @@ url: /zh/cpp/conversion/
 description: 在基于 C++ 的应用程序中将 Microsoft PowerPoint 幻灯片转换为多个文件，包括 HTML、PDF 和图像格式。
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> 通过 C++ 转换 PowerPoint 演示文稿" h2="用于不同转换场景的C++示例代码，将幻灯片转换为图像、HTML、PDF等格式。" >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="使用 C++ 转换 PowerPoint 演示文稿" h2="构建您自己的 C++ 应用程序以使用服务器端 API 转换演示文稿。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-Microsoft<sup>®</sup> PowerPoint 格式的转换过程简单且易于使用 C++ PowerPoint 库自动化过程。开发人员可以增强相关源代码并将其集成到他们的应用程序中。 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 代码示例在线包括" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/ppt-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PPT。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint 格式的相互转换" %}}
-Microsoft<sup>®</sup> PowerPoint 文档（包括 PPT、PPTX）以编程方式相互转换只是两行代码。使用 [Presentation 类](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation) 加载文件并调用 [Save 方法](https://apireference.aspose.com/slides /cpp/class/aspose.slides.presentation#afcd59ec697bf05c10f78c3869de2ec9e) 具有输出文件和 SaveFormat.OutputFormats 作为参数。
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/pptx-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PPTX。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="C++ 转换代码" %}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/html-to-ppt/" >}}
+如何使用 Aspose.Slides for C++ API 转换 HTML。
+{{< /blocks/products/pf/product >}}
 
-{{< gist "aspose-com-gists" "c408b7aac79956e1dd0f359e07bbc15a" "interconversion-of-powerpoint-files.cpp" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/pdf-to-pptx/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PDF。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/image-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换图像。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/jpg-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 JPG。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/odp-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 ODP。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="将 PowerPoint 文件转换为 PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/otp-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 OTP。
+{{< /blocks/products/pf/product >}}
 
-由于 PDF 文档的大量共享，将 Microsoft<sup>®</sup> PowerPoint 转换为 PDF 是一种常见情况。程序员可以使用 [PdfOptions 类](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options) 将其自动化并设置相关的 PDF 转换设置。一些具体设置，例如文本压缩级别、JPEG 质量 [JpegQuality](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#a6bbf3bd303430757aa85ac9e3d184861)、PDF 合规级别 [Compliance](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#aa9dfc92dd22455248ac171c24876cb8f)，转换隐藏幻灯片[ShowHiddenSlides](https://apireference.aspose.com/slides/cpp/class /aspose.slides.export.pdf_options#ad11e5a17110d70456df91cc1a5dade23），选定的幻灯片并生成锁定的[密码]（https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#ab42606dbbf983fe00cc45a19565391a7）受保护的PDF文件.
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/png-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PNG。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="C++ PowerPoint 到 PDF 转换代码" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/pot-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 POT。
+{{< /blocks/products/pf/product >}}
 
-{{< gist "aspose-com-gists" "c408b7aac79956e1dd0f359e07bbc15a" "powerpoint-to-pdf-conversion.cpp" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/potm-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 POTM。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/potx-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 转换 POTX。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/pps-to-ppt/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PPS。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="将 Microsoft PowerPoint 幻灯片另存为图像" %}}
-每当需要在 Web 上显示演示内容时，就需要将文件呈现为 HTML 或图像 JPG、TIFF、PNG 等。将幻灯片转换为图像的过程很简单。使用 [get_Slides()](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation#a9981b38f5a01d9fa5482f05b0a75974c) 获取所有幻灯片并一张一张地遍历每张幻灯片。在每次迭代期间，对幻灯片图像使用 [ISlide->GetThumbnail](https://apireference.aspose.com/slides/cpp/class/aspose.slides.i_slide#a7bd377d403ff886232df21351c1fe783)，然后保存为所需的图像格式。 
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/ppsm-to-ppt/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PPSM。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="C++ PowerPoint 到图像转换" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/ppsx-to-ppt/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PPSX。
+{{< /blocks/products/pf/product >}}
 
-{{< gist "aspose-com-gists" "c408b7aac79956e1dd0f359e07bbc15a" "save-powerpoint-slides-as-images.cpp" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/pptm-to-ppt/" >}}
+如何使用 Aspose.Slides for C++ API 转换 PPTM。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/cpp/conversion/svg-to-png/" >}}
+如何使用 Aspose.Slides for C++ API 转换 SVG。
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp ppt-to-word pptx-to-word svg-to-png" >}}
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

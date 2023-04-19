@@ -1,146 +1,86 @@
 ---
-title: Javaを使用したMicrosoftPowerPointプレゼンテーションの複数ファイルへの変換
+title: Java を使用した Microsoft PowerPoint プレゼンテーションの複数ファイルへの変換
 url: /ja/java/conversion/
-description: Microsoft PowerPointスライドを、Javaベースのアプリケーション内でHTML、PDF、画像形式などのさまざまなファイルに変換します。
+description: Java ベースのアプリケーション内で、Microsoft PowerPoint スライドを HTML、PDF、画像形式などのさまざまなファイルに変換します。
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup>Javaを介したPowerPointプレゼンテーションの変換" h2="スライドを画像、HTML、PDF、その他の形式に変換するためのさまざまな変換シナリオのJavaソースコード。" >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Java を使用して PowerPoint プレゼンテーションを変換する" h2="サーバー側 API を使用してプレゼンテーションを変換する独自の Java アプリを構築します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-Java PowerPointライブラリにより、Microsoft<sup>®</sup> PowerPointプレゼンテーションの変換がシンプルになり、プロセスを簡単に自動化できるようになりました。開発者は、関連するシナリオを選択し、コードを統合してアプリケーションの機能を強化できます。 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint コード サンプル オンライン インクルード" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/ppt-to-pdf/" >}}
+Aspose.Slides for Java API を使用して PPT を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="MicrosoftPowerPointファイルの相互変換" %}}
-プログラムによるMicrosoft<sup>®</sup>PowerPointファイルの相互変換は2行のコードです。 [プレゼンテーションクラス]（https://apireference.aspose.com/slides/java/com.aspose.slides/Presentation）を使用してファイルをロードし、出力ファイルと[SaveFormat]（https：//apireference]を持つsaveメソッドを呼び出します。 .aspose.com / slides / java / com.aspose.slides / SaveFormat）をパラメーターとして使用します。
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/pptx-to-pdf/" >}}
+Aspose.Slides for Java API を使用して PPTX を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Java変換コード" %}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/html-to-pdf/" >}}
+Aspose.Slides for Java API を使用して HTML を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load source file
-Presentation interConvert = new Presentation("sourceFile.ppt");
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/pdf-to-pptx/" >}}
+Aspose.Slides for Java API を使用して PDF を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// save the file in relevant format
-interConvert.save("output.pptx", SaveFormat.Pptx);   
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/image-to-pdf/" >}}
+Aspose.Slides for Java API を使用して画像を変換する方法。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/jpg-to-pdf/" >}}
+Aspose.Slides for Java API を使用して JPG を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPointからPDFへの変換" %}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/odp-to-pdf/" >}}
+Aspose.Slides for Java API を使用して ODP を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-PowerPointからPDFへの変換は、PDFファイルの大規模な共有のために一般的なケースです。手動変換の代わりに、プログラマーはそれを自動化し、PowerPointプレゼンテーションの束をPDFに変換する時間を節約できます。プレゼンテーションライブラリは、テキスト圧縮レベル、PDFコンプライアンスレベル、JPEG品質の設定、動作の定義などの特定の設定をカスタマイズするための[PdfOptionsクラス]（https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions）を提供しますメタファイルの作成、非表示のスライドの変換、選択したスライドの選択、ロックされたパスワードで保護されたPDFファイルの生成。
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/otp-to-pdf/" >}}
+Aspose.Slides for Java API を使用して OTP を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="JavaPowerPointからPDFへの変換コード" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/png-to-pdf/" >}}
+Aspose.Slides for Java API を使用して PNG を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load file
-Presentation powerpointopdf = new Presentation("srcFile.pptx");
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/pot-to-pdf/" >}}
+Aspose.Slides for Java API を使用して POT を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Create PdfOptions class object
-PdfOptions slidetopdfOpt = new PdfOptions();
-               
-// Set JPEG Quality
-slidetopdfOpt.setJpegQuality((byte) 90);
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/potm-to-pdf/" >}}
+Aspose.Slides for Java API を使用して POTM を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Define behavior for Metafiles
-slidetopdfOpt.setSaveMetafilesAsPng(true);
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/potx-to-pdf/" >}}
+Aspose.Slides for Java API を使用して POTX を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Set Text Compression level
-slidetopdfOpt.setTextCompression(PdfTextCompression.Flate);
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/pps-to-ppt/" >}}
+Aspose.Slides for Java API を使用して PPS を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Define the PDF standard
-slidetopdfOpt.setCompliance(PdfCompliance.Pdf15);
-              
-INotesCommentsLayoutingOptions options = slidetopdfOpt.getNotesCommentsLayouting();
-options.setNotesPosition(NotesPositions.BottomFull);
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/ppsm-to-ppt/" >}}
+Aspose.Slides for Java API を使用して PPSM を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Specify that the generated document should include hidden slides
-slidetopdfOpt.setShowHiddenSlides(true);
-	
-// Setting PDF password
-slidetopdfOpt.setPassword("password");	
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/ppsx-to-ppt/" >}}
+Aspose.Slides for Java API を使用して PPSX を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation to PDF with specified options
-powerpointopdf.save("java-powerpoint-to.pdf", SaveFormat.Pdf, slidetopdfOpt);
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/pptm-to-ppt/" >}}
+Aspose.Slides for Java API を使用して PPTM を変換する方法。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/java/conversion/svg-to-png/" >}}
+Aspose.Slides for Java API を使用して SVG を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-// Setting array of slides positions
-// int[] slides = new int[] { 2, 3, 5 };
+{{< /blocks/products/pf/product-card-row >}}
 
-// Save the presentation to PDF
-// powerpointopdf.save("java-powerpoint-to.pdf", slides, SaveFormat.Pdf);
-
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="MicrosoftPowerPointからHTMLへの変換" %}}
-
-PowerPointのスライドはWebページに直接表示されないため、変換する必要があります。プログラマーは、Presentationクラスを使用してファイルをロードし、[HtmlOptionsクラス]（https://apireference.aspose.com/slides/java/com.aspose.slides/HtmlOptions）を使用して特定のHTML設定を行い、saveメソッドを呼び出すことができます。
-
-{{% blocks/products/pf/feature-page-code h3="PowerPointからHTMLへの変換用のJavaコード" %}}
-
-```cs
-
-// Load the file
-Presentation powerpointohtml = new Presentation("srcFile.pptx");
-
-// Create HTML options
-HtmlOptions pptxhtmlOpt = new HtmlOptions();
-
-// Displaying hidden slides
-pptxhtmlOpt.setShowHiddenSlides(true);
-
-// Save the PPTX as HTML
-powerpointohtml.save("java-powerpoint-to.html", SaveFormat.Html, pptxhtmlOpt); 
-
-```
-{{% /blocks/products/pf/feature-page-code %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="MicrosoftPowerPointから画像への変換" %}}
-Microsoft<sup>®</sup>PowerPoint形式から画像JPG、TIFF、PNGなどへの変換は、通常、スライドのサムネイルやその他の多くの場合を作成するためのものです。コーディングプロセスは簡単です。ドキュメントを読み込んだ後、[ISlideインターフェイス]（https://apireference.aspose.com/slides/java/com.aspose.slides/ISlide）を介して各スライドを繰り返し、ISlideサムネイルISlide.getThumbnail（1f、1f）を取得します。 [BufferedImage Object]（https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html）次に、必要な画像形式で保存します。 
-
-{{% blocks/products/pf/feature-page-code h3="JavaPowerPointから画像へのコンバーターコード" %}}
-```cs
-// Load the PowerPoint document
-Presentation PowerPointtoImage = new Presentation("templatefile.pptx");
-
-
-// for generating a full scale image
-// BufferedImage bi = sld.getThumbnail(1f, 1f);
-
-// for Customized dimensions, define dimensions
-int finalX = 1200;
-int finalY = 800;
-
-// Get scaled values of X and Y
-float DimensionX = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getWidth()) * finalX;
-float DimensionY = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getHeight()) * finalY;
-
-// Loop through each slide in the presentation
-for (ISlide sld : PowerPointtoImage.getSlides()) {
-	
-// Create a full scale image
-BufferedImage bi = sld.getThumbnail(DimensionX, DimensionY);
-
-// Create a new file
-File outputfile = new File(sld.getSlideNumber() + "_Slide.jpg");
-	
-// Save the image to disk in JPEG format
-ImageIO.write(bi, "jpg", outputfile);
-}
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp ppt-to-word pptx-to-word svg-to-png" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

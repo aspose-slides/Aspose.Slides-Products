@@ -4,112 +4,83 @@ url: /el/net/conversion/
 description: Μετατρέψτε τις διαφάνειες Microsoft PowerPoint σε διαφορετικά αρχεία, συμπεριλαμβανομένων των μορφών PDF, HTML και εικόνας σε πλατφόρμες .NET Framework, .NET Core, Windows Azure, Mono ή Xamarin.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Μετατροπή παρουσίασης Microsoft<sup>®</sup> PowerPoint μέσω C#" h2="Πηγαίοι κώδικες C# για διαφορετικές περιπτώσεις μετατροπής για μετατροπή αρχείων σε εικόνες, PDF, HTML και άλλες μορφές." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Μετατροπή παρουσίασης PowerPoint χρησιμοποιώντας C#" h2="Δημιουργήστε τις δικές σας εφαρμογές .NET για να μετατρέψετε παρουσιάσεις χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-Είναι εύκολο για τους προγραμματιστές να μετατρέψουν τις Παρουσιάσεις του Microsoft<sup>®</sup> PowerPoint με ταχύτητα και ακρίβεια. Λάβετε τα αποτελέσματα σε χρόνο μηδέν για την αυτοματοποίηση των επιχειρηματικών διαδικασιών. Εδώ συζητάμε μερικές περιπτώσεις για ανάγνωση ή φόρτωση οποιασδήποτε εισόδου [υποστηριζόμενες μορφές PowerPoint](https://docs.aspose.com/slides/net/supported-file-formats/) και εγγραφή ή αποθήκευση σε οποιαδήποτε υποστηριζόμενη μορφή εξόδου. 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Δείγματα Κώδικα Online Περιλαμβάνονται" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/ppt-to-pdf/" >}}
+Πώς να μετατρέψετε PPT χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Διαμετατροπή αρχείων Microsoft PowerPoint" %}}
-Όποτε υπάρχει ανάγκη αυτοματοποίησης της αλληλομετατροπής μορφών Microsoft<sup>®</sup> PowerPoint. Η **Βιβλιοθήκη C# PowerPoint** παρέχει κλάσεις για την επίτευξη αυτού του στόχου. Φορτώστε το αρχείο χρησιμοποιώντας [Τάξη παρουσίασης](https://apireference.aspose.com/net/slides/aspose.slides/presentation) για να φορτώσετε ή να διαβάσετε την επιθυμητή μορφή και καλώντας τη [Μέθοδος αποθήκευσης](https://apireference. aspose.com/slides/net/aspose.slides/presentation/methods/save) της ίδιας κατηγορίας, προσδιορίζοντας το αρχείο εξόδου και το [SaveFormat](https://apireference.aspose.com/slides/net/aspose.slides.export /saveformat).OutputFormat. 
-{{% blocks/products/pf/feature-page-code h3="Κωδικός μετατροπέα C# για παρουσιάσεις Microsoft PowerPoint" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/pptx-to-pdf/" >}}
+Τρόπος μετατροπής PPTX χρησιμοποιώντας Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load the Source File
-var pptToPptx = new Presentation("sourceFile.ppt");
-// Save into the desired format
-pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);   
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/html-to-pdf/" >}}
+Πώς να μετατρέψετε HTML χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/pdf-to-pptx/" >}}
+Πώς να μετατρέψετε PDF χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή C# PowerPoint σε PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/image-to-pdf/" >}}
+Πώς να μετατρέψετε εικόνα χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-Για τη μετατροπή των διαφανειών του PowerPoint σε PDF με ακρίβεια, οι προγραμματιστές μπορούν να φορτώσουν το έγγραφο χρησιμοποιώντας την κλάση παρουσίασης και να χρησιμοποιήσουν την [Κλάση PdfOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/pdfoptions) για όλα τα συγκεκριμένα και προσαρμοσμένα επιλογές όπως το επίπεδο συμπίεσης κειμένου, η ποιότητα Jpeg, η συμπεριφορά των μετααρχείων, η μετατροπή κρυφών διαφανειών καθώς και η επιλογή συγκεκριμένων διαφανειών και άλλα. Ακόμη και υπάρχει η επιλογή προστασίας του αρχείου PDF που έχει μετατραπεί με κωδικό πρόσβασης.
-{{% blocks/products/pf/feature-page-code h3="Κωδικός μετατροπέα C# PowerPoint σε PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/jpg-to-pdf/" >}}
+Πώς να μετατρέψετε JPG χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load PowerPoint file
-Presentation pptxtopdf = new Presentation("sourceFile.pptx");
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/odp-to-pdf/" >}}
+Πώς να μετατρέψετε το ODP χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Create PdfOptions class object for specific settings
-PdfOptions pptPDFOptions = new PdfOptions();
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/otp-to-pdf/" >}}
+Πώς να μετατρέψετε το OTP χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Set Jpeg quality
-pptPDFOptions.JpegQuality = 90;
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/png-to-pdf/" >}}
+Πώς να μετατρέψετε PNG χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Set behavior for metafiles
-pptPDFOptions.SaveMetafilesAsPng = true;
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/pot-to-pdf/" >}}
+Πώς να μετατρέψετε POT χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Set text compression level
-pptPDFOptions.TextCompression = PdfTextCompression.Flate;
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/potm-to-pdf/" >}}
+Πώς να μετατρέψετε το POTM χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Define the PDF 15 standard
-pptPDFOptions.Compliance = PdfCompliance.Pdf15;
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/potx-to-pdf/" >}}
+Πώς να μετατρέψετε POTX χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Include hidden slides
-pptPDFOptions.ShowHiddenSlides = true;
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/pps-to-ppt/" >}}
+Πώς να μετατρέψετε PPS χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Setting PDF password and access permissions
-pptPDFOptions.Password = "password";
-pptPDFOptions.AccessPermissions = PdfAccessPermissions.PrintDocument | PdfAccessPermissions.HighQualityPrint;
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/ppsm-to-ppt/" >}}
+Πώς να μετατρέψετε το PPSM χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation as PDF
-pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/ppsx-to-ppt/" >}}
+Πώς να μετατρέψετε το PPSX χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf pdf-to-html pdf-to-image pdf-to-jpg pdf-to-png pdf-to-svg pdf-to-tiff pdf-to-xml" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/pptm-to-ppt/" >}}
+Πώς να μετατρέψετε το PPTM χρησιμοποιώντας το Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/net/conversion/svg-to-png/" >}}
+Πώς να μετατρέψετε SVG χρησιμοποιώντας Aspose.Slides για .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή Microsoft PowerPoint σε HTML" %}}
-Όταν χρειάζεται να ενσωματωθούν παρουσιάσεις σε ιστοσελίδες, τότε χρειάζεται να μετατραπούν οι διαφάνειες σε HTML. Το API παρέχει [κατηγορία HtmlOptions](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions), Χρησιμοποιήστε το μετά τη φόρτωση των αρχείων για ειδικές ρυθμίσεις όπως κρυφές διαφάνειες, καθώς από προεπιλογή, αυτές δεν θα να συμπεριληφθούν κατά τη διαδικασία μετατροπής. Περάστε τις οριστικοποιημένες επιλογές στη μέθοδο αποθήκευσης για μετατροπή.
-{{% blocks/products/pf/feature-page-code h3="Κωδικός C# για μετατροπή PowerPoint σε HTML" %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-```cs
-
-// Load source presentation 
-Presentation powerpoiontohtml = new Presentation("sourceFile.pptx");
-
-// Create HTML options
-HtmlOptions PowerPointhtmlOpt = new HtmlOptions();
-
-// Show hidden slides
-PowerPointhtmlOpt.ShowHiddenSlides = true;
-
-// Save the PPTX as HTML
-powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt); 
-
-```
-{{% /blocks/products/pf/feature-page-code %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html html-to-image html-to-jpg html-to-pdf html-to-tiff html-to-xml" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή διαφανειών PowerPoint σε μορφές εικόνας" %}}
-Η μετατροπή μορφών Microsoft<sup>®</sup> PowerPoint σε εικόνες JPEG, PNG, TIFF κ.λπ. είναι μια άλλη συνηθισμένη περίπτωση χρήσης που χρησιμοποιείται κυρίως για τη δημιουργία μικρογραφιών διαφανειών. Η διαδικασία κωδικοποίησης είναι απλή. Μετά τη φόρτωση του εγγράφου, χρησιμοποιήστε το [ISlide interface](https://apireference.aspose.com/net/slides/aspose.slides/islide) για επανάληψη σε κάθε διαφάνεια. Κατά τη διάρκεια κάθε επανάληψης, χρησιμοποιήστε το (Bitmap Object)[https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8] μαζί με τη μέθοδο GetThumbnail που έχει προσαρμοσμένες διαστάσεις εικόνας. Τέλος αποθηκεύστε την εικόνα στην απαιτούμενη μορφή.
-{{% blocks/products/pf/feature-page-code h3="C# Κώδικας μετατροπής PowerPoint σε εικόνα" %}}
-```cs
-using (Presentation powerpointtoimage = new Presentation("source-file.ppt")){
-foreach (ISlide sld in powerpointtoimage.Slides){
-
-// Create a full scale image
-Bitmap bmp = sld.GetThumbnail(1f, 1f);
-// or use some customized dimensions as sld.GetThumbnail(x, y)
-
-// Save the image
-bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
-}
-}
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp image-to-jpg image-to-pdf jpg-to-image jpg-to-pdf jpg-to-png png-to-jpg png-to-pdf png-to-svg svg-to-png" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

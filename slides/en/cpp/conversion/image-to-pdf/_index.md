@@ -67,6 +67,8 @@ Save result as PDF file.
 {{< blocks/products/pf/agp/other-supported-section title="Convert Image To Other Supported Formats" subTitle="You can also convert Image and save to other file formats. See all supported formats below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

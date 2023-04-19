@@ -71,6 +71,8 @@ Save result as PDF file.
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

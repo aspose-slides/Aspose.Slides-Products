@@ -4,112 +4,83 @@ url: /zh/net/conversion/
 description: 在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上将 Microsoft PowerPoint 幻灯片转换为不同的文件，包括 PDF、HTML 和图像格式。
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> 通过 C# 转换 PowerPoint 演示文稿" h2="用于不同转换情况的 C# 源代码，可将文件转换为图像、PDF、HTML 和其他格式。" >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="使用 C# 转换 PowerPoint 演示文稿" h2="构建您自己的 .NET 应用程序以使用服务器端 API 转换演示文稿。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-开发人员可以轻松快速准确地转换 Microsoft<sup>®</sup> PowerPoint 演示文稿。立即获得结果，实现业务流程自动化。我们在这里讨论读取或加载任何输入 [支持的 PowerPoint 格式](https://docs.aspose.com/slides/net/supported-file-formats/) 并写入或保存为任何支持的输出格式的几种情况。 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 代码示例在线包括" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/ppt-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PPT。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint 文件的相互转换" %}}
-每当需要自动转换 Microsoft<sup>®</sup> PowerPoint 格式时。 **C# PowerPoint 库** 提供了实现此目标的类。使用[Presentation class](https://apireference.aspose.com/net/slides/aspose.slides/presentation)加载文件以加载或读取所需格式并调用[Save方法](https://apireference. aspose.com/slides/net/aspose.slides/presentation/methods/save) 通过指定输出文件和[SaveFormat](https://apireference.aspose.com/slides/net/aspose.slides.export) /saveformat).输出格式。 
-{{% blocks/products/pf/feature-page-code h3="用于 Microsoft PowerPoint 演示文稿的 C# 转换器代码" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/pptx-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PPTX。
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load the Source File
-var pptToPptx = new Presentation("sourceFile.ppt");
-// Save into the desired format
-pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);   
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/html-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 HTML。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/pdf-to-pptx/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PDF。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# PowerPoint 到 PDF 转换" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/image-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换图像。
+{{< /blocks/products/pf/product >}}
 
-为了将 PowerPoint 幻灯片准确地转换为 PDF，程序员可以使用 Presentation 类加载文档并使用 [PdfOptions 类](https://apireference.aspose.com/slides/net/aspose.slides.export/pdfoptions) 进行所有特定和自定义文本压缩级别、Jpeg 质量、元文件的行为、转换隐藏幻灯片以及选择特定幻灯片等选项。甚至可以选择使用密码保护转换后的 PDF 文件。
-{{% blocks/products/pf/feature-page-code h3="C# PowerPoint 到 PDF 转换器代码" %}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/jpg-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 JPG。
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load PowerPoint file
-Presentation pptxtopdf = new Presentation("sourceFile.pptx");
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/odp-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 ODP。
+{{< /blocks/products/pf/product >}}
 
-// Create PdfOptions class object for specific settings
-PdfOptions pptPDFOptions = new PdfOptions();
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/otp-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 OTP。
+{{< /blocks/products/pf/product >}}
 
-// Set Jpeg quality
-pptPDFOptions.JpegQuality = 90;
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/png-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PNG。
+{{< /blocks/products/pf/product >}}
 
-// Set behavior for metafiles
-pptPDFOptions.SaveMetafilesAsPng = true;
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/pot-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 POT。
+{{< /blocks/products/pf/product >}}
 
-// Set text compression level
-pptPDFOptions.TextCompression = PdfTextCompression.Flate;
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/potm-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 POTM。
+{{< /blocks/products/pf/product >}}
 
-// Define the PDF 15 standard
-pptPDFOptions.Compliance = PdfCompliance.Pdf15;
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/potx-to-pdf/" >}}
+如何使用 Aspose.Slides for .NET API 转换 POTX。
+{{< /blocks/products/pf/product >}}
 
-// Include hidden slides
-pptPDFOptions.ShowHiddenSlides = true;
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/pps-to-ppt/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PPS。
+{{< /blocks/products/pf/product >}}
 
-// Setting PDF password and access permissions
-pptPDFOptions.Password = "password";
-pptPDFOptions.AccessPermissions = PdfAccessPermissions.PrintDocument | PdfAccessPermissions.HighQualityPrint;
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/ppsm-to-ppt/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PPSM。
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation as PDF
-pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/ppsx-to-ppt/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PPSX。
+{{< /blocks/products/pf/product >}}
 
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf pdf-to-html pdf-to-image pdf-to-jpg pdf-to-png pdf-to-svg pdf-to-tiff pdf-to-xml" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/pptm-to-ppt/" >}}
+如何使用 Aspose.Slides for .NET API 转换 PPTM。
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/net/conversion/svg-to-png/" >}}
+如何使用 Aspose.Slides for .NET API 转换 SVG。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint 到 HTML 转换" %}}
-当需要在网页中嵌入演示文稿时，就需要将幻灯片转换为 HTML。 API提供[HtmlOptions类](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions)，加载文件后使用它进行特殊设置，如隐藏幻灯片，默认情况下不会包含在转换过程中。将最终确定的选项传递给 Save 方法进行转换。
-{{% blocks/products/pf/feature-page-code h3="用于 PowerPoint 到 HTML 转换的 C# 代码" %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-```cs
-
-// Load source presentation 
-Presentation powerpoiontohtml = new Presentation("sourceFile.pptx");
-
-// Create HTML options
-HtmlOptions PowerPointhtmlOpt = new HtmlOptions();
-
-// Show hidden slides
-PowerPointhtmlOpt.ShowHiddenSlides = true;
-
-// Save the PPTX as HTML
-powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt); 
-
-```
-{{% /blocks/products/pf/feature-page-code %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html html-to-image html-to-jpg html-to-pdf html-to-tiff html-to-xml" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="将 PowerPoint 幻灯片转换为图像格式" %}}
-将 Microsoft<sup>®</sup> PowerPoint 格式转换为图像 JPEG、PNG、TIFF 等是另一个常见的用例，主要用于创建幻灯片缩略图。编码过程很简单。加载文档后，使用 [ISlide 界面](https://apireference.aspose.com/net/slides/aspose.slides/islide) 遍历每张幻灯片。在每次迭代期间，使用 (Bitmap Object)[https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8] 及其具有自定义图像尺寸的 GetThumbnail 方法。最后以所需格式保存图像。
-{{% blocks/products/pf/feature-page-code h3="C# PowerPoint 到图像转换器代码" %}}
-```cs
-using (Presentation powerpointtoimage = new Presentation("source-file.ppt")){
-foreach (ISlide sld in powerpointtoimage.Slides){
-
-// Create a full scale image
-Bitmap bmp = sld.GetThumbnail(1f, 1f);
-// or use some customized dimensions as sld.GetThumbnail(x, y)
-
-// Save the image
-bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
-}
-}
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp image-to-jpg image-to-pdf jpg-to-image jpg-to-pdf jpg-to-png png-to-jpg png-to-pdf png-to-svg svg-to-png" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

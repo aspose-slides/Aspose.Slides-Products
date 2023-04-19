@@ -1,73 +1,92 @@
 ---
-title: माइक्रोसॉफ्ट पावरपॉइंट प्रेजेंटेशन को पायथन में पीडीएफ में बदलना
+title: पायथन में Microsoft PowerPoint प्रस्तुति पीडीएफ में रूपांतरण
 url: /hi/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
-description: पीपीटी को पीडीएफ में बदलने के लिए पायथन एपीआई। पायथन में प्रस्तुतियों को जेपीजी, पीएनजी और अन्य प्रारूपों में बदलें।
+keywords: "कन्वर्ट, पॉवरपॉइंट, प्रस्तुति, पायथन, पीडीएफ, पीडीएफ में कनवर्ट करें, पीपीटी से पीडीएफ में"
+description: पीपीटी को पीडीएफ में बदलने के लिए पायथन एपीआई। पायथन में प्रस्तुतियों को जेपीजी, पीएनजी और अन्य प्रारूपों में कनवर्ट करें।
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="माइक्रोसॉफ्ट<sup>®</sup> पावरपॉइंट प्रेजेंटेशन टू पीडीएफ कनवर्ज़न इन पायथन" h2="पीपीटी को पीडीएफ, पीएनजी, एचटीएमएल, जेपीईजी, पीपीटीएक्स और अन्य प्रारूपों में बदलने के लिए विभिन्न रूपांतरण मामलों के लिए पायथन स्रोत कोड।" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="पायथन का उपयोग करके PowerPoint प्रस्तुति को रूपांतरित करें" h2="Aspose.Slides API का उपयोग करके प्रस्तुतियों को रूपांतरित करने के लिए अपनी स्वयं की Python स्क्रिप्ट बनाएं।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-[Aspose.Slides for Python by .NET](https://products.aspose.com/slides/hi/python-net/) एक शक्तिशाली ऑन-प्रिमाइसेस क्लास लाइब्रेरी है जिसका उपयोग प्रेजेंटेशन के साथ प्रोसेसिंग और काम करने के लिए किया जाता है। डेवलपर्स के लिए गति और सटीकता के साथ पावरपॉइंट को पीडीएफ में बदलना आसान है। व्यावसायिक प्रक्रियाओं को स्वचालित करने के लिए कुछ ही समय में परिणाम प्राप्त करें। हम यहां किसी भी इनपुट [समर्थित पावरपॉइंट प्रारूप](https://docs.aspose.com/slides/python-net/supported-file-formats/) को पढ़ने या लोड करने और किसी समर्थित आउटपुट स्वरूप में लिखने या सहेजने के लिए कुछ मामलों पर चर्चा कर रहे हैं। . 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint कोड नमूने ऑनलाइन शामिल करें" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="पायथन में पावरपॉइंट से पीडीएफ रूपांतरण" %}}
-[Aspose.Slides](https://products.aspose.com/slides/hi/python-net/) आपको PowerPoint PPT, PPTX, और OpenOffice ODP प्रारूपों में फ़ाइलों को PDF में बदलने की अनुमति देता है। किसी प्रस्तुति को PDF में बदलने के लिए, बस फ़ाइल का नाम पास करें और प्रारूप को [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) में सहेजें। तरीका। [प्रस्तुति](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) वर्ग [save](https://docs.aspose.com/slides) को उजागर करता है /python-net/api-reference/aspose.slides/presentation/) विधि जिसे संपूर्ण PPT, PPTX, या ODP प्रस्तुति को PDF दस्तावेज़ में बदलने के लिए कहा जा सकता है।
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/fodp-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके FODP को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="पीडीएफ रूपांतरण के लिए पायथन पावरपॉइंट" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/ppt-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके PPT को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/pptx-to-pdf/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPTX को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/html-to-pdf/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके HTML को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="पायथन में पीडीएफ से पीपीटी रूपांतरण" %}}
-[Aspose.Slides](https://products.aspose.com/slides/hi/python-net/) से आप PDF से प्रस्तुतीकरण आयात कर सकते हैं। अनिवार्य रूप से, आपको एक पीडीएफ को पावरपॉइंट प्रेजेंटेशन में बदलने के लिए मिलता है। पीडीएफ को पावरपॉइंट में बदलने के लिए, इन चरणों का पालन करें:
-- [प्रस्तुति](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) वर्ग के किसी ऑब्जेक्ट को इंस्टेंट करें।
-- [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) विधि को कॉल करें और पीडीएफ फाइल पास करें।
-- फ़ाइल को PowerPoint प्रारूप में सहेजने के लिए [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) विधि का उपयोग करें।
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/pdf-to-ppsx/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PDF को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="पावरपॉइंट रूपांतरण के लिए पायथन पीडीएफ" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/image-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके छवि को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/jpg-to-pdf/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके JPG को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/odp-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके ODP को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PPT को Python में कस्टम विकल्पों के साथ PDF में बदलें" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/otp-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके OTP कैसे बदलें।
+{{< /blocks/products/pf/product >}}
 
-PowerPoint स्लाइड को PDF में सटीक रूप से कनवर्ट करने के लिए, प्रोग्रामर `प्रस्तुति` वर्ग का उपयोग करके दस्तावेज़ को लोड कर सकते हैं और [PdfOptions class](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export) का उपयोग कर सकते हैं। /pdfoptions/) सभी विशिष्ट और कस्टम विकल्पों के लिए जैसे टेक्स्ट कम्प्रेशन स्तर, जेपीईजी गुणवत्ता, मेटाफ़ाइल्स का व्यवहार, छिपी हुई स्लाइड्स को परिवर्तित करने के साथ-साथ विशिष्ट स्लाइड्स का चयन करना आदि। यहां तक ​​कि परिवर्तित पीडीएफ फाइल को पासवर्ड से सुरक्षित रखने का विकल्प भी है।
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/png-to-pdf/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PNG को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="कस्टम सेटिंग्स के साथ पायथन पावरपॉइंट से पीडीएफ रूपांतरण" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/pot-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके POT को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/potm-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके POTM को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/potx-to-pdf/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके POTX को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint से HTML रूपांतरण पायथन में" %}}
-जब कभी वेबपेजों के भीतर प्रस्तुतियों को एम्बेड करने की आवश्यकता होती है, तो स्लाइड्स को HTML में बदलने की आवश्यकता होती है।
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/pps-to-ppt/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके PPS को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="PowerPoint से HTML रूपांतरण के लिए पायथन कोड" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/ppsm-to-ppt/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPSM को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/ppsx-to-ppt/" >}}
+.NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके PPSX को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/pptm-to-ppt/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPTM को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPoint को JPG में बदलें" %}}
-Microsoft<sup>®</sup> PowerPoint प्रारूपों को JPEG, PNG, TIFF आदि छवियों में परिवर्तित करना एक अन्य सामान्य उपयोग का मामला है जिसका उपयोग ज्यादातर स्लाइड थंबनेल बनाने के लिए किया जाता है। 
-{{% blocks/products/pf/feature-page-code h3="पायथन पीपीटी से जेपीजी कन्वर्टर कोड" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/python-net/conversion/svg-to-png/" >}}
+.NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके SVG को कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

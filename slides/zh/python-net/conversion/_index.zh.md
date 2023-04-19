@@ -1,73 +1,92 @@
 ---
 title: 在 Python 中将 Microsoft PowerPoint 演示文稿转换为 PDF
 url: /zh/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
-description: 用于将 PPT 转换为 PDF 的 Python API。在 Python 中将演示文稿转换为 JPG、PNG 和其他格式。
+keywords: “转换、PowerPoint、演示文稿、Python、PDF、转换为 PDF、PPT 为 PDF”
+description: 将 PPT 转换为 PDF 的 Python API。在 Python 中将演示文稿转换为 JPG、PNG 和其他格式。
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> PowerPoint 演示文稿到 Python 中的 PDF 转换" h2="不同转换案例的 Python 源代码，可将 PPT 转换为 PDF、PNG、HTML、JPEG、PPTX 等格式。" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="使用 Python 转换 PowerPoint 演示文稿" h2="使用 Aspose.Slides API 构建您自己的 Python 脚本以转换演示文稿。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh/python-net/) 是一个强大的本地类库，用于处理和处理演示文稿。开发人员可以轻松快速准确地将 PowerPoint 转换为 PDF。立即获得结果，实现业务流程自动化。我们在这里讨论读取或加载任何输入 [支持的 PowerPoint 格式](https://docs.aspose.com/slides/python-net/supported-file-formats/) 并写入或保存为任何支持的输出格式的几种情况. 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 代码示例在线包括" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python 中的 PowerPoint 到 PDF 转换" %}}
-[Aspose.Slides](https://products.aspose.com/slides/zh/python-net/) 允许您将 PowerPoint PPT、PPTX 和 OpenOffice ODP 格式的文件转换为 PDF。要将演示文稿转换为 PDF，只需将文件名和保存格式传递给 [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/)方法。 [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 类公开了 [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) 方法，可调用该方法将整个 PPT、PPTX 或 ODP 演示文稿转换为 PDF 文档。
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/fodp-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 FODP。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PowerPoint 到 PDF 转换" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/ppt-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PPT。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/pptx-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PPTX。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/html-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 HTML。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python中的PDF到PPT转换" %}}
-[Aspose.Slides](https://products.aspose.com/slides/zh/python-net/) 允许您从 PDF 导入演示文稿。本质上，您可以将 PDF 转换为 PowerPoint 演示文稿。要将 PDF 转换为 Powerpoint，请执行以下步骤：
-- 实例化 [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 类的对象。
-- 调用 [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) 方法并传递 PDF 文件。
-- 使用 [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) 方法将文件保存为 PowerPoint 格式。
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/pdf-to-ppsx/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PDF。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PDF 到 Powerpoint 的转换" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/image-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换图像。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/jpg-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 JPG。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/odp-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 ODP。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="使用 Python 中的自定义选项将 PPT 转换为 PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/otp-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 OTP。
+{{< /blocks/products/pf/product >}}
 
-为了将 PowerPoint 幻灯片准确转换为 PDF，程序员可以使用 `Presentation` 类加载文档并使用 [PdfOptions 类](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export /pdfoptions/) 用于所有特定和自定义选项，例如文本压缩级别、Jpeg 质量、元文件的行为、转换隐藏幻灯片以及选择特定幻灯片等等。甚至可以选择使用密码保护转换后的 PDF 文件。
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/png-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PNG。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="使用自定义设置将 Python PowerPoint 转换为 PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/pot-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 POT。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/potm-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 POTM。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/potx-to-pdf/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 POTX。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="在 Python 中将 Microsoft PowerPoint 转换为 HTML" %}}
-当需要在网页中嵌入演示文稿时，就需要将幻灯片转换为 HTML。
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/pps-to-ppt/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PPS。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="用于 PowerPoint 到 HTML 转换的 Python 代码" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/ppsm-to-ppt/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PPSM。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/ppsx-to-ppt/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PPSX。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/pptm-to-ppt/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 PPTM。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="将 PowerPoint 转换为 JPG" %}}
-将 Microsoft<sup>®</sup> PowerPoint 格式转换为图像 JPEG、PNG、TIFF 等是另一个常见的用例，主要用于创建幻灯片缩略图。 
-{{% blocks/products/pf/feature-page-code h3="Python PPT to JPG 转换器代码" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/python-net/conversion/svg-to-png/" >}}
+如何通过 .NET API 使用 Aspose.Slides for Python 转换 SVG。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

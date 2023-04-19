@@ -68,6 +68,8 @@ Save result as PDF file.
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/png-to-jpg/" name="PNG TO JPG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/png-to-svg/" name="PNG TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
