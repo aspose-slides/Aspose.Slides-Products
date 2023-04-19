@@ -74,13 +74,14 @@ Save the resulting file as a PPTX presentation.
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-html/" name="PDF TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-png/" name="PDF TO PNG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pdf-to-xml/" name="PDF TO XML" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

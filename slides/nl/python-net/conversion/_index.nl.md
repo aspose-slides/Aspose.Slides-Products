@@ -1,73 +1,92 @@
 ---
-title: Microsoft PowerPoint-presentatieconversie naar PDF in Python
+title: Conversie van Microsoft PowerPoint-presentatie naar PDF in Python
 url: /nl/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
+keywords: "Converteren, PowerPoint, Presentatie, Python, PDF, Converteren naar PDF, PPT naar PDF"
 description: Python API om PPT naar PDF te converteren. Converteer presentaties naar JPG, PNG en andere formaten in Python.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> PowerPoint-presentatie naar PDF-conversie in Python" h2="Python-broncodes voor verschillende conversiegevallen om PPT naar PDF, PNG, HTML, JPEG, PPTX en andere formaten te converteren." >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Converteer PowerPoint-presentatie met behulp van Python" h2="Bouw uw eigen Python-script om presentaties te converteren met Aspose.Slides API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-[Aspose.Slides voor Python via .NET](https://products.aspose.com/slides/nl/python-net/) is een krachtige lokale klassenbibliotheek die wordt gebruikt voor het verwerken van en werken met presentaties. Het is gemakkelijk voor de ontwikkelaars om PowerPoint snel en nauwkeurig naar PDF te converteren. Binnen de kortste keren de resultaten voor het automatiseren van de bedrijfsprocessen. We bespreken hier enkele gevallen om invoer [ondersteunde PowerPoint-indelingen](https://docs.aspose.com/slides/python-net/supported-file-formats/) te lezen of te laden en te schrijven of op te slaan in een ondersteund uitvoerformaat . 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint-codevoorbeelden online opnemen" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Conversie van PowerPoint naar PDF in Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/nl/python-net/) stelt u in staat bestanden in PowerPoint PPT-, PPTX- en OpenOffice ODP-indelingen naar PDF te converteren. Om een ​​presentatie naar PDF te converteren, geeft u eenvoudig de bestandsnaam en het opslagformaat door aan de [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) methode. De klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) onthult de [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) methode die kan worden aangeroepen om de hele PPT-, PPTX- of ODP-presentatie naar een PDF-document te converteren.
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/fodp-to-pdf/" >}}
+Hoe FODP te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PowerPoint naar PDF-conversie" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/ppt-to-pdf/" >}}
+Hoe PPT te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/pptx-to-pdf/" >}}
+Hoe PPTX te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/html-to-pdf/" >}}
+HTML converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Conversie van PDF naar PPT in Python" %}}
-Met [Aspose.Slides](https://products.aspose.com/slides/nl/python-net/) kunt u presentaties importeren uit PDF's. In wezen kunt u een PDF converteren naar een PowerPoint-presentatie. Om PDF naar Powerpoint te converteren, doorloop je deze stappen:
-- Instantieer een object van de klasse [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
-- Roep de methode [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) aan en geef het PDF-bestand door.
-- Gebruik de methode [opslaan](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) om het bestand in PowerPoint-indeling op te slaan.
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/pdf-to-ppsx/" >}}
+PDF converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PDF naar PowerPoint-conversie" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/image-to-pdf/" >}}
+Afbeelding converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/jpg-to-pdf/" >}}
+JPG converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/odp-to-pdf/" >}}
+ODP converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Converteer PPT naar PDF met aangepaste opties in Python" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/otp-to-pdf/" >}}
+Hoe OTP te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-Om PowerPoint-dia's nauwkeurig naar PDF te converteren, kunnen programmeurs het document laden met de klasse 'Presentation' en [PdfOptions class](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export gebruiken) /pdfoptions/) voor alle specifieke en aangepaste opties zoals tekstcompressieniveau, Jpeg-kwaliteit, het gedrag van metabestanden, het converteren van verborgen dia's en het selecteren van specifieke dia's en meer. Er is zelfs een optie om het geconverteerde PDF-bestand met een wachtwoord te beveiligen.
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/png-to-pdf/" >}}
+PNG converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PowerPoint naar PDF-conversie met aangepaste instellingen" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/pot-to-pdf/" >}}
+Hoe POT te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/potm-to-pdf/" >}}
+POTM converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/potx-to-pdf/" >}}
+Hoe POTX te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint naar HTML-conversie in Python" %}}
-Wanneer het ooit nodig is om presentaties in webpagina's in te sluiten, dan is het nodig om dia's naar HTML te converteren.
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/pps-to-ppt/" >}}
+PPS converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python-code voor conversie van PowerPoint naar HTML" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/ppsm-to-ppt/" >}}
+PPSM converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/ppsx-to-ppt/" >}}
+Hoe PPSX te converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/pptm-to-ppt/" >}}
+PPTM converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Converteer PowerPoint naar JPG" %}}
-Het converteren van Microsoft<sup>®</sup> PowerPoint-formaten naar afbeeldingen JPEG, PNG, TIFF enz. is een ander veelvoorkomend gebruik dat meestal wordt gebruikt voor het maken van miniaturen van dia's. 
-{{% blocks/products/pf/feature-page-code h3="Python PPT naar JPG-conversiecode" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/python-net/conversion/svg-to-png/" >}}
+SVG converteren met Aspose.Slides voor Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

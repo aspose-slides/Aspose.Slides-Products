@@ -122,7 +122,7 @@ Use the free app to see a demonstration of the PPTX to PDF conversion process.
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="SWF Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Tagged Image Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="XML Paper Specifications" >}}  
-
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-word/" name="PPTX TO WORD" description="Open XML document Format" >}}  
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

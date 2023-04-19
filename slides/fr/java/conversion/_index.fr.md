@@ -4,143 +4,83 @@ url: /fr/java/conversion/
 description: Convertissez les diapositives Microsoft PowerPoint en différents fichiers, y compris les formats HTML, PDF et image dans les applications basées sur Java.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Conversion de présentation PowerPoint Microsoft<sup>®</sup> via Java" h2="Codes source Java pour divers scénarios de conversion pour convertir des diapositives en images, HTML, PDF et autres formats." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Convertir une présentation PowerPoint en utilisant Java" h2="Créez vos propres applications Java pour convertir des présentations à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-La bibliothèque Java PowerPoint a rendu la conversion des présentations PowerPoint Microsoft<sup>®</sup> simples et faciles à automatiser. Les développeurs peuvent sélectionner le scénario pertinent et intégrer le code pour améliorer la fonctionnalité de l'application. 
+{{< blocks/products/pf/product-card-row title="Exemples de code PowerPoint Aspose.Slides en ligne inclus" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/ppt-to-pdf/" >}}
+Comment convertir PPT en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Inter-conversion de fichiers Microsoft PowerPoint" %}}
-L'interconversion de fichiers Microsoft<sup>®</sup> PowerPoint par programmation n'est qu'un code de deux lignes. Chargez le fichier en utilisant [Presentation class](https://apireference.aspose.com/slides/java/com.aspose.slides/Presentation) et appelez la méthode save ayant le fichier de sortie et [SaveFormat](https://apireference .aspose.com/slides/java/com.aspose.slides/SaveFormat) comme paramètres.
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/pptx-to-pdf/" >}}
+Comment convertir PPTX en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Code de conversion Java" %}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/html-to-pdf/" >}}
+Comment convertir HTML en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load source file
-Presentation interConvert = new Presentation("sourceFile.ppt");
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/pdf-to-pptx/" >}}
+Comment convertir un PDF en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// save the file in relevant format
-interConvert.save("output.pptx", SaveFormat.Pptx);   
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/image-to-pdf/" >}}
+Comment convertir une image à l'aide de Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/jpg-to-pdf/" >}}
+Comment convertir JPG en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Conversion PowerPoint en PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/odp-to-pdf/" >}}
+Comment convertir ODP en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-La conversion de PowerPoint en PDF est un cas courant en raison de l'énorme partage de fichiers PDF. Au lieu de conversions manuelles, les programmeurs peuvent l'automatiser et gagner du temps pour un tas de présentations PowerPoint en PDF. La bibliothèque de présentation fournit [classe PdfOptions](https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions) pour personnaliser des paramètres spécifiques tels que la définition du niveau de compression du texte, le niveau de conformité PDF, la qualité JPEG, définir le comportement de métafichiers, en convertissant les diapositives masquées, en choisissant les diapositives sélectionnées et en générant des fichiers PDF protégés par mot de passe verrouillés.
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/otp-to-pdf/" >}}
+Comment convertir OTP en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Code de conversion Java PowerPoint en PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/png-to-pdf/" >}}
+Comment convertir PNG en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load file
-Presentation powerpointopdf = new Presentation("srcFile.pptx");
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/pot-to-pdf/" >}}
+Comment convertir POT en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Create PdfOptions class object
-PdfOptions slidetopdfOpt = new PdfOptions();
-               
-// Set JPEG Quality
-slidetopdfOpt.setJpegQuality((byte) 90);
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/potm-to-pdf/" >}}
+Comment convertir POTM en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Define behavior for Metafiles
-slidetopdfOpt.setSaveMetafilesAsPng(true);
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/potx-to-pdf/" >}}
+Comment convertir POTX en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Set Text Compression level
-slidetopdfOpt.setTextCompression(PdfTextCompression.Flate);
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/pps-to-ppt/" >}}
+Comment convertir PPS en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Define the PDF standard
-slidetopdfOpt.setCompliance(PdfCompliance.Pdf15);
-              
-INotesCommentsLayoutingOptions options = slidetopdfOpt.getNotesCommentsLayouting();
-options.setNotesPosition(NotesPositions.BottomFull);
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/ppsm-to-ppt/" >}}
+Comment convertir PPSM en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Specify that the generated document should include hidden slides
-slidetopdfOpt.setShowHiddenSlides(true);
-	
-// Setting PDF password
-slidetopdfOpt.setPassword("password");	
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/ppsx-to-ppt/" >}}
+Comment convertir PPSX en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation to PDF with specified options
-powerpointopdf.save("java-powerpoint-to.pdf", SaveFormat.Pdf, slidetopdfOpt);
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/pptm-to-ppt/" >}}
+Comment convertir PPTM en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/fr/java/conversion/svg-to-png/" >}}
+Comment convertir SVG en utilisant Aspose.Slides pour l'API Java.
+{{< /blocks/products/pf/product >}}
 
-// Setting array of slides positions
-// int[] slides = new int[] { 2, 3, 5 };
+{{< /blocks/products/pf/product-card-row >}}
 
-// Save the presentation to PDF
-// powerpointopdf.save("java-powerpoint-to.pdf", slides, SaveFormat.Pdf);
-
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Conversion Microsoft PowerPoint en HTML" %}}
-
-Comme les diapositives PowerPoint ne sont pas directement affichées sur les pages Web, une conversion est donc nécessaire. Les programmeurs peuvent charger un fichier à l'aide de la classe Presentation, utiliser [classe HtmlOptions](https://apireference.aspose.com/slides/java/com.aspose.slides/HtmlOptions) pour des paramètres HTML spécifiques et appeler la méthode save.
-
-{{% blocks/products/pf/feature-page-code h3="Code Java pour la conversion de PowerPoint en HTML" %}}
-
-```cs
-
-// Load the file
-Presentation powerpointohtml = new Presentation("srcFile.pptx");
-
-// Create HTML options
-HtmlOptions pptxhtmlOpt = new HtmlOptions();
-
-// Displaying hidden slides
-pptxhtmlOpt.setShowHiddenSlides(true);
-
-// Save the PPTX as HTML
-powerpointohtml.save("java-powerpoint-to.html", SaveFormat.Html, pptxhtmlOpt); 
-
-```
-{{% /blocks/products/pf/feature-page-code %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Conversion de Microsoft PowerPoint en images" %}}
-La conversion des formats Microsoft<sup>®</sup> PowerPoint en images JPG, TIFF, PNG, etc. est normalement destinée à la création de miniatures de diapositives ainsi que de bien d'autres cas. Le processus de codage est simple. Parcourez chaque diapositive via [l'interface ISlide](https://apireference.aspose.com/slides/java/com.aspose.slides/ISlide) après avoir chargé le document, obtenez la vignette ISlide ISlide.getThumbnail(1f, 1f) dans [Objet BufferedImage](https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html), puis enregistrez-le dans le format d'image requis. 
-
-{{% blocks/products/pf/feature-page-code h3="Java PowerPoint en code de convertisseur d'image" %}}
-```cs
-// Load the PowerPoint document
-Presentation PowerPointtoImage = new Presentation("templatefile.pptx");
-
-
-// for generating a full scale image
-// BufferedImage bi = sld.getThumbnail(1f, 1f);
-
-// for Customized dimensions, define dimensions
-int finalX = 1200;
-int finalY = 800;
-
-// Get scaled values of X and Y
-float DimensionX = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getWidth()) * finalX;
-float DimensionY = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getHeight()) * finalY;
-
-// Loop through each slide in the presentation
-for (ISlide sld : PowerPointtoImage.getSlides()) {
-	
-// Create a full scale image
-BufferedImage bi = sld.getThumbnail(DimensionX, DimensionY);
-
-// Create a new file
-File outputfile = new File(sld.getSlideNumber() + "_Slide.jpg");
-	
-// Save the image to disk in JPEG format
-ImageIO.write(bi, "jpg", outputfile);
-}
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp ppt-to-word pptx-to-word svg-to-png" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

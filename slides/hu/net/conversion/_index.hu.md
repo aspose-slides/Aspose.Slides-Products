@@ -1,115 +1,86 @@
 ---
 title: Microsoft PowerPoint prezentáció konvertálása több fájlba C# használatával
 url: /hu/net/conversion/
-description: Konvertálja a Microsoft PowerPoint diákat különböző fájlokká, például PDF-, HTML- és képformátumokká .NET-keretrendszeren, .NET Core-on, Windows Azure-on, Mono- vagy Xamarin-platformokon.
+description: Konvertálja a Microsoft PowerPoint diákat különböző fájlokká, például PDF-, HTML- és képformátumokká .NET-keretrendszer, .NET Core, Windows Azure, Mono vagy Xamarin platformokon.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> PowerPoint prezentáció konvertálása C#-on keresztül" h2="C# forráskódok különböző konverziós esetekhez a fájlok képekké, PDF-be, HTML-be és más formátumokká konvertálásához." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint prezentáció konvertálása C# használatával" h2="Készítse el saját .NET-alkalmazásait a prezentációk átalakításához szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-A fejlesztők könnyen konvertálhatják a Microsoft<sup>®</sup> PowerPoint-bemutatókat gyorsan és pontosan. Gyorsan elérheti az eredményeket az üzleti folyamatok automatizálásával. Itt néhány olyan esetet tárgyalunk, amikor be kell olvasni vagy betölteni a [támogatott PowerPoint-formátumokat](https://docs.aspose.com/slides/net/supported-file-formats/), és bármilyen támogatott kimeneti formátumba írni vagy menteni. 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint kódminták online tartalmazzák" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/ppt-to-pdf/" >}}
+PPT konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint fájlok interkonverziója" %}}
-Amikor szükség van a Microsoft<sup>®</sup> PowerPoint formátumok interkonverziójának automatizálására. A **C# PowerPoint könyvtár** osztályokat biztosít a cél eléréséhez. Töltse be a fájlt a [Presentation class](https://apireference.aspose.com/net/slides/aspose.slides/presentation) segítségével a kívánt formátum betöltéséhez vagy olvasásához, és hívja meg a [Mentés módszert](https://apireference. aspose.com/slides/net/aspose.slides/presentation/methods/save) a kimeneti fájl és a [SaveFormat](https://apireference.aspose.com/slides/net/aspose.slides.export) megadásával /saveformat).OutputFormat. 
-{{% blocks/products/pf/feature-page-code h3="C# konvertáló kód a Microsoft PowerPoint bemutatókhoz" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/pptx-to-pdf/" >}}
+PPTX konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load the Source File
-var pptToPptx = new Presentation("sourceFile.ppt");
-// Save into the desired format
-pptToPptx.Save("powerpoiont-inter-conversion.pptx", SaveFormat.Pptx);   
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/html-to-pdf/" >}}
+HTML konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/pdf-to-pptx/" >}}
+PDF konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# PowerPoint konvertálás PDF-be" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/image-to-pdf/" >}}
+Kép konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-A PowerPoint diák PDF formátumba való pontos konvertálásához a programozók betölthetik a dokumentumot a Presentation osztály használatával, és használhatják a [PdfOptions osztályt](https://apireference.aspose.com/slides/net/aspose.slides.export/pdfoptions) minden speciális és egyéni célra. olyan lehetőségek, mint a szövegtömörítési szint, a Jpeg minőség, a metafájlok viselkedése, a rejtett diák konvertálása, valamint az adott diák kiválasztása stb. Még arra is van lehetőség, hogy a konvertált PDF fájlt jelszóval védje.
-{{% blocks/products/pf/feature-page-code h3="C# PowerPoint PDF konvertáló kód" %}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/jpg-to-pdf/" >}}
+JPG konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load PowerPoint file
-Presentation pptxtopdf = new Presentation("sourceFile.pptx");
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/odp-to-pdf/" >}}
+Az ODP konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Create PdfOptions class object for specific settings
-PdfOptions pptPDFOptions = new PdfOptions();
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/otp-to-pdf/" >}}
+Az OTP konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Set Jpeg quality
-pptPDFOptions.JpegQuality = 90;
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/png-to-pdf/" >}}
+PNG konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Set behavior for metafiles
-pptPDFOptions.SaveMetafilesAsPng = true;
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/pot-to-pdf/" >}}
+A POT konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Set text compression level
-pptPDFOptions.TextCompression = PdfTextCompression.Flate;
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/potm-to-pdf/" >}}
+POTM konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Define the PDF 15 standard
-pptPDFOptions.Compliance = PdfCompliance.Pdf15;
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/potx-to-pdf/" >}}
+POTX konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Include hidden slides
-pptPDFOptions.ShowHiddenSlides = true;
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/pps-to-ppt/" >}}
+PPS konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Setting PDF password and access permissions
-pptPDFOptions.Password = "password";
-pptPDFOptions.AccessPermissions = PdfAccessPermissions.PrintDocument | PdfAccessPermissions.HighQualityPrint;
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/ppsm-to-ppt/" >}}
+PPSM konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation as PDF
-pptxtopdf.Save("csharp-PowerPoint-to.pdf", SaveFormat.Pdf, pptPDFOptions);
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/ppsx-to-ppt/" >}}
+A PPSX konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf pdf-to-html pdf-to-image pdf-to-jpg pdf-to-png pdf-to-svg pdf-to-tiff pdf-to-xml" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/pptm-to-ppt/" >}}
+PPTM konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/net/conversion/svg-to-png/" >}}
+SVG konvertálása az Aspose.Slides for .NET API használatával.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konverzió Microsoft PowerPointból HTML-be" %}}
-Amikor valamikor prezentációkat kell beágyazni a weboldalakba, akkor a diákat HTML formátumba kell konvertálni. Az API [HtmlOptions osztályt](https://apireference.aspose.com/slides/net/aspose.slides.export/htmloptions) biztosít. Használja a fájlok betöltése után speciális beállításokhoz, például rejtett diákhoz, mivel ezek alapértelmezés szerint nem fognak be kell venni az átalakítási folyamat során. Adja át a véglegesített beállításokat a Konverziós mód mentése menüpontnak.
-{{% blocks/products/pf/feature-page-code h3="C# kód a PowerPoint HTML konvertálásához" %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-```cs
-
-// Load source presentation 
-Presentation powerpoiontohtml = new Presentation("sourceFile.pptx");
-
-// Create HTML options
-HtmlOptions PowerPointhtmlOpt = new HtmlOptions();
-
-// Show hidden slides
-PowerPointhtmlOpt.ShowHiddenSlides = true;
-
-// Save the PPTX as HTML
-powerpoiontohtml.Save("presentation-to.html", SaveFormat.Html, PowerPointhtmlOpt); 
-
-```
-{{% /blocks/products/pf/feature-page-code %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html html-to-image html-to-jpg html-to-pdf html-to-tiff html-to-xml" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertálja a PowerPoint diákat képformátumokká" %}}
-A Microsoft<sup>®</sup> PowerPoint formátumok JPEG, PNG, TIFF stb. formátumú képekké konvertálása egy másik elterjedt eset, amelyet többnyire diabélyegképek létrehozására használnak. A kódolási folyamat egyszerű. A dokumentum betöltése után az [ISlide felület](https://apireference.aspose.com/net/slides/aspose.slides/islide) segítségével ismételje meg az egyes diákat. Minden iteráció során használja (Bitmap Object) [https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap?view=netframework-4.8] a GetThumbnail metódusával együtt, amely testreszabott képméretekkel rendelkezik. Végül mentse a képet a kívánt formátumban.
-{{% blocks/products/pf/feature-page-code h3="A C# PowerPoint képátalakító kódja" %}}
-```cs
-using (Presentation powerpointtoimage = new Presentation("source-file.ppt")){
-foreach (ISlide sld in powerpointtoimage.Slides){
-
-// Create a full scale image
-Bitmap bmp = sld.GetThumbnail(1f, 1f);
-// or use some customized dimensions as sld.GetThumbnail(x, y)
-
-// Save the image
-bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
-}
-}
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp image-to-jpg image-to-pdf jpg-to-image jpg-to-pdf jpg-to-png png-to-jpg png-to-pdf png-to-svg svg-to-png" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

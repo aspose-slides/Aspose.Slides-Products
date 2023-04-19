@@ -74,7 +74,8 @@ Save result as PDF file.
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/html-to-png/" name="HTML TO PNG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/html-to-xml/" name="HTML TO XML" >}}
-
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

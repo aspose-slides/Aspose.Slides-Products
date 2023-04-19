@@ -1,73 +1,92 @@
 ---
 title: Μετατροπή παρουσίασης Microsoft PowerPoint σε PDF σε Python
 url: /el/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
+keywords: "Μετατροπή, PowerPoint, Παρουσίαση, Python, PDF, Μετατροπή σε PDF, PPT σε PDF"
 description: Python API για μετατροπή PPT σε PDF. Μετατροπή Παρουσιάσεων σε JPG, PNG και άλλες μορφές στην Python.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> Παρουσίαση PowerPoint σε PDF Μετατροπή σε Python" h2="Πηγαίοι κώδικες Python για διαφορετικές περιπτώσεις μετατροπών για μετατροπή PPT σε PDF, PNG, HTML, JPEG, PPTX και άλλες μορφές." >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Μετατροπή Παρουσίασης PowerPoint χρησιμοποιώντας Python" h2="Δημιουργήστε το δικό σας σενάριο Python για να μετατρέψετε παρουσιάσεις χρησιμοποιώντας τα API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-Το [Aspose.Slides for Python μέσω .NET](https://products.aspose.com/slides/el/python-net/) είναι μια ισχυρή βιβλιοθήκη κλάσης εσωτερικής εγκατάστασης που χρησιμοποιείται για επεξεργασία και εργασία με παρουσιάσεις. Είναι εύκολο για τους προγραμματιστές να μετατρέψουν το PowerPoint σε PDF με ταχύτητα και ακρίβεια. Λάβετε τα αποτελέσματα σε χρόνο μηδέν για την αυτοματοποίηση των επιχειρηματικών διαδικασιών. Εδώ συζητάμε μερικές περιπτώσεις για ανάγνωση ή φόρτωση οποιασδήποτε εισόδου [υποστηριζόμενες μορφές PowerPoint](https://docs.aspose.com/slides/python-net/supported-file-formats/) και εγγραφή ή αποθήκευση σε οποιαδήποτε υποστηριζόμενη μορφή εξόδου . 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Δείγματα Κώδικα Online Περιλαμβάνονται" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή PowerPoint σε PDF στην Python" %}}
-Το [Aspose.Slides](https://products.aspose.com/slides/el/python-net/) σάς επιτρέπει να μετατρέπετε αρχεία σε μορφές PowerPoint PPT, PPTX και OpenOffice ODP σε PDF. Για να μετατρέψετε μια παρουσίαση σε PDF, απλώς περάστε το όνομα του αρχείου και τη μορφή αποθήκευσης στο [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) μέθοδος. Η κλάση [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) εκθέτει το [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) μέθοδος που μπορεί να κληθεί για να μετατρέψει ολόκληρη την παρουσίαση PPT, PPTX ή ODP σε έγγραφο PDF.
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/fodp-to-pdf/" >}}
+Πώς να μετατρέψετε το FODP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Μετατροπή Python PowerPoint σε PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/ppt-to-pdf/" >}}
+Πώς να μετατρέψετε το PPT χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/pptx-to-pdf/" >}}
+Πώς να μετατρέψετε το PPTX χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/html-to-pdf/" >}}
+Πώς να μετατρέψετε HTML χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή PDF σε PPT στην Python" %}}
-Το [Aspose.Slides](https://products.aspose.com/slides/el/python-net/) σάς επιτρέπει να εισάγετε παρουσιάσεις από αρχεία PDF. Ουσιαστικά, μπορείτε να μετατρέψετε ένα PDF σε παρουσίαση PowerPoint. Για να μετατρέψετε PDF σε Powerpoint, ακολουθήστε αυτά τα βήματα:
-- Δημιουργήστε ένα αντικείμενο της κλάσης [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
-- Καλέστε τη μέθοδο [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) και περάστε το αρχείο PDF.
-- Χρησιμοποιήστε τη μέθοδο [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) για να αποθηκεύσετε το αρχείο σε μορφή PowerPoint.
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/pdf-to-ppsx/" >}}
+Πώς να μετατρέψετε PDF χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Μετατροπή Python PDF σε Powerpoint" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/image-to-pdf/" >}}
+Πώς να μετατρέψετε εικόνα χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/jpg-to-pdf/" >}}
+Πώς να μετατρέψετε JPG χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/odp-to-pdf/" >}}
+Πώς να μετατρέψετε το ODP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή PPT σε PDF με προσαρμοσμένες επιλογές στην Python" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/otp-to-pdf/" >}}
+Πώς να μετατρέψετε το OTP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-Για τη μετατροπή των διαφανειών του PowerPoint σε PDF με ακρίβεια, οι Προγραμματιστές μπορούν να φορτώσουν το έγγραφο χρησιμοποιώντας την κλάση «Παρουσίαση» και να χρησιμοποιήσουν την [Κλάση PdfOptions](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export /pdfoptions/) για όλες τις συγκεκριμένες και προσαρμοσμένες επιλογές, όπως το επίπεδο συμπίεσης κειμένου, την ποιότητα Jpeg, τη συμπεριφορά των μετααρχείων, τη μετατροπή κρυφών διαφανειών καθώς και την επιλογή συγκεκριμένων διαφανειών και άλλα. Ακόμη και υπάρχει η επιλογή προστασίας του αρχείου PDF που έχει μετατραπεί με κωδικό πρόσβασης.
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/png-to-pdf/" >}}
+Πώς να μετατρέψετε PNG χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Μετατροπή Python PowerPoint σε PDF με προσαρμοσμένες ρυθμίσεις" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/pot-to-pdf/" >}}
+Πώς να μετατρέψετε POT χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/potm-to-pdf/" >}}
+Πώς να μετατρέψετε το POTM χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/potx-to-pdf/" >}}
+Πώς να μετατρέψετε POTX χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή Microsoft PowerPoint σε HTML σε Python" %}}
-Όταν χρειάζεται να ενσωματωθούν παρουσιάσεις σε ιστοσελίδες, τότε χρειάζεται να μετατραπούν οι διαφάνειες σε HTML.
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/pps-to-ppt/" >}}
+Πώς να μετατρέψετε PPS χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Κώδικας Python για Μετατροπή PowerPoint σε HTML" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/ppsm-to-ppt/" >}}
+Πώς να μετατρέψετε το PPSM χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/ppsx-to-ppt/" >}}
+Πώς να μετατρέψετε το PPSX χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/pptm-to-ppt/" >}}
+Πώς να μετατρέψετε PPTM χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή PowerPoint σε JPG" %}}
-Η μετατροπή μορφών Microsoft<sup>®</sup> PowerPoint σε εικόνες JPEG, PNG, TIFF κ.λπ. είναι μια άλλη συνηθισμένη περίπτωση χρήσης που χρησιμοποιείται κυρίως για τη δημιουργία μικρογραφιών διαφανειών. 
-{{% blocks/products/pf/feature-page-code h3="Κώδικας μετατροπέα Python PPT σε JPG" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/python-net/conversion/svg-to-png/" >}}
+Πώς να μετατρέψετε SVG χρησιμοποιώντας Aspose.Slides για Python μέσω .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

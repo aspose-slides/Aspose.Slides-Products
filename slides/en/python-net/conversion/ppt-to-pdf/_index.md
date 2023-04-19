@@ -122,7 +122,7 @@ Use the free app to see a demonstration of the PPT to PDF conversion process.
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specifications" >}}  
-
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-word/" name="PPT TO WORD" description="Open XML document Format" >}}  
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

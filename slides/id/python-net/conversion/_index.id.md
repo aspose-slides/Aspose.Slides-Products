@@ -1,73 +1,92 @@
 ---
 title: Konversi Presentasi Microsoft PowerPoint ke PDF dengan Python
 url: /id/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
-description: Python API untuk Mengonversi PPT ke PDF. Konversikan Presentasi ke JPG, PNG, dan format lain dengan Python.
+keywords: "Konversi, PowerPoint, Presentasi, Python, PDF, Konversi ke PDF, PPT ke PDF"
+description: Python API untuk Mengonversi PPT ke PDF. Konversi Presentasi ke JPG, PNG, dan format lain dengan Python.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> Presentasi PowerPoint ke Konversi PDF dengan Python" h2="Kode Sumber Python untuk kasus konversi yang berbeda untuk mengonversi PPT ke PDF, PNG, HTML, JPEG, PPTX, dan format lainnya." >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Konversi Presentasi PowerPoint menggunakan Python" h2="Buat skrip Python Anda sendiri untuk mengonversi presentasi menggunakan API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-[Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/) adalah library kelas lokal yang kuat yang digunakan untuk memproses dan bekerja dengan presentasi. Sangat mudah bagi para pengembang untuk mengonversi PowerPoint ke PDF dengan kecepatan dan akurasi. Dapatkan hasil dalam waktu singkat untuk mengotomatisasi proses bisnis. Kami membahas di sini beberapa kasus untuk membaca atau memuat input apa pun [format PowerPoint yang didukung](https://docs.aspose.com/slides/python-net/supported-file-formats/) dan menulis atau menyimpan ke format output apa pun yang didukung . 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Sampel Kode PowerPoint Sertakan Online" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi PowerPoint ke PDF dengan Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/id/python-net/) memungkinkan Anda mengonversi file dalam format PowerPoint PPT, PPTX, dan OpenOffice ODP ke PDF. Untuk mengonversi presentasi ke PDF, cukup berikan nama file dan simpan format ke [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) metode. Kelas [Presentasi](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) mengekspos kelas [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) yang dapat dipanggil untuk mengonversi seluruh presentasi PPT, PPTX, atau ODP menjadi dokumen PDF.
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/fodp-to-pdf/" >}}
+Cara Mengonversi FODP menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Konversi Python PowerPoint ke PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/ppt-to-pdf/" >}}
+Cara Mengonversi PPT menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/pptx-to-pdf/" >}}
+Cara Mengonversi PPTX menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/html-to-pdf/" >}}
+Cara Mengonversi HTML menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi PDF ke PPT dengan Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/id/python-net/) memungkinkan Anda mengimpor presentasi dari PDF. Pada dasarnya, Anda dapat mengonversi PDF ke presentasi PowerPoint. Untuk mengonversi PDF ke Powerpoint, lakukan langkah-langkah berikut:
-- Membuat instance objek dari kelas [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
-- Panggil metode [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) dan teruskan file PDF.
-- Gunakan metode [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) untuk menyimpan file dalam format PowerPoint.
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/pdf-to-ppsx/" >}}
+Cara Mengonversi PDF menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Konversi Python PDF ke Powerpoint" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/image-to-pdf/" >}}
+Cara Mengonversi Gambar menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/jpg-to-pdf/" >}}
+Cara Mengonversi JPG menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/odp-to-pdf/" >}}
+Cara Mengonversi ODP menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi PPT ke PDF dengan opsi khusus dengan Python" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/otp-to-pdf/" >}}
+Cara Mengonversi OTP menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-Untuk mengonversi slide PowerPoint ke PDF secara akurat, Pemrogram dapat memuat dokumen menggunakan kelas `Presentation` dan menggunakan [kelas PdfOptions](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export /pdfoptions/) untuk semua opsi khusus dan khusus seperti tingkat kompresi teks, kualitas Jpeg, perilaku metafile, mengonversi slide tersembunyi serta memilih slide tertentu dan banyak lagi. Bahkan ada opsi untuk melindungi file PDF yang dikonversi dengan kata sandi.
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/png-to-pdf/" >}}
+Cara Mengonversi PNG menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Konversi Python PowerPoint ke PDF dengan pengaturan khusus" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/pot-to-pdf/" >}}
+Cara Mengonversi POT menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/potm-to-pdf/" >}}
+Cara Mengonversi POTM menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/potx-to-pdf/" >}}
+Cara Mengonversi POTX menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi Microsoft PowerPoint ke HTML dengan Python" %}}
-Kapan pun ada kebutuhan untuk menyematkan presentasi di dalam halaman web, maka ada kebutuhan untuk mengonversi slide ke HTML.
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/pps-to-ppt/" >}}
+Cara Mengonversi PPS menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Kode Python untuk Konversi PowerPoint ke HTML" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/ppsm-to-ppt/" >}}
+Cara Mengonversi PPSM menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/ppsx-to-ppt/" >}}
+Cara Mengonversi PPSX menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/pptm-to-ppt/" >}}
+Cara Mengonversi PPTM menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi PowerPoint ke JPG" %}}
-Mengonversi Microsoft<sup>®</sup> format PowerPoint ke gambar JPEG, PNG, TIFF dll adalah kasus penggunaan umum lainnya yang sebagian besar digunakan untuk membuat thumbnail slide. 
-{{% blocks/products/pf/feature-page-code h3="Kode Konverter Python PPT ke JPG" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/python-net/conversion/svg-to-png/" >}}
+Cara Mengonversi SVG menggunakan Aspose.Slides untuk Python melalui .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

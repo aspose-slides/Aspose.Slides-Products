@@ -1,73 +1,92 @@
 ---
 title: Microsoft PowerPoint prezentáció konvertálása PDF-be Pythonban
 url: /hu/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
+keywords: "Konvertálás, PowerPoint, prezentáció, Python, PDF, konvertálás PDF-be, PPT PDF-be"
 description: Python API a PPT PDF-be konvertálásához. Konvertálja a prezentációkat JPG, PNG és más formátumokba a Pythonban.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> PowerPoint prezentáció PDF formátumú konvertálása Pythonban" h2="Python-forráskódok különböző konverziós esetekhez a PPT PDF, PNG, HTML, JPEG, PPTX és más formátumokká konvertálásához." >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Konvertálja a PowerPoint-prezentációt Python segítségével" h2="Készítse el saját Python-szkriptjét a prezentációk Aspose.Slides API-k segítségével történő átalakításához." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-Az [Aspose.Slides for Python .NET-en keresztül](https://products.aspose.com/slides/hu/python-net/) egy hatékony helyszíni osztálykönyvtár, amelyet prezentációk feldolgozására és kezelésére használnak. A fejlesztők könnyen konvertálhatják a PowerPointot PDF formátumba gyorsan és pontosan. Gyorsan elérheti az eredményeket az üzleti folyamatok automatizálásával. Itt néhány olyan esetet tárgyalunk, amikor be kell olvasni vagy betölteni bármilyen bemenetet [támogatott PowerPoint formátumok](https://docs.aspose.com/slides/python-net/supported-file-formats/), és bármilyen támogatott kimeneti formátumba írni vagy menteni. . 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint kódminták online tartalmazzák" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPoint konvertálása PDF-be Pythonban" %}}
-Az [Aspose.Slides](https://products.aspose.com/slides/hu/python-net/) lehetővé teszi a PowerPoint PPT, PPTX és OpenOffice ODP formátumú fájlok PDF formátumba konvertálását. A prezentáció PDF formátumba konvertálásához egyszerűen adja át a fájl nevét és a mentési formátumot a [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) fájlba. módszer. A [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) osztály a [save](https://docs.aspose.com/slides) /python-net/api-reference/aspose.slides/presentation/) metódus, amellyel a teljes PPT, PPTX vagy ODP prezentáció PDF dokumentummá konvertálható.
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/fodp-to-pdf/" >}}
+FODP konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PowerPoint konvertálása PDF-be" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/ppt-to-pdf/" >}}
+PPT konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/pptx-to-pdf/" >}}
+PPTX konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/html-to-pdf/" >}}
+HTML konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PDF konvertálása PPT-be Pythonban" %}}
-Az [Aspose.Slides](https://products.aspose.com/slides/hu/python-net/) lehetővé teszi prezentációk importálását PDF-ekből. Lényegében a PDF-fájlt PowerPoint-bemutatóvá alakíthatja. A PDF-fájl Powerpoint formátumba konvertálásához kövesse az alábbi lépéseket:
-- Példányosítsa a [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) osztály objektumát.
-- Hívja meg az [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) metódust, és adja át a PDF-fájlt.
-- A [mentés](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) módszerrel mentse a fájlt PowerPoint formátumban.
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/pdf-to-ppsx/" >}}
+PDF konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PDF konvertálása Powerpointba" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/image-to-pdf/" >}}
+Kép konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/jpg-to-pdf/" >}}
+JPG konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/odp-to-pdf/" >}}
+Az ODP konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konvertálja a PPT-t PDF-be a Python egyéni beállításaival" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/otp-to-pdf/" >}}
+Az OTP konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-A PowerPoint diák PDF formátumba való pontos konvertálásához a programozók betölthetik a dokumentumot a "Presentation" osztály segítségével, és használhatják a [PdfOptions osztályt](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export /pdfoptions/) az összes speciális és egyéni beállításhoz, mint például a szövegtömörítési szint, a Jpeg minőség, a metafájlok viselkedése, a rejtett diák konvertálása, valamint az adott diák kiválasztása stb. Még arra is van lehetőség, hogy a konvertált PDF fájlt jelszóval védje.
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/png-to-pdf/" >}}
+PNG konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python PowerPoint konvertálás PDF-be egyéni beállításokkal" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/pot-to-pdf/" >}}
+A POT konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/potm-to-pdf/" >}}
+POTM konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/potx-to-pdf/" >}}
+POTX konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint konvertálása HTML-be Pythonban" %}}
-Amikor valamikor prezentációkat kell beágyazni a weboldalakba, akkor a diákat HTML formátumba kell konvertálni.
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/pps-to-ppt/" >}}
+PPS konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Python kód a PowerPoint HTML-be való konvertálásához" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/ppsm-to-ppt/" >}}
+PPSM konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/ppsx-to-ppt/" >}}
+A PPSX konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/pptm-to-ppt/" >}}
+PPTM konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="A PowerPoint konvertálása JPG formátumba" %}}
-A Microsoft<sup>®</sup> PowerPoint formátumok JPEG, PNG, TIFF stb. formátumú képekké konvertálása egy másik gyakori felhasználási eset, amelyet többnyire diabélyegképek létrehozására használnak. 
-{{% blocks/products/pf/feature-page-code h3="Python PPT JPG konvertáló kód" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/python-net/conversion/svg-to-png/" >}}
+SVG konvertálása az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

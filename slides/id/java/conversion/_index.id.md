@@ -1,146 +1,86 @@
 ---
 title: Konversi Presentasi Microsoft PowerPoint ke Banyak File menggunakan Java
 url: /id/java/conversion/
-description: Konversikan Microsoft PowerPoint Slides ke berbagai file termasuk HTML, PDF, dan format gambar dalam aplikasi berbasis Java.
+description: Konversi Microsoft PowerPoint Slides ke file yang berbeda termasuk HTML, PDF, dan format gambar dalam aplikasi berbasis Java.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Konversi Presentasi PowerPoint Microsoft<sup>®</sup> melalui Java" h2="Kode sumber Java untuk berbagai skenario konversi untuk mengonversi slide ke gambar, HTML, PDF, dan format lainnya." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Konversi Presentasi PowerPoint menggunakan Java" h2="Bangun aplikasi Java Anda sendiri untuk mengonversi presentasi menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-Pustaka PowerPoint Java telah membuat konversi Microsoft<sup>®</sup> Presentasi PowerPoint menjadi sederhana dan mudah untuk mengotomatisasi proses. Pengembang dapat memilih skenario yang relevan dan mengintegrasikan kode untuk meningkatkan fungsionalitas aplikasi. 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Sampel Kode PowerPoint Sertakan Online" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/ppt-to-pdf/" >}}
+Cara Mengonversi PPT menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi Antar File Microsoft PowerPoint" %}}
-Interkonversi file Microsoft<sup>®</sup> PowerPoint secara terprogram hanyalah kode dua baris. Muat file menggunakan [Presentation class](https://apireference.aspose.com/slides/java/com.aspose.slides/Presentation) dan panggil metode simpan yang memiliki file output dan [SaveFormat](https://apireference .aspose.com/slides/java/com.aspose.slides/SaveFormat) sebagai parameter.
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/pptx-to-pdf/" >}}
+Cara Mengonversi PPTX menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Kode Konversi Java" %}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/html-to-pdf/" >}}
+Cara Mengonversi HTML menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load source file
-Presentation interConvert = new Presentation("sourceFile.ppt");
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/pdf-to-pptx/" >}}
+Cara Mengonversi PDF menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// save the file in relevant format
-interConvert.save("output.pptx", SaveFormat.Pptx);   
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/image-to-pdf/" >}}
+Cara Mengonversi Gambar menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/jpg-to-pdf/" >}}
+Cara Mengonversi JPG menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konversi PowerPoint ke PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/odp-to-pdf/" >}}
+Cara Mengonversi ODP menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-Konversi PowerPoint ke PDF adalah kasus umum karena berbagi file PDF dalam jumlah besar. Alih-alih konversi manual, pemrogram dapat mengotomatiskannya dan menghemat waktu untuk banyak presentasi PowerPoint ke PDF. Pustaka presentasi menyediakan [kelas PdfOptions](https://apireference.aspose.com/java/slides/com.aspose.slides/PdfOptions) untuk menyesuaikan pengaturan tertentu seperti mengatur tingkat kompresi teks, tingkat kepatuhan PDF, kualitas JPEG, menentukan perilaku metafile, mengonversi slide tersembunyi, memilih slide yang dipilih, dan menghasilkan file PDF yang dilindungi kata sandi terkunci.
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/otp-to-pdf/" >}}
+Cara Mengonversi OTP menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Kode Konversi Java PowerPoint ke PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/png-to-pdf/" >}}
+Cara Mengonversi PNG menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-```cs
-// Load file
-Presentation powerpointopdf = new Presentation("srcFile.pptx");
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/pot-to-pdf/" >}}
+Cara Mengonversi POT menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Create PdfOptions class object
-PdfOptions slidetopdfOpt = new PdfOptions();
-               
-// Set JPEG Quality
-slidetopdfOpt.setJpegQuality((byte) 90);
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/potm-to-pdf/" >}}
+Cara Mengonversi POTM menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Define behavior for Metafiles
-slidetopdfOpt.setSaveMetafilesAsPng(true);
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/potx-to-pdf/" >}}
+Cara Mengonversi POTX menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Set Text Compression level
-slidetopdfOpt.setTextCompression(PdfTextCompression.Flate);
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/pps-to-ppt/" >}}
+Cara Mengonversi PPS menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Define the PDF standard
-slidetopdfOpt.setCompliance(PdfCompliance.Pdf15);
-              
-INotesCommentsLayoutingOptions options = slidetopdfOpt.getNotesCommentsLayouting();
-options.setNotesPosition(NotesPositions.BottomFull);
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/ppsm-to-ppt/" >}}
+Cara Mengonversi PPSM menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Specify that the generated document should include hidden slides
-slidetopdfOpt.setShowHiddenSlides(true);
-	
-// Setting PDF password
-slidetopdfOpt.setPassword("password");	
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/ppsx-to-ppt/" >}}
+Cara Mengonversi PPSX menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation to PDF with specified options
-powerpointopdf.save("java-powerpoint-to.pdf", SaveFormat.Pdf, slidetopdfOpt);
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/pptm-to-ppt/" >}}
+Cara Mengonversi PPTM menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/java/conversion/svg-to-png/" >}}
+Cara Mengonversi SVG menggunakan Aspose.Slides untuk Java API.
+{{< /blocks/products/pf/product >}}
 
-// Setting array of slides positions
-// int[] slides = new int[] { 2, 3, 5 };
+{{< /blocks/products/pf/product-card-row >}}
 
-// Save the presentation to PDF
-// powerpointopdf.save("java-powerpoint-to.pdf", slides, SaveFormat.Pdf);
-
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Konversi Microsoft PowerPoint ke HTML" %}}
-
-Karena slide PowerPoint tidak langsung ditampilkan di halaman web, maka diperlukan konversi. Pemrogram dapat memuat file menggunakan kelas Presentasi, menggunakan [kelas HtmlOptions](https://apireference.aspose.com/slides/java/com.aspose.slides/HtmlOptions) untuk pengaturan HTML tertentu dan memanggil metode simpan.
-
-{{% blocks/products/pf/feature-page-code h3="Kode Java untuk Konversi PowerPoint ke HTML" %}}
-
-```cs
-
-// Load the file
-Presentation powerpointohtml = new Presentation("srcFile.pptx");
-
-// Create HTML options
-HtmlOptions pptxhtmlOpt = new HtmlOptions();
-
-// Displaying hidden slides
-pptxhtmlOpt.setShowHiddenSlides(true);
-
-// Save the PPTX as HTML
-powerpointohtml.save("java-powerpoint-to.html", SaveFormat.Html, pptxhtmlOpt); 
-
-```
-{{% /blocks/products/pf/feature-page-code %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konversi Microsoft PowerPoint ke Gambar" %}}
-Microsoft<sup>®</sup> format PowerPoint ke gambar JPG, TIFF, PNG, dll. Konversi biasanya untuk membuat gambar mini slide serta lebih banyak kasus. Proses pengkodean sederhana. Ulangi setiap slide melalui [antarmuka ISlide](https://apireference.aspose.com/slides/java/com.aspose.slides/ISlide) setelah memuat dokumen, dapatkan gambar mini ISlide ISlide.getThumbnail(1f, 1f) ke [BufferedImage Object](https://docs.Oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html) lalu simpan ke dalam format gambar yang diperlukan. 
-
-{{% blocks/products/pf/feature-page-code h3="Kode Konverter Java PowerPoint ke Gambar" %}}
-```cs
-// Load the PowerPoint document
-Presentation PowerPointtoImage = new Presentation("templatefile.pptx");
-
-
-// for generating a full scale image
-// BufferedImage bi = sld.getThumbnail(1f, 1f);
-
-// for Customized dimensions, define dimensions
-int finalX = 1200;
-int finalY = 800;
-
-// Get scaled values of X and Y
-float DimensionX = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getWidth()) * finalX;
-float DimensionY = (float)(1.0 / PowerPointtoImage.getSlideSize().getSize().getHeight()) * finalY;
-
-// Loop through each slide in the presentation
-for (ISlide sld : PowerPointtoImage.getSlides()) {
-	
-// Create a full scale image
-BufferedImage bi = sld.getThumbnail(DimensionX, DimensionY);
-
-// Create a new file
-File outputfile = new File(sld.getSlideNumber() + "_Slide.jpg");
-	
-// Save the image to disk in JPEG format
-ImageIO.write(bi, "jpg", outputfile);
-}
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp ppt-to-word pptx-to-word svg-to-png" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

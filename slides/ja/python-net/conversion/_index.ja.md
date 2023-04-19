@@ -1,73 +1,92 @@
 ---
-title: PythonでのMicrosoftPowerPointプレゼンテーションのPDFへの変換
+title: Python での Microsoft PowerPoint プレゼンテーションの PDF への変換
 url: /ja/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
-description: PPTをPDFに変換するPythonAPI。プレゼンテーションをPythonでJPG、PNG、その他の形式に変換します。
+keywords: 「変換、PowerPoint、プレゼンテーション、Python、PDF、PDF に変換、PPT から PDF」
+description: PPT を PDF に変換する Python API。プレゼンテーションを Python で JPG、PNG、その他の形式に変換します。
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup>PythonでのPowerPointプレゼンテーションからPDFへの変換" h2="PPTをPDF、PNG、HTML、JPEG、PPTXおよびその他の形式に変換するためのさまざまな変換ケースのPythonソースコード。" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Python を使用して PowerPoint プレゼンテーションを変換する" h2="Aspose.Slides API を使用して独自の Python スクリプトを作成し、プレゼンテーションを変換します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-[Aspose.Slides for Python via .NET]（https://products.aspose.com/slides/ja/python-net/）は、プレゼンテーションの処理と操作に使用される強力なオンプレミスクラスライブラリです。開発者は、PowerPointをPDFに高速かつ正確に変換するのは簡単です。ビジネスプロセスを自動化するために、すぐに結果を取得します。ここでは、入力[サポートされているPowerPoint形式]（https://docs.aspose.com/slides/python-net/supported-file-formats/）を読み取ったり読み込んだり、サポートされている出力形式に書き込んだり保存したりするいくつかのケースについて説明します。 。 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint コード サンプル オンライン インクルード" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PythonでのPowerPointからPDFへの変換" %}}
-[Aspose.Slides]（https://products.aspose.com/slides/ja/python-net/）を使用すると、PowerPoint PPT、PPTX、およびOpenOfficeODP形式のファイルをPDFに変換できます。プレゼンテーションをPDFに変換するには、ファイル名と保存形式を[Presentation.save]（https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/）に渡すだけです。方法。 [プレゼンテーション]（https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/）クラスは、[保存]（https://docs.aspose.com/slides）を公開します/python-net/api-reference/aspose.slides/presentation/）PPT、PPTX、またはODPプレゼンテーション全体をPDFドキュメントに変換するために呼び出すことができるメソッド。
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/fodp-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して FODP を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="PythonPowerPointからPDFへの変換" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/ppt-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PPT を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/pptx-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PPTX を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/html-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して HTML を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PythonでのPDFからPPTへの変換" %}}
-[Aspose.Slides]（https://products.aspose.com/slides/ja/python-net/）を使用すると、PDFからプレゼンテーションをインポートできます。基本的に、PDFをPowerPointプレゼンテーションに変換することができます。 PDFをPowerpointに変換するには、次の手順を実行します。
--[Presentation]（https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/）クラスのオブジェクトをインスタンス化します。
--[add_from_pdf]（https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/）メソッドを呼び出して、PDFファイルを渡します。
--[保存]（https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/）メソッドを使用して、ファイルをPowerPoint形式で保存します。
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/pdf-to-ppsx/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PDF を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="PythonPDFからPowerPointへの変換" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/image-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して画像を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/jpg-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して JPG を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/odp-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して ODP を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Pythonのカスタムオプションを使用してPPTをPDFに変換する" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/otp-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して OTP を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-PowerPointスライドをPDFに正確に変換するために、プログラマーは `Presentation`クラスを使用してドキュメントを読み込み、[PdfOptionsクラス]（https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export）を使用できます。 / pdfoptions /）テキスト圧縮レベル、Jpeg品質、メタファイルの動作、非表示のスライドの変換、特定のスライドの選択など、すべての特定のカスタムオプション。変換されたPDFファイルをパスワードで保護するオプションもあります。
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/png-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PNG を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="カスタム設定によるPythonPowerPointからPDFへの変換" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/pot-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して POT を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/potm-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して POTM を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/potx-to-pdf/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して POTX を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PythonでのMicrosoftPowerPointからHTMLへの変換" %}}
-Webページ内にプレゼンテーションを埋め込む必要がある場合は常に、スライドをHTMLに変換する必要があります。
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/pps-to-ppt/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PPS を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="PowerPointからHTMLへの変換用のPythonコード" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/ppsm-to-ppt/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PPSM を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/ppsx-to-ppt/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PPSX を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/pptm-to-ppt/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して PPTM を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPointをJPGに変換する" %}}
-Microsoft<sup>®</sup>PowerPoint形式を画像JPEG、PNG、TIFFなどに変換することは、スライドのサムネイルを作成するために主に使用されるもう1つの一般的な使用例です。 
-{{% blocks/products/pf/feature-page-code h3="PythonPPTからJPGへのコンバーターコード" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/python-net/conversion/svg-to-png/" >}}
+.NET API 経由で Aspose.Slides for Python を使用して SVG を変換する方法。
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

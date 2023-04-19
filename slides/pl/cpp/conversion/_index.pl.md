@@ -1,52 +1,86 @@
 ---
-title: Konwersja prezentacji programu Microsoft PowerPoint do różnych formatów przy użyciu C++
+title: Konwersja prezentacji Microsoft PowerPoint do różnych formatów przy użyciu C++
 url: /pl/cpp/conversion/
-description: Konwertuj slajdy programu Microsoft PowerPoint do wielu plików, w tym HTML, PDF i obrazów w aplikacjach opartych na C++.
+description: Konwertuj slajdy programu Microsoft PowerPoint na wiele plików, w tym formaty HTML, PDF i graficzne w aplikacjach opartych na języku C++.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Konwersja prezentacji Microsoft<sup>®</sup> PowerPoint za pomocą C++" h2="Przykładowe kody C++ dla różnych scenariuszy konwersji do konwersji slajdów do obrazów, HTML, PDF i innych formatów." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Konwertuj prezentację PowerPoint za pomocą C++" h2="Twórz własne aplikacje C++ do konwertowania prezentacji przy użyciu interfejsów API po stronie serwera." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-Proces konwersji formatów Microsoft<sup>®</sup> PowerPoint jest prosty i łatwy do zautomatyzowania procesów przy użyciu biblioteki C++ PowerPoint. Deweloperzy mogą ulepszać odpowiedni kod źródłowy i integrować go w swoich aplikacjach. 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Przykłady kodu programu PowerPoint w trybie online Uwzględnij" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/ppt-to-pdf/" >}}
+Jak przekonwertować PPT za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konwersja między formatami Microsoft PowerPoint" %}}
-Programowa konwersja dokumentów Microsoft<sup>®</sup> PowerPoint, w tym PPT, PPTX, to tylko dwuwierszowy kod. Załaduj plik, używając [klasy prezentacji](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation) i wywołując [metodę Save](https://apireference.aspose.com/slides /cpp/class/aspose.slides.presentation#afcd59ec697bf05c10f78c3869de2ec9e) z plikiem wyjściowym i parametrami SaveFormat.OutputFormats.
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/pptx-to-pdf/" >}}
+Jak przekonwertować PPTX za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Kod konwersji C++" %}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/html-to-ppt/" >}}
+Jak przekonwertować HTML za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist "aspose-com-gists" "c408b7aac79956e1dd0f359e07bbc15a" "interconversion-of-powerpoint-files.cpp" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/pdf-to-pptx/" >}}
+Jak przekonwertować plik PDF za pomocą Aspose.Slides dla interfejsu API C++.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/image-to-pdf/" >}}
+Jak przekonwertować obraz za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pptx pptx-to-ppt potm-to-pptm potx-to-pot ppsm-to-ppsx ppt-to-word pptx-to-word svg-to-png" >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/jpg-to-pdf/" >}}
+Jak przekonwertować JPG za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/odp-to-pdf/" >}}
+Jak przekonwertować ODP za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konwertuj pliki PowerPoint do formatu PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/otp-to-pdf/" >}}
+Jak przekonwertować OTP za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-Konwersja programu Microsoft<sup>®</sup> PowerPoint do formatu PDF to typowy scenariusz ze względu na ogromne udostępnianie dokumentów PDF. Programiści mogą to zautomatyzować i ustawić odpowiednie ustawienia konwersji PDF za pomocą [klasy PdfOptions](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options). Kilka konkretnych ustawień, takich jak poziom kompresji tekstu, jakość JPEG [JpegQuality](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#a6bbf3bd303430757aa85ac9e3d184861), poziom zgodności PDF [Zgodność](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#aa9dfc92dd22455248ac171c24876cb8f), konwertowanie ukrytych slajdów [ShowHiddenSlides](https://apireference.aspose.com/slides/cpp/class /aspose.slides.export.pdf_options#ad11e5a17110d70456df91cc1a5dade23), wybrane slajdy i generowanie zablokowanych [hasła](https://apireference.aspose.com/slides/cpp/class/aspose.slides.export.pdf_options#ab4653900cc4598 chronionych plików PDF .
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/png-to-pdf/" >}}
+Jak przekonwertować PNG za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Kod konwersji C++ PowerPoint do PDF" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/pot-to-pdf/" >}}
+Jak przekonwertować POT za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist "aspose-com-gists" "c408b7aac79956e1dd0f359e07bbc15a" "powerpoint-to-pdf-conversion.cpp" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/potm-to-pdf/" >}}
+Jak przekonwertować POTM za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/potx-to-pdf/" >}}
+Jak przekonwertować POTX za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/pps-to-ppt/" >}}
+Jak przekonwertować PPS za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Zapisz slajdy programu Microsoft PowerPoint jako obrazy" %}}
-zawsze, gdy zachodzi potrzeba wyświetlenia treści prezentacji w Internecie, należy renderować pliki jako HTML lub obrazy JPG, TIFF, PNG itp. Proces konwersji slajdów jako obrazów jest prosty. Pobierz wszystkie slajdy za pomocą [get_Slides()](https://apireference.aspose.com/slides/cpp/class/aspose.slides.presentation#a9981b38f5a01d9fa5482f05b0a75974c) i powtarzaj każdy slajd jeden po drugim. Podczas każdej iteracji użyj [ISlide->GetThumbnail](https://apireference.aspose.com/slides/cpp/class/aspose.slides.i_slide#a7bd377d403ff886232df21351c1fe783) dla obrazu slajdu, a następnie zapisz w wymaganym formacie obrazu. 
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/ppsm-to-ppt/" >}}
+Jak przekonwertować PPSM za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="C++ Konwersja PowerPoint do obrazu" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/ppsx-to-ppt/" >}}
+Jak przekonwertować PPSX za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist "aspose-com-gists" "c408b7aac79956e1dd0f359e07bbc15a" "save-powerpoint-slides-as-images.cpp" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/pptm-to-ppt/" >}}
+Jak przekonwertować PPTM za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/cpp/conversion/svg-to-png/" >}}
+Jak przekonwertować SVG za pomocą Aspose.Slides dla C++ API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-gif pptx-to-gif ppsm-to-jpeg potx-to-png ppsx-to-tiff pps-to-bmp pptm-to-bmp ppt-to-bmp ppt-to-word pptx-to-word svg-to-png" >}}
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

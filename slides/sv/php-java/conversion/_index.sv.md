@@ -1,184 +1,91 @@
 ---
 title: Microsoft PowerPoint Presentation Konvertering till PDF i PHP
 url: /sv/php-java/conversion/
-keywords: "Convert, PowerPoint, Presentation, PHP, PDF, Convert to PDF, PPT to PDF"
+keywords: "Konvertera, PowerPoint, Presentation, PHP, PDF, Konvertera till PDF, PPT till PDF"
 description: PHP API för att konvertera PPT till PDF. Konvertera presentationer till JPG, PNG och andra format i PHP.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft<sup>®</sup> PowerPoint-presentation till PDF-konvertering i PHP" h2="PHP-källkoder för olika konverteringsfall för att konvertera PPT till PDF, PNG, HTML, JPEG, PPTX och andra format." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Konvertera PowerPoint-presentation med PHP" h2="Bygg dina egna PHP-appar för att konvertera presentationer med hjälp av API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-container >}}
 
-[Aspose.Slides för PHP via Java](https://products.aspose.com/slides/sv/php-java/) är ett kraftfullt lokalt klassbibliotek som används för att bearbeta och arbeta med presentationer. Det är lätt för utvecklarna att konvertera PowerPoint till PDF med snabbhet och noggrannhet. Få resultaten inom nolltid för att automatisera affärsprocesserna. Vi diskuterar här några fall för att läsa eller ladda indata [PowerPoint-format som stöds](https://docs.aspose.com/slides/php-java/supported-file-formats/) och skriva eller spara till vilket utdataformat som stöds . 
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint-kodprov online inkluderar" >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/fodp-to-pdf/" >}}
+Hur man konverterar FODP med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPoint till PDF-konvertering i PHP" %}}
-[Aspose.Slides](https://products.aspose.com/slides/sv/php-java/) låter dig konvertera filer i PowerPoint PPT-, PPTX- och OpenOffice ODP-format till PDF. För att konvertera en presentation till PDF, skicka helt enkelt filnamnet och spara formatet till metoden `Presentation.save`. Klassen `Presentation` exponerar `spara`-metoden som kan anropas för att konvertera hela PPT-, PPTX- eller ODP-presentationen till ett PDF-dokument.
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/ppt-to-pdf/" >}}
+Hur man konverterar PPT med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="PHP PowerPoint till PDF-konvertering" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/pptx-to-pdf/" >}}
+Hur man konverterar PPTX med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/html-to-pdf/" >}}
+Hur man konverterar HTML med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres = new Presentation("input.ppt");
-try
-{
-    $pres->save("output.pdf", SaveFormat::Pdf); 
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/pdf-to-pptx/" >}}
+Hur man konverterar PDF med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PDF till PPT-konvertering i PHP" %}}
-[Aspose.Slides](https://products.aspose.com/slides/sv/php-java/) låter dig importera presentationer från PDF-filer. I huvudsak får du konvertera en PDF till en PowerPoint-presentation. För att konvertera PDF till Powerpoint, gå igenom dessa steg:
-- Instantiera ett objekt av klassen 'Presentation'.
-- Anropa "addFromPdf"-metoden och skicka PDF-filen.
-- Använd "spara"-metoden för att spara filen i PowerPoint-format.
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/image-to-pdf/" >}}
+Hur man konverterar bild med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="PHP PDF till Powerpoint-konvertering" %}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/jpg-to-pdf/" >}}
+Hur man konverterar JPG med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/odp-to-pdf/" >}}
+Hur man konverterar ODP med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres = new Presentation();
-try
-{
-    $pres->getSlides()->removeAt(0);
-    $pres->getSlides()->addFromPdf("document.pdf");
-    $pres->save("output.pptx", SaveFormat::Pptx); 
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/otp-to-pdf/" >}}
+Hur man konverterar OTP med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/png-to-pdf/" >}}
+Hur man konverterar PNG med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Konvertera PPT till PDF med anpassade alternativ i PHP" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/pot-to-pdf/" >}}
+Hur man konverterar POT med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-För att konvertera PowerPoint-bilder till PDF korrekt kan programmerare ladda dokumentet med klassen 'Presentation' och använda klassen 'PdfOptions' för alla specifika och anpassade alternativ som textkomprimeringsnivå, Jpeg-kvalitet, beteendet hos metafiler, konvertera dolda bilder samt välja specifika bilder och mer. Även det finns möjlighet att skydda den konverterade PDF-filen med lösenord.
-{{% blocks/products/pf/feature-page-code h3="PHP PowerPoint till PDF-konvertering med anpassade inställningar" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/potm-to-pdf/" >}}
+Hur man konverterar POTM med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/potx-to-pdf/" >}}
+Hur man konverterar POTX med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
-use aspose\slides\PdfOptions;
-use aspose\slides\PdfTextCompression;
-use aspose\slides\PdfCompliance;
- 
-$pres = new Presentation("input.pptx");
-try
-{
-    $pdfOptions = new PdfOptions();
-    $pdfOptions->setJpegQuality(90);
-    $pdfOptions->setSaveMetafilesAsPng(true);
-    $pdfOptions->setTextCompression(PdfTextCompression::Flate);
-    $pdfOptions->setCompliance(PdfCompliance::Pdf15);
-    $pres->save("output.pdf", SaveFormat::Pdf, $pdfOptions);
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
-```
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/pps-to-ppt/" >}}
+Hur man konverterar PPS med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/ppsm-to-ppt/" >}}
+Hur man konverterar PPSM med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Microsoft PowerPoint till HTML-konvertering i PHP" %}}
-När det någonsin finns behov av att bädda in presentationer på webbsidor, då finns det ett behov av att konvertera bilder till HTML. 
-{{% blocks/products/pf/feature-page-code h3="PHP-kod för PowerPoint till HTML-konvertering" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/ppsx-to-ppt/" >}}
+Hur man konverterar PPSX med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/pptm-to-ppt/" >}}
+Hur man konverterar PPTM med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
-use aspose\slides\Html5Options;
- 
-$pres = new Presentation("input.pptx");
-try
-{
-    $html5Options = new Html5Options();
-    $html5Options->setAnimateShapes(false);
-    $html5Options->setAnimateTransitions(false);
-    $pres->save("output.html", SaveFormat::Html5, $html5Options);
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
-```
-{{% /blocks/products/pf/feature-page-code %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/php-java/conversion/svg-to-png/" >}}
+Hur man konverterar SVG med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertera PowerPoint till JPG" %}}
-Att konvertera Microsoft<sup>®</sup> PowerPoint-format till bilder JPEG, PNG, TIFF etc är ett annat vanligt användningsfall som oftast används för att skapa miniatyrbilder av bilder. 
-{{% blocks/products/pf/feature-page-code h3="PHP PPT till JPG Converter Code" %}}
-```php
-
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
- 
-$pres = new Presentation("input.pptx");
-try
-{
-    for ($i = 0; $i < java_values($pres->getSlides()->size()); $i++)
-    {
-        $bmp = $pres->getSlides()->get_Item($i)->getThumbnail(1, 1);
-        $imageio = new Java("javax.imageio.ImageIO");
-        $javafile = new Java("java.io.File", "slide_". $i .".jpg");
-        $imageio->write($bmp, "JPEG", $javafile);
-    }
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>  
-```
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

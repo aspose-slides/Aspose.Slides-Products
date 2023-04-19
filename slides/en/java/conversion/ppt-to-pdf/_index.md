@@ -127,6 +127,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-word/" name="PPT TO WORD" description="Open XML document Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

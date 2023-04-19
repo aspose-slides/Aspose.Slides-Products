@@ -107,7 +107,8 @@ Use the free app to see a demonstration of the PDF to PPSX conversion process.
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Enhanced Metafile Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-fodp/" name="PDF TO FODP" description="OpenDocument Flat XML Presentation" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-gif/" name="PDF TO GIF" description="Graphical Interchange Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}} 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-image/" name="PDF TO IMAGE" description="Raster Image" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" description="JPEG Image" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument Presentation Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument Standard Format" >}}  
@@ -124,7 +125,7 @@ Use the free app to see a demonstration of the PDF to PPSX conversion process.
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-swf/" name="PDF TO SWF" description="SWF Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Tagged Image Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML Paper Specifications" >}}  
-
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-xml/" name="PDF TO XML" description="XML Document" >}}  
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -1,73 +1,92 @@
 ---
 title: Chuyển đổi bản trình bày Microsoft PowerPoint sang PDF bằng Python
 url: /vi/python-net/conversion/
-keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"
-description: API Python để chuyển đổi PPT sang PDF. Chuyển đổi bản trình bày sang JPG, PNG và các định dạng khác bằng Python.
+keywords: "Chuyển đổi, PowerPoint, Bản trình bày, Python, PDF, Chuyển đổi sang PDF, PPT sang PDF"
+description: API Python để chuyển đổi PPT sang PDF. Chuyển đổi Bản trình bày sang JPG, PNG và các định dạng khác trong Python.
 ---
 
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/i18n/feature-page-header h1="Microsoft <sup> ® </sup> Bản trình bày PowerPoint sang Chuyển đổi PDF bằng Python" h2="Mã nguồn Python cho các trường hợp chuyển đổi khác nhau để chuyển đổi PPT sang PDF, PNG, HTML, JPEG, PPTX và các định dạng khác." >}}
 
-{{% blocks/products/pf/feature-page-summary %}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Chuyển đổi bản trình bày PowerPoint bằng Python" h2="Xây dựng tập lệnh Python của riêng bạn để chuyển đổi bản trình bày bằng API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-[Aspose.Slides cho Python qua .NET](https://products.aspose.com/slides/vi/python-net/) là một thư viện lớp tại chỗ mạnh mẽ được sử dụng để xử lý và làm việc với các bản trình bày. Các nhà phát triển có thể dễ dàng chuyển đổi PowerPoint sang PDF với tốc độ và độ chính xác cao. Nhận kết quả ngay lập tức để tự động hóa các quy trình kinh doanh. Chúng tôi đang thảo luận ở đây một số trường hợp để đọc hoặc tải bất kỳ đầu vào nào [các định dạng PowerPoint được hỗ trợ](https://docs.aspose.com/slides/python-net/supported-file-formats/) và ghi hoặc lưu vào bất kỳ định dạng đầu ra nào được hỗ trợ . 
+{{< blocks/products/pf/main-container >}}
 
-{{% /blocks/products/pf/feature-page-summary  %}}
+{{< blocks/products/pf/product-card-row title="Bao gồm các mẫu mã Aspose.Slides PowerPoint trực tuyến" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Chuyển đổi PowerPoint sang PDF bằng Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/vi/python-net/) cho phép bạn chuyển đổi các tệp ở định dạng PowerPoint PPT, PPTX và OpenOffice ODP sang PDF. Để chuyển đổi bản trình bày sang PDF, chỉ cần chuyển tên tệp và lưu định dạng vào [Presentation.save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) phương pháp. Lớp [Trình bày](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) hiển thị [save](https://docs.aspose.com/slides /python-net/api-reference/aspose.slides/presentation/) phương thức có thể được gọi để chuyển đổi toàn bộ bản trình bày PPT, PPTX hoặc ODP thành tài liệu PDF.
+{{< blocks/products/pf/product pfName="Convert" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/fodp-to-pdf/" >}}
+Cách chuyển đổi FODP bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Chuyển đổi PowerPoint sang PDF trong Python" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/ppt-to-pdf/" >}}
+Cách chuyển đổi PPT bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 527d6fad9698a7d4385c7d042b306bb3 >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/pptx-to-pdf/" >}}
+Cách chuyển đổi PPTX bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf potm-to-pdf potx-to-pdf ppsm-to-pdf odp-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/html-to-pdf/" >}}
+Cách chuyển đổi HTML bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Chuyển đổi PDF sang PPT bằng Python" %}}
-[Aspose.Slides](https://products.aspose.com/slides/vi/python-net/) cho phép bạn nhập bản trình bày từ PDF. Về cơ bản, bạn có thể chuyển đổi một tệp PDF sang một bản trình bày PowerPoint. Để chuyển đổi PDF sang Powerpoint, hãy thực hiện theo các bước sau:
-- Khởi tạo một đối tượng của lớp [Presentation](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/).
-- Gọi phương thức [add_from_pdf](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/slidecollection/) và chuyển tệp PDF.
-- Sử dụng phương thức [save](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides/presentation/) để lưu tệp ở định dạng PowerPoint.
+{{< blocks/products/pf/product pfName="Convert" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/pdf-to-ppsx/" >}}
+Cách chuyển đổi PDF bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Chuyển đổi PDF sang Powerpoint trong Python" %}}
+{{< blocks/products/pf/product pfName="Convert" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/image-to-pdf/" >}}
+Cách chuyển đổi hình ảnh bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 49361e39b3d91db74c7c8b07b2a72182 >}}
+{{< blocks/products/pf/product pfName="Convert" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/jpg-to-pdf/" >}}
+Cách chuyển đổi JPG bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-ppt pdf-to-pptx pdf-to-odp pdf-to-png pdf-to-jpg pdf-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/odp-to-pdf/" >}}
+Cách chuyển đổi ODP bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Chuyển đổi PPT sang PDF với các tùy chọn tùy chỉnh bằng Python" %}}
+{{< blocks/products/pf/product pfName="Convert" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/otp-to-pdf/" >}}
+Cách chuyển đổi OTP bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-Để chuyển đổi chính xác các trang chiếu PowerPoint sang PDF, Lập trình viên có thể tải tài liệu bằng lớp `Trình bày` và sử dụng [lớp PdfOptions](https://docs.aspose.com/slides/python-net/api-reference/aspose.slides.export / pdfoptions /) cho tất cả các tùy chọn cụ thể và tùy chỉnh như mức độ nén văn bản, chất lượng Jpeg, hoạt động của siêu tệp, chuyển đổi các trang trình bày ẩn cũng như chọn các trang trình bày cụ thể và hơn thế nữa. Thậm chí có tùy chọn để bảo vệ tệp PDF đã chuyển đổi bằng mật khẩu.
+{{< blocks/products/pf/product pfName="Convert" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/png-to-pdf/" >}}
+Cách chuyển đổi PNG bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Chuyển đổi PowerPoint sang PDF trong Python với cài đặt tùy chỉnh" %}}
+{{< blocks/products/pf/product pfName="Convert" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/pot-to-pdf/" >}}
+Cách chuyển đổi POT bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 97648be4e83a74b0fcb433b998747077 >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/potm-to-pdf/" >}}
+Cách chuyển đổi POTM bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code  %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-pdf pptx-to-pdf ppsm-to-pdf potx-to-pdf ppsx-to-pdf pps-to-pdf pptm-to-pdf" >}}
+{{< blocks/products/pf/product pfName="Convert" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/potx-to-pdf/" >}}
+Cách chuyển đổi POTX bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Chuyển đổi Microsoft PowerPoint sang HTML bằng Python" %}}
-Khi nào có nhu cầu nhúng các bản trình bày trong các trang web, thì cần phải chuyển đổi các trang trình bày sang HTML.
+{{< blocks/products/pf/product pfName="Convert" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/pps-to-ppt/" >}}
+Cách chuyển đổi PPS bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-code h3="Mã Python cho Chuyển đổi PowerPoint sang HTML" %}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/ppsm-to-ppt/" >}}
+Cách chuyển đổi PPSM bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 334f7eb118bfba30fb32e2a2c23feeee >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/ppsx-to-ppt/" >}}
+Cách chuyển đổi PPSX bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-html pptx-to-html ppsm-to-html potx-to-html ppsx-to-html pps-to-html pptm-to-html" >}}
+{{< blocks/products/pf/product pfName="Convert" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/pptm-to-ppt/" >}}
+Cách chuyển đổi PPTM bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Chuyển đổi PowerPoint sang JPG" %}}
-Chuyển đổi định dạng Microsoft <sup> ® </sup> PowerPoint sang hình ảnh JPEG, PNG, TIFF, v.v. là một trường hợp sử dụng phổ biến khác, hầu hết được sử dụng để tạo hình thu nhỏ của trang chiếu. 
-{{% blocks/products/pf/feature-page-code h3="Mã chuyển đổi Python PPT sang JPG" %}}
+{{< blocks/products/pf/product pfName="Convert" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/python-net/conversion/svg-to-png/" >}}
+Cách chuyển đổi SVG bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{< gist aspose-slides-gists 292ad2ad2f5b7c078b7c22e15c7991b0 >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-code %}}
-{{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="ppt-to-jpg pptx-to-jpg ppt-to-png pptx-to-png ppt-to-gif pptx-to-gif" >}}
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}
