@@ -4,112 +4,88 @@ url: /cs/java/merger/
 keywords: Sloučení, připojení, PowerPoint, prezentace, Java, Aspose
 description: Sloučení více souborů v Java PPT, PPTX, ODP, PDF, PNG, JPG a mnoha dalších.
 ---
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Sloučit Powerpoint, PDF, PPT nebo jiné dokumenty dohromady v Javě" h2="Sestavte si své vlastní Java aplikace pro kombinování prezentací pomocí Aspose.Slides API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Sloučit Powerpoint, PDF, PPT nebo jiné dokumenty dohromady v Javě" h2="Vysokorychlostní Java knihovna pro sloučení PPT, PPTX, PDF, PNG, JPEG a dalších formátů." >}}
+{{< blocks/products/pf/main-container >}}
 
-{{% blocks/products/pf/feature-page-section h2="Sloučit PPT, PPTX, PDF pomocí Javy" %}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Online ukázky kódu PowerPoint" >}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby, jak kombinovat více PPT/PPTX prezentací. Když sloučíte jednu prezentaci do druhé, efektivně kombinujete jejich snímky do jedné prezentace, abyste získali jeden soubor. Aspose.Slides umožňuje sloučit dvě prezentace různými způsoby. Můžete sloučit prezentace se všemi jejich tvary, styly, texty, formátováním, komentáři, animacemi atd., aniž byste se museli obávat ztráty kvality nebo dat.
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/ppt/" >}}
+Jak sloučit PPT pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/pptx/" >}}
+Jak sloučit PPTX pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Sloučit PowerPoint prezentace v Javě" %}}
-Chcete-li sloučit prezentace PowerPoint, budete muset naklonovat snímky z jedné prezentace do druhé.
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/html-to-html/" >}}
+Jak sloučit HTML pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Sloučit soubory PPTX pomocí Java" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/pdf-to-pdf/" >}}
+Jak sloučit PDF pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-```java
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/image-to-image/" >}}
+Jak sloučit obrázek pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-// Load first presentation
-Presentation presentation1 = new Presentation("presentation1.pptx");
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/jpg-to-jpg/" >}}
+Jak sloučit JPG pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-// Load second presentation
-Presentation presentation2 = new Presentation("presentation2.pptx");
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/odp/" >}}
+Jak sloučit ODP pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-// Merge slides
-for (ISlide slide : presentation2.getSlides()) {
-	// Merge slides from source to target
-	presentation1.getSlides().addClone(slide);
-}
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/otp/" >}}
+Jak sloučit jednorázové heslo pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation
-presentation1.save("merged-presentation.pptx", SaveFormat.Pptx);
-```
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/png-to-pdf/" >}}
+Jak sloučit PNG pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/pot/" >}}
+Jak sloučit POT pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/potm/" >}}
+Jak sloučit POTM pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/potx/" >}}
+Jak sloučit POTX pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/pps/" >}}
+Jak sloučit PPS pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/ppsm/" >}}
+Jak sloučit PPSM pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/ppsx/" >}}
+Jak sloučit PPSX pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/pptm/" >}}
+Jak sloučit PPTM pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/svg-to-png/" >}}
+Jak sloučit SVG pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/java/merger/tiff-to-pdf/" >}}
+Jak sloučit TIFF pomocí Aspose.Slides pro Java API.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Sloučit prezentace s Slide Master pomocí Java" %}}
-Tento kód Java ukazuje, jak sloučit několik prezentací do jedné a použít styly ze šablony prezentace předlohy snímků. Takže výsledná prezentace si zachová stejné zdrojové formátování a bude obsahovat formátování z hlavního snímku jiné prezentace.
-
-{{% blocks/products/pf/agp/code-block title="Sloučit více PPT do jednoho v Javě" offSpacer="true" %}}
-
-``` java
-
-// Load first presentation
-Presentation presentation1 = new Presentation("presentation1.pptx");
-
-// Load second presentation
-Presentation presentation2 = new Presentation("presentation2.pptx");
-
-// Merge first two slides only using slide master
-presentation1.getSlides().addClone(presentation2.getSlides().get_Item(0), presentation1.getMasters().get_Item(0), true);
-presentation1.getSlides().addClone(presentation2.getSlides().get_Item(1), presentation1.getMasters().get_Item(0), true);
-
-// Save the presentation
-presentation1.save("merged-presentation.pptx", SaveFormat.Pptx);
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Jak sloučit prezentace pomocí Aspose.Slides pro Java API" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky ke sloučení dvou souborů PPTX a uložení výsledku jako PDF v Javě." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte [**Aspose.Slides for Java**](https://docs.aspose.com/slides/java/installation/). 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Java.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Otevřete zdrojové soubory PPTX v Javě.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kombinujte soubory PPTX pomocí metody **addClone**.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte prezentaci a získejte výsledek jako jeden soubor PDF.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty ke sloučení" subTitle="Můžete také kombinovat jiné formáty souborů. Další podporované formáty naleznete níže." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -5,135 +5,92 @@ keywords: Egyesítés, csatlakozás, PowerPoint, prezentáció, Python, Aspose
 description: Egyesítsen több fájlt Python PPT, PPTX, ODP, PDF, PNG, JPG és még sok más formátumban.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Egyesítse a Powerpointot, PDF-et, PPT-t vagy más dokumentumokat Pythonban" h2="Nagy sebességű Python könyvtár a PPT, PPTX, PDF, PNG, JPEG és más formátumok egyesítéséhez." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Egyesítse a Powerpointot, PDF-et, PPT-t vagy más dokumentumokat Pythonban" h2="Készítse el saját Python-szkriptjét a prezentációk Aspose.Slides API-k segítségével történő kombinálásához." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="PPT, PPTX, PDF egyesítése Python segítségével" %}}
+{{< blocks/products/pf/main-container >}}
 
-Az [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/hu/python-net/) egy hatékony Python-könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít több PPT/PPTX prezentáció kombinálására. Ha egy prezentációt egyesít egy másikkal, akkor hatékonyan egyesíti a diáikat egyetlen prezentációban, így egyetlen fájlt kap. Az Aspose.Slides lehetővé teszi, hogy két prezentációt különböző módon egyesítsen. Egyesítheti a prezentációkat minden formájával, stílusával, szövegével, formázásával, megjegyzéseivel, animációival stb. anélkül, hogy aggódnia kellene a minőség- vagy adatvesztés miatt.
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint kódminták online tartalmazzák" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/ppt/" >}}
+A PPT egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPoint prezentációk egyesítése Pythonban" %}}
-A PowerPoint-prezentációk egyesítéséhez klónoznia kell a diákat egyik prezentációból a másikba.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/pptx/" >}}
+A PPTX egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Egyesítse a PPTX fájlokat Python segítségével" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/html-to-html/" >}}
+HTML egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-```python
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/pdf/" >}}
+PDF egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-import aspose.slides as slides
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/image-to-image/" >}}
+Kép egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
-# open first presentation
-with slides.Presentation("presentation1.pptx") as pres1:
-    # open second presentation
-    with slides.Presentation("presentation2.pptx") as pres2:
-        # loop through slides
-        for slide in pres2.slides:
-            # clone slide
-            pres1.slides.add_clone(slide)
-        # save merged presentation
-        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/jpg-to-jpg/" >}}
+JPG egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/fodp/" >}}
+FODP egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/odp/" >}}
+Az ODP egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/otp/" >}}
+Az OTP egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/png-to-pdf/" >}}
+PNG egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/pot/" >}}
+A POT egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/potm/" >}}
+A POTM egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/potx/" >}}
+A POTX egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/pps/" >}}
+A PPS egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/ppsm/" >}}
+A PPSM egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/ppsx/" >}}
+A PPSX egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/pptm/" >}}
+A PPTM egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/svg-to-png/" >}}
+Az SVG egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/python-net/merge/tiff-to-pdf/" >}}
+TIFF egyesítése az Aspose.Slides for Python használatával .NET API-n keresztül.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Egyesítse a prezentációkat a Slide Master programmal Python használatával" %}}
-Ez a python-kód bemutatja, hogyan egyesíthet több prezentációt egybe, és hogyan alkalmazhat stílusokat a diamester-prezentációs sablonból. Így az eredményprezentáció ugyanazt a forrásformázást fogja megtartani, és egy másik prezentáció mesterdiájából származó formázást is tartalmazni fogja.
-
-{{% blocks/products/pf/agp/code-block title="Egyesítsen több PPT-t egyetlenvé a Pythonban" offSpacer="true" %}}
-
-```python
-
-import aspose.slides as slides
-
-files = ['pres1.pptx', 'pres2.pptx', 'pres3.pptx']
-
-with slides.Presentation('master.pptx') as master:
-    masterSlide = master.masters[0]
-
-    for file in files:
-        with slides.Presentation(file) as source:
-            for slide in source.slides:
-                clone = master.slides.add_clone(slide)
-
-                for shape in masterSlide.shapes:
-                    clone.shapes.add_clone(shape)
+{{< /blocks/products/pf/main-container >}}
     
-    master.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Prezentációk egyesítése az Aspose.Slides for Python API használatával" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések két PPTX fájl egyesítéséhez és az eredmény PDF formátumban történő mentéséhez a Pythonban." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/hu/python-net/).
-```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Python-projekthez.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Nyissa meg a forrás PPTX fájlokat a Pythonban.
-```
-pres1 = slides.Presentation('pres1.pptx')
-pres2 = slides.Presentation('pres2.pptx')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kombinálja a PPTX fájlokat az **add_clone** módszerrel.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Mentse a bemutatót, és kapja meg az eredményt egyetlen PDF-fájlként.
-```
-pres1.save("document.pdf", slides.export.SaveFormat.PDF)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott formátumok egyesítése" subTitle="Más fájlformátumokat is kombinálhat. Lásd alább a többi támogatott formátumot." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/ppt/" name="PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/pptx/" name="PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/pdf/" name="PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/odp/" name="ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/otp/" name="OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/pot/" name="POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/potm/" name="POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/potx/" name="POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/pps/" name="PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/ppsm/" name="PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/ppsx/" name="PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/pptm/" name="PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/merge/fodp/" name="FODP" >}}  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -4,112 +4,88 @@ url: /ru/java/merger/
 keywords: Объединить, присоединиться, PowerPoint, презентация, Java, Aspose
 description: Объединяйте несколько файлов в форматах Java PPT, PPTX, ODP, PDF, PNG, JPG и многих других.
 ---
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Объединяйте Powerpoint, PDF, PPT или другие документы вместе в Java" h2="Создавайте собственные Java-приложения для объединения презентаций с помощью API-интерфейсов Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Объединяйте Powerpoint, PDF, PPT или другие документы вместе в Java" h2="Высокоскоростная библиотека Java для объединения PPT, PPTX, PDF, PNG, JPEG и других форматов." >}}
+{{< blocks/products/pf/main-container >}}
 
-{{% blocks/products/pf/feature-page-section h2="Слияние PPT, PPTX, PDF с помощью Java" %}}
+{{< blocks/products/pf/product-card-row title="Образцы кода PowerPoint Aspose.Slides онлайн включают" >}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/ru/java/) — мощная библиотека Java для создания файлов презентаций и управления ими. Кроме того, он предоставляет гибкие способы объединения нескольких презентаций PPT/PPTX. Когда вы объединяете одну презентацию с другой, вы эффективно объединяете их слайды в одну презентацию, чтобы получить один файл. Aspose.Slides позволяет объединять две презентации разными способами. Вы можете объединять презентации со всеми их формами, стилями, текстами, форматированием, комментариями, анимацией и т. д., не беспокоясь о потере качества или данных.
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/ppt/" >}}
+Как объединить PPT с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/pptx/" >}}
+Как объединить PPTX с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Объединение презентаций PowerPoint в Java" %}}
-Чтобы объединить презентации PowerPoint, вам нужно клонировать слайды из одной презентации в другую.
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/html-to-html/" >}}
+Как объединить HTML с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Слияние файлов PPTX с помощью Java" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/pdf-to-pdf/" >}}
+Как объединить PDF с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-```java
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/image-to-image/" >}}
+Как объединить изображения с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-// Load first presentation
-Presentation presentation1 = new Presentation("presentation1.pptx");
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/jpg-to-jpg/" >}}
+Как объединить JPG с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-// Load second presentation
-Presentation presentation2 = new Presentation("presentation2.pptx");
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/odp/" >}}
+Как объединить ODP с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-// Merge slides
-for (ISlide slide : presentation2.getSlides()) {
-	// Merge slides from source to target
-	presentation1.getSlides().addClone(slide);
-}
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/otp/" >}}
+Как объединить OTP с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation
-presentation1.save("merged-presentation.pptx", SaveFormat.Pptx);
-```
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/png-to-pdf/" >}}
+Как объединить PNG с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/pot/" >}}
+Как объединить POT с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/potm/" >}}
+Как объединить POTM с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/potx/" >}}
+Как объединить POTX с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/pps/" >}}
+Как объединить PPS с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/ppsm/" >}}
+Как объединить PPSM с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/ppsx/" >}}
+Как объединить PPSX с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/pptm/" >}}
+Как объединить PPTM с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/svg-to-png/" >}}
+Как объединить SVG с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/java/merger/tiff-to-pdf/" >}}
+Как объединить TIFF с помощью Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Объединение презентаций с мастером слайдов с использованием Java" %}}
-Этот код Java демонстрирует, как объединить несколько презентаций в одну и применить стили из шаблона презентации образца слайдов. Таким образом, итоговая презентация сохранит исходное форматирование и будет содержать форматирование из мастер-слайда другой презентации.
-
-{{% blocks/products/pf/agp/code-block title="Объединение нескольких PPT в один в Java" offSpacer="true" %}}
-
-``` java
-
-// Load first presentation
-Presentation presentation1 = new Presentation("presentation1.pptx");
-
-// Load second presentation
-Presentation presentation2 = new Presentation("presentation2.pptx");
-
-// Merge first two slides only using slide master
-presentation1.getSlides().addClone(presentation2.getSlides().get_Item(0), presentation1.getMasters().get_Item(0), true);
-presentation1.getSlides().addClone(presentation2.getSlides().get_Item(1), presentation1.getMasters().get_Item(0), true);
-
-// Save the presentation
-presentation1.save("merged-presentation.pptx", SaveFormat.Pptx);
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Как объединить презентации с помощью Aspose.Slides for Java API" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для объединения двух файлов PPTX и сохранения результата в формате PDF на Java." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Установите [**Aspose.Slides для Java**](https://docs.aspose.com/slides/java/installation/). 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Добавьте ссылку на библиотеку (импортируйте библиотеку) в свой проект Java.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Откройте исходные файлы PPTX в Java.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Объедините файлы PPTX, используя метод **addClone**.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохраните презентацию и получите результат в виде одного PDF-файла.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы для слияния" subTitle="Вы также можете комбинировать другие форматы файлов. См. другие поддерживаемые форматы ниже." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/java/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

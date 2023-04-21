@@ -87,7 +87,6 @@ Save the resulting image.
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}

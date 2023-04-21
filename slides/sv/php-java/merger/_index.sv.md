@@ -5,99 +5,91 @@ keywords: Sammanfoga, gå med, PowerPoint, Presentation, PHP, Aspose
 description: Slå samman flera filer i PHP PPT, PPTX, ODP, PDF, PNG, JPG och många fler.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Slå ihop Powerpoint, PDF, PPT eller andra dokument i PHP" h2="Höghastighets PHP-bibliotek för att slå samman PPT, PPTX, PDF, PNG, JPEG och andra format." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Slå ihop Powerpoint, PDF, PPT eller andra dokument i PHP" h2="Bygg dina egna PHP-appar för att kombinera presentationer med Aspose.Slides API:er." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Slå ihop PPT, PPTX, PDF med PHP" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides för PHP via Java**](https://products.aspose.com/slides/sv/php-java/) är ett kraftfullt PHP-bibliotek för att skapa och manipulera presentationsfiler. Dessutom ger det flexibla sätt att kombinera flera PPT/PPTX-presentationer. När du slår samman en presentation med en annan, kombinerar du effektivt deras bilder i en enda presentation för att få en fil. Aspose.Slides låter dig slå samman två presentationer på olika sätt. Du får slå samman presentationer med alla deras former, stilar, texter, formatering, kommentarer, animationer etc. utan att behöva oroa dig för förlust av kvalitet eller data.
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint-kodprov online inkluderar" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/ppt/" >}}
+Hur man slår ihop PPT med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Slå samman PowerPoint-presentationer i PHP" %}}
-För att slå samman PowerPoint-presentationer måste du klona bilderna från en presentation till den andra.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/pptx/" >}}
+Hur man sammanfogar PPTX med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Slå samman PPTX-filer med PHP" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/html-to-html/" >}}
+Hur man sammanfogar HTML med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/pdf-to-pdf/" >}}
+Hur man sammanfogar PDF med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres1 = new Presentation("document1.ppt");
-$pres2 = new Presentation("document2.ppt");
-try
-{
-    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-    {
-        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
-    }
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/image-to-image/" >}}
+Hur man sammanfogar bild med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-    $pres1->save("merged.ppt", SaveFormat::Ppt);
-}
-finally
-{
-    if ($pres1 != null) $pres1->dispose();
-    if ($pres2 != null) $pres2->dispose();
-}
-?>
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/jpg-to-jpg/" >}}
+Hur man sammanfogar JPG med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/fodp/" >}}
+Hur man slår samman FODP med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/odp/" >}}
+Hur man slår samman ODP med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/otp/" >}}
+Hur man slår samman OTP med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man slår samman presentationer med Aspose.Slides för PHP API" >}}
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/png-to-pdf/" >}}
+Hur man slår ihop PNG med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att slå samman två PPTX-filer och spara resultatet som PDF i PHP." >}}
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/pot/" >}}
+Hur man slår ihop POT med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installera [**Aspose.Slides för PHP via Java**](https://docs.aspose.com/slides/php-java/installation/). 
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/potm/" >}}
+Hur man sammanfogar POTM med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till en biblioteksreferens (importera biblioteket) till ditt PHP-projekt.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/potx/" >}}
+Hur man sammanfogar POTX med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Öppna käll-PPTX-filerna i PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/pps/" >}}
+Hur man slår ihop PPS med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Kombinera PPTX-filer med **addClone**-metoden.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/ppsm/" >}}
+Hur man sammanfogar PPSM med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara presentationen och få resultatet som en enda PDF-fil.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/ppsx/" >}}
+Hur man sammanfogar PPSX med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/pptm/" >}}
+Hur man sammanfogar PPTM med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/svg-to-png/" >}}
+Hur man sammanfogar SVG med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds att slå samman" subTitle="Du kan också kombinera andra filformat. Se andra format som stöds nedan." >}}
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/php-java/merger/tiff-to-pdf/" >}}
+Hur man sammanfogar TIFF med Aspose.Slides för PHP via Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/potm/" name="POTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/potx/" name="POTX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/ppsm/" name="PPSM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/ppsx/" name="PPSX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/pptm/" name="PPTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/fodp/" name="FODP" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/php-java/merger/pdf-to-pdf/" name="PDF" >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

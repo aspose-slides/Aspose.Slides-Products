@@ -5,135 +5,92 @@ keywords: Scalanie, łączenie, PowerPoint, prezentacja, Python, Aspose
 description: Scal wiele plików w Pythonie PPT, PPTX, ODP, PDF, PNG, JPG i wielu innych.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Scalanie Powerpoint, PDF, PPT lub innych dokumentów razem w Pythonie" h2="Szybka biblioteka Pythona do łączenia PPT, PPTX, PDF, PNG, JPEG i innych formatów." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Scalanie Powerpoint, PDF, PPT lub innych dokumentów razem w Pythonie" h2="Zbuduj własny skrypt w języku Python, aby łączyć prezentacje przy użyciu interfejsów API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Scal PPT, PPTX, PDF za pomocą Pythona" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/pl/python-net/) to potężna biblioteka Pythona do tworzenia i manipulowania plikami prezentacji. Co więcej, zapewnia elastyczne sposoby łączenia wielu prezentacji PPT/PPTX. Scalając jedną prezentację z drugą, skutecznie łączysz ich slajdy w jedną prezentację, aby uzyskać jeden plik. Aspose.Slides umożliwia łączenie dwóch prezentacji na różne sposoby. Możesz łączyć prezentacje ze wszystkimi ich kształtami, stylami, tekstami, formatowaniem, komentarzami, animacjami itp. bez obaw o utratę jakości lub danych.
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Przykłady kodu programu PowerPoint w trybie online Uwzględnij" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/ppt/" >}}
+Jak scalić PPT przy użyciu Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Scal prezentacje PowerPoint w Pythonie" %}}
-Aby scalić prezentacje PowerPoint, musisz sklonować slajdy z jednej prezentacji do drugiej.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/pptx/" >}}
+Jak scalić PPTX za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Scal pliki PPTX za pomocą Pythona" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/html-to-html/" >}}
+Jak scalić HTML za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
 
-```python
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/pdf/" >}}
+Jak scalić PDF za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
 
-import aspose.slides as slides
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/image-to-image/" >}}
+Jak scalić obraz przy użyciu Aspose.Slides dla Pythona za pośrednictwem interfejsu API platformy .NET.
+{{< /blocks/products/pf/product >}}
 
-# open first presentation
-with slides.Presentation("presentation1.pptx") as pres1:
-    # open second presentation
-    with slides.Presentation("presentation2.pptx") as pres2:
-        # loop through slides
-        for slide in pres2.slides:
-            # clone slide
-            pres1.slides.add_clone(slide)
-        # save merged presentation
-        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/jpg-to-jpg/" >}}
+Jak scalić JPG za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/fodp/" >}}
+Jak scalić FODP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/odp/" >}}
+Jak scalić ODP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/otp/" >}}
+Jak scalić OTP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/png-to-pdf/" >}}
+Jak scalić PNG za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/pot/" >}}
+Jak scalić POT za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/potm/" >}}
+Jak scalić POTM za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/potx/" >}}
+Jak scalić POTX za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/pps/" >}}
+Jak scalić PPS za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/ppsm/" >}}
+Jak scalić PPSM przy użyciu Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/ppsx/" >}}
+Jak scalić PPSX za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/pptm/" >}}
+Jak scalić PPTM przy użyciu Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/svg-to-png/" >}}
+Jak scalić SVG za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/python-net/merge/tiff-to-pdf/" >}}
+Jak scalić TIFF przy użyciu Aspose.Slides dla Pythona za pośrednictwem .NET API.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Scal prezentacje z Slide Masterem za pomocą Pythona" %}}
-Ten kod Pythona pokazuje, jak połączyć kilka prezentacji w jedną i zastosować style z szablonu prezentacji wzorca slajdów. Tak więc prezentacja wyników zachowa to samo formatowanie źródłowe i będzie zawierać formatowanie ze slajdu wzorcowego innej prezentacji.
-
-{{% blocks/products/pf/agp/code-block title="Scal wiele PPT w jeden w Pythonie" offSpacer="true" %}}
-
-```python
-
-import aspose.slides as slides
-
-files = ['pres1.pptx', 'pres2.pptx', 'pres3.pptx']
-
-with slides.Presentation('master.pptx') as master:
-    masterSlide = master.masters[0]
-
-    for file in files:
-        with slides.Presentation(file) as source:
-            for slide in source.slides:
-                clone = master.slides.add_clone(slide)
-
-                for shape in masterSlide.shapes:
-                    clone.shapes.add_clone(shape)
+{{< /blocks/products/pf/main-container >}}
     
-    master.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Jak scalić prezentacje za pomocą Aspose.Slides for Python API" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby połączyć dwa pliki PPTX i zapisać wynik jako PDF w Pythonie." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/pl/python-net/).
-```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj odwołanie do biblioteki (zaimportuj bibliotekę) do swojego projektu w Pythonie.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Otwórz źródłowe pliki PPTX w Pythonie.
-```
-pres1 = slides.Presentation('pres1.pptx')
-pres2 = slides.Presentation('pres2.pptx')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Połącz pliki PPTX za pomocą metody **add_clone**.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz prezentację i uzyskaj wynik jako pojedynczy plik PDF.
-```
-pres1.save("document.pdf", slides.export.SaveFormat.PDF)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty do scalenia" subTitle="Możesz także łączyć inne formaty plików. Zobacz inne obsługiwane formaty poniżej." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/ppt/" name="PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/pptx/" name="PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/pdf/" name="PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/odp/" name="ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/otp/" name="OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/pot/" name="POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/potm/" name="POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/potx/" name="POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/pps/" name="PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/ppsm/" name="PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/ppsx/" name="PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/pptm/" name="PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/merge/fodp/" name="FODP" >}}  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
