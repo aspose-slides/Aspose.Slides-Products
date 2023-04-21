@@ -5,135 +5,92 @@ keywords: Hợp nhất, Tham gia, PowerPoint, Bản trình bày, Python, Aspose
 description: Hợp nhất nhiều tệp bằng Python PPT, PPTX, ODP, PDF, PNG, JPG và nhiều tệp khác.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Hợp nhất Powerpoint, PDF, PPT hoặc các tài liệu khác với nhau bằng Python" h2="Thư viện Python tốc độ cao để hợp nhất PPT, PPTX, PDF, PNG, JPEG và các định dạng khác." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Hợp nhất Powerpoint, PDF, PPT hoặc các tài liệu khác với nhau bằng Python" h2="Xây dựng tập lệnh Python của riêng bạn để kết hợp các bản trình bày bằng API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Hợp nhất PPT, PPTX, PDF bằng Python" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/vi/python-net/) là một thư viện Python mạnh mẽ để tạo và thao tác các tệp bản trình bày. Hơn nữa, nó cung cấp các cách linh hoạt để kết hợp nhiều bài thuyết trình PPT / PPTX. Khi bạn hợp nhất một bản trình bày với một bản trình bày khác, bạn đang kết hợp hiệu quả các trang trình bày của chúng trong một bản trình bày duy nhất để có được một tệp. Aspose.Slides cho phép bạn hợp nhất hai bản trình bày theo những cách khác nhau. Bạn có thể hợp nhất các bản trình bày với tất cả các hình dạng, phong cách, văn bản, định dạng, nhận xét, hoạt ảnh, v.v. của chúng mà không phải lo lắng về việc mất chất lượng hoặc dữ liệu.
+{{< blocks/products/pf/product-card-row title="Bao gồm các mẫu mã Aspose.Slides PowerPoint trực tuyến" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/ppt/" >}}
+Cách hợp nhất PPT bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Hợp nhất các bản trình bày PowerPoint bằng Python" %}}
-Để hợp nhất các bản trình bày PowerPoint, bạn sẽ cần sao chép các trang chiếu từ bản trình bày này sang bản trình bày khác.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/pptx/" >}}
+Cách Hợp nhất PPTX bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Hợp nhất các tệp PPTX bằng Python" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/html-to-html/" >}}
+Cách Hợp nhất HTML bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-```python
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/pdf/" >}}
+Cách hợp nhất PDF bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-import aspose.slides as slides
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/image-to-image/" >}}
+Cách hợp nhất hình ảnh bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
-# open first presentation
-with slides.Presentation("presentation1.pptx") as pres1:
-    # open second presentation
-    with slides.Presentation("presentation2.pptx") as pres2:
-        # loop through slides
-        for slide in pres2.slides:
-            # clone slide
-            pres1.slides.add_clone(slide)
-        # save merged presentation
-        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/jpg-to-jpg/" >}}
+Cách Hợp nhất JPG bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/fodp/" >}}
+Cách hợp nhất FODP bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/odp/" >}}
+Cách hợp nhất ODP bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/otp/" >}}
+Cách Hợp nhất OTP bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/png-to-pdf/" >}}
+Cách Hợp nhất PNG bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/pot/" >}}
+Cách hợp nhất POT bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/potm/" >}}
+Cách hợp nhất POTM bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/potx/" >}}
+Cách hợp nhất POTX bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/pps/" >}}
+Cách Hợp nhất PPS bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/ppsm/" >}}
+Cách Hợp nhất PPSM bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/ppsx/" >}}
+Cách Hợp nhất PPSX bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/pptm/" >}}
+Cách Hợp nhất PPTM bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/svg-to-png/" >}}
+Cách Hợp nhất SVG bằng Aspose.Slides cho Python qua .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/python-net/merge/tiff-to-pdf/" >}}
+Cách hợp nhất TIFF bằng Aspose.Slides cho Python thông qua .NET API.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Hợp nhất các bản trình bày với Slide Master bằng Python" %}}
-Mã python này trình bày cách hợp nhất một số bản trình bày thành một và áp dụng các kiểu từ mẫu bản trình bày trang chiếu cái. Vì vậy, bản trình bày kết quả sẽ giữ nguyên định dạng nguồn và sẽ chứa định dạng từ trang chiếu chính của bản trình bày khác.
-
-{{% blocks/products/pf/agp/code-block title="Hợp nhất nhiều PPT thành một trong Python" offSpacer="true" %}}
-
-```python
-
-import aspose.slides as slides
-
-files = ['pres1.pptx', 'pres2.pptx', 'pres3.pptx']
-
-with slides.Presentation('master.pptx') as master:
-    masterSlide = master.masters[0]
-
-    for file in files:
-        with slides.Presentation(file) as source:
-            for slide in source.slides:
-                clone = master.slides.add_clone(slide)
-
-                for shape in masterSlide.shapes:
-                    clone.shapes.add_clone(shape)
+{{< /blocks/products/pf/main-container >}}
     
-    master.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Cách hợp nhất các bản trình bày bằng cách sử dụng Aspose.Slides cho Python API" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để hợp nhất hai tệp PPTX và lưu kết quả dưới dạng PDF bằng Python." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Cài đặt [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/vi/python-net/).
-```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Thêm tham chiếu thư viện (nhập thư viện) vào dự án Python của bạn.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Mở các tệp PPTX nguồn bằng Python.
-```
-pres1 = slides.Presentation('pres1.pptx')
-pres2 = slides.Presentation('pres2.pptx')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kết hợp các tệp PPTX bằng phương pháp ** add_clone **.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu bản trình bày và nhận kết quả dưới dạng tệp PDF duy nhất.
-```
-pres1.save("document.pdf", slides.export.SaveFormat.PDF)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng được hỗ trợ khác để hợp nhất" subTitle="Bạn cũng có thể kết hợp các định dạng tệp khác. Xem các định dạng được hỗ trợ khác bên dưới." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/ppt/" name="PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/pptx/" name="PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/pdf/" name="PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/odp/" name="ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/otp/" name="OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/pot/" name="POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/potm/" name="POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/potx/" name="POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/pps/" name="PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/ppsm/" name="PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/ppsx/" name="PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/pptm/" name="PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/merge/fodp/" name="FODP" >}}  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}

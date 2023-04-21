@@ -5,116 +5,88 @@ keywords: Birleştir, Katıl, PowerPoint, Sunum, C++, Aspose
 description: Birden çok dosyayı C++ PPT, PPTX, ODP, PDF, PNG, JPG ve daha pek çok yerde birleştirin.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Powerpoint, PDF, PPT veya diğer belgeleri C++ ile birleştirin" h2="PPT, PPTX, PDF, PNG, JPEG ve diğer formatları birleştirmek için yüksek hızlı C++ kitaplığı." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Powerpoint, PDF, PPT veya diğer belgeleri C++ ile birleştirin" h2="Aspose.Slides API'lerini kullanarak sunumları birleştirmek için kendi C++ uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="C++ kullanarak PPT, PPTX, PDF'yi birleştirme" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/) sunum dosyalarını oluşturmak ve değiştirmek için güçlü bir C++ kitaplığıdır. Ayrıca, birden fazla PPT/PPTX sunumunu birleştirmek için esnek yollar sağlar. Bir sunuyu diğeriyle birleştirdiğinizde, tek bir dosya elde etmek için slaytlarını tek bir sunuda etkili bir şekilde birleştirirsiniz. Aspose.Slides, iki sunumu farklı şekillerde birleştirmenize olanak tanır. Kalite veya veri kaybı konusunda endişelenmenize gerek kalmadan tüm şekilleri, stilleri, metinleri, biçimlendirmeleri, yorumları, animasyonları vb. ile sunuları birleştirebilirsiniz.
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Kod Örnekleri Çevrimiçi Dahil" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/ppt/" >}}
+Aspose.Slides for C++ API kullanarak PPT'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PowerPoint sunumlarını C++ ile birleştirme" %}}
-PowerPoint sunumlarını birleştirmek için slaytları bir sunumdan diğerine kopyalamanız gerekir.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/pptx/" >}}
+Aspose.Slides for C++ API kullanarak PPTX'i Birleştirme.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="PPTX dosyalarını C++ kullanarak birleştirme" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/html-to-html/" >}}
+Aspose.Slides for C++ API kullanarak HTML'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
 
-```cpp
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/pdf-to-pdf/" >}}
+Aspose.Slides for C++ API kullanarak PDF Nasıl Birleştirilir?
+{{< /blocks/products/pf/product >}}
 
-// The path to the documents directory.
-const String sourceFilePath1 = u"SourceDirectory\\SamplePresentation2.pptx";
-const String sourceFilePath2 = u"SourceDirectory\\SamplePresentation3.pptx";
-const String outputFilePath = u"OutputDirectory\\mergedPresentation.pptx";
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/image-to-image/" >}}
+Aspose.Slides for C++ API kullanarak Görüntüyü Birleştirme.
+{{< /blocks/products/pf/product >}}
 
-// Instantiate Presentation class
-SharedPtr<Presentation> presentation1 = MakeObject<Presentation>(sourceFilePath1);
-SharedPtr<Presentation> presentation2 = MakeObject<Presentation>(sourceFilePath2);
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/jpg-to-jpg/" >}}
+Aspose.Slides for C++ API kullanarak JPG'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
 
-for (SharedPtr<ISlide> slide : presentation2->get_Slides())
-{
-	// Merge slides from source to destination 
-	presentation1->get_Slides()->AddClone(slide);
-}
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/odp/" >}}
+Aspose.Slides for C++ API kullanarak ODP'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation
-presentation1->Save(outputFilePath, SaveFormat::Pptx);
-```
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/otp/" >}}
+Aspose.Slides for C++ API kullanarak OTP'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/png-to-pdf/" >}}
+Aspose.Slides for C++ API kullanarak PNG'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/pot/" >}}
+Aspose.Slides for C++ API kullanarak POT'u Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/potm/" >}}
+Aspose.Slides for C++ API kullanarak POTM'u Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/potx/" >}}
+Aspose.Slides for C++ API kullanarak POTX'i Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/pps/" >}}
+Aspose.Slides for C++ API kullanarak PPS'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/ppsm/" >}}
+Aspose.Slides for C++ API kullanarak PPSM'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/ppsx/" >}}
+Aspose.Slides for C++ API kullanarak PPSX'i Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/pptm/" >}}
+Aspose.Slides for C++ API kullanarak PPTM'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/svg-to-png/" >}}
+Aspose.Slides for C++ API kullanarak SVG'yi Birleştirme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/cpp/merger/tiff-to-pdf/" >}}
+Aspose.Slides for C++ API kullanarak TIFF'i Birleştirme.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="C++ kullanarak Sunuları Slide Master ile Birleştirme" %}}
-Bu C++ kodu, birkaç sunumun nasıl bir araya getirildiğini ve ana slayt sunum şablonundan stillerin nasıl uygulandığını gösterir. Bu nedenle, sonuç sunumu aynı kaynak biçimlendirmesini koruyacak ve başka bir sunumun ana slaytından biçimlendirmeyi içerecektir.
-
-{{% blocks/products/pf/agp/code-block title="Birden çok PPT'yi C++ ile tek olarak birleştirin" offSpacer="true" %}}
-
-``` cpp
-
-// The path to the documents directory.
-const String sourceFilePath1 = u"SourceDirectory\\SamplePresentation.pptx";
-const String sourceFilePath2 = u"SourceDirectory\\SamplePresentation3.pptx";
-const String outputFilePath = u"OutputDirectory\\mergedPresentation.pptx";
-
-// Load the presentation files
-SharedPtr<Presentation> presentation1 = MakeObject<Presentation>(sourceFilePath1);
-SharedPtr<Presentation> presentation2 = MakeObject<Presentation>(sourceFilePath2);
-
-// Merge the first slide using slide master
-presentation1->get_Slides()->AddClone(presentation2->get_Slides()->idx_get(0), presentation1->get_Masters()->idx_get(0), true);
-
-// Save the presentation
-presentation1->Save(outputFilePath, SaveFormat::Pptx);
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Aspose.Slides for C++ API kullanarak Sunumlar nasıl birleştirilir" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, iki PPTX dosyasını birleştirme ve sonucu C++'da PDF olarak kaydetme adımlarıdır." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides for C++**](https://docs.aspose.com/slides/cpp/installation/) yükleyin. 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-C++ projenize bir kitaplık referansı ekleyin (kütüphaneyi içe aktarın).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kaynak PPTX dosyalarını C++ ile açın.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**AddClone** yöntemini kullanarak PPTX dosyalarını birleştirin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sunumu kaydedin ve sonucu tek bir PDF dosyası olarak alın.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Birleştirilecek Diğer Desteklenen Biçimler" subTitle="Diğer dosya biçimlerini de birleştirebilirsiniz. Aşağıdaki desteklenen diğer biçimlere bakın." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

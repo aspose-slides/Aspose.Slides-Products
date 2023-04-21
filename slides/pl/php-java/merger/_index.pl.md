@@ -5,99 +5,91 @@ keywords: Połącz, dołącz, PowerPoint, prezentacja, PHP, Aspose
 description: Łącz wiele plików w PHP PPT, PPTX, ODP, PDF, PNG, JPG i wielu innych.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Połącz Powerpoint, PDF, PPT lub inne dokumenty razem w PHP" h2="Szybka biblioteka PHP do łączenia formatów PPT, PPTX, PDF, PNG, JPEG i innych." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Połącz Powerpoint, PDF, PPT lub inne dokumenty razem w PHP" h2="Twórz własne aplikacje PHP, aby łączyć prezentacje za pomocą interfejsów API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Połącz PPT, PPTX, PDF za pomocą PHP" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/pl/php-java/) to potężna biblioteka PHP do tworzenia i manipulowania plikami prezentacji. Ponadto zapewnia elastyczne sposoby łączenia wielu prezentacji PPT/PPTX. Łącząc jedną prezentację z inną, skutecznie łączysz ich slajdy w jedną prezentację, aby uzyskać jeden plik. Aspose.Slides umożliwia łączenie dwóch prezentacji na różne sposoby. Możesz łączyć prezentacje ze wszystkimi ich kształtami, stylami, tekstami, formatowaniem, komentarzami, animacjami itp. bez obaw o utratę jakości lub danych.
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Przykłady kodu programu PowerPoint w trybie online Uwzględnij" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/ppt/" >}}
+Jak scalić PPT za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Scal prezentacje PowerPoint w PHP" %}}
-Aby scalić prezentacje PowerPoint, musisz sklonować slajdy z jednej prezentacji do drugiej.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/pptx/" >}}
+Jak scalić PPTX za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Połącz pliki PPTX za pomocą PHP" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/html-to-html/" >}}
+Jak scalić HTML za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/pdf-to-pdf/" >}}
+Jak scalić PDF za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres1 = new Presentation("document1.ppt");
-$pres2 = new Presentation("document2.ppt");
-try
-{
-    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-    {
-        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
-    }
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/image-to-image/" >}}
+Jak scalić obraz za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-    $pres1->save("merged.ppt", SaveFormat::Ppt);
-}
-finally
-{
-    if ($pres1 != null) $pres1->dispose();
-    if ($pres2 != null) $pres2->dispose();
-}
-?>
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/jpg-to-jpg/" >}}
+Jak scalić JPG za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/fodp/" >}}
+Jak scalić FODP za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/odp/" >}}
+Jak scalić ODP za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/otp/" >}}
+Jak scalić OTP za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak scalić prezentacje za pomocą Aspose.Slides dla PHP API" >}}
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/png-to-pdf/" >}}
+Jak scalić PNG za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby połączyć dwa pliki PPTX i zapisać wynik jako PDF w PHP." >}}
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/pot/" >}}
+Jak scalić POT za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj [**Aspose.Slides dla PHP przez Javę**](https://docs.aspose.com/slides/php-java/installation/). 
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/potm/" >}}
+Jak scalić POTM za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj odniesienie do biblioteki (zaimportuj bibliotekę) do swojego projektu PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/potx/" >}}
+Jak scalić POTX za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Otwórz źródłowe pliki PPTX w PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/pps/" >}}
+Jak scalić PPS za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Połącz pliki PPTX za pomocą metody **addClone**.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/ppsm/" >}}
+Jak scalić PPSM za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz prezentację i uzyskaj wynik jako pojedynczy plik PDF.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/ppsx/" >}}
+Jak scalić PPSX za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/pptm/" >}}
+Jak scalić PPTM za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/svg-to-png/" >}}
+Jak scalić SVG za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty do scalenia" subTitle="Możesz także łączyć inne formaty plików. Zobacz inne obsługiwane formaty poniżej." >}}
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/php-java/merger/tiff-to-pdf/" >}}
+Jak scalić TIFF za pomocą Aspose.Slides dla PHP za pośrednictwem Java API.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/potm/" name="POTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/potx/" name="POTX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/ppsm/" name="PPSM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/ppsx/" name="PPSX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/pptm/" name="PPTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/fodp/" name="FODP" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/php-java/merger/pdf-to-pdf/" name="PDF" >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

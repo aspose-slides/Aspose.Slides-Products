@@ -5,99 +5,91 @@ keywords: Hợp nhất, Tham gia, PowerPoint, Trình bày, PHP, Aspose
 description: Hợp nhất nhiều tệp trong PHP PPT, PPTX, ODP, PDF, PNG, JPG và nhiều tệp khác.
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Hợp nhất Powerpoint, PDF, PPT hoặc các tài liệu khác với nhau trong PHP" h2="Thư viện PHP tốc độ cao để hợp nhất PPT, PPTX, PDF, PNG, JPEG và các định dạng khác." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Hợp nhất Powerpoint, PDF, PPT hoặc các tài liệu khác với nhau trong PHP" h2="Xây dựng các ứng dụng PHP của riêng bạn để kết hợp các bản trình bày bằng API Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Hợp nhất PPT, PPTX, PDF bằng PHP" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/vi/php-java/) là một thư viện PHP mạnh mẽ để tạo và thao tác các tệp bản trình bày. Hơn nữa, nó cung cấp các cách linh hoạt để kết hợp nhiều bản trình bày PPT/PPTX. Khi bạn hợp nhất một bản trình bày này với một bản trình bày khác, bạn đang kết hợp hiệu quả các trang chiếu của chúng trong một bản trình bày để có được một tệp. Aspose.Slides cho phép bạn hợp nhất hai bản trình bày theo những cách khác nhau. Bạn có thể hợp nhất các bài thuyết trình với tất cả hình dạng, phong cách, văn bản, định dạng, nhận xét, hoạt ảnh, v.v. mà không phải lo lắng về việc giảm chất lượng hoặc dữ liệu.
+{{< blocks/products/pf/product-card-row title="Bao gồm các mẫu mã Aspose.Slides PowerPoint trực tuyến" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/ppt/" >}}
+Cách hợp nhất PPT bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Hợp nhất các bản trình bày PowerPoint trong PHP" %}}
-Để hợp nhất các bản trình bày PowerPoint, bạn sẽ cần sao chép các trang chiếu từ bản trình bày này sang bản trình bày khác.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/pptx/" >}}
+Cách hợp nhất PPTX bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Hợp nhất các tệp PPTX bằng PHP" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/html-to-html/" >}}
+Cách hợp nhất HTML bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/pdf-to-pdf/" >}}
+Cách hợp nhất PDF bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres1 = new Presentation("document1.ppt");
-$pres2 = new Presentation("document2.ppt");
-try
-{
-    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-    {
-        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
-    }
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/image-to-image/" >}}
+Cách hợp nhất hình ảnh bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-    $pres1->save("merged.ppt", SaveFormat::Ppt);
-}
-finally
-{
-    if ($pres1 != null) $pres1->dispose();
-    if ($pres2 != null) $pres2->dispose();
-}
-?>
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/jpg-to-jpg/" >}}
+Cách Hợp nhất JPG bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/fodp/" >}}
+Cách hợp nhất FODP bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/odp/" >}}
+Cách hợp nhất ODP bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/otp/" >}}
+Cách Hợp nhất OTP bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách hợp nhất Bản trình bày bằng API Aspose.Slides cho PHP" >}}
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/png-to-pdf/" >}}
+Cách hợp nhất PNG bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để hợp nhất hai tệp PPTX và lưu kết quả dưới dạng PDF trong PHP." >}}
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/pot/" >}}
+Cách hợp nhất POT bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cài đặt [**Aspose.Slides cho PHP qua Java**](https://docs.aspose.com/slides/php-java/installation/). 
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/potm/" >}}
+Cách hợp nhất POTM bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Thêm tham chiếu thư viện (nhập thư viện) vào dự án PHP của bạn.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/potx/" >}}
+Cách hợp nhất POTX bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Mở tệp PPTX nguồn trong PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/pps/" >}}
+Cách hợp nhất PPS bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Kết hợp các tệp PPTX bằng phương thức ** addClone **.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/ppsm/" >}}
+Cách hợp nhất PPSM bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu bản trình bày và nhận kết quả dưới dạng tệp PDF duy nhất.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/ppsx/" >}}
+Cách hợp nhất PPSX bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/pptm/" >}}
+Cách Hợp nhất PPTM bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/svg-to-png/" >}}
+Cách hợp nhất SVG bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng được hỗ trợ khác để hợp nhất" subTitle="Bạn cũng có thể kết hợp các định dạng tệp khác. Xem các định dạng được hỗ trợ khác bên dưới." >}}
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/php-java/merger/tiff-to-pdf/" >}}
+Cách hợp nhất TIFF bằng Aspose.Slides cho PHP thông qua API Java.
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/potm/" name="POTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/potx/" name="POTX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/ppsm/" name="PPSM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/ppsx/" name="PPSX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/pptm/" name="PPTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/fodp/" name="FODP" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/merger/pdf-to-pdf/" name="PDF" >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

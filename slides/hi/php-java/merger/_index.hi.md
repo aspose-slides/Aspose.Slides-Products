@@ -5,99 +5,91 @@ keywords: मर्ज, जॉइन, पॉवरपॉइंट, प्रे�
 description: PHP पीपीटी, पीपीटीएक्स, ओडीपी, पीडीएफ, पीएनजी, जेपीजी और कई अन्य में कई फाइलों को मर्ज करें।
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="PHP में PowerPoint, PDF, PPT या अन्य दस्तावेज़ों को एक साथ मर्ज करें" h2="PPT, PPTX, PDF, PNG, JPEG और अन्य स्वरूपों को मर्ज करने के लिए हाई-स्पीड PHP लाइब्रेरी।" >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="PHP में PowerPoint, PDF, PPT या अन्य दस्तावेज़ों को एक साथ मर्ज करें" h2="Aspose.Slides API का उपयोग करके प्रस्तुतियों को संयोजित करने के लिए अपने स्वयं के PHP ऐप्स बनाएं।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="PHP का उपयोग करके PPT, PPTX, PDF को मर्ज करें" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/hi/php-java/) प्रस्तुति फ़ाइलों को बनाने और उनमें हेरफेर करने के लिए एक शक्तिशाली PHP लाइब्रेरी है। इसके अलावा, यह कई पीपीटी/पीपीटीएक्स प्रस्तुतियों को संयोजित करने के लचीले तरीके प्रदान करता है। जब आप एक प्रस्तुति को दूसरी प्रस्तुति में मर्ज करते हैं, तो आप एक फ़ाइल प्राप्त करने के लिए प्रभावी रूप से उनकी स्लाइड्स को एक प्रस्तुति में संयोजित कर रहे होते हैं। Aspose.Slides आपको दो प्रस्तुतियों को अलग-अलग तरीकों से मर्ज करने की अनुमति देता है। आप गुणवत्ता या डेटा के नुकसान के बारे में चिंता किए बिना प्रस्तुतियों को उनके सभी आकार, शैलियों, ग्रंथों, स्वरूपण, टिप्पणियों, एनिमेशन आदि के साथ मर्ज कर सकते हैं।
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint कोड नमूने ऑनलाइन शामिल करें" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/ppt/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PPT को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PHP में PowerPoint प्रस्तुतियों को मर्ज करें" %}}
-PowerPoint प्रस्तुतियों को मर्ज करने के लिए, आपको स्लाइडों को एक प्रस्तुति से दूसरी प्रस्तुति में क्लोन करना होगा।
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/pptx/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PPTX को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="PHP का उपयोग करके PPTX फ़ाइलों को मर्ज करें" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/html-to-html/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके HTML को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-```php
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/pdf-to-pdf/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके पीडीएफ को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres1 = new Presentation("document1.ppt");
-$pres2 = new Presentation("document2.ppt");
-try
-{
-    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-    {
-        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
-    }
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/image-to-image/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके छवि को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-    $pres1->save("merged.ppt", SaveFormat::Ppt);
-}
-finally
-{
-    if ($pres1 != null) $pres1->dispose();
-    if ($pres2 != null) $pres2->dispose();
-}
-?>
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/jpg-to-jpg/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके जेपीजी को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/fodp/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके FODP को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/odp/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके ODP को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/otp/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके OTP को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/feature-page-section  h2="PHP API के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को कैसे मर्ज करें" >}}
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/png-to-pdf/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PNG को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये दो PPTX फ़ाइलों को मर्ज करने और परिणाम को PHP में PDF के रूप में सहेजने के चरण हैं।" >}}
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/pot/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके POT को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides for PHP via Java**](https://docs.aspose.com/slides/php-java/installation/) इंस्टॉल करें। 
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/potm/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके POTM को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-अपने PHP प्रोजेक्ट में लाइब्रेरी संदर्भ (लाइब्रेरी आयात करें) जोड़ें।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/potx/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके POTX को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PHP में स्रोत PPTX फ़ाइलें खोलें।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/pps/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PPS को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**AddClone** विधि का उपयोग करके PPTX फाइलों को मिलाएं।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/ppsm/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PPSM को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति सहेजें और एकल पीडीएफ फाइल के रूप में परिणाम प्राप्त करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/ppsx/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PPSX को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/pptm/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके PPTM को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/svg-to-png/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके SVG को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="मर्ज करने के लिए अन्य समर्थित प्रारूप" subTitle="आप अन्य फ़ाइल स्वरूपों को भी जोड़ सकते हैं। नीचे अन्य समर्थित प्रारूप देखें।" >}}
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/php-java/merger/tiff-to-pdf/" >}}
+जावा एपीआई के माध्यम से PHP के लिए Aspose.Slides का उपयोग करके TIFF को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/potm/" name="POTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/potx/" name="POTX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/ppsm/" name="PPSM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/ppsx/" name="PPSX" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/pptm/" name="PPTM" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/fodp/" name="FODP" >}}        
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/merger/pdf-to-pdf/" name="PDF" >}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

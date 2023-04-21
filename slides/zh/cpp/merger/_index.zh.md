@@ -5,116 +5,88 @@ keywords: 合并、加入、PowerPoint、演示文稿、C++、Aspose
 description: 合并 C++ PPT、PPTX、ODP、PDF、PNG、JPG 等多个文件。
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="在 C++ 中将 Powerpoint、PDF、PPT 或其他文档合并在一起" h2="高速C++库合并PPT、PPTX、PDF、PNG、JPEG等格式。" >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="在 C++ 中将 Powerpoint、PDF、PPT 或其他文档合并在一起" h2="使用 Aspose.Slides API 构建您自己的 C++ 应用程序以组合演示文稿。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="使用 C++ 合并 PPT、PPTX、PDF" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/zh/cpp/) 是一个强大的 C++ 库，用于创建和操作演示文件。此外，它提供了灵活的方式来组合多个 PPT/PPTX 演示文稿。当您将一个演示文稿合并到另一个演示文稿时，您实际上是将他们的幻灯片合并到一个演示文稿中以获得一个文件。 Aspose.Slides 允许您以不同的方式合并两个演示文稿。您可以将演示文稿与其所有形状、样式、文本、格式、评论、动画等合并，而不必担心质量或数据丢失。
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 代码示例在线包括" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/ppt/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PPT。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="在 C++ 中合并 PowerPoint 演示文稿" %}}
-要合并 PowerPoint 演示文稿，您需要将幻灯片从一个演示文稿克隆到另一个演示文稿。
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/pptx/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PPTX。
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="使用 C++ 合并 PPTX 文件" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/html-to-html/" >}}
+如何使用 Aspose.Slides for C++ API 合并 HTML。
+{{< /blocks/products/pf/product >}}
 
-```cpp
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/pdf-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PDF。
+{{< /blocks/products/pf/product >}}
 
-// The path to the documents directory.
-const String sourceFilePath1 = u"SourceDirectory\\SamplePresentation2.pptx";
-const String sourceFilePath2 = u"SourceDirectory\\SamplePresentation3.pptx";
-const String outputFilePath = u"OutputDirectory\\mergedPresentation.pptx";
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/image-to-image/" >}}
+如何使用 Aspose.Slides for C++ API 合并图像。
+{{< /blocks/products/pf/product >}}
 
-// Instantiate Presentation class
-SharedPtr<Presentation> presentation1 = MakeObject<Presentation>(sourceFilePath1);
-SharedPtr<Presentation> presentation2 = MakeObject<Presentation>(sourceFilePath2);
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/jpg-to-jpg/" >}}
+如何使用 Aspose.Slides for C++ API 合并 JPG。
+{{< /blocks/products/pf/product >}}
 
-for (SharedPtr<ISlide> slide : presentation2->get_Slides())
-{
-	// Merge slides from source to destination 
-	presentation1->get_Slides()->AddClone(slide);
-}
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/odp/" >}}
+如何使用 Aspose.Slides for C++ API 合并 ODP。
+{{< /blocks/products/pf/product >}}
 
-// Save the presentation
-presentation1->Save(outputFilePath, SaveFormat::Pptx);
-```
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/otp/" >}}
+如何使用 Aspose.Slides for C++ API 合并 OTP。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/png-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PNG。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/pot/" >}}
+如何使用 Aspose.Slides for C++ API 合并 POT。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/potm/" >}}
+如何使用 Aspose.Slides for C++ API 合并 POTM。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/potx/" >}}
+如何使用 Aspose.Slides for C++ API 合并 POTX。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/pps/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PPS。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/ppsm/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PPSM。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/ppsx/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PPSX。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/pptm/" >}}
+如何使用 Aspose.Slides for C++ API 合并 PPTM。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/svg-to-png/" >}}
+如何使用 Aspose.Slides for C++ API 合并 SVG。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/cpp/merger/tiff-to-pdf/" >}}
+如何使用 Aspose.Slides for C++ API 合并 TIFF。
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="使用 C++ 将演示文稿与幻灯片母版合并" %}}
-此 C++ 代码演示如何将多个演示文稿合并为一个并应用幻灯片母版演示模板中的样式。因此，结果演示文稿将保持相同的源格式，并将包含来自另一个演示文稿的母版幻灯片的格式。
-
-{{% blocks/products/pf/agp/code-block title="在 C++ 中将多个 PPT 合并为单个" offSpacer="true" %}}
-
-``` cpp
-
-// The path to the documents directory.
-const String sourceFilePath1 = u"SourceDirectory\\SamplePresentation.pptx";
-const String sourceFilePath2 = u"SourceDirectory\\SamplePresentation3.pptx";
-const String outputFilePath = u"OutputDirectory\\mergedPresentation.pptx";
-
-// Load the presentation files
-SharedPtr<Presentation> presentation1 = MakeObject<Presentation>(sourceFilePath1);
-SharedPtr<Presentation> presentation2 = MakeObject<Presentation>(sourceFilePath2);
-
-// Merge the first slide using slide master
-presentation1->get_Slides()->AddClone(presentation2->get_Slides()->idx_get(0), presentation1->get_Masters()->idx_get(0), true);
-
-// Save the presentation
-presentation1->Save(outputFilePath, SaveFormat::Pptx);
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="如何使用 Aspose.Slides for C++ API 合并演示文稿" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="这些是合并两个 PPTX 文件并将结果保存为 C++ 中的 PDF 的步骤。" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-安装 [**Aspose.Slides for C++**](https://docs.aspose.com/slides/cpp/installation/)。 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-将库引用（导入库）添加到您的 C++ 项目。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-在 C++ 中打开源 PPTX 文件。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 **AddClone** 方法合并 PPTX 文件。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-保存演示文稿并将结果保存为单个 PDF 文件。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的合并格式" subTitle="您还可以组合其他文件格式。请参阅下面的其他支持格式。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}

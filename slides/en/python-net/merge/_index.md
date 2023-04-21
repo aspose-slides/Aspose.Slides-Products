@@ -5,135 +5,92 @@ keywords: Merge, Join, PowerPoint, Presentation, Python, Aspose
 description: Merge multiple files in Python PPT, PPTX, ODP, PDF, PNG, JPG and many more. 
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="Merge Powerpoint, PDF, PPT or other documents together in Python" h2="High-speed Python library to merge PPT, PPTX, PDF, PNG, JPEG and other formats." >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Merge Powerpoint, PDF, PPT or other documents together in Python" h2="Build your own Python script to combine presentations using Aspose.Slides APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge PPT, PPTX, PDF using Python" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple PPT/PPTX presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Code Samples Online Include" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/ppt/" >}}
+How to Merge PPT using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Merge PowerPoint presentations in Python" %}}
-To merge the PowerPoint presentations, you will need to clone the slides from one presentation to the other.
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/pptx/" >}}
+How to Merge PPTX using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="Merge PPTX files using Python" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/html-to-html/" >}}
+How to Merge HTML using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-```python
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/pdf/" >}}
+How to Merge PDF using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-import aspose.slides as slides
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/image-to-image/" >}}
+How to Merge Image using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
-# open first presentation
-with slides.Presentation("presentation1.pptx") as pres1:
-    # open second presentation
-    with slides.Presentation("presentation2.pptx") as pres2:
-        # loop through slides
-        for slide in pres2.slides:
-            # clone slide
-            pres1.slides.add_clone(slide)
-        # save merged presentation
-        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/jpg-to-jpg/" >}}
+How to Merge JPG using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/fodp/" >}}
+How to Merge FODP using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/odp/" >}}
+How to Merge ODP using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/otp/" >}}
+How to Merge OTP using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/png-to-pdf/" >}}
+How to Merge PNG using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/pot/" >}}
+How to Merge POT using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/potm/" >}}
+How to Merge POTM using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/potx/" >}}
+How to Merge POTX using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/pps/" >}}
+How to Merge PPS using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/ppsm/" >}}
+How to Merge PPSM using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/ppsx/" >}}
+How to Merge PPSX using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/pptm/" >}}
+How to Merge PPTM using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/svg-to-png/" >}}
+How to Merge SVG using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/python-net/merge/tiff-to-pdf/" >}}
+How to Merge TIFF using Aspose.Slides for Python via .NET API.
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Merge Presentations with Slide Master using Python" %}}
-This python code demonstrates how merge several presentations into one and apply styles from slide master presentation template. So, result presentation will keep same source formatting and will contain formatting from master slide of another presentation.
-
-{{% blocks/products/pf/agp/code-block title="Merge multiple PPT into single in Python" offSpacer="true" %}}
-
-```python
-
-import aspose.slides as slides
-
-files = ['pres1.pptx', 'pres2.pptx', 'pres3.pptx']
-
-with slides.Presentation('master.pptx') as master:
-    masterSlide = master.masters[0]
-
-    for file in files:
-        with slides.Presentation(file) as source:
-            for slide in source.slides:
-                clone = master.slides.add_clone(slide)
-
-                for shape in masterSlide.shapes:
-                    clone.shapes.add_clone(shape)
+{{< /blocks/products/pf/main-container >}}
     
-    master.save("combined.pptx", slides.export.SaveFormat.PPTX)
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="How to merge Presentations using Aspose.Slides for Python API" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two PPTX files and save result as PDF in Python." >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
-```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PPTX files in Python.
-```
-pres1 = slides.Presentation('pres1.pptx')
-pres2 = slides.Presentation('pres2.pptx')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Combine PPTX files using **add_clone** method.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Save presentation and get result as single PDF file.
-```
-pres1.save("document.pdf", slides.export.SaveFormat.PDF)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Formats To Merge" subTitle="You can also combine other file formats. See other supported formats below." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppt/" name="PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptx/" name="PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pdf/" name="PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/odp/" name="ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp/" name="OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot/" name="POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm/" name="POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potx/" name="POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pps/" name="PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsm/" name="PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx/" name="PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pptm/" name="PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/fodp/" name="FODP" >}}  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}

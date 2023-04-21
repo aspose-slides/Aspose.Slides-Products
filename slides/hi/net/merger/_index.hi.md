@@ -5,112 +5,88 @@ keywords: मर्ज, जॉइन, पॉवरपॉइंट, प्रे�
 description: सी # पीपीटी, पीपीटीएक्स, ओडीपी, पीडीएफ, पीएनजी, जेपीजी और कई अन्य फाइलों में कई फाइलों को मर्ज करें।
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="C# में पावरपॉइंट, पीडीएफ, पीपीटी या अन्य दस्तावेजों को एक साथ मिलाएं" h2="पीपीटी, पीपीटीएक्स, पीडीएफ, पीएनजी, जेपीईजी और अन्य प्रारूपों को मर्ज करने के लिए हाई-स्पीड सी # लाइब्रेरी।" >}}
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="C# में पावरपॉइंट, पीडीएफ, पीपीटी या अन्य दस्तावेजों को एक साथ मिलाएं" h2="सर्वर-साइड APIs का उपयोग करके प्रस्तुतियों को संयोजित करने के लिए अपने स्वयं के .NET ऐप्स बनाएँ।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="C# का उपयोग करके PPT, PPTX, PDF को मर्ज करें" %}}
+{{< blocks/products/pf/main-container >}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/hi/net/) प्रेजेंटेशन फाइल बनाने और उसमें हेरफेर करने के लिए एक शक्तिशाली C# लाइब्रेरी है। इसके अलावा, यह कई पीपीटी / पीपीटीएक्स प्रस्तुतियों को संयोजित करने के लचीले तरीके प्रदान करता है। जब आप एक प्रस्तुति को दूसरे में मर्ज करते हैं, तो आप एक फ़ाइल प्राप्त करने के लिए उनकी स्लाइड्स को एक प्रस्तुति में प्रभावी रूप से संयोजित कर रहे हैं। Aspose.Slides आपको दो प्रस्तुतियों को अलग-अलग तरीकों से मर्ज करने की अनुमति देता है। आप गुणवत्ता या डेटा के नुकसान के बारे में चिंता किए बिना प्रस्तुतियों को उनके सभी आकारों, शैलियों, ग्रंथों, स्वरूपण, टिप्पणियों, एनिमेशन आदि के साथ मर्ज कर सकते हैं।
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint कोड नमूने ऑनलाइन शामिल करें" >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/ppt/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PPT को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/feature-page-section  h2="सी # में पावरपॉइंट प्रेजेंटेशन मर्ज करें" %}}
-PowerPoint प्रस्तुतियों को मर्ज करने के लिए, आपको स्लाइडों को एक प्रस्तुति से दूसरी प्रस्तुति में क्लोन करना होगा।
+{{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/pptx/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PPTX को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-{{% blocks/products/pf/agp/code-block title="सी # का उपयोग कर पीपीटीएक्स फाइलों को मर्ज करें" offSpacer="true" %}}
+{{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/html-to-html/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके HTML को मर्ज कैसे करें।
+{{< /blocks/products/pf/product >}}
 
-```csharp
+{{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/pdf-to-pdf/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PDF को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
-// Instantiate a Presentation object that represents a target presentation file
-using (Presentation presentation1 = new Presentation("presentation1.pptx"))
-{
-    // Instantiate a Presentation object that represents a source presentation file
-    using (Presentation presentation2 = new Presentation("presentation2.pptx"))
-    {
-        foreach (ISlide slide in presentation2.Slides)
-        {
-            // Merge slides from source to target 
-            presentation1.Slides.AddClone(slide);
-        }
-    }
-    // Save the presentation
-    presentation1.Save("merged-presentation.pptx", Export.SaveFormat.Pptx);
-}
-```
+{{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/image-to-image/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके इमेज को मर्ज कैसे करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/jpg-to-jpg/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके JPG को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/odp/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके ODP को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/otp/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके OTP को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/png-to-pdf/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PNG को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/pot/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके POT को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/potm/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके POTM को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/potx/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके POTX को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/pps/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PPS को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/ppsm/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PPSM को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/ppsx/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PPSX को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/pptm/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके PPTM को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/svg-to-png/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके SVG को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/net/merger/tiff-to-pdf/" >}}
+.NET API के लिए Aspose.Slides का उपयोग करके TIFF को कैसे मर्ज करें।
+{{< /blocks/products/pf/product >}}
 
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/product-card-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="सी # का उपयोग करके स्लाइड मास्टर के साथ प्रस्तुतिकरण मर्ज करें" %}}
-यह सी # कोड दर्शाता है कि कैसे कई प्रस्तुतियों को एक में मर्ज करें और स्लाइड मास्टर प्रस्तुति टेम्पलेट से शैलियों को लागू करें। तो, परिणाम प्रस्तुति एक ही स्रोत स्वरूपण रखेगी और इसमें किसी अन्य प्रस्तुति की मास्टर स्लाइड से स्वरूपण होगा।
-
-{{% blocks/products/pf/agp/code-block title="सी # में एकाधिक पीपीटी को सिंगल में मर्ज करें" offSpacer="true" %}}
-
-``` csharp
-
-// Instantiate a Presentation object that represents a target presentation file
-using (Presentation presentation1 = new Presentation("presentation1.pptx"))
-{
-    // Instantiate a Presentation object that represents a source presentation file
-    using (Presentation presentation2 = new Presentation("presentation2.pptx"))
-    {
-        // Merge first two slides only using slide master
-        presentation1.Slides.AddClone(presentation2.Slides[0], presentation1.Masters[0], true);
-        presentation1.Slides.AddClone(presentation2.Slides[1], presentation1.Masters[0], true);
-    }
-    presentation1.Save("merged-presentation-master.pptx", Export.SaveFormat.Pptx);
-}
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2=".NET API के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को कैसे मर्ज करें?" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="ये दो पीपीटीएक्स फाइलों को मर्ज करने और परिणाम को पीडीएफ के रूप में .NET में सहेजने के चरण हैं।" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides for .NET**](https://docs.aspose.com/slides/net/installation/) इंस्टॉल करें। 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-अपने सी # प्रोजेक्ट में लाइब्रेरी संदर्भ (लाइब्रेरी आयात करें) जोड़ें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-सी # में स्रोत पीपीटीएक्स फाइलें खोलें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**AddClone** विधि का उपयोग करके PPTX फाइलों को मिलाएं।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति सहेजें और एकल पीडीएफ फाइल के रूप में परिणाम प्राप्त करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="मर्ज करने के लिए अन्य समर्थित प्रारूप" subTitle="आप अन्य फ़ाइल स्वरूपों को भी जोड़ सकते हैं। नीचे अन्य समर्थित प्रारूप देखें।" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-container >}}
+    
 {{< /blocks/products/pf/main-wrap-class >}}
