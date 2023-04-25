@@ -1,0 +1,110 @@
+---
+title: ดูหรือแก้ไขข้อมูลเมตาของไฟล์ FODP โดยใช้ .NET
+url: /th/net/metadata/fodp/
+keywords: แก้ไขข้อมูลเมตา FODP ดูข้อมูลเมตา FODP แก้ไขคุณสมบัติ FODP ดูคุณสมบัติ FODP
+description: ซอร์สโค้ด C# เพื่อแก้ไขหรือดูข้อมูลเมตาของรูปแบบ FODP
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="แก้ไขคุณสมบัติ FODP โดยใช้ C#" h2="สร้างแอป .NET ของคุณเองเพื่อแก้ไขคุณสมบัติในตัวและคุณสมบัติกำหนดเองในไฟล์งานนำเสนอโดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="FODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+
+{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+
+{{% blocks/products/pf/feature-page-section  h2="แก้ไขคุณสมบัติ FODP ผ่าน C#" %}}
+เมื่อใช้ Aspose.Slides for .NET นักพัฒนาสามารถเข้าถึงและแก้ไขค่าของคุณสมบัติในตัวรวมถึงคุณสมบัติที่กำหนดเอง นักพัฒนาสามารถใช้คุณสมบัติ [DocumentProperties](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) ที่เปิดเผยโดยออบเจกต์การนำเสนอเพื่อเข้าถึงคุณสมบัติเอกสารของไฟล์การนำเสนอ
+{{% blocks/products/pf/agp/code-block title="แก้ไข FODP คุณสมบัติในตัว - C#" offSpacer="true" %}}
+
+```cs
+
+// Instantiate the Presentation class that represents the Presentation
+Presentation presentation = new Presentation("presentation.fodp");
+
+// Create a reference to IDocumentProperties object associated with Presentation
+IDocumentProperties documentProperties = presentation.DocumentProperties;
+
+// Set the builtin properties
+documentProperties.Author = "Aspose.Slides for .NET";
+documentProperties.Title = "Modifying Presentation Properties";
+documentProperties.Subject = "Aspose Subject";
+documentProperties.Comments = "Aspose Description";
+documentProperties.Manager = "Aspose Manager";
+
+// Save your presentation to a file
+presentation.Save("DocumentProperties_out.fodp", SaveFormat.Fodp);
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="เพิ่มคุณสมบัติที่กำหนดเองใน FODP - C#" offSpacer="true" %}}
+
+```cs
+
+// Instantiate the Presentation class
+Presentation presentation = new Presentation();
+
+// Getting Document Properties
+IDocumentProperties documentProperties = presentation.DocumentProperties;
+
+// Adding Custom properties
+documentProperties["New Custom"] = 12;
+documentProperties["My Name"] = "Aspose Metadata Editor";
+documentProperties["Custom"] = 124;
+
+// Getting property name at particular index
+String getPropertyName = documentProperties.GetCustomPropertyName(2);
+
+// Removing selected property
+documentProperties.RemoveCustomProperty(getPropertyName);
+
+// Save your presentation to a file
+presentation.Save("CustomDocumentProperties_out.fodp", SaveFormat.Fodp);
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="วิธีดึงข้อมูลเมตาของ FODP ผ่าน C#" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการดึงข้อมูลเมตาจากไฟล์ FODP" >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+สร้างอินสแตนซ์ของคลาสงานนำเสนอด้วยพาธไปยังไฟล์ FODP
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+รับวัตถุ DocumentProperties ที่เกี่ยวข้องกับการนำเสนอ
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+วนซ้ำรายการในวัตถุ DocumentProperties
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+เข้าถึงและแก้ไขคุณสมบัติแบบกำหนดเอง
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="รูปแบบ Metadata อื่นๆ ที่รองรับ" subTitle="เมื่อใช้ C# คุณยังสามารถจัดการข้อมูลเมตาของรูปแบบอื่นๆ ได้อีกมากมาย เช่น" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/metadata/pptx/" name="PPTX" >}}
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}
