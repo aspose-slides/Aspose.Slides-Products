@@ -11,51 +11,51 @@ description: प्रस्तुति गुणों को देखने 
 
 {{< blocks/products/pf/product-card-row title="मेटाडेटा कोड नमूने ऑनलाइन संपादित करें शामिल करें" >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/fodp/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके FODP गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/odp/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके ODP गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/otp/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके OTP गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pot/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके POT गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/potm/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके POTM गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/potx/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके POTX गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pps/" >}}
 .NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPS गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/ppsm/" >}}
 .NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPSM गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/ppsx/" >}}
 .NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPSX गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/ppt/" >}}
 .NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPT गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pptm/" >}}
 .NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPTM गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="प्रस्तुति मेटाडेटा संपादित करें" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hi/python-net/metadata/pptx/" >}}
 .NET API के माध्यम से Python के लिए Aspose.Slides का उपयोग करके PPTX संपत्तियों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 

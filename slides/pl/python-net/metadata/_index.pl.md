@@ -11,51 +11,51 @@ description: Kod źródłowy Pythona do przeglądania i edytowania właściwośc
 
 {{< blocks/products/pf/product-card-row title="Edytuj próbki kodu metadanych online Uwzględnij" >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/fodp/" >}}
 Jak edytować właściwości FODP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/odp/" >}}
 Jak edytować właściwości ODP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/otp/" >}}
 Jak edytować właściwości OTP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pot/" >}}
 Jak edytować właściwości POT za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/potm/" >}}
 Jak edytować właściwości POTM za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/potx/" >}}
 Jak edytować właściwości POTX za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pps/" >}}
 Jak edytować właściwości PPS za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/ppsm/" >}}
 Jak edytować właściwości PPSM przy użyciu Aspose.Slides dla języka Python za pośrednictwem interfejsu API platformy .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/ppsx/" >}}
 Jak edytować właściwości PPSX za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/ppt/" >}}
 Jak edytować właściwości PPT za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pptm/" >}}
 Jak edytować właściwości PPTM za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/python-net/metadata/pptx/" >}}
 Jak edytować właściwości PPTX za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.
 {{< /blocks/products/pf/product >}}
 

@@ -11,51 +11,51 @@ description: Mã nguồn C# để xem và chỉnh sửa các thuộc tính bản
 
 {{< blocks/products/pf/product-card-row title="Chỉnh sửa các mẫu mã siêu dữ liệu trực tuyến Bao gồm" >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/fodp/" >}}
 Cách chỉnh sửa thuộc tính FODP bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/odp/" >}}
 Cách chỉnh sửa thuộc tính ODP bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/otp/" >}}
 Cách chỉnh sửa thuộc tính OTP bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pot/" >}}
 Cách chỉnh sửa thuộc tính POT bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/potm/" >}}
 Cách chỉnh sửa thuộc tính POTM bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/potx/" >}}
 Cách chỉnh sửa thuộc tính POTX bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pps/" >}}
 Cách chỉnh sửa thuộc tính PPS bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/ppsm/" >}}
 Cách chỉnh sửa thuộc tính PPSM bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/ppsx/" >}}
 Cách chỉnh sửa thuộc tính PPSX bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/ppt/" >}}
 Cách chỉnh sửa thuộc tính PPT bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pptm/" >}}
 Cách chỉnh sửa thuộc tính PPTM bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Chỉnh sửa siêu dữ liệu bản trình bày" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/vi/net/metadata/pptx/" >}}
 Cách chỉnh sửa thuộc tính PPTX bằng Aspose.Slides cho .NET API.
 {{< /blocks/products/pf/product >}}
 

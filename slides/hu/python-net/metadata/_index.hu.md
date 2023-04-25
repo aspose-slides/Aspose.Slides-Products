@@ -11,51 +11,51 @@ description: Python forráskód a prezentáció tulajdonságainak megtekintésé
 
 {{< blocks/products/pf/product-card-row title="Szerkessze a metaadatkód-mintákat online" >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/fodp/" >}}
 FODP-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/odp/" >}}
 Az ODP-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/otp/" >}}
 Az OTP-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pot/" >}}
 A POT-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/potm/" >}}
 A POTM-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/potx/" >}}
 A POTX-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pps/" >}}
 A PPS-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/ppsm/" >}}
 PPSM-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/ppsx/" >}}
 A PPSX-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/ppt/" >}}
 A PPT-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pptm/" >}}
 PPTM-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/python-net/metadata/pptx/" >}}
 A PPTX-tulajdonságok szerkesztése az Aspose.Slides for Python használatával .NET API-n keresztül.
 {{< /blocks/products/pf/product >}}
 

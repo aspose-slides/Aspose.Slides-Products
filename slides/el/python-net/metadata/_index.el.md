@@ -11,51 +11,51 @@ description: Πηγαίος κώδικας Python για προβολή και �
 
 {{< blocks/products/pf/product-card-row title="Επεξεργασία Μεταδεδομένων Κώδικα Δείγματα Online Περιλαμβάνονται" >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/fodp/" >}}
 Πώς να επεξεργαστείτε ιδιότητες FODP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/odp/" >}}
 Πώς να επεξεργαστείτε ιδιότητες ODP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/otp/" >}}
 Πώς να επεξεργαστείτε τις ιδιότητες OTP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pot/" >}}
 Πώς να επεξεργαστείτε ιδιότητες POT χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/potm/" >}}
 Πώς να επεξεργαστείτε ιδιότητες POTM χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/potx/" >}}
 Πώς να επεξεργαστείτε ιδιότητες POTX χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pps/" >}}
 Πώς να επεξεργαστείτε ιδιότητες PPS χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/ppsm/" >}}
 Πώς να επεξεργαστείτε ιδιότητες PPSM χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/ppsx/" >}}
 Πώς να επεξεργαστείτε ιδιότητες PPSX χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/ppt/" >}}
 Πώς να επεξεργαστείτε ιδιότητες PPT χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pptm/" >}}
 Πώς να επεξεργαστείτε τις ιδιότητες PPTM χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/python-net/metadata/pptx/" >}}
 Πώς να επεξεργαστείτε ιδιότητες PPTX χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.
 {{< /blocks/products/pf/product >}}
 

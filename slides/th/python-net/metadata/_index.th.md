@@ -11,51 +11,51 @@ description: ซอร์สโค้ด Python เพื่อดูและ�
 
 {{< blocks/products/pf/product-card-row title="แก้ไขตัวอย่างรหัสข้อมูลเมตาออนไลน์รวม" >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/fodp/" >}}
 วิธีแก้ไขคุณสมบัติ FODP โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/odp/" >}}
 วิธีแก้ไขคุณสมบัติ ODP โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/otp/" >}}
 วิธีแก้ไขคุณสมบัติ OTP โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pot/" >}}
 วิธีแก้ไขคุณสมบัติ POT โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/potm/" >}}
 วิธีแก้ไขคุณสมบัติ POTM โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/potx/" >}}
 วิธีแก้ไขคุณสมบัติ POTX โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pps/" >}}
 วิธีแก้ไขคุณสมบัติ PPS โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/ppsm/" >}}
 วิธีแก้ไขคุณสมบัติ PPSM โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/ppsx/" >}}
 วิธีแก้ไขคุณสมบัติ PPSX โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/ppt/" >}}
 วิธีแก้ไขคุณสมบัติ PPT โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pptm/" >}}
 วิธีแก้ไขคุณสมบัติ PPTM โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/python-net/metadata/pptx/" >}}
 วิธีแก้ไขคุณสมบัติ PPTX โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
 {{< /blocks/products/pf/product >}}
 

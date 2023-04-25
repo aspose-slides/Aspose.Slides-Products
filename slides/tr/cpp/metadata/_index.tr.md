@@ -11,51 +11,51 @@ description: Sunum özelliklerini görüntülemek ve düzenlemek için C++ kayna
 
 {{< blocks/products/pf/product-card-row title="Meta Veri Kodu Örneklerini Çevrimiçi Düzenleyin Dahil Et" >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/fodp/" >}}
 Aspose.Slides for C++ API kullanılarak FODP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/odp/" >}}
 Aspose.Slides for C++ API kullanılarak ODP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/otp/" >}}
 Aspose.Slides for C++ API kullanılarak OTP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pot/" >}}
 Aspose.Slides for C++ API kullanılarak POT özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/potm/" >}}
 Aspose.Slides for C++ API kullanılarak POTM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/potx/" >}}
 Aspose.Slides for C++ API kullanılarak POTX özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pps/" >}}
 Aspose.Slides for C++ API kullanılarak PPS özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/ppsm/" >}}
 Aspose.Slides for C++ API kullanılarak PPSM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/ppsx/" >}}
 Aspose.Slides for C++ API kullanarak PPSX özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/ppt/" >}}
 Aspose.Slides for C++ API kullanılarak PPT özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pptm/" >}}
 Aspose.Slides for C++ API kullanılarak PPTM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/cpp/metadata/pptx/" >}}
 Aspose.Slides for C++ API kullanılarak PPTX özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 

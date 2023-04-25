@@ -11,51 +11,51 @@ description: 用于查看和编辑演示文稿属性的 Python 源代码
 
 {{< blocks/products/pf/product-card-row title="在线编辑元数据代码示例包括" >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/fodp/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 FODP 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/odp/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 ODP 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/otp/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 OTP 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pot/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 POT 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/potm/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 POTM 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/potx/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 POTX 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pps/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 PPS 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/ppsm/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 PPSM 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/ppsx/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 PPSX 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/ppt/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 PPT 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pptm/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 PPTM 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/python-net/metadata/pptx/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 编辑 PPTX 属性。
 {{< /blocks/products/pf/product >}}
 

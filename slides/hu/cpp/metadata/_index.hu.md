@@ -11,51 +11,51 @@ description: C++ forráskód a prezentáció tulajdonságainak megtekintéséhez
 
 {{< blocks/products/pf/product-card-row title="Szerkessze a metaadatkód-mintákat online" >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/fodp/" >}}
 FODP-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/odp/" >}}
 Az ODP-tulajdonságok szerkesztése az Aspose.Slides for C++ API használatával.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/otp/" >}}
 Az OTP-tulajdonságok szerkesztése az Aspose.Slides for C++ API használatával.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pot/" >}}
 A POT-tulajdonságok szerkesztése az Aspose.Slides for C++ API használatával.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/potm/" >}}
 A POTM-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/potx/" >}}
 A POTX-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pps/" >}}
 A PPS-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/ppsm/" >}}
 PPSM-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/ppsx/" >}}
 A PPSX-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/ppt/" >}}
 A PPT-tulajdonságok szerkesztése az Aspose.Slides for C++ API használatával.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pptm/" >}}
 PPTM-tulajdonságok szerkesztése az Aspose.Slides for C++ API-val.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Prezentáció metaadatainak szerkesztése" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/cpp/metadata/pptx/" >}}
 A PPTX tulajdonságok szerkesztése az Aspose.Slides for C++ API használatával.
 {{< /blocks/products/pf/product >}}
 

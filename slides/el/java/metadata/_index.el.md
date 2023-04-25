@@ -11,51 +11,51 @@ description: Πηγαίος κώδικας Java για προβολή και ε�
 
 {{< blocks/products/pf/product-card-row title="Επεξεργασία Μεταδεδομένων Κώδικα Δείγματα Online Περιλαμβάνονται" >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/fodp/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων FODP χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/odp/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων ODP χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/otp/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων OTP χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pot/" >}}
 Πώς να επεξεργαστείτε ιδιότητες POT χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/potm/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων POTM χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/potx/" >}}
 Πώς να επεξεργαστείτε ιδιότητες POTX χρησιμοποιώντας το Aspose.Slides για Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pps/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων PPS χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/ppsm/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων PPSM χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/ppsx/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων PPSX χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/ppt/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων PPT χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pptm/" >}}
 Πώς να επεξεργαστείτε τις ιδιότητες PPTM χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Επεξεργασία Μεταδεδομένων Παρουσίασης" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/java/metadata/pptx/" >}}
 Τρόπος επεξεργασίας ιδιοτήτων PPTX χρησιμοποιώντας το Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 

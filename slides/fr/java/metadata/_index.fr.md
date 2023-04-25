@@ -11,51 +11,51 @@ description: Code source Java pour afficher et modifier les propriétés de pré
 
 {{< blocks/products/pf/product-card-row title="Modifier les exemples de code de métadonnées en ligne Inclure" >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/fodp/" >}}
 Comment modifier les propriétés FODP à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/odp/" >}}
 Comment modifier les propriétés ODP à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/otp/" >}}
 Comment modifier les propriétés OTP à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pot/" >}}
 Comment modifier les propriétés POT à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/potm/" >}}
 Comment modifier les propriétés POTM à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/potx/" >}}
 Comment modifier les propriétés POTX à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pps/" >}}
 Comment modifier les propriétés PPS à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/ppsm/" >}}
 Comment modifier les propriétés PPSM à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/ppsx/" >}}
 Comment modifier les propriétés PPSX à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/ppt/" >}}
 Comment modifier les propriétés PPT à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pptm/" >}}
 Comment modifier les propriétés PPTM à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Modifier les métadonnées de la présentation" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/fr/java/metadata/pptx/" >}}
 Comment modifier les propriétés PPTX à l'aide de l'API Aspose.Slides for Java.
 {{< /blocks/products/pf/product >}}
 

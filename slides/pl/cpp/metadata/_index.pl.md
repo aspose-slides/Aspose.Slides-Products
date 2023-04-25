@@ -11,51 +11,51 @@ description: Kod źródłowy C++ do przeglądania i edytowania właściwości pr
 
 {{< blocks/products/pf/product-card-row title="Edytuj próbki kodu metadanych online Uwzględnij" >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/fodp/" >}}
 Jak edytować właściwości FODP za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/odp/" >}}
 Jak edytować właściwości ODP za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/otp/" >}}
 Jak edytować właściwości OTP za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pot/" >}}
 Jak edytować właściwości POT za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/potm/" >}}
 Jak edytować właściwości POTM za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/potx/" >}}
 Jak edytować właściwości POTX za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pps/" >}}
 Jak edytować właściwości PPS za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/ppsm/" >}}
 Jak edytować właściwości PPSM za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/ppsx/" >}}
 Jak edytować właściwości PPSX za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/ppt/" >}}
 Jak edytować właściwości PPT za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pptm/" >}}
 Jak edytować właściwości PPTM za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Edytuj metadane prezentacji" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pl/cpp/metadata/pptx/" >}}
 Jak edytować właściwości PPTX za pomocą Aspose.Slides dla C++ API.
 {{< /blocks/products/pf/product >}}
 

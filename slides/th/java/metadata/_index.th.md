@@ -11,51 +11,51 @@ description: ซอร์สโค้ด Java เพื่อดูและแ�
 
 {{< blocks/products/pf/product-card-row title="แก้ไขตัวอย่างรหัสข้อมูลเมตาออนไลน์รวม" >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/fodp/" >}}
 วิธีแก้ไขคุณสมบัติ FODP โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/odp/" >}}
 วิธีแก้ไขคุณสมบัติ ODP โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/otp/" >}}
 วิธีแก้ไขคุณสมบัติ OTP โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pot/" >}}
 วิธีแก้ไขคุณสมบัติ POT โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/potm/" >}}
 วิธีแก้ไขคุณสมบัติ POTM โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/potx/" >}}
 วิธีแก้ไขคุณสมบัติ POTX โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pps/" >}}
 วิธีแก้ไขคุณสมบัติ PPS โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/ppsm/" >}}
 วิธีแก้ไขคุณสมบัติ PPSM โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/ppsx/" >}}
 วิธีแก้ไขคุณสมบัติ PPSX โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/ppt/" >}}
 วิธีแก้ไขคุณสมบัติ PPT โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pptm/" >}}
 วิธีแก้ไขคุณสมบัติ PPTM โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/java/metadata/pptx/" >}}
 วิธีแก้ไขคุณสมบัติ PPTX โดยใช้ Aspose.Slides สำหรับ Java API
 {{< /blocks/products/pf/product >}}
 

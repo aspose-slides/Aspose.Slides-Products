@@ -11,51 +11,51 @@ description: Sunum özelliklerini görüntülemek ve düzenlemek için Java kayn
 
 {{< blocks/products/pf/product-card-row title="Meta Veri Kodu Örneklerini Çevrimiçi Düzenleyin Dahil Et" >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/fodp/" >}}
 Aspose.Slides for Java API kullanılarak FODP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/odp/" >}}
 Aspose.Slides for Java API kullanılarak ODP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/otp/" >}}
 Aspose.Slides for Java API kullanılarak OTP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pot/" >}}
 Aspose.Slides for Java API kullanılarak POT özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/potm/" >}}
 Aspose.Slides for Java API kullanılarak POTM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/potx/" >}}
 Aspose.Slides for Java API kullanılarak POTX özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pps/" >}}
 Aspose.Slides for Java API kullanılarak PPS özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/ppsm/" >}}
 Aspose.Slides for Java API kullanılarak PPSM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/ppsx/" >}}
 Aspose.Slides for Java API kullanılarak PPSX özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/ppt/" >}}
 Aspose.Slides for Java API kullanılarak PPT özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pptm/" >}}
 Aspose.Slides for Java API kullanılarak PPTM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/java/metadata/pptx/" >}}
 Aspose.Slides for Java API kullanılarak PPTX özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 

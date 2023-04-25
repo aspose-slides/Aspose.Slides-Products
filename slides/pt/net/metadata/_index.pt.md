@@ -11,51 +11,51 @@ description: Código-fonte C# para visualizar e editar as propriedades da aprese
 
 {{< blocks/products/pf/product-card-row title="Editar amostras de código de metadados on-line incluir" >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/fodp/" >}}
 Como editar propriedades FODP usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/odp/" >}}
 Como editar propriedades ODP usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/otp/" >}}
 Como editar propriedades OTP usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pot/" >}}
 Como editar as propriedades do POT usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/potm/" >}}
 Como editar as propriedades do POTM usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/potx/" >}}
 Como editar propriedades POTX usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pps/" >}}
 Como editar propriedades PPS usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/ppsm/" >}}
 Como editar propriedades PPSM usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/ppsx/" >}}
 Como editar propriedades PPSX usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/ppt/" >}}
 Como editar propriedades PPT usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pptm/" >}}
 Como editar propriedades PPTM usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Editar metadados da apresentação" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/pt/net/metadata/pptx/" >}}
 Como editar propriedades PPTX usando Aspose.Slides para API .NET.
 {{< /blocks/products/pf/product >}}
 

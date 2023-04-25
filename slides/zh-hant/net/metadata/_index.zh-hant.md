@@ -11,51 +11,51 @@ description: 用於查看和編輯演示文稿屬性的 C# 源代碼
 
 {{< blocks/products/pf/product-card-row title="在線編輯元數據代碼示例包括" >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/fodp/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 FODP 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/odp/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 ODP 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/otp/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 OTP 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pot/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 POT 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/potm/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 POTM 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/potx/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 POTX 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pps/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 PPS 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/ppsm/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 PPSM 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/ppsx/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 PPSX 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/ppt/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 PPT 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pptm/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 PPTM 屬性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="編輯演示文稿元數據" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh-hant/net/metadata/pptx/" >}}
 如何使用 Aspose.Slides for .NET API 編輯 PPTX 屬性。
 {{< /blocks/products/pf/product >}}
 

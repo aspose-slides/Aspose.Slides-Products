@@ -11,51 +11,51 @@ description: Sunum özelliklerini görüntülemek ve düzenlemek için Python ka
 
 {{< blocks/products/pf/product-card-row title="Meta Veri Kodu Örneklerini Çevrimiçi Düzenleyin Dahil Et" >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/fodp/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanılarak FODP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/odp/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanılarak ODP özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/otp/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanılarak OTP özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pot/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanılarak POT özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/potm/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanılarak POTM özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/potx/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanılarak POTX özellikleri nasıl düzenlenir?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pps/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanarak PPS özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/ppsm/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanarak PPSM özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/ppsx/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanarak PPSX özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/ppt/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanarak PPT özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pptm/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanarak PPTM özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Sunum Meta Verilerini Düzenle" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/tr/python-net/metadata/pptx/" >}}
 .NET API aracılığıyla Aspose.Slides for Python kullanarak PPTX özelliklerini düzenleme.
 {{< /blocks/products/pf/product >}}
 

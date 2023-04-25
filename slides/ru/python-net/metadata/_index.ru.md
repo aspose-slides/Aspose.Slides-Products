@@ -11,51 +11,51 @@ description: Исходный код Python для просмотра и ред�
 
 {{< blocks/products/pf/product-card-row title="Редактировать примеры кода метаданных онлайн Включить" >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/fodp/" >}}
 Как редактировать свойства FODP с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/odp/" >}}
 Как редактировать свойства ODP с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/otp/" >}}
 Как редактировать свойства одноразового пароля с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pot/" >}}
 Как редактировать свойства POT с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/potm/" >}}
 Как редактировать свойства POTM с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/potx/" >}}
 Как редактировать свойства POTX с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pps/" >}}
 Как редактировать свойства PPS с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/ppsm/" >}}
 Как редактировать свойства PPSM с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/ppsx/" >}}
 Как редактировать свойства PPSX с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/ppt/" >}}
 Как редактировать свойства PPT с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pptm/" >}}
 Как редактировать свойства PPTM с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Редактировать метаданные презентации" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ru/python-net/metadata/pptx/" >}}
 Как редактировать свойства PPTX с помощью Aspose.Slides для Python через .NET API.
 {{< /blocks/products/pf/product >}}
 

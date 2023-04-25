@@ -11,51 +11,51 @@ description: 用于查看和编辑演示文稿属性的 C# 源代码
 
 {{< blocks/products/pf/product-card-row title="在线编辑元数据代码示例包括" >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/fodp/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 FODP 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/odp/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 ODP 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/otp/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 OTP 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pot/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 POT 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/potm/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 POTM 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/potx/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 POTX 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pps/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 PPS 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/ppsm/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 PPSM 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/ppsx/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 PPSX 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/ppt/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 PPT 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pptm/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 PPTM 属性。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="编辑演示文稿元数据" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/zh/net/metadata/pptx/" >}}
 如何使用 Aspose.Slides for .NET API 编辑 PPTX 属性。
 {{< /blocks/products/pf/product >}}
 

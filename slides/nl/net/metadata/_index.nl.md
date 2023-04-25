@@ -11,51 +11,51 @@ description: C#-broncode om presentatie-eigenschappen te bekijken en te bewerken
 
 {{< blocks/products/pf/product-card-row title="Metadatacodevoorbeelden online bewerken Inclusief" >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/fodp/" >}}
 FODP-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/odp/" >}}
 ODP-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/otp/" >}}
 OTP-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pot/" >}}
 POT-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/potm/" >}}
 Hoe POTM-eigenschappen te bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/potx/" >}}
 Hoe POTX-eigenschappen te bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pps/" >}}
 PPS-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/ppsm/" >}}
 PPSM-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/ppsx/" >}}
 PPSX-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/ppt/" >}}
 PPT-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pptm/" >}}
 PPTM-eigenschappen bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Presentatiemetagegevens bewerken" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/nl/net/metadata/pptx/" >}}
 Hoe PPTX-eigenschappen te bewerken met Aspose.Slides voor .NET API.
 {{< /blocks/products/pf/product >}}
 

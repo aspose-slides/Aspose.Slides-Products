@@ -11,51 +11,51 @@ description: ซอร์สโค้ด C++ เพื่อดูและแ�
 
 {{< blocks/products/pf/product-card-row title="แก้ไขตัวอย่างรหัสข้อมูลเมตาออนไลน์รวม" >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/fodp/" >}}
 วิธีแก้ไขคุณสมบัติ FODP โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/odp/" >}}
 วิธีแก้ไขคุณสมบัติ ODP โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/otp/" >}}
 วิธีแก้ไขคุณสมบัติ OTP โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pot/" >}}
 วิธีแก้ไขคุณสมบัติ POT โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/potm/" >}}
 วิธีแก้ไขคุณสมบัติ POTM โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/potx/" >}}
 วิธีแก้ไขคุณสมบัติ POTX โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pps/" >}}
 วิธีแก้ไขคุณสมบัติ PPS โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/ppsm/" >}}
 วิธีแก้ไขคุณสมบัติ PPSM โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/ppsx/" >}}
 วิธีแก้ไขคุณสมบัติ PPSX โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/ppt/" >}}
 วิธีแก้ไขคุณสมบัติ PPT โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pptm/" >}}
 วิธีแก้ไขคุณสมบัติ PPTM โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="แก้ไขข้อมูลเมตาของงานนำเสนอ" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/cpp/metadata/pptx/" >}}
 วิธีแก้ไขคุณสมบัติ PPTX โดยใช้ Aspose.Slides สำหรับ C++ API
 {{< /blocks/products/pf/product >}}
 

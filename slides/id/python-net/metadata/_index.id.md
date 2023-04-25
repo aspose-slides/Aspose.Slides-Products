@@ -11,51 +11,51 @@ description: Kode sumber Python untuk melihat dan mengedit properti presentasi
 
 {{< blocks/products/pf/product-card-row title="Edit Sampel Kode Metadata Online Sertakan" >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/fodp/" >}}
 Cara mengedit properti FODP menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/odp/" >}}
 Cara mengedit properti ODP menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/otp/" >}}
 Cara mengedit properti OTP menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pot/" >}}
 Cara mengedit properti POT menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/potm/" >}}
 Cara mengedit properti POTM menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/potx/" >}}
 Cara mengedit properti POTX menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pps/" >}}
 Cara mengedit properti PPS menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/ppsm/" >}}
 Cara mengedit properti PPSM menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/ppsx/" >}}
 Cara mengedit properti PPSX menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/ppt/" >}}
 Cara mengedit properti PPT menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pptm/" >}}
 Cara mengedit properti PPTM menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="Edit Metadata Presentasi" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/id/python-net/metadata/pptx/" >}}
 Cara mengedit properti PPTX menggunakan Aspose.Slides untuk Python melalui .NET API.
 {{< /blocks/products/pf/product >}}
 

@@ -11,51 +11,51 @@ description: كود المصدر C# لعرض خصائص العرض وتحرير�
 
 {{< blocks/products/pf/product-card-row title="قم بتحرير نماذج كود البيانات الوصفية عبر الإنترنت" >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="FODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/fodp/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/fodp/" >}}
 كيفية تحرير خصائص FODP باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="ODP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/odp/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/odp/" >}}
 كيفية تحرير خصائص ODP باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="OTP" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/otp/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/otp/" >}}
 كيفية تحرير خصائص OTP باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="POT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pot/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pot/" >}}
 كيفية تحرير خصائص POT باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="POTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/potm/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/potm/" >}}
 كيفية تحرير خصائص POTM باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="POTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/potx/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/potx/" >}}
 كيفية تحرير خصائص POTX باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPS" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pps/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pps/" >}}
 كيفية تحرير خصائص PPS باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPSM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/ppsm/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/ppsm/" >}}
 كيفية تحرير خصائص PPSM باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPSX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/ppsx/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/ppsx/" >}}
 كيفية تحرير خصائص PPSX باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPT" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/ppt/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/ppt/" >}}
 كيفية تحرير خصائص PPT باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPTM" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pptm/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pptm/" >}}
 كيفية تحرير خصائص PPTM باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPTX" imgSrc="https:/www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pptx/" >}}
+{{< blocks/products/pf/product pfName="تحرير بيانات تعريف العرض التقديمي" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/ar/net/metadata/pptx/" >}}
 كيفية تحرير خصائص PPTX باستخدام Aspose.Slides لـ .NET API.
 {{< /blocks/products/pf/product >}}
 
