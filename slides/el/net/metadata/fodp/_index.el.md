@@ -1,0 +1,110 @@
+---
+title: Προβολή ή επεξεργασία μεταδεδομένων αρχείων FODP χρησιμοποιώντας .NET
+url: /el/net/metadata/fodp/
+keywords: Επεξεργασία μεταδεδομένων FODP, Προβολή μεταδεδομένων FODP, Επεξεργασία ιδιοτήτων FODP, Προβολή ιδιοτήτων FODP
+description: Πηγαίος κώδικας C# για επεξεργασία ή προβολή μεταδεδομένων μορφής FODP.
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Επεξεργασία ιδιοτήτων FODP χρησιμοποιώντας C#" h2="Δημιουργήστε τις δικές σας εφαρμογές .NET για να τροποποιήσετε τις Ενσωματωμένες και Προσαρμοσμένες ιδιότητες σε αρχεία παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="FODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+
+{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+
+{{% blocks/products/pf/feature-page-section  h2="Τροποποίηση ιδιοτήτων FODP μέσω C#" %}}
+Χρησιμοποιώντας το Aspose.Slides for .NET, οι προγραμματιστές μπορούν να έχουν πρόσβαση και να τροποποιούν τις τιμές των ενσωματωμένων ιδιοτήτων καθώς και των προσαρμοσμένων ιδιοτήτων. Οι προγραμματιστές μπορούν να χρησιμοποιήσουν την ιδιότητα [DocumentProperties](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) που εκτίθεται από το αντικείμενο Παρουσίασης για να αποκτήσουν πρόσβαση στις ιδιότητες του εγγράφου του αρχείου παρουσίασης.
+{{% blocks/products/pf/agp/code-block title="Τροποποίηση ενσωματωμένων ιδιοτήτων FODP - C#" offSpacer="true" %}}
+
+```cs
+
+// Instantiate the Presentation class that represents the Presentation
+Presentation presentation = new Presentation("presentation.fodp");
+
+// Create a reference to IDocumentProperties object associated with Presentation
+IDocumentProperties documentProperties = presentation.DocumentProperties;
+
+// Set the builtin properties
+documentProperties.Author = "Aspose.Slides for .NET";
+documentProperties.Title = "Modifying Presentation Properties";
+documentProperties.Subject = "Aspose Subject";
+documentProperties.Comments = "Aspose Description";
+documentProperties.Manager = "Aspose Manager";
+
+// Save your presentation to a file
+presentation.Save("DocumentProperties_out.fodp", SaveFormat.Fodp);
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Προσθήκη προσαρμοσμένων ιδιοτήτων στο FODP - C#" offSpacer="true" %}}
+
+```cs
+
+// Instantiate the Presentation class
+Presentation presentation = new Presentation();
+
+// Getting Document Properties
+IDocumentProperties documentProperties = presentation.DocumentProperties;
+
+// Adding Custom properties
+documentProperties["New Custom"] = 12;
+documentProperties["My Name"] = "Aspose Metadata Editor";
+documentProperties["Custom"] = 124;
+
+// Getting property name at particular index
+String getPropertyName = documentProperties.GetCustomPropertyName(2);
+
+// Removing selected property
+documentProperties.RemoveCustomProperty(getPropertyName);
+
+// Save your presentation to a file
+presentation.Save("CustomDocumentProperties_out.fodp", SaveFormat.Fodp);
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="Τρόπος εξαγωγής μεταδεδομένων του FODP μέσω του C#" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την εξαγωγή μεταδεδομένων από αρχεία FODP." >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Δημιουργήστε την κλάση Presentation με διαδρομή προς το αρχείο FODP
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Λήψη αντικειμένου DocumentProperties που σχετίζεται με την Παρουσίαση
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Κάντε βρόχο πάνω από τα στοιχεία στο αντικείμενο DocumentProperties
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Πρόσβαση και τροποποίηση προσαρμοσμένων ιδιοτήτων
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές μεταδεδομένων" subTitle="Χρησιμοποιώντας το C#, μπορείτε επίσης να χειριστείτε μεταδεδομένα πολλών άλλων μορφών, συμπεριλαμβανομένων." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/metadata/pptx/" name="PPTX" >}}
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}
