@@ -9,7 +9,7 @@ description: C# source code to set a password to lock presentation
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Edit Metadata Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Protect Presentation Code Samples Online Include" >}}
 
 {{< blocks/products/pf/product pfName="Protect Presentation" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/net/protect/odp/" >}}
 How to Protect ODP file using Aspose.Slides for .NET API.
