@@ -9,7 +9,7 @@ description: Código fuente de Python para establecer una contraseña para bloqu
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Editar ejemplos de código de metadatos en línea Incluir" >}}
+{{< blocks/products/pf/product-card-row title="Proteger las muestras de código de presentación en línea incluyen" >}}
 
 {{< blocks/products/pf/product pfName="Proteger presentación" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/es/python-net/protect/odp/" >}}
 Cómo proteger el archivo ODP usando Aspose.Slides para Python a través de la API .NET.

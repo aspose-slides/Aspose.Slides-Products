@@ -9,7 +9,7 @@ description: 프레젠테이션을 잠그기 위한 암호를 설정하는 C++ �
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="메타데이터 코드 샘플 편집 온라인 포함" >}}
+{{< blocks/products/pf/product-card-row title="프레젠테이션 코드 샘플 온라인 보호 포함" >}}
 
 {{< blocks/products/pf/product pfName="프레젠테이션 보호" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ko/cpp/protect/odp/" >}}
 C++ API용 Aspose.Slides를 사용하여 ODP 파일을 보호하는 방법.

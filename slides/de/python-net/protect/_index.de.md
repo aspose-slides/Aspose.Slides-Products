@@ -9,7 +9,7 @@ description: Python-Quellcode zum Festlegen eines Kennworts zum Sperren der Prä
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Codebeispiele für Metadaten online bearbeiten Include" >}}
+{{< blocks/products/pf/product-card-row title="Schützen Sie Präsentationscodebeispiele online" >}}
 
 {{< blocks/products/pf/product pfName="Präsentation schützen" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/de/python-net/protect/odp/" >}}
 So schützen Sie eine ODP-Datei mit Aspose.Slides für Python über die .NET-API.

@@ -9,7 +9,7 @@ description: Kode sumber Python untuk mengatur kata sandi untuk mengunci present
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Edit Sampel Kode Metadata Online Sertakan" >}}
+{{< blocks/products/pf/product-card-row title="Lindungi Contoh Kode Presentasi Secara Online Sertakan" >}}
 
 {{< blocks/products/pf/product pfName="Lindungi Presentasi" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/id/python-net/protect/odp/" >}}
 Cara Melindungi file ODP menggunakan Aspose.Slides untuk Python melalui .NET API.

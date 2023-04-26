@@ -9,7 +9,7 @@ description: C#源碼設置密碼鎖定演示文稿
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="在線編輯元數據代碼示例包括" >}}
+{{< blocks/products/pf/product-card-row title="在線保護演示代碼示例包括" >}}
 
 {{< blocks/products/pf/product pfName="保護演示文稿" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/zh-hant/net/protect/odp/" >}}
 如何使用 Aspose.Slides for .NET API 保護 ODP 文件。

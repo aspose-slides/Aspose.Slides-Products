@@ -9,7 +9,7 @@ description: كود مصدر جافا لتعيين كلمة مرور لقفل ا
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="قم بتحرير نماذج كود البيانات الوصفية عبر الإنترنت" >}}
+{{< blocks/products/pf/product-card-row title="تشمل حماية نماذج كود العرض التقديمي عبر الإنترنت" >}}
 
 {{< blocks/products/pf/product pfName="حماية العرض التقديمي" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ar/java/protect/odp/" >}}
 كيفية حماية ملف ODP باستخدام Aspose.Slides for Java API.

@@ -9,7 +9,7 @@ description: C# forráskód jelszó beállításához a prezentáció zárolás�
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Szerkessze a metaadatkód-mintákat online" >}}
+{{< blocks/products/pf/product-card-row title="Védje a prezentációs kódmintákat online" >}}
 
 {{< blocks/products/pf/product pfName="Prezentáció védelme" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hu/net/protect/odp/" >}}
 Az ODP-fájl védelme az Aspose.Slides for .NET API használatával.

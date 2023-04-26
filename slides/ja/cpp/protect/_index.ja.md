@@ -9,7 +9,7 @@ description: プレゼンテーションをロックするためのパスワー�
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Edit Metadata Code Sample Online インクルード" >}}
+{{< blocks/products/pf/product-card-row title="プロテクト プレゼンテーション コード サンプル オンライン インクルード" >}}
 
 {{< blocks/products/pf/product pfName="プレゼンテーションの保護" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ja/cpp/protect/odp/" >}}
 Aspose.Slides for C++ API を使用して ODP ファイルを保護する方法。

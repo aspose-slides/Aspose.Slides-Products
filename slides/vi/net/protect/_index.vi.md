@@ -9,7 +9,7 @@ description: Mã nguồn C# để đặt mật khẩu để khóa bản trình b
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Chỉnh sửa các mẫu mã siêu dữ liệu trực tuyến Bao gồm" >}}
+{{< blocks/products/pf/product-card-row title="Bảo vệ các mẫu mã trình bày trực tuyến bao gồm" >}}
 
 {{< blocks/products/pf/product pfName="Bảo vệ bản trình bày" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/vi/net/protect/odp/" >}}
 Cách bảo vệ tệp ODP bằng Aspose.Slides cho .NET API.

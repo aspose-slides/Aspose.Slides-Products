@@ -9,7 +9,7 @@ description: ซอร์สโค้ด Python เพื่อตั้งร�
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="แก้ไขตัวอย่างรหัสข้อมูลเมตาออนไลน์รวม" >}}
+{{< blocks/products/pf/product-card-row title="ป้องกันตัวอย่างรหัสการนำเสนอออนไลน์รวม" >}}
 
 {{< blocks/products/pf/product pfName="ป้องกันการนำเสนอ" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/th/python-net/protect/odp/" >}}
 วิธีป้องกันไฟล์ ODP โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API

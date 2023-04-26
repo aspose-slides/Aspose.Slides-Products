@@ -9,7 +9,7 @@ description: Código-fonte C# para definir uma senha para bloquear a apresentaç
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Editar amostras de código de metadados on-line incluir" >}}
+{{< blocks/products/pf/product-card-row title="Proteger amostras de código de apresentação on-line Incluir" >}}
 
 {{< blocks/products/pf/product pfName="Proteger Apresentação" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/pt/net/protect/odp/" >}}
 Como proteger o arquivo ODP usando Aspose.Slides para API .NET.

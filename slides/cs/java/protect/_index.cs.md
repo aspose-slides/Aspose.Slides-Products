@@ -9,7 +9,7 @@ description: Zdrojový kód Java pro nastavení hesla pro uzamčení prezentace
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Upravit ukázky kódu metadat online Zahrnout" >}}
+{{< blocks/products/pf/product-card-row title="Zahrnout ukázky kódu prezentace online" >}}
 
 {{< blocks/products/pf/product pfName="Chránit prezentaci" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/cs/java/protect/odp/" >}}
 Jak chránit soubor ODP pomocí Aspose.Slides pro Java API.

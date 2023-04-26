@@ -9,7 +9,7 @@ description: Python-broncode om een ​​wachtwoord in te stellen om de present
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Metadatacodevoorbeelden online bewerken Inclusief" >}}
+{{< blocks/products/pf/product-card-row title="Bescherm presentatiecodevoorbeelden online opnemen" >}}
 
 {{< blocks/products/pf/product pfName="Presentatie beschermen" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/nl/python-net/protect/odp/" >}}
 Hoe ODP-bestanden te beschermen met Aspose.Slides voor Python via .NET API.

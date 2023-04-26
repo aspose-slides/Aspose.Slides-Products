@@ -9,7 +9,7 @@ description: Java-källkod för att ställa in ett lösenord för att låsa pres
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Redigera Metadata Kod Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Protect Presentation Code Samples Online Inkluderar" >}}
 
 {{< blocks/products/pf/product pfName="Skydda presentation" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/sv/java/protect/odp/" >}}
 Hur man skyddar ODP-fil med Aspose.Slides för Java API.

@@ -9,7 +9,7 @@ description: C#-Quellcode zum Festlegen eines Kennworts zum Sperren der Präsent
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Codebeispiele für Metadaten online bearbeiten Include" >}}
+{{< blocks/products/pf/product-card-row title="Schützen Sie Präsentationscodebeispiele online" >}}
 
 {{< blocks/products/pf/product pfName="Präsentation schützen" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/de/net/protect/odp/" >}}
 So schützen Sie ODP-Dateien mit Aspose.Slides für die .NET-API.

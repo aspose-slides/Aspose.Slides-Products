@@ -9,7 +9,7 @@ description: Code source C# pour définir un mot de passe pour verrouiller la pr
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Modifier les exemples de code de métadonnées en ligne Inclure" >}}
+{{< blocks/products/pf/product-card-row title="Protégez les exemples de code de présentation en ligne Inclure" >}}
 
 {{< blocks/products/pf/product pfName="Protéger la présentation" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/fr/net/protect/odp/" >}}
 Comment protéger le fichier ODP à l'aide de Aspose.Slides pour l'API .NET.

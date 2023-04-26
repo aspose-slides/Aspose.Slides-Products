@@ -9,7 +9,7 @@ description: Πηγαίος κώδικας Python για να ορίσετε έ�
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Επεξεργασία Μεταδεδομένων Κώδικα Δείγματα Online Περιλαμβάνονται" >}}
+{{< blocks/products/pf/product-card-row title="Περιλαμβάνονται τα Δείγματα Κώδικα Προστασίας Παρουσίασης στο Διαδίκτυο" >}}
 
 {{< blocks/products/pf/product pfName="Προστασία παρουσίασης" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/el/python-net/protect/odp/" >}}
 Πώς να προστατέψετε το αρχείο ODP χρησιμοποιώντας το Aspose.Slides για Python μέσω .NET API.

@@ -9,7 +9,7 @@ description: Python源码设置密码锁定演示文稿
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="在线编辑元数据代码示例包括" >}}
+{{< blocks/products/pf/product-card-row title="在线保护演示代码示例包括" >}}
 
 {{< blocks/products/pf/product pfName="保护演示文稿" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/zh/python-net/protect/odp/" >}}
 如何通过 .NET API 使用 Aspose.Slides for Python 保护 ODP 文件。

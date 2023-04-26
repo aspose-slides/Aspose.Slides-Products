@@ -9,7 +9,7 @@ description: Исходный код C++ для установки пароля 
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Редактировать примеры кода метаданных онлайн Включить" >}}
+{{< blocks/products/pf/product-card-row title="Образцы кода защищенных презентаций в Интернете Включить" >}}
 
 {{< blocks/products/pf/product pfName="Защитить презентацию" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ru/cpp/protect/odp/" >}}
 Как защитить файл ODP с помощью Aspose.Slides for C++ API.

@@ -9,7 +9,7 @@ description: کد منبع پایتون برای تنظیم رمز عبور بر
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="ویرایش کد فراداده نمونه آنلاین شامل" >}}
+{{< blocks/products/pf/product-card-row title="حفاظت از نمونه کد ارائه آنلاین شامل" >}}
 
 {{< blocks/products/pf/product pfName="محافظت از ارائه" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/fa/python-net/protect/odp/" >}}
 نحوه محافظت از فایل ODP با استفاده از Aspose.Slides برای پایتون از طریق NET API.

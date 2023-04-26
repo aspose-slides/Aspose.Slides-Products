@@ -9,7 +9,7 @@ description: Codice sorgente C++ per impostare una password per bloccare la pres
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Modifica esempi di codici di metadati online Includi" >}}
+{{< blocks/products/pf/product-card-row title="Proteggi gli esempi di codice di presentazione online Includi" >}}
 
 {{< blocks/products/pf/product pfName="Proteggi la presentazione" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/it/cpp/protect/odp/" >}}
 Come proteggere il file ODP utilizzando Aspose.Slides per l'API C++.

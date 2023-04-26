@@ -9,7 +9,7 @@ description: Kod źródłowy Pythona, aby ustawić hasło, aby zablokować preze
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Edytuj próbki kodu metadanych online Uwzględnij" >}}
+{{< blocks/products/pf/product-card-row title="Chroń próbki kodu prezentacji online Uwzględnij" >}}
 
 {{< blocks/products/pf/product pfName="Chroń prezentację" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/pl/python-net/protect/odp/" >}}
 Jak chronić plik ODP za pomocą Aspose.Slides dla Pythona za pośrednictwem .NET API.

@@ -9,7 +9,7 @@ description: प्रस्तुति को लॉक करने के �
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="मेटाडेटा कोड नमूने ऑनलाइन संपादित करें शामिल करें" >}}
+{{< blocks/products/pf/product-card-row title="प्रस्तुति कोड नमूने ऑनलाइन शामिल सुरक्षित करें" >}}
 
 {{< blocks/products/pf/product pfName="प्रस्तुति की रक्षा करें" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hi/python-net/protect/odp/" >}}
 .NET API के माध्यम से पायथन के लिए Aspose.Slides का उपयोग करके ODP फ़ाइल को कैसे सुरक्षित करें।

@@ -9,7 +9,7 @@ description: Sunumu kilitlemek için bir parola ayarlamak için Java kaynak kodu
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Meta Veri Kodu Örneklerini Çevrimiçi Düzenleyin Dahil Et" >}}
+{{< blocks/products/pf/product-card-row title="Sunu Kodu Örneklerini Çevrimiçi Olarak Koruyun Dahil Et" >}}
 
 {{< blocks/products/pf/product pfName="Sunumu Koruyun" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/tr/java/protect/odp/" >}}
 Aspose.Slides for Java API kullanılarak ODP dosyası nasıl korunur?
