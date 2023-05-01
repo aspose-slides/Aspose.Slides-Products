@@ -79,6 +79,10 @@ API PowerPoint для создания кроссплатформенных пр
 Как редактировать свойства презентации с помощью Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Парсер" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/ru/parser/" >}}
+Как извлечь текст презентации, изображения и аудио с помощью Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Защищать" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ru/protect/" >}}
 Как защитить паролем презентацию PowerPoint с помощью Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

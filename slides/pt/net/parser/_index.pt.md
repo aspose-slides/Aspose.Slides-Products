@@ -1,0 +1,32 @@
+---
+title: Extraia texto ou objetos de documentos PowerPoint e OpenOffice usando .NET
+url: /pt/net/parser/
+description: Código-fonte C# para extrair dados de apresentações em PowerPoint e OpenOffice.
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Extraia texto e imagens de documentos PowerPoint e OpenOffice usando C#" h2="Crie seus próprios aplicativos .NET para extrair arquivos de texto, imagem, vídeo e áudio do PowerPoint usando APIs do lado do servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="Analisar amostras de código de apresentação on-line Incluir" >}}
+
+{{< blocks/products/pf/product pfName="Analisar Apresentação" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/pt/net/parser/odp/" >}}
+Como extrair texto e imagens da apresentação ODP usando Aspose.Slides para .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Analisar Apresentação" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/pt/net/parser/ppt/" >}}
+Como extrair texto e imagens da apresentação PPT usando Aspose.Slides para .NET API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Analisar Apresentação" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/pt/net/parser/pptx/" >}}
+Como extrair texto e imagens da apresentação PPTX usando Aspose.Slides para .NET API.
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

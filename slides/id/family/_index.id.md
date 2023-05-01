@@ -79,6 +79,10 @@ Cara Menggabungkan Presentasi menggunakan Aspose.Slides API.
 Cara Mengedit properti Presentasi menggunakan Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Pengurai" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/id/parser/" >}}
+Cara mengekstrak teks presentasi, gambar, dan audio menggunakan Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Melindungi" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/id/protect/" >}}
 Bagaimana Sandi Melindungi presentasi PowerPoint dengan Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

@@ -80,6 +80,10 @@ So führen Sie Präsentationen mit der Aspose.Slides-API zusammen.
 So bearbeiten Sie Präsentationseigenschaften mit der Aspose.Slides-API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Parser" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/de/parser/" >}}
+So extrahieren Sie Präsentationstext, -bilder und -audio mit der Aspose.Slides-API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Schützen" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/de/protect/" >}}
 So schützen Sie eine PowerPoint-Präsentation mit einem Passwort mit der Aspose.Slides-API.
 {{< /blocks/products/pf/product >}}

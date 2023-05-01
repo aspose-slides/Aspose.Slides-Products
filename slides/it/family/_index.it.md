@@ -79,6 +79,10 @@ Come unire le presentazioni utilizzando l'API Aspose.Slides.
 Come modificare le proprietà della presentazione utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="analizzatore" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/it/parser/" >}}
+Come estrarre testo, immagini e audio della presentazione utilizzando l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Proteggere" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/it/protect/" >}}
 Come proteggere con password la presentazione di PowerPoint con Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

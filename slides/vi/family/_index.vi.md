@@ -79,6 +79,10 @@ Cách hợp nhất các bản trình bày bằng API Aspose.Slides.
 Cách chỉnh sửa thuộc tính Bản trình bày bằng API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Trình phân tích cú pháp" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/vi/parser/" >}}
+Cách trích xuất văn bản, hình ảnh và âm thanh của bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Bảo vệ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/vi/protect/" >}}
 Cách đặt mật khẩu bảo vệ bản trình bày PowerPoint bằng API Aspose.Slides.
 {{< /blocks/products/pf/product >}}

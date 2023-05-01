@@ -79,6 +79,10 @@ How to Merge Presentations using Aspose.Slides API.
 How to Edit Presentation properties using Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Parser" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/parser/" >}}
+How to extract presentation text, images and audio using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Protect" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/protect/" >}}
 How to Password Protect PowerPoint presentation with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
