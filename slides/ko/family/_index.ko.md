@@ -79,6 +79,10 @@ Aspose.Slides API를 사용하여 프레젠테이션을 병합하는 방법.
 Aspose.Slides API를 사용하여 프레젠테이션 속성을 편집하는 방법.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="파서" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/ko/parser/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션 텍스트, 이미지 및 오디오를 추출하는 방법.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="보호하다" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ko/protect/" >}}
 Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션을 암호로 보호하는 방법.
 {{< /blocks/products/pf/product >}}

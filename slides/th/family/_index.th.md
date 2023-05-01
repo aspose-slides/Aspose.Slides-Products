@@ -79,6 +79,10 @@ PowerPoint API สำหรับสร้างแอปพลิเคชั�
 วิธีแก้ไขคุณสมบัติการนำเสนอโดยใช้ Aspose.Slides API
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="พาร์เซอร์" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/th/parser/" >}}
+วิธีแยกข้อความ รูปภาพ และเสียงในการนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="ปกป้อง" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/th/protect/" >}}
 วิธีรหัสผ่านป้องกันงานนำเสนอ PowerPoint ด้วย Aspose.Slides API
 {{< /blocks/products/pf/product >}}

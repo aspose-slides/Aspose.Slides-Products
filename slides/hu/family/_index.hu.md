@@ -79,6 +79,10 @@ Prezentációk egyesítése az Aspose.Slides API használatával.
 A prezentáció tulajdonságainak szerkesztése az Aspose.Slides API használatával.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Elemző" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/hu/parser/" >}}
+A prezentáció szövegének, képeinek és hangjának kinyerése az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Védje" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hu/protect/" >}}
 PowerPoint prezentáció jelszavas védelme az Aspose.Slides API-val.
 {{< /blocks/products/pf/product >}}

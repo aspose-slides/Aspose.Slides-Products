@@ -79,6 +79,10 @@ Jak scalić prezentacje za pomocą interfejsu API Aspose.Slides.
 Jak edytować właściwości prezentacji za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Parser" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/pl/parser/" >}}
+Jak wyodrębnić tekst prezentacji, obrazy i dźwięk za pomocą interfejsu API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Chronić" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/pl/protect/" >}}
 Jak zabezpieczyć hasłem prezentację programu PowerPoint za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}

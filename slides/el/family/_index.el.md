@@ -79,6 +79,10 @@ PowerPoint API για τη δημιουργία εφαρμογών Xamarin πο�
 Τρόπος επεξεργασίας ιδιοτήτων παρουσίασης χρησιμοποιώντας το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Αναλυτής" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/el/parser/" >}}
+Πώς να εξαγάγετε κείμενο παρουσίασης, εικόνες και ήχο χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Προστατεύω" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/el/protect/" >}}
 Τρόπος προστασίας με κωδικό πρόσβασης παρουσίαση PowerPoint με το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

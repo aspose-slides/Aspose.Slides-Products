@@ -79,6 +79,10 @@ Hur man slår samman presentationer med Aspose.Slides API.
 Hur man redigerar presentationsegenskaper med Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Parser" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/sv/parser/" >}}
+Hur man extraherar presentationstext, bilder och ljud med Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Skydda" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/sv/protect/" >}}
 Hur man lösenordsskyddar PowerPoint-presentation med Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

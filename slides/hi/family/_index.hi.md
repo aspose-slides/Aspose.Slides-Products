@@ -79,6 +79,10 @@ Aspose.Slides API का उपयोग करके प्रस्तुत�
 Aspose.Slides API का उपयोग करके प्रस्तुति गुणों को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="पार्सर" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/hi/parser/" >}}
+Aspose.Slides API का उपयोग करके प्रस्तुति पाठ, चित्र और ऑडियो कैसे निकालें।
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="रक्षा करना" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hi/protect/" >}}
 Aspose.Slides API के साथ PowerPoint प्रस्तुति को पासवर्ड कैसे सुरक्षित करें।
 {{< /blocks/products/pf/product >}}

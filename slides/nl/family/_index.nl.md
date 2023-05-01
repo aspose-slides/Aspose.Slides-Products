@@ -79,6 +79,10 @@ Presentaties samenvoegen met Aspose.Slides API.
 Presentatie-eigenschappen bewerken met de Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Parser" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/nl/parser/" >}}
+Presentatietekst, afbeeldingen en audio extraheren met behulp van Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Beschermen" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/nl/protect/" >}}
 PowerPoint-presentatie met een wachtwoord beveiligen met Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

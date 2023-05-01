@@ -79,6 +79,10 @@ Aspose.Slides API を使用してプレゼンテーションをマージする�
 Aspose.Slides API を使用してプレゼンテーション プロパティを編集する方法。
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="パーサー" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/ja/parser/" >}}
+Aspose.Slides API を使用してプレゼンテーション テキスト、画像、およびオーディオを抽出する方法。
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="守る" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ja/protect/" >}}
 Aspose.Slides API を使用して PowerPoint プレゼンテーションをパスワード保護する方法。
 {{< /blocks/products/pf/product >}}

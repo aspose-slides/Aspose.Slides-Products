@@ -80,6 +80,10 @@ Jak sloučit prezentace pomocí Aspose.Slides API.
 Jak upravit vlastnosti prezentace pomocí Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Analyzátor" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/cs/parser/" >}}
+Jak extrahovat prezentační text, obrázky a zvuk pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Chránit" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/cs/protect/" >}}
 Jak chránit heslem PowerPoint prezentaci s Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

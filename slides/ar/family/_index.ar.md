@@ -80,6 +80,10 @@ PowerPoint API لبناء تطبيقات Xamarin عبر الأنظمة الأس�
 كيفية تحرير خصائص العرض التقديمي باستخدام Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="محلل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/ar/parser/" >}}
+كيفية استخراج نص العرض التقديمي والصور والصوت باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="يحمي" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/ar/protect/" >}}
 كيفية حماية كلمة مرور عرض PowerPoint التقديمي باستخدام Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

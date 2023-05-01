@@ -79,6 +79,10 @@ PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی ه
 نحوه ویرایش ویژگی های ارائه با استفاده از Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="تجزیه کننده" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/fa/parser/" >}}
+نحوه استخراج متن، تصاویر و صدا ارائه با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="محافظت" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/fa/protect/" >}}
 نحوه محافظت از ارائه پاورپوینت با رمز عبور با Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

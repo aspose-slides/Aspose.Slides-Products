@@ -79,6 +79,10 @@ Aspose.Slides API kullanarak Sunumları Birleştirme.
 Aspose.Slides API kullanarak Sunum özelliklerini Düzenleme.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Ayrıştırıcı" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/tr/parser/" >}}
+Aspose.Slides API kullanarak sunum metni, görseller ve ses çıkarma.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Korumak" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/tr/protect/" >}}
 Aspose.Slides API ile PowerPoint sunumunu Parolayla Koruma.
 {{< /blocks/products/pf/product >}}
