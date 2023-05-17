@@ -1,8 +1,33 @@
 ---
-title: Windows、Linux、macOSでPowerPointファイルを編集する
-url: /ja/redaction
-description: PPTPPTXおよびODPから機密情報を編集するための無料のアプリとAPI
+title: Windows、Linux、macOS で PowerPoint ファイルを編集する
+url: /ja/redaction/
+description: PPT、PPTX、ODP プレゼンテーションに保護を追加する API
 ---
 
-{{< blocks/products/pf/agp/feature-solution >}} 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/upper-banner h1="Aspose.Slides API を使用して PowerPoint および OpenOffice ドキュメントを編集: .NET、Java、C++、Python" h2="Python、Java、C++、C# でプレゼンテーションを編集する方法を学びます。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
 
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint コード サンプル オンライン インクルード" >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/ja/net/redaction/" >}}
+C# でプレゼンテーションを編集する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/ja/java/redaction/" >}}
+Java でプレゼンテーションを編集する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/ja/cpp/redaction/" >}}
+C++ でプレゼンテーションを編集する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/ja/python-net/redaction/" >}}
+Python でプレゼンテーションを編集する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

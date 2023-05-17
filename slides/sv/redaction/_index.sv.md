@@ -1,8 +1,33 @@
 ---
 title: Redagera PowerPoint-filer på Windows, Linux och macOS
-url: /sv/redaction
-description: Gratis app och API:er för att redigera känslig information från PPT PPTX och ODP
+url: /sv/redaction/
+description: API:er för att lägga till skydd till PPT-, PPTX- och ODP-presentationer
 ---
 
-{{< blocks/products/pf/agp/feature-solution >}} 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/upper-banner h1="Redigera PowerPoint- och OpenOffice-dokument med Aspose.Slides API:er: .NET, Java, C++, Python" h2="Lär dig hur du redigerar presentationer i Python, Java, C++ och C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
 
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint-kodprov online inkluderar" >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/sv/net/redaction/" >}}
+Hur man redigerar presentation i C#.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/sv/java/redaction/" >}}
+Hur man redigerar presentationer i Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/sv/cpp/redaction/" >}}
+Hur man redigerar presentation i C++.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/sv/python-net/redaction/" >}}
+Hur man redigerar presentation i Python.
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
