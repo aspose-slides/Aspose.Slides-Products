@@ -1,0 +1,32 @@
+---
+title: Bewerk PowerPoint- en OpenOffice-presentaties met Java
+url: /nl/java/redaction/
+description: Java-broncode om inhoud in PowerPoint- en OpenOffice™-presentaties te vinden en te verwijderen
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Redigeer PowerPoint- en OpenOffice-documenten met Java" h2="Bouw uw eigen Java-apps om inhoud in presentaties te vinden en te verwijderen met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="Codevoorbeelden redigeren Online opnemen" >}}
+
+{{< blocks/products/pf/product pfName="Presentatie redigeren" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/nl/java/redaction/odp/" >}}
+Hoe een ODP-bestand te redigeren met behulp van Aspose.Slides voor Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Presentatie redigeren" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/nl/java/redaction/ppt/" >}}
+Hoe een PPT-bestand te redigeren met behulp van Aspose.Slides voor Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Presentatie redigeren" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/nl/java/redaction/pptx/" >}}
+Hoe PPTX-bestanden te redigeren met behulp van Aspose.Slides voor Java API.
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}
