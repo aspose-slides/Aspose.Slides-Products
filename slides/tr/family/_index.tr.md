@@ -91,6 +91,10 @@ Aspose.Slides API ile PowerPoint sunumunu Parolayla Koruma.
 Aspose.Slides API'sini kullanarak bir sunumu yeniden düzenleme.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Aramak" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/tr/search/" >}}
+Aspose.Slides API kullanarak bir sunumda metin arama.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="İmza" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/tr/signature/" >}}
 Aspose.Slides API ile Sunum Nasıl İmzalanır?
 {{< /blocks/products/pf/product >}}

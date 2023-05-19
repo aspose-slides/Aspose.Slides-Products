@@ -91,6 +91,10 @@ PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی ه
 نحوه ویرایش یک ارائه با استفاده از Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="جستجو کردن" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/fa/search/" >}}
+نحوه جستجوی متن در ارائه با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="امضا" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/fa/signature/" >}}
 نحوه امضای ارائه با Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

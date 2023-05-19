@@ -91,6 +91,10 @@ Cách đặt mật khẩu bảo vệ bản trình bày PowerPoint bằng API Asp
 Cách tạo lại bản trình bày bằng API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Tìm kiếm" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/vi/search/" >}}
+Cách tìm kiếm văn bản trong bản trình bày bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Chữ ký" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/vi/signature/" >}}
 Cách ký bản trình bày với API Aspose.Slides.
 {{< /blocks/products/pf/product >}}

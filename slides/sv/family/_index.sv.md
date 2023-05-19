@@ -91,6 +91,10 @@ Hur man lösenordsskyddar PowerPoint-presentation med Aspose.Slides API.
 Hur man redigerar en presentation med Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Sök" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/sv/search/" >}}
+Hur man söker efter text i en presentation med Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Signatur" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/sv/signature/" >}}
 Hur man signerar en presentation med Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

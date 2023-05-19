@@ -92,6 +92,10 @@ So schützen Sie eine PowerPoint-Präsentation mit einem Passwort mit der Aspose
 So redigieren Sie eine Präsentation mit der Aspose.Slides-API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Suchen" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/de/search/" >}}
+So durchsuchen Sie Text in einer Präsentation mithilfe der Aspose.Slides-API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Unterschrift" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/de/signature/" >}}
 So signieren Sie eine Präsentation mit der Aspose.Slides-API.
 {{< /blocks/products/pf/product >}}

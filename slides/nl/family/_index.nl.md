@@ -91,6 +91,10 @@ PowerPoint-presentatie met een wachtwoord beveiligen met Aspose.Slides API.
 Een presentatie redigeren met de Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Zoekopdracht" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/nl/search/" >}}
+Tekst zoeken in een presentatie met de Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Handtekening" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/nl/signature/" >}}
 Presentatie ondertekenen met Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

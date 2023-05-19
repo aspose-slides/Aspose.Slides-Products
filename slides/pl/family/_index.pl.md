@@ -91,6 +91,10 @@ Jak zabezpieczyć hasłem prezentację programu PowerPoint za pomocą interfejsu
 Jak zredagować prezentację za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Szukaj" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/pl/search/" >}}
+Jak wyszukiwać tekst w prezentacji za pomocą API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Podpis" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/pl/signature/" >}}
 Jak podpisać prezentację za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}

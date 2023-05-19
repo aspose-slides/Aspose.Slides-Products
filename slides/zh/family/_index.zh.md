@@ -91,6 +91,10 @@ PowerPoint API，用于使用 PHP 脚本生成和操作演示文稿。
 如何使用 Aspose.Slides API 编辑演示文稿。
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="搜索" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/zh/search/" >}}
+如何使用 Aspose.Slides API 在演示文稿中搜索文本。
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="签名" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/zh/signature/" >}}
 如何使用 Aspose.Slides API 签署演示文稿。
 {{< /blocks/products/pf/product >}}

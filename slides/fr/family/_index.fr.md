@@ -91,6 +91,10 @@ Comment protéger par mot de passe la présentation PowerPoint avec l'API Aspose
 Comment rédiger une présentation à l'aide de l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Recherche" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/fr/search/" >}}
+Comment rechercher du texte dans une présentation à l'aide de l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Signature" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/fr/signature/" >}}
 Comment signer une présentation avec l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}

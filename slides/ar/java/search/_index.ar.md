@@ -1,0 +1,32 @@
+---
+title: ابحث عن نص في PowerPoint و OpenOffice Presentations باستخدام Java
+url: /ar/java/search/
+description: كود مصدر جافا للبحث عن الكلمات ذات النمط في عروض PowerPoint و OpenOffice ™ التقديمية
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="ابحث عن نص في مستندات PowerPoint و OpenOffice باستخدام Java" h2="قم ببناء تطبيقات Java الخاصة بك للبحث عن النص وتعديله في العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="ابحث عن نماذج كود العرض التقديمي عبر الإنترنت بما في ذلك" >}}
+
+{{< blocks/products/pf/product pfName="نص البحث" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/ar/java/search/odp/" >}}
+كيفية تعديل النص في ملف ODP باستخدام Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="نص البحث" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/ar/java/search/ppt/" >}}
+كيفية تعديل النص في ملف PPT باستخدام Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="نص البحث" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/ar/java/search/pptx/" >}}
+كيفية تعديل النص في ملف PPTX باستخدام Aspose.Slides for Java API.
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

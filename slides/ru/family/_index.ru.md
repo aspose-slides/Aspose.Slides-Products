@@ -91,6 +91,10 @@ API PowerPoint для создания кроссплатформенных пр
 Как отредактировать презентацию с помощью Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Поиск" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/ru/search/" >}}
+Как искать текст в презентации с помощью Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Подпись" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/ru/signature/" >}}
 Как подписать презентацию с помощью Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

@@ -91,6 +91,10 @@ How to Password Protect PowerPoint presentation with Aspose.Slides API.
 How to Redact a presentation using Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Search" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/search/" >}}
+How to Search text in a presentation using Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Signature" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/signature/" >}}
 How to Sign Presentation with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
