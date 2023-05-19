@@ -91,6 +91,10 @@ Bagaimana Sandi Melindungi presentasi PowerPoint dengan Aspose.Slides API.
 Cara menyunting presentasi menggunakan Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Mencari" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/id/search/" >}}
+Cara Mencari teks dalam presentasi menggunakan Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Tanda tangan" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/id/signature/" >}}
 Cara Menandatangani Presentasi dengan Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

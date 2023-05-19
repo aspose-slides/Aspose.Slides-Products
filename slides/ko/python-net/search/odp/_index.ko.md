@@ -1,0 +1,62 @@
+---
+title: Python을(를) 사용하여 ODP 프레젠테이션 파일에서 텍스트 검색
+url: /ko/python-net/search/odp/
+keywords: ODP에서 단어 검색, ODP에서 텍스트 검색 및 바꾸기, ODP에서 텍스트 검색 프레젠테이션
+description: ODP 프레젠테이션에서 텍스트를 검색하기 위한 Python 소스 코드입니다.
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Python을 사용하여 ODP 텍스트 검색" h2="서버 측 API를 사용하여 프리젠테이션 파일에서 텍스트를 검색하고 교체하는 나만의 Python 앱을 빌드하세요. 프레젠테이션 문서에서 특정 단어나 구의 모든 입구를 찾는 방법을 알아봅니다. 정확한 데이터 일치 및 정규식 일치로 텍스트를 검색합니다." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+
+{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+
+{{% blocks/products/pf/feature-page-section  h2="Python을 통한 텍스트 ODP 프레젠테이션 검색 및 바꾸기" %}}
+Aspose.Slides for Python via .NET API를 사용하여 콘텐츠, 댓글, 슬라이드 노트 또는 메타데이터의 기본 문서 검색 및 텍스트 바꾸기를 단 몇 줄의 코드로 수행할 수 있습니다. 정규식 일치를 사용하고 대소문자를 일치시켜 프레젠테이션의 텍스트를 검색합니다. 제목, 콘텐츠, 바닥글 또는 머리글에서 텍스트를 검색합니다.
+{{% blocks/products/pf/agp/code-block title="텍스트 검색 ODP Python을 사용한 프레젠테이션" offSpacer="true" %}}
+
+```py
+
+import aspose.slides as slides
+
+with slides.Presentation("welcome-to-powerpoint.odp") as pres:
+    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
+    pres.save("replaced.odp", slides.export.SaveFormat.ODP)
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="Python을 통해 ODP에서 텍스트를 검색하는 방법" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="텍스트 ODP 파일을 검색하는 단계입니다." >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+프레젠테이션 인스턴스로 ODP를 로드합니다.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+[FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) 메서드를 사용하여 텍스트를 찾고 바꿉니다.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+결과를 ODP 형식으로 저장
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/demobox sectionTitle="온라인 ODP 검색 라이브 데모" sectionDescription="지금 바로 ODP 문서의 콘텐츠, 댓글 또는 메타데이터에서 텍스트를 검색하고 교체하세요." >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 검색 형식" subTitle="Python을(를) 사용하여 다음 형식의 텍스트를 검색할 수도 있습니다." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/search/pptx/" name="PPTX" >}}
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

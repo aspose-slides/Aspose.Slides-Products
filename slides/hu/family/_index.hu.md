@@ -95,6 +95,10 @@ Prezentáció szerkesztése az Aspose.Slides API használatával.
 Prezentáció aláírása az Aspose.Slides API-val.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Keresés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/hu/search/" >}}
+Hogyan keressünk szöveget egy prezentációban az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Splitter" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/hu/splitter/" >}}
 PowerPoint-prezentáció felosztása az Aspose.Slides API használatával.
 {{< /blocks/products/pf/product >}}

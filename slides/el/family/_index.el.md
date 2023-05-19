@@ -91,6 +91,11 @@ PowerPoint API για τη δημιουργία εφαρμογών Xamarin πο�
 Πώς να επεξεργαστείτε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Αναζήτηση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/el/search/" >}}
+Τρόπος αναζήτησης κειμένου σε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+
 {{< blocks/products/pf/product pfName="" title="Υπογραφή" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/el/signature/" >}}
 Πώς να υπογράψετε την παρουσίαση με το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

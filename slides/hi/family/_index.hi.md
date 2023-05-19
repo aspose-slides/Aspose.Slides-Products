@@ -91,6 +91,10 @@ Aspose.Slides API के साथ PowerPoint प्रस्तुति को
 Aspose.Slides API का उपयोग करके किसी प्रस्तुतिकरण को कैसे संपादित करें।
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="खोज" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/hi/search/" >}}
+Aspose.Slides API का उपयोग करके प्रेजेंटेशन में टेक्स्ट कैसे खोजें।
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="हस्ताक्षर" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/hi/signature/" >}}
 Aspose.Slides API के साथ प्रस्तुति पर हस्ताक्षर कैसे करें।
 {{< /blocks/products/pf/product >}}

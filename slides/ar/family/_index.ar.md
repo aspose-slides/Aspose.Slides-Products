@@ -92,6 +92,10 @@ PowerPoint API لبناء تطبيقات Xamarin عبر الأنظمة الأس�
 كيفية تنقيح عرض تقديمي باستخدام Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="يبحث" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/ar/search/" >}}
+كيفية البحث عن نص في عرض تقديمي باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="إمضاء" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/ar/signature/" >}}
 كيفية توقيع العرض التقديمي باستخدام Aspose.Slides API.
 {{< /blocks/products/pf/product >}}

@@ -91,6 +91,10 @@ Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션을 암호로 보
 Aspose.Slides API를 사용하여 프레젠테이션을 편집하는 방법.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="찾다" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/ko/search/" >}}
+Aspose.Slides API를 사용하여 프레젠테이션에서 텍스트를 검색하는 방법.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="서명" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/ko/signature/" >}}
 Aspose.Slides API로 프레젠테이션에 서명하는 방법.
 {{< /blocks/products/pf/product >}}

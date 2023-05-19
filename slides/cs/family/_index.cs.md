@@ -92,6 +92,10 @@ Jak chránit heslem PowerPoint prezentaci s Aspose.Slides API.
 Jak upravit prezentaci pomocí Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Vyhledávání" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/cs/search/" >}}
+Jak vyhledávat text v prezentaci pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Podpis" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/cs/signature/" >}}
 Jak podepsat prezentaci pomocí Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
