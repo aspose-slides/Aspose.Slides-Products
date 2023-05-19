@@ -91,8 +91,7 @@ PowerPoint API สำหรับสร้างแอปพลิเคชั�
 วิธีแก้ไขงานนำเสนอโดยใช้ Aspose.Slides API
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="ค้นหา" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_s
-earch-app.png" productLink="/slides/th/search/" >}}
+{{< blocks/products/pf/product pfName="" title="ค้นหา" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/th/search/" >}}
 วิธีค้นหาข้อความในงานนำเสนอโดยใช้ Aspose.Slides API
 {{< /blocks/products/pf/product >}}
 
