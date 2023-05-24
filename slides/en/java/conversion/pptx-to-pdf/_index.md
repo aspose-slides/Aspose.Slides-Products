@@ -108,6 +108,7 @@ presentation.save("output.pdf", SaveFormat.Pdf);
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX into many other file formats including few listed below." >}}
 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-video/" name="PPTX TO VIDEO" description="Video" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Graphical Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hyper Text Markup Language" >}}
