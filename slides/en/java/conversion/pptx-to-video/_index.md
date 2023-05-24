@@ -18,10 +18,7 @@ This is how the PPTX to video conversion process works: Aspose.Slides is used to
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
 {{< blocks/products/pf/feature-page-section  h2="How to convert PPTX to video" >}}
-
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
@@ -49,9 +46,7 @@ Copy, paste, and then run the Java PowerPoint to video code.
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
-
 {{< /blocks/products/pf/feature-page-section >}}
-
 
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to video in Java" %}}
@@ -59,6 +54,7 @@ Use this Java code to convert PPTX to video:
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting PowerPoint to video" offSpacer="true" %}}
 ```java
+
 Presentation presentation = new Presentation();
 try {
     // Adds a smile shape and then animates it
@@ -117,11 +113,7 @@ try {
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
-
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
-
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
@@ -132,7 +124,6 @@ try {
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
-
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -18,10 +18,7 @@ This is how the PPT to video conversion process works: Aspose.Slides is used to 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
 {{< blocks/products/pf/feature-page-section  h2="How to convert PPT to video" >}}
-
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
@@ -30,9 +27,7 @@ Install **Aspose.Slides for C++** by following the instructions [here](https://d
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-
 Add path to `ffmpeg.exe` to environment variable `PATH`.
-
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -41,16 +36,14 @@ Copy, paste, and then run the C++ PowerPoint to video code.
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
-
 {{< /blocks/products/pf/feature-page-section >}}
-
-
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to video in C++" %}}
 Use this C++ code to convert PPT to video:
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting PowerPoint to video" offSpacer="true" %}}
 ```c++
+
 void OnFrameTick(System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args)
 {
     System::String fileName = System::String::Format(u"frame_{0}.png", sender->get_FrameIndex());
@@ -88,11 +81,7 @@ void Run()
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
-
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
-
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-word/" name="PPT TO WORD" >}}
@@ -103,7 +92,6 @@ void Run()
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

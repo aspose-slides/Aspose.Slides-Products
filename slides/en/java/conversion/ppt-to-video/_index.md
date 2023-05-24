@@ -18,10 +18,7 @@ This is how the PPT to video conversion process works: Aspose.Slides is used to 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
 {{< blocks/products/pf/feature-page-section  h2="How to convert PPT to video" >}}
-
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
@@ -49,16 +46,14 @@ Copy, paste, and then run the Java PowerPoint to video code.
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
-
 {{< /blocks/products/pf/feature-page-section >}}
-
-
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to video in Java" %}}
 Use this Java code to convert PPT to video:
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting PowerPoint to video" offSpacer="true" %}}
 ```java
+
 Presentation presentation = new Presentation();
 try {
     // Adds a smile shape and then animates it
@@ -117,11 +112,7 @@ try {
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
-
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
-
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-word/" name="PPT TO WORD" >}}
@@ -132,7 +123,6 @@ try {
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

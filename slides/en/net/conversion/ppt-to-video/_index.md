@@ -18,10 +18,7 @@ This is how the PPT to video conversion process works: Aspose.Slides is used to 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
 {{< blocks/products/pf/feature-page-section  h2="How to convert PPT to video" >}}
-
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
@@ -43,16 +40,14 @@ Copy, paste, and then run the PowerPoint to video code.
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
-
 {{< /blocks/products/pf/feature-page-section >}}
-
-
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to video in C#" %}}
 Use this code to convert PPT to video:
 
 {{% blocks/products/pf/agp/code-block title="C# code for converting PowerPoint to video" offSpacer="true" %}}
 ```cs
+
 using System.Collections.Generic;
 using Aspose.Slides;
 using FFMpegCore; // Will use FFmpeg binaries we extracted to "c:\tools\ffmpeg" before
@@ -93,11 +88,7 @@ using (Presentation presentation = new Presentation())
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-
-
-
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
-
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
