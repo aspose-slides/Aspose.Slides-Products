@@ -1,12 +1,12 @@
 ---
 title: पावरपॉइंट .NET जावा सी++ पायथन एंड्रॉइड एपीआई
 weight: 10
-url: /hi/family
-description: .NET, Java, C++, Python, PHP के लिए PowerPoint API। बनाएं राइट एडिट रेंडर प्रिंट पावरपॉइंट पीपीटी, पीपीटीएक्स, ओडीपी। SSRS और JasperReports में स्लाइड निर्यात करें
+url: /hi/family/
+description: .NET, Java, C++, Python, PHP के लिए PowerPoint API। क्रिएट राइट एडिट रेंडर प्रिंट पावर पॉइंट पीपीटी, पीपीटीएक्स, ओडीपी। SSRS और JasperReports में निर्यात स्लाइड
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="पावरपॉइंट एपीआई: .NET, Java, C++, Python, PHP" h2="क्रॉस प्लेटफॉर्म डेवलपमेंट के लिए नेटिव एपीआई। पावरपॉइंट प्रेजेंटेशन और स्लाइड को .NET, Java, C++, Python, PHP, Android में जेनरेट, मैनेज और कन्वर्ट करें" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="पावरपॉइंट एपीआई: .NET, Java, C++, Python, PHP" h2="क्रॉस प्लेटफॉर्म डेवलपमेंट के लिए नेटिव एपीआई। पावरपॉइंट प्रेजेंटेशन और स्लाइड को .NET, Java, C++, Python, PHP, Android में जेनरेट, मैनेज और कन्वर्ट करें" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API शामिल करें" >}}
@@ -69,6 +69,10 @@ Aspose.Slides API के माध्यम से PowerPoint दस्ताव
 
 {{< blocks/products/pf/product pfName="" title="परिवर्तन" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hi/conversion/" >}}
 Aspose.Slides API का उपयोग करके PowerPoint प्रस्तुतियों को कैसे बदलें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="चार्ट" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/hi/chart/" >}}
+Aspose.Slides API का उपयोग करके PowerPoint प्रस्तुतियों में चार्ट का उपयोग कैसे करें।
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="विलयन" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hi/merger/" >}}
@@ -141,6 +145,6 @@ Aspose.Slides API का उपयोग करके वॉटरमार्�
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

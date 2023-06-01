@@ -1,0 +1,28 @@
+---
+title: C++를 사용하여 PowerPoint 프레젠테이션에 차트 추가
+url: /ko/cpp/chart/
+description: PowerPoint 프레젠테이션에 차트를 추가하는 C++ 소스 코드
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="C++를 사용하여 PowerPoint 문서에서 차트 만들기" h2="서버측 API를 사용하여 프리젠테이션에서 원형 차트, 막대 그래프 및 기타 다이어그램을 생성하는 고유한 C++ 앱을 빌드합니다." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="온라인 차트 코드 샘플 추가 포함" >}}
+
+{{< blocks/products/pf/product pfName="차트 만들기" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ko/cpp/chart/ppt/" >}}
+Aspose.Slides for C++ API를 사용하여 PPT 파일에 차트를 추가하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="차트 만들기" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ko/cpp/chart/pptx/" >}}
+Aspose.Slides for C++ API를 사용하여 PPTX 파일에 차트를 추가하는 방법.
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

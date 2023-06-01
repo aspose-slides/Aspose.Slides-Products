@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C ++ Python PHP Android API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /ja/family
-description: PowerPoint API for .NET、Java、C ++、PHP、Python。作成書き込み編集レンダリング印刷PowerPointPPT、PPTX、ODP。 SSRSおよびJasperReportsでスライドをエクスポートする
+url: /ja/family/
+description: .NET、Java、C++、Python、PHP 用の PowerPoint API。作成 書き込み 編集 レンダリング 印刷 PowerPoint PPT、PPTX、ODP。 SSRS および JasperReports でスラ​​イドをエクスポートする
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API：.NET、Java、C ++、Python、PHP" h2="クロスプラットフォーム開発用のネイティブAPI。 .NET、Java、C ++、Python、PHP、AndroidでPowerPointプレゼンテーションとスライドを生成、管理、変換する" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API：.NET、Java、C ++、Python、PHP" h2="クロスプラットフォーム開発用のネイティブAPI。 .NET、Java、C ++、Python、PHP、AndroidでPowerPointプレゼンテーションとスライドを生成、管理、変換する" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.SlidesPowerPointAPIに含まれるもの" >}}
@@ -69,6 +69,10 @@ Aspose.Slides API を介して PowerPoint ドキュメントを比較する方�
 
 {{< blocks/products/pf/product pfName="" title="会話" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ja/conversion/" >}}
 Aspose.Slides API を使用して PowerPoint プレゼンテーションを変換する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="チャート" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ja/chart/" >}}
+Aspose.Slides API を使用して PowerPoint プレゼンテーションでグラフを使用する方法。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="合併" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ja/merger/" >}}
@@ -141,6 +145,6 @@ Aspose.Slides API を使用して透かしを追加する方法。
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

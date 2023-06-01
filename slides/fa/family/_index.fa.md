@@ -1,12 +1,12 @@
 ---
-title: پاورپوینت دات نت Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android APIs
 weight: 10
-url: /fa/family
-description: پاورپوینت API برای دات نت، جاوا، سی پلاس پلاس، پایتون. ایجاد نوشتن ویرایش رندر چاپ پاورپوینت PPT، PPTX، ODP. اسلایدها را در SSRS و JasperReports صادر کنید
+url: /fa/family/
+description: پاورپوینت API برای دات نت، جاوا، سی پلاس پلاس، پایتون، پی اچ پی. ایجاد نوشتن ویرایش رندر چاپ پاورپوینت PPT، PPTX، ODP. اسلایدها را در SSRS و JasperReports صادر کنید
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="پاورپوینت های API: دات نت، جاوا، سی پلاس پلاس، پایتون" h2="APIهای بومی برای توسعه پلتفرم متقابل. تولید، مدیریت و تبدیل پاورپوینت ها و اسلایدها در دات نت، جاوا، سی پلاس پلاس، پایتون، اندروید" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="پاورپوینت های API: دات نت، جاوا، سی پلاس پلاس، پایتون" h2="APIهای بومی برای توسعه پلتفرم متقابل. تولید، مدیریت و تبدیل پاورپوینت ها و اسلایدها در دات نت، جاوا، سی پلاس پلاس، پایتون، اندروید" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides پاورپوینت APIs شامل" >}}
@@ -71,6 +71,10 @@ PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی ه
 نحوه تبدیل ارائه های پاورپوینت با استفاده از Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="چارت سازمانی" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/fa/chart/" >}}
+نحوه استفاده از نمودارها در ارائه های پاورپوینت با استفاده از Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="ادغام" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/fa/merger/" >}}
 نحوه ادغام ارائه ها با استفاده از Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
@@ -116,6 +120,7 @@ PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی ه
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/i18n/support-learning-resources >}}
@@ -140,6 +145,6 @@ PowerPoint API برای ساخت راه‌حل‌های چند پلتفرمی ه
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

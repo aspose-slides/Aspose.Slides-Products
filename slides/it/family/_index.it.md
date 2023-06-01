@@ -1,12 +1,12 @@
 ---
-title: API di PowerPoint .NET Java C++ Python Android
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /it/family
-description: API PowerPoint per .NET, Java, C++, Python, PHP. Crea Scrivi Modifica Rendering Stampa PowerPoint PPT, PPTX, ODP. Esporta diapositive in SSRS e JasperReports
+url: /it/family/
+description: API di PowerPoint per .NET, Java, C++, Python, PHP. Crea Scrivi Modifica Rendering Stampa PowerPoint PPT, PPTX, ODP. Esporta diapositive in SSRS e JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C++, Python, PHP" h2="API native per lo sviluppo multipiattaforma. Genera, gestisci e converti presentazioni e diapositive PowerPoint in .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C++, Python, PHP" h2="API native per lo sviluppo multipiattaforma. Genera, gestisci e converti presentazioni e diapositive PowerPoint in .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Le API di Aspose.Slides PowerPoint includono" >}}
@@ -69,6 +69,10 @@ Come confrontare i documenti PowerPoint tramite l'API Aspose.Slides.
 
 {{< blocks/products/pf/product pfName="" title="Conversione" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/it/conversion/" >}}
 Come convertire le presentazioni di PowerPoint utilizzando l'API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Grafico" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/it/chart/" >}}
+Come utilizzare i grafici nelle presentazioni PowerPoint utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Fusione" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/it/merger/" >}}
@@ -141,6 +145,6 @@ Come aggiungere filigrana utilizzando l'API Aspose.Slides.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

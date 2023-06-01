@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API's
+title: PowerPoint .NET Java C++ Python PHP Android API's
 weight: 10
-url: /nl/family
-description: PowerPoint-API voor .NET, Java, C++, Python, PHP. Creëren Schrijven Bewerken Render Print PowerPoint PPT, PPTX, ODP. Dia's exporteren in SSRS en JasperReports
+url: /nl/family/
+description: PowerPoint-API voor .NET, Java, C++, Python, PHP. Aanmaken Schrijven Bewerken Renderen Afdrukken PowerPoint PPT, PPTX, ODP. Exporteer dia's in SSRS en JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API's: .NET, Java, C++, Python, PHP" h2="Native API's voor cross-platformontwikkeling. Genereer, beheer en converteer PowerPoint-presentaties en -dia's in .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API's: .NET, Java, C++, Python, PHP" h2="Native API's voor cross-platformontwikkeling. Genereer, beheer en converteer PowerPoint-presentaties en -dia's in .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint-API's omvatten" >}}
@@ -69,6 +69,10 @@ PowerPoint-documenten vergelijken via Aspose.Slides API.
 
 {{< blocks/products/pf/product pfName="" title="Conversie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/nl/conversion/" >}}
 PowerPoint-presentaties converteren met de Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Grafiek" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/nl/chart/" >}}
+Grafieken gebruiken in PowerPoint-presentaties met behulp van de Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Fusie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/nl/merger/" >}}
@@ -141,6 +145,6 @@ Watermerk toevoegen met Aspose.Slides API.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

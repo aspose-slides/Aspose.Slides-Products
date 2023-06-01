@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API'leri
+title: PowerPoint .NET Java C++ Python PHP Android API'leri
 weight: 10
-url: /tr/family
-description: .NET, Java, C++, Python, PHP için PowerPoint API. Oluştur Yaz Düzenle Render Yazdır PowerPoint PPT, PPTX, ODP. Slaytları SSRS ve JasperReports'ta Dışa Aktarma
+url: /tr/family/
+description: .NET, Java, C++, Python, PHP için PowerPoint API'si. Oluştur Yaz Düzenle İşle Yazdır PowerPoint PPT, PPTX, ODP. SSRS ve JasperReports'ta Slaytları Dışa Aktarma
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API'leri: .NET, Java, C++, Python, PHP" h2="Platformlar arası geliştirme için yerel API'ler. .NET, Java, C++, Python, PHP, Android'de PowerPoint Sunumları ve Slaytlar oluşturun, yönetin ve dönüştürün" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API'leri: .NET, Java, C++, Python, PHP" h2="Platformlar arası geliştirme için yerel API'ler. .NET, Java, C++, Python, PHP, Android'de PowerPoint Sunumları ve Slaytlar oluşturun, yönetin ve dönüştürün" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API'leri şunları içerir:" >}}
@@ -69,6 +69,10 @@ Aspose.Slides API aracılığıyla PowerPoint belgeleri nasıl karşılaştırı
 
 {{< blocks/products/pf/product pfName="" title="Dönüştürmek" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/tr/conversion/" >}}
 Aspose.Slides API kullanarak PowerPoint sunumlarını dönüştürme.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Çizelge" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/tr/chart/" >}}
+Aspose.Slides API kullanılarak PowerPoint sunumlarında grafikler nasıl kullanılır?
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Birleşme" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/tr/merger/" >}}
@@ -141,6 +145,6 @@ Aspose.Slides API Kullanarak Filigran Nasıl Eklenir?
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /zh/family
-description: 适用于 .NET、Java、C++、Python 的 PowerPoint API。创建 写入 编辑 渲染 打印 PowerPoint PPT、PPTX、ODP。在 SSRS 和 JasperReports 中导出幻灯片
+url: /zh/family/
+description: 适用于 .NET、Java、C++、Python、PHP 的 PowerPoint API。创建写入编辑渲染打印 PowerPoint PPT、PPTX、ODP。在 SSRS 和 JasperReports 中导出幻灯片
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API：.NET、Java、C++、Python、PHP" h2="用于跨平台开发的原生 API。在 .NET、Java、C++、Python、PHP、Android 中生成、管理和转换 PowerPoint 演示文稿和幻灯片" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API：.NET、Java、C++、Python、PHP" h2="用于跨平台开发的原生 API。在 .NET、Java、C++、Python、PHP、Android 中生成、管理和转换 PowerPoint 演示文稿和幻灯片" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API 包括" >}}
@@ -69,6 +69,10 @@ PowerPoint API，用于使用 PHP 脚本生成和操作演示文稿。
 
 {{< blocks/products/pf/product pfName="" title="转换" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/zh/conversion/" >}}
 如何使用 Aspose.Slides API 转换 PowerPoint 演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="图表" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/zh/chart/" >}}
+如何使用 Aspose.Slides API 在 PowerPoint 演示文稿中使用图表。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="合并" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/zh/merger/" >}}
@@ -141,6 +145,6 @@ PowerPoint API，用于使用 PHP 脚本生成和操作演示文稿。
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

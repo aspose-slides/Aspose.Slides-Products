@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /pl/family
-description: PowerPoint API dla .NET, Java, C++, Python, PHP. Utwórz Zapisz Edycja Renderuj Wydrukuj PowerPoint PPT, PPTX, ODP. Eksportuj slajdy w SSRS i JasperReports
+url: /pl/family/
+description: PowerPoint API dla .NET, Java, C++, Python, PHP. Twórz Pisz Edytuj Renderuj Drukuj PowerPoint PPT, PPTX, ODP. Eksportuj slajdy w SSRS i JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="Interfejsy API programu PowerPoint: .NET, Java, C++, Python, PHP" h2="Natywne interfejsy API do programowania na wielu platformach. Generuj, zarządzaj i konwertuj prezentacje i slajdy PowerPoint w .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="Interfejsy API programu PowerPoint: .NET, Java, C++, Python, PHP" h2="Natywne interfejsy API do programowania na wielu platformach. Generuj, zarządzaj i konwertuj prezentacje i slajdy PowerPoint w .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API Zawiera" >}}
@@ -69,6 +69,10 @@ Jak porównywać dokumenty programu PowerPoint za pomocą interfejsu API Aspose.
 
 {{< blocks/products/pf/product pfName="" title="Konwersja" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/conversion/" >}}
 Jak konwertować prezentacje programu PowerPoint za pomocą interfejsu API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Wykres" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/pl/chart/" >}}
+Jak korzystać z wykresów w prezentacjach PowerPoint przy użyciu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Połączenie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/merger/" >}}
@@ -141,6 +145,6 @@ Jak dodać znak wodny za pomocą interfejsu API Aspose.Slides.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

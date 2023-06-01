@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /cs/family
+url: /cs/family/
 description: PowerPoint API pro .NET, Java, C++, Python, PHP. Vytvořit Zapsat Upravit Vykreslit Tisk PowerPoint PPT, PPTX, ODP. Exportovat snímky v SSRS a JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API: .NET, Java, C++, Python, PHP" h2="Nativní rozhraní API pro vývoj napříč platformami. Vytvářejte, spravujte a převádějte PowerPointové prezentace a prezentace v .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API: .NET, Java, C++, Python, PHP" h2="Nativní rozhraní API pro vývoj napříč platformami. Vytvářejte, spravujte a převádějte PowerPointové prezentace a prezentace v .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API zahrnuje" >}}
@@ -70,6 +70,10 @@ Jak porovnávat PowerPoint dokumenty přes Aspose.Slides API.
 
 {{< blocks/products/pf/product pfName="" title="Konverze" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/cs/conversion/" >}}
 Jak převést PowerPointové prezentace pomocí Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Schéma" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/cs/chart/" >}}
+Jak používat grafy v prezentacích PowerPoint pomocí Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Fúze" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cs/merger/" >}}
@@ -143,6 +147,6 @@ Jak přidat vodoznak pomocí Aspose.Slides API.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

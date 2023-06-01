@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /id/family
+url: /id/family/
 description: PowerPoint API untuk .NET, Java, C++, Python, PHP. Buat Tulis Edit Render Cetak PowerPoint PPT, PPTX, ODP. Ekspor Slide di SSRS dan JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C++, Python, PHP" h2="API asli untuk pengembangan lintas platform. Hasilkan, kelola, dan konversi Presentasi & Slide PowerPoint di .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C++, Python, PHP" h2="API asli untuk pengembangan lintas platform. Hasilkan, kelola, dan konversi Presentasi & Slide PowerPoint di .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slide PowerPoint API Termasuk" >}}
@@ -69,6 +69,10 @@ Bagaimana Membandingkan dokumen PowerPoint melalui Aspose.Slides API.
 
 {{< blocks/products/pf/product pfName="" title="Konversi" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/id/conversion/" >}}
 Cara Mengonversi presentasi PowerPoint menggunakan Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Bagan" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/id/chart/" >}}
+Cara menggunakan bagan dalam presentasi PowerPoint menggunakan Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Penggabungan" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/id/merger/" >}}
@@ -141,6 +145,6 @@ Cara Menambahkan Tanda Air Menggunakan Aspose.Slides API.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
