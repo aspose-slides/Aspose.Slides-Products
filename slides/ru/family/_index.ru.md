@@ -1,12 +1,12 @@
 ---
-title: API PowerPoint .NET Java C++ Python для Android
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /ru/family
+url: /ru/family/
 description: API PowerPoint для .NET, Java, C++, Python, PHP. Создать Записать Редактировать Рендеринг Печать PowerPoint PPT, PPTX, ODP. Экспорт слайдов в SSRS и JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="API-интерфейсы PowerPoint: .NET, Java, C++, Python, PHP" h2="Нативные API для кроссплатформенной разработки. Создание, управление и преобразование презентаций и слайдов PowerPoint в .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API-интерфейсы PowerPoint: .NET, Java, C++, Python, PHP" h2="Нативные API для кроссплатформенной разработки. Создание, управление и преобразование презентаций и слайдов PowerPoint в .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="API-интерфейсы Aspose.Slides для PowerPoint включают" >}}
@@ -32,7 +32,7 @@ API PowerPoint для управления презентациями PowerPoint
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/ru/php-java/" >}}
-PowerPoint API для создания презентаций и управления ими с помощью скриптов Python.
+PowerPoint API для создания презентаций и управления ими с помощью сценариев PHP.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ru/sharepoint/" >}}
@@ -69,6 +69,10 @@ API PowerPoint для создания кроссплатформенных пр
 
 {{< blocks/products/pf/product pfName="" title="Преобразование" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ru/conversion/" >}}
 Как конвертировать презентации PowerPoint с помощью Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Диаграмма" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ru/chart/" >}}
+Как использовать диаграммы в презентациях PowerPoint с помощью Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Слияние" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ru/merger/" >}}
@@ -141,6 +145,6 @@ API PowerPoint для создания кроссплатформенных пр
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

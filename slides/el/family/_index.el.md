@@ -1,7 +1,7 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /el/family
+url: /el/family/
 description: PowerPoint API για .NET, Java, C++, Python, PHP. Δημιουργία Εγγραφής Επεξεργασία Απόδοση Εκτύπωση PowerPoint PPT, PPTX, ODP. Εξαγωγή διαφανειών σε SSRS και JasperReports
 ---
 
@@ -71,6 +71,10 @@ PowerPoint API για τη δημιουργία εφαρμογών Xamarin πο�
 Πώς να μετατρέψετε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Διάγραμμα" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/el/chart/" >}}
+Τρόπος χρήσης γραφημάτων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Συγχώνευση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/el/merger/" >}}
 Τρόπος συγχώνευσης παρουσιάσεων χρησιμοποιώντας το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
@@ -94,7 +98,6 @@ PowerPoint API για τη δημιουργία εφαρμογών Xamarin πο�
 {{< blocks/products/pf/product pfName="" title="Αναζήτηση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/el/search/" >}}
 Τρόπος αναζήτησης κειμένου σε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
-
 
 {{< blocks/products/pf/product pfName="" title="Υπογραφή" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/el/signature/" >}}
 Πώς να υπογράψετε την παρουσίαση με το Aspose.Slides API.

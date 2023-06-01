@@ -1,0 +1,28 @@
+---
+title: เพิ่มแผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Python
+url: /th/python-net/chart/
+description: ซอร์สโค้ด Python เพื่อเพิ่มแผนภูมิในงานนำเสนอ PowerPoint
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="สร้างแผนภูมิในเอกสาร PowerPoint โดยใช้ Python" h2="สร้างแอป Python ของคุณเองเพื่อสร้างแผนภูมิวงกลม กราฟแท่ง และไดอะแกรมอื่นๆ ในงานนำเสนอโดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="เพิ่มตัวอย่างรหัสแผนภูมิออนไลน์รวม" >}}
+
+{{< blocks/products/pf/product pfName="สร้างแผนภูมิ" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/th/python-net/chart/ppt/" >}}
+วิธีเพิ่มแผนภูมิไปยังไฟล์ PPT โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="สร้างแผนภูมิ" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/th/python-net/chart/pptx/" >}}
+วิธีเพิ่มแผนภูมิไปยังไฟล์ PPTX โดยใช้ Aspose.Slides สำหรับ Python ผ่าน .NET API
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

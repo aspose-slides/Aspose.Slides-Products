@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API'er
+title: PowerPoint .NET Java C++ Python PHP Android API:er
 weight: 10
-url: /sv/family
+url: /sv/family/
 description: PowerPoint API för .NET, Java, C++, Python, PHP. Skapa Skriv Redigera Rendera Skriv ut PowerPoint PPT, PPTX, ODP. Exportera bilder i SSRS och JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API:er: .NET, Java, C++, Python, PHP" h2="Native API:er för utveckling över plattformar. Generera, hantera och konvertera PowerPoint-presentationer och presentationer i .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API:er: .NET, Java, C++, Python, PHP" h2="Native API:er för utveckling över plattformar. Generera, hantera och konvertera PowerPoint-presentationer och presentationer i .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API:er inkluderar" >}}
@@ -69,6 +69,10 @@ Hur man jämför PowerPoint-dokument via Aspose.Slides API.
 
 {{< blocks/products/pf/product pfName="" title="Omvandling" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/sv/conversion/" >}}
 Hur man konverterar PowerPoint-presentationer med Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Diagram" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/sv/chart/" >}}
+Hur man använder diagram i PowerPoint-presentationer med Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Fusion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/sv/merger/" >}}
@@ -141,6 +145,6 @@ Hur man lägger till vattenstämpel med Aspose.Slides API.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

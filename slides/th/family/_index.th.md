@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP APIs
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /th/family
-description: PowerPoint API สำหรับ .NET, Java, C++, Python, PHP สร้าง เขียน แก้ไข แสดงผล พิมพ์ PowerPoint PPT, PPTX, ODP ส่งออกสไลด์ใน SSRS และ JasperReports
+url: /th/family/
+description: PowerPoint API สำหรับ .NET, Java, C++, Python, PHP สร้าง เขียน แก้ไข Render พิมพ์ PowerPoint PPT, PPTX, ODP ส่งออกสไลด์ใน SSRS และ JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint APIs: .NET, Java, C++, Python, PHP" h2="Native APIs สำหรับการพัฒนาข้ามแพลตฟอร์ม สร้าง จัดการ และแปลงงานนำเสนอและสไลด์ PowerPoint ใน .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint APIs: .NET, Java, C++, Python, PHP" h2="Native APIs สำหรับการพัฒนาข้ามแพลตฟอร์ม สร้าง จัดการ และแปลงงานนำเสนอและสไลด์ PowerPoint ใน .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="รวม Aspose.Slides PowerPoint APIs" >}}
@@ -69,6 +69,10 @@ PowerPoint API สำหรับสร้างแอปพลิเคชั�
 
 {{< blocks/products/pf/product pfName="" title="การแปลง" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/th/conversion/" >}}
 วิธีแปลงงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="แผนภูมิ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/th/chart/" >}}
+วิธีใช้แผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="การควบรวมกิจการ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/th/merger/" >}}
@@ -141,6 +145,6 @@ PowerPoint API สำหรับสร้างแอปพลิเคชั�
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

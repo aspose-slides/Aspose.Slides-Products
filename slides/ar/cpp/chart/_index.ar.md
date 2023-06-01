@@ -1,0 +1,28 @@
+---
+title: أضف مخططًا إلى عروض PowerPoint التقديمية باستخدام C++
+url: /ar/cpp/chart/
+description: كود المصدر C++ لإضافة مخطط إلى عروض PowerPoint التقديمية
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="إنشاء مخطط في مستندات PowerPoint باستخدام C++" h2="قم ببناء تطبيقات C++ الخاصة بك لإنشاء مخططات دائرية ورسوم بيانية شريطية ومخططات أخرى في العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="قم بإضافة نماذج التعليمات البرمجية للمخطط عبر الإنترنت" >}}
+
+{{< blocks/products/pf/product pfName="إنشاء الرسوم البيانية" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ar/cpp/chart/ppt/" >}}
+كيفية إضافة مخطط إلى ملف PPT باستخدام Aspose.Slides for C++ API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="إنشاء الرسوم البيانية" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ar/cpp/chart/pptx/" >}}
+كيفية إضافة مخطط إلى ملف PPTX باستخدام Aspose.Slides for C++ API.
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}

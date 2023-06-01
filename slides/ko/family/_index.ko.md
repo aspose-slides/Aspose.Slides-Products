@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /ko/family
-description: .NET, Java, C++, Python, PHP용 PowerPoint API. 만들기 쓰기 편집 렌더링 인쇄 PowerPoint PPT, PPTX, ODP를 만듭니다. SSRS 및 JasperReports에서 슬라이드 내보내기
+url: /ko/family/
+description: .NET, Java, C++, Python, PHP용 PowerPoint API. 만들기 쓰기 편집 렌더링 인쇄 PowerPoint PPT, PPTX, ODP. SSRS 및 JasperReports에서 슬라이드 내보내기
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API: .NET, Java, C++, Python, PHP" h2="크로스 플랫폼 개발을 위한 네이티브 API. .NET, Java, C++, Python, PHP, Android에서 PowerPoint 프레젠테이션 및 슬라이드 생성, 관리 및 변환" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API: .NET, Java, C++, Python, PHP" h2="크로스 플랫폼 개발을 위한 네이티브 API. .NET, Java, C++, Python, PHP, Android에서 PowerPoint 프레젠테이션 및 슬라이드 생성, 관리 및 변환" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API 포함" >}}
@@ -69,6 +69,10 @@ Aspose.Slides API를 통해 PowerPoint 문서를 비교하는 방법.
 
 {{< blocks/products/pf/product pfName="" title="변환" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ko/conversion/" >}}
 Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션을 변환하는 방법.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="차트" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ko/chart/" >}}
+Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션에서 차트를 사용하는 방법.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="합병" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ko/merger/" >}}
@@ -141,6 +145,6 @@ Aspose.Slides API를 사용하여 워터마크를 추가하는 방법.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

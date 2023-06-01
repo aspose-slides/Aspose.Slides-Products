@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /es/family
+url: /es/family/
 description: API de PowerPoint para .NET, Java, C++, Python, PHP. Crear Escribir Editar Renderizar Imprimir PowerPoint PPT, PPTX, ODP. Exportar diapositivas en SSRS y JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="API de PowerPoint: .NET, Java, C++, Python, PHP" h2="API nativas para el desarrollo multiplataforma. Genere, administre y convierta presentaciones y diapositivas de PowerPoint en .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API de PowerPoint: .NET, Java, C++, Python, PHP" h2="API nativas para el desarrollo multiplataforma. Genere, administre y convierta presentaciones y diapositivas de PowerPoint en .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Las API de PowerPoint de Aspose.Slides incluyen" >}}
@@ -69,6 +69,10 @@ Cómo comparar documentos de PowerPoint a través de la API de Aspose.Slides.
 
 {{< blocks/products/pf/product pfName="" title="Conversión" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/es/conversion/" >}}
 Cómo convertir presentaciones de PowerPoint usando la API de Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Cuadro" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/es/chart/" >}}
+Cómo usar gráficos en presentaciones de PowerPoint usando la API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Fusión" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/es/merger/" >}}
@@ -141,6 +145,6 @@ Cómo agregar una marca de agua usando la API Aspose.Slides.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

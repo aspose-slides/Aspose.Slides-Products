@@ -1,8 +1,8 @@
 ---
-title: PowerPoint .NET Java C++ Python Android-APIs
+title: PowerPoint .NET Java C++ Python PHP Android-APIs
 weight: 10
-url: /de/family
-description: PowerPoint-API für .NET, Java, C++, Python, PHP. Erstellen Schreiben Bearbeiten Rendern Drucken PowerPoint PPT, PPTX, ODP. Exportieren Sie Folien in SSRS und JasperReports
+url: /de/family/
+description: PowerPoint-API für .NET, Java, C++, Python, PHP. Erstellen, Schreiben, Bearbeiten, Rendern, Drucken, PowerPoint PPT, PPTX, ODP. Exportieren Sie Folien in SSRS und JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -70,6 +70,10 @@ So vergleichen Sie PowerPoint-Dokumente über die Aspose.Slides-API.
 
 {{< blocks/products/pf/product pfName="" title="Wandlung" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/de/conversion/" >}}
 So konvertieren Sie PowerPoint-Präsentationen mit der Aspose.Slides-API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Diagramm" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/de/chart/" >}}
+So verwenden Sie Diagramme in PowerPoint-Präsentationen mithilfe der Aspose.Slides-API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Zusammenschluss" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/de/merger/" >}}

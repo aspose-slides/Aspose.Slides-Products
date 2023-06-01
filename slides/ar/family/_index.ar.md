@@ -1,17 +1,17 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP APIs
+title: PowerPoint .NET Java C++ Python PHP Android APIs
 weight: 10
-url: /ar/family
+url: /ar/family/
 description: PowerPoint API لـ .NET ، Java ، C++ ، Python ، PHP. إنشاء كتابة وتحرير تجسيد طباعة PowerPoint PPT ، PPTX ، ODP. تصدير الشرائح في SSRS و JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="واجهات برمجة تطبيقات PowerPoint: .NET ، Java ، C ++ ، Python ، PHP" h2="واجهات برمجة التطبيقات الأصلية للتطوير عبر الأنظمة الأساسية. إنشاء وإدارة وتحويل عروض PowerPoint التقديمية والشرائح في .NET و Java و C ++ و Python و Android و PHP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="واجهات برمجة تطبيقات PowerPoint: .NET ، Java ، C ++ ، Python ، PHP" h2="واجهات برمجة التطبيقات الأصلية للتطوير عبر الأنظمة الأساسية. إنشاء وإدارة وتحويل عروض PowerPoint التقديمية والشرائح في .NET و Java و C ++ و Python و Android و PHP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint تشمل واجهات برمجة التطبيقات" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/ar/net/" >}}
 تستهدف واجهة برمجة تطبيقات PowerPoint نماذج Windows أو ASP.NET أو WPF أو WCF أو أي نوع من التطبيقات القائمة على .NET Framework 2.0 أو إصدار أحدث.
 {{< /blocks/products/pf/product >}}
 
@@ -70,6 +70,10 @@ PowerPoint API لبناء تطبيقات Xamarin عبر الأنظمة الأس�
 
 {{< blocks/products/pf/product pfName="" title="تحويل" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/ar/conversion/" >}}
 كيفية تحويل عروض PowerPoint التقديمية باستخدام Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="جدول" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/ar/chart/" >}}
+كيفية استخدام الرسوم البيانية في عروض PowerPoint التقديمية باستخدام Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="الاندماج" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/ar/merger/" >}}
@@ -142,6 +146,6 @@ PowerPoint API لبناء تطبيقات Xamarin عبر الأنظمة الأس�
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

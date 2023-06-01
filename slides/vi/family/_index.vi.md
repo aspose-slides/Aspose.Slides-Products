@@ -1,12 +1,12 @@
 ---
-title: API Android PowerPoint .NET Java C ++ Python PHP
+title: PowerPoint .NET Java C++ Python PHP Android API
 weight: 10
-url: /vi/family
-description: API PowerPoint cho .NET, Java, C ++, Python, PHP. Tạo Viết Chỉnh sửa Kết xuất In PowerPoint PPT, PPTX, ODP. Xuất Trang trình bày trong SSRS và JasperReports
+url: /vi/family/
+description: API PowerPoint cho .NET, Java, C++, Python, PHP. Tạo Viết Chỉnh sửa Kết xuất In PowerPoint PPT, PPTX, ODP. Xuất các trang trình bày trong SSRS và JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C ++, Python, PHP" h2="Các API gốc để phát triển nền tảng chéo. Tạo, quản lý và chuyển đổi Bản trình bày & Trang trình bày PowerPoint trong .NET, Java, C ++, Python, Android, PHP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C ++, Python, PHP" h2="Các API gốc để phát triển nền tảng chéo. Tạo, quản lý và chuyển đổi Bản trình bày & Trang trình bày PowerPoint trong .NET, Java, C ++, Python, Android, PHP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Bao gồm các API của Aspose.Slides PowerPoint" >}}
@@ -69,6 +69,10 @@ Cách so sánh tài liệu PowerPoint qua API Aspose.Slides.
 
 {{< blocks/products/pf/product pfName="" title="chuyển đổi" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/vi/conversion/" >}}
 Cách chuyển đổi bản trình bày PowerPoint bằng API Aspose.Slides.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Đồ thị" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/vi/chart/" >}}
+Cách sử dụng biểu đồ trong bản trình bày PowerPoint bằng API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="sáp nhập" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/vi/merger/" >}}
@@ -141,6 +145,6 @@ Cách thêm hình mờ bằng API Aspose.Slides.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,12 +1,12 @@
 ---
-title: PowerPoint .NET Java C++ Python Android PHP API-k
+title: PowerPoint .NET Java C++ Python PHP Android API-k
 weight: 10
-url: /hu/family
+url: /hu/family/
 description: PowerPoint API .NET, Java, C++, Python, PHP számára. Készítsen Írás Szerkesztés Render Nyomtatás PowerPoint PPT, PPTX, ODP. Diák exportálása az SSRS-ben és a JasperReportsban
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API-k: .NET, Java, C++, Python, PHP" h2="Natív API-k platformok közötti fejlesztéshez. PowerPoint prezentációk és diák generálása, kezelése és konvertálása .NET, Java, C++, Python, PHP, Android nyelven" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://downloads.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API-k: .NET, Java, C++, Python, PHP" h2="Natív API-k platformok közötti fejlesztéshez. PowerPoint prezentációk és diák generálása, kezelése és konvertálása .NET, Java, C++, Python, PHP, Android nyelven" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Az Aspose.Slides PowerPoint API-k tartalmazzák" >}}
@@ -71,6 +71,10 @@ PowerPoint-dokumentumok összehasonlítása az Aspose.Slides API-n keresztül.
 PowerPoint prezentációk konvertálása az Aspose.Slides API segítségével.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="" title="Diagram" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/hu/chart/" >}}
+Diagramok használata PowerPoint-prezentációkban az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="" title="Egyesülés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/merger/" >}}
 Prezentációk egyesítése az Aspose.Slides API használatával.
 {{< /blocks/products/pf/product >}}
@@ -91,12 +95,12 @@ PowerPoint prezentáció jelszavas védelme az Aspose.Slides API-val.
 Prezentáció szerkesztése az Aspose.Slides API használatával.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="Aláírás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/hu/signature/" >}}
-Prezentáció aláírása az Aspose.Slides API-val.
+{{< blocks/products/pf/product pfName="" title="Keresés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/hu/search/" >}}
+Szöveg keresése egy prezentációban az Aspose.Slides API segítségével.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="Keresés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/hu/search/" >}}
-Hogyan keressünk szöveget egy prezentációban az Aspose.Slides API segítségével.
+{{< blocks/products/pf/product pfName="" title="Aláírás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/hu/signature/" >}}
+Prezentáció aláírása az Aspose.Slides API-val.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Splitter" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/hu/splitter/" >}}
@@ -141,6 +145,6 @@ Vízjel hozzáadása az Aspose.Slides API használatával.
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
 
-{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
+{{< blocks/products/pf/i18n/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
