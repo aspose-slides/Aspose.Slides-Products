@@ -16,7 +16,7 @@ Výsečové grafy se používají k zobrazení vztahu části k celku v datech, 
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

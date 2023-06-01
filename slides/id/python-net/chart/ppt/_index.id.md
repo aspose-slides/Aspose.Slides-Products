@@ -16,7 +16,7 @@ Bagan pai digunakan untuk menunjukkan hubungan bagian-ke-keseluruhan dalam data,
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

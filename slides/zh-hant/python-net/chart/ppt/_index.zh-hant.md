@@ -16,7 +16,7 @@ description: Python 源代碼，用於在 PPT 演示文稿中創建圖表。
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

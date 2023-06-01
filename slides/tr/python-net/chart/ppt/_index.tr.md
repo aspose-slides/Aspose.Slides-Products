@@ -16,7 +16,7 @@ Pasta grafikler, özellikle veriler sayısal değerlere sahip kategorik etiketle
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

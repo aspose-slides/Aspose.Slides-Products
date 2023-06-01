@@ -16,7 +16,7 @@ description: PPT プレゼンテーションでグラフを作成するための
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

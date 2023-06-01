@@ -16,7 +16,7 @@ description: ซอร์สโค้ด Python เพื่อสร้าง�
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

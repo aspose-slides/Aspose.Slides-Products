@@ -16,7 +16,7 @@ A kördiagramok az adatok rész-egész kapcsolatának megjelenítésére szolgá
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

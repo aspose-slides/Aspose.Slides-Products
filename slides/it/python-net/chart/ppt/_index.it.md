@@ -16,7 +16,7 @@ I grafici a torta vengono utilizzati per mostrare la relazione parte-tutto nei d
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

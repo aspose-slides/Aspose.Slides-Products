@@ -16,7 +16,7 @@ Kreisdiagramme werden verwendet, um die Teil-zu-Ganze-Beziehung in Daten darzust
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

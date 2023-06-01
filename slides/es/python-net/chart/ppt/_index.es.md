@@ -16,7 +16,7 @@ Los gráficos circulares se utilizan para mostrar la relación de parte a todo e
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

@@ -16,7 +16,7 @@ description: Исходный код Python для создания диагра
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

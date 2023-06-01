@@ -16,7 +16,7 @@ description: کد منبع Python برای ایجاد نمودار در ارائ
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

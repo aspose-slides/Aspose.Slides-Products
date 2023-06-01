@@ -16,7 +16,7 @@ description: Python 源代码，用于在 PPTX 演示文稿中创建图表。
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

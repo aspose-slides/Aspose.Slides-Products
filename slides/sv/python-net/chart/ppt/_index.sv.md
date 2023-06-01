@@ -16,7 +16,7 @@ Cirkeldiagram används för att visa förhållandet del-till-helhet i data, sär
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

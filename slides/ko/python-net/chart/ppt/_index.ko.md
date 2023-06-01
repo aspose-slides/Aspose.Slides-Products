@@ -16,7 +16,7 @@ description: PPT Presentation에서 차트를 생성하기 위한 Python 소스 
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

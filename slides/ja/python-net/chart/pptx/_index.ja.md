@@ -16,7 +16,7 @@ description: PPTX プレゼンテーションでグラフを作成するため�
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

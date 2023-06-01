@@ -16,7 +16,7 @@ description: PPTX प्रस्तुतिकरण में चार्ट
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

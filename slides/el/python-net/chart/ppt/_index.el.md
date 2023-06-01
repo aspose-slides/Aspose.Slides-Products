@@ -16,7 +16,7 @@ description: Python πηγαίος κώδικας για τη δημιουργί
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 

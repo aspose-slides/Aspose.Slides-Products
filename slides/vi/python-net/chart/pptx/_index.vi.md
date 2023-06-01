@@ -16,7 +16,7 @@ Biểu đồ hình tròn được sử dụng để hiển thị mối quan hệ
 
 ```py
 
-        import aspose.slides as slides
+import aspose.slides as slides
 import aspose.pydrawing as drawing
 
 # Create presentation (or load existing one) 
