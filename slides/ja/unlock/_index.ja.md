@@ -1,8 +1,33 @@
 ---
-title: Windows、Linux、macOSでPowerPointファイルのロックを解除する
-url: /ja/unlock
-description: PPT、PPTX、ODPプレゼンテーションから保護を削除する無料のアプリとAPI
+title: Windows、Linux、macOS 上の PowerPoint ファイルからパスワードを削除する
+url: /ja/unlock/
+description: PPT、PPTX、ODP プレゼンテーションの保護を解除する API
 ---
 
-{{< blocks/products/pf/agp/feature-solution >}} 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/upper-banner h1="Aspose.Slides API: .NET、Java、C++、Python を使用して PowerPoint および OpenOffice ドキュメントからパスワード保護を削除します" h2="Python、Java、C++、C# でプレゼンテーションからパスワードを削除する方法を学びます。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
 
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint コード サンプル オンライン インクルード" >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/ja/net/unlock/" >}}
+C# で PowerPoint からパスワードを削除する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/ja/java/unlock/" >}}
+Java で PowerPoint からパスワードを削除する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/ja/cpp/unlock/" >}}
+C++ で PowerPoint からパスワードを削除する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/ja/python-net/unlock/" >}}
+Python で PowerPoint からパスワードを削除する方法。
+{{< /blocks/products/pf/product >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

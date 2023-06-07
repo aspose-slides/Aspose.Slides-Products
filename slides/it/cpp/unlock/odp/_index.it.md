@@ -1,0 +1,74 @@
+---
+title: Sblocca i file di presentazione ODP utilizzando C++
+url: /it/cpp/unlock/odp/
+keywords: Rimuovi la protezione da scrittura ODP, decodifica di una presentazione ODP, sblocca presentazione ODP, rimuovi protezione ODP
+description: codice sorgente C++ per rimuovere la protezione dalla presentazione ODP.
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Sblocca ODP utilizzando C++" h2="Crea le tue app C++ per rimuovere le password da PowerPoint e decrittografare i file delle presentazioni utilizzando le API lato server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+
+{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+
+{{% blocks/products/pf/feature-page-section  h2="Rimozione della crittografia dalla presentazione ODP tramite C++" %}}
+Utilizzando Aspose.Slides for C++, puoi rimuovere la crittografia o la protezione tramite password sulla presentazione ODP. In questo modo, gli utenti possono accedere o modificare la presentazione ODP senza restrizioni.
+{{% blocks/products/pf/agp/code-block title="Disattivazione della protezione con password da ODP utilizzando C++" offSpacer="true" %}}
+
+```cpp
+
+auto loadOptions = System::MakeObject<LoadOptions>();
+loadOptions->set_Password(u"123123");
+    
+auto presentation = System::MakeObject<Presentation>(u"pres.odp", loadOptions);
+
+presentation->get_ProtectionManager()->RemoveEncryption();
+presentation->Save(u"encryption-removed.odp", SaveFormat::Odp);
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Rimozione della protezione da scrittura dalla presentazione ODP utilizzando C++" offSpacer="true" %}}
+
+```cpp
+
+auto presentation = System::MakeObject<Presentation>(u"pres.odp");
+
+presentation->get_ProtectionManager()->RemoveWriteProtection();
+presentation->Save(u"write-protection-removed.odp", SaveFormat::Odp);
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="Come rimuovere la password da ODP tramite C++" >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per rimuovere la protezione dai file ODP." >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Carica ODP con un'istanza di Presentation
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Rimuovere la protezione da scrittura utilizzando la classe ProtectionManager
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Salva il risultato nel formato ODP
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="Altri formati supportati" subTitle="Utilizzando C++, puoi anche rimuovere la protezione dai seguenti formati:" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/cpp/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/cpp/unlock/pptx/" name="PPTX" >}}
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}
