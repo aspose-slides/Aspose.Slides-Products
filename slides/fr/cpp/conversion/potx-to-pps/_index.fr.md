@@ -14,7 +14,7 @@ description: Exemple de code de conversion C++ pour le document POTX au format P
 {{% blocks/products/pf/agp/content h2="Comment convertir POTX en PPS en utilisant C++" %}}
 
  Afin de convertir POTX en PPS, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp/)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez

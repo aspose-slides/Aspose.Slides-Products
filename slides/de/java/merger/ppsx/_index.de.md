@@ -14,7 +14,7 @@ description: Java-Beispielcode zum Kombinieren von PPSX-Dokumenten in Java Runti
 {{% blocks/products/pf/agp/content h2="So führen Sie PPSX-Dateien mit Java zusammen" %}}
 
  Um die PPSX-Datei zusammenzuführen, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Merger-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.
@@ -54,7 +54,7 @@ description: Java-Beispielcode zum Kombinieren von PPSX-Dokumenten in Java Runti
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Zusammenführen von PPSX-Dateien in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ein grundlegendes Zusammenführen und Verketten von Dokumenten mit [Aspose.Slides for Java](https://products.aspose.com/slides/de/java) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ein grundlegendes Zusammenführen und Verketten von Dokumenten mit [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laden Sie die erste PPSX-Datei mit einer Instanz der Präsentationsklasse.

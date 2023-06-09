@@ -14,7 +14,7 @@ description: Пример кода преобразования Java для фо
 {{% blocks/products/pf/agp/content h2="Как преобразовать PPSM в SVG с помощью Java" %}}
 
  Чтобы преобразовать PPSM в SVG, мы будем использовать
- [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java)
+ [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java/)
  API, который представляет собой многофункциональный, мощный и простой в использовании API преобразования для платформы Java. Вы можете скачать его последнюю версию прямо с
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.

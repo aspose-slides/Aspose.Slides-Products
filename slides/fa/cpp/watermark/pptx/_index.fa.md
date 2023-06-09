@@ -14,7 +14,7 @@ description: کد مثال C++ برای افزودن یا حذف واترمار�
 {{% blocks/products/pf/agp/content h2="نحوه واترمارک کردن فایل PPTX با استفاده از ++C" %}}
 
  برای واترمارک کردن فایل PPTX، از
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API که یک API واترمارک اسناد غنی، قدرتمند و آسان برای پلتفرم C++ است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل افزودن واترمارک به PPTX از طریق C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="شما به [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) نیاز دارید تا گردش کار زیر را در محیط خود امتحان کنید." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="شما به [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) نیاز دارید تا گردش کار زیر را در محیط خود امتحان کنید." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 فایل های PPTX را با نمونه ای از کلاس Presentation بارگیری کنید

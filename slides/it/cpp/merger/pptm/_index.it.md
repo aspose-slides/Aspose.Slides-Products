@@ -14,7 +14,7 @@ description: Codice di esempio C++ per combinare documenti PPTM su C++ Runtime E
 {{% blocks/products/pf/agp/content h2="Come unire file PPTM usando C++" %}}
 
  Per unire il file PPTM, useremo
- [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp)
+ [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp/)
  API che è un'API di fusione di documenti ricca di funzionalità, potente e facile da usare per la piattaforma C++. Puoi scaricare direttamente la sua ultima versione, basta aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestore pacchetti, cerca
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per l'unione di file PPTM in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Un documento di base che unisce e concatena le API [Aspose.Slides for C++](https://products.aspose.com/slides/it/cpp) può essere eseguito con poche righe di codice." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Un documento di base che unisce e concatena le API [Aspose.Slides for C++](https://products.aspose.com/slides/it/cpp/) può essere eseguito con poche righe di codice." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica entrambi i file PPTM.

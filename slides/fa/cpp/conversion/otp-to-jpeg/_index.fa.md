@@ -14,7 +14,7 @@ description: نمونه کد تبدیل C++ برای سند OTP به فرمت JP
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل OTP به JPEG با استفاده از ++C" %}}
 
  برای تبدیل OTP به JPEG، از
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API که یک API غنی از ویژگی، قدرتمند و آسان برای دستکاری و تبدیل اسناد برای پلتفرم ++C است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید

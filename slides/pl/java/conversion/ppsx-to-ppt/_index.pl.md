@@ -14,7 +14,7 @@ description: Przykładowy kod konwersji Java dla formatu PPSX do pliku PPT. Uży
 {{% blocks/products/pf/agp/content h2="Jak przekonwertować PPSX na PPT za pomocą Javy" %}}
 
  Aby renderować PPSX do PPT, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API konwersji dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.

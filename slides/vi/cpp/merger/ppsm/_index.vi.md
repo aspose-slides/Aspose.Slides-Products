@@ -14,7 +14,7 @@ description: Mã ví dụ C ++ để kết hợp các tài liệu PPSM trên Mô
 {{% blocks/products/pf/agp/content h2="Cách hợp nhất tệp PPSM bằng C ++" %}}
 
  Để hợp nhất tệp PPSM, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp)
+ [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp/)
  API là một API hợp nhất tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C ++. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp, chỉ cần mở
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước để hợp nhất tệp PPSM trong C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Việc hợp nhất và nối tài liệu cơ bản với API [Aspose.Slides for C ++](https://products.aspose.com/slides/vi/cpp) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Việc hợp nhất và nối tài liệu cơ bản với API [Aspose.Slides for C ++](https://products.aspose.com/slides/vi/cpp/) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải cả hai tệp PPSM.

@@ -14,7 +14,7 @@ description: Windows 32비트, Windows 64비트 및 Linux 64비트용 C++ 런타
 {{% blocks/products/pf/agp/content h2="C++를 사용하여 PPT 파일 차트를 만드는 방법" %}}
 
  PPT 파일을 검색하기 위해, 우리는
- [C++용 Aspose.Slides](https://products.aspose.com/slides/cpp)
+ [C++용 Aspose.Slides](https://products.aspose.com/slides/cpp/)
  기능이 풍부하고 강력하며 사용하기 쉬운 C++ 플랫폼용 문서 검색 API인 API입니다. 최신 버전을 직접 다운로드할 수 있습니다.
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  패키지 관리자, 검색
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++에서 PPT 파일 차트를 만드는 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API를 사용한 기본 문서 차트 작성은 몇 줄의 코드로 수행할 수 있습니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API를 사용한 기본 문서 차트 작성은 몇 줄의 코드로 수행할 수 있습니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentation 클래스를 인스턴스화합니다.

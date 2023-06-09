@@ -14,7 +14,7 @@ description: Exempel på Java-konverteringskod för PPTM-format till BMP-fil. An
 {{% blocks/products/pf/agp/content h2="Hur man konverterar PPTM till BMP med Java" %}}
 
  För att rendera PPTM till BMP kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt konverterings-API för Java-plattformen. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.

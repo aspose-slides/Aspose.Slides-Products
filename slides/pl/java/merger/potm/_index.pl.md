@@ -14,7 +14,7 @@ description: Przykładowy kod Java do łączenia dokumentów POTM w środowisku 
 {{% blocks/products/pf/agp/content h2="Jak scalić pliki POTM za pomocą Javy" %}}
 
  Aby scalić plik POTM, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API do łączenia dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.
@@ -54,7 +54,7 @@ description: Przykładowy kod Java do łączenia dokumentów POTM w środowisku 
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki scalania plików POTM w Javie" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe łączenie i łączenie dokumentów z interfejsami API [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe łączenie i łączenie dokumentów z interfejsami API [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj pierwszy plik POTM z instancją klasy Presentation.

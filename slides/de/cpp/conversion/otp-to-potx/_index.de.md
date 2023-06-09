@@ -14,7 +14,7 @@ description: Beispiel-C++-Konvertierungscode für ein OTP-Dokument in das POTX-F
 {{% blocks/products/pf/agp/content h2="So konvertieren Sie OTP in POTX mit C++" %}}
 
  Um OTP in POTX umzuwandeln, verwenden wir
- [Aspose.Folien für C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Folien für C++](https://products.aspose.com/slides/cpp/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zur Dokumentenbearbeitung und -konvertierung für die C++-Plattform ist. Sie können die neueste Version direkt herunterladen, einfach öffnen
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  Paketmanager, suche nach

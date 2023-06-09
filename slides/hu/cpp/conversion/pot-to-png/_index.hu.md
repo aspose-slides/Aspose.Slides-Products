@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód POT dokumentumhoz PNG formátumba. Haszn
 {{% blocks/products/pf/agp/content h2="Hogyan lehet POT-ot konvertálni PNG-be C++ használatával" %}}
 
  A POT PNG-re konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

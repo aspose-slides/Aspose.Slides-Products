@@ -14,7 +14,7 @@ description: Código de exemplo C++ para extrair texto e imagens do arquivo PPTX
 {{% blocks/products/pf/agp/content h2="Como analisar o arquivo PPTX usando C++" %}}
 
  Para analisar o arquivo PPTX, usaremos
- [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/)
  API que é uma API de análise de documentos rica em recursos, poderosa e fácil de usar para plataforma C++. Você pode baixar sua versão mais recente diretamente, basta abrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gerenciador de pacotes, procure
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para analisar arquivos PPTX em C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Uma análise básica de documentos com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp) pode ser feita com apenas algumas linhas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Uma análise básica de documentos com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/) pode ser feita com apenas algumas linhas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carregue o arquivo PPTX.

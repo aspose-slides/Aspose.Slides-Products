@@ -14,7 +14,7 @@ description: Пример кода C++ для добавления или уда
 {{% blocks/products/pf/agp/content h2="Как поставить водяной знак на файл PPTX с помощью C++" %}}
 
  Чтобы поставить водяной знак на файл PPTX, мы будем использовать
- [Aspose.Slides для C++](https://products.aspose.com/slides/ru/cpp)
+ [Aspose.Slides для C++](https://products.aspose.com/slides/ru/cpp/)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для водяных знаков документов для платформы C++. Вы можете загрузить его последнюю версию напрямую, просто открыв
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  менеджер пакетов, поиск
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги по добавлению водяного знака в PPTX через C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Вам понадобится [aspose.slides.dll](https://downloads.aspose.com/slides/cpp), чтобы попробовать следующий рабочий процесс в вашей собственной среде." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Вам понадобится [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/), чтобы попробовать следующий рабочий процесс в вашей собственной среде." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузите файлы PPTX с экземпляром класса Presentation

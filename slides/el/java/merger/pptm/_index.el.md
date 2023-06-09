@@ -14,7 +14,7 @@ description: Δείγμα κώδικα Java για συνδυασμό εγγρά
 {{% blocks/products/pf/agp/content h2="Πώς να συγχωνεύσετε αρχεία PPTM χρησιμοποιώντας Java" %}}
 
  Για να συγχωνεύσουμε το αρχείο PPTM, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API συγχώνευσης για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -54,7 +54,7 @@ description: Δείγμα κώδικα Java για συνδυασμό εγγρά
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για τη συγχώνευση αρχείων PPTM σε Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό έγγραφο που συγχωνεύεται και συνδέεται με τα API [Aspose.Slides for Java](https://products.aspose.com/slides/el/java) μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό έγγραφο που συγχωνεύεται και συνδέεται με τα API [Aspose.Slides for Java](https://products.aspose.com/slides/el/java/) μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Φορτώστε το πρώτο αρχείο PPTM με μια παρουσία της κλάσης Presentation.

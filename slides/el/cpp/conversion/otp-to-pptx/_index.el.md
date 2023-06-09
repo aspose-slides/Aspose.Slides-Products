@@ -14,7 +14,7 @@ description: Δείγμα κώδικα μετατροπής C++ για έγγρ�
 {{% blocks/products/pf/agp/content h2="Πώς να μετατρέψετε το OTP σε PPTX χρησιμοποιώντας C++" %}}
 
  Για να μετατρέψουμε το OTP σε PPTX, θα χρησιμοποιήσουμε
- [Aspose.Slides για C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides για C++](https://products.aspose.com/slides/cpp/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API χειρισμού εγγράφων και μετατροπής για πλατφόρμα C++. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας, απλά ανοίξτε
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  διαχειριστής πακέτων, αναζητήστε

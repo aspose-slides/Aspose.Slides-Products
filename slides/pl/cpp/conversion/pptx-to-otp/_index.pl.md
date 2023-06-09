@@ -14,7 +14,7 @@ description: Przykładowy kod konwersji C++ dla dokumentu PPTX do formatu OTP. U
 {{% blocks/products/pf/agp/content h2="Jak przekonwertować PPTX na OTP za pomocą C++" %}}
 
  Aby przekonwertować PPTX na OTP, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp/)
  API, które jest bogatym w funkcje, potężnym i łatwym w użyciu interfejsem API do manipulacji i konwersji dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj

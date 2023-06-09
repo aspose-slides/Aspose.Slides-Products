@@ -14,7 +14,7 @@ description: Mã mẫu Java để kết hợp tài liệu PPTX trên Môi trư�
 {{% blocks/products/pf/agp/content h2="Cách hợp nhất các tệp PPTX bằng Java" %}}
 
  Để hợp nhất tệp PPTX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java)
+ [Aspose.Slides dành cho Java](https://products.aspose.com/slides/vi/java/)
  API là một API hợp nhất giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng Java. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp từ
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  và cài đặt nó trong dự án dựa trên Maven của bạn bằng cách thêm các cấu hình sau vào pom.xml.
@@ -54,7 +54,7 @@ description: Mã mẫu Java để kết hợp tài liệu PPTX trên Môi trư�
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước để hợp nhất tệp PPTX trong Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Việc hợp nhất và nối tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java) có thể được thực hiện chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Việc hợp nhất và nối tài liệu cơ bản với API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/) có thể được thực hiện chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải tệp PPTX đầu tiên với một phiên bản của lớp Trình bày.

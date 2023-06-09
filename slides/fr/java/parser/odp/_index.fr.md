@@ -14,7 +14,7 @@ description: Exemple de code Java pour extraire du texte et des images d'un fich
 {{% blocks/products/pf/agp/content h2="Comment analyser un fichier ODP à l'aide de Java" %}}
 
  Afin d'analyser le fichier ODP, nous utiliserons
- [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java)
+ [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java/)
  API qui est une API d'analyse riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme Java. Vous pouvez télécharger sa dernière version directement depuis
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  et installez-le dans votre projet basé sur Maven en ajoutant les configurations suivantes au fichier pom.xml.
@@ -54,7 +54,7 @@ description: Exemple de code Java pour extraire du texte et des images d'un fich
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour analyser les fichiers ODP en Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Une analyse de document de base avec les API [Aspose.Slides for Java](https://products.aspose.com/slides/fr/java) peut être effectuée avec seulement quelques lignes de code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Une analyse de document de base avec les API [Aspose.Slides for Java](https://products.aspose.com/slides/fr/java/) peut être effectuée avec seulement quelques lignes de code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Chargez le fichier ODP en instaurant la classe Presentation.

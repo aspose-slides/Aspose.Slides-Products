@@ -14,7 +14,7 @@ description: Exemplo de código de conversão C++ para documento PPT para format
 {{% blocks/products/pf/agp/content h2="Como converter PPT para JPEG usando C++" %}}
 
  Para converter PPT para JPEG, usaremos
- [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/)
  API que é uma API de manipulação e conversão de documentos rica em recursos, poderosa e fácil de usar para plataforma C++. Você pode baixar sua versão mais recente diretamente, basta abrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gerenciador de pacotes, procure

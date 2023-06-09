@@ -14,7 +14,7 @@ description: Contoh kode C++ untuk menambah atau menghapus watermark pada file P
 {{% blocks/products/pf/agp/content h2="Cara Membuat Watermark File PPT Menggunakan C++" %}}
 
  Untuk menandai file PPT, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp/)
  API yang merupakan API watermarking dokumen yang kaya fitur, kuat, dan mudah digunakan untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah untuk Menambahkan Tanda Air ke PPT melalui C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Anda memerlukan [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) untuk mencoba alur kerja berikut di lingkungan Anda sendiri." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Anda memerlukan [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) untuk mencoba alur kerja berikut di lingkungan Anda sendiri." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat file PPT dengan instance kelas Presentasi

@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód POT dokumentumhoz PPTM formátumba. Hasz
 {{% blocks/products/pf/agp/content h2="Hogyan lehet POT-ot konvertálni PPTM-re C++ használatával" %}}
 
  A POT PPTM-re való konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

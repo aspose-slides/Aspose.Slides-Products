@@ -14,7 +14,7 @@ description: Código de exemplo C++ para combinar documentos PPS no C++ Runtime 
 {{% blocks/products/pf/agp/content h2="Como mesclar arquivo PPS usando C++" %}}
 
  Para mesclar o arquivo PPS, usaremos
- [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/)
  API que é uma API de fusão de documentos rica em recursos, poderosa e fácil de usar para plataforma C++. Você pode baixar sua versão mais recente diretamente, basta abrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gerenciador de pacotes, procure
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para mesclar arquivos PPS em C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Um documento básico mesclando e concatenando com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp) pode ser feito com apenas algumas linhas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Um documento básico mesclando e concatenando com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/) pode ser feito com apenas algumas linhas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carregue os dois arquivos PPS.

@@ -14,7 +14,7 @@ description: Exemple de code de conversion C++ pour le document PPTM au format O
 {{% blocks/products/pf/agp/content h2="Comment convertir PPTM en OTP en utilisant C++" %}}
 
  Afin de convertir PPTM en OTP, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp/)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez

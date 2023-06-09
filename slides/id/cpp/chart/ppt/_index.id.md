@@ -14,7 +14,7 @@ description: Contoh kode C++ untuk menggambar dan mengonversi grafik atau diagra
 {{% blocks/products/pf/agp/content h2="Cara Membuat Bagan File PPT Menggunakan C++" %}}
 
  Untuk mencari file PPT, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/cpp/)
  API yang merupakan API pencarian dokumen yang kaya fitur, kuat, dan mudah digunakan untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah Membuat Bagan File PPT di C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pembuatan bagan dokumen dasar dengan [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Pembuatan bagan dokumen dasar dengan [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instansiasi kelas Presentasi.

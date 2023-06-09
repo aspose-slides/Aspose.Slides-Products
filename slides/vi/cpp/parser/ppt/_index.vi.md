@@ -14,7 +14,7 @@ description: Mã ví dụ C ++ để trích xuất văn bản và hình ảnh t�
 {{% blocks/products/pf/agp/content h2="Cách phân tích cú pháp tệp PPT bằng C ++" %}}
 
  Để phân tích cú pháp tệp PPT, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp)
+ [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp/)
  API là một API phân tích cú pháp tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C ++. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp, chỉ cần mở
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước để phân tích cú pháp tệp PPT trong C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện phân tích cú pháp tài liệu cơ bản với API [Aspose.Slides for C ++](https://products.aspose.com/slides/vi/cpp) chỉ với vài dòng mã." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Có thể thực hiện phân tích cú pháp tài liệu cơ bản với API [Aspose.Slides for C ++](https://products.aspose.com/slides/vi/cpp/) chỉ với vài dòng mã." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải tệp PPT.

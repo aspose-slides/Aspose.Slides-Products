@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای ترسیم و تبدیل نمود
 {{% blocks/products/pf/agp/content h2="نحوه ایجاد نمودارهای فایل PPT با استفاده از جاوا" %}}
 
  به منظور ایجاد نمودارهای فایل PPT، ما استفاده خواهیم کرد
- [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/)
  API که یک API نموداری غنی، قدرتمند و آسان برای استفاده برای پلتفرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای ترسیم و تبدیل نمود
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ایجاد نمودار فایل های PPT در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) API ها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/) API ها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantiate شی کلاس Presentation.

@@ -14,7 +14,7 @@ description: Exempel på C++-konverteringskod för POTX-dokument till PNG-format
 {{% blocks/products/pf/agp/content h2="Hur man konverterar POTX till PNG med C++" %}}
 
  För att konvertera POTX till PNG kommer vi att använda
- [Aspose.Slides för C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering och konvertering för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter

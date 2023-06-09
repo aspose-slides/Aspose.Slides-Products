@@ -14,7 +14,7 @@ description: Windows 32비트, Windows 64비트 및 Linux 64비트용 C++ 런타
 {{% blocks/products/pf/agp/content h2="C++를 사용하여 PPT 파일에 워터마크를 삽입하는 방법" %}}
 
  PPT 파일을 워터마크하기 위해, 우리는
- [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp)
+ [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp/)
  기능이 풍부하고 강력하며 사용하기 쉬운 C++ 플랫폼용 문서 워터마킹 API인 API입니다. 최신 버전을 직접 다운로드할 수 있습니다.
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  패키지 관리자, 검색
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++를 통해 PPT에 워터마크를 추가하는 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="자신의 환경에서 다음 워크플로를 시도하려면 [aspose.slides.dll](https://downloads.aspose.com/slides/cpp)이 필요합니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="자신의 환경에서 다음 워크플로를 시도하려면 [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/)이 필요합니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentation 클래스의 인스턴스로 PPT 파일 로드

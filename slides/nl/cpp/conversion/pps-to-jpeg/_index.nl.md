@@ -14,7 +14,7 @@ description: Voorbeeld van C++-conversiecode voor PPS-document naar JPEG-indelin
 {{% blocks/products/pf/agp/content h2="Hoe PPS naar JPEG te converteren met C++" %}}
 
  Om PPS naar JPEG te converteren, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie en -conversie voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar

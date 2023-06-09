@@ -14,7 +14,7 @@ description: Java-voorbeeldcode om een ​​grafiek of diagram in PPT-bestand t
 {{% blocks/products/pf/agp/content h2="Hoe u PPT-bestandsdiagrammen maakt met Java" %}}
 
  Om PPT-bestandsdiagrammen te maken, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke kaart-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -54,7 +54,7 @@ description: Java-voorbeeldcode om een ​​grafiek of diagram in PPT-bestand t
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPT-bestanden te maken in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat in kaart wordt gebracht met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java) API's kan worden gemaakt met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat in kaart wordt gebracht met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java/) API's kan worden gemaakt met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantie van het klasseobject Presentatie.

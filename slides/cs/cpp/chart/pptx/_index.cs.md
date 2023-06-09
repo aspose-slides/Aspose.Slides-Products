@@ -14,7 +14,7 @@ description: Příklad kódu C++ pro kreslení a převod grafu nebo diagramu v s
 {{% blocks/products/pf/agp/content h2="Jak vytvořit grafy souborů PPTX pomocí C++" %}}
 
  Abychom prohledali soubor PPTX, použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro vyhledávání dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k vytvoření grafů souborů PPTX v C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní mapování dokumentů pomocí rozhraní API [Aspose.Slides pro C++](https://products.aspose.com/slides/cpp) lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní mapování dokumentů pomocí rozhraní API [Aspose.Slides pro C++](https://products.aspose.com/slides/cpp/) lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Třída okamžité prezentace.

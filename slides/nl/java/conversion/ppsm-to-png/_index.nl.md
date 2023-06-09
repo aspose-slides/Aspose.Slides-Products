@@ -14,7 +14,7 @@ description: Voorbeeld Java-conversiecode voor PPSM-indeling naar PNG-bestand. G
 {{% blocks/products/pf/agp/content h2="Hoe PPSM naar PNG te converteren met Java" %}}
 
  Om PPSM naar PNG weer te geven, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke conversie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.

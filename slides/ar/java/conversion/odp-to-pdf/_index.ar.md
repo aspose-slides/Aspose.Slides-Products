@@ -14,7 +14,7 @@ description: نموذج كود تحويل جافا لتنسيق ODP إلى مل�
 {{% blocks/products/pf/agp/content h2="كيفية تحويل ODP إلى PDF باستخدام Java" %}}
 
  من أجل تقديم ODP إلى PDF ، سنستخدم
- [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)
  API وهي واجهة برمجة تطبيقات تحويل غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.

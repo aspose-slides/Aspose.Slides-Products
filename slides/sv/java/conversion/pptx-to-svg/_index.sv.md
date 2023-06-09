@@ -14,7 +14,7 @@ description: Exempel på Java-konverteringskod för PPTX-format till SVG-fil. An
 {{% blocks/products/pf/agp/content h2="Hur man konverterar PPTX till SVG med Java" %}}
 
  För att rendera PPTX till SVG kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt konverterings-API för Java-plattformen. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.

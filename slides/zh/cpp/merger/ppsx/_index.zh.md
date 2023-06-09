@@ -14,7 +14,7 @@ description: 用于在 Windows 32 位、Windows 64 位和 Linux 64 位的 C++ �
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 合并 PPSX 文件" %}}
 
  为了合并 PPSX 文件，我们将使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API 是一个功能丰富、功能强大且易于使用的 C++ 平台文档合并 API。可以直接下载最新版本，直接打开
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C++ 中合并 PPSX 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可完成与 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API 合并和连接的基本文档。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可完成与 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API 合并和连接的基本文档。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加载两个 PPSX 文件。

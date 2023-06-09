@@ -14,7 +14,7 @@ description: TIFF belgesi için POT formatına örnek C++ dönüştürme kodu. H
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak TIFF'i POT'a Dönüştürme" %}}
 
  TIFF'i POT'a dönüştürmek için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp/)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge işleme ve dönüştürme API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara

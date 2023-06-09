@@ -14,7 +14,7 @@ description: C++ voorbeeldcode om tekst en afbeeldingen uit een PPTX-bestand te 
 {{% blocks/products/pf/agp/content h2="Hoe een PPTX-bestand te parseren met C++" %}}
 
  Om het PPTX-bestand te ontleden, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke documentparsing-API voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPTX-bestanden te ontleden in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument ontleden met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument ontleden met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad PPTX-bestand.

@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód TIFF dokumentumhoz POTX formátumba. Has
 {{% blocks/products/pf/agp/content h2="TIFF konvertálása POTX-re C++ használatával" %}}
 
  A TIFF POTX-re konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

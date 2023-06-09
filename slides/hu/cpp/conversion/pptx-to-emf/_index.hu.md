@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód PPTX dokumentumhoz EMF formátumba. Hasz
 {{% blocks/products/pf/agp/content h2="PPTX konvertálása EMF-re a C++ használatával" %}}
 
  A PPTX EMF-vé alakításához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

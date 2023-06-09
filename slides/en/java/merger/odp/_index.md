@@ -14,7 +14,7 @@ description: Java sample code to combine ODP documents on Java Runtime Environme
 {{% blocks/products/pf/agp/content h2="Merge ODP Files Using Java" %}}
 
  In order to merge ODP file, we’ll use
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
+ [Aspose.Slides for Java](https://products.aspose.com/slides/java/) 
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) 
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
@@ -54,7 +54,7 @@ description: Java sample code to combine ODP documents on Java Runtime Environme
 
 {{< blocks/products/pf/agp/feature-section-col title="Steps for Merging ODP Files in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for Java](https://products.aspose.com/slides/java/) APIs can be done with just few lines of code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Load the first ODP file with an instance of Presentation class.

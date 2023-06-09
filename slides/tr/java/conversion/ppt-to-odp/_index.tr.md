@@ -14,7 +14,7 @@ description: PPT formatı için ODP dosyasına örnek Java dönüştürme kodu. 
 {{% blocks/products/pf/agp/content h2="Java Kullanarak PPT'yi ODP'ye Dönüştürme" %}}
 
  PPT'yi ODP'ye dönüştürmek için kullanacağız
- [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/)
  Java platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir dönüştürme API'si olan API. En son sürümünü doğrudan adresinden indirebilirsiniz.
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  ve pom.xml dosyasına aşağıdaki konfigürasyonları ekleyerek Maven tabanlı projenize kurun.

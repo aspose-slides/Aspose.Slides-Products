@@ -14,7 +14,7 @@ description: Exempel på C++-konverteringskod för PPTM-dokument till PPSX-forma
 {{% blocks/products/pf/agp/content h2="Hur man konverterar PPTM till PPSX med C++" %}}
 
  För att konvertera PPTM till PPSX kommer vi att använda
- [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering och konvertering för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter

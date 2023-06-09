@@ -14,7 +14,7 @@ description: Java-exempelkod för att extrahera text och bilder från ODP-fil i 
 {{% blocks/products/pf/agp/content h2="Hur man analyserar ODP-fil med Java" %}}
 
  För att analysera ODP-fil kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt parsnings-API för Java-plattformen. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.
@@ -54,7 +54,7 @@ description: Java-exempelkod för att extrahera text och bilder från ODP-fil i 
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att analysera ODP-filer i Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentanalys med [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="En grundläggande dokumentanalys med [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java/) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Ladda ODP-fil genom att instatera presentationsklassen.

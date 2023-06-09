@@ -14,7 +14,7 @@ description: Código de ejemplo de C++ para dibujar y convertir gráficos o diag
 {{% blocks/products/pf/agp/content h2="Cómo crear gráficos de archivos PPTX usando C++" %}}
 
  Para buscar un archivo PPTX, usaremos
- [Aspose.Slides para C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides para C++](https://products.aspose.com/slides/cpp/)
  API que es una API de búsqueda de documentos rica en funciones, potente y fácil de usar para la plataforma C++. Puede descargar su última versión directamente, simplemente abra
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  administrador de paquetes, busque
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para crear gráficos de archivos PPTX en C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede hacer un gráfico básico de documentos con [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API con solo unas pocas líneas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede hacer un gráfico básico de documentos con [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API con solo unas pocas líneas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instanciar la clase de presentación.

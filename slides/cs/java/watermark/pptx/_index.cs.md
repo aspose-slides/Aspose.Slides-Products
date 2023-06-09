@@ -14,7 +14,7 @@ description: Ukázkový kód Java pro přidání nebo odstranění vodoznaku do 
 {{% blocks/products/pf/agp/content h2="Jak vodoznak do souboru PPTX pomocí Java" %}}
 
  K vodoznaku souboru PPTX použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro vodoznaky pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.

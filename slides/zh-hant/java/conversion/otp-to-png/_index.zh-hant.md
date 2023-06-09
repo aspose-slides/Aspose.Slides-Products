@@ -14,7 +14,7 @@ description: OTP 格式到 PNG 文件的示例 Java 轉換代碼。使用此示�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 將 OTP 轉換為 PNG" %}}
 
  為了將 OTP 渲染為 PNG，我們將使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java/)
  API 是一個功能豐富、功能強大且易於使用的 Java 平台轉換 API。您可以直接從
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  並通過將以下配置添加到 pom.xml 將其安裝在基於 Maven 的項目中。

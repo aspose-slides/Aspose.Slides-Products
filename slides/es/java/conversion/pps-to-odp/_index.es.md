@@ -14,7 +14,7 @@ description: Ejemplo de código de conversión de Java para formato PPS a archiv
 {{% blocks/products/pf/agp/content h2="Cómo convertir PPS a ODP usando Java" %}}
 
  Para convertir PPS en ODP, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/es/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/es/java/)
  API que es una API de conversión rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.

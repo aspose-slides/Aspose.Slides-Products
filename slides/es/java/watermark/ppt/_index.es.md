@@ -14,7 +14,7 @@ description: Código de muestra de Java para agregar o eliminar una marca de agu
 {{% blocks/products/pf/agp/content h2="Cómo poner una marca de agua en un archivo PPT usando Java" %}}
 
  Para agregar una marca de agua al archivo PPT, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/es/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/es/java/)
  API que es una API de marca de agua rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.

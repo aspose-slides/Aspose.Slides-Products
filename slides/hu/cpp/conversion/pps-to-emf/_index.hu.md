@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód PPS dokumentumhoz EMF formátumba. Haszn
 {{% blocks/products/pf/agp/content h2="Hogyan lehet PPS-t EMF-re konvertálni C++ használatával" %}}
 
  Ahhoz, hogy a PPS-t EMF-vé alakítsuk, használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

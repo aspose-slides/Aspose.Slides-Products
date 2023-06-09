@@ -14,7 +14,7 @@ description: Contoh kode konversi Java untuk format PPT ke file XPS. Gunakan kod
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi PPT ke XPS Menggunakan Java" %}}
 
  Untuk merender PPT ke XPS, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java/)
  API yang merupakan API konversi yang kaya fitur, kuat, dan mudah digunakan untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.

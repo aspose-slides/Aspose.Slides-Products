@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód XML dokumentumhoz OTP formátumba. Haszn
 {{% blocks/products/pf/agp/content h2="XML konvertálása OTP-vé C++ használatával" %}}
 
  Az XML OTP-re konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

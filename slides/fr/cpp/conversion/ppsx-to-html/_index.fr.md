@@ -14,7 +14,7 @@ description: Exemple de code de conversion C++ pour le document PPSX au format H
 {{% blocks/products/pf/agp/content h2="Comment convertir PPSX en HTML en utilisant C++" %}}
 
  Afin de convertir PPSX en HTML, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp/)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez

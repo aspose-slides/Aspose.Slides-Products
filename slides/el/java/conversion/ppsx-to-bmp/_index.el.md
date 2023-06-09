@@ -14,7 +14,7 @@ description: Δείγμα κώδικα μετατροπής Java για μορφ
 {{% blocks/products/pf/agp/content h2="Πώς να μετατρέψετε το PPSX σε BMP χρησιμοποιώντας Java" %}}
 
  Για να αποδώσουμε το PPSX σε BMP, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API μετατροπής για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.

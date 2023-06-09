@@ -14,7 +14,7 @@ description: Пример кода преобразования C++ докуме
 {{% blocks/products/pf/agp/content h2="Как преобразовать OTP в HTML с помощью C++" %}}
 
  Чтобы преобразовать OTP в HTML, мы будем использовать
- [Aspose.Slides для C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides для C++](https://products.aspose.com/slides/cpp/)
  API, который представляет собой многофункциональный, мощный и простой в использовании API для обработки и преобразования документов для платформы C++. Вы можете загрузить его последнюю версию напрямую, просто открыв
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  менеджер пакетов, поиск

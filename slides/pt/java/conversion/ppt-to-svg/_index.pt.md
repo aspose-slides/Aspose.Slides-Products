@@ -14,7 +14,7 @@ description: Exemplo de código de conversão Java para formato PPT para arquivo
 {{% blocks/products/pf/agp/content h2="Como converter PPT para SVG usando Java" %}}
 
  Para renderizar PPT para SVG, usaremos
- [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/)
  API que é uma API de conversão rica em recursos, poderosa e fácil de usar para a plataforma Java. Você pode baixar sua versão mais recente diretamente de
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instale-o em seu projeto baseado em Maven adicionando as seguintes configurações ao pom.xml.

@@ -14,7 +14,7 @@ description: C++ example code to add or remove watermark to PPT file on C++ Runt
 {{% blocks/products/pf/agp/content h2="Watermark PPT File Using C++" %}}
 
  In order to watermark PPT file, we’ll use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) 
  API which is a feature-rich, powerful and easy to use document watermarking API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
  package manager, search for
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Add Watermark to PPT via C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="You need the [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) to try the following workflow in your own environment." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="You need the [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) to try the following workflow in your own environment." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Load PPT files with an instance of Presentation class

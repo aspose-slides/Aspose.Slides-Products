@@ -14,7 +14,7 @@ description: Ukázka převodního kódu C++ pro dokument PPSM na formát XPS. Po
 {{% blocks/products/pf/agp/content h2="Jak převést PPSM na XPS pomocí C++" %}}
 
  Abychom převedli PPSM na XPS, použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro manipulaci a konverzi dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte

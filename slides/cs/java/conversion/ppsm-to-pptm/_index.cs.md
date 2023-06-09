@@ -14,7 +14,7 @@ description: Ukázkový konverzní kód Java pro formát PPSM na soubor PPTM. Te
 {{% blocks/products/pf/agp/content h2="Jak převést PPSM na PPTM pomocí Java" %}}
 
  K převedení PPSM na PPTM použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/)
  API, což je funkčně bohaté, výkonné a snadno použitelné konverzní API pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.

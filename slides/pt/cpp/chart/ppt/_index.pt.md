@@ -14,7 +14,7 @@ description: Código de exemplo C++ para desenhar e converter gráfico ou diagra
 {{% blocks/products/pf/agp/content h2="Como criar gráficos de arquivos PPT usando C++" %}}
 
  Para pesquisar o arquivo PPT, usaremos
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API que é uma API de pesquisa de documentos rica em recursos, poderosa e fácil de usar para a plataforma C++. Você pode baixar sua versão mais recente diretamente, basta abrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gerenciador de pacotes, procure
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para criar gráficos de arquivos PPT em C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Um gráfico de documento básico com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) pode ser feito com apenas algumas linhas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Um gráfico de documento básico com APIs [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) pode ser feito com apenas algumas linhas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instanciar a classe Apresentação.

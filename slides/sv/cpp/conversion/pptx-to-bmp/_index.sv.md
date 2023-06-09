@@ -14,7 +14,7 @@ description: Exempel på C++-konverteringskod för PPTX-dokument till BMP-format
 {{% blocks/products/pf/agp/content h2="Hur man konverterar PPTX till BMP med C++" %}}
 
  För att konvertera PPTX till BMP kommer vi att använda
- [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering och konvertering för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter

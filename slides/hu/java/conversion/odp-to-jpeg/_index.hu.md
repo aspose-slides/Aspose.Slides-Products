@@ -14,7 +14,7 @@ description: Minta Java konverziós kód az ODP formátumhoz JPEG fájllá. Ezze
 {{% blocks/products/pf/agp/content h2="Hogyan lehet az ODP-t JPEG-be konvertálni Java használatával" %}}
 
  Ahhoz, hogy az ODP-t JPEG-be rendereljük, ezt használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható konverziós API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.

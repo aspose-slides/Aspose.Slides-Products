@@ -14,7 +14,7 @@ description: C++ 示例代碼，用於在 Windows 32 位、Windows 64 位和 Lin
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 給 PPT 文件加水印" %}}
 
  為了給 PPT 文件加水印，我們將使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp/)
  API 是一個功能豐富、功能強大且易於使用的 C++ 平台文檔水印 API。可以直接下載最新版本，直接打開
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="通過 C++ 給 PPT 添加水印的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="您需要 [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) 在您自己的環境中嘗試以下工作流程。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="您需要 [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) 在您自己的環境中嘗試以下工作流程。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 使用 Presentation 類的實例加載 PPT 文件

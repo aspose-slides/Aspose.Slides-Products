@@ -14,7 +14,7 @@ description: Przykładowy kod konwersji C++ dla dokumentu POTX do formatu POT. U
 {{% blocks/products/pf/agp/content h2="Jak przekonwertować POTX na POT za pomocą C++" %}}
 
  Aby przekonwertować POTX na POT, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp/)
  API, które jest bogatym w funkcje, potężnym i łatwym w użyciu interfejsem API do manipulacji i konwersji dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj

@@ -14,7 +14,7 @@ description: Exempel på C++-konverteringskod för ODP-dokument till PPSX-format
 {{% blocks/products/pf/agp/content h2="Hur man konverterar ODP till PPSX med C++" %}}
 
  För att konvertera ODP till PPSX kommer vi att använda
- [Aspose.Slides för C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering och konvertering för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter

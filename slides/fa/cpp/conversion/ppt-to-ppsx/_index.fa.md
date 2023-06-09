@@ -14,7 +14,7 @@ description: نمونه کد تبدیل C++ برای سند PPT به فرمت PP
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل PPT به PPSX با استفاده از ++C" %}}
 
  برای تبدیل PPT به PPSX، از آن استفاده خواهیم کرد
- [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp/)
  API که یک API غنی از ویژگی، قدرتمند و آسان برای دستکاری و تبدیل اسناد برای پلتفرم ++C است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید

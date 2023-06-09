@@ -14,7 +14,7 @@ description: Java sample code to draw and convert chart or diagram in PPT file o
 {{% blocks/products/pf/agp/content h2="Create PPT File Charts Using Java" %}}
 
  In order to create PPT file charts, we’ll use
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
+ [Aspose.Slides for Java](https://products.aspose.com/slides/java/) 
  API which is a feature-rich, powerful and easy to use charting API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) 
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
@@ -54,7 +54,7 @@ description: Java sample code to draw and convert chart or diagram in PPT file o
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Create PPT Files Charts in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document charting with [Aspose.Slides for Java](https://products.aspose.com/slides/java) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document charting with [Aspose.Slides for Java](https://products.aspose.com/slides/java/) APIs can be done with just few lines of code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantiate Presentation class object.

@@ -14,7 +14,7 @@ description: Ukázkový kód Java pro extrahování textu a obrázků ze souboru
 {{% blocks/products/pf/agp/content h2="Jak analyzovat soubor PPTX pomocí Java" %}}
 
  Abychom mohli analyzovat soubor PPTX, použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro analýzu pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.
@@ -54,7 +54,7 @@ description: Ukázkový kód Java pro extrahování textu a obrázků ze souboru
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky k analýze souborů PPTX v Javě" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní analýzu dokumentu pomocí rozhraní API [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java) lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní analýzu dokumentu pomocí rozhraní API [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/) lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načtěte soubor PPTX zadáním třídy prezentace.

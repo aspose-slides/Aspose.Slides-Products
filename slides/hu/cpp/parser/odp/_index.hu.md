@@ -14,7 +14,7 @@ description: C++ példakód szövegek és képek kinyerésére ODP-fájlból C++
 {{% blocks/products/pf/agp/content h2="Az ODP-fájl elemzése C++ használatával" %}}
 
  Az ODP-fájl elemzéséhez használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható dokumentumelemző API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Az ODP-fájlok elemzésének lépései C++-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumelemzés az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp) API-kkal néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumelemzés az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) API-kkal néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 ODP fájl betöltése.

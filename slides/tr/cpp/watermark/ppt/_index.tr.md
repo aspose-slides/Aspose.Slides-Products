@@ -14,7 +14,7 @@ description: Windows 32 bit, Windows 64 bit ve Linux 64 bit için C++ Runtime En
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak PPT Dosyasını Filigran Etme" %}}
 
  PPT dosyasını filigranlamak için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp/)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge filigran API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++ ile PPT'ye Filigran Ekleme Adımları" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Aşağıdaki iş akışını kendi ortamınızda denemek için [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) gerekir." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Aşağıdaki iş akışını kendi ortamınızda denemek için [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) gerekir." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Sunum sınıfının bir örneğiyle PPT dosyalarını yükleyin

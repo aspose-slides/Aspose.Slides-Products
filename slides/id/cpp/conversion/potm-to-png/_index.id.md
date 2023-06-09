@@ -14,7 +14,7 @@ description: Contoh kode konversi C++ untuk dokumen POTM ke format PNG. Gunakan 
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi POTM ke PNG Menggunakan C++" %}}
 
  Untuk mengonversi POTM ke PNG, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/cpp/)
  API yang kaya fitur, kuat, dan mudah digunakan untuk manipulasi dokumen dan API konversi untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari

@@ -14,7 +14,7 @@ description: Пример кода Java для объединения докум
 {{% blocks/products/pf/agp/content h2="Как объединить файлы PPSX с помощью Java" %}}
 
  Чтобы объединить файл PPSX, мы будем использовать
- [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java)
+ [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java/)
  API, который представляет собой многофункциональный, мощный и простой в использовании API слияния для платформы Java. Вы можете скачать его последнюю версию прямо с
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.
@@ -54,7 +54,7 @@ description: Пример кода Java для объединения докум
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги для слияния файлов PPSX в Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовое слияние и объединение документов с помощью API [Aspose.Slides for Java](https://products.aspose.com/slides/ru/java) можно выполнить с помощью всего нескольких строк кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовое слияние и объединение документов с помощью API [Aspose.Slides for Java](https://products.aspose.com/slides/ru/java/) можно выполнить с помощью всего нескольких строк кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузите первый файл PPSX с экземпляром класса Presentation.

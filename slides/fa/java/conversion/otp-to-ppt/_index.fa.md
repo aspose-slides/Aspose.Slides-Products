@@ -14,7 +14,7 @@ description: نمونه کد تبدیل جاوا برای فرمت OTP به فا
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل OTP به PPT با استفاده از جاوا" %}}
 
  برای رندر کردن OTP به PPT، استفاده می کنیم
- [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/)
  API که یک API تبدیل غنی، قدرتمند و آسان برای استفاده برای پلتفرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.

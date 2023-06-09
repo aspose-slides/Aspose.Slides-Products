@@ -14,7 +14,7 @@ description: Ukázkový kód Java pro kombinaci dokumentů PPSM v prostředí Ja
 {{% blocks/products/pf/agp/content h2="Jak sloučit soubory PPSM pomocí Java" %}}
 
  Abychom sloučili soubor PPSM, použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/)
  API, což je funkčně bohaté, výkonné a snadno použitelné slučovací API pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.
@@ -54,7 +54,7 @@ description: Ukázkový kód Java pro kombinaci dokumentů PPSM v prostředí Ja
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky pro sloučení souborů PPSM v Javě" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní sloučení a zřetězení dokumentu s [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java) API lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní sloučení a zřetězení dokumentu s [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/) API lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načtěte první soubor PPSM s instancí třídy Presentation.

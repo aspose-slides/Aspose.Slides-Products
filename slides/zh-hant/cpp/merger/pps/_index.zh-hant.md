@@ -14,7 +14,7 @@ description: 用於在 Windows 32 位、Windows 64 位和 Linux 64 位的 C++ �
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 合併 PPS 文件" %}}
 
  為了合併 PPS 文件，我們將使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API 是一個功能豐富、功能強大且易於使用的 C++ 平台文檔合併 API。可以直接下載最新版本，直接打開
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C++ 中合併 PPS 文件的步驟" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可完成與 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API 合併和連接的基本文檔。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需幾行代碼即可完成與 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API 合併和連接的基本文檔。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 加載兩個 PPS 文件。

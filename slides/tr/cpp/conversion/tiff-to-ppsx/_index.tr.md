@@ -14,7 +14,7 @@ description: TIFF belgesi için PPSX formatına örnek C++ dönüştürme kodu. 
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak TIFF'yi PPSX'e Dönüştürme" %}}
 
  TIFF'i PPSX'e dönüştürmek için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp/)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge işleme ve dönüştürme API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara

@@ -14,7 +14,7 @@ description: Kode sampel Java untuk mengekstrak teks dan gambar dari file PPTX d
 {{% blocks/products/pf/agp/content h2="Cara Parsing File PPTX Menggunakan Java" %}}
 
  Untuk mengurai file PPTX, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java/)
  API yang kaya fitur, kuat, dan mudah digunakan parsing API untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.
@@ -54,7 +54,7 @@ description: Kode sampel Java untuk mengekstrak teks dan gambar dari file PPTX d
 
 {{< blocks/products/pf/agp/feature-section-col title="Langkah-langkah Parsing File PPTX di Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Penguraian dokumen dasar dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java) API dapat dilakukan hanya dengan beberapa baris kode." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Penguraian dokumen dasar dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java/) API dapat dilakukan hanya dengan beberapa baris kode." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Muat file PPTX dengan menginstatasi kelas Presentasi.

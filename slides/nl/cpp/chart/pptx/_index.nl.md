@@ -14,7 +14,7 @@ description: C++ voorbeeldcode om een ​​grafiek of diagram in PPTX-bestand t
 {{% blocks/products/pf/agp/content h2="PPTX-bestandsdiagrammen maken met C++" %}}
 
  Om het PPTX-bestand te doorzoeken, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor het doorzoeken van documenten voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om PPTX-bestanden te maken in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat in kaart wordt gebracht met [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat in kaart wordt gebracht met [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantie Presentatie klasse.

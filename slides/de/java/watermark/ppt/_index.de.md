@@ -14,7 +14,7 @@ description: Java-Beispielcode zum Hinzufügen oder Entfernen von Wasserzeichen 
 {{% blocks/products/pf/agp/content h2="So versehen Sie eine PPT-Datei mit Java mit einem Wasserzeichen" %}}
 
  Um PPT-Dateien mit Wasserzeichen zu versehen, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Wasserzeichen-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.

@@ -14,7 +14,7 @@ description: Código de amostra Java para combinar documentos PPT no Java Runtim
 {{% blocks/products/pf/agp/content h2="Como mesclar arquivos PPT usando Java" %}}
 
  Para mesclar o arquivo PPT, usaremos
- [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/)
  API que é uma API de fusão rica em recursos, poderosa e fácil de usar para a plataforma Java. Você pode baixar sua versão mais recente diretamente de
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instale-o em seu projeto baseado em Maven adicionando as seguintes configurações ao pom.xml.
@@ -54,7 +54,7 @@ description: Código de amostra Java para combinar documentos PPT no Java Runtim
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para mesclar arquivos PPT em Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Um documento básico mesclando e concatenando com APIs [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java) pode ser feito com apenas algumas linhas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Um documento básico mesclando e concatenando com APIs [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/) pode ser feito com apenas algumas linhas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carregue o primeiro arquivo PPT com uma instância da classe Presentation.

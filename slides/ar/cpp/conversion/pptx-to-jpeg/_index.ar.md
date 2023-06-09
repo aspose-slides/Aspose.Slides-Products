@@ -14,7 +14,7 @@ description: نموذج كود تحويل C ++ لمستند PPTX إلى تنسي
 {{% blocks/products/pf/agp/content h2="كيفية تحويل PPTX إلى JPEG باستخدام C ++" %}}
 
  من أجل تحويل PPTX إلى JPEG ، سنستخدم ملفات
- [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp/)
  واجهة برمجة التطبيقات API وهي غنية بالميزات وقوية وسهلة الاستخدام للتعامل مع المستندات وتحويلها API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن

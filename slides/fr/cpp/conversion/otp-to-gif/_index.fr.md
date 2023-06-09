@@ -14,7 +14,7 @@ description: Exemple de code de conversion C++ pour le document OTP au format GI
 {{% blocks/products/pf/agp/content h2="Comment convertir OTP en GIF en utilisant C++" %}}
 
  Afin de convertir OTP en GIF, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp/)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez

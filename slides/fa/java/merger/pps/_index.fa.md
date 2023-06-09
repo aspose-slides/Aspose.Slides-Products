@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای ترکیب اسناد PPS در Ja
 {{% blocks/products/pf/agp/content h2="نحوه ادغام فایل های PPS با استفاده از جاوا" %}}
 
  به منظور ادغام فایل PPS، ما استفاده خواهیم کرد
- [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/)
  API که یک API ادغام با ویژگی های غنی، قدرتمند و آسان برای پلت فرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای ترکیب اسناد PPS در Ja
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ادغام فایل های PPS در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 اولین فایل PPS را با نمونه ای از کلاس Presentation بارگیری کنید.

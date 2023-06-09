@@ -14,7 +14,7 @@ description: نمونه کد تبدیل C++ برای سند POTX به فرمت P
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل POTX به PPTM با استفاده از ++C" %}}
 
  برای تبدیل POTX به PPTM، ما استفاده خواهیم کرد
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API که یک API غنی از ویژگی، قدرتمند و آسان برای دستکاری و تبدیل اسناد برای پلتفرم ++C است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید

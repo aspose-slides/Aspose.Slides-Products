@@ -14,7 +14,7 @@ description: C++ példakód diagram vagy diagram PPT-fájlba való megrajzolás�
 {{% blocks/products/pf/agp/content h2="Hogyan készítsünk PPT fájldiagramokat C++ használatával" %}}
 
  A PPT fájl kereséséhez használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkereső API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Lépések a PPT fájl diagramok létrehozásához C++ nyelven" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API-kkal való alapdokumentum-diagramok néhány sornyi kóddal elkészíthetők." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API-kkal való alapdokumentum-diagramok néhány sornyi kóddal elkészíthetők." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Példányos bemutató osztály.

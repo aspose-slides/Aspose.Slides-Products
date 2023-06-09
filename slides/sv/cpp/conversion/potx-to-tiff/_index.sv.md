@@ -14,7 +14,7 @@ description: Exempel på C++-konverteringskod för POTX-dokument till TIFF-forma
 {{% blocks/products/pf/agp/content h2="Hur man konverterar POTX till TIFF med C++" %}}
 
  För att konvertera POTX till TIFF kommer vi att använda
- [Aspose.Slides för C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentmanipulering och konvertering för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter

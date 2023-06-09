@@ -14,7 +14,7 @@ description: Voorbeeld C++-conversiecode voor POT-document naar XML-formaat. Geb
 {{% blocks/products/pf/agp/content h2="Hoe POT naar XML te converteren met C++" %}}
 
  Om POT naar XML te converteren, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie en -conversie voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar

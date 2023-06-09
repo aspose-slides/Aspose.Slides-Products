@@ -14,7 +14,7 @@ description: Java-voorbeeldcode om POTM-documenten te combineren op Java Runtime
 {{% blocks/products/pf/agp/content h2="Hoe POTM-bestanden samen te voegen met Java" %}}
 
  Om het POTM-bestand samen te voegen, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke fusie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.
@@ -54,7 +54,7 @@ description: Java-voorbeeldcode om POTM-documenten te combineren op Java Runtime
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen voor het samenvoegen van POTM-bestanden in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat kan worden samengevoegd en samengevoegd met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat kan worden samengevoegd en samengevoegd met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java/) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad het eerste POTM-bestand met een instantie van de klasse Presentatie.

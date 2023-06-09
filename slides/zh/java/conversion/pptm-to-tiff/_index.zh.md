@@ -14,7 +14,7 @@ description: PPTM 格式到 TIFF 文件的示例 Java 转换代码。使用此�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 将 PPTM 转换为 TIFF" %}}
 
  为了将 PPTM 渲染为 TIFF，我们将使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java/)
  API 是一个功能丰富、功能强大且易于使用的 Java 平台转换 API。您可以直接从
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  并通过将以下配置添加到 pom.xml 将其安装在基于 Maven 的项目中。

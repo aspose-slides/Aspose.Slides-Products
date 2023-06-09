@@ -14,7 +14,7 @@ description: مثال على كود C ++ لرسم وتحويل مخطط أو ر�
 {{% blocks/products/pf/agp/content h2="كيفية إنشاء مخططات ملف PPT باستخدام C ++" %}}
 
  من أجل البحث في ملف PPT ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/)
  API وهو عبارة عن واجهة برمجة تطبيقات بحث عن المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات إنشاء مخططات ملفات PPT في C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="رسم تخطيطي أساسي باستخدام [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp) يمكن عمل واجهات برمجة التطبيقات ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="رسم تخطيطي أساسي باستخدام [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/) يمكن عمل واجهات برمجة التطبيقات ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 إنشاء فئة العرض التقديمي.

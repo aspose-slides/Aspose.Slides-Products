@@ -14,7 +14,7 @@ description: Sample C++ conversion code for XML document to POTX format. Use exa
 {{% blocks/products/pf/agp/content h2="Convert XML to POTX Using C++" %}}
 
  In order to convert XML to POTX, we’ll use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
  package manager, search for

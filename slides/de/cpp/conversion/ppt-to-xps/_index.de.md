@@ -14,7 +14,7 @@ description: Beispiel-C++-Konvertierungscode für ein PPT-Dokument in das XPS-Fo
 {{% blocks/products/pf/agp/content h2="So konvertieren Sie PPT in XPS mit C++" %}}
 
  Um PPT in XPS zu konvertieren, verwenden wir
- [Aspose.Folien für C++](https://products.aspose.com/slides/de/cpp)
+ [Aspose.Folien für C++](https://products.aspose.com/slides/de/cpp/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zur Dokumentenbearbeitung und -konvertierung für die C++-Plattform ist. Sie können die neueste Version direkt herunterladen, einfach öffnen
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  Paketmanager, suche nach

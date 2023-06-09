@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód PPT dokumentumhoz POTM formátumba. Hasz
 {{% blocks/products/pf/agp/content h2="Hogyan lehet PPT-t POTM-má konvertálni C++ használatával" %}}
 
  A PPT POTM-má konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

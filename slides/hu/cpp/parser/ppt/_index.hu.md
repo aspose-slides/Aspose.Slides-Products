@@ -14,7 +14,7 @@ description: C++ példakód szöveg és képek kinyerésére a PPT fájlból a C
 {{% blocks/products/pf/agp/content h2="A PPT fájl elemzése C++ használatával" %}}
 
  A PPT fájl elemzéséhez használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható dokumentumelemző API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="A PPT-fájlok elemzésének lépései C++-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumelemzés az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp) API-kkal néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az alapvető dokumentumelemzés az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) API-kkal néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPT fájl betöltése.

@@ -14,7 +14,7 @@ description: Código de muestra de Java para extraer texto e imágenes del archi
 {{% blocks/products/pf/agp/content h2="Cómo analizar archivos PPT usando Java" %}}
 
  Para analizar el archivo PPT, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/java/)
  API que es una API de análisis rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.
@@ -54,7 +54,7 @@ description: Código de muestra de Java para extraer texto e imágenes del archi
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para analizar archivos PPT en Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar un análisis básico de documentos con [Aspose.Slides for Java](https://products.aspose.com/slides/java) API con solo unas pocas líneas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar un análisis básico de documentos con [Aspose.Slides for Java](https://products.aspose.com/slides/java/) API con solo unas pocas líneas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Cargue el archivo PPT instanciando la clase de presentación.

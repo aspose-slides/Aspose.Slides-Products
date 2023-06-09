@@ -14,7 +14,7 @@ description: Ukázka převodního kódu C++ pro dokument PPSX do formátu PDF. P
 {{% blocks/products/pf/agp/content h2="Jak převést PPSX do PDF pomocí C++" %}}
 
  K převodu PPSX do PDF použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro manipulaci a konverzi dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte

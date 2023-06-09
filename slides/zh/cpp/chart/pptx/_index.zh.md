@@ -14,7 +14,7 @@ description: C++ 示例代码，用于在 Windows 32 位、Windows 64 位和 Lin
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 创建 PPTX 文件图表" %}}
 
  为了搜索 PPTX 文件，我们将使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API 是一个功能丰富、功能强大且易于使用的 C++ 平台文档搜索 API。可以直接下载最新版本，直接打开
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="在 C++ 中创建 PPTX 文件图表的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可使用 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API 绘制基本文档图表。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可使用 [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API 绘制基本文档图表。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 实例化演示类。

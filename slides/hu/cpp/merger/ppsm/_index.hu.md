@@ -14,7 +14,7 @@ description: C++ példakód a PPSM dokumentumok kombinálásához C++ Runtime En
 {{% blocks/products/pf/agp/content h2="PPSM fájl egyesítése C++ használatával" %}}
 
  A PPSM fájl egyesítéséhez használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentum-egyesítési API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="A PPSM fájlok egyesítésének lépései C++ nyelven" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltsd be mindkét PPSM fájlt.

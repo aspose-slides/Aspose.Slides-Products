@@ -14,7 +14,7 @@ description: Contoh kode konversi C++ untuk dokumen TIFF ke format POTM. Gunakan
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi TIFF ke POTM Menggunakan C++" %}}
 
  Untuk mengonversi TIFF ke POTM, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp/)
  API yang kaya fitur, kuat, dan mudah digunakan untuk manipulasi dokumen dan API konversi untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari

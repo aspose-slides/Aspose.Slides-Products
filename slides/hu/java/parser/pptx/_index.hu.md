@@ -14,7 +14,7 @@ description: Java-mintakód szöveg és képek PPTX-fájlból történő kivoná
 {{% blocks/products/pf/agp/content h2="PPTX fájl elemzése Java használatával" %}}
 
  A PPTX fájl elemzéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható elemző API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.
@@ -54,7 +54,7 @@ description: Java-mintakód szöveg és képek PPTX-fájlból történő kivoná
 
 {{< blocks/products/pf/agp/feature-section-col title="A PPTX fájlok Java nyelven történő elemzésének lépései" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java) API-kkal való alapvető dokumentumelemzés néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) API-kkal való alapvető dokumentumelemzés néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltsön be PPTX fájlt a Presentation class megadásával.

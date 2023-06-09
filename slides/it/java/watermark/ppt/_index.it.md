@@ -14,7 +14,7 @@ description: Codice di esempio Java per aggiungere o rimuovere la filigrana nel 
 {{% blocks/products/pf/agp/content h2="Come filigranare il file PPT utilizzando Java" %}}
 
  Per filigranare il file PPT, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java/)
  API che è un'API di filigrana ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.

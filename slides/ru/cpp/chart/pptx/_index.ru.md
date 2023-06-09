@@ -14,7 +14,7 @@ description: Пример кода C++ для рисования и преобр
 {{% blocks/products/pf/agp/content h2="Как создать диаграммы файлов PPTX с помощью C++" %}}
 
  Для поиска файла PPTX мы будем использовать
- [Aspose.Slides для C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides для C++](https://products.aspose.com/slides/cpp/)
  API, который представляет собой многофункциональный, мощный и простой в использовании API поиска документов для платформы C++. Вы можете загрузить его последнюю версию напрямую, просто открыв
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  менеджер пакетов, поиск
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги по созданию диаграмм файлов PPTX в C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовую диаграмму документа с помощью API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) можно создать всего несколькими строками кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовую диаграмму документа с помощью API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) можно создать всего несколькими строками кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Создайте экземпляр класса Presentation.

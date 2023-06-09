@@ -14,7 +14,7 @@ description: PPT文檔到PPSM格式的示例C++轉換代碼。在任何 C++ 應�
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 將 PPT 轉換為 PPSM" %}}
 
  為了將 PPT 轉換為 PPSM，我們將使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp/)
  API 是一個功能豐富、功能強大且易於使用的 C++ 平台文檔操作和轉換 API。可以直接下載最新版本，直接打開
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索

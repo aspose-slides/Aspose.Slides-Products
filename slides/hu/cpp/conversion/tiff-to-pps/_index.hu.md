@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód TIFF dokumentumhoz PPS formátumba. Hasz
 {{% blocks/products/pf/agp/content h2="Hogyan lehet TIFF-et PPS-re konvertálni C++ használatával" %}}
 
  A TIFF PPS-re konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

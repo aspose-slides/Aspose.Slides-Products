@@ -14,7 +14,7 @@ description: Codice di esempio C++ per aggiungere o rimuovere filigrana al file 
 {{% blocks/products/pf/agp/content h2="Come filigranare un file PPTX usando C++" %}}
 
  Per filigranare il file PPTX, useremo
- [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp)
+ [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp/)
  API che è un'API di filigrana dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C++. Puoi scaricare direttamente la sua ultima versione, basta aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestore pacchetti, cerca
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per aggiungere filigrana a PPTX tramite C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="È necessario [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) per provare il seguente flusso di lavoro nel proprio ambiente." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="È necessario [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) per provare il seguente flusso di lavoro nel proprio ambiente." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica i file PPTX con un'istanza della classe Presentation

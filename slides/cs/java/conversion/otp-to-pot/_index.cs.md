@@ -14,7 +14,7 @@ description: Ukázkový konverzní kód Java pro formát OTP do souboru POT. Ten
 {{% blocks/products/pf/agp/content h2="Jak převést OTP na POT pomocí Java" %}}
 
  K vykreslení OTP do POT použijeme
- [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/)
  API, což je funkčně bohaté, výkonné a snadno použitelné konverzní API pro platformu Java. Jeho nejnovější verzi si můžete stáhnout přímo z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  a nainstalujte jej do svého projektu založeného na Maven přidáním následujících konfigurací do souboru pom.xml.

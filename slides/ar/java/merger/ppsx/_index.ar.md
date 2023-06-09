@@ -14,7 +14,7 @@ description: نموذج كود Java لدمج مستندات PPSX في Java Runti
 {{% blocks/products/pf/agp/content h2="كيفية دمج ملفات PPSX باستخدام Java" %}}
 
  لدمج ملف PPSX ، سنستخدمه
- [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)
  API وهو عبارة عن واجهة برمجة تطبيقات مدمجة غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -54,7 +54,7 @@ description: نموذج كود Java لدمج مستندات PPSX في Java Runti
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات دمج ملفات PPSX في جافا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن دمج المستندات الأساسية مع [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java) وواجهات برمجة التطبيقات باستخدام سطور قليلة من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن دمج المستندات الأساسية مع [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/) وواجهات برمجة التطبيقات باستخدام سطور قليلة من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل أول ملف PPSX بنسخة من فئة العرض التقديمي.

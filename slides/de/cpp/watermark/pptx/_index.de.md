@@ -14,7 +14,7 @@ description: C++-Beispielcode zum Hinzufügen oder Entfernen von Wasserzeichen z
 {{% blocks/products/pf/agp/content h2="So versehen Sie eine PPTX-Datei mit C++ mit einem Wasserzeichen" %}}
 
  Um PPTX-Dateien mit Wasserzeichen zu versehen, verwenden wir
- [Aspose.Folien für C++](https://products.aspose.com/slides/de/cpp)
+ [Aspose.Folien für C++](https://products.aspose.com/slides/de/cpp/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API für Dokumenten-Wasserzeichen für die C++-Plattform ist. Sie können die neueste Version direkt herunterladen, einfach öffnen
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Hinzufügen von Wasserzeichen zu PPTX über C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Sie benötigen die [aspose.slides.dll](https://downloads.aspose.com/slides/cpp), um den folgenden Workflow in Ihrer eigenen Umgebung auszuprobieren." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Sie benötigen die [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/), um den folgenden Workflow in Ihrer eigenen Umgebung auszuprobieren." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laden Sie PPTX-Dateien mit einer Instanz der Präsentationsklasse

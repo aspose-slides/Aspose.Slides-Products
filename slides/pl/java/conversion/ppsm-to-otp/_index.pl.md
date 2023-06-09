@@ -14,7 +14,7 @@ description: Przykładowy kod konwersji Java dla formatu PPSM do pliku OTP. Uży
 {{% blocks/products/pf/agp/content h2="Jak przekonwertować PPSM na OTP za pomocą Java?" %}}
 
  Aby renderować PPSM do OTP, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API konwersji dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.

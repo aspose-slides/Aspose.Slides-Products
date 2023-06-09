@@ -14,7 +14,7 @@ description: Java mintakód a POTX dokumentumok kombinálásához Java Runtime E
 {{% blocks/products/pf/agp/content h2="POTX fájlok egyesítése Java használatával" %}}
 
  A POTX fájl egyesítéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/)
  API, amely funkciókban gazdag, hatékony és könnyen használható egyesítő API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.
@@ -54,7 +54,7 @@ description: Java mintakód a POTX dokumentumok kombinálásához Java Runtime E
 
 {{< blocks/products/pf/agp/feature-section-col title="A POTX-fájlok egyesítésének lépései Java-ban" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltse be az első POTX-fájlt a Presentation osztály egy példányával.

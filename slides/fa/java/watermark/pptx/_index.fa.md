@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای افزودن یا حذف واتر
 {{% blocks/products/pf/agp/content h2="نحوه واترمارک کردن فایل PPTX با استفاده از جاوا" %}}
 
  برای واترمارک کردن فایل PPTX، از
- [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/)
  API که یک API واترمارک غنی از ویژگی، قدرتمند و آسان برای استفاده برای پلت فرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.

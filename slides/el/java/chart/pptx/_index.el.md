@@ -14,7 +14,7 @@ description: Δείγμα κώδικα Java για σχεδίαση και με�
 {{% blocks/products/pf/agp/content h2="Πώς να δημιουργήσετε γραφήματα αρχείων PPTX χρησιμοποιώντας Java" %}}
 
  Για να δημιουργήσουμε γραφήματα αρχείων PPTX, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API γραφημάτων για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -54,7 +54,7 @@ description: Δείγμα κώδικα Java για σχεδίαση και με�
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για τη δημιουργία γραφημάτων αρχείων PPTX σε Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Μια βασική χαρτογράφηση εγγράφων με [Aspose.Slides for Java](https://products.aspose.com/slides/el/java) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Μια βασική χαρτογράφηση εγγράφων με [Aspose.Slides for Java](https://products.aspose.com/slides/el/java/) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Αντικείμενο κλάσης Instantiate Presentation.

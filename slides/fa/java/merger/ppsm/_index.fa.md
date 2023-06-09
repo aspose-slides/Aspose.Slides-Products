@@ -14,7 +14,7 @@ description: کد نمونه جاوا برای ترکیب اسناد PPSM در J
 {{% blocks/products/pf/agp/content h2="نحوه ادغام فایل های PPSM با استفاده از جاوا" %}}
 
  برای ادغام فایل PPSM، از
- [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/)
  API که یک API ادغام با ویژگی های غنی، قدرتمند و آسان برای پلت فرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.
@@ -54,7 +54,7 @@ description: کد نمونه جاوا برای ترکیب اسناد PPSM در J
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ادغام فایل های PPSM در جاوا" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 اولین فایل PPSM را با نمونه ای از کلاس Presentation بارگیری کنید.

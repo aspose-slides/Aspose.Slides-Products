@@ -14,7 +14,7 @@ description: Przykładowy kod Java do rysowania i konwertowania wykresu lub diag
 {{% blocks/products/pf/agp/content h2="Jak tworzyć wykresy plików PPT za pomocą Javy" %}}
 
  Aby utworzyć wykresy plików PPT, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API do tworzenia wykresów dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.
@@ -54,7 +54,7 @@ description: Przykładowy kod Java do rysowania i konwertowania wykresu lub diag
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki tworzenia wykresów plików PPT w Javie" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wykresy dokumentów za pomocą interfejsów API [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wykresy dokumentów za pomocą interfejsów API [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Utwórz wystąpienie obiektu klasy Presentation.

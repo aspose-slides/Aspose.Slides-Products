@@ -14,7 +14,7 @@ description: Esempio di codice di conversione C++ per il documento PPSX in forma
 {{% blocks/products/pf/agp/content h2="Come convertire PPSX in PPSM usando C++" %}}
 
  Per convertire PPSX in PPSM, useremo
- [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp)
+ [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp/)
  API che è un'API di conversione e manipolazione dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C++. Puoi scaricare direttamente la sua ultima versione, basta aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestore pacchetti, cerca

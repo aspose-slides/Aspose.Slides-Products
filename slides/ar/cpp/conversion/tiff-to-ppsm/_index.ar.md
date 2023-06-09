@@ -14,7 +14,7 @@ description: عينة كود تحويل C ++ لمستند TIFF إلى تنسيق
 {{% blocks/products/pf/agp/content h2="كيفية تحويل TIFF إلى PPSM باستخدام C ++" %}}
 
  من أجل تحويل TIFF إلى PPSM ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp/)
  واجهة برمجة التطبيقات API وهي غنية بالميزات وقوية وسهلة الاستخدام للتعامل مع المستندات وتحويلها API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن

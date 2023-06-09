@@ -14,7 +14,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 {{% blocks/products/pf/agp/content h2="जावा का उपयोग करके पीपीटी फ़ाइल को वॉटरमार्क कैसे करें" %}}
 
  पीपीटी फ़ाइल को वॉटरमार्क करने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और जावा प्लेटफॉर्म के लिए वॉटरमार्किंग एपीआई का उपयोग करने में आसान है। आप इसका नवीनतम संस्करण सीधे से डाउनलोड कर सकते हैं
  [मेवेन](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  और pom.xml में निम्नलिखित कॉन्फ़िगरेशन जोड़कर इसे अपने मावेन-आधारित प्रोजेक्ट में स्थापित करें।

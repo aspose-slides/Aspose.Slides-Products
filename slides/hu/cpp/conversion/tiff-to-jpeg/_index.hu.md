@@ -14,7 +14,7 @@ description: Minta C++ konverziós kód TIFF dokumentumhoz JPEG formátumba. Has
 {{% blocks/products/pf/agp/content h2="Hogyan lehet TIFF-et JPEG-be konvertálni C++ használatával" %}}
 
  A TIFF JPEG formátumba konvertálásához használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely funkciókban gazdag, hatékony és könnyen használható dokumentumkezelési és -konverziós API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen

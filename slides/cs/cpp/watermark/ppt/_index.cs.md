@@ -14,7 +14,7 @@ description: Příklad kódu C++ pro přidání nebo odstranění vodoznaku do s
 {{% blocks/products/pf/agp/content h2="Jak vodoznak PPT souboru pomocí C++" %}}
 
  K vodoznaku souboru PPT použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro vodoznakování dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky pro přidání vodoznaku do PPT přes C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="K vyzkoušení následujícího pracovního postupu ve svém vlastním prostředí potřebujete [aspose.slides.dll](https://downloads.aspose.com/slides/cpp)." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="K vyzkoušení následujícího pracovního postupu ve svém vlastním prostředí potřebujete [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/)." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načtěte soubory PPT s instancí třídy Presentation

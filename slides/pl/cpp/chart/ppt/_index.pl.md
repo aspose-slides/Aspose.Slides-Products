@@ -14,7 +14,7 @@ description: Przykładowy kod C++ do rysowania i konwertowania wykresu lub diagr
 {{% blocks/products/pf/agp/content h2="Jak tworzyć wykresy plików PPT za pomocą C++" %}}
 
  Aby przeszukać plik PPT, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp/)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API do wyszukiwania dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki tworzenia wykresów plików PPT w C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wykresy dokumentów za pomocą interfejsów API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe wykresy dokumentów za pomocą interfejsów API [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Utwórz wystąpienie klasy prezentacji.

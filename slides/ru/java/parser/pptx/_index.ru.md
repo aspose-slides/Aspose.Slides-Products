@@ -14,7 +14,7 @@ description: Пример кода Java для извлечения текста
 {{% blocks/products/pf/agp/content h2="Как разобрать файл PPTX с помощью Java" %}}
 
  Чтобы разобрать файл PPTX, мы будем использовать
- [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java)
+ [Aspose.Slides для Java](https://products.aspose.com/slides/ru/java/)
  API, который представляет собой многофункциональный, мощный и простой в использовании API синтаксического анализа для платформы Java. Вы можете скачать его последнюю версию прямо с
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  и установите его в своем проекте на основе Maven, добавив следующие конфигурации в файл pom.xml.
@@ -54,7 +54,7 @@ description: Пример кода Java для извлечения текста
 
 {{< blocks/products/pf/agp/feature-section-col title="Шаги для разбора файлов PPTX в Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Базовый синтаксический анализ документа с помощью API [Aspose.Slides for Java](https://products.aspose.com/slides/ru/java) можно выполнить с помощью всего нескольких строк кода." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Базовый синтаксический анализ документа с помощью API [Aspose.Slides for Java](https://products.aspose.com/slides/ru/java/) можно выполнить с помощью всего нескольких строк кода." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Загрузите файл PPTX, установив класс Presentation.

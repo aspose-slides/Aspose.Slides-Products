@@ -14,7 +14,7 @@ description: Przykładowy kod C++ do dodawania lub usuwania znaku wodnego do pli
 {{% blocks/products/pf/agp/content h2="Jak oznaczyć plik PPTX znakiem wodnym za pomocą C++" %}}
 
  Aby oznaczyć plik PPTX znakiem wodnym, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp/)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API do znakowania dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki, aby dodać znak wodny do PPTX za pomocą C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Potrzebujesz pliku [aspose.slides.dll](https://downloads.aspose.com/slides/cpp), aby wypróbować następujący przepływ pracy we własnym środowisku." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Potrzebujesz pliku [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/), aby wypróbować następujący przepływ pracy we własnym środowisku." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj pliki PPTX z instancją klasy Presentation

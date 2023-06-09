@@ -14,7 +14,7 @@ description: Ukázka převodního kódu C++ pro dokument XML do formátu HTML. P
 {{% blocks/products/pf/agp/content h2="Jak převést XML do HTML pomocí C++" %}}
 
  K převodu XML do HTML použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné rozhraní API pro manipulaci a konverzi dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte

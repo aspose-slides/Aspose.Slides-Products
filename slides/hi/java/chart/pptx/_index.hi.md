@@ -14,7 +14,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 {{% blocks/products/pf/agp/content h2="जावा का उपयोग करके पीपीटीएक्स फ़ाइल चार्ट कैसे बनाएं" %}}
 
  PPTX फ़ाइल चार्ट बनाने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और जावा प्लेटफॉर्म के लिए चार्टिंग एपीआई का उपयोग करने में आसान है। आप इसका नवीनतम संस्करण सीधे से डाउनलोड कर सकते हैं
  [मेवेन](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  और pom.xml में निम्नलिखित कॉन्फ़िगरेशन जोड़कर इसे अपने मावेन-आधारित प्रोजेक्ट में स्थापित करें।
@@ -54,7 +54,7 @@ description: JSP/JSF एप्लिकेशन और डेस्कटॉप
 
 {{< blocks/products/pf/agp/feature-section-col title="जावा में PPTX फाइल चार्ट बनाने के चरण" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/hi/java) API के साथ एक बुनियादी दस्तावेज़ चार्टिंग कोड की कुछ पंक्तियों के साथ किया जा सकता है।" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/) API के साथ एक बुनियादी दस्तावेज़ चार्टिंग कोड की कुछ पंक्तियों के साथ किया जा सकता है।" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 इंस्टेंट प्रेजेंटेशन क्लास ऑब्जेक्ट।

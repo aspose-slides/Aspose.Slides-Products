@@ -14,7 +14,7 @@ description: Esempio di codice di conversione Java per il formato OTP in file JP
 {{% blocks/products/pf/agp/content h2="Come convertire OTP in JPEG usando Java" %}}
 
  Per rendere OTP in JPEG, useremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java/)
  API che è un'API di conversione ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.

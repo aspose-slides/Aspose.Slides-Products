@@ -14,7 +14,7 @@ description: C++ example code to extract text and images from PPTX file on C++ R
 {{% blocks/products/pf/agp/content h2="Parse PPTX File Using C++" %}}
 
  In order to parse PPTX file, we’ll use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) 
  API which is a feature-rich, powerful and easy to use document parsing API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
  package manager, search for
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Parse PPTX Files in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document parsing with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document parsing with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) APIs can be done with just few lines of code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Load PPTX file.

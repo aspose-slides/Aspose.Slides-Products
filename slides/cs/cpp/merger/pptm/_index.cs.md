@@ -14,7 +14,7 @@ description: Příklad kódu C++ pro kombinaci dokumentů PPTM v C++ Runtime Env
 {{% blocks/products/pf/agp/content h2="Jak sloučit soubor PPTM pomocí C++" %}}
 
  Abychom sloučili soubor PPTM, použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro slučování dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky pro sloučení souborů PPTM v C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní sloučení a zřetězení dokumentu s [Aspose.Slides for C++](https://products.aspose.com/slides/cs/cpp) API lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní sloučení a zřetězení dokumentu s [Aspose.Slides for C++](https://products.aspose.com/slides/cs/cpp/) API lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načtěte oba soubory PPTM.

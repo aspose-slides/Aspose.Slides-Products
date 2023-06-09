@@ -14,7 +14,7 @@ description: Příklad kódu C++ pro kombinaci dokumentů PPT v prostředí C++ 
 {{% blocks/products/pf/agp/content h2="Jak sloučit soubor PPT pomocí C++" %}}
 
  Abychom sloučili soubor PPT, použijeme
- [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp)
+ [Aspose.Slides pro C++](https://products.aspose.com/slides/cs/cpp/)
  API, což je funkčně bohaté, výkonné a snadno použitelné API pro slučování dokumentů pro platformu C++. Jeho nejnovější verzi si můžete stáhnout přímo, stačí otevřít
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  správce balíčků, vyhledejte
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroky pro sloučení souborů PPT v C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Základní sloučení a zřetězení dokumentu s [Aspose.Slides for C++](https://products.aspose.com/slides/cs/cpp) API lze provést pomocí několika řádků kódu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Základní sloučení a zřetězení dokumentu s [Aspose.Slides for C++](https://products.aspose.com/slides/cs/cpp/) API lze provést pomocí několika řádků kódu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Načtěte oba soubory PPT.

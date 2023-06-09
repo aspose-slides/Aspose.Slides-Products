@@ -14,7 +14,7 @@ description: Przykładowy kod konwersji C++ dla dokumentu POTM do formatu EMF. U
 {{% blocks/products/pf/agp/content h2="Jak przekonwertować POTM na EMF za pomocą C++" %}}
 
  Aby przekonwertować POTM na EMF, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/cpp/)
  API, które jest bogatym w funkcje, potężnym i łatwym w użyciu interfejsem API do manipulacji i konwersji dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj

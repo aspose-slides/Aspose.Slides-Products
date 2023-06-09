@@ -14,7 +14,7 @@ description: نموذج كود تحويل Java لتنسيق OTP إلى ملف SV
 {{% blocks/products/pf/agp/content h2="كيفية تحويل OTP إلى SVG باستخدام Java" %}}
 
  من أجل تقديم OTP إلى SVG ، سنستخدم ملفات
- [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)
  API وهي واجهة برمجة تطبيقات تحويل غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.

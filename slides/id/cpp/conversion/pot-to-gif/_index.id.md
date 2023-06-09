@@ -14,7 +14,7 @@ description: Contoh kode konversi C++ untuk dokumen POT ke format GIF. Gunakan k
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi POT ke GIF Menggunakan C++" %}}
 
  Untuk mengonversi POT ke GIF, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp/)
  API yang kaya fitur, kuat, dan mudah digunakan untuk manipulasi dokumen dan API konversi untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari

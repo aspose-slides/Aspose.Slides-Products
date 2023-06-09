@@ -14,7 +14,7 @@ description: Java-voorbeeldcode voor het toevoegen of verwijderen van een waterm
 {{% blocks/products/pf/agp/content h2="Hoe een PPT-bestand van een watermerk te voorzien met Java" %}}
 
  Om het PPT-bestand van een watermerk te voorzien, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke watermerk-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.

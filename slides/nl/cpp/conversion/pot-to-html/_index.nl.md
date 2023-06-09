@@ -14,7 +14,7 @@ description: Voorbeeld van C++-conversiecode voor POT-document naar HTML-indelin
 {{% blocks/products/pf/agp/content h2="Hoe POT naar HTML te converteren met C++" %}}
 
  Om POT naar HTML te converteren, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie en -conversie voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar

@@ -14,7 +14,7 @@ description: C++ exempelkod för att kombinera OTP-dokument i C++ Runtime Enviro
 {{% blocks/products/pf/agp/content h2="Hur man sammanfogar OTP-fil med C++" %}}
 
  För att slå samman OTP-fil kommer vi att använda
- [Aspose.Slides för C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentsammanslagningar för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att slå samman OTP-filer i C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ett grundläggande dokument som sammanfogas och sammanfogas med [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ett grundläggande dokument som sammanfogas och sammanfogas med [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Ladda båda OTP-filerna.

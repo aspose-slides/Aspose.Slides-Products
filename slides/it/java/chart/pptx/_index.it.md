@@ -14,7 +14,7 @@ description: Codice di esempio Java per disegnare e convertire grafici o diagram
 {{% blocks/products/pf/agp/content h2="Come creare grafici di file PPTX utilizzando Java" %}}
 
  Per creare grafici di file PPTX, utilizzeremo
- [Aspose.Slides per Java](https://products.aspose.com/slides/it/java)
+ [Aspose.Slides per Java](https://products.aspose.com/slides/it/java/)
  API che è un'API per la creazione di grafici ricca di funzionalità, potente e facile da usare per la piattaforma Java. Puoi scaricare la sua ultima versione direttamente da
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e installalo all'interno del tuo progetto basato su Maven aggiungendo le seguenti configurazioni a pom.xml.
@@ -54,7 +54,7 @@ description: Codice di esempio Java per disegnare e convertire grafici o diagram
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per creare grafici di file PPTX in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="La creazione di grafici di documenti di base con le API [Aspose.Slides for Java](https://products.aspose.com/slides/it/java) può essere eseguita con poche righe di codice." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="La creazione di grafici di documenti di base con le API [Aspose.Slides for Java](https://products.aspose.com/slides/it/java/) può essere eseguita con poche righe di codice." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Istanziare l'oggetto classe Presentazione.

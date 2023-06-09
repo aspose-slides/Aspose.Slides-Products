@@ -14,7 +14,7 @@ description: نموذج لرمز تحويل C ++ لمستند PPSM إلى تنس
 {{% blocks/products/pf/agp/content h2="كيفية تحويل PPSM إلى XPS باستخدام C ++" %}}
 
  من أجل تحويل PPSM إلى XPS ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp/)
  واجهة برمجة التطبيقات API وهي غنية بالميزات وقوية وسهلة الاستخدام للتعامل مع المستندات وتحويلها API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن

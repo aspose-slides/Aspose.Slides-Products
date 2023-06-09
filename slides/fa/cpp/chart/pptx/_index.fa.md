@@ -14,7 +14,7 @@ description: کد مثال C++ برای رسم و تبدیل نمودار یا �
 {{% blocks/products/pf/agp/content h2="نحوه ایجاد نمودارهای فایل PPTX با استفاده از ++C" %}}
 
  برای جستجوی فایل PPTX، از
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API که یک API جستجوی اسناد غنی، قدرتمند و آسان برای استفاده برای پلتفرم C++ است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ایجاد نمودار فایل های PPTX در C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API ها را می توان تنها با چند خط کد انجام داد." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک نمودار اولیه سند با [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API ها را می توان تنها با چند خط کد انجام داد." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 کلاس Instantiate Presentation.

@@ -14,7 +14,7 @@ description: Sample Java conversion code for ODP format to PPTX file. Use this e
 {{% blocks/products/pf/agp/content h2="Convert ODP to PPTX Using Java" %}}
 
  In order to render ODP to PPTX, we’ll use
- [Aspose.Slides for Java](https://products.aspose.com/slides/java) 
+ [Aspose.Slides for Java](https://products.aspose.com/slides/java/) 
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) 
  and install it within your Maven-based project by adding the following configurations to the pom.xml.

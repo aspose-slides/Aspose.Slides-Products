@@ -14,7 +14,7 @@ description: Παράδειγμα κώδικα C++ για σχεδίαση κα�
 {{% blocks/products/pf/agp/content h2="Πώς να δημιουργήσετε γραφήματα αρχείων PPTX χρησιμοποιώντας C++" %}}
 
  Για να αναζητήσουμε το αρχείο PPTX, θα χρησιμοποιήσουμε
- [Aspose.Slides για C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides για C++](https://products.aspose.com/slides/cpp/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύκολο στη χρήση API αναζήτησης εγγράφων για πλατφόρμα C++. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας, απλά ανοίξτε
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  διαχειριστής πακέτων, αναζητήστε
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για τη δημιουργία γραφημάτων αρχείων PPTX σε C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό γράφημα εγγράφων με [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ένα βασικό γράφημα εγγράφων με [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Μάθημα Instantiate Presentation.

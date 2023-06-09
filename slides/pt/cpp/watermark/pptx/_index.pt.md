@@ -14,7 +14,7 @@ description: Código de exemplo C++ para adicionar ou remover marca d'água no a
 {{% blocks/products/pf/agp/content h2="Como marcar o arquivo PPTX com marca d'água usando C++" %}}
 
  Para marcar o arquivo PPTX com marca d'água, usaremos
- [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/)
  API que é uma API de marca d'água de documento rica em recursos, poderosa e fácil de usar para plataforma C++. Você pode baixar sua versão mais recente diretamente, basta abrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gerenciador de pacotes, procure
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Etapas para adicionar marca d'água ao PPTX via C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Você precisa do [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) para tentar o seguinte fluxo de trabalho em seu próprio ambiente." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Você precisa do [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) para tentar o seguinte fluxo de trabalho em seu próprio ambiente." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carregar arquivos PPTX com uma instância da classe Presentation

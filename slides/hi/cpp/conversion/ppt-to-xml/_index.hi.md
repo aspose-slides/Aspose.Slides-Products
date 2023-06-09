@@ -14,7 +14,7 @@ description: पीपीटी दस्तावेज़ के लिए ए
 {{% blocks/products/pf/agp/content h2="C++ का उपयोग करके PPT को XML में कैसे बदलें?" %}}
 
  PPT को XML में बदलने के लिए, हम उपयोग करेंगे
- [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp/)
  एपीआई जो एक सुविधा संपन्न, शक्तिशाली और सी ++ प्लेटफॉर्म के लिए दस्तावेज़ हेरफेर और रूपांतरण एपीआई का उपयोग करने में आसान है। आप इसका नवीनतम संस्करण सीधे डाउनलोड कर सकते हैं, बस खोलें
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  पैकेज मैनेजर, खोजें

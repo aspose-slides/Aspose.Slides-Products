@@ -14,7 +14,7 @@ description: Ejemplo de código de conversión de C++ para documento PPSX a form
 {{% blocks/products/pf/agp/content h2="Cómo convertir PPSX a SVG usando C++" %}}
 
  Para convertir PPSX a SVG, usaremos
- [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp)
+ [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp/)
  API que es una API de manipulación y conversión de documentos rica en funciones, potente y fácil de usar para la plataforma C ++. Puede descargar su última versión directamente, simplemente abra
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  administrador de paquetes, busque

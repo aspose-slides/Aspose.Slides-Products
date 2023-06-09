@@ -14,7 +14,7 @@ description: Voorbeeld Java-conversiecode voor PPTX-indeling naar SWF-bestand. G
 {{% blocks/products/pf/agp/content h2="Hoe PPTX naar SWF te converteren met Java" %}}
 
  Om PPTX naar SWF te renderen, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke conversie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.

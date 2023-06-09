@@ -14,7 +14,7 @@ description: Δείγμα κώδικα Java για εξαγωγή κειμένο
 {{% blocks/products/pf/agp/content h2="Πώς να αναλύσετε το αρχείο PPT χρησιμοποιώντας Java" %}}
 
  Για να αναλύσουμε το αρχείο PPT, θα χρησιμοποιήσουμε
- [Aspose.Slides για Java](https://products.aspose.com/slides/el/java)
+ [Aspose.Slides για Java](https://products.aspose.com/slides/el/java/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API ανάλυσης για πλατφόρμα Java. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας από
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  και εγκαταστήστε το στο έργο σας που βασίζεται στο Maven προσθέτοντας τις ακόλουθες διαμορφώσεις στο pom.xml.
@@ -54,7 +54,7 @@ description: Δείγμα κώδικα Java για εξαγωγή κειμένο
 
 {{< blocks/products/pf/agp/feature-section-col title="Βήματα για την ανάλυση αρχείων PPT σε Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Μια βασική ανάλυση εγγράφων με [Aspose.Slides for Java](https://products.aspose.com/slides/el/java) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Μια βασική ανάλυση εγγράφων με [Aspose.Slides for Java](https://products.aspose.com/slides/el/java/) API μπορεί να γίνει με λίγες μόνο γραμμές κώδικα." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Φορτώστε το αρχείο PPT εγκαθιστώντας την κλάση παρουσίασης.

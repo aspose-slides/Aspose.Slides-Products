@@ -14,7 +14,7 @@ description: Java mintakód vízjel hozzáadásához vagy eltávolításához a 
 {{% blocks/products/pf/agp/content h2="PPTX fájl vízjelezése Java használatával" %}}
 
  A PPTX fájl vízjelezéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/)
  API, amely funkciókban gazdag, hatékony és könnyen használható vízjelező API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.

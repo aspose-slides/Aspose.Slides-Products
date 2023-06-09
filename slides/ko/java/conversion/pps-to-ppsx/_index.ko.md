@@ -14,7 +14,7 @@ description: PPS 형식을 PPSX 파일로 변환하는 샘플 Java 변환 코드
 {{% blocks/products/pf/agp/content h2="Java를 사용하여 PPS를 PPSX로 변환하는 방법" %}}
 
  PPS를 PPSX로 렌더링하려면 다음을 사용합니다.
- [자바용 Aspose.Slides](https://products.aspose.com/slides/ko/java)
+ [자바용 Aspose.Slides](https://products.aspose.com/slides/ko/java/)
  기능이 풍부하고 강력하며 사용하기 쉬운 Java 플랫폼용 변환 API인 API입니다. 에서 직접 최신 버전을 다운로드할 수 있습니다.
  [메이븐](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  다음 구성을 pom.xml에 추가하여 Maven 기반 프로젝트 내에 설치합니다.

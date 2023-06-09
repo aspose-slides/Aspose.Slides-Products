@@ -14,7 +14,7 @@ description: Código de muestra de Java para combinar documentos PPTM en Java Ru
 {{% blocks/products/pf/agp/content h2="Cómo fusionar archivos PPTM usando Java" %}}
 
  Para fusionar el archivo PPTM, usaremos
- [Aspose.Slides para Java](https://products.aspose.com/slides/es/java)
+ [Aspose.Slides para Java](https://products.aspose.com/slides/es/java/)
  API que es una API de fusión rica en funciones, potente y fácil de usar para la plataforma Java. Puedes descargar su última versión directamente desde
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  e instálelo dentro de su proyecto basado en Maven agregando las siguientes configuraciones al pom.xml.
@@ -54,7 +54,7 @@ description: Código de muestra de Java para combinar documentos PPTM en Java Ru
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para fusionar archivos PPTM en Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una fusión y concatenación de documentos básicos con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java) API con solo unas pocas líneas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una fusión y concatenación de documentos básicos con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java/) API con solo unas pocas líneas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Cargue el primer archivo PPTM con una instancia de la clase Presentation.

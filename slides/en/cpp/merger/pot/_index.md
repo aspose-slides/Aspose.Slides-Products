@@ -14,7 +14,7 @@ description: C++ example code to combine POT documents on C++ Runtime Environmen
 {{% blocks/products/pf/agp/content h2="Merge POT File Using C++" %}}
 
  In order to merge POT file, we’ll use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) 
  API which is a feature-rich, powerful and easy to use document merger API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
  package manager, search for
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Steps for Merging POT Files in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document merging and concatenating with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) APIs can be done with just few lines of code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Load both POT files.

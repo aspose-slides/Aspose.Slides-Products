@@ -14,7 +14,7 @@ description: مثال على كود C ++ لدمج مستندات OTP في C ++ R
 {{% blocks/products/pf/agp/content h2="كيفية دمج ملف OTP باستخدام C ++" %}}
 
  من أجل دمج ملف OTP ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/)
  API وهو عبارة عن واجهة برمجة تطبيقات لدمج المستندات غنية بالميزات وقوية وسهلة الاستخدام لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات دمج ملفات OTP في C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن دمج ودمج المستندات الأساسية مع واجهات برمجة التطبيقات [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن دمج ودمج المستندات الأساسية مع واجهات برمجة التطبيقات [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل كلا ملفات OTP.

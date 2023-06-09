@@ -14,7 +14,7 @@ description: نمونه کد تبدیل جاوا برای فرمت POT به فا
 {{% blocks/products/pf/agp/content h2="نحوه تبدیل POT به BMP با استفاده از جاوا" %}}
 
  برای رندر کردن POT به BMP، از آن استفاده خواهیم کرد
- [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/)
  API که یک API تبدیل غنی، قدرتمند و آسان برای استفاده برای پلتفرم جاوا است. آخرین نسخه آن را می توانید مستقیماً از اینجا دانلود کنید
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  و با افزودن تنظیمات زیر به pom.xml آن را در پروژه مبتنی بر Maven خود نصب کنید.

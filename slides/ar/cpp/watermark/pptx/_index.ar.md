@@ -14,7 +14,7 @@ description: مثال على كود C ++ لإضافة أو إزالة العلا
 {{% blocks/products/pf/agp/content h2="كيفية وضع علامة مائية على ملف PPTX باستخدام C ++" %}}
 
  من أجل وضع علامة مائية على ملف PPTX ، سنستخدمه
- [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ar/cpp/)
  API وهي غنية بالميزات وقوية وسهلة الاستخدام لعلامة مائية للوثائق API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات إضافة علامة مائية إلى PPTX عبر C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="أنت بحاجة إلى [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) لتجربة سير العمل التالي في بيئتك الخاصة." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="أنت بحاجة إلى [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) لتجربة سير العمل التالي في بيئتك الخاصة." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 تحميل ملفات PPTX مع مثيل لفئة العرض التقديمي

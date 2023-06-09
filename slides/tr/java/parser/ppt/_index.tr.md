@@ -14,7 +14,7 @@ description: JSP/JSF Uygulaması ve Masaüstü Uygulamaları için Java Runtime 
 {{% blocks/products/pf/agp/content h2="Java Kullanarak PPT Dosyasını Ayrıştırma" %}}
 
  PPT dosyasını ayrıştırmak için kullanacağız
- [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/)
  Java platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir ayrıştırma API'si olan API. En son sürümünü doğrudan adresinden indirebilirsiniz.
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  ve pom.xml dosyasına aşağıdaki konfigürasyonları ekleyerek Maven tabanlı projenize kurun.
@@ -54,7 +54,7 @@ description: JSP/JSF Uygulaması ve Masaüstü Uygulamaları için Java Runtime 
 
 {{< blocks/products/pf/agp/feature-section-col title="Java'da PPT Dosyalarını Ayrıştırma Adımları" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/tr/java) API'leri ile basit bir belge ayrıştırma sadece birkaç satır kodla yapılabilir." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/) API'leri ile basit bir belge ayrıştırma sadece birkaç satır kodla yapılabilir." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Sunum sınıfını başlatarak PPT dosyasını yükleyin.

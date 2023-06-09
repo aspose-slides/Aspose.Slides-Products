@@ -14,7 +14,7 @@ description: Przykładowy kod C++ do łączenia dokumentów ODP w C++ Runtime En
 {{% blocks/products/pf/agp/content h2="Jak scalić plik ODP za pomocą C++" %}}
 
  Aby scalić plik ODP, użyjemy
- [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp)
+ [Aspose.Slides dla C++](https://products.aspose.com/slides/pl/cpp/)
  API, które jest bogatym w funkcje, wydajnym i łatwym w użyciu API do łączenia dokumentów dla platformy C++. Możesz pobrać jego najnowszą wersję bezpośrednio, po prostu otwórz
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  menedżer pakietów, szukaj
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Kroki scalania plików ODP w C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe łączenie i łączenie dokumentów z interfejsami API [Aspose.Slides for C++](https://products.aspose.com/slides/pl/cpp) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Podstawowe łączenie i łączenie dokumentów z interfejsami API [Aspose.Slides for C++](https://products.aspose.com/slides/pl/cpp/) można wykonać za pomocą zaledwie kilku wierszy kodu." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Załaduj oba pliki ODP.

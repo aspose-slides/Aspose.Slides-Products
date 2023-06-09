@@ -14,7 +14,7 @@ description: C++ exempelkod för att kombinera POTX-dokument på C++ Runtime Env
 {{% blocks/products/pf/agp/content h2="Hur man sammanfogar POTX-fil med C++" %}}
 
  För att slå samman POTX-filen använder vi
- [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp)
+ [Aspose.Slides för C++](https://products.aspose.com/slides/sv/cpp/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt API för dokumentsammanslagningar för C++-plattformen. Du kan ladda ner den senaste versionen direkt, bara öppna
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakethanterare, sök efter
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att slå samman POTX-filer i C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ett grundläggande dokument som sammanfogas och sammanfogas med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ett grundläggande dokument som sammanfogas och sammanfogas med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Ladda båda POTX-filerna.

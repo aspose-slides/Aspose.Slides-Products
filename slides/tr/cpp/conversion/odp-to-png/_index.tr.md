@@ -14,7 +14,7 @@ description: ODP belgesi için PNG formatına örnek C++ dönüştürme kodu. He
 {{% blocks/products/pf/agp/content h2="C++ Kullanarak ODP'yi PNG'ye Dönüştürme" %}}
 
  ODP'yi PNG'ye dönüştürmek için kullanacağız
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  C++ platformu için zengin özelliklere sahip, güçlü ve kullanımı kolay bir belge işleme ve dönüştürme API'si olan API. En son sürümünü doğrudan indirebilirsiniz, sadece açın
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  paket yöneticisi, ara

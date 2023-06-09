@@ -14,7 +14,7 @@ description: مثال على كود C ++ لاستخراج النص والصور 
 {{% blocks/products/pf/agp/content h2="كيفية تحليل ملف PPTX باستخدام C ++" %}}
 
  من أجل تحليل ملف PPTX ، سنستخدمه
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/)
  API وهي غنية بالميزات وقوية وسهلة الاستخدام لتحليل المستندات API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات تحليل ملفات PPTX في C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="تحليل مستند أساسي باستخدام [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp) يمكن إجراء واجهات برمجة التطبيقات باستخدام بضعة أسطر من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="تحليل مستند أساسي باستخدام [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/) يمكن إجراء واجهات برمجة التطبيقات باستخدام بضعة أسطر من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل ملف PPTX.

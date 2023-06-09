@@ -14,7 +14,7 @@ description: Voorbeeld Java-conversiecode voor POT-indeling naar PNG-bestand. Ge
 {{% blocks/products/pf/agp/content h2="Hoe POT naar PNG te converteren met Java" %}}
 
  Om POT naar PNG te renderen, gebruiken we
- [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java)
+ [Aspose.Slides voor Java](https://products.aspose.com/slides/nl/java/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke conversie-API voor het Java-platform. U kunt de nieuwste versie rechtstreeks downloaden van
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  en installeer het binnen uw op Maven gebaseerde project door de volgende configuraties toe te voegen aan pom.xml.

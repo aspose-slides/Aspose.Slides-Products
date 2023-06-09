@@ -14,7 +14,7 @@ description: C++-Beispielcode zum Extrahieren von Text und Bildern aus einer PPT
 {{% blocks/products/pf/agp/content h2="So analysieren Sie eine PPT-Datei mit C++" %}}
 
  Um die PPT-Datei zu analysieren, verwenden wir
- [Aspose.Folien für C++](https://products.aspose.com/slides/de/cpp)
+ [Aspose.Folien für C++](https://products.aspose.com/slides/de/cpp/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API zum Analysieren von Dokumenten für die C++-Plattform ist. Sie können die neueste Version direkt herunterladen, einfach öffnen
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Analysieren von PPT-Dateien in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Eine einfache Dokumentenanalyse mit [Aspose.Slides for C++](https://products.aspose.com/slides/de/cpp) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Eine einfache Dokumentenanalyse mit [Aspose.Slides for C++](https://products.aspose.com/slides/de/cpp/) APIs kann mit nur wenigen Codezeilen durchgeführt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPT-Datei laden.

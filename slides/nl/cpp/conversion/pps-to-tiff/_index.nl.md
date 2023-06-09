@@ -14,7 +14,7 @@ description: Voorbeeld C++-conversiecode voor PPS-document naar TIFF-indeling. G
 {{% blocks/products/pf/agp/content h2="Hoe PPS naar TIFF te converteren met C++" %}}
 
  Om PPS naar TIFF te converteren, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentmanipulatie en -conversie voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar

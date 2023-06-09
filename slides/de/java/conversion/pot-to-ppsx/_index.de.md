@@ -14,7 +14,7 @@ description: Beispiel-Java-Konvertierungscode für das POT-Format in eine PPSX-D
 {{% blocks/products/pf/agp/content h2="So konvertieren Sie POT in PPSX mit Java" %}}
 
  Um POT in PPSX zu rendern, verwenden wir
- [Aspose.Folien für Java](https://products.aspose.com/slides/de/java)
+ [Aspose.Folien für Java](https://products.aspose.com/slides/de/java/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende Konvertierungs-API für die Java-Plattform ist. Sie können die neueste Version direkt von herunterladen
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  und installieren Sie es in Ihrem Maven-basierten Projekt, indem Sie der pom.xml die folgenden Konfigurationen hinzufügen.

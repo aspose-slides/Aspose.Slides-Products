@@ -14,7 +14,7 @@ description: C++ voorbeeldcode om watermerk toe te voegen aan of te verwijderen 
 {{% blocks/products/pf/agp/content h2="Hoe een PPT-bestand van een watermerk te voorzien met C++" %}}
 
  Om het PPT-bestand van een watermerk te voorzien, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor documentwatermerken voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen om watermerk aan PPT toe te voegen via C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="U hebt de [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) nodig om de volgende workflow in uw eigen omgeving te proberen." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="U hebt de [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) nodig om de volgende workflow in uw eigen omgeving te proberen." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad PPT-bestanden met een instantie van de klasse Presentatie

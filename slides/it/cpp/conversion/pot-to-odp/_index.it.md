@@ -14,7 +14,7 @@ description: Esempio di codice di conversione C++ per il documento POT in format
 {{% blocks/products/pf/agp/content h2="Come convertire POT in ODP usando C++" %}}
 
  Per convertire POT in ODP, useremo
- [Aspose.Slides per C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides per C++](https://products.aspose.com/slides/cpp/)
  API che è un'API di conversione e manipolazione dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C++. Puoi scaricare direttamente la sua ultima versione, basta aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestore pacchetti, cerca

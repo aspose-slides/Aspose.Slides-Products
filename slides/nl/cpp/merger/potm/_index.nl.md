@@ -14,7 +14,7 @@ description: C++ voorbeeldcode om POTM-documenten te combineren op C++ Runtime E
 {{% blocks/products/pf/agp/content h2="Hoe POTM-bestand samen te voegen met C++" %}}
 
  Om het POTM-bestand samen te voegen, gebruiken we
- [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp)
+ [Aspose.Slides voor C++](https://products.aspose.com/slides/nl/cpp/)
  API, een veelzijdige, krachtige en gebruiksvriendelijke API voor het samenvoegen van documenten voor het C++-platform. Je kunt de nieuwste versie direct downloaden, open gewoon
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  pakketbeheerder, zoek naar
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Stappen voor het samenvoegen van POTM-bestanden in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat kan worden samengevoegd en samengevoegd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp) API's kan worden gedaan met slechts enkele regels code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Een basisdocument dat kan worden samengevoegd en samengevoegd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/) API's kan worden gedaan met slechts enkele regels code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Laad beide POTM-bestanden.

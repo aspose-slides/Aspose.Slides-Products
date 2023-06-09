@@ -14,7 +14,7 @@ description: Ejemplo de código de conversión de C++ para documentos PPSX a for
 {{% blocks/products/pf/agp/content h2="Cómo convertir PPSX a BMP usando C++" %}}
 
  Para convertir PPSX a BMP, usaremos
- [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp)
+ [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp/)
  API que es una API de manipulación y conversión de documentos rica en funciones, potente y fácil de usar para la plataforma C ++. Puede descargar su última versión directamente, simplemente abra
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  administrador de paquetes, busque

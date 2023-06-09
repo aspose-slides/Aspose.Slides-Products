@@ -14,7 +14,7 @@ description: Codice di esempio C++ per estrarre testo e immagini da file ODP su 
 {{% blocks/products/pf/agp/content h2="Come analizzare il file ODP usando C++" %}}
 
  Per analizzare il file ODP, useremo
- [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp)
+ [Aspose.Slides per C++](https://products.aspose.com/slides/it/cpp/)
  API che è un'API di analisi dei documenti ricca di funzionalità, potente e facile da usare per la piattaforma C++. Puoi scaricare direttamente la sua ultima versione, basta aprire
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestore pacchetti, cerca
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Passaggi per analizzare i file ODP in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire un'analisi di base del documento con le API [Aspose.Slides for C++](https://products.aspose.com/slides/it/cpp) con poche righe di codice." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="È possibile eseguire un'analisi di base del documento con le API [Aspose.Slides for C++](https://products.aspose.com/slides/it/cpp/) con poche righe di codice." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Carica file ODP.

@@ -12,7 +12,7 @@ description: Zdrojový kód C# pro úpravu dokumentu POT na platformách .NET Fr
 
 {{% blocks/products/pf/agp/content h2="Jak upravit soubor POT pomocí C#" %}}
 
-K úpravě souboru POT použijeme rozhraní <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API, které je bohaté na funkce a výkonné a snadno použitelné API pro platformu C# pro jakýkoli editor. Otevřete správce balíčků <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, vyhledejte <b>Aspose.Slides</b> a nainstalujte. Můžete také použít následující příkaz z konzoly Správce balíčků.
+K úpravě souboru POT použijeme rozhraní <a href="https://products.aspose.com/slides/net/">Aspose.Slides for .NET</a> API, které je bohaté na funkce a výkonné a snadno použitelné API pro platformu C# pro jakýkoli editor. Otevřete správce balíčků <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a>, vyhledejte <b>Aspose.Slides</b> a nainstalujte. Můžete také použít následující příkaz z konzoly Správce balíčků.
 
 {{% blocks/products/pf/agp/code-block title="Příkaz" offSpacer="true" %}}
 

@@ -14,7 +14,7 @@ description: XML 문서를 PPSM 형식으로 변환하는 샘플 C++ 변환 코�
 {{% blocks/products/pf/agp/content h2="C++를 사용하여 XML을 PPSM으로 변환하는 방법" %}}
 
  XML을 PPSM으로 변환하려면 다음을 사용합니다.
- [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp)
+ [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp/)
  기능이 풍부하고 강력하며 사용하기 쉬운 C++ 플랫폼용 문서 조작 및 변환 API인 API입니다. 최신 버전을 직접 다운로드할 수 있습니다.
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  패키지 관리자, 검색

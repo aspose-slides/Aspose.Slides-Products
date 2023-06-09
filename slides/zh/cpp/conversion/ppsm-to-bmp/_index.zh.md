@@ -14,7 +14,7 @@ description: 将 PPSM 文档转换为 BMP 格式的示例 C++ 转换代码。使
 {{% blocks/products/pf/agp/content h2="如何使用 C++ 将 PPSM 转换为 BMP" %}}
 
  为了将 PPSM 转换为 BMP，我们将使用
- [Aspose.Slides for C++](https://products.aspose.com/slides/zh/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/zh/cpp/)
  API 是一个功能丰富、功能强大且易于使用的 C++ 平台文档操作和转换 API。可以直接下载最新版本，直接打开
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  包管理器，搜索

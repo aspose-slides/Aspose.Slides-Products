@@ -14,7 +14,7 @@ description: Contoh kode konversi C++ untuk dokumen POT ke format PPSM. Gunakan 
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi POT ke PPSM Menggunakan C++" %}}
 
  Untuk mengonversi POT ke PPSM, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/cpp/)
  API yang kaya fitur, kuat, dan mudah digunakan untuk manipulasi dokumen dan API konversi untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari

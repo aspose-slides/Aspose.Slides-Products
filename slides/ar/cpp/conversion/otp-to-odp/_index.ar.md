@@ -14,7 +14,7 @@ description: عينة رمز تحويل C ++ لمستند OTP إلى تنسيق 
 {{% blocks/products/pf/agp/content h2="كيفية تحويل OTP إلى ODP باستخدام C ++" %}}
 
  من أجل تحويل OTP إلى ODP ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/)
  واجهة برمجة التطبيقات API وهي غنية بالميزات وقوية وسهلة الاستخدام للتعامل مع المستندات وتحويلها API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن

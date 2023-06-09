@@ -14,7 +14,7 @@ description: C++-Beispielcode zum Zeichnen und Konvertieren von Diagrammen oder 
 {{% blocks/products/pf/agp/content h2="So erstellen Sie PPT-Dateidiagramme mit C++" %}}
 
  Um die PPT-Datei zu durchsuchen, verwenden wir
- [Aspose.Folien für C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Folien für C++](https://products.aspose.com/slides/cpp/)
  API, die eine funktionsreiche, leistungsstarke und einfach zu verwendende API für die Dokumentensuche für die C++-Plattform ist. Sie können die neueste Version direkt herunterladen, einfach öffnen
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  Paketmanager, suche nach
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Schritte zum Erstellen von PPT-Dateidiagrammen in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Mit nur wenigen Codezeilen kann ein einfaches Dokumentendiagramm mit [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)-APIs erstellt werden." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Mit nur wenigen Codezeilen kann ein einfaches Dokumentendiagramm mit [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)-APIs erstellt werden." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Präsentationsklasse instanziieren.

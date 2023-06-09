@@ -14,7 +14,7 @@ description: Código de ejemplo de C++ para combinar documentos PPSM en C++ Runt
 {{% blocks/products/pf/agp/content h2="Cómo fusionar un archivo PPSM usando C++" %}}
 
  Para fusionar el archivo PPSM, usaremos
- [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp)
+ [Aspose.Slides para C++](https://products.aspose.com/slides/es/cpp/)
  API que es una API de fusión de documentos rica en funciones, potente y fácil de usar para la plataforma C ++. Puede descargar su última versión directamente, simplemente abra
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  administrador de paquetes, busque
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Pasos para fusionar archivos PPSM en C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una fusión y concatenación de documentos básicos con [Aspose.Slides for C++](https://products.aspose.com/slides/es/cpp) API con solo unas pocas líneas de código." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Se puede realizar una fusión y concatenación de documentos básicos con [Aspose.Slides for C++](https://products.aspose.com/slides/es/cpp/) API con solo unas pocas líneas de código." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Cargue ambos archivos PPSM.

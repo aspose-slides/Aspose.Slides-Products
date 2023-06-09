@@ -14,7 +14,7 @@ description: Sample C++ conversion code for PPTX document to PPT format. Use exa
 {{% blocks/products/pf/agp/content h2="Convert PPTX to PPT Using C++" %}}
 
  In order to convert PPTX to PPT, we’ll use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
  package manager, search for

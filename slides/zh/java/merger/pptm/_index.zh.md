@@ -14,7 +14,7 @@ description: 用于将 JSP/JSF 应用程序和桌面应用程序的 Java 运行�
 {{% blocks/products/pf/agp/content h2="如何使用 Java 合并 PPTM 文件" %}}
 
  为了合并 PPTM 文件，我们将使用
- [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java/)
  API是一个功能丰富、功能强大且易于使用的Java平台合并API。您可以直接从
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  并通过将以下配置添加到 pom.xml 将其安装在基于 Maven 的项目中。
@@ -54,7 +54,7 @@ description: 用于将 JSP/JSF 应用程序和桌面应用程序的 Java 运行�
 
 {{< blocks/products/pf/agp/feature-section-col title="在 Java 中合并 PPTM 文件的步骤" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可完成与 [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java) API 合并和连接的基本文档。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="只需几行代码即可完成与 [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java/) API 合并和连接的基本文档。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 使用 Presentation 类的实例加载第一个 PPTM 文件。

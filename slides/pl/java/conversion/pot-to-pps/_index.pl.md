@@ -14,7 +14,7 @@ description: Przykładowy kod konwersji Java dla formatu POT do pliku PPS. Użyj
 {{% blocks/products/pf/agp/content h2="Jak przekonwertować POT na PPS za pomocą Javy?" %}}
 
  Aby renderować POT do PPS, użyjemy
- [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/)
  API, który jest bogatym w funkcje, wydajnym i łatwym w użyciu interfejsem API konwersji dla platformy Java. Możesz pobrać jego najnowszą wersję bezpośrednio z
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  i zainstaluj go w swoim projekcie opartym na Maven, dodając następujące konfiguracje do pom.xml.

@@ -14,7 +14,7 @@ description: Java mintakód a PPS dokumentumok kombinálásához a Java Runtime 
 {{% blocks/products/pf/agp/content h2="PPS fájlok egyesítése Java használatával" %}}
 
  A PPS fájl egyesítéséhez használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/)
  API, amely funkciókban gazdag, hatékony és könnyen használható egyesítő API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.
@@ -54,7 +54,7 @@ description: Java mintakód a PPS dokumentumok kombinálásához a Java Runtime 
 
 {{< blocks/products/pf/agp/feature-section-col title="Lépések a PPS-fájlok egyesítéséhez Java nyelven" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) API-kkal való egyesítése és összefűzése néhány sornyi kóddal elvégezhető." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltse be az első PPS-fájlt a Presentation osztály egy példányával.

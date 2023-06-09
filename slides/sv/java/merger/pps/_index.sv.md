@@ -14,7 +14,7 @@ description: Java-exempelkod för att kombinera PPS-dokument på Java Runtime En
 {{% blocks/products/pf/agp/content h2="Hur man slår ihop PPS-filer med Java" %}}
 
  För att slå samman PPS-fil kommer vi att använda
- [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java)
+ [Aspose.Slides för Java](https://products.aspose.com/slides/sv/java/)
  API som är ett funktionsrikt, kraftfullt och lättanvänt fusions-API för Java-plattform. Du kan ladda ner den senaste versionen direkt från
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  och installera det i ditt Maven-baserade projekt genom att lägga till följande konfigurationer till pom.xml.
@@ -54,7 +54,7 @@ description: Java-exempelkod för att kombinera PPS-dokument på Java Runtime En
 
 {{< blocks/products/pf/agp/feature-section-col title="Steg för att slå samman PPS-filer i Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ett grundläggande dokument som sammanfogas och sammanfogas med [Aspose.Slides for Java](https://products.aspose.com/slides/sv/java) API:er kan göras med bara några rader kod." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Ett grundläggande dokument som sammanfogas och sammanfogas med [Aspose.Slides for Java](https://products.aspose.com/slides/sv/java/) API:er kan göras med bara några rader kod." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Ladda den första PPS-filen med en instans av klassen Presentation.

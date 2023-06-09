@@ -14,7 +14,7 @@ description: Exemple de code Java pour combiner des documents POTX sur l'environ
 {{% blocks/products/pf/agp/content h2="Comment fusionner des fichiers POTX à l'aide de Java" %}}
 
  Afin de fusionner le fichier POTX, nous utiliserons
- [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java)
+ [Aspose.Slides pour Java](https://products.aspose.com/slides/fr/java/)
  API qui est une API de fusion riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme Java. Vous pouvez télécharger sa dernière version directement depuis
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  et installez-le dans votre projet basé sur Maven en ajoutant les configurations suivantes au fichier pom.xml.
@@ -54,7 +54,7 @@ description: Exemple de code Java pour combiner des documents POTX sur l'environ
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour fusionner des fichiers POTX en Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Un document de base fusionnant et concaténant avec les API [Aspose.Slides for Java](https://products.aspose.com/slides/fr/java) peut être réalisé avec seulement quelques lignes de code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Un document de base fusionnant et concaténant avec les API [Aspose.Slides for Java](https://products.aspose.com/slides/fr/java/) peut être réalisé avec seulement quelques lignes de code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Chargez le premier fichier POTX avec une instance de la classe Presentation.

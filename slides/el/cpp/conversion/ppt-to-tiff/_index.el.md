@@ -14,7 +14,7 @@ description: Δείγμα κώδικα μετατροπής C++ για έγγρ�
 {{% blocks/products/pf/agp/content h2="Πώς να μετατρέψετε το PPT σε TIFF χρησιμοποιώντας C++" %}}
 
  Για να μετατρέψουμε το PPT σε TIFF, θα χρησιμοποιήσουμε
- [Aspose.Slides για C++](https://products.aspose.com/slides/el/cpp)
+ [Aspose.Slides για C++](https://products.aspose.com/slides/el/cpp/)
  API που είναι ένα πλούσιο σε χαρακτηριστικά, ισχυρό και εύχρηστο API χειρισμού εγγράφων και μετατροπής για πλατφόρμα C++. Μπορείτε να κατεβάσετε την τελευταία του έκδοση απευθείας, απλά ανοίξτε
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  διαχειριστής πακέτων, αναζητήστε

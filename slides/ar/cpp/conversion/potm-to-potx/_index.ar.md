@@ -14,7 +14,7 @@ description: عينة كود تحويل C ++ لوثيقة POTM إلى تنسيق
 {{% blocks/products/pf/agp/content h2="كيفية تحويل POTM إلى POTX باستخدام C ++" %}}
 
  من أجل تحويل POTM إلى POTX ، سنستخدم
- [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp/)
  واجهة برمجة التطبيقات API وهي غنية بالميزات وقوية وسهلة الاستخدام للتعامل مع المستندات وتحويلها API لمنصة C ++. يمكنك تنزيل أحدث إصدار مباشرة ، فقط افتح
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدير الحزم ، ابحث عن

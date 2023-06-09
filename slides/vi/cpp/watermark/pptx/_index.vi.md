@@ -14,7 +14,7 @@ description: Mã ví dụ C ++ để thêm hoặc xóa hình mờ vào tệp PPT
 {{% blocks/products/pf/agp/content h2="Cách tạo hình mờ tệp PPTX bằng C ++" %}}
 
  Để làm mờ tệp PPTX, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp)
+ [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp/)
  API là một API đánh dấu tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C ++. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp, chỉ cần mở
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  quản lý gói, tìm kiếm
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Các bước để thêm hình mờ vào PPTX thông qua C ++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bạn cần [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) để thử quy trình làm việc sau trong môi trường của riêng bạn." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Bạn cần [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) để thử quy trình làm việc sau trong môi trường của riêng bạn." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Tải tệp PPTX với một phiên bản của lớp Trình bày

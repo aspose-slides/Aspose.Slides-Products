@@ -14,7 +14,7 @@ description: Windows 32비트, Windows 64비트 및 Linux 64비트용 C++ 런타
 {{% blocks/products/pf/agp/content h2="C++를 사용하여 POTM 파일을 병합하는 방법" %}}
 
  POTM 파일을 병합하려면 다음을 사용합니다.
- [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp)
+ [C++용 Aspose.Slides](https://products.aspose.com/slides/ko/cpp/)
  기능이 풍부하고 강력하며 사용하기 쉬운 C++ 플랫폼용 문서 병합 API인 API입니다. 최신 버전을 직접 다운로드할 수 있습니다.
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  패키지 관리자, 검색
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++에서 POTM 파일 병합 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/ko/cpp) API로 기본 문서 병합 및 연결을 몇 줄의 코드로 수행할 수 있습니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C++](https://products.aspose.com/slides/ko/cpp/) API로 기본 문서 병합 및 연결을 몇 줄의 코드로 수행할 수 있습니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 두 POTM 파일을 모두 로드합니다.

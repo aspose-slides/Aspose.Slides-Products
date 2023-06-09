@@ -14,7 +14,7 @@ description: Contoh kode konversi Java untuk format PPTX ke file OTP. Gunakan ko
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi PPTX ke OTP Menggunakan Java" %}}
 
  Untuk merender PPTX ke OTP, kami akan menggunakan
- [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java)
+ [Aspose.Slides untuk Java](https://products.aspose.com/slides/id/java/)
  API yang merupakan API konversi yang kaya fitur, kuat, dan mudah digunakan untuk platform Java. Anda dapat mengunduh versi terbarunya langsung dari
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  dan instal dalam proyek berbasis Maven Anda dengan menambahkan konfigurasi berikut ke pom.xml.

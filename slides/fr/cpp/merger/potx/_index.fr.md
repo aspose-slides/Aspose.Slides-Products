@@ -14,7 +14,7 @@ description: Exemple de code C++ pour combiner des documents POTX sur l'environn
 {{% blocks/products/pf/agp/content h2="Comment fusionner un fichier POTX à l'aide de C++" %}}
 
  Afin de fusionner le fichier POTX, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp/)
  API qui est une API de fusion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Étapes pour fusionner des fichiers POTX en C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Un document de base fusionnant et concaténant avec les API [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp) peut être réalisé avec seulement quelques lignes de code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Un document de base fusionnant et concaténant avec les API [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp/) peut être réalisé avec seulement quelques lignes de code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Chargez les deux fichiers POTX.

@@ -14,7 +14,7 @@ description: C++ example code to draw and convert chart or diagram in PPT file o
 {{% blocks/products/pf/agp/content h2="Create PPT File Charts Using C++" %}}
 
  In order to search PPT file, we’ll use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) 
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) 
  API which is a feature-rich, powerful and easy to use document searching API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.slides) 
  package manager, search for
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Create PPT Files Charts in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document charting with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="A basic document charting with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) APIs can be done with just few lines of code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantiate Presentation class.

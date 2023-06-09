@@ -14,7 +14,7 @@ description: Exemple de code de conversion C++ pour le document POTX au format B
 {{% blocks/products/pf/agp/content h2="Comment convertir POTX en BMP en utilisant C++" %}}
 
  Pour convertir POTX en BMP, nous utiliserons
- [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides pour C++](https://products.aspose.com/slides/cpp/)
  API qui est une API de manipulation et de conversion de documents riche en fonctionnalités, puissante et facile à utiliser pour la plate-forme C++. Vous pouvez télécharger sa dernière version directement, il suffit d'ouvrir
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  gestionnaire de paquets, recherchez

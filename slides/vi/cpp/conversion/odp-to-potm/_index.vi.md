@@ -14,7 +14,7 @@ description: Mã chuyển đổi C ++ mẫu cho tài liệu ODP sang định d�
 {{% blocks/products/pf/agp/content h2="Cách chuyển đổi ODP sang POTM bằng C ++" %}}
 
  Để chuyển đổi ODP sang POTM, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/cpp/)
  API là một API chuyển đổi và thao tác tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C ++. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp, chỉ cần mở
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  quản lý gói, tìm kiếm

@@ -14,7 +14,7 @@ description: Mẫu mã chuyển đổi C ++ cho tài liệu PPTM sang định d�
 {{% blocks/products/pf/agp/content h2="Cách chuyển đổi PPTM sang PDF bằng C ++" %}}
 
  Để chuyển đổi PPTM sang PDF, chúng tôi sẽ sử dụng
- [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp)
+ [Aspose.Slides dành cho C ++](https://products.aspose.com/slides/vi/cpp/)
  API là một API chuyển đổi và thao tác tài liệu giàu tính năng, mạnh mẽ và dễ sử dụng cho nền tảng C ++. Bạn có thể tải xuống phiên bản mới nhất của nó trực tiếp, chỉ cần mở
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  quản lý gói, tìm kiếm

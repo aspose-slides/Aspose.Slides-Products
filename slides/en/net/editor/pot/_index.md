@@ -12,7 +12,7 @@ description: C# source code to edit POT document on .NET Framework, .NET Core, W
 
 {{% blocks/products/pf/agp/content h2="Edit POT File Using C#" %}}
 
-In order to edit POT file, we’ll use <a href="https://products.aspose.com/slides/net">Aspose.Slides for .NET</a> API which is a feature-rich, powerful and easy to use API for C# platform for any editor. Open <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> package manager, search for <b>Aspose.Slides</b> and install. You may also use the following command from the Package Manager Console.
+In order to edit POT file, we’ll use <a href="https://products.aspose.com/slides/net/">Aspose.Slides for .NET</a> API which is a feature-rich, powerful and easy to use API for C# platform for any editor. Open <a href="https://www.nuget.org/packages/aspose.slides.net">NuGet</a> package manager, search for <b>Aspose.Slides</b> and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

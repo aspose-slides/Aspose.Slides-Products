@@ -14,7 +14,7 @@ description: Contoh kode konversi C++ untuk dokumen PPT ke format OTP. Gunakan k
 {{% blocks/products/pf/agp/content h2="Cara Mengonversi PPT ke OTP Menggunakan C++" %}}
 
  Untuk mengonversi PPT ke OTP, kami akan menggunakan
- [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp)
+ [Aspose.Slides untuk C++](https://products.aspose.com/slides/id/cpp/)
  API yang kaya fitur, kuat, dan mudah digunakan untuk manipulasi dokumen dan API konversi untuk platform C++. Bisa langsung download versi terbarunya, tinggal buka
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  manajer paket, cari

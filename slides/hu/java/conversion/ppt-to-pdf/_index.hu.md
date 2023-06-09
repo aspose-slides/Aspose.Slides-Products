@@ -14,7 +14,7 @@ description: Minta Java konvertáló kód PPT formátumhoz PDF fájlba. Ezzel a 
 {{% blocks/products/pf/agp/content h2="Hogyan lehet PPT-t PDF-be konvertálni Java segítségével" %}}
 
  Ahhoz, hogy a PPT-t PDF-be rendereljük, használjuk
- [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható konverziós API Java platformhoz. A legújabb verziót közvetlenül a webhelyről töltheti le
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  és telepítse a Maven-alapú projekten belül a következő konfigurációk hozzáadásával a pom.xml fájlhoz.

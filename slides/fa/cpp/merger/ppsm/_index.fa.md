@@ -14,7 +14,7 @@ description: کد مثال C++ برای ترکیب اسناد PPSM در C++ Runt
 {{% blocks/products/pf/agp/content h2="نحوه ادغام فایل PPSM با استفاده از ++C" %}}
 
  برای ادغام فایل PPSM، از
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
  API که یک API ادغام اسناد با ویژگی های غنی، قدرتمند و آسان برای پلتفرم C++ است. می توانید آخرین نسخه آن را مستقیما دانلود کنید، فقط باز کنید
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  مدیر بسته، جستجو کنید
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="مراحل ادغام فایل های PPSM در C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for C++](https://products.aspose.com/slides/cpp) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="یک سند اساسی که با APIهای [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) ادغام و الحاق می شود، تنها با چند خط کد قابل انجام است." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 هر دو فایل PPSM را بارگیری کنید.

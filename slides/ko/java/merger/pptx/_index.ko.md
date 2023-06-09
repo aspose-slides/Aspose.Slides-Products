@@ -14,7 +14,7 @@ description: JSP/JSF 응용 프로그램 및 데스크탑 응용 프로그램용
 {{% blocks/products/pf/agp/content h2="Java를 사용하여 PPTX 파일을 병합하는 방법" %}}
 
  PPTX 파일을 병합하려면 다음을 사용합니다.
- [자바용 Aspose.Slides](https://products.aspose.com/slides/ko/java)
+ [자바용 Aspose.Slides](https://products.aspose.com/slides/ko/java/)
  기능이 풍부하고 강력하며 사용하기 쉬운 Java 플랫폼용 병합 API인 API입니다. 에서 직접 최신 버전을 다운로드할 수 있습니다.
  [메이븐](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  다음 구성을 pom.xml에 추가하여 Maven 기반 프로젝트 내에 설치합니다.
@@ -54,7 +54,7 @@ description: JSP/JSF 응용 프로그램 및 데스크탑 응용 프로그램용
 
 {{< blocks/products/pf/agp/feature-section-col title="Java에서 PPTX 파일을 병합하는 단계" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/ko/java) API로 기본 문서 병합 및 연결을 몇 줄의 코드로 수행할 수 있습니다." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/ko/java/) API로 기본 문서 병합 및 연결을 몇 줄의 코드로 수행할 수 있습니다." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentation 클래스의 인스턴스가 있는 첫 번째 PPTX 파일을 로드합니다.

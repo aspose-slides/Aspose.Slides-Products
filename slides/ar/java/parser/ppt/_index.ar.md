@@ -14,7 +14,7 @@ description: نموذج كود Java لاستخراج النص والصور من 
 {{% blocks/products/pf/agp/content h2="كيفية تحليل ملف PPT باستخدام Java" %}}
 
  من أجل تحليل ملف PPT ، سنستخدمه
- [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java)
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)
  API وهي واجهة برمجة تطبيقات تحليل غنية بالميزات وقوية وسهلة الاستخدام لمنصة Java. يمكنك تنزيل أحدث إصدار مباشرة من
  [مافن](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  وقم بتثبيته ضمن مشروعك المستند إلى Maven عن طريق إضافة التكوينات التالية إلى ملف pom.xml.
@@ -54,7 +54,7 @@ description: نموذج كود Java لاستخراج النص والصور من 
 
 {{< blocks/products/pf/agp/feature-section-col title="خطوات تحليل ملفات PPT في Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء تحليل مستند أساسي باستخدام واجهات برمجة تطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java) ببضعة سطور من التعليمات البرمجية." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="يمكن إجراء تحليل مستند أساسي باستخدام واجهات برمجة تطبيقات [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/) ببضعة سطور من التعليمات البرمجية." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 قم بتحميل ملف PPT عن طريق تثبيت فئة العرض التقديمي.

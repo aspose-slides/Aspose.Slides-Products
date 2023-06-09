@@ -14,7 +14,7 @@ description: C++ példakód vízjel hozzáadásához vagy eltávolításához a 
 {{% blocks/products/pf/agp/content h2="PPT fájl vízjelezése C++ használatával" %}}
 
  A PPT fájl vízjelezéséhez használjuk
- [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp)
+ [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/)
  API, amely egy funkciókban gazdag, hatékony és könnyen használható dokumentum vízjel API C++ platformhoz. A legújabb verziót közvetlenül letöltheti, csak nyissa meg
  [NuGet](https://www.nuget.org/packages/aspose.slides)
  csomagkezelő, keressen
@@ -38,7 +38,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="A vízjel hozzáadásának lépései a PPT-hez C++ segítségével" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Szüksége van az [aspose.slides.dll](https://downloads.aspose.com/slides/cpp) fájlra, hogy kipróbálhassa a következő munkafolyamatot saját környezetében." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Szüksége van az [aspose.slides.dll](https://downloads.aspose.com/slides/cpp/) fájlra, hogy kipróbálhassa a következő munkafolyamatot saját környezetében." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Töltsön be PPT-fájlokat a Presentation osztály egy példányával
