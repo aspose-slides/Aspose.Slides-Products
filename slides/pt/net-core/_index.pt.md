@@ -149,7 +149,7 @@ Gerenciar os estilos de linha da forma
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides para .NET Core suporta os populares [formatos de apresentação](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) e formatos de exportação listados abaixo." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides para .NET Core suporta os populares [formatos de apresentação](https://docs.aspose.com/slides/net/supported-file-formats/) e formatos de exportação listados abaixo." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

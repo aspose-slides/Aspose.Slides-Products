@@ -149,7 +149,7 @@ description: Aspose.Slides .NET Core API 用於構建 PowerPoint .NET Core 解�
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for .NET Core 支持流行的 [演示格式](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) 和下面列出的導出格式。" >}}
+{{< blocks/products/pf/carousel-item h3="支持的文件格式" description="Aspose.Slides for .NET Core 支持流行的 [演示格式](https://docs.aspose.com/slides/net/supported-file-formats/) 和下面列出的導出格式。" >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

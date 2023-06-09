@@ -149,7 +149,7 @@ A Shape vonalstílusainak kezelése
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Támogatott fájlformátumok" description="Az Aspose.Slides for .NET Core támogatja az alább felsorolt ​​népszerű [prezentációs formátumokat](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) és exportformátumokat." >}}
+{{< blocks/products/pf/carousel-item h3="Támogatott fájlformátumok" description="Az Aspose.Slides for .NET Core támogatja az alább felsorolt ​​népszerű [prezentációs formátumokat](https://docs.aspose.com/slides/net/supported-file-formats/) és exportformátumokat." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -149,7 +149,7 @@ Quản lý kiểu đường kẻ của hình dạng
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Các định dạng tệp được hỗ trợ" description="Aspose.Slides cho .NET Core hỗ trợ [các định dạng trình bày] phổ biến (https://docs.aspose.com/display/slidesnet/Supported+File+Formats) và các định dạng xuất được liệt kê bên dưới." >}}
+{{< blocks/products/pf/carousel-item h3="Các định dạng tệp được hỗ trợ" description="Aspose.Slides cho .NET Core hỗ trợ [các định dạng trình bày] phổ biến (https://docs.aspose.com/slides/net/supported-file-formats/) và các định dạng xuất được liệt kê bên dưới." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

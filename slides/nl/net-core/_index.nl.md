@@ -149,7 +149,7 @@ Lijnstijlen van Shape beheren
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Ondersteunde bestandsindelingen" description="Aspose.Slides voor .NET Core ondersteunt de populaire [presentatie-indelingen](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) en exportindelingen die hieronder worden vermeld." >}}
+{{< blocks/products/pf/carousel-item h3="Ondersteunde bestandsindelingen" description="Aspose.Slides voor .NET Core ondersteunt de populaire [presentatie-indelingen](https://docs.aspose.com/slides/net/supported-file-formats/) en exportindelingen die hieronder worden vermeld." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

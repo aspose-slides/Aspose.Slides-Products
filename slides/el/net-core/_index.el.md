@@ -149,7 +149,7 @@ description: Aspose.Slides .NET Core API για τη δημιουργία λύσ
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Υποστηριζόμενες μορφές αρχείων" description="Το Aspose.Slides για .NET Core υποστηρίζει τις δημοφιλείς [μορφές παρουσίασης](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) και τις μορφές εξαγωγής που αναφέρονται παρακάτω." >}}
+{{< blocks/products/pf/carousel-item h3="Υποστηριζόμενες μορφές αρχείων" description="Το Aspose.Slides για .NET Core υποστηρίζει τις δημοφιλείς [μορφές παρουσίασης](https://docs.aspose.com/slides/net/supported-file-formats/) και τις μορφές εξαγωγής που αναφέρονται παρακάτω." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

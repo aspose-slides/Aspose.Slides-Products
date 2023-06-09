@@ -149,7 +149,7 @@ description: Aspose.Slides .NET Core API to build PowerPoint .NET Core solutions
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for .NET Core supports the popular [presentation formats](https://docs.aspose.com/display/slidesnet/Supported+File+Formats)  and export formats listed below." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for .NET Core supports the popular [presentation formats](https://docs.aspose.com/slides/net/supported-file-formats/)  and export formats listed below." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

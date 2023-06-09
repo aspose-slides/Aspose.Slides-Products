@@ -149,7 +149,7 @@ OleObjects را مدیریت کنید
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for .NET Core از [قالب‌های ارائه] محبوب (https://docs.aspose.com/display/slidesnet/Supported+File+Formats) و فرمت‌های صادراتی فهرست شده در زیر پشتیبانی می‌کند." >}}
+{{< blocks/products/pf/carousel-item h3="فرمت های فایل پشتیبانی شده" description="Aspose.Slides for .NET Core از [قالب‌های ارائه] محبوب (https://docs.aspose.com/slides/net/supported-file-formats/) و فرمت‌های صادراتی فهرست شده در زیر پشتیبانی می‌کند." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -149,7 +149,7 @@ Hantera Shapes linjestilar
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Filformat som stöds" description="Aspose.Slides för .NET Core stöder de populära [presentationsformaten](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) och exportformat som anges nedan." >}}
+{{< blocks/products/pf/carousel-item h3="Filformat som stöds" description="Aspose.Slides för .NET Core stöder de populära [presentationsformaten](https://docs.aspose.com/slides/net/supported-file-formats/) och exportformat som anges nedan." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

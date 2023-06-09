@@ -149,7 +149,7 @@ Gérer les styles de ligne de la forme
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides pour .NET Core prend en charge les [formats de présentation](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) et les formats d'exportation populaires répertoriés ci-dessous." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides pour .NET Core prend en charge les [formats de présentation](https://docs.aspose.com/slides/net/supported-file-formats/) et les formats d'exportation populaires répertoriés ci-dessous." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

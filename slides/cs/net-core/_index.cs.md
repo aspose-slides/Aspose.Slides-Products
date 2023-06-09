@@ -149,7 +149,7 @@ Správa stylů čar tvaru
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Podporované formáty souborů" description="Aspose.Slides for .NET Core podporuje oblíbené [formáty prezentace](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) a exportní formáty uvedené níže." >}}
+{{< blocks/products/pf/carousel-item h3="Podporované formáty souborů" description="Aspose.Slides for .NET Core podporuje oblíbené [formáty prezentace](https://docs.aspose.com/slides/net/supported-file-formats/) a exportní formáty uvedené níže." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

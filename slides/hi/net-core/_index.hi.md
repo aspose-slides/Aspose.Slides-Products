@@ -149,7 +149,7 @@ ActiveX नियंत्रण प्रबंधित करें
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="समर्थित फ़ाइल प्रारूप" description="Aspose.Slides for .NET Core लोकप्रिय [प्रस्तुति प्रारूपों](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) और नीचे सूचीबद्ध निर्यात प्रारूपों का समर्थन करता है।" >}}
+{{< blocks/products/pf/carousel-item h3="समर्थित फ़ाइल प्रारूप" description="Aspose.Slides for .NET Core लोकप्रिय [प्रस्तुति प्रारूपों](https://docs.aspose.com/slides/net/supported-file-formats/) और नीचे सूचीबद्ध निर्यात प्रारूपों का समर्थन करता है।" >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -10,7 +10,7 @@ description: Xamarin PowerPoint 응용 프로그램을 빌드하기 위한 Xamar
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Xamarin" >}}
 
-{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+Xamarin" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>
@@ -145,7 +145,7 @@ OleObject 관리
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="Xamarin용 Aspose.Slides는 널리 사용되는 [프레젠테이션 형식](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) 및 아래 나열된 내보내기 형식을 지원합니다." >}}
+{{< blocks/products/pf/carousel-item h3="지원되는 파일 형식" description="Xamarin용 Aspose.Slides는 널리 사용되는 [프레젠테이션 형식](https://docs.aspose.com/slides/net/supported-file-formats/) 및 아래 나열된 내보내기 형식을 지원합니다." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -10,7 +10,7 @@ description: Aspose.Slides for Xamarin para criar aplicativos Xamarin PowerPoint
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Xamarin" >}}
 
-{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+Xamarin" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>
@@ -145,7 +145,7 @@ Gerenciar os estilos de linha da forma
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides for Xamarin suporta os populares [formatos de apresentação](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) e formatos de exportação listados abaixo." >}}
+{{< blocks/products/pf/carousel-item h3="Formatos de arquivo suportados" description="Aspose.Slides for Xamarin suporta os populares [formatos de apresentação](https://docs.aspose.com/slides/net/supported-file-formats/) e formatos de exportação listados abaixo." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

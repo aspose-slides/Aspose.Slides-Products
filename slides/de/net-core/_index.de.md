@@ -149,7 +149,7 @@ Verwalten Sie die Linienstile der Form
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Unterstützte Dateiformate" description="Aspose.Slides für .NET Core unterstützt die gängigen [Präsentationsformate](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) und die unten aufgeführten Exportformate." >}}
+{{< blocks/products/pf/carousel-item h3="Unterstützte Dateiformate" description="Aspose.Slides für .NET Core unterstützt die gängigen [Präsentationsformate](https://docs.aspose.com/slides/net/supported-file-formats/) und die unten aufgeführten Exportformate." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

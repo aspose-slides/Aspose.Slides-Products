@@ -10,7 +10,7 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Xamarin" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+Xamarin" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -145,7 +145,7 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Xamarin supports the popular [presentation formats](https://docs.aspose.com/display/slidesnet/Supported+File+Formats)  and export formats listed below." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Xamarin supports the popular [presentation formats](https://docs.aspose.com/slides/net/supported-file-formats/)  and export formats listed below." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

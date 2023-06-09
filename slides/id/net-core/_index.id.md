@@ -149,7 +149,7 @@ Kelola Gaya Garis Bentuk
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk .NET Core mendukung [format presentasi](https://docs.aspose.com/display/slidesnet/Supported+File+Formats) populer dan format ekspor yang tercantum di bawah." >}}
+{{< blocks/products/pf/carousel-item h3="Format File yang Didukung" description="Aspose.Slides untuk .NET Core mendukung [format presentasi](https://docs.aspose.com/slides/net/supported-file-formats/) populer dan format ekspor yang tercantum di bawah." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
