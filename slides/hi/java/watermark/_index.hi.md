@@ -1,0 +1,32 @@
+---
+title: जावा का उपयोग करके PowerPoint प्रस्तुति में वॉटरमार्क जोड़ें
+url: /hi/java/watermark/
+description: वॉटरमार्क प्रस्तुति के लिए जावा स्रोत कोड
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="जावा का उपयोग करके PowerPoint और OpenOffice दस्तावेज़ों में वॉटरमार्क जोड़ें" h2="सर्वर-साइड एपीआई का उपयोग करके वॉटरमार्क प्रस्तुतियों के लिए अपने स्वयं के जावा ऐप्स बनाएं।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/product-card-row title="अन्य समर्थित प्रस्तुति वॉटरमार्क नमूने" >}}
+
+{{< blocks/products/pf/product pfName="वॉटरमार्क जोड़ें" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/hi/java/watermark/odp/" >}}
+Aspose.Slides for Java API का उपयोग करके ODP फ़ाइल में वॉटरमार्क कैसे जोड़ें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="वॉटरमार्क जोड़ें" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/hi/java/watermark/ppt/" >}}
+जावा एपीआई के लिए Aspose.Slides का उपयोग करके पीपीटी फ़ाइल में वॉटरमार्क कैसे जोड़ें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="वॉटरमार्क जोड़ें" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/hi/java/watermark/pptx/" >}}
+Aspose.Slides for Java API का उपयोग करके PPTX फ़ाइल में वॉटरमार्क कैसे जोड़ें।
+{{< /blocks/products/pf/product >}}
+
+
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< /blocks/products/pf/main-container >}}
+    
+{{< /blocks/products/pf/main-wrap-class >}}
