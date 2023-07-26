@@ -1,22 +1,22 @@
 ---
-title: PHP PowerPoint API. PHP Presentation, PPT from Aspose.Slides
+title: Node.js PowerPoint API. Node.js Presentation, PPT from Aspose.Slides
 weight: 5890
-url: /php-java/ 
-description: PHP library to work with Microsoft PowerPoint files. PHP Presentation, PPT, PPTX. Create edit convert PPT PPTX PPS POT PPSX PPTM PPSM POTX POTM ODP PDF and many more formats.
+url: /nodejs-java/ 
+description: Node.js library to work with Microsoft PowerPoint files. Node.js Presentation, PPT, PPTX. Create edit convert PPT PPTX PPS POT PPSX PPTM PPSM POTX POTM ODP PDF and many more formats.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations. PHP Presentation, PPT, PPTX, ODP" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in PHP without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://downloads.aspose.com/slides/php-java" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations. Node.js Presentation, PPT, PPTX, ODP" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in Node.js without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-nodejs-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://downloads.aspose.com/slides/nodejs-java" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for PHP via Java" >}}
+{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/php-java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/php-java/" installationsDocsLink="https://docs.aspose.com/slides/php-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/php-java" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-nodejs-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-java/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/nodejs-java" >}}
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for PHP via Java</strong> is a powerful class library for working with or processing presentations. Using this product, applications and developers get to read, edit or manipulate, and convert PowerPoint presentations (PPT, PPTX) and presentations in other formats (ODP) without third-party applications or dependencies. </p>
+<p><strong>Aspose.Slides for Node.js via Java</strong> is a powerful class library for working with or processing presentations. Using this product, applications and developers get to read, edit or manipulate, and convert PowerPoint presentations (PPT, PPTX) and presentations in other formats (ODP) without third-party applications or dependencies. </p>
 
-<p><strong>Aspose.Slides for PHP via Java</strong> provides these popular features:</p>
+<p><strong>Aspose.Slides for Node.js via Java</strong> provides these popular features:</p>
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
@@ -27,7 +27,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
     <li>And many more features.</li>
 </ul>
 
-<p>PHP is a popular general-purpose scripting language, especially for web development purposes. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for PHP via Java</strong> to the PHP community. </p>
+<p>Node.js is a popular general-purpose scripting language, especially for web development purposes. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for Node.js via Java</strong> to the Node.js community. </p>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -35,7 +35,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
 {{< blocks/products/pf/carousel >}}
 
 {{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of API capabilities." >}}
-<div class="diagram1 d1-php-java">
+<div class="diagram1 d1-nodejs-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
    <header>
@@ -106,7 +106,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="PHP PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg"/>
+  <img width="70" height="75" alt="Node.js PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-nodejs-via-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -116,7 +116,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
      for
     </em>
    </small>
-   PHP
+   Node.js
    <em>via Java</em>
   </footer>
  </div>
@@ -125,8 +125,8 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="PHP Presentation API supports all major platforms including the following." >}}
-<div class="diagram1 d1-php-java">
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Node.js Presentation API supports all major platforms including the following." >}}
+<div class="diagram1 d1-nodejs-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
    <header>
@@ -175,7 +175,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for PHP" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Node.js" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-nodejs-via-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -185,7 +185,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
      for
     </em>
    </small>
-   PHP
+   Node.js
    <em>via Java</em>
   </footer>
  </div>
@@ -194,8 +194,8 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for PHP via Java supports popular [presentation formats](https://docs.aspose.com/slides/php-java/supported-file-formats/)  and these export formats." >}}
-<div class="diagram1 d2 d1-php-java">
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Node.js via Java supports popular [presentation formats](https://docs.aspose.com/slides/nodejs-java/supported-file-formats/)  and these export formats." >}}
+<div class="diagram1 d2 d1-nodejs-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
    <header>
@@ -259,7 +259,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-nodejs-via-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -269,7 +269,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
      for
     </em>
    </small>
-   PHP
+   Node.js
    <em>via Java</em>
   </footer>
  </div>
@@ -288,7 +288,7 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">
-    Advanced PHP PowerPoint API Features
+    Advanced Node.js PowerPoint API Features
    </h2>
    <p>
    </p>
@@ -360,158 +360,139 @@ description: PHP library to work with Microsoft PowerPoint files. PHP Presentati
      System Requirements
     </h2>
     <ul>
-      <li>Compatible with PHP 7 or later</li>
+      <li>Python 2.x</li>
     </ul>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
      How to Install
     </h2>
-    <p>Use <strong>packagist</strong> to install our PHP library for Presentation processing from the <a href="https://packagist.org/packages/aspose/slides">PHP Package repository:</a></p>
+    <p>Use <strong>NPM</strong> to install our Node.js library for Presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides">NPM Package repository:</a></p>
     <pre><code>composer require aspose/slides</code></pre>
    </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Create New PowerPoint Presentation. PHP Presentation: PPT, PPTX, ODP</h2>
+        <h2 class="h2title">Create New PowerPoint Presentation. Node.js Presentation: PPT, PPTX, ODP</h2>
         <p>In the example given below, we have added a line to the first slide of the presentation.</p>
         <pre>
-            <code class="php">	
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
+            <code class="javascript">	
+var aspose = aspose || {};
 
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
+aspose.slides = require("aspose.slides");
 
-$pres = new Presentation();
+var pres = new aspose.slides.Presentation();
 try
 {
     // Gets the first slide
-    $slide = $pres->getSlides()->get_Item(0);
+    var slide = pres.getSlides().get_Item(0);
     // Adds an autoshape with type set to line
-    $slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
-    $pres->save("NewPresentation_out.pptx", SaveFormat::Pptx);
+    slide.getShapes().addAutoShape(aspose.slides.ShapeType.Line, 50, 150, 300, 0);
+    pres.save("output.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally
 {
-    if ($pres != null) $pres->dispose();
+    if (pres != null) pres.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Merge Presentations. PHP Presentation: PPT, PPTX, ODP</h2>
-        <p>This PHP code shows you how to merge presentations:</p>
+        <h2 class="h2title">Merge Presentations. Node.js Presentation: PPT, PPTX, ODP</h2>
+        <p>This Node.js code shows you how to merge presentations:</p>
         <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
+            <code class="javascript">
+var aspose = aspose || {};
 
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
+aspose.slides = require("aspose.slides");
 
-$pres1 = new Presentation("pres1.pptx");
-$pres2 = new Presentation("pres2.pptx");
+var pres1 = new aspose.slides.Presentation("pres1.pptx");
+var pres2 = new aspose.slides.Presentation("pres2.pptx");
 try
 {
-    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
+    for (var i = 0; i < pres2.getSlides().size(); i++) 
     {
-        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
+        pres1.getSlides().addClone(pres2.getSlides().get_Item(i));
     }
-    $pres1->save("combined.pptx", SaveFormat::Pptx);
+    pres1.save("combined.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally
 {
-    if ($pres1 != null) $pres1->dispose();
-    if ($pres2 != null) $pres2->dispose();
+    if (pres1 != null) pres1.dispose();
+    if (pres2 != null) pres2.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title"> Import Presentation From PDF. PHP Presentation: PDF to PPT, PDF to PPTX, PDF to ODP</h2>
-        <p>This PHP code demonstrates the PDF to PowerPoint conversion process:</p>
+        <h2 class="h2title"> Import Presentation From PDF. Node.js Presentation: PDF to PPT, PDF to PPTX, PDF to ODP</h2>
+        <p>This Node.js code demonstrates the PDF to PowerPoint conversion process:</p>
         <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
+            <code class="javascript">
+var aspose = aspose || {};
 
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
+aspose.slides = require("aspose.slides");
 
-$pres = new Presentation();
+var pres = new aspose.slides.Presentation();
 try
 {
-    $pres->getSlides()->removeAt(0);
-    $pres->getSlides()->addFromPdf("welcome-to-powerpoint.pdf");
-    $pres->save("OutputPresentation.pptx", SaveFormat::Pptx);
+    pres.getSlides().removeAt(0);
+    pres.getSlides().addFromPdf("welcome-to-powerpoint.pdf");
+    pres.save("OutputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally
 {
-    if ($pres != null) $pres->dispose();
+    if (pres != null) pres.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to PDF with Default Options: PHP Presentation, PPT, PPTX or ODP to PDF</h2>
-        <p>This PHP code shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document to a PDF document using the default options. The resulting file is a PDF document at the maximum quality levels</p>
+        <h2 class="h2title">Convert PowerPoint to PDF with Default Options: Node.js Presentation, PPT, PPTX or ODP to PDF</h2>
+        <p>This Node.js code shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document to a PDF document using the default options. The resulting file is a PDF document at the maximum quality levels</p>
         <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
+            <code class="javascript">
+var aspose = aspose || {};
 
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
+aspose.slides = require("aspose.slides");
 
 // Instantiate a Presentation object that represents a PPT file
-$pres = new Presentation("PowerPoint.ppt");
+var pres = new aspose.slides.Presentation("PowerPoint.ppt");
 try
 {
     // Save the presentation as PDF
-    $pres->save("PPT-to-PDF.pdf", SaveFormat::Pdf);
+    pres.save("PPT-to-PDF.pdf", aspose.slides.SaveFormat.Pdf);
 }
 finally
 {
-    if ($pres != null) $pres->dispose();
+    if (pres != null) pres.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to JPG. PHP Presentation. PPT to JPG, PPTX to JPG, ODP to JPG</h2>
+        <h2 class="h2title">Convert PowerPoint to JPG. Node.js Presentation. PPT to JPG, PPTX to JPG, ODP to JPG</h2>
         <p>The following example shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document into a set of JPEG images.</p>
         <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
+            <code class="javascript">
+var aspose = aspose || {};
+var java = require("java");
 
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
+aspose.slides = require("aspose.slides");
 
 // Instantiate a Presentation object that represents a PPT file
-$pres = new Presentation("pres.pptx");
+var pres = new aspose.slides.Presentation("pres.pptx");
 try
 {
-    for ($i = 0; $i < java_values($pres->getSlides()->size()); $i++)
+    for (var i = 0; i < pres.getSlides().size(); i++)
     {
-        $bmp = $pres->getSlides()->get_Item($i)->getThumbnail(1, 1);
-        $imageio = new Java("javax.imageio.ImageIO");
-        $javafile = new Java("java.io.File", "slide_". $i .".jpg");
-        $imageio->write($bmp, "JPEG", $javafile);
+        var bmp = pres.getSlides().get_Item(i).getThumbnail(1, 1);
+        var imageio = java.newInstanceSync("javax.imageio.ImageIO");
+        var file = java.newInstanceSync("java.io.File", "slide_" + i + ".jpg");
+        imageio.write(bmp, "JPEG", file);
     }
 }
 finally
 {
-    if ($pres != null) $pres->dispose();
+    if (pres != null) pres.dispose();
 }
             </code>
         </pre>
@@ -547,9 +528,9 @@ finally
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/php-java/" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/nodejs-java/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/php-java/api-reference/" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/nodejs-java/api-reference/" >}}
 {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -557,24 +538,24 @@ finally
 {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/php-java/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/nodejs-java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for PHP via Java?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Node.js via Java?" tabId="success-stories" >}}
 {{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
 {{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/php-java" pricingInformationLink="https://purchase.aspose.com/pricing/slides/php-java" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/nodejs-java" pricingInformationLink="https://purchase.aspose.com/pricing/slides/nodejs-java" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}    
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
