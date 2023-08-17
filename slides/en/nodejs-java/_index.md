@@ -243,17 +243,17 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
    <div class="col-lg-12">
     <h2 class="h2title">System Requirements</h2>
     <ul>
-      <li>Aspose.Slides for Node.js via Java is server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux & Mac platforms with JDK 1.7 or above.</li>
+      <li>Aspose.Slides for Node.js via Java is server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux & Mac platforms with JDK 1.8 or above.</li>
     </ul>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">How to Install</h2>
     <p>Use <strong>NPM</strong> to install our Node.js library for Presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides.via.java">NPM Package repository:</a></p>
-    <pre><code>composer require aspose/slides</code></pre>
+    <pre><code>npm install aspose.slides.via.java</code></pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Create New PowerPoint Presentation in Node.js</h2>
-        <p>In the example given below, we have added a line to the first slide of the presentation.</p>
+        <p>In the example given below, we have added a rectangle to the first slide of the presentation.</p>
         <pre>
             <code class="javascript">	
 var aspose = aspose || {};
@@ -265,9 +265,9 @@ try
 {
     // Gets the first slide
     var slide = pres.getSlides().get_Item(0);
-    // Adds an autoshape with type set to line
-    slide.getShapes().addAutoShape(aspose.slides.ShapeType.Line, 50, 150, 300, 0);
-    pres.save("output.pptx", aspose.slides.SaveFormat.Pptx);
+    // Adds an autoshape with type set to rectangle
+    slide.getShapes().addAutoShape(aspose.slides.ShapeType.Rectangle, 50, 150, 300, 200);
+    pres.save("outputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally
 {
@@ -293,7 +293,7 @@ try
     {
         pres1.getSlides().addClone(pres2.getSlides().get_Item(i));
     }
-    pres1.save("combined.pptx", aspose.slides.SaveFormat.Pptx);
+    pres1.save("combinedPresentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally
 {
@@ -317,7 +317,7 @@ try
 {
     pres.getSlides().removeAt(0);
     pres.getSlides().addFromPdf("welcome-to-powerpoint.pdf");
-    pres.save("OutputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
+    pres.save("outputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally
 {
