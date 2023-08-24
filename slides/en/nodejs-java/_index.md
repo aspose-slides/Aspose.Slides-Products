@@ -96,7 +96,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Aspose.Slides for Node.js via Java is server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux & Mac platforms with JDK 1.7 or above." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Node.js via Java is server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux & Mac platforms with JDK 1.8 or above." >}}
 <div class="diagram1 d1-nodejs">
  <div class="d1-row">
   <div class="d1-col d1-left"></div>
