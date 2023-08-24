@@ -258,7 +258,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
             <code class="javascript">	
 var aspose = aspose || {};
 
-aspose.slides = require("aspose.slides");
+aspose.slides = require("aspose.slides.via.java");
 
 var pres = new aspose.slides.Presentation();
 try
@@ -283,7 +283,7 @@ finally
             <code class="javascript">
 var aspose = aspose || {};
 
-aspose.slides = require("aspose.slides");
+aspose.slides = require("aspose.slides.via.java");
 
 var pres1 = new aspose.slides.Presentation("pres1.pptx");
 var pres2 = new aspose.slides.Presentation("pres2.pptx");
@@ -310,7 +310,7 @@ finally
             <code class="javascript">
 var aspose = aspose || {};
 
-aspose.slides = require("aspose.slides");
+aspose.slides = require("aspose.slides.via.java");
 
 var pres = new aspose.slides.Presentation();
 try
@@ -333,7 +333,7 @@ finally
             <code class="javascript">
 var aspose = aspose || {};
 
-aspose.slides = require("aspose.slides");
+aspose.slides = require("aspose.slides.via.java");
 
 // Instantiate a Presentation object that represents a PPT file
 var pres = new aspose.slides.Presentation("PowerPoint.ppt");
@@ -357,7 +357,7 @@ finally
 var aspose = aspose || {};
 var java = require("java");
 
-aspose.slides = require("aspose.slides");
+aspose.slides = require("aspose.slides.via.java");
 
 // Instantiate a Presentation object that represents a PPT file
 var pres = new aspose.slides.Presentation("pres.pptx");
