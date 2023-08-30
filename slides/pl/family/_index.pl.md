@@ -1,18 +1,18 @@
 ---
-title: PowerPoint .NET Java C++ Python PHP Android API
+title: PowerPoint .NET Java C++ Python PHP Node.js Interfejsy API systemu Android
 weight: 10
 url: /pl/family/
-description: PowerPoint API dla .NET, Java, C++, Python, PHP. Twórz Pisz Edytuj Renderuj Drukuj PowerPoint PPT, PPTX, ODP. Eksportuj slajdy w SSRS i JasperReports
+description: PowerPoint API dla .NET, Java, C++, Python, PHP, Node.js. Utwórz Zapisz Edytuj Renderuj Drukuj PowerPoint PPT, PPTX, ODP. Eksportuj slajdy w SSRS i JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="Interfejsy API programu PowerPoint: .NET, Java, C++, Python, PHP" h2="Natywne interfejsy API do programowania na wielu platformach. Generuj, zarządzaj i konwertuj prezentacje i slajdy PowerPoint w .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="Interfejsy API programu PowerPoint: .NET, Java, C++, Python, PHP, Node.js" h2="Natywne interfejsy API do programowania na wielu platformach. Generuj, zarządzaj i konwertuj prezentacje i slajdy programu PowerPoint w .NET, Java, C++, Python, PHP, Node.js, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API Zawiera" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Interfejsy API programu PowerPoint obejmują" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/pl/net/" >}}
-Interfejs API programu PowerPoint przeznaczony dla Windows Forms, ASP.NET, WPF, WCF lub dowolnego typu aplikacji opartej na .NET Framework 2.0 lub nowszym.
+PowerPoint API ukierunkowany na Windows Forms, ASP.NET, WPF, WCF lub dowolny typ aplikacji oparty na .NET Framework 2.0 lub nowszym.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/pl/java/" >}}
@@ -23,56 +23,60 @@ PowerPoint Java API dla komputerów stacjonarnych, sieci Web lub dowolnej aplika
 PowerPoint API do manipulowania i renderowania prezentacji i slajdów PowerPoint w aplikacjach CPP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python przez .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/pl/python-net/" >}}
-PowerPoint API do generowania i manipulowania prezentacjami za pomocą skryptów Pythona.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/pl/python-net/" >}}
+API programu PowerPoint do generowania i manipulowania prezentacjami za pomocą skryptów w języku Python.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android przez Javę" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/pl/android-java/" >}}
-PowerPoint API do manipulowania prezentacjami PowerPoint w aplikacjach mobilnych dla systemu Android.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/pl/android-java/" >}}
+Interfejs API programu PowerPoint do manipulowania prezentacjami programu PowerPoint w aplikacjach mobilnych na Androida.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/pl/php-java/" >}}
-PowerPoint API do generowania i manipulowania prezentacjami za pomocą skryptów PHP.
+API programu PowerPoint do generowania i manipulowania prezentacjami za pomocą skryptów PHP.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/pl/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/" >}}
+PowerPoint API do generowania i manipulowania prezentacjami w aplikacjach Node.js.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/pl/sharepoint/" >}}
-PowerPoint API do konwertowania prezentacji do formatu PDF w SharePoint.
+Interfejs API programu PowerPoint do konwersji prezentacji do formatu PDF w programie SharePoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Usługi raportowania" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/pl/reporting-services/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/pl/reporting-services/" >}}
 Interfejs API programu PowerPoint do eksportowania raportów RDL do programu PowerPoint z usług SQL Server Reporting Services.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperRaporty" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/pl/jasperreports/" >}}
-PowerPoint API do eksportowania raportów do PowerPointa z JasperReports lub JasperServer.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/pl/jasperreports/" >}}
+PowerPoint API do eksportowania raportów do programu PowerPoint z JasperReports lub JasperServer.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/pl/net-core/" >}}
-Interfejs API programu PowerPoint do tworzenia wieloplatformowych rozwiązań platformy .NET Core do przetwarzania prezentacji w systemach Windows, Linux lub macOS.
+Interfejs API programu PowerPoint do tworzenia wieloplatformowych rozwiązań .NET Core do przetwarzania prezentacji w systemach Windows, Linux lub macOS.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/pl/xamarin/" >}}
-PowerPoint API do tworzenia wieloplatformowych aplikacji Xamarin i zarządzania prezentacjami w systemie Android, iOS lub Windows.
+PowerPoint API do tworzenia aplikacji wieloplatformowych Xamarin i zarządzania prezentacjami na Androidzie, iOS lub Windows.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
-{{< blocks/products/pf/product-card-row title="Aspose.Slides Przykłady kodu programu PowerPoint w trybie online Uwzględnij" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Przykłady kodu programu PowerPoint w Internecie" >}}
 
 {{< blocks/products/pf/product pfName="" title="Adnotacja" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/pl/annotation/" >}}
-Jak usunąć adnotacje z prezentacji za pomocą API Aspose.Slides.
+Jak usunąć adnotacje z prezentacji za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Porównanie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/pl/comparison/" >}}
-Jak porównywać dokumenty programu PowerPoint za pomocą interfejsu API Aspose.Slides.
+Jak porównać dokumenty programu PowerPoint za pośrednictwem interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Konwersja" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/pl/conversion/" >}}
-Jak konwertować prezentacje programu PowerPoint za pomocą interfejsu API Aspose.Slides.
+Jak konwertować prezentacje programu PowerPoint przy użyciu interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Wykres" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/pl/chart/" >}}
-Jak korzystać z wykresów w prezentacjach PowerPoint przy użyciu API Aspose.Slides.
+Jak korzystać z wykresów w prezentacjach PowerPoint przy użyciu Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Połączenie" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/pl/merger/" >}}
@@ -96,7 +100,7 @@ Jak zredagować prezentację za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Szukaj" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/pl/search/" >}}
-Jak wyszukiwać tekst w prezentacji za pomocą API Aspose.Slides.
+Jak wyszukiwać tekst w prezentacji za pomocą interfejsu API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Podpis" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/pl/signature/" >}}
