@@ -1,18 +1,18 @@
 ---
-title: PowerPoint .NET Java C++ Python PHP Android API
+title: PowerPoint .NET Java C++ Python PHP Node.js API Android
 weight: 10
 url: /it/family/
-description: API di PowerPoint per .NET, Java, C++, Python, PHP. Crea Scrivi Modifica Rendering Stampa PowerPoint PPT, PPTX, ODP. Esporta diapositive in SSRS e JasperReports
+description: API di PowerPoint per .NET, Java, C++, Python, PHP, Node.js. Crea Scrivi Modifica Render Stampa PowerPoint PPT, PPTX, ODP. Esporta diapositive in SSRS e JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="API PowerPoint: .NET, Java, C++, Python, PHP" h2="API native per lo sviluppo multipiattaforma. Genera, gestisci e converti presentazioni e diapositive PowerPoint in .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="API di PowerPoint: .NET, Java, C++, Python, PHP, Node.js" h2="API native per lo sviluppo multipiattaforma. Genera, gestisci e converti presentazioni e diapositive PowerPoint in .NET, Java, C++, Python, PHP, Node.js, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Le API di Aspose.Slides PowerPoint includono" >}}
+{{< blocks/products/pf/product-card-row title="Le API di PowerPoint Aspose.Slides includono" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/it/net/" >}}
-API PowerPoint destinata a Windows Forms, ASP.NET, WPF, WCF o qualsiasi tipo di applicazione basata su .NET Framework 2.0 o successivo.
+API di PowerPoint destinate a Windows Forms, ASP.NET, WPF, WCF o qualsiasi tipo di applicazione basata su .NET Framework 2.0 o versione successiva.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/it/java/" >}}
@@ -23,41 +23,45 @@ API Java di PowerPoint per desktop, Web o qualsiasi applicazione basata su Java 
 API PowerPoint per la manipolazione e il rendering di presentazioni e diapositive PowerPoint in applicazioni CPP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python tramite .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/it/python-net/" >}}
-API PowerPoint per la generazione e la manipolazione di presentazioni con script Python.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/it/python-net/" >}}
+API PowerPoint per generare e manipolare presentazioni con script Python.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android tramite Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/it/android-java/" >}}
-API di PowerPoint per la manipolazione di presentazioni PowerPoint nelle applicazioni mobili Android.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/it/android-java/" >}}
+API PowerPoint per manipolare presentazioni PowerPoint nelle applicazioni mobili Android.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/it/php-java/" >}}
-API PowerPoint per la generazione e la manipolazione di presentazioni con script PHP.
+API PowerPoint per generare e manipolare presentazioni con script PHP.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/it/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/it/nodejs-java/" >}}
+API PowerPoint per generare e manipolare presentazioni all'interno delle applicazioni Node.js.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/it/sharepoint/" >}}
-API PowerPoint per la conversione di presentazioni in PDF in SharePoint.
+API di PowerPoint per convertire presentazioni in PDF in SharePoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Servizi di segnalazione" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/it/reporting-services/" >}}
-API di PowerPoint per l'esportazione di report RDL in PowerPoint da SQL Server Reporting Services.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/it/reporting-services/" >}}
+API di PowerPoint per esportare report RDL in PowerPoint da SQL Server Reporting Services.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Jasper Report" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/it/jasperreports/" >}}
-API PowerPoint per l'esportazione di report in PowerPoint da JasperReports o JasperServer.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/it/jasperreports/" >}}
+API PowerPoint per esportare report in PowerPoint da JasperReports o JasperServer.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/it/net-core/" >}}
-API PowerPoint per la creazione di soluzioni multipiattaforma .NET Core per l'elaborazione di presentazioni su Windows, Linux o macOS.
+API di PowerPoint per la creazione di soluzioni multipiattaforma .NET Core per l'elaborazione di presentazioni in Windows, Linux o macOS.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/it/xamarin/" >}}
-API PowerPoint per la creazione di applicazioni multipiattaforma Xamarin e la gestione di presentazioni su Android, iOS o Windows.
+API di PowerPoint per creare applicazioni multipiattaforma Xamarin e gestire presentazioni su Android, iOS o Windows.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
-{{< blocks/products/pf/product-card-row title="Aspose.Slides Esempi di codice PowerPoint online includono" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Esempi di codici PowerPoint online includono" >}}
 
 {{< blocks/products/pf/product pfName="" title="Annotazione" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/it/annotation/" >}}
 Come rimuovere le annotazioni dalla presentazione con l'API Aspose.Slides.
@@ -68,27 +72,27 @@ Come confrontare i documenti PowerPoint tramite l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Conversione" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/it/conversion/" >}}
-Come convertire le presentazioni di PowerPoint utilizzando l'API Aspose.Slides.
+Come convertire presentazioni PowerPoint utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Grafico" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/it/chart/" >}}
-Come utilizzare i grafici nelle presentazioni PowerPoint utilizzando l'API Aspose.Slides.
+Come utilizzare i grafici nelle presentazioni di PowerPoint utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Fusione" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/it/merger/" >}}
-Come unire le presentazioni utilizzando l'API Aspose.Slides.
+Come unire presentazioni utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Metadati" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/it/metadata/" >}}
 Come modificare le proprietà della presentazione utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="analizzatore" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/it/parser/" >}}
+{{< blocks/products/pf/product pfName="" title="Analizzatore" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/it/parser/" >}}
 Come estrarre testo, immagini e audio della presentazione utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Proteggere" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/it/protect/" >}}
-Come proteggere con password la presentazione di PowerPoint con Aspose.Slides API.
+Come proteggere con password la presentazione di PowerPoint con l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Redazione" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/it/redaction/" >}}
@@ -96,7 +100,7 @@ Come redigere una presentazione utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Ricerca" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/it/search/" >}}
-Come cercare il testo in una presentazione utilizzando l'API Aspose.Slides.
+Come cercare testo in una presentazione utilizzando l'API Aspose.Slides.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Firma" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/it/signature/" >}}

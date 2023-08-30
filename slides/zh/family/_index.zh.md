@@ -1,18 +1,18 @@
 ---
-title: PowerPoint .NET Java C++ Python PHP Android API
+title: PowerPoint .NET Java C++ Python PHP Node.js Android API
 weight: 10
 url: /zh/family/
-description: 适用于 .NET、Java、C++、Python、PHP 的 PowerPoint API。创建写入编辑渲染打印 PowerPoint PPT、PPTX、ODP。在 SSRS 和 JasperReports 中导出幻灯片
+description: 适用于 .NET、Java、C++、Python、PHP、Node.js 的 PowerPoint API。创建、写入、编辑、渲染、打印、PowerPoint PPT、PPTX、ODP。在 SSRS 和 JasperReports 中导出幻灯片
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API：.NET、Java、C++、Python、PHP" h2="用于跨平台开发的原生 API。在 .NET、Java、C++、Python、PHP、Android 中生成、管理和转换 PowerPoint 演示文稿和幻灯片" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API：.NET、Java、C++、Python、PHP、Node.js" h2="用于跨平台开发的本机 API。使用 .NET、Java、C++、Python、PHP、Node.js、Android 生成、管理和转换 PowerPoint 演示文稿和幻灯片" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API 包括" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/zh/net/" >}}
-针对 Windows 窗体、ASP.NET、WPF、WCF 或任何类型的基于 .NET Framework 2.0 或更高版本的应用程序的 PowerPoint API。
+面向 Windows 窗体、ASP.NET、WPF、WCF 或基于 .NET Framework 2.0 或更高版本的任何类型的应用程序的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/zh/java/" >}}
@@ -20,44 +20,48 @@ description: 适用于 .NET、Java、C++、Python、PHP 的 PowerPoint API。创
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/zh/cpp/" >}}
-用于在 CPP 应用程序中操作和呈现 PowerPoint 演示文稿和幻灯片的 PowerPoint API。
+用于在 CPP 应用程序中操作和渲染 PowerPoint 演示文稿和幻灯片的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python 通过 .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/zh/python-net/" >}}
-PowerPoint API，用于使用 Python 脚本生成和操作演示文稿。
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/zh/python-net/" >}}
+用于使用 Python 脚本生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android 通过 Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/zh/android-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/zh/android-java/" >}}
 用于在 Android 移动应用程序中操作 PowerPoint 演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/zh/php-java/" >}}
-PowerPoint API，用于使用 PHP 脚本生成和操作演示文稿。
+用于使用 PHP 脚本生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="共享点" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/zh/sharepoint/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/zh/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh/nodejs-java/" >}}
+用于在 Node.js 应用程序中生成和操作演示文稿的 PowerPoint API。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/zh/sharepoint/" >}}
 用于在 SharePoint 中将演示文稿转换为 PDF 的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="报告服务" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/zh/reporting-services/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/zh/reporting-services/" >}}
 用于将 RDL 报告从 SQL Server Reporting Services 导出到 PowerPoint 的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="贾斯珀报告" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/zh/jasperreports/" >}}
-用于从 JasperReports 或 JasperServer 将报告导出到 PowerPoint 的 PowerPoint API。
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/zh/jasperreports/" >}}
+用于将报表从 JasperReports 或 JasperServer 导出到 PowerPoint 的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET 核心" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/zh/net-core/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/zh/net-core/" >}}
 用于构建 .NET Core 跨平台解决方案的 PowerPoint API，用于在 Windows、Linux 或 macOS 上处理演示文稿。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="赛马林" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/zh/xamarin/" >}}
-用于在 Android、iOS 或 Windows 上构建 Xamarin 跨平台应用程序和管理演示文稿的 PowerPoint API。
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/zh/xamarin/" >}}
+PowerPoint API，用于在 Android、iOS 或 Windows 上构建 Xamarin 跨平台应用程序并管理演示文稿。
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
-{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 代码示例在线包括" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint 在线代码示例包括" >}}
 
 {{< blocks/products/pf/product pfName="" title="注解" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/zh/annotation/" >}}
 如何使用 Aspose.Slides API 从演示文稿中删除注释。
@@ -84,26 +88,26 @@ PowerPoint API，用于使用 PHP 脚本生成和操作演示文稿。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="解析器" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/zh/parser/" >}}
-如何使用 Aspose.Slides API 提取演示文本、图像和音频。
+如何使用 Aspose.Slides API 提取演示文稿文本、图像和音频。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="保护" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/zh/protect/" >}}
-如何使用 Aspose.Slides API 密码保护 PowerPoint 演示文稿。
+如何使用 Aspose.Slides API 对 PowerPoint 演示文稿进行密码保护。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="编辑" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/zh/redaction/" >}}
+{{< blocks/products/pf/product pfName="" title="密文" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/zh/redaction/" >}}
 如何使用 Aspose.Slides API 编辑演示文稿。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="搜索" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/zh/search/" >}}
-如何使用 Aspose.Slides API 在演示文稿中搜索文本。
+如何使用 Aspose.Slides API 搜索演示文稿中的文本。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="签名" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/zh/signature/" >}}
 如何使用 Aspose.Slides API 签署演示文稿。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="分配器" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/zh/splitter/" >}}
+{{< blocks/products/pf/product pfName="" title="分路器" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/zh/splitter/" >}}
 如何使用 Aspose.Slides API 拆分 PowerPoint 演示文稿。
 {{< /blocks/products/pf/product >}}
 
@@ -111,7 +115,7 @@ PowerPoint API，用于使用 PHP 脚本生成和操作演示文稿。
 如何使用 Aspose.Slides API 从 PowerPoint 中删除密码。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="" title="查看器" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/zh/viewer/" >}}
+{{< blocks/products/pf/product pfName="" title="观众" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/zh/viewer/" >}}
 如何使用 Aspose.Slides API 打开演示文稿。
 {{< /blocks/products/pf/product >}}
 

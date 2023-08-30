@@ -1,18 +1,18 @@
 ---
-title: PowerPoint .NET Java C++ Python PHP Android API:er
+title: PowerPoint .NET Java C++ Python PHP Node.js Android API:er
 weight: 10
 url: /sv/family/
-description: PowerPoint API för .NET, Java, C++, Python, PHP. Skapa Skriv Redigera Rendera Skriv ut PowerPoint PPT, PPTX, ODP. Exportera bilder i SSRS och JasperReports
+description: PowerPoint API för .NET, Java, C++, Python, PHP, Node.js. Skapa Skriv Redigera Rendera Skriv ut PowerPoint PPT, PPTX, ODP. Exportera bilder i SSRS och JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API:er: .NET, Java, C++, Python, PHP" h2="Native API:er för utveckling över plattformar. Generera, hantera och konvertera PowerPoint-presentationer och presentationer i .NET, Java, C++, Python, PHP, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="PowerPoint API:er: .NET, Java, C++, Python, PHP, Node.js" h2="Native API:er för utveckling över plattformar. Generera, hantera och konvertera PowerPoint-presentationer och presentationer i .NET, Java, C++, Python, PHP, Node.js, Android" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint API:er inkluderar" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/sv/net/" >}}
-PowerPoint API inriktat på Windows Forms, ASP.NET, WPF, WCF eller någon typ av applikation baserad på .NET Framework 2.0 eller senare.
+PowerPoint API riktad mot Windows Forms, ASP.NET, WPF, WCF eller någon typ av applikation baserad på .NET Framework 2.0 eller senare.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/sv/java/" >}}
@@ -35,15 +35,19 @@ PowerPoint API för att manipulera PowerPoint-presentationer i Android-mobilappl
 PowerPoint API för att generera och manipulera presentationer med PHP-skript.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/sv/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/sv/nodejs-java/" >}}
+PowerPoint API för att generera och manipulera presentationer i Node.js-applikationer.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/sv/sharepoint/" >}}
 PowerPoint API för att konvertera presentationer till PDF i SharePoint.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Rapporteringstjänster" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/sv/reporting-services/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/sv/reporting-services/" >}}
 PowerPoint API för export av RDL-rapporter till PowerPoint från SQL Server Reporting Services.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Jasper rapporterar" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/sv/jasperreports/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/sv/jasperreports/" >}}
 PowerPoint API för att exportera rapporter till PowerPoint från JasperReports eller JasperServer.
 {{< /blocks/products/pf/product >}}
 
