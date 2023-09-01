@@ -35,7 +35,7 @@ Android mobil uygulamalarında PowerPoint Sunumlarını düzenlemek için PowerP
 PHP komut dosyalarıyla sunumlar oluşturmak ve değiştirmek için PowerPoint API'si.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/tr/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/tr/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/tr/nodejs-java/" >}}
 Node.js uygulamaları içinde sunumlar oluşturmak ve düzenlemek için PowerPoint API'si.
 {{< /blocks/products/pf/product >}}
 

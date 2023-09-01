@@ -35,7 +35,7 @@ API PowerPoint pour manipuler les présentations PowerPoint dans les application
 API PowerPoint pour générer et manipuler des présentations avec des scripts PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/fr/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fr/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fr/nodejs-java/" >}}
 API PowerPoint pour générer et manipuler des présentations dans les applications Node.js.
 {{< /blocks/products/pf/product >}}
 

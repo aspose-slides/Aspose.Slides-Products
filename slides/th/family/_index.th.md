@@ -35,7 +35,7 @@ PowerPoint API สำหรับจัดการงานนำเสนอ P
 PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอด้วยสคริปต์ PHP
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/th/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/th/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/th/nodejs-java/" >}}
 PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอภายในแอปพลิเคชัน Node.js
 {{< /blocks/products/pf/product >}}
 

@@ -6,11 +6,11 @@ description: Aspose.Slides for Node.js via Java 是一個 Node.js PowerPoint API
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="用於演示的 Node.js PowerPoint API" h2="使用 Node.js 創建、閱讀、修改和轉換 PowerPoint 和 OpenOffice 演示文稿，無需任何外部軟件。" logoImageSrc="https://products.aspose.com/slides/zh-hant/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/upper-banner h1="用於演示的 Node.js PowerPoint API" h2="使用 Node.js 創建、閱讀、修改和轉換 PowerPoint 和 OpenOffice 演示文稿，無需任何外部軟件。" logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/zh-hant/images/aspose_slides-for-nodejs-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-java/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-java/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 
@@ -81,7 +81,7 @@ description: Aspose.Slides for Node.js via Java 是一個 Node.js PowerPoint API
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="Node.js PowerPoint Processing APIs" src="https://products.aspose.com/slides/zh-hant/images/aspose_slides-for-nodejs-via-java.svg"/>
+  <img width="70" height="75" alt="Node.js PowerPoint Processing APIs" src="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg"/>
   <header>Aspose.Slides</header>
   <footer>
    <small>
@@ -112,7 +112,7 @@ description: Aspose.Slides for Node.js via Java 是一個 Node.js PowerPoint API
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for Node.js" src="https://products.aspose.com/slides/zh-hant/images/aspose_slides-for-nodejs-via-java.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Node.js" src="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -162,7 +162,7 @@ description: Aspose.Slides for Node.js via Java 是一個 Node.js PowerPoint API
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://products.aspose.com/slides/zh-hant/images/aspose_slides-for-nodejs-via-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg"/>
   <header>Aspose.Slides</header>
   <footer>
    <small>

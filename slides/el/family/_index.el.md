@@ -35,7 +35,7 @@ PowerPoint API για χειρισμό Παρουσιάσεων PowerPoint σε 
 PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων με σενάρια PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/el/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/el/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/el/nodejs-java/" >}}
 PowerPoint API για τη δημιουργία και τον χειρισμό παρουσιάσεων εντός των εφαρμογών Node.js.
 {{< /blocks/products/pf/product >}}
 

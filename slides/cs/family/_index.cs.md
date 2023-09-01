@@ -35,7 +35,7 @@ PowerPoint API pro manipulaci s PowerPointovými prezentacemi v mobilních aplik
 PowerPoint API pro generování a manipulaci s prezentacemi pomocí PHP skriptů.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/cs/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/cs/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/cs/nodejs-java/" >}}
 PowerPoint API pro generování a manipulaci s prezentacemi v aplikacích Node.js.
 {{< /blocks/products/pf/product >}}
 

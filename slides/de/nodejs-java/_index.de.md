@@ -6,11 +6,11 @@ description: Aspose.Slides für Node.js über Java ist eine Node.js PowerPoint-A
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint-API für Präsentationen" h2="Erstellen, lesen, ändern und konvertieren Sie PowerPoint- und OpenOffice-Präsentationen mit Node.js ohne externe Software." logoImageSrc="https://products.aspose.com/slides/de/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint-API für Präsentationen" h2="Erstellen, lesen, ändern und konvertieren Sie PowerPoint- und OpenOffice-Präsentationen mit Node.js ohne externe Software." logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/de/images/aspose_slides-for-nodejs-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-java/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-java/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 
@@ -81,7 +81,7 @@ description: Aspose.Slides für Node.js über Java ist eine Node.js PowerPoint-A
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="Node.js PowerPoint Processing APIs" src="https://products.aspose.com/slides/de/images/aspose_slides-for-nodejs-via-java.svg"/>
+  <img width="70" height="75" alt="Node.js PowerPoint Processing APIs" src="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg"/>
   <header>Aspose.Slides</header>
   <footer>
    <small>
@@ -112,7 +112,7 @@ description: Aspose.Slides für Node.js über Java ist eine Node.js PowerPoint-A
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for Node.js" src="https://products.aspose.com/slides/de/images/aspose_slides-for-nodejs-via-java.svg"/>
+  <img width="70" height="75" alt="Presentation APIs for Node.js" src="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg"/>
   <header>
    Aspose.Slides
   </header>
@@ -162,7 +162,7 @@ description: Aspose.Slides für Node.js über Java ist eine Node.js PowerPoint-A
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://products.aspose.com/slides/de/images/aspose_slides-for-nodejs-via-java.svg"/>
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg"/>
   <header>Aspose.Slides</header>
   <footer>
    <small>

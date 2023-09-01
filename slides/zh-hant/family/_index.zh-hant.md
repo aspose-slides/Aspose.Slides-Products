@@ -35,7 +35,7 @@ PowerPoint API，用於在 CPP 應用程序中操作和渲染 PowerPoint 演示�
 用於使用 PHP 腳本生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/zh-hant/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh-hant/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh-hant/nodejs-java/" >}}
 用於在 Node.js 應用程序中生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 

@@ -35,7 +35,7 @@ Interfejs API programu PowerPoint do manipulowania prezentacjami programu PowerP
 API programu PowerPoint do generowania i manipulowania prezentacjami za pomocą skryptów PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/pl/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/" >}}
 PowerPoint API do generowania i manipulowania prezentacjami w aplikacjach Node.js.
 {{< /blocks/products/pf/product >}}
 

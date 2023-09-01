@@ -35,7 +35,7 @@ PowerPoint API برای دستکاری ارائه های پاورپوینت در
 پاورپوینت API برای تولید و دستکاری ارائه ها با اسکریپت های PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/fa/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fa/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fa/nodejs-java/" >}}
 PowerPoint API برای تولید و دستکاری ارائه ها در برنامه های Node.js.
 {{< /blocks/products/pf/product >}}
 

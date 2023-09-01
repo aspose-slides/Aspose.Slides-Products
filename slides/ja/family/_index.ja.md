@@ -35,7 +35,7 @@ Android モバイル アプリケーションで PowerPoint プレゼンテー�
 PHP スクリプトを使用してプレゼンテーションを生成および操作するための PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/ja/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ja/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ja/nodejs-java/" >}}
 Node.js アプリケーション内でプレゼンテーションを生成および操作するための PowerPoint API。
 {{< /blocks/products/pf/product >}}
 

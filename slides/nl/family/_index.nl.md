@@ -35,7 +35,7 @@ PowerPoint API voor het manipuleren van PowerPoint-presentaties in mobiele Andro
 PowerPoint API voor het genereren en manipuleren van presentaties met PHP-scripts.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/nl/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/nl/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/nl/nodejs-java/" >}}
 PowerPoint API voor het genereren en manipuleren van presentaties binnen Node.js-applicaties.
 {{< /blocks/products/pf/product >}}
 

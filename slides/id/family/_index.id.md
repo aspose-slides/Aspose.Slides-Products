@@ -35,7 +35,7 @@ PowerPoint API untuk memanipulasi Presentasi PowerPoint di aplikasi seluler Andr
 PowerPoint API untuk menghasilkan dan memanipulasi presentasi dengan skrip PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/id/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/id/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/id/nodejs-java/" >}}
 PowerPoint API untuk menghasilkan dan memanipulasi presentasi dalam aplikasi Node.js.
 {{< /blocks/products/pf/product >}}
 

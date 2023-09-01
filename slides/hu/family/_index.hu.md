@@ -35,7 +35,7 @@ PowerPoint API a PowerPoint-bemutatók manipulálásához Android mobilalkalmaz�
 PowerPoint API prezentációk generálásához és manipulálásához PHP szkriptekkel.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/hu/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hu/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hu/nodejs-java/" >}}
 PowerPoint API prezentációk létrehozásához és manipulálásához a Node.js alkalmazásokon belül.
 {{< /blocks/products/pf/product >}}
 

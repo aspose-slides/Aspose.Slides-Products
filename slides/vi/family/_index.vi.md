@@ -35,7 +35,7 @@ API PowerPoint để thao tác Bản trình bày PowerPoint trong ứng dụng d
 API PowerPoint để tạo và thao tác các bản trình bày bằng các tập lệnh PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/vi/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/vi/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/vi/nodejs-java/" >}}
 API PowerPoint để tạo và thao tác các bản trình bày trong ứng dụng Node.js.
 {{< /blocks/products/pf/product >}}
 

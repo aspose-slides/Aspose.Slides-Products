@@ -35,7 +35,7 @@ PowerPoint API لمعالجة عروض PowerPoint التقديمية في تطب
 PowerPoint API لإنشاء العروض التقديمية ومعالجتها باستخدام نصوص PHP النصية.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/ar/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ar/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ar/nodejs-java/" >}}
 واجهة برمجة تطبيقات PowerPoint لإنشاء العروض التقديمية ومعالجتها داخل تطبيقات Node.js.
 {{< /blocks/products/pf/product >}}
 

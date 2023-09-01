@@ -35,7 +35,7 @@ description: 适用于 .NET、Java、C++、Python、PHP、Node.js 的 PowerPoint
 用于使用 PHP 脚本生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/zh/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh/nodejs-java/" >}}
 用于在 Node.js 应用程序中生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 

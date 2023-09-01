@@ -35,7 +35,7 @@ API PowerPoint для управления презентациями PowerPoint
 API PowerPoint для создания презентаций и управления ими с помощью сценариев PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/ru/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ru/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ru/nodejs-java/" >}}
 API PowerPoint для создания презентаций и управления ими в приложениях Node.js.
 {{< /blocks/products/pf/product >}}
 

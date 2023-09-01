@@ -35,7 +35,7 @@ PowerPoint API विंडोज़ फॉर्म, ASP.NET, WPF, WCF या .
 PHP स्क्रिप्ट के साथ प्रेजेंटेशन बनाने और हेरफेर करने के लिए पावरपॉइंट एपीआई।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/hi/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/" >}}
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/" >}}
 Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ तैयार करने और उनमें हेरफेर करने के लिए PowerPoint API।
 {{< /blocks/products/pf/product >}}
 
