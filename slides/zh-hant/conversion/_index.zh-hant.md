@@ -32,6 +32,10 @@ description: 轉換 PPT、PPTX、PDF、HTML、POTX、POTM 和 ODP 文件格式�
 如何在 PHP 中轉換演示文稿。
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh-hant/nodejs-java/conversion/" >}}
+如何在 Node.js 中轉換演示文稿。
+{{< /blocks/products/pf/product >}}
+
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< /blocks/products/pf/main-container >}}

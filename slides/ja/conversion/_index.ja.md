@@ -32,6 +32,10 @@ C++ でプレゼンテーションを変換する方法。
 PHP でプレゼンテーションを変換する方法。
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ja/nodejs-java/conversion/" >}}
+Node.js でプレゼンテーションを変換する方法。
+{{< /blocks/products/pf/product >}}
+
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< /blocks/products/pf/main-container >}}
