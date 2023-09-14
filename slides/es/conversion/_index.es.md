@@ -32,6 +32,10 @@ Cómo convertir una presentación en C++.
 Cómo convertir una presentación en PHP.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/es/nodejs-java/conversion/" >}}
+Cómo convertir una presentación en Node.js.
+{{< /blocks/products/pf/product >}}
+
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< /blocks/products/pf/main-container >}}

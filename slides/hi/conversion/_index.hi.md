@@ -32,6 +32,10 @@ description: पीपीटी, पीपीटीएक्स, पीडीए
 PHP में प्रेजेंटेशन को कैसे कन्वर्ट करें।
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/conversion/" >}}
+Node.js में प्रेजेंटेशन को कैसे कन्वर्ट करें।
+{{< /blocks/products/pf/product >}}
+
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< /blocks/products/pf/main-container >}}

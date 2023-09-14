@@ -32,6 +32,10 @@ Jak przekonwertować prezentację w C++.
 Jak przekonwertować prezentację w PHP.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/conversion/" >}}
+Jak przekonwertować prezentację w Node.js.
+{{< /blocks/products/pf/product >}}
+
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< /blocks/products/pf/main-container >}}
