@@ -24,23 +24,7 @@ Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), yo
 
 {{% blocks/products/pf/agp/code-block title="Java code for viewing PPT" offSpacer="true" %}}
 ```java
-string output = System.IO.Path.GetTempPath() + Guid.NewGuid().ToString() + ".html";
 
-// Instantiates a Presentation object & loads the PPT file
-using (var presentation = new Aspose.Slides.Presentation("sample.ppt"))
-{
-    // Creates HTML export controller
-    var controller = new Aspose.Slides.Export.ResponsiveHtmlController();
-    // Creates an instance of HtmlOptions and sets the HtmlFormatter property
-    var htmlOptions = new Aspose.Slides.Export.HtmlOptions 
-    { 
-        HtmlFormatter = Aspose.Slides.Export.HtmlFormatter.CreateCustomFormatter(controller) 
-    };
-
-    // Saves the presentation in HTML
-    presentation.Save(output, Aspose.Slides.Export.SaveFormat.Html, htmlOptions);
-}
-System.Diagnostics.Process.Start(output);
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -77,6 +61,10 @@ Create an instance of HtmlOptions and set the HtmlFormatter property.
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Save the PPT presentation as HTML.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+Call Process.Start with path to resulting HTML to load PPT content.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
