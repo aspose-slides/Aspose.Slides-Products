@@ -1,29 +1,29 @@
 ---
-title:  View POTX in Java
-url: /java/viewer/potx/
-keywords: View POTX, View PowerPoint, Open POTX, POTX Viewer, POTX, PowerPoint, Java API, Java Library
-description: View POTX in Java. Use Java library API to open and view PowerPoint presentation
+title:  View POTX in C++
+url: /cpp/viewer/potx/
+keywords: View POTX, View PowerPoint, Open POTX, POTX Viewer, POTX, PowerPoint, C++ API, C++ Library, CPP
+description: View POTX in C++. Use C++ library API to open and view PowerPoint presentation
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="View POTX in Java" h2="Powerful cross-platform Java API for opening and viewing POTX using Java code" >}}
+{{< blocks/products/pf/feature-page-header h1="View POTX in C++" h2="Powerful cross-platform C++ API for opening and viewing POTX using C++ code" >}}
 
 {{% blocks/products/pf/feature-page-section h2="View POTX using Aspose.Slides" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library used to open and view, manipulate or edit presentations, import presentations from images or documents, and convert presentations to files in other formats.
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a powerful C++ library used to open and view, manipulate or edit presentations, import presentations from images or documents, and convert presentations to files in other formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="View POTX in Java" %}}
-Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), you can load and view a presentation with a few lines of code.
+{{% blocks/products/pf/feature-page-section  h2="View POTX in C++" %}}
+Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can load and view a presentation with a few lines of code.
 
-{{% blocks/products/pf/agp/code-block title="Java code for viewing POTX" offSpacer="true" %}}
-```java
+{{% blocks/products/pf/agp/code-block title="C++ code for viewing POTX" offSpacer="true" %}}
+```cpp
 
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -33,14 +33,14 @@ Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), yo
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to view POTX in Java" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to view POTX in C++" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
+Install **Aspose.Slides for C++**. See [**Installation**](https://docs.aspose.com/slides/cpp/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -80,16 +80,16 @@ Call Process.Start with path to resulting HTML to load POTX content.
 {{< blocks/products/pf/agp/other-supported-section title="View other files" subTitle="You can also open and view presentations in other formats" >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/ppt/" name="View PPT Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pptx/" name="View PPTX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/odp/" name="View ODP Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/otp/" name="View OTP Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pot/" name="View POT Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/potm/" name="View POTM Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pps/" name="View PPS Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/ppsm/" name="View PPSM Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/ppsx/" name="View PPSX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pptm/" name="View PPTM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/ppt/" name="View PPT Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/pptx/" name="View PPTX Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/odp/" name="View ODP Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/otp/" name="View OTP Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/pot/" name="View POT Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/potm/" name="View POTM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/pps/" name="View PPS Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/ppsm/" name="View PPSM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/ppsx/" name="View PPSX Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/viewer/pptm/" name="View PPTM Presentation" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
