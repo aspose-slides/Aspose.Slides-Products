@@ -6,7 +6,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Java PowerPoint API by Aspose.Slides" h2="Create, modify, merge, clone, protect, convert and manipulate PowerPoint PPT, PPTX in Java as well as other presentation formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-java.svg" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
+{{< blocks/products/pf/upper-banner h1="Aspose.Slides: The Ultimate Java Library for PowerPoint Manipulation" h2="Create, Edit, and Convert PowerPoint Presentations in Java with Aspose.Slides" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-java.svg" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/slides/java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Java" >}}
 
@@ -18,7 +18,7 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
 </p>
 
 <p>
- Aspose.Slides for Java API supports exporting presentations to PDF, PDF/A, HTML, XPS and image formats. The Java PowerPoint API includes many extended Java PPT features as: merge, clone, split, compare, print PPT(X) presentations in Java. Aspose.Slides for Java API works without any additional dependencies needed.
+ Aspose.Slides for Java API supports exporting presentations to PDF, PDF/A, HTML, MarkDown, SVG, TIFF, PNG, JPEG and image formats. The Java PowerPoint API includes many extended Java PPT features as: merge, clone, split, compare, print PPT(X) presentations in Java. Aspose.Slides for Java API works without any additional dependencies needed.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -181,18 +181,9 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
     Input/Output
    </header>
    <ul>
-    <li>
-     <b>
-      Microsoft PowerPoint:
-     </b>
-     PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
-    </li>
-    <li>
-     <b>
-      OpenOffice:
-     </b>
-     ODP
-    </li>
+    <li><b>Microsoft PowerPoint:</b>PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM</li>
+    <li><b>OpenOffice:</b>ODP</li>
+    <li><b>Fixed Layout:</b>PDF, PDF/A</li>
    </ul>
   </div>
   <!--/left-->
@@ -203,27 +194,10 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
     Output Only
    </header>
    <ul>
-    <li>
-     <b>
-      Fixed Layout:
-     </b>
-     PDF, PDF/A, XPS
-    </li>
-    <li>
-     <b>
-      Images:
-     </b>
-     JPEG, PNG, BMP, TIFF, GIF
-    </li>
-    <li>
-     SVG
-    </li>
-    <li>
-     <b>
-      Web:
-     </b>
-     HTML
-    </li>
+    <li><b>Fixed Layout:</b>XPS</li>
+    <li><b>Images:</b>JPEG, PNG, BMP, TIFF, GIF</li>
+    <li>SVG</li>
+    <li><b>Web:</b>HTML, MD</li>
    </ul>
   </div>
   <!--/right-->
@@ -257,9 +231,6 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
  </a>
  <div class="row">
   <div class="container">
-   <!--<h2 class="h2title">Advanced Java PowerPoint Documents Processing API Features</h2>
-
-<p>Aspose.Slides for Java incorporates a number of advanced features that give developers complete control when programming with Microsoft PowerPoint presentations in a Java environment.</p>-->
    <h2 class="pr-ft">
     Advanced Features of Java PowerPoint API
    </h2>
@@ -268,120 +239,135 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Create or clone existing slides from templates
-    </p>
+    <p class="col-lg-10">Create or clone existing slides from templates</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-save ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Save &amp; open files to &amp; from streams
-    </p>
+    <p class="col-lg-10">Save and open files to &amp; from streams</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Generate presentations from database
-    </p>
+    <p class="col-lg-10">Generate presentations from database</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-image ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Create shapes and add text to shapes on slides
-    </p>
+    <p class="col-lg-10">Add elements to slides such as shapes and images</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-table ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Work with PowerPoint tables
-    </p>
+    <p class="col-lg-10">Work with PowerPoint tables</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Handle text &amp; shape formatting
-    </p>
+    <p class="col-lg-10">Insert, change, and remove text</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Remove or apply the protection on shapes
-    </p>
+    <p class="col-lg-10">Remove or apply the protection on shapes</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Embed Excel charts as OLE objects in slides
-    </p>
+    <p class="col-lg-10">Add charts</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-flash ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">
-     Work with ActiveX components
-    </p>
+    <p class="col-lg-10">Work with ActiveX &amp; OLE components</p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert Presentation to Multiple Formats in Java
+     Create new Presentation and set Image as Background for Slide in Java
     </h2>
     <p>
-     Aspose.Slides for Java API renders presentations to a wide number of standard formats similar to the original one using its rendering engine. The rendering engine is specially designed for rendering with the highest of fidelity to the PowerPoint. Converting presentations to any supported format is simple by just loading, setting the output format and calling the Save method. With Java PowerPoint API, define the settings of Java PPT conversion to change the output document on a fly.
+     You may want to set an image background for your PowerPoint presentation for various reasons, such as:
+    <ul>
+        <li>To make your slides more visually appealing and attractive. An image background can add color, texture, and style to your presentation, making it more engaging and memorable for your audience.</li>
+        <li>To convey a message or emotion with your slides. An image background can help you communicate your main point or evoke a certain feeling with your slides, such as excitement, curiosity, or inspiration.</li>
+        <li>To highlight or contrast your text and other elements on your slides. An image background can help you draw attention to the most important information or objects on your slides, such as titles, headings, bullet points, charts, graphs, etc.</li>
+    </ul>
+    Please use following code to add background to your presentation:
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Render presentations - Java
+      Add background to Presentation using Java
      </h3>
-     <pre><code class="java">// load the file to be rendered
-
-Presentation prest = new Presentation(dir + "template.pptx");
-
-// Convert PPTX to PDF, XPS and TIFF
-
-prest.save(dir + "output.pdf", SaveFormat.Pdf);
-
-prest.save(dir + "output.xps", SaveFormat.Xps);
-
-prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
+     <pre><code class="java">Presentation pres = new Presentation();
+try {
+    // Sets conditions for background image
+    pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+    pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Picture);
+    pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat()
+            .setPictureFillMode(PictureFillMode.Stretch);
+    
+    // Loads the image
+    IPPImage imgx = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.jpg")));
+    
+    // Adds image to presentation's images collection
+    pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
+    
+    // Writes the presentation to disk
+    pres.save("ContentBG_Img.pptx", SaveFormat.Pptx);
+} catch (IOException e) {
+} finally {
+    if (pres != null) pres.dispose();
+}</code></pre>
+    </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Convert Presentation to PDF in Java
+    </h2>
+    <p>
+     One of the challenges of creating and sharing PowerPoint presentations is that they can be large, complex, and difficult to view on different devices. That’s why many people choose to convert their PowerPoint presentations to PDF files, which offer several benefits. Here are some of the benefits of converting PowerPoint presentations to PDF files:
+    <ul>
+        <li>PDF files are compatible with any device and software that can open and view a PDF file. You don’t need to worry about the formatting or layout of your presentation being distorted or lost when you share it with others.</li>
+        <li>PDF files reduce the file size and make it easier to share and archive. You can compress your presentation and reduce its file size by up to one-third when you convert it to a PDF file.</li>
+        <li>PDF files do not require PowerPoint software to access the presentation. You can view and print your presentation without having PowerPoint installed on your device.</li>
+    </ul>
+    As you can see, converting PowerPoint presentations to PDF files has many advantages. If you want to learn how to convert PowerPoint to PDF, you can use following code:
+    </p>
+    <div class="codeblock" id="code">
+     <h3>
+      Converting PPT to PDF using Java
+     </h3>
+     <pre><code class="java">// Instantiates a Presentation class that represents a PowerPoint file
+Presentation pres = new Presentation("PowerPoint.ppt");
+try {
+    // Saves the presentation as a PDF
+    pres.save("PPT-to-PDF.pdf", SaveFormat.Pdf);
+} finally {
+    if (pres != null) pres.dispose();
+}</code></pre>
+    </div>
+    <div class="col-lg-12">
+    <h2 class="h2title">
+     Import Presentation from PDF
+    </h2>
+    <p>
+     Converting PDF to PPT using Aspose.Slides for Java is a simple and effective way to create and edit PowerPoint presentations from PDF files. It's needs when you want to edit and customize your PDF more easily and creatively.
+    </p>
+    <div class="codeblock" id="code">
+     <h3>
+      Import Presentation From PDF in Java
+     </h3>
+     <pre><code class="java">Presentation pres = new Presentation();
+try {
+    pres.getSlides().addFromPdf("InputPDF.pdf");
+    pres.save("OutputPresentation.pptx", SaveFormat.Pptx);
+} finally {
+    if (pres != null) pres.dispose();
+}</code></pre>
     </div>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Change Presentation Elements in Java
-    </h2>
-    <p>
-     Aspose.Slides for Java API is capable of handling all slide elements including table, text box, rectangle, polyline, ellipse, auto-shape, picture frame, video frame, audio frame &amp; OLE object frame. The Java PowerPoint API also provides a well-designed set of Java PPT classes that enables you to comprehensively manipulate each of these elements.
-    </p>
-   </div>
-   <!--
-
-<div class="col-lg-12">
-
-<h2 class="h2title">Slides Content Formatting</h2>
-
-<p>It is possible to format text and shapes on slides in a presentation using Aspose.Slides for Java API. Text is managed through text frames associated with shapes. Hence text is formatted using paragraphs and portions associated with the text frames. You can also manipulate attributes of shape element like position, size, line, image, text and fill.</p>
-
-</div>
-
--->
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Manipulate PowerPoint SmartArt in Java
-    </h2>
-    <p>
-     Aspose.Slides for Java API can easily create or access, manipulate and remove existing SmartArt shapes from a slide. The Java PowerPoint API facilitates to dynamically explore the SmartArt's properties or to manage SmartArt nodes as well as manipulate layout, style &amp; color of SmartArt shapes.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Create Slides Thumbnails in Java
+     Convert PowerPoint to JPG in Java
     </h2>
     <p>
      There are a lot of possibilities to use slide thumbnails such as: create an online presentation viewer at a custom website, share slide thumbnail with customers as a presentation template and many others. Aspose.Slides for Java API allows creating slide thumbnails with just a few lines of code.
@@ -390,21 +376,19 @@ prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
      <h3>
       Create slide's thumbnail - Java
      </h3>
-     <pre><code class="java">// load the file
+     <pre><code class="java">Presentation pres = new Presentation("PowerPoint-Presentation.pptx");
+try {
+    for (ISlide sld : pres.getSlides()) {
+        // Creates a full scale image
+        BufferedImage bmp = sld.getThumbnail(2f, 2f);
 
-Presentation prest = new Presentation(dir + "template.pptx");
-
-// access the first slide from the collection
-
-ISlide sld = prest.getSlides().get_Item(0);
-
-// create a full scale image of the slide
-
-BufferedImage image = sld.getThumbnail(1f, 1f);
-
-// save the image in JPEG format
-
-ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
+        // Saves the image to disk in JPEG format
+        ImageIO.write(bmp, "JPEG", new java.io.File(String.format("Slide_%d.jpg", sld.getSlideNumber())));
+    }
+} catch (IOException e) {
+} finally {
+    if (pres != null) pres.dispose();
+}</code></pre>
     </div>
    </div>
    <div class="col-lg-12">
