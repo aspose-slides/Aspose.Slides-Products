@@ -285,15 +285,13 @@ description: Aspose.Slides for Java is an Aspose Java PowerPoint API for Java PP
     <h2 class="h2title">
      Create new Presentation and set Image as Background for Slide in Java
     </h2>
-    <p>
-     You may want to set an image background for your PowerPoint presentation for various reasons, such as:
+    <p>You may want to set an image background for your PowerPoint presentation for various reasons, such as:</p>
     <ul>
         <li>To make your slides more visually appealing and attractive. An image background can add color, texture, and style to your presentation, making it more engaging and memorable for your audience.</li>
         <li>To convey a message or emotion with your slides. An image background can help you communicate your main point or evoke a certain feeling with your slides, such as excitement, curiosity, or inspiration.</li>
         <li>To highlight or contrast your text and other elements on your slides. An image background can help you draw attention to the most important information or objects on your slides, such as titles, headings, bullet points, charts, graphs, etc.</li>
     </ul>
-    Please use following code to add background to your presentation:
-    </p>
+    <p>Please use following code to add background to your presentation:</p>
     <div class="codeblock" id="code">
      <h3>
       Add background to Presentation using Java
@@ -323,15 +321,13 @@ try {
     <h2 class="h2title">
      Convert Presentation to PDF in Java
     </h2>
-    <p>
-     One of the challenges of creating and sharing PowerPoint presentations is that they can be large, complex, and difficult to view on different devices. That’s why many people choose to convert their PowerPoint presentations to PDF files, which offer several benefits. Here are some of the benefits of converting PowerPoint presentations to PDF files:
+    <p>One of the challenges of creating and sharing PowerPoint presentations is that they can be large, complex, and difficult to view on different devices. That’s why many people choose to convert their PowerPoint presentations to PDF files, which offer several benefits. Here are some of the benefits of converting PowerPoint presentations to PDF files:</p>
     <ul>
         <li>PDF files are compatible with any device and software that can open and view a PDF file. You don’t need to worry about the formatting or layout of your presentation being distorted or lost when you share it with others.</li>
         <li>PDF files reduce the file size and make it easier to share and archive. You can compress your presentation and reduce its file size by up to one-third when you convert it to a PDF file.</li>
         <li>PDF files do not require PowerPoint software to access the presentation. You can view and print your presentation without having PowerPoint installed on your device.</li>
     </ul>
-    As you can see, converting PowerPoint presentations to PDF files has many advantages. If you want to learn how to convert PowerPoint to PDF, you can use following code:
-    </p>
+    <p>As you can see, converting PowerPoint presentations to PDF files has many advantages. If you want to learn how to convert PowerPoint to PDF, you can use following code:</p>
     <div class="codeblock" id="code">
      <h3>
       Converting PPT to PDF using Java
