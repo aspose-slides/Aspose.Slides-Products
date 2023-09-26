@@ -14,7 +14,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.Slides for Reporting Services is the only solution on the market that makes it possible to generate presentations in PowerPoint's native formats from within the Microsoft SQL Server Reporting Services.
+ Aspose.Slides for Reporting Services is the only solution on the market that makes it possible to generate presentations in PowerPoint's native formats from within the Microsoft SQL Server Reporting Services And Power BI Report Server.
 </p>
 
 <p>
@@ -112,21 +112,12 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     SQL Server Reporting Services
    </header>
    <ul>
-    <li>
-     2005
-    </li>
-    <li>
-     2008
-    </li>
-    <li>
-     2012
-    </li>
-    <li>
-     2016
-    </li>
-    <li>
-     2017
-    </li>
+    <li>2005</li>
+    <li>2008</li>
+    <li>2012</li>
+    <li>2016</li>
+    <li>2017</li>
+    <li>2019</li>
    </ul>
   </div>
   <!--/right-->
@@ -177,21 +168,12 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     Output Only
    </header>
    <ul>
-    <li>
-     PPT
-    </li>
-    <li>
-     PPTX
-    </li>
-    <li>
-     PPS
-    </li>
-    <li>
-     PPSX
-    </li>
-    <li>
-     XPS
-    </li>
+    <li>PPT</li>
+    <li>PPTX</li>
+    <li>ODP</li>
+    <li>PPS</li>
+    <li>PPSX</li>
+    <li>XPS</li>
    </ul>
   </div>
   <!--/right-->
@@ -235,6 +217,13 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     </em>
     <p class="col-lg-10">
      Create comparison charts in RDL reports &amp; export as presentations
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Power BI Report Server Support
     </p>
    </div>
    <div class="col-lg-4">
@@ -378,25 +367,25 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     </p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Export to Presentation &amp; Slideshow Formats
-    </h2>
+    <h2 class="h2title">Export to Presentation &amp; Slideshow Formats</h2>
     <p>
      SQL Server Reporting Services (SSRS) does not provide built-in support for exporting RDL reports to PowerPoint Presentations or slideshows. While using Aspose.Slides for Reporting Services, you can add support for additional export formats with ease.
     </p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Comprehensive RDL Support
-    </h2>
+    <h2 class="h2title">Comprehensive RDL Support</h2>
     <p>
      Aspose.Slides for Reporting Services supports full RDL specification and one can customize existing reports using this extension. Selecting any RDL report designer of choice and then exporting the reports exactly the same way one designed it is quite easy.
     </p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft PowerPoint Automation - Not Needed
-    </h2>
+    <h2 class="h2title">Power BI Report Server Support</h2>
+    <p>
+     Aspose.Slides for Reporting Services supports export from Power BI reports to presentations. This is a great feature that can help you create and share stunning reports in PowerPoint formats. You can export reports from Power BI Report Server to PPT, PPTX, ODP, PPS, and PPSX formats with high fidelity to the report design. You can also embed audio and video files to PowerPoint presentations. You can use the latest features of PowerPoint, such as MSO 2016 charts, comments replies, and Office 365.
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">Microsoft PowerPoint Automation - Not Needed</h2>
     <p>
      Aspose.Slides for Reporting Services is built using managed code that never needs Microsoft PowerPoint to be installed on the machine to work with PowerPoint presentations. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.
     </p>
