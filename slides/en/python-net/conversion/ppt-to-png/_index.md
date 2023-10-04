@@ -93,13 +93,7 @@ Use the free app to see a demonstration of the PPT to PNG conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension="ppt-to-png"
-        sectionTitle="Free App to Convert PPT to PNG" 
-        sectionDescription="[Try our free app to convert PPT to PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPT to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap Image" >}}  

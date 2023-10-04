@@ -94,13 +94,7 @@ Use the free app to see a demonstration of the PPT to SVG conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension="ppt-to-svg"
-        sectionTitle="Free App to Convert PPT to SVG" 
-        sectionDescription="[Try our free Collage app](https://products.aspose.app/slides/collage/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPT to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap Image" >}}  

@@ -92,13 +92,7 @@ Use the free app to see a demonstration of the ODP to PDF conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension="odp-to-pdf"
-        sectionTitle="Free App to Convert ODP to PDF" 
-        sectionDescription="[Try our free app to convert PPT to PDF](https://products.aspose.app/slides/conversion/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" >}} 

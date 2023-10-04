@@ -93,13 +93,7 @@ Use the free app to see a demonstration of the POTM to BMP conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert POTM to BMP" 
-        sectionDescription="[Try our free app to convert PPT to BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTM to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-emf/" name="POTM TO EMF" description="Enhanced Metafile Format" >}}  

@@ -94,13 +94,7 @@ Use the free app to see a demonstration of the PDF to PPSM conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert PDF to PPSM" 
-        sectionDescription="[Try our free app to convert PDF to PPSM](https://products.aspose.app/slides/import/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}  
