@@ -1,12 +1,12 @@
 ---
-title: Aspose.Slides API for PowerPoint 
+title: "Create, Edit and Convert PowerPoint Presentations with Aspose.Slides" 
 weight: 7160
 url: /
-description: Aspose.Slides is a PowerPoint API to manipulate presentations and cloud provides slides cloud API.
+description: "Aspose.Slides is a powerful API for creating, editing and converting PowerPoint presentations in .NET, Java, C++, Python and other platforms. Try it for free today!"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Aspose.Slides On-Premises, Cloud & App Based PowerPoint Formats Solution" h2="Manipulate presentations, slides and elements in .NET, Java, Python, Android, Xamarin and Cloud applications without requiring Microsoft Office." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
+{{< blocks/products/pf/upper-banner h1="Create, Edit and Convert PowerPoint Presentations with Aspose.Slides" h2="Aspose.Slides is a API that enables you to work with PowerPoint presentations programmatically. You can create, edit and convert presentations in various formats, such as PPT, PPTX, PPS, ODP, PDF, HTML, SVG, TIFF, XPS, and more. You can also manipulate the content and appearance of slides, shapes, text, images, animations, transitions, charts, tables, and other elements." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
