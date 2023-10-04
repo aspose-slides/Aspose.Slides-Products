@@ -93,13 +93,7 @@ Use the free app to see a demonstration of the POT to EMF conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert POT to EMF" 
-        sectionDescription="[Try our free Collage app](https://products.aspose.app/slides/collage/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap Image" >}}  

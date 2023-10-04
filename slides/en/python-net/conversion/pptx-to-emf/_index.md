@@ -93,13 +93,7 @@ Use the free app to see a demonstration of the PPTX to EMF conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert PPTX to EMF" 
-        sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Image" >}}  

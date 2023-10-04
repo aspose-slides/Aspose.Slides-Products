@@ -92,13 +92,7 @@ Use the free app to see a demonstration of the PPTX to PPS conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert PPTX to PPS" 
-        sectionDescription="[Try our free Editor app](https://products.aspose.app/slides/editor/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Image" >}}  

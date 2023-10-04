@@ -93,13 +93,7 @@ Use the free app to see a demonstration of the POTM to JPG conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert POTM to JPG" 
-        sectionDescription="[Try our free app to convert PPT to JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTM to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmap Image" >}}  

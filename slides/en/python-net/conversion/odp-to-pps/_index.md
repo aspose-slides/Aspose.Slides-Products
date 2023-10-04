@@ -92,13 +92,7 @@ Use the free app to see a demonstration of the ODP to PPS conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension=""
-        sectionTitle="Free App to Convert ODP to PPS" 
-        sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="Bitmap Image" >}}  

@@ -89,7 +89,6 @@ pres1.save("presentation.ppsx", slides.export.SaveFormat.PPSX)
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Export PDF To Other Supported Formats" subTitle="You can also combine PDF and save to other file formats. See all supported formats below" >}}
 

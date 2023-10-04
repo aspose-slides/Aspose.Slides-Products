@@ -92,13 +92,7 @@ Use the free app to see a demonstration of the ODP to XPS conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension="odp-to-xps"
-        sectionTitle="Free App to Convert ODP to XPS" 
-        sectionDescription="[Try our free Video app](https://products.aspose.app/slides/video/)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="Bitmap Image" >}}  

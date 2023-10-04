@@ -88,7 +88,6 @@ for slide in pres1.slides:
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Export POT To Other Supported Formats" subTitle="You can also combine POT and save to other file formats. See all supported formats below" >}}
 

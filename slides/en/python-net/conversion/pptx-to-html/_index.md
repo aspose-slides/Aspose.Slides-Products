@@ -92,13 +92,7 @@ Use the free app to see a demonstration of the PPTX to HTML conversion process.
 
 <!-- aboutfile Ends -->
 
-    {{< blocks/slides-app-widget 
-        appName="conversion"
-        extension="pptx-to-html"
-        sectionTitle="Free App to Convert PPTX to HTML" 
-        sectionDescription="[Try our free app to convert PPT to HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
-    >}}
-    
+        
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX to many other file formats. See other supported conversions below" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Image" >}}  
