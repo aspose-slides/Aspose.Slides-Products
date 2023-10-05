@@ -70,7 +70,14 @@ PM> Install-Package Aspose.Slides.Cpp
 // Load the PPT.
 SharedPtr<Presentation> prs = MakeObject<Presentation>(u"sourceFile.ppt");
 // Save in XML format.
-prs->Save(u"convertedFile.xml", Aspose::Slides::Export::SaveFormat::Xml);
+for (int32_t index = 0; index < prs->get_Slides()->get_Count(); index++)
+{
+    auto fileName = String::Format(u"slide-{0}.xml", index);
+    auto fileStream = System::MakeObject<FileStream>(fileName, FileMode::Create, FileAccess::Write);
+
+    auto slide = prs->get_Slides()->idx_get(index);
+    slide->WriteAsSvg(fileStream);
+}
 
 ```
 
