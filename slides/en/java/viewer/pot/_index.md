@@ -24,7 +24,18 @@ Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), yo
 
 {{% blocks/products/pf/agp/code-block title="Java code for viewing POT" offSpacer="true" %}}
 ```java
+// Instantiate a Presentation object that represents a presentation file
+Presentation pres = new Presentation("presentation.pot");
+try {
+    ResponsiveHtmlController controller = new ResponsiveHtmlController();
+    HtmlOptions htmlOptions = new HtmlOptions();
+    htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(controller));
 
+    // Saving the presentation to HTML
+    pres.save("index.html", SaveFormat.Html, htmlOptions);
+} finally {
+    if (pres != null) pres.dispose();
+}
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

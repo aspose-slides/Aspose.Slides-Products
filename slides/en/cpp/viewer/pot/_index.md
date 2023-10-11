@@ -24,7 +24,15 @@ Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you 
 
 {{% blocks/products/pf/agp/code-block title="C++ code for viewing POT" offSpacer="true" %}}
 ```cpp
+// Instantiate a Presentation object that represents a presentation file
+auto presentation = System::MakeObject<Presentation>(u"presentation.pot");
 
+auto controller = System::MakeObject<ResponsiveHtmlController>();
+auto htmlOptions = System::MakeObject<HtmlOptions>();
+htmlOptions->set_HtmlFormatter(HtmlFormatter::CreateCustomFormatter(controller));
+
+// Saving the presentation to HTML
+presentation->Save(u"index.html", SaveFormat::Html, htmlOptions);
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

@@ -24,7 +24,16 @@ Using [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides
 
 {{% blocks/products/pf/agp/code-block title="Python code for viewing POTX" offSpacer="true" %}}
 ```python
+import aspose.slides as slides
 
+pres = slides.Presentation("presentation.potx")
+
+controller = slides.export.ResponsiveHtmlController()
+htmlOptions = slides.export.HtmlOptions()
+htmlOptions.html_formatter = slides.export.HtmlFormatter.create_custom_formatter(controller)
+
+# Saving the presentation to HTML
+pres.save("index.html", slides.export.SaveFormat.HTML, htmlOptions)
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
