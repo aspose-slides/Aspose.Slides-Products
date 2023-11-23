@@ -17,7 +17,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
 
 <p>Aspose.Slides for .NET supports all of the popular presentation formats. Use C# to merge, split, clone and reuse multiple PowerPoint presentations, templates and slides in numerous ways. Moreover, API offers a number of advanced features such as printing on physical printers and rendering presentations to fixed-layout formats, HTML &amp; images.</p>
 
-<p>Aspose.Slides for .NET is a standalone API and does not require Microsoft PowerPoint or any other additional software or library.</p>
+<p>Aspose.Slides for .NET is a standalone API and does not require Microsoft PowerPoint or any other additional software or library. Read more about <a href="https://products.aspose.com/slides/net/benefits/">benefits</a> of Aspose.Slides for .NET</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
