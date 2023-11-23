@@ -21,7 +21,7 @@ One of the advantages of Aspose.Slides for .NET is that it can export presentati
 
 The other products, however, does not support exporting presentations to video with animation support. It can only export presentations to video without animation, which means that the output will be static and boring. This means that if you want to create a video from your presentation that contains animation, you will not be able to do it with the `other product`. You will have to use another tool or record the screen, which can be inconvenient and low-quality.
 
-Here is an example of how Aspose.Slides for .NET can [export a presentation to video](https://docs.aspose.com/slides/net/convert-powerpoint-to-video/) with animation support. 
+Here is an example of how Aspose.Slides for .NET can <a href="https://docs.aspose.com/slides/net/convert-powerpoint-to-video/">export a presentation to video</a> with animation support. 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -33,8 +33,10 @@ Many other products are unable to handle 2D and 3D effects for shapes, which Asp
 
 Here is an example of how Aspose.Slides for .NET preserves the 2D and 3D effects for text, while the `other product` does not. The original presentation contains a text with a shadow effect. The output of Aspose.Slides for .NET is identical to the original, while the output of the `other product` is missing the effects.
 
+### Output of Aspose.Slides for .NET:
 ![Output of Aspose.Slides for .NET with the same effects](effect.shadow.aspose.png)
 
+### Output of the other product:
 ![Output of the other product without the effects](effect.shadow.other.png)
 
 {{% /blocks/products/pf/feature-page-section %}}
@@ -46,8 +48,6 @@ The next advantage of Aspose.Slides for .NET is that it can export presentations
 Unlike Aspose.Slides for .NET, the most of other products cannot export presentations to PDF with various PDF compliance settings. It can only export presentations to PDF with the default settings, which may not be suitable for your specific needs. This means that if you need to create a PDF file that complies with a certain standard or requirement, you will not be able to do it with the `other product`. You will have to use another tool or manually adjust the settings, which can be complicated and risky.
 
 You can use the Compliance property of the PdfOptions class to specify the desired conformance level for the generated PDF document. The Compliance property is of type PdfCompliance, which is an enumeration that defines the possible values for the PDF standards compliance level. You can find more information about the [PdfCompliance](https://reference.aspose.com/slides/net/aspose.slides.export/pdfcompliance/) enumeration in the Aspose.Slides for .NET API reference.
-
-{{% /blocks/products/pf/feature-page-section %}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -85,8 +85,10 @@ The most of the other products can only render the basic text properties, such a
 
 Here is an example of how Aspose.Slides for .NET can work correctly with WordArt, while the `other product` cannot. The original presentation contains some text with WordArt effects, such as shape, color, outline, shadow, and 3D. The output of Aspose.Slides for .NET is identical to the original, while the output of the `other product` is missing the WordArt effects.
 
+### Output of Aspose.Slides for .NET:
 ![Output of Aspose.Slides for .NET with the same WordArt effects](wordart.aspose.png)
 
+### Output of the other product:
 ![Output of the other product without the WordArt effects](wordart.other.png)
 
 As you can see, Aspose.Slides for .NET is the only product that can work correctly with WordArt, ensuring that your presentations look as good as they were intended.
