@@ -19,7 +19,7 @@ Aspose.Slides for .NET is a powerful and versatile library that allows you to cr
 
 One of the advantages of Aspose.Slides for .NET is that it can export presentations to video formats, such as MP4 or WEBM, with animation support. This means that you can create dynamic and interactive videos from your presentations, which can be useful for various purposes, such as online learning, marketing, or entertainment. You can also customize the video settings, such as resolution, frame rate, quality, and etc.
 
-The other products, however, does not support exporting presentations to video with animation support. It can only export presentations to video without animation, which means that the output will be static and boring. This means that if you want to create a video from your presentation that contains animation, you will not be able to do it with the `other product`. You will have to use another tool or record the screen, which can be inconvenient and low-quality.
+The other products, however, do not support exporting presentations to video with animation support. It can only export presentations to video without animation, which means that the output will be static and boring. This means that if you want to create a video from your presentation that contains animation, you will not be able to do it with the `other product`. You will have to use another tool or record the screen, which can be inconvenient and low-quality.
 
 Here is an example of how Aspose.Slides for .NET can <a href="https://docs.aspose.com/slides/net/convert-powerpoint-to-video/">export a presentation to video</a> with animation support. 
 
