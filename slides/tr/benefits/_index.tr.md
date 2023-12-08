@@ -22,7 +22,7 @@ Aspose.Slides'ın avantajlarından biri de sunumları animasyon desteğiyle MP4 
 
 Ancak diğer ürünler sunumların animasyon destekli videoya aktarılmasını desteklemez. Sunumları yalnızca animasyon olmadan videoya aktarabilir; bu, çıktının statik ve sıkıcı olacağı anlamına gelir. Bu da sunumunuzdan animasyon içeren bir video oluşturmak isterseniz bunu başka bir ürünle yapamayacağınız anlamına gelir. Başka bir araç kullanmanız veya ekranı kaydetmeniz gerekecek, bu da rahatsız edici ve düşük kaliteli olabilir.
 
-Burada Aspose.Slides for .NET'in <a href="https://docs.aspose.com/slides/net/convert-powerpoint-to-video/">bir sunumu videoya nasıl aktarabileceğine</a ilişkin bir örnek verilmiştir. > animasyon desteği ile. 
+Burada Aspose.Slides for .NET'in <a href="https://docs.aspose.com/slides/net/convert-powerpoint-to-video/">bir sunumu videoya nasıl aktarabileceğine ilişkin bir örnek verilmiştir.</a> animasyon desteği ile. 
 
 {{% /blocks/products/pf/feature-page-section %}}
 
