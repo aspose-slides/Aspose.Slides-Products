@@ -8,7 +8,7 @@ description: Create Animated GIF in C#. Use .NET library API to create animated 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Create Animated GIF in C#" h2="Powerful cross-platform .NET API for creating animated GIF based on presentation slides using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Create Animated GIF in C#" h2="Powerful cross-platform .NET API for creating animated GIF based on images or presentation slides using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Create Animated GIF using Aspose.Slides" %}}
 

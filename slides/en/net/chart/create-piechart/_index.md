@@ -8,7 +8,7 @@ description: Create Pie Chart in C#. Use .NET library API to create Pie Chart
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Create Pie Chart in C#" h2="Powerful cross-platform .NET API for creating a pie chart based on presentation slides using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Create Pie Chart in C#" h2="Powerful cross-platform .NET API for creating a pie chart based on provided data using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Create Pie Chart using Aspose.Slides" %}}
 
@@ -76,8 +76,8 @@ Save the modified presentation containing the pie chart.
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-chart/" name="Create PowerPoint Chart" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-barchart/" name="Create Bar Chart" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-graph/" name="Create Graph >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-histogram/" name="Create Histogram >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-graph/" name="Create Graph" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-histogram/" name="Create Histogram" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-linechart/" name="Create Line Chart" >}}
 
 

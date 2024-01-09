@@ -8,7 +8,7 @@ description: Create PowerPoint Chart in C#. Use .NET library API to create Power
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Create PowerPoint Chart in C#" h2="Powerful cross-platform .NET API for creating a PowerPoint chart based on presentation slides using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Create PowerPoint Chart in C#" h2="Powerful cross-platform .NET API for creating a PowerPoint chart based on provided data using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Create PowerPoint Chart using Aspose.Slides" %}}
 

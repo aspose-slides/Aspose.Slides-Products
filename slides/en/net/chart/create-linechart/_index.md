@@ -8,7 +8,7 @@ description: Create Line Chart in C#. Use .NET library API to create Line Chart
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Create Line Chart in C#" h2="Powerful cross-platform .NET API for creating a line chart based on presentation slides using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Create Line Chart in C#" h2="Powerful cross-platform .NET API for creating a line chart based on provided data using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Create Line Chart using Aspose.Slides" %}}
 

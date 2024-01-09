@@ -8,9 +8,9 @@ description: Create Histogram in C#. Use .NET library API to create Histogram
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Create Histogram in C#" h2="Powerful cross-platform .NET API for creating a histogram based on presentation slides using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Create Histogram in C#" h2="Powerful cross-platform .NET API for creating a histogram based on provided data using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Create Histogram using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Create histogram using Aspose.Slides" %}}
 
 [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to open and view, manipulate or edit presentations, create animations, import presentations from images or documents, create charts, and convert presentations to files in other formats.
 
@@ -52,7 +52,7 @@ Instantiate a Presentation object.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add the worksheet or data for the chart.
+Add the worksheet or data for the histogram.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -73,11 +73,10 @@ Save the modified presentation containing the histogram.
 
 {{< blocks/products/pf/agp/other-supported-section title="Create related content" subTitle="You can create other types of charts" >}}
 
-
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-chart/" name="Create PowerPoint Chart" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-barchart/" name="Create Bar Chart" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-graph/" name="Create Graph >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-piechart/" name="Create Pie Chart >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-graph/" name="Create Graph"  >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-piechart/" name="Create Pie Chart"  >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-linechart/" name="Create Line Chart" >}}
 
 
