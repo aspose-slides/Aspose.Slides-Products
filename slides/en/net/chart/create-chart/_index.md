@@ -75,6 +75,10 @@ Save the modified presentation containing the chart.
 
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-piechart/" name="Create Pie Chart" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-barchart/" name="Create Bar Chart" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-graph/" name="Create Graph" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-histogram/" name="Create Histogram" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/create-linechart/" name="Create Line Chart" >}}
 
 
 
