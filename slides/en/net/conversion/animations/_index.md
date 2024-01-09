@@ -18,7 +18,7 @@ description: Create Animations in C#. Use .NET library API to create animations 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="Create Slideshow in C#" %}}
+{{% blocks/products/pf/feature-page-section  h2="Create Animations in C#" %}}
 Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can animate all sorts of objects on a slide: text boxes, shapes, images, charts, etc.
 
 {{% blocks/products/pf/agp/code-block title="C# code for creating animations" offSpacer="true" %}}
@@ -75,8 +75,7 @@ Save the modified presentation as a GIF.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can also create animations and other content  >}}
-
+{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can also create animations and other content" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/slideshow/" name="Create Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/animated-gif/" name="Create Animated GIF" >}}

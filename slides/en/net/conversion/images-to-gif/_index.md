@@ -18,8 +18,7 @@ description: Create GIF from images in C#. Use .NET library API to create animat
 
 
 
-
-{{% blocks/products/pf/feature-page-section  h2="Create Slideshow in C#" %}}
+{{% blocks/products/pf/feature-page-section  h2="Create GIF from images in C#" %}}
 Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can create place images on slides and then create a GIF from those images. 
 
 {{% blocks/products/pf/agp/code-block title="C# code for creating GIF from images" offSpacer="true" %}}
@@ -80,7 +79,7 @@ Save the modified presentation as a GIF.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can also create animations and other content  >}}
+{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can also create animations and other content"  >}}
 
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/slideshow/" name="Create Slide Show" >}}

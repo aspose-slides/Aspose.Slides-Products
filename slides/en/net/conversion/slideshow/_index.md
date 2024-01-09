@@ -76,7 +76,7 @@ Save the modified presentation.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can also create animations and other content  >}}
+{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can also create animations and other content" >}}
 
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/animations/" name="Create Animations" >}}

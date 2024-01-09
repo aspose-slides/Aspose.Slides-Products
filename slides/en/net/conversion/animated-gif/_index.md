@@ -22,7 +22,7 @@ description: Create Animated GIF in C#. Use .NET library API to create animated 
 {{% blocks/products/pf/feature-page-section  h2="Create Animated GIF in C#" %}}
 Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can create a animated GIF by running some lines of code.
 
-{{% blocks/products/pf/agp/code-block title="C# code for creating slideshow" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C# code for creating animated gif" offSpacer="true" %}}
 ```cs
 xxx
 ```
@@ -75,7 +75,7 @@ Save the modified presentation as a GIF.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Create related slideshow content" subTitle="You can create animations and related content  >}}
+{{< blocks/products/pf/agp/other-supported-section title="Create other content" subTitle="You can create animations and related content" >}}
 
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/slideshow/" name="Create Slide Show" >}}
