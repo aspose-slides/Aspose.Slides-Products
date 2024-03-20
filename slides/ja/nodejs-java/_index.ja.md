@@ -419,7 +419,7 @@ finally
         {{< blocks/products/pf/slr-element name="無料サポート" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="有料サポート" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="ブログ" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="リリースノート" href="https://docs.aspose.com/slides/nodejs-java/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="リリースノート" href="https://releases.aspose.com/slides/nodejs-java/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Java 経由で Node.js に Aspose.Slides を使用する理由" tabId="success-stories" >}}

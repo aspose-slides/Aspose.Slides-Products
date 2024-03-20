@@ -596,7 +596,7 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
 {{< blocks/products/pf/slr-element name="無料サポート" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="有料サポート" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="ブログ" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="リリースノート" href="https://docs.aspose.com/slides/cpp/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="リリースノート" href="https://releases.aspose.com/slides/cpp/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="なぜAspose.SlidesforC ++？" tabId="success-stories" >}}

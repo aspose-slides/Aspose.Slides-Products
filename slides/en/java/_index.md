@@ -415,7 +415,7 @@ try {
 {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/java/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Java?" tabId="success-stories" >}}

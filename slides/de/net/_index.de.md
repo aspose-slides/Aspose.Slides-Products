@@ -460,7 +460,7 @@ Das Produkt funktionierte wie angekündigt, die Dokumentation war leicht verstä
 {{< blocks/products/pf/slr-element name="Kostenlose Unterstützung" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Bezahlte Unterstützung" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Bloggen" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Versionshinweise" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Versionshinweise" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Warum Aspose.Slides für .NET?" tabId="success-stories" >}}

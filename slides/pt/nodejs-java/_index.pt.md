@@ -419,7 +419,7 @@ finally
         {{< blocks/products/pf/slr-element name="Suporte Gratuito" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="Suporte pago" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Blogue" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Notas de versão" href="https://docs.aspose.com/slides/nodejs-java/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Notas de versão" href="https://releases.aspose.com/slides/nodejs-java/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Por que Aspose.Slides para Node.js via Java?" tabId="success-stories" >}}

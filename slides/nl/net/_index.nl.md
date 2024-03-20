@@ -460,7 +460,7 @@ Het product werkte zoals geadverteerd, de documentatie was gemakkelijk te volgen
 {{< blocks/products/pf/slr-element name="Gratis ondersteuning" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Betaalde ondersteuning" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release-opmerkingen" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Release-opmerkingen" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Waarom Aspose.Slides voor .NET?" tabId="success-stories" >}}

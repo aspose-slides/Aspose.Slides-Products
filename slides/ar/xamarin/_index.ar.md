@@ -397,7 +397,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 {{< blocks/products/pf/slr-element name="دعم مجاني" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="دعم مدفوع" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="مدونة او مذكرة" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="ملاحظات الإصدار" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="ملاحظات الإصدار" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="لماذا Aspose.Slides لل Xamarin؟" tabId="success-stories" >}}

@@ -401,7 +401,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 {{< blocks/products/pf/slr-element name="免费支持" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="付费支持" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="博客" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="发行说明" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="发行说明" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="为什么为 .NET Core 使用 Aspose.Slides？" tabId="success-stories" >}}
