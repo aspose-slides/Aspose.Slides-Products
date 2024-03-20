@@ -331,9 +331,9 @@ function getSomeProperties() {
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="ทรัพยากรการเรียนรู้" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="เอกสารประกอบ" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="เอกสารประกอบ" href="https://docs.aspose.com/slides/nodejs-net/" >}}
         {{< blocks/products/pf/slr-element name="รหัสแหล่งที่มา" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="การอ้างอิง API" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="การอ้างอิง API" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="วิดีโอสอน" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
@@ -341,7 +341,7 @@ function getSomeProperties() {
         {{< blocks/products/pf/slr-element name="การสนับสนุนฟรี" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="การสนับสนุนแบบชำระเงิน" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="บล็อก" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="บันทึกประจำรุ่น" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="บันทึกประจำรุ่น" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="ทำไมต้อง Aspose.Slides สำหรับ Node.js ผ่าน .NET" tabId="success-stories" >}}

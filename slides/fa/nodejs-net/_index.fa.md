@@ -331,9 +331,9 @@ function getSomeProperties() {
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="منابع یادگیری" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="مستندات" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="مستندات" href="https://docs.aspose.com/slides/nodejs-net/" >}}
         {{< blocks/products/pf/slr-element name="کد منبع" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="مراجع API" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="مراجع API" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="فیلم های آموزشی" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
@@ -341,7 +341,7 @@ function getSomeProperties() {
         {{< blocks/products/pf/slr-element name="پشتیبانی رایگان" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="پشتیبانی پولی" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="وبلاگ" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="یادداشت های انتشار" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="یادداشت های انتشار" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="چرا Aspose.Slides برای Node.js از طریق دات نت؟" tabId="success-stories" >}}
