@@ -331,9 +331,9 @@ function getSomeProperties() {
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Recursos de aprendizagem" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="Documentação" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="Documentação" href="https://docs.aspose.com/slides/nodejs-net/" >}}
         {{< blocks/products/pf/slr-element name="Código fonte" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="Referências de API" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="Referências de API" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="Vídeos tutoriais" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
@@ -341,7 +341,7 @@ function getSomeProperties() {
         {{< blocks/products/pf/slr-element name="Suporte Gratuito" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="Suporte pago" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Blogue" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Notas de versão" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Notas de versão" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Por que Aspose.Slides para Node.js via .NET?" tabId="success-stories" >}}

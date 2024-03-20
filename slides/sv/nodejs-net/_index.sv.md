@@ -331,9 +331,9 @@ function getSomeProperties() {
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Lärresurser" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="Dokumentation" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="Dokumentation" href="https://docs.aspose.com/slides/nodejs-net/" >}}
         {{< blocks/products/pf/slr-element name="Källkod" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="API-referenser" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="API-referenser" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="Handledningsvideor" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
@@ -341,7 +341,7 @@ function getSomeProperties() {
         {{< blocks/products/pf/slr-element name="Gratis support" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="Betald support" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Blogg" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Varför Aspose.Slides för Node.js via .NET?" tabId="success-stories" >}}

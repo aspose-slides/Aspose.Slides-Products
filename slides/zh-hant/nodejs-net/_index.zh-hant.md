@@ -331,9 +331,9 @@ function getSomeProperties() {
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="學習資源" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="文檔" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="文檔" href="https://docs.aspose.com/slides/nodejs-net/" >}}
         {{< blocks/products/pf/slr-element name="源代碼" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="API 參考" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="API 參考" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="教程視頻" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
@@ -341,7 +341,7 @@ function getSomeProperties() {
         {{< blocks/products/pf/slr-element name="免費支持" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="付費支持" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="博客" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="發行說明" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="發行說明" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="為什麼透過 .NET 用於 Node.js 的 Aspose.Slides？" tabId="success-stories" >}}

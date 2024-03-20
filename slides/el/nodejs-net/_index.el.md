@@ -331,9 +331,9 @@ function getSomeProperties() {
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Πόροι μάθησης" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="Τεκμηρίωση" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="Τεκμηρίωση" href="https://docs.aspose.com/slides/nodejs-net/" >}}
         {{< blocks/products/pf/slr-element name="Πηγαίος κώδικας" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="Αναφορές API" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="Αναφορές API" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="Εκπαιδευτικά βίντεο" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
@@ -341,7 +341,7 @@ function getSomeProperties() {
         {{< blocks/products/pf/slr-element name="Δωρεάν Υποστήριξη" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="Υποστήριξη επί πληρωμή" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Ιστολόγιο" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Σημειώσεις έκδοσης" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Σημειώσεις έκδοσης" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Γιατί το Aspose.Slides για το Node.js μέσω .NET;" tabId="success-stories" >}}
