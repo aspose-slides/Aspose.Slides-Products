@@ -358,6 +358,8 @@ Snímky:
     {{< blocks/products/pf/offers-section-item link="/slides/cs/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cs/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cs/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cs/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/cs/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cs/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cs/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
 

@@ -36,7 +36,11 @@ description: 适用于 .NET、Java、C++、Python、PHP、Node.js 的 PowerPoint
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh/nodejs-java/" >}}
-用于在 Node.js 应用程序中生成和操作演示文稿的 PowerPoint API。
+PowerPoint API，用于通过 Java 在 Node.js 应用程序中生成和操作演示文稿。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/zh/nodejs-net/" >}}
+PowerPoint API，用于通过 .NET 在 Node.js 应用程序中生成和操作演示文稿。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/zh/sharepoint/" >}}

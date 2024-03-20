@@ -1,0 +1,370 @@
+---
+title: Node.js a través de .NET PowerPoint API por Aspose.Slides
+weight: 5890
+url: /es/nodejs-net/ 
+description: Aspose.Slides para Node.js a través de .NET es una API de PowerPoint de Node.js que le permite crear, modificar y convertir presentaciones de PowerPoint en Node.js.
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/upper-banner h1="API de PowerPoint de Node.js para presentaciones" h2="Cree, lea, modifique y convierta presentaciones de PowerPoint y OpenOffice utilizando Node.js sin ningún software externo." logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" downloadUrl="https://releases.aspose.com/slides/nodejs-net/" >}}
+
+{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" >}}
+
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
+
+{{< blocks/products/pf/tab-content >}}
+
+<p><strong>Aspose.Slides para Node.js a través de .NET</strong> es una biblioteca de Node.js que le permite crear, modificar y convertir presentaciones de PowerPoint en Node.js. Admite todos los elementos de presentación, como diapositivas, formas, texto, gráficos, tablas, imágenes y más. También ofrece muchas funciones avanzadas como fusionar, clonar, dividir, comparar e imprimir presentaciones. Funciona sin dependencias y puede procesar miles de presentaciones en poco tiempo.</p>
+
+<p><strong>Aspose.Slides para Node.js a través de .NET</strong> proporciona estas características populares:</p>
+<ul>
+    <li>Cargar, abrir y ver presentaciones.</li>
+    <li>Edición de presentaciones.</li>
+    <li>Conversión de archivos de presentación a formatos de presentación populares, como PPT, PPTX y ODP.</li>
+    <li>Exportar presentaciones a PDF, JPG, HTML, GIF, SVG y muchos otros formatos.</li>
+    <li>Renderizado e impresión de presentaciones.</li>
+    <li>Cifrar y descifrar presentaciones; proteger presentaciones con contraseña y eliminar contraseñas.</li>
+    <li>Manipular entidades de presentación, como diapositivas maestras, formas, gráficos, marcos de imágenes, marcos de audio, marcos de video, macros OLE, VBA, animaciones, etc.</li>
+    <li>Y muchas más funciones.</li>
+</ul>
+
+<p>Node.js es un entorno de ejecución de JavaScript popular, gratuito, de código abierto y multiplataforma que permite a los desarrolladores escribir herramientas de línea de comandos y scripts del lado del servidor fuera de un navegador. Por esta razón, el equipo de <strong>Aspose.Slides</strong> se enorgullece de ofrecer <strong>Aspose.Slides para Node.js a través de .NET</strong> a la comunidad de Node.js.</p>
+
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">Funciones avanzadas de la API de PowerPoint de Node.js</h2>
+   <p>
+   </p>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Crea o clona diapositivas existentes a partir de plantillas</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Trabajar con tablas de PowerPoint a través de API</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-azul fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Aplicar o quitar la protección en formas</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-barra-gráfica ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Agrega gráficos de Excel como OleObjects a las diapositivas</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-imagen ico-blue fa-2x col-lg-2">
+    </em>
+    <p clase="col-lg-10">
+     Crear formas y agregar texto a formas en diapositivas
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
+    </em>
+    <p clase="col-lg-10">
+     Manejar el formato de texto y formas
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Generar presentaciones desde base de datos</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-lock ico-azul fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Proteja presentaciones y PDF resultantes</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-print ico-azul fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Imprima presentaciones en una impresora física</p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">Requisitos del sistema</h2>
+    <ul>
+      <li>Aspose.Slides para Node.js a través de .NET es una API de JavaScript del lado del servidor basada en Node.js. Puede ejecutarse en plataformas Windows, Unix/Linux y Mac con .NET6 o superior.</li>
+    </ul>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">Cómo instalar</h2>
+    <p>Utilice <strong>NPM</strong> para instalar nuestra biblioteca Node.js para el procesamiento de presentaciones desde el <a href="https://www.npmjs.com/package/aspose.slides.via.net">repositorio de paquetes NPM :</a></p>
+    <pre><code>npm install aspose.slides.via.net</code></pre>
+   </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Cómo crear una nueva presentación de PowerPoint en Node.js</h2>
+        <p>En el ejemplo que se muestra a continuación, hemos agregado un rectángulo a la primera diapositiva de la presentación.</p>
+        <pre>
+            <code class="JavaScript">	
+// Import the Aspose.Slides module for PowerPoint file manipulation
+const asposeSlides = require('aspose.slides.via.net');
+
+// Add necessary classes from the asposeSlides
+const { Presentation, SaveFormat, PdfOptions } = asposeSlides;
+
+const fs = require('fs');
+if (!fs.existsSync("out")) fs.mkdirSync("out");
+
+// Create and save an empty presentation to demonstrate basic functionality
+function createEmptyPresentation() {
+	
+    // Initialize a new empty presentation
+    var emptyPresentation = new Presentation();
+    
+    // Save the empty presentation in PPTX format
+    emptyPresentation.save("out/emptyPresentation.pptx", SaveFormat.Pptx);
+    
+    // Release resources associated with the presentation
+    emptyPresentation.dispose();
+}
+createEmptyPresentation(); // Execute the function to create an empty presentation
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Cómo agregar/eliminar diapositivas y editar propiedades de formas en Node.js</h2>
+        <p>Este código de Node.js le muestra cómo fusionar presentaciones:</p>
+        <pre>
+            <code class="JavaScript">
+// Import the Aspose.Slides module for PowerPoint file manipulation
+const asposeSlides = require('aspose.slides.via.net');
+
+const {
+    Presentation,
+    BackgroundType,
+    FillType,
+    ImageFormat
+} = asposeSlides;
+
+const fs = require('fs');
+
+// Function to demonstrate creating and manipulating a presentation
+function manipulatePresentation() {
+	
+    // Create a new presentation instance
+    var pres = new Presentation();
+    
+    // Add an empty slide to the presentation
+    pres.slides.addEmptySlide(pres.layoutSlides.get(0));
+    
+    // Create another presentation instance for cloning purposes
+    var pres2 = new Presentation();
+    // Add a clone of the first slide from pres2 into pres
+    pres.slides.addClone(pres2.slides.get(0));
+    
+    // Log the current count of slides in pres
+    console.log("countSlides:" + pres.slides.count);
+
+    // Remove the first slide from pres
+    pres.slides.removeAt(0);
+    
+    // Log the new count of slides after removal
+    console.log("countSlides:" + pres.slides.count);
+
+    // Access and modify properties of the first slide in pres
+    var slide = pres.slides.get(0); // Get the first slide
+    var slideNumber = slide.slideNumber; // Get slide number
+    var hidden = slide.hidden; // Check if the slide is hidden
+	
+    // Set the background of the first slide
+    slide.background.type = BackgroundType.OwnBackground; // Set background type
+    slide.background.fillFormat.fillType = FillType.Solid; // Set fill type to solid
+    slide.background.fillFormat.solidFillColor.color = "#AEC025F4"; // Set a solid fill color
+
+    // Log background type and color of the first slide
+    console.log("backgroundType:" + slide.background.type);
+    console.log("backgroundColor:" + slide.background.fillFormat.solidFillColor.color);
+
+	if (!fs.existsSync("out")) fs.mkdirSync("out");
+
+   // Generate and save a thumbnail of the first slide
+    var slideThumbnail = slide.getThumbnailWithImageSize({width: 960, height: 720}); // Get slide thumbnail
+    slideThumbnail.save("out/slide-thumbnail.png", ImageFormat.Png); // Save thumbnail as PNG
+
+    // Save the presentation to a file
+    pres.save("out/slides-manipulation.pptx", asposeSlides.SaveFormat.Pptx);
+
+    // Dispose of presentation objects to free resources
+    pres.dispose();
+    pres2.dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Cómo convertir PowerPoint a PDF, GIF o HTML en Node.js</h2>
+        <p>Este código de Node.js le muestra cómo convertir un documento PowerPoint PPT, PPTX y OpenOffice ODP en un documento PDF usando las opciones predeterminadas. El archivo resultante es un documento PDF con los máximos niveles de calidad.</p>
+        <pre>
+            <code class="JavaScript">
+// Import the Aspose.Slides module for PowerPoint file manipulation
+const asposeSlides = require('aspose.slides.via.net');
+
+// Add necessary classes from the asposeSlides
+const { Presentation, SaveFormat, PdfOptions } = asposeSlides;
+
+const fs = require('fs');
+if (!fs.existsSync("out")) fs.mkdirSync("out");
+
+// Create and save an empty presentation to demonstrate basic functionality
+function createEmptyPresentation() {
+	
+    // Initialize a new empty presentation
+    var emptyPresentation = new Presentation();
+    
+    // Save the empty presentation in PPTX format
+    emptyPresentation.save("out/emptyPresentation.pptx", SaveFormat.Pptx);
+    
+    // Release resources associated with the presentation
+    emptyPresentation.dispose();
+}
+createEmptyPresentation(); // Execute the function to create an empty presentation
+
+
+// Load, modify, and save presentations in different formats
+function savePresentation() {
+	
+    // Load an existing presentation from a file
+    var pres = new Presentation("samples_data/sample-presentation.pptx");
+    
+    // Configure options for PDF export
+    var pdfOptions = new PdfOptions();
+    pdfOptions.saveMetafilesAsPng = true; // Save metafiles as PNG
+    pdfOptions.jpegQuality = 100; // Set JPEG quality for images in the PDF
+    pdfOptions.sufficientResolution = 96; // Set the resolution for images are saved to pdf
+    
+    // Save the presentation in various formats with appropriate settings
+    pres.save("out/presentation-save-to-pdf.pdf", SaveFormat.Pdf, pdfOptions); // Save as PDF
+    pres.save("out/presentation-save-to-gif.gif", SaveFormat.Gif); // Save as GIF
+    pres.save("out/presentation-save-to-ppt.ppt", SaveFormat.Ppt); // Save as PPT 
+    pres.save("out/presentation-save-to-pptx.pptx", SaveFormat.Pptx); // Save as PPTX
+    pres.save("out/presentation-save-to-html.html", SaveFormat.Html); // Save as HTML
+    
+    // Release resources associated with the presentation
+    pres.dispose();
+} 
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Cómo recuperar varias propiedades de una presentación de PowerPoint </h2>
+        <p>El siguiente ejemplo le muestra cómo recuperar varias propiedades de una presentación de PowerPoint.</p>
+        <pre>
+            <code class="JavaScript">
+// Import the Aspose.Slides module for PowerPoint file manipulation
+const asposeSlides = require('aspose.slides.via.net');
+
+// Add necessary classes from the asposeSlides
+const { Presentation, SaveFormat, PdfOptions } = asposeSlides;
+
+function getSomeProperties() {
+	
+    // Load an existing presentation from a file named "sample-presentation.pptx"
+    var pres = new asposeSlides.Presentation("samples_data/sample-presentation.pptx");
+    
+    // Retrieve various properties of the presentation
+    var countSlides = pres.slides.count; // Total number of slides
+    var countMastersSlides = pres.masters.count; // Total number of master slides
+    var countLayoutSlides = pres.layoutSlides.count; // Total number of layout slides
+    var firstSlideNumber = pres.firstSlideNumber; // Number of the first slide
+    var lastView = pres.viewProperties.lastView; // Last view type of the presentation
+    var masterThemeName = pres.masterTheme.name; // Name of the master theme
+    var sourceFormat = pres.sourceFormat; // Format of the source presentation
+    var countVideos = pres.videos.count; // Total number of videos in the presentation
+    var countImages = pres.images.count; // Total number of images in the presentation
+    
+    // Retrieve objects for further manipulation or information extraction
+    var slideObject = pres.slides.get(0); // Object of the first slide
+    var mastersSlideObject = pres.masters.get(0); // Object of the first master slide
+    
+    // Log the total number of slides to the console
+    console.log("countSlides:" + countSlides);    
+    console.log("countMastersSlides:" + countMastersSlides);    
+    console.log("countLayoutSlides:" + countLayoutSlides);    
+    console.log("firstSlideNumber:" + firstSlideNumber);    
+    console.log("lastView=" + lastView);    
+    console.log("masterThemeName:" + masterThemeName);    
+    console.log("sourceFormat:" + sourceFormat);    
+    console.log("countVideos:" + countVideos);    
+    console.log("countImages:" + countImages);    
+   
+    pres.dispose();  // Release resources associated with the presentation
+}
+            </code>
+        </pre>
+    </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/testimonials title="Lo que la gente esta diciendo" subTitle="No confíe sólo en nuestra palabra. Vea lo que los usuarios tienen que decir sobre las API de PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
+
+{{< blocks/products/pf/testimonials-quote >}}
+<p class="first">
+ Descubrimos que Aspose.Slides es fácil de usar y funciona bien en nuestros servidores. Hemos descubierto que satisfacen una necesidad importante de generar archivos dinámicamente para ampliar nuestro alcance más allá de la aplicación web tradicional.
+ <em>
+  Rick Joi | Workplace Dynamics, UK
+ </em>
+</p>
+{{< /blocks/products/pf/testimonials-quote >}}
+
+{{< blocks/products/pf/testimonials-quote >}}
+<p class="second">
+ El producto funcionó según lo anunciado, la documentación fue fácil de seguir y los foros de soporte fueron toda la ayuda que necesitábamos. La solución final que implementamos superó con creces nuestras expectativas iniciales.
+ <em>
+  Bruce Brien | Stratascope Inc, USA
+ </em>
+</p>
+{{< /blocks/products/pf/testimonials-quote >}}
+
+{{< /blocks/products/pf/testimonials >}}
+
+{{< blocks/products/pf/support-learning-resources >}}
+    {{< blocks/products/pf/slr-tab tabTitle="Recursos de aprendizaje" tabId="resources" >}}
+        {{< blocks/products/pf/slr-element name="Documentación" href="https://docs.aspose.com/slides/nodejs-.NET/" >}}
+        {{< blocks/products/pf/slr-element name="Código fuente" href="https://github.com/aspose-slides/" >}}
+        {{< blocks/products/pf/slr-element name="Referencias de API" href="https://docs.aspose.com/slides/nodejs-.NET/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="Vídeos tutoriales" href="https://www.youtube.com/user/asposevideo" >}}
+    {{< /blocks/products/pf/slr-tab >}}
+
+    {{< blocks/products/pf/slr-tab tabTitle="Soporte de producto" tabId="support" >}}
+        {{< blocks/products/pf/slr-element name="Soporte gratuito" href="https://forum.aspose.com/c/slides" >}}
+        {{< blocks/products/pf/slr-element name="Soporte pagado" href="https://helpdesk.aspose.com/" >}}
+        {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
+        {{< blocks/products/pf/slr-element name="Notas de lanzamiento" href="https://docs.aspose.com/slides/nodejs-.NET/release-notes/" >}}
+    {{< /blocks/products/pf/slr-tab >}}
+
+    {{< blocks/products/pf/slr-tab tabTitle="¿Por qué Aspose.Slides para Node.js a través de .NET?" tabId="success-stories" >}}
+        {{< blocks/products/pf/slr-element name="Lista de clientes" href="https://company.aspose.com/customers" >}}
+        {{< blocks/products/pf/slr-element name="Historias de éxito" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+    {{< /blocks/products/pf/slr-tab >}}
+{{< /blocks/products/pf/support-learning-resources >}}
+
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/nodejs-.NET" pricingInformationLink="https://purchase.aspose.com/pricing/slides/nodejs-.NET" >}}
+
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides ofrece API de PowerPoint individuales para otros entornos de desarrollo populares, como se enumeran a continuación:" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/.NET/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-.NET.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/android-.NET/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-.NET.svg" sdkName="Android via .NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/php-.NET/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-.NET.svg" sdkName="PHP via .NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}    
+    {{< blocks/products/pf/offers-section-item link="/slides/es/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/es/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
+
+{{< /blocks/products/pf/offers-section >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+

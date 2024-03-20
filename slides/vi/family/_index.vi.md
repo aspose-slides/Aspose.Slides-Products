@@ -36,7 +36,11 @@ API PowerPoint để tạo và thao tác các bản trình bày bằng các tậ
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/vi/nodejs-java/" >}}
-API PowerPoint để tạo và thao tác các bản trình bày trong ứng dụng Node.js.
+API PowerPoint để tạo và thao tác các bản trình bày trong ứng dụng Node.js thông qua Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/vi/nodejs-net/" >}}
+API PowerPoint để tạo và thao tác các bản trình bày trong ứng dụng Node.js qua .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/vi/sharepoint/" >}}

@@ -36,7 +36,11 @@ PHP komut dosyalarıyla sunumlar oluşturmak ve değiştirmek için PowerPoint A
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/tr/nodejs-java/" >}}
-Node.js uygulamaları içinde sunumlar oluşturmak ve düzenlemek için PowerPoint API'si.
+Java aracılığıyla Node.js uygulamaları içindeki sunumları oluşturmak ve değiştirmek için PowerPoint API'si.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/tr/nodejs-net/" >}}
+.NET aracılığıyla Node.js uygulamaları içindeki sunumları oluşturmak ve düzenlemek için PowerPoint API'si.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/tr/sharepoint/" >}}

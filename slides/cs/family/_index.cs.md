@@ -36,7 +36,11 @@ PowerPoint API pro generování a manipulaci s prezentacemi pomocí PHP skriptů
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/cs/nodejs-java/" >}}
-PowerPoint API pro generování a manipulaci s prezentacemi v aplikacích Node.js.
+PowerPoint API pro generování a manipulaci s prezentacemi v aplikacích Node.js prostřednictvím Javy.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/cs/nodejs-net/" >}}
+PowerPoint API pro generování a manipulaci s prezentacemi v aplikacích Node.js prostřednictvím .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/cs/sharepoint/" >}}

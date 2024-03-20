@@ -36,7 +36,11 @@ API PowerPoint для создания презентаций и управле�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ru/nodejs-java/" >}}
-API PowerPoint для создания презентаций и управления ими в приложениях Node.js.
+API PowerPoint для создания презентаций и управления ими в приложениях Node.js через Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/ru/nodejs-net/" >}}
+API PowerPoint для создания презентаций и управления ими в приложениях Node.js через .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ru/sharepoint/" >}}
