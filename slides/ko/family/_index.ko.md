@@ -36,7 +36,11 @@ PHP 스크립트로 프레젠테이션을 생성하고 조작하기 위한 Power
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ko/nodejs-java/" >}}
-Node.js 애플리케이션 내에서 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
+Java를 통해 Node.js 애플리케이션 내에서 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/ko/nodejs-net/" >}}
+.NET을 통해 Node.js 애플리케이션 내에서 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ko/sharepoint/" >}}

@@ -36,7 +36,11 @@ PowerPoint API สำหรับการสร้างและจัดก�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/th/nodejs-java/" >}}
-PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอภายในแอปพลิเคชัน Node.js
+PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอภายในแอปพลิเคชัน Node.js ผ่านทาง Java
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/th/nodejs-net/" >}}
+PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอภายในแอปพลิเคชัน Node.js ผ่านทาง .NET
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/th/sharepoint/" >}}

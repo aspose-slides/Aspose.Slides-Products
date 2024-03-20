@@ -36,7 +36,11 @@ PHP स्क्रिप्ट के साथ प्रेजेंटेश�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/" >}}
-Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ तैयार करने और उनमें हेरफेर करने के लिए PowerPoint API।
+जावा के माध्यम से Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ बनाने और हेरफेर करने के लिए PowerPoint API।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/hi/nodejs-net/" >}}
+.NET के माध्यम से Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ तैयार करने और हेरफेर करने के लिए PowerPoint API।
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/hi/sharepoint/" >}}
