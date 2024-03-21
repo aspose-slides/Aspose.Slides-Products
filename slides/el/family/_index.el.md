@@ -36,7 +36,11 @@ PowerPoint API για δημιουργία και χειρισμό παρουσ�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/el/nodejs-java/" >}}
-PowerPoint API για τη δημιουργία και τον χειρισμό παρουσιάσεων εντός των εφαρμογών Node.js.
+PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων εντός εφαρμογών Node.js μέσω Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/el/nodejs-net/" >}}
+PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων εντός εφαρμογών Node.js μέσω .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/el/sharepoint/" >}}

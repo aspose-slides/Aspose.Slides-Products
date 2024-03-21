@@ -36,7 +36,11 @@ PowerPoint API لإنشاء العروض التقديمية ومعالجتها �
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ar/nodejs-java/" >}}
-واجهة برمجة تطبيقات PowerPoint لإنشاء العروض التقديمية ومعالجتها داخل تطبيقات Node.js.
+واجهة برمجة تطبيقات PowerPoint لإنشاء العروض التقديمية ومعالجتها داخل تطبيقات Node.js عبر Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/ar/nodejs-net/" >}}
+واجهة برمجة تطبيقات PowerPoint لإنشاء العروض التقديمية ومعالجتها داخل تطبيقات Node.js عبر .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ar/sharepoint/" >}}
