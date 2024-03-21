@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="สิ่งที่ผู้คนกำลังพูด" subTitle="อย่าเพิ่งเชื่อคำพูดของเรา ดูว่าผู้ใช้พูดถึง PowerPoint API อย่างไร" caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- เราพบว่า Aspose.Slides ใช้งานง่ายและทำงานได้ดีบนเซิร์ฟเวอร์ของเรา เราพบว่าสิ่งเหล่านี้เติมเต็มความต้องการที่สำคัญในการสร้างไฟล์แบบไดนามิกเพื่อขยายขอบเขตการเข้าถึงของเราให้มากกว่าเว็บแอปพลิเคชันแบบเดิม
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- ผลิตภัณฑ์ทำงานตามที่โฆษณา เอกสารประกอบง่ายต่อการติดตาม และฟอรัมสนับสนุนก็ให้ความช่วยเหลือที่เราต้องการ โซลูชันสุดท้ายที่เราปรับใช้นั้นเกินความคาดหมายเบื้องต้นของเราอย่างมาก
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="ทรัพยากรการเรียนรู้" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="เอกสารประกอบ" href="https://docs.aspose.com/slides/nodejs-net/" >}}

@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="人們在說什麼" subTitle="不要只相信我們的話。了解用戶對 PowerPoint API 的評價。" caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- 我們發現 Aspose.Slides 易於使用並且在我們的服務器上運行良好。我們發現它們滿足了動態生成文件的重要需求，從而將我們的業務範圍擴展到傳統的 Web 應用程序之外。
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- 該產品的工作原理與廣告中所宣傳的一樣，文檔易於理解，支持論壇就是我們所需要的所有幫助。我們部署的最終解決方案大大超出了我們最初的預期。
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="學習資源" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="文檔" href="https://docs.aspose.com/slides/nodejs-net/" >}}

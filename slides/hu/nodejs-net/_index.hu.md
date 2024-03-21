@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Mit mondanak az emberek" subTitle="Ne csak szót fogadjon. Tekintse meg, mit mondanak a felhasználók a PowerPoint API-król." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Úgy találtuk, hogy az Aspose.Slides könnyen használható és jól működik a szervereinken. Úgy találtuk, hogy ezek kielégítik a fájlok dinamikus generálásának fontos szükségletét, hogy kiterjesszék hatókörünket a hagyományos webalkalmazásokon túl.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- A termék a hirdetésnek megfelelően működött, a dokumentáció könnyen követhető volt, és a támogatási fórumok minden segítséget megadtak. Az általunk bevezetett végső megoldás jócskán felülmúlta kezdeti várakozásainkat.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Tanulási források" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="Dokumentáció" href="https://docs.aspose.com/slides/nodejs-net/" >}}

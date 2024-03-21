@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Τι Λένε οι Άνθρωποι" subTitle="Μην παίρνετε το λόγο μας για αυτό. Δείτε τι λένε οι χρήστες για τα PowerPoint API." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Βρήκαμε το Aspose.Slides να είναι εύχρηστο και να λειτουργεί άψογα στους διακομιστές μας. Βρήκαμε ότι καλύπτουν μια σημαντική ανάγκη για δυναμική δημιουργία αρχείων για να επεκτείνουμε την εμβέλειά μας πέρα ​​από την παραδοσιακή εφαρμογή Ιστού.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Το προϊόν λειτούργησε όπως διαφημιζόταν, η τεκμηρίωση ήταν εύκολη στην παρακολούθηση και τα φόρουμ υποστήριξης ήταν όλη η βοήθεια που χρειαζόμασταν. Η τελική λύση που αναπτύξαμε έχει ξεπεράσει κατά πολύ τις αρχικές μας προσδοκίες.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Πόροι μάθησης" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="Τεκμηρίωση" href="https://docs.aspose.com/slides/nodejs-net/" >}}

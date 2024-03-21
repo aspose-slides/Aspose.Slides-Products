@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="İnsanlar ne diyor" subTitle="Sadece bizim sözümüze güvenmeyin. Kullanıcıların PowerPoint API'leri hakkında neler söylediğini görün." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Aspose.Slides'ın kullanımının kolay olduğunu ve sunucularımızda güzel çalıştığını gördük. Erişimimizi geleneksel web uygulamasının ötesine genişletmek için dosyaların dinamik olarak oluşturulmasına yönelik önemli bir ihtiyacı karşıladıklarını gördük.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Ürün tanıtıldığı gibi çalıştı, belgelerin takip edilmesi kolaydı ve destek forumları ihtiyacımız olan tüm yardımı sağladı. Uyguladığımız son çözüm, başlangıçtaki beklentilerimizi büyük ölçüde aştı.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Öğrenme Kaynakları" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="Dokümantasyon" href="https://docs.aspose.com/slides/nodejs-net/" >}}

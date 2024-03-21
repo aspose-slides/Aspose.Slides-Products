@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Lo que la gente esta diciendo" subTitle="No confíe sólo en nuestra palabra. Vea lo que los usuarios tienen que decir sobre las API de PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Descubrimos que Aspose.Slides es fácil de usar y funciona bien en nuestros servidores. Hemos descubierto que satisfacen una necesidad importante de generar archivos dinámicamente para ampliar nuestro alcance más allá de la aplicación web tradicional.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- El producto funcionó según lo anunciado, la documentación fue fácil de seguir y los foros de soporte fueron toda la ayuda que necesitábamos. La solución final que implementamos superó con creces nuestras expectativas iniciales.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Recursos de aprendizaje" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="Documentación" href="https://docs.aspose.com/slides/nodejs-net/" >}}

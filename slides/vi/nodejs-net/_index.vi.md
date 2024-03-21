@@ -328,30 +328,6 @@ finally
 </div>
 <!--Feature-section End-->
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Mọi người đang nói gì" subTitle="Đừng chỉ tin lời chúng tôi. Xem người dùng nói gì về API PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Chúng tôi nhận thấy Aspose.Slides dễ sử dụng và hoạt động tốt trên máy chủ của chúng tôi. Chúng tôi nhận thấy rằng chúng đáp ứng nhu cầu quan trọng về việc tạo tệp động để mở rộng phạm vi tiếp cận của chúng tôi ra ngoài ứng dụng web truyền thống.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Sản phẩm hoạt động như quảng cáo, tài liệu dễ theo dõi và các diễn đàn hỗ trợ đều là những trợ giúp mà chúng tôi cần. Giải pháp cuối cùng mà chúng tôi triển khai đã vượt xa sự mong đợi ban đầu của chúng tôi rất nhiều.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Tài nguyên học tập" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="Tài liệu" href="https://docs.aspose.com/slides/nodejs-net/" >}}
