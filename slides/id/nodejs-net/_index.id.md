@@ -12,8 +12,6 @@ description: Aspose.Slides untuk Node.js melalui .NET adalah API PowerPoint Node
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides untuk Node.js melalui .NET</strong> adalah pustaka Node.js yang memungkinkan Anda membuat, memodifikasi, dan mengonversi presentasi PowerPoint di Node.js. Ini mendukung semua elemen presentasi seperti slide, bentuk, teks, bagan, tabel, gambar, dan banyak lagi. Ia juga menawarkan banyak fitur lanjutan seperti menggabungkan, mengkloning, memisahkan, membandingkan, dan mencetak presentasi. Ia bekerja tanpa ketergantungan apa pun dan dapat memproses ribuan presentasi dalam waktu singkat.</p>
 
 <p><strong>Aspose.Slides untuk Node.js melalui .NET</strong> menyediakan fitur populer berikut:</p>
@@ -327,6 +325,8 @@ finally
  </div>
 </div>
 <!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Sumber Belajar" tabId="resources" >}}

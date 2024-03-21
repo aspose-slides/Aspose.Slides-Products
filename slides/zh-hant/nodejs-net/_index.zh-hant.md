@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js via .NET 是一個 Node.js PowerPoint API
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong> 是一個 Node.js 函式庫，可讓您在 Node.js 中建立、修改和轉換 PowerPoint 簡報。它支援所有簡報元素，例如幻燈片、形狀、文字、圖表、表格、圖像等。它還提供許多高級功能，例如合併、克隆、分割、比較和列印簡報。它的工作沒有任何依賴性，可以在短時間內處理數千個簡報。</p>
 
 <p><strong>Aspose.Slides for Node.js via .NET</strong> 提供以下流行功能：</p>
@@ -327,6 +325,8 @@ finally
  </div>
 </div>
 <!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="學習資源" tabId="resources" >}}

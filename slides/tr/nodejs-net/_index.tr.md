@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js via .NET, Node.js'de PowerPoint sunumlar�
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong>, Node.js'de PowerPoint sunumları oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan bir Node.js kitaplığıdır. Slaytlar, şekiller, metinler, grafikler, tablolar, resimler ve daha fazlası gibi tüm sunum öğelerini destekler. Ayrıca birleştirme, klonlama, bölme, karşılaştırma ve sunumları yazdırma gibi birçok gelişmiş özellik sunar. Hiçbir bağımlılık olmadan çalışır ve kısa sürede binlerce sunumu işleyebilir.</p>
 
 <p><strong>.NET aracılığıyla Aspose.Slides for Node.js</strong> şu popüler özellikleri sağlar:</p>
@@ -327,6 +325,8 @@ finally
  </div>
 </div>
 <!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Öğrenme Kaynakları" tabId="resources" >}}

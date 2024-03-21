@@ -12,8 +12,6 @@ description: Aspose.Slides dla Node.js za pośrednictwem .NET to interfejs API p
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides dla Node.js za pośrednictwem .NET</strong> to biblioteka Node.js, która umożliwia tworzenie, modyfikowanie i konwertowanie prezentacji programu PowerPoint w Node.js. Obsługuje wszystkie elementy prezentacji, takie jak slajdy, kształty, tekst, wykresy, tabele, obrazy i inne. Oferuje także wiele zaawansowanych funkcji, takich jak łączenie, klonowanie, dzielenie, porównywanie i drukowanie prezentacji. Działa bez żadnych zależności i może przetworzyć tysiące prezentacji w krótkim czasie.</p>
 
 <p><strong>Aspose.Slides dla Node.js przez .NET</strong> udostępnia te popularne funkcje:</p>
@@ -327,6 +325,8 @@ finally
  </div>
 </div>
 <!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Zasoby edukacyjne" tabId="resources" >}}

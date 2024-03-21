@@ -12,8 +12,6 @@ description: Aspose.Slides para Node.js via .NET é uma API Node.js PowerPoint q
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides para Node.js via .NET</strong> é uma biblioteca Node.js que permite criar, modificar e converter apresentações do PowerPoint em Node.js. Suporta todos os elementos de apresentação, como slides, formas, texto, gráficos, tabelas, imagens e muito mais. Ele também oferece muitos recursos avançados, como mesclar, clonar, dividir, comparar e imprimir apresentações. Funciona sem dependências e pode processar milhares de apresentações em pouco tempo.</p>
 
 <p><strong>Aspose.Slides para Node.js via .NET</strong> fornece estes recursos populares:</p>
@@ -327,6 +325,8 @@ finally
  </div>
 </div>
 <!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Recursos de aprendizagem" tabId="resources" >}}

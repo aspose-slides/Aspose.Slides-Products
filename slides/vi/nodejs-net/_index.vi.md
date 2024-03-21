@@ -12,8 +12,6 @@ description: Aspose.Slides cho Node.js qua .NET là API PowerPoint của Node.js
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides dành cho Node.js qua .NET</strong> là thư viện Node.js cho phép bạn tạo, sửa đổi và chuyển đổi bản trình bày PowerPoint trong Node.js. Nó hỗ trợ tất cả các yếu tố trình bày như trang trình bày, hình dạng, văn bản, biểu đồ, bảng, hình ảnh, v.v. Nó cũng cung cấp nhiều tính năng nâng cao như hợp nhất, nhân bản, chia tách, so sánh và in bản trình bày. Nó hoạt động mà không có bất kỳ sự phụ thuộc nào và có thể xử lý hàng nghìn bài thuyết trình trong thời gian ngắn.</p>
 
 <p><strong>Aspose.Slides dành cho Node.js qua .NET</strong> cung cấp các tính năng phổ biến sau:</p>
@@ -327,6 +325,8 @@ finally
  </div>
 </div>
 <!--Feature-section End-->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Tài nguyên học tập" tabId="resources" >}}
