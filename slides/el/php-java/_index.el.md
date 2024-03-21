@@ -557,7 +557,7 @@ finally
 {{< blocks/products/pf/slr-element name="Δωρεάν Υποστήριξη" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Υποστήριξη επί πληρωμή" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Ιστολόγιο" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Σημειώσεις έκδοσης" href="https://docs.aspose.com/slides/php-java/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Σημειώσεις έκδοσης" href="https://releases.aspose.com/slides/php-java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Γιατί Aspose.Slides για PHP μέσω Java;" tabId="success-stories" >}}

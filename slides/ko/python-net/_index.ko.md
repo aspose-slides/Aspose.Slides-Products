@@ -487,7 +487,7 @@ Aspose.Slides는 사용하기 쉽고 서버에서 잘 작동합니다. 우리는
 {{< blocks/products/pf/slr-element name="무료 지원" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="유료 지원" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="블로그" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="릴리즈 노트" href="https://docs.aspose.com/slides/python-net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="릴리즈 노트" href="https://releases.aspose.com/slides/python-net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle=".NET을 통해 Python용 Aspose.Slides를 사용하는 이유는 무엇입니까?" tabId="success-stories" >}}

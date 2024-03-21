@@ -397,7 +397,7 @@ Aspose.Slides는 사용하기 쉽고 ASP.Net 서버에서 잘 작동합니다. �
 {{< blocks/products/pf/slr-element name="무료 지원" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="유료 지원" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="블로그" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="릴리즈 노트" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="릴리즈 노트" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Aspose.Slides가 Xamarin에 필요한 이유는 무엇입니까?" tabId="success-stories" >}}

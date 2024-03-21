@@ -487,7 +487,7 @@ for sld in pres.slides:
 {{< blocks/products/pf/slr-element name="การสนับสนุนฟรี" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="การสนับสนุนแบบชำระเงิน" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="บล็อก" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="บันทึกประจำรุ่น" href="https://docs.aspose.com/slides/python-net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="บันทึกประจำรุ่น" href="https://releases.aspose.com/slides/python-net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="ทำไมต้อง Aspose.Slides สำหรับ Python ผ่าน .NET" tabId="success-stories" >}}

@@ -10,7 +10,7 @@ description: A API do PowerPoint do Reporting Services é Aspose.Slides para SQL
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
 
-{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/reportingservices" >}}
+{{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/buy" docsLink="https://releases.aspose.com/slides/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/reportingservices" >}}
 
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>

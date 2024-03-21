@@ -557,7 +557,7 @@ Produkten fungerade som annonserad, dokumentationen var lätt att följa och sup
 {{< blocks/products/pf/slr-element name="Gratis support" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Betald support" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blogg" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/php-java/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/php-java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Varför Aspose.Slides för PHP via Java?" tabId="success-stories" >}}

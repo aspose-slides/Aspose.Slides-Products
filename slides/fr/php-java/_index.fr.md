@@ -557,7 +557,7 @@ Le produit fonctionnait comme annoncé, la documentation était facile à suivre
 {{< blocks/products/pf/slr-element name="Assistance gratuite" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Assistance payante" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Notes de version" href="https://docs.aspose.com/slides/php-java/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Notes de version" href="https://releases.aspose.com/slides/php-java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.Slides pour PHP via Java ?" tabId="success-stories" >}}
