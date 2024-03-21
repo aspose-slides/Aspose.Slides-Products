@@ -251,7 +251,7 @@ finally
 
     <div class="col-lg-12">
         <h2 class="h2title">How to Merge Presentations in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint to a ODP document</p>
+        <p>This Node.js code shows you how to merge presentations:</p>
         <pre>
             <code class="JavaScript">
 const asposeSlides = require('aspose.slides.via.net');
