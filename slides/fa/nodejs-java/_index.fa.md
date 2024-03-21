@@ -419,7 +419,7 @@ finally
         {{< blocks/products/pf/slr-element name="پشتیبانی رایگان" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="پشتیبانی پولی" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="وبلاگ" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="یادداشت های انتشار" href="https://docs.aspose.com/slides/nodejs-java/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="یادداشت های انتشار" href="https://releases.aspose.com/slides/nodejs-java/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="چرا Aspose.Slides برای Node.js از طریق جاوا؟" tabId="success-stories" >}}

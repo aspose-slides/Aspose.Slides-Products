@@ -397,7 +397,7 @@ Aspose.Slides'ın ASP.Net sunucularımızda kullanımı kolay ve güzel bir şek
 {{< blocks/products/pf/slr-element name="Ücretsiz Destek" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Ücretli Destek" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Sürüm notları" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Sürüm notları" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Neden Aspose.Slides for Xamarin?" tabId="success-stories" >}}

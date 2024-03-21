@@ -435,7 +435,7 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 {{< blocks/products/pf/slr-element name="Kostenlose Unterstützung" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="Bezahlte Unterstützung" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Bloggen" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Versionshinweise" href="https://docs.aspose.com/slides/java/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="Versionshinweise" href="https://releases.aspose.com/slides/java/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Warum Aspose.Slides für Java?" tabId="success-stories" >}}

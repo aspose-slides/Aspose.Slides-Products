@@ -460,7 +460,7 @@ bmp.Save(dir + "output.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);</code></p
 {{< blocks/products/pf/slr-element name="دعم مجاني" href="https://forum.aspose.com/c/slides" >}}
 {{< blocks/products/pf/slr-element name="دعم مدفوع" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="مدونة او مذكرة" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="ملاحظات الإصدار" href="https://docs.aspose.com/slides/net/release-notes/" >}}
+{{< blocks/products/pf/slr-element name="ملاحظات الإصدار" href="https://releases.aspose.com/slides/net/release-notes/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="لماذا Aspose.Slides لـ .NET؟" tabId="success-stories" >}}

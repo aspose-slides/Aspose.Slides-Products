@@ -419,7 +419,7 @@ finally
         {{< blocks/products/pf/slr-element name="Dukungan Gratis" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="Dukungan Berbayar" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Catatan Rilis" href="https://docs.aspose.com/slides/nodejs-java/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Catatan Rilis" href="https://releases.aspose.com/slides/nodejs-java/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Mengapa Aspose.Slides untuk Node.js melalui Java?" tabId="success-stories" >}}
