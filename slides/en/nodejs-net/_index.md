@@ -126,7 +126,7 @@ finally
     
     <div class="col-lg-12">
         <h2 class="h2title">How to Add/Remove/Clone Slides and Edit Shape Properties in Node.js</h2>
-        <p>This Node.js code shows you how to merge presentations:</p>
+        <p>This Node.js code shows you how to edit various properties and clone slides:</p>
         <pre>
             <code class="JavaScript">
 const asposeSlides = require('aspose.slides.via.net');
@@ -160,6 +160,7 @@ finally
             </code>
         </pre>
     </div>
+
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to PDF in Node.js</h2>
         <p>This Node.js code shows you how to convert a PowerPoint to a PDF document</p>
