@@ -104,71 +104,45 @@ description: Aspose.Slides para Node.js via .NET é uma API Node.js PowerPoint q
         <p>No exemplo abaixo, adicionamos um retângulo ao primeiro slide da apresentação.</p>
         <pre>
             <code class="JavaScript">	
-// Import the Aspose.Slides module for PowerPoint file manipulation
 const asposeSlides = require('aspose.slides.via.net');
 
-// Add necessary classes from the asposeSlides
-const { Presentation, SaveFormat, PdfOptions } = asposeSlides;
+const { Presentation, SaveFormat, ShapeType } = asposeSlides;
 
-const fs = require('fs');
-if (!fs.existsSync("out")) fs.mkdirSync("out");
-
-// Create and save an empty presentation to demonstrate basic functionality
-function createEmptyPresentation() {
-	
-    // Initialize a new empty presentation
-    var emptyPresentation = new Presentation();
+var pres = new Presentation();
+try 
+{
+    var slide = pres.slides.get(0);
+    slide.shapes.addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200);
     
-    // Save the empty presentation in PPTX format
-    emptyPresentation.save("out/emptyPresentation.pptx", SaveFormat.Pptx);
-    
-    // Release resources associated with the presentation
-    emptyPresentation.dispose();
+    pres.save("pres.pptx", SaveFormat.Pptx);
 }
-createEmptyPresentation(); // Execute the function to create an empty presentation
+finally
+{
+    if (pres != null) pres.dispose();
+}
             </code>
         </pre>
     </div>
+    
     <div class="col-lg-12">
-        <h2 class="h2title">Como adicionar/remover slides e editar propriedades de forma em Node.js</h2>
-        <p>Este código Node.js mostra como mesclar apresentações:</p>
+        <h2 class="h2title">Como adicionar/remover/clonar slides e editar propriedades de forma em Node.js</h2>
+        <p>Este código Node.js mostra como editar várias propriedades e clonar slides:</p>
         <pre>
             <code class="JavaScript">
-// Import the Aspose.Slides module for PowerPoint file manipulation
 const asposeSlides = require('aspose.slides.via.net');
 
-const {
-    Presentation,
-    BackgroundType,
-    FillType,
-    ImageFormat
-} = asposeSlides;
+const { Presentation, BackgroundType, FillType, ImageFormat } = asposeSlides;
 
-const fs = require('fs');
-
-// Function to demonstrate creating and manipulating a presentation
-function manipulatePresentation() {
-	
-    // Create a new presentation instance
-    var pres = new Presentation();
-    
+var pres = new Presentation();
+try 
+{
     // Add an empty slide to the presentation
     pres.slides.addEmptySlide(pres.layoutSlides.get(0));
     
-    // Create another presentation instance for cloning purposes
+    // Create another presentation and add its clone into the pres
     var pres2 = new Presentation();
-    // Add a clone of the first slide from pres2 into pres
     pres.slides.addClone(pres2.slides.get(0));
     
-    // Log the current count of slides in pres
-    console.log("countSlides:" + pres.slides.count);
-
-    // Remove the first slide from pres
-    pres.slides.removeAt(0);
-    
-    // Log the new count of slides after removal
-    console.log("countSlides:" + pres.slides.count);
-
     // Access and modify properties of the first slide in pres
     var slide = pres.slides.get(0); // Get the first slide
     var slideNumber = slide.slideNumber; // Get slide number
@@ -178,97 +152,144 @@ function manipulatePresentation() {
     slide.background.type = BackgroundType.OwnBackground; // Set background type
     slide.background.fillFormat.fillType = FillType.Solid; // Set fill type to solid
     slide.background.fillFormat.solidFillColor.color = "#AEC025F4"; // Set a solid fill color
-
-    // Log background type and color of the first slide
-    console.log("backgroundType:" + slide.background.type);
-    console.log("backgroundColor:" + slide.background.fillFormat.solidFillColor.color);
-
-	if (!fs.existsSync("out")) fs.mkdirSync("out");
-
-   // Generate and save a thumbnail of the first slide
-    var slideThumbnail = slide.getThumbnailWithImageSize({width: 960, height: 720}); // Get slide thumbnail
-    slideThumbnail.save("out/slide-thumbnail.png", ImageFormat.Png); // Save thumbnail as PNG
-
-    // Save the presentation to a file
-    pres.save("out/slides-manipulation.pptx", asposeSlides.SaveFormat.Pptx);
-
-    // Dispose of presentation objects to free resources
-    pres.dispose();
-    pres2.dispose();
+}
+finally
+{
+    if (pres != null) pres.dispose();
 }
             </code>
         </pre>
     </div>
+
     <div class="col-lg-12">
-        <h2 class="h2title">Como converter PowerPoint para PDF, GIF ou HTML em Node.js</h2>
-        <p>Este código Node.js mostra como converter um documento PowerPoint PPT, PPTX e OpenOffice ODP em um documento PDF usando as opções padrão. O arquivo resultante é um documento PDF com níveis máximos de qualidade</p>
+        <h2 class="h2title">Como converter PowerPoint para PDF em Node.js</h2>
+        <p>Este código Node.js mostra como converter um PowerPoint em um documento PDF</p>
         <pre>
             <code class="JavaScript">
-// Import the Aspose.Slides module for PowerPoint file manipulation
 const asposeSlides = require('aspose.slides.via.net');
 
-// Add necessary classes from the asposeSlides
-const { Presentation, SaveFormat, PdfOptions } = asposeSlides;
+const { Presentation, SaveFormat } = asposeSlides;
 
-const fs = require('fs');
-if (!fs.existsSync("out")) fs.mkdirSync("out");
-
-// Create and save an empty presentation to demonstrate basic functionality
-function createEmptyPresentation() {
-	
-    // Initialize a new empty presentation
-    var emptyPresentation = new Presentation();
-    
-    // Save the empty presentation in PPTX format
-    emptyPresentation.save("out/emptyPresentation.pptx", SaveFormat.Pptx);
-    
-    // Release resources associated with the presentation
-    emptyPresentation.dispose();
+var pres = new Presentation("pres.pptx");
+try 
+{
+    pres.save("pres.pdf", SaveFormat.Pdf);
 }
-createEmptyPresentation(); // Execute the function to create an empty presentation
-
-
-// Load, modify, and save presentations in different formats
-function savePresentation() {
-	
-    // Load an existing presentation from a file
-    var pres = new Presentation("samples_data/sample-presentation.pptx");
-    
-    // Configure options for PDF export
-    var pdfOptions = new PdfOptions();
-    pdfOptions.saveMetafilesAsPng = true; // Save metafiles as PNG
-    pdfOptions.jpegQuality = 100; // Set JPEG quality for images in the PDF
-    pdfOptions.sufficientResolution = 96; // Set the resolution for images are saved to pdf
-    
-    // Save the presentation in various formats with appropriate settings
-    pres.save("out/presentation-save-to-pdf.pdf", SaveFormat.Pdf, pdfOptions); // Save as PDF
-    pres.save("out/presentation-save-to-gif.gif", SaveFormat.Gif); // Save as GIF
-    pres.save("out/presentation-save-to-ppt.ppt", SaveFormat.Ppt); // Save as PPT 
-    pres.save("out/presentation-save-to-pptx.pptx", SaveFormat.Pptx); // Save as PPTX
-    pres.save("out/presentation-save-to-html.html", SaveFormat.Html); // Save as HTML
-    
-    // Release resources associated with the presentation
-    pres.dispose();
-} 
+finally
+{
+    if (pres != null) pres.dispose();
+}
             </code>
         </pre>
     </div>
+
+    <div class="col-lg-12">
+        <h2 class="h2title">Como converter PowerPoint para GIF em Node.js</h2>
+        <p>Este código Node.js mostra como converter um PowerPoint em uma imagem GIF</p>
+        <pre>
+            <code class="JavaScript">
+const asposeSlides = require('aspose.slides.via.net');
+
+const { Presentation, SaveFormat } = asposeSlides;
+
+var pres = new Presentation("pres.pptx");
+try 
+{
+    pres.save("pres.gif", SaveFormat.Gif);
+}
+finally
+{
+    if (pres != null) pres.dispose();
+}
+            </code>
+        </pre>
+    </div>
+
+    <div class="col-lg-12">
+        <h2 class="h2title">Como converter PowerPoint para HTML em Node.js</h2>
+        <p>Este código Node.js mostra como converter um PowerPoint em um documento HTML</p>
+        <pre>
+            <code class="JavaScript">
+const asposeSlides = require('aspose.slides.via.net');
+
+const { Presentation, SaveFormat } = asposeSlides;
+
+var pres = new Presentation("pres.pptx");
+try 
+{
+    pres.save("pres.html", SaveFormat.Html);
+}
+finally
+{
+    if (pres != null) pres.dispose();
+}
+            </code>
+        </pre>
+    </div>    
+    
+    <div class="col-lg-12">
+        <h2 class="h2title">Como converter PowerPoint para ODP em Node.js</h2>
+        <p>Este código Node.js mostra como converter um PowerPoint em um documento ODP</p>
+        <pre>
+            <code class="JavaScript">
+const asposeSlides = require('aspose.slides.via.net');
+
+const { Presentation, SaveFormat } = asposeSlides;
+
+var pres = new Presentation("pres.pptx");
+try 
+{
+    pres.save("pres.odp", SaveFormat.Odp);
+}
+finally
+{
+    if (pres != null) pres.dispose();
+}
+            </code>
+        </pre>
+    </div>   
+
+    <div class="col-lg-12">
+        <h2 class="h2title">Como mesclar apresentações em Node.js</h2>
+        <p>Este código Node.js mostra como mesclar apresentações:</p>
+        <pre>
+            <code class="JavaScript">
+const asposeSlides = require('aspose.slides.via.net');
+
+const { Presentation, SaveFormat } = asposeSlides;
+
+var pres1 = new Presentation("pres1.pptx");
+var pres2 = new Presentation("pres2.pptx");
+try 
+{
+    for (var i = 0; i < pres2.slides.length; i++) 
+    {
+        pres1.slides.addClone(pres2.slides.get(i));
+    }
+    
+    pres1.save("combinedPresentation.pptx", SaveFormat.Pptx);
+}
+finally
+{
+    if (pres1 != null) pres1.dispose();
+    if (pres2 != null) pres2.dispose();
+}
+            </code>
+        </pre>
+    </div>       
+
     <div class="col-lg-12">
         <h2 class="h2title">Como recuperar várias propriedades de uma apresentação do PowerPoint </h2>
         <p>O exemplo a seguir mostra como recuperar diversas propriedades de uma apresentação do PowerPoint.</p>
         <pre>
             <code class="JavaScript">
-// Import the Aspose.Slides module for PowerPoint file manipulation
 const asposeSlides = require('aspose.slides.via.net');
 
-// Add necessary classes from the asposeSlides
-const { Presentation, SaveFormat, PdfOptions } = asposeSlides;
+const { Presentation } = asposeSlides;
 
-function getSomeProperties() {
-	
-    // Load an existing presentation from a file named "sample-presentation.pptx"
-    var pres = new asposeSlides.Presentation("samples_data/sample-presentation.pptx");
-    
+var pres = new Presentation("pres.pptx");
+try 
+{
     // Retrieve various properties of the presentation
     var countSlides = pres.slides.count; // Total number of slides
     var countMastersSlides = pres.masters.count; // Total number of master slides
@@ -294,8 +315,10 @@ function getSomeProperties() {
     console.log("sourceFormat:" + sourceFormat);    
     console.log("countVideos:" + countVideos);    
     console.log("countImages:" + countImages);    
-   
-    pres.dispose();  // Release resources associated with the presentation
+}
+finally
+{
+    if (pres != null) pres.dispose();
 }
             </code>
         </pre>
