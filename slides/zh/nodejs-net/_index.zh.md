@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js via .NET 是一个 Node.js PowerPoint API
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong> 是一个 Node.js 库，可让您在 Node.js 中创建、修改和转换 PowerPoint 演示文稿。它支持所有演示元素，例如幻灯片、形状、文本、图表、表格、图像等。它还提供许多高级功能，例如合并、克隆、拆分、比较和打印演示文稿。它的工作没有任何依赖性，可以在短时间内处理数千个演示文稿。</p>
 
 <p><strong>Aspose.Slides for Node.js via .NET</strong> 提供以下流行功能：</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="人们在说什么" subTitle="不要只相信我们的话。了解用户对 PowerPoint API 的评价。" caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- 我们发现 Aspose.Slides 易于使用并且在我们的服务器上运行良好。我们发现它们满足了动态生成文件的重要需求，从而将我们的业务范围扩展到传统的 Web 应用程序之外。
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- 该产品的工作原理与广告中所宣传的一样，文档易于理解，支持论坛就是我们所需要的所有帮助。我们部署的最终解决方案大大超出了我们最初的预期。
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="学习资源" tabId="resources" >}}

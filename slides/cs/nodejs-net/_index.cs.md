@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js přes .NET je rozhraní Node.js PowerPoin
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js přes .NET</strong> je knihovna Node.js, která umožňuje vytvářet, upravovat a převádět prezentace PowerPoint v Node.js. Podporuje všechny prvky prezentace, jako jsou snímky, tvary, text, grafy, tabulky, obrázky a další. Nabízí také mnoho pokročilých funkcí, jako je slučování, klonování, rozdělování, porovnávání a tisk prezentací. Funguje bez jakýchkoli závislostí a dokáže zpracovat tisíce prezentací v krátkém čase.</p>
 
 <p><strong>Aspose.Slides pro Node.js přes .NET</strong> poskytuje tyto oblíbené funkce:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Co lidé říkají" subTitle="Neberte nás za slovo. Podívejte se, co uživatelé říkají o PowerPoint API." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Zjistili jsme, že Aspose.Slides se snadno používá a dobře funguje na našich serverech. Zjistili jsme, že splňují důležitou potřebu dynamického generování souborů, abychom rozšířili náš dosah za hranice tradiční webové aplikace.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Produkt fungoval tak, jak byl inzerován, dokumentace byla snadno sledovatelná a fóra podpory byla vše, co jsme potřebovali. Konečné řešení, které jsme nasadili, výrazně předčilo naše původní očekávání.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Výukové zdroje" tabId="resources" >}}

@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js via .NET عبارة عن واجهة بر�
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong> هي مكتبة Node.js التي تتيح لك إنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها في Node.js. وهو يدعم جميع عناصر العرض التقديمي مثل الشرائح والأشكال والنصوص والمخططات والجداول والصور والمزيد. كما يوفر العديد من الميزات المتقدمة مثل دمج العروض التقديمية واستنساخها وتقسيمها ومقارنتها وطباعتها. إنه يعمل بدون أي تبعيات ويمكنه معالجة آلاف العروض التقديمية في وقت قصير.</p>
 
 <p>يوفر <strong>Aspose.Slides for Node.js عبر .NET</strong> هذه الميزات الشائعة:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="ما يقوله الناس" subTitle="لا تأخذ كلمتنا فقط. تعرف على ما يقوله المستخدمون حول واجهات برمجة تطبيقات PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- لقد وجدنا أن Aspose.Slides سهل الاستخدام ويعمل بشكل جيد على خوادمنا. لقد وجدنا أنها تلبي حاجة مهمة لإنشاء الملفات ديناميكيًا لتوسيع نطاق وصولنا إلى ما هو أبعد من تطبيقات الويب التقليدية.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- لقد عمل المنتج كما هو معلن عنه، وكان من السهل متابعة الوثائق، وكانت منتديات الدعم هي كل المساعدة التي نحتاجها. لقد تجاوز الحل النهائي الذي قمنا بنشره توقعاتنا الأولية بقدر كبير.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="مصادر التعلم" tabId="resources" >}}

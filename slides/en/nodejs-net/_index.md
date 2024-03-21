@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong> is a Node.js library that lets you create, modify, and convert PowerPoint presentations in Node.js. It supports all presentation elements such as slides, shapes, text, charts, tables, images, and more. It also offers many advanced features such as merging, cloning, splitting, comparing, and printing presentations. It works without any dependencies and can process thousands of presentations in a short time.</p>
 
 <p><strong>Aspose.Slides for Node.js via .NET</strong> provides these popular features:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}

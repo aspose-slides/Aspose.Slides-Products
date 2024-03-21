@@ -12,8 +12,6 @@ description: Aspose.Slides for Node.js via .NET は、Node.js で PowerPoint プ
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong> は、Node.js で PowerPoint プレゼンテーションを作成、変更、変換できる Node.js ライブラリです。スライド、図形、テキスト、グラフ、表、画像など、すべてのプレゼンテーション要素をサポートします。また、プレゼンテーションの結合、複製、分割、比較、印刷など、多くの高度な機能も提供します。依存関係なしで動作し、短時間で何千ものプレゼンテーションを処理できます。</p>
 
 <p><strong>Aspose.Slides for Node.js via .NET</strong> は、次の一般的な機能を提供します。</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="人々の意見" subTitle="私たちの言葉をそのまま鵜呑みにしないでください。 PowerPoint API についてのユーザーの意見をご覧ください。" caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Aspose.Slides は使いやすく、サーバー上でうまく動作することがわかりました。これらは、従来の Web アプリケーションを超えて範囲を拡大するためにファイルを動的に生成するという重要なニーズを満たしていることがわかりました。
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- 製品は宣伝どおりに機能し、ドキュメントはわかりやすく、必要なサポートはすべてサポート フォーラムにありました。導入した最終ソリューションは、当初の期待を大幅に上回りました。
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="学習リソース" tabId="resources" >}}

@@ -12,8 +12,6 @@ description: .NET을 통한 Node.js용 Aspose.Slides는 Node.js에서 PowerPoint
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>.NET을 통한 Node.js용 Aspose.Slides</strong>는 Node.js에서 PowerPoint 프레젠테이션을 생성, 수정 및 변환할 수 있는 Node.js 라이브러리입니다. 슬라이드, 도형, 텍스트, 차트, 표, 이미지 등과 같은 모든 프레젠테이션 요소를 지원합니다. 또한 프레젠테이션 병합, 복제, 분할, 비교 및 ​​인쇄와 같은 다양한 고급 기능을 제공합니다. 종속성 없이 작동하며 짧은 시간에 수천 개의 프레젠테이션을 처리할 수 있습니다.</p>
 
 <p><strong>.NET을 통한 Node.js용 Aspose.Slides</strong>는 다음과 같은 인기 있는 기능을 제공합니다.</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="사람들이 말하는 것" subTitle="우리의 말만 받아들이지 마십시오. PowerPoint API에 대한 사용자의 의견을 확인하세요." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- 우리는 Aspose.Slides가 사용하기 쉽고 우리 서버에서 잘 작동한다는 것을 알았습니다. 우리는 이것이 전통적인 웹 애플리케이션 이상으로 범위를 확장하기 위해 동적으로 파일을 생성해야 하는 중요한 요구 사항을 충족한다는 것을 발견했습니다.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- 제품은 광고한 대로 작동했고 문서는 따라하기 쉬웠으며 지원 포럼은 우리에게 필요한 모든 도움을 제공했습니다. 우리가 배포한 최종 솔루션은 초기 기대치를 훨씬 뛰어넘었습니다.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="학습 자료" tabId="resources" >}}

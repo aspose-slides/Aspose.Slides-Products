@@ -12,8 +12,6 @@ description: Aspose.Slides för Node.js via .NET är ett Node.js PowerPoint API 
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides för Node.js via .NET</strong> är ett Node.js-bibliotek som låter dig skapa, ändra och konvertera PowerPoint-presentationer i Node.js. Den stöder alla presentationselement som bilder, former, text, diagram, tabeller, bilder och mer. Den erbjuder också många avancerade funktioner som sammanslagning, kloning, delning, jämförelse och utskrift av presentationer. Den fungerar utan några beroenden och kan bearbeta tusentals presentationer på kort tid.</p>
 
 <p><strong>Aspose.Slides för Node.js via .NET</strong> tillhandahåller dessa populära funktioner:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Vad folk säger" subTitle="Ta inte bara vårt ord för det. Se vad användare har att säga om PowerPoint API:er." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Vi har funnit att Aspose.Slides är lätt att använda och fungerar bra på våra servrar. Vi har funnit att de fyller ett viktigt behov av dynamiskt genererande filer för att utöka vår räckvidd bortom den traditionella webbapplikationen.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Produkten fungerade som annonserad, dokumentationen var lätt att följa och supportforumen var all hjälp vi behövde. Den slutliga lösningen som vi implementerade har överträffat våra initiala förväntningar avsevärt.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Lärresurser" tabId="resources" >}}

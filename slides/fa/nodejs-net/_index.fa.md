@@ -12,8 +12,6 @@ description: Aspose.Slides برای Node.js از طریق .NET یک API پاور
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides برای Node.js از طریق .NET</strong> یک کتابخانه Node.js است که به شما امکان می دهد ارائه های پاورپوینت را در Node.js ایجاد، اصلاح و تبدیل کنید. از تمام عناصر ارائه مانند اسلایدها، اشکال، متن، نمودارها، جداول، تصاویر و غیره پشتیبانی می کند. همچنین بسیاری از ویژگی های پیشرفته مانند ادغام، شبیه سازی، تقسیم، مقایسه و چاپ ارائه ها را ارائه می دهد. بدون هیچ گونه وابستگی کار می کند و می تواند هزاران ارائه را در مدت زمان کوتاهی پردازش کند.</p>
 
 <p><strong>Aspose.Slides برای Node.js از طریق دات نت</strong> این ویژگی های محبوب را ارائه می دهد:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="آنچه مردم می گویند" subTitle="فقط حرف ما را قبول نکنید. ببینید کاربران در مورد API های پاورپوینت چه می گویند." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- ما دریافتیم که Aspose.Slides برای استفاده آسان است و به خوبی روی سرورهای ما کار می کند. ما دریافته‌ایم که آنها نیاز مهمی به تولید فایل‌ها به صورت پویا را برآورده می‌کنند تا دسترسی ما را فراتر از برنامه‌های وب سنتی گسترش دهند.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- محصول همانطور که تبلیغ می‌شد کار می‌کرد، مستندات به راحتی قابل پیگیری بود، و انجمن‌های پشتیبانی تمام کمکی بود که ما نیاز داشتیم. راه حل نهایی که ما به کار گرفتیم تا حد زیادی از انتظارات اولیه ما فراتر رفته است.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="منابع یادگیری" tabId="resources" >}}

@@ -12,8 +12,6 @@ description: Az Aspose.Slides for Node.js a .NET-en keresztül egy Node.js Power
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p>Az <strong>Aspose.Slides for Node.js .NET-en keresztül</strong> egy Node.js-könyvtár, amely lehetővé teszi PowerPoint-prezentációk létrehozását, módosítását és konvertálását a Node.js-ben. Támogatja az összes prezentációs elemet, például diákat, alakzatokat, szöveget, diagramokat, táblázatokat, képeket stb. Számos fejlett funkciót is kínál, például egyesítést, klónozást, felosztást, összehasonlítást és prezentációk nyomtatását. Függőség nélkül működik, és több ezer prezentációt képes rövid időn belül feldolgozni.</p>
 
 <p>Az <strong>Aspose.Slides for Node.js .NET-en keresztül</strong> a következő népszerű szolgáltatásokat nyújtja:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Mit mondanak az emberek" subTitle="Ne csak szót fogadjon. Tekintse meg, mit mondanak a felhasználók a PowerPoint API-król." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Úgy találtuk, hogy az Aspose.Slides könnyen használható és jól működik a szervereinken. Úgy találtuk, hogy ezek kielégítik a fájlok dinamikus generálásának fontos szükségletét, hogy kiterjesszék hatókörünket a hagyományos webalkalmazásokon túl.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- A termék a hirdetésnek megfelelően működött, a dokumentáció könnyen követhető volt, és a támogatási fórumok minden segítséget megadtak. Az általunk bevezetett végső megoldás jócskán felülmúlta kezdeti várakozásainkat.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Tanulási források" tabId="resources" >}}

@@ -12,8 +12,6 @@ description: Aspose.Slides pour Node.js via .NET est une API PowerPoint Node.js 
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides for Node.js via .NET</strong> est une bibliothèque Node.js qui vous permet de créer, modifier et convertir des présentations PowerPoint dans Node.js. Il prend en charge tous les éléments de présentation tels que les diapositives, les formes, le texte, les graphiques, les tableaux, les images, etc. Il offre également de nombreuses fonctionnalités avancées telles que la fusion, le clonage, le fractionnement, la comparaison et l'impression de présentations. Il fonctionne sans aucune dépendance et peut traiter des milliers de présentations en peu de temps.</p>
 
 <p><strong>Aspose.Slides pour Node.js via .NET</strong> fournit les fonctionnalités populaires suivantes :</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Ce que les gens disent" subTitle="Ne vous contentez pas de nous croire sur parole. Découvrez ce que les utilisateurs ont à dire sur les API PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Nous avons trouvé Aspose.Slides facile à utiliser et fonctionne bien sur nos serveurs. Nous avons constaté qu'ils répondent à un besoin important de génération dynamique de fichiers afin d'étendre notre portée au-delà de l'application Web traditionnelle.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Le produit fonctionnait comme annoncé, la documentation était facile à suivre et les forums d'assistance étaient toute l'aide dont nous avions besoin. La solution finale que nous avons déployée a largement dépassé nos attentes initiales.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Ressources d'apprentissage" tabId="resources" >}}

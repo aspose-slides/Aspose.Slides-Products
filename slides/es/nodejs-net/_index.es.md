@@ -12,8 +12,6 @@ description: Aspose.Slides para Node.js a través de .NET es una API de PowerPoi
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides para Node.js a través de .NET</strong> es una biblioteca de Node.js que le permite crear, modificar y convertir presentaciones de PowerPoint en Node.js. Admite todos los elementos de presentación, como diapositivas, formas, texto, gráficos, tablas, imágenes y más. También ofrece muchas funciones avanzadas como fusionar, clonar, dividir, comparar e imprimir presentaciones. Funciona sin dependencias y puede procesar miles de presentaciones en poco tiempo.</p>
 
 <p><strong>Aspose.Slides para Node.js a través de .NET</strong> proporciona estas características populares:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Lo que la gente esta diciendo" subTitle="No confíe sólo en nuestra palabra. Vea lo que los usuarios tienen que decir sobre las API de PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Descubrimos que Aspose.Slides es fácil de usar y funciona bien en nuestros servidores. Hemos descubierto que satisfacen una necesidad importante de generar archivos dinámicamente para ampliar nuestro alcance más allá de la aplicación web tradicional.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- El producto funcionó según lo anunciado, la documentación fue fácil de seguir y los foros de soporte fueron toda la ayuda que necesitábamos. La solución final que implementamos superó con creces nuestras expectativas iniciales.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Recursos de aprendizaje" tabId="resources" >}}

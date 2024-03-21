@@ -12,8 +12,6 @@ description: Aspose.Slides для Node.js через .NET — это API-инт�
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/tab-content >}}
-
 <p><strong>Aspose.Slides для Node.js через .NET</strong> — это библиотека Node.js, которая позволяет создавать, изменять и конвертировать презентации PowerPoint в Node.js. Он поддерживает все элементы презентации, такие как слайды, фигуры, текст, диаграммы, таблицы, изображения и многое другое. Он также предлагает множество расширенных функций, таких как слияние, клонирование, разделение, сравнение и печать презентаций. Он работает без каких-либо зависимостей и может обрабатывать тысячи презентаций за короткое время.</p>
 
 <p><strong>Aspose.Slides для Node.js через .NET</strong> предоставляет следующие популярные функции:</p>
@@ -329,28 +327,6 @@ finally
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="Что говорят люди" subTitle="Не верьте нам на слово. Узнайте, что говорят пользователи об API PowerPoint." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- Мы обнаружили, что Aspose.Slides прост в использовании и хорошо работает на наших серверах. Мы обнаружили, что они удовлетворяют важную потребность в динамическом создании файлов и расширяют наши возможности за пределы традиционных веб-приложений.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- Продукт работал так, как рекламировалось, документацию было легко понять, а форумы поддержки оказали нам всю необходимую помощь. Окончательное решение, которое мы внедрили, значительно превзошло наши первоначальные ожидания.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Образовательные ресурсы" tabId="resources" >}}
