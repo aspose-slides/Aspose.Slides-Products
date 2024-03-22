@@ -12,6 +12,8 @@ description: Aspose.Slides для Node.js через .NET — это API-инт�
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides для Node.js через .NET</strong> — это библиотека Node.js, которая позволяет создавать, изменять и конвертировать презентации PowerPoint в Node.js. Он поддерживает все элементы презентации, такие как слайды, фигуры, текст, диаграммы, таблицы, изображения и многое другое. Он также предлагает множество расширенных функций, таких как слияние, клонирование, разделение, сравнение и печать презентаций. Он работает без каких-либо зависимостей и может обрабатывать тысячи презентаций за короткое время.</p>
 
 <p><strong>Aspose.Slides для Node.js через .NET</strong> предоставляет следующие популярные функции:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides для Node.js через .NET — это API-инт�
 </ul>
 
 <p>Node.js — это популярная бесплатная кроссплатформенная среда выполнения JavaScript с открытым исходным кодом, которая позволяет разработчикам писать инструменты командной строки и серверные сценарии вне браузера. По этой причине команда <strong>Aspose.Slides</strong> с гордостью предлагает <strong>Aspose.Slides для Node.js через .NET</strong> сообществу Node.js.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">
@@ -357,6 +361,7 @@ finally
     {{< blocks/products/pf/offers-section-item link="/slides/ru/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ru/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ru/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/ru/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ru/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/ru/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}    
     {{< blocks/products/pf/offers-section-item link="/slides/ru/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}

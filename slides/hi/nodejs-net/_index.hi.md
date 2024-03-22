@@ -12,6 +12,8 @@ description: .NET के माध्यम से Node.js के लिए Aspo
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>.NET के माध्यम से Node.js के लिए Aspose.Slides</strong> एक Node.js लाइब्रेरी है जो आपको Node.js में PowerPoint प्रेजेंटेशन बनाने, संशोधित करने और परिवर्तित करने की सुविधा देती है। यह सभी प्रस्तुति तत्वों जैसे स्लाइड, आकार, टेक्स्ट, चार्ट, टेबल, चित्र और बहुत कुछ का समर्थन करता है। यह कई उन्नत सुविधाएँ भी प्रदान करता है जैसे विलय, क्लोनिंग, विभाजन, तुलना और मुद्रण प्रस्तुतियाँ। यह बिना किसी निर्भरता के काम करता है और कम समय में हजारों प्रस्तुतियों को संसाधित कर सकता है।</p>
 
 <p><strong>.NET के माध्यम से Node.js के लिए Aspose.Slides</strong> ये लोकप्रिय सुविधाएँ प्रदान करता है:</p>
@@ -27,6 +29,8 @@ description: .NET के माध्यम से Node.js के लिए Aspo
 </ul>
 
 <p>Node.js एक लोकप्रिय, मुफ़्त, ओपन-सोर्स और क्रॉस-प्लेटफ़ॉर्म जावास्क्रिप्ट रनटाइम वातावरण है जो डेवलपर्स को ब्राउज़र के बाहर कमांड लाइन टूल और सर्वर-साइड स्क्रिप्ट लिखने की सुविधा देता है। इस कारण से, <strong>Aspose.Slides</strong> टीम को Node.js समुदाय को .NET</strong> के माध्यम से Node.js के लिए <strong>Aspose.Slides की पेशकश करने पर गर्व है।</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

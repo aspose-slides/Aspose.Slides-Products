@@ -12,6 +12,8 @@ description: Aspose.Slides for Node.js přes .NET je rozhraní Node.js PowerPoin
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides for Node.js přes .NET</strong> je knihovna Node.js, která umožňuje vytvářet, upravovat a převádět prezentace PowerPoint v Node.js. Podporuje všechny prvky prezentace, jako jsou snímky, tvary, text, grafy, tabulky, obrázky a další. Nabízí také mnoho pokročilých funkcí, jako je slučování, klonování, rozdělování, porovnávání a tisk prezentací. Funguje bez jakýchkoli závislostí a dokáže zpracovat tisíce prezentací v krátkém čase.</p>
 
 <p><strong>Aspose.Slides pro Node.js přes .NET</strong> poskytuje tyto oblíbené funkce:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides for Node.js přes .NET je rozhraní Node.js PowerPoin
 </ul>
 
 <p>Node.js je populární, bezplatné, open-source a multiplatformní běhové prostředí JavaScriptu, které umožňuje vývojářům psát nástroje příkazového řádku a skripty na straně serveru mimo prohlížeč. Z tohoto důvodu je tým <strong>Aspose.Slides</strong> hrdý na to, že může komunitě Node.js nabídnout <strong>Aspose.Slides pro Node.js prostřednictvím .NET</strong>.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

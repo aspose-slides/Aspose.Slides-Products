@@ -12,6 +12,8 @@ description: Aspose.Slides برای Node.js از طریق .NET یک API پاور
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides برای Node.js از طریق .NET</strong> یک کتابخانه Node.js است که به شما امکان می دهد ارائه های پاورپوینت را در Node.js ایجاد، اصلاح و تبدیل کنید. از تمام عناصر ارائه مانند اسلایدها، اشکال، متن، نمودارها، جداول، تصاویر و غیره پشتیبانی می کند. همچنین بسیاری از ویژگی های پیشرفته مانند ادغام، شبیه سازی، تقسیم، مقایسه و چاپ ارائه ها را ارائه می دهد. بدون هیچ گونه وابستگی کار می کند و می تواند هزاران ارائه را در مدت زمان کوتاهی پردازش کند.</p>
 
 <p><strong>Aspose.Slides برای Node.js از طریق دات نت</strong> این ویژگی های محبوب را ارائه می دهد:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides برای Node.js از طریق .NET یک API پاور
 </ul>
 
 <p>Node.js یک محیط اجرای جاوا اسکریپت محبوب، رایگان، منبع باز و کراس پلتفرم است که به توسعه دهندگان اجازه می دهد ابزارهای خط فرمان و اسکریپت های سمت سرور را خارج از مرورگر بنویسند. به همین دلیل، تیم <strong>Aspose.Slides</strong> مفتخر است <strong>Aspose.Slides را برای Node.js از طریق .NET</strong> به انجمن Node.js ارائه دهد.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

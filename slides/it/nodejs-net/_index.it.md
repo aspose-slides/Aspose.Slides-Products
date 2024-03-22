@@ -12,6 +12,8 @@ description: Aspose.Slides per Node.js tramite .NET è un'API PowerPoint di Node
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides per Node.js tramite .NET</strong> è una libreria Node.js che ti consente di creare, modificare e convertire presentazioni PowerPoint in Node.js. Supporta tutti gli elementi di presentazione come diapositive, forme, testo, grafici, tabelle, immagini e altro. Offre inoltre molte funzionalità avanzate come l'unione, la clonazione, la divisione, il confronto e la stampa di presentazioni. Funziona senza dipendenze e può elaborare migliaia di presentazioni in breve tempo.</p>
 
 <p><strong>Aspose.Slides per Node.js tramite .NET</strong> fornisce queste funzionalità popolari:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides per Node.js tramite .NET è un'API PowerPoint di Node
 </ul>
 
 <p>Node.js è un ambiente runtime JavaScript popolare, gratuito, open source e multipiattaforma che consente agli sviluppatori di scrivere strumenti da riga di comando e script lato server al di fuori di un browser. Per questo motivo, il team <strong>Aspose.Slides</strong> è orgoglioso di offrire <strong>Aspose.Slides per Node.js tramite .NET</strong> alla comunità Node.js.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

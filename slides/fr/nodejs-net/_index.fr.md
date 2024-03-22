@@ -12,6 +12,8 @@ description: Aspose.Slides pour Node.js via .NET est une API PowerPoint Node.js 
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides for Node.js via .NET</strong> est une bibliothèque Node.js qui vous permet de créer, modifier et convertir des présentations PowerPoint dans Node.js. Il prend en charge tous les éléments de présentation tels que les diapositives, les formes, le texte, les graphiques, les tableaux, les images, etc. Il offre également de nombreuses fonctionnalités avancées telles que la fusion, le clonage, le fractionnement, la comparaison et l'impression de présentations. Il fonctionne sans aucune dépendance et peut traiter des milliers de présentations en peu de temps.</p>
 
 <p><strong>Aspose.Slides pour Node.js via .NET</strong> fournit les fonctionnalités populaires suivantes :</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides pour Node.js via .NET est une API PowerPoint Node.js 
 </ul>
 
 <p>Node.js est un environnement d'exécution JavaScript populaire, gratuit, open source et multiplateforme qui permet aux développeurs d'écrire des outils de ligne de commande et des scripts côté serveur en dehors d'un navigateur. Pour cette raison, l'équipe <strong>Aspose.Slides</strong> est fière de proposer <strong>Aspose.Slides pour Node.js via .NET</strong> à la communauté Node.js.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">
