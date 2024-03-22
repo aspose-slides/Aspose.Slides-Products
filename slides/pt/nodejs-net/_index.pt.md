@@ -12,6 +12,8 @@ description: Aspose.Slides para Node.js via .NET é uma API Node.js PowerPoint q
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides para Node.js via .NET</strong> é uma biblioteca Node.js que permite criar, modificar e converter apresentações do PowerPoint em Node.js. Suporta todos os elementos de apresentação, como slides, formas, texto, gráficos, tabelas, imagens e muito mais. Ele também oferece muitos recursos avançados, como mesclar, clonar, dividir, comparar e imprimir apresentações. Funciona sem dependências e pode processar milhares de apresentações em pouco tempo.</p>
 
 <p><strong>Aspose.Slides para Node.js via .NET</strong> fornece estes recursos populares:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides para Node.js via .NET é uma API Node.js PowerPoint q
 </ul>
 
 <p>Node.js é um ambiente de execução JavaScript popular, gratuito, de código aberto e multiplataforma que permite aos desenvolvedores escrever ferramentas de linha de comando e scripts do lado do servidor fora de um navegador. Por esse motivo, a equipe <strong>Aspose.Slides</strong> tem orgulho de oferecer <strong>Aspose.Slides para Node.js via .NET</strong> para a comunidade Node.js.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

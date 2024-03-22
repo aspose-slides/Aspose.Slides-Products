@@ -12,6 +12,8 @@ description: Az Aspose.Slides for Node.js a .NET-en keresztül egy Node.js Power
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p>Az <strong>Aspose.Slides for Node.js .NET-en keresztül</strong> egy Node.js-könyvtár, amely lehetővé teszi PowerPoint-prezentációk létrehozását, módosítását és konvertálását a Node.js-ben. Támogatja az összes prezentációs elemet, például diákat, alakzatokat, szöveget, diagramokat, táblázatokat, képeket stb. Számos fejlett funkciót is kínál, például egyesítést, klónozást, felosztást, összehasonlítást és prezentációk nyomtatását. Függőség nélkül működik, és több ezer prezentációt képes rövid időn belül feldolgozni.</p>
 
 <p>Az <strong>Aspose.Slides for Node.js .NET-en keresztül</strong> a következő népszerű szolgáltatásokat nyújtja:</p>
@@ -27,6 +29,8 @@ description: Az Aspose.Slides for Node.js a .NET-en keresztül egy Node.js Power
 </ul>
 
 <p>A Node.js egy népszerű, ingyenes, nyílt forráskódú és többplatformos JavaScript futtatókörnyezet, amely lehetővé teszi a fejlesztők számára, hogy parancssori eszközöket és szerveroldali szkripteket írjanak a böngészőn kívül. Emiatt az <strong>Aspose.Slides</strong> csapat büszkén kínálja az <strong>Aspose.Slides for Node.js programot .NET-en keresztül</strong> a Node.js közösség számára.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

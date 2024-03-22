@@ -12,6 +12,8 @@ description: Aspose.Slides para Node.js a través de .NET es una API de PowerPoi
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides para Node.js a través de .NET</strong> es una biblioteca de Node.js que le permite crear, modificar y convertir presentaciones de PowerPoint en Node.js. Admite todos los elementos de presentación, como diapositivas, formas, texto, gráficos, tablas, imágenes y más. También ofrece muchas funciones avanzadas como fusionar, clonar, dividir, comparar e imprimir presentaciones. Funciona sin dependencias y puede procesar miles de presentaciones en poco tiempo.</p>
 
 <p><strong>Aspose.Slides para Node.js a través de .NET</strong> proporciona estas características populares:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides para Node.js a través de .NET es una API de PowerPoi
 </ul>
 
 <p>Node.js es un entorno de ejecución de JavaScript popular, gratuito, de código abierto y multiplataforma que permite a los desarrolladores escribir herramientas de línea de comandos y scripts del lado del servidor fuera de un navegador. Por esta razón, el equipo de <strong>Aspose.Slides</strong> se enorgullece de ofrecer <strong>Aspose.Slides para Node.js a través de .NET</strong> a la comunidad de Node.js.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

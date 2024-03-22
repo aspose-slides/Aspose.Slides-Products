@@ -12,6 +12,8 @@ description: Aspose.Slides for Node.js via .NET عبارة عن واجهة بر�
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides for Node.js via .NET</strong> هي مكتبة Node.js التي تتيح لك إنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها في Node.js. وهو يدعم جميع عناصر العرض التقديمي مثل الشرائح والأشكال والنصوص والمخططات والجداول والصور والمزيد. كما يوفر العديد من الميزات المتقدمة مثل دمج العروض التقديمية واستنساخها وتقسيمها ومقارنتها وطباعتها. إنه يعمل بدون أي تبعيات ويمكنه معالجة آلاف العروض التقديمية في وقت قصير.</p>
 
 <p>يوفر <strong>Aspose.Slides for Node.js عبر .NET</strong> هذه الميزات الشائعة:</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides for Node.js via .NET عبارة عن واجهة بر�
 </ul>
 
 <p>Node.js هي بيئة تشغيل جافا سكريبت شائعة ومجانية ومفتوحة المصدر ومتعددة الأنظمة الأساسية، تتيح للمطورين كتابة أدوات سطر الأوامر والبرامج النصية من جانب الخادم خارج المتصفح. لهذا السبب، يفخر فريق <strong>Aspose.Slides</strong> بتقديم <strong>Aspose.Slides for Node.js عبر .NET</strong> إلى مجتمع Node.js.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

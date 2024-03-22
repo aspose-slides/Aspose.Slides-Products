@@ -12,6 +12,8 @@ description: Aspose.Slides for Node.js via .NET 是一個 Node.js PowerPoint API
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides for Node.js via .NET</strong> 是一個 Node.js 函式庫，可讓您在 Node.js 中建立、修改和轉換 PowerPoint 簡報。它支援所有簡報元素，例如幻燈片、形狀、文字、圖表、表格、圖像等。它還提供許多高級功能，例如合併、克隆、分割、比較和列印簡報。它的工作沒有任何依賴性，可以在短時間內處理數千個簡報。</p>
 
 <p><strong>Aspose.Slides for Node.js via .NET</strong> 提供以下流行功能：</p>
@@ -27,6 +29,8 @@ description: Aspose.Slides for Node.js via .NET 是一個 Node.js PowerPoint API
 </ul>
 
 <p>Node.js 是一種流行的、免費的、開源的、跨平台的 JavaScript 執行環境，允許開發人員在瀏覽器之外編寫命令列工具和伺服器端腳本。因此，<strong>Aspose.Slides</strong> 團隊很自豪能夠向 Node.js 社群提供<strong>Aspose.Slides for Node.js via .NET</strong>。</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">

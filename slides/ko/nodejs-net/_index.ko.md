@@ -12,6 +12,8 @@ description: .NET을 통한 Node.js용 Aspose.Slides는 Node.js에서 PowerPoint
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink=""  directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>.NET을 통한 Node.js용 Aspose.Slides</strong>는 Node.js에서 PowerPoint 프레젠테이션을 생성, 수정 및 변환할 수 있는 Node.js 라이브러리입니다. 슬라이드, 도형, 텍스트, 차트, 표, 이미지 등과 같은 모든 프레젠테이션 요소를 지원합니다. 또한 프레젠테이션 병합, 복제, 분할, 비교 및 ​​인쇄와 같은 다양한 고급 기능을 제공합니다. 종속성 없이 작동하며 짧은 시간에 수천 개의 프레젠테이션을 처리할 수 있습니다.</p>
 
 <p><strong>.NET을 통한 Node.js용 Aspose.Slides</strong>는 다음과 같은 인기 있는 기능을 제공합니다.</p>
@@ -27,6 +29,8 @@ description: .NET을 통한 Node.js용 Aspose.Slides는 Node.js에서 PowerPoint
 </ul>
 
 <p>Node.js는 개발자가 브라우저 외부에서 명령줄 도구와 서버측 스크립트를 작성할 수 있게 해주는 인기 있는 무료 오픈 소스 크로스 플랫폼 JavaScript 런타임 환경입니다. 이러한 이유로 <strong>Aspose.Slides</strong> 팀은 Node.js 커뮤니티에 <strong>.NET을 통한 Node.js용 Aspose.Slides</strong>를 제공하게 된 것을 자랑스럽게 생각합니다.</p>
+
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">
