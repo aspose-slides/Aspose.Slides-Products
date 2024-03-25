@@ -16,171 +16,19 @@ description: Aspose.Slides for Python via Java is a Python PowerPoint API that l
 
 <p><strong>Aspose.Slides for Python via Java</strong> is a Python library that lets you create, modify, and convert PowerPoint presentations in Python. It supports all presentation elements such as slides, shapes, text, charts, tables, images, and more. It also offers many advanced features such as merging, cloning, splitting, comparing, and printing presentations. It works without any dependencies and can process thousands of presentations in a short time.</p>
 
-<p><strong>Aspose.Slides for Python via Java</strong> provides these popular features:</p>
-<ul>
-    <li>Loading, opening, and viewing presentations.</li>
-    <li>Editing presentations.</li>
-    <li>Converting presentation files to popular presentation formats, such as PPT, PPTX, and ODP.</li>
-    <li>Exporting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
-    <li>Rendering and printing presentations.</li>
-    <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
-    <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
-    <li>And many more features.</li>
-</ul>
-
-<p>Python is a popular, free, open-source and cross-platform JavaScript runtime environmentthat lets developers write command line tools and server-side scripts outside of a browser. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for Python via Java</strong> to the Python community.</p>
-
 {{< /blocks/products/pf/tab-content >}}
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+{{% blocks/products/pf/feature-page-section h2="Why Choose Aspose.Slides for Python via Java?" %}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of API capabilities." >}}
-<div class="diagram1 d1-python">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-table">
-    </i>
-    Data Processing
-   </header>
-   <ul>
-    <li>Manage Charts</li>
-    <li>Manage SmartArts</li>
-    <li>Manage PowerPoint Shapes</li>
-    <li>Manage ActiveX Controls</li>
-    <li>Manage OleObjects</li>
-   </ul>
-   <header>
-    <i class="fa fa-text-width">
-    </i>
-    Text &amp; Paragraph
-   </header>
-   <ul>
-    <li>Manipulate Text &amp; Formatting</li>
-    <li>Manipulate Hyperlink Text</li>
-    <li>Set Placeholder Type</li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cog">
-    </i>
-    Graphics &amp; Multimedia
-   </header>
-   <ul>
-    <li>Manage Slide Transitions</li>
-    <li>Manage Animation Effects</li>
-    <li>Add Connectors to Shapes</li>
-    <li>Rotate &amp; Flip Shapes</li>
-    <li>Manage Shape's Line Styles</li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Python PowerPoint Processing APIs" src="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg"/>
-  <header>Aspose.Slides</header>
-  <footer>
-   <small>
-    <em>for</em>
-   </small>
-   Python
-   <em>via Java</em>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+Aspose.Slides for Python via Java offers many advantages over other solutions for PowerPoint automation, such as:
 
-{{< /blocks/products/pf/carousel-item >}}
+- **Cross-platform compatibility**: Aspose.Slides for Python via Java supports multiple platforms. You can use Aspose.Slides for Python via Java on Windows, Linux, macOS, and other operating systems.
+- **Easy integration and deployment**: Aspose.Slides for Python via Java is a standalone library that does not require Microsoft Office or any other software to be installed on your system. You can easily integrate Aspose.Slides for Python via Java with your existing applications and deploy it on any server or cloud environment.
+- **Powerful features and functionality**: Aspose.Slides for Python via Java provides a rich set of features and functionality for working with PowerPoint presentations, such as creating and modifying slides, adding and editing shapes, text, images, animations, transitions, charts, tables, and other elements, applying themes and layouts, inserting audio and video, exporting and printing presentations, export to video, and much more.
+- **High performance and quality**:  Aspose.Slides for Python via Java delivers high performance and quality results for processing PowerPoint presentations. You can process thousands of presentations in minutes, without compromising the fidelity and accuracy of the output.
+- **Free trial and licensing options**: Aspose.Slides for Python via Java offers a free trial version that you can download and use for 30 days, without any limitations. You can also choose from various licensing options that suit your needs and budget, such as developer, site, OEM, and cloud licenses.
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Python via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where Python, Java and jpype1 bridge are installed." >}}
-<div class="diagram1 d1-python">
- <div class="d1-row">
-  <div class="d1-col d1-left"></div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Java Runtime Environment 
-   </header>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for Python" src="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>for</em>
-   </small>
-   Python
-   <em>via Java</em>
-  </footer>
- </div>
- <!--/logo-->
-</div>
-
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Python via Java supports popular [presentation formats](https://releases.aspose.com/slides/python-java/supported-file-formats/) and these export formats." >}}
-<div class="diagram1 d2 d1-python">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    Input/Output
-   </header>
-   <ul>
-    <li><b>Microsoft PowerPoint:</b>PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM</li>
-    <li><b>OpenOffice:</b>ODP</li>
-    <li><b>Fixed Layout:</b>PDF</li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-    <li><b>Fixed Layout:</b>PDF, PDF/A, XPS</li>
-    <li><b>Images:</b>JPEG, PNG, BMP, TIFF, GIF</li>
-    <li>SVG</li>
-    <li><b>Web:</b>HTML</li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg"/>
-  <header>Aspose.Slides</header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-   </small>
-   Python
-   <em>via Java</em>
-  </footer>
- </div>
- <!--/logo-->
-</div>
-
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+{{% /blocks/products/pf/feature-page-section %}}
 
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">
@@ -374,28 +222,6 @@ jpype.shutdownJVM()
 <!--Feature-section End-->
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
     {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
