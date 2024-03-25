@@ -216,14 +216,14 @@ description: Aspose.Slides for Node.js via Java عبارة عن واجهة بر�
     </em>
     <p class="col-lg-10">
      إنشاء كافة النسخ على الأدوية
-    </ص>
+    </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      التعامل مع تنسيق النص والشكل
-    </ص>
+    </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-database ico-blue fa-2x col-lg-2">
