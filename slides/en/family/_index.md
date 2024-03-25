@@ -24,11 +24,11 @@ PowerPoint API for manipulating and rendering PowerPoint presentations & slides 
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
-PowerPoint API for generating and manipulating presentations with Python scripts.
+PowerPoint API for generating and manipulating presentations with Python scripts via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/python-java/" >}}
-PowerPoint API for generating and manipulating presentations with Python scripts.
+PowerPoint API for manipulating and converting presentations with Python scripts via Java.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
