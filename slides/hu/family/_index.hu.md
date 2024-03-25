@@ -24,7 +24,11 @@ PowerPoint API PowerPoint prezentációk és diák kezeléséhez és megjelenít
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/hu/python-net/" >}}
-PowerPoint API prezentációk létrehozásához és manipulálásához Python szkriptekkel.
+PowerPoint API prezentációk generálásához és manipulálásához Python-szkriptekkel .NET-en keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/hu/python-java/" >}}
+PowerPoint API prezentációk manipulálásához és konvertálásához Python szkriptekkel Java-n keresztül.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/hu/android-java/" >}}
@@ -35,12 +39,12 @@ PowerPoint API a PowerPoint-bemutatók manipulálásához Android mobilalkalmaz�
 PowerPoint API prezentációk generálásához és manipulálásához PHP szkriptekkel.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hu/nodejs-java/" >}}
-PowerPoint API prezentációk generálásához és manipulálásához a Node.js alkalmazásokon belül Java-n keresztül.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/hu/nodejs-net/" >}}
 PowerPoint API a Node.js alkalmazásokon belüli prezentációk létrehozásához és manipulálásához .NET-en keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hu/nodejs-java/" >}}
+PowerPoint API prezentációk generálásához és manipulálásához a Node.js alkalmazásokon belül Java-n keresztül.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/hu/sharepoint/" >}}

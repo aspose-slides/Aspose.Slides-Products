@@ -24,7 +24,11 @@ PowerPoint API برای دستکاری و رندر ارائه ها و اسلای
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/fa/python-net/" >}}
-پاورپوینت API برای تولید و دستکاری ارائه ها با اسکریپت های پایتون.
+پاورپوینت API برای تولید و دستکاری ارائه ها با اسکریپت های پایتون از طریق دات نت.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/fa/python-java/" >}}
+پاورپوینت API برای دستکاری و تبدیل ارائه ها با اسکریپت های پایتون از طریق جاوا.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/fa/android-java/" >}}
@@ -35,12 +39,12 @@ PowerPoint API برای دستکاری ارائه های پاورپوینت در
 پاورپوینت API برای تولید و دستکاری ارائه ها با اسکریپت های PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fa/nodejs-java/" >}}
-PowerPoint API برای تولید و دستکاری ارائه ها در برنامه های Node.js از طریق جاوا.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/fa/nodejs-net/" >}}
 PowerPoint API برای تولید و دستکاری ارائه ها در برنامه های Node.js از طریق دات نت.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fa/nodejs-java/" >}}
+PowerPoint API برای تولید و دستکاری ارائه ها در برنامه های Node.js از طریق جاوا.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/fa/sharepoint/" >}}

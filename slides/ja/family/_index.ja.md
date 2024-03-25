@@ -24,7 +24,11 @@ CPP アプリケーションで PowerPoint プレゼンテーションとスラ�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/ja/python-net/" >}}
-Python スクリプトを使用してプレゼンテーションを生成および操作するための PowerPoint API。
+.NET 経由で Python スクリプトを使用してプレゼンテーションを生成および操作するための PowerPoint API。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/ja/python-java/" >}}
+Java 経由で Python スクリプトを使用してプレゼンテーションを操作および変換するための PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/ja/android-java/" >}}
@@ -35,12 +39,12 @@ Android モバイル アプリケーションで PowerPoint プレゼンテー�
 PHP スクリプトを使用してプレゼンテーションを生成および操作するための PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ja/nodejs-java/" >}}
-Java を介して Node.js アプリケーション内でプレゼンテーションを生成および操作するための PowerPoint API。
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/ja/nodejs-net/" >}}
 .NET 経由で Node.js アプリケーション内でプレゼンテーションを生成および操作するための PowerPoint API。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ja/nodejs-java/" >}}
+Java を介して Node.js アプリケーション内でプレゼンテーションを生成および操作するための PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ja/sharepoint/" >}}

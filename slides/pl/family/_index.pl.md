@@ -24,7 +24,11 @@ PowerPoint API do manipulowania i renderowania prezentacji i slajdów PowerPoint
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/pl/python-net/" >}}
-API programu PowerPoint do generowania i manipulowania prezentacjami za pomocą skryptów w języku Python.
+PowerPoint API do generowania i manipulowania prezentacjami za pomocą skryptów Pythona za pośrednictwem .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/pl/python-java/" >}}
+Interfejs API programu PowerPoint do manipulowania i konwertowania prezentacji za pomocą skryptów w języku Python za pośrednictwem języka Java.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/pl/android-java/" >}}
@@ -35,12 +39,12 @@ Interfejs API programu PowerPoint do manipulowania prezentacjami programu PowerP
 API programu PowerPoint do generowania i manipulowania prezentacjami za pomocą skryptów PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/" >}}
-PowerPoint API do generowania i manipulowania prezentacjami w aplikacjach Node.js za pośrednictwem Java.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/pl/nodejs-net/" >}}
 PowerPoint API do generowania i manipulowania prezentacjami w aplikacjach Node.js za pośrednictwem .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/" >}}
+PowerPoint API do generowania i manipulowania prezentacjami w aplikacjach Node.js za pośrednictwem Java.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/pl/sharepoint/" >}}

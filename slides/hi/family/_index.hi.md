@@ -24,7 +24,11 @@ PowerPoint API विंडोज़ फॉर्म, ASP.NET, WPF, WCF या .
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/hi/python-net/" >}}
-पायथन स्क्रिप्ट के साथ प्रस्तुतियाँ तैयार करने और उनमें हेरफेर करने के लिए पावरपॉइंट एपीआई।
+.NET के माध्यम से पायथन स्क्रिप्ट के साथ प्रस्तुतियाँ बनाने और हेरफेर करने के लिए पावरपॉइंट एपीआई।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/hi/python-java/" >}}
+जावा के माध्यम से पायथन स्क्रिप्ट के साथ प्रस्तुतियों में हेरफेर और परिवर्तित करने के लिए पावरपॉइंट एपीआई।
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/hi/android-java/" >}}
@@ -35,12 +39,12 @@ PowerPoint API विंडोज़ फॉर्म, ASP.NET, WPF, WCF या .
 PHP स्क्रिप्ट के साथ प्रेजेंटेशन बनाने और हेरफेर करने के लिए पावरपॉइंट एपीआई।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/" >}}
-जावा के माध्यम से Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ बनाने और हेरफेर करने के लिए PowerPoint API।
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/hi/nodejs-net/" >}}
 .NET के माध्यम से Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ तैयार करने और हेरफेर करने के लिए PowerPoint API।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/" >}}
+जावा के माध्यम से Node.js अनुप्रयोगों के भीतर प्रस्तुतियाँ बनाने और हेरफेर करने के लिए PowerPoint API।
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/hi/sharepoint/" >}}
