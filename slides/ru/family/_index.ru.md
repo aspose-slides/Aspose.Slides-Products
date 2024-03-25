@@ -24,7 +24,11 @@ API PowerPoint для управления и рендеринга презен�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/ru/python-net/" >}}
-API PowerPoint для создания презентаций и управления ими с помощью сценариев Python.
+API PowerPoint для создания презентаций и управления ими с помощью сценариев Python через .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/ru/python-java/" >}}
+API PowerPoint для управления и преобразования презентаций с помощью сценариев Python через Java.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/ru/android-java/" >}}
@@ -35,12 +39,12 @@ API PowerPoint для управления презентациями PowerPoint
 API PowerPoint для создания презентаций и управления ими с помощью сценариев PHP.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ru/nodejs-java/" >}}
-API PowerPoint для создания презентаций и управления ими в приложениях Node.js через Java.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/ru/nodejs-net/" >}}
 API PowerPoint для создания презентаций и управления ими в приложениях Node.js через .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ru/nodejs-java/" >}}
+API PowerPoint для создания презентаций и управления ими в приложениях Node.js через Java.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ru/sharepoint/" >}}

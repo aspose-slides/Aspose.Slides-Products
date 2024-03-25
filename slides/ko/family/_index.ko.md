@@ -24,7 +24,11 @@ CPP 애플리케이션에서 PowerPoint 프리젠테이션 및 슬라이드를 �
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/ko/python-net/" >}}
-Python 스크립트로 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
+.NET을 통해 Python 스크립트로 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/ko/python-java/" >}}
+Java를 통해 Python 스크립트로 프레젠테이션을 조작하고 변환하기 위한 PowerPoint API입니다.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/ko/android-java/" >}}
@@ -35,12 +39,12 @@ Android 모바일 애플리케이션에서 PowerPoint 프레젠테이션을 조�
 PHP 스크립트로 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ko/nodejs-java/" >}}
-Java를 통해 Node.js 애플리케이션 내에서 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/ko/nodejs-net/" >}}
 .NET을 통해 Node.js 애플리케이션 내에서 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/ko/nodejs-java/" >}}
+Java를 통해 Node.js 애플리케이션 내에서 프레젠테이션을 생성하고 조작하기 위한 PowerPoint API입니다.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/ko/sharepoint/" >}}

@@ -24,7 +24,11 @@ PowerPoint API，用於在 CPP 應用程序中操作和渲染 PowerPoint 演示�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/zh-hant/python-net/" >}}
-用於使用 Python 腳本生成和操作演示文稿的 PowerPoint API。
+PowerPoint API，用於透過 .NET 使用 Python 腳本產生和操作簡報。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/zh-hant/python-java/" >}}
+PowerPoint API，用於透過 Java 使用 Python 腳本操作和轉換簡報。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/zh-hant/android-java/" >}}
@@ -35,12 +39,12 @@ PowerPoint API，用於在 CPP 應用程序中操作和渲染 PowerPoint 演示�
 用於使用 PHP 腳本生成和操作演示文稿的 PowerPoint API。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh-hant/nodejs-java/" >}}
-PowerPoint API，用於透過 Java 在 Node.js 應用程式中產生和操作簡報。
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/zh-hant/nodejs-net/" >}}
 PowerPoint API，用於透過 .NET 在 Node.js 應用程式中產生和操作簡報。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh-hant/nodejs-java/" >}}
+PowerPoint API，用於透過 Java 在 Node.js 應用程式中產生和操作簡報。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/zh-hant/sharepoint/" >}}

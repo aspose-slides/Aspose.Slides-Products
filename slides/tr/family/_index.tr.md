@@ -24,7 +24,11 @@ CPP uygulamalarında PowerPoint sunumlarını ve slaytlarını düzenlemek ve g�
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/tr/python-net/" >}}
-Python komut dosyalarıyla sunumlar oluşturmak ve düzenlemek için PowerPoint API'si.
+.NET aracılığıyla Python komut dosyalarıyla sunumlar oluşturmak ve değiştirmek için PowerPoint API'si.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/tr/python-java/" >}}
+Sunumları Java aracılığıyla Python komut dosyalarıyla değiştirmek ve dönüştürmek için PowerPoint API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/tr/android-java/" >}}
@@ -35,12 +39,12 @@ Android mobil uygulamalarında PowerPoint Sunumlarını düzenlemek için PowerP
 PHP komut dosyalarıyla sunumlar oluşturmak ve değiştirmek için PowerPoint API'si.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/tr/nodejs-java/" >}}
-Java aracılığıyla Node.js uygulamaları içindeki sunumları oluşturmak ve değiştirmek için PowerPoint API'si.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/tr/nodejs-net/" >}}
 .NET aracılığıyla Node.js uygulamaları içindeki sunumları oluşturmak ve düzenlemek için PowerPoint API'si.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/tr/nodejs-java/" >}}
+Java aracılığıyla Node.js uygulamaları içindeki sunumları oluşturmak ve değiştirmek için PowerPoint API'si.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/tr/sharepoint/" >}}
