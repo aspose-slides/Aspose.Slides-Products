@@ -198,46 +198,46 @@ description: Aspose.Slides для Node.js через Java — это API-инт�
    </div>
    <div class="col-lg-4">
     <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">Работа со таблицами PowerPoint через API</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">Применить или снять защитную фигуру</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">Добавляйте диаграммы Excel в видеообъекты OleObject на слайдах</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">
      Создание рисунка и добавление текста к фигурам на слайдах
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">
      Обработка форматирования текста и рисунка
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">Генерировать презентации из базы данных</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">Защитите презентации и полученный PDF-файл</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </ем>
+    </em>
     <p class="col-lg-10">Распечатать презентации на качественном принтере</p>
    </div>
    <div class="col-lg-12">
