@@ -12,7 +12,11 @@ description: Aspose.Slides for Python via Java is a Python PowerPoint API that l
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://releases.aspose.com/slides/python-java/" installationsDocsLink="https://releases.aspose.com/slides/python-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-java/" >}}
 
+{{% blocks/products/pf/feature-page-section %}}
+
 <p><strong>Aspose.Slides for Python via Java</strong> is a Python library that lets you create, modify, and convert PowerPoint presentations in Python. It supports all presentation elements such as slides, shapes, text, charts, tables, images, and more. It also offers many advanced features such as merging, cloning, splitting, comparing, and printing presentations. It works without any dependencies and can process thousands of presentations in a short time.</p>
+
+{{% blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Why Choose Aspose.Slides for Python via Java?" %}}
 
