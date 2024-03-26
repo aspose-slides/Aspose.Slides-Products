@@ -10,7 +10,7 @@ description: Aspose.Slides for Python via Java is a Python PowerPoint API that l
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://releases.aspose.com/slides/python-java/" installationsDocsLink="https://releases.aspose.com/slides/python-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-java/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/python-java/" installationsDocsLink="https://docs.aspose.com/slides/python-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-java/" >}}
 
 {{% blocks/products/pf/feature-page-section %}}
 
@@ -227,7 +227,7 @@ jpype.shutdownJVM()
     {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
         {{< blocks/products/pf/slr-element name="Documentation" href="https://releases.aspose.com/slides/python-java/" >}}
         {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/" >}}
-        {{< blocks/products/pf/slr-element name="API References" href="https://releases.aspose.com/slides/python-java/api-reference/" >}}
+        {{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/python-java/api-reference/" >}}
         {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
