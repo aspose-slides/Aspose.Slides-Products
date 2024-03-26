@@ -198,46 +198,46 @@ description: Aspose.Slides for Node.js via Java عبارة عن واجهة بر�
    </div>
    <div class="col-lg-4">
     <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">العمل مع جداول PowerPoint عبر واجهة برمجة التطبيقات</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">تطبيق الحماية للغطاء أو التغطية</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">أضف مخططات Excel ككائنات OleObject إلى القرص</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">
      إنشاء كافة النسخ على الأدوية
-    </ص>
+    </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">
      التعامل مع تنسيق النص والشكل
-    </ص>
+    </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10"> تقديم عروض تقديمية من قاعدة البيانات</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">حماية العروض المقدمة بصيغة PDF</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </م>
+    </em>
     <p class="col-lg-10">طباعة العروض التقديمية على الطابعة الحالية</p>
    </div>
    <div class="col-lg-12">
