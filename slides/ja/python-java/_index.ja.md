@@ -10,7 +10,7 @@ description: Aspose.Slides for Python via Java は、Python で PowerPoint プ�
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://releases.aspose.com/slides/python-java/" installationsDocsLink="https://releases.aspose.com/slides/python-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-java/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-java/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/python-java/" installationsDocsLink="https://docs.aspose.com/slides/python-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-java/" >}}
 
 {{% blocks/products/pf/feature-page-section %}}
 
