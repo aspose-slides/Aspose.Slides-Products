@@ -7,7 +7,7 @@ description: API για μετατροπή μορφών αρχείων PPT, PPTX
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Μετατροπή παρουσιάσεων χρησιμοποιώντας Aspose.Slides API: .NET, Java, C++, Python, PHP" h2="Μάθετε πώς να μετατρέπετε παρουσιάσεις σε Python, Java, C++, PHP και C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="Μετατροπή παρουσιάσεων χρησιμοποιώντας Aspose.Slides API: .NET, Java, C++, Python, PHP, Node.js" h2="Μάθετε πώς να μετατρέπετε παρουσιάσεις σε Python, Java, C++, PHP, Node.js και C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides Convert Code Samples Online Include" >}}
@@ -18,6 +18,10 @@ description: API για μετατροπή μορφών αρχείων PPT, PPTX
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/el/python-net/conversion/" >}}
 Πώς να μετατρέψετε την παρουσίαση στην Python.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/el/nodejs-net/conversion/" >}}
+Πώς να μετατρέψετε την παρουσίαση στο Node.js μέσω .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/el/java/conversion/" >}}
@@ -33,7 +37,7 @@ description: API για μετατροπή μορφών αρχείων PPT, PPTX
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/el/nodejs-java/conversion/" >}}
-Πώς να μετατρέψετε την παρουσίαση σε Node.js.
+Πώς να μετατρέψετε την παρουσίαση στο Node.js.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
