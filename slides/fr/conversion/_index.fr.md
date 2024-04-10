@@ -7,7 +7,7 @@ description: API pour convertir les formats de fichiers PPT, PPTX, PDF, HTML, PO
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Convertir des présentations à l'aide des API Aspose.Slides : .NET, Java, C++, Python, PHP" h2="Apprenez à convertir des présentations en Python, Java, C++, PHP et C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="Convertissez des présentations à l'aide des API Aspose.Slides : .NET, Java, C++, Python, PHP, Node.js" h2="Apprenez à convertir des présentations en Python, Java, C++, PHP, Node.js et C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides Convertir des exemples de code en ligne Inclure" >}}
@@ -18,6 +18,10 @@ Comment convertir une présentation en C#.
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/fr/python-net/conversion/" >}}
 Comment convertir une présentation en Python.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/fr/nodejs-net/conversion/" >}}
+Comment convertir une présentation dans Node.js via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/fr/java/conversion/" >}}
@@ -33,7 +37,7 @@ Comment convertir une présentation en PHP.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fr/nodejs-java/conversion/" >}}
-Comment convertir une présentation en Node.js.
+Comment convertir une présentation dans Node.js.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

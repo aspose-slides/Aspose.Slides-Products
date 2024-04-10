@@ -7,7 +7,7 @@ description: API เพื่อแปลงรูปแบบไฟล์ PPT, 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="แปลงงานนำเสนอโดยใช้ Aspose.Slides APIs: .NET, Java, C++, Python, PHP" h2="เรียนรู้วิธีแปลงงานนำเสนอใน Python, Java, C++, PHP และ C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
+{{< blocks/products/pf/i18n/upper-banner h1="แปลงงานนำเสนอโดยใช้ Aspose.Slides API: .NET, Java, C++, Python, PHP, Node.js" h2="เรียนรู้วิธีแปลงงานนำเสนอใน Python, Java, C++, PHP, Node.js และ C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides แปลงตัวอย่างโค้ดออนไลน์รวม" >}}
@@ -18,6 +18,10 @@ description: API เพื่อแปลงรูปแบบไฟล์ PPT, 
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/th/python-net/conversion/" >}}
 วิธีแปลงงานนำเสนอใน Python
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/th/nodejs-net/conversion/" >}}
+วิธีแปลงงานนำเสนอใน Node.js ผ่าน .NET
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/th/java/conversion/" >}}
@@ -33,7 +37,7 @@ description: API เพื่อแปลงรูปแบบไฟล์ PPT, 
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/th/nodejs-java/conversion/" >}}
-วิธีแปลงงานนำเสนอใน Node.js.
+วิธีแปลงงานนำเสนอใน Node.js
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
