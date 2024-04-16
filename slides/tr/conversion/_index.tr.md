@@ -28,16 +28,20 @@ Node.js'deki sunum .NET aracılığıyla nasıl dönüştürülür?
 Java'da sunum nasıl dönüştürülür?
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/tr/cpp/conversion/" >}}
-C++'da sunum nasıl dönüştürülür?
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/tr/php-java/conversion/" >}}
 PHP'de sunum nasıl dönüştürülür?
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/tr/nodejs-java/conversion/" >}}
 Node.js'de sunum nasıl dönüştürülür?
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/tr/python-java/conversion/" >}}
+Python'da sunum Java aracılığıyla nasıl dönüştürülür?
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/tr/cpp/conversion/" >}}
+C++'da sunum nasıl dönüştürülür?
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
