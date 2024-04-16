@@ -28,16 +28,20 @@ Prezentáció konvertálása Node.js-ben .NET-en keresztül.
 Hogyan lehet prezentációt konvertálni Java nyelven.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/hu/cpp/conversion/" >}}
-Hogyan lehet prezentációt konvertálni C++ nyelven.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/hu/php-java/conversion/" >}}
 Hogyan lehet prezentációt konvertálni PHP-ben.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hu/nodejs-java/conversion/" >}}
 Prezentáció konvertálása Node.js-ben.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/hu/python-java/conversion/" >}}
+Prezentáció konvertálása Pythonban Java segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/hu/cpp/conversion/" >}}
+Hogyan lehet prezentációt konvertálni C++ nyelven.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

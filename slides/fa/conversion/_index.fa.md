@@ -28,16 +28,20 @@ description: API ها برای تبدیل فرمت های فایل PPT، PPTX، 
 نحوه تبدیل ارائه در جاوا
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/fa/cpp/conversion/" >}}
-نحوه تبدیل ارائه در C++
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/fa/php-java/conversion/" >}}
 نحوه تبدیل ارائه در PHP
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/fa/nodejs-java/conversion/" >}}
 نحوه تبدیل ارائه در Node.js.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/fa/python-java/conversion/" >}}
+نحوه تبدیل ارائه در پایتون از طریق جاوا.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/fa/cpp/conversion/" >}}
+نحوه تبدیل ارائه در C++
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

@@ -1,0 +1,98 @@
+---
+title: POTX را در Python به PPSX تبدیل کنید
+url: /fa/python-java/conversion/potx-to-ppsx/
+keywords: تبدیل ارائه Python، تبدیل ارائه ها به Python، Python برای ارائه، Aspose.Slides Python، تبدیل POTX به PPSX، کتابخانه ارائه Python
+description: در پایتون POTX را به PPSX تبدیل کنید. از API کتابخانه پایتون برای تبدیل فایل‌های POTX به PPSX استفاده کنید.
+---
+
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
+{{< blocks/products/pf/feature-page-wrap >}}
+
+{{< blocks/products/pf/feature-page-header h1="بدون زحمت POTX را به PPSX با Python تبدیل کنید: Aspose.Slides to the Rescue!" h2="با پایتون جان تازه ای به ارائه های خود بدهید. راهنمای ما شما را در تبدیل اسلایدهای پاورپوینت موجود به ارائه های جذاب پایتون راهنمایی می کند." >}}
+
+{{% blocks/products/pf/feature-page-section h2="POTX را در Python به PPSX تبدیل کنید" %}}
+
+از مبارزه با نرم افزارهای پیچیده ارائه خسته شده اید؟ به دنبال [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/fa/python-java/) نباشید! این کتابخانه قدرتمند به شما این امکان را می دهد که به راحتی ارائه ها را بین فرمت های مختلف ایجاد، ویرایش و تبدیل کنید. آیا باید از POTX به PPSX جابجا شوید؟ Aspose.Slides این کار را بسیار ساده می کند و فقط به چند خط کد پایتون نیاز دارد.
+
+**Aspose.Slides برای Python از طریق جاوا** به عنوان یک API پیشرفته برای پردازش اسناد، دارای سرعت تبدیل بسیار سریع است و از تبدیل سریع ارائه های POTX شما به فرمت PPSX اطمینان حاصل می کند. محدودیت‌های ابزارهای سنتی را کنار بگذارید - Aspose.Slides به شما این امکان را می‌دهد که ارائه‌ها را از POTX نه تنها به PPSX بلکه به طیف گسترده‌ای از قالب‌های دیگر تبدیل کنید، و به شما این امکان را می‌دهد که ارائه‌های خود را به‌طور بی‌نقص با هر موقعیتی تطبیق دهید.
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{% blocks/products/pf/feature-page-section  h2="با استفاده از پایتون، POTX را به PPSX تبدیل کنید" %}}
+برای تبدیل POTX به PPSX، باید Presentation را از فایل POTX ایجاد کنید و آن را به عنوان PPSX ذخیره کنید.
+
+{{% blocks/products/pf/agp/code-block title="آموزش پایتون برای تبدیل POTX به PPSX" offSpacer="true" %}}
+
+```python
+
+import jpype
+import asposeslides
+
+jpype.startJVM()
+
+from asposeslides.api import Presentation, SaveFormat
+from javax.imageio import ImageIO
+from java.io import File
+
+pres = Presentation("PowerPoint.potx");
+
+pres.save("output.ppsx", SaveFormat.Ppsx);
+
+jpype.shutdownJVM()
+```
+
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/feature-page-section %}}
+
+{{< blocks/products/pf/feature-page-section  h2="آموزش پایتون. نحوه تبدیل POTX به PPSX با استفاده از Aspose.Slides برای Python از طریق Java API." >}}
+
+{{< blocks/products/pf/agp/steps-block-autogen name="برای تبدیل POTX به PPSX با استفاده از Aspose.Slides برای پایتون از طریق جاوا، باید بسته را به اسکریپت پایتون خود وارد کنید و نمونه ای از کلاس Presentation ایجاد کنید. کلاس Presentation یک سند پاورپوینت را نشان می دهد و روش هایی را برای دسترسی و دستکاری عناصر آن ارائه می دهد." >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+[**Aspose.Slides برای پایتون از طریق جاوا**](https://products.aspose.com/slides/fa/python-java/) را نصب کنید.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه پایتون خود اضافه کنید.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+فایل های منبع POTX را در پایتون باز کنید.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< blocks/products/pf/agp/step-autogen >}}
+نتیجه را به عنوان فایل PPSX ذخیره کنید.
+{{< /blocks/products/pf/agp/step-autogen >}}
+
+{{< /blocks/products/pf/agp/steps-block-autogen >}}
+
+{{< /blocks/products/pf/feature-page-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="تبدیل POTX به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید POTX را تبدیل کنید و در فرمت‌های فایل دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-pptx/" name="POTX TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-ppt/" name="POTX TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-pdf/" name="POTX TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-html/" name="POTX TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-png/" name="POTX TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-bmp/" name="POTX TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-jpg/" name="POTX TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-fodp/" name="POTX TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-gif/" name="POTX TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-odp/" name="POTX TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-otp/" name="POTX TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-pot/" name="POTX TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-potm/" name="POTX TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-pps/" name="POTX TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-ppsm/" name="POTX TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-pptm/" name="POTX TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-svg/" name="POTX TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-java/conversion/potx-to-tiff/" name="POTX TO TIFF" >}}
+
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
+{{< /blocks/products/pf/feature-page-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}

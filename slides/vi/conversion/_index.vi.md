@@ -28,16 +28,20 @@ Cách chuyển đổi bản trình bày trong Node.js qua .NET.
 Cách chuyển đổi bản trình bày trong Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/vi/cpp/conversion/" >}}
-Cách chuyển đổi bản trình bày trong C++.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/vi/php-java/conversion/" >}}
 Cách chuyển đổi bản trình bày trong PHP.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/vi/nodejs-java/conversion/" >}}
 Cách chuyển đổi bản trình bày trong Node.js.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/vi/python-java/conversion/" >}}
+Cách chuyển đổi bản trình bày bằng Python qua Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/vi/cpp/conversion/" >}}
+Cách chuyển đổi bản trình bày trong C++.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

@@ -28,16 +28,20 @@ Jak przekonwertować prezentację w Node.js poprzez .NET.
 Jak przekonwertować prezentację w Javie.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/pl/cpp/conversion/" >}}
-Jak przekonwertować prezentację w C++.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/pl/php-java/conversion/" >}}
 Jak przekonwertować prezentację w PHP.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/pl/nodejs-java/conversion/" >}}
 Jak przekonwertować prezentację w Node.js.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/pl/python-java/conversion/" >}}
+Jak przekonwertować prezentację w Pythonie za pomocą Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/pl/cpp/conversion/" >}}
+Jak przekonwertować prezentację w C++.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

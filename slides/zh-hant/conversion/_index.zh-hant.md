@@ -28,16 +28,20 @@ description: 用於轉換 PPT、PPTX、PDF、HTML、POTX、POTM 和 ODP 檔案�
 如何轉換 Java 中的簡報。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/zh-hant/cpp/conversion/" >}}
-如何轉換 C++ 中的簡報。
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/zh-hant/php-java/conversion/" >}}
 如何轉換 PHP 中的簡報。
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/zh-hant/nodejs-java/conversion/" >}}
 如何在 Node.js 中轉換簡報。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/zh-hant/python-java/conversion/" >}}
+如何透過 Java 轉換 Python 中的簡報。
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/zh-hant/cpp/conversion/" >}}
+如何轉換 C++ 中的簡報。
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

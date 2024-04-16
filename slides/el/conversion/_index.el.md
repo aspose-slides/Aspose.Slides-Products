@@ -28,16 +28,20 @@ description: API για μετατροπή μορφών αρχείων PPT, PPTX
 Πώς να μετατρέψετε την παρουσίαση σε Java.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/el/cpp/conversion/" >}}
-Πώς να μετατρέψετε την παρουσίαση σε C++.
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/el/php-java/conversion/" >}}
 Πώς να μετατρέψετε την παρουσίαση σε PHP.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/el/nodejs-java/conversion/" >}}
 Πώς να μετατρέψετε την παρουσίαση στο Node.js.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/el/python-java/conversion/" >}}
+Πώς να μετατρέψετε την παρουσίαση σε Python μέσω Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/el/cpp/conversion/" >}}
+Πώς να μετατρέψετε την παρουσίαση σε C++.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

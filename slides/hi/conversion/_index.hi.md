@@ -28,16 +28,20 @@ description: पीपीटी, पीपीटीएक्स, पीडीए
 प्रेजेंटेशन को जावा में कैसे बदलें।
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/hi/cpp/conversion/" >}}
-प्रेजेंटेशन को C++ में कैसे बदलें।
-{{< /blocks/products/pf/product >}}
-
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/hi/php-java/conversion/" >}}
 प्रेजेंटेशन को PHP में कैसे बदलें।
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hi/nodejs-java/conversion/" >}}
 प्रेजेंटेशन को Node.js में कैसे परिवर्तित करें?
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/hi/python-java/conversion/" >}}
+जावा के माध्यम से प्रेजेंटेशन को पायथन में कैसे परिवर्तित करें।
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/hi/cpp/conversion/" >}}
+प्रेजेंटेशन को C++ में कैसे बदलें।
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
