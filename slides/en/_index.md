@@ -2,6 +2,21 @@
 title: "Create, Edit and Convert PowerPoint Presentations with Aspose.Slides" 
 weight: 7160
 url: /
+keywords:
+- PowerPoint
+- presentation
+- slide
+- create a presentation
+- edit a presentation
+- convert a presentation
+- create a slide
+- edit a slide
+- convert a slide
+- presentation format
+- C#
+- Java
+- C++
+- Python
 description: "Aspose.Slides is a powerful API for creating, editing and converting PowerPoint presentations in .NET, Java, C++, Python and other platforms. Try it for free today!"
 ---
 
