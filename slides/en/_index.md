@@ -34,6 +34,14 @@ On-Premises .NET APIs to manipulate Microsoft PowerPoint presentations within ap
 Java APIs to create, load, manipulate, convert or parse Microsoft PowerPoint presentations, slides and their elements in any application based on Java SE or EE.
 {{< /blocks/products/pf/product >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="https://products.aspose.com/slides/python-net/" >}}
+PowerPoint API for generating and manipulating presentations with Python scripts via .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="https://products.aspose.com/slides/nodejs-java/" >}}
+PowerPoint API for generating and manipulating presentations within Node.js applications via Java.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
 Native library for C++ applications to create, load, manipulate, convert or render Microsoft PowerPoint files.
 {{< /blocks/products/pf/product >}}
