@@ -27,7 +27,7 @@ description: "Aspose.Slides is a powerful API for creating, editing and converti
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net/" >}}
-On-Premises .NET APIs to manipulate Microsoft PowerPoint presentations within applications developed using .NET Framework, .NET Core and other platforms via COM Interop.
+On-Premise .NET APIs for PowerPoint and More. Create, edit, and convert presentations—including importing from PDF and exporting animated videos. Cross-platform, compatible with .NET Framework, .NET Core, .NET 6, and later versions.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java/" >}}
@@ -40,6 +40,10 @@ PowerPoint API for generating and manipulating presentations with Python scripts
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="https://products.aspose.com/slides/nodejs-java/" >}}
 PowerPoint API for generating and manipulating presentations within Node.js applications via Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="https://products.aspose.com/slides/android-java/" >}}
+PowerPoint API for manipulating PowerPoint Presentations in Android mobile applications.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
