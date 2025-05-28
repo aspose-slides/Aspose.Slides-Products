@@ -14,13 +14,14 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for Node.js via Java</strong> is a Node.js library that lets you create, modify, and convert PowerPoint presentations in Node.js. It supports all presentation elements such as slides, shapes, text, charts, tables, images, and more. It also offers many advanced features such as merging, cloning, splitting, comparing, and printing presentations. It works without any dependencies and can process thousands of presentations in a short time.</p>
+<p><strong>Aspose.Slides for Node.js via Java</strong> is a powerful presentation processing library that allows Node.js developers to create, edit, convert, and manage PowerPoint presentations programmatically — <strong>without relying on Microsoft PowerPoint or any other third-party software</strong>. It supports all major presentation elements including slides, text, shapes, charts, tables, images, SmartArt, and multimedia.</p>
 
 <p><strong>Aspose.Slides for Node.js via Java</strong> provides these popular features:</p>
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
     <li>Converting presentation files to popular presentation formats, such as PPT, PPTX, and ODP.</li>
+    <li>Export presentations to high-quality video (MP4) with full support for animations and slide transitions.</li>
     <li>Exporting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>

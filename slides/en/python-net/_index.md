@@ -14,7 +14,9 @@ description: Python library to work with Microsoft PowerPoint files. Python PPTX
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for Python via .NET</strong> is a powerful class library for working with or processing presentations. Using this product, applications and developers get to read, edit or manipulate, and convert PowerPoint presentations (PPT, PPTX) and presentations in other formats (ODP) without third-party applications or dependencies. </p>
+<p><strong>Aspose.Slides for Python via .NET</strong>is a powerful and flexible Python library for working with PowerPoint and OpenOffice presentation files without third-party applications or dependencies. It allows developers to create, read, edit, and convert presentations (PPT, PPTX, ODP) programmatically — without needing Microsoft PowerPoint or any additional software.</p>
+
+<p>Ideal for server-side automation, batch processing, and desktop workflows, this cross-platform solution brings high-performance slide manipulation capabilities to the Python ecosystem.</p>
 
 <p><strong>Aspose.Slides for Python via. NET</strong> provides these popular features:</p>
 <ul>
@@ -22,6 +24,7 @@ description: Python library to work with Microsoft PowerPoint files. Python PPTX
     <li>Editing presentations.</li>
     <li>Converting presentations to PDF, Word, JPG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
+    <li>Convert slides to high-quality video files with support for animations and transitions.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
     <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
     <li>And many more features.</li>
