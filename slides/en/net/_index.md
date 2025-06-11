@@ -25,6 +25,7 @@ description: Aspose.Slides is a C# .NET PowerPoint API. Aspose Slides API to cre
     <li>Export presentations to video formats (e.g., MP4) with all animations and slide transitions preserved.</li>
     <li>Print presentations directly to physical printers from your .NET application.</li>
     <li>High-fidelity rendering ensures pixel-perfect output that matches the original PowerPoint files.</li>
+    <li>Translate entire presentations automatically with AI-powered translation—integrates with OpenAI or other language models to enable smarter, multilingual workflows.</li>
 </ul>
 </p>
 

@@ -12,7 +12,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/androidjava" >}}
 
-{{< blocks/products/pf/tab-content >}}
+{{< blocks/products/pf/tab-content >}}  
 <p><strong>Aspose.Slides for Android via Java</strong> is a robust and feature-rich PowerPoint API designed specifically for Android applications. It enables developers to create, open, edit, manipulate, convert, and render presentations directly on Android devices—without requiring Microsoft PowerPoint or any third-party software.</p>
 
 <p>This API provides complete support for all major PowerPoint formats (PPT, PPTX) and OpenDocument Presentation (ODP), making it ideal for building professional-grade presentation apps such as Android-based PowerPoint viewers, converters, editors, or report generators.</p>

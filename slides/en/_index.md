@@ -27,27 +27,27 @@ description: "Aspose.Slides is a powerful API for creating, editing and converti
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/net/" >}}
-On-Premise .NET APIs for PowerPoint and More. Create, edit, and convert presentations—including importing from PDF and exporting animated videos. Cross-platform, compatible with .NET Framework, .NET Core, .NET 6, and later versions.
+On-Premise .NET APIs for PowerPoint and more. Create, edit, and convert presentations —including importing from PDF, exporting animated videos, and translating presentations with the new AI-powered presentation translator. Cross-platform, compatible with .NET Framework, .NET Core, .NET 6, and later versions.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/java/" >}}
-Java APIs to create, load, manipulate, convert or parse Microsoft PowerPoint presentations, slides and their elements in any application based on Java SE or EE.
+Java APIs to create, load, manipulate, convert or parse Microsoft PowerPoint presentations, slides and their elements in any application based on Java SE or EE. Now includes support for translating presentations using the integrated AI presentation translator.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="https://products.aspose.com/slides/python-net/" >}}
-PowerPoint API for generating and manipulating presentations with Python scripts via .NET.
+PowerPoint API for generating and manipulating presentations with Python scripts via .NET. Now includes AI presentation translation support to seamlessly translate slides programmatically.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="https://products.aspose.com/slides/nodejs-java/" >}}
-PowerPoint API for generating and manipulating presentations within Node.js applications via Java.
+PowerPoint API for generating and manipulating presentations within Node.js applications via Java. Now supports AI-driven translation of slides for multilingual presentation workflows.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="https://products.aspose.com/slides/android-java/" >}}
-PowerPoint API for manipulating PowerPoint Presentations in Android mobile applications.
+PowerPoint API for manipulating PowerPoint presentations in Android mobile applications. Enhanced with an AI presentation translator for translating slides directly on mobile devices.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/cpp" >}}
-Native library for C++ applications to create, load, manipulate, convert or render Microsoft PowerPoint files.
+Native library for C++ applications to create, load, manipulate, convert or render Microsoft PowerPoint files. Now enhanced with AI-powered presentation translation to support multilingual content creation.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/center-button href="https://products.aspose.com/slides/family/" innerText="View All High Code APIs" >}}

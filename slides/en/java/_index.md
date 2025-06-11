@@ -27,6 +27,7 @@ With Aspose.Slides for Java, you can access and manipulate every presentation el
     <li>Convert presentations to multiple formats: PDF, PDF/A, HTML, Markdown, SVG, TIFF, PNG, JPEG, and other popular image types.</li>
     <li>Export presentations to high-quality video formats (such as MP4) with support for transitions and animations.</li>
     <li>Perform advanced presentation tasks like slide merging, cloning, comparison, and splitting of presentations.</li>
+    <li>Automatically translate presentations with AI-powered translation support—compatible with OpenAI and other language models.</li>
     <li>Print slides directly to physical printers or virtual devices within Java applications.</li>
     <li>High-fidelity rendering that preserves layout, fonts, and design integrity during export.</li>
 </ul>

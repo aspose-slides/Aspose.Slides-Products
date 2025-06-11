@@ -25,6 +25,7 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
     <li>Rendering and printing presentations.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
     <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
+    <li>Automatically translate presentations using AI-powered translation through integration with external language models.</li>
     <li>And many more features.</li>
 </ul>
 

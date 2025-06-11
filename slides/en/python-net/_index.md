@@ -25,6 +25,7 @@ description: Python library to work with Microsoft PowerPoint files. Python PPTX
     <li>Converting presentations to PDF, Word, JPG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Convert slides to high-quality video files with support for animations and transitions.</li>
+    <li>Automatically translate presentations using AI-powered translation via integration with external language models.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
     <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
     <li>And many more features.</li>
