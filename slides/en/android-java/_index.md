@@ -1,5 +1,5 @@
 ---
-title: Android PowerPoint API | Aspose.Slides for Android API 
+title: "Aspose.Slides for Android via Java: PowerPoint API for PPTX and PPT"
 weight: 5960
 url: /android-java/ 
 description: Aspose.Slides for Android API or Android PowerPoint API to create read and manipulate PPT POT PPS PPTX POTX PPSX PowerPoint on Android. 
@@ -20,8 +20,8 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
 <p><strong>Key Features of Aspose.Slides for Android via Java</strong>
 <ul>
     <li>Load, view, and edit PowerPoint presentations (PPT, PPTX, ODP) on Android.</li>
-    <li>Convert presentations to PDF, PDF/A, HTML, SVG, Markdown, and image formats like PNG, JPG, and TIFF.</li>
-    <li>Export presentations to video (MP4), with full support for animations and slide transitions.</li>
+    <li>Convert presentations to TIFF, EMF, PDF, XPS, JPEG, PNG, GIF, BMP, SVG, SWF, HTML, XAML, Markdown, and XML.</li>
+    <li>Generate frames for video export and create MP4 output using FFmpeg or another video tool.</li>
     <li>Programmatically create and update slides, text content, shapes, tables, SmartArt, and charts.</li>
     <li>Access and manage advanced objects such as ActiveX controls, OLE objects, multimedia (audio and video), and VBA macros.</li>
     <li>Perform operations like merging, splitting, cloning, or comparing presentations.</li>
@@ -248,7 +248,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">
-    Advance Android PowerPoint API Features
+    Advanced Android PowerPoint API Features
    </h2>
    <p>
     <!--Aspose.Slides for Android via Java incorporates a number of advanced features that give developers complete control when programming with Microsoft PowerPoint presentations in an Android environment.-->
@@ -318,7 +318,7 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Presentation Formatting at the Minute Level
+     Fine-Grained Presentation Formatting
     </h2>
     <p>
      PowerPoint library can easily handle text and shape formatting features such as font size, type, color &amp; shades, paragraph alignment, bullets &amp; orientation and hyperlinks.
@@ -335,18 +335,19 @@ description: Aspose.Slides for Android API or Android PowerPoint API to create r
      <h3>
       Convert presentations with Notes
      </h3>
-     <pre><code class="java">Presentation pres = new Presentation(dataDir + "demo.pptx");
+     <pre><code class="java">
+NotesCommentsLayoutingOptions layoutingOptions = new NotesCommentsLayoutingOptions();
+layoutingOptions.setNotesPosition(NotesPositions.BottomFull);
 
-TiffOptions opts = new TiffOptions();                
+TiffOptions tiffOptions = new TiffOptions();
+tiffOptions.setSlidesLayoutOptions(layoutingOptions);
 
-INotesCommentsLayoutingOptions options = opts.getNotesCommentsLayouting();
-
-options.setNotesPosition(NotesPositions.BottomFull);              
-
-//Saving to TIFF notes
-
-pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
-
+Presentation presentation = new Presentation("Presentation.pptx");
+try {
+    presentation.save("Notes.tiff", SaveFormat.Tiff, tiffOptions);
+} finally {
+    presentation.dispose();
+}
 </code></pre>
     </div>
    </div>
@@ -370,7 +371,7 @@ pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/androidjava/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-Java" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/androidjava/" >}}
 {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -381,8 +382,8 @@ pres.save(dataDir + "TestNotes.tiff", SaveFormat.Tiff,opts);
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Android via Java?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

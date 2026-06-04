@@ -21,7 +21,7 @@ description: Aspose.Slides for C++ is a powerful library for creating, editing a
 - **Powerful features and functionality**: Aspose.Slides for C++ provides a rich set of features and functionality for working with PowerPoint presentations, such as creating and modifying slides, adding and editing shapes, text, images, animations, transitions, charts, tables, and other elements, applying themes and layouts, inserting audio and video, exporting and printing presentations, export to video, and much more. 
 - **AI**: Now includes AI-powered translation support through integration with external language models—enabling automatic, multilingual presentation workflows.
 - **High performance and quality**:  Aspose.Slides for C++ delivers high performance and quality results for processing PowerPoint presentations. You can process thousands of presentations in minutes, without compromising the fidelity and accuracy of the output.
-- **Free trial and licensing options**: Aspose.Slides for C++ offers a free trial version that you can download and use for 30 days, without any limitations. You can also choose from various licensing options that suit your needs and budget, such as developer, site, OEM, and cloud licenses.
+- **Free trial and licensing options**: Aspose.Slides for C++ provides a free trial version that you can download and use for evaluation. The evaluation version has certain limitations, while a temporary license removes these limitations for 30 days. You can also choose from various licensing options depending on your needs and budget, including developer, site, OEM, and cloud licenses.
 {{% /blocks/products/pf/feature-page-section %}}
 <!--Feature-section Start-->
 
@@ -81,7 +81,7 @@ description: Aspose.Slides for C++ is a powerful library for creating, editing a
          </div>
          <div class="col-lg-4">
             <em class="fa fa-lock  ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Export presentation to video</p>
+            <p class="col-lg-10">Generate frames for video export</p>
          </div>
          <div class="col-lg-4">
             <em class="fa fa-print  ico-blue fa-2x col-lg-2"></em>
@@ -158,11 +158,11 @@ You can also convert presentations to and from streams and byte arrays.
 {{% blocks/products/pf/agp/code-block title="C++ code for converting presentation to PDF" offSpacer="true" %}}
 
 ```cpp
-// Load the PPT.
-SharedPtr<Presentation> presentation = MakeObject<Presentation>(u"presentation.ppt");
+// Load a PPT file.
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 // Save in PDF format.
-presentation->Save(u"document.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
-
+presentation->Save(u"document.pdf", SaveFormat::Pdf);
+presentation->Dispose();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -176,31 +176,29 @@ Adding animation to presentation elements can make it more interactive and engag
 {{% blocks/products/pf/agp/code-block title="C++ code for adding animation to TextBox" offSpacer="true" %}}
 
 ```cpp
-// Instantiates a presentation class that represents a presentation file.
-System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+// Instantiate the Presentation class.
+auto presentation = MakeObject<Presentation>();
 
-System::SharedPtr<ISlide> sld = pres->get_Slides()->idx_get(0);
+auto slide = presentation->get_Slides()->idx_get(0);
 
-// Adds new AutoShape with text
-System::SharedPtr<IAutoShape> autoShape =
-    sld->get_Shapes()->AddAutoShape(Aspose::Slides::ShapeType::Rectangle, 20.0f, 20.0f, 150.0f, 100.0f);
+// Add a new AutoShape.
+auto autoShape = slide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 20.0f, 20.0f, 150.0f, 100.0f);
 
-System::SharedPtr<ITextFrame> textFrame = autoShape->get_TextFrame();
+auto textFrame = autoShape->get_TextFrame();
 textFrame->set_Text(u"First paragraph \nSecond paragraph \n Third paragraph");
 
-// Gets the main sequence of the slide.
-System::SharedPtr<ISequence> sequence = sld->get_Timeline()->get_MainSequence();
+// Get the main animation sequence of the slide.
+auto mainSequence = slide->get_Timeline()->get_MainSequence();
 
-// Adds Fade animation effect to shape
-System::SharedPtr<IEffect> effect = sequence->AddEffect(autoShape, Aspose::Slides::Animation::EffectType::Fade,
-    Aspose::Slides::Animation::EffectSubtype::None, Aspose::Slides::Animation::EffectTriggerType::OnClick);
+// Add the Fade animation effect to the shape.
+auto effect = mainSequence->AddEffect(autoShape, EffectType::Fade, EffectSubtype::None, EffectTriggerType::OnClick);
 
-// Animates shape text by 1st level paragraphs
-effect->get_TextAnimation()->set_BuildType(Aspose::Slides::Animation::BuildType::ByLevelParagraphs1);
+// Animate the shape text by first-level paragraphs.
+effect->get_TextAnimation()->set_BuildType(BuildType::ByLevelParagraphs1);
 
-// Save the PPTX file to disk
-pres->Save(path + u"AnimText_out.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
-
+// Save the presentation to a PPTX file.
+presentation->Save(u"AnimatedText.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -218,24 +216,23 @@ The C++ code demonstrates how to convert a presentation to JPG images.
 {{% blocks/products/pf/agp/code-block title="C++ code for converting presentation to JPG with custom scale" offSpacer="true" %}}
 
 ```cpp
-auto pres = System::MakeObject<Presentation>(u"PowerPoint-Presentation.pptx");
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-// Defines dimensions
-int32_t desiredX = 1200, desiredY = 800;
-// Gets scaled values of X and Y
-float ScaleX = (float)(1.0 / pres->get_SlideSize()->get_Size().get_Width()) * desiredX;
-float ScaleY = (float)(1.0 / pres->get_SlideSize()->get_Size().get_Height()) * desiredY;
+// Specify the desired image dimensions.
+auto desiredSize = Size(1200, 800);
 
-for (auto&& sld : pres->get_Slides())
+for (auto&& slide : presentation->get_Slides())
 {
-    // Creates a full scale image
-    System::SharedPtr<System::Drawing::Bitmap> bmp = sld->GetThumbnail(ScaleX, ScaleY);
+    // Generate an image of the slide with the specified dimensions.
+    auto image = slide->GetImage(desiredSize);
 
-    // Saves the image to disk in JPEG format
-    bmp->Save(System::String::Format(u"Slide_{0}.jpg", sld->get_SlideNumber()),
-              System::Drawing::Imaging::ImageFormat::get_Jpeg());
+    // Save the image to disk in JPEG format.
+    auto fileName = String::Format(u"Slide_{0}.jpg", slide->get_SlideNumber());
+    image->Save(fileName, ImageFormat::Jpeg);
+    image->Dispose();
 }
 
+presentation->Dispose();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -252,28 +249,33 @@ Converting a presentation to a video format can be beneficial in several ways. F
 {{% blocks/products/pf/agp/code-block title="C++ code for converting presentation to video" offSpacer="true" %}}
 
 ```cpp
-void OnFrameTick(System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args)
+void OnFrameTick(SharedPtr<PresentationPlayer> sender, SharedPtr<FrameTickEventArgs> args)
 {
-    System::String fileName = System::String::Format(u"frame_{0}.png", sender->get_FrameIndex());
+    auto fileName = String::Format(u"frame_{0}.png", sender->get_FrameIndex());
     args->GetFrame()->Save(fileName);
 }
 
 void Run()
 {
-    auto presentation = System::MakeObject<Presentation>(u"PowerPoint-Presentation.pptx");
+    auto presentation = MakeObject<Presentation>(u"Presentation.pptx");
 
-    const int32_t fps = 33;
+    const int fps = 33;
 
-    auto animationsGenerator = System::MakeObject<PresentationAnimationsGenerator>(presentation);
-    auto player = System::MakeObject<PresentationPlayer>(animationsGenerator, fps);
+    auto animationsGenerator = MakeObject<PresentationAnimationsGenerator>(presentation);
+
+    auto player = MakeObject<PresentationPlayer>(animationsGenerator, fps);
     player->FrameTick += OnFrameTick;
+
     animationsGenerator->Run(presentation->get_Slides());
 
-    const System::String ffmpegParameters = System::String::Format(
+    const String ffmpegParameters = String::Format(
         u"-loglevel {0} -framerate {1} -i {2} -y -c:v {3} -pix_fmt {4} {5}",
-        u"warning", m_fps, "frame_%d.png", u"libx264", u"yuv420p", "video.mp4");
-    auto ffmpegProcess = System::Diagnostics::Process::Start(u"ffmpeg", ffmpegParameters);
+        u"warning", fps, "frame_%d.png", u"libx264", u"yuv420p", "video.mp4");
+
+    auto ffmpegProcess = Process::Start(u"ffmpeg", ffmpegParameters);
     ffmpegProcess->WaitForExit();
+
+    presentation->Dispose();
 }
 ```
 
@@ -299,7 +301,7 @@ To learn more about Aspose.Slides and how to use it, you can visit the following
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/cpp/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-C" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/cpp/slides" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/cpp/" >}}
 {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -311,8 +313,8 @@ To learn more about Aspose.Slides and how to use it, you can visit the following
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for C++?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

@@ -1,28 +1,28 @@
 ---
-title: Python PowerPoint API. Python PPTX, PPT from Aspose.Slides
+title: "Aspose.Slides for Python: PowerPoint API for PPTX and PPT"
 weight: 5860
 url: /python-net/ 
 description: Python library to work with Microsoft PowerPoint files. Python PPTX, PPT. Create edit convert PPT PPTX PPS POT PPSX PPTM PPSM POTX POTM ODP PDF and many more formats.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Python PowerPoint API for Presentations. Python PPTX, PPT" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in Python without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-python.svg" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="https://downloads.aspose.com/slides/python-net" >}}
+{{< blocks/products/pf/upper-banner h1="Python PowerPoint API for Presentations. Python PPTX, PPT" h2="Create, read, write, modify, merge, clone, protect & convert PowerPoint and OpenOffice presentations in Python without any external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-python.svg" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="https://releases.aspose.com/slides/python-net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/python-net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/python-net/" installationsDocsLink="https://docs.aspose.com/slides/python-net/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/python-net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/python-net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/python-net/" installationsDocsLink="https://docs.aspose.com/slides/python-net/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-net/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for Python via .NET</strong>is a powerful and flexible Python library for working with PowerPoint and OpenOffice presentation files without third-party applications or dependencies. It allows developers to create, read, edit, and convert presentations (PPT, PPTX, ODP) programmatically — without needing Microsoft PowerPoint or any additional software.</p>
+<p><strong>Aspose.Slides for Python via .NET</strong> is a powerful and flexible Python library for working with PowerPoint and OpenOffice presentation files without third-party applications or dependencies. It allows developers to create, read, edit, and convert presentations (PPT, PPTX, ODP) programmatically — without needing Microsoft PowerPoint or any additional software.</p>
 
 <p>Ideal for server-side automation, batch processing, and desktop workflows, this cross-platform solution brings high-performance slide manipulation capabilities to the Python ecosystem.</p>
 
-<p><strong>Aspose.Slides for Python via. NET</strong> provides these popular features:</p>
+<p><strong>Aspose.Slides for Python via .NET</strong> provides these popular features:</p>
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
-    <li>Converting presentations to PDF, Word, JPG, HTML, GIF, SVG, and many other formats.</li>
+    <li>Converting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Convert slides to high-quality video files with support for animations and transitions.</li>
     <li>Automatically translate presentations using AI-powered translation via integration with external language models.</li>
@@ -364,7 +364,7 @@ description: Python library to work with Microsoft PowerPoint files. Python PPTX
      System Requirements
     </h2>
     <ul>
-	  <li>Compatible with Python 3.5, 3.6, 3.7, 3.8 and 3.9</li>
+	  <li>Compatible with Python &lt;3.14, &gt;=3.5</li>
 	  <li>In case you write Python code on Linux, have a look at <a href="https://docs.aspose.com/slides/python-net/system-requirements/">additional requirements for Linux</a></li>
     </ul>
    </div>
@@ -372,8 +372,8 @@ description: Python library to work with Microsoft PowerPoint files. Python PPTX
     <h2 class="h2title">
      How to Install
     </h2>
-    <p>Use <strong>pip</strong> to install our Python library for Presentation processing from the <a href="https://pypi.org/project/aspose.slides/">PyPI repository</a></p>:
-	<pre><code>pip install aspose.slides</code></pre>
+    <p>Use <strong>pip</strong> to install our Python library for Presentation processing from the <a href="https://pypi.org/project/aspose-slides/">PyPI repository</a></p>:
+	<pre><code>pip install aspose-slides</code></pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">Create New PowerPoint Presentation. Python PPTX, PPT, or ODP</h2>
@@ -397,11 +397,11 @@ with slides.Presentation() as presentation:
             <code class="python">
 import aspose.slides as slides
 
-with slides.Presentation("Presentation1.pptx") as pres1:
-    with slides.Presentation("Presentation2.pptx") as pres2:
-        for slide in pres2.slides:
-            pres1.slides.add_clone(slide)
-        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
+with slides.Presentation("Presentation1.pptx") as presentation1:
+    with slides.Presentation("Presentation2.pptx") as presentation2:
+        for slide in presentation2.slides:
+            presentation1.slides.add_clone(slide)
+        presentation1.save("combined.pptx", slides.export.SaveFormat.PPTX)
             </code>
         </pre>
     </div>
@@ -412,10 +412,10 @@ with slides.Presentation("Presentation1.pptx") as pres1:
             <code class="python">
 import aspose.slides as slides
 
-with slides.Presentation() as pres:
-    pres.slides.remove_at(0)
-    pres.slides.add_from_pdf("welcome-to-powerpoint.pdf")
-    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
+with slides.Presentation() as presentation:
+    presentation.slides.remove_at(0)
+    presentation.slides.add_from_pdf("welcome-to-powerpoint.pdf")
+    presentation.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
             </code>
         </pre>
     </div>
@@ -427,10 +427,10 @@ with slides.Presentation() as pres:
 import aspose.slides as slides
 
 # Instantiate a Presentation object that represents a PPT file
-presentation = slides.Presentation("PowerPoint.ppt")
+with slides.Presentation("PowerPoint.ppt") as presentation:
 
-# Save the presentation as PDF
-presentation.save("PPT-to-PDF.pdf", slides.export.SaveFormat.PDF)
+    # Save the presentation as PDF
+    presentation.save("PPT-to-PDF.pdf", slides.export.SaveFormat.PDF)
             </code>
         </pre>
     </div>
@@ -440,13 +440,11 @@ presentation.save("PPT-to-PDF.pdf", slides.export.SaveFormat.PDF)
         <pre>
             <code class="python">
 import aspose.slides as slides
-import aspose.pydrawing as drawing
 
-pres = slides.Presentation("pres.pptx")
-
-for sld in pres.slides:
-    bmp = sld.get_thumbnail(1, 1)
-    bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.jpeg)
+with slides.Presentation("Presentation.pptx") as presentation:
+    for slide in presentation.slides:
+        with slide.get_image(1, 1) as image:
+            image.save(f"Slide_{slide.slide_number}.jpg", slides.ImageFormat.JPEG)
             </code>
         </pre>
     </div>
@@ -482,8 +480,8 @@ for sld in pres.slides:
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/python-net/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/python-net/api-reference/" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-Python-via-.NET" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/python-net/" >}}
 {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -495,13 +493,13 @@ for sld in pres.slides:
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Python via .NET?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/python-net" pricingInformationLink="https://purchase.aspose.com/pricing/slides/python-net" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/python-net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/python-net" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
@@ -519,4 +517,3 @@ for sld in pres.slides:
 {{< /blocks/products/pf/offers-section >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
