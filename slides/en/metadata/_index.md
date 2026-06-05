@@ -1,14 +1,14 @@
 ---
-title: View & Edit Metadata to PowerPoint files on Windows, Linux & macOS 
+title: View and Edit Metadata in PowerPoint Files on Windows, Linux, and macOS
 url: /metadata/
-description: APIs to View & Edit PPT and PPTX Document Properties
+description: APIs to view and edit PPT and PPTX document properties.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Edit Metadata properties of PowerPoint and OpenOffice documents using Aspose.Slides APIs: .NET, Java, C++, Python" h2="Learn how to view and edit presentation properties in Python, Java, C++ and C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
+{{< blocks/products/pf/upper-banner h1="View and edit metadata in PowerPoint and OpenOffice presentations" h2="Learn how to view and edit presentation properties in Python, Java, C++, and C#." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/metadata" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Product Family Metadata Code Samples" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/metadata/" >}}
 How to view and edit presentation properties in C#.

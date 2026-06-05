@@ -1,15 +1,15 @@
 ---
-title: Merge PowerPoint Files on Windows, Linux & macOS 
+title: Merge PowerPoint Files on Windows, Linux, and macOS
 weight: 7730
 url: /merger/
-description: APIs to Combine PowerPoint PPT, PPS, PPTX, PDF, POTX, PPSX, PPTM, PPSM, POTM, ODP & OTP
+description: APIs to combine PowerPoint PPT, PPS, PPTX, PDF, POTX, PPSX, PPTM, PPSM, POTM, ODP, and OTP files.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Merge presentations using Aspose.Slides APIs: .NET, Java, C++, Python, PHP" h2="Learn how to merge presentations in Python, Java, C++, PHP and C#" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/family/" >}}
+{{< blocks/products/pf/upper-banner h1="Merge PowerPoint and OpenOffice presentations using Aspose.Slides APIs" h2="Learn how to merge presentations in Python, Java, C++, PHP, and C#." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/merger" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides Merge Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides Product Family Merger Code Samples" >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/merger/" >}}
 How to merge presentations in C#.

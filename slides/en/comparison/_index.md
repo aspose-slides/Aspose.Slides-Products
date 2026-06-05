@@ -1,9 +1,9 @@
 ---
-title: Compare PowerPoint Presentations on Windows, Linux & macOS 
+title: Compare PowerPoint Presentations on Windows, Linux, and macOS
 weight: 7730
-url: /comparison
-description: Free App and APIs for PowerPoint Presentation Comparison for PPT, PPS, PPTX, POTX, PPSX, PPTM and ODP
+url: /comparison/
+description: Free app and APIs for comparing PowerPoint presentations in PPT, PPS, PPTX, POTX, PPSX, PPTM, and ODP formats.
 ---
 
-{{< blocks/products/pf/agp/feature-solution>}} 
+{{< blocks/products/pf/agp/feature-solution>}}
 
