@@ -341,9 +341,9 @@ layoutingOptions.setNotesPosition(NotesPositions.BottomFull);
 TiffOptions tiffOptions = new TiffOptions();
 tiffOptions.setSlidesLayoutOptions(layoutingOptions);
 
-Presentation presentation = new Presentation("Presentation.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    presentation.save("Notes.tiff", SaveFormat.Tiff, tiffOptions);
+    presentation.save("notes.tiff", SaveFormat.Tiff, tiffOptions);
 } finally {
     presentation.dispose();
 }

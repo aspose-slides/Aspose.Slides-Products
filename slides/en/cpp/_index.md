@@ -193,7 +193,7 @@ auto effect = mainSequence->AddEffect(autoShape, EffectType::Fade, EffectSubtype
 // Animate the shape text by first-level paragraphs.
 effect->get_TextAnimation()->set_BuildType(BuildType::ByLevelParagraphs1);
 
-presentation->Save(u"AnimatedText.pptx", SaveFormat::Pptx);
+presentation->Save(u"animated_text.pptx", SaveFormat::Pptx);
 presentation->Dispose();
 ```
 
@@ -220,7 +220,7 @@ for (auto&& slide : presentation->get_Slides())
     auto image = slide->GetImage(desiredSize);
 
     // Save the image to disk in JPEG format.
-    auto fileName = String::Format(u"Slide_{0}.jpg", slide->get_SlideNumber());
+    auto fileName = String::Format(u"slide_{0}.jpg", slide->get_SlideNumber());
     image->Save(fileName, ImageFormat::Jpeg);
     image->Dispose();
 }

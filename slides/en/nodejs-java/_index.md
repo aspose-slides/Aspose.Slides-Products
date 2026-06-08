@@ -267,7 +267,7 @@ try {
     // Add a rectangle autoshape.
     slide.getShapes().addAutoShape(aspose.slides.ShapeType.Rectangle, 50, 150, 300, 200);
 
-    presentation.save("outputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
+    presentation.save("output_presentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally {
     presentation.dispose();

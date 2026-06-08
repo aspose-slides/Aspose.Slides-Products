@@ -153,7 +153,7 @@ try {
     slide.background.fillFormat.solidFillColor.color = "#AEC025F4";
 }
 finally {
-    sourcePresentation.dispose();
+    if(sourcePresentation != null) sourcePresentation.dispose();
     presentation.dispose();
 }
             </code>
@@ -249,18 +249,19 @@ const asposeSlides = require('aspose.slides.via.net');
 
 const { Presentation, SaveFormat } = asposeSlides;
 
-let destinationPresentation = new Presentation("destinationPresentation.pptx");
-let sourcePresentation = new Presentation("sourcePresentation.pptx");
+let dstPresentation = new Presentation("presentation1.pptx");
+let srcPresentation = new Presentation("presentation2.pptx");
 try {
-    for (let slideIndex = 0; slideIndex < sourcePresentation.slides.count; slideIndex++) {
-        destinationPresentation.slides.addClone(sourcePresentation.slides.get(slideIndex));
+    for (let slideIndex = 0; slideIndex < srcPresentation.slides.count; slideIndex++) {
+        let slide = srcPresentation.slides.get(slideIndex);
+        dstPresentation.slides.addClone(slide);
     }
 
-    destinationPresentation.save("combinedPresentation.pptx", SaveFormat.Pptx);
+    dstPresentation.save("combined_presentation.pptx", SaveFormat.Pptx);
 }
 finally {
-    destinationPresentation.dispose();
-    sourcePresentation.dispose();
+    dstPresentation.dispose();
+    srcPresentation.dispose();
 }
             </code>
         </pre>

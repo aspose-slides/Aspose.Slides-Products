@@ -323,7 +323,7 @@ try {
     // Set the image as the slide background.
     slide.getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(image);
 
-    presentation.save("Background.pptx", SaveFormat.Pptx);
+    presentation.save("background.pptx", SaveFormat.Pptx);
 } finally {
     presentation.dispose();
 }

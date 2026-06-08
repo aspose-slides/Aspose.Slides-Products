@@ -1,24 +1,24 @@
 ---
-title: SSRS SQL PPT | Aspose.Slides PowerPoint API 
+title: Reporting Services PowerPoint API for SSRS Reports
 weight: 3020
-url: /reporting-services/ 
-description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. PowerPoint presentation services for SQL PowerPoint.
+url: /reporting-services/
+description: PowerPoint rendering extension for SQL Server Reporting Services and Power BI Report Server to export RDL reports to PPT, PPTX, PPS, PPSX, ODP, and XPS.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS & PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-reporting-services.svg" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/slides/reportingservices" >}}
+{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS, and PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-reporting-services.svg" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://releases.aspose.com/slides/reportingservices/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/buy" docsLink="https://releases.aspose.com/slides/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/reportingservices" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/reportingservices/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/reportingservices/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.Slides for Reporting Services is the only solution on the market that makes it possible to generate presentations in PowerPoint's native formats from within the Microsoft SQL Server Reporting Services And Power BI Report Server.
+ Aspose.Slides for Reporting Services lets you generate presentations in PowerPoint formats from Microsoft SQL Server Reporting Services and Power BI Report Server.
 </p>
 
 <p>
- Aspose.Slides for Reporting Services supports almost all RDL features like tables, matrices, charts, images, lists, sub-reports &amp; header/footers thus allowing to export reports in PowerPoint presentation formats in such a way that they appear similar as of the original report design. Perform Reporting Services SQL PPT without Microsoft PowerPoint Automation.
+ The extension supports RDL elements such as tables, matrices, charts, images, lists, subreports, headers, and footers, and exports reports to presentation formats while preserving the original report design.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -49,7 +49,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
      Images
     </li>
     <li>
-     Sub-reports
+     Subreports
     </li>
     <li>
      Charts
@@ -99,7 +99,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Product supports Microsoft SQL Server Reporting Services." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Reporting Services supports Microsoft SQL Server Reporting Services." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -216,7 +216,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     <em class="fa fa-share ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create comparison charts in RDL reports &amp; export as presentations
+     Create comparison charts in RDL reports and export as presentations
     </p>
    </div>
    <div class="col-lg-4">
@@ -230,21 +230,21 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     <em class="fa fa-list-alt ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create complex RDL reports &amp; export to presentation files
+     Create complex RDL reports and export to presentation files
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-th ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Export data centric RDL reports carrying sub reports
+     Export data-centric RDL reports with subreports
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file-audio-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Export embed audio &amp; videos to PowerPoint files
+     Export embedded audio and video to PowerPoint files
     </p>
    </div>
    <div class="col-lg-4">
@@ -258,21 +258,21 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Export RDL reports carrying sub reports to PowerPoint
+     Export RDL reports with subreports to PowerPoint
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bars ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Comprehensive RDL Support
+     Comprehensive RDL support
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-newspaper-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     High Fidelity to the Report Design
+     High fidelity to the report design
     </p>
    </div>
    <div class="col-lg-4">
@@ -286,42 +286,42 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set Font Size of Individual Legend
+     Set the font size for individual legend entries
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create Stock Chart &amp; Get Chart Image
+     Create stock charts and get chart images
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set Chart Area Rounded Borders
+     Set rounded borders for chart areas
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Change Color of Series and its Categories
+     Change series and category colors
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-font ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set Font Properties for Chart Data Table
+     Set font properties for chart data tables
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cog ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Rasterization or vectorization of Shapes without text
+     Rasterize or vectorize shapes without text
     </p>
    </div>
    <div class="col-lg-4">
@@ -349,7 +349,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     <em class="fa fa-bolt ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Suport for OpenDocument encryption, Text Highlighter and Morph Transition
+     Support for OpenDocument encryption, text highlighting, and Morph transitions
     </p>
    </div>
    <div class="col-lg-4">
@@ -363,31 +363,31 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     <em class="fa fa-comments ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Suport for comments replies and Office 365
+     Support for comment replies and Office 365
     </p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">Export to Presentation &amp; Slideshow Formats</h2>
+    <h2 class="h2title">Export to Presentation and Slideshow Formats</h2>
     <p>
-     SQL Server Reporting Services (SSRS) does not provide built-in support for exporting RDL reports to PowerPoint Presentations or slideshows. While using Aspose.Slides for Reporting Services, you can add support for additional export formats with ease.
+     SQL Server Reporting Services (SSRS) does not provide built-in export to PowerPoint presentations or slideshows. Aspose.Slides for Reporting Services adds these export formats.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">Comprehensive RDL Support</h2>
     <p>
-     Aspose.Slides for Reporting Services supports full RDL specification and one can customize existing reports using this extension. Selecting any RDL report designer of choice and then exporting the reports exactly the same way one designed it is quite easy.
+     Aspose.Slides for Reporting Services supports the RDL specification and lets you customize existing reports with this extension. You can design reports in an RDL report designer and export them while preserving the layout.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">Power BI Report Server Support</h2>
     <p>
-     Aspose.Slides for Reporting Services supports export from Power BI reports to presentations. This is a great feature that can help you create and share stunning reports in PowerPoint formats. You can export reports from Power BI Report Server to PPT, PPTX, ODP, PPS, and PPSX formats with high fidelity to the report design. You can also embed audio and video files to PowerPoint presentations. You can use the latest features of PowerPoint, such as MSO 2016 charts, comments replies, and Office 365.
+     Aspose.Slides for Reporting Services supports exporting Power BI reports to presentation formats. You can export reports from Power BI Report Server to PPT, PPTX, ODP, PPS, and PPSX formats while preserving the report design. You can also embed audio and video files in PowerPoint presentations and use features such as MSO 2016 charts, comment replies, and Office 365.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">Microsoft PowerPoint Automation - Not Needed</h2>
     <p>
-     Aspose.Slides for Reporting Services is built using managed code that never needs Microsoft PowerPoint to be installed on the machine to work with PowerPoint presentations. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.
+     Aspose.Slides for Reporting Services is built with managed code and does not require Microsoft PowerPoint to be installed on the server.
     </p>
    </div>
   </div>
@@ -401,9 +401,6 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/reportingservices/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides?tab=repositories" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
@@ -413,15 +410,15 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Reporting Services?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/reportingservices" pricingInformationLink="https://purchase.aspose.com/pricing/slides/reporting-services" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/reportingservices/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/reporting-services/" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
 
     {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
@@ -429,7 +426,7 @@ description: Reporting Services PowerPoint API is Aspose.Slides for SQL PPT. Pow
     {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-	{{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
