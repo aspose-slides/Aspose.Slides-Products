@@ -36,7 +36,6 @@ PM> Install-Package Aspose.Slides.Cpp
 
 1.  Create a `Presentation` instance from the source ODP file.
 1.  Call the `Save` method and pass the output SWF file path with `SaveFormat::Swf`.
-1.  Dispose of the `Presentation` object.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
