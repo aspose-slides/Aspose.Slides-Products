@@ -1,22 +1,22 @@
 ---
-title: Add Chart to PowerPoint Presentations using Java 
+title: Add Charts to PowerPoint Presentations using Java
 url: /java/chart/
-description: Java source code to add chart to PowerPoint presentations
+description: Add charts to PowerPoint presentations in Java with Aspose.Slides for Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Create Chart in PowerPoint documents using Java" h2="Build your own Java apps to create pie charts, bar graphs, and other diagrams in presentations using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/upper-banner h1="Create Charts in PowerPoint Presentations using Java" h2="Use Aspose.Slides for Java to create pie charts, bar charts, and other chart types in presentation files." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Add Chart Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Add Chart Code Samples" >}}
 
 {{< blocks/products/pf/product pfName="Create Charts" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/java/chart/ppt/" >}}
-How to Add Chart to PPT file using Aspose.Slides for Java API.
+Use Aspose.Slides for Java to add and format charts in `PPT` presentations.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Create Charts" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/java/chart/pptx/" >}}
-How to Add Chart to PPTX file using Aspose.Slides for Java API.
+Use Aspose.Slides for Java to add and format charts in `PPTX` presentations.
 {{< /blocks/products/pf/product >}}
 
 

@@ -48,15 +48,15 @@ PowerPoint API for generating and manipulating presentations in Node.js applicat
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/sharepoint/" >}}
-PowerPoint API for converting presentations to PDF in SharePoint.
+PowerPoint API for converting presentations to PDF in SharePoint environments.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/reporting-services/" >}}
-PowerPoint API for exporting RDL reports to PowerPoint from SQL Server Reporting Services.
+PowerPoint API for exporting RDL reports from SQL Server Reporting Services to presentation formats.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/jasperreports/" >}}
-PowerPoint API for exporting reports to PowerPoint from JasperReports or JasperServer.
+PowerPoint API for exporting JasperReports and JasperServer reports to presentation formats.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/net-core/" >}}
@@ -72,7 +72,7 @@ PowerPoint API for building Xamarin cross-platform applications and managing pre
 {{< blocks/products/pf/product-card-row title="Aspose.Slides Online Code Samples" >}}
 
 {{< blocks/products/pf/product pfName="" title="Annotation" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/annotation/" >}}
-Remove annotations from presentations with Aspose.Slides API.
+Remove comments and annotations from presentations with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Comparison" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/comparison/" >}}
@@ -104,7 +104,7 @@ Password-protect PowerPoint presentations with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Redaction" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/redaction/" >}}
-Redact presentations with Aspose.Slides API.
+Find and replace sensitive text in presentations with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Search" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/search/" >}}
@@ -124,7 +124,7 @@ Remove passwords from PowerPoint presentations with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/viewer/" >}}
-Open presentations with Aspose.Slides API.
+Open and view presentations with Aspose.Slides API.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="" title="Watermark" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/watermark/" >}}
@@ -139,7 +139,7 @@ Add watermarks to presentations with Aspose.Slides API.
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides?tab=repositories" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}

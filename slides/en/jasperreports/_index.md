@@ -14,7 +14,7 @@ description: Aspose.Slides for JasperReports exports JasperReports and JasperSer
 
 {{< blocks/products/pf/tab-content >}}
 <p>
-Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for converting JasperReports and JasperServer reports to PowerPoint presentation formats. Since JasperServer does not provide built-in support for exporting reports as PowerPoint presentations, Aspose.Slides for JasperReports enables you to export reports to PPT, PPTX, PPS, and PPSX formats without using Microsoft PowerPoint.
+Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for converting JasperReports and JasperServer reports to PowerPoint presentation formats. Since JasperServer does not provide built-in support for exporting reports as PowerPoint presentations, Aspose.Slides for JasperReports lets you export reports to <code>PPT</code>, <code>PPTX</code>, <code>PPS</code>, and <code>PPSX</code> formats without using Microsoft PowerPoint.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -155,7 +155,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
      <b>
       Others:
      </b>
-     PDF, HTML
+     <code>PDF</code>, <code>HTML</code>
     </li>
    </ul>
   </div>
@@ -233,7 +233,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
     <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Support for MSO 2016 charts
+     Support for modern PowerPoint charts
     </p>
    </div>
    <div class="col-lg-4">
@@ -247,7 +247,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Add images, text, lines to reports
+     Add images, text, and lines to reports
     </p>
    </div>
    <div class="col-lg-4">
@@ -303,7 +303,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
     <em class="fa fa-comments ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Support comment replies, Office 365 features, and external Excel workbooks
+     Support comment replies, Microsoft 365 features, and external Excel workbooks
     </p>
    </div>
    <div class="col-lg-4">
@@ -324,7 +324,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
     <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set chart external data source workbook path
+     Set external workbook paths for chart data sources
     </p>
    </div>
    <div class="col-lg-4">
@@ -356,17 +356,17 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-envelop-open ico-blue fa-2x col-lg-2">
+    <em class="fa fa-envelope-open ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Add support for Strict Open XML format
+     Export with Strict Open XML format support
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bars ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Get effects by text-box paragraphs
+     Get effects by text box paragraphs
     </p>
    </div>
    <div class="col-lg-4">
@@ -403,9 +403,9 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
     </h2>
     <p>
      Aspose.Slides for JasperReports supports exporting complex reports containing
-     <strong>
+     <code>
       MultipleAxisChartReport
-     </strong>
+     </code>
      to Microsoft PowerPoint presentations. The output appears exactly the same as it does in JasperViewer.
     </p>
    </div>
@@ -414,15 +414,15 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
      Export Reports to Presentation Formats
     </h2>
     <p>
-     JasperReports and JasperServer do not provide built-in export to PowerPoint formats. Aspose.Slides for JasperReports adds export support for PowerPoint presentations (PPT, PPTX) and slideshows (PPS, PPSX).
+     JasperReports and JasperServer do not provide built-in export to PowerPoint formats. Aspose.Slides for JasperReports adds export support for PowerPoint presentations (<code>PPT</code>, <code>PPTX</code>) and slideshows (<code>PPS</code>, <code>PPSX</code>).
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Microsoft PowerPoint Automation – Not Needed
+     Microsoft PowerPoint Automation Is Not Needed
     </h2>
     <p>
-     Aspose.Slides for JasperReports does not require Microsoft PowerPoint to be installed. It provides a reliable alternative to PowerPoint automation for applications that need report export with better security, stability, scalability, performance, and deployment flexibility.
+     Aspose.Slides for JasperReports does not require Microsoft PowerPoint to be installed. It provides a reliable alternative to PowerPoint automation for applications that need secure, stable, scalable, and flexible report export.
     </p>
    </div>
   </div>
@@ -437,7 +437,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/jasperreports/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides?tab=repositories" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}

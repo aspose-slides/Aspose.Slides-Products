@@ -158,9 +158,7 @@ You can also convert presentations to and from streams and byte arrays.
 {{% blocks/products/pf/agp/code-block title="C++ code for converting a presentation to PDF" offSpacer="true" %}}
 
 ```cpp
-// Load a PPT file.
 auto presentation = MakeObject<Presentation>(u"presentation.ppt");
-// Save in PDF format.
 presentation->Save(u"document.pdf", SaveFormat::Pdf);
 presentation->Dispose();
 ```
@@ -179,7 +177,7 @@ Adding animations to presentation elements can make slides more interactive and 
 auto presentation = MakeObject<Presentation>();
 auto slide = presentation->get_Slides()->idx_get(0);
 
-auto autoShape = slide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 20.0f, 20.0f, 150.0f, 100.0f);
+auto autoShape = slide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 20, 20, 150, 100);
 
 auto textFrame = autoShape->get_TextFrame();
 textFrame->set_Text(u"First paragraph \nSecond paragraph \n Third paragraph");

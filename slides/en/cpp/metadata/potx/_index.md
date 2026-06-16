@@ -1,33 +1,28 @@
 ---
-title:  View or Edit POTX Files Metadata using C++
+title: View or Edit POTX Metadata using C++
 url: /cpp/metadata/potx/
 keywords: Edit POTX Metadata, View POTX Metadata, Edit POTX properties, View POTX properties
-description: C++ source code to edit or view POTX format metadata.
+description: View and edit POTX metadata in C++. Use Aspose.Slides for C++ to update built-in and custom presentation properties.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edit POTX properties using C++" h2="Build your own C++ apps to modify Built-in and Custom properties in presentation files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="POTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/upper-banner h1="Edit POTX Metadata using C++" h2="Use Aspose.Slides for C++ to view and update built-in and custom properties in presentation files." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="POTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Modify POTX Properties via C++" %}}
-Using Aspose.Slides for C++, developers can access and modify the values of built-in properties as well as custom properties. Developers can use [DocumentProperties](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) property exposed by Presentation object to access the document properties of the presentation file.
+Aspose.Slides for C++ lets you read and update metadata in POTX files without Microsoft PowerPoint. Use the [`DocumentProperties`](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) object exposed by `Presentation::get_DocumentProperties` to change built-in properties such as `Author` and `Title`, or to manage custom properties with `idx_set`, `GetCustomPropertyName`, and `RemoveCustomProperty`.
 {{% blocks/products/pf/agp/code-block title="Modify POTX Built-in Properties - C++" offSpacer="true" %}}
 
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.potx");
+auto documentProperties = presentation->get_DocumentProperties();
 
-// Instantiate the Presentation class that represents the Presentation
-System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"presentation.potx");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-System::SharedPtr<IDocumentProperties> documentProperties = presentation->get_DocumentProperties();
-
-// Set the builtin properties
 documentProperties->set_Author(u"New Author");
 documentProperties->set_Title(u"New Title");
 
-// Save your presentation to a file
-presentation->Save(u"DocumentProperties_out.potx", SaveFormat::Potx);
+presentation->Save(u"updated-presentation.potx", SaveFormat::Potx);
+presentation->Dispose();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -35,26 +30,18 @@ presentation->Save(u"DocumentProperties_out.potx", SaveFormat::Potx);
 {{% blocks/products/pf/agp/code-block title="Add Custom Properties to POTX - C++" offSpacer="true" %}}
 
 ```cpp
-
-// Instantiate the Presentation class
-auto presentation = System::MakeObject<Presentation>();
-
-// Getting Document Properties
+auto presentation = MakeObject<Presentation>(u"presentation.potx");
 auto documentProperties = presentation->get_DocumentProperties();
 
-// Adding Custom properties
-documentProperties->idx_set(u"New Custom", ObjectExt::Box<int32_t>(12));
-documentProperties->idx_set(u"My Name", ObjectExt::Box<String>(u"Aspose Metadata Editor"));
-documentProperties->idx_set(u"Custom", ObjectExt::Box<int32_t>(124));
+documentProperties->idx_set(u"Department", ObjectExt::Box<String>(u"Sales"));
+documentProperties->idx_set(u"Project", ObjectExt::Box<String>(u"Metadata Update"));
+documentProperties->idx_set(u"Revision", ObjectExt::Box<int32_t>(3));
 
-// Getting property name at particular index
-String getPropertyName = documentProperties->GetCustomPropertyName(2);
+auto customPropertyName = documentProperties->GetCustomPropertyName(2);
+documentProperties->RemoveCustomProperty(customPropertyName);
 
-// Removing selected property
-documentProperties->RemoveCustomProperty(getPropertyName);
-
-// Saving presentation
-presentation->Save(u"CustomDocumentProperties_out.potx", SaveFormat::Potx);
+presentation->Save(u"updated-custom-properties.potx", SaveFormat::Potx);
+presentation->Dispose();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -63,41 +50,41 @@ presentation->Save(u"CustomDocumentProperties_out.potx", SaveFormat::Potx);
 
 {{< blocks/products/pf/feature-page-section  h2="How to Extract Metadata of POTX via C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to Extract Metadata from POTX files." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to extract metadata from POTX files." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Instantiate the Presentation class with path to POTX file
+Load the POTX file with the `Presentation` class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Get DocumentProperties object associated with Presentation
+Get the `DocumentProperties` object with `get_DocumentProperties`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Loop over the items in DocumentProperties object
+Read or update built-in properties such as `Author` and `Title`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Access and modify custom properties
+Add, read, or remove custom properties with `idx_set`, `GetCustomPropertyName`, and `RemoveCustomProperty`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Metadata Formats" subTitle="Using C++, You can also manipulate metadata of many other formats including." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Metadata Formats" subTitle="You can also view and edit metadata in other presentation formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/metadata/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/metadata/pptx/" name="PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
