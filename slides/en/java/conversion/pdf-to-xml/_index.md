@@ -2,45 +2,39 @@
 title: Convert PDF to XML in Java
 url: /java/conversion/pdf-to-xml/
 keywords: PDF to XML, Convert PDF to XML, Java API, Java Library, PDF, XML
-description: Convert PDF to XML in Java. Use Java library API to convert PDF files to XMLs
+description: Convert PDF to XML in Java. Use Aspose.Slides for Java to export PDF files as XML files.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in Java" h2="High-speed and cross-platform Java Library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in Java" h2="Convert PDF files to XML with Aspose.Slides for Java without Adobe Acrobat." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to XML in Java" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PDF to XML. Using **Aspose.Slides for Java**, any developer or application can convert PDF to XML files with just a few lines of Java code.
-
-As a modern document processing API, Aspose.Slides for Java exports PDF files to XML file formats quickly. Aspose PowerPoint library allows you to convert PDF to XMLs and many other file formats
+[**Aspose.Slides for Java**](/slides/java/) lets you import `PDF` files into a presentation and export slides as `XML` files. With this Java API, you can convert `PDF` content without Adobe Acrobat.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to XML using Java" %}}
-To convert the PDF to XML, you will need to create Presentation from PDF file and save it as XML.
+To convert `PDF` to `XML`, create a `Presentation`, import the source file with `ISlideCollection.addFromPdf`, and export each imported slide with `ISlide.writeAsSvg`.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting PDF into XML" offSpacer="true" %}}
 
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    pres.getSlides().addFromPdf("InputPDF.pdf");
-    for (int index = 0; index < pres.getSlides().size(); index++)
-    {
-        ISlide slide = pres.getSlides().get_Item(index);
-
-        FileOutputStream fileStream = new FileOutputStream("slide-" + index + ".xml");
+    presentation.getSlides().addFromPdf("input.pdf");
+    for (ISlide slide : presentation.getSlides()) {
+        FileOutputStream outputStream = new FileOutputStream("slide_" + slide.getSlideNumber() + ".xml");
         try {
-            slide.writeAsSvg(fileStream);
+            slide.writeAsSvg(outputStream);
         } finally {
-            fileStream.close();
+            outputStream.close();
         }
     }
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 
@@ -54,7 +48,7 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PDF to XML in Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/).
+Install [**Aspose.Slides for Java**](/slides/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -62,29 +56,29 @@ Add a library reference (import the library) to your Java project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Java.
+Open the source `PDF` file in Java.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as XML file.
+Save each slide as an `XML` file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PDF To Other Supported Formats" subTitle="You can also convert PDF and save to other file formats. See all supported formats below" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
