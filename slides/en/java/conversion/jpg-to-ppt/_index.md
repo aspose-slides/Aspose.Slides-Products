@@ -1,36 +1,38 @@
 ---
-title:  Convert JPG to PPT in Java
+title: Convert JPG to PPT in Java
 url: /java/conversion/jpg-to-ppt/
 keywords: Convert JPG to PPT, JPG to PPT, PowerPoint, JPG, PPT, Java API, Java Library
-description: Convert JPG to PPT in Java. Use Java library API to convert JPG images to PowerPoint
+description: Convert JPG to PPT in Java. Use Aspose.Slides for Java to add a JPG image to a slide and save it as a PPT presentation.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert JPG to PPT in Java" h2="Powerful cross-platform Java API for converting JPG to PPT using Java code" >}}
+{{< blocks/products/pf/feature-page-header h1="Convert JPG to PPT in Java" h2="Convert JPG images to PPT presentations using Aspose.Slides for Java without Microsoft PowerPoint." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert JPG to PPT using Aspose.Slides" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library used to create, convert, and manipulate PowerPoint presentations, PDFs, HTML docs, and other files. When you convert JPG to PPT, you are essentially creating a PowerPoint presentation that contains slides based on JPG images.
+[**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can add `JPG` images to slides and save the result as a `PPT` presentation.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to PPT in Java" %}}
-Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), you can convert JPG image to PowerPoint presentation with just a few lines of code:
+Using [**Aspose.Slides for Java**](/slides/java/), you can convert a `JPG` image to a `PPT` presentation with just a few lines of code:
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting JPG to PPT" offSpacer="true" %}}
 ```java
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-	ISlide slide = pres.getSlides().get_Item(0);
-	IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.jpg")));
-	slide.getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+    ISlide slide = presentation.getSlides().get_Item(0);
 
-	pres.save("pres.ppt", SaveFormat.Ppt);
+	byte[] imageData = Files.readAllBytes(Paths.get("image.jpg"));
+    IPPImage presentationImage = presentation.getImages().addImage(imageData);
+    slide.getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, presentationImage);
+
+    presentation.save("presentation.ppt", SaveFormat.Ppt);
 } finally {
-	if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -55,15 +57,15 @@ Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
+Create an instance of the `Presentation` class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the JPG image you want to convert to PPT.
+Load the `JPG` image as an `IPPImage`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting file as a PPT presentation.
+Save the resulting file as a `PPT` presentation.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -75,17 +77,17 @@ Save the resulting file as a PPT presentation.
 
 
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

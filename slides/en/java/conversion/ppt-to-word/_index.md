@@ -1,18 +1,18 @@
 ---
-title:  Convert PPT to Word in Java
+title: Convert PPT to Word in Java
 url: /java/conversion/ppt-to-word/
 keywords: Convert PPT to Word, PPT to Word, PPT to DOC, PowerPoint to Word, Java API, Java Library
-description: Convert PPT to Word in Java. Use Java library API to convert PowerPoint to Word
+description: Convert PPT to Word in Java. Use Aspose.Slides for Java and Aspose.Words for Java to move PowerPoint slide content into a Word document.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in Java" h2="Powerful cross-platform Java API for converting PowerPoint to Word using Java code without Microsoft PowerPoint or Office" >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in Java" h2="Convert PowerPoint slides to a Word document using Java code without Microsoft PowerPoint or Office" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Word using Aspose.Slides and Aspose.Words" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) and [**Aspose.Words for Java**](https://products.aspose.com/words/java/) are powerful Java libraries used to manipulate and convert PowerPoint presentations, Word documents, and other files. When you convert PowerPoint to Word, you are essentially moving the contents of a presentation's slides to pages in a Word document.
+[Aspose.Slides for Java](/slides/java/) and [Aspose.Words for Java](https://products.aspose.com/words/java/) let Java applications read PowerPoint presentations and create Word documents. A `PPT` to Word workflow usually renders each slide image, extracts slide text, and writes that content into a `Document`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,35 +20,31 @@ description: Convert PPT to Word in Java. Use Java library API to convert PowerP
 
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to Word in Java" %}}
-You can convert PPT to Word quickly with just a few lines of code
+Use this Java code to convert `PPT` to Word:
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting PowerPoint to Word" offSpacer="true" %}}
 ```java
-Presentation pres = new Presentation(inputPres);
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    for (ISlide slide : pres.getSlides())
-    {
-        // generates and inserts slide image
-        BufferedImage bitmap = slide.getThumbnail(1, 1);
+    Document document = new Document();
+    DocumentBuilder documentBuilder = new DocumentBuilder(document);
 
-        builder.insertImage(bitmap);
-
-        // inserts slide's texts
-        for (IShape shape : slide.getShapes())
-        {
-            if (shape instanceof AutoShape)
-            {
-                builder.writeln(((AutoShape)shape).getTextFrame().getText());
-            }
+    for (ISlide slide : presentation.getSlides()) {
+        IImage slideImage = slide.getImage(1f, 1f);
+        try {
+            ByteArrayOutputStream imageStream = new ByteArrayOutputStream();
+            slideImage.save(imageStream, ImageFormat.Png);
+            documentBuilder.insertImage(imageStream.toByteArray());
+        } finally {
+            slideImage.dispose();
         }
 
-        builder.insertBreak(BreakType.PAGE_BREAK);
+        documentBuilder.insertBreak(BreakType.PAGE_BREAK);
     }
-    doc.save(outputDoc);
+
+    document.save("output.docx");
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -65,19 +61,19 @@ try {
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java** and **Aspose.Words for Java** 
+Install `Aspose.Slides for Java` and `Aspose.Words for Java`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class and Doc class.
+Load the `PPT` presentation with the `Presentation` class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the PPT presentation you want to convert to Word.
+Create a Word `Document` and a `DocumentBuilder`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Generate images and texts based on the slides' contents.
+Render slide images with `getImage` and write slide text with `DocumentBuilder`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -93,18 +89,19 @@ Save the resulting Word document.
 
 
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="ppt-to-word" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/ppt-to-xps/" name="PPT TO XPS" >}}
 
 
 

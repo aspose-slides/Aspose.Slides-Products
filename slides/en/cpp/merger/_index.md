@@ -1,87 +1,87 @@
 ---
-title: Merge PDF, PPT, PPTX and Many Other File Formats Using C++ 
+title: Merge Presentations and Other Files Using C++
 url: /cpp/merger/
 keywords: Merge, Join, PowerPoint, Presentation, C++, Aspose
-description: Merge multiple files in C++ PPT, PPTX, ODP, PDF, PNG, JPG and many more. 
+description: Merge PPT, PPTX, ODP, PDF, PNG, JPG, and other files in C++ with Aspose.Slides for C++.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Merge Powerpoint, PDF, PPT or other documents together in C++" h2="Build your own C++ apps to combine presentations using Aspose.Slides APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
+{{< blocks/products/pf/upper-banner h1="Merge Presentations and Files in C++" h2="Use Aspose.Slides for C++ to combine presentation files, PDFs, and images in C++ applications." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides for C++ Merger Code Samples" >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/ppt/" >}}
-How to Merge PPT using Aspose.Slides for C++ API.
+Merge PPT files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/pptx/" >}}
-How to Merge PPTX using Aspose.Slides for C++ API.
+Merge PPTX files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="HTML" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/html-to-html/" >}}
-How to Merge HTML using Aspose.Slides for C++ API.
+Merge HTML files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PDF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/pdf-to-pdf/" >}}
-How to Merge PDF using Aspose.Slides for C++ API.
+Merge PDF files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="Image" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/image-to-image/" >}}
-How to Merge Image using Aspose.Slides for C++ API.
+Merge Image files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="JPG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/jpg-to-jpg/" >}}
-How to Merge JPG using Aspose.Slides for C++ API.
+Merge JPG files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/odp/" >}}
-How to Merge ODP using Aspose.Slides for C++ API.
+Merge ODP files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/otp/" >}}
-How to Merge OTP using Aspose.Slides for C++ API.
+Merge OTP files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PNG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/png-to-pdf/" >}}
-How to Merge PNG using Aspose.Slides for C++ API.
+Merge PNG files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/pot/" >}}
-How to Merge POT using Aspose.Slides for C++ API.
+Merge POT files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/potm/" >}}
-How to Merge POTM using Aspose.Slides for C++ API.
+Merge POTM files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/potx/" >}}
-How to Merge POTX using Aspose.Slides for C++ API.
+Merge POTX files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/pps/" >}}
-How to Merge PPS using Aspose.Slides for C++ API.
+Merge PPS files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/ppsm/" >}}
-How to Merge PPSM using Aspose.Slides for C++ API.
+Merge PPSM files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/ppsx/" >}}
-How to Merge PPSX using Aspose.Slides for C++ API.
+Merge PPSX files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/pptm/" >}}
-How to Merge PPTM using Aspose.Slides for C++ API.
+Merge PPTM files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="SVG" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/svg-to-png/" >}}
-How to Merge SVG using Aspose.Slides for C++ API.
+Merge SVG files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Merge" title="TIFF" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/cpp/merger/tiff-to-pdf/" >}}
-How to Merge TIFF using Aspose.Slides for C++ API.
+Merge TIFF files with Aspose.Slides for C++.
 {{< /blocks/products/pf/product >}}
 
 

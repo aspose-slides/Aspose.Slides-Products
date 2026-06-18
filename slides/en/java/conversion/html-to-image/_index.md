@@ -8,36 +8,40 @@ description: Convert HTML to Image in Java. Use Java library API to convert HTML
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert HTML to Image in Java" h2="High-speed and cross-platform Java Library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert HTML to Image in Java" h2="Convert HTML files to image files using Aspose.Slides for Java without Microsoft PowerPoint." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to Image in Java" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert HTML to Image. Using **Aspose.Slides for Java**, any developer or application can convert HTML to Image files with just a few lines of Java code.
+[**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and render the resulting slides as image files.
 
-As a modern document processing API, Aspose.Slides for Java exports HTML files to Image file formats quickly. Aspose PowerPoint library allows you to convert HTML to Images and many other file formats
+You can load an `HTML` file into a `Presentation`, render each `ISlide` as an `IImage`, and save the output in an image format such as `PNG`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to Image using Java" %}}
-To convert the HTML to Image, you will need to create Presentation from HTML file and save it as Image.
+To convert `HTML` to image files, create a `Presentation` from the source file and render its slides.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting HTML into Image" offSpacer="true" %}}
 
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
-    pres.getSlides().addFromHtml(tr);
-    Dimension size = new Dimension(960, 720);
-    for (int index = 0; index < pres.getSlides().size(); index++)
-    {
-        ISlide slide = pres.getSlides().get_Item(index);
-        BufferedImage bufferedImage = slide.getThumbnail(size);
-        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+    presentation.getSlides().removeAt(0);
+    try (FileInputStream htmlStream = new FileInputStream("page.html")) {
+        presentation.getSlides().addFromHtml(htmlStream);
+    }
+
+    for (int slideIndex = 0; slideIndex < presentation.getSlides().size(); slideIndex++) {
+        ISlide slide = presentation.getSlides().get_Item(slideIndex);
+        IImage slideImage = slide.getImage(1f, 1f);
+        try {
+            slideImage.save("slide_" + (slideIndex + 1) + ".png", ImageFormat.Png);
+        } finally {
+            slideImage.dispose();
+        }
     }
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 
@@ -51,7 +55,7 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert HTML to Image in Java." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/).
+Install [**Aspose.Slides for Java**](/slides/java/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -59,26 +63,26 @@ Add a library reference (import the library) to your Java project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in Java.
+Load the source `HTML` file into a `Presentation`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as Image file.
+Render each `ISlide` as an `IImage` and save it as an image file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert HTML To Other Supported Formats" subTitle="You can also convert HTML and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert HTML To Other Supported Formats" subTitle="You can also convert HTML and save it to other file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-png/" name="HTML TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/conversion/html-to-xml/" name="HTML TO XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-png/" name="HTML TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/html-to-xml/" name="HTML TO XML" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

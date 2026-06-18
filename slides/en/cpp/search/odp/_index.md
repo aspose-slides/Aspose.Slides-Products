@@ -1,25 +1,25 @@
 ---
-title: Search Text in ODP Presentation Files using C++
+title: Search Text in ODP Presentations using C++
 url: /cpp/search/odp/
 keywords: search words in ODP, search and replace text in ODP, search text ODP Presentation
-description: C++ source code to search text in ODP Presentation.
+description: Search and replace text in ODP presentations in C++. Use Aspose.Slides for C++ to find text in presentation files.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Search Text ODP using C++" h2="Build your own C++ apps to search and replace text in presentation files using server-side APIs. Learn how to find all the entrances of a certain word or phrase in presentation documents. Search text by exact data matching and regular expression matching." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/upper-banner h1="Search Text in ODP using C++" h2="Use Aspose.Slides for C++ to find and replace text in presentation files without Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Search and Replace Text ODP Presentation via C++" %}}
-A basic document search and replace text in contents, comments, slide notes or metadata with Aspose.Slides for C++ APIs can be done with just few lines of code. Use regular expression matching, match case to search text in presentation. Search text in titles, content, footer or header.
-{{% blocks/products/pf/agp/code-block title="Search text ODP Presentation using C++" offSpacer="true" %}}
+{{% blocks/products/pf/feature-page-section  h2="Search and Replace Text in ODP Presentation via C++" %}}
+Aspose.Slides for C++ lets you search text in ODP presentations and replace matching content. Use `SlideUtil::FindAndReplaceText` with a `Presentation` object to search slide text and save the updated presentation.
+{{% blocks/products/pf/agp/code-block title="Search Text in ODP Presentation using C++" offSpacer="true" %}}
 
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.odp");
-
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.odp", SaveFormat::Odp);	
+SlideUtil::FindAndReplaceText(presentation, true, u"Quarterly Report", u"Annual Report", nullptr);
+presentation->Save(u"updated-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -28,30 +28,30 @@ presentation->Save(u"replaced.odp", SaveFormat::Odp);
 
 {{< blocks/products/pf/feature-page-section  h2="How to Search Text in ODP via C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to search text ODP files." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to search text in ODP files." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load ODP with an instance of Presentation.
+Load the ODP file with the `Presentation` class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Use [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) method to find and replace text.
+Use the [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) method to find and replace text.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result in ODP format
+Save the updated file with `SaveFormat::Odp`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Search Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in ODP documents right now." >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Search Live Demos" sectionDescription="Search and replace text in ODP documents right now." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Using C++, You can also search text in the following formats:" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="You can also search text in the following formats with C++." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/search/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/search/pptx/" name="PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

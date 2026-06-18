@@ -1,34 +1,31 @@
 ---
-title: Remove ODP Annotation using Java 
+title: Remove ODP Annotations using Java
 weight: 1790
-url: /java/annotation/odp/ 
-description: Java sample code to delete ODP format annotations on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+url: /java/annotation/odp/
+description: Remove comments and comment authors from ODP presentations in Java with Aspose.Slides for Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Remove Comments & Comment Authors from ODP in Java" h2="Build your own Java apps to manipulate comments & authors in document files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/upper-banner h1="Remove Comments and Comment Authors from ODP in Java" h2="Use Aspose.Slides for Java to remove comments and comment authors from presentation files." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="PPT" fileiconsmall3="ODP" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
 {{% blocks/products/pf/feature-page-section  h2="Remove Comments from ODP via Java" %}}
-In order to remove annotations from the ODP file, we’ll use  [Aspose.Slides for Java](https://products.aspose.com/slides/java/) API which is a feature-rich, powerful and easy to use document manipulation API for Java platform.
+Aspose.Slides for Java lets you remove comments and comment authors from ODP presentations. Load a file with the `Presentation` class, iterate through `ICommentAuthor` objects from `getCommentAuthors`, clear their comments, and save the updated presentation.
 {{% blocks/products/pf/agp/code-block title="Delete Annotations from ODP - Java" offSpacer="true" %}}
 
 ```java
-
-Presentation presentation = new Presentation("example.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -42,23 +39,23 @@ try {
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
+Install Aspose.Slides for Java. See [Installation](https://docs.aspose.com/slides/java/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load ODP with an instance of Presentation class
+Load the ODP file with the `Presentation` class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Iterate over all Authors of loaded ODP
+Iterate through the `ICommentAuthor` objects from `getCommentAuthors`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Remove all Comments of an author
+Clear each author's comments with `getComments().clear()`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Remove all Authors at the end
+Clear the comment author collection and save the updated ODP file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -67,10 +64,10 @@ Remove all Authors at the end
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Annotation Formats" subTitle="Using Java, one can easily annotate other formats including." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Annotation Formats" subTitle="You can also remove comments from other presentation formats with Java." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/annotation/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/annotation/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/annotation/pptx/" name="PPTX" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

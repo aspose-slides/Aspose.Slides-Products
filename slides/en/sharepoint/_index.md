@@ -1,24 +1,24 @@
 ---
-title: SharePoint PowerPoint | Aspose.Slides SharePoint API 
+title: SharePoint PowerPoint Conversion API
 weight: 910
-url: /sharepoint/ 
-description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and convert SharePoint PPT, SharePoint slideshow, SharePoint presentation.
+url: /sharepoint/
+description: SharePoint PowerPoint solution for creating, managing, and converting PPT, PPTX, PPS, PPSX, POT, POTX, PDF, TIFF, and XPS files in SharePoint.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-sharepoint.svg" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/slides/sharepoint" >}}
+{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-sharepoint.svg" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://releases.aspose.com/slides/sharepoint/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com/buy" docsLink="https://releases.aspose.com/slides/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/sharepoint" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/sharepoint/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/sharepoint/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.Slides for SharePoint to manage and convert PowerPoint files in SharePoint. Aspose.Slides, as a SharePoint PowerPoint solution, can easily import common Microsoft presentation formats including PPT, POT, PPS, PPTX, POTX &amp; PPSX, and can export these formats to PDF, TIFF and XPS files. Use all SharePoint PPT functionality without Microsoft PowerPoint Automation needed.
+ Aspose.Slides for SharePoint lets you manage and convert PowerPoint files in SharePoint. It can import common Microsoft presentation formats, including PPT, POT, PPS, PPTX, POTX, and PPSX, and export these formats to PDF, TIFF, and XPS files. Use SharePoint PPT functionality without Microsoft PowerPoint automation.
 </p>
 
 <p>
- Aspose.Slides for SharePoint works with Windows SharePoint Services WSS 3.0 and Microsoft Office SharePoint Server 2007, 2010 &amp; 2013.
+ Aspose.Slides for SharePoint works with Windows SharePoint Services (WSS) 3.0 and Microsoft Office SharePoint Server 2007, 2010, and 2013.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -26,7 +26,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for SharePoint" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for SharePoint." >}}
 <div class="diagram1 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -40,10 +40,10 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
    </header>
    <ul>
     <li>
-     Save to Sub-folder
+     Save to subfolder
     </li>
     <li>
-     Overwrite Files
+     Overwrite files
     </li>
    </ul>
   </div>
@@ -222,28 +222,28 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
     <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set Font Size of Individual Legend
+     Set the font size for individual legend entries
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create Stock Chart &amp; Get Chart Image
+     Create stock charts and get chart images
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set Chart Area Rounded Borders
+     Set rounded borders for chart areas
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Change Color of Categories in Series
+     Change category colors in a series
     </p>
    </div>
    <div class="col-lg-4">
@@ -264,14 +264,14 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
     <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Size represents property for Bubble chart
+     Set the size represents property for bubble charts
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-angle-left ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Hiding left slide thumbnails pane in generated PPT
+     Hide the left slide thumbnails pane in generated PPT files
     </p>
    </div>
    <div class="col-lg-4">
@@ -292,31 +292,31 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
     <em class="fa fa-file ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Restricting local file system access when opening a document
+     Restrict local file system access when opening documents
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert PowerPoint Presentations to Several Formats
+     Convert PowerPoint presentations to several formats
     </h2>
     <p>
-     Aspose.Slides for SharePoint converts presentations from your SharePoint document library to many popular document exchange formats. Aspose.Slides for SharePoint supports common presentation formats as input formats and can export to presentation formats as well as PDF, TIFF and XPS.
+     Aspose.Slides for SharePoint converts presentations from SharePoint document libraries to popular document exchange formats, including PDF, TIFF, and XPS.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Easy &amp; Lightweight Installation
+     Easy and Lightweight Installation
     </h2>
     <p>
-     Aspose.Slides for SharePoint is available as a ZIP archive. Unpack the ZIP File to the local drive on the MOSS 7.0 or WSS 3.0 server and run the setup.exe to install for use. It’s that easy!
+     Aspose.Slides for SharePoint is available as a ZIP archive. Unpack it to a local drive on the MOSS 7.0 or WSS 3.0 server and run setup.exe.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Microsoft PowerPoint Automation – Not Needed
+     Microsoft PowerPoint Automation Is Not Needed
     </h2>
     <p>
-     Aspose.Slides for SharePoint is built using managed code that never needs Microsoft PowerPoint to be installed on the machine to work with PowerPoint document formats conversion. It is a perfect Microsoft PowerPoint automation alternative in terms of supported features, security, stability, scalability, speed and price.
+     Aspose.Slides for SharePoint is built with managed code and does not require Microsoft PowerPoint to be installed on the server.
     </p>
    </div>
   </div>
@@ -330,8 +330,6 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/sharepoint/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides?tab=repositories" >}}
-{{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
@@ -341,15 +339,15 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for SharePoint?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/sharepoint" pricingInformationLink="https://purchase.aspose.com/pricing/slides/sharepoint" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/sharepoint/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/sharepoint/" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
 
     {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
@@ -357,7 +355,7 @@ description: SharePoint PowerPoint is an Aspose.Slides SharePoint to create and 
     {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-	{{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}

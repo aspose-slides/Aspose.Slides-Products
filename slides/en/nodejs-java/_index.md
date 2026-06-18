@@ -1,12 +1,12 @@
 ---
 title: Node.js via Java PowerPoint API by Aspose.Slides
 weight: 5890
-url: /nodejs-java/ 
-description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js. 
+url: /nodejs-java/
+description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, Read, Modify and Convert PowerPoint and OpenOffice presentations using Node.js without any external software." logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, Read, Modify, and Convert PowerPoint and OpenOffice presentations using Node.js without any external software." logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" >}}
 
@@ -14,23 +14,23 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for Node.js via Java</strong> is a powerful presentation processing library that allows Node.js developers to create, edit, convert, and manage PowerPoint presentations programmatically — <strong>without relying on Microsoft PowerPoint or any other third-party software</strong>. It supports all major presentation elements including slides, text, shapes, charts, tables, images, SmartArt, and multimedia.</p>
+<p><strong>Aspose.Slides for Node.js via Java</strong> is a powerful presentation processing library that allows Node.js developers to create, edit, convert, and manage PowerPoint presentations programmatically &mdash; <strong>without relying on Microsoft PowerPoint or any other third-party software</strong>. It supports all major presentation elements including slides, text, shapes, charts, tables, images, SmartArt, and multimedia.</p>
 
 <p><strong>Aspose.Slides for Node.js via Java</strong> provides these popular features:</p>
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
     <li>Converting presentation files to popular presentation formats, such as PPT, PPTX, and ODP.</li>
-    <li>Export presentations to high-quality video (MP4) with full support for animations and slide transitions.</li>
+    <li>Exporting presentations to high-quality video (MP4) with full support for animations and slide transitions.</li>
     <li>Exporting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
-    <li>Automatically translate presentations using AI-powered translation through integration with external language models.</li>
+    <li>Automatically translating presentations using AI-powered translation through integration with external language models.</li>
     <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
     <li>And many more features.</li>
 </ul>
 
-<p>Node.js is a popular, free, open-source and cross-platform JavaScript runtime environmentthat lets developers write command line tools and server-side scripts outside of a browser. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for Node.js via Java</strong> to the Node.js community.</p>
+<p>Node.js is a popular, free, open-source, cross-platform JavaScript runtime environment that lets developers write command-line tools and server-side scripts outside a browser. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for Node.js via Java</strong> to the Node.js community.</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -51,7 +51,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
     <li>Manage SmartArts</li>
     <li>Manage PowerPoint Shapes</li>
     <li>Manage ActiveX Controls</li>
-    <li>Manage OleObjects</li>
+    <li>Manage OLE Objects</li>
    </ul>
    <header>
     <i class="fa fa-text-width">
@@ -98,7 +98,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Node.js via Java is server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux & Mac platforms with JDK 1.8 or above." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Node.js via Java is a server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux, and macOS platforms with JDK 1.8 or above." >}}
 <div class="diagram1 d1-nodejs">
  <div class="d1-row">
   <div class="d1-col d1-left"></div>
@@ -107,7 +107,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
    <header>
     <i class="fa fa-cubes">
     </i>
-    Java Runtime Environment 
+    Java Runtime Environment
    </header>
   </div>
   <!--/right-->
@@ -191,8 +191,6 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">Advanced Node.js PowerPoint API Features</h2>
-   <p>
-   </p>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
@@ -211,7 +209,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
    <div class="col-lg-4">
     <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">Add Excel charts as OleObjects to slides</p>
+    <p class="col-lg-10">Add Excel charts as OLE objects to slides</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-image ico-blue fa-2x col-lg-2">
@@ -245,35 +243,34 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
    <div class="col-lg-12">
     <h2 class="h2title">System Requirements</h2>
     <ul>
-      <li>Aspose.Slides for Node.js via Java is server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux & Mac platforms with JDK 1.8 or above.</li>
+      <li>Aspose.Slides for Node.js via Java is a server-side JavaScript API based on Node.js. It can run on Windows, Unix/Linux, and macOS platforms with JDK 1.8 or above.</li>
     </ul>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">How to Install</h2>
-    <p>Use <strong>NPM</strong> to install our Node.js library for Presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides.via.java">NPM Package repository:</a></p>
-    <pre><code>npm install aspose.slides.via.java</code></pre>
+    <p>Use <strong>npm</strong> to install the Aspose.Slides package for presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides.via.java">npm package repository</a>:</p>
+    <pre>npm install aspose.slides.via.java</pre>
    </div>
     <div class="col-lg-12">
-        <h2 class="h2title">How to Create New PowerPoint Presentation in Node.js</h2>
-        <p>In the example given below, we have added a rectangle to the first slide of the presentation.</p>
+        <h2 class="h2title">How to Create a New PowerPoint Presentation in Node.js</h2>
+        <p>The example below adds a rectangle to the first slide of a presentation.</p>
         <pre>
-            <code class="javascript">	
+            <code class="javascript">
 var aspose = aspose || {};
 
 aspose.slides = require("aspose.slides.via.java");
 
-var pres = new aspose.slides.Presentation();
-try
-{
-    // Gets the first slide
-    var slide = pres.getSlides().get_Item(0);
-    // Adds an autoshape with type set to rectangle
+let presentation = new aspose.slides.Presentation();
+try {
+    let slide = presentation.getSlides().get_Item(0);
+
+    // Add a rectangle autoshape.
     slide.getShapes().addAutoShape(aspose.slides.ShapeType.Rectangle, 50, 150, 300, 200);
-    pres.save("outputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
+
+    presentation.save("output_presentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
             </code>
         </pre>
@@ -287,95 +284,87 @@ var aspose = aspose || {};
 
 aspose.slides = require("aspose.slides.via.java");
 
-var pres1 = new aspose.slides.Presentation("pres1.pptx");
-var pres2 = new aspose.slides.Presentation("pres2.pptx");
-try
-{
-    for (var i = 0; i < pres2.getSlides().size(); i++) 
-    {
-        pres1.getSlides().addClone(pres2.getSlides().get_Item(i));
+let presentation1 = new aspose.slides.Presentation("presentation1.pptx");
+let presentation2 = new aspose.slides.Presentation("presentation2.pptx");
+
+try {
+    for (let i = 0; i < presentation2.getSlides().size(); i++) {
+        let slide = presentation2.getSlides().get_Item(i);
+        presentation1.getSlides().addClone(slide);
     }
-    pres1.save("combinedPresentation.pptx", aspose.slides.SaveFormat.Pptx);
+    presentation1.save("combined-presentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
-finally
-{
-    if (pres1 != null) pres1.dispose();
-    if (pres2 != null) pres2.dispose();
+finally {
+    presentation1.dispose();
+    presentation2.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">How to Import Presentation From PDF in Node.js. Convert PDF to PPT, Convert PDF to PPTX, Convert PDF to ODP</h2>
-        <p>This Node.js code demonstrates the PDF to PowerPoint conversion process:</p>
+        <h2 class="h2title">How to Import a PDF as a Presentation in Node.js</h2>
+        <p>This Node.js code demonstrates the PDF to PowerPoint conversion process. You can use this approach to convert PDF files to PPTX or ODP:</p>
         <pre>
             <code class="javascript">
 var aspose = aspose || {};
 
 aspose.slides = require("aspose.slides.via.java");
 
-var pres = new aspose.slides.Presentation();
-try
-{
-    pres.getSlides().removeAt(0);
-    pres.getSlides().addFromPdf("welcome-to-powerpoint.pdf");
-    pres.save("outputPresentation.pptx", aspose.slides.SaveFormat.Pptx);
+let presentation = new aspose.slides.Presentation();
+try {
+    presentation.getSlides().removeAt(0);
+    presentation.getSlides().addFromPdf("welcome-to-powerpoint.pdf");
+    presentation.save("presentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to PDF in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document to a PDF document using the default options. The resulting file is a PDF document at the maximum quality levels</p>
+        <p>This Node.js code shows how to convert a PowerPoint PPT, PPTX, or OpenOffice ODP document to PDF using the default options.</p>
         <pre>
             <code class="javascript">
 var aspose = aspose || {};
 
 aspose.slides = require("aspose.slides.via.java");
 
-// Instantiate a Presentation object that represents a PPT file
-var pres = new aspose.slides.Presentation("PowerPoint.ppt");
-try
-{
-    // Save the presentation as PDF
-    pres.save("PPT-to-PDF.pdf", aspose.slides.SaveFormat.Pdf);
+let presentation = new aspose.slides.Presentation("presentation.ppt");
+try {
+    presentation.save("output.pdf", aspose.slides.SaveFormat.Pdf);
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
-        <h2 class="h2title">How to Convert PowerPoint to JPG in Node.js. Convert PPT to JPG, Convert PPTX to JPG, Convert ODP to JPG</h2>
-        <p>The following example shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document into a set of JPEG images.</p>
+        <h2 class="h2title">How to Convert PowerPoint to JPG in Node.js</h2>
+        <p>The following example shows you how to convert a PowerPoint PPT, PPTX, or OpenOffice ODP document into a set of JPEG images.</p>
         <pre>
             <code class="javascript">
 var aspose = aspose || {};
-var java = require("java");
 
 aspose.slides = require("aspose.slides.via.java");
 
-// Instantiate a Presentation object that represents a PPT file
-var pres = new aspose.slides.Presentation("pres.pptx");
-try
-{
-    for (var i = 0; i < pres.getSlides().size(); i++)
-    {
-        var bmp = pres.getSlides().get_Item(i).getThumbnail(1, 1);
-        var imageio = java.newInstanceSync("javax.imageio.ImageIO");
-        var file = java.newInstanceSync("java.io.File", "slide_" + i + ".jpg");
-        imageio.write(bmp, "JPEG", file);
+let presentation = new aspose.slides.Presentation("presentation.pptx");
+try {
+    for (let i = 0; i < presentation.getSlides().size(); i++) {
+        let slide = presentation.getSlides().get_Item(i);
+        let image = slide.getImage(1, 1);
+        try {
+            image.save("slide_" + i + ".jpg", aspose.slides.ImageFormat.Jpeg);
+        }
+        finally {
+            image.dispose();
+        }
     }
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
             </code>
         </pre>
@@ -387,7 +376,7 @@ finally
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://releases.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
@@ -414,7 +403,6 @@ finally
         {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/nodejs-java/" >}}
         {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/" >}}
         {{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/nodejs-java/api-reference/" >}}
-        {{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
@@ -425,8 +413,8 @@ finally
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Node.js via Java?" tabId="success-stories" >}}
-        {{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-        {{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+        {{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+        {{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 {{< /blocks/products/pf/support-learning-resources >}}
 
@@ -440,7 +428,7 @@ finally
     {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}    
+    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
@@ -448,4 +436,3 @@ finally
 {{< /blocks/products/pf/offers-section >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-

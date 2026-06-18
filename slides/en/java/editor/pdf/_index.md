@@ -1,18 +1,18 @@
 ---
-title:  Edit PDF in Java
+title: Edit PDF in Java
 url: /java/editor/pdf/
 keywords: Edit PDF, PDF, Java API, Java Library
-description: Edit PDF in Java. Use Java library API to edit PDF document
+description: Edit PDF files in Java. Use Aspose.Slides for Java to modify PDF content and save the edited file.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edit PDF in Java" h2="High-speed and cross-platform Java library for editing PDF using Java code" >}}
+{{< blocks/products/pf/feature-page-header h1="Edit PDF in Java" h2="Use Aspose.Slides for Java to edit PDF files in Java applications." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Edit PDF using Aspose.Slides" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library used to manipulate and edit presentations, PDF documents, and other files. You can edit an PDF doc by adding a new line of text to it. 
+[Aspose.Slides for Java](/slides/java/) is a Java API for working with presentation content. You can import a `PDF` file into a `Presentation`, add a text shape, and save the edited content as `PDF`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,23 +20,22 @@ description: Edit PDF in Java. Use Java library API to edit PDF document
 
 
 {{% blocks/products/pf/feature-page-section  h2="Edit PDF in Java" %}}
-Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), you can add a new line of text to an PDF document with just a few lines of code.
+Using [Aspose.Slides for Java](/slides/java/), you can edit a `PDF` file by adding a text shape and saving the result with `SaveFormat.Pdf`.
 
 {{% blocks/products/pf/agp/code-block title="Java code for editing PDF" offSpacer="true" %}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    pres.getSlides().removeAt(0);
-    pres.getSlides().addFromPdf("document.pdf");
+    presentation.getSlides().removeAt(0);
+    presentation.getSlides().addFromPdf("document.pdf");
 
-    ISlide slide = pres.getSlides().get_Item(0);
-    IAutoShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 100, 50);
-    shape.getTextFrame().setText("New text");
+    ISlide slide = presentation.getSlides().get_Item(0);
+    IAutoShape textBox = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 100, 50);
+    textBox.getTextFrame().setText("New text");
 
-    pres.save("document.pdf", SaveFormat.Pdf);
+    presentation.save("document.pdf", SaveFormat.Pdf);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -53,7 +52,7 @@ try {
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
+Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -61,19 +60,19 @@ Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
+Create a `Presentation` instance and import the source `PDF` content.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the PDF document you want to edit.
+Access the slide you want to edit.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a new line of text.
+Add a text shape with `addAutoShape` and `setText`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the changed PDF file.
+Save the edited file with `SaveFormat.Pdf`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -85,10 +84,10 @@ Save the changed PDF file.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/editor/html/" name="Edit HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/editor/ppt/" name="Edit PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/editor/html/" name="Edit HTML" >}}
 
 
 

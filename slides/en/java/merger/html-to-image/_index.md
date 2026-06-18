@@ -1,43 +1,57 @@
 ---
-title:  Merge HTML to Image in Java
+title: Merge HTML to Image in Java
 url: /java/merger/html-to-image/
 keywords: Merge HTML to image, HTML to image, Join HTML, Combine HTML, Image, Java API, Java Library
-description: Merge HTML to image in Java. Use Java library API to combine HTML to image
+description: Merge HTML to image in Java. Use Aspose.Slides for Java to combine HTML files and render the merged slides as images.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge image in Java" h2="High-speed and cross-platform Java library for merging HTML to image using Java code" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge HTML to Image in Java" h2="Use Aspose.Slides for Java to merge HTML files in Java applications." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge HTML to image using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Merge HTML to PNG using Aspose.Slides" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library used to merge and manipulate presentations, HTML docs, and other files. When you merge HTML to image, you are effectively combining the contents in HTML documents to obtain a single image. 
+[Aspose.Slides for Java](/slides/java/) is a Java API for creating, editing, converting, and merging presentation content. You can place `HTML` files into a `Presentation` and render the merged slides as `PNG` images.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="Merge HTML to image in Java" %}}
-Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), you can merge image files quickly with just a few lines of code
+{{% blocks/products/pf/feature-page-section  h2="Merge HTML to PNG in Java" %}}
+Using [Aspose.Slides for Java](/slides/java/), you can merge HTML files and create a `PNG` result with a few lines of Java code.
 
-{{% blocks/products/pf/agp/code-block title="Java code for merging HTML to image" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Java code for merging HTML to PNG" offSpacer="true" %}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    pres.getSlides().addFromHtml(new StreamReader("file1.html"));
-    pres.getSlides().addFromHtml(new StreamReader("file2.html"));
+    presentation.getSlides().removeAt(0);
 
-    for (int index = 0; index < pres.getSlides().size(); index++)
-    {
-        ISlide slide = pres.getSlides().get_Item(index);
-        BufferedImage bufferedImage = slide.getThumbnail();
-        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+    FileInputStream firstHtmlStream = new FileInputStream("file1.html");
+    try {
+        presentation.getSlides().addFromHtml(firstHtmlStream);
+    } finally {
+        firstHtmlStream.close();
+    }
+
+    FileInputStream secondHtmlStream = new FileInputStream("file2.html");
+    try {
+        presentation.getSlides().addFromHtml(secondHtmlStream);
+    } finally {
+        secondHtmlStream.close();
+    }
+
+    for (ISlide slide : presentation.getSlides()) {
+        IImage slideImage = slide.getImage(1f, 1f);
+        try {
+            slideImage.save("slide_" + slide.getSlideNumber() + ".png", ImageFormat.Png);
+        } finally {
+            slideImage.dispose();
+        }
     }
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -47,14 +61,14 @@ try {
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge HTML to image in Java" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge HTML files in Java" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
+Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -62,15 +76,15 @@ Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
+Create a `Presentation` instance.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the HTML docs you want to merge together.
+Import the source `HTML` files with `addFromHtml`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting image.
+Render each slide with `getImage` and save it with `ImageFormat.Png`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -82,20 +96,21 @@ Save the resulting image.
 
 
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
+{{< blocks/slides-app-widget  appName="merger" extension="html-to-image" sectionTitle="Merge Files Online" sectionDescription="Merge presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
-    
-  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/svg-to-png/" name="SVG TO PNG" >}}
+
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

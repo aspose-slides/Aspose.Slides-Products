@@ -2,53 +2,48 @@
 title: Convert PNG to JPG in C++
 url: /cpp/conversion/png-to-jpg/
 keywords: PNG to JPG, Convert PNG to JPG, C++ API, C++ Library, PNG, JPG
-description: Convert PNG to JPG in C++. Use C++ library API to convert PNG files to JPGs
+description: Convert PNG to JPG in C++. Use the C++ library API to add PNG images to slides and render them as JPG images.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PNG to JPG in C++" h2="High-speed and cross-platform C++ Library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PNG to JPG in C++" h2="Convert PNG images to JPG using Aspose.Slides for C++ without Microsoft PowerPoint." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PNG to JPG in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a powerful C++ library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PNG to JPG. Using **Aspose.Slides for C++**, any developer or application can convert PNG to JPG files with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can create slides from images and render slides as image files. Using **Aspose.Slides for C++**, developers can convert PNG images to JPG with just a few lines of C++ code.
 
-As a modern document processing API, Aspose.Slides for C++ exports PNG files to JPG file formats quickly. Aspose PowerPoint library allows you to convert PNG to JPGs and many other file formats
+Aspose.Slides for C++ can place PNG images on slides and render the result as JPG and other related formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Convert PNG to JPG using C++" %}}
-To convert the PNG to JPG, you will need to create Presentation from PNG file and save it as JPG.
+{{% blocks/products/pf/feature-page-section  h2="Convert PNG to JPG Using C++" %}}
+To convert PNG to JPG, create a `Presentation`, add the PNG image to a slide, render the slide, and save the image in JPG format.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting PNG into JPG" offSpacer="true" %}}
 
 ```cpp
+auto presentation = MakeObject<Presentation>();
+auto slide = presentation->get_Slide(0);
+auto slideSize = presentation->get_SlideSize()->get_Size();
 
-auto pres = System::MakeObject<Presentation>();
-auto slide = pres->get_Slides()->idx_get(0);
-auto image = pres->get_Images()->AddImage(File::ReadAllBytes(u"image.png"));
-slide->get_Shapes()->AddPictureFrame(ShapeType::Rectangle, 10.0f, 10.0f, 100.0f, 100.0f, image);
-for (int32_t i = 0; i < pres->get_Slides()->get_Count(); i++)
-{
-    // Control hidden slides (do not render hidden slides)
-    if (pres->get_Slides()->idx_get(i)->get_Hidden())
-    {
-        continue;
-    }
-    
-    // Convert slide to a Bitmap object
-    System::SharedPtr<Bitmap> bmp = pres->get_Slides()->idx_get(i)->GetThumbnail(2.f, 2.f);
+auto imageData = File::ReadAllBytes(u"image.png");
+auto presentationImage = presentation->get_Images()->AddImage(imageData);
+slide->get_Shapes()->AddPictureFrame(
+    ShapeType::Rectangle,
+    0,
+    0,
+    slideSize.get_Width(),
+    slideSize.get_Height(),
+    presentationImage);
 
-    // Create file name for an image
-    System::String outputFilePath = Path::Combine(outputDir, System::String(u"Slide_") + i + u".jpg");
-    
-    // Save the image in PNG format
-    bmp->Save(outputFilePath, ImageFormat::get_Jpeg());
-}
+auto slideImage = slide->GetImage(2.0f, 2.0f);
+slideImage->Save(u"document.jpg", ImageFormat::Jpeg);
+slideImage->Dispose();
 
+presentation->Dispose();
 ```
-
 
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -59,32 +54,33 @@ for (int32_t i = 0; i < pres->get_Slides()->get_Count(); i++)
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to JPG in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your C++ project.
+Add a library reference to your C++ project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PNG files in C++.
+Create a `Presentation` instance and add the PNG image to a slide.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
+Render the slide and save it as a JPG image.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="png-to-jpg" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images and save them to other file formats. See all supported formats below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/png-to-svg/" name="PNG TO SVG" >}}
-
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-svg/" name="PNG TO SVG" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

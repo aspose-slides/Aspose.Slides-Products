@@ -1,24 +1,24 @@
 ---
-title: Aspose.Slides for Xamarin | Xamarin PowerPoint API 
+title: Aspose.Slides for Xamarin | Xamarin PowerPoint API
 weight: 800
-url: /xamarin/ 
-description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
+url: /xamarin/
+description: Aspose.Slides for Xamarin lets developers build mobile PowerPoint applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint Xamarin API by Aspose.Slides" h2="Create mobile applications for processing PowerPoint in Xamarin." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-xamarin.svg" pfName="Aspose.Slides" subTitlepfName="for Xamarin" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint Xamarin API by Aspose.Slides" h2="Create mobile applications for processing PowerPoint in Xamarin." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-xamarin.svg" pfName="Aspose.Slides" subTitlepfName="for Xamarin" downloadUrl="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Xamarin" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.Slides for Xamarin is a cross-platform solution for creating PowerPoint mobile applications for any device and OS. Allow your mobile application to edit text, media and shapes of the slide, save presentation in the desired format. Review presentation from mobile, add comments and notes, and send it. Apply new theme on presentation, split presentation on several files.
+ Aspose.Slides for Xamarin is a cross-platform solution for building PowerPoint mobile applications. It lets mobile apps edit slide text, media, and shapes, save presentations in different formats, review presentations, add comments and notes, apply themes, and split presentations into multiple files.
 </p>
 
 <p>
- Aspose.Slides for Xamarin is a standalone Xamarin PowerPoint API, that does not require Microsoft PowerPoint or any other additional software.
+ Aspose.Slides for Xamarin is a standalone Xamarin PowerPoint API that does not require Microsoft PowerPoint or any other software.
 </p>
 
 <p>
@@ -29,7 +29,7 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="Capabilities overview of Xamarin PowerPoint API by Aspose.Slides." >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for Xamarin capabilities." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -40,35 +40,35 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
    </header>
    <ul>
     <li>
-     Manage Charts
+     Manage charts
     </li>
     <li>
-     Manage SmartArts
+     Manage SmartArt
     </li>
     <li>
-     Manage PowerPoint Shapes
+     Manage PowerPoint shapes
     </li>
     <li>
-     Manage ActiveX Controls
+     Manage ActiveX controls
     </li>
     <li>
-     Manage OleObjects
+     Manage OLE objects
     </li>
    </ul>
    <header>
     <i class="fa fa-text-width">
     </i>
-    Text &amp; Paragraph
+    Text and paragraphs
    </header>
    <ul>
     <li>
-     Manipulate Text &amp; Formatting
+     Manipulate text and formatting
     </li>
     <li>
-     Manipulate Hyperlink Text
+     Manipulate hyperlink text
     </li>
     <li>
-     Set Placeholder Type
+     Set placeholder type
     </li>
    </ul>
   </div>
@@ -77,23 +77,23 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
    <header>
     <i class="fa fa-cog">
     </i>
-    Graphics &amp; Multimedia
+    Graphics and multimedia
    </header>
    <ul>
     <li>
-     Manage Slide Transitions
+     Manage slide transitions
     </li>
     <li>
-     Manage Animation Effects
+     Manage animation effects
     </li>
     <li>
-     Add Connectors to Shapes
+     Add connectors to shapes
     </li>
     <li>
-     Rotate &amp; Flip Shapes
+     Rotate and flip shapes
     </li>
     <li>
-     Manage Shape's Line Styles
+     Manage shape line styles
     </li>
    </ul>
   </div>
@@ -119,7 +119,7 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Xamarin on Android, iOS and Windows." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Xamarin works on Android, iOS, and Windows." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <!--/left-->
@@ -145,7 +145,7 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Xamarin supports the popular [presentation formats](https://docs.aspose.com/slides/net/supported-file-formats/)  and export formats listed below." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Xamarin supports popular [presentation formats](https://docs.aspose.com/slides/net/supported-file-formats/) and the export formats listed below." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -261,28 +261,28 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
     <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Add Excel charts as OleObjects to slides
+     Add Excel charts as OLE objects to slides
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-print ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Support for Linked OleObjects
+     Support linked OLE objects
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Generate presentations from database
+     Generate presentations from databases
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Protect presentations &amp; resultant PDF
+     Protect presentations and output PDF files
     </p>
    </div>
    <div class="col-lg-4">
@@ -296,55 +296,52 @@ description: Aspose.Slides for Xamarin to build Xamarin PowerPoint applications.
     <em class="fa fa-font ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create &amp; customize charts
+     Create and customize charts
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert Presentation via Xamarin PowerPoint API
+     Convert Presentations with the Xamarin PowerPoint API
     </h2>
     <p>
-     Aspose.Slides for Xamarin API allows building mobile applications for PowerPoint conversion into any document, textual, image, web, or other formats. Convert presentations with a high quality even from a mobile. Convert presentations to PDF, HTML, XPS, JPG format. PowerPoint Xamarin API is easy to use, conversion logic is implemented in a 1-2 lines code. Just load a presentation and save it in the needed format.
+     Aspose.Slides for Xamarin lets mobile apps convert PowerPoint presentations to document, text, image, and web formats. You can convert presentations to PDF, HTML, XPS, and JPG by loading a presentation and saving it in the required format.
     </p>
     <div class="codeblock" id="code">
      <h3>
       Render presentations - C#
      </h3>
-     <pre><code class="cs">// load the file to be converted
+     <pre><code class="cs">
+using var presentation = new Presentation("template.pptx");
 
-var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
-
-// render as PDF, XPS &amp; TIFF
-
-prs.Save(dir + "output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-
-prs.Save(dir + "output.xps", Aspose.Slides.Export.SaveFormat.Xps);
-
-prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre>
+// Render as PDF, XPS, and TIFF.
+presentation.Save("output.pdf", SaveFormat.Pdf);
+presentation.Save("output.xps", SaveFormat.Xps);
+presentation.Save("output.tiff", SaveFormat.Tiff);
+     </code></pre>
     </div>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Modify Presentation via Xamarin PowerPoint API
+     Modify Presentations with the Xamarin PowerPoint API
     </h2>
     <p>
-     With Xamarin PowerPoint API by Aspose it's possible to modify any slide and presentation content as well as metadata. Text, tables, shapes, charts, SmartArts, animations can be accessed via Xamarin mobile application. All the operations available on presentation content can be applied via Aspose.Slides Xamarin API. Presentation comments, notes, document properties as well as layouts, themes, templates are also available to modify.
+     Aspose.Slides for Xamarin lets mobile apps modify slides, presentation content, and metadata. Apps can access text, tables, shapes, charts, SmartArt, animations, comments, notes, document properties, layouts, themes, and templates.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Merge, Compare, Split, Print Presentation via Xamarin PowerPoint API
+     Merge, Compare, Split, and Print Presentations with the Xamarin PowerPoint API
     </h2>
     <p>
-     Create a presentation processing system in Xamarin with Aspose.Slides Xamarin API. Such operations over presentations and slides of any type are available: merge, split, compare, print, etc. The operations can be used to create many processing scenarios. For example, merge functionality can be used to apply a template to presentation, to merge a few templates, to merge presentations of different formats into one format, etc.
+     Use Aspose.Slides for Xamarin to build presentation processing workflows that merge, split, compare, and print presentations. For example, an app can apply templates, combine multiple templates, or merge presentations in different formats into one output file.
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Microsoft Office Automation – Not Needed
+     Microsoft Office Automation Is Not Needed
     </h2>
     <p>
-     Aspose.Slides for Xamarin does not need Microsoft Office or Microsoft PowerPoint to be installed on the machine to work with PowerPoint formats. It is a perfect Microsoft Office automation alternative in terms of supported features, security, stability, scale-ability, speed and price.
+     Aspose.Slides for Xamarin does not require Microsoft Office or Microsoft PowerPoint to be installed. It is built for server-side and mobile presentation processing without Office automation.
     </p>
    </div>
    <!--<div class="col-lg-12">
@@ -363,7 +360,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
@@ -389,8 +386,7 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/net/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-.NET" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/slides/net" >}}
-{{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/net/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
@@ -401,22 +397,22 @@ prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Xamarin?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/net" pricingInformationLink="https://purchase.aspose.com/pricing/slides/net" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/net/" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides offers individual PowerPoint APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
 
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-	{{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}

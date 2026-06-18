@@ -2,42 +2,47 @@
 title: Convert HTML to XML in C++
 url: /cpp/conversion/html-to-xml/
 keywords: HTML to XML, Convert HTML to XML, C++ API, C++ Library, HTML, XML
-description: Convert HTML to XML in C++. Use C++ library API to convert HTML files to XMLs
+description: Convert HTML to XML in C++. Use the C++ library API to convert HTML files to XML output.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert HTML to XML in C++" h2="High-speed and cross-platform C++ Library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert HTML to XML in C++" h2="Convert HTML files to XML output using Aspose.Slides for C++ without Microsoft PowerPoint." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to XML in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a powerful C++ library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert HTML to XML. Using **Aspose.Slides for C++**, any developer or application can convert HTML to XML files with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and save slide output as XML-based files.
 
-As a modern document processing API, Aspose.Slides for C++ exports HTML files to XML file formats quickly. Aspose PowerPoint library allows you to convert HTML to XMLs and many other file formats
+Aspose.Slides for C++ can convert HTML content to XML-based output and other presentation-related formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Convert HTML to XML using C++" %}}
-To convert the HTML to XML, you will need to create Presentation from HTML file and save it as XML.
+{{% blocks/products/pf/feature-page-section  h2="Convert HTML to XML Using C++" %}}
+To convert HTML to XML, create a Presentation from the HTML file and save each slide as XML-based output.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into XML" offSpacer="true" %}}
 
 ```cpp
-auto pres = System::MakeObject<Presentation>();
+auto presentation = MakeObject<Presentation>();
 
-pres->get_Slides()->RemoveAt(0);
-auto htmlStream = System::IO::File::OpenRead(u"page.html");
-pres->get_Slides()->AddFromHtml(htmlStream);
+presentation->get_Slides()->RemoveAt(0);
+auto htmlStream = File::OpenRead(u"page.html");
+presentation->get_Slides()->AddFromHtml(htmlStream);
+htmlStream->Dispose();
 
-for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
+auto slideCount = presentation->get_Slides()->get_Count();
+for (int index = 0; index < slideCount; index++)
 {
-    auto fileName = String::Format(u"slide-{0}.xml", index);
-    auto fileStream = System::MakeObject<FileStream>(fileName, FileMode::Create, FileAccess::Write);
+    auto fileName = String::Format(u"slide_{0}.xml", index);
+    auto fileStream = MakeObject<FileStream>(fileName, FileMode::Create, FileAccess::Write);
 
-    auto slide = pres->get_Slides()->idx_get(index);
+    auto slide = presentation->get_Slide(index);
     slide->WriteAsSvg(fileStream);
+    fileStream->Dispose();
 }
+
+presentation->Dispose();
 ```
 
 
@@ -45,12 +50,12 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert HTML to XML using Aspose.Slides for C++ API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Convert HTML to XML Using Aspose.Slides for C++ API" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert HTML to XML in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -58,26 +63,24 @@ Add a library reference (import the library) to your C++ project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML files in C++.
+Open the source HTML file in C++.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save result as XML file.
+Save the result as an XML file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert HTML To Other Supported Formats" subTitle="You can also convert HTML and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert HTML to Other Supported Formats" subTitle="You can also convert HTML and save it to other file formats. See all supported formats below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/html-to-png/" name="HTML TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cpp/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/html-to-jpg/" name="HTML TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
