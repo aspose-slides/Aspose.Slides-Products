@@ -12,7 +12,7 @@ description: Convert SVG to PNG in C++. Use Aspose.Slides for C++ to place an SV
 
 {{% blocks/products/pf/feature-page-section h2="Convert SVG to PNG in C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) can add SVG images to slides and render those slides as PNG files. Use this approach when you need to convert an SVG asset to a raster image in a C++ application.
+[Aspose.Slides for C++](/slides/cpp/) can add SVG images to slides and render those slides as PNG files. Use this approach when you need to convert an SVG asset to a raster image in a C++ application.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -53,7 +53,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert SVG to PNG in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/).
+Install [Aspose.Slides for C++](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -65,7 +65,7 @@ Create a `Presentation` instance and add the SVG image to a slide.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Render the slide with `GetImage`, save the image with `ImageFormat::Png`, and call `Dispose` on the image and `Presentation` objects.
+Render the slide with `GetImage` and save the image with `ImageFormat::Png`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

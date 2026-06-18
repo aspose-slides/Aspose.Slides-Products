@@ -13,7 +13,7 @@ description: C++ conversion code for OTP to PPSX. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert OTP to PPSX Using C++" %}}
 
-To convert OTP to PPSX, use [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/), a presentation processing API for C++ applications. You can download the latest version directly from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/), search for **Aspose.Slides.Cpp**, and install it. You may also use the following command from the Package Manager Console.
+To convert OTP to PPSX, use [Aspose.Slides for C++](/slides/cpp/), a presentation processing API for C++ applications. You can download the latest version directly from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/), search for **Aspose.Slides.Cpp**, and install it. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

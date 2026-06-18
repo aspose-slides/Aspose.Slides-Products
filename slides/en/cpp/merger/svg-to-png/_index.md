@@ -12,12 +12,12 @@ description: Merge SVG files into a PNG image in C++. Use Aspose.Slides for C++ 
 
 {{% blocks/products/pf/feature-page-section h2="Merge SVG to PNG using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentations and image content. You can read `SVG` files, add them to a slide as picture frames, and render the slide as a `PNG` image.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations and image content. You can read `SVG` files, add them to a slide as picture frames, and render the slide as a `PNG` image.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge SVG to PNG in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge `SVG` files by creating `SvgImage` objects, adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Png`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `SVG` files by creating `SvgImage` objects, adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Png`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging SVG to PNG" offSpacer="true" %}}
 ```cpp

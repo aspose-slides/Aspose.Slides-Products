@@ -12,12 +12,12 @@ description: Edit PDF files in C++. Use Aspose.Slides for C++ to import a PDF, a
 
 {{% blocks/products/pf/feature-page-section h2="Edit PDF using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentation content and related formats. You can import a `PDF` file into a `Presentation`, add text to a slide, and save the result as `PDF`.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentation content and related formats. You can import a `PDF` file into a `Presentation`, add text to a slide, and save the result as `PDF`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Edit PDF in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can edit a `PDF` file by importing it with `AddFromPdf`, adding a text shape, and saving the result with `SaveFormat::Pdf`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can edit a `PDF` file by importing it with `AddFromPdf`, adding a text shape, and saving the result with `SaveFormat::Pdf`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for editing PDF" offSpacer="true" %}}
 ```cpp

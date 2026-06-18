@@ -13,7 +13,7 @@ description: C++ conversion code for PPT to JPEG. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert PPT to JPEG Using C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) is a PowerPoint processing API that lets you convert PPT presentations to JPEG in C++ applications without Microsoft PowerPoint. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or download it from the [Aspose.Slides for C++ releases page](https://releases.aspose.com/slides/cpp/).
+[Aspose.Slides for C++](/slides/cpp/) is a PowerPoint processing API that lets you convert PPT presentations to JPEG in C++ applications without Microsoft PowerPoint. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or download it from the [Aspose.Slides for C++ releases page](https://releases.aspose.com/slides/cpp/).
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

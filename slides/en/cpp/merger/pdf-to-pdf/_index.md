@@ -12,12 +12,12 @@ description: Merge PDF files in C++. Use Aspose.Slides for C++ to import PDF fil
 
 {{% blocks/products/pf/feature-page-section h2="Merge PDF to PDF using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentation content and `PDF` files. You can import multiple `PDF` files into a `Presentation` and save the combined result as a single `PDF` file.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentation content and `PDF` files. You can import multiple `PDF` files into a `Presentation` and save the combined result as a single `PDF` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge PDF to PDF in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge `PDF` files by importing them with `AddFromPdf` and saving the presentation with `SaveFormat::Pdf`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `PDF` files by importing them with `AddFromPdf` and saving the presentation with `SaveFormat::Pdf`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging PDF to PDF" offSpacer="true" %}}
 ```cpp

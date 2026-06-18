@@ -12,12 +12,12 @@ description: Merge JPG images into a PDF file in C++. Use Aspose.Slides for C++ 
 
 {{% blocks/products/pf/feature-page-section h2="Merge JPG to PDF using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentations, images, and `PDF` output. You can add `JPG` images to a slide as picture frames and save the presentation as a `PDF` file.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations, images, and `PDF` output. You can add `JPG` images to a slide as picture frames and save the presentation as a `PDF` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge JPG to PDF in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge `JPG` images by adding them with `AddImage` and `AddPictureFrame`, then saving the presentation with `SaveFormat::Pdf`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `JPG` images by adding them with `AddImage` and `AddPictureFrame`, then saving the presentation with `SaveFormat::Pdf`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging JPG to PDF" offSpacer="true" %}}
 ```cpp

@@ -12,7 +12,7 @@ description: Convert PPTX to Word in C++. Use Aspose.Slides for C++ and Aspose.W
 
 {{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Word Using Aspose.Slides and Aspose.Words" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) can render slides as images, while [Aspose.Words for C++](https://products.aspose.com/words/cpp/) can create and save Word documents. Use both APIs when you need to move PPTX slide content into a DOCX document.
+[Aspose.Slides for C++](/slides/cpp/) can render slides as images, while [Aspose.Words for C++](https://products.aspose.com/words/cpp/) can create and save Word documents. Use both APIs when you need to move PPTX slide content into a DOCX document.
 
 {{% /blocks/products/pf/feature-page-section %}}
 

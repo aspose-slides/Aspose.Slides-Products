@@ -6,11 +6,11 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenOffice presentations in C# without external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenOffice presentations in C# without external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p><strong>Aspose.Slides for .NET</strong> is a powerful presentation processing API designed for working with PowerPoint and OpenOffice presentation formats in C#. It allows developers to create, read, write, modify, protect, and convert presentations programmatically without needing Microsoft PowerPoint.</p>
@@ -473,7 +473,7 @@ image.Save("output.jpg", ImageFormat.Jpeg);
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/slides/net" pricingInformationLink="https://purchase.aspose.com/pricing/slides/net" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/net" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
 

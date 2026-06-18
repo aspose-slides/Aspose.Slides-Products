@@ -12,12 +12,12 @@ description: Merge JPG images in C++. Use Aspose.Slides for C++ to place JPG ima
 
 {{% blocks/products/pf/feature-page-section h2="Merge JPG to JPG using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentations and image content. You can add multiple `JPG` images to a slide as picture frames and render the slide as a single `JPG` file.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations and image content. You can add multiple `JPG` images to a slide as picture frames and render the slide as a single `JPG` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge JPG to JPG in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge `JPG` images by adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Jpeg`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `JPG` images by adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Jpeg`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging JPG to JPG" offSpacer="true" %}}
 ```cpp

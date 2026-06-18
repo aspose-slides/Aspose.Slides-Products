@@ -12,12 +12,12 @@ description: Edit HTML files in C++. Use Aspose.Slides for C++ to load HTML cont
 
 {{% blocks/products/pf/feature-page-section h2="Edit HTML using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentation content and related formats. You can load an `HTML` file into a `Presentation`, add text to a slide, and save the result as `HTML`.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentation content and related formats. You can load an `HTML` file into a `Presentation`, add text to a slide, and save the result as `HTML`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Edit HTML in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can edit an `HTML` file by importing it with `AddFromHtml`, adding a text shape, and saving the result with `SaveFormat::Html5`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can edit an `HTML` file by importing it with `AddFromHtml`, adding a text shape, and saving the result with `SaveFormat::Html5`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for editing HTML" offSpacer="true" %}}
 ```cpp

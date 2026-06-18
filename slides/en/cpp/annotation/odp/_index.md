@@ -11,7 +11,7 @@ description: C++ source code to remove annotations from ODP presentations.
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for C++" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Remove Comments from ODP via C++" %}}
-To remove annotations from an ODP file, use the [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) API, a feature-rich and easy-to-use presentation manipulation API for C++.
+To remove annotations from an ODP file, use the [Aspose.Slides for C++](/slides/cpp/) API, a feature-rich and easy-to-use presentation manipulation API for C++.
 {{% blocks/products/pf/agp/code-block title="Delete Annotations from ODP - C++" offSpacer="true" %}}
 
 ```cpp

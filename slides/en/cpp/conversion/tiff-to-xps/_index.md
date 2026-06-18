@@ -13,7 +13,7 @@ description: C++ conversion code for TIFF to XPS. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert TIFF to XPS Using C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) is a PowerPoint processing API that lets you convert TIFF file to XPS in C++ applications without Microsoft PowerPoint. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or use the following Package Manager Console command.
+[Aspose.Slides for C++](/slides/cpp/) is a PowerPoint processing API that lets you convert TIFF file to XPS in C++ applications without Microsoft PowerPoint. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

@@ -12,12 +12,12 @@ description: Merge images into a BMP file in C++. Use Aspose.Slides for C++ to p
 
 {{% blocks/products/pf/feature-page-section h2="Merge image to BMP using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentations and image content. You can add images to a slide as picture frames and render the slide as a `BMP` file.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations and image content. You can add images to a slide as picture frames and render the slide as a `BMP` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge image to BMP in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge image files by adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Bmp`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge image files by adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Bmp`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging image to BMP" offSpacer="true" %}}
 ```cpp

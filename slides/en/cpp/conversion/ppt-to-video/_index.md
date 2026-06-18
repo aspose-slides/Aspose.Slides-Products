@@ -12,7 +12,7 @@ description: Convert PPT to video in C++. Use Aspose.Slides for C++ with ffmpeg 
 
 {{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Video Using Aspose.Slides" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) can render PowerPoint presentations to image frames. To create a video, render frames with `PresentationAnimationsGenerator` and `PresentationPlayer`, then pass those frames to `ffmpeg`.
+[Aspose.Slides for C++](/slides/cpp/) can render PowerPoint presentations to image frames. To create a video, render frames with `PresentationAnimationsGenerator` and `PresentationPlayer`, then pass those frames to `ffmpeg`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 

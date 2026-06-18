@@ -12,7 +12,7 @@ description: Convert HTML to XML in C++. Use the C++ library API to convert HTML
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to XML in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can import HTML content and save slide output as XML-based files.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and save slide output as XML-based files.
 
 Aspose.Slides for C++ can convert HTML content to XML-based output and other presentation-related formats.
 
@@ -55,7 +55,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert HTML to XML in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

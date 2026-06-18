@@ -14,7 +14,7 @@ description: C++ example code to create charts in PPT presentations on Windows a
 {{% blocks/products/pf/agp/content h2="Create PPT File Charts Using C++" %}}
 
  To create charts in a PPT file, use
- [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/)
+ [Aspose.Slides for C++](/slides/cpp/)
  API, a feature-rich and easy-to-use presentation manipulation API for C++. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/)
  package manager, search for
@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Create Charts in PPT Files Using C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="You can create a basic chart with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) in just a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="You can create a basic chart with [Aspose.Slides for C++](/slides/cpp/) in just a few lines of code." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Instantiate the Presentation class.

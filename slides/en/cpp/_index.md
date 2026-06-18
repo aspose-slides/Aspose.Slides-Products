@@ -153,7 +153,7 @@ You can also convert presentations to and from streams and byte arrays.
 
 {{% blocks/products/pf/feature-page-section h2="Export PowerPoint Files to PDF" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) can convert presentation files to PDF by loading a presentation and saving it with the PDF output format.
+[**Aspose.Slides for C++**](/slides/cpp/) can convert presentation files to PDF by loading a presentation and saving it with the PDF output format.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting a presentation to PDF" offSpacer="true" %}}
 

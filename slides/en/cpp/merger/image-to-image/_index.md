@@ -12,12 +12,12 @@ description: Merge images in C++. Use Aspose.Slides for C++ to place images on a
 
 {{% blocks/products/pf/feature-page-section h2="Merge image to image using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentations and image content. You can add multiple images to a slide as picture frames and render the slide as a single image file.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations and image content. You can add multiple images to a slide as picture frames and render the slide as a single image file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge image to image in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge image files by adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Png`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge image files by adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Png`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging image to image" offSpacer="true" %}}
 ```cpp

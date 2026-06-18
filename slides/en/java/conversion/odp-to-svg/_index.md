@@ -14,11 +14,11 @@ description: Convert ODP to SVG in Java. Use Aspose.Slides for Java to save ODP 
 {{% blocks/products/pf/agp/content h2="Convert ODP to SVG Using Java" %}}
 
 
- To convert <code>ODP</code> to <code>SVG</code>, use
+ To convert `ODP` to `SVG`, use
  [Aspose.Slides for Java](/slides/java/).
- It is a PowerPoint and OpenOffice presentation API that lets you load an <code>ODP</code> file and export slides as <code>SVG</code> images. You can get the latest <code>aspose-slides</code> package from
+ It is a PowerPoint and OpenOffice presentation API that lets you load an `ODP` file and export slides as `SVG` images. You can get the latest `aspose-slides` package from
  [Maven](https://releases.aspose.com/java/repo/)
- and add it to your Maven-based project with the following configuration in <code>pom.xml</code>.
+ and add it to your Maven-based project with the following configuration in `pom.xml`.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
 
@@ -53,14 +53,14 @@ description: Convert ODP to SVG in Java. Use Aspose.Slides for Java to save ODP 
 
 {{% blocks/products/pf/agp/text %}}
 
- Java developers can convert an <code>ODP</code> file to <code>SVG</code> in just a few lines of code.
+ Java developers can convert an `ODP` file to `SVG` in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load the <code>ODP</code> file with the <code>Presentation</code> class.
-1.  Iterate through the <code>ISlide</code> collection returned by <code>Presentation.getSlides</code>.
-1.  Call the <code>ISlide.writeAsSvg</code> method with a <code>FileOutputStream</code> for each output file.
-1.  The <code>SVG</code> files will be saved at the specified paths.
+1.  Load the `ODP` file with the `Presentation` class.
+1.  Iterate through the `ISlide` collection returned by `Presentation.getSlides`.
+1.  Call the `ISlide.writeAsSvg` method with a `FileOutputStream` for each output file.
+1.  The `SVG` files will be saved at the specified paths.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

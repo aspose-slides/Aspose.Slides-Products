@@ -12,12 +12,12 @@ description: Merge HTML content and export it as images in C++. Use Aspose.Slide
 
 {{% blocks/products/pf/feature-page-section h2="Merge HTML to image using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentation content and related formats. You can import multiple `HTML` files into a `Presentation` and render the merged slides as image files.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentation content and related formats. You can import multiple `HTML` files into a `Presentation` and render the merged slides as image files.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge HTML to image in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge `HTML` content with `AddFromHtml`, render each slide with `GetImage`, and save the images with `ImageFormat::Png`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `HTML` content with `AddFromHtml`, render each slide with `GetImage`, and save the images with `ImageFormat::Png`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging HTML to image" offSpacer="true" %}}
 ```cpp

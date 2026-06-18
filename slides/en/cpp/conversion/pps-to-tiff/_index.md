@@ -13,7 +13,7 @@ description: C++ conversion code for PPS to TIFF. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert PPS to TIFF Using C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) is a C++ library for creating, reading, editing, and converting presentation files. It allows developers to convert PPS files to TIFF in C++ applications without Microsoft PowerPoint.
+[Aspose.Slides for C++](/slides/cpp/) is a C++ library for creating, reading, editing, and converting presentation files. It allows developers to convert PPS files to TIFF in C++ applications without Microsoft PowerPoint.
 
 Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or download it from the [Aspose.Slides for C++ releases page](https://releases.aspose.com/slides/cpp/). You can also install it from the Package Manager Console.
 

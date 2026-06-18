@@ -100,7 +100,7 @@ Aspose.Slides for Python via Java offers several advantages for PowerPoint autom
    <div class="col-lg-12">
     <h2 class="h2title">How to Install</h2>
     <p>Use PyPI to install the Aspose.Slides Python library for presentation processing from the <a href="https://pypi.org/project/aspose-slides-java/">PyPI repository</a>:</p>
-    <pre><code>pip install aspose-slides-java</code></pre>
+    <pre>pip install aspose-slides-java</pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Create New PowerPoint Presentation in Python</h2>

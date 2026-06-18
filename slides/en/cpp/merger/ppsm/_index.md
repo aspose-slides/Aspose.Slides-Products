@@ -13,7 +13,7 @@ description: Merge PPSM files in C++. Use Aspose.Slides for C++ to clone slides 
 
 {{% blocks/products/pf/agp/content h2="Merge PPSM Files Using C++" %}}
 
-To merge `PPSM` files, use [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/), a C++ API for working with presentation files. Install the latest package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or use the Package Manager Console command below.
+To merge `PPSM` files, use [Aspose.Slides for C++](/slides/cpp/), a C++ API for working with presentation files. Install the latest package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or use the Package Manager Console command below.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
@@ -30,7 +30,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="Steps for Merging PPSM Files in C++" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Merge `PPSM` files with [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) by cloning slides from one presentation into another." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Merge `PPSM` files with [Aspose.Slides for C++](/slides/cpp/) by cloning slides from one presentation into another." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Load the destination and source `PPSM` files with the `Presentation` class.

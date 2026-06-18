@@ -12,12 +12,12 @@ description: Merge HTML files in C++. Use Aspose.Slides for C++ to combine HTML 
 
 {{% blocks/products/pf/feature-page-section h2="Merge HTML to HTML using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with presentation content and related formats. You can read multiple `HTML` files, add their content to a `Presentation`, and save the merged output with `SaveFormat::Html5`.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentation content and related formats. You can read multiple `HTML` files, add their content to a `Presentation`, and save the merged output with `SaveFormat::Html5`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge HTML to HTML in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can merge `HTML` files by loading their content with `File::ReadAllText`, importing it with `AddFromHtml`, and saving the result as `HTML`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `HTML` files by loading their content with `File::ReadAllText`, importing it with `AddFromHtml`, and saving the result as `HTML`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for merging HTML to HTML" offSpacer="true" %}}
 ```cpp

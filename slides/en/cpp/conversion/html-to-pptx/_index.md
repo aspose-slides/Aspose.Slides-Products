@@ -12,13 +12,13 @@ description: Convert HTML to PPTX in C++. Use the C++ library API to convert HTM
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to PPTX Using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can import HTML content and save it as a PowerPoint presentation.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and save it as a PowerPoint presentation.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to PPTX in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can convert an HTML file to a PowerPoint presentation with just a few lines of code:
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can convert an HTML file to a PowerPoint presentation with just a few lines of code:
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML to PPTX" offSpacer="true" %}}
 ```cpp

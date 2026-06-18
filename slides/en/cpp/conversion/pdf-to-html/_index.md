@@ -12,7 +12,7 @@ description: Convert PDF to HTML in C++. Use the C++ library API to import PDF f
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to HTML in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can import PDF pages into a presentation and save the result as HTML. Using **Aspose.Slides for C++**, developers can convert PDF files to HTML with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import PDF pages into a presentation and save the result as HTML. Using **Aspose.Slides for C++**, developers can convert PDF files to HTML with just a few lines of C++ code.
 
 Aspose.Slides for C++ can convert PDF content to HTML and other presentation-related formats.
 
@@ -42,7 +42,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PDF to HTML in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

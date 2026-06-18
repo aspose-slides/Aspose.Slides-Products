@@ -367,7 +367,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
      How to Install
     </h2>
     <p>Use Packagist to install the Aspose.Slides PHP library for presentation processing from the <a href="https://packagist.org/packages/aspose/slides">PHP package repository</a>:</p>
-    <pre><code>composer require aspose/slides</code></pre>
+    <pre>composer require aspose/slides</pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">Create a New PowerPoint Presentation in PHP</h2>

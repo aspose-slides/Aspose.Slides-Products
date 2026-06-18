@@ -12,7 +12,7 @@ description: Convert PNG to PPT in C++. Use the C++ library API to add PNG image
 
 {{% blocks/products/pf/feature-page-section h2="Convert PNG to PPT in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can create slides from images and save the result in presentation or document formats. Using **Aspose.Slides for C++**, developers can convert PNG images to PPT with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can create slides from images and save the result in presentation or document formats. Using **Aspose.Slides for C++**, developers can convert PNG images to PPT with just a few lines of C++ code.
 
 Aspose.Slides for C++ can place PNG images on slides and save the presentation as PPT and other related formats.
 
@@ -51,7 +51,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to PPT in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

@@ -1,18 +1,18 @@
 ---
-title:  View POT in Java
+title: View POT in Java
 url: /java/viewer/pot/
-keywords: View POT, View PowerPoint Slideshow, Open POT, Play Slideshow, POT Viewer, POT, PowerPoint, Java API, Java Library
-description: View POT in Java. Use Java library API to open and view PowerPoint slideshow
+keywords: View POT, Open POT, POT Viewer, POT, Java API, Java Library
+description: View POT files in Java. Use Aspose.Slides for Java to open PowerPoint template files and save them as HTML.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="View POT in Java" h2="Powerful cross-platform Java API for opening and viewing POT using Java code" >}}
+{{< blocks/products/pf/feature-page-header h1="View POT in Java" h2="Java API for opening POT files and saving them as HTML." >}}
 
 {{% blocks/products/pf/feature-page-section h2="View POT using Aspose.Slides" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library used to open and view, manipulate or edit presentations, import presentations from images or documents, and convert presentations to files in other formats.
+[**Aspose.Slides for Java**](/slides/java/) is a Java library for opening, viewing, editing, and converting presentation files. You can load POT files and save them as HTML for viewing in a browser.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,21 +20,19 @@ description: View POT in Java. Use Java library API to open and view PowerPoint 
 
 
 {{% blocks/products/pf/feature-page-section  h2="View POT in Java" %}}
-Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), you can load and view a powerpoint slideshow with a few lines of code.
+Using [**Aspose.Slides for Java**](/slides/java/), you can load a POT presentation and save it as responsive HTML with a few lines of code.
 
 {{% blocks/products/pf/agp/code-block title="Java code for viewing POT" offSpacer="true" %}}
 ```java
-// Instantiate a Presentation object that represents a presentation file
-Presentation pres = new Presentation("presentation.pot");
+Presentation presentation = new Presentation("presentation.pot");
 try {
     ResponsiveHtmlController controller = new ResponsiveHtmlController();
     HtmlOptions htmlOptions = new HtmlOptions();
     htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(controller));
 
-    // Saving the presentation to HTML
-    pres.save("index.html", SaveFormat.Html, htmlOptions);
+    presentation.save("index.html", SaveFormat.Html, htmlOptions);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -59,23 +57,19 @@ Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Instantiate a Presentation object and load the POT file.
+Load the `POT` file with the `Presentation` class.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the ResponsiveHtmlController for formatting.
+Create a `ResponsiveHtmlController` object for responsive HTML output.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of HtmlOptions and set the HtmlFormatter property.
+Create an `HtmlOptions` object and set the `HtmlFormatter` property.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the POT presentation as HTML.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Call Process.Start with path to resulting HTML to load POT content.
+Save the POT presentation as HTML with `SaveFormat.Html`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -88,18 +82,20 @@ Call Process.Start with path to resulting HTML to load POT content.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="View other files" subTitle="You can also open and view presentations in other formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/ppt/" name="View PPT Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pptx/" name="View PPTX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/odp/" name="View ODP Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/otp/" name="View OTP Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/potm/" name="View POTM Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/potx/" name="View POTX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pps/" name="View PPS Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/ppsm/" name="View PPSM Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/ppsx/" name="View PPSX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/viewer/pptm/" name="View PPTM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section title="View other files" subTitle="You can also open and view presentations in other formats." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/odp/" name="View ODP Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/otp/" name="View OTP Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/potm/" name="View POTM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/potx/" name="View POTX Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/pps/" name="View PPS Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/ppsm/" name="View PPSM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/ppsx/" name="View PPSX Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/ppt/" name="View PPT Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/pptm/" name="View PPTM Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/pptx/" name="View PPTX Presentation" >}}
+
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

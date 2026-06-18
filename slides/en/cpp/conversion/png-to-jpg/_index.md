@@ -12,7 +12,7 @@ description: Convert PNG to JPG in C++. Use the C++ library API to add PNG image
 
 {{% blocks/products/pf/feature-page-section h2="Convert PNG to JPG in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can create slides from images and render slides as image files. Using **Aspose.Slides for C++**, developers can convert PNG images to JPG with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can create slides from images and render slides as image files. Using **Aspose.Slides for C++**, developers can convert PNG images to JPG with just a few lines of C++ code.
 
 Aspose.Slides for C++ can place PNG images on slides and render the result as JPG and other related formats.
 
@@ -54,7 +54,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to JPG in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

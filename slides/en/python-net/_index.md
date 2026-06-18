@@ -372,7 +372,7 @@ description: Python library for creating, editing, converting, and processing PP
      How to Install
     </h2>
     <p>Use pip to install the Aspose.Slides Python library for presentation processing from the <a href="https://pypi.org/project/aspose-slides/">PyPI repository</a>:</p>
-    <pre><code>pip install aspose-slides</code></pre>
+    <pre>pip install aspose-slides</pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">Create a New PowerPoint Presentation in Python</h2>

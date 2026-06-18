@@ -99,7 +99,7 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
    <div class="col-lg-12">
     <h2 class="h2title">How to Install</h2>
     <p>Use npm to install the Aspose.Slides Node.js library for presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides.via.net">npm package repository</a>:</p>
-    <pre><code>npm install aspose.slides.via.net</code></pre>
+    <pre>npm install aspose.slides.via.net</pre>
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Create a New PowerPoint Presentation in Node.js</h2>

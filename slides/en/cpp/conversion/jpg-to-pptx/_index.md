@@ -12,13 +12,13 @@ description: Convert JPG to PPTX in C++. Use the C++ library API to convert JPG 
 
 {{% blocks/products/pf/feature-page-section h2="Convert JPG to PPTX using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can create, convert, and manipulate PowerPoint presentations. When you convert JPG to PPTX, you create a PowerPoint presentation that contains slides based on JPG images.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can create, convert, and manipulate PowerPoint presentations. When you convert JPG to PPTX, you create a PowerPoint presentation that contains slides based on JPG images.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to PPTX in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can convert a JPG image to a PPTX presentation with just a few lines of code:
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can convert a JPG image to a PPTX presentation with just a few lines of code:
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting JPG to PPTX" offSpacer="true" %}}
 ```cpp

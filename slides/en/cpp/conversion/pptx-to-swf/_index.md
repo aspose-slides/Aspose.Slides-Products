@@ -12,7 +12,7 @@ description: C++ conversion code for PPTX to SWF. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert PPTX to SWF Using C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) is a PowerPoint processing API that lets you convert PPTX presentations to SWF in C++ applications without Microsoft PowerPoint. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or download it from the [Aspose.Slides for C++ releases page](https://releases.aspose.com/slides/cpp/).
+[Aspose.Slides for C++](/slides/cpp/) is a PowerPoint processing API that lets you convert PPTX presentations to SWF in C++ applications without Microsoft PowerPoint. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or download it from the [Aspose.Slides for C++ releases page](https://releases.aspose.com/slides/cpp/).
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

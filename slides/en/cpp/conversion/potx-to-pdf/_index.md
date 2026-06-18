@@ -13,7 +13,7 @@ description: C++ conversion code for POTX to PDF. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert POTX to PDF Using C++" %}}
 
-To convert POTX to PDF, use [Aspose.Slides for C++](https://products.aspose.com/slides/cpp/), a presentation processing API for C++ applications. You can download the latest version directly from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/), search for **Aspose.Slides.Cpp**, and install it. You may also use the following command from the Package Manager Console.
+To convert POTX to PDF, use [Aspose.Slides for C++](/slides/cpp/), a presentation processing API for C++ applications. You can download the latest version directly from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/), search for **Aspose.Slides.Cpp**, and install it. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

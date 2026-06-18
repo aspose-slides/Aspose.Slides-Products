@@ -1,18 +1,18 @@
 ---
-title:  Merge SVG to PNG in Java
+title: Merge SVG to PNG in Java
 url: /java/merger/svg-to-png/
 keywords: Merge SVG to PNG, SVG to PNG, Join SVG to PNG, Combine SVG to PNG, Java API, Java Library
-description: Merge SVG to PNG in Java. Use Java library API to combine SVG and PNG files
+description: Merge SVG to PNG in Java. Use Aspose.Slides for Java to combine SVG images and render the result as a PNG file.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge SVG to PNG in Java" h2="High-speed and cross-platform Java library for merging SVG to PNG images using Java code" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge SVG to PNG in Java" h2="Use Aspose.Slides for Java to merge SVG content in Java applications." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge SVG to PNG using Aspose.Slides" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/java/) is a powerful Java library used to merge and manipulate presentations, images, and other files. When you merge SVG to PNG, you are effectively combining SVG images to get a PNG picture.
+[Aspose.Slides for Java](/slides/java/) is a Java API for creating, editing, converting, and merging presentation content. You can place `SVG` content into a `Presentation` and render the combined slide as a `PNG` image.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,27 +20,32 @@ description: Merge SVG to PNG in Java. Use Java library API to combine SVG and P
 
 
 {{% blocks/products/pf/feature-page-section  h2="Merge SVG to PNG in Java" %}}
-Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/java/), you can merge SVG to PNG files quickly with just a few lines of code
+Using [Aspose.Slides for Java](/slides/java/), you can merge `SVG` content and create a `PNG` result with a few lines of Java code.
 
 {{% blocks/products/pf/agp/code-block title="Java code for merging SVG to PNG" offSpacer="true" %}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    String svgContent = new String(Files.readAllBytes("image.svg"));
-    ISvgImage svgImage = new SvgImage(svgContent);
-    IPPImage ppImage = pres.getImages().addImage(svgImage);
-    pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 
-			ppImage.getWidth(), ppImage.getHeight(), ppImage);
+    String firstSvgContent = new String(Files.readAllBytes(Paths.get("image1.svg")));
+    ISvgImage firstSvgImage = new SvgImage(firstSvgContent);
+    IPPImage firstPresentationImage = presentation.getImages().addImage(firstSvgImage);
 
-    for (int index = 0; index < pres.getSlides().size(); index++)
-    {
-        ISlide slide = pres.getSlides().get_Item(index);
-        BufferedImage bufferedImage = slide.getThumbnail();
-        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+    String secondSvgContent = new String(Files.readAllBytes(Paths.get("image2.svg")));
+    ISvgImage secondSvgImage = new SvgImage(secondSvgContent);
+    IPPImage secondPresentationImage = presentation.getImages().addImage(secondSvgImage);
+
+    ISlide slide = presentation.getSlides().get_Item(0);
+    slide.getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, firstPresentationImage.getWidth(), firstPresentationImage.getHeight(), firstPresentationImage);
+    slide.getShapes().addPictureFrame(ShapeType.Rectangle, 0, firstPresentationImage.getHeight(), secondPresentationImage.getWidth(), secondPresentationImage.getHeight(), secondPresentationImage);
+
+    IImage mergedImage = slide.getImage(1f, 1f);
+    try {
+        mergedImage.save("merged.png", ImageFormat.Png);
+    } finally {
+        mergedImage.dispose();
     }
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}
@@ -57,7 +62,7 @@ try {
 
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
+Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installation/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -65,15 +70,15 @@ Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
+Create a `Presentation` instance.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Load the SVG files you want to merge together.
+Load the source `SVG` files with `Files.readAllBytes` and `Paths.get`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting PNG image.
+Render the slide with `getImage` and save it with `ImageFormat.Png`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 
@@ -85,20 +90,22 @@ Save the resulting PNG image.
 
 
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
+{{< blocks/slides-app-widget  appName="merger" extension="svg-to-png" sectionTitle="Merge Files Online" sectionDescription="Merge presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
-  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/java/merger/html-to-image/" name="HTML TO IMAGE" >}}  
-  
+{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/tiff-to-pdf/" name="TIFF TO PDF" >}}
+
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

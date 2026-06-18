@@ -13,7 +13,7 @@ description: C++ conversion code for XML to JPEG. Use the example code for batch
 
 {{% blocks/products/pf/agp/content h2="Convert XML to JPEG Using C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) is a PowerPoint processing API that lets you convert XML presentation files to JPEG in C++ applications without Microsoft PowerPoint. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or use the following Package Manager Console command.
+[Aspose.Slides for C++](/slides/cpp/) is a PowerPoint processing API that lets you convert XML presentation files to JPEG in C++ applications without Microsoft PowerPoint. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 

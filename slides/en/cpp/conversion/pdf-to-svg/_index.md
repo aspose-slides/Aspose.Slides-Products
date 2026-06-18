@@ -12,7 +12,7 @@ description: Convert PDF to SVG in C++. Use the C++ library API to import PDF fi
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to SVG in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can import PDF pages into slides and export those slides as SVG files. Using **Aspose.Slides for C++**, developers can convert PDF files to SVG with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import PDF pages into slides and export those slides as SVG files. Using **Aspose.Slides for C++**, developers can convert PDF files to SVG with just a few lines of C++ code.
 
 Aspose.Slides for C++ can convert PDF content to SVG and other presentation-related formats.
 
@@ -51,7 +51,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PDF to SVG in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -63,7 +63,7 @@ Remove the default slide and import the source PDF file into the Presentation ob
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Write each slide to an SVG file and dispose of the `FileStream` and `Presentation` objects.
+Write each slide to an SVG file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

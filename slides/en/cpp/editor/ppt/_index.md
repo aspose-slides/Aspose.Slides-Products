@@ -12,12 +12,12 @@ description: Edit PPT files in C++. Use Aspose.Slides for C++ to modify a PowerP
 
 {{% blocks/products/pf/feature-page-section h2="Edit PPT using Aspose.Slides" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a C++ API for working with PowerPoint presentations. You can load a `PPT` file into a `Presentation`, add text to a slide, and save the result as `PPT`.
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with PowerPoint presentations. You can load a `PPT` file into a `Presentation`, add text to a slide, and save the result as `PPT`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Edit PPT in C++" %}}
-Using [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/), you can edit a `PPT` presentation by loading it with the `Presentation` class, adding a text shape, and saving the result with `SaveFormat::Ppt`.
+Using [**Aspose.Slides for C++**](/slides/cpp/), you can edit a `PPT` presentation by loading it with the `Presentation` class, adding a text shape, and saving the result with `SaveFormat::Ppt`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for editing PPT" offSpacer="true" %}}
 ```cpp

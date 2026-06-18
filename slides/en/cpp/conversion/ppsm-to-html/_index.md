@@ -13,7 +13,7 @@ description: C++ conversion code for PPSM to HTML. Use the example code for batc
 
 {{% blocks/products/pf/agp/content h2="Convert PPSM to HTML Using C++" %}}
 
-[Aspose.Slides for C++](https://products.aspose.com/slides/cpp/) is a C++ library for creating, reading, editing, and converting presentation files. It allows developers to convert PPSM files to HTML in C++ applications without Microsoft PowerPoint.
+[Aspose.Slides for C++](/slides/cpp/) is a C++ library for creating, reading, editing, and converting presentation files. It allows developers to convert PPSM files to HTML in C++ applications without Microsoft PowerPoint.
 
 Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or download it from the [Aspose.Slides for C++ releases page](https://releases.aspose.com/slides/cpp/). You can also install it from the Package Manager Console.
 

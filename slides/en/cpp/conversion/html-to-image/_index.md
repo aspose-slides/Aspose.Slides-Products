@@ -12,7 +12,7 @@ description: Convert HTML to image in C++. Use the C++ library API to convert HT
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to Image in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can import HTML content and render slides as image files.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and render slides as image files.
 
 Aspose.Slides for C++ can convert HTML content to image formats and other presentation-related formats.
 
@@ -54,7 +54,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert HTML to Image in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

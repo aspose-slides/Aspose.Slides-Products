@@ -12,7 +12,7 @@ description: Convert JPG to PDF in C++. Use the C++ library API to convert JPG f
 
 {{% blocks/products/pf/feature-page-section h2="Convert JPG to PDF in C++" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/) is a presentation processing API that can import JPG files into slides and save the result as a PDF document.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import JPG files into slides and save the result as a PDF document.
 
 Aspose.Slides for C++ can convert JPG content to PDF documents and other presentation-related formats.
 
@@ -45,7 +45,7 @@ presentation->Dispose();
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert JPG to PDF in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](https://products.aspose.com/slides/cpp/).
+Install [**Aspose.Slides for C++**](/slides/cpp/).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

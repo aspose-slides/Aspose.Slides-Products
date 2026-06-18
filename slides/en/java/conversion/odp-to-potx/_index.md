@@ -14,11 +14,11 @@ description: Convert ODP to POTX in Java. Use Aspose.Slides for Java to save ODP
 {{% blocks/products/pf/agp/content h2="Convert ODP to POTX Using Java" %}}
 
 
- To convert <code>ODP</code> to <code>POTX</code>, use
+ To convert `ODP` to `POTX`, use
  [Aspose.Slides for Java](/slides/java/).
- It is a PowerPoint and OpenOffice presentation API that lets you load an <code>ODP</code> file and save it as a <code>POTX</code> template. You can get the latest <code>aspose-slides</code> package from
+ It is a PowerPoint and OpenOffice presentation API that lets you load an `ODP` file and save it as a `POTX` template. You can get the latest `aspose-slides` package from
  [Maven](https://releases.aspose.com/java/repo/)
- and add it to your Maven-based project with the following configuration in <code>pom.xml</code>.
+ and add it to your Maven-based project with the following configuration in `pom.xml`.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
 
@@ -53,13 +53,13 @@ description: Convert ODP to POTX in Java. Use Aspose.Slides for Java to save ODP
 
 {{% blocks/products/pf/agp/text %}}
 
- Java developers can convert an <code>ODP</code> file to <code>POTX</code> in just a few lines of code.
+ Java developers can convert an `ODP` file to `POTX` in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load the <code>ODP</code> file with the <code>Presentation</code> class.
-1.  Call the <code>Presentation.save</code> method with the output file path and <code>SaveFormat.Potx</code>.
-1.  The <code>POTX</code> file will be saved at the specified path.
+1.  Load the `ODP` file with the `Presentation` class.
+1.  Call the `Presentation.save` method with the output file path and `SaveFormat.Potx`.
+1.  The `POTX` file will be saved at the specified path.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
