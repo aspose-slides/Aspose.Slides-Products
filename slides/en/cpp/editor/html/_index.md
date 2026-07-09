@@ -50,21 +50,21 @@ Install **Aspose.Slides for C++**. See [**Installation**](https://docs.aspose.co
 Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Read the `HTML` file content with `File::ReadAllText`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Create a `Presentation` instance and load the `HTML` content with `AddFromHtml`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Add a text shape with `AddAutoShape` and `set_Text`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Save the edited file with `SaveFormat::Html5`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 

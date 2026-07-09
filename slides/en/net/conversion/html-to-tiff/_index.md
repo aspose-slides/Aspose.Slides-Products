@@ -34,17 +34,17 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Developers and applications can convert HTML to TIFF this way:" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Create a `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Read the HTML file content.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Call the `Save` method with `SaveFormat.Tiff`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 

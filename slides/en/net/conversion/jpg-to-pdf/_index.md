@@ -34,17 +34,17 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/steps-block-autogen name="Developers and applications can convert JPG to PDF this way:" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Create a `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Load the JPG image file bytes.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Call the `Save` method with `SaveFormat.Pdf`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 

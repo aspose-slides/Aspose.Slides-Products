@@ -30,17 +30,17 @@ presentation->Dispose();
 
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to redact ODP files." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Load the ODP file with the `Presentation` class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Use the [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) method to find and replace sensitive text.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Save the redacted file with `SaveFormat::Odp`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 

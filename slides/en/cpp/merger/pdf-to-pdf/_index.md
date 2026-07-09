@@ -46,17 +46,17 @@ Install **Aspose.Slides for C++**. See [**Installation**](https://docs.aspose.co
 Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Create a `Presentation` instance.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Import the source `PDF` files with `AddFromPdf`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Save the merged file with `SaveFormat::Pdf`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 

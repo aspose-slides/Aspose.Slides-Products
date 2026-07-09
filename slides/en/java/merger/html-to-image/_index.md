@@ -75,17 +75,17 @@ Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installatio
 Add the library as a reference in your project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Create a `Presentation` instance.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Import the source `HTML` files with `addFromHtml`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Render each slide with `getImage` and save it with `ImageFormat.Png`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

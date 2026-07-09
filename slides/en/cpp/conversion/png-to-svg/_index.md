@@ -61,9 +61,9 @@ Install [**Aspose.Slides for C++**](/slides/cpp/).
 Add a library reference to your C++ project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Create a `Presentation` instance and add the PNG image to a slide.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Write the slide to an SVG file.

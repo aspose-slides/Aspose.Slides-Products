@@ -31,13 +31,13 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert PPSM to EMF via C#" >}}
 {{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can load and convert PPSM files to EMF in just a few lines of code." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Load the PPSM file with a `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Call the `Save` method with the output file path and `SaveFormat.Emf`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Use the output EMF file at the specified path.

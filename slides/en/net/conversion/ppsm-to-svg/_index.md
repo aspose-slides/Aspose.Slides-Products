@@ -31,21 +31,21 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert PPSM to SVG via C#" >}}
 {{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can load PPSM files and export slides to SVG in just a few lines of code." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Load the PPSM file with a `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Iterate through the slides in the `Presentation`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Create an output stream for each SVG file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Call the slide `WriteAsSvg` method with the output stream.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 

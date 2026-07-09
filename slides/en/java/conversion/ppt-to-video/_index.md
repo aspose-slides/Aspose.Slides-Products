@@ -26,7 +26,7 @@ This `PPT` to video workflow uses Aspose.Slides to generate presentation frames 
 Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installation/) and download [ffmpeg](https://ffmpeg.org/download.html).
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 
 Add this dependency to your `pom.xml` file:
 
@@ -38,7 +38,7 @@ Add this dependency to your `pom.xml` file:
 </dependency>
 ```
 
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Run the Java PowerPoint to video code.

@@ -20,13 +20,13 @@ description: Convert PPTX to video in C++. Use Aspose.Slides for C++ with ffmpeg
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Install `Aspose.Slides for C++` from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or the [releases page](https://releases.aspose.com/slides/cpp/), and install `ffmpeg` from the [ffmpeg download page](https://ffmpeg.org/download.html).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Add `ffmpeg.exe` to the `PATH` environment variable.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Run the C++ code to render PPTX frames and create an MP4 video.

@@ -32,13 +32,13 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can easily load & convert ODP files to SWF in just a few lines of code." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Load the ODP file with a `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Call the `Save` method with the output file path and `SaveFormat.Swf`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Use the output SWF file at the specified path.

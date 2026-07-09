@@ -1,18 +1,18 @@
 ---
-title:  Edit PDF in C#
+title: Edit PDF in C#
 url: /net/editor/pdf/
 keywords: Edit PDF, PDF, C# API, .NET Library
-description: Edit PDF in C#. Use .NET library API to edit PDF document
+description: Edit PDF in C# using Aspose.Slides for .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edit PDF in C#" h2="Powerful cross-platform .NET API for editing PDF using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Edit PDF in C#" h2="Edit PDF documents in C# using Aspose.Slides for .NET." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Edit PDF using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Edit PDF Using Aspose.Slides" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to manipulate and edit presentations, PDF documents, and other files. You can edit an PDF doc by adding a new line of text to it. 
+[Aspose.Slides for .NET](/slides/net/) can import PDF pages into a presentation, update slide content, and save the result as a PDF document.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,20 +20,22 @@ description: Edit PDF in C#. Use .NET library API to edit PDF document
 
 
 {{% blocks/products/pf/feature-page-section  h2="Edit PDF in C#" %}}
-Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can add a new line of text to an PDF document with just a few lines of code.
+Using [Aspose.Slides for .NET](/slides/net/), you can update text imported from a PDF document with a few lines of C# code.
 
 {{% blocks/products/pf/agp/code-block title="C# code for editing PDF" offSpacer="true" %}}
 ```cs
-using (Presentation pres = new Presentation())
+using var presentation = new Presentation();
+presentation.Slides.RemoveAt(0);
+presentation.Slides.AddFromPdf("document.pdf");
+
+var slide = presentation.Slides[0];
+
+if (slide.Shapes[0] is IAutoShape shape && shape.TextFrame is not null)
 {
-    pres.Slides.RemoveAt(0); // remove default empty slide
-    pres.Slides.AddFromPdf("doc.pdf");
-
-    AutoShape shape = (AutoShape)pres.Slides[0].Shapes[0];
     shape.TextFrame.Text = "New text";
-
-    pres.Save("doc.pdf", SaveFormat.Pdf);
 }
+
+presentation.Save("document.pdf", SaveFormat.Pdf);
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -42,35 +44,31 @@ using (Presentation pres = new Presentation())
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to edit PDF in C#" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Edit PDF" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for .NET**. See [**Installation**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [Aspose.Slides for .NET](https://docs.aspose.com/slides/net/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` object.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load PDF content with `AddFromPdf`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the PDF document you want to edit.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Access the target slide and shape through variables.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a new line of text.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the changed PDF file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Update the text through `TextFrame` and save with `SaveFormat.Pdf`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -83,8 +81,8 @@ Save the changed PDF file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/editor/html/" name="Edit HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/editor/ppt/" name="Edit PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/editor/html/" name="Edit HTML" >}}
 
 
 

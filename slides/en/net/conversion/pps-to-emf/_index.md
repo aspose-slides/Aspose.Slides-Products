@@ -31,13 +31,13 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert PPS to EMF via C#" >}}
 {{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can convert PPS files to EMF in a few lines of code." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Load the PPS file with a `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Call the `Save` method with the output file path and `SaveFormat.Emf`.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Use the output EMF file at the specified path.

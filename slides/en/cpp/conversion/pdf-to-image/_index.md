@@ -62,9 +62,9 @@ Install [**Aspose.Slides for C++**](/slides/cpp/).
 Add a library reference to your C++ project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Remove the default slide and import the source PDF file into the `Presentation` object.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Render each slide and save it as an image file.

@@ -1,18 +1,18 @@
 ---
-title:  Edit PPT in C#
+title: Edit PPT in C#
 url: /net/editor/ppt/
 keywords: Edit PPT, Edit PowerPoint, PPT, PowerPoint, C# API, .NET Library
-description: Edit PPT in C#. Use .NET library API to edit PowerPoint presentation
+description: Edit PPT in C# using Aspose.Slides for .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edit PPT in C#" h2="Powerful cross-platform .NET API for editing PPT using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Edit PPT in C#" h2="Edit PPT presentations in C# using Aspose.Slides for .NET." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Edit PPT using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Edit PPT Using Aspose.Slides" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to manipulate and edit presentations. You can edit a PPT presentation by adding a new line of text to it. 
+[Aspose.Slides for .NET](/slides/net/) can load PPT presentations, update slide content, and save the result as a PPT file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,16 +20,19 @@ description: Edit PPT in C#. Use .NET library API to edit PowerPoint presentatio
 
 
 {{% blocks/products/pf/feature-page-section  h2="Edit PPT in C#" %}}
-Using [**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/), you can add a new line of text to a PPT document with just a few lines of code.
+Using [Aspose.Slides for .NET](/slides/net/), you can update text in a PPT presentation with a few lines of C# code.
 
 {{% blocks/products/pf/agp/code-block title="C# code for editing PPT" offSpacer="true" %}}
 ```cs
-using (Presentation presentation = new Presentation("pres.ppt"))
+using var presentation = new Presentation("document.ppt");
+var slide = presentation.Slides[0];
+
+if (slide.Shapes[0] is IAutoShape shape && shape.TextFrame is not null)
 {
-    AutoShape shape = (AutoShape)presentation.Slides[0].Shapes[0];
     shape.TextFrame.Text = "New text";
-    presentation.Save("pres.ppt", SaveFormat.Ppt);
 }
+
+presentation.Save("document.ppt", SaveFormat.Ppt);
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -38,35 +41,27 @@ using (Presentation presentation = new Presentation("pres.ppt"))
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to edit PPT in C#" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Edit PPT" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for .NET**. See [**Installation**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [Aspose.Slides for .NET](https://docs.aspose.com/slides/net/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the PPT file with a `Presentation` object.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Access the target slide and shape through variables.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the PPT presentation you want to edit.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a new line of text.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the changed PowerPoint file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Update the text through `TextFrame` and save with `SaveFormat.Ppt`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -79,8 +74,8 @@ Save the changed PowerPoint file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/editor/html/" name="Edit HTML" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/editor/pdf/" name="Edit PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/editor/html/" name="Edit HTML" >}}
 
 
 
