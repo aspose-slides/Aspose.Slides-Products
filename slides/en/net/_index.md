@@ -6,14 +6,14 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenOffice presentations in C# without external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/slides/net/" >}}
+{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in C# without external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p><strong>Aspose.Slides for .NET</strong> is a powerful presentation processing API designed for working with PowerPoint and OpenOffice presentation formats in C#. It allows developers to create, read, write, modify, protect, and convert presentations programmatically without needing Microsoft PowerPoint.</p>
+<p><strong>Aspose.Slides for .NET</strong> is a powerful presentation processing API designed for working with PowerPoint and OpenDocument presentation formats in C#. It allows developers to create, read, write, modify, protect, and convert presentations programmatically without needing Microsoft PowerPoint.</p>
 
 <p>With Aspose.Slides for .NET, you can manage and manipulate presentation content, including text, shapes, charts, tables, animations, as well as add multimedia elements like audio and video. The API also enables slide preview and seamless integration into .NET applications.</p>
 
@@ -30,7 +30,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
 
 <p>Aspose.Slides for .NET is a standalone API and does not require Microsoft PowerPoint or any third-party software. It is ideal for on-premise or server-side scenarios where automation and scalability are essential.</p>
 
-<p><a href="https://products.aspose.com/slides/benefits/">Learn more about the benefits of Aspose.Slides for .NET</a> and how it can enhance your .NET presentation processing workflows.</p>
+<p><a href="/slides/benefits/">Learn more about the benefits of Aspose.Slides for .NET</a> and how it can enhance your .NET presentation processing workflows.</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -196,7 +196,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
     </li>
     <li>
      <b>
-      OpenOffice:
+      OpenDocument:
      </b>
      ODP
     </li>
@@ -337,7 +337,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
      Convert Presentations to PDF, HTML, TIFF, or XPS in C#
     </h2>
     <p>
-     Aspose.Slides for .NET includes a rendering engine for PowerPoint and OpenOffice formats. It can export presentations to PDF, HTML, TIFF, XPS, and other formats by loading a presentation and calling the Save method with the required output format.
+     Aspose.Slides for .NET includes a rendering engine for PowerPoint and OpenDocument formats. It can export presentations to PDF, HTML, TIFF, XPS, and other formats by loading a presentation and calling the <code>Save</code> method with the required output format.
     </p>
     <div class="codeblock" id="code">
      <h3>
@@ -346,7 +346,6 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
      <pre><code class="cs">
 using var presentation = new Presentation("presentation.pptx");
 
-// Save the presentation as PDF, XPS, and TIFF files.
 presentation.Save("output.pdf", SaveFormat.Pdf);
 presentation.Save("output.xps", SaveFormat.Xps);
 presentation.Save("output.tiff", SaveFormat.Tiff);
@@ -399,7 +398,6 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 using var presentation = new Presentation("presentation.pptx");
 var slide = presentation.Slides[0];
 
-// Create a full-scale image of the slide.
 using var image = slide.GetImage(1f, 1f);
 
 image.Save("output.jpg", ImageFormat.Jpeg);
@@ -408,7 +406,7 @@ image.Save("output.jpg", ImageFormat.Jpeg);
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Microsoft Office Automation – Not Needed
+     Microsoft Office Automation Is Not Needed
     </h2>
     <p>
      Aspose.Slides for .NET is built with managed code and does not require Microsoft Office or Microsoft PowerPoint to be installed. It provides a reliable alternative to Microsoft Office automation for applications that need presentation processing with better security, stability, scalability, performance, and deployment flexibility.
