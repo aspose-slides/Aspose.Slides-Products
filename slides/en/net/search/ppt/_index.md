@@ -1,25 +1,33 @@
 ---
 title: Search Text in PPT Presentation Files using .NET
 url: /net/search/ppt/
-keywords: search words in PPT, search and replace text in PPT, search text PPT Presentation
-description: C# source code to search text in PPT Presentation.
+keywords: Search Text in PPT, Find Text in PPT, Search PPT Presentation Text
+description: C# source code to search text in PPT presentations.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Search Text PPT using C#" h2="Build your own .NET apps to search and replace text in presentation files using server-side APIs. Learn how to find all the entrances of a certain word or phrase in presentation documents. Search text by exact data matching and regular expression matching." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/upper-banner h1="Search Text in PPT Files using C#" h2="Build .NET apps that find text in presentations with server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPT" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Search and Replace Text PPT Presentation via C#" %}}
-A basic document search and replace text in contents, comments, slide notes or metadata with Aspose.Slides for .NET APIs can be done with just few lines of code. Use regular expression matching, match case to search text in presentation. Search text in titles, content, footer or header.
-{{% blocks/products/pf/agp/code-block title="Search text PPT Presentation using C#" offSpacer="true" %}}
+{{% blocks/products/pf/feature-page-section  h2="Search Text in a PPT Presentation using C#" %}}
+With [Aspose.Slides for .NET](/slides/net/), you can search text in a PPT presentation. Retrieve text frames from a slide with `SlideUtil.GetAllTextBoxes`, then inspect their `Text` values for the required phrase.
+{{% blocks/products/pf/agp/code-block title="Search Text in a PPT Presentation using C#" offSpacer="true" %}}
 
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt"))
+var slideIndex = 0;
+var slide = presentation.Slides[slideIndex];
+var textFrames = Aspose.Slides.Util.SlideUtil.GetAllTextBoxes(slide);
+
+foreach (var textFrame in textFrames)
 {
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.ppt", SaveFormat.Ppt);
+    var text = textFrame.Text;
+    if (text.Contains("PowerPoint", System.StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine(text);
+    }
 }
 ```
 
@@ -27,32 +35,36 @@ using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt")
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Search Text in PPT via C#" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Search Text in a PPT Presentation using C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to search text PPT files." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to search text in a PPT presentation." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load PPT with an instance of Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the PPT file with `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Use [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) method to find and replace text.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Get the required slide from `Presentation.Slides` and assign it to a variable.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result in PPT format
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Retrieve its text frames with [`SlideUtil.GetAllTextBoxes`](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/getalltextboxes/).
+{{% /blocks/products/pf/agp/step-autogen %}}
+
+{{% blocks/products/pf/agp/step-autogen %}}
+Check the `Text` value of each frame for the required phrase.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Search Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in PPT documents right now." >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Text Search" sectionDescription="Search text in PPT presentations online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Using C#, You can also search text in the following formats:" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Using C#, you can also search text in the following formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/search/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/search/pptx/" name="PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -167,7 +167,7 @@ description: Aspose.Slides for .NET Core is a PowerPoint API for building .NET C
     </li>
     <li>
      <b>
-      OpenOffice:
+      OpenDocument:
      </b>
      ODP
     </li>
@@ -317,7 +317,6 @@ description: Aspose.Slides for .NET Core is a PowerPoint API for building .NET C
      <pre><code class="cs">
 using var presentation = new Presentation("presentation.pptx");
 
-// Save the presentation as PDF, XPS, and TIFF files.
 presentation.Save("output.pdf", SaveFormat.Pdf);
 presentation.Save("output.xps", SaveFormat.Xps);
 presentation.Save("output.tiff", SaveFormat.Tiff);
@@ -342,7 +341,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Microsoft Office Automation – Not Needed
+     Microsoft Office Automation Is Not Needed
     </h2>
     <p>
      Aspose.Slides for .NET does not require Microsoft Office or Microsoft PowerPoint to be installed to work with PowerPoint presentation formats. It provides a reliable alternative to Microsoft Office automation for applications that require security, stability, scalability, performance, and deployment flexibility.

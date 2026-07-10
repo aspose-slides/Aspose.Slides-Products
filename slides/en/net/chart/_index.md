@@ -1,5 +1,5 @@
 ---
-title: Add Chart to PowerPoint Presentations using .NET
+title: Create Charts in PowerPoint Presentations Using C#
 url: /net/chart/
 description: Create charts in PowerPoint presentations in C# using Aspose.Slides for .NET.
 ---

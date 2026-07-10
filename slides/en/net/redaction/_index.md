@@ -1,26 +1,26 @@
 ---
-title: Redact PowerPoint and OpenOffice Presentations using .NET 
+title: Redact PowerPoint and OpenDocument Presentations using .NET
 url: /net/redaction/
-description: C# source code to find and remove content in PowerPoint and OpenOffice™ presentations
+description: C# source code to find and replace text in PowerPoint and OpenDocument presentations.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Redact PowerPoint and OpenOffice documents using C#" h2="Build your own .NET apps to find and remove content in presentations using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+{{< blocks/products/pf/upper-banner h1="Redact PowerPoint and OpenDocument Presentations using C#" h2="Build .NET apps that find and replace text in presentations with server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Redact Presentation Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Presentation Redaction Examples" >}}
 
 {{< blocks/products/pf/product pfName="Redact Presentation" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/net/redaction/odp/" >}}
-How to Redact ODP file using Aspose.Slides for .NET API.
+Redact ODP presentations with Aspose.Slides for .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Redact Presentation" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/net/redaction/ppt/" >}}
-How to Redact PPT file using Aspose.Slides for .NET API.
+Redact PPT presentations with Aspose.Slides for .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Redact Presentation" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/net/redaction/pptx/" >}}
-How to Redact PPTX file using Aspose.Slides for .NET API.
+Redact PPTX presentations with Aspose.Slides for .NET.
 {{< /blocks/products/pf/product >}}
 
 

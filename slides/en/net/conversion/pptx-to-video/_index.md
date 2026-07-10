@@ -1,104 +1,103 @@
 ---
-title:  Convert PPTX to Video in C#
+title: Convert PPTX to Video in C#
 url: /net/conversion/pptx-to-video/
 keywords: Convert PPTX to video, PPTX to video, PowerPoint to video, PPTX to MP4, C# API, .NET Library
-description: Convert PPTX to video in C#. Use .NET library API to convert PowerPoint to video
+description: Convert PPTX to video in C#. Use Aspose.Slides for .NET with FFmpeg to render PowerPoint slides as video frames.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPTX to video in C#" h2="Powerful cross-platform .NET API for converting PowerPoint to video using C# code on NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms" >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPTX to Video in C#" h2="Render PowerPoint slides to video frames in C# using Aspose.Slides for .NET and FFmpeg." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to video using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Video Using Aspose.Slides" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/net/) is a powerful .NET library used to create, edit and manipulate presentations and also convert PowerPoint presentations to other documents and videos. In this case, to convert PowerPoint to video, you need to use **Aspose.Slides** alongside **ffmpeg** and **FFMpegCore** (a free NET ffmpeg wrapper). 
-
-This is how the PPTX to video conversion process works: Aspose.Slides is used to generate a set of frames (from the presentation slides) and then FFMpegCore (ffmpeg) is used to create a video based on the frames.
+[Aspose.Slides for .NET](/slides/net/) can render PowerPoint presentations to image frames. To create a video, render frames with `PresentationAnimationsGenerator` and `PresentationPlayer`, then pass those frames to `ffmpeg` through `FFMpegCore`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PPTX to video" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Convert PPTX to Video" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for .NET** and **FFMpegcore**: Run `dotnet add package Aspose.Slides.NET --version 22.12.0` and then run `dotnet add package FFMpegCore --version 4.8.0`
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install `Aspose.Slides.NET` and `FFMpegCore` packages.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Download ffmpeg [here.](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Download `ffmpeg` from [ffmpeg.org](https://ffmpeg.org/download.html).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-FFMpegCore requires you to specify the path to the downloaded ffmpeg (e.g. extracted to “C:\tools\ffmpeg”): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} );`
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Configure `GlobalFFOptions` with the `ffmpeg` binary folder.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Copy, paste, and then run the PowerPoint to video code.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Use `PresentationAnimationsGenerator` and `PresentationPlayer` to render frames, then call `FFMpeg.JoinImageSequence`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/feature-page-section >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to video in C#" %}}
+{{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to Video in C#" %}}
 Use this code to convert PPTX to video:
 
 {{% blocks/products/pf/agp/code-block title="C# code for converting PowerPoint to video" offSpacer="true" %}}
 ```cs
-
-using System.Collections.Generic;
 using Aspose.Slides;
-using FFMpegCore; // Will use FFmpeg binaries we extracted to "c:\tools\ffmpeg" before
-using Aspose.Slides.Animation;
-using (Presentation presentation = new Presentation())
+using Aspose.Slides.Export;
+using FFMpegCore;
+using System.Collections.Generic;
 
+const int framesPerSecond = 30;
+var framePaths = new List<string>();
+
+using var presentation = new Presentation("template.pptx");
+using var animationsGenerator = new PresentationAnimationsGenerator(presentation);
+using var player = new PresentationPlayer(animationsGenerator, framesPerSecond);
+
+player.FrameTick += (presentationPlayer, frameArguments) =>
 {
-    // Adds a smile shape and then animates it
-    IAutoShape smile = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.SmileyFace, 110, 20, 500, 500);
-    IEffect effectIn = presentation.Slides[0].Timeline.MainSequence.AddEffect(smile, EffectType.Fly, EffectSubtype.TopLeft, EffectTriggerType.AfterPrevious);
-    IEffect effectOut = presentation.Slides[0].Timeline.MainSequence.AddEffect(smile, EffectType.Fly, EffectSubtype.BottomRight, EffectTriggerType.AfterPrevious);
-    effectIn.Timing.Duration = 2f;
-    effectOut.PresetClassType = EffectPresetClassType.Exit;
+    var framePath = $"frame_{presentationPlayer.FrameIndex:D4}.png";
+    using var frame = frameArguments.GetFrame();
+    frame.Save(framePath);
+    framePaths.Add(framePath);
+};
 
-   const int Fps = 33;
-   List<string> frames = new List<string>();
+animationsGenerator.Run(presentation.Slides);
 
-   using (var animationsGenerator = new PresentationAnimationsGenerator(presentation))
-    using (var player = new PresentationPlayer(animationsGenerator, Fps))
-    {
-        player.FrameTick += (sender, args) =>
-        {
-            string frame = $"frame_{(sender.FrameIndex):D4}.png";
-            args.GetFrame().Save(frame);
-            frames.Add(frame);
-        };
-        animationsGenerator.Run(presentation.Slides);
-    }
-
-    // Configure ffmpeg binaries folder. See this page: https://github.com/rosenbjerg/FFMpegCore#installation
-    GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin", });
-    // Converts frames to webm video
-    FFMpeg.JoinImageSequence("smile.webm", Fps, frames.Select(frame => ImageInfo.FromPath(frame)).ToArray());
-
-}
+GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin" });
+FFMpeg.JoinImageSequence("presentation.webm", framesPerSecond, framePaths.ToArray());
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-emf/" name="PPTX TO EMF" description="Enhanced Metafile Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hypertext Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-odp/" name="PPTX TO ODP" description="OpenDocument Presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-otp/" name="PPTX TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-pdf/" name="PPTX TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-png/" name="PPTX TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-pot/" name="PPTX TO POT" description="PowerPoint Template Files" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-potm/" name="PPTX TO POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-potx/" name="PPTX TO POTX" description="PowerPoint Open XML Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-pps/" name="PPTX TO PPS" description="PowerPoint Slide Show" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" description="Macro-Enabled Slide Show" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" description="PowerPoint Open XML Slide Show" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-ppt/" name="PPTX TO PPT" description="PowerPoint 97-2003 Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Macro-Enabled Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-svg/" name="PPTX TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="SWF Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-word/" name="PPTX TO WORD" description="Word Processing Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="XML Paper Specifications" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
