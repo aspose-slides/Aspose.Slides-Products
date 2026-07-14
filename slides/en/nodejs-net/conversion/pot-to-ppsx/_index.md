@@ -1,93 +1,84 @@
 ---
-title: Convert POT to PPSX in JavaScript
+title: Convert POT to PPSX in Node.js
 url: /nodejs-net/conversion/pot-to-ppsx/
 keywords: POT to PPSX, Convert POT to PPSX, Node.js API, JavaScript Library, POT, PPSX
-description: Convert POT to PPSX in JavaScript. Use Node.js library API to convert POT files to PPSX
+description: Convert POT to PPSX in Node.js. Use a Node.js library API to convert POT files to PPSX files.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert POT to PPSX in JavaScript" h2="Aspose.Slides for Node.js via .NET is a powerful and easy-to-use library that allows you to convert PowerPoint presentations to various formats in JavaScript. It supports all presentation elements and formats and provides a rich API to access and modify them. It also allows you to export your slides to various formats for further processing or sharing." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert POT to PPSX in Node.js" h2="Convert PowerPoint template files to PPSX files with Aspose.Slides for Node.js via .NET." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert POT to PPSX in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/nodejs-net/) is a powerful Node.js library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert POT to PPSX. Using **Aspose.Slides for Node.js via .NET**, any developer or application can convert POT to PPSX files with just a few lines of code.
-
-As a modern document processing API, Aspose.Slides for Node.js via .NET exports POT files to PPSX file formats quickly. Aspose PowerPoint library allows you to convert POT to PPSXs and many other file formats
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to a `PPSX` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Convert POT to PPSX using JavaScript" %}}
-To convert the POT to PPSX, you will need to create Presentation from POT file and save it as PPSX.
+{{% blocks/products/pf/feature-page-section h2="Convert POT to PPSX using Node.js" %}}
+To convert `POT` to `PPSX`, create a `Presentation` from the source file and export it to a `PPSX` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert POT into PPSX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Node.js code to convert POT to PPSX" offSpacer="true" %}}
 
 ```javascript
-
-const fs = require('fs');
-const asposeSlides = require('aspose.slides.via.net');
-const { Presentation, SaveFormat } = asposeSlides;
-var pres = new Presentation("welcome-to-powerpoint.pot");
-try
-{
-    pres.save("output.ppsx", SaveFormat.Ppsx);
+const presentation = new asposeSlides.Presentation("sourceFile.pot");
+try {
+    presentation.save("output.ppsx", asposeSlides.SaveFormat.Ppsx);
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
 ```
-
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert POT to PPSX using Aspose.Slides for Node.js via .NET API" >}}
+{{< blocks/products/pf/feature-page-section h2="How to convert POT to PPSX using Aspose.Slides for Node.js via .NET API" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert POT to PPSX using Aspose.Slides for Node.js via .NET, you need to import the package in your JavaScript file and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="To convert POT to PPSX using Aspose.Slides for Node.js via .NET, import the package, load the source file, and export it in the required format." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Node.js project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the `aspose.slides.via.net` package in your Node.js project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source POT files in Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source `POT` file with the `Presentation` class.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as PPSX file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call the `save` method with the output file path and `SaveFormat.Ppsx`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert POT To Other Supported Formats" subTitle="You can also convert POT and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert POT to Other Supported Formats" subTitle="You can also convert POT files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-pptx/" name="POT TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-ppt/" name="POT TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-pdf/" name="POT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-html/" name="POT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-png/" name="POT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-bmp/" name="POT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-jpg/" name="POT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-fodp/" name="POT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-gif/" name="POT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-odp/" name="POT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-otp/" name="POT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-potm/" name="POT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-potx/" name="POT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-pps/" name="POT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-ppsm/" name="POT TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-pptm/" name="POT TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-svg/" name="POT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pot-to-tiff/" name="POT TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-pptx/" name="POT TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-ppt/" name="POT TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-pdf/" name="POT TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-html/" name="POT TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-png/" name="POT TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-bmp/" name="POT TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-jpg/" name="POT TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-fodp/" name="POT TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-gif/" name="POT TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-odp/" name="POT TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-otp/" name="POT TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-potm/" name="POT TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-potx/" name="POT TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-pps/" name="POT TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-ppsm/" name="POT TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-pptm/" name="POT TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-svg/" name="POT TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-tiff/" name="POT TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

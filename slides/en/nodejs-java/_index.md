@@ -256,13 +256,9 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
         <p>The example below adds a rectangle to the first slide of a presentation.</p>
         <pre>
             <code class="javascript">
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-let presentation = new aspose.slides.Presentation();
+const presentation = new aspose.slides.Presentation();
 try {
-    let slide = presentation.getSlides().get_Item(0);
+    const slide = presentation.getSlides().get_Item(0);
 
     // Add a rectangle autoshape.
     slide.getShapes().addAutoShape(aspose.slides.ShapeType.Rectangle, 50, 150, 300, 200);
@@ -280,16 +276,13 @@ finally {
         <p>This Node.js code shows you how to merge presentations:</p>
         <pre>
             <code class="javascript">
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-let presentation1 = new aspose.slides.Presentation("presentation1.pptx");
-let presentation2 = new aspose.slides.Presentation("presentation2.pptx");
+const presentation1 = new aspose.slides.Presentation("presentation1.pptx");
+const presentation2 = new aspose.slides.Presentation("presentation2.pptx");
 
 try {
-    for (let i = 0; i < presentation2.getSlides().size(); i++) {
-        let slide = presentation2.getSlides().get_Item(i);
+    const slideCount = presentation2.getSlides().size();
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = presentation2.getSlides().get_Item(slideIndex);
         presentation1.getSlides().addClone(slide);
     }
     presentation1.save("combined-presentation.pptx", aspose.slides.SaveFormat.Pptx);
@@ -306,14 +299,11 @@ finally {
         <p>This Node.js code demonstrates the PDF to PowerPoint conversion process. You can use this approach to convert PDF files to PPTX or ODP:</p>
         <pre>
             <code class="javascript">
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-let presentation = new aspose.slides.Presentation();
+const presentation = new aspose.slides.Presentation();
 try {
-    presentation.getSlides().removeAt(0);
-    presentation.getSlides().addFromPdf("welcome-to-powerpoint.pdf");
+    const slides = presentation.getSlides();
+    slides.removeAt(0);
+    slides.addFromPdf("welcome-to-powerpoint.pdf");
     presentation.save("presentation.pptx", aspose.slides.SaveFormat.Pptx);
 }
 finally {
@@ -327,11 +317,7 @@ finally {
         <p>This Node.js code shows how to convert a PowerPoint PPT, PPTX, or OpenOffice ODP document to PDF using the default options.</p>
         <pre>
             <code class="javascript">
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-let presentation = new aspose.slides.Presentation("presentation.ppt");
+const presentation = new aspose.slides.Presentation("presentation.ppt");
 try {
     presentation.save("output.pdf", aspose.slides.SaveFormat.Pdf);
 }
@@ -346,20 +332,18 @@ finally {
         <p>The following example shows you how to convert a PowerPoint PPT, PPTX, or OpenOffice ODP document into a set of JPEG images.</p>
         <pre>
             <code class="javascript">
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-let presentation = new aspose.slides.Presentation("presentation.pptx");
+const presentation = new aspose.slides.Presentation("presentation.pptx");
 try {
-    for (let i = 0; i < presentation.getSlides().size(); i++) {
-        let slide = presentation.getSlides().get_Item(i);
-        let image = slide.getImage(1, 1);
+    const slideCount = presentation.getSlides().size();
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = presentation.getSlides().get_Item(slideIndex);
+        const slideImage = slide.getImage(1, 1);
         try {
-            image.save("slide_" + i + ".jpg", aspose.slides.ImageFormat.Jpeg);
+            const filePath = "slide_" + slide.getSlideNumber() + ".jpg";
+            slideImage.save(filePath, aspose.slides.ImageFormat.Jpeg);
         }
         finally {
-            image.dispose();
+            slideImage.dispose();
         }
     }
 }

@@ -1,46 +1,46 @@
 ---
-title: Convert OTP to JPG in JavaScript
+title: Convert OTP to JPG in Node.js
 url: /nodejs-net/conversion/otp-to-jpg/
 keywords: OTP to JPG, Convert OTP to JPG, Node.js API, JavaScript Library, OTP, JPG
-description: Convert OTP to JPG in JavaScript. Use Node.js library API to convert OTP files to JPG
+description: Convert OTP to JPG in Node.js. Use a Node.js library API to convert OTP files to JPG images.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert OTP to JPG in JavaScript" h2="Aspose.Slides for Node.js via .NET is a powerful and easy-to-use library that allows you to convert PowerPoint presentations to various formats in JavaScript. It supports all presentation elements and formats and provides a rich API to access and modify them. It also allows you to export your slides to various formats for further processing or sharing." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert OTP to JPG in Node.js" h2="Convert OpenDocument template files to JPG images with Aspose.Slides for Node.js via .NET." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert OTP to JPG in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/nodejs-net/) is a powerful Node.js library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert OTP to JPG. Using **Aspose.Slides for Node.js via .NET**, any developer or application can convert OTP to JPG files with just a few lines of code.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `OTP` file with the `Presentation` class and render each slide as a `JPG` image.
 
-As a modern document processing API, Aspose.Slides for Node.js via .NET exports OTP files to JPG file formats quickly. Aspose PowerPoint library allows you to convert OTP to JPGs and many other file formats
+Aspose.Slides supports high-quality presentation conversion and lets you export `OTP` slides to `JPG` images for previews, thumbnails, reports, or other processing workflows.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Convert OTP to JPG using JavaScript" %}}
-To convert the OTP to JPG, you will need to create Presentation from OTP file and save it as JPG.
+{{% blocks/products/pf/feature-page-section  h2="Convert OTP to JPG using Node.js" %}}
+To convert `OTP` to `JPG`, create a `Presentation` from the source file and render each slide as a `JPG` image.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert OTP into JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Node.js code to convert OTP to JPG" offSpacer="true" %}}
 
 ```javascript
-
-const fs = require('fs');
-const asposeSlides = require('aspose.slides.via.net');
-const { Presentation, SaveFormat } = asposeSlides;
-var pres = new Presentation("welcome-to-powerpoint.otp");
-try
-{
-    for (let i = 0; i < pres.slides.length; i++) {
-        var slide = pres.slides.get(i);
-        var image = slide.getThumbnail(new asposeSlides.RenderingOptions(), { width: 1080, height: 960 });
-
-        image.save("slide" + i + ".jpg", ImageFormat.Jpeg); 
+const presentation = new asposeSlides.Presentation("sourceFile.otp");
+try {
+    const slideCount = presentation.slides.length;
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = presentation.slides.get(slideIndex);
+        const slideImage = slide.getImageWithScale(2, 2);
+        try {
+            const filePath = "slide_" + slideIndex + ".jpg";
+            slideImage.save(filePath, asposeSlides.ImageFormat.Jpeg);
+        }
+        finally {
+            slideImage.dispose();
+        }
     }
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
 ```
 
@@ -51,48 +51,48 @@ finally
 
 {{< blocks/products/pf/feature-page-section  h2="How to convert OTP to JPG using Aspose.Slides for Node.js via .NET API" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert OTP to JPG using Aspose.Slides for Node.js via .NET, you need to import the package in your JavaScript file and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="To convert OTP to JPG using Aspose.Slides for Node.js via .NET, import the package, load the source file, and export slides as images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Node.js project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the `aspose.slides.via.net` package in your Node.js project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source OTP files in Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source `OTP` file with the `Presentation` class.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render each slide with `getImageWithScale` and save it with `ImageFormat.Jpeg`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert OTP To Other Supported Formats" subTitle="You can also convert OTP and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert OTP to Other Supported Formats" subTitle="You can also convert OTP files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-pptx/" name="OTP TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-ppt/" name="OTP TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-pdf/" name="OTP TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-html/" name="OTP TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-png/" name="OTP TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-bmp/" name="OTP TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-fodp/" name="OTP TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-gif/" name="OTP TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-odp/" name="OTP TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-pot/" name="OTP TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-potm/" name="OTP TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-potx/" name="OTP TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-pps/" name="OTP TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-ppsm/" name="OTP TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-pptm/" name="OTP TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-svg/" name="OTP TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/otp-to-tiff/" name="OTP TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-pptx/" name="OTP TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-ppt/" name="OTP TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-pdf/" name="OTP TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-html/" name="OTP TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-png/" name="OTP TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-bmp/" name="OTP TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-fodp/" name="OTP TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-gif/" name="OTP TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-odp/" name="OTP TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-pot/" name="OTP TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-potm/" name="OTP TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-potx/" name="OTP TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-pps/" name="OTP TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-ppsm/" name="OTP TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-ppsx/" name="OTP TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-pptm/" name="OTP TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-svg/" name="OTP TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/otp-to-tiff/" name="OTP TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
