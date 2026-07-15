@@ -22,7 +22,6 @@ To convert `FODP` to `PPS`, create a `Presentation` from the source file and exp
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert FODP to PPS" offSpacer="true" %}}
 
 ```javascript
-
 const presentation = new asposeSlides.Presentation("sourceFile.fodp");
 try {
     presentation.save("output.pps", asposeSlides.SaveFormat.Pps);

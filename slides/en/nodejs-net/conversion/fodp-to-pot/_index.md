@@ -12,12 +12,12 @@ description: Convert FODP to POT in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert FODP to POT in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `FODP` file with the `Presentation` class and export it to a `$format` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `FODP` file with the `Presentation` class and export it to a `POT` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert FODP to POT using Node.js" %}}
-To convert `FODP` to `$format`, create a `Presentation` from the source file and export it to a `$format` file.
+To convert `FODP` to `POT`, create a `Presentation` from the source file and export it to a `POT` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert FODP to POT" offSpacer="true" %}}
 
@@ -30,6 +30,7 @@ finally {
     presentation.dispose();
 }
 ```
+
 
 {{% /blocks/products/pf/agp/code-block %}}
 

@@ -22,7 +22,6 @@ To convert `FODP` to `PPSM`, create a `Presentation` from the source file and ex
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert FODP to PPSM" offSpacer="true" %}}
 
 ```javascript
-
 const presentation = new asposeSlides.Presentation("sourceFile.fodp");
 try {
     presentation.save("output.ppsm", asposeSlides.SaveFormat.Ppsm);
