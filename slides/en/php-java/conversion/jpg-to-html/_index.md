@@ -2,55 +2,49 @@
 title: Convert JPG to HTML in PHP
 url: /php-java/conversion/jpg-to-html/
 keywords: JPG to HTML, Convert JPG to HTML, PHP API, PHP Library, JPG, HTML
-description: Convert JPG to HTML in PHP. Use PowerPoint PHP API to convert JPG files to HTML
+description: Convert a JPG image to an HTML presentation in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert JPG to HTML in PHP" h2="Powerful PowerPoint PHP library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert JPG to HTML in PHP" h2="Place a JPG image on a presentation slide and export the result as HTML with Aspose.Slides for PHP via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert JPG to HTML in PHP" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert JPG to HTML. Using **Aspose.Slides for PHP via Java**, any developer or application can convert JPG to HTML files with just a few lines of PHP code.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) lets you place a JPG image on a presentation slide at its original dimensions and export the result as HTML.
 
-As a modern document processing API, Aspose.Slides for PHP exports JPG files to HTML file formats quickly. Aspose PowerPoint library allows you to convert JPG to HTMLs and many other file formats
+Aspose.Slides can export JPG-based slides to HTML, PDF, PowerPoint, and other supported formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to HTML using PHP" %}}
-To convert the JPG to HTML, you will need to create Presentation from JPG file and save it as HTML.
+To convert a JPG image to HTML, create a `Presentation`, add the image with `addPictureFrame`, and call `save` with `SaveFormat::Html5`.
 
 {{% blocks/products/pf/agp/code-block title="PHP code for converting JPG into HTML" offSpacer="true" %}}
 
 ```php
+$presentation = new Presentation();
+try {
+    $slide = $presentation->getSlides()->get_Item(0);
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-$pres = new Presentation();
-try
-{
-    $slide = $pres->getSlides()->get_Item(0);
-    
-    $filename = 'image.jpg';
-    $f = fopen($filename, 'r');
-    if ($f) {
-        $contents = fread($f, filesize($filename));
-        fclose($f);
+    $sourceImage = Images::fromFile("input.jpg");
+    try {
+        $embeddedImage = $presentation->getImages()->addImage($sourceImage);
+    } finally {
+        $sourceImage->dispose();
     }
-    
-    $image = $pres->getImages()->addImage($contents);
-    $slide->getShapes()->addPictureFrame(ShapeType::Rectangle, 10, 10, 100, 100, $image);
 
-    $pres->save("output.pptx", SaveFormat::Pptx);
+    $imageWidth = java_values($embeddedImage->getWidth());
+    $imageHeight = java_values($embeddedImage->getHeight());
+
+    $slide->getShapes()->addPictureFrame(
+        ShapeType::Rectangle, 0, 0, $imageWidth, $imageHeight, $embeddedImage);
+
+    $presentation->save("output.html", SaveFormat::Html5);
+} finally {
+    $presentation->dispose();
 }
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
 ```
 
 
@@ -62,35 +56,35 @@ finally
 
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert JPG to HTML in PHP." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for PHP via Java**](/slides/php-java/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your PHP project.
+Configure Aspose.Slides in your PHP project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source JPG files in PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the JPG image with `Images::fromFile` and add it to the presentation image collection.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as HTML file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Add the image to the slide with `addPictureFrame`, then save with `SaveFormat::Html5`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG and save to other file formats. See all supported formats below" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

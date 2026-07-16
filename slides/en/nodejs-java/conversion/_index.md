@@ -7,7 +7,7 @@ description: Convert PowerPoint presentations to PDF, JPG, PNG, and other format
 
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Convert PowerPoint Presentations in Node.js" h2="Build Node.js applications that convert presentation files with Aspose.Slides." logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
+{{< blocks/products/pf/upper-banner h1="Convert PowerPoint Presentations in Node.js" h2="Build Node.js applications that convert presentation files with Aspose.Slides." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PDF" >}}
 
 {{< blocks/products/pf/main-container >}}
 

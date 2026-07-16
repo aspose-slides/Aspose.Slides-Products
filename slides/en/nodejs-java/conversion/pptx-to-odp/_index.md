@@ -61,7 +61,6 @@ Call the `save` method with the output file path and `SaveFormat.Odp`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPTX to Other Supported Formats" subTitle="You can also convert PPTX files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pptx-to-pptx/" name="PPTX TO PPTX" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pptx-to-ppt/" name="PPTX TO PPT" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
