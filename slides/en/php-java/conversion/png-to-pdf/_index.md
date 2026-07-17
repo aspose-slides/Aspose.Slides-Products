@@ -2,55 +2,52 @@
 title: Convert PNG to PDF in PHP
 url: /php-java/conversion/png-to-pdf/
 keywords: PNG to PDF, Convert PNG to PDF, PHP API, PHP Library, PNG, PDF
-description: Convert PNG to PDF in PHP. Use PowerPoint PHP API to convert PNG files to PDF
+description: Place a PNG image on a presentation slide and export it as PDF in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PNG to PDF in PHP" h2="Powerful PowerPoint PHP library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PNG to PDF in PHP" h2="Place a PNG image on a presentation slide and export the result as PDF with Aspose.Slides for PHP via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PNG to PDF in PHP" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PNG to PDF. Using **Aspose.Slides for PHP via Java**, any developer or application can convert PNG to PDF files with just a few lines of PHP code.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) lets you place a PNG image on a presentation slide at its original dimensions and export the result as a PDF document.
 
-As a modern document processing API, Aspose.Slides for PHP exports PNG files to PDF file formats quickly. Aspose PowerPoint library allows you to convert PNG to PDFs and many other file formats
+The PNG remains embedded as an image on the slide, while `SaveFormat::Pdf` exports the complete presentation to PDF.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to PDF using PHP" %}}
-To convert the PNG to PDF, you will need to create Presentation from PNG file and save it as PDF.
+Create a `Presentation`, load the PNG with `Images::fromFile`, match the slide size to the image with `setSize`, add the image with `addPictureFrame`, and call `save` with `SaveFormat::Pdf`.
 
 {{% blocks/products/pf/agp/code-block title="PHP code for converting PNG into PDF" offSpacer="true" %}}
 
 ```php
+$presentation = new Presentation();
+try {
+    $slide = $presentation->getSlides()->get_Item(0);
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-$pres = new Presentation();
-try
-{
-    $slide = $pres->getSlides()->get_Item(0);
-    
-    $filename = 'image.png';
-    $f = fopen($filename, 'r');
-    if ($f) {
-        $contents = fread($f, filesize($filename));
-        fclose($f);
+    $sourceImage = Images::fromFile("input.png");
+    try {
+        $embeddedImage = $presentation->getImages()->addImage($sourceImage);
+    } finally {
+        $sourceImage->dispose();
     }
-    
-    $image = $pres->getImages()->addImage($contents);
-    $slide->getShapes()->addPictureFrame(ShapeType::Rectangle, 10, 10, 100, 100, $image);
 
-    $pres->save("output.pdf", SaveFormat::Pdf);
+    $imageWidth = java_values($embeddedImage->getWidth());
+    $imageHeight = java_values($embeddedImage->getHeight());
+
+    $presentation->getSlideSize()->setSize(
+        $imageWidth, $imageHeight, SlideSizeScaleType::DoNotScale);
+
+    $slide->getShapes()->addPictureFrame(
+        ShapeType::Rectangle, 0, 0, $imageWidth, $imageHeight, $embeddedImage);
+
+    $presentation->save("output.pdf", SaveFormat::Pdf);
+} finally {
+    $presentation->dispose();
 }
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
 ```
 
 
@@ -62,35 +59,35 @@ finally
 
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to PDF in PHP." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for PHP via Java**](/slides/php-java/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your PHP project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation`, access its first slide, and load the PNG with `Images::fromFile`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PNG files in PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Set the slide dimensions with `setSize`, then place the image on the slide with `addPictureFrame`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as PDF file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `save` with the output file path and `SaveFormat::Pdf`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
