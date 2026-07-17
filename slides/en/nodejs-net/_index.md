@@ -6,11 +6,11 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenOffice presentations using Node.js without external software." logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" downloadUrl="https://releases.aspose.com/slides/nodejs-net/" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenOffice presentations using Node.js without external software." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" downloadUrl="https://releases.aspose.com/slides/nodejs-net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
 
 {{% blocks/products/pf/feature-page-section %}}
 
@@ -20,8 +20,8 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
-    <li>Converting presentation files to popular presentation formats, such as PPT, PPTX, and ODP.</li>
-    <li>Exporting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
+    <li>Converting presentation files to popular presentation formats, such as <code>PPT</code>, <code>PPTX</code>, and <code>ODP</code>.</li>
+    <li>Exporting presentations to <code>PDF</code>, <code>JPG</code>, <code>HTML</code>, <code>GIF</code>, <code>SVG</code>, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
     <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
@@ -83,7 +83,7 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
    <div class="col-lg-4">
     <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
-    <p class="col-lg-10">Protect presentations and generated PDFs</p>
+    <p class="col-lg-10">Protect presentations and generated <code>PDF</code> files</p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-print ico-blue fa-2x col-lg-2">
@@ -103,19 +103,15 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Create a New PowerPoint Presentation in Node.js</h2>
-        <p>In the example given below, we have added a rectangle to the first slide of the presentation.</p>
+        <p>The example below adds a rectangle to the first slide of a presentation.</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat, ShapeType } = asposeSlides;
-
-let presentation = new Presentation();
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation();
 try {
     const slide = presentation.slides.get(0);
-    slide.shapes.addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200);
+    slide.shapes.addAutoShape(asposeSlides.ShapeType.Rectangle, 50, 150, 300, 200);
 
-    presentation.save("presentation.pptx", SaveFormat.Pptx);
+    presentation.save("presentation.pptx", asposeSlides.SaveFormat.Pptx);
 }
 finally {
     presentation.dispose();
@@ -125,35 +121,31 @@ finally {
     </div>
 
     <div class="col-lg-12">
-        <h2 class="h2title">How to Add/Remove/Clone Slides and Edit Shape Properties in Node.js</h2>
-        <p>This Node.js code shows you how to edit various properties and clone slides:</p>
+        <h2 class="h2title">How to Add and Clone Slides and Edit Shape Properties in Node.js</h2>
+        <p>This Node.js code shows you how to add and clone slides and set a slide background:</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, BackgroundType, FillType } = asposeSlides;
-
-let presentation = new Presentation();
-let sourcePresentation = null;
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation();
+const sourcePresentation = new asposeSlides.Presentation();
 try {
     // Add an empty slide to the presentation.
-    let layoutSlide = presentation.layoutSlides.get(0);
+    const layoutSlide = presentation.layoutSlides.get(0);
     presentation.slides.addEmptySlide(layoutSlide);
 
-    // Create another presentation and add its clone to the main presentation.
-    sourcePresentation = new Presentation();
-    presentation.slides.addClone(sourcePresentation.slides.get(0));
+    // Clone a slide from the source presentation.
+    const sourceSlide = sourcePresentation.slides.get(0);
+    presentation.slides.addClone(sourceSlide);
 
     // Access and modify properties of the first slide.
     const slide = presentation.slides.get(0);
 
     // Set the background of the first slide.
-    slide.background.type = BackgroundType.OwnBackground;
-    slide.background.fillFormat.fillType = FillType.Solid;
+    slide.background.type = asposeSlides.BackgroundType.OwnBackground;
+    slide.background.fillFormat.fillType = asposeSlides.FillType.Solid;
     slide.background.fillFormat.solidFillColor.color = "#AEC025F4";
 }
 finally {
-    if(sourcePresentation != null) sourcePresentation.dispose();
+    sourcePresentation.dispose();
     presentation.dispose();
 }
             </code>
@@ -162,16 +154,12 @@ finally {
 
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to PDF in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to a PDF document.</p>
+        <p>This Node.js code shows you how to convert a PowerPoint presentation to a <code>PDF</code> document.</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat } = asposeSlides;
-
-let presentation = new Presentation("presentation.pptx");
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation("presentation.pptx");
 try {
-    presentation.save("presentation.pdf", SaveFormat.Pdf);
+    presentation.save("presentation.pdf", asposeSlides.SaveFormat.Pdf);
 }
 finally {
     presentation.dispose();
@@ -182,16 +170,12 @@ finally {
 
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to GIF in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to a GIF image.</p>
+        <p>This Node.js code shows you how to convert a PowerPoint presentation to a <code>GIF</code> image.</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat } = asposeSlides;
-
-let presentation = new Presentation("presentation.pptx");
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation("presentation.pptx");
 try {
-    presentation.save("presentation.gif", SaveFormat.Gif);
+    presentation.save("presentation.gif", asposeSlides.SaveFormat.Gif);
 }
 finally {
     presentation.dispose();
@@ -202,16 +186,12 @@ finally {
 
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to HTML in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to an HTML document.</p>
+        <p>This Node.js code shows you how to convert a PowerPoint presentation to an <code>HTML</code> document.</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat } = asposeSlides;
-
-let presentation = new Presentation("presentation.pptx");
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation("presentation.pptx");
 try {
-    presentation.save("presentation.html", SaveFormat.Html);
+    presentation.save("presentation.html", asposeSlides.SaveFormat.Html);
 }
 finally {
     presentation.dispose();
@@ -222,16 +202,12 @@ finally {
 
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to ODP in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to an ODP document.</p>
+        <p>This Node.js code shows you how to convert a PowerPoint presentation to an <code>ODP</code> document.</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat } = asposeSlides;
-
-let presentation = new Presentation("presentation.pptx");
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation("presentation.pptx");
 try {
-    presentation.save("presentation.odp", SaveFormat.Odp);
+    presentation.save("presentation.odp", asposeSlides.SaveFormat.Odp);
 }
 finally {
     presentation.dispose();
@@ -244,24 +220,21 @@ finally {
         <h2 class="h2title">How to Merge Presentations in Node.js</h2>
         <p>This Node.js code shows you how to merge presentations:</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat } = asposeSlides;
-
-let dstPresentation = new Presentation("presentation1.pptx");
-let srcPresentation = new Presentation("presentation2.pptx");
+            <code class="javascript">
+const destinationPresentation = new asposeSlides.Presentation("presentation1.pptx");
+const sourcePresentation = new asposeSlides.Presentation("presentation2.pptx");
 try {
-    for (let slideIndex = 0; slideIndex < srcPresentation.slides.count; slideIndex++) {
-        let slide = srcPresentation.slides.get(slideIndex);
-        dstPresentation.slides.addClone(slide);
+    const slideCount = sourcePresentation.slides.length;
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = sourcePresentation.slides.get(slideIndex);
+        destinationPresentation.slides.addClone(slide);
     }
 
-    dstPresentation.save("combined_presentation.pptx", SaveFormat.Pptx);
+    destinationPresentation.save("combined-presentation.pptx", asposeSlides.SaveFormat.Pptx);
 }
 finally {
-    dstPresentation.dispose();
-    srcPresentation.dispose();
+    destinationPresentation.dispose();
+    sourcePresentation.dispose();
 }
             </code>
         </pre>
@@ -271,34 +244,30 @@ finally {
         <h2 class="h2title">How to Retrieve Various Properties of a PowerPoint Presentation</h2>
         <p>The following example shows you how to retrieve various properties of a PowerPoint presentation.</p>
         <pre>
-            <code class="JavaScript">
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation } = asposeSlides;
-
-let presentation = new Presentation("presentation.pptx");
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation("presentation.pptx");
 try {
     // Retrieve various properties of the presentation.
-    const countSlides = presentation.slides.count;
-    const countMastersSlides = presentation.masters.count;
-    const countLayoutSlides = presentation.layoutSlides.count;
+    const slideCount = presentation.slides.length;
+    const masterSlideCount = presentation.masters.length;
+    const layoutSlideCount = presentation.layoutSlides.length;
     const firstSlideNumber = presentation.firstSlideNumber;
     const lastView = presentation.viewProperties.lastView;
     const masterThemeName = presentation.masterTheme.name;
     const sourceFormat = presentation.sourceFormat;
-    const countVideos = presentation.videos.count;
-    const countImages = presentation.images.count;
+    const videoCount = presentation.videos.length;
+    const imageCount = presentation.images.length;
 
     // Log presentation properties to the console.
-    console.log("countSlides:" + countSlides);
-    console.log("countMastersSlides:" + countMastersSlides);
-    console.log("countLayoutSlides:" + countLayoutSlides);
-    console.log("firstSlideNumber:" + firstSlideNumber);
-    console.log("lastView=" + lastView);
-    console.log("masterThemeName:" + masterThemeName);
-    console.log("sourceFormat:" + sourceFormat);
-    console.log("countVideos:" + countVideos);
-    console.log("countImages:" + countImages);
+    console.log("Slide count: " + slideCount);
+    console.log("Master slide count: " + masterSlideCount);
+    console.log("Layout slide count: " + layoutSlideCount);
+    console.log("First slide number: " + firstSlideNumber);
+    console.log("Last view: " + lastView);
+    console.log("Master theme name: " + masterThemeName);
+    console.log("Source format: " + sourceFormat);
+    console.log("Video count: " + videoCount);
+    console.log("Image count: " + imageCount);
 }
 finally {
     presentation.dispose();
@@ -320,10 +289,10 @@ finally {
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-        {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
+        {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides/11" >}}
         {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Release Notes" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/nodejs-net/release-notes/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Node.js via .NET?" tabId="success-stories" >}}
@@ -339,10 +308,10 @@ finally {
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}

@@ -2,47 +2,43 @@
 title: Convert POTM to BMP in Node.js
 url: /nodejs-java/conversion/potm-to-bmp/
 keywords: POTM to BMP, Convert POTM to BMP, Node.js API, Node.js Library, POTM, BMP
-description: Convert POTM to BMP in Node.js. Use Node.js library API to convert POTM files to BMPs
+description: Convert POTM to BMP in Node.js. Use the Node.js API to convert POTM files to BMP images.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert POTM to BMP in Node.js" h2="Aspose.Slides for Node.js via Java is a powerful and easy-to-use library that allows you to convert PowerPoint presentations to various formats in Node.js. It supports all presentation elements and formats and provides a rich API to access and modify them. It also allows you to export your slides to various formats for further processing or sharing." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert POTM to BMP in Node.js" h2="Convert PowerPoint Macro-Enabled Template files to BMP with Aspose.Slides for Node.js via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert POTM to BMP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via Java**](https://products.aspose.com/slides/nodejs-java/) is a powerful Node.js library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert POTM to BMP. Using **Aspose.Slides for Node.js via Java**, any developer or application can convert POTM to BMP files with just a few lines of code.
-
-As a modern document processing API, Aspose.Slides for Node.js exports POTM files to BMP file formats quickly. Aspose PowerPoint library allows you to convert POTM to BMPs and many other file formats
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POTM` file with the `Presentation` class and export its slides to `BMP` images by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert POTM to BMP using Node.js" %}}
-To convert the POTM to BMP, you will need to create Presentation from POTM file and save it as BMP.
+To convert `POTM` to `BMP`, create a `Presentation` from the source file and export each slide to a `BMP` image.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code for convert POTM into BMP" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Node.js code to convert POTM to BMP" offSpacer="true" %}}
 
 ```javascript
-
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-var pres = new aspose.slides.Presentation("welcome-to-powerpoint.potm");
-try
-{
-    for(var i = 0; i < pres.getSlides().size(); i++)
-    {
-        var sld = pres.getSlides().get_Item(i);
-        var bi = sld.getThumbnail(2, 2);
-        var outputfile = java.newInstanceSync("java.io.File", "slide_" + sld.getSlideNumber() + ".bmp");
-        java.callStaticMethod("javax.imageio.ImageIO", "write", bi, "bmp", outputfile);
+const presentation = new aspose.slides.Presentation("sourceFile.potm");
+try {
+    const slideCount = presentation.getSlides().size();
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = presentation.getSlides().get_Item(slideIndex);
+        const slideImage = slide.getImage(2, 2);
+        try {
+            const filePath = "slide_" + slide.getSlideNumber() + ".bmp";
+            slideImage.save(filePath, aspose.slides.ImageFormat.Bmp);
+        }
+        finally {
+            slideImage.dispose();
+        }
     }
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
 ```
 
@@ -51,50 +47,50 @@ finally
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert POTM to BMP using using Aspose.Slides for Node.js via Java API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert POTM to BMP using Aspose.Slides for Node.js via Java API" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert POTM to BMP using Aspose.Slides for Node.js via Java, you need to import the package in your JavaScript file and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="To convert POTM to BMP using Aspose.Slides for Node.js via Java, import the package, load the source file with the Presentation class, and export slides as images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Node.js via Java**](https://products.aspose.com/slides/nodejs-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Node.js project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the `aspose.slides.via.java` package in your Node.js project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source POTM files in Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source `POTM` file with the `Presentation` class.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as BMP file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render each slide with `getImage` and save it with `ImageFormat.Bmp`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert POTM To Other Supported Formats" subTitle="You can also convert POTM and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert POTM to Other Supported Formats" subTitle="You can also convert POTM files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-pptx/" name="POTM TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-ppt/" name="POTM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-pdf/" name="POTM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-html/" name="POTM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-png/" name="POTM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-jpg/" name="POTM TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-fodp/" name="POTM TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-gif/" name="POTM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-odp/" name="POTM TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-otp/" name="POTM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-pot/" name="POTM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-potx/" name="POTM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-pps/" name="POTM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-ppsm/" name="POTM TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-ppsx/" name="POTM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-pptm/" name="POTM TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-svg/" name="POTM TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potm-to-tiff/" name="POTM TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-pptx/" name="POTM TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-ppt/" name="POTM TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-pdf/" name="POTM TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-html/" name="POTM TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-png/" name="POTM TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-jpg/" name="POTM TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-fodp/" name="POTM TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-gif/" name="POTM TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-odp/" name="POTM TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-otp/" name="POTM TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-pot/" name="POTM TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-potx/" name="POTM TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-pps/" name="POTM TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-ppsm/" name="POTM TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-ppsx/" name="POTM TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-pptm/" name="POTM TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-svg/" name="POTM TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potm-to-tiff/" name="POTM TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

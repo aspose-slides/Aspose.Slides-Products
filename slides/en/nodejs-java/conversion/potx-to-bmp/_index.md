@@ -2,47 +2,43 @@
 title: Convert POTX to BMP in Node.js
 url: /nodejs-java/conversion/potx-to-bmp/
 keywords: POTX to BMP, Convert POTX to BMP, Node.js API, Node.js Library, POTX, BMP
-description: Convert POTX to BMP in Node.js. Use Node.js library API to convert POTX files to BMPs
+description: Convert POTX to BMP in Node.js. Use the Node.js API to convert POTX files to BMP images.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert POTX to BMP in Node.js" h2="Aspose.Slides for Node.js via Java is a powerful and easy-to-use library that allows you to convert PowerPoint presentations to various formats in Node.js. It supports all presentation elements and formats and provides a rich API to access and modify them. It also allows you to export your slides to various formats for further processing or sharing." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert POTX to BMP in Node.js" h2="Convert PowerPoint Template files to BMP with Aspose.Slides for Node.js via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert POTX to BMP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via Java**](https://products.aspose.com/slides/nodejs-java/) is a powerful Node.js library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert POTX to BMP. Using **Aspose.Slides for Node.js via Java**, any developer or application can convert POTX to BMP files with just a few lines of code.
-
-As a modern document processing API, Aspose.Slides for Node.js exports POTX files to BMP file formats quickly. Aspose PowerPoint library allows you to convert POTX to BMPs and many other file formats
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POTX` file with the `Presentation` class and export its slides to `BMP` images by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert POTX to BMP using Node.js" %}}
-To convert the POTX to BMP, you will need to create Presentation from POTX file and save it as BMP.
+To convert `POTX` to `BMP`, create a `Presentation` from the source file and export each slide to a `BMP` image.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code for convert POTX into BMP" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Node.js code to convert POTX to BMP" offSpacer="true" %}}
 
 ```javascript
-
-var aspose = aspose || {};
-
-aspose.slides = require("aspose.slides.via.java");
-
-var pres = new aspose.slides.Presentation("welcome-to-powerpoint.potx");
-try
-{
-    for(var i = 0; i < pres.getSlides().size(); i++)
-    {
-        var sld = pres.getSlides().get_Item(i);
-        var bi = sld.getThumbnail(2, 2);
-        var outputfile = java.newInstanceSync("java.io.File", "slide_" + sld.getSlideNumber() + ".bmp");
-        java.callStaticMethod("javax.imageio.ImageIO", "write", bi, "bmp", outputfile);
+const presentation = new aspose.slides.Presentation("sourceFile.potx");
+try {
+    const slideCount = presentation.getSlides().size();
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = presentation.getSlides().get_Item(slideIndex);
+        const slideImage = slide.getImage(2, 2);
+        try {
+            const filePath = "slide_" + slide.getSlideNumber() + ".bmp";
+            slideImage.save(filePath, aspose.slides.ImageFormat.Bmp);
+        }
+        finally {
+            slideImage.dispose();
+        }
     }
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
 ```
 
@@ -51,50 +47,50 @@ finally
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert POTX to BMP using using Aspose.Slides for Node.js via Java API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert POTX to BMP using Aspose.Slides for Node.js via Java API" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert POTX to BMP using Aspose.Slides for Node.js via Java, you need to import the package in your JavaScript file and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="To convert POTX to BMP using Aspose.Slides for Node.js via Java, import the package, load the source file with the Presentation class, and export slides as images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Node.js via Java**](https://products.aspose.com/slides/nodejs-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Node.js project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the `aspose.slides.via.java` package in your Node.js project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source POTX files in Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source `POTX` file with the `Presentation` class.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as BMP file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render each slide with `getImage` and save it with `ImageFormat.Bmp`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert POTX To Other Supported Formats" subTitle="You can also convert POTX and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert POTX to Other Supported Formats" subTitle="You can also convert POTX files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-pptx/" name="POTX TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-ppt/" name="POTX TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-pdf/" name="POTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-html/" name="POTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-png/" name="POTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-jpg/" name="POTX TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-fodp/" name="POTX TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-gif/" name="POTX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-odp/" name="POTX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-otp/" name="POTX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-pot/" name="POTX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-potm/" name="POTX TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-pps/" name="POTX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-ppsm/" name="POTX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-ppsx/" name="POTX TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-pptm/" name="POTX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-svg/" name="POTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-java/conversion/potx-to-tiff/" name="POTX TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-pptx/" name="POTX TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-ppt/" name="POTX TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-pdf/" name="POTX TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-html/" name="POTX TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-png/" name="POTX TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-jpg/" name="POTX TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-fodp/" name="POTX TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-gif/" name="POTX TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-odp/" name="POTX TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-otp/" name="POTX TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-pot/" name="POTX TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-potm/" name="POTX TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-pps/" name="POTX TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-ppsm/" name="POTX TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-ppsx/" name="POTX TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-pptm/" name="POTX TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-svg/" name="POTX TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/potx-to-tiff/" name="POTX TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

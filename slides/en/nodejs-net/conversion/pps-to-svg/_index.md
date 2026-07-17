@@ -1,47 +1,39 @@
 ---
-title: Convert PPS to SVG in JavaScript
+title: Convert PPS to SVG in Node.js
 url: /nodejs-net/conversion/pps-to-svg/
 keywords: PPS to SVG, Convert PPS to SVG, Node.js API, JavaScript Library, PPS, SVG
-description: Convert PPS to SVG in JavaScript. Use Node.js library API to convert PPS files to SVG
+description: Convert PPS to SVG in Node.js. Use a Node.js library API to convert PPS files to SVG files.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPS to SVG in JavaScript" h2="Aspose.Slides for Node.js via .NET is a powerful and easy-to-use library that allows you to convert PowerPoint presentations to various formats in JavaScript. It supports all presentation elements and formats and provides a rich API to access and modify them. It also allows you to export your slides to various formats for further processing or sharing." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPS to SVG in Node.js" h2="Convert PowerPoint slideshow slides to SVG files with Aspose.Slides for Node.js via .NET." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPS to SVG in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/nodejs-net/) is a powerful Node.js library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PPS to SVG. Using **Aspose.Slides for Node.js via .NET**, any developer or application can convert PPS to SVG files with just a few lines of code.
-
-As a modern document processing API, Aspose.Slides for Node.js via .NET exports PPS files to SVG file formats quickly. Aspose PowerPoint library allows you to convert PPS to SVGs and many other file formats
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPS` file with the `Presentation` class and export each slide to an `SVG` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Convert PPS to SVG using JavaScript" %}}
-To convert the PPS to SVG, you will need to create Presentation from PPS file and save it as SVG.
+{{% blocks/products/pf/feature-page-section  h2="Convert PPS to SVG in Node.js" %}}
+To convert `PPS` to `SVG`, create a `Presentation` from the source file and export each slide to an `SVG` file.
 
 {{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPS into SVG" offSpacer="true" %}}
 
 ```javascript
-
-const fs = require('fs');
-const asposeSlides = require('aspose.slides.via.net');
-const { Presentation, SaveFormat } = asposeSlides;
-var pres = new Presentation("welcome-to-powerpoint.pps");
-try
-{
-    for (let i = 0; i < pres.slides.length; i++) {
-        var slideByteArray = pres.slides.get(i).getAsSvg();
-        fs.writeFile('slide" + i + ".svg', Buffer.from(slideByteArray), (err) => {
-            if (err)
-                console.error(err);
-        });
+const presentation = new asposeSlides.Presentation("sourceFile.pps");
+try {
+    const slideCount = presentation.slides.length;
+    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
+        const slide = presentation.slides.get(slideIndex);
+        const svgData = slide.getAsSvg();
+        const filePath = "slide_" + slideIndex + ".svg";
+        fs.writeFileSync(filePath, svgData);
     }
 }
-finally
-{
-    if (pres != null) pres.dispose();
+finally {
+    presentation.dispose();
 }
 ```
 
@@ -54,46 +46,46 @@ finally
 
 {{< blocks/products/pf/agp/steps-block-autogen name="To convert PPS to SVG using Aspose.Slides for Node.js via .NET, you need to import the package in your JavaScript file and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Node.js project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the `aspose.slides.via.net` package into your Node.js project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PPS files in Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source `PPS` file with the `Presentation` class.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as SVG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `getAsSvg` for each slide and use `fs.writeFileSync` to save the resulting `SVG` file.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPS To Other Supported Formats" subTitle="You can also convert PPS and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PPS to Other Supported Formats" subTitle="You can also convert PPS files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-html/" name="PPS TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-png/" name="PPS TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-jpg/" name="PPS TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-gif/" name="PPS TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-odp/" name="PPS TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-otp/" name="PPS TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-pot/" name="PPS TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-potm/" name="PPS TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-potx/" name="PPS TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nodejs-net/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-html/" name="PPS TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-png/" name="PPS TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-jpg/" name="PPS TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-gif/" name="PPS TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-odp/" name="PPS TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-otp/" name="PPS TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-pot/" name="PPS TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-potm/" name="PPS TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-potx/" name="PPS TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

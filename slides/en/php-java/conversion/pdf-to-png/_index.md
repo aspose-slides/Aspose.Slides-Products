@@ -2,54 +2,48 @@
 title: Convert PDF to PNG in PHP
 url: /php-java/conversion/pdf-to-png/
 keywords: PDF to PNG, Convert PDF to PNG, PHP API, PHP Library, PDF, PNG
-description: Convert PDF to PNG in PHP. Use PowerPoint PHP API to convert PDF files to PNG
+description: Convert PDF pages to PNG images in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to PNG in PHP" h2="Powerful PowerPoint PHP library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PDF to PNG in PHP" h2="Import PDF pages and render them as PNG images with Aspose.Slides for PHP via Java" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to PNG in PHP" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PDF to PNG. Using **Aspose.Slides for PHP via Java**, any developer or application can convert PDF to PNG files with just a few lines of PHP code.
+Use [**Aspose.Slides for PHP via Java**](/slides/php-java/) to import the pages of a PDF document as slides and render each slide as a PNG image.
 
-As a modern document processing API, Aspose.Slides for PHP exports PDF files to PNG file formats quickly. Aspose PowerPoint library allows you to convert PDF to PNGs and many other file formats
+Call `addFromPdf` to import the PDF pages, then call `getImage` for each slide and save the result with `ImageFormat::Png`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PNG using PHP" %}}
-To convert the PDF to PNG, you will need to create Presentation from PDF file and save it as PNG.
+Create a `Presentation`, remove its default slide, import the PDF pages, and save a PNG image for each imported slide.
 
 {{% blocks/products/pf/agp/code-block title="PHP code for converting PDF into PNG" offSpacer="true" %}}
 
 ```php
+$presentation = new Presentation();
+try {
+    $presentation->getSlides()->removeAt(0);
+    $presentation->getSlides()->addFromPdf("document.pdf");
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres = new Presentation();
-try
-{
-    $pres->getSlides()->removeAt(0);
-    $pres->getSlides()->addFromPdf("document.pdf");
-    for ($i = 0; $i < java_values($pres->getSlides()->size()); $i++)
-    {
-        $bmp = $pres->getSlides()->get_Item($i)->getThumbnail(2, 2);
-        $imageio = new Java("javax.imageio.ImageIO");
-        $javafile = new Java("java.io.File", "slide_". $i .".png");
-        $imageio->write($bmp, "PNG", $javafile);
+    $slideCount = java_values($presentation->getSlides()->size());
+    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
+        $slide = $presentation->getSlides()->get_Item($slideIndex);
+        $slideImage = $slide->getImage(2.0, 2.0);
+
+        try {
+            $filePath = "slide_" . ($slideIndex + 1) . ".png";
+            $slideImage->save($filePath, ImageFormat::Png);
+        } finally {
+            $slideImage->dispose();
+        }
     }
+} finally {
+    $presentation->dispose();
 }
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
 ```
 
 
@@ -61,33 +55,33 @@ finally
 
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PDF to PNG in PHP." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for PHP via Java**](/slides/php-java/) with Composer.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your PHP project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` and remove its default slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the PDF pages with `addFromPdf`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as PNG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Access each slide through a variable, call `getImage`, and save the rendered image with `ImageFormat::Png`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](https://products.aspose.com/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online PDF Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PDF To Other Supported Formats" subTitle="You can also convert PDF and save to other file formats. See all supported formats below" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/conversion/pdf-to-xml/" name="PDF TO XML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-xml/" name="PDF TO XML" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
