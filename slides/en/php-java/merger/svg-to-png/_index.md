@@ -1,18 +1,18 @@
 ---
-title:  Merge SVG to PNG in PHP
+title: Merge SVG Files into PNG in PHP
 url: /php-java/merger/svg-to-png/
 keywords: Merge SVG to PNG, SVG to PNG, Join SVG to PNG, Combine SVG to PNG, PHP API, PHP Library
-description: Merge SVG to PNG in PHP. Use PHP library API to combine SVG and PNG files
+description: Merge multiple SVG images into a single PNG image in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge SVG to PNG in PHP" h2="High-speed and cross-platform PHP library for merging SVG to PNG images using PHP code" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge SVG Files into PNG in PHP" h2="Arrange multiple SVG images on a slide and render them as a single PNG image with Aspose.Slides for PHP via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge SVG to PNG using Aspose.Slides" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library used to merge and manipulate presentations, images, and other files. When you merge SVG to PNG, you are effectively combining SVG images to get a PNG picture.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) lets you place multiple SVG images in a custom layout on a presentation slide and render the composed slide as a single PNG image.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,39 +20,48 @@ description: Merge SVG to PNG in PHP. Use PHP library API to combine SVG and PNG
 
 
 {{% blocks/products/pf/feature-page-section  h2="Merge SVG to PNG in PHP" %}}
-Using [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/), you can merge SVG to PNG files quickly with just a few lines of code
+Load each SVG file into an `SvgImage`, add the images to a slide with `addPictureFrame`, render the slide with `getImage`, and save the result with `ImageFormat::Png`.
 
 {{% blocks/products/pf/agp/code-block title="PHP code for merging SVG to PNG" offSpacer="true" %}}
 ```php
+$presentation = new Presentation();
+try {
+    $slide = $presentation->getSlides()->get_Item(0);
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
+    $firstSvgContent = file_get_contents("image1.svg");
+    $firstSvgImage = new SvgImage($firstSvgContent);
+    $firstPresentationImage = $presentation->getImages()->addImage($firstSvgImage);
 
-$pres = new Presentation();
-try
-{
-    $slide = $pres->getSlides()->get_Item(0);
-    
-    $svgImage1 = new SvgImage('image1.svg');
-    $image1 = $pres->getImages()->addImage($svgImage1);
-    $slide->getShapes()->addPictureFrame(ShapeType::Rectangle, 0, 0, 360, 540, $image1);
-    
-    $svgImage2 = new SvgImage('image2.svg');
-    $image2 = $pres->getImages()->addImage($svgImage2);
-    $slide->getShapes()->addPictureFrame(ShapeType::Rectangle, 360, 0, 360, 540, $image2);
-    
+    $secondSvgContent = file_get_contents("image2.svg");
+    $secondSvgImage = new SvgImage($secondSvgContent);
+    $secondPresentationImage = $presentation->getImages()->addImage($secondSvgImage);
 
-    $img = $pres->getSlides()->get_Item(0)->getThumbnail(2, 2);
-    $imageio = new Java("javax.imageio.ImageIO");
-    $javafile = new Java("java.io.File", "merged-image.png");
-    $imageio->write($img, "PNG", $javafile);
+    $firstImageWidth = java_values($firstPresentationImage->getWidth());
+    $firstImageHeight = java_values($firstPresentationImage->getHeight());
+    $secondImageWidth = java_values($secondPresentationImage->getWidth());
+    $secondImageHeight = java_values($secondPresentationImage->getHeight());
+
+    $slideWidth = $firstImageWidth + $secondImageWidth;
+    $slideHeight = max($firstImageHeight, $secondImageHeight);
+
+    $presentation->getSlideSize()->setSize(
+        $slideWidth, $slideHeight, SlideSizeScaleType::DoNotScale);
+
+    $slide->getShapes()->addPictureFrame(
+        ShapeType::Rectangle, 0, 0, $firstImageWidth, $firstImageHeight, $firstPresentationImage);
+
+    $slide->getShapes()->addPictureFrame(
+        ShapeType::Rectangle, $firstImageWidth, 0, $secondImageWidth, $secondImageHeight, $secondPresentationImage);
+
+    $slideImage = $slide->getImage(1.0, 1.0);
+    try {
+        $slideImage->save("merged-image.png", ImageFormat::Png);
+    } finally {
+        $slideImage->dispose();
+    }
+} finally {
+    $presentation->dispose();
 }
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -67,25 +76,25 @@ finally
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Install **Aspose.Slides for PHP via Java**. See [**Installation**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
+Configure Aspose.Slides in your PHP project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` and access its first slide through a variable.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the SVG files you want to merge together.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load each SVG file into an `SvgImage` and place it on the slide with `addPictureFrame`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting PNG image.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render the slide with `getImage` and save the result with `ImageFormat::Png`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -96,19 +105,19 @@ Save the resulting PNG image.
 
 
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
+{{< blocks/slides-app-widget  appName="merger" extension="svg-to-png" sectionTitle="Merge SVG Files Online" sectionDescription="Combine SVG images online with Aspose.Slides Merger." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Merge Other Files" subTitle="You can also combine files in other supported formats." >}}
   
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/html-to-image/" name="HTML TO IMAGE" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/html-to-image/" name="HTML TO IMAGE" >}}
   
 
 

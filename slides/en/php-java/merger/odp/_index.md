@@ -1,53 +1,43 @@
 ---
-title:  Merge ODP Files Using PHP
+title: Merge ODP Files in PHP
 url: /php-java/merger/odp/
 keywords: Merge ODP, Join ODP, Combine ODP, PowerPoint, Presentation, PHP, Aspose
-description: Merge multiple ODP files in PHP. 
+description: Merge multiple ODP presentations in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge ODP files together in PHP" h2="High-speed and cross-platform PHP API that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Merge ODP Files in PHP" h2="Combine ODP presentations with Aspose.Slides for PHP via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge ODP in PHP" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple ODP presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) can combine multiple ODP presentations into one file. The API clones slides from each source presentation into a destination presentation while retaining their content and formatting.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge ODP files using PHP" %}}
-To merge the PowerPoint presentations, you will need to clone the slides from one presentation to the other.
+To merge ODP presentations, load both files, clone each source slide into the destination presentation with `addClone`, and save the result in ODP format.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for merge multiple ODP into single file" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for merging multiple ODP files" offSpacer="true" %}}
 
 
 ```php
+$destinationPresentation = new Presentation("document1.odp");
+$sourcePresentation = new Presentation("document2.odp");
+try {
+    $slideCount = java_values($sourcePresentation->getSlides()->size());
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
- 
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
- 
-$pres1 = new Presentation("document1.odp");
-$pres2 = new Presentation("document2.odp");
-try
-{
-    for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-    {
-        $pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
+    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
+        $slide = $sourcePresentation->getSlides()->get_Item($slideIndex);
+        $destinationPresentation->getSlides()->addClone($slide);
     }
 
-    $pres1->save("merged.odp", SaveFormat::Odp);
+    $destinationPresentation->save("merged.odp", SaveFormat::Odp);
+} finally {
+    $sourcePresentation->dispose();
+    $destinationPresentation->dispose();
 }
-finally
-{
-    if ($pres1 != null) $pres1->dispose();
-    if ($pres2 != null) $pres2->dispose();
-}
-?>
 ```
 
 
@@ -55,45 +45,45 @@ finally
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge ODP using Aspose.Slides for PHP API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge ODP files in PHP" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two ODP files and save result as ODP in PHP." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to merge two ODP files and save the result as ODP in PHP." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Install **Aspose.Slides for PHP via Java**. See [**Installation**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
+Configure Aspose.Slides in your PHP project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the ODP files you want to merge.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source and destination ODP files with the `Presentation` class, then clone each source slide with `addClone`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting ODP doc.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `save` with the output file path and `SaveFormat::Odp`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
+{{< blocks/slides-app-widget  appName="merger" extension="odp" sectionTitle="Merge ODP Files Online" sectionDescription="Combine ODP presentations online with Aspose.Slides Merger." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Export ODP To Other Supported Formats" subTitle="You can also combine ODP and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Merge ODP with Other Supported Formats" subTitle="You can also combine ODP with presentations in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/fodp/" name="FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/potm/" name="POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/potx/" name="POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/fodp/" name="FODP" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
