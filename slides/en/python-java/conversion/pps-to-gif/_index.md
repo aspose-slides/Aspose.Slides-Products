@@ -1,44 +1,32 @@
 ---
 title: Convert PPS to GIF in Python
 url: /python-java/conversion/pps-to-gif/
-keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PPS to GIF conversion, Python presentation library
-description: Convert PPS to GIF in Python. Use Python library API to convert PPS files to GIF
+keywords: Python PPS conversion, PPS to GIF, PowerPoint to GIF, slide show to animated GIF, Aspose.Slides for Python via Java
+description: Convert PPS files to animated GIF images in Python with Aspose.Slides for Python via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Effortlessly Convert PPS to GIF with Python: Aspose.Slides to the Rescue!" h2="Breathe new life into your presentations with Python. Our guide walks you through converting existing PowerPoint slides into engaging Python presentations." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPS Files to Animated GIF in Python" h2="Export the slides and transitions in a PowerPoint PPS slide show to a single animated GIF with Aspose.Slides for Python via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPS to GIF in Python" %}}
 
-Tired of wrestling with complex presentation software? Look no further than [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/)!  This powerful library empowers you to create, edit, and convert presentations between various formats with ease. Need to switch from PPS to GIF? Aspose.Slides makes it a breeze, requiring just a few lines of Python code.
-
-As a cutting-edge document processing API,  **Aspose.Slides for Python via Java** boasts lightning-fast conversion speeds, ensuring swift transformation of your PPS presentations to GIF format. Ditch the limitations of traditional tools - Aspose.Slides grants you the flexibility to convert presentations from PPS to not only GIF but also a wide range of other formats, empowering you to flawlessly adapt your presentations for any situation.
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can load a PowerPoint 97–2003 slide show (`PPS`) and export it as an animated `GIF`. The resulting file presents the slides as animation frames and can include slide transitions supported by the GIF exporter. Microsoft PowerPoint is not required.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PPS to GIF using Python" %}}
-To convert the PPS to GIF, you will need to create Presentation from PPS file and save it as GIF.
+Create a `Presentation` from the PPS file and call `save` with `SaveFormat.Gif` to create an animated GIF.
 
-{{% blocks/products/pf/agp/code-block title="Python tutorial for converting PPS into GIF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PPS to animated GIF" offSpacer="true" %}}
 
 ```python
-
-import jpype
-import asposeslides
-
-jpype.startJVM()
-
-from asposeslides.api import Presentation, SaveFormat
-from javax.imageio import ImageIO
-from java.io import File
-
-pres = Presentation("PowerPoint.pps");
-
-pres.save("output.gif", SaveFormat.Gif);
-
-jpype.shutdownJVM()
+presentation = Presentation("presentation.pps")
+try:
+    presentation.save("presentation.gif", SaveFormat.Gif)
+finally:
+    presentation.dispose()
 ```
 
 
@@ -46,50 +34,50 @@ jpype.shutdownJVM()
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python Tutorial. How to convert PPS to GIF using Aspose.Slides for Python via Java API." >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert PPS to animated GIF in Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PPS to GIF using Aspose.Slides for Python via Java, you need to import the package into your Python script and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to export a PowerPoint 97–2003 slide show as a single animated GIF." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PPS files in Python.
+Configure the package and start the Java Virtual Machine in your application.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as GIF file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the source PPS file with `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
+
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `save` with `SaveFormat.Gif` to generate the animated GIF.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPS To Other Supported Formats" subTitle="You can also convert PPS and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PPS to Other Supported Formats" subTitle="You can also convert PPS slide shows to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-html/" name="PPS TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-png/" name="PPS TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-jpg/" name="PPS TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-odp/" name="PPS TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-otp/" name="PPS TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-pot/" name="PPS TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-potm/" name="PPS TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-potx/" name="PPS TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-svg/" name="PPS TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-html/" name="PPS TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-png/" name="PPS TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-jpg/" name="PPS TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-odp/" name="PPS TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-otp/" name="PPS TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pot/" name="PPS TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-potm/" name="PPS TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-potx/" name="PPS TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-svg/" name="PPS TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
