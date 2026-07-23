@@ -2,40 +2,30 @@
 title: Convert PNG to JPG in Python
 url: /python-net/conversion/png-to-jpg/
 keywords: PNG to JPG, Convert PNG to JPG, Python API, Python Library, PNG, JPG
-description: Convert PNG to JPG in Python. Use Python library API to convert PNG files to JPGs
+description: Convert PNG to JPG in Python. Use the Aspose.Slides Python API to load a PNG image and save it in JPEG format.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PNG to JPG in Python" h2="High-speed and cross-platform Python Library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PNG to JPG in Python" h2="Load a PNG image and save it as JPG with a cross-platform Python API" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PNG to JPG in Python" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PNG to JPG. Using **Aspose.Slides for Python via .NET**, any developer or application can convert PNG to JPG files with just a few lines of Python code.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PNG images to JPG programmatically. Load the source file with `Images.from_file`, then call `IImage.save` with `ImageFormat.JPEG`.
 
-As a modern document processing API, Aspose.Slides for Python exports PNG files to JPG file formats quickly. Aspose PowerPoint library allows you to convert PNG to JPGs and many other file formats
+The conversion produces a standard JPEG image without requiring Microsoft PowerPoint or another presentation application. The API also provides an overload of `IImage.save` for setting JPEG quality when you need to control compression.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to JPG using Python" %}}
-To convert the PNG to JPG, you will need to create Presentation from PNG file and save it as JPG.
+Load the source PNG as an `IImage` and save it in JPEG format.
 
 {{% blocks/products/pf/agp/code-block title="Python code for converting PNG into JPG" offSpacer="true" %}}
 
 ```python
-
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-with slides.Presentation() as pres:
-    slide = pres.slides[0]
-    image = pres.images.add_image(drawing.Bitmap(dataDir+ "image.png"))
-	slide.shapes.add_picture_frame(slides.ShapeType.RECTANGLE, 10, 10, 100, 100, image)
-    for sld in pres.slides:
-        bmp = sld.get_thumbnail(1, 1)
-        bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.jpeg)
-
+with slides.Images.from_file("image.png") as source_image:
+    source_image.save("image.jpg", slides.ImageFormat.JPEG)
 ```
 
 
@@ -43,35 +33,35 @@ with slides.Presentation() as pres:
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PNG to JPG using Aspose.Slides for Python API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Convert PNG to JPG Using the Aspose.Slides Python API" >}}
 
 {{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to JPG in Python." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the source PNG with `Images.from_file`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PNG files in Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `IImage.save` with the output file path and `ImageFormat.JPEG`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Use the `IImage.save` overload that accepts a quality value if you need to adjust JPEG compression.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images to other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/png-to-svg/" name="PNG TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-svg/" name="PNG TO SVG" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
