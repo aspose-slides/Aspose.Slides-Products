@@ -20,13 +20,13 @@ description: PHP library for creating, editing, converting, and processing PPT, 
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
-    <li>Converting presentations to PDF, Word, JPG, HTML, GIF, SVG, and many other formats.</li>
+    <li>Converting presentations to PDF, JPG, PNG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
-    <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
+    <li>Manipulating presentation elements such as master slides, shapes, charts, picture frames, audio and video frames, OLE objects, VBA macros, and animations.</li>
 </ul>
 
-<p>PHP is a popular general-purpose scripting language, especially for web development purposes. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for PHP via Java</strong> to the PHP community.</p>
+<p><strong>Aspose.Slides for PHP via Java</strong> brings presentation automation to PHP applications through a Java-based API and does not require Microsoft PowerPoint.</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -44,16 +44,16 @@ description: PHP library for creating, editing, converting, and processing PPT, 
    </header>
    <ul>
     <li>
-     Manage Charts
+     Manage charts
     </li>
     <li>
-     Manage SmartArt
+     Manage SmartArt graphics
     </li>
     <li>
-     Manage PowerPoint Shapes
+     Manage PowerPoint shapes
     </li>
     <li>
-     Manage ActiveX Controls
+     Manage ActiveX controls
     </li>
     <li>
      Manage OLE objects
@@ -62,17 +62,17 @@ description: PHP library for creating, editing, converting, and processing PPT, 
    <header>
     <i class="fa fa-text-width">
     </i>
-    Text and Paragraph
+    Text and Paragraphs
    </header>
    <ul>
     <li>
      Manage text and formatting
     </li>
     <li>
-     Manipulate Hyperlink Text
+     Manage text hyperlinks
     </li>
     <li>
-     Set Placeholder Type
+     Set placeholder types
     </li>
    </ul>
   </div>
@@ -85,19 +85,19 @@ description: PHP library for creating, editing, converting, and processing PPT, 
    </header>
    <ul>
     <li>
-     Manage Slide Transitions
+     Manage slide transitions
     </li>
     <li>
-     Manage Animation Effects
+     Manage animation effects
     </li>
     <li>
-     Add Connectors to Shapes
+     Add connectors to shapes
     </li>
     <li>
      Rotate and flip shapes
     </li>
     <li>
-     Manage Shape's Line Styles
+     Manage shape line styles
     </li>
    </ul>
   </div>
@@ -124,7 +124,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for PHP via Java supports the following platforms." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for PHP via Java runs on supported PHP and Java environments across major operating systems." >}}
 <div class="diagram1 d1-php-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -135,16 +135,16 @@ description: PHP library for creating, editing, converting, and processing PPT, 
    </header>
    <ul>
     <li>
-     Windows 7 (x64, x86)
+     Windows desktop editions
     </li>
     <li>
-     Windows 8, 8.1 (x64, x86)
+     Windows Server editions
     </li>
     <li>
-     Windows 10 (x64, x86)
+     x64 and x86 environments
     </li>
     <li>
-     and others
+     Other environments supported by PHP and Java
     </li>
    </ul>
   </div>
@@ -160,13 +160,13 @@ description: PHP library for creating, editing, converting, and processing PPT, 
      Ubuntu
     </li>
     <li>
-     OpenSUSE
+     openSUSE
     </li>
     <li>
      CentOS
     </li>
     <li>
-     and others
+     Other supported distributions
     </li>
    </ul>
   </div>
@@ -211,9 +211,9 @@ description: PHP library for creating, editing, converting, and processing PPT, 
     </li>
     <li>
      <b>
-      OpenOffice:
+      OpenDocument:
      </b>
-     ODP
+     ODP, FODP, OTP
     </li>
     <li>
      <b>
@@ -235,7 +235,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
      <b>
       Fixed Layout:
      </b>
-     PDF, PDF/A, XPS
+     PDF/A, XPS
     </li>
     <li>
      <b>
@@ -248,9 +248,9 @@ description: PHP library for creating, editing, converting, and processing PPT, 
     </li>
     <li>
      <b>
-      Web:
+      Web and text:
      </b>
-     HTML
+     HTML, Markdown
     </li>
    </ul>
   </div>
@@ -295,14 +295,14 @@ description: PHP library for creating, editing, converting, and processing PPT, 
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create or clone slides from templates
+     Create and clone slides
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-signal ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Work with PowerPoint tables via API
+     Create and format tables
     </p>
    </div>
    <div class="col-lg-4">
@@ -316,7 +316,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
     <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Add Excel charts as OLE objects to slides
+     Embed Excel workbooks as OLE objects
     </p>
    </div>
    <div class="col-lg-4">
@@ -344,7 +344,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
     <em class="fa fa-print ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Print presentations on a physical printer
+     Render presentations for printing
     </p>
    </div>
    <div class="col-lg-4">
@@ -359,7 +359,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
      System Requirements
     </h2>
     <ul>
-      <li>Compatible with PHP 7 or later</li>
+      <li>PHP 7 or later and a supported Java Runtime Environment</li>
     </ul>
    </div>
    <div class="col-lg-12">
@@ -371,28 +371,16 @@ description: PHP library for creating, editing, converting, and processing PPT, 
    </div>
     <div class="col-lg-12">
         <h2 class="h2title">Create a New PowerPoint Presentation in PHP</h2>
-        <p>In the example given below, we have added a line to the first slide of the presentation.</p>
+        <p>The following example adds a line shape to the first slide and saves the presentation as a PPTX file.</p>
         <pre>
             <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
-
 $presentation = new Presentation();
 try {
-    // Get the first slide.
     $slide = $presentation->getSlides()->get_Item(0);
-
-    // Add an autoshape with type set to line.
     $slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
 
     $presentation->save("line.pptx", SaveFormat::Pptx);
-}
-finally {
+} finally {
     $presentation->dispose();
 }
             </code>
@@ -400,54 +388,41 @@ finally {
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">Merge Presentations in PHP</h2>
-        <p>This PHP code shows you how to merge presentations:</p>
+        <p>The following example clones every slide from a source presentation into a destination presentation.</p>
         <pre>
             <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
-
-$dstPresentation = new Presentation("presentation1.pptx");
-$srcPresentation = new Presentation("presentation2.pptx");
+$destinationPresentation = new Presentation("presentation1.pptx");
 try {
-    $srcSlideCount = java_values($srcPresentation->getSlides()->size());
+    $sourcePresentation = new Presentation("presentation2.pptx");
+    try {
+        $slideCount = java_values($sourcePresentation->getSlides()->size());
 
-    for ($slideIndex = 0; $slideIndex < $srcSlideCount; $slideIndex++) { 
-        $slide = $srcPresentation->getSlides()->get_Item($slideIndex);
-        $dstPresentation->getSlides()->addClone($slide);
+        for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
+            $slide = $sourcePresentation->getSlides()->get_Item($slideIndex);
+            $destinationPresentation->getSlides()->addClone($slide);
+        }
+    } finally {
+        $sourcePresentation->dispose();
     }
 
-    $dstPresentation->save("combined_presentation.pptx", SaveFormat::Pptx);
-}
-finally {
-    $dstPresentation->dispose();
-    $srcPresentation->dispose();
+    $destinationPresentation->save("combined-presentation.pptx", SaveFormat::Pptx);
+} finally {
+    $destinationPresentation->dispose();
 }
             </code>
         </pre>
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">Import a Presentation from PDF in PHP</h2>
-        <p>This PHP code demonstrates the PDF to PowerPoint conversion process:</p>
+        <p>The following example imports pages from a PDF document as presentation slides and saves the result as PPTX.</p>
         <pre>
             <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
-
 $presentation = new Presentation();
 try {
     $presentation->getSlides()->removeAt(0);
     $presentation->getSlides()->addFromPdf("welcome-to-powerpoint.pdf");
-    $presentation->save("output_presentation.pptx", SaveFormat::Pptx);
-}
-finally {
+    $presentation->save("output-presentation.pptx", SaveFormat::Pptx);
+} finally {
     $presentation->dispose();
 }
             </code>
@@ -455,21 +430,13 @@ finally {
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">Convert PowerPoint to PDF with Default Options in PHP</h2>
-        <p>This PHP code shows how to convert a PowerPoint or OpenOffice presentation to PDF using the default options.</p>
+        <p>The following example converts a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
         <pre>
             <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\SaveFormat;
-
-$presentation = new Presentation("presentation.ppt");
+$presentation = new Presentation("presentation.pptx");
 try {
     $presentation->save("document.pdf", SaveFormat::Pdf);
-}
-finally {
+} finally {
     $presentation->dispose();
 }
             </code>
@@ -477,32 +444,24 @@ finally {
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">Convert PowerPoint to JPG in PHP</h2>
-        <p>The following example shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document into a set of JPEG images.</p>
+        <p>The following example renders each slide in a PowerPoint or OpenDocument presentation as a JPEG image.</p>
         <pre>
             <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ImageFormat;
-
 $presentation = new Presentation("presentation.pptx");
 try {
     $slideCount = java_values($presentation->getSlides()->size());
-    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++)
-    {
+
+    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
         $slide = $presentation->getSlides()->get_Item($slideIndex);
         $slideImage = $slide->getImage(1, 1);
         try {
-            $slideImage->save("slide_". $slideIndex .".jpg", ImageFormat::Jpeg);
-        }
-        finally {
+            $filePath = "slide-" . ($slideIndex + 1) . ".jpg";
+            $slideImage->save($filePath, ImageFormat::Jpeg);
+        } finally {
             $slideImage->dispose();
         }
     }
-}
-finally {
+} finally {
     $presentation->dispose();
 }
             </code>
@@ -564,10 +523,10 @@ finally {
     {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
     {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}

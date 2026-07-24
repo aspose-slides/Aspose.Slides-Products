@@ -1,69 +1,61 @@
 ---
-title:  Merge JPG Images in PHP
+title: Merge JPG Images in PHP
 url: /php-java/merger/jpg-to-jpg/
 keywords: Merge JPG, JPG to JPG, Join JPG, Combine JPG, PHP API, PHP Library
-description: Merge JPG to JPG in PHP. Use PHP library API to combine JPG files
+description: Merge multiple JPG images into a single JPEG file in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge JPG in PHP" h2="High-speed and cross-platform PHP library for merging JPG images using PHP code" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge JPG Images in PHP" h2="Arrange multiple JPG images on a slide and render them as a single JPEG file with Aspose.Slides for PHP via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge JPG to JPG using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Merge JPG Images using Aspose.Slides" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/) is a powerful PHP library used to merge and manipulate presentations, images, and other files. When you merge JPG to JPG, you are effectively combining two images to get one picture.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) lets you arrange multiple JPG images on a presentation slide and render the composed slide as a single JPEG file. The example below places two JPG images side by side.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="Merge JPG to JPG in PHP" %}}
-Using [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/php-java/), you can merge JPG files quickly with just a few lines of code
+{{% blocks/products/pf/feature-page-section  h2="Merge JPG Images in PHP" %}}
+Load the JPG files with `Images::fromFile`, add them to the slide with `addPictureFrame`, render the slide with `getImage`, and save the result with `ImageFormat::Jpeg`.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for merging JPG to JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for merging JPG images" offSpacer="true" %}}
 ```php
+$presentation = new Presentation();
+try {
+    $slide = $presentation->getSlides()->get_Item(0);
 
-<?php
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-$pres = new Presentation();
-try
-{
-    $slide = $pres->getSlides()->get_Item(0);
-    
-    $filename1 = 'image1.jpg';
-    $f1 = fopen($filename1, 'r');
-    if ($f1) {
-        $contents1 = fread($f1, filesize($filename1));
-        fclose($f1);
+    $firstSourceImage = Images::fromFile("image1.jpg");
+    try {
+        $firstPresentationImage = $presentation->getImages()->addImage($firstSourceImage);
+    } finally {
+        $firstSourceImage->dispose();
     }
 
-    $filename2 = 'image1.jpg';
-    $f2 = fopen($filename2, 'r');
-    if ($f2) {
-        $contents2 = fread($f2, filesize($filename2));
-        fclose($f2);
+    $secondSourceImage = Images::fromFile("image2.jpg");
+    try {
+        $secondPresentationImage = $presentation->getImages()->addImage($secondSourceImage);
+    } finally {
+        $secondSourceImage->dispose();
     }
-    
-    $image1 = $pres->getImages()->addImage($contents1);
-    $slide->getShapes()->addPictureFrame(ShapeType::Rectangle, 0, 0, 360, 540, $image1);
-    
-    $image2 = $pres->getImages()->addImage($contents2);
-    $slide->getShapes()->addPictureFrame(ShapeType::Rectangle, 360, 0, 360, 540, $image2);
 
-    $img = $pres->getSlides()->get_Item(0)->getThumbnail(2, 2);
-    $imageio = new Java("javax.imageio.ImageIO");
-    $javafile = new Java("java.io.File", "merged-image.jpg");
-    $imageio->write($img, "JPEG", $javafile);
+    $slide->getShapes()->addPictureFrame(
+        ShapeType::Rectangle, 0, 0, 360, 270, $firstPresentationImage);
+    $slide->getShapes()->addPictureFrame(
+        ShapeType::Rectangle, 360, 0, 360, 270, $secondPresentationImage);
+
+    $slideImage = $slide->getImage(1.0, 1.0);
+    try {
+        $slideImage->save("merged-image.jpg", ImageFormat::Jpeg);
+    } finally {
+        $slideImage->dispose();
+    }
+} finally {
+    $presentation->dispose();
 }
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-?>
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -72,31 +64,31 @@ finally
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge JPG in PHP" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to merge JPG images in PHP" >}}
 
 
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Install **Aspose.Slides for PHP via Java**. See [**Installation**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
+Configure Aspose.Slides in your PHP project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` and access its first slide through a variable.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the JPG files you want to merge as picture frames.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the JPG files with `Images::fromFile` and place them on the slide with `addPictureFrame`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting JPG image.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render the slide with `getImage` and save the result with `ImageFormat::Jpeg`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -107,16 +99,16 @@ Save the resulting JPG image.
 
 
 
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Merge PDF Files Online" sectionDescription="[How to Merge PDF in Python](https://products.aspose.com/slides/python-net/merge/pdf/)" >}}
+{{< blocks/slides-app-widget  appName="merger" extension="jpg-to-jpg" sectionTitle="Merge JPG Images Online" sectionDescription="[Try the free Aspose.Slides Merger](https://products.aspose.app/slides/merger)" >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Merge Other Files" subTitle="You can also combine files in other supported formats." >}}
   
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}
   
 
 

@@ -1,44 +1,32 @@
 ---
 title: Convert PPSX to PPTX in Python
 url: /python-java/conversion/ppsx-to-pptx/
-keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PPSX to PPTX conversion, Python presentation library
-description: Convert PPSX to PPTX in Python. Use Python library API to convert PPSX files to PPTX
+keywords: Python PPSX conversion, PPSX to PPTX, PowerPoint slide show to presentation, Open XML presentation, Aspose.Slides for Python via Java
+description: Convert PPSX slide shows to editable PowerPoint PPTX presentations in Python with Aspose.Slides for Python via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Effortlessly Convert PPSX to PPTX with Python: Aspose.Slides to the Rescue!" h2="Breathe new life into your presentations with Python. Our guide walks you through converting existing PowerPoint slides into engaging Python presentations." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPSX Slide Shows to PPTX in Python" h2="Save a PowerPoint slide show as an editable Open XML presentation with Aspose.Slides for Python via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPSX to PPTX in Python" %}}
 
-Tired of wrestling with complex presentation software? Look no further than [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/)!  This powerful library empowers you to create, edit, and convert presentations between various formats with ease. Need to switch from PPSX to PPTX? Aspose.Slides makes it a breeze, requiring just a few lines of Python code.
-
-As a cutting-edge document processing API,  **Aspose.Slides for Python via Java** boasts lightning-fast conversion speeds, ensuring swift transformation of your PPSX presentations to PPTX format. Ditch the limitations of traditional tools - Aspose.Slides grants you the flexibility to convert presentations from PPSX to not only PPTX but also a wide range of other formats, empowering you to flawlessly adapt your presentations for any situation.
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can load a PowerPoint Slide Show (`.ppsx`) and save it as an editable Open XML presentation (`.pptx`). The conversion changes the file type from slide show playback to a standard presentation while preserving the slide content. Microsoft PowerPoint is not required.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PPSX to PPTX using Python" %}}
-To convert the PPSX to PPTX, you will need to create Presentation from PPSX file and save it as PPTX.
+Create a `Presentation` from the PPSX file, then call `save` with `SaveFormat.Pptx`.
 
-{{% blocks/products/pf/agp/code-block title="Python tutorial for converting PPSX into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PPSX to PPTX" offSpacer="true" %}}
 
 ```python
-
-import jpype
-import asposeslides
-
-jpype.startJVM()
-
-from asposeslides.api import Presentation, SaveFormat
-from javax.imageio import ImageIO
-from java.io import File
-
-pres = Presentation("PowerPoint.ppsx");
-
-pres.save("output.pptx", SaveFormat.Pptx);
-
-jpype.shutdownJVM()
+presentation = Presentation("presentation.ppsx")
+try:
+    presentation.save("presentation.pptx", SaveFormat.Pptx)
+finally:
+    presentation.dispose()
 ```
 
 
@@ -46,50 +34,50 @@ jpype.shutdownJVM()
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python Tutorial. How to convert PPSX to PPTX using Aspose.Slides for Python via Java API." >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert PPSX to PPTX in Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PPSX to PPTX using Aspose.Slides for Python via Java, you need to import the package into your Python script and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to convert a PowerPoint slide show to an editable PPTX presentation." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PPSX files in Python.
+Configure the package and start the Java Virtual Machine in your application.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as PPTX file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the source PPSX file with `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
+
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `save` with `SaveFormat.Pptx` to create the PPTX presentation.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPSX To Other Supported Formats" subTitle="You can also convert PPSX and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PPSX to Other Supported Formats" subTitle="You can also convert PPSX slide shows to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-ppt/" name="PPSX TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-pdf/" name="PPSX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-html/" name="PPSX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-png/" name="PPSX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-bmp/" name="PPSX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-jpg/" name="PPSX TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-fodp/" name="PPSX TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-gif/" name="PPSX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-odp/" name="PPSX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-otp/" name="PPSX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-pot/" name="PPSX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-potm/" name="PPSX TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-potx/" name="PPSX TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-pps/" name="PPSX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-svg/" name="PPSX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-ppt/" name="PPSX TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-pdf/" name="PPSX TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-html/" name="PPSX TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-png/" name="PPSX TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-bmp/" name="PPSX TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-jpg/" name="PPSX TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-fodp/" name="PPSX TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-gif/" name="PPSX TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-odp/" name="PPSX TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-otp/" name="PPSX TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-pot/" name="PPSX TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-potm/" name="PPSX TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-potx/" name="PPSX TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-pps/" name="PPSX TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-svg/" name="PPSX TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

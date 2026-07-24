@@ -2,49 +2,42 @@
 title: Convert PDF to SVG in Python
 url: /python-java/conversion/pdf-to-svg/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PDF to SVG conversion, Python presentation library
-description: Convert PDF to SVG in Python. Use Python library API to convert PDF files to SVG
+description: Convert PDF pages to SVG images in Python with Aspose.Slides for Python via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Effortlessly Convert PDF to SVG with Python: Aspose.Slides to the Rescue!" h2="Breathe new life into your presentations with Python. Our guide walks you through converting existing PowerPoint slides into engaging Python presentations." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PDF Pages to SVG Images in Python" h2="Import a PDF document and export every page as a separate SVG image with Aspose.Slides for Python via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to SVG in Python" %}}
 
-Tired of wrestling with complex presentation software? Look no further than [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/)!  This powerful library empowers you to create, edit, and convert presentations between various formats with ease. Need to switch from PDF to SVG? Aspose.Slides makes it a breeze, requiring just a few lines of Python code.
-
-As a cutting-edge document processing API,  **Aspose.Slides for Python via Java** boasts lightning-fast conversion speeds, ensuring swift transformation of your PDF presentations to SVG format. Ditch the limitations of traditional tools - Aspose.Slides grants you the flexibility to convert presentations from PDF to not only SVG but also a wide range of other formats, empowering you to flawlessly adapt your presentations for any situation.
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can import PDF pages as slides and export each slide as a scalable SVG image. The conversion produces one SVG file per PDF page and does not require Microsoft PowerPoint or a PDF viewer.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to SVG using Python" %}}
-To convert the PDF to SVG, you will need to create Presentation from PDF file and save it as SVG.
+Create an empty `Presentation`, remove its default slide, and call `addFromPdf` to import the PDF pages. Then access each slide through a variable and call `writeAsSvgToBytes` to create the SVG data.
 
-{{% blocks/products/pf/agp/code-block title="Python tutorial for converting PDF into SVG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PDF pages to SVG" offSpacer="true" %}}
 
 ```python
+presentation = Presentation()
+try:
+    presentation.getSlides().removeAt(0)
+    presentation.getSlides().addFromPdf("document.pdf")
 
-import jpype
-import asposeslides
+    slide_count = presentation.getSlides().size()
 
-jpype.startJVM()
+    for slide_index in range(slide_count):
+        slide = presentation.getSlides().get_Item(slide_index)
+        file_path = f"page-{slide_index + 1}.svg"
+        svg_data = bytes(slide.writeAsSvgToBytes())
 
-from asposeslides.api import Presentation, SaveFormat
-from javax.imageio import ImageIO
-from java.io import File
-
-pres = Presentation();
-
-pres.getSlides().removeAt(0);
-pres.getSlides().addFromPdf("welcome-to-powerpoint.{format_from}");
-
-for i in range(pres.getSlides().size()):
-    outputStream = open('slide" + i + ".svg', "wb")
-    outputStream.write(Slide.writeAsSvgToBytes(pres.getSlides().get_Item(i)))
-
-jpype.shutdownJVM()
-
+        with open(file_path, "wb") as output_file:
+            output_file.write(svg_data)
+finally:
+    presentation.dispose()
 ```
 
 
@@ -52,50 +45,50 @@ jpype.shutdownJVM()
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python Tutorial. How to convert PDF to SVG using Aspose.Slides for Python via Java API." >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert PDF pages to SVG images in Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PDF to SVG using Aspose.Slides for Python via Java, you need to import the package into your Python script and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to import a PDF document and export its pages as separate SVG images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PDF files in Python.
+Configure the package and start the Java Virtual Machine in your application.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as SVG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the PDF pages by calling `addFromPdf` on the presentation's slide collection.
+{{% /blocks/products/pf/agp/step-autogen %}}
+
+{{% blocks/products/pf/agp/step-autogen %}}
+Access each slide through a variable, call `writeAsSvgToBytes`, and write the returned data to an SVG file.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF To Other Supported Formats" subTitle="You can also convert PDF and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-bmp/" name="PDF TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-fodp/" name="PDF TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-gif/" name="PDF TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-odp/" name="PDF TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-otp/" name="PDF TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-pot/" name="PDF TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-potm/" name="PDF TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-potx/" name="PDF TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-pps/" name="PDF TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-ppsm/" name="PDF TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-ppsx/" name="PDF TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-pptm/" name="PDF TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-bmp/" name="PDF TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-fodp/" name="PDF TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-gif/" name="PDF TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-odp/" name="PDF TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-otp/" name="PDF TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-pot/" name="PDF TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-potm/" name="PDF TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-potx/" name="PDF TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-pps/" name="PDF TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-ppsm/" name="PDF TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-ppsx/" name="PDF TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-pptm/" name="PDF TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -1,46 +1,44 @@
 ---
 title: Convert PPTM to JPG in Python
 url: /python-java/conversion/pptm-to-jpg/
-keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PPTM to JPG conversion, Python presentation library
-description: Convert PPTM to JPG in Python. Use Python library API to convert PPTM files to JPG
+keywords: Python PPTM conversion, PPTM to JPG, PowerPoint to JPEG, presentation slide to image, Aspose.Slides for Python via Java
+description: Convert PPTM presentation slides to JPG images in Python with Aspose.Slides for Python via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Effortlessly Convert PPTM to JPG with Python: Aspose.Slides to the Rescue!" h2="Breathe new life into your presentations with Python. Our guide walks you through converting existing PowerPoint slides into engaging Python presentations." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPTM Slides to JPG Images in Python" h2="Render every slide in a macro-enabled PowerPoint presentation as a JPEG image with Aspose.Slides for Python via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPTM to JPG in Python" %}}
 
-Tired of wrestling with complex presentation software? Look no further than [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/)!  This powerful library empowers you to create, edit, and convert presentations between various formats with ease. Need to switch from PPTM to JPG? Aspose.Slides makes it a breeze, requiring just a few lines of Python code.
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can render slides from a macro-enabled PowerPoint presentation (`.pptm`) as JPG images without Microsoft PowerPoint. Because a JPG file stores one image, the conversion creates a separate output file for each slide. The images do not contain animations, transitions, macros, or other interactive behavior.
 
-As a cutting-edge document processing API,  **Aspose.Slides for Python via Java** boasts lightning-fast conversion speeds, ensuring swift transformation of your PPTM presentations to JPG format. Ditch the limitations of traditional tools - Aspose.Slides grants you the flexibility to convert presentations from PPTM to not only JPG but also a wide range of other formats, empowering you to flawlessly adapt your presentations for any situation.
+Access each slide through a variable, call `getImage`, and save the returned image with `ImageFormat.Jpeg`. The scaling values passed to `getImage` control the output dimensions relative to the original slide size.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PPTM to JPG using Python" %}}
-To convert the PPTM to JPG, you will need to create Presentation from PPTM file and save it as JPG.
+Load the PPTM file into a `Presentation`, render each slide with `getImage`, and save each result in JPEG format.
 
-{{% blocks/products/pf/agp/code-block title="Python tutorial for converting PPTM into JPG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for converting PPTM slides to JPG" offSpacer="true" %}}
 
 ```python
+presentation = Presentation("presentation.pptm")
+try:
+    slide_count = presentation.getSlides().size()
 
-import jpype
-import asposeslides
-
-jpype.startJVM()
-
-from asposeslides.api import Presentation, SaveFormat
-from javax.imageio import ImageIO
-from java.io import File
-
-pres = Presentation("PowerPoint.pptm");
-
-for i in range(pres.getSlides().size()):
-    buffImage = pres.getSlides().get_Item(i).getThumbnail(2, 2)
-    ImageIO.write(buffImage, "JPEG", File("slide" + str(i) + ".jpg"))
-
-jpype.shutdownJVM()
+    for slide_index in range(slide_count):
+        slide = presentation.getSlides().get_Item(slide_index)
+        slide_image = slide.getImage(2.0, 2.0)
+        try:
+            slide_number = slide_index + 1
+            file_path = f"slide-{slide_number}.jpg"
+            slide_image.save(file_path, ImageFormat.Jpeg)
+        finally:
+            slide_image.dispose()
+finally:
+    presentation.dispose()
 ```
 
 
@@ -48,50 +46,50 @@ jpype.shutdownJVM()
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python Tutorial. How to convert PPTM to JPG using Aspose.Slides for Python via Java API." >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert PPTM slides to JPG in Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PPTM to JPG using Aspose.Slides for Python via Java, you need to import the package into your Python script and create an instance of the Presentation class. The Presentation class represents a PowerPoint document and provides methods to access and manipulate its elements." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to render the slides in a PowerPoint PPTM presentation as separate JPEG images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via Java**](https://products.aspose.com/slides/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Open the source PPTM files in Python.
+Configure the package and start the Java Virtual Machine in your application.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as JPG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the source PPTM file with `Presentation` and determine the slide count.
+{{% /blocks/products/pf/agp/step-autogen %}}
+
+{{% blocks/products/pf/agp/step-autogen %}}
+Access each slide, call `getImage`, and save the result with `ImageFormat.Jpeg`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPTM To Other Supported Formats" subTitle="You can also convert PPTM and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PPTM to Other Supported Formats" subTitle="You can also convert PPTM presentations to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-pptx/" name="PPTM TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-ppt/" name="PPTM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-pdf/" name="PPTM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-html/" name="PPTM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-png/" name="PPTM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-bmp/" name="PPTM TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-fodp/" name="PPTM TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-gif/" name="PPTM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-odp/" name="PPTM TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-otp/" name="PPTM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-pot/" name="PPTM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-potm/" name="PPTM TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-potx/" name="PPTM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-pps/" name="PPTM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-svg/" name="PPTM TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-pptx/" name="PPTM TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-ppt/" name="PPTM TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-pdf/" name="PPTM TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-html/" name="PPTM TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-png/" name="PPTM TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-bmp/" name="PPTM TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-fodp/" name="PPTM TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-gif/" name="PPTM TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-odp/" name="PPTM TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-otp/" name="PPTM TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-pot/" name="PPTM TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-potm/" name="PPTM TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-potx/" name="PPTM TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-pps/" name="PPTM TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-svg/" name="PPTM TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

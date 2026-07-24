@@ -2,42 +2,51 @@
 title: Convert PNG to SVG in Python
 url: /python-net/conversion/png-to-svg/
 keywords: PNG to SVG, Convert PNG to SVG, Python API, Python Library, PNG, SVG
-description: Convert PNG to SVG in Python. Use Python library API to convert PNG files to SVGs
+description: Convert PNG to SVG in Python. Use the Aspose.Slides Python API to place a PNG image on a slide and export the slide as SVG.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PNG to SVG in Python" h2="High-speed and cross-platform Python Library that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PNG to SVG in Python" h2="Place a PNG image on a slide and export it as SVG with a cross-platform Python API" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PNG to SVG in Python" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to convert PNG to SVG. Using **Aspose.Slides for Python via .NET**, any developer or application can convert PNG to SVG files with just a few lines of Python code.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you place a PNG image on a `Slide` and export the slide by using `Slide.write_as_svg`. The generated SVG preserves the PNG as raster content inside the scalable slide representation.
 
-As a modern document processing API, Aspose.Slides for Python exports PNG files to SVG file formats quickly. Aspose PowerPoint library allows you to convert PNG to SVGs and many other file formats
+This process does not trace or vectorize the PNG pixels. It creates an SVG file whose canvas matches the source image and can be displayed in browsers and other SVG-compatible applications.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PNG to SVG using Python" %}}
-To convert the PNG to SVG, you will need to create Presentation from PNG file and save it as SVG.
+Create a `Presentation`, add the PNG image to its first `Slide`, match the slide size to the image, and export the slide as SVG.
 
 {{% blocks/products/pf/agp/code-block title="Python code for converting PNG into SVG" offSpacer="true" %}}
 
 ```python
+with slides.Presentation() as presentation:
+    slide = presentation.slides[0]
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
+    with slides.Images.from_file("image.png") as source_image:
+        presentation_image = presentation.images.add_image(source_image)
 
-with slides.Presentation() as pres:
-    slide = pres.slides[0]
-    image = pres.images.add_image(drawing.Bitmap(dataDir+ "image.png"))
-	slide.shapes.add_picture_frame(slides.ShapeType.RECTANGLE, 10, 10, 100, 100, image)
-    for index in range(pres.slides.length):
-        slide = pres.slides[index]
+    presentation.slide_size.set_size(
+        presentation_image.width,
+        presentation_image.height,
+        slides.SlideSizeScaleType.DO_NOT_SCALE,
+    )
 
-        with open("slide-{index}.svg".format(index = index), "wb") as file:
-            slide.write_as_svg(file)
+    slide.shapes.add_picture_frame(
+        slides.ShapeType.RECTANGLE,
+        0,
+        0,
+        presentation_image.width,
+        presentation_image.height,
+        presentation_image,
+    )
 
+    with open("image.svg", "wb") as output_stream:
+        slide.write_as_svg(output_stream)
 ```
 
 
@@ -45,35 +54,35 @@ with slides.Presentation() as pres:
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PNG to SVG using Aspose.Slides for Python API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Convert PNG to SVG Using the Aspose.Slides Python API" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to SVG in Python." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to convert PNG to SVG in Python." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` and access its first `Slide`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PNG files in Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Load the PNG with `Images.from_file`, add it to `Presentation.images`, and place it on the slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result as SVG file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `Slide.write_as_svg` with a writable binary stream.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images to other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-jpg/" name="PNG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
