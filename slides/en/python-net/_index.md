@@ -363,7 +363,7 @@ description: Python library for creating, editing, converting, and processing PP
      System Requirements
     </h2>
     <ul>
-      <li>Compatible with Python &lt;3.14, &gt;=3.5</li>
+      <li>Compatible with Python 3.5 or later</li>
       <li>For Python development on Linux, see the <a href="https://docs.aspose.com/slides/python-net/system-requirements/">additional Linux requirements</a>.</li>
     </ul>
    </div>

@@ -1,18 +1,18 @@
 ---
-title:  Edit HTML in Python
+title: Edit HTML in Python
 url: /python-net/editor/html/
 keywords: Edit HTML, HTML, Python API, Python Library
-description: Edit HTML in Python. Use Python library API to edit HTML file
+description: Import HTML content, add text or shapes, and export the edited result as HTML5 with Aspose.Slides for Python via .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edit HTML in Python" h2="High-speed and cross-platform Python library for editing HTML using Python code" >}}
+{{< blocks/products/pf/feature-page-header h1="Edit HTML in Python" h2="Import HTML content, add presentation elements, and export the result as HTML5 with Python" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Edit HTML using Aspose.Slides" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library used to manipulate and edit presentations, HTML documents, and other files. You can edit an HTML doc by adding a new line of text to it. 
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you import HTML content into slides, add presentation elements such as text and shapes, and export the edited presentation as HTML5. This workflow changes the imported slide content rather than the original HTML document.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,23 +20,22 @@ description: Edit HTML in Python. Use Python library API to edit HTML file
 
 
 {{% blocks/products/pf/feature-page-section  h2="Edit HTML in Python" %}}
-Using [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/), you can add a new line of text to an HTML document with just a few lines of code.
+The following example imports an HTML file into a `Presentation`, adds a text-bearing shape to the first imported slide, and exports the result as HTML5.
 
 {{% blocks/products/pf/agp/code-block title="Python code for editing HTML" offSpacer="true" %}}
 ```python
+with slides.Presentation() as presentation:
+    presentation.slides.remove_at(0)
 
-import aspose.slides as slides
+    with open("page.html", "rb") as html_stream:
+        presentation.slides.add_from_html(html_stream)
 
-with slides.Presentation() as pres:
-    pres.slides.remove_at(0)
-    with open("page.html", "rt") as stream:
-        data = stream.read()
-    pres.slides.add_from_html(data)
+    slide = presentation.slides[0]
+    text_shape = slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 10, 10, 300, 50)
+    text_shape.text_frame.text = "New text"
 
-    shape = pres.slides[0].shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 10, 10, 100, 50)
-    shape.text_frame.text = "New text"
-
-    pres.save("page.html", slides.export.SaveFormat.HTML5)
+    presentation.save("edited-page.html", slides.export.SaveFormat.HTML5)
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -51,29 +50,29 @@ with slides.Presentation() as pres:
 {{< blocks/products/pf/agp/steps-block-autogen name="" >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install Aspose.Slides for Python via .NET by following the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create an empty `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Remove the default blank slide from the presentation.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the HTML document you want to edit.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the HTML file as a binary stream and pass it to `SlideCollection.add_from_html`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a new line of text.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Access the imported slide through a `slide` variable, add an `AutoShape`, and set its text.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the changed HTML file.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `Presentation.save` with `SaveFormat.HTML5` to export the edited content.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -86,8 +85,8 @@ Save the changed HTML file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Edit other files" subTitle="You can also edit files in other formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/editor/pdf/" name="Edit PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/editor/ppt/" name="Edit PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/editor/pdf/" name="Edit PDF" >}}
 
 
 

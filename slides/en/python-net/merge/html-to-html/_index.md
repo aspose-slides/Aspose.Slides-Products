@@ -1,40 +1,42 @@
 ---
-title:  Merge HTML Files in Python
+title: Merge HTML Files in Python
 url: /python-net/merge/html-to-html/
 keywords: Merge HTML, HTML to HTML, Join HTML, Combine HTML, Python API, Python Library
-description: Merge HTML to HTML in Python. Use Python library API to combine HTML files
+description: Merge multiple HTML files in Python and export the combined content as a single HTML5 document.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge HTML in Python" h2="High-speed and cross-platform Python library for merging HTML files using Python code" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge HTML Files in Python" h2="Combine multiple HTML documents and export the result as HTML5 with a cross-platform Python API" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge HTML to HTML using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Merge HTML Files Using Aspose.Slides" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library used to create, convert, merge, and manipulate presentations, HTML files, and other documents. When you merge HTML to HTML, you are effectively combining the contents from 2 documents to obtain one HTML file. Aspose.Slides allows you merge HTML docs in different ways. You get to merge HTML with all their texts, formatting,styles, etc.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you import multiple HTML documents into one `Presentation` and export the combined slides as a single HTML5 document. Use `SlideCollection.add_from_html` to import each HTML stream, then call `Presentation.save` with `SaveFormat.HTML5`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 
 
 
-{{% blocks/products/pf/feature-page-section  h2="Merge HTML to HTML in Python" %}}
-Using [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/), you can merge HTML files quickly with just a few lines of code
+{{% blocks/products/pf/feature-page-section  h2="Merge HTML Files in Python" %}}
+Create a `Presentation`, import the source HTML files in order, and save the combined content as an HTML5 document.
 
-{{% blocks/products/pf/agp/code-block title="Python code for merging HTML to HTML" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for merging HTML files into an HTML5 document" offSpacer="true" %}}
+
 ```python
+html_file_paths = ["first.html", "second.html"]
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
+with slides.Presentation() as presentation:
+    presentation.slides.remove_at(0)
 
-with slides.Presentation() as pres:
-    pres.slides.remove_at(0)
-    pres.slides.add_from_html(htmlText1)
-    pres.slides.add_from_html(htmlText2)
+    for file_path in html_file_paths:
+        with open(file_path, "rb") as html_stream:
+            presentation.slides.add_from_html(html_stream)
 
-    pres.save("pres.html", slides.export.SaveFormat.HTML5)
+    presentation.save("merged.html", slides.export.SaveFormat.HTML5)
 ```
+
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{% /blocks/products/pf/feature-page-section %}}
@@ -42,31 +44,31 @@ with slides.Presentation() as pres:
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge HTML in Python" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Merge HTML Files in Python" >}}
 
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to combine multiple HTML files into one HTML5 document." >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Import the `aspose.slides` module in your Python project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` and remove its default blank slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the HTML files you want to merge.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open each HTML file and pass its stream to `SlideCollection.add_from_html`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting HTML doc.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `Presentation.save` with `SaveFormat.HTML5` to create the merged HTML document.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -78,19 +80,19 @@ Save the resulting HTML doc.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Merge Other Files" subTitle="You can also combine files in other formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/jpg-to-jpg/" name="JPG TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/png-to-pdf/" name="PNG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/html-to-image/" name="HTML TO IMAGE" >}}  
-  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pdf-to-pdf/" name="PDF TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/svg-to-png/" name="SVG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/image-to-bmp/" name="IMAGE TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/html-to-image/" name="HTML TO IMAGE" >}}
+
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

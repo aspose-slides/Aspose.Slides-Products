@@ -61,7 +61,7 @@ Before running the Python conversion sample, make sure your environment meets th
 {{% /blocks/products/pf/agp/text %}}
 
 - Microsoft Windows, macOS, or 64-bit Linux (see the [system requirements](https://docs.aspose.com/slides/python-net/system-requirements/)).
-- Python 3.6 through 3.13.
+- Python 3.6 or later for this sample.
 - Aspose.Slides for Python via .NET installed in your environment.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
