@@ -1,18 +1,18 @@
 ---
-title:  Merge PDF Files in Python
+title: Merge PDF Files in Python
 url: /python-net/merge/pdf-to-pdf/
 keywords: Merge PDF, PDF to PDF, Join PDF, Combine PDF, Python API, Python Library
-description: Merge PDF to PDF in Python. Use Python library API to combine PDF files
+description: Merge multiple PDF files in Python and save their pages as a single PDF document.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge PDF in Python" h2="High-speed and cross-platform Python library for merging PDF files using Python code" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge PDF Files in Python" h2="Import pages from multiple PDF files and save the combined content as one PDF document with a cross-platform Python API" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge PDF to PDF using Aspose.Slides" %}}
+{{% blocks/products/pf/feature-page-section h2="Merge PDF to PDF Using Aspose.Slides" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library used to create, convert, merge, and manipulate presentations, PDFs, and other documents. When you merge PDF to PDF, you are effectively combining pages from 2 documents to obtain one PDF file. Aspose.Slides allows you merge PDFs in different ways. You get to merge PDFs with all their shapes, styles, texts, formatting, etc.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you combine PDF files by importing their pages into a `Presentation`. `SlideCollection.add_from_pdf` converts each PDF page into a slide and appends it to the presentation. After importing all source files, call `Presentation.save` with `SaveFormat.PDF` to export the combined slides as one PDF document.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,20 +20,16 @@ description: Merge PDF to PDF in Python. Use Python library API to combine PDF f
 
 
 {{% blocks/products/pf/feature-page-section  h2="Merge PDF to PDF in Python" %}}
-Using [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/), you can merge PDF files quickly with just a few lines of code
+Create a presentation without its default blank slide, import the source PDF files in the required order, and save the combined slides as a single PDF document.
 
-{{% blocks/products/pf/agp/code-block title="Python code for merging PDF to PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for merging multiple PDF files into one PDF document" offSpacer="true" %}}
 ```python
+with slides.Presentation() as presentation:
+    presentation.slides.remove_at(0)
+    presentation.slides.add_from_pdf("document1.pdf")
+    presentation.slides.add_from_pdf("document2.pdf")
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-with slides.Presentation() as pres:
-    pres.slides.remove_at(0)
-    pres.slides.add_from_pdf("InputPDF1.pdf")
-    pres.slides.add_from_pdf("InputPDF2.pdf")
-
-    pres.save("pres.pdf", slides.export.SaveFormat.PDF)
+    presentation.save("merged-document.pdf", slides.export.SaveFormat.PDF)
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -42,31 +38,34 @@ with slides.Presentation() as pres:
 
 
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge PDF in Python" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Merge PDF Files with Aspose.Slides for Python" >}}
 
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to merge two PDF files and save their pages as a single PDF document." >}}
 
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install Aspose.Slides for Python via .NET by following the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
+```console
+pip install aspose-slides
+```
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Make the `aspose.slides` namespace available in your Python project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Create an instance of the Presentation class.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Create a `Presentation` and remove its default blank slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the PDF files you want to merge.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Pass each source PDF file to [`SlideCollection.add_from_pdf`](https://reference.aspose.com/slides/python-net/aspose.slides/slidecollection/add_from_pdf/) in the required order.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the resulting PDF.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `Presentation.save` with `SaveFormat.PDF` to create the merged PDF document.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -78,15 +77,15 @@ Save the resulting PDF.
 
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Merge Other Files" subTitle="You can also combine files in other formats into a single output file." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/jpg-to-jpg/" name="JPG to JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/png-to-pdf/" name="PNG TO PDF" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/png-to-pdf/" name="PNG TO PDF" >}}
   
 
 
