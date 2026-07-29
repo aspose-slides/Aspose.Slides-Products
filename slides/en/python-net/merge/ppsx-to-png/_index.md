@@ -1,37 +1,39 @@
 ---
-title:  Merge PPSX Files To PNG Using Python
+title: Merge PPSX Files and Export to PNG Using Python
 url: /python-net/merge/ppsx-to-png/
 keywords: Merge PPSX to PNG, Join PPSX to PNG, Combine PPSX to PNG, PowerPoint, Presentation, PNG, Python, Aspose
-description: Merge multiple PPSX files in Python. 
+description: Merge multiple PPSX presentations and render the combined slides as PNG images in Python.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge PPSX files to PNG together in Python" h2="High-speed and cross-platform Python API that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Merge PPSX Files and Export to PNG in Python" h2="Combine PowerPoint Show files and render every merged slide as a separate PNG image with a cross-platform Python API. Microsoft PowerPoint is not required." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge PPSX to PNG in Python" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple PPSX presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+[**Aspose.Slides for Python via .NET**](/slides/python-net/) lets you merge PPSX files by cloning slides from a source `Presentation` into a destination `Presentation`. After combining the slides with `SlideCollection.add_clone`, call `Slide.get_image` and save each resulting `IImage` with `ImageFormat.PNG`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Merge PPSX files to PNG using Python" %}}
-To merge the PowerPoint presentations, you will need to clone the slides from one presentation to the other.
+Open the destination and source PPSX presentations, append a clone of each source slide, and render every slide in the merged presentation as a separate PNG image.
 
-{{% blocks/products/pf/agp/code-block title="Python code for merge multiple PPSX into single PNG file" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code to merge PPSX files and export slides to PNG" offSpacer="true" %}}
 
 ```python
+image_scale = 2
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
+with slides.Presentation("presentation1.ppsx") as destination_presentation:
+    with slides.Presentation("presentation2.ppsx") as source_presentation:
+        for slide in source_presentation.slides:
+            destination_presentation.slides.add_clone(slide)
 
-with slides.Presentation("presentation1.ppsx") as pres1:
-    with slides.Presentation("presentation2.ppsx") as pres2:
-        for slide in pres2.slides:
-            pres1.slides.add_clone(slide)
-    for slide in pres1.slides:
-        slide.get_thumbnail(2, 2).save("presentation_slide_{0}.png".format(str(slide.slide_number)), drawing.imaging.ImageFormat.png)
+    for slide in destination_presentation.slides:
+        file_path = f"merged-presentation-slide-{slide.slide_number}.png"
+
+        with slide.get_image(image_scale, image_scale) as slide_image:
+            slide_image.save(file_path, slides.ImageFormat.PNG)
 ```
 
 
@@ -39,75 +41,56 @@ with slides.Presentation("presentation1.ppsx") as pres1:
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge PPSX to PNG using Aspose.Slides for Python API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Merge PPSX Files and Export to PNG with Aspose.Slides for Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two PPSX files and save result as PNG in Python." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to merge two PPSX files and render the combined slides as PNG images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
-```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Install [**Aspose.Slides for Python via .NET**](/slides/python-net/) by following the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Make the `aspose.slides` namespace available as `slides` in your Python project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source PPSX files in Python.
-```
-pres1 = slides.Presentation('pres1.ppsx')
-pres2 = slides.Presentation('pres2.ppsx')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the destination and source PPSX files as `Presentation` instances.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Combine PPSX files using [**add_clone**](https://reference.aspose.com/slides/python-net/aspose.slides/islidecollection/#methods) method.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Iterate through the source slides and call [`SlideCollection.add_clone`](https://reference.aspose.com/slides/python-net/aspose.slides/slidecollection/add_clone/) for each `Slide`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save presentation and get result as single PNG file.
-```
-for slide in pres1.slides:
-    slide.get_thumbnail(2, 2).save("presentation_slide_{0}.png".format(str(slide.slide_number)), drawing.imaging.ImageFormat.png)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render each merged `Slide` with [`Slide.get_image`](https://reference.aspose.com/slides/python-net/aspose.slides/slide/get_image/), then call `IImage.save` with `ImageFormat.PNG` to create a separate PNG file for that slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Export PPSX To Other Supported Formats" subTitle="You can also combine PPSX and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Export PPSX to Other Supported Formats" subTitle="You can also combine PPSX presentations and save the merged result in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-pptx/" name="PPSX TO PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-ppt/" name="PPSX TO PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-pdf/" name="PPSX TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-html/" name="PPSX TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-bmp/" name="PPSX TO BMP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-jpg/" name="PPSX TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-fodp/" name="PPSX TO FODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-gif/" name="PPSX TO GIF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-odp/" name="PPSX TO ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-otp/" name="PPSX TO OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-pot/" name="PPSX TO POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-potm/" name="PPSX TO POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-potx/" name="PPSX TO POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-pps/" name="PPSX TO PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-ppsm/" name="PPSX TO PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-pptm/" name="PPSX TO PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-svg/" name="PPSX TO SVG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-tiff/" name="PPSX TO TIFF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/ppsx-to-xps/" name="PPSX TO XPS" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-pptx/" name="PPSX TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-ppt/" name="PPSX TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-pdf/" name="PPSX TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-html/" name="PPSX TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-bmp/" name="PPSX TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-jpg/" name="PPSX TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-fodp/" name="PPSX TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-gif/" name="PPSX TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-odp/" name="PPSX TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-otp/" name="PPSX TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-pot/" name="PPSX TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-potm/" name="PPSX TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-potx/" name="PPSX TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-pps/" name="PPSX TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-ppsm/" name="PPSX TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-pptm/" name="PPSX TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-svg/" name="PPSX TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-tiff/" name="PPSX TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/ppsx-to-xps/" name="PPSX TO XPS" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
