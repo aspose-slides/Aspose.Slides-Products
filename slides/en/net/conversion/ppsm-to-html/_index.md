@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html);
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert PPSM to HTML" 
-        sectionDescription="[Try our free app to convert PPT to HTML](https://products.aspose.app/slides/conversion/ppt-to-html)" 
+sectionDescription="[Try our free app to convert PPSM to HTML](https://products.aspose.app/slides/conversion/ppsm-to-html)"
     >}}
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM into many other file formats, including those listed below." >}}

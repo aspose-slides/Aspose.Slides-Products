@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert image content to PPTX presentations and other 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to PPTX Using C++" %}}
-To convert an image to PPTX, create a Presentation from the image file and save it as a PPTX presentation.
+To convert an image to PPTX, create a new Presentation, add the image to its image collection, place it on a slide with `AddPictureFrame`, and save the presentation in PPTX format.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting Image into PPTX" offSpacer="true" %}}
 

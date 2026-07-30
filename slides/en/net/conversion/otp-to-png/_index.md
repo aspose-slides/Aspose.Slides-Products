@@ -93,7 +93,7 @@ foreach (var slide in presentation.Slides)
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert OTP to PNG"
-        sectionDescription="[Try our free app to convert PPT to PNG](https://products.aspose.app/slides/conversion/ppt-to-png)"
+sectionDescription="[Try our free app to convert OTP to PNG](https://products.aspose.app/slides/conversion/otp-to-png)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including few listed below." >}}

@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert JPG content to images and other presentation-r
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to Image Using C++" %}}
-To convert JPG to an image, create a Presentation from the JPG file and render each slide as an image.
+To convert JPG to another image format, create a new Presentation, add the JPG file to its image collection, place it on a slide with `AddPictureFrame`, and render the slide in the required image format.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting JPG into Image" offSpacer="true" %}}
 

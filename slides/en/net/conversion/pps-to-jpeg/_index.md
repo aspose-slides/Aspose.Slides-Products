@@ -92,7 +92,7 @@ foreach (var slide in presentation.Slides)
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert PPS to JPEG"
-        sectionDescription="[Try our free app to convert PPT to JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)"
+sectionDescription="[Try our free app to convert PPS to JPEG](https://products.aspose.app/slides/conversion/pps-to-jpeg)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPS into many other file formats including few listed below." >}}

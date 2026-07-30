@@ -1,26 +1,26 @@
 ---
-title: Search Text in PPTX Presentation Files using Python
+title: Search Text in PPTX Presentations with Python
 url: /python-net/search/pptx/
-keywords: search words in PPTX, search and replace text in PPTX, search text PPTX Presentation
-description: Python source code to search text in PPTX Presentation.
+keywords: search text in PPTX, find words in PPTX, search PPTX presentation with Python
+description: Search for text in PPTX presentations with Python and Aspose.Slides.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Search Text PPTX using Python" h2="Build your own Python apps to search and replace text in presentation files using server-side APIs. Learn how to find all the entrances of a certain word or phrase in presentation documents. Search text by exact data matching and regular expression matching." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/upper-banner h1="Search Text in PPTX Presentations with Python" h2="Build Python applications that find text in PowerPoint presentations with Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Search and Replace Text PPTX Presentation via Python" %}}
-A basic document search and replace text in contents, comments, slide notes or metadata with Aspose.Slides for Python via .NET APIs can be done with just few lines of code. Use regular expression matching, match case to search text in presentation. Search text in titles, content, footer or header.
-{{% blocks/products/pf/agp/code-block title="Search text PPTX Presentation using Python" offSpacer="true" %}}
+{{% blocks/products/pf/feature-page-section  h2="Search Text in a PPTX Presentation with Python" %}}
+With [Aspose.Slides for Python via .NET](/slides/python-net/), you can use [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) to find text frames on each slide that contain a specified string.
+{{% blocks/products/pf/agp/code-block title="Search Text in a PPTX Presentation - Python" offSpacer="true" %}}
 
-```py
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    for slide in presentation.slides:
+        matching_text_frames = slides.util.SlideUtil.get_text_boxes_contains_text(slide, "PowerPoint", False)
 
-import aspose.slides as slides
-
-with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.pptx", slides.export.SaveFormat.PPTX)
+        for text_frame in matching_text_frames:
+            print(text_frame.text)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -29,30 +29,30 @@ with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
 
 {{< blocks/products/pf/feature-page-section  h2="How to Search Text in PPTX via Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to search text PPTX files." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to search for text in a PPTX presentation." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load PPTX with an instance of Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the PPTX file with `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Use [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) method to find and replace text.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Iterate through the slides and call [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) for each one.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result in PPTX format
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Read the `text` property of each matching text frame.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Search Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in PPTX documents right now." >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Search" sectionDescription="Search for text in PPTX presentations online." >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Using Python, You can also search text in the following formats:" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Use Python to search for text in other supported presentation formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/search/ppt/" name="PPT" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

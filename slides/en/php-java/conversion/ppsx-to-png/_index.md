@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the PPSX-to-PNG conversion process.
 appName="conversion"
 extension=""
 sectionTitle="Free App to Convert PPSX to PNG"
-sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion/ppt-to-png)"
+sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion/ppsx-to-png)"
 >}}
 
 <!-- aboutfile Ends -->

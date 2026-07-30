@@ -83,7 +83,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert POTM to PDF"
-        sectionDescription="[Try our free app to convert PPT to PDF](https://products.aspose.app/slides/conversion/)"
+sectionDescription="[Try our free app to convert POTM to PDF](https://products.aspose.app/slides/conversion/potm-to-pdf)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTM into many other file formats including few listed below." >}}

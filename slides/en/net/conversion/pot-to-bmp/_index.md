@@ -93,7 +93,7 @@ foreach (var slide in presentation.Slides)
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert POT to BMP"
-        sectionDescription="[Try our free app to convert PPT to BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)"
+sectionDescription="[Try our free app to convert POT to BMP](https://products.aspose.app/slides/conversion/pot-to-bmp)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT into many other file formats including few listed below." >}}

@@ -1,25 +1,25 @@
 ---
 title: Convert HTML to XML in C++
 url: /cpp/conversion/html-to-xml/
-keywords: HTML to XML, Convert HTML to XML, C++ API, C++ Library, HTML, XML
-description: Convert HTML to XML in C++. Use the C++ library API to convert HTML files to XML output.
+keywords: HTML to XML, Convert HTML to XML, PowerPoint XML Presentation, C++ API, C++ Library, HTML, XML
+description: Convert HTML content to PowerPoint XML Presentation format in C++ with Aspose.Slides for C++.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert HTML to XML in C++" h2="Convert HTML files to XML output using Aspose.Slides for C++ without Microsoft PowerPoint." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert HTML to XML in C++" h2="Import HTML content into presentation slides and save the result in PowerPoint XML Presentation format." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to XML in C++" %}}
 
-[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and save slide output as XML-based files.
+[**Aspose.Slides for C++**](/slides/cpp/) can import HTML content into presentation slides and save the resulting presentation in PowerPoint XML Presentation format.
 
-Aspose.Slides for C++ can convert HTML content to XML-based output and other presentation-related formats.
+The generated XML represents a presentation rather than a generic transformation of the source HTML markup. Aspose.Slides can also export the imported content to PowerPoint, PDF, images, and other supported formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to XML Using C++" %}}
-To convert HTML to XML, create a Presentation from the HTML file and save each slide as XML-based output.
+To convert HTML content to PowerPoint XML, create a `Presentation`, remove its default slide, import the HTML with `AddFromHtml`, and call `Save` with `SaveFormat::Xml`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into XML" offSpacer="true" %}}
 
@@ -31,17 +31,7 @@ auto htmlStream = File::OpenRead(u"page.html");
 presentation->get_Slides()->AddFromHtml(htmlStream);
 htmlStream->Dispose();
 
-auto slideCount = presentation->get_Slides()->get_Count();
-for (int index = 0; index < slideCount; index++)
-{
-    auto fileName = String::Format(u"slide_{0}.xml", index);
-    auto fileStream = MakeObject<FileStream>(fileName, FileMode::Create, FileAccess::Write);
-
-    auto slide = presentation->get_Slide(index);
-    slide->WriteAsSvg(fileStream);
-    fileStream->Dispose();
-}
-
+presentation->Save(u"output.xml", SaveFormat::Xml);
 presentation->Dispose();
 ```
 
@@ -67,7 +57,7 @@ Open the source HTML file in C++.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the result as an XML file.
+Call `Save` with the output file path and `SaveFormat::Xml`.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

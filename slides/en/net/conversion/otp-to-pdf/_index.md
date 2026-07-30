@@ -84,7 +84,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert OTP to PDF"
-        sectionDescription="[Try our free app to convert PPT to PDF](https://products.aspose.app/slides/conversion/)"
+sectionDescription="[Try our free app to convert OTP to PDF](https://products.aspose.app/slides/conversion/otp-to-pdf)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including few listed below." >}}

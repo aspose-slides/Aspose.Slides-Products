@@ -90,7 +90,7 @@ image.Save("image.jpg", ImageFormat.Jpeg);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
 <!-- aboutfile Starts -->
 

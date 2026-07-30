@@ -1,62 +1,62 @@
 ---
-title: View & Edit PowerPoint Metadata using Python 
+title: View and Edit Presentation Metadata with Python
 url: /python-net/metadata/
-description: Python source code to view and edit presentation propertires
+description: View and edit metadata properties in PowerPoint and OpenDocument presentations with Python.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="View and Edit Metadata of PowerPoint and OpenOffice documents using Python" h2="Build your own Python apps to extract, edit and remove presentation properties using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+{{< blocks/products/pf/upper-banner h1="View and Edit Presentation Metadata with Python" h2="Build Python applications that read, update, and remove metadata properties in PowerPoint and OpenDocument presentations." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Edit Metadata Code Samples Online Include" >}}
+{{< blocks/products/pf/product-card-row title="Presentation Metadata Editing Examples" >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="FODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/fodp/" >}}
-How to edit FODP properties using Aspose.Slides for Python via .NET API.
+Learn how to edit FODP metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/odp/" >}}
-How to edit ODP properties using Aspose.Slides for Python via .NET API.
+Learn how to edit ODP metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="OTP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/otp/" >}}
-How to edit OTP properties using Aspose.Slides for Python via .NET API.
+Learn how to edit OTP metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="POT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/pot/" >}}
-How to edit POT properties using Aspose.Slides for Python via .NET API.
+Learn how to edit POT metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="POTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/potm/" >}}
-How to edit POTM properties using Aspose.Slides for Python via .NET API.
+Learn how to edit POTM metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="POTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/potx/" >}}
-How to edit POTX properties using Aspose.Slides for Python via .NET API.
+Learn how to edit POTX metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="PPS" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/pps/" >}}
-How to edit PPS properties using Aspose.Slides for Python via .NET API.
+Learn how to edit PPS metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="PPSM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/ppsm/" >}}
-How to edit PPSM properties using Aspose.Slides for Python via .NET API.
+Learn how to edit PPSM metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="PPSX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/ppsx/" >}}
-How to edit PPSX properties using Aspose.Slides for Python via .NET API.
+Learn how to edit PPSX metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/ppt/" >}}
-How to edit PPT properties using Aspose.Slides for Python via .NET API.
+Learn how to edit PPT metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="PPTM" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/pptm/" >}}
-How to edit PPTM properties using Aspose.Slides for Python via .NET API.
+Learn how to edit PPTM metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Edit Presentation Metadata" title="PPTX" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/python-net/metadata/pptx/" >}}
-How to edit PPTX properties using Aspose.Slides for Python via .NET API.
+Learn how to edit PPTX metadata with Aspose.Slides for Python via .NET.
 {{< /blocks/products/pf/product >}}
 
 

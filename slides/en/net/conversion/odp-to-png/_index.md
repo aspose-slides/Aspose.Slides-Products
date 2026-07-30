@@ -93,7 +93,7 @@ foreach (var slide in presentation.Slides)
         appName="conversion"
         extension="odp-to-png"
         sectionTitle="Free App to Convert ODP to PNG"
-        sectionDescription="[Try our free app to convert PPT to PNG](https://products.aspose.app/slides/conversion/ppt-to-png)"
+sectionDescription="[Try our free app to convert ODP to PNG](https://products.aspose.app/slides/conversion/odp-to-png)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP into many other file formats including few listed below." >}}

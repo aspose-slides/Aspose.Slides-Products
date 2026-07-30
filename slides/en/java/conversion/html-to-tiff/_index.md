@@ -14,12 +14,12 @@ description: Convert HTML to TIFF in Java. Use Aspose.Slides for Java to import 
 
 [**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and save it as a `TIFF` file.
 
-You can load an `HTML` file into a `Presentation` and save the result with `SaveFormat.Tiff`.
+You can import an `HTML` file into a new `Presentation` with `addFromHtml` and save the result with `SaveFormat.Tiff`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to TIFF using Java" %}}
-To convert `HTML` to `TIFF`, create a `Presentation` from the source file and save it as a `TIFF` file.
+To convert `HTML` to `TIFF`, create a new `Presentation`, remove its default slide, import the source HTML with `addFromHtml`, and save the resulting presentation as a `TIFF` file.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting HTML into TIFF" offSpacer="true" %}}
 

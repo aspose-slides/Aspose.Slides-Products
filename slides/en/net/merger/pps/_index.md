@@ -120,7 +120,7 @@ mergedPresentation.Save("merged.pps", SaveFormat.Pps);
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS (PowerPoint Slide Show) is the binary slide show format used by PowerPoint 97–2003. PPSX is the newer slide show format based on the Office Open XML standard. Current versions of PowerPoint can open PPS files and can still save presentations in PPS format. When opened normally, a PPS file starts in slide show mode, whereas a PPT file opens in editing mode.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 

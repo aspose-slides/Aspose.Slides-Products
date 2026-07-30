@@ -92,7 +92,7 @@ foreach (var slide in presentation.Slides)
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert PPSM to BMP" 
-        sectionDescription="[Try our free app to convert PPT to BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" 
+sectionDescription="[Try our free app to convert PPSM to BMP](https://products.aspose.app/slides/conversion/ppsm-to-bmp)"
     >}}
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM into many other file formats, including those listed below." >}}

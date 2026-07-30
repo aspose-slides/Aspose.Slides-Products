@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert HTML content to JPG images and other presentat
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to JPG Using C++" %}}
-To convert HTML to JPG, create a Presentation from the HTML file and save each slide as a JPG image.
+To convert HTML to JPG, create a new Presentation, remove its default slide, import the HTML content with `AddFromHtml`, and save each resulting slide as a JPG image.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into JPG" offSpacer="true" %}}
 

@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the OTP to JPG conversion process.
 appName="conversion"
 extension=""
 sectionTitle="Free App to Convert OTP to JPG"
-sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion/ppt-to-jpg)"
+sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion/otp-to-jpg)"
 >}}
 
 <!-- aboutfile Ends -->

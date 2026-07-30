@@ -1,12 +1,12 @@
 ---
-title: SharePoint PowerPoint Conversion API
+title: PowerPoint Conversion Solution for SharePoint
 weight: 910
 url: /sharepoint/
-description: SharePoint PowerPoint solution for creating, managing, and converting PPT, PPTX, PPS, PPSX, POT, POTX, PDF, TIFF, and XPS files in SharePoint.
+description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX, and macro-enabled presentations to PDF, TIFF, XPS, SVG, SWF, HTML, and other presentation formats.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint PowerPoint Solution" h2="Manage and convert PowerPoint presentations in SharePoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-sharepoint.svg" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://releases.aspose.com/slides/sharepoint/" >}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint Conversion Solution for SharePoint" h2="Convert PowerPoint presentations directly from SharePoint document libraries." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-sharepoint.svg" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://releases.aspose.com/slides/sharepoint/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
 
@@ -14,11 +14,11 @@ description: SharePoint PowerPoint solution for creating, managing, and converti
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.Slides for SharePoint lets you manage and convert PowerPoint files in SharePoint. It can import common Microsoft presentation formats, including PPT, POT, PPS, PPTX, POTX, and PPSX, and export these formats to PDF, TIFF, and XPS files. Use SharePoint PPT functionality without Microsoft PowerPoint automation.
+ Aspose.Slides for SharePoint converts presentations directly from SharePoint document libraries. It supports common PowerPoint presentation, slideshow, and template formats and can export them to fixed-layout, image, and web formats without Microsoft PowerPoint automation.
 </p>
 
 <p>
- Aspose.Slides for SharePoint works with Windows SharePoint Services (WSS) 3.0 and Microsoft Office SharePoint Server 2007, 2010, and 2013.
+ Aspose.Slides for SharePoint works with Windows SharePoint Services (WSS) 3.0, Microsoft Office SharePoint Server 2007 Standard and Enterprise, and SharePoint Server 2013 and 2019.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -128,7 +128,7 @@ description: SharePoint PowerPoint solution for creating, managing, and converti
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for SharePoint supports most common presentation [file formats](https://docs.aspose.com/slides/sharepoint/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for SharePoint can load and save common PowerPoint [file formats](https://docs.aspose.com/slides/sharepoint/supported-file-formats/) and export presentations to fixed-layout, image, and web formats." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -142,9 +142,8 @@ description: SharePoint PowerPoint solution for creating, managing, and converti
      <b>
       Microsoft PowerPoint:
      </b>
-     PPT, PPTX, PPS, PPSX, PPTM, PPSM, POTX, POTM
+     PPT, PPTX, PPS, PPSX, PPTM, PPSM, POT, POTX, POTM
     </li>
-    <!--<li><b>OpenOffice:</b> ODP</li>-->
    </ul>
   </div>
   <!--/left-->
@@ -215,89 +214,89 @@ description: SharePoint PowerPoint solution for creating, managing, and converti
     <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Convert PowerPoint files from SharePoint document library
+     Convert PowerPoint files from SharePoint document libraries
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set the font size for individual legend entries
+     Choose the output format before conversion
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create stock charts and get chart images
+     Specify the output file name
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set rounded borders for chart areas
+     Select a destination folder for converted files
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Change category colors in a series
+     Save converted files in the source library
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-font ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set Font Properties for Chart Data Table
+     Save converted files in another document library
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-anchor ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Get default table background
+     Overwrite existing output files when required
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set the size represents property for bubble charts
+     Convert between supported PowerPoint formats
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-angle-left ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Hide the left slide thumbnails pane in generated PPT files
+     Export presentations to fixed-layout formats
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-book ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     External Excel workbooks supported
+     Export presentations to TIFF and SVG images
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-arrows ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set chart external data source workbook path
+     Export presentations to HTML or SWF
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Restrict local file system access when opening documents
+     Convert presentations without Microsoft PowerPoint
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert PowerPoint presentations to several formats
+     Convert PowerPoint Presentations to Multiple Formats
     </h2>
     <p>
      Aspose.Slides for SharePoint converts presentations from SharePoint document libraries to popular document exchange formats, including PDF, TIFF, and XPS.
@@ -308,7 +307,7 @@ description: SharePoint PowerPoint solution for creating, managing, and converti
      Easy and Lightweight Installation
     </h2>
     <p>
-     Aspose.Slides for SharePoint is available as a ZIP archive. Unpack it to a local drive on the MOSS 7.0 or WSS 3.0 server and run setup.exe.
+     Aspose.Slides for SharePoint is distributed as the <code>Aspose.Slides.SharePoint.zip</code> archive. Extract it to a local drive on the MOSS 2007 or WSS 3.0 server, and then run <code>Setup.exe</code>.
     </p>
    </div>
    <div class="col-lg-12">
@@ -345,7 +344,7 @@ description: SharePoint PowerPoint solution for creating, managing, and converti
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/sharepoint/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/sharepoint/" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/sharepoint/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/sharepoint" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
 

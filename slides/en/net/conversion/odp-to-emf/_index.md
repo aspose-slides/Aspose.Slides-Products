@@ -13,7 +13,7 @@ description: Convert ODP to EMF in C# using Aspose.Slides for .NET.
 
 {{% blocks/products/pf/agp/content h2="Convert ODP to EMF Using C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to load an ODP presentation and save it as a EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
+Use [Aspose.Slides for .NET](/slides/net/) to load an ODP presentation and export its first slide as an EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -30,14 +30,14 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert ODP to EMF via C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can easily load & convert ODP files to EMF in just a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can export a slide from an ODP file to EMF in just a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the ODP file with a `Presentation` object.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with the output file path and `SaveFormat.Emf`.
+Create an output stream and call the slide's `WriteAsEmf` method.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -66,7 +66,8 @@ Before you run the ODP to EMF conversion C# code, make sure that your environmen
 
 ```cs
 using var presentation = new Presentation("template.odp");
-presentation.Save("output.emf", SaveFormat.Emf);
+using var stream = System.IO.File.Create("output.emf");
+presentation.Slides[0].WriteAsEmf(stream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

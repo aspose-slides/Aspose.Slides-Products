@@ -104,7 +104,7 @@ Use the free app to see a demonstration of the ODP to JPG conversion process.
 appName="conversion"
 extension=""
 sectionTitle="Free App to Convert ODP to JPG" 
-sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion/ppt-to-jpg)"
+sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion/odp-to-jpg)"
 >}}
 
 <!-- aboutfile Ends -->

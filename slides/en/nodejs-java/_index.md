@@ -6,7 +6,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, Read, Modify, and Convert PowerPoint and OpenOffice presentations using Node.js without any external software." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenOffice presentations using Node.js without requiring Microsoft PowerPoint for core presentation operations." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" >}}
 
@@ -14,14 +14,14 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for Node.js via Java</strong> is a powerful presentation processing library that allows Node.js developers to create, edit, convert, and manage PowerPoint presentations programmatically &mdash; <strong>without relying on Microsoft PowerPoint or any other third-party software</strong>. It supports all major presentation elements including slides, text, shapes, charts, tables, images, SmartArt, and multimedia.</p>
+<p><strong>Aspose.Slides for Node.js via Java</strong> is a powerful presentation processing library that allows Node.js developers to create, edit, convert, and manage PowerPoint presentations programmatically without requiring Microsoft PowerPoint for core presentation processing. Optional workflows such as video encoding and AI-powered translation use external tools or services. The library supports all major presentation elements including slides, text, shapes, charts, tables, images, SmartArt, and multimedia.</p>
 
 <p><strong>Aspose.Slides for Node.js via Java</strong> provides these popular features:</p>
 <ul>
     <li>Loading, opening, and viewing presentations.</li>
     <li>Editing presentations.</li>
     <li>Converting presentation files to popular presentation formats, such as PPT, PPTX, and ODP.</li>
-    <li>Exporting presentations to high-quality video (MP4) with full support for animations and slide transitions.</li>
+    <li>Generating frames and timing data for high-quality videos with animations and slide transitions; encoding the frames into MP4 requires an external tool such as FFmpeg.</li>
     <li>Exporting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
     <li>Rendering and printing presentations.</li>
     <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>

@@ -105,7 +105,3 @@ Render the `Slide` with `Slide.get_image`, then call `IImage.save` with `ImageFo
 
 {{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-tion >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}

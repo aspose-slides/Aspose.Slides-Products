@@ -1,38 +1,34 @@
 ---
 title: Convert PDF to XML in Java
 url: /java/conversion/pdf-to-xml/
-keywords: PDF to XML, Convert PDF to XML, Java API, Java Library, PDF, XML
-description: Convert PDF to XML in Java. Use Aspose.Slides for Java to export PDF files as XML files.
+keywords: PDF to XML, Convert PDF to XML, PowerPoint XML Presentation, Java API, Java Library, PDF, XML
+description: Import PDF pages and save the result in PowerPoint XML Presentation format in Java with Aspose.Slides for Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in Java" h2="Convert PDF files to XML with Aspose.Slides for Java without Adobe Acrobat." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in Java" h2="Import PDF pages into presentation slides and save the result in PowerPoint XML Presentation format." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to XML in Java" %}}
 
-[**Aspose.Slides for Java**](/slides/java/) lets you import `PDF` files into a presentation and export slides as `XML` files. With this Java API, you can convert `PDF` content without Adobe Acrobat.
+[**Aspose.Slides for Java**](/slides/java/) lets you import PDF pages into presentation slides and save the resulting presentation in PowerPoint XML Presentation format without Adobe Acrobat.
+
+The generated XML represents a presentation and preserves the imported pages as slide content; it does not extract the PDF's logical structure into a generic XML schema.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to XML using Java" %}}
-To convert `PDF` to `XML`, create a `Presentation`, import the source file with `ISlideCollection.addFromPdf`, and export each imported slide with `ISlide.writeAsSvg`.
+To convert PDF content to PowerPoint XML, create a `Presentation`, remove its default slide, import the source file with `ISlideCollection.addFromPdf`, and call `save` with `SaveFormat.Xml`.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting PDF into XML" offSpacer="true" %}}
 
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     presentation.getSlides().addFromPdf("input.pdf");
-    for (ISlide slide : presentation.getSlides()) {
-        FileOutputStream outputStream = new FileOutputStream("slide_" + slide.getSlideNumber() + ".xml");
-        try {
-            slide.writeAsSvg(outputStream);
-        } finally {
-            outputStream.close();
-        }
-    }
+    presentation.save("output.xml", SaveFormat.Xml);
 } finally {
     presentation.dispose();
 }
@@ -60,7 +56,7 @@ Open the source `PDF` file in Java.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Save each slide as an `XML` file.
+Call `save` with the output file path and `SaveFormat.Xml`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

@@ -1,27 +1,27 @@
 ---
 title: Convert PDF to XML in PHP
 url: /php-java/conversion/pdf-to-xml/
-keywords: PDF to XML, Convert PDF to XML, PHP API, PHP Library, PDF, XML
-description: Import PDF pages and write each page as XML-based SVG markup in PHP with Aspose.Slides for PHP via Java.
+keywords: PDF to XML, Convert PDF to XML, PowerPoint XML Presentation, PHP API, PHP Library, PDF, XML
+description: Import PDF pages and save the result in PowerPoint XML Presentation format in PHP with Aspose.Slides for PHP via Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in PHP" h2="Import PDF pages and write each page as XML-based SVG markup with Aspose.Slides for PHP via Java." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in PHP" h2="Import PDF pages into presentation slides and save the result in PowerPoint XML Presentation format." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to XML in PHP" %}}
 
-[**Aspose.Slides for PHP via Java**](/slides/php-java/) can import PDF pages as presentation slides and serialize each slide as SVG, an XML-based vector graphics format.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) can import PDF pages into presentation slides and save the resulting presentation in PowerPoint XML Presentation format.
 
-The example writes the SVG markup to files with the `.xml` extension. It preserves the visual representation of each PDF page; it does not extract the document's logical structure into a generic XML schema.
+The generated XML represents a presentation and preserves the imported pages as slide content; it does not extract the PDF's logical structure into a generic XML schema.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to XML using PHP" %}}
-Create a `Presentation`, import the PDF pages with `addFromPdf`, and call `writeAsSvg` for each imported slide. Because SVG is XML, the resulting markup can be stored in an `.xml` file.
+Create a `Presentation`, remove its default slide, import the PDF pages with `addFromPdf`, and call `save` with `SaveFormat::Xml`.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for writing PDF pages as XML-based SVG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="PHP code for converting PDF into XML" offSpacer="true" %}}
 
 ```php
 $presentation = new Presentation();
@@ -29,17 +29,7 @@ try {
     $presentation->getSlides()->removeAt(0);
     $presentation->getSlides()->addFromPdf("document.pdf");
 
-    $slideCount = java_values($presentation->getSlides()->size());
-    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
-        $slide = $presentation->getSlides()->get_Item($slideIndex);
-        $filePath = "slide_" . ($slideIndex + 1) . ".xml";
-        $outputStream = new Java("java.io.FileOutputStream", $filePath);
-        try {
-            $slide->writeAsSvg($outputStream);
-        } finally {
-            $outputStream->close();
-        }
-    }
+    $presentation->save("output.xml", SaveFormat::Xml);
 } finally {
     $presentation->dispose();
 }
@@ -67,7 +57,7 @@ Import the PDF pages with `addFromPdf`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-For each slide, create an output stream and call `writeAsSvg` to write the XML-based SVG markup.
+Call `save` with the output file path and `SaveFormat::Xml`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

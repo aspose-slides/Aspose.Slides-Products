@@ -1,108 +1,87 @@
 ---
-title:  View or Edit PPT Files Metadata using Python
+title: View or Edit PPT Metadata with Python
 url: /python-net/metadata/ppt/
-keywords: Edit PPT Metadata, View PPT Metadata, Edit PPT properties, View PPT properties
-description: Python source code to edit or view PPT format metadata.
+keywords: Edit PPT Metadata, View PPT Metadata, Edit PPT Properties, View PPT Properties
+description: View and edit built-in and custom metadata properties in PPT files with Python.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edit PPT properties using Python" h2="Build your own Python apps to modify Built-in and Custom properties in presentation files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/upper-banner h1="View and Edit PPT Metadata with Python" h2="Build Python applications that read and modify built-in and custom presentation properties with Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Modify PPT Properties via Python" %}}
-Using Aspose.Slides for Python via .NET, developers can access and modify the values of built-in properties as well as custom properties. Developers can use [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) property exposed by Presentation object to access the document properties of the presentation file.
-{{% blocks/products/pf/agp/code-block title="Modify PPT Built-in Properties - Python" offSpacer="true" %}}
+{{% blocks/products/pf/feature-page-section  h2="View and Modify PPT Metadata with Python" %}}
+[**Aspose.Slides for Python via .NET**](/slides/python-net/) lets you read and update built-in metadata and add, update, or remove custom document properties in PPT presentations. Access an [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) object through `Presentation.document_properties`, modify it, and save the presentation in PPT format.
+{{% blocks/products/pf/agp/code-block title="Update Built-in PPT Properties - Python" offSpacer="true" %}}
 
-```py
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-import aspose.slides as slides
-
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.ppt") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.ppt", slides.export.SaveFormat.PPT)
+    presentation.save("presentation_with_updated_metadata.ppt", slides.export.SaveFormat.PPT)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Add Custom Properties to PPT - Python" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Add and Remove Custom PPT Properties - Python" offSpacer="true" %}}
 
-```py
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.ppt", slides.export.SaveFormat.PPT)
+    presentation.save("presentation_with_custom_metadata.ppt", slides.export.SaveFormat.PPT)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Extract Metadata of PPT via Python" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Edit PPT Metadata with Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to Extract Metadata from PPT files." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to edit metadata in a PPT file." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instantiate the Presentation class with path to PPT file
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the PPT file with `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Get DocumentProperties object associated with Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Access its `IDocumentProperties` object through `Presentation.document_properties`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Loop over the items in DocumentProperties object
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Update built-in properties or use `set_custom_property_value` and `remove_custom_property` for custom properties.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Access and modify custom properties
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Save the presentation with `Presentation.save` and `SaveFormat.PPT`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Metadata Formats" subTitle="Using Python, You can also manipulate metadata of many other formats including." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Metadata Formats" subTitle="Use Python to manipulate metadata in other supported presentation formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/metadata/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pptx/" name="PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

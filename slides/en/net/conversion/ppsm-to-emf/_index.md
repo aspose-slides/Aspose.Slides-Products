@@ -13,7 +13,7 @@ description: Convert PPSM to EMF in C# using Aspose.Slides for .NET. Use the sam
 
 {{% blocks/products/pf/agp/content h2="Convert PPSM to EMF Using C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to load a PPSM presentation and save it as an EMF file. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or run the following command in the Package Manager Console.
+Use [Aspose.Slides for .NET](/slides/net/) to load a PPSM presentation and export its first slide as an EMF file. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or run the following command in the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -29,14 +29,14 @@ PM> Install-Package Aspose.Slides.NET
 
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert PPSM to EMF via C#" >}}
-{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can load and convert PPSM files to EMF in just a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can export a slide from a PPSM file to EMF in just a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the PPSM file with a `Presentation` object.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with the output file path and `SaveFormat.Emf`.
+Create an output stream and call the slide's `WriteAsEmf` method.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -65,7 +65,8 @@ Before running the .NET conversion sample code, make sure that your environment 
 
 ```cs
 using var presentation = new Presentation("template.ppsm");
-presentation.Save("output.emf", SaveFormat.Emf);
+using var stream = System.IO.File.Create("output.emf");
+presentation.Slides[0].WriteAsEmf(stream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

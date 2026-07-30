@@ -13,7 +13,7 @@ description: Convert POTM to EMF in C# using Aspose.Slides for .NET. Use the sam
 
 {{% blocks/products/pf/agp/content h2="Convert POTM to EMF Using C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to load a POTM presentation and save it as an EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
+Use [Aspose.Slides for .NET](/slides/net/) to load a POTM presentation and export its first slide as an EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -29,14 +29,14 @@ PM> Install-Package Aspose.Slides.NET
 
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert POTM to EMF via C#" >}}
-{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can convert POTM files to EMF in a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can export a slide from a POTM file to EMF in a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the POTM file with a `Presentation` object.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with the output file path and `SaveFormat.Emf`.
+Create an output stream and call the slide's `WriteAsEmf` method.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -65,7 +65,8 @@ Use the output EMF file at the specified path.
 
 ```cs
 using var presentation = new Presentation("template.potm");
-presentation.Save("output.emf", SaveFormat.Emf);
+using var stream = System.IO.File.Create("output.emf");
+presentation.Slides[0].WriteAsEmf(stream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

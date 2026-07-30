@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html);
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert POTX to HTML"
-        sectionDescription="[Try our free app to convert PPT to HTML](https://products.aspose.app/slides/conversion/ppt-to-html)"
+sectionDescription="[Try our free app to convert POTX to HTML](https://products.aspose.app/slides/conversion/potx-to-html)"
     >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTX into many other file formats including few listed below." >}}

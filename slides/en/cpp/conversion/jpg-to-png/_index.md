@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert JPG content to PNG images and other presentati
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert JPG to PNG Using C++" %}}
-To convert JPG to PNG, create a Presentation from the JPG file and render each slide as a PNG image.
+To convert JPG to PNG, create a new Presentation, add the JPG file to its image collection, place it on a slide with `AddPictureFrame`, and render the slide as a PNG image.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting JPG into PNG" offSpacer="true" %}}
 

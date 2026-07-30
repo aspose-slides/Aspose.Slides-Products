@@ -34,21 +34,21 @@ Basic document editing with [Aspose.Slides for .NET](/slides/net/) can be done w
 
 {{% /blocks/products/pf/agp/text %}}
 
-{{% blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Load the OTP file with a `Presentation` object.
-{{% /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{% blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Access the target slide and shape through variables.
-{{% /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{% blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Update the text through `TextFrame`.
-{{% /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{% blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
 Save the edited presentation with `SaveFormat.Otp`.
-{{% /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

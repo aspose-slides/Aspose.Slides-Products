@@ -14,12 +14,12 @@ description: Convert HTML to PNG in Java. Use Java library API to convert HTML f
 
 [**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and render the resulting slides as `PNG` images.
 
-You can load an `HTML` file into a `Presentation`, render each `ISlide` as an `IImage`, and save the output with `ImageFormat.Png`.
+You can import an `HTML` file into a new `Presentation` with `addFromHtml`, render each resulting `ISlide` as an `IImage`, and save the output with `ImageFormat.Png`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to PNG using Java" %}}
-To convert `HTML` to `PNG`, create a `Presentation` from the source file and render its slides.
+To convert `HTML` to `PNG`, create a new `Presentation`, remove its default slide, import the source HTML with `addFromHtml`, and render the resulting slides.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting HTML into PNG" offSpacer="true" %}}
 
