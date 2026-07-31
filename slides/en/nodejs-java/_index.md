@@ -6,7 +6,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenOffice presentations using Node.js without requiring Microsoft PowerPoint for core presentation operations." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenDocument presentations using Node.js without requiring Microsoft PowerPoint for core presentation operations." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-java-header.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" downloadUrl="https://releases.aspose.com/slides/nodejs-java/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via Java" >}}
 
@@ -48,7 +48,7 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
    </header>
    <ul>
     <li>Manage Charts</li>
-    <li>Manage SmartArts</li>
+    <li>Manage SmartArt graphics</li>
     <li>Manage PowerPoint Shapes</li>
     <li>Manage ActiveX Controls</li>
     <li>Manage OLE Objects</li>
@@ -141,9 +141,9 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
     Input/Output
    </header>
    <ul>
-    <li><b>Microsoft PowerPoint:</b>PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM</li>
-    <li><b>OpenOffice:</b>ODP</li>
-    <li><b>Fixed Layout:</b>PDF</li>
+    <li><b>Microsoft PowerPoint:</b> PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM</li>
+    <li><b>OpenDocument:</b> ODP</li>
+    <li><b>Fixed Layout:</b> PDF</li>
    </ul>
   </div>
   <!--/left-->
@@ -154,10 +154,10 @@ description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that
     Output Only
    </header>
    <ul>
-    <li><b>Fixed Layout:</b>PDF, PDF/A, XPS</li>
-    <li><b>Images:</b>JPEG, PNG, BMP, TIFF, GIF</li>
+     <li><b>Fixed Layout:</b> PDF/A, XPS</li>
+    <li><b>Images:</b> JPEG, PNG, BMP, TIFF, GIF</li>
     <li>SVG</li>
-    <li><b>Web:</b>HTML</li>
+    <li><b>Web:</b> HTML</li>
    </ul>
   </div>
   <!--/right-->
@@ -314,7 +314,7 @@ finally {
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to PDF in Node.js</h2>
-        <p>This Node.js code shows how to convert a PowerPoint PPT, PPTX, or OpenOffice ODP document to PDF using the default options.</p>
+        <p>This Node.js code shows how to convert a PPT, PPTX, or OpenDocument Presentation (ODP) file to PDF using the default options.</p>
         <pre>
             <code class="javascript">
 const presentation = new aspose.slides.Presentation("presentation.ppt");
@@ -329,7 +329,7 @@ finally {
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Convert PowerPoint to JPG in Node.js</h2>
-        <p>The following example shows you how to convert a PowerPoint PPT, PPTX, or OpenOffice ODP document into a set of JPEG images.</p>
+        <p>The following example shows you how to convert a PPT, PPTX, or OpenDocument Presentation (ODP) file into a set of JPEG images.</p>
         <pre>
             <code class="javascript">
 const presentation = new aspose.slides.Presentation("presentation.pptx");

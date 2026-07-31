@@ -1,7 +1,7 @@
 ---
 title: View OTP in Python
 url: /python-net/viewer/otp/
-keywords: View OTP, View OpenOffice Presentation, Open OTP, OTP Viewer, OTP, Python API, Python Library
+keywords: View OTP, View OpenDocument Presentation, Open OTP, OTP Viewer, OTP, Python API, Python Library
 description: Open an OTP presentation template in Python and export it to responsive HTML for viewing in a browser.
 ---
 

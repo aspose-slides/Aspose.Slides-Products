@@ -56,12 +56,12 @@ Save the merged file with `SaveFormat::Otp`.
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.Slides for C++ supports on all major platforms and Operating Systems. Please make sure that you have the following prerequisites.
+ Aspose.Slides for C++ is supported on all major platforms and operating systems. Please make sure that you have the following prerequisites.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.Slides for C++ DLL referenced in your project.
+-  Microsoft Windows, Linux, macOS, or another compatible OS with the supported C++ runtime.
+-  Aspose.Slides for C++ library referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -94,7 +94,7 @@ destinationPresentation->Dispose();
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for C++ API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice.  
+ The Aspose.Slides API can read, write, manipulate, and convert Microsoft PowerPoint presentations to PDF, XPS, HTML, TIFF, ODP, and other supported formats. You can create presentations from scratch and save them in a supported output format. Aspose.Slides is a standalone API for creating, parsing, and manipulating presentations, slides, and their elements; it does not require Microsoft PowerPoint or OpenOffice.  
 
 
 
@@ -102,14 +102,14 @@ destinationPresentation->Dispose();
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online OTP Merger Live Demos" sectionDescription="Merge OTP documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online OTP Merger Live Demos" sectionDescription="Merge OTP documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your OTP files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX. 
+Files with the `.OTP` extension are OpenDocument presentation templates. They store reusable layouts, styles, formatting, backgrounds, and other content for creating new presentations with a consistent design. OTP files can be created and opened by applications that support the OpenDocument Format (ODF). The format is comparable to the Microsoft PowerPoint POT and POTX template formats.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 

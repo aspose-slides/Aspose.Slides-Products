@@ -2,7 +2,7 @@
 title: Convert POTX to PNG in C#
 weight: 8450
 url: /net/conversion/potx-to-png/
-description: Convert POTX to PNG in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert POTX to PNG in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -59,7 +59,7 @@ Call the image `Save` method with `ImageFormat.Png`.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -95,15 +95,15 @@ foreach (var slide in presentation.Slides)
 sectionDescription="[Try our free app to convert POTX to PNG](https://products.aspose.app/slides/conversion/potx-to-png)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTX into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTX into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-emf/" name="POTX TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-gif/" name="POTX TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-gif/" name="POTX TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-html/" name="POTX TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-jpeg/" name="POTX TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-odp/" name="POTX TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-pdf/" name="POTX TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-pot/" name="POTX TO POT" description="PowerPoint Template Files" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-potm/" name="POTX TO POTM" description="PowerPoint Macro-Enabled Template" >}}
@@ -115,8 +115,8 @@ sectionDescription="[Try our free app to convert POTX to PNG](https://products.a
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-svg/" name="POTX TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-swf/" name="POTX TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-xps/" name="POTX TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potx-to-xps/" name="POTX TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

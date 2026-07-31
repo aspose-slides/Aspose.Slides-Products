@@ -8,7 +8,7 @@ description: Merge multiple PDF files in Python and save the combined pages as a
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge PDF Files and Save as FODP in Python" h2="Import pages from multiple PDF files and save the combined content as a FODP presentation with a cross-platform Python API" >}}
+{{< blocks/products/pf/feature-page-header h1="Merge PDF Files and Save as FODP in Python" h2="Import pages from multiple PDF files and save the combined content as an FODP presentation with a cross-platform Python API" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge PDF to FODP in Python" %}}
 

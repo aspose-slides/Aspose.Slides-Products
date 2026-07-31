@@ -2,7 +2,7 @@
 title: Convert PDF to PPT in C#
 url: /net/conversion/pdf-to-ppt/
 keywords: Convert PDF to PPT, PDF to PPT, PowerPoint, PDF, PPT, C# API, .NET Library
-description: Convert PDF to PPT in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PDF to PPT in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

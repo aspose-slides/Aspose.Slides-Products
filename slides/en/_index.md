@@ -96,7 +96,7 @@ Convert PowerPoint and OpenDocument presentations to `PDF`, `HTML`, images, and 
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our ASP.Net servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
+ We have found Aspose.Slides to be easy to use and to work nicely on our ASP.NET servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
  <em>
   Rick Joi | Workplace Dynamics, UK
  </em>

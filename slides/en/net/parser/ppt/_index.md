@@ -29,7 +29,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Parse PPT Files in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document parsing with [Aspose.Slides for .NET](/slides/net/) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Basic document parsing with the [Aspose.Slides for .NET](/slides/net/) API requires just a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the PPT file with `Presentation`.

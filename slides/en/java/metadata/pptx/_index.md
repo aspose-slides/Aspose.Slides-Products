@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPTX Files Metadata using Java
+title: View or Edit PPTX File Metadata Using Java
 url: /java/metadata/pptx/
 keywords: Edit PPTX Metadata, View PPTX Metadata, Edit PPTX properties, View PPTX properties
 description: View and edit PPTX metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

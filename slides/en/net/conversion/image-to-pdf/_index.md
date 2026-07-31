@@ -62,7 +62,7 @@ Before you run the image to PDF conversion C# code, make sure that your environm
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 

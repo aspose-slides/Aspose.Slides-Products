@@ -51,8 +51,8 @@ Before running the C++ conversion example, make sure that the following prerequi
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with a C++ runtime environment for Windows 32-bit, Windows 64-bit, or Linux 64-bit.
-- Aspose.Slides for C++ DLL referenced in your project.
+- Microsoft Windows, Linux, macOS, or another compatible OS with the supported C++ runtime.
+- Aspose.Slides for C++ library referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -86,25 +86,25 @@ presentation->Dispose();
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-html/" name="PPSM TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphics Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-html/" name="PPSM TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-jpeg/" name="PPSM TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-png/" name="PPSM TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pot/" name="PPSM TO POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pot/" name="PPSM TO POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="PowerPoint Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-xml/" name="PPSM TO XML" description="Extensible Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-xml/" name="PPSM TO XML" description="PowerPoint XML Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

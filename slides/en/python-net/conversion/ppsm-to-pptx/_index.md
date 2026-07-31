@@ -93,7 +93,7 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-emf/" name="PPSM TO EMF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="OpenDocument Flat XML Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="HyperText Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument Presentation Template" >}}

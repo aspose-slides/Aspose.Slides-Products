@@ -2,11 +2,11 @@
 title: PHP PowerPoint API for PPT, PPTX, and ODP Presentations
 weight: 5890
 url: /php-java/
-description: PHP library for creating, editing, converting, and processing PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, ODP, PDF, and other presentation formats.
+description: PHP library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations" h2="Create, read, modify, merge, clone, protect, and convert PowerPoint and OpenOffice presentations in PHP without external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://releases.aspose.com/slides/php-java/" >}}
+{{< blocks/products/pf/upper-banner h1="PHP PowerPoint API for Presentations" h2="Create, read, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in PHP without requiring Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-php-via-java.svg" pfName="Aspose.Slides" subTitlepfName="for PHP via Java" downloadUrl="https://releases.aspose.com/slides/php-java/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for PHP via Java" >}}
 
@@ -14,7 +14,7 @@ description: PHP library for creating, editing, converting, and processing PPT, 
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for PHP via Java</strong> is a presentation processing library that lets PHP applications read, edit, manipulate, and convert PowerPoint and OpenOffice presentations without Microsoft PowerPoint or third-party software.</p>
+<p><strong>Aspose.Slides for PHP via Java</strong> is a presentation processing library that lets PHP applications read, edit, manipulate, and convert PowerPoint and OpenDocument presentations without requiring Microsoft PowerPoint.</p>
 
 <p><strong>Aspose.Slides for PHP via Java</strong> provides these popular features:</p>
 <ul>

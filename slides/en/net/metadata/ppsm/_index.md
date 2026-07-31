@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPSM Files Metadata using .NET
+title: View or Edit PPSM File Metadata Using .NET
 url: /net/metadata/ppsm/
 keywords: Edit PPSM Metadata, View PPSM Metadata, Edit PPSM properties, View PPSM properties
 description: C# source code to edit or view PPSM format metadata.

@@ -2,7 +2,7 @@
 title: PowerPoint Conversion Solution for SharePoint
 weight: 910
 url: /sharepoint/
-description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX, and macro-enabled presentations to PDF, TIFF, XPS, SVG, SWF, HTML, and other presentation formats.
+description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX, and macro-enabled presentations to PDF, TIFF, XPS, SVG, SWF, HTML, and other output formats.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX,
 </p>
 
 <p>
- Aspose.Slides for SharePoint works with Windows SharePoint Services (WSS) 3.0, Microsoft Office SharePoint Server 2007 Standard and Enterprise, and SharePoint Server 2013 and 2019.
+ Aspose.Slides for SharePoint works with Windows SharePoint Services (WSS) 3.0, Microsoft Office SharePoint Server 2007 Standard and Enterprise, and SharePoint Server 2010, 2013, and 2019.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -84,6 +84,9 @@ description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX,
     </li>
     <li>
      2007 (MOSS Enterprise)
+    </li>
+    <li>
+     2010
     </li>
     <li>
      2013

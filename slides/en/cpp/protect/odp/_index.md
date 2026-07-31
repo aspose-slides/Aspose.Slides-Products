@@ -10,9 +10,9 @@ description: Protect ODP presentations in C++. Use Aspose.Slides for C++ to encr
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Protecting a ODP Presentation via C++" %}}
+{{% blocks/products/pf/feature-page-section  h2="Protecting an ODP Presentation via C++" %}}
 Aspose.Slides for C++ lets you protect ODP presentations from opening or modification. Use the `ProtectionManager` object from the `Presentation` class to encrypt a file with `Encrypt` or restrict editing with `SetWriteProtection`.
-{{% blocks/products/pf/agp/code-block title="Encrypting a ODP Presentation using C++" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Encrypting an ODP Presentation using C++" offSpacer="true" %}}
 
 ```cpp
 auto presentation = MakeObject<Presentation>(u"presentation.odp");
@@ -24,7 +24,7 @@ presentation->Dispose();
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Setting Write Protection to a ODP Presentation using C++" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Setting Write Protection to an ODP Presentation using C++" offSpacer="true" %}}
 
 ```cpp
 auto presentation = MakeObject<Presentation>(u"presentation.odp");

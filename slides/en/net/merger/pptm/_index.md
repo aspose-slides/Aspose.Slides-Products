@@ -2,7 +2,7 @@
 title: Merge PPTM Files using .NET
 weight: 5580
 url: /net/merger/pptm/
-description: C# source code to merge PPTM files on .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin platforms.
+description: C# source code to merge PPTM files with Aspose.Slides for .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,7 +64,7 @@ Open the merged PPTM file in a compatible program.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio
 -  Aspose.Slides for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
@@ -105,7 +105,7 @@ mergedPresentation.Save("merged.pptm", SaveFormat.Pptm);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice.
+ The Aspose.Slides API can read, write, manipulate, and convert Microsoft PowerPoint presentations to PDF, XPS, HTML, TIFF, ODP, and other supported formats. You can create presentations from scratch and save them in a supported output format. Aspose.Slides is a standalone API for creating, parsing, and manipulating presentations, slides, and their elements; it does not require Microsoft PowerPoint or OpenOffice.
 
 
 
@@ -113,14 +113,14 @@ mergedPresentation.Save("merged.pptm", SaveFormat.Pptm);
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTM Merger Live Demos" sectionDescription="Merge PPTM documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTM Merger Live Demos" sectionDescription="Merge PPTM documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTM files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" >}}
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files, but PPTM can store VBA macro code whereas PPTX cannot. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM, which opens in Slide Show view by default but can also be opened in PowerPoint for editing. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+Files with the `.PPTM` extension are macro-enabled presentation files introduced with Microsoft PowerPoint 2007. They are similar to PPTX files, but PPTM files can store VBA macro code, whereas PPTX files cannot. PPTM files can be opened and edited in Microsoft PowerPoint. The related PPSM format opens in Slide Show view by default but can also be opened in PowerPoint for editing. Like PPTX files, PPTM files can contain text, images, videos, charts, and other presentation content.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,15 +131,15 @@ Files with PPTM extension are Macro-enabled Presentation files that are created 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Merging Formats" subTitle="You can also merge many other file formats in C#." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/odp/" name="ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/otp/" name="OTP" description="OpenDocument Presentation Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pot/" name="POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potm/" name="POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potx/" name="POTX" description="PowerPoint Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptx/" name="PPTX" description="Open XML Presentation Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

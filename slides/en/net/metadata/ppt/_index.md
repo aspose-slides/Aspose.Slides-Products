@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPT Files Metadata using .NET
+title: View or Edit PPT File Metadata Using .NET
 url: /net/metadata/ppt/
 keywords: Edit PPT Metadata, View PPT Metadata, Edit PPT properties, View PPT properties
 description: C# source code to edit or view PPT format metadata.

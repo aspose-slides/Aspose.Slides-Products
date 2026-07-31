@@ -15,9 +15,9 @@ description: C++ example code to create charts in PPT presentations on Windows a
 
  To create charts in a PPT file, use
  [Aspose.Slides for C++](/slides/cpp/)
- API, a feature-rich and easy-to-use presentation manipulation API for C++. You can download its latest version directly, just open
+ API, a feature-rich and easy-to-use presentation manipulation API for C++. To download the latest version, open the
  [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/)
- package manager, search for
+ Package Manager, search for
  **Aspose.Slides.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
@@ -94,8 +94,8 @@ Save the PPT file.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with the C++ runtime environment for Windows 32-bit, Windows 64-bit, or Linux 64-bit.
--  Aspose.Slides for C++ DLL referenced in your project.
+-  Microsoft Windows, Linux, macOS, or another compatible OS with the supported C++ runtime.
+-  Aspose.Slides for C++ library referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -187,8 +187,8 @@ presentation->Dispose();
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for C++ API" %}}
 
  Create PPT presentation charts online by visiting the
- [Live Demos website](https://products.aspose.app/slides/chart)
- . The live demo has the following benefits
+ [Live Demos website](https://products.aspose.app/slides/chart).
+ The live demo has the following benefits:
 
 
 
@@ -196,7 +196,7 @@ presentation->Dispose();
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Chart Creation Live Demos" sectionDescription="Generate PPT documents charts right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Chart Creation Live Demos" sectionDescription="Generate charts in PPT documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}

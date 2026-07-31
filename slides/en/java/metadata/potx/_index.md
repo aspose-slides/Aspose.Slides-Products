@@ -1,5 +1,5 @@
 ---
-title: View or Edit POTX Files Metadata using Java
+title: View or Edit POTX File Metadata Using Java
 url: /java/metadata/potx/
 keywords: Edit POTX Metadata, View POTX Metadata, Edit POTX properties, View POTX properties
 description: View and edit POTX metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

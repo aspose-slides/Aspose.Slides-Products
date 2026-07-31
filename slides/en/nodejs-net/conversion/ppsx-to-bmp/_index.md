@@ -19,7 +19,7 @@ description: Convert PPSX to BMP in Node.js. Use a Node.js library API to conver
 {{% blocks/products/pf/feature-page-section  h2="Convert PPSX to BMP in Node.js" %}}
 To convert `PPSX` to `BMP`, create a `Presentation` from the source file and export each slide to a `BMP` image.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPSX into BMP" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPSX into BMP" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppsx");

@@ -16,7 +16,7 @@ description: Convert a PowerPoint PPSM slide show to an OpenDocument Presentatio
 
 [*Aspose.Slides for PHP via Java*](/slides/php-java/) can load a PowerPoint PPSM slide show and save it as an OpenDocument Presentation without Microsoft PowerPoint.
 
-Call \`save\` with \`SaveFormat::Odp\` to create the ODP file. The VBA project from the source PPSM file is not retained in the ODP output.
+Call `save` with `SaveFormat::Odp` to create the ODP file. The VBA project from the source PPSM file is not retained in the ODP output.
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -97,7 +97,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="Flat OpenDocument Presentation" >}}

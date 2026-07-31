@@ -8,7 +8,7 @@ description: Merge HTML files in C#. Use the .NET library API to combine HTML co
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge HTML in C#" h2="Merge HTML files with a cross-platform .NET API for .NET Framework, .NET Core, Windows Azure, Mono, and Xamarin." >}}
+{{< blocks/products/pf/feature-page-header h1="Merge HTML in C#" h2="Merge HTML files with a cross-platform .NET API." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge HTML to HTML using Aspose.Slides" %}}
 

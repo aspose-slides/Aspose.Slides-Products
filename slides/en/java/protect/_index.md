@@ -1,11 +1,11 @@
 ---
 title: Lock or Password Protect Presentations using Java
 url: /java/protect/
-description: Set passwords and write protection for PowerPoint and OpenOffice presentations in Java.
+description: Set passwords and write protection for PowerPoint and OpenDocument presentations in Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lock or Password Protect PowerPoint and OpenOffice documents using Java" h2="Build Java applications that set passwords on presentations using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+{{< blocks/products/pf/upper-banner h1="Lock or Password Protect PowerPoint and OpenDocument presentations using Java" h2="Build Java applications that set passwords on presentations using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
 
 {{< blocks/products/pf/main-container >}}
 

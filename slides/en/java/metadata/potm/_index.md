@@ -1,5 +1,5 @@
 ---
-title: View or Edit POTM Files Metadata using Java
+title: View or Edit POTM File Metadata Using Java
 url: /java/metadata/potm/
 keywords: Edit POTM Metadata, View POTM Metadata, Edit POTM properties, View POTM properties
 description: View and edit POTM metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

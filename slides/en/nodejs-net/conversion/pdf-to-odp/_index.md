@@ -12,12 +12,12 @@ description: Convert PDF to ODP in Node.js. Use a Node.js library API to convert
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to ODP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. Create a `Presentation`, import a `PDF` file with the `addFromPdf` method, and export the presentation to a `ODP` file.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. Create a `Presentation`, import a `PDF` file with the `addFromPdf` method, and export the presentation to an `ODP` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to ODP using Node.js" %}}
-To convert `PDF` to `ODP`, create a `Presentation`, import the source file with `addFromPdf`, and export the presentation to a `ODP` file.
+To convert `PDF` to `ODP`, create a `Presentation`, import the source file with `addFromPdf`, and export the presentation to an `ODP` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert PDF to ODP" offSpacer="true" %}}
 

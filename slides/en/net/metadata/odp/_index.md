@@ -1,5 +1,5 @@
 ---
-title: View or Edit ODP Files Metadata using .NET
+title: View or Edit ODP File Metadata Using .NET
 url: /net/metadata/odp/
 keywords: Edit ODP Metadata, View ODP Metadata, Edit ODP properties, View ODP properties
 description: C# source code to edit or view ODP format metadata.

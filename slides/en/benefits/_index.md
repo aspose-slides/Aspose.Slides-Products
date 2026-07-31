@@ -45,7 +45,7 @@ The following examples show how Aspose.Slides renders text shadows and shape eff
 
 {{% blocks/products/pf/feature-page-section  h2="Export presentations to PDF with various PDF compliance settings" %}}
 
-Aspose.Slides can export presentations to PDF with compliance settings such as PDF/A, PDF/X, and PDF/UA. These settings help PDF files meet requirements for archiving, printing, and accessibility.
+Aspose.Slides can export presentations to PDF with compliance settings such as PDF/A and PDF/UA. These settings help PDF files meet requirements for archiving and accessibility.
 
 You can use the `Compliance` property of the `PdfOptions` class to specify the desired conformance level for the generated PDF document. The `Compliance` property is of type `PdfCompliance`, which is an enumeration that defines the possible values for the PDF standards compliance level. You can find more information about the [PdfCompliance](https://reference.aspose.com/slides/net/aspose.slides.export/pdfcompliance/) enumeration in the Aspose.Slides for .NET API reference.
 

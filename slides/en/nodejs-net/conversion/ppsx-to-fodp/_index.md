@@ -12,14 +12,14 @@ description: Convert PPSX to FODP in Node.js. Use a Node.js library API to conve
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPSX to FODP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPSX` file with the `Presentation` class and export it to a `FODP` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPSX` file with the `Presentation` class and export it to an `FODP` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PPSX to FODP in Node.js" %}}
-To convert `PPSX` to `FODP`, create a `Presentation` from the source file and export it to a `FODP` file.
+To convert `PPSX` to `FODP`, create a `Presentation` from the source file and export it to an `FODP` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPSX into FODP" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPSX into FODP" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppsx");
@@ -53,7 +53,7 @@ Load the source `PPSX` file with the `Presentation` class.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call `save` to export the presentation as a `FODP` file with `SaveFormat.Fodp`.
+Call `save` to export the presentation as an `FODP` file with `SaveFormat.Fodp`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

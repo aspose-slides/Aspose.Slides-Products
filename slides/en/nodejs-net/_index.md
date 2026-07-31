@@ -6,7 +6,7 @@ description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenOffice presentations using Node.js without external software." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" downloadUrl="https://releases.aspose.com/slides/nodejs-net/" >}}
+{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenDocument presentations using Node.js without requiring Microsoft PowerPoint." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" downloadUrl="https://releases.aspose.com/slides/nodejs-net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" >}}
 

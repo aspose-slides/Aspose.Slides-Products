@@ -19,7 +19,7 @@ description: Convert POTX to PPS in Node.js. Use a Node.js library API to conver
 {{% blocks/products/pf/feature-page-section  h2="Convert POTX to PPS in Node.js" %}}
 To convert `POTX` to `PPS`, create a `Presentation` from the source file and export it to a `PPS` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert POTX into PPS" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert POTX into PPS" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.potx");

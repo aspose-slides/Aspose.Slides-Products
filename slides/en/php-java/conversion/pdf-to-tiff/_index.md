@@ -99,7 +99,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-fodp/" name="PDF TO FODP" description="Flat OpenDocument Presentation" >}}

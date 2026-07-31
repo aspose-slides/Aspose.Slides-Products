@@ -12,12 +12,12 @@ description: Convert PDF to OTP in Node.js. Use a Node.js library API to convert
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to OTP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. Create a `Presentation`, import a `PDF` file with the `addFromPdf` method, and export the presentation to a `OTP` file.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. Create a `Presentation`, import a `PDF` file with the `addFromPdf` method, and export the presentation to an `OTP` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to OTP using Node.js" %}}
-To convert `PDF` to `OTP`, create a `Presentation`, import the source file with `addFromPdf`, and export the presentation to a `OTP` file.
+To convert `PDF` to `OTP`, create a `Presentation`, import the source file with `addFromPdf`, and export the presentation to an `OTP` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert PDF to OTP" offSpacer="true" %}}
 

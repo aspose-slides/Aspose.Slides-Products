@@ -19,7 +19,7 @@ description: Convert PPS to PPSX in Node.js. Use a Node.js library API to conver
 {{% blocks/products/pf/feature-page-section  h2="Convert PPS to PPSX in Node.js" %}}
 To convert `PPS` to `PPSX`, create a `Presentation` from the source file and export it to a `PPSX` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPS into PPSX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPS into PPSX" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.pps");

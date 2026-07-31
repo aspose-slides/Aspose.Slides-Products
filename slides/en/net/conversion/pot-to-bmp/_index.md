@@ -2,7 +2,7 @@
 title: Convert POT to BMP in C#
 weight: 1670
 url: /net/conversion/pot-to-bmp/
-description: Convert POT to BMP in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert POT to BMP in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,7 +60,7 @@ Call the image `Save` method with `ImageFormat.Bmp`.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -96,14 +96,14 @@ foreach (var slide in presentation.Slides)
 sectionDescription="[Try our free app to convert POT to BMP](https://products.aspose.app/slides/conversion/pot-to-bmp)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-emf/" name="POT TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-gif/" name="POT TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-html/" name="POT TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-pdf/" name="POT TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-png/" name="POT TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-potm/" name="POT TO POTM" description="PowerPoint Macro-Enabled Template" >}}
@@ -116,8 +116,8 @@ sectionDescription="[Try our free app to convert POT to BMP](https://products.as
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-pptx/" name="POT TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-svg/" name="POT TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-swf/" name="POT TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-xps/" name="POT TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pot-to-xps/" name="POT TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -2,7 +2,7 @@
 title: Convert HTML to Image in Java
 url: /java/conversion/html-to-image/
 keywords: HTML to Image, Convert HTML to Image, Java API, Java Library, HTML, Image
-description: Convert HTML to Image in Java. Use Java library API to convert HTML files to Images
+description: Convert HTML to Image in Java. Use Java library API to convert HTML files to images.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

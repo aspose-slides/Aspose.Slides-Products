@@ -2,7 +2,7 @@
 title: Convert PDF to PPTX in C#
 url: /net/conversion/pdf-to-pptx/
 keywords: Convert PDF to PPTX, PDF to PPTX, PowerPoint, PDF, PPTX, C# API, .NET Library
-description: Convert PDF to PPTX in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PDF to PPTX in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

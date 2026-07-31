@@ -2,7 +2,7 @@
 title: Convert OTP to PPT in C#
 weight: 6070
 url: /net/conversion/otp-to-ppt/
-description: Convert OTP to PPT in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert OTP to PPT in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -56,7 +56,7 @@ Use the output PPT file at the specified path.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -87,11 +87,11 @@ presentation.Save("output.ppt", SaveFormat.Ppt);
         sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-emf/" name="OTP TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-gif/" name="OTP TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-gif/" name="OTP TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-html/" name="OTP TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-odp/" name="OTP TO ODP" description="OpenDocument Presentation Format" >}}
@@ -107,8 +107,8 @@ presentation.Save("output.ppt", SaveFormat.Ppt);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-svg/" name="OTP TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-swf/" name="OTP TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-xps/" name="OTP TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-xps/" name="OTP TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

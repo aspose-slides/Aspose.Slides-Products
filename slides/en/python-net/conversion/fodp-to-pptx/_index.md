@@ -34,7 +34,7 @@ pip install aspose-slides
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert FODP to PPTX in Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert a FODP file to PPTX using Python." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert an FODP file to PPTX using Python." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the FODP file into a `Presentation` instance.
@@ -92,7 +92,7 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-emf/" name="FODP TO EMF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-gif/" name="FODP TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="HyperText Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-html/" name="FODP TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-jpg/" name="FODP TO JPG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument Presentation Template" >}}

@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPSM Files Metadata using Java
+title: View or Edit PPSM File Metadata Using Java
 url: /java/metadata/ppsm/
 keywords: Edit PPSM Metadata, View PPSM Metadata, Edit PPSM properties, View PPSM properties
 description: View and edit PPSM metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

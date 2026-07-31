@@ -47,7 +47,7 @@ description: Aspose.Slides for .NET Core is a PowerPoint API for building .NET C
      Manage Charts
     </li>
     <li>
-     Manage SmartArts
+     Manage SmartArt graphics
     </li>
     <li>
      Manage PowerPoint Shapes
@@ -351,9 +351,9 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
 <h2 class="h2title">Support For Office Open XML</h2>
 
-<p>Office OpenXML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
+<p>Office Open XML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
 
-<p>PresentationML (OOXML, PPTX) is the markup language used by Microsoft Office PowerPoint 2007 to store its documents. Aspose.Slides for .NET extensively supports creating, reading, manipulating and writing PresentationML documents.</p>
+<p>PresentationML is the presentation-specific markup language defined by Office Open XML (OOXML). PPTX files use an OOXML package that contains PresentationML parts. Aspose.Slides for .NET supports creating, reading, manipulating, and writing PresentationML content.</p>
 
 </div>-->
   </div>
@@ -367,7 +367,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our ASP.Net servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
+ We have found Aspose.Slides to be easy to use and to work nicely on our ASP.NET servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
  <em>
   Rick Joi | Workplace Dynamics, UK
  </em>

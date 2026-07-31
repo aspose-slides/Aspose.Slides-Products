@@ -56,7 +56,7 @@ Clone each source slide by using [`add_clone`](https://reference.aspose.com/slid
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Save the merged presentation as a FODP file by using `SaveFormat.FODP`.
+Save the merged presentation as an FODP file by using `SaveFormat.FODP`.
 
 {{% /blocks/products/pf/agp/step-autogen %}}
 

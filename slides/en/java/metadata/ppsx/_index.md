@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPSX Files Metadata using Java
+title: View or Edit PPSX File Metadata Using Java
 url: /java/metadata/ppsx/
 keywords: Edit PPSX Metadata, View PPSX Metadata, Edit PPSX properties, View PPSX properties
 description: View and edit PPSX metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

@@ -1,5 +1,5 @@
 ---
-title: View or Edit POTM Files Metadata using .NET
+title: View or Edit POTM File Metadata Using .NET
 url: /net/metadata/potm/
 keywords: Edit POTM Metadata, View POTM Metadata, Edit POTM properties, View POTM properties
 description: C# source code to edit or view POTM format metadata.

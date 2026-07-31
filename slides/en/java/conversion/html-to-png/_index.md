@@ -2,7 +2,7 @@
 title: Convert HTML to PNG in Java
 url: /java/conversion/html-to-png/
 keywords: HTML to PNG, Convert HTML to PNG, Java API, Java Library, HTML, PNG
-description: Convert HTML to PNG in Java. Use Java library API to convert HTML files to PNGs
+description: Convert HTML to PNG in Java. Use Java library API to convert HTML files to PNGs.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

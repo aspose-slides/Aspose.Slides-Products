@@ -214,7 +214,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
 
 <div class="col-lg-4"><em class="fa fa-file-text ico-blue fa-2x col-lg-2"> </em>
 
-<p class="col-lg-10">Create images, text, lines and export these reports to Microsoft PowerPoint presentation</p>
+<p class="col-lg-10">Create reports containing images, text, and lines, and export them to Microsoft PowerPoint presentations</p>
 
 </div>-->
    <h2 class="pr-ft">

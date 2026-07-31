@@ -16,7 +16,7 @@ description: Convert a PowerPoint PPS slide show to a multipage TIFF image in PH
 
 [*Aspose.Slides for PHP via Java*](/slides/php-java/) can load a PowerPoint PPS slide show and render it as a multipage TIFF image without Microsoft PowerPoint.
 
-Call \`save\` with \`SaveFormat::Tiff\`; each slide becomes a page in the TIFF output.
+Call `save` with `SaveFormat::Tiff`; each slide becomes a page in the TIFF output.
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -97,7 +97,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPS to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPS to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-fodp/" name="PPS TO FODP" description="Flat OpenDocument Presentation" >}}

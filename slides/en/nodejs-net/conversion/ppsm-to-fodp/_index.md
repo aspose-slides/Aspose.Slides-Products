@@ -19,7 +19,7 @@ description: Convert PPSM to FODP in Node.js. Use a Node.js library API to conve
 {{% blocks/products/pf/feature-page-section  h2="Convert PPSM to FODP in Node.js" %}}
 To convert `PPSM` to `FODP`, create a `Presentation` from the source file and export it to an `FODP` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPSM into FODP" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPSM into FODP" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppsm");

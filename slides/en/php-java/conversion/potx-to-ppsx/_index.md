@@ -97,7 +97,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTX to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTX to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/potx-to-fodp/" name="POTX TO FODP" description="Flat OpenDocument Presentation" >}}

@@ -12,7 +12,7 @@ description: Convert OTP to GIF in Node.js. Use a Node.js library API to convert
 
 {{% blocks/products/pf/feature-page-section h2="Convert OTP to GIF in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `OTP` file with the `Presentation` class and export it to a `GIF` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `OTP` file with the `Presentation` class and export it to a `GIF` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 

@@ -1,5 +1,5 @@
 ---
-title: View or Edit ODP Files Metadata using Java
+title: View or Edit ODP File Metadata Using Java
 url: /java/metadata/odp/
 keywords: Edit ODP Metadata, View ODP Metadata, Edit ODP properties, View ODP properties
 description: View and edit ODP metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

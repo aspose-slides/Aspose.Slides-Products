@@ -64,7 +64,7 @@ Before running the .NET conversion sample code, make sure that you have the foll
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 - A development environment such as Microsoft Visual Studio.
 - Aspose.Slides for .NET referenced in your project.
 
@@ -105,11 +105,11 @@ image.Save("image.png", ImageFormat.Png);
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-emf/" name="PPT TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-html/" name="PPT TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-png/" name="PPT TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pot/" name="PPT TO POT" description="PowerPoint Template Files" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-potm/" name="PPT TO POTM" description="PowerPoint Macro-Enabled Template" >}}
@@ -121,8 +121,8 @@ image.Save("image.png", ImageFormat.Png);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-svg/" name="PPT TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -2,7 +2,7 @@
 title: Convert PNG to PPTX in C#
 url: /net/conversion/png-to-pptx/
 keywords: Convert PNG to PPTX, PNG to PPTX, PowerPoint, PNG, PPTX, C# API, .NET Library
-description: Convert PNG to PPTX in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PNG to PPTX in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

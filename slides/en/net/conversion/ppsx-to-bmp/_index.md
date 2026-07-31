@@ -2,7 +2,7 @@
 title: Convert PPSX to BMP in C#
 weight: 5400
 url: /net/conversion/ppsx-to-bmp/
-description: Convert PPSX to BMP in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PPSX to BMP in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -59,7 +59,7 @@ Before running the .NET conversion sample code, make sure that your environment 
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  A development environment such as Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -98,11 +98,11 @@ sectionDescription="[Try our free app to convert PPSX to BMP](https://products.a
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSX into many other file formats, including those listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-jpeg/" name="PPSX TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-png/" name="PPSX TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pot/" name="PPSX TO POT" description="PowerPoint Template Files" >}}
@@ -115,8 +115,8 @@ sectionDescription="[Try our free app to convert PPSX to BMP](https://products.a
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-svg/" name="PPSX TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

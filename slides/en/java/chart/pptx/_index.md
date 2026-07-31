@@ -172,7 +172,7 @@ try {
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
-Create `PPTX` charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits
+Create `PPTX` charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits:
 
 
 
@@ -180,7 +180,7 @@ Create `PPTX` charts online by visiting our [Live Demos website](https://product
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Chart Creation Live Demos" sectionDescription="Create PPTX charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Chart Creation Live Demos" sectionDescription="Create PPTX charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
@@ -197,7 +197,7 @@ A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slid
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Charting Formats" subTitle="You can also create charts in other presentation formats with Java." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/chart/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

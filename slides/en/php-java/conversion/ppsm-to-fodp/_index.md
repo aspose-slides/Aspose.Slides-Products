@@ -16,7 +16,7 @@ description: Convert a PowerPoint PPSM slide show to a Flat OpenDocument Present
 
 [*Aspose.Slides for PHP via Java*](/slides/php-java/) can load a PowerPoint PPSM slide show and save it as a Flat OpenDocument Presentation without Microsoft PowerPoint.
 
-Call \`save\` with \`SaveFormat::Fodp\` to create the FODP file. The VBA project from the source PPSM file is not retained in the FODP output.
+Call `save` with `SaveFormat::Fodp` to create the FODP file. The VBA project from the source PPSM file is not retained in the FODP output.
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -97,7 +97,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphics Interchange Format" >}}

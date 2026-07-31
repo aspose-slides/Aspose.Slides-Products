@@ -2,7 +2,7 @@
 title: Convert HTML to JPG in Java
 url: /java/conversion/html-to-jpg/
 keywords: HTML to JPG, Convert HTML to JPG, Java API, Java Library, HTML, JPG
-description: Convert HTML to JPG in Java. Use Java library API to convert HTML files to JPGs
+description: Convert HTML to JPG in Java. Use Java library API to convert HTML files to JPGs.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

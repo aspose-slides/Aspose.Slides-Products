@@ -1,12 +1,12 @@
 ---
-title: Merge PowerPoint and OpenOffice Files on Windows, Linux, and macOS
+title: Merge PowerPoint and OpenDocument Files on Windows, Linux, and macOS
 weight: 7730
 url: /merger/
-description: Merge PowerPoint and OpenOffice presentation files with Aspose.Slides APIs.
+description: Merge PowerPoint and OpenDocument presentation files with Aspose.Slides APIs.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Merge PowerPoint and OpenOffice presentations using Aspose.Slides APIs" h2="Learn how to combine presentation files in C#, Python, Java, C++, and PHP." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/merger" >}}
+{{< blocks/products/pf/upper-banner h1="Merge PowerPoint and OpenDocument presentations using Aspose.Slides APIs" h2="Learn how to combine presentation files in C#, Python, Java, C++, and PHP." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides.svg" pfName="Aspose.Slides" downloadUrl="https://releases.aspose.com/slides/" tryOnlineUrl="https://products.aspose.app/slides/merger" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides Merger Code Samples" >}}

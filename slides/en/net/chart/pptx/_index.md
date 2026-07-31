@@ -64,7 +64,7 @@ Aspose.Slides for .NET supports major platforms and operating systems. Make sure
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible operating system with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 - A development environment such as Microsoft Visual Studio.
 - Aspose.Slides for .NET referenced in your project. Install it from NuGet or download it by using the Download button above.
 
@@ -151,7 +151,7 @@ Files with the PPTX extension use the Office Open XML presentation format. A PPT
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Charting Formats" subTitle="Using C#, you can also create charts in other formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/chart/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/chart/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

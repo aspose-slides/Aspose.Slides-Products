@@ -93,7 +93,7 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-fodp/" name="PPTM TO FODP" description="OpenDocument Flat XML Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-html/" name="PPTM TO HTML" description="HyperText Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-jpg/" name="PPTM TO JPG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Presentation Template" >}}

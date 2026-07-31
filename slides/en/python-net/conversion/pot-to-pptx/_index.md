@@ -93,7 +93,7 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="HyperText Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Presentation Template" >}}

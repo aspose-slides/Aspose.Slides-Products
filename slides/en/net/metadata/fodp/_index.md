@@ -1,5 +1,5 @@
 ---
-title: View or Edit FODP Files Metadata using .NET
+title: View or Edit FODP File Metadata Using .NET
 url: /net/metadata/fodp/
 keywords: Edit FODP Metadata, View FODP Metadata, Edit FODP properties, View FODP properties
 description: C# source code to edit or view FODP format metadata.

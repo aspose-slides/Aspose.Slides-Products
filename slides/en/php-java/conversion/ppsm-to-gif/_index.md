@@ -16,7 +16,7 @@ description: Convert a PowerPoint PPSM slide show to an animated GIF in PHP with
 
 [*Aspose.Slides for PHP via Java*](/slides/php-java/) can load a PowerPoint PPSM slide show and export it as an animated GIF without Microsoft PowerPoint.
 
-Call \`save\` with \`SaveFormat::Gif\` to create one animated GIF using the default frame timing settings.
+Call `save` with `SaveFormat::Gif` to create one animated GIF using the default frame timing settings.
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -97,7 +97,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="Flat OpenDocument Presentation" >}}

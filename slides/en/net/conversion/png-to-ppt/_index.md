@@ -2,7 +2,7 @@
 title: Convert PNG to PPT in C#
 url: /net/conversion/png-to-ppt/
 keywords: Convert PNG to PPT, PNG to PPT, PowerPoint, PNG, PPT, C# API, .NET Library
-description: Convert PNG to PPT in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PNG to PPT in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

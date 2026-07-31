@@ -60,7 +60,7 @@ Call the `save` method with the output file path and `SaveFormat.Tiff`.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert POT To Other Supported Formats" subTitle="You can also convert POT and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert POT To Other Supported Formats" subTitle="You can also convert POT and save to other file formats. See all supported formats below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-pptx/" name="POT TO PPTX" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pot-to-ppt/" name="POT TO PPT" >}}

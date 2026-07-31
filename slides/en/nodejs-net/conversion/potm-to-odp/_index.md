@@ -12,12 +12,12 @@ description: Convert POTM to ODP in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert POTM to ODP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POTM` file with the `Presentation` class and export it to a `ODP` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POTM` file with the `Presentation` class and export it to an `ODP` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert POTM to ODP using Node.js" %}}
-To convert `POTM` to `ODP`, create a `Presentation` from the source file and export it to a `ODP` file.
+To convert `POTM` to `ODP`, create a `Presentation` from the source file and export it to an `ODP` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert POTM to ODP" offSpacer="true" %}}
 
@@ -60,7 +60,7 @@ Call the `save` method with the output file path and `SaveFormat.Odp`.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert POTM To Other Supported Formats" subTitle="You can also convert POTM and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert POTM To Other Supported Formats" subTitle="You can also convert POTM and save to other file formats. See all supported formats below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potm-to-pptx/" name="POTM TO PPTX" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potm-to-ppt/" name="POTM TO PPT" >}}

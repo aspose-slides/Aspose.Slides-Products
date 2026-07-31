@@ -16,7 +16,7 @@ description: Convert OTP to SWF in Java. Use Aspose.Slides for Java to save OTP 
 
  To convert `OTP` to `SWF`, use
  [Aspose.Slides for Java](/slides/java/).
- It is a PowerPoint and OpenOffice presentation API that lets you load an `OTP` file and save it as a `SWF` file. You can get the latest `aspose-slides` package from
+ It is a PowerPoint and OpenDocument presentation API that lets you load an `OTP` file and save it as a `SWF` file. You can get the latest `aspose-slides` package from
  [Maven](https://releases.aspose.com/java/repo/)
  and add it to your Maven-based project with the following configuration in `pom.xml`.
 
@@ -71,8 +71,8 @@ description: Convert OTP to SWF in Java. Use Aspose.Slides for Java to save OTP 
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
-- Get latest version of Aspose.Slides for Java directly from Maven.
+- A supported operating system with a Java Runtime Environment installed.
+- Get the latest version of Aspose.Slides for Java from the Aspose Maven repository.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -105,27 +105,27 @@ try {
         sectionDescription="Convert presentations and slides online."
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-gif/" name="OTP TO GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-html/" name="OTP TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-gif/" name="OTP TO GIF" description="Graphics Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-html/" name="OTP TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-odp/" name="OTP TO ODP" description="OpenDocument Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pdf/" name="OTP TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-png/" name="OTP TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pot/" name="OTP TO POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-potm/" name="OTP TO POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-potx/" name="OTP TO POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pot/" name="OTP TO POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-potm/" name="OTP TO POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-potx/" name="OTP TO POTX" description="PowerPoint Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pps/" name="OTP TO PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-ppt/" name="OTP TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-ppt/" name="OTP TO PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pptm/" name="OTP TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-svg/" name="OTP TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-xps/" name="OTP TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/otp-to-xps/" name="OTP TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -13,7 +13,7 @@ description: Convert POT to XPS in Java. Use Aspose.Slides for Java to save POT 
 
 {{% blocks/products/pf/agp/content h2="Convert POT to XPS Using Java" %}}
 
-Use [Aspose.Slides for Java](/slides/java/) to load a `POT` template and save it as a `XPS` file. You can install the `aspose-slides` package in a Maven-based project by adding the repository and dependency below.
+Use [Aspose.Slides for Java](/slides/java/) to load a `POT` template and save it as an `XPS` file. You can install the `aspose-slides` package in a Maven-based project by adding the repository and dependency below.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
 
@@ -103,24 +103,24 @@ try {
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT into many other file formats including the ones listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-gif/" name="POT TO GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-html/" name="POT TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-html/" name="POT TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-pdf/" name="POT TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-png/" name="POT TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-potm/" name="POT TO POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-potx/" name="POT TO POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-potm/" name="POT TO POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-potx/" name="POT TO POTX" description="PowerPoint Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-ppt/" name="POT TO PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-pptm/" name="POT TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-pptx/" name="POT TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-pptx/" name="POT TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-svg/" name="POT TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-swf/" name="POT TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-tiff/" name="POT TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pot-to-tiff/" name="POT TO TIFF" description="Tagged Image File Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

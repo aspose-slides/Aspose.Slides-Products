@@ -12,12 +12,12 @@ description: Convert POT to ODP in Node.js. Use a Node.js library API to convert
 
 {{% blocks/products/pf/feature-page-section h2="Convert POT to ODP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to a `ODP` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to an `ODP` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert POT to ODP using Node.js" %}}
-To convert `POT` to `ODP`, create a `Presentation` from the source file and export it to a `ODP` file.
+To convert `POT` to `ODP`, create a `Presentation` from the source file and export it to an `ODP` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert POT to ODP" offSpacer="true" %}}
 

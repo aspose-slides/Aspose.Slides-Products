@@ -19,7 +19,7 @@ description: Convert PPT to PPSM in Node.js. Use a Node.js library API to conver
 {{% blocks/products/pf/feature-page-section  h2="Convert PPT to PPSM in Node.js" %}}
 To convert `PPT` to `PPSM`, create a `Presentation` from the source file and export it to a `PPSM` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPT into PPSM" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPT into PPSM" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppt");

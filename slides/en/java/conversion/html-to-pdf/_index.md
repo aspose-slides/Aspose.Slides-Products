@@ -2,7 +2,7 @@
 title: Convert HTML to PDF in Java
 url: /java/conversion/html-to-pdf/
 keywords: HTML to PDF, Convert HTML to PDF, Java API, Java Library, HTML, PDF
-description: Convert HTML to PDF in Java. Use Java library API to convert HTML files to PDFs
+description: Convert HTML to PDF in Java. Use Java library API to convert HTML files to PDFs.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}

@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPTM Files Metadata using .NET
+title: View or Edit PPTM File Metadata Using .NET
 url: /net/metadata/pptm/
 keywords: Edit PPTM Metadata, View PPTM Metadata, Edit PPTM properties, View PPTM properties
 description: C# source code to edit or view PPTM format metadata.

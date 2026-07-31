@@ -68,8 +68,8 @@ Aspose.Slides for C++ supports major desktop and server platforms. Make sure tha
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.Slides for C++ DLL referenced in your project.
+-  Microsoft Windows, Linux, macOS, or another compatible OS with the supported C++ runtime.
+-  Aspose.Slides for C++ library referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -112,7 +112,7 @@ Aspose.Slides for C++ is a standalone API for creating, reading, parsing, editin
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
-    {{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Parser Live Demos" sectionDescription="Extract text from ODP documents by visiting our [Live Demos website](https://products.aspose.app/slides/parser). The live demo has the following benefits" >}}
+    {{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Parser Live Demos" sectionDescription="Extract text from ODP documents by visiting our [Live Demos website](https://products.aspose.app/slides/parser). The live demo has the following benefits:" >}}
         {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
         {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your ODP files." >}}
@@ -130,7 +130,7 @@ An ODP file is an OpenDocument presentation file used by applications such as Op
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Parsing Documents" subTitle="You can also parse other presentation formats with C++." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/parser/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/parser/pptx/" name="PPTX" description="Open XML Presentation Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

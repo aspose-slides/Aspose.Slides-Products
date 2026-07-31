@@ -19,7 +19,7 @@ description: Convert PPS to TIFF in Node.js. Use a Node.js library API to conver
 {{% blocks/products/pf/feature-page-section  h2="Convert PPS to TIFF in Node.js" %}}
 To convert `PPS` to `TIFF`, create a `Presentation` from the source file and export it to a `TIFF` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPS into TIFF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPS into TIFF" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.pps");

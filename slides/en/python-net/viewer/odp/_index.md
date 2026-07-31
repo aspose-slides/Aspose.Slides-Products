@@ -1,7 +1,7 @@
 ---
 title: View ODP in Python
 url: /python-net/viewer/odp/
-keywords: View ODP, View OpenOffice Presentation, Open ODP, ODP Viewer, ODP, Python API, Python Library
+keywords: View ODP, View OpenDocument Presentation, Open ODP, ODP Viewer, ODP, Python API, Python Library
 description: Open an ODP presentation in Python and export it to responsive HTML for viewing in a browser.
 ---
 

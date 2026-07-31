@@ -71,7 +71,7 @@ Call `getImageWithScale` for each `slide` and save the result as a `BMP` image.
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert POTM To Other Supported Formats" subTitle="You can also convert POTM and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert POTM To Other Supported Formats" subTitle="You can also convert POTM and save to other file formats. See all supported formats below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potm-to-pptx/" name="POTM TO PPTX" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potm-to-ppt/" name="POTM TO PPT" >}}

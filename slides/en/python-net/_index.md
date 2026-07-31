@@ -2,11 +2,11 @@
 title: "Aspose.Slides for Python: PowerPoint API for PPTX and PPT"
 weight: 5860
 url: /python-net/
-description: Python library for creating, editing, converting, and processing PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, ODP, PDF, and other presentation formats.
+description: Python library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Python PowerPoint API for Presentations" h2="Create, read, modify, merge, clone, protect, and convert PowerPoint and OpenOffice presentations in Python without requiring Microsoft PowerPoint for core presentation operations." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-python.svg" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="https://releases.aspose.com/slides/python-net/" >}}
+{{< blocks/products/pf/upper-banner h1="Python PowerPoint API for Presentations" h2="Create, read, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in Python without requiring Microsoft PowerPoint for core presentation operations." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-python.svg" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="https://releases.aspose.com/slides/python-net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
 
@@ -14,7 +14,7 @@ description: Python library for creating, editing, converting, and processing PP
 
 {{< blocks/products/pf/tab-content >}}
 
-<p><strong>Aspose.Slides for Python via .NET</strong> is a presentation processing library that lets Python applications read, edit, manipulate, and convert PowerPoint and OpenOffice presentations without requiring Microsoft PowerPoint for core presentation processing. Optional workflows such as video encoding and AI-powered translation use external tools or services.</p>
+<p><strong>Aspose.Slides for Python via .NET</strong> is a presentation processing library that lets Python applications read, edit, manipulate, and convert PowerPoint and OpenDocument presentations without requiring Microsoft PowerPoint for core presentation processing. Optional workflows such as video encoding and AI-powered translation use external tools or services.</p>
 
 <p>The library is suitable for server-side automation, batch processing, and desktop workflows on Windows, Linux, and macOS.</p>
 
@@ -215,7 +215,7 @@ description: Python library for creating, editing, converting, and processing PP
     </li>
     <li>
      <b>
-      OpenOffice:
+      OpenDocument:
      </b>
      ODP
     </li>
@@ -239,7 +239,7 @@ description: Python library for creating, editing, converting, and processing PP
      <b>
       Fixed Layout:
      </b>
-     PDF, PDF/A, XPS
+     PDF/A, XPS
     </li>
     <li>
      <b>
@@ -413,7 +413,7 @@ with slides.Presentation() as presentation:
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">Convert PowerPoint to PDF with Default Options in Python</h2>
-        <p>This Python code shows how to convert a PowerPoint or OpenOffice presentation to PDF using the default options.</p>
+        <p>This Python code shows how to convert a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
         <pre>
             <code class="python">
 with slides.Presentation("presentation.ppt") as presentation:
@@ -423,7 +423,7 @@ with slides.Presentation("presentation.ppt") as presentation:
     </div>
     <div class="col-lg-12">
         <h2 class="h2title">Convert PowerPoint to JPG in Python</h2>
-        <p>The following example shows you how to convert a PowerPoint PPT, PPTX, and OpenOffice ODP document into a set of JPEG images.</p>
+        <p>The following example shows you how to convert a PPT, PPTX, or OpenDocument Presentation (ODP) file into a set of JPEG images.</p>
         <pre>
             <code class="python">
 with slides.Presentation("presentation.pptx") as presentation:

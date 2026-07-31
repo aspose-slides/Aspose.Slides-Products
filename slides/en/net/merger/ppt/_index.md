@@ -2,7 +2,7 @@
 title: Merge PPT Files using .NET
 weight: 7610
 url: /net/merger/ppt/
-description: C# source code to merge PPT files on .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin platforms.
+description: C# source code to merge PPT files with Aspose.Slides for .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,7 +64,7 @@ Open the merged PPT file in a compatible program.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio
 -  Aspose.Slides for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
@@ -105,7 +105,7 @@ mergedPresentation.Save("merged.ppt", SaveFormat.Ppt);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice.
+ The Aspose.Slides API can read, write, manipulate, and convert Microsoft PowerPoint presentations to PDF, XPS, HTML, TIFF, ODP, and other supported formats. You can create presentations from scratch and save them in a supported output format. Aspose.Slides is a standalone API for creating, parsing, and manipulating presentations, slides, and their elements; it does not require Microsoft PowerPoint or OpenOffice.
 
 
 
@@ -113,14 +113,14 @@ mergedPresentation.Save("merged.ppt", SaveFormat.Ppt);
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Merger Live Demos" sectionDescription="Merge PPT documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Merger Live Demos" sectionDescription="Merge PPT documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+A file with the .ppt extension is a PowerPoint presentation that contains a collection of slides for use in a slide show. It uses the binary file format supported by Microsoft PowerPoint 97–2003. A PPT file can contain several types of content, such as text, bulleted lists, images, multimedia, and other embedded OLE objects. Beginning with PowerPoint 2007, Microsoft introduced the newer PPTX format, which is based on Office Open XML rather than this binary format. Other applications, such as OpenOffice Impress and Apple Keynote, can also create PPT files.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,15 +131,15 @@ A file with PPT extension represents PowerPoint file that consists of a collecti
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Merging Formats" subTitle="You can also merge many other file formats in C#." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/odp/" name="ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potx/" name="POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/otp/" name="OTP" description="OpenDocument Presentation Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pot/" name="POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potm/" name="POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potx/" name="POTX" description="PowerPoint Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptx/" name="PPTX" description="Open XML Presentation Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

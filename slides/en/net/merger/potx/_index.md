@@ -2,7 +2,7 @@
 title: Merge POTX Files using .NET
 weight: 2510
 url: /net/merger/potx/
-description: C# source code to merge POTX files on .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin platforms.
+description: C# source code to merge POTX files with Aspose.Slides for .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,7 +64,7 @@ Open the merged POTX file in a compatible program.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio
 -  Aspose.Slides for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
@@ -105,7 +105,7 @@ mergedPresentation.Save("merged.potx", SaveFormat.Potx);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for .NET API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice.
+ The Aspose.Slides API can read, write, manipulate, and convert Microsoft PowerPoint presentations to PDF, XPS, HTML, TIFF, ODP, and other supported formats. You can create presentations from scratch and save them in a supported output format. Aspose.Slides is a standalone API for creating, parsing, and manipulating presentations, slides, and their elements; it does not require Microsoft PowerPoint or OpenOffice.
 
 
 
@@ -113,14 +113,14 @@ mergedPresentation.Save("merged.potx", SaveFormat.Potx);
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online POTX Merger Live Demos" sectionDescription="Merge POTX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online POTX Merger Live Demos" sectionDescription="Merge POTX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your POTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+Files with the .POTX extension are Microsoft PowerPoint Open XML presentation templates. Unlike the binary POT format, POTX is based on the Office Open XML standard. POTX files store reusable slide layouts, themes, styles, backgrounds, color schemes, fonts, and other formatting for creating new presentations.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,15 +131,15 @@ Files with .POTX extension represent Microsoft PowerPoint template presentations
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Merging Formats" subTitle="You can also merge many other file formats in C#." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/odp/" name="ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/otp/" name="OTP" description="OpenDocument Standard Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pot/" name="POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potm/" name="POTM" description="Microsoft PowerPoint Template File" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/otp/" name="OTP" description="OpenDocument Presentation Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pot/" name="POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/potm/" name="POTM" description="PowerPoint Macro-Enabled Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pps/" name="PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppsm/" name="PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppsx/" name="PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptm/" name="PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptx/" name="PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/merger/pptx/" name="PPTX" description="Open XML Presentation Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

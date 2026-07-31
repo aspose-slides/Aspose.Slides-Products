@@ -77,7 +77,7 @@ Access each slide through a variable, call `getImage`, and save the rendered ima
 
 {{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online PDF Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF To Other Supported Formats" subTitle="You can also convert PDF and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Convert PDF To Other Supported Formats" subTitle="You can also convert PDF and save to other file formats. See all supported formats below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-png/" name="PDF TO PNG" >}}

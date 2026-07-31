@@ -19,7 +19,7 @@ description: Convert PPT to PDF in Node.js. Use a Node.js library API to convert
 {{% blocks/products/pf/feature-page-section  h2="Convert PPT to PDF in Node.js" %}}
 To convert `PPT` to `PDF`, create a `Presentation` from the source file and export it to a `PDF` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPT into PDF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPT into PDF" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppt");

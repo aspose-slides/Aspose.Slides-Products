@@ -47,7 +47,7 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< blocks/products/pf/feature-page-section  h2="How to Edit FODP Metadata with Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to edit metadata in a FODP file." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to edit metadata in an FODP file." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Open the FODP file with `Presentation`.
