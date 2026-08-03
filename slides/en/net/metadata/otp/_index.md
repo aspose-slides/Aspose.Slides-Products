@@ -1,5 +1,5 @@
 ---
-title: View or Edit OTP Files Metadata using .NET
+title: View or Edit OTP File Metadata Using .NET
 url: /net/metadata/otp/
 keywords: Edit OTP Metadata, View OTP Metadata, Edit OTP properties, View OTP properties
 description: C# source code to edit or view OTP format metadata.

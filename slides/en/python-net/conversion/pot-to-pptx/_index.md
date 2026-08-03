@@ -61,7 +61,7 @@ Before running the Python conversion sample, make sure your environment meets th
 {{% /blocks/products/pf/agp/text %}}
 
 - Microsoft Windows, macOS, or 64-bit Linux (see the [system requirements](https://docs.aspose.com/slides/python-net/system-requirements/)).
-- Python 3.5 through 3.13.
+- Python 3.5 or later.
 - Aspose.Slides for Python via .NET installed in your environment.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -93,7 +93,7 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="HyperText Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Presentation Template" >}}

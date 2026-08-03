@@ -12,12 +12,12 @@ description: Convert OTP to FODP in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert OTP to FODP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `OTP` file with the `Presentation` class and export it to a `FODP` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `OTP` file with the `Presentation` class and export it to an `FODP` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert OTP to FODP using Node.js" %}}
-To convert `OTP` to `FODP`, create a `Presentation` from the source file and export it to a `FODP` file.
+To convert `OTP` to `FODP`, create a `Presentation` from the source file and export it to an `FODP` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert OTP to FODP" offSpacer="true" %}}
 

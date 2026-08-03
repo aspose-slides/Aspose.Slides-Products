@@ -187,7 +187,7 @@ description: Aspose.Slides for Android via Java is a PowerPoint API for creating
     </li>
     <li>
      <b>
-      OpenOffice:
+      OpenDocument:
      </b>
      ODP
     </li>

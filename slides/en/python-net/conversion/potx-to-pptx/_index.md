@@ -61,7 +61,7 @@ Before running the Python conversion sample, make sure your environment meets th
 {{% /blocks/products/pf/agp/text %}}
 
 - Microsoft Windows, macOS, or 64-bit Linux (see the [system requirements](https://docs.aspose.com/slides/python-net/system-requirements/)).
-- Python 3.5 through 3.13.
+- Python 3.5 or later.
 - Aspose.Slides for Python via .NET installed in your environment.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -93,7 +93,7 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-emf/" name="POTX TO EMF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-fodp/" name="POTX TO FODP" description="OpenDocument Flat XML Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-gif/" name="POTX TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-html/" name="POTX TO HTML" description="HyperText Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-html/" name="POTX TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-jpg/" name="POTX TO JPG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-odp/" name="POTX TO ODP" description="OpenDocument Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument Presentation Template" >}}

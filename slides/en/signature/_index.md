@@ -1,8 +1,8 @@
 ---
-title: Digitally Sign PowerPoint Files on Windows, Linux & macOS 
+title: Sign PowerPoint Presentations Online or with APIs
 weight: 7730
-url: /signature
-description: Free App and APIs to manage signatures on PPT PPTX and ODP files
+url: /signature/
+description: Free app for adding drawing, text, or image signatures, and APIs for digitally signing PPTX presentations.
 ---
 
 {{< blocks/products/pf/agp/feature-solution >}} 

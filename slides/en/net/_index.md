@@ -6,7 +6,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in C# without external software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/slides/net/" >}}
+{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in C# without requiring Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/slides/net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
 
@@ -24,11 +24,11 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
     <li>Convert presentations to fixed-layout formats such as PDF and XPS, as well as export to HTML, SVG, JPEG, PNG, and other image formats.</li>
     <li>Generate presentation frames for video export and create video files such as MP4 or WebM using FFmpeg or another video tool, with support for selected animations and slide transitions.</li>
     <li>Print presentations directly to physical printers from your .NET application.</li>
-    <li>High-fidelity rendering ensures pixel-perfect output that matches the original PowerPoint files.</li>
+    <li>Produce high-fidelity rendered output; for consistent results, make the presentation fonts or suitable substitutes available in the runtime environment.</li>
     <li>Translate entire presentations automatically with AI-powered translation that integrates with OpenAI or other language models to enable smarter, multilingual workflows.</li>
 </ul>
 
-<p>Aspose.Slides for .NET is a standalone API and does not require Microsoft PowerPoint or any third-party software. It is ideal for on-premise or server-side scenarios where automation and scalability are essential.</p>
+<p>Aspose.Slides for .NET is a standalone API and does not require Microsoft PowerPoint. It is ideal for on-premises or server-side scenarios where automation and scalability are essential.</p>
 
 <p><a href="/slides/benefits/">Learn more about the benefits of Aspose.Slides for .NET</a> and how it can enhance your .NET presentation processing workflows.</p>
 
@@ -51,7 +51,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
      Manage Charts
     </li>
     <li>
-     Manage SmartArts
+     Manage SmartArt graphics
     </li>
     <li>
      Manage PowerPoint Shapes
@@ -127,7 +127,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for .NET supports .NET Framework, .NET Core, and Xamarin platforms. It can also be used with Mono and other platforms through COM interop." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for .NET supports .NET Framework, .NET Core, and Xamarin.Android. It can also be used with Mono; COM interop is available on Windows." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -356,7 +356,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
 <h2 class="h2title">Complete Control Over PowerPoint Slide Elements</h2>
 
-<p>Aspose.Slides for .NET can handle all presentation slide elements including text box, table, rectangle, ellipse, polyline, auto-shape, picture frame, audio frame, video frame & OLE object frame. API provides well-designed set of classes that enables you to comprehensively manipulate each of these elements.</p>
+<p>Aspose.Slides for .NET can handle presentation elements including text boxes, tables, rectangles, ellipses, polylines, AutoShapes, picture frames, audio frames, video frames, and OLE object frames. The API provides well-designed classes for comprehensively manipulating each of these elements.</p>
 
 </div>-->
    <div class="col-lg-12">
@@ -416,9 +416,9 @@ image.Save("output.jpg", ImageFormat.Jpeg);
 
 <h2 class="h2title">Support For Office Open XML</h2>
 
-<p>Office OpenXML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
+<p>Office Open XML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
 
-<p>PresentationML (OOXML, PPTX) is the markup language used by Microsoft Office PowerPoint 2007 to store its documents. Aspose.Slides for .NET extensively supports creating, reading, manipulating and writing PresentationML documents.</p>
+<p>PresentationML is the presentation-specific markup language defined by Office Open XML (OOXML). PPTX files use an OOXML package that contains PresentationML parts. Aspose.Slides for .NET supports creating, reading, manipulating, and writing PresentationML content.</p>
 
 </div>-->
   </div>
@@ -432,7 +432,7 @@ image.Save("output.jpg", ImageFormat.Jpeg);
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our ASP.Net servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
+ We have found Aspose.Slides to be easy to use and to work nicely on our ASP.NET servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
  <em>
   Rick Joi | Workplace Dynamics, UK
  </em>

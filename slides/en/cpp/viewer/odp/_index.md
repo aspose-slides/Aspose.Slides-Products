@@ -12,7 +12,7 @@ description: View ODP presentations in C++. Use Aspose.Slides for C++ to open Op
 
 {{% blocks/products/pf/feature-page-section h2="View ODP using Aspose.Slides" %}}
 
-Aspose.Slides for C++ is a presentation processing library for opening, viewing, editing, and converting presentation files. You can load a ODP file with the `Presentation` class and save it as HTML for browser-based viewing.
+Aspose.Slides for C++ is a presentation processing library for opening, viewing, editing, and converting presentation files. You can load an ODP file with the `Presentation` class and save it as HTML for browser-based viewing.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -20,7 +20,7 @@ Aspose.Slides for C++ is a presentation processing library for opening, viewing,
 
 
 {{% blocks/products/pf/feature-page-section  h2="View ODP in C++" %}}
-Use Aspose.Slides for C++ to load a ODP file and export it to responsive HTML with `ResponsiveHtmlController`, `HtmlOptions`, `HtmlFormatter`, and `SaveFormat::Html`.
+Use Aspose.Slides for C++ to load an ODP file and export it to responsive HTML with `ResponsiveHtmlController`, `HtmlOptions`, `HtmlFormatter`, and `SaveFormat::Html`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for viewing ODP" offSpacer="true" %}}
 ```cpp

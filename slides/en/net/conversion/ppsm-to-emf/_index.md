@@ -2,7 +2,7 @@
 title: Convert PPSM to EMF in C#
 weight: 610
 url: /net/conversion/ppsm-to-emf/
-description: Convert PPSM to EMF in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PPSM to EMF in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -13,7 +13,7 @@ description: Convert PPSM to EMF in C# using Aspose.Slides for .NET. Use the sam
 
 {{% blocks/products/pf/agp/content h2="Convert PPSM to EMF Using C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to load a PPSM presentation and save it as an EMF file. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or run the following command in the Package Manager Console.
+Use [Aspose.Slides for .NET](/slides/net/) to load a PPSM presentation and export its first slide as an EMF file. Install the library from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or run the following command in the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -29,14 +29,14 @@ PM> Install-Package Aspose.Slides.NET
 
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert PPSM to EMF via C#" >}}
-{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can load and convert PPSM files to EMF in just a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can export a slide from a PPSM file to EMF in just a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the PPSM file with a `Presentation` object.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with the output file path and `SaveFormat.Emf`.
+Create an output stream and call the slide's `WriteAsEmf` method.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -55,7 +55,7 @@ Before running the .NET conversion sample code, make sure that your environment 
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  A development environment such as Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -65,7 +65,8 @@ Before running the .NET conversion sample code, make sure that your environment 
 
 ```cs
 using var presentation = new Presentation("template.ppsm");
-presentation.Save("output.emf", SaveFormat.Emf);
+using var stream = System.IO.File.Create("output.emf");
+presentation.Slides[0].WriteAsEmf(stream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -89,11 +90,11 @@ presentation.Save("output.emf", SaveFormat.Emf);
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM into many other file formats, including those listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-html/" name="PPSM TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-jpeg/" name="PPSM TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-odp/" name="PPSM TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-png/" name="PPSM TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-pot/" name="PPSM TO POT" description="PowerPoint Template Files" >}}
@@ -106,8 +107,8 @@ presentation.Save("output.emf", SaveFormat.Emf);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -1,7 +1,7 @@
 ---
 title: View PowerPoint Presentations using Aspose.Slides for Java API
 url: /java/viewer/
-description: View PowerPoint and OpenOffice presentations in Java. Save presentation files as HTML for browser-based viewing.
+description: View PowerPoint and OpenDocument presentations in Java. Save presentation files as HTML for browser-based viewing.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

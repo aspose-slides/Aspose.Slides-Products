@@ -12,12 +12,12 @@ description: Convert PPT to FODP in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPT to FODP in Node.js" %}}
 
-[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPT` file with the `Presentation` class and export it to a `FODP` file by using the presentation API.
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPT` file with the `Presentation` class and export it to an `FODP` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PPT to FODP using Node.js" %}}
-To convert `PPT` to `FODP`, create a `Presentation` from the source file and export it to a `FODP` file.
+To convert `PPT` to `FODP`, create a `Presentation` from the source file and export it to an `FODP` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert PPT to FODP" offSpacer="true" %}}
 

@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPSX Files Metadata using .NET
+title: View or Edit PPSX File Metadata Using .NET
 url: /net/metadata/ppsx/
 keywords: Edit PPSX Metadata, View PPSX Metadata, Edit PPSX properties, View PPSX properties
 description: C# source code to edit or view PPSX format metadata.

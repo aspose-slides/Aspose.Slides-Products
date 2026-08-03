@@ -19,7 +19,7 @@ description: Convert POTM to TIFF in Node.js. Use a Node.js library API to conve
 {{% blocks/products/pf/feature-page-section  h2="Convert POTM to TIFF in Node.js" %}}
 To convert `POTM` to `TIFF`, create a `Presentation` from the source file and export it to a `TIFF` image.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert POTM into TIFF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert POTM into TIFF" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.potm");

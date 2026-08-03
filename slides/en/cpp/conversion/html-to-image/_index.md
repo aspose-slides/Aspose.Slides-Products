@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert HTML content to image formats and other presen
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to Image Using C++" %}}
-To convert HTML to an image, create a Presentation from the HTML file and save each slide as an image.
+To convert HTML to an image, create a new Presentation, remove its default slide, import the HTML content with `AddFromHtml`, and save each resulting slide as an image.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into Image" offSpacer="true" %}}
 

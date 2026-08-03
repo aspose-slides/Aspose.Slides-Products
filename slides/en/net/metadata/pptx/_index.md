@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPTX Files Metadata using .NET
+title: View or Edit PPTX File Metadata Using .NET
 url: /net/metadata/pptx/
 keywords: Edit PPTX Metadata, View PPTX Metadata, Edit PPTX properties, View PPTX properties
 description: C# source code to view or edit PPTX metadata.

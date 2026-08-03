@@ -1,27 +1,27 @@
 ---
 title: Convert PDF to XML in C++
 url: /cpp/conversion/pdf-to-xml/
-keywords: PDF to XML, Convert PDF to XML, C++ API, C++ Library, PDF, XML
-description: Convert PDF to XML in C++. Use the C++ library API to import PDF files and save them as XML files.
+keywords: PDF to XML, Convert PDF to XML, PowerPoint XML Presentation, C++ API, C++ Library, PDF, XML
+description: Import PDF pages into slides and save the result as a PowerPoint XML Presentation in C++ using Aspose.Slides for C++.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in C++" h2="Convert PDF files to XML using Aspose.Slides for C++ without Adobe Acrobat or Microsoft PowerPoint." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PDF to XML in C++" h2="Import PDF pages into slides and save the result as a PowerPoint XML Presentation." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PDF to XML in C++" %}}
 
-[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import PDF pages into a presentation and save the result as XML. Using **Aspose.Slides for C++**, developers can convert PDF files to XML with just a few lines of C++ code.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import PDF pages into slides and save the resulting presentation in PowerPoint XML Presentation format.
 
-Aspose.Slides for C++ can convert PDF content to XML and other presentation-related formats.
+The generated XML represents the imported presentation; it is not a generic XML representation of the source PDF. Aspose.Slides for C++ can also export the imported content to PowerPoint, PDF, images, and other supported formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to XML Using C++" %}}
-To convert PDF to XML, create a `Presentation`, remove the default slide, import the PDF pages, and save the presentation in XML format.
+To convert PDF to PowerPoint XML, create a `Presentation`, remove the default slide, import the PDF pages, and save the presentation with `SaveFormat::Xml`.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for converting PDF into XML" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="C++ code for converting PDF into a PowerPoint XML Presentation" offSpacer="true" %}}
 
 ```cpp
 auto presentation = MakeObject<Presentation>();
@@ -36,9 +36,9 @@ presentation->Dispose();
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PDF to XML using Aspose.Slides for C++ API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to convert PDF to PowerPoint XML using Aspose.Slides for C++ API" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PDF to XML in C++." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to import PDF pages and save them as a PowerPoint XML Presentation in C++." >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Install [**Aspose.Slides for C++**](/slides/cpp/).
@@ -53,7 +53,7 @@ Remove the default slide and import the source PDF file into the `Presentation` 
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
-Save the presentation as a XML file.
+Save the presentation with `SaveFormat::Xml` to create a PowerPoint XML Presentation file.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

@@ -13,7 +13,7 @@ description: Convert ODP to EMF in C# using Aspose.Slides for .NET.
 
 {{% blocks/products/pf/agp/content h2="Convert ODP to EMF Using C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to load an ODP presentation and save it as a EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
+Use [Aspose.Slides for .NET](/slides/net/) to load an ODP presentation and export its first slide as an EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -30,14 +30,14 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert ODP to EMF via C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can easily load & convert ODP files to EMF in just a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can export a slide from an ODP file to EMF in just a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the ODP file with a `Presentation` object.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with the output file path and `SaveFormat.Emf`.
+Create an output stream and call the slide's `WriteAsEmf` method.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -56,7 +56,7 @@ Before you run the ODP to EMF conversion C# code, make sure that your environmen
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -66,7 +66,8 @@ Before you run the ODP to EMF conversion C# code, make sure that your environmen
 
 ```cs
 using var presentation = new Presentation("template.odp");
-presentation.Save("output.emf", SaveFormat.Emf);
+using var stream = System.IO.File.Create("output.emf");
+presentation.Slides[0].WriteAsEmf(stream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -87,28 +88,28 @@ presentation.Save("output.emf", SaveFormat.Emf);
         sectionDescription="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-bmp/" name="ODP TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-gif/" name="ODP TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-gif/" name="ODP TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-html/" name="ODP TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-jpeg/" name="ODP TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-pdf/" name="ODP TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-png/" name="ODP TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-pot/" name="ODP TO POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-potm/" name="ODP TO POTM" description="Microsoft PowerPoint Template File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-potx/" name="ODP TO POTX" description="Microsoft PowerPoint Template Presentation" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-pot/" name="ODP TO POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-potm/" name="ODP TO POTM" description="PowerPoint Macro-Enabled Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-potx/" name="ODP TO POTX" description="PowerPoint Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-pps/" name="ODP TO PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-ppt/" name="ODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-ppt/" name="ODP TO PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-pptm/" name="ODP TO PPTM" description="Macro-enabled Presentation File" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-pptx/" name="ODP TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-svg/" name="ODP TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-swf/" name="ODP TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-tiff/" name="ODP TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-xps/" name="ODP TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-tiff/" name="ODP TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/odp-to-xps/" name="ODP TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

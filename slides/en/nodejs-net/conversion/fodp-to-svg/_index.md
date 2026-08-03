@@ -12,7 +12,7 @@ description: Convert FODP to SVG in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert FODP to SVG in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `FODP` file with the `Presentation` class and export each slide to an `SVG` file.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `FODP` file with the `Presentation` class and export each slide to an `SVG` file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 

@@ -1,37 +1,38 @@
 ---
-title:  Merge POT Files To PNG Using Python
+title: Merge POT Files and Export to PNG Using Python
 url: /python-net/merge/pot-to-png/
 keywords: Merge POT to PNG, Join POT to PNG, Combine POT to PNG, PowerPoint, Presentation, PNG, Python, Aspose
-description: Merge multiple POT files in Python. 
+description: Merge multiple POT presentation files in Python and export each slide as a PNG image.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge POT files to PNG together in Python" h2="High-speed and cross-platform Python API that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Merge POT Files and Export to PNG in Python" h2="Combine PowerPoint template files and render the merged slides as PNG images with a cross-platform Python API" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge POT to PNG in Python" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple POT presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you merge Microsoft PowerPoint Template (POT) files by cloning slides from one `Presentation` into another. After combining the slides with `SlideCollection.add_clone`, render each slide with `Slide.get_image` and save the resulting `IImage` object in PNG format.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Merge POT files to PNG using Python" %}}
-To merge the PowerPoint presentations, you will need to clone the slides from one presentation to the other.
+{{% blocks/products/pf/feature-page-section  h2="Merge POT Files to PNG Using Python" %}}
+Open the destination and source POT files, append a clone of each source slide, and render every slide in the merged presentation as a separate PNG image.
 
-{{% blocks/products/pf/agp/code-block title="Python code for merge multiple POT into single PNG file" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for merging POT files and exporting the slides as PNG images" offSpacer="true" %}}
 
 ```python
+image_scale = 2
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
+with slides.Presentation("destination.pot") as destination_presentation:
+    with slides.Presentation("source.pot") as source_presentation:
+        for slide in source_presentation.slides:
+            destination_presentation.slides.add_clone(slide)
 
-with slides.Presentation("presentation1.pot") as pres1:
-    with slides.Presentation("presentation2.pot") as pres2:
-        for slide in pres2.slides:
-            pres1.slides.add_clone(slide)
-    for slide in pres1.slides:
-        slide.get_thumbnail(2, 2).save("presentation_slide_{0}.png".format(str(slide.slide_number)), drawing.imaging.ImageFormat.png)
+    for slide in destination_presentation.slides:
+        file_path = f"merged_slide_{slide.slide_number}.png"
+        with slide.get_image(image_scale, image_scale) as slide_image:
+            slide_image.save(file_path, slides.ImageFormat.PNG)
 ```
 
 
@@ -39,75 +40,59 @@ with slides.Presentation("presentation1.pot") as pres1:
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge POT to PNG using Aspose.Slides for Python API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Merge POT Files and Export to PNG with Aspose.Slides for Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two POT files and save result as PNG in Python." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to merge two POT files and export the merged slides as PNG images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
+{{% blocks/products/pf/agp/step-autogen %}}
+Install Aspose.Slides for Python via .NET by following the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
+```console
+pip install aspose-slides
 ```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Make the `aspose.slides` namespace available in your Python project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source POT files in Python.
-```
-pres1 = slides.Presentation('pres1.pot')
-pres2 = slides.Presentation('pres2.pot')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the destination and source POT files as `Presentation` instances.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Combine POT files using [**add_clone**](https://reference.aspose.com/slides/python-net/aspose.slides/islidecollection/#methods) method.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Iterate through the source slides and call [`SlideCollection.add_clone`](https://reference.aspose.com/slides/python-net/aspose.slides/slidecollection/add_clone/) for each slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save presentation and get result as single PNG file.
-```
-for slide in pres1.slides:
-    slide.get_thumbnail(2, 2).save("presentation_slide_{0}.png".format(str(slide.slide_number)), drawing.imaging.ImageFormat.png)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render each merged slide with `Slide.get_image`, then call `IImage.save` with `ImageFormat.PNG` to create a separate PNG file for that slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Export POT To Other Supported Formats" subTitle="You can also combine POT and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Export POT to Other Supported Formats" subTitle="You can also combine POT presentations and save them in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-pptx/" name="POT TO PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-ppt/" name="POT TO PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-pdf/" name="POT TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-html/" name="POT TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-bmp/" name="POT TO BMP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-jpg/" name="POT TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-fodp/" name="POT TO FODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-gif/" name="POT TO GIF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-odp/" name="POT TO ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-otp/" name="POT TO OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-potm/" name="POT TO POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-potx/" name="POT TO POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-pps/" name="POT TO PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-ppsm/" name="POT TO PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-ppsx/" name="POT TO PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-pptm/" name="POT TO PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-svg/" name="POT TO SVG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-tiff/" name="POT TO TIFF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/pot-to-xps/" name="POT TO XPS" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-pptx/" name="POT TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-ppt/" name="POT TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-pdf/" name="POT TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-html/" name="POT TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-bmp/" name="POT TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-jpg/" name="POT TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-fodp/" name="POT TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-gif/" name="POT TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-odp/" name="POT TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-otp/" name="POT TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-potm/" name="POT TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-potx/" name="POT TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-pps/" name="POT TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-ppsm/" name="POT TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-ppsx/" name="POT TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-pptm/" name="POT TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-svg/" name="POT TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-tiff/" name="POT TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/pot-to-xps/" name="POT TO XPS" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -56,12 +56,12 @@ Save the merged file with `SaveFormat::Pptx`.
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.Slides for C++ supports on all major platforms and Operating Systems. Please make sure that you have the following prerequisites.
+ Aspose.Slides for C++ is supported on all major platforms and operating systems. Please make sure that you have the following prerequisites.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.Slides for C++ DLL referenced in your project.
+-  Microsoft Windows, Linux, macOS, or another compatible OS with the supported C++ runtime.
+-  Aspose.Slides for C++ library referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -94,7 +94,7 @@ destinationPresentation->Dispose();
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for C++ API" %}}
 
- Aspose.Slides API can be used to read, write, manipulate and convert Microsoft PowerPoint documents to PDF, XPS, HTML, TIFF, ODP and various other formats. One can create new files from scratch and save those in the relevant supported formats. Aspose.Slides is a standalone API for creating, parsing or manipulating presentations, slides and elements and it does not depend on any software like Microsoft or OpenOffice.  
+ The Aspose.Slides API can read, write, manipulate, and convert Microsoft PowerPoint presentations to PDF, XPS, HTML, TIFF, ODP, and other supported formats. You can create presentations from scratch and save them in a supported output format. Aspose.Slides is a standalone API for creating, parsing, and manipulating presentations, slides, and their elements; it does not require Microsoft PowerPoint or OpenOffice.  
 
 
 
@@ -102,14 +102,14 @@ destinationPresentation->Dispose();
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Merger Live Demos" sectionDescription="Merge PPTX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Merger Live Demos" sectionDescription="Merge PPTX documents right now by visiting our [Live Demos website](https://products.aspose.app/slides/merger). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. 
+Files with the `.PPTX` extension use the PowerPoint Open XML Presentation format introduced with PowerPoint 2007. Unlike the older binary PPT format, PPTX stores presentation data in an Office Open XML package. A PPTX file contains a collection of slides that can include text, images, formatting, animations, and other media, along with presentation settings.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 

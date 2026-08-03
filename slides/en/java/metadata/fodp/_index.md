@@ -1,5 +1,5 @@
 ---
-title: View or Edit FODP Files Metadata using Java
+title: View or Edit FODP File Metadata Using Java
 url: /java/metadata/fodp/
 keywords: Edit FODP Metadata, View FODP Metadata, Edit FODP properties, View FODP properties
 description: View and edit FODP metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

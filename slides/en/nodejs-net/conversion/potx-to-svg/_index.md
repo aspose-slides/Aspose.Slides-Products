@@ -12,14 +12,14 @@ description: Convert POTX to SVG in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert POTX to SVG in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POTX` file with the `Presentation` class and export each slide to a `SVG` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POTX` file with the `Presentation` class and export each slide to an `SVG` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert POTX to SVG in Node.js" %}}
-To convert `POTX` to `SVG`, create a `Presentation` from the source file and export each slide to a `SVG` file.
+To convert `POTX` to `SVG`, create a `Presentation` from the source file and export each slide to an `SVG` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert POTX into SVG" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert POTX into SVG" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.potx");

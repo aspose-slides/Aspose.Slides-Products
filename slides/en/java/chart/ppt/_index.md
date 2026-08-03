@@ -172,7 +172,7 @@ try {
 
     {{% blocks/products/pf/agp/content h2="About Aspose.Slides for Java API" %}}
 
-Create `PPT` charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits
+Create `PPT` charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits:
 
 
 
@@ -180,7 +180,7 @@ Create `PPT` charts online by visiting our [Live Demos website](https://products
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
-        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Chart Creation Live Demos" sectionDescription="Create PPT charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits" >}}
+        {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Chart Creation Live Demos" sectionDescription="Create PPT charts online by visiting our [Live Demos website](https://products.aspose.app/slides/chart). The live demo has the following benefits:" >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}

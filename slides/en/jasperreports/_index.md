@@ -14,7 +14,7 @@ description: Aspose.Slides for JasperReports exports JasperReports and JasperSer
 
 {{< blocks/products/pf/tab-content >}}
 <p>
-Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for converting JasperReports and JasperServer reports to PowerPoint presentation formats. Since JasperServer does not provide built-in support for exporting reports as PowerPoint presentations, Aspose.Slides for JasperReports lets you export reports to `PPT`, `PPTX`, `PPS`, and `PPSX` formats without using Microsoft PowerPoint.
+Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for converting JasperReports and JasperServer reports to PowerPoint presentation formats. JasperReports includes built-in PPTX export, and current JasperReports Server releases also support PPTX output. Aspose.Slides for JasperReports provides an alternative exporter that supports `PPT`, `PPTX`, `PPS`, and `PPSX` formats without using Microsoft PowerPoint.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -214,7 +214,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
 
 <div class="col-lg-4"><em class="fa fa-file-text ico-blue fa-2x col-lg-2"> </em>
 
-<p class="col-lg-10">Create images, text, lines and export these reports to Microsoft PowerPoint presentation</p>
+<p class="col-lg-10">Create reports containing images, text, and lines, and export them to Microsoft PowerPoint presentations</p>
 
 </div>-->
    <h2 class="pr-ft">
@@ -412,7 +412,7 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
      Export Reports to Presentation Formats
     </h2>
     <p>
-     JasperReports and JasperServer do not provide built-in export to PowerPoint formats. Aspose.Slides for JasperReports adds export support for PowerPoint presentations (`PPT`, `PPTX`) and slideshows (`PPS`, `PPSX`).
+     JasperReports provides built-in PPTX export through `JRPptxExporter`, and current JasperReports Server releases include PPTX as an output format. Aspose.Slides for JasperReports provides an alternative exporter for PowerPoint presentations (`PPT`, `PPTX`) and slide shows (`PPS`, `PPSX`).
     </p>
    </div>
    <div class="col-lg-12">

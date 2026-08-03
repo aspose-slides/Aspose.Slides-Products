@@ -1,12 +1,12 @@
 ---
-title: Reporting Services PowerPoint API for SSRS Reports
+title: PowerPoint Rendering Extension for Reporting Services
 weight: 3020
 url: /reporting-services/
-description: PowerPoint rendering extension for SQL Server Reporting Services and Power BI Report Server to export RDL reports to PPT, PPTX, PPS, PPSX, ODP, and XPS.
+description: PowerPoint rendering extension for SQL Server Reporting Services and Power BI Report Server to export RDL reports to PPT, PPTX, PPS, PPSX, and XPS.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services PowerPoint API" h2="Export RDL reports to PowerPoint PPT, PPTX, PPS, and PPSX formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-reporting-services.svg" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://releases.aspose.com/slides/reportingservices/" >}}
+{{< blocks/products/pf/upper-banner h1="PowerPoint Rendering Extension for Reporting Services" h2="Export RDL reports to PPT, PPTX, PPS, PPSX, and XPS formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-reporting-services.svg" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://releases.aspose.com/slides/reportingservices/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
 
@@ -14,11 +14,11 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.Slides for Reporting Services lets you generate presentations in PowerPoint formats from Microsoft SQL Server Reporting Services and Power BI Report Server.
+ Aspose.Slides for Reporting Services adds rendering extensions that export paginated RDL reports from Microsoft SQL Server Reporting Services and Power BI Report Server to PowerPoint and XPS formats.
 </p>
 
 <p>
- The extension supports RDL elements such as tables, matrices, charts, images, lists, subreports, headers, and footers, and exports reports to presentation formats while preserving the original report design.
+ The extension supports RDL elements such as tables, matrices, charts, images, lists, subreports, headers, and footers while preserving the report layout.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -37,10 +37,10 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
    </header>
    <ul>
     <li>
-     Page
+     Report Pages
     </li>
     <li>
-     Header/Footer
+     Headers and Footers
     </li>
     <li>
      Text Boxes
@@ -99,7 +99,7 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Reporting Services supports Microsoft SQL Server Reporting Services." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Reporting Services supports Microsoft SQL Server Reporting Services and Power BI Report Server." >}}
 <div class="diagram1 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -113,8 +113,8 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
    </header>
    <ul>
     <li>2005</li>
-    <li>2008</li>
-    <li>2012</li>
+    <li>2008 and 2008 R2</li>
+    <li>2012 and 2014</li>
     <li>2016</li>
     <li>2017</li>
     <li>2019</li>
@@ -142,7 +142,7 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Reporting Services supports most commonly used presentation [file formats](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Reporting Services accepts RDL and RPL input and exports reports to the supported [output formats](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -170,7 +170,6 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
    <ul>
     <li>PPT</li>
     <li>PPTX</li>
-    <li>ODP</li>
     <li>PPS</li>
     <li>PPSX</li>
     <li>XPS</li>
@@ -208,7 +207,7 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">
-    Advanced Reporting Services API Features
+    Advanced Reporting Services Extension Features
    </h2>
    <p>
    </p>
@@ -216,160 +215,160 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
     <em class="fa fa-share ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create comparison charts in RDL reports and export as presentations
+     Export paginated RDL reports as editable PowerPoint presentations
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Power BI Report Server Support
+     Export paginated reports from Power BI Report Server
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-list-alt ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create complex RDL reports and export to presentation files
+     Render tables and matrices from RDL reports
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-th ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Export data-centric RDL reports with subreports
+     Export reports that contain subreports
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file-audio-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Export embedded audio and video to PowerPoint files
+     Preserve images embedded in reports
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Support for MSO 2016 charts
+     Render report charts in presentation output
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Export RDL reports with subreports to PowerPoint
+     Preserve report headers and footers
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bars ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Comprehensive RDL support
+     Render text boxes, lists, and rectangles
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-newspaper-o ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     High fidelity to the report design
+     Preserve the original report layout with high fidelity
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-balance-scale ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Easy and lightweight deployment
+     Deploy automatically with an MSI installer or manually
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set the font size for individual legend entries
+     Export reports to the PPT format
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create stock charts and get chart images
+     Export reports to the PPTX format
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set rounded borders for chart areas
+     Export reports to the PPS format
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Change series and category colors
+     Export reports to the PPSX format
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-font ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Set font properties for chart data tables
+     Export reports to the XPS format
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-cog ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Rasterize or vectorize shapes without text
+     Read Report Definition Language files
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-share ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Convert SVG images to shapes
+     Process Report Page Layout input
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-adjust ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Change hyperlink text color throughout a presentation
+     Configure hyperlink colors for each rendering extension
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-plus ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Add encoding meta tag when saving into HTML
+     Configure how text in exported tables is rendered
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-bolt ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Support for OpenDocument encryption, text highlighting, and Morph transitions
+     Run in 32-bit and 64-bit Reporting Services environments
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Funnel charts and 2D map charts supported
+     Generate presentation output without Microsoft PowerPoint
     </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-comments ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Support for comment replies and Office 365
+     Configure each installed output extension independently
     </p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">Export to Presentation and Slideshow Formats</h2>
     <p>
-     SQL Server Reporting Services (SSRS) does not provide built-in export to PowerPoint presentations or slideshows. Aspose.Slides for Reporting Services adds these export formats.
+     Aspose.Slides for Reporting Services adds rendering extensions for exporting paginated reports to <code>PPT</code>, <code>PPTX</code>, <code>PPS</code>, <code>PPSX</code>, and <code>XPS</code>.
     </p>
    </div>
    <div class="col-lg-12">
@@ -381,11 +380,11 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
    <div class="col-lg-12">
     <h2 class="h2title">Power BI Report Server Support</h2>
     <p>
-     Aspose.Slides for Reporting Services supports exporting Power BI reports to presentation formats. You can export reports from Power BI Report Server to PPT, PPTX, ODP, PPS, and PPSX formats while preserving the report design. You can also embed audio and video files in PowerPoint presentations and use features such as MSO 2016 charts, comment replies, and Office 365.
+     Aspose.Slides for Reporting Services supports paginated reports defined with <code>RDL</code> in Power BI Report Server. The installed rendering extensions export those reports to the supported PowerPoint and <code>XPS</code> formats while preserving the report layout.
     </p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">Microsoft PowerPoint Automation - Not Needed</h2>
+    <h2 class="h2title">Microsoft PowerPoint Automation Is Not Required</h2>
     <p>
      Aspose.Slides for Reporting Services is built with managed code and does not require Microsoft PowerPoint to be installed on the server.
     </p>
@@ -416,7 +415,7 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/reportingservices/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/reporting-services/" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/reportingservices/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/reporting-services" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
 

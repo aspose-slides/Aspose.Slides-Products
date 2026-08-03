@@ -12,7 +12,7 @@ description: Convert FODP to PPTX in Node.js. Use the Node.js API to convert FOD
 
 {{% blocks/products/pf/feature-page-section h2="Convert FODP to PPTX in Node.js" %}}
 
-[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `FODP` file with the `Presentation` class and export it to a `PPTX` file by using the presentation API.
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `FODP` file with the `Presentation` class and export it to a `PPTX` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 

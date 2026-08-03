@@ -1,5 +1,5 @@
 ---
-title: View or Edit OTP Files Metadata using Java
+title: View or Edit OTP File Metadata Using Java
 url: /java/metadata/otp/
 keywords: Edit OTP Metadata, View OTP Metadata, Edit OTP properties, View OTP properties
 description: View and edit OTP metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

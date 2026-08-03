@@ -12,7 +12,7 @@ description: Convert FODP to JPG in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert FODP to JPG in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `FODP` file with the `Presentation` class and export its slides to `JPG` images.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `FODP` file with the `Presentation` class and export its slides to `JPG` images.
 
 {{% /blocks/products/pf/feature-page-section %}}
 

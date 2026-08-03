@@ -12,12 +12,12 @@ description: Convert POT to HTML in Node.js. Use a Node.js library API to conver
 
 {{% blocks/products/pf/feature-page-section h2="Convert POT to HTML in Node.js" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to a `HTML` file by using the presentation API.
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to an `HTML` file by using the presentation API.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert POT to HTML using Node.js" %}}
-To convert `POT` to `HTML`, create a `Presentation` from the source file and export it to a `HTML` file.
+To convert `POT` to `HTML`, create a `Presentation` from the source file and export it to an `HTML` file.
 
 {{% blocks/products/pf/agp/code-block title="Node.js code to convert POT to HTML" offSpacer="true" %}}
 

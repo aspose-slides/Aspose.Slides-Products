@@ -60,7 +60,7 @@ Before executing the code below, make sure that you have the following prerequis
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 - A development environment such as Microsoft Visual Studio.
 - Aspose.Slides for .NET referenced in your project.
 

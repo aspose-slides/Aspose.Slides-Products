@@ -64,7 +64,7 @@ PowerPoint API for building .NET Core cross-platform solutions for processing pr
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/xamarin/" >}}
-PowerPoint API for building Xamarin cross-platform applications and managing presentations on Android, iOS, or Windows.
+PowerPoint API for building Xamarin.Android applications and managing presentations on Android.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}

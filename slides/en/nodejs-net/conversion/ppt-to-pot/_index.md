@@ -19,7 +19,7 @@ description: Convert PPT to POT in Node.js. Use a Node.js library API to convert
 {{% blocks/products/pf/feature-page-section  h2="Convert PPT to POT in Node.js" %}}
 To convert `PPT` to `POT`, create a `Presentation` from the source file and export it to a `POT` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPT into POT" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPT into POT" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppt");

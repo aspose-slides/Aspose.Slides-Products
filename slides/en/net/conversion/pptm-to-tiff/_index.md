@@ -2,7 +2,7 @@
 title: Convert PPTM to TIFF in C#
 weight: 6410
 url: /net/conversion/pptm-to-tiff/
-description: Convert PPTM to TIFF in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PPTM to TIFF in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -56,7 +56,7 @@ Before running the .NET conversion sample code, make sure that you have the foll
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 - A development environment such as Microsoft Visual Studio.
 - Aspose.Slides for .NET referenced in your project.
 
@@ -87,15 +87,15 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
         sectionDescription="[Try our free app to convert PPTM to TIFF](https://products.aspose.app/slides/conversion/pptm-to-tiff)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTM into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTM into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pot/" name="PPTM TO POT" description="PowerPoint Template Files" >}}
@@ -108,7 +108,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-swf/" name="PPTM TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

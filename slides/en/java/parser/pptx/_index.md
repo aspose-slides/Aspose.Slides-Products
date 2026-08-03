@@ -142,7 +142,7 @@ Files with the PPTX extension use the Office Open XML presentation format. A PPT
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Parsing Documents" subTitle="Using Java, you can also parse other presentation formats." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/parser/odp/" name="ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/parser/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

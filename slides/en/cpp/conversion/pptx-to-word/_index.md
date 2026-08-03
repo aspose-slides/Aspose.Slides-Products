@@ -31,7 +31,13 @@ auto slideSize = Size(1200, 800);
 for (auto&& slide : presentation->get_Slides())
 {
     auto slideImage = slide->GetImage(slideSize);
-    documentBuilder->InsertImage(slideImage);
+    auto imageStream = MakeObject<System::IO::MemoryStream>();
+    slideImage->Save(imageStream, Aspose::Slides::ImageFormat::Png);
+    imageStream->set_Position(0);
+
+    documentBuilder->InsertImage(imageStream);
+
+    imageStream->Dispose();
     slideImage->Dispose();
 
     documentBuilder->InsertBreak(Aspose::Words::BreakType::PageBreak);

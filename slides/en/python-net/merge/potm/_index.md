@@ -1,37 +1,34 @@
 ---
-title:  Merge POTM Files Using Python
+title: Merge POTM Files Using Python
 url: /python-net/merge/potm/
 keywords: Merge POTM, Join POTM, Combine POTM, PowerPoint, Presentation, Python, Aspose
-description: Merge multiple POTM files in Python. 
+description: Merge multiple POTM presentation templates into a single POTM file using Python.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge POTM files together in Python" h2="High-speed and cross-platform Python API that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Merge POTM Files in Python" h2="Combine macro-enabled PowerPoint template files with a cross-platform Python API" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge POTM in Python" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple POTM presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you merge Microsoft PowerPoint Macro-Enabled Template (POTM) files by cloning slides from a source `Presentation` into a destination `Presentation`. Append each source slide with `SlideCollection.add_clone`, then call `Presentation.save` with `SaveFormat.POTM` to write the combined template.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Merge POTM files using Python" %}}
-To merge the PowerPoint presentations, you will need to clone the slides from one presentation to the other.
+{{% blocks/products/pf/feature-page-section  h2="Merge POTM Files Using Python" %}}
+Open the destination and source POTM files, append a clone of each source slide, and save the merged presentation as a POTM file.
 
-{{% blocks/products/pf/agp/code-block title="Python code for merge multiple POTM into single file" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for merging multiple POTM files into one file" offSpacer="true" %}}
 
 
 ```python
+with slides.Presentation("destination.potm") as destination_presentation:
+    with slides.Presentation("source.potm") as source_presentation:
+        for slide in source_presentation.slides:
+            destination_presentation.slides.add_clone(slide)
 
-import aspose.slides as slides
-
-
-with slides.Presentation("presentation1.potm") as pres1:
-    with slides.Presentation("presentation2.potm") as pres2:
-        for slide in pres2.slides:
-            pres1.slides.add_clone(slide)
-    pres1.save("presentation.potm", slides.export.SaveFormat.POTM)
+    destination_presentation.save("merged_template.potm", slides.export.SaveFormat.POTM)
 ```
 
 
@@ -39,75 +36,60 @@ with slides.Presentation("presentation1.potm") as pres1:
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge POTM using Aspose.Slides for Python API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Merge POTM Files with Aspose.Slides for Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two POTM files and save result as POTM in Python." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to merge two POTM files into a single POTM template." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
+{{% blocks/products/pf/agp/step-autogen %}}
+Install Aspose.Slides for Python via .NET by following the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
+```console
+pip install aspose-slides
 ```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Make the `aspose.slides` namespace available in your Python project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source POTM files in Python.
-```
-pres1 = slides.Presentation('pres1.potm')
-pres2 = slides.Presentation('pres2.potm')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the destination and source POTM files as `Presentation` instances.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Combine POTM files using [**add_clone**](https://reference.aspose.com/slides/python-net/aspose.slides/islidecollection/#methods) method.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Iterate through the source slides and call [`SlideCollection.add_clone`](https://reference.aspose.com/slides/python-net/aspose.slides/slidecollection/add_clone/) for each slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save presentation and get result as single POTM file.
-```
-pres1.save("result.potm", slides.export.SaveFormat.POTM)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Call `Presentation.save` with `SaveFormat.POTM` to write the merged presentation to a POTM file.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Export POTM To Other Supported Formats" subTitle="You can also combine POTM and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Export POTM to Other Supported Formats" subTitle="You can also combine POTM presentations and save them in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-pptx/" name="POTM TO PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-ppt/" name="POTM TO PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-pdf/" name="POTM TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-html/" name="POTM TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-png/" name="POTM TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-bmp/" name="POTM TO BMP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-jpg/" name="POTM TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-fodp/" name="POTM TO FODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-gif/" name="POTM TO GIF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-odp/" name="POTM TO ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-otp/" name="POTM TO OTP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-pot/" name="POTM TO POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-potx/" name="POTM TO POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-pps/" name="POTM TO PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-ppsm/" name="POTM TO PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-ppsx/" name="POTM TO PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-pptm/" name="POTM TO PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-svg/" name="POTM TO SVG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-tiff/" name="POTM TO TIFF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/potm-to-xps/" name="POTM TO XPS" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-pptx/" name="POTM TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-ppt/" name="POTM TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-pdf/" name="POTM TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-html/" name="POTM TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-png/" name="POTM TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-bmp/" name="POTM TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-jpg/" name="POTM TO JPG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-fodp/" name="POTM TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-gif/" name="POTM TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-odp/" name="POTM TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-otp/" name="POTM TO OTP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-pot/" name="POTM TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-potx/" name="POTM TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-pps/" name="POTM TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-ppsm/" name="POTM TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-ppsx/" name="POTM TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-pptm/" name="POTM TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-svg/" name="POTM TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-tiff/" name="POTM TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/potm-to-xps/" name="POTM TO XPS" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

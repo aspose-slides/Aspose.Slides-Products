@@ -3,7 +3,7 @@ title: Convert PNG to PDF in C#
 weight: 30
 url: /net/conversion/png-to-pdf/
 keywords: PNG to PDF, Convert PNG to PDF, C# API, .NET Library, PNG, PDF
-description: Convert PNG to PDF in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PNG to PDF in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -62,7 +62,7 @@ Call the `Save` method with the output file path and `SaveFormat.Pdf`.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -88,7 +88,7 @@ presentation.Save("presentation.pdf", SaveFormat.Pdf);
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[How to Convert PPT to HTML in Python](/slides/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
 <!-- aboutfile Starts -->
 

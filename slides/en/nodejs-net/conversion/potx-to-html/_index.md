@@ -19,7 +19,7 @@ description: Convert POTX to HTML in Node.js. Use a Node.js library API to conve
 {{% blocks/products/pf/feature-page-section  h2="Convert POTX to HTML in Node.js" %}}
 To convert `POTX` to `HTML`, create a `Presentation` from the source file and export it to an `HTML` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert POTX into HTML" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert POTX into HTML" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.potx");

@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPTM Files Metadata using Java
+title: View or Edit PPTM File Metadata Using Java
 url: /java/metadata/pptm/
 keywords: Edit PPTM Metadata, View PPTM Metadata, Edit PPTM properties, View PPTM properties
 description: View and edit PPTM metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

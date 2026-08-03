@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPS Files Metadata using .NET
+title: View or Edit PPS File Metadata Using .NET
 url: /net/metadata/pps/
 keywords: Edit PPS Metadata, View PPS Metadata, Edit PPS properties, View PPS properties
 description: C# source code to edit or view PPS format metadata.

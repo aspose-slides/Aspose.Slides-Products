@@ -20,7 +20,7 @@ description: View OTP files in Java. Use Aspose.Slides for Java to open OpenDocu
 
 
 {{% blocks/products/pf/feature-page-section  h2="View OTP in Java" %}}
-Using [**Aspose.Slides for Java**](/slides/java/), you can load a OTP presentation and save it as responsive HTML with a few lines of code.
+Using [**Aspose.Slides for Java**](/slides/java/), you can load an OTP presentation and save it as responsive HTML with a few lines of code.
 
 {{% blocks/products/pf/agp/code-block title="Java code for viewing OTP" offSpacer="true" %}}
 ```java

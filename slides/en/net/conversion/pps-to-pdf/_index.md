@@ -2,7 +2,7 @@
 title: Convert PPS to PDF in C#
 weight: 3560
 url: /net/conversion/pps-to-pdf/
-description: Convert PPS to PDF in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PPS to PDF in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -56,7 +56,7 @@ Before running the .NET conversion sample code, make sure that your environment 
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  A development environment such as Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -84,18 +84,18 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
         appName="conversion"
         extension=""
         sectionTitle="Free App to Convert PPS to PDF" 
-        sectionDescription="[Try our free app to convert PPT to PDF](https://products.aspose.app/slides/conversion/)" 
+sectionDescription="[Try our free app to convert PPS to PDF](https://products.aspose.app/slides/conversion/pps-to-pdf)"
     >}}
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPS into many other file formats, including those listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-emf/" name="PPS TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-gif/" name="PPS TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-gif/" name="PPS TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-html/" name="PPS TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-jpeg/" name="PPS TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-png/" name="PPS TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-pot/" name="PPS TO POT" description="PowerPoint Template Files" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-potm/" name="PPS TO POTM" description="PowerPoint Macro-Enabled Template" >}}
@@ -107,8 +107,8 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-svg/" name="PPS TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-swf/" name="PPS TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

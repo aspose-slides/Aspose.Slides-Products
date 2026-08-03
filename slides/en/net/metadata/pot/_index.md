@@ -1,5 +1,5 @@
 ---
-title: View or Edit POT Files Metadata using .NET
+title: View or Edit POT File Metadata Using .NET
 url: /net/metadata/pot/
 keywords: Edit POT Metadata, View POT Metadata, Edit POT properties, View POT properties
 description: C# source code to edit or view POT format metadata.

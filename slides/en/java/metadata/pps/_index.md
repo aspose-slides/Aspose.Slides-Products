@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPS Files Metadata using Java
+title: View or Edit PPS File Metadata Using Java
 url: /java/metadata/pps/
 keywords: Edit PPS Metadata, View PPS Metadata, Edit PPS properties, View PPS properties
 description: View and edit PPS metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

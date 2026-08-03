@@ -14,7 +14,7 @@ description: Sample PHP code for converting FODP presentations to PowerPoint PPT
 
 {{% blocks/products/pf/agp/content h2="Convert FODP to PPTX in PHP" %}}
 
-Need to convert FODP files to PPTX programmatically? With [*Aspose.Slides for PHP via Java*](/slides/php-java/), you can export a FODP presentation as a PowerPoint Open XML file with a few lines of PHP code.
+Need to convert FODP files to PPTX programmatically? With [*Aspose.Slides for PHP via Java*](/slides/php-java/), you can export an FODP presentation as a PowerPoint Open XML file with a few lines of PHP code.
 
 Aspose.Slides provides a straightforward presentation-processing API for FODP-to-PPTX conversion. You can also test presentation conversions in your [browser](https://products.aspose.app/slides/conversion) or export FODP files to many other supported formats.
 
@@ -34,7 +34,7 @@ composer require aspose/slides
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert FODP to PPTX in PHP" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert a FODP file to PPTX using PHP." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert an FODP file to PPTX using PHP." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the FODP file into a `Presentation` instance.
@@ -97,28 +97,28 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert FODP to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert FODP to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bitmap Image" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-gif/" name="FODP TO GIF" description="Graphical Interchange Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-html/" name="FODP TO HTML" description="Hyper Text Markup Language" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-gif/" name="FODP TO GIF" description="Graphics Interchange Format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-html/" name="FODP TO HTML" description="Hypertext Markup Language" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-jpg/" name="FODP TO JPG" description="JPEG Image" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-odp/" name="FODP TO ODP" description="OpenDocument Presentation Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument Standard Format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-otp/" name="FODP TO OTP" description="OpenDocument Presentation Template" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-pdf/" name="FODP TO PDF" description="Portable Document Format" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-png/" name="FODP TO PNG" description="Portable Network Graphics" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-pot/" name="FODP TO POT" description="Microsoft PowerPoint Template Files" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-potm/" name="FODP TO POTM" description="Microsoft PowerPoint Template File" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-potx/" name="FODP TO POTX" description="Microsoft PowerPoint Template Presentation" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-pot/" name="FODP TO POT" description="PowerPoint 97–2003 Template" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-potm/" name="FODP TO POTM" description="PowerPoint Macro-Enabled Template" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-potx/" name="FODP TO POTX" description="PowerPoint Template" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-pps/" name="FODP TO PPS" description="PowerPoint Slide Show" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-ppsm/" name="FODP TO PPSM" description="Macro-enabled Slide Show" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-ppsx/" name="FODP TO PPSX" description="PowerPoint Slide Show" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-ppt/" name="FODP TO PPT" description="Microsoft PowerPoint 97-2003" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-ppt/" name="FODP TO PPT" description="PowerPoint 97-2003 Presentation" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-pptm/" name="FODP TO PPTM" description="Macro-enabled Presentation File" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-svg/" name="FODP TO SVG" description="Scalable Vector Graphics" >}}  
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-swf/" name="FODP TO SWF" description="SWF Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Tagged Image Format" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-xps/" name="FODP TO XPS" description="XML Paper Specifications" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-tiff/" name="FODP TO TIFF" description="Tagged Image File Format" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/fodp-to-xps/" name="FODP TO XPS" description="XML Paper Specification" >}}  
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -19,7 +19,7 @@ description: Convert PPS to PPT in Node.js. Use a Node.js library API to convert
 {{% blocks/products/pf/feature-page-section  h2="Convert PPS to PPT in Node.js" %}}
 To convert `PPS` to `PPT`, create a `Presentation` from the source file and export it to a `PPT` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPS into PPT" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPS into PPT" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.pps");

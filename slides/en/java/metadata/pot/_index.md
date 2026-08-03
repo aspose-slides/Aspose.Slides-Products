@@ -1,5 +1,5 @@
 ---
-title: View or Edit POT Files Metadata using Java
+title: View or Edit POT File Metadata Using Java
 url: /java/metadata/pot/
 keywords: Edit POT Metadata, View POT Metadata, Edit POT properties, View POT properties
 description: View and edit POT metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

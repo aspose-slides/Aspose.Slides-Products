@@ -1,69 +1,63 @@
 ---
-title:  Protect ODP Presentation Files using Python
+title: Protect ODP Presentation Files with Python
 url: /python-net/protect/odp/
-keywords: Write Protection ODP, Encrypting a ODP, Lock ODP Presentation, Protect ODP
-description: Python source code to protect ODP Presentation.
+keywords: ODP write protection, encrypt ODP with Python, lock ODP presentation, protect ODP with Python
+description: Encrypt ODP presentations or set write protection with Python.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lock or Password Protect ODP using Python" h2="Build your own Python apps to protect presentation files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/upper-banner h1="Protect ODP Presentations with Python" h2="Build Python applications that encrypt presentations or set write protection with Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Protecting a ODP Presentation via Python" %}}
-Using Aspose.Slides for Python via .NET, you can protect your ODP presentation from opening or modification by setting a password. Then, to open or modify the locked presentation, a user has to provide the password.
-{{% blocks/products/pf/agp/code-block title="Encrypting a ODP Presentation using Python" offSpacer="true" %}}
+{{% blocks/products/pf/feature-page-section  h2="Protect an ODP Presentation with Python" %}}
+[**Aspose.Slides for Python via .NET**](/slides/python-net/) provides two distinct protection mechanisms. Call `ProtectionManager.encrypt` to encrypt an ODP presentation and require a password to open it. Alternatively, call `ProtectionManager.set_write_protection` to discourage modification without encrypting the file. A user can still open a write-protected presentation and save changes to a different file.
+{{% blocks/products/pf/agp/code-block title="Encrypt an ODP Presentation - Python" offSpacer="true" %}}
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.odp") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.odp", slides.export.SaveFormat.ODP)
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Setting Write Protection to a ODP Presentation using Python" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Set Write Protection on an ODP Presentation - Python" offSpacer="true" %}}
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.odp") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.odp", slides.export.SaveFormat.ODP)
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Password Protect ODP via Python" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Protect ODP with Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to Protect ODP files." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to protect an ODP file." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Load ODP with an instance of Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the ODP file with `Presentation`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Protect the presentation using ProtectionManager class
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Use `ProtectionManager.encrypt` to require a password for opening, or use `ProtectionManager.set_write_protection` to discourage changes.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save result in ODP format
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Save the protected presentation as ODP with `SaveFormat.ODP`.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Protect Formats" subTitle="Using Python, You can also protect the following formats:" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Protection Formats" subTitle="Use Python to protect other supported presentation formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/protect/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/protect/pptx/" name="PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

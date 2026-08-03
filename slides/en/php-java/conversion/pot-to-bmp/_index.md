@@ -109,7 +109,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pot-to-fodp/" name="POT TO FODP" description="Flat OpenDocument Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}

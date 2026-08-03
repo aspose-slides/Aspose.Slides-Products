@@ -14,12 +14,12 @@ description: Edit FODP presentations in PHP with Aspose.Slides for PHP via Java.
 
 [**Aspose.Slides for PHP via Java**](/slides/php-java/) can load, modify, and save presentations in FODP format. You can edit slide text, add shapes and images, update formatting, and work with other presentation elements through the API.
 
-The following example loads a FODP presentation, adds a rectangle containing text to its first slide, and saves the modified presentation as a new FODP file.
+The following example loads an FODP presentation, adds a rectangle containing text to its first slide, and saves the modified presentation as a new FODP file.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Edit FODP in PHP" %}}
-Using [**Aspose.Slides for PHP via Java**](/slides/php-java/), you can add a text shape to a FODP presentation with a few lines of PHP code.
+Using [**Aspose.Slides for PHP via Java**](/slides/php-java/), you can add a text shape to an FODP presentation with a few lines of PHP code.
 
 {{% blocks/products/pf/agp/code-block title="PHP code for editing FODP" offSpacer="true" %}}
 

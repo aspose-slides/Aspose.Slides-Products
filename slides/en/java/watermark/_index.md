@@ -1,11 +1,11 @@
 ---
 title: Add Watermark to PowerPoint Presentations using Java
 url: /java/watermark/
-description: Add text and image watermarks to PowerPoint and OpenOffice presentations in Java.
+description: Add text and image watermarks to PowerPoint and OpenDocument presentations in Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Add Watermark to PowerPoint and OpenOffice documents using Java" h2="Build Java applications that watermark presentations using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+{{< blocks/products/pf/upper-banner h1="Add Watermark to PowerPoint and OpenDocument presentations using Java" h2="Build Java applications that watermark presentations using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
 
 {{< blocks/products/pf/main-container >}}
 

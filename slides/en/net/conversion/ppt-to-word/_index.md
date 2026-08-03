@@ -2,17 +2,17 @@
 title: Convert PPT to Word in C#
 url: /net/conversion/ppt-to-word/
 keywords: Convert PPT to Word, PPT to Word, PPT to DOC, PowerPoint to Word, C# API, .NET Library
-description: Convert PPT to Word in C#. Use Aspose.Slides for .NET and Aspose.Words for .NET to move PowerPoint slide content into a DOCX document.
+description: Convert PPT to Word in C#. Use Aspose.Slides for .NET and Aspose.Words for .NET to render PowerPoint slides as images in a DOCX document.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in C#" h2="Move PowerPoint slide content to Word using Aspose.Slides for .NET and Aspose.Words for .NET." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in C#" h2="Render PowerPoint slides as images in Word using Aspose.Slides for .NET and Aspose.Words for .NET." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Word Using Aspose.Slides and Aspose.Words" %}}
 
-[Aspose.Slides for .NET](/slides/net/) can render slides and extract presentation text, while [Aspose.Words for .NET](https://products.aspose.com/words/net/) can create and save Word documents. Use both APIs when you need to move PPT slide content into a DOCX document.
+[Aspose.Slides for .NET](/slides/net/) can render presentation slides as images, while [Aspose.Words for .NET](https://products.aspose.com/words/net/) can insert those images into a Word document and save it in DOCX format.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -71,7 +71,7 @@ Create a Word `Document` and `DocumentBuilder`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Render slide images with `GetImage` and write slide text with `DocumentBuilder`.
+Render slide images with `GetImage` and insert them with `DocumentBuilder`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -94,11 +94,11 @@ Save the Word document as DOCX.
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-emf/" name="PPT TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-html/" name="PPT TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pdf/" name="PPT TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-png/" name="PPT TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pot/" name="PPT TO POT" description="PowerPoint Template Files" >}}
@@ -111,9 +111,9 @@ Save the Word document as DOCX.
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-svg/" name="PPT TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image File Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-video/" name="PPT TO VIDEO" description="Video Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

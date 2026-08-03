@@ -13,7 +13,7 @@ description: Convert POTX to HTML in Java. Use Aspose.Slides for Java to save PO
 
 {{% blocks/products/pf/agp/content h2="Convert POTX to HTML Using Java" %}}
 
-Use [Aspose.Slides for Java](/slides/java/) to load a `POTX` template and save it as a `HTML` file. You can install the `aspose-slides` package in a Maven-based project by adding the repository and dependency below.
+Use [Aspose.Slides for Java](/slides/java/) to load a `POTX` template and save it as an `HTML` file. You can install the `aspose-slides` package in a Maven-based project by adding the repository and dependency below.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
 
@@ -103,24 +103,24 @@ try {
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTX into many other file formats including the ones listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-gif/" name="POTX TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-gif/" name="POTX TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-jpeg/" name="POTX TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-odp/" name="POTX TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-otp/" name="POTX TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pdf/" name="POTX TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-png/" name="POTX TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pot/" name="POTX TO POT" description="Microsoft PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-potm/" name="POTX TO POTM" description="Microsoft PowerPoint Template File" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pot/" name="POTX TO POT" description="PowerPoint 97–2003 Template" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-potm/" name="POTX TO POTM" description="PowerPoint Macro-Enabled Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pps/" name="POTX TO PPS" description="PowerPoint Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-ppsm/" name="POTX TO PPSM" description="Macro-enabled Slide Show" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-ppsx/" name="POTX TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-ppt/" name="POTX TO PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-ppt/" name="POTX TO PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pptm/" name="POTX TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-pptx/" name="POTX TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-svg/" name="POTX TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-swf/" name="POTX TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-xps/" name="POTX TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-tiff/" name="POTX TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/potx-to-xps/" name="POTX TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

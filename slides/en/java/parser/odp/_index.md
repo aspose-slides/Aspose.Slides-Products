@@ -47,7 +47,7 @@ Use [Aspose.Slides for Java](/slides/java/) to parse ODP presentations and extra
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Parse ODP Files in Java" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Extract text from a ODP presentation with Aspose.Slides for Java in a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Extract text from an ODP presentation with Aspose.Slides for Java in a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the `ODP` file with the `Presentation` class.
@@ -141,7 +141,7 @@ Files with the ODP extension use the OpenDocument Presentation format. An ODP fi
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Parsing Documents" subTitle="Using Java, you can also parse other presentation formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/parser/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/parser/pptx/" name="PPTX" description="Open XML Presentation Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

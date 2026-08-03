@@ -2,7 +2,7 @@
 title: Convert POTM to EMF in C#
 weight: 8890
 url: /net/conversion/potm-to-emf/
-description: Convert POTM to EMF in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert POTM to EMF in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -13,7 +13,7 @@ description: Convert POTM to EMF in C# using Aspose.Slides for .NET. Use the sam
 
 {{% blocks/products/pf/agp/content h2="Convert POTM to EMF Using C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to load a POTM presentation and save it as an EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
+Use [Aspose.Slides for .NET](/slides/net/) to load a POTM presentation and export its first slide as an EMF file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -29,14 +29,14 @@ PM> Install-Package Aspose.Slides.NET
 
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Convert POTM to EMF via C#" >}}
-{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can convert POTM files to EMF in a few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name=".NET developers can export a slide from a POTM file to EMF in a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the POTM file with a `Presentation` object.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with the output file path and `SaveFormat.Emf`.
+Create an output stream and call the slide's `WriteAsEmf` method.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
@@ -55,7 +55,7 @@ Use the output EMF file at the specified path.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.Slides for .NET referenced in your project.
 
@@ -65,7 +65,8 @@ Use the output EMF file at the specified path.
 
 ```cs
 using var presentation = new Presentation("template.potm");
-presentation.Save("output.emf", SaveFormat.Emf);
+using var stream = System.IO.File.Create("output.emf");
+presentation.Slides[0].WriteAsEmf(stream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -86,14 +87,14 @@ presentation.Save("output.emf", SaveFormat.Emf);
         sectionDescription="[Try our free Text To Gif app](https://products.aspose.app/slides/text-to-gif/)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTM into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POTM into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-gif/" name="POTM TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-gif/" name="POTM TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-html/" name="POTM TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-jpeg/" name="POTM TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-odp/" name="POTM TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument Standard Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-otp/" name="POTM TO OTP" description="OpenDocument Presentation Template" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-pdf/" name="POTM TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-png/" name="POTM TO PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-pot/" name="POTM TO POT" description="PowerPoint Template Files" >}}
@@ -106,8 +107,8 @@ presentation.Save("output.emf", SaveFormat.Emf);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-pptx/" name="POTM TO PPTX" description="Open XML Presentation Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-svg/" name="POTM TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-swf/" name="POTM TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-xps/" name="POTM TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-tiff/" name="POTM TO TIFF" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/potm-to-xps/" name="POTM TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

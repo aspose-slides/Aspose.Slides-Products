@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert image content to PDF documents and other prese
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to PDF Using C++" %}}
-To convert an image to PDF, create a Presentation from the image file and save it as a PDF document.
+To convert an image to PDF, create a new Presentation, add the image to its image collection, place it on a slide with `AddPictureFrame`, and save the presentation as a PDF document.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting Image into PDF" offSpacer="true" %}}
 

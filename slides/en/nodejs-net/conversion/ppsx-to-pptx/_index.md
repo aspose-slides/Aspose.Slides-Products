@@ -19,7 +19,7 @@ description: Convert PPSX to PPTX in Node.js. Use a Node.js library API to conve
 {{% blocks/products/pf/feature-page-section  h2="Convert PPSX to PPTX in Node.js" %}}
 To convert `PPSX` to `PPTX`, create a `Presentation` from the source file and export it to a `PPTX` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPSX into PPTX" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPSX into PPTX" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppsx");

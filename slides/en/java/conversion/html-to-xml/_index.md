@@ -1,25 +1,25 @@
 ---
 title: Convert HTML to XML in Java
 url: /java/conversion/html-to-xml/
-keywords: HTML to XML, Convert HTML to XML, Java API, Java Library, HTML, XML
-description: Convert HTML to XML in Java. Use Java library API to convert HTML files to XML-based output.
+keywords: HTML to XML, Convert HTML to XML, PowerPoint XML Presentation, Java API, Java Library, HTML, XML
+description: Convert HTML content to PowerPoint XML Presentation format in Java with Aspose.Slides for Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert HTML to XML in Java" h2="Convert HTML files to XML-based output using Aspose.Slides for Java without Microsoft PowerPoint." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert HTML to XML in Java" h2="Import HTML content into presentation slides and save the result in PowerPoint XML Presentation format." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert HTML to XML in Java" %}}
 
-[**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and save slide output as XML-based files.
+[**Aspose.Slides for Java**](/slides/java/) can import HTML content into presentation slides and save the resulting presentation in PowerPoint XML Presentation format.
 
-Aspose.Slides for Java can convert `HTML` content to XML-based output and other presentation-related formats.
+The generated XML represents a presentation rather than a generic transformation of the source HTML markup. Aspose.Slides can also export the imported content to PowerPoint, PDF, images, and other supported formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to XML using Java" %}}
-To convert `HTML` to XML-based output, create a `Presentation` from the source file and write each slide as an XML-based file.
+To convert HTML content to PowerPoint XML, create a `Presentation`, remove its default slide, import the HTML with `addFromHtml`, and call `save` with `SaveFormat.Xml`.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting HTML into XML" offSpacer="true" %}}
 
@@ -31,12 +31,7 @@ try {
         presentation.getSlides().addFromHtml(htmlStream);
     }
 
-    for (int slideIndex = 0; slideIndex < presentation.getSlides().size(); slideIndex++) {
-        ISlide slide = presentation.getSlides().get_Item(slideIndex);
-        try (FileOutputStream fileStream = new FileOutputStream("slide_" + (slideIndex + 1) + ".xml")) {
-            slide.writeAsSvg(fileStream);
-        }
-    }
+    presentation.save("output.xml", SaveFormat.Xml);
 } finally {
     presentation.dispose();
 }
@@ -64,7 +59,7 @@ Load the source `HTML` file into a `Presentation`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Write each `ISlide` as an XML-based file.
+Call `save` with the output file path and `SaveFormat.Xml`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

@@ -1,37 +1,38 @@
 ---
-title:  Merge OTP Files To JPG Using Python
+title: Merge OTP Files and Export to JPG Using Python
 url: /python-net/merge/otp-to-jpg/
 keywords: Merge OTP to JPG, Join OTP to JPG, Combine OTP to JPG, PowerPoint, Presentation, JPG, Python, Aspose
-description: Merge multiple OTP files in Python. 
+description: Merge multiple OTP presentation templates in Python and export each slide as a JPEG image.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge OTP files to JPG together in Python" h2="High-speed and cross-platform Python API that helps in developing applications with the ability to create, merge, inspect, or convert Microsoft PowerPoint and OpenOffice presentation files without the use of any software like Microsoft or Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/feature-page-header h1="Merge OTP Files and Export to JPG in Python" h2="Combine OpenDocument Presentation Template files and render the merged slides as JPEG images with a cross-platform Python API" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Merge OTP to JPG in Python" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/) is a powerful Python library for creating and manipulating presentation files. Moreover, it provides flexible ways to combine multiple OTP presentations. When you merge one presentation to another, you are effectively combining their slides in a single presentation to obtain one file. Aspose.Slides allows you merge two presentations in different ways. You get to merge presentations with all their shapes, styles, texts, formatting, comments, animations, etc. without having to worry about loss of quality or data.
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you merge OpenDocument Presentation Template (OTP) files by cloning slides from one template into another. After combining the slides with `SlideCollection.add_clone`, render each slide with `Slide.get_image` and save the resulting `IImage` object in JPEG format.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="Merge OTP files to JPG using Python" %}}
-To merge the PowerPoint presentations, you will need to clone the slides from one presentation to the other.
+{{% blocks/products/pf/feature-page-section  h2="Merge OTP Files to JPG Using Python" %}}
+Open the destination and source OTP templates, append a clone of each source slide, and render every slide in the merged template as a separate JPEG image.
 
-{{% blocks/products/pf/agp/code-block title="Python code for merge multiple OTP into single JPG file" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Python code for merging OTP files and exporting the slides as JPG images" offSpacer="true" %}}
 
 ```python
+image_scale = 2
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
+with slides.Presentation("destination.otp") as destination_presentation:
+    with slides.Presentation("source.otp") as source_presentation:
+        for slide in source_presentation.slides:
+            destination_presentation.slides.add_clone(slide)
 
-with slides.Presentation("presentation1.otp") as pres1:
-    with slides.Presentation("presentation2.otp") as pres2:
-        for slide in pres2.slides:
-            pres1.slides.add_clone(slide)
-    for slide in pres1.slides:
-        slide.get_thumbnail(2, 2).save("presentation_slide_{0}.jpg".format(str(slide.slide_number)), drawing.imaging.ImageFormat.jpeg)
+    for slide in destination_presentation.slides:
+        file_path = f"merged-slide-{slide.slide_number}.jpg"
+        with slide.get_image(image_scale, image_scale) as slide_image:
+            slide_image.save(file_path, slides.ImageFormat.JPEG)
 ```
 
 
@@ -39,75 +40,59 @@ with slides.Presentation("presentation1.otp") as pres1:
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge OTP to JPG using Aspose.Slides for Python API" >}}
+{{< blocks/products/pf/feature-page-section  h2="How to Merge OTP Files and Export to JPG with Aspose.Slides for Python" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to merge two OTP files and save result as JPG in Python." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to merge two OTP files and export the merged slides as JPG images." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/python-net/).
+{{% blocks/products/pf/agp/step-autogen %}}
+Install Aspose.Slides for Python via .NET by following the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
+```console
+pip install aspose-slides
 ```
-pip install aspose.slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your Python project.
-```
-import aspose.slides as slides
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Make the `aspose.slides` namespace available in your Python project.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source OTP files in Python.
-```
-pres1 = slides.Presentation('pres1.otp')
-pres2 = slides.Presentation('pres2.otp')
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Open the destination and source OTP files as `Presentation` instances.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Combine OTP files using [**add_clone**](https://reference.aspose.com/slides/python-net/aspose.slides/islidecollection/#methods) method.
-```
-for slide in pres2.slides:
-    pres1.slides.add_clone(slide)
-```
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Iterate through the source slides and call [`SlideCollection.add_clone`](https://reference.aspose.com/slides/python-net/aspose.slides/slidecollection/add_clone/) for each slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save presentation and get result as single JPG file.
-```
-for slide in pres1.slides:
-    slide.get_thumbnail(2, 2).save("presentation_slide_{0}.jpg".format(str(slide.slide_number)), drawing.imaging.ImageFormat.jpeg)
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% blocks/products/pf/agp/step-autogen %}}
+Render each merged slide with `Slide.get_image`, then call `IImage.save` with `ImageFormat.JPEG` to create a separate JPG file for that slide.
+{{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section title="Export OTP To Other Supported Formats" subTitle="You can also combine OTP and save to other file formats. See all supported formats below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Export OTP to Other Supported Formats" subTitle="You can also combine OTP templates and save them in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-pptx/" name="OTP TO PPTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-ppt/" name="OTP TO PPT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-pdf/" name="OTP TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-html/" name="OTP TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-png/" name="OTP TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-bmp/" name="OTP TO BMP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-fodp/" name="OTP TO FODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-gif/" name="OTP TO GIF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-odp/" name="OTP TO ODP" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-pot/" name="OTP TO POT" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-potm/" name="OTP TO POTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-potx/" name="OTP TO POTX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-pps/" name="OTP TO PPS" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-ppsm/" name="OTP TO PPSM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-ppsx/" name="OTP TO PPSX" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-pptm/" name="OTP TO PPTM" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-svg/" name="OTP TO SVG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-tiff/" name="OTP TO TIFF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/python-net/merge/otp-to-xps/" name="OTP TO XPS" >}}  
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-pptx/" name="OTP TO PPTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-ppt/" name="OTP TO PPT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-pdf/" name="OTP TO PDF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-html/" name="OTP TO HTML" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-png/" name="OTP TO PNG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-bmp/" name="OTP TO BMP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-fodp/" name="OTP TO FODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-gif/" name="OTP TO GIF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-odp/" name="OTP TO ODP" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-pot/" name="OTP TO POT" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-potm/" name="OTP TO POTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-potx/" name="OTP TO POTX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-pps/" name="OTP TO PPS" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-ppsm/" name="OTP TO PPSM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-ppsx/" name="OTP TO PPSX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-pptm/" name="OTP TO PPTM" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-svg/" name="OTP TO SVG" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-tiff/" name="OTP TO TIFF" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/merge/otp-to-xps/" name="OTP TO XPS" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

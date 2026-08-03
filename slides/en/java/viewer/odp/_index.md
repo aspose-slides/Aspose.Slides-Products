@@ -2,7 +2,7 @@
 title: View ODP in Java
 url: /java/viewer/odp/
 keywords: View ODP, Open ODP, ODP Viewer, ODP, Java API, Java Library
-description: View ODP files in Java. Use Aspose.Slides for Java to open OpenOffice presentation files and save them as HTML.
+description: View ODP files in Java. Use Aspose.Slides for Java to open OpenDocument presentation files and save them as HTML.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
@@ -20,7 +20,7 @@ description: View ODP files in Java. Use Aspose.Slides for Java to open OpenOffi
 
 
 {{% blocks/products/pf/feature-page-section  h2="View ODP in Java" %}}
-Using [**Aspose.Slides for Java**](/slides/java/), you can load a ODP presentation and save it as responsive HTML with a few lines of code.
+Using [**Aspose.Slides for Java**](/slides/java/), you can load an ODP presentation and save it as responsive HTML with a few lines of code.
 
 {{% blocks/products/pf/agp/code-block title="Java code for viewing ODP" offSpacer="true" %}}
 ```java

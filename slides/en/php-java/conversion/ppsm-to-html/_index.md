@@ -16,7 +16,7 @@ description: Convert a PowerPoint PPSM slide show to HTML5 in PHP with Aspose.Sl
 
 [*Aspose.Slides for PHP via Java*](/slides/php-java/) can load a PowerPoint PPSM slide show and export it as an HTML5 document without Microsoft PowerPoint.
 
-Call \`save\` with \`SaveFormat::Html5\` to create the HTML5 output.
+Call `save` with `SaveFormat::Html5` to create the HTML5 output.
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -97,7 +97,7 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below" >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below:" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="Flat OpenDocument Presentation" >}}

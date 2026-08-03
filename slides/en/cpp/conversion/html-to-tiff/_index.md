@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert HTML content to TIFF images and other presenta
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to TIFF Using C++" %}}
-To convert HTML to TIFF, create a Presentation from the HTML file and save it as a TIFF image.
+To convert HTML to TIFF, create a new Presentation, remove its default slide, import the HTML content with `AddFromHtml`, and save the resulting presentation as a TIFF image.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into TIFF" offSpacer="true" %}}
 

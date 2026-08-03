@@ -2,7 +2,7 @@
 title: Convert PPTX to OTP in C#
 weight: 2160
 url: /net/conversion/pptx-to-otp/
-description: Convert PPTX to OTP in C# using Aspose.Slides for .NET. Use the sample code in VB.NET, ASP.NET, or any .NET-based application.
+description: Convert PPTX to OTP in C# using Aspose.Slides for .NET. Use the sample code in C# applications, including ASP.NET projects.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -56,7 +56,7 @@ Before running the .NET conversion sample code, make sure that you have the foll
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono, or Xamarin.
+- A supported operating system with .NET or Mono installed.
 - A development environment such as Microsoft Visual Studio.
 - Aspose.Slides for .NET referenced in your project.
 
@@ -87,11 +87,11 @@ presentation.Save("output.otp", SaveFormat.Otp);
         sectionDescription="[Try our free app to convert PPTX to OTP](https://products.aspose.app/slides/conversion/pptx-to-otp)"
     >}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX into many other file formats including a few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-emf/" name="PPTX TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Graphics Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-html/" name="PPTX TO HTML" description="Hypertext Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-odp/" name="PPTX TO ODP" description="OpenDocument Presentation Format" >}}
@@ -107,10 +107,10 @@ presentation.Save("output.otp", SaveFormat.Otp);
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" description="Macro-Enabled Presentation" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-svg/" name="PPTX TO SVG" description="Scalable Vector Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-swf/" name="PPTX TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" description="Tagged Image File Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-video/" name="PPTX TO VIDEO" description="Video Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-word/" name="PPTX TO WORD" description="Word Processing Document" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptx-to-xps/" name="PPTX TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

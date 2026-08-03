@@ -19,7 +19,7 @@ description: Convert PPSX to TIFF in Node.js. Use a Node.js library API to conve
 {{% blocks/products/pf/feature-page-section  h2="Convert PPSX to TIFF in Node.js" %}}
 To convert `PPSX` to `TIFF`, create a `Presentation` from the source file and export it to a `TIFF` file.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript code for convert PPSX into TIFF" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="JavaScript code to convert PPSX into TIFF" offSpacer="true" %}}
 
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.ppsx");

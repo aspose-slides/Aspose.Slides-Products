@@ -2,17 +2,17 @@
 title: Convert PPT to Word in Java
 url: /java/conversion/ppt-to-word/
 keywords: Convert PPT to Word, PPT to Word, PPT to DOC, PowerPoint to Word, Java API, Java Library
-description: Convert PPT to Word in Java. Use Aspose.Slides for Java and Aspose.Words for Java to move PowerPoint slide content into a Word document.
+description: Convert PPT to Word in Java. Use Aspose.Slides for Java and Aspose.Words for Java to render PowerPoint slides as images in a Word document.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in Java" h2="Convert PowerPoint slides to a Word document using Java code without Microsoft PowerPoint or Office" >}}
+{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in Java" h2="Render PowerPoint slides as images in a Word document using Java code without Microsoft PowerPoint or Office" >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Word using Aspose.Slides and Aspose.Words" %}}
 
-[Aspose.Slides for Java](/slides/java/) and [Aspose.Words for Java](https://products.aspose.com/words/java/) let Java applications read PowerPoint presentations and create Word documents. A `PPT` to Word workflow usually renders each slide image, extracts slide text, and writes that content into a `Document`.
+[Aspose.Slides for Java](/slides/java/) and [Aspose.Words for Java](https://products.aspose.com/words/java/) let Java applications read PowerPoint presentations and create Word documents. The example renders each PPT slide as an image and inserts that image into a `Document`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -73,7 +73,7 @@ Create a Word `Document` and a `DocumentBuilder`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Render slide images with `getImage` and write slide text with `DocumentBuilder`.
+Render slide images with `getImage` and insert them with `DocumentBuilder`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< blocks/products/pf/agp/step-autogen >}}

@@ -29,7 +29,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="How to Parse PPTX Files in C#" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A basic document parsing with [Aspose.Slides for .NET](/slides/net/) APIs can be done with just few lines of code." >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="Basic document parsing with the [Aspose.Slides for .NET](/slides/net/) API requires just a few lines of code." >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
 Load the PPTX file with `Presentation`.
@@ -125,7 +125,7 @@ PPTX files are presentations created with Microsoft PowerPoint. Unlike the binar
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Parsing Formats" subTitle="Using C#, you can also parse the following formats." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/parser/odp/" name="ODP" description="OpenDocument Presentation format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/parser/ppt/" name="PPT" description="Microsoft PowerPoint 97-2003" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/parser/ppt/" name="PPT" description="PowerPoint 97-2003 Presentation" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

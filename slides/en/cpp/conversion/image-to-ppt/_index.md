@@ -19,7 +19,7 @@ Aspose.Slides for C++ can convert image content to PPT presentations and other p
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to PPT Using C++" %}}
-To convert an image to PPT, create a Presentation from the image file and save it as a PPT presentation.
+To convert an image to PPT, create a new Presentation, add the image to its image collection, place it on a slide with `AddPictureFrame`, and save the presentation in PPT format.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting Image into PPT" offSpacer="true" %}}
 

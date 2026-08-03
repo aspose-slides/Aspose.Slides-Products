@@ -1,5 +1,5 @@
 ---
-title: View or Edit PPT Files Metadata using Java
+title: View or Edit PPT File Metadata Using Java
 url: /java/metadata/ppt/
 keywords: Edit PPT Metadata, View PPT Metadata, Edit PPT properties, View PPT properties
 description: View and edit PPT metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.

@@ -5,7 +5,7 @@ description: View and edit presentation properties in Java.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="View and Edit Metadata of PowerPoint and OpenOffice documents using Java" h2="Build Java applications that extract, edit, and remove presentation properties using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+{{< blocks/products/pf/upper-banner h1="View and Edit Metadata of PowerPoint and OpenDocument presentations using Java" h2="Build Java applications that extract, edit, and remove presentation properties using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
 
 {{< blocks/products/pf/main-container >}}
 

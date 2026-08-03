@@ -2,7 +2,7 @@
 title: Convert HTML to PDF in Java
 url: /java/conversion/html-to-pdf/
 keywords: HTML to PDF, Convert HTML to PDF, Java API, Java Library, HTML, PDF
-description: Convert HTML to PDF in Java. Use Java library API to convert HTML files to PDFs
+description: Convert HTML to PDF in Java. Use Java library API to convert HTML files to PDFs.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
@@ -14,12 +14,12 @@ description: Convert HTML to PDF in Java. Use Java library API to convert HTML f
 
 [**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and save it as a `PDF` document.
 
-You can load an `HTML` file into a `Presentation` and save the result with `SaveFormat.Pdf`.
+You can import an `HTML` file into a new `Presentation` with `addFromHtml` and save the result with `SaveFormat.Pdf`.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert HTML to PDF using Java" %}}
-To convert `HTML` to `PDF`, create a `Presentation` from the source file and save it as a `PDF` document.
+To convert `HTML` to `PDF`, create a new `Presentation`, remove its default slide, import the source HTML with `addFromHtml`, and save the resulting presentation as a `PDF` document.
 
 {{% blocks/products/pf/agp/code-block title="Java code for converting HTML into PDF" offSpacer="true" %}}
 

@@ -1,5 +1,5 @@
 ---
-title: View or Edit POTX Files Metadata using .NET
+title: View or Edit POTX File Metadata Using .NET
 url: /net/metadata/potx/
 keywords: Edit POTX Metadata, View POTX Metadata, Edit POTX properties, View POTX properties
 description: C# source code to edit or view POTX format metadata.
