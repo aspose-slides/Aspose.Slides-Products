@@ -1,34 +1,81 @@
-# This is a basic workflow to help you get started with Actions
+name: Sync Slides Product Pages
 
-name: CopyChangesToThemeRepo
-
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - "slides/**"
+      - ".github/workflows/main.yml"
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+permissions:
+  contents: read
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+concurrency:
+  group: sync-slides-products-to-main-repository
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync to products.aspose.com
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
-    - name: Copycat
-      uses: andstor/copycat-action@v3
-      with:
-        personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: ./slides/
-        dst_path: /content/
-        dst_owner: Aspose
-        dst_repo_name: products.aspose.com
-        dst_branch: main
-        src_branch: master
+      - name: Validate destination token
+        env:
+          REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
+        run: |
+          if [ -z "$REPO_TOKEN" ]; then
+            echo "::error::REPO_TOKEN is not configured"
+            exit 1
+          fi
+
+      - name: Checkout source repository
+        uses: actions/checkout@v7
+        with:
+          path: source
+          persist-credentials: false
+
+      - name: Checkout destination repository
+        uses: actions/checkout@v7
+        with:
+          repository: Aspose/products.aspose.com
+          ref: main
+          token: ${{ secrets.REPO_TOKEN }}
+          path: destination
+
+      - name: Synchronize Slides product pages
+        run: |
+          set -euo pipefail
+
+          mkdir -p destination/content/slides
+
+          rsync \
+            --archive \
+            --delete \
+            source/slides/ \
+            destination/content/slides/
+
+      - name: Commit and push changes
+        working-directory: destination
+        run: |
+          set -euo pipefail
+
+          git config user.name "aspose-slides-sync[bot]"
+          git config user.email \
+            "aspose-slides-sync[bot]@users.noreply.github.com"
+
+          git add -A content/slides
+
+          if git diff --cached --quiet; then
+            echo "The destination repository is already up to date."
+            exit 0
+          fi
+
+          git commit \
+            -m "Sync Aspose.Slides product pages from ${GITHUB_REPOSITORY}@${GITHUB_SHA:0:7}"
+
+          git push origin HEAD:main
