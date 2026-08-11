@@ -80,7 +80,6 @@ try {
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Save PPT as PPTM in PHP" %}}
 Use the free app to see a demonstration of the PPT-to-PPTM conversion process.

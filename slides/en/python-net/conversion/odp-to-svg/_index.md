@@ -79,7 +79,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save ODP as SVG in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion) to see the ODP-to-SVG conversion process in action.

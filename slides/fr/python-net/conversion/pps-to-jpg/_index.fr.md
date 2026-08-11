@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Enregistrer PPS au format JPG en Python" %}}
 Utilisez l'application gratuite pour voir une démonstration du processus de conversion PPS en JPG. 

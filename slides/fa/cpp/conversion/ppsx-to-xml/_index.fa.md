@@ -85,7 +85,6 @@ for (int32_t index = 0; index < prs->get_Slides()->get_Count(); index++)
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

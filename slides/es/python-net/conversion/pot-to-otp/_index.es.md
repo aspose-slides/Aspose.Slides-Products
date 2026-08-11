@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Guardar POT como OTP en Python" %}}
 Utilice la aplicación gratuita para ver una demostración del proceso de conversión de POT a OTP. 

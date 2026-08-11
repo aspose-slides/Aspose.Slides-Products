@@ -83,7 +83,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="FODP mentése BMP-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a FODP-BMP konvertálási folyamat bemutatóját. 

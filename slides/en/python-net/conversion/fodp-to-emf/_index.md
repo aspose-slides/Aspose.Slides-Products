@@ -79,7 +79,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save FODP as EMF in Python" %}}
 Use Aspose.Slides for Python via .NET to perform FODP-to-EMF conversion in your application.

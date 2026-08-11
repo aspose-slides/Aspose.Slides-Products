@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python에서 POTX를 JPG로 저장" %}}
 무료 앱을 사용하여 POTX를 JPG로 변환하는 과정의 데모를 확인하십시오. 

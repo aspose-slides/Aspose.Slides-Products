@@ -102,7 +102,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Sla PDF op als BMP in PHP" %}}
 Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces van PDF naar BMP. 

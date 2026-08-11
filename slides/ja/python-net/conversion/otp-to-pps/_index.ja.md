@@ -82,7 +82,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでOTPをPPSとして保存" %}}
 無料アプリを使用して、OTPからPPSへの変換プロセスのデモをご覧ください。 

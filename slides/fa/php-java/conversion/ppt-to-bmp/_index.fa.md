@@ -100,7 +100,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPT را به عنوان BMP در PHP ذخیره کنید" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل PPT به BMP استفاده کنید. 

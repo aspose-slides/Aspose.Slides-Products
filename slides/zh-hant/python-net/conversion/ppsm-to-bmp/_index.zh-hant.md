@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 Python 中將 PPSM 保存為 BMP" %}}
 使用免費應用程序查看 PPSM 到 BMP 轉換過程的演示。 

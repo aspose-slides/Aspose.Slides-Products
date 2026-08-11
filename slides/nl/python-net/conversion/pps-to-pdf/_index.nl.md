@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPS opslaan als PDF in Python" %}}
 Gebruik de gratis app om een ​​demonstratie te zien van het PPS naar PDF-conversieproces. 

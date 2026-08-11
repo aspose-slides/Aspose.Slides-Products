@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPOTMをXPSとして保存する" %}}
 無料アプリを使用して、POTMからXPSへの変換プロセスのデモをご覧ください。 

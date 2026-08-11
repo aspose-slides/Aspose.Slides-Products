@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python에서 PDF를 FODP로 저장" %}}
 무료 앱을 사용하여 PDF에서 FODP로의 변환 프로세스 데모를 확인하십시오. 

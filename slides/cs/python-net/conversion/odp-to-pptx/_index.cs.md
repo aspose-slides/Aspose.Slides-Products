@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložte ODP jako PPTX v Pythonu" %}}
 Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu ODP na PPTX. 

@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="احفظ PPT كـ EMF في Python" %}}
 استخدم التطبيق المجاني لمشاهدة عرض توضيحي لعملية تحويل PPT إلى EMF. 

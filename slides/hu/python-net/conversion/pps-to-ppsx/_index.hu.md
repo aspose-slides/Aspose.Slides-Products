@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPS-t PPSX-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPS-ből PPSX-be való átalakítási folyamat bemutatóját. 

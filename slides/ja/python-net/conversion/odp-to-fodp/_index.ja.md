@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでODPをFODPとして保存する" %}}
 無料アプリを使用して、ODPからFODPへの変換プロセスのデモンストレーションをご覧ください。 

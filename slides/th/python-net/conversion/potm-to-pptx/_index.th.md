@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก POTM เป็น PPTX ใน Python" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลง POTM เป็น PPTX 

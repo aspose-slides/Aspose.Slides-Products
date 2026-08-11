@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPTM as FODP in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion) to see the PPTM-to-FODP conversion process in action.

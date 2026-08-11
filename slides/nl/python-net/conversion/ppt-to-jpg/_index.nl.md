@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Bewaar PPT als JPG in Python" %}}
 Gebruik de gratis app om een ​​demonstratie van het PPT naar JPG-conversieproces te zien. 

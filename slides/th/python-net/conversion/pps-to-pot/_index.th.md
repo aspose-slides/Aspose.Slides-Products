@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PPS เป็น POT ใน Python" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลง PPS เป็น POT 

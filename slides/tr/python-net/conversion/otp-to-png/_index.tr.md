@@ -83,7 +83,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da OTP'yi PNG olarak kaydedin" %}}
 OTP'den PNG'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

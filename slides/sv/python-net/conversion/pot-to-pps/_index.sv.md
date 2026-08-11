@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara POT som PPS i Python" %}}
 Använd gratisappen för att se en demonstration av konverteringsprocessen från POT till PPS. 

@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save POT as HTML in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pot-to-html) to see the POT-to-HTML conversion process in action.

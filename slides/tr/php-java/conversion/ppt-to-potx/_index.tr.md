@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHP'de PPT öğesini POTX olarak kaydedin" %}}
 PPT - POTX dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

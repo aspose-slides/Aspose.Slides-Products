@@ -92,7 +92,6 @@ presentation.save("output.ppsm", SaveFormat.Ppsm);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

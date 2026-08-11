@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A POT mentése OTP-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a POT OTP konvertálási folyamat bemutatójának megtekintéséhez. 

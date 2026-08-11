@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Zapisz PPTM jako BMP w Pythonie" %}}
 Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersji PPTM do BMP. 

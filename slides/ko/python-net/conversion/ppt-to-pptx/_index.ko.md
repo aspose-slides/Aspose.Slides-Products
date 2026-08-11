@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python에서 PPTX로 PPT 저장" %}}
 PPTX 변환 프로세스에 대한 PPT 데모를 보려면 무료 앱을 사용하십시오. 

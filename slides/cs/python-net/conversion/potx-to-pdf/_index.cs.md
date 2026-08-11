@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložit POTX jako PDF v Pythonu" %}}
 Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu POTX do PDF. 

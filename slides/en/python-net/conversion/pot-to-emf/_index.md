@@ -79,7 +79,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Save POT as EMF in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pot-to-emf) to see the POT-to-EMF conversion process in action.

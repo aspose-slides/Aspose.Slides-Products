@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHP'de ODP öğesini PPTX olarak kaydedin" %}}
 ODP - PPTX dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

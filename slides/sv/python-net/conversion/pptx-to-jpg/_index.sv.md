@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PPTX som JPG i Python" %}}
 Använd gratisappen för att se en demonstration av PPTX till JPG-konverteringsprocessen. 

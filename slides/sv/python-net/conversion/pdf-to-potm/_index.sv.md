@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PDF som POTM i Python" %}}
 Använd gratisappen för att se en demonstration av konverteringsprocessen från PDF till POTM. 

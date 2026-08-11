@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Zapisz POT jako PPSX w Pythonie" %}}
 Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersji POT do PPSX. 

@@ -111,7 +111,6 @@ Metin, yazı tipi vb. gibi gerekli çıktıları alın.
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="POTM را به عنوان PPTM در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل POTM به PPTM از برنامه رایگان استفاده کنید. 

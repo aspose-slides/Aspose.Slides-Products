@@ -100,7 +100,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHP에서 PPTM을 BMP으로 저장" %}}
 무료 앱을 사용하여 PPTM에서 BMP으로의 변환 과정에 대한 데모를 확인하세요. 

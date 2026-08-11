@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PPSM เป็น PPTM ใน PHP" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลงจาก PPSM เป็น PPTM 

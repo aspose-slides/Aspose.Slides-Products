@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložte PPSM jako EMF v Pythonu" %}}
 Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu PPSM na EMF. 

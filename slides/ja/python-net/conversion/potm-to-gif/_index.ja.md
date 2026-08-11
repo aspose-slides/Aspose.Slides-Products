@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPOTMをGIFとして保存" %}}
 無料アプリを使用して、POTMからGIFへの変換プロセスのデモをご覧ください。 

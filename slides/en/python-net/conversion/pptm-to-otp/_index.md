@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPTM as OTP in Python" %}}
 Use the free [online conversion app](https://products.aspose.app/slides/conversion) to see the PPTM-to-OTP conversion process in action.

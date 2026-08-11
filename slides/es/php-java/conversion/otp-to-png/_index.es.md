@@ -100,7 +100,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Guardar OTP como PNG en PHP" %}}
 Utilice la aplicación gratuita para ver una demostración del proceso de conversión de OTP a PNG. 

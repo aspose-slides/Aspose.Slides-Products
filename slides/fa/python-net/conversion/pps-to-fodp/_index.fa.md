@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPS را به عنوان FODP در پایتون ذخیره کنید" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل PPS به FODP استفاده کنید. 

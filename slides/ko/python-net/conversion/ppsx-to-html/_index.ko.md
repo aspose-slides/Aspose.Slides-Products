@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python에서 PPSX를 HTML로 저장" %}}
 무료 앱을 사용하여 PPSX를 HTML로 변환하는 과정의 데모를 보십시오. 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie PPSM als PPT in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des PPSM-zu-PPT-Konvertierungsprozesses zu sehen. 

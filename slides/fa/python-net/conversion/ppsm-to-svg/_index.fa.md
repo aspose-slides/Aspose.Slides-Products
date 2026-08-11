@@ -84,7 +84,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPSM را به عنوان SVG در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل PPSM به SVG از برنامه رایگان استفاده کنید. 

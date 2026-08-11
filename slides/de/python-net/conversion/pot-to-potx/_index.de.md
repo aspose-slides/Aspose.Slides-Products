@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie POT als POTX in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Konvertierungsprozesses von POT zu POTX zu sehen. 

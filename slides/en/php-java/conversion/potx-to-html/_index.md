@@ -80,7 +80,6 @@ try {
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save POTX as HTML in PHP" %}}
 Use the free app to see a demonstration of the POTX to HTML conversion process.

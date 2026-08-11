@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="FODP को Python में TIFF के रूप में सहेजें" %}}
 एफओडीपी से टीआईएफएफ रूपांतरण प्रक्रिया का प्रदर्शन देखने के लिए मुफ्त ऐप का उपयोग करें। 

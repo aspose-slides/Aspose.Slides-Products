@@ -78,7 +78,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PDF as PPSX in Python" %}}
 Use the [free conversion app](https://products.aspose.app/slides/conversion) to see the PDF-to-PPSX workflow in your browser.

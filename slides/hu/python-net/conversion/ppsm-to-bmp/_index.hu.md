@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPSM-et BMP-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPSM-BMP konvertálási folyamat bemutatóját. 

@@ -100,7 +100,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PPT som JPG i PHP" %}}
 Använd gratisappen för att se en demonstration av konverteringsprocessen från PPT till JPG. 

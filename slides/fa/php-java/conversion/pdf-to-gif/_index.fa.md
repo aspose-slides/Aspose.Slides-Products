@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PDF را به عنوان GIF در PHP ذخیره کنید" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل PDF به GIF استفاده کنید. 

@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="ذخیره POTX به عنوان EMF در پایتون" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل POTX به EMF استفاده کنید. 

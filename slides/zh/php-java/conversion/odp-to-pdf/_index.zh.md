@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中将 ODP 保存为 PDF" %}}
 使用免费应用查看 ODP 到 PDF 转换过程的演示。 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Guardar ODP como PDF en Python" %}}
 Use la aplicación gratuita para ver una demostración del proceso de conversión de ODP a PDF. 

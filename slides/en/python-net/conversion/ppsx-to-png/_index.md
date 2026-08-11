@@ -81,7 +81,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPSX as PNG in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/ppsx-to-png) to see the PPSX-to-PNG conversion process in action.

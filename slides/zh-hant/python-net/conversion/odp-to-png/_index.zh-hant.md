@@ -83,7 +83,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 Python 中將 ODP 保存為 PNG" %}}
 使用免費應用程序查看 ODP 到 PNG 轉換過程的演示。 

@@ -78,7 +78,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PDF as PPTM in Python" %}}
 Import the PDF pages with `SlideCollection.add_from_pdf`, then save the presentation with `SaveFormat.PPTM`.

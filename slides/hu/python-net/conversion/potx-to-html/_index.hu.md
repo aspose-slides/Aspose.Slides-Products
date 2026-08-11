@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a POTX-et HTML-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a POTX HTML-re konvertálási folyamat bemutatójának megtekintéséhez. 

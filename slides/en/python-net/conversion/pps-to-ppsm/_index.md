@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPS as PPSM in Python" %}}
 Try the free [Aspose.Slides Conversion app](https://products.aspose.app/slides/conversion) to see PPS-to-PPSM conversion in action.

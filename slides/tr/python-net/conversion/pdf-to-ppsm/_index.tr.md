@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PDF'yi Python'da PPSM olarak kaydedin" %}}
 PDF'den PPSM'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

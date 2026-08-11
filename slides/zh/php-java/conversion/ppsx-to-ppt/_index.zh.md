@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中将 PPSX 保存为 PPT" %}}
 使用免费应用查看 PPSX 到 PPT 转换过程的演示。 

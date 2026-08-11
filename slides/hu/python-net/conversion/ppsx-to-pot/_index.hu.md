@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PPSX mentése POT-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPSX-POT konvertálási folyamat bemutatójának megtekintéséhez. 

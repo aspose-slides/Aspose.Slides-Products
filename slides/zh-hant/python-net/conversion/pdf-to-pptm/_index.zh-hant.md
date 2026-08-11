@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 Python 中將 PDF 保存為 PPTM" %}}
 使用免費應用程序查看 PDF 到 PPTM 轉換過程的演示。 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでFODPをGIFとして保存" %}}
 無料アプリを使用して、FODPからGIFへの変換プロセスのデモをご覧ください。 

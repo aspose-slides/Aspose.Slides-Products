@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPSM-et POTM-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPSM-POTM konvertálási folyamat bemutatóját. 

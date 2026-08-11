@@ -100,7 +100,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse a OTP fájlt PNG néven PHP-ben" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a OTP és a PNG közötti konverziós folyamat bemutatóját. 

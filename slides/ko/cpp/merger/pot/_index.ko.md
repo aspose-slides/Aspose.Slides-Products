@@ -99,7 +99,6 @@ presentation1->Save(outputFilePath, SaveFormat::Pot);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 {{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="온라인으로 PDF 파일 병합" sectionDescription="[Python에서 PDF를 병합하는 방법](https://products.aspose.com/slides/ko/python-net/merge/pdf/)" >}}

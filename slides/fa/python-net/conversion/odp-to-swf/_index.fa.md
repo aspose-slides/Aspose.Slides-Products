@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="ODP را به عنوان SWF در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل ODP به SWF از برنامه رایگان استفاده کنید. 

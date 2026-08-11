@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPTM را به عنوان PPT در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل PPTM به PPT از برنامه رایگان استفاده کنید. 

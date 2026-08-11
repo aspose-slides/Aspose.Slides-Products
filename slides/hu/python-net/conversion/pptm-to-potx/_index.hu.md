@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPTM-et POTX-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPTM-POTX konverziós folyamat bemutatóját. 

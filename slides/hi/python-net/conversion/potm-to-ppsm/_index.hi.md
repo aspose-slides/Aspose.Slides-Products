@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="POTM को Python में PPSM के रूप में सहेजें" %}}
 पीओटीएम से पीपीएसएम रूपांतरण प्रक्रिया का प्रदर्शन देखने के लिए मुफ्त ऐप का उपयोग करें। 

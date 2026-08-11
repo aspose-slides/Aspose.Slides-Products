@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPTM'yi Python'da PDF olarak kaydedin" %}}
 PPTM'den PDF'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

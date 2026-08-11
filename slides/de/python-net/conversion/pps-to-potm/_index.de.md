@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie PPS als POTM in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Konvertierungsprozesses von PPS zu POTM zu sehen. 

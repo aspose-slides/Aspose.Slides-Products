@@ -85,7 +85,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PDF را به عنوان BMP در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل PDF به BMP از برنامه رایگان استفاده کنید. 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložit FODP jako PDF v Pythonu" %}}
 Pomocí bezplatné aplikace si můžete prohlédnout ukázku procesu převodu FODP do PDF. 

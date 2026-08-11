@@ -83,7 +83,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでODPをBMPとして保存" %}}
 無料アプリを使用して、ODPからBMPへの変換プロセスのデモをご覧ください。 

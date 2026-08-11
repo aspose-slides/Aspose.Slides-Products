@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中將 PPT 保存為 HTML" %}}
 使用免費應用查看 PPT 到 HTML 轉換過程的演示。 

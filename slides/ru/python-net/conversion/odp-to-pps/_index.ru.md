@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Сохранить ODP как PPS в Python" %}}
 Используйте бесплатное приложение, чтобы увидеть демонстрацию процесса преобразования ODP в PPS. 

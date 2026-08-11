@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PPSX mentése GIF-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPSX-GIF konvertálási folyamat bemutatójának megtekintéséhez. 

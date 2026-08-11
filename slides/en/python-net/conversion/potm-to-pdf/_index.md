@@ -76,7 +76,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save POTM as PDF in Python" %}}
 Try the free [online conversion app](https://products.aspose.app/slides/conversion) to see the POTM-to-PDF conversion process.

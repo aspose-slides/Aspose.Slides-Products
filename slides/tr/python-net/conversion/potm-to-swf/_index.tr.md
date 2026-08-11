@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="POTM'yi Python'da SWF olarak kaydedin" %}}
 POTM'den SWF'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

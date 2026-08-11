@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPT را به عنوان POTM در پایتون ذخیره کنید" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل PPT به POTM استفاده کنید. 

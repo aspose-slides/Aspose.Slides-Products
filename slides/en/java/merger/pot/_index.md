@@ -110,7 +110,6 @@ try {
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 {{< blocks/slides-app-widget  appName="merger" extension="pot" sectionTitle="Merge POT Files Online" sectionDescription="Merge presentations and slides online." >}}

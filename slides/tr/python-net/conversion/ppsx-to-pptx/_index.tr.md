@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da PPSX'i PPTX olarak kaydedin" %}}
 PPSX'ten PPTX'e dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

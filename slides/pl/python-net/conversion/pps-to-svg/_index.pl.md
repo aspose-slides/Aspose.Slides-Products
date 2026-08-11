@@ -84,7 +84,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Zapisz PPS jako SVG w Pythonie" %}}
 Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersji PPS do SVG. 

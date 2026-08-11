@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPOTをXPSとして保存する" %}}
 無料アプリを使用して、POTからXPSへの変換プロセスのデモをご覧ください。 

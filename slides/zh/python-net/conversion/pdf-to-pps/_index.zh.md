@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 Python 中将 PDF 保存为 PPS" %}}
 使用免费应用程序查看 PDF 到 PPS 转换过程的演示。 

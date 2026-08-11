@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Zapisz POTX jako GIF w Pythonie" %}}
 Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersji POTX na GIF. 

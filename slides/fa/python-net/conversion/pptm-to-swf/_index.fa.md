@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPTM را به عنوان SWF در پایتون ذخیره کنید" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل PPTM به SWF استفاده کنید. 

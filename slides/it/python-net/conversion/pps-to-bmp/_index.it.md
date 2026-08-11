@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Salva PPS come BMP in Python" %}}
 Usa l'app gratuita per vedere una dimostrazione del processo di conversione da PPS a BMP. 

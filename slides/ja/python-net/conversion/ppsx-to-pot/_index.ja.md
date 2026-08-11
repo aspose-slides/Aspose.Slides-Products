@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPPSXをPOTとして保存する" %}}
 無料アプリを使用して、PPSXからPOTへの変換プロセスのデモンストレーションをご覧ください。 

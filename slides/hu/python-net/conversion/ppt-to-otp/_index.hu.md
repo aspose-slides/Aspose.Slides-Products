@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPT-t OTP-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPT OTP konvertálási folyamat bemutatóját. 

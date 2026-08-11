@@ -82,7 +82,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse az OTP-t PDF-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti az OTP PDF-be konvertálási folyamat bemutatóját. 

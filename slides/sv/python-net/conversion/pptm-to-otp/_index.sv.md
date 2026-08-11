@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PPTM som OTP i Python" %}}
 Använd gratisappen för att se en demonstration av PPTM till OTP-konverteringsprocessen. 

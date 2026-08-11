@@ -95,7 +95,6 @@ bitmap->Save(u"output.jpeg", ImageFormat::get_Jpeg());
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

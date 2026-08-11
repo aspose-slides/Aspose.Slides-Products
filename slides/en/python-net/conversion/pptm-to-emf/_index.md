@@ -79,7 +79,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPTM as EMF in Python" %}}
 Use the code sample above to export every slide in a PPTM presentation as a separate EMF file.

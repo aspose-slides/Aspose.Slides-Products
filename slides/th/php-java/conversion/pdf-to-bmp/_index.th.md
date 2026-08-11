@@ -102,7 +102,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PDF เป็น BMP ใน PHP" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลงจาก PDF เป็น BMP 

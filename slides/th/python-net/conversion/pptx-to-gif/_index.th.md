@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PPTX เป็น GIF ใน Python" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลง PPTX เป็น GIF 

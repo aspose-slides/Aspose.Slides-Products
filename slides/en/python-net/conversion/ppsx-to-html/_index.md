@@ -76,7 +76,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPSX as HTML in Python" %}}
 Use the free [online conversion app](https://products.aspose.app/slides/conversion) to see the PPSX-to-HTML conversion process in action.

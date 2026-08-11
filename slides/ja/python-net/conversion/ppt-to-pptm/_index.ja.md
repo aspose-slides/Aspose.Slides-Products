@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPPTをPPTMとして保存" %}}
 無料アプリを使用して、PPTからPPTMへの変換プロセスのデモをご覧ください。 

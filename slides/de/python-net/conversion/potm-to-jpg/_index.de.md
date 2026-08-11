@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie POTM als JPG in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Umwandlungsprozesses von POTM in JPG zu sehen. 

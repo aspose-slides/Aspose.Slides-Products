@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PDF som PPTM i Python" %}}
 Använd gratisappen för att se en demonstration av PDF till PPTM-konverteringsprocessen. 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da FODP'yi PPSM olarak kaydedin" %}}
 FODP'den PPSM'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

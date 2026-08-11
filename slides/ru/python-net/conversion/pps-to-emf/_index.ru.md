@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Сохранить PPS как EMF в Python" %}}
 Используйте бесплатное приложение, чтобы увидеть демонстрацию процесса преобразования PPS в EMF. 

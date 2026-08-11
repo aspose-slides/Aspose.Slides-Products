@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中將 PPS 保存為 PPTM" %}}
 使用免費應用查看 PPS 到 PPTM 轉換過程的演示。 

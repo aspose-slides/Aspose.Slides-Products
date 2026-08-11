@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPSをPythonでGIFとして保存" %}}
 無料アプリを使用して、PPSからGIFへの変換プロセスのデモをご覧ください。 

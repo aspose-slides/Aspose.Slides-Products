@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Сохранить PPT как GIF в Python" %}}
 Используйте бесплатное приложение, чтобы увидеть демонстрацию процесса преобразования PPT в GIF. 

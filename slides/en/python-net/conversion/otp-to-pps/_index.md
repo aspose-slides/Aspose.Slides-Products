@@ -76,7 +76,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save OTP as PPS in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion) to see the OTP-to-PPS conversion process in action.

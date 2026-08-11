@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Sla POTX op als PNG in Python" %}}
 Gebruik de gratis app om een ​​demonstratie te zien van het POTX naar PNG-conversieproces. 

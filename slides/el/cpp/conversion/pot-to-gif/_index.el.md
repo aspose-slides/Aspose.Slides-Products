@@ -95,7 +95,6 @@ bitmap->Save(u"output.gif", ImageFormat::get_Gif());
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

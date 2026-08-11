@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Zapisz POTM jako PNG w Pythonie" %}}
 Skorzystaj z bezpłatnej aplikacji, aby zobaczyć demonstrację procesu konwersji POTM do PNG. 

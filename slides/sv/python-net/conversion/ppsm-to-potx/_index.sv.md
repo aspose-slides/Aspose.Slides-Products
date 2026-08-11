@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PPSM som POTX i Python" %}}
 Använd gratisappen för att se en demonstration av PPSM till POTX-konverteringsprocessen. 

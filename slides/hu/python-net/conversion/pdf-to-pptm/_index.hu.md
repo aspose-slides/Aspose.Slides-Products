@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse a PDF-et PPTM-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PDF-ből PPTM-be konvertálási folyamat bemutatóját. 

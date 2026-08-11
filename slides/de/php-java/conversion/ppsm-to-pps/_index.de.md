@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie PPSM als PPS in PHP" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Umwandlungsprozesses von PPSM in PPS zu sehen. 

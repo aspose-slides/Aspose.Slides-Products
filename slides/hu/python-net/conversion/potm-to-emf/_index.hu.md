@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A POTM mentése EMF-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a POTM-EMF konverziós folyamat bemutatójának megtekintéséhez. 

@@ -84,7 +84,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PPSM เป็น SVG ใน Python" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลง PPSM เป็น SVG 

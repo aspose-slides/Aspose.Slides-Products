@@ -83,7 +83,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a FODP-t EMF-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a FODP EMF konvertálási folyamat bemutatójának megtekintéséhez. 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="FODP را به عنوان SWF در پایتون ذخیره کنید" %}}
 از برنامه رایگان برای دیدن نمایشی از فرآیند تبدیل FODP به SWF استفاده کنید. 

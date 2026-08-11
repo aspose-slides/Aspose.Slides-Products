@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložit PDF jako OTP v Pythonu" %}}
 Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PDF na OTP. 

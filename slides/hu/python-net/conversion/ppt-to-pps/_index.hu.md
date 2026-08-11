@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPT-t PPS-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPT-PPS átalakítási folyamat bemutatójának megtekintéséhez. 

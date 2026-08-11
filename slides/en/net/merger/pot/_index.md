@@ -96,7 +96,6 @@ mergedPresentation.Save("merged.pot", SaveFormat.Pot);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 {{< blocks/slides-app-widget  appName="merger" extension="pot" sectionTitle="Merge POT Files Online" sectionDescription="Combine files online with Aspose.Slides Merger." >}}

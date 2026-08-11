@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PDF เป็น GIF ใน Python" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลงไฟล์ PDF เป็น GIF 

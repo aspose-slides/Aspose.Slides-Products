@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPS-t ODP-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPS ODP konvertálási folyamat bemutatójának megtekintéséhez. 

@@ -99,7 +99,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก OTP เป็น SVG ใน PHP" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลงจาก OTP เป็น SVG 

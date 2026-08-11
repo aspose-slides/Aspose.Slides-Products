@@ -83,7 +83,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el az ODP-t JPG-ként Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti az ODP-JPG konvertálási folyamat bemutatóját. 

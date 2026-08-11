@@ -96,7 +96,6 @@ mergedPresentation.Save("merged.potx", SaveFormat.Potx);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 {{< blocks/slides-app-widget  appName="merger" extension="potx" sectionTitle="Merge POTX Files Online" sectionDescription="Combine files online with Aspose.Slides Merger." >}}

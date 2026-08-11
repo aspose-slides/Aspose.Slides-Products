@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="POT mentése HTML-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a POT HTML-be konvertálási folyamat bemutatójának megtekintéséhez. 

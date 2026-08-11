@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPTX को Python में POTX के रूप में सहेजें" %}}
 PPTX से POTX रूपांतरण प्रक्रिया का प्रदर्शन देखने के लिए निःशुल्क ऐप का उपयोग करें। 

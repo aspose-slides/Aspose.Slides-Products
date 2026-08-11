@@ -82,7 +82,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da OTP'yi FODP olarak kaydedin" %}}
 OTP'den FODP'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

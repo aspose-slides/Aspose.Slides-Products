@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da PPS'yi PPT olarak kaydedin" %}}
 PPS'den PPT'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

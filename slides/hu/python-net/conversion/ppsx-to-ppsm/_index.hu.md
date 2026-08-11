@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PPSX mentése PPSM-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPSX-PPSM átalakítási folyamat bemutatóját. 

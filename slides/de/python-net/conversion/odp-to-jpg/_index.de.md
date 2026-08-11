@@ -83,7 +83,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie ODP als JPG in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Konvertierungsprozesses von ODP in JPG zu sehen. 

@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Sla PPSX op als PPTM in PHP" %}}
 Gebruik de gratis app om een ​​demonstratie te zien van het conversieproces van PPSX naar PPTM. 

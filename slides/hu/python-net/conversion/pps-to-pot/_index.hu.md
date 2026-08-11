@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPS mentése POT-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a PPS-POT konvertálási folyamat bemutatójának megtekintéséhez. 

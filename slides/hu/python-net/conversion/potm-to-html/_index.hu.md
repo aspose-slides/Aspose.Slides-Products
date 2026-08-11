@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a POTM-ot HTML-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a POTM-HTML konvertálási folyamat bemutatójának megtekintéséhez. 

@@ -100,7 +100,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="บันทึก PPTM เป็น JPG ใน PHP" %}}
 ใช้แอปฟรีเพื่อดูการสาธิตกระบวนการแปลงจาก PPTM เป็น JPG 

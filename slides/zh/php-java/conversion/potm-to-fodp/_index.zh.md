@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中将 POTM 保存为 FODP" %}}
 使用免费应用查看 POTM 到 FODP 转换过程的演示。 

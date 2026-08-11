@@ -84,7 +84,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 Python 中將 PPT 保存為 SVG" %}}
 使用免費應用程序查看 PPT 到 SVG 轉換過程的演示。 

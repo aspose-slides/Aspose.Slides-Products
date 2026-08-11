@@ -96,7 +96,6 @@ mergedPresentation.Save("merged.pptm", SaveFormat.Pptm);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 {{< blocks/slides-app-widget  appName="merger" extension="pptm" sectionTitle="Merge PPTM Files Online" sectionDescription="Combine files online with Aspose.Slides Merger." >}}

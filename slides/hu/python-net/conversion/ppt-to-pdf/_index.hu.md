@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse a PPT-t PDF-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a PPT PDF konvertálási folyamat bemutatójának megtekintéséhez. 

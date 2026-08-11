@@ -99,7 +99,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHPでPPTXをSVGとして保存します" %}}
 無料アプリを使用して、PPTXからSVGへの変換プロセスのデモをご覧ください。 

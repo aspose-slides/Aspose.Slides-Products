@@ -73,7 +73,6 @@ presentation.Save("output.ppt", SaveFormat.Ppt);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

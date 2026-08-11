@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでFODPをPPSXとして保存" %}}
 無料アプリを使用して、FODPからPPSXへの変換プロセスのデモンストレーションをご覧ください。 

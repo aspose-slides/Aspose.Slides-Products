@@ -79,7 +79,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPSM as EMF in Python" %}}
 Use the code sample above to export every slide in a PPSM slide show as a separate EMF file.

@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Save PPTX as HTML in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pptx-to-html) to see the PPTX-to-HTML conversion process in action.

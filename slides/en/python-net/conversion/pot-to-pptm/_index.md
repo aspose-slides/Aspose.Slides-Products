@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save POT as PPTM in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion) to see the POT-to-PPTM conversion process in action.

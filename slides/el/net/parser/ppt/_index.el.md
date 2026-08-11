@@ -111,7 +111,6 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

@@ -85,7 +85,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PDF mentése EMF-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a PDF EMF konvertálási folyamat bemutatójának megtekintéséhez. 

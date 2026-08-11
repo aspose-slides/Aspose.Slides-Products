@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中將 PDF 保存為 PPSX" %}}
 使用免費應用查看 PDF 到 PPSX 轉換過程的演示。 

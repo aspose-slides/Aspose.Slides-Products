@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでFODPをXPSとして保存する" %}}
 無料アプリを使用して、FODPからXPSへの変換プロセスのデモをご覧ください。 

@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Enregistrer PPTM sous GIF en PHP" %}}
 Utilisez l'application gratuite pour voir une démonstration du processus de conversion de PPTM à GIF. 

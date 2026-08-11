@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložte FODP jako POT v Pythonu" %}}
 Použijte bezplatnou aplikaci a podívejte se na ukázku procesu konverze FODP na POT. 

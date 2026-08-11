@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPTX-t ODP-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPTX ODP konvertálási folyamat bemutatóját. 

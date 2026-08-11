@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPSX را به عنوان PPSM در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل PPSX به PPSM از برنامه رایگان استفاده کنید. 

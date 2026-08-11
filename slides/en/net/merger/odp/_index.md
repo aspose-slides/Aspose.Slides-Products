@@ -96,7 +96,6 @@ mergedPresentation.Save("merged.odp", SaveFormat.Odp);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 {{< blocks/slides-app-widget  appName="merger" extension="odp" sectionTitle="Merge ODP Files Online" sectionDescription="Combine files online with Aspose.Slides Merger." >}}

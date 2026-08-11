@@ -99,7 +99,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Salve POTX como SVG em PHP" %}}
 Use o aplicativo gratuito para ver uma demonstração do processo de conversão de POTX para SVG. 

@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PPSM mentése JPG formátumban Pythonban" %}}
 Használja az ingyenes alkalmazást a PPSM-JPG konvertálási folyamat bemutatójának megtekintéséhez. 

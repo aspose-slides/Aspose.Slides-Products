@@ -76,7 +76,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPT as PPTX in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/ppt-to-pptx) to see the PPT-to-PPTX conversion process in action.

@@ -78,7 +78,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PDF as FODP in Python" %}}
 Use the [free online converter](https://products.aspose.app/slides/conversion) to explore supported conversion options in your browser.

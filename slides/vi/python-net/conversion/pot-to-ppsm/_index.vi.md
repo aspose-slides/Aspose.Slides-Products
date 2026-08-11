@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Lưu POT dưới dạng PPSM bằng Python" %}}
 Sử dụng ứng dụng miễn phí để xem trình diễn về quy trình chuyển đổi POT sang PPSM. 

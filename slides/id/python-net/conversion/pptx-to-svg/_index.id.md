@@ -84,7 +84,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Simpan PPTX sebagai SVG dengan Python" %}}
 Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PPTX ke SVG. 

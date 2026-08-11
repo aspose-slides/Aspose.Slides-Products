@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara PDF som PPTX i PHP" %}}
 Använd gratisappen för att se en demonstration av konverteringsprocessen från PDF till PPTX. 

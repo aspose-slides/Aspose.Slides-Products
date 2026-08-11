@@ -96,7 +96,6 @@ mergedPresentation.Save("merged.pps", SaveFormat.Pps);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 {{< blocks/slides-app-widget  appName="merger" extension="pps" sectionTitle="Merge PPS Files Online" sectionDescription="Combine files online with Aspose.Slides Merger." >}}

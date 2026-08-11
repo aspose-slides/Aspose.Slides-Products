@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse a PPS-t PDF-ként Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPS-ből PDF-be konvertálási folyamat bemutatóját. 

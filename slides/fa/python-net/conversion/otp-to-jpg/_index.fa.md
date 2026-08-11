@@ -83,7 +83,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="OTP را به صورت JPG در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل OTP به JPG از برنامه رایگان استفاده کنید. 

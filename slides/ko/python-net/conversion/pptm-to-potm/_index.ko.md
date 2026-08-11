@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python에서 PPTM을 POTM으로 저장" %}}
 PPTM에서 POTM으로의 변환 프로세스의 데모를 보려면 무료 앱을 사용하십시오. 

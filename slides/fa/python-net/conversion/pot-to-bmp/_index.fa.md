@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="ذخیره POT به عنوان BMP در پایتون" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل POT به BMP استفاده کنید. 

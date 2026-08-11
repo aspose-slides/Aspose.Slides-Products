@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHP에서 PPTX을 POT으로 저장" %}}
 무료 앱을 사용하여 PPTX에서 POT으로의 변환 과정에 대한 데모를 확인하세요. 

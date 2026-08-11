@@ -111,7 +111,6 @@ Získejte požadovaný výstup, jako je text, písmo atd.
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Salvar PPSM como BMP em Python" %}}
 Use o aplicativo gratuito para ver uma demonstração do processo de conversão de PPSM para BMP. 

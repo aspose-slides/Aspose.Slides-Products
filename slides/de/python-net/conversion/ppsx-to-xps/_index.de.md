@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie PPSX als XPS in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Konvertierungsprozesses von PPSX zu XPS zu sehen. 

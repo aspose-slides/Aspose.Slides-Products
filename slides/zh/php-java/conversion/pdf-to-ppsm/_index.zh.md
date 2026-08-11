@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="在 PHP 中将 PDF 保存为 PPSM" %}}
 使用免费应用查看 PDF 到 PPSM 转换过程的演示。 

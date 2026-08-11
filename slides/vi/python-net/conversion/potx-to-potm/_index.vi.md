@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Lưu POTX dưới dạng POTM bằng Python" %}}
 Sử dụng ứng dụng miễn phí để xem trình diễn về quá trình chuyển đổi POTX sang POTM. 

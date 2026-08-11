@@ -81,7 +81,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Save PPTX as JPG in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pptx-to-jpg) to see the PPTX-to-JPG conversion process in action.

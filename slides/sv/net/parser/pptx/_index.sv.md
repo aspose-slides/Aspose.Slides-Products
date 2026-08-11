@@ -111,7 +111,6 @@ Få den önskade utdata som text, typsnitt etc.
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Salva PDF come PPT in PHP" %}}
 Usa l'app gratuita per vedere una dimostrazione del processo di conversione da PDF a PPT. 

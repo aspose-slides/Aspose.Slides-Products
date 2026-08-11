@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHPでPPTをPOTとして保存します" %}}
 無料アプリを使用して、PPTからPOTへの変換プロセスのデモをご覧ください。 

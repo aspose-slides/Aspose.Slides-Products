@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PPTX mentése PPTM-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPTX-PPTM átalakítási folyamat bemutatójának megtekintéséhez. 

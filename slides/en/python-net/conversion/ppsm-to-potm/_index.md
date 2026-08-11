@@ -76,7 +76,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPSM as POTM in Python" %}}
 Try the free [Aspose.Slides Conversion app](https://products.aspose.app/slides/conversion) to see PPSM-to-POTM conversion in action.

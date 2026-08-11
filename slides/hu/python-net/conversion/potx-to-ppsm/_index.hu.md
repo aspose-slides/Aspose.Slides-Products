@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a POTX-et PPSM-ként a Pythonban" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a POTX-PPSM konvertálási folyamat bemutatóját. 

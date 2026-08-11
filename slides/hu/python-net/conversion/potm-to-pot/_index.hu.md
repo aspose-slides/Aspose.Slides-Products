@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A POTM mentése POT-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a POTM-POT konvertálási folyamat bemutatójának megtekintéséhez. 

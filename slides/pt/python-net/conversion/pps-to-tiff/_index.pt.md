@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Salvar PPS como TIFF em Python" %}}
 Use o aplicativo gratuito para ver uma demonstração do processo de conversão de PPS para TIFF. 

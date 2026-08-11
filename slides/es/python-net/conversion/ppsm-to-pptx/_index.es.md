@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Guardar PPSM como PPTX en Python" %}}
 Utilice la aplicación gratuita para ver una demostración del proceso de conversión de PPSM a PPTX. 

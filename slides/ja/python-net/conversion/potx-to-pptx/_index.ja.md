@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPOTXをPPTXとして保存" %}}
 無料アプリを使用して、POTXからPPTXへの変換プロセスのデモンストレーションをご覧ください。 

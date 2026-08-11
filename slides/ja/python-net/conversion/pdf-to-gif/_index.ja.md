@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPDFをGIFとして保存" %}}
 無料アプリを使用して、PDFからGIFへの変換プロセスのデモンストレーションをご覧ください。 

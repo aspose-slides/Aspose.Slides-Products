@@ -99,7 +99,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Сохранить FODP как SVG в PHP" %}}
 Используйте бесплатное приложение, чтобы увидеть демонстрацию процесса преобразования FODP в SVG. 

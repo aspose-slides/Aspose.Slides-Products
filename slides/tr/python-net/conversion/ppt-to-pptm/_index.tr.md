@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppt") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da PPT'yi PPTM olarak kaydedin" %}}
 PPT'den PPTM'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

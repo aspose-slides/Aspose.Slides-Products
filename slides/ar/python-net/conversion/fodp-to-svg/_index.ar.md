@@ -84,7 +84,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="احفظ FODP باسم SVG في Python" %}}
 استخدم التطبيق المجاني لمشاهدة عرض توضيحي لعملية تحويل FODP إلى SVG. 

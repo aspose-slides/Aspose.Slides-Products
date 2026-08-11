@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="احفظ ODP كـ POT في PHP" %}}
 استخدم التطبيق المجاني لمشاهدة عرض توضيحي لعملية التحويل من ODP إلى POT. 

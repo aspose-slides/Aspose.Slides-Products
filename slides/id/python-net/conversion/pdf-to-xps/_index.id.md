@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Simpan PDF sebagai XPS dengan Python" %}}
 Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi PDF ke XPS. 

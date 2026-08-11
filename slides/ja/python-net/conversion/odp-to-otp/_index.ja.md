@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでODPをOTPとして保存" %}}
 無料アプリを使用して、ODPからOTPへの変換プロセスのデモンストレーションをご覧ください。 

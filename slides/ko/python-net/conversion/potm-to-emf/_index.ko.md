@@ -83,7 +83,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python에서 POTM을 EMF로 저장" %}}
 무료 앱을 사용하여 POTM에서 EMF로의 변환 프로세스의 데모를 확인하십시오. 

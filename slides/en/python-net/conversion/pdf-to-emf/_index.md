@@ -82,7 +82,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PDF as EMF in Python" %}}
 Use the [free online app](https://products.aspose.app/pdf/conversion/pdf-to-emf) to see the PDF-to-EMF conversion process in action.

@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PDF as BMP in Python" %}}
 Use the [free online app](https://products.aspose.app/pdf/conversion/pdf-to-bmp) to see the PDF-to-BMP conversion process in action.

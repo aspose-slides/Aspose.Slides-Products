@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse el a PPSX-et HTML-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPSX-HTML konvertálási folyamat bemutatójának megtekintéséhez. 

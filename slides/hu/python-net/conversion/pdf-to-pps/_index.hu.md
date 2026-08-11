@@ -84,7 +84,6 @@ with slides.Presentation() as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PDF mentése PPS-ként Pythonban" %}}
 Használja az ingyenes alkalmazást a PDF-ből PPS-be konvertálási folyamat bemutatójának megtekintéséhez. 

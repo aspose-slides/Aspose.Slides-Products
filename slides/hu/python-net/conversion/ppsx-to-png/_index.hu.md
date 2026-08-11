@@ -83,7 +83,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="A PPSX mentése PNG-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást a PPSX-PNG konvertálási folyamat bemutatójának megtekintéséhez. 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie ODP als POT in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des ODP-zu-POT-Konvertierungsprozesses zu sehen. 

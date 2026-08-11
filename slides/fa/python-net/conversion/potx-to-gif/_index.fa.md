@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="POTX را به عنوان GIF در پایتون ذخیره کنید" %}}
 برای مشاهده نمایشی از فرآیند تبدیل POTX به GIF از برنامه رایگان استفاده کنید. 

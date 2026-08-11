@@ -94,7 +94,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse a PPSM fájlt PPTX néven PHP-ben" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PPSM és a PPTX közötti konverziós folyamat bemutatóját. 

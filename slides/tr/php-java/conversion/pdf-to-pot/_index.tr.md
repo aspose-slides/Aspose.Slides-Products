@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PHP'de PDF öğesini POT olarak kaydedin" %}}
 PDF - POT dönüşüm sürecinin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

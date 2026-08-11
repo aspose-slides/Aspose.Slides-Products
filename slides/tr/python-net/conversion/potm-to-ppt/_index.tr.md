@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Python'da POTM'yi PPT olarak kaydedin" %}}
 POTM'den PPT'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

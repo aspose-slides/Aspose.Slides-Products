@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPTM as GIF in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pptm-to-gif) to see the PPTM-to-GIF conversion process in action.

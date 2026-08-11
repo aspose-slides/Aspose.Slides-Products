@@ -83,7 +83,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Simpan OTP sebagai BMP dengan Python" %}}
 Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi OTP ke BMP. 

@@ -82,7 +82,6 @@ with slides.Presentation("presentation.potx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie POTX als SWF in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des Umwandlungsprozesses von POTX in SWF zu sehen. 

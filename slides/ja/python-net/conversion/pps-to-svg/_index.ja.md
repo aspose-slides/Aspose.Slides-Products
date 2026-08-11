@@ -84,7 +84,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="PythonでPPSをSVGとして保存" %}}
 無料アプリを使用して、PPSからSVGへの変換プロセスのデモンストレーションをご覧ください。 

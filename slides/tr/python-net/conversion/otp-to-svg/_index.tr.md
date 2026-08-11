@@ -84,7 +84,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="OTP'yi Python'da SVG olarak kaydedin" %}}
 OTP'den SVG'ye dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

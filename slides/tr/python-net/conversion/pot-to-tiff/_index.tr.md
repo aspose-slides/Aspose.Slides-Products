@@ -82,7 +82,6 @@ with slides.Presentation("presentation.pot") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="POT'u Python'da TIFF olarak kaydedin" %}}
 POT'tan TIFF'e dönüştürme işleminin bir gösterimini görmek için ücretsiz uygulamayı kullanın. 

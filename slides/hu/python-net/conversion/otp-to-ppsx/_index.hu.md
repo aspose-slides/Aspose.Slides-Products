@@ -82,7 +82,6 @@ with slides.Presentation("presentation.otp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse az OTP-t PPSX-ként a Pythonban" %}}
 Használja az ingyenes alkalmazást az OTP-PPSX konverziós folyamat bemutatójának megtekintéséhez. 

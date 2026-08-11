@@ -82,7 +82,6 @@ try {
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PDF as SWF in PHP" %}}
 Use the free Conversion app to test PDF conversion in your browser.

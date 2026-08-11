@@ -83,7 +83,6 @@ with slides.Presentation("presentation.pptm") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="ذخیره PPTM به عنوان EMF در پایتون" %}}
 از برنامه رایگان برای مشاهده نمایشی از فرآیند تبدیل PPTM به EMF استفاده کنید. 

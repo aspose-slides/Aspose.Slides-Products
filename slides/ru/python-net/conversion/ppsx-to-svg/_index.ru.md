@@ -84,7 +84,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Сохранить PPSX как SVG в Python" %}}
 Используйте бесплатное приложение, чтобы увидеть демонстрацию процесса преобразования PPSX в SVG. 

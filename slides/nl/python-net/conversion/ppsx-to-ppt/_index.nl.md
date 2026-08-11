@@ -82,7 +82,6 @@ with slides.Presentation("presentation.ppsx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Sla PPSX op als PPT in Python" %}}
 Gebruik de gratis app om een ​​demonstratie te zien van het PPSX naar PPT-conversieproces. 

@@ -111,7 +111,6 @@ Holen Sie sich die erforderliche Ausgabe wie Text, Schriftart usw.
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

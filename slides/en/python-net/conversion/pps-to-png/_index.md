@@ -81,7 +81,6 @@ with slides.Presentation("presentation.pps") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{% blocks/products/pf/agp/content h2="Save PPS as PNG in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pps-to-png) to see the PPS-to-PNG conversion process in action.

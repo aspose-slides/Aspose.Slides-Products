@@ -83,7 +83,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Simpan ODP sebagai EMF dengan Python" %}}
 Gunakan aplikasi gratis untuk melihat demonstrasi proses konversi ODP ke EMF. 

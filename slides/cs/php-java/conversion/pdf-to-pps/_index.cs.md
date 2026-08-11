@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Uložit PDF jako PPS v PHP" %}}
 Použijte bezplatnou aplikaci a podívejte se na ukázku procesu převodu PDF do PPS. 

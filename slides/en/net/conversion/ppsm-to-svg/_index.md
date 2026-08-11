@@ -82,7 +82,6 @@ for (var slideIndex = 0; slideIndex < presentation.Slides.Count; slideIndex++)
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
 <!-- aboutfile Starts -->

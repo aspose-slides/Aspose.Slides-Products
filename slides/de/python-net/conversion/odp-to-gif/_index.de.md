@@ -82,7 +82,6 @@ with slides.Presentation("presentation.odp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Speichern Sie ODP als GIF in Python" %}}
 Verwenden Sie die kostenlose App, um eine Demonstration des ODP-zu-GIF-Konvertierungsprozesses zu sehen. 

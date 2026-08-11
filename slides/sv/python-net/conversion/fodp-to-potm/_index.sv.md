@@ -82,7 +82,6 @@ with slides.Presentation("presentation.fodp") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Spara FODP som POTM i Python" %}}
 Använd den kostnadsfria appen för att se en demonstration av konverteringsprocessen från FODP till POTM. 

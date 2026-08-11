@@ -76,7 +76,6 @@ with slides.Presentation("presentation.pptx") as presentation:
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Save PPTX as GIF in Python" %}}
 Use the [free online app](https://products.aspose.app/slides/conversion/pptx-to-gif) to see the PPTX-to-GIF conversion process in action.

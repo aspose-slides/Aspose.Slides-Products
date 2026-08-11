@@ -96,7 +96,6 @@ finally
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 {{% blocks/products/pf/agp/content h2="Mentse a PDF fájlt ODP néven PHP-ben" %}}
 Az ingyenes alkalmazás segítségével megtekintheti a PDF és a ODP közötti konverziós folyamat bemutatóját. 
