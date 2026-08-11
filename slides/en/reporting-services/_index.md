@@ -10,7 +10,7 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/reportingservices/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/reportingservices/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/pricing/slides/reporting-services/" docsLink="https://docs.aspose.com/slides/reportingservices/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/reportingservices/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

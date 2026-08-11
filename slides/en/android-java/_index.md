@@ -10,7 +10,7 @@ description: Aspose.Slides for Android via Java is a PowerPoint API for creating
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Android via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://releases.aspose.com/slides/androidjava/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/android-java" buyLink="https://purchase.aspose.com/pricing/slides/android-java/" docsLink="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://releases.aspose.com/slides/androidjava/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p><strong>Aspose.Slides for Android via Java</strong> is a PowerPoint presentation processing API that lets Android apps create, edit, convert, and manage presentation files without Microsoft PowerPoint.</p>

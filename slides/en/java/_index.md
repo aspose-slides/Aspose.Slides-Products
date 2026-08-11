@@ -10,7 +10,7 @@ description: Aspose.Slides for Java is a PowerPoint API for creating, editing, c
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://releases.aspose.com/java/repo/com/aspose/aspose-slides/" directDownloadLink="https://releases.aspose.com/slides/java/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/pricing/slides/java/" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://releases.aspose.com/java/repo/com/aspose/aspose-slides/" directDownloadLink="https://releases.aspose.com/slides/java/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p><strong>Aspose.Slides for Java</strong> is a robust and feature-rich Java API for PowerPoint and OpenDocument presentation file processing. It empowers Java developers to create, read, edit, convert, and manage presentations programmatically without requiring Microsoft PowerPoint.

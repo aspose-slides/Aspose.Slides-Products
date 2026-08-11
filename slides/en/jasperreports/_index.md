@@ -10,7 +10,7 @@ description: Aspose.Slides for JasperReports exports JasperReports and JasperSer
 
 {{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for JasperReports" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/jasperreports" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/slides/jasperreports/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/jasperreport/" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/jasperreports" buyLink="https://purchase.aspose.com/pricing/slides/jasperreports/" docsLink="https://docs.aspose.com/slides/jasperreports/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/jasperreport/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
