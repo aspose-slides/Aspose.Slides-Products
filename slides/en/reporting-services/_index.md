@@ -396,6 +396,13 @@ description: PowerPoint rendering extension for SQL Server Reporting Services an
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What does this rendering extension do?" answer="It adds PowerPoint output to SQL Server Reporting Services and Power BI Report Server, so an RDL report can be delivered as a presentation instead of only as PDF or Excel." >}}
+{{< blocks/products/pf/agp/faq-item question="Which inputs and outputs are supported?" answer="It accepts RDL and RPL input and writes PPT, PPTX, PPS, PPSX and XPS." >}}
+{{< blocks/products/pf/agp/faq-item question="Does it need PowerPoint on the report server?" answer="No. The extension generates the presentation files itself, so the report server needs no Office installation." >}}
+{{< blocks/products/pf/agp/faq-item question="How is it installed?" answer="As a rendering extension registered with the report server, from the [Reporting Services downloads](https://releases.aspose.com/slides/reportingservices/). Once registered, PowerPoint appears in the export list beside the built-in formats." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 

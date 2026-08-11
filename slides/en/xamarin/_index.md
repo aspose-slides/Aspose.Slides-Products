@@ -360,6 +360,13 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Which package do I install for a Xamarin project?" answer="The same `Aspose.Slides.NET` NuGet package used by desktop and server .NET projects; there is no separate Xamarin build to track." >}}
+{{< blocks/products/pf/agp/faq-item question="Can a Xamarin app convert a presentation to PDF on the device itself?" answer="Yes. Conversion runs in-process against the file, with no service call and no Office install, so it works on a device that is offline." >}}
+{{< blocks/products/pf/agp/faq-item question="Should I do presentation processing on the device or on a server?" answer="Both work, but rendering a large deck is memory-hungry and mobile devices are the tightest environment the library runs in. If your decks are large or arbitrary, converting server-side and returning the result is the safer design." >}}
+{{< blocks/products/pf/agp/faq-item question="Do fonts behave the same on a mobile device as on the desktop?" answer="Not necessarily. Rendering uses the fonts available to the app, and a phone or tablet carries a much smaller font set than a workstation. Embed or bundle the fonts your decks depend on if output has to match exactly." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}

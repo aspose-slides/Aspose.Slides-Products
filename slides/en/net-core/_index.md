@@ -363,6 +363,13 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Is Aspose.Slides for .NET Core a different product from Aspose.Slides for .NET?" answer="No. It is the same `Aspose.Slides.NET` NuGet package; this page covers using it from .NET Core and later cross-platform .NET, where the same code runs on Windows, Linux and macOS." >}}
+{{< blocks/products/pf/agp/faq-item question="Will it run inside a Linux container without Microsoft Office?" answer="Yes. Nothing in the library shells out to PowerPoint, so a container image needs only the .NET runtime and the package itself." >}}
+{{< blocks/products/pf/agp/faq-item question="Do rendering features such as PDF and image export work on Linux?" answer="Yes, though text rendering depends on the fonts present in the image. A minimal container often ships almost no fonts, so install the fonts your decks use, or embed them, before comparing output with a Windows machine." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can I convert to on .NET Core?" answer="The same set as on .NET Framework: PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and ODP for read and write, plus PDF, PDF/A, XPS and the image formats for export." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}

@@ -35,6 +35,13 @@ Merge presentation files in PHP.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Does merging presentations keep the source formatting?" answer="Yes, when slides are cloned rather than copied as content: the slide arrives with its layout, master and theme, so it looks the same in the merged deck as in the original." >}}
+{{< blocks/products/pf/agp/faq-item question="What happens when the two presentations use different themes?" answer="The cloned slide brings its own master and layout, so the merged file ends up with more than one master. That preserves appearance; if you want a uniform look, reapply a single layout after merging." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I merge only some slides instead of the whole file?" answer="Yes. Slides are cloned individually, so any subset in any order can be assembled into the destination presentation." >}}
+{{< blocks/products/pf/agp/faq-item question="Can presentations in different formats be merged?" answer="Yes. A legacy `.ppt` and a modern `.pptx` can be combined, because both are read into the same model before anything is written out." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

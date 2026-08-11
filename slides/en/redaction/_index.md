@@ -30,6 +30,13 @@ How to redact text in presentations with Python via .NET.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Does redaction remove the text, or just cover it?" answer="Replacing the text removes it from the file. Drawing a black rectangle over it does not — the text stays underneath and can be recovered. If the point is that the content is gone, replace it and save." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I redact text that appears in tables, notes and grouped shapes?" answer="Yes, but you must walk them explicitly: text lives in shapes, table cells, grouped shapes and notes slides, and a pass over top-level shapes alone will miss the rest." >}}
+{{< blocks/products/pf/agp/faq-item question="How do I make sure a redacted presentation cannot be reverted?" answer="Save it as a new file and discard the original. Presentation formats retain revision and undo-related data, so editing in place is not the same as producing a clean copy." >}}
+{{< blocks/products/pf/agp/faq-item question="Should I redact before or after converting to PDF?" answer="Before. Redact the presentation, then convert — that way the removed text never reaches the PDF's text layer, where it would otherwise remain selectable." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

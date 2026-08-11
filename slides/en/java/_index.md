@@ -415,6 +415,13 @@ try {
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for Java to a Maven build?" answer="Point Maven at the [Aspose Java repository](https://releases.aspose.com/java/repo/com/aspose/aspose-slides/) and depend on `com.aspose:aspose-slides`. The artifacts are not on Maven Central, so the repository entry is required." >}}
+{{< blocks/products/pf/agp/faq-item question="Does Aspose.Slides for Java need PowerPoint or a headless display?" answer="It needs neither an Office installation nor an X display. It runs in a plain server JVM, which is why it can be used from batch jobs and web applications." >}}
+{{< blocks/products/pf/agp/faq-item question="Which output formats does the Java build add beyond PowerPoint files?" answer="Besides PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and ODP, it writes PDF and PDF/A, and exports to XPS, JPEG, PNG, BMP, TIFF, GIF, SVG, HTML and Markdown." >}}
+{{< blocks/products/pf/agp/faq-item question="Do I have to dispose of a presentation explicitly?" answer="Yes. `Presentation` holds native resources; call `dispose()` in a `finally` block, or use try-with-resources, or long-running services will accumulate memory." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 

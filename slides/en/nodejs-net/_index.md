@@ -282,6 +282,13 @@ finally {
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What do I install, and does the machine need .NET?" answer="`npm install aspose.slides.via.net`, and yes — it runs on Windows, Linux and macOS with .NET 6 or later present." >}}
+{{< blocks/products/pf/agp/faq-item question="How does it differ from Aspose.Slides for Node.js via Java?" answer="This build bridges to .NET and needs a .NET 6+ runtime; the [via Java build](/slides/nodejs-java/) bridges to a JVM and needs JDK 1.8 or above. The presentation features are the same, so pick the runtime you already operate." >}}
+{{< blocks/products/pf/agp/faq-item question="Can it run inside a Node.js container image?" answer="Yes, provided the image also carries the .NET 6+ runtime. A plain `node:alpine` base does not, so either start from an image that includes .NET or install it in the Dockerfile." >}}
+{{< blocks/products/pf/agp/faq-item question="Is presentation processing blocking?" answer="The calls are synchronous, so converting a large deck on the main thread will stall the event loop. Move heavy conversions to a worker thread or a separate process." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}

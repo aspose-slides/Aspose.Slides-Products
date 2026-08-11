@@ -32,6 +32,13 @@ How to create a presentation viewer with Python via .NET.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Does viewing a presentation require Microsoft PowerPoint?" answer="No. The presentation is rendered by the library, so it can be displayed by an application or a web service with no Office installed." >}}
+{{< blocks/products/pf/agp/faq-item question="How do I show a presentation in a browser?" answer="Render slides to images or export the deck to HTML, and serve that. Both routes avoid handing the original file to the browser, which also keeps the source deck private." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I control the resolution of a rendered slide?" answer="Yes. Slides are rendered at a scale you choose, so the same deck can produce small thumbnails and full-size previews." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can be opened for viewing?" answer="The PowerPoint formats and OpenDocument ODP, so a viewer built on this does not need to care which of them arrives." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

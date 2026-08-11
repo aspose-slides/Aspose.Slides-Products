@@ -30,6 +30,13 @@ How to add watermarks to presentations with Python via .NET.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Can a watermark be added to every slide at once?" answer="Yes. Adding it to the slide master applies it across the deck, rather than repeating the shape on each slide." >}}
+{{< blocks/products/pf/agp/faq-item question="Can a watermark be removed again?" answer="If it was added as a shape, yes — find the shape and delete it. That also means a watermark added this way is not a security control; it marks a document, it does not protect it." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I use an image rather than text?" answer="Yes. Both text and image watermarks are supported, with control over position, size, rotation and transparency." >}}
+{{< blocks/products/pf/agp/faq-item question="Does a watermark survive conversion to PDF?" answer="Yes. It is a shape on the slide, so it renders into the PDF like any other content." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

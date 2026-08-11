@@ -31,6 +31,13 @@ How to remove annotations from presentations in Python.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Does removing comments also remove the replies attached to them?" answer="Yes. A comment and its replies form one thread, so removing the parent removes the thread. Remove replies individually first if you want to keep the original comment." >}}
+{{< blocks/products/pf/agp/faq-item question="Which presentation formats can comments be removed from?" answer="PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and ODP." >}}
+{{< blocks/products/pf/agp/faq-item question="Are comments actually deleted from the file, or just hidden?" answer="They are removed from the presentation and are not recoverable from the saved file — which is the point when a deck is being prepared for people outside the organisation." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I remove comments from one author only?" answer="Yes. Comments are grouped by author, so a single author's comments can be removed while the rest of the review history stays intact." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

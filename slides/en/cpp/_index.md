@@ -286,6 +286,14 @@ To learn more about Aspose.Slides and how to use it, you can visit the following
 
 {{% /blocks/products/pf/feature-page-section %}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for C++ to a project?" answer="Install the `Aspose.Slides.Cpp` package from NuGet, or download the libraries and headers from the [C++ downloads page](https://releases.aspose.com/slides/cpp/)." >}}
+{{< blocks/products/pf/agp/faq-item question="Which C++ formats can I convert between?" answer="Input includes PPT, PPTX, PDF, ODP, OTP, POT, POTM, POTX, PPS, PPSM, PPSX, PPTM and FODP; output adds HTML, PNG, BMP, JPG, GIF, SVG and TIFF alongside the presentation formats." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I read a presentation from memory instead of from a file?" answer="Yes. Presentations can be loaded from and saved to streams and byte arrays, so a deck arriving over HTTP never has to be written to disk." >}}
+{{< blocks/products/pf/agp/faq-item question="How is memory managed — do I delete the presentation object myself?" answer="No. The API uses smart pointers created through `MakeObject`, and a presentation is released with `Dispose()` when you are finished with it, as the samples on this page show." >}}
+{{< blocks/products/pf/agp/faq-item question="Can C++ turn a presentation into a video?" answer="Yes, in two stages: the library renders the animation as frames, and an external encoder such as FFmpeg assembles them. The presentation-to-video sample on this page shows the full sequence." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}

@@ -474,6 +474,13 @@ try {
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="How do I install the PHP library?" answer="`composer require aspose/slides`, from the [Packagist package](https://packagist.org/packages/aspose/slides). PHP 7 or later and a supported Java Runtime Environment must both be present." >}}
+{{< blocks/products/pf/agp/faq-item question="Why does a PHP library need Java installed?" answer="It bridges to the Java build of Aspose.Slides, so a JRE does the presentation work and PHP drives it. If a JVM cannot be installed in your environment, this build will not run." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can PHP read, write and export?" answer="PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and the OpenDocument formats ODP, FODP and OTP are read and written, plus PDF; PDF/A and XPS are export-only." >}}
+{{< blocks/products/pf/agp/faq-item question="Does it work under PHP-FPM behind a web server?" answer="Yes, but each worker starts a JVM bridge, so memory use rises with worker count. For bulk conversion, a queue and a small number of long-lived workers behaves better than converting inside the request." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}

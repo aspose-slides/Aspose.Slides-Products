@@ -30,6 +30,13 @@ How to find text in presentations with Python via .NET.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Where does a text search look inside a presentation?" answer="Across slides and the shapes on them, including table cells and grouped shapes. Notes slides are separate and have to be searched explicitly." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I search with a regular expression rather than a literal string?" answer="Yes — text is read as strings, so any pattern matching your language offers applies. The library gives you the text and its location; the matching is yours." >}}
+{{< blocks/products/pf/agp/faq-item question="Why does a search for a phrase miss text that is clearly on the slide?" answer="Because PowerPoint splits text into runs whenever formatting changes, so a phrase can be spread across several runs. Search the paragraph's combined text rather than run by run." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I find text and replace it in the same pass?" answer="Yes, and that is the usual shape of the job. Related tasks have their own pages: [redaction](/slides/redaction/) for removing sensitive text, [watermark](/slides/watermark/) for adding text over slides." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

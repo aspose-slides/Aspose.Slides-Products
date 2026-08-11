@@ -113,6 +113,13 @@ Aspose.Slides provides broad format support, rendering quality, cross-platform c
 {{% /blocks/products/pf/feature-page-section %}}
 
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Which Aspose.Slides product should I start with?" answer="The one matching your runtime — .NET, Java, C++, Python, PHP, Node.js or Android. They share a feature set, so the choice is about your stack, not about capability. The [product family page](/slides/family/) lists all of them." >}}
+{{< blocks/products/pf/agp/faq-item question="Does any Aspose.Slides product require Microsoft PowerPoint to be installed?" answer="No. Every build reads and writes the file formats directly, which is why they can run on servers, in containers and on build agents with no Office present." >}}
+{{< blocks/products/pf/agp/faq-item question="Are the same file formats supported on every platform?" answer="The core presentation formats are, but export targets vary — for example Markdown output and some image formats are not available everywhere. Check the platform page before relying on a specific export format." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I try the products before buying a licence?" answer="Yes. Every build runs unlicensed in evaluation mode, which stamps exported files with an evaluation notice. Applying a licence removes it; nothing else about the behaviour changes." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

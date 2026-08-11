@@ -365,6 +365,13 @@ try {
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Is this the same library as Aspose.Slides for Java?" answer="It is the Android build of it, distributed through the [Aspose repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides) as an Android-targeted artifact rather than the server JAR." >}}
+{{< blocks/products/pf/agp/faq-item question="What can an Android app export presentations to?" answer="PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and ODP are read and written; PDF, SVG and HTML are export targets." >}}
+{{< blocks/products/pf/agp/faq-item question="Will adding it affect my APK size?" answer="It is a complete presentation engine rather than a thin wrapper over a service, so it is not a small dependency. Measure the packaged size against your release budget before committing to on-device processing." >}}
+{{< blocks/products/pf/agp/faq-item question="Does presentation conversion work without a network connection?" answer="Yes. Everything runs on the device, so an app can open and convert a deck offline." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 

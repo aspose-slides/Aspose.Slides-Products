@@ -30,6 +30,13 @@ Extract text, images, audio, and video from presentations in Python.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What can be extracted from a presentation?" answer="Text, images, audio and video, from slides, placeholders, tables, notes and grouped shapes." >}}
+{{< blocks/products/pf/agp/faq-item question="Does extracted text keep the slide it came from?" answer="Yes. Text is read per slide and per shape, so the extraction can be indexed with its location rather than flattened into one blob." >}}
+{{< blocks/products/pf/agp/faq-item question="Are speaker notes included?" answer="Only if you read them — notes live on a separate notes slide, so extracting slide text alone will miss them." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I extract media in its original quality?" answer="Yes. Embedded images, audio and video are read as the bytes stored in the file, without re-encoding." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

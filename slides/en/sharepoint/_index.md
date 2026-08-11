@@ -328,6 +328,13 @@ description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX,
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What does Aspose.Slides for SharePoint actually add?" answer="It converts presentations held in SharePoint document libraries to other formats without exporting them first and without Microsoft PowerPoint on the server." >}}
+{{< blocks/products/pf/agp/faq-item question="Which conversions are available from a document library?" answer="It loads PPT, PPTX, PPS, PPSX, PPTM, PPSM, POT, POTX and POTM, and exports to PDF, XPS, TIFF, SVG and web formats." >}}
+{{< blocks/products/pf/agp/faq-item question="Is this an API I write code against?" answer="It is a SharePoint solution rather than a library: it is deployed to the farm and used from the document library UI. For code, use [Aspose.Slides for .NET](/slides/net/) instead." >}}
+{{< blocks/products/pf/agp/faq-item question="Where do I get it?" answer="From the [SharePoint downloads page](https://releases.aspose.com/slides/sharepoint/)." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 

@@ -428,6 +428,14 @@ image.Save("output.jpg", ImageFormat.Jpeg);
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Do I need Microsoft PowerPoint or Office installed to use Aspose.Slides for .NET?" answer="No. The library reads and writes presentation files directly, so it runs on build agents, containers and servers with no Microsoft Office installation and no PowerPoint automation." >}}
+{{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for .NET to a project?" answer="Install the `Aspose.Slides.NET` package from NuGet, or take the assemblies from the [Aspose.Slides for .NET downloads](https://releases.aspose.com/slides/net/). The same package also serves .NET Core and Xamarin projects." >}}
+{{< blocks/products/pf/agp/faq-item question="Which presentation formats can Aspose.Slides for .NET read and write?" answer="It reads and writes PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and OpenDocument ODP. PDF, PDF/A, XPS, JPEG, PNG, BMP, TIFF and GIF are export targets." >}}
+{{< blocks/products/pf/agp/faq-item question="What happens if I use the library without a licence?" answer="It works, but in evaluation mode: exported files are stamped with an *Evaluation only* notice and a line naming the product and version. Applying a licence file at start-up removes both." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I open a legacy binary .ppt file, not just .pptx?" answer="Yes. The 97-2003 binary formats (PPT, PPS, POT) are read and written alongside the OOXML ones, so decks that predate PowerPoint 2007 do not need converting first." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}

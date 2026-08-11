@@ -440,6 +440,14 @@ with slides.Presentation("presentation.pptx") as presentation:
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="How do I install Aspose.Slides for Python via .NET?" answer="`pip install aspose-slides` from PyPI. There is no separate runtime to install — the .NET components the library needs ship inside the wheel." >}}
+{{< blocks/products/pf/agp/faq-item question="Which Python versions does it support, and does it work on Linux?" answer="Python 3.5 and later, on Windows, Linux and macOS. Linux has a small set of extra system requirements, listed in the installation documentation." >}}
+{{< blocks/products/pf/agp/faq-item question="How does it compare with python-pptx?" answer="python-pptx reads and writes PPTX and is free and MIT-licensed; it does not render. Aspose.Slides adds PDF and image export, legacy `.ppt` and ODP support, animations and encryption. The [tested comparison](/slides/python-net/python-pptx-comparison/) runs both libraries and records what each one did." >}}
+{{< blocks/products/pf/agp/faq-item question="Do I need Microsoft PowerPoint installed?" answer="No. The library parses and writes the file formats itself, so it runs in containers, on CI workers and on Linux servers with no Office present." >}}
+{{< blocks/products/pf/agp/faq-item question="What does the library do if no licence is applied?" answer="It runs, but every export is stamped with an *Evaluation only* notice and a line naming the product and version. Setting a licence at start-up removes the stamp." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}

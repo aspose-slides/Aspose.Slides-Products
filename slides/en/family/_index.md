@@ -135,6 +135,13 @@ Add watermarks to presentations with Aspose.Slides API.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What is in the Aspose.Slides product family?" answer="Presentation APIs for .NET, Java, C++, Python via .NET, Python via Java, Android via Java, PHP via Java, Node.js via .NET, Node.js via Java, SharePoint, Reporting Services, JasperReports, .NET Core and Xamarin." >}}
+{{< blocks/products/pf/agp/faq-item question="Do all of them have the same features?" answer="The core is the same — create, edit, convert, render and protect presentations. Export targets and a few platform-specific capabilities differ, so confirm on the page for the platform you plan to use." >}}
+{{< blocks/products/pf/agp/faq-item question="Are the SharePoint, Reporting Services and JasperReports products APIs?" answer="No — those three are integrations for an existing product rather than libraries you write code against. If you want an API, choose one of the language builds." >}}
+{{< blocks/products/pf/agp/faq-item question="Is there one licence covering the whole family?" answer="Licensing is per product, with options that span several. The [pricing pages](https://purchase.aspose.com/pricing/slides/family) set out what each option covers." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}

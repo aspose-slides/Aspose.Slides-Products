@@ -430,6 +430,13 @@ Aspose.Slides for JasperReports is a flexible and easy-to-use exporter for conve
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What does Aspose.Slides for JasperReports do?" answer="It adds PowerPoint export to JasperReports and JasperServer, so a report can be delivered as a presentation rather than only as PDF, HTML or Excel." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can reports be exported to?" answer="PPT, PPTX, PPS and PPSX, plus PDF and HTML." >}}
+{{< blocks/products/pf/agp/faq-item question="Does it work with JasperServer as well as standalone JasperReports?" answer="Yes — it is an exporter for both, which is why it can be added to an existing JasperServer installation without changing the reports themselves." >}}
+{{< blocks/products/pf/agp/faq-item question="Is a presentation exported from a report editable afterwards?" answer="Yes. The output is a real PowerPoint file with slides and shapes, not an image of the report, so it can be opened and edited like any other deck." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 

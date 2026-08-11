@@ -30,6 +30,13 @@ How to remove password protection from presentations with Python via .NET.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Can this remove a password I do not know?" answer="No. Removing an open password requires opening the file, which requires the password. This is for decks you are entitled to open, not for recovering lost passwords." >}}
+{{< blocks/products/pf/agp/faq-item question="What can be removed without a password?" answer="Write protection and the marked-as-final flag, because they are settings inside a file that is already readable — unlike an open password, which encrypts it." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can protection be removed from?" answer="PPT, PPTX and ODP — the same formats that can carry it. Removing it is simply saving the presentation again with the protection settings cleared." >}}
+{{< blocks/products/pf/agp/faq-item question="How do I confirm the protection is really gone?" answer="Save the file and open it again without supplying a password. If it opens, the open password is gone; checking the protection properties on the in-memory object is not the same test." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

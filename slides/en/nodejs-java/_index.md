@@ -360,6 +360,13 @@ finally {
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What do I install, and does the machine need Java?" answer="`npm install aspose.slides.via.java`, and yes — it runs on Windows, Unix/Linux and macOS with JDK 1.8 or above installed." >}}
+{{< blocks/products/pf/agp/faq-item question="Why does it list a JDK rather than a JRE?" answer="The package bridges Node.js to the Java build of Aspose.Slides, and the stated requirement is JDK 1.8 or above. Plan for a full JDK on the machine rather than a runtime-only Java install." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can Node.js export to with this build?" answer="PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and ODP are read and written; PDF, PDF/A, XPS, JPEG, PNG, BMP, TIFF, GIF, SVG and HTML are export targets." >}}
+{{< blocks/products/pf/agp/faq-item question="Why do the calls look like `getSlides().get_Item(0)`?" answer="The API is the Java one exposed through the bridge, so it keeps Java naming. The [via .NET build](/slides/nodejs-net/) exposes a more JavaScript-shaped API if that matters to you." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}

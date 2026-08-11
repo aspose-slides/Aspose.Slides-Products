@@ -197,6 +197,13 @@ finally:
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What has to be installed before `pip install aspose-slides-java` will work?" answer="A JRE 8 or later, Python 3.7 through 3.12, and `JPype1` 1.5.0 or later. The library talks to a Java runtime through JPype, so the JRE is a hard requirement." >}}
+{{< blocks/products/pf/agp/faq-item question="How is this different from Aspose.Slides for Python via .NET?" answer="Same capabilities, different bridge. This build calls into Java and needs a JRE; the [Python via .NET build](/slides/python-net/) carries its own runtime and needs nothing else installed. Choose this one if a JVM is already part of your environment." >}}
+{{< blocks/products/pf/agp/faq-item question="Why do the methods look like `getSlides()` and `get_Item(0)`?" answer="Because the API is the Java one surfaced through JPype, so it keeps Java naming. Code written against the Python via .NET build will not run here unchanged." >}}
+{{< blocks/products/pf/agp/faq-item question="Do I need to release the presentation explicitly?" answer="Yes. Call `presentation.dispose()` in a `finally` block, as the sample on this page does — the underlying Java object is not freed by Python's garbage collector on its own." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}

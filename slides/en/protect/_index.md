@@ -30,6 +30,13 @@ How to protect presentations in Python.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="What kinds of protection can be applied?" answer="A password required to open the file, a write protection that makes it read-only unless a password is supplied, and a marked-as-final flag." >}}
+{{< blocks/products/pf/agp/faq-item question="Is a presentation protected with a password actually encrypted?" answer="Yes, when the open password is used: the file cannot be read without it. Write protection and marked-as-final are conventions honoured by the application, not encryption, so treat them as guidance rather than security." >}}
+{{< blocks/products/pf/agp/faq-item question="Which formats can carry protection?" answer="PPT, PPTX and ODP. Note that the strength differs: PPTX uses the modern OOXML encryption, while the legacy binary PPT scheme is much weaker and should not be relied on for confidential decks." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I protect individual shapes rather than the whole file?" answer="Yes. Shapes can be locked against selection, movement, resizing and editing, independently of any password on the presentation itself." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

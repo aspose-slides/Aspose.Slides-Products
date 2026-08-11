@@ -30,6 +30,13 @@ How to add charts to presentations in Python.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Can I create a chart in a slide from scratch, or only edit an existing one?" answer="Both. A chart can be added to a slide with its type, position, size and data, and an existing chart's series and categories can be rewritten in place." >}}
+{{< blocks/products/pf/agp/faq-item question="Where does the chart data live inside a presentation?" answer="In an embedded workbook, the same way PowerPoint stores it. Changing values means writing to that workbook, which is why the chart stays editable in PowerPoint afterwards." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I render a chart to an image without opening PowerPoint?" answer="Yes. A chart can be exported as an image directly, which is how charts are turned into thumbnails or embedded in reports." >}}
+{{< blocks/products/pf/agp/faq-item question="Which chart types are available?" answer="The full PowerPoint set — column, bar, line, pie, area, scatter, bubble, radar, stock, surface, doughnut and the combination types — because the chart is written as a native PowerPoint chart, not a picture of one." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

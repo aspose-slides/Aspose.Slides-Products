@@ -30,6 +30,13 @@ View and edit presentation properties in Python.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
+{{< blocks/products/pf/agp/faq-item question="Which properties can be read and changed?" answer="Both the built-in document properties — title, author, subject, keywords, company, created and modified times — and any custom properties the deck carries." >}}
+{{< blocks/products/pf/agp/faq-item question="Does editing metadata rewrite the whole presentation?" answer="The file is saved again, so its bytes change, but the slides themselves are untouched. Only the property values differ." >}}
+{{< blocks/products/pf/agp/faq-item question="Can I strip identifying metadata before sharing a deck externally?" answer="Yes — clearing author, company and custom properties is a common pre-publication step. Note that comments and speaker notes are separate; removing them is [annotation](/slides/annotation/) work, not metadata work." >}}
+{{< blocks/products/pf/agp/faq-item question="Is the modified date updated automatically when I save?" answer="Not on its own — it is a property like any other. Set it explicitly if you want it to reflect the change your code just made." >}}
+{{< /blocks/products/pf/agp/faq >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
