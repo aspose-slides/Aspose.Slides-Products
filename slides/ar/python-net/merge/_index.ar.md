@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج PDF و PPT و PPTX والعديد من تنسيقات الملفات الأخرى باستخدام Python
 url: /ar/python-net/merge/
 keywords: دمج ، انضمام ، PowerPoint ، عرض تقديمي ، Python ، Aspose

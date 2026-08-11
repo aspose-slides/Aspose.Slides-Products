@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPS in SVG tramite Java
 weight: 6960
 url: /it/java/conversion/pps-to-svg/ 

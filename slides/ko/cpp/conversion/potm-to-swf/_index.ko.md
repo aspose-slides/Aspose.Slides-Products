@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ 응용 프로그램을 통해 POTM을 SWF로 변환
 url: /ko/cpp/conversion/potm-to-swf/ 
 description: POTM 문서를 SWF 형식으로 변환하는 샘플 C++ 변환 코드. 모든 C++ 응용 프로그램 내에서 일괄 POTM에서 SWF로의 변환을 위한 예제 코드를 사용합니다.

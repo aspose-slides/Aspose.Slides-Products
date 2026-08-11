@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSX a PDF usando Python
 url: /it/python-net/merge/ppsx-to-pdf/
 keywords: Unisci PPSX a PDF, Unisci PPSX a PDF, Combina PPSX a PDF, PowerPoint, Presentazione, PDF, Python, Aspose

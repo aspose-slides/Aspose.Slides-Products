@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: باز کردن قفل فایل‌های ارائه PPTX با استفاده از Python
 url: /fa/python-net/unlock/pptx/
 keywords: حذف حفاظت نوشتن PPTX، رمزگشایی یک PPTX، باز کردن قفل ارائه PPTX، لغو محافظت PPTX

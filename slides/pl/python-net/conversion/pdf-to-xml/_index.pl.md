@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PDF na XML w Pythonie
 url: /pl/python-net/conversion/pdf-to-xml/
 keywords: PDF do XML, Konwersja PDF do XML, Python API, Python Library, PDF, XML

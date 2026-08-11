@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中将图像转换为 PPTX
 url: /zh/net/conversion/image-to-pptx/
 keywords: 将图像转换为 PPTX，将图像转换为 PPTX，PowerPoint，图像，PPTX，C# API，.NET 库

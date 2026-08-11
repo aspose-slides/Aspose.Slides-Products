@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование OTP в BMP в Node.js
 url: /ru/nodejs-java/conversion/otp-to-bmp/
 keywords: OTP в BMP, конвертировать OTP в BMP, API Node.js, библиотека Node.js, OTP, BMP

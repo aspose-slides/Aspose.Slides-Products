@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lås upp PPT presentationsfiler med Python
 url: /sv/python-net/unlock/ppt/
 keywords: Ta bort skrivskydd PPT, dekryptera en PPT, låsa upp PPT presentation, ta bort skydd PPT

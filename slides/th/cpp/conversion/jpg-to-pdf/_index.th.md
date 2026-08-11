@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง JPG เป็น PDF ใน C++
 url: /th/cpp/conversion/jpg-to-pdf/
 keywords: JPG เป็น PDF, แปลง JPG เป็น PDF, C++ API, C++ Library, JPG, PDF

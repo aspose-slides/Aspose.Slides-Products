@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى PPTX في C#
 url: /ar/net/conversion/pdf-to-pptx/
 keywords: تحويل PDF إلى PPTX ، PDF إلى PPTX ، PowerPoint ، PDF ، PPTX ، C# API ، مكتبة .NET

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 POTM 文件合并到 OTP
 url: /zh/python-net/merge/potm-to-otp/
 keywords: 将 POTM 合并到 OTP，将 POTM 连接到 OTP，将 POTM 合并到 OTP，PowerPoint，演示文稿，OTP，Python，Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTM en POTX en JavaScript
 url: /fr/nodejs-net/conversion/pptm-to-potx/
 keywords: PPTM en POTX, Convertir PPTM en POTX, API Node.js, Bibliothèque JavaScript, PPTM, POTX

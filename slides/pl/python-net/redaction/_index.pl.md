@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redaguj prezentacje PowerPoint i OpenOffice za pomocą Pythona
 url: /pl/python-net/redaction/
 description: Kod źródłowy Pythona do znajdowania i usuwania treści w prezentacjach PowerPoint i OpenOffice™

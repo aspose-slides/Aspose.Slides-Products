@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java에서 SVG을 PNG로 변환
 url: /ko/java/conversion/svg-to-png/
 keywords: SVG에서 PNG으로, SVG에서 PNG로 변환, Java API, Java 라이브러리, SVG, PNG

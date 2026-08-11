@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में छवि को बीएमपी में मर्ज करें
 url: /hi/python-net/merge/image-to-bmp/
 keywords: इमेज टू बीएमपी, मर्ज इमेज टू बीएमपी, जॉइन इमेज टू बीएमपी, कंबाइन इमेजेज, इमेज, बीएमपी, पायथन एपीआई, पायथन लाइब्रेरी

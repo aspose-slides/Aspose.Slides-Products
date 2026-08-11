@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή μορφών αρχείων ODP μέσω .NET
 weight: 8370
 url: /el/net/viewer/odp/ 

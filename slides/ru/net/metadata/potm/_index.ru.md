@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр или редактирование метаданных файлов POTM с помощью .NET
 url: /ru/net/metadata/potm/
 keywords: Изменить метаданные POTM, просмотреть метаданные POTM, изменить свойства POTM, просмотреть свойства POTM

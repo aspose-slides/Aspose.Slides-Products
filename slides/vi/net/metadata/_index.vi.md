@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem & Chỉnh sửa Siêu dữ liệu PowerPoint bằng .NET
 url: /vi/net/metadata/
 description: Mã nguồn C# để xem và chỉnh sửa các thuộc tính bản trình bày

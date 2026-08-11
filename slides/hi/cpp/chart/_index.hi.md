@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके PowerPoint प्रस्तुतियों में चार्ट जोड़ें
 url: /hi/cpp/chart/
 description: PowerPoint प्रस्तुतियों में चार्ट जोड़ने के लिए C++ स्रोत कोड

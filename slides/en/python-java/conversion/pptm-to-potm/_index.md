@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to POTM in Python
 url: /python-java/conversion/pptm-to-potm/
 keywords: Python PPTM conversion, PPTM to POTM, macro-enabled PowerPoint template, presentation format conversion, Aspose.Slides for Python via Java

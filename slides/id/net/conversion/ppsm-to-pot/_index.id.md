@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPSM ke POT melalui C#
 weight: 1070
 url: /id/net/conversion/ppsm-to-pot/ 

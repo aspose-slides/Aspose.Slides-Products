@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge HTML to Image in Python
 url: /ar/python-net/merge/html-to-image/
 keywords: Merge HTML to image, HTML to image, Join HTML, Combine HTML, Image, Python API, Python Library

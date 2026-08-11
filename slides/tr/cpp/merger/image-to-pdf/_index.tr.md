@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++'da Görüntüyü PDF'ye Birleştirme
 url: /tr/cpp/merger/image-to-pdf/
 keywords: Görüntüyü PDF'ye Dönüştürme, Görüntüyü PDF'ye Birleştirme, Görüntüyü PDF'ye Birleştirme, PDF, Görüntü, C++ API, C++ Kitaplığı

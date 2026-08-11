@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPSM naar HTML in Node.js
 url: /nl/nodejs-java/conversion/ppsm-to-html/
 keywords: PPSM naar HTML, Converteer PPSM naar HTML, Node.js API, Node.js-bibliotheek, PPSM, HTML

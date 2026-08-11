@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) HTML fájlt JPG formátumra a Pythonban
 url: /hu/python-net/conversion/html-to-jpg/
 keywords: HTML to JPG, HTML konvertálása JPG formátumba, Python API, Python Library, HTML, JPG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPTX به ویدیو در سی شارپ
 url: /fa/net/conversion/pptx-to-video/
 keywords: تبدیل PPTX به ویدئو، PPTX به ویدئو، پاورپوینت به ویدئو، PPTX به MP4، C# API، کتابخانه دات نت

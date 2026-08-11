@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PDF เป็น HTML ใน C++
 url: /th/cpp/conversion/pdf-to-html/
 keywords: PDF เป็น HTML, แปลง PDF เป็น HTML, C++ API, C++ Library, PDF, HTML

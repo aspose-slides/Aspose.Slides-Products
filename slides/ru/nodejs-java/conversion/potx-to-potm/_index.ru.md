@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование POTX в POTM в Node.js
 url: /ru/nodejs-java/conversion/potx-to-potm/
 keywords: POTX в POTM, конвертировать POTX в POTM, API Node.js, библиотека Node.js, POTX, POTM

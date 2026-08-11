@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP'de PDF öğesini XML biçimine dönüştürün
 url: /tr/php-java/conversion/pdf-to-xml/
 keywords: PDF'tan XML'a, PDF'tan XML'a Dönüştürme, PHP API, PHP Kitaplığı, PDF, XML

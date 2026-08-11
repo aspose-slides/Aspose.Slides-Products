@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जेपीजी को जावा में पीपीटीएक्स में कनवर्ट करें
 url: /hi/java/conversion/jpg-to-pptx/
 keywords: JPG को PPTX, JPG को PPTX, PowerPoint, JPG, PPTX, Java API, Java लाइब्रेरी में कनवर्ट करें

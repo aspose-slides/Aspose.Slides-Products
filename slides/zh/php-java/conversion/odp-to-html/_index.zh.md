@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 ODP 转换为 HTML
 weight: 250
 url: /zh/php-java/conversion/odp-to-html/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PDF in XML in C++
 url: /it/cpp/conversion/pdf-to-xml/
 keywords: PDF in XML, conversione di PDF in XML, API C++, libreria C++, PDF, XML

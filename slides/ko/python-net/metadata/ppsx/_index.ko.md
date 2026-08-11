@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을(를) 사용하여 PPSX 파일 메타데이터 보기 또는 편집
 url: /ko/python-net/metadata/ppsx/
 keywords: PPSX 메타데이터 수정, PPSX 메타데이터 보기, PPSX 속성 수정, PPSX 속성 보기

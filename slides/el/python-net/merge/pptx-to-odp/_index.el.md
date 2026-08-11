@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPTX σε ODP χρησιμοποιώντας Python
 url: /el/python-net/merge/pptx-to-odp/
 keywords: Συγχώνευση PPTX σε ODP, Join PPTX σε ODP, Combine PPTX σε ODP, PowerPoint, Presentation, ODP, Python, Aspose

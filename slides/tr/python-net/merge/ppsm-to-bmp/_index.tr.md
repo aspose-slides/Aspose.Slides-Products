@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPSM Dosyalarını BMP İle Birleştirin
 url: /tr/python-net/merge/ppsm-to-bmp/
 keywords: PPSM'ı BMP ile birleştir, PPSM ile BMP'a katıl, PPSM'ı BMP ile birleştir, PowerPoint, Presentation, BMP, Python, Aspose

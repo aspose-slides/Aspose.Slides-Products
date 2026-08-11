@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: TIFF zu PDF in PHP zusammenführen
 url: /de/php-java/merger/tiff-to-pdf/
 keywords: TIFF zu PDF, TIFF zu PDF zusammenführen, TIFF zu PDF verbinden, PDF, TIFF, PHP-API, PHP-Bibliothek

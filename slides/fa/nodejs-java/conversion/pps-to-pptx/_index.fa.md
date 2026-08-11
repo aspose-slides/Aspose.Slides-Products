@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js PPS را به PPTX تبدیل کنید
 url: /fa/nodejs-java/conversion/pps-to-pptx/
 keywords: PPS به PPTX، تبدیل PPS به PPTX، Node.js API، Node.js Library، PPS، PPTX

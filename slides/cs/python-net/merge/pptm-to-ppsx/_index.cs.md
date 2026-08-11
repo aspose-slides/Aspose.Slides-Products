@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTM do PPSX pomocí Pythonu
 url: /cs/python-net/merge/pptm-to-ppsx/
 keywords: Sloučit PPTM do PPSX, připojit PPTM do PPSX, kombinovat PPTM do PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

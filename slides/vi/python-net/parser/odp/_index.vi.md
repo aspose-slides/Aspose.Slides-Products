@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Trích xuất Văn bản và Hình ảnh từ Tệp ODP bằng Python
 url: /vi/python-net/parser/odp/
 keywords: phân tích cú pháp ODP bằng Python, trình phân tích cú pháp ODP Python, trích xuất dữ liệu từ ODP trong Python, trích xuất văn bản từ ODP bằng Python, trích xuất hình ảnh từ ODP bằng Python

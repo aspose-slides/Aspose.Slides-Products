@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux ve macOS'ta PowerPoint dosyalarına Grafik ekleyin
 url: /tr/chart/
 description: PPT, PPTX Sunumlarında grafiklerle çalışmak için API'ler

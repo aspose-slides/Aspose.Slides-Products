@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visualizza e modifica i metadati di PowerPoint utilizzando .NET
 url: /it/net/metadata/
 description: Codice sorgente C# per visualizzare e modificare le proprietà della presentazione

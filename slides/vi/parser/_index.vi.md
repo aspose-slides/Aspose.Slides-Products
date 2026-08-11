@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Trích xuất Văn bản, Hình ảnh, Video, Âm thanh và các phương tiện khác từ Bản trình bày
 url: /vi/parser/
 description: API để trích xuất văn bản, hình ảnh, video, âm thanh từ bản trình bày PowerPoint và OpenOffice

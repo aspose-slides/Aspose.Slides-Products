@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PNG egyesítése PDF-be Pythonban
 url: /hu/python-net/merge/png-to-pdf/
 keywords: PNG PDF-be, PNG egyesítése PDF-be, PNG csatlakozás PDF-be, PDF, PNG, Python API, Python Library

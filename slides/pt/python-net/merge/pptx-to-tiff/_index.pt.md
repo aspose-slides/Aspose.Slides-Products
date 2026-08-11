@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPTX para TIFF usando Python
 url: /pt/python-net/merge/pptx-to-tiff/
 keywords: Mesclar PPTX com TIFF, juntar PPTX com TIFF, combinar PPTX com TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

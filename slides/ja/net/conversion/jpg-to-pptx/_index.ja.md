@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で JPG を PPTX に変換する
 url: /ja/net/conversion/jpg-to-pptx/
 keywords: JPG を PPTX に、JPG を PPTX に、PowerPoint、JPG、PPTX、C# API、.NET ライブラリに変換

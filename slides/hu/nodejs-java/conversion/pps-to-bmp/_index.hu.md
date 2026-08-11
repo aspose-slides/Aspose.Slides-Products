@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPS konvertálása BMP formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/pps-to-bmp/
 keywords: PPS to BMP, PPS konvertálása BMP formátumba, Node.js API, Node.js Library, PPS, BMP

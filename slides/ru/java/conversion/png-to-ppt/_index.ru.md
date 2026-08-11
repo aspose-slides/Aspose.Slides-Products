@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Конвертировать PNG в PPT на Java
 url: /ru/java/conversion/png-to-ppt/
 keywords: Преобразование PNG в PPT, PNG в PPT, PowerPoint, PNG, PPT, Java API, библиотека Java

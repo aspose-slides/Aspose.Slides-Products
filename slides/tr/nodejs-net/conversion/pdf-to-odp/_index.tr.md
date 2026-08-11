@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te PDF'ı ODP'a dönüştürün
 url: /tr/nodejs-net/conversion/pdf-to-odp/
 keywords: PDF'tan ODP'a, PDF'ı ODP'a dönüştürün, Node.js API, JavaScript Kitaplığı, PDF, ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg keresése a PowerPointban és az OpenOffice-bemutatókban C++ használatával
 url: /hu/cpp/search/
 description: C++ forráskód a szavak kereséséhez mintával a PowerPoint és az OpenOffice™ prezentációkban

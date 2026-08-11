@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा के माध्यम से PPTM को PPTX में बदलें
 weight: 4320
 url: /hi/java/conversion/pptm-to-pptx/ 

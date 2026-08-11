@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPS Dosyalarını PNG İle Birleştirin
 url: /tr/python-net/merge/pps-to-png/
 keywords: PPS'ı PNG ile birleştir, PPS ile PNG'a katıl, PPS'ı PNG ile birleştir, PowerPoint, Presentation, PNG, Python, Aspose

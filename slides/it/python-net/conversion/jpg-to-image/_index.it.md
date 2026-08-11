@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti JPG in Image in Python
 url: /it/python-net/conversion/jpg-to-image/
 keywords: JPG in Image, conversione di JPG in Image, API Python, libreria Python, JPG, Image

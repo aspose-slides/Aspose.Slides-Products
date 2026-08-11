@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ での PNG 画像のマージ
 url: /ja/cpp/merger/png-to-png/
 keywords: PNG のマージ、PNG から PNG、PNG の結合、PNG の結合、C++ API、C++ ライブラリ

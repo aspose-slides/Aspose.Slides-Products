@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Eliminar la contraseña de la presentación de PowerPoint usando Java
 url: /es/java/unlock/
 description: Código fuente de Java para desbloquear la presentación

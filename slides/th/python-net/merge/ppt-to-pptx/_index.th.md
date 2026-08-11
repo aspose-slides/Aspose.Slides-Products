@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPT เข้ากับ PPTX โดยใช้ Python
 url: /th/python-net/merge/ppt-to-pptx/
 keywords: รวม PPT เป็น PPTX เข้าร่วม PPT ถึง PPTX รวม PPT เป็น PPTX PowerPoint การนำเสนอ PPTX Python Aspose

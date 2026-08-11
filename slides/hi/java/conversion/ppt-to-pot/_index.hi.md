@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT को Java के माध्यम से POT में बदलें
 weight: 90
 url: /hi/java/conversion/ppt-to-pot/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPTX ファイルからテキストと画像を抽出する
 url: /ja/python-net/parser/pptx/
 keywords: Python を使用して PPTX を解析、PPTX パーサー Python、Python の PPTX からデータを抽出、Python を使用して PPTX からテキストを抽出、Python を使用して PPTX から画像を抽出

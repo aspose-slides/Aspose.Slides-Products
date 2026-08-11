@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bekijk of bewerk metadata van POTX bestanden met behulp van .NET
 url: /nl/net/metadata/potx/
 keywords: Bewerk POTX metadata, bekijk POTX metadata, bewerk POTX eigenschappen, bekijk POTX eigenschappen

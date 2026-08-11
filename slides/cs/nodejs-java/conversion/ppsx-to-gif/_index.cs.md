@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPSX na GIF v Node.js
 url: /cs/nodejs-java/conversion/ppsx-to-gif/
 keywords: PPSX do GIF, Převést PPSX do GIF, Node.js API, Node.js Library, PPSX, GIF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sắp xếp lại các tệp bản trình bày PPTX bằng .NET
 url: /vi/net/redaction/pptx/
 keywords: Viết lại PPTX, tìm và thay thế văn bản trong PPTX, cập nhật Bản trình bày PPTX

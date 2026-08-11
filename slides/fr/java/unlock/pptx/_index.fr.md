@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Déverrouillez les fichiers de présentation PPTX à l'aide de Java
 url: /fr/java/unlock/pptx/
 keywords: Supprimer la protection en écriture PPTX, décrypter une présentation PPTX, déverrouiller la présentation PPTX, déprotéger PPTX

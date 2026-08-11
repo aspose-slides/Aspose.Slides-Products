@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में Microsoft PowerPoint प्रस्तुति पीडीएफ में रूपांतरण
 url: /hi/python-net/conversion/
 keywords: "कन्वर्ट, पॉवरपॉइंट, प्रस्तुति, पायथन, पीडीएफ, पीडीएफ में कनवर्ट करें, पीपीटी से पीडीएफ में"

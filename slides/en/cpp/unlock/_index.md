@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unlock Presentations using C++
 url: /cpp/unlock/
 description: Unlock PowerPoint and OpenDocument presentations in C++. Use Aspose.Slides for C++ to remove encryption and write protection.

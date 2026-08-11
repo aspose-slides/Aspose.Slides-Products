@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++에서 JPG를 PPT로 변환
 url: /ko/cpp/conversion/jpg-to-ppt/
 keywords: JPG를 PPT로, JPG를 PPT로, PowerPoint, JPG, PPT, C++ API, C++ 라이브러리로 변환

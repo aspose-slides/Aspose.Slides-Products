@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPSX را با FODP ادغام کنید
 url: /fa/python-net/merge/ppsx-to-fodp/
 keywords: ادغام PPSX به FODP، پیوستن به PPSX به FODP، ترکیب PPSX به FODP، PowerPoint، Presentation، FODP، Python، Aspose

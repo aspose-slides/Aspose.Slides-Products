@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie POTM über eine C++-Anwendung in SVG
 weight: 7220
 url: /de/cpp/conversion/potm-to-svg/ 

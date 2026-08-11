@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का इस्तेमाल करके ODP प्रस्तुति फ़ाइलें संपादित करें
 url: /hi/python-net/redaction/odp/
 keywords: ODP संपादित करें, ODP में टेक्स्ट ढूंढें और बदलें, ODP प्रस्तुति अपडेट करें

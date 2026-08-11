@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to PNG in Python
 url: /python-java/conversion/pot-to-png/
 keywords: Python POT conversion, POT to PNG, PowerPoint to PNG, presentation to PNG, Aspose.Slides for Python via Java

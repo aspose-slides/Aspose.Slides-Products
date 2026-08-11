@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Добавьте водяной знак в файлы презентаций ODP с помощью C++
 url: /ru/cpp/watermark/odp/
 keywords: Добавить водяной знак ODP, Добавить текстовый водяной знак ODP, Добавить водяной знак изображения ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter HTML para PPTX em Java
 url: /pt/java/conversion/html-to-pptx/
 keywords: Converter HTML para PPTX, HTML para PPTX, PowerPoint, HTML, PPTX, API Java, Biblioteca Java

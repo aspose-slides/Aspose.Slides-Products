@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js'de PPT'ı PPSM'a dönüştürün
 url: /tr/nodejs-java/conversion/ppt-to-ppsm/
 keywords: PPT'tan PPSM'a, PPT'ı PPSM'a dönüştürün, Node.js API'si, Node.js Kitaplığı, PPT, PPSM

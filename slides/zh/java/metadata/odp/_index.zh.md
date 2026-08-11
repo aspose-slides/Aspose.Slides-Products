@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 查看或编辑 ODP 文件元数据
 url: /zh/java/metadata/odp/
 keywords: 编辑 ODP 元数据，查看 ODP 元数据，编辑 ODP 属性，查看 ODP 属性

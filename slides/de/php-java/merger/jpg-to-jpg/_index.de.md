@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG-Bilder in PHP zusammenführen
 url: /de/php-java/merger/jpg-to-jpg/
 keywords: JPG, JPEG zu JPG zusammenführen, JPG verbinden, JPG kombinieren, PHP-API, PHP-Bibliothek

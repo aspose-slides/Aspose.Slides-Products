@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PDF till PPTX i Java
 url: /sv/java/conversion/pdf-to-pptx/
 keywords: PDF till PPTX, Konvertera PDF till PPTX, Java API, Java Library, PDF, PPTX

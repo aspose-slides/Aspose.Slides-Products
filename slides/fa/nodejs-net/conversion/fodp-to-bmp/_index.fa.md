@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت FODP را به BMP تبدیل کنید
 url: /fa/nodejs-net/conversion/fodp-to-bmp/
 keywords: FODP به BMP، تبدیل FODP به BMP، Node.js API، کتابخانه جاوا اسکریپت، FODP، BMP

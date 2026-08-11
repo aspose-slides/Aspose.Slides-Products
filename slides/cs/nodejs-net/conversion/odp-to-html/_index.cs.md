@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte ODP do HTML v JavaScriptu
 url: /cs/nodejs-net/conversion/odp-to-html/
 keywords: ODP do HTML, Převést ODP do HTML, Node.js API, JavaScript Library, ODP, HTML

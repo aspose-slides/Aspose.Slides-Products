@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPSM 文件合并到 PDF
 url: /zh/python-net/merge/ppsm-to-pdf/
 keywords: 将 PPSM 合并到 PDF，将 PPSM 连接到 PDF，将 PPSM 合并到 PDF，PowerPoint，演示文稿，PDF，Python，Aspose

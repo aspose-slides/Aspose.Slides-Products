@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-01-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Upravit HTML v C#
 url: /cs/net/editor/html/
 keywords: Upravit HTML, HTML, C# API, .NET knihovnu

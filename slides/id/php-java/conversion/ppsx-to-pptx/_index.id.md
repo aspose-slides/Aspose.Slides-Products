@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPSX ke PPTX di PHP
 weight: 2060
 url: /id/php-java/conversion/ppsx-to-pptx/ 

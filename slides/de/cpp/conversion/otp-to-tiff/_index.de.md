@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie OTP in TIFF über eine C++-Anwendung
 weight: 8270
 url: /de/cpp/conversion/otp-to-tiff/ 

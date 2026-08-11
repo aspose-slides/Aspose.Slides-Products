@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将图像合并为 PDF
 url: /zh/php-java/merger/image-to-pdf/
 keywords: 图像到 PDF、合并图像到 PDF、将图像合并到 PDF、PDF、图像、PHP API、PHP 库

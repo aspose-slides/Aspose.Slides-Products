@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Editar HTML em PHP
 url: /pt/php-java/editor/html/
 keywords: Editar HTML, Editar PowerPoint, HTML, PowerPoint, API PHP, Biblioteca PHP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 从演示文稿中提取文本、图像、视频、音频和其他媒体
 url: /zh/parser/
 description: 从 PowerPoint 和 OpenOffice 演示文稿中提取文本、图像、视频和音频的 API

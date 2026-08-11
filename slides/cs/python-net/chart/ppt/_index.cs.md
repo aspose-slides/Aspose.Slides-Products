@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vytvořte graf v prezentačních souborech PPT pomocí Python
 url: /cs/python-net/chart/ppt/
 keywords: Vytvoření grafu, vytvoření rozptýleného grafu, vytvoření koláčového grafu, vytvoření stromové mapy, vytvoření akciového grafu, vytvoření krabicového a vousového grafu, vytvoření histogramového grafu, vytvoření trychtýřového grafu, sunburst grafu, vícekategoriového grafu, PowerPointové prezentace, Python

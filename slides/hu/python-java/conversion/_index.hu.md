@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python prezentáció konvertálása. Könnyedén konvertálja a prezentációkat az Aspose.Slides segítségével.
 url: /hu/python-java/conversion/
 keywords: "Konvertálás, PowerPoint, prezentáció, Python, Python projektek, Python-könyvtárak, PDF, konvertálás PDF-be, PPT PDF-be"

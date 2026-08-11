@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض أو تحرير PPTM البيانات الوصفية للملفات باستخدام Java
 url: /ar/java/metadata/pptm/
 keywords: تحرير PPTM البيانات الوصفية ، عرض PPTM البيانات الوصفية ، تحرير خصائص PPTM ، عرض الخصائص PPTM

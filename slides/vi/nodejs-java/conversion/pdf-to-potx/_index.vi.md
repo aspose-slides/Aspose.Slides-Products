@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF thành POTX trong Node.js
 url: /vi/nodejs-java/conversion/pdf-to-potx/
 keywords: PDF sang POTX, Chuyển đổi PDF sang POTX, API Node.js, Thư viện Node.js, PDF, POTX

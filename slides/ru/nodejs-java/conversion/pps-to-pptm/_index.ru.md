@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPS в PPTM в Node.js
 url: /ru/nodejs-java/conversion/pps-to-pptm/
 keywords: PPS в PPTM, конвертировать PPS в PPTM, API Node.js, библиотека Node.js, PPS, PPTM

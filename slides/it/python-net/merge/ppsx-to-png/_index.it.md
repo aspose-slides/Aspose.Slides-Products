@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSX a PNG usando Python
 url: /it/python-net/merge/ppsx-to-png/
 keywords: Unisci PPSX a PNG, Unisci PPSX a PNG, Combina PPSX a PNG, PowerPoint, Presentazione, PNG, Python, Aspose

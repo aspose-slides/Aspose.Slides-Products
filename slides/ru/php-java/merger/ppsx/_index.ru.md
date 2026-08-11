@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PPSX с помощью PHP
 url: /ru/php-java/merger/ppsx/
 keywords: Объединить PPSX, присоединиться к PPSX, объединить PPSX, PowerPoint, презентацию, PHP, Aspose

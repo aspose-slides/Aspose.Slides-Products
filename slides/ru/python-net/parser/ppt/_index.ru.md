@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Извлечение текста и изображений из файлов PPT с помощью Python
 url: /ru/python-net/parser/ppt/
 keywords: анализировать PPT с помощью Python, синтаксический анализатор PPT Python, извлекать данные из PPT в Python, извлекать текст из PPT с помощью Python, извлекать изображения из PPT с помощью Python

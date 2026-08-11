@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات POT إلى GIF باستخدام Python
 url: /ar/python-net/merge/pot-to-gif/
 keywords: دمج POT إلى GIF ، انضم إلى POT إلى GIF ، ادمج POT إلى GIF ، PowerPoint ، Presentation ، GIF ، Python ، Aspose

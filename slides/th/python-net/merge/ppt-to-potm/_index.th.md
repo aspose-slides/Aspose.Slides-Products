@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPT เข้ากับ POTM โดยใช้ Python
 url: /th/python-net/merge/ppt-to-potm/
 keywords: รวม PPT เป็น POTM เข้าร่วม PPT ถึง POTM รวม PPT เป็น POTM PowerPoint การนำเสนอ POTM Python Aspose

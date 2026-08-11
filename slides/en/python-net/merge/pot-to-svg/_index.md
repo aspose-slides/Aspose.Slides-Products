@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POT Files and Export Slides to SVG Using Python
 url: /python-net/merge/pot-to-svg/
 keywords: Merge POT to SVG, Join POT to SVG, Combine POT to SVG, PowerPoint, Presentation, SVG, Python, Aspose

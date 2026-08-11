@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPTX a HTML usando Python
 url: /it/python-net/merge/pptx-to-html/
 keywords: Unisci PPTX a HTML, Unisci PPTX a HTML, Combina PPTX a HTML, PowerPoint, Presentazione, HTML, Python, Aspose

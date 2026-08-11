@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Proteja los archivos de presentación de PPTX usando C++
 url: /es/cpp/protect/pptx/
 keywords: Protección contra escritura PPTX, encriptación de PPTX, bloqueo de PPTX presentación, protección de PPTX

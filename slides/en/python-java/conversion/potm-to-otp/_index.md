@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTM to OTP in Python
 url: /python-java/conversion/potm-to-otp/
 keywords: Python POTM conversion, POTM to OTP, PowerPoint to OTP, macro-enabled template to OpenDocument, Aspose.Slides for Python via Java

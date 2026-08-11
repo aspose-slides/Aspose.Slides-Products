@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Agregar marca de agua a la presentación de PowerPoint usando Python
 url: /es/python-net/watermark/
 description: Código fuente de Python para presentación de marca de agua

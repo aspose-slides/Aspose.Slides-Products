@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View PowerPoint Files on Windows, Linux, and macOS
 url: /viewer/
 description: APIs for opening PowerPoint and OpenDocument presentations and exporting them for viewing.

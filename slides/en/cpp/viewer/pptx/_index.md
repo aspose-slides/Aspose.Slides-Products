@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPTX in C++
 url: /cpp/viewer/pptx/
 keywords: View PPTX, Open PPTX, PPTX Viewer, PPTX, C++ API, C++ Library, CPP

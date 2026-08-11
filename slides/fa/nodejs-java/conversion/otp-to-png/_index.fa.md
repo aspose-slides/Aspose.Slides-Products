@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js OTP را به PNG تبدیل کنید
 url: /fa/nodejs-java/conversion/otp-to-png/
 keywords: OTP به PNG، تبدیل OTP به PNG، Node.js API، Node.js Library، OTP، PNG

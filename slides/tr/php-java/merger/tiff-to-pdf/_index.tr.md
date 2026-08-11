@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP'de TIFF'i PDF'ye birleştirme
 url: /tr/php-java/merger/tiff-to-pdf/
 keywords: TIFF'den PDF'e, TIFF'den PDF'e Birleştirme, TIFF'i PDF'ye Birleştirme, PDF, TIFF, PHP API, PHP Kitaplığı

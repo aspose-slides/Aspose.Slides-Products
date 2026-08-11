@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων POTM σε PPT χρησιμοποιώντας Python
 url: /el/python-net/merge/potm-to-ppt/
 keywords: Συγχώνευση POTM σε PPT, Join POTM σε PPT, Combine POTM σε PPT, PowerPoint, Presentation, PPT, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 用C++编辑PPT
 url: /zh/cpp/editor/ppt/
 keywords: 编辑 PPT, 编辑 PowerPoint, PPT, PowerPoint, C++ API, C++ Library

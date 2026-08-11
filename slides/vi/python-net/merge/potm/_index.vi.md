@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp POTM bằng Python
 url: /vi/python-net/merge/potm/
 keywords: Hợp nhất POTM, Tham gia POTM, Kết hợp POTM, PowerPoint, Bản trình bày, Python, Aspose

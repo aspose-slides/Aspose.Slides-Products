@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPS do SVG v JavaScriptu
 url: /cs/nodejs-net/conversion/pps-to-svg/
 keywords: PPS do SVG, Převést PPS do SVG, Node.js API, JavaScript Library, PPS, SVG

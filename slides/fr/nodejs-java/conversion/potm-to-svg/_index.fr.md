@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POTM en SVG dans Node.js
 url: /fr/nodejs-java/conversion/potm-to-svg/
 keywords: POTM en SVG, Convertir POTM en SVG, API Node.js, Bibliothèque Node.js, POTM, SVG

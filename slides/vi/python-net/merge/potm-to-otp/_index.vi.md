@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp POTM thành OTP bằng Python
 url: /vi/python-net/merge/potm-to-otp/
 keywords: Hợp nhất POTM thành OTP, Nối POTM thành OTP, Kết hợp POTM thành OTP, PowerPoint, Bản trình bày, OTP, Python, Aspose

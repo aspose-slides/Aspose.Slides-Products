@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü C# dilinde BMP ile Birleştirme
 url: /tr/net/merger/image-to-bmp/
 keywords: Görüntüden BMP'ye, Görüntüyü BMP'ye Birleştirme, Görüntüyü BMP'ye Birleştirme, Görüntüleri Birleştirme, Görüntü, BMP, C# API, .NET Kitaplığı

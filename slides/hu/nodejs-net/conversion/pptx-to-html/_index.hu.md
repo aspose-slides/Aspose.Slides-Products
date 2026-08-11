@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPTX konvertálása HTML formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/pptx-to-html/
 keywords: PPTX to HTML, PPTX konvertálása HTML formátumba, Node.js API, JavaScript Library, PPTX, HTML

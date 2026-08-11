@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPTX in Java
 url: /java/viewer/pptx/
 keywords: View PPTX, Open PPTX, PPTX Viewer, PPTX, Java API, Java Library

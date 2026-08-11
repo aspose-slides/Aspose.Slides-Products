@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPT till PDF i JavaScript
 url: /sv/nodejs-net/conversion/ppt-to-pdf/
 keywords: PPT till PDF, Konvertera PPT till PDF, Node.js API, JavaScript Library, PPT, PDF

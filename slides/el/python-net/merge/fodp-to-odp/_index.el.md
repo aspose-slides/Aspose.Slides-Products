@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων FODP σε ODP χρησιμοποιώντας Python
 url: /el/python-net/merge/fodp-to-odp/
 keywords: Συγχώνευση FODP σε ODP, Join FODP σε ODP, Combine FODP σε ODP, PowerPoint, Presentation, ODP, Python, Aspose

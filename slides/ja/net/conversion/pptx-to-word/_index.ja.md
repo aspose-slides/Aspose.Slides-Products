@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PPTX を Word に変換する
 url: /ja/net/conversion/pptx-to-word/
 keywords: PPTX を Word、PPTX を Word、PPTX を DOC、PowerPoint を Word、C# API、.NET ライブラリに変換

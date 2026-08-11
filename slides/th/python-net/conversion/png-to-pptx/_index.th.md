@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PNG เป็น PPTX ใน Python
 url: /th/python-net/conversion/png-to-pptx/
 keywords: แปลง PNG เป็น PPTX, PNG เป็น PPTX, PowerPoint, PNG, PPTX, Python API, Python Library

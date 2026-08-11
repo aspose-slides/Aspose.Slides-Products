@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP에서 POTX을 FODP으로 변환
 weight: 1280
 url: /ko/php-java/conversion/potx-to-fodp/ 

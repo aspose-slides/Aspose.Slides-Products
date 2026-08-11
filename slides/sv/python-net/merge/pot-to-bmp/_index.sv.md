@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POT-filer till BMP med Python
 url: /sv/python-net/merge/pot-to-bmp/
 keywords: Slå samman POT till BMP, gå med POT till BMP, kombinera POT till BMP, PowerPoint, Presentation, BMP, Python, Aspose

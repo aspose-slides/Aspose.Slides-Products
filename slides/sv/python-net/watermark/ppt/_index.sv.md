@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lägg till vattenstämpel i PPT presentationsfiler med Python
 url: /sv/python-net/watermark/ppt/
 keywords: Lägg till vattenstämpel PPT, Lägg till textvattenstämpel PPT, Lägg till bildvattenstämpel PPT

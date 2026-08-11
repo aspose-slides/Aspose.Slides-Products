@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPS Files and Export to FODP Using Python
 url: /python-net/merge/pps-to-fodp/
 keywords: Merge PPS to FODP, Join PPS to FODP, Combine PPS to FODP, PowerPoint, Presentation, FODP, Python, Aspose

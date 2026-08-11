@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sắp xếp lại các tệp bản trình bày PPT bằng .NET
 url: /vi/net/redaction/ppt/
 keywords: Viết lại PPT, tìm và thay thế văn bản trong PPT, cập nhật Bản trình bày PPT

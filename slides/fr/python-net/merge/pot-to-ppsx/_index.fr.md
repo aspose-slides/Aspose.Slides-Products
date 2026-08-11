@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers POT vers PPSX à l'aide de Python
 url: /fr/python-net/merge/pot-to-ppsx/
 keywords: Fusionner POT à PPSX, Joindre POT à PPSX, Combiner POT à PPSX, PowerPoint, Présentation, PPSX, Python, Aspose

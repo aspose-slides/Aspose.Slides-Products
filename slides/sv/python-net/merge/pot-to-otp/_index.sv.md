@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POT-filer till OTP med Python
 url: /sv/python-net/merge/pot-to-otp/
 keywords: Slå samman POT till OTP, gå med POT till OTP, kombinera POT till OTP, PowerPoint, Presentation, OTP, Python, Aspose

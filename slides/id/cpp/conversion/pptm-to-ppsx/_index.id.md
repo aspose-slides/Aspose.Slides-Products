@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPTM ke PPSX melalui aplikasi C++
 weight: 7980
 url: /id/cpp/conversion/pptm-to-ppsx/ 

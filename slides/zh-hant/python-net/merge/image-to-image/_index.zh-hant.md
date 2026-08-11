@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中合併圖像
 url: /zh-hant/python-net/merge/image-to-image/
 keywords: 合併圖像、圖像到圖像、連接圖像、合併圖像、Python API、Python 庫

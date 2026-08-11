@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-15
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to TIFF in Node.js
 url: /nodejs-net/conversion/ppt-to-tiff/
 keywords: PPT to TIFF, Convert PPT to TIFF, Node.js API, JavaScript Library, PPT, TIFF

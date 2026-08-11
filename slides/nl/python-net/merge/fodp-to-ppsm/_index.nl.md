@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg FODP-bestanden samen naar PPSM met Python
 url: /nl/python-net/merge/fodp-to-ppsm/
 keywords: Voeg FODP samen tot PPSM, voeg FODP toe aan PPSM, combineer FODP tot PPSM, PowerPoint, Presentatie, PPSM, Python, Aspose

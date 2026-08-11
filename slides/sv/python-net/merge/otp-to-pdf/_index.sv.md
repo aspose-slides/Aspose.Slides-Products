@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman OTP-filer till PDF med Python
 url: /sv/python-net/merge/otp-to-pdf/
 keywords: Slå samman OTP till PDF, gå med OTP till PDF, kombinera OTP till PDF, PowerPoint, Presentation, PDF, Python, Aspose

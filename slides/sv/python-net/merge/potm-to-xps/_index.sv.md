@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTM-filer till XPS med Python
 url: /sv/python-net/merge/potm-to-xps/
 keywords: Slå samman POTM till XPS, gå med POTM till XPS, kombinera POTM till XPS, PowerPoint, Presentation, XPS, Python, Aspose

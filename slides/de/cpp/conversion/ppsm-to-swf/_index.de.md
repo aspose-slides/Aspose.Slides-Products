@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPSM über eine C++-Anwendung in SWF
 url: /de/cpp/conversion/ppsm-to-swf/ 
 description: Beispiel-C++-Konvertierungscode für ein PPSM-Dokument in das SWF-Format. Verwenden Sie Beispielcode für die Batch-Umwandlung von PPSM in SWF in einer beliebigen C++-Anwendung.

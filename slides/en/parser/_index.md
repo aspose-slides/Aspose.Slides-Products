@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extract Text and Media from PowerPoint and OpenDocument Presentations
 url: /parser/
 description: Extract text, images, audio, and video from PowerPoint and OpenDocument presentations with Aspose.Slides APIs.

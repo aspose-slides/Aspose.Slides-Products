@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPTX 文件合并到 FODP
 url: /zh/python-net/merge/pptx-to-fodp/
 keywords: 将 PPTX 合并到 FODP，将 PPTX 连接到 FODP，将 PPTX 合并到 FODP，PowerPoint，演示文稿，FODP，Python，Aspose

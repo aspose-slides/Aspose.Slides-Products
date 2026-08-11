@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Upravte prezentace PowerPoint a OpenOffice pomocí C++
 url: /cs/cpp/redaction/
 description: Zdrojový kód C++ pro vyhledání a odstranění obsahu v prezentacích PowerPoint a OpenOffice™

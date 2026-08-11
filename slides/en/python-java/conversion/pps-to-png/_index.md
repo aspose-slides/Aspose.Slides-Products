@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPS to PNG in Python
 url: /python-java/conversion/pps-to-png/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PPS to PNG conversion, Python presentation library

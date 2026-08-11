@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های POTM را با PNG ادغام کنید
 url: /fa/python-net/merge/potm-to-png/
 keywords: ادغام POTM به PNG، پیوستن به POTM به PNG، ترکیب POTM به PNG، PowerPoint، Presentation، PNG، Python، Aspose

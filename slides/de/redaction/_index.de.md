@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigieren Sie PowerPoint-Dateien unter Windows, Linux und macOS
 url: /de/redaction/
 description: APIs zum Schutz von PPT-, PPTX- und ODP-Präsentationen

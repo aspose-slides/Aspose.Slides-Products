@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi hình ảnh sang PPT trong C++
 url: /vi/cpp/conversion/image-to-ppt/
 keywords: Hình ảnh thành PPT, Chuyển đổi hình ảnh thành PPT, API C++, Thư viện C++, Hình ảnh, PPT

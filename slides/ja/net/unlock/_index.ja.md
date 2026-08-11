@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET を使用して PowerPoint プレゼンテーションからパスワードを削除する
 url: /ja/net/unlock/
 description: プレゼンテーションのロックを解除するための C# ソース コード

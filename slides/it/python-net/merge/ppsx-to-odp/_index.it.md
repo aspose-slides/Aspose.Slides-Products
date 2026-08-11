@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSX a ODP usando Python
 url: /it/python-net/merge/ppsx-to-odp/
 keywords: Unisci PPSX a ODP, Unisci PPSX a ODP, Combina PPSX a ODP, PowerPoint, Presentazione, ODP, Python, Aspose

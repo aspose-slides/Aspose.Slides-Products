@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPTM in Java
 url: /java/viewer/pptm/
 keywords: View PPTM, Open PPTM, PPTM Viewer, PPTM, Java API, Java Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPT till video i C#
 url: /sv/net/conversion/ppt-to-video/
 keywords: Konvertera PPT till video, PPT till video, PowerPoint till video, PPT till MP4, C# API, .NET Library

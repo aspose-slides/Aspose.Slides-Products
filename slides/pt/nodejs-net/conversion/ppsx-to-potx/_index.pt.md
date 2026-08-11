@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter PPSX em POTX em JavaScript
 url: /pt/nodejs-net/conversion/ppsx-to-potx/
 keywords: PPSX para POTX, converter PPSX para POTX, API Node.js, biblioteca JavaScript, PPSX, POTX

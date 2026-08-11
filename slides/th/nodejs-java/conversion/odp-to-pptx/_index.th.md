@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง ODP เป็น PPTX ใน Node.js
 url: /th/nodejs-java/conversion/odp-to-pptx/
 keywords: ODP เป็น PPTX, แปลง ODP เป็น PPTX, Node.js API, ไลบรารี Node.js, ODP, PPTX

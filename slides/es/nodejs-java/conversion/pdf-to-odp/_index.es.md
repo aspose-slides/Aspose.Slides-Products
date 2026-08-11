@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta PDF a ODP en Node.js
 url: /es/nodejs-java/conversion/pdf-to-odp/
 keywords: PDF a ODP, Convertir PDF a ODP, API de Node.js, Biblioteca Node.js, PDF, ODP

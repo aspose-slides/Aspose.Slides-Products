@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python で画像を PPTX に変換する
 url: /ja/python-net/conversion/image-to-pptx/
 keywords: 画像を PPTX に、画像を PPTX に変換する、Python API、Python ライブラリ、画像、PPTX

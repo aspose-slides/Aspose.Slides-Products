@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Microsoft PowerPoint प्रस्तुति C# का उपयोग करके एकाधिक फ़ाइलों में रूपांतरण
 url: /hi/net/conversion/
 description: Microsoft PowerPoint स्लाइड्स को .NET फ्रेमवर्क, .NET Core, Windows Azure, Mono या Xamarin प्लेटफ़ॉर्म पर PDF, HTML और छवि स्वरूपों सहित विभिन्न फ़ाइलों में कनवर्ट करें।

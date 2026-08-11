@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wasserzeichen zu PPTX-Präsentationsdateien mit C++ hinzufügen
 url: /de/cpp/watermark/pptx/
 keywords: Wasserzeichen hinzufügen PPTX, Textwasserzeichen hinzufügen PPTX, Bildwasserzeichen hinzufügen PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไขไฟล์การนำเสนอ PPT โดยใช้ Java
 url: /th/java/redaction/ppt/
 keywords: แก้ไข PPT ค้นหาและแทนที่ข้อความใน PPT อัปเดตงานนำเสนอ PPT

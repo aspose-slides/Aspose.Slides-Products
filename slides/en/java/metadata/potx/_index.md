@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit POTX File Metadata Using Java
 url: /java/metadata/potx/
 keywords: Edit POTX Metadata, View POTX Metadata, Edit POTX properties, View POTX properties

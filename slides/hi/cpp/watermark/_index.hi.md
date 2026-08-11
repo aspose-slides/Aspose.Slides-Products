@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके PowerPoint प्रस्तुति में वॉटरमार्क जोड़ें
 url: /hi/cpp/watermark/
 description: वॉटरमार्क प्रस्तुति के लिए सी ++ स्रोत कोड

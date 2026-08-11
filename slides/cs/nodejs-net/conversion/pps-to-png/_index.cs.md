@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPS do PNG v JavaScriptu
 url: /cs/nodejs-net/conversion/pps-to-png/
 keywords: PPS do PNG, Převést PPS do PNG, Node.js API, JavaScript Library, PPS, PNG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ uygulaması aracılığıyla TIFF'yi XPS'ye dönüştürün
 weight: 1550
 url: /tr/cpp/conversion/tiff-to-xps/ 

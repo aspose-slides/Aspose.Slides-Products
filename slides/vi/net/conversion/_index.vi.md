@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi bản trình bày Microsoft PowerPoint thành nhiều tệp bằng C#
 url: /vi/net/conversion/
 description: Chuyển đổi các Trang trình bày Microsoft PowerPoint sang các tệp khác nhau bao gồm các định dạng PDF, HTML và hình ảnh trên Nền tảng .NET Framework, .NET Core, Windows Azure, Mono hoặc Xamarin.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPSM do BMP v JavaScriptu
 url: /cs/nodejs-net/conversion/ppsm-to-bmp/
 keywords: PPSM do BMP, Převést PPSM do BMP, Node.js API, JavaScript Library, PPSM, BMP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して POT ファイルを PPTX にマージ
 url: /ja/python-net/merge/pot-to-pptx/
 keywords: POT を PPTX に結合、POT を PPTX に結合、POT を PPTX に結合、PowerPoint、プレゼンテーション、PPTX、Python、Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zusammenführen von SVG mit PNG in C#
 url: /de/net/merger/svg-to-png/
 keywords: Zusammenführen von SVG mit PNG, SVG mit PNG, Verbinden von SVG mit PNG, Kombinieren von SVG mit PNG, C#-API, .NET-Bibliothek

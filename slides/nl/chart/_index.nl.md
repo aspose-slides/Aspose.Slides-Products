@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg Chart toe aan PowerPoint-bestanden op Windows, Linux en macOS
 url: /nl/chart/
 description: API's om te werken met grafieken in PPT, PPTX-presentaties

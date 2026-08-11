@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Skydda ODP presentationsfiler med C++
 url: /sv/cpp/protect/odp/
 keywords: Skrivskydd ODP, kryptera en ODP, lås ODP presentation, skydda ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل JPG إلى PNG في Python
 url: /ar/python-net/conversion/jpg-to-png/
 keywords: JPG إلى PNG ، تحويل JPG إلى PNG ، Python API ، Python Library ، JPG ، PNG

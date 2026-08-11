@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact Presentations using C++
 url: /cpp/redaction/
 description: Redact PowerPoint and OpenDocument presentations in C++. Use Aspose.Slides for C++ to find and replace sensitive text in presentation files.

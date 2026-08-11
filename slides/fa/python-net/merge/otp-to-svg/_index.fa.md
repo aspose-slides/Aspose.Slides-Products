@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های OTP را با SVG ادغام کنید
 url: /fa/python-net/merge/otp-to-svg/
 keywords: ادغام OTP به SVG، پیوستن به OTP به SVG، ترکیب OTP به SVG، PowerPoint، Presentation، SVG، Python، Aspose

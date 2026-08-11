@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPTM 文件合并到 PNG
 url: /zh/python-net/merge/pptm-to-png/
 keywords: 将 PPTM 合并到 PNG，将 PPTM 连接到 PNG，将 PPTM 合并到 PNG，PowerPoint，演示文稿，PNG，Python，Aspose

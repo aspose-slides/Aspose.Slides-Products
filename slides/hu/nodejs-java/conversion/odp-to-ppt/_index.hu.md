@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) ODP konvertálása PPT formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/odp-to-ppt/
 keywords: ODP to PPT, ODP konvertálása PPT formátumba, Node.js API, Node.js Library, ODP, PPT

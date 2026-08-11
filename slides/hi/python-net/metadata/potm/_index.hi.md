@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का उपयोग करके POTM फ़ाइलें मेटाडेटा देखें या संपादित करें
 url: /hi/python-net/metadata/potm/
 keywords: POTM मेटाडेटा संपादित करें, POTM मेटाडेटा देखें, POTM गुण संपादित करें, POTM गुण देखें

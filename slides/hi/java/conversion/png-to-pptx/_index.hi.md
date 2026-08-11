@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में PNG को PPTX में बदलें
 url: /hi/java/conversion/png-to-pptx/
 keywords: PNG को PPTX, PNG को PPTX, PowerPoint, PNG, PPTX, Java API, Java लाइब्रेरी में कन्वर्ट करें

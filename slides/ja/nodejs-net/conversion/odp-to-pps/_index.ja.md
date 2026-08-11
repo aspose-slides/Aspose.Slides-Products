@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で ODP を PPS に変換します
 url: /ja/nodejs-net/conversion/odp-to-pps/
 keywords: ODP から PPS、ODP から PPS への変換、Node.js API、JavaScript ライブラリ、ODP、PPS

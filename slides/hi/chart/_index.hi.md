@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux और macOS पर PowerPoint फ़ाइलों में चार्ट जोड़ें
 url: /hi/chart/
 description: पीपीटी, पीपीटीएक्स प्रस्तुतियों में चार्ट के साथ काम करने के लिए एपीआई

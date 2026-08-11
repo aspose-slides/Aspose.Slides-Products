@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POT do BMP pomocí Pythonu
 url: /cs/python-net/merge/pot-to-bmp/
 keywords: Sloučit POT do BMP, připojit POT do BMP, kombinovat POT do BMP, PowerPoint, Presentation, BMP, Python, Aspose

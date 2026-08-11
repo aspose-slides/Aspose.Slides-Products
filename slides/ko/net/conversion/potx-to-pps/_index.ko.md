@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#을 통해 POTX를 PPS로 변환
 weight: 1380
 url: /ko/net/conversion/potx-to-pps/ 

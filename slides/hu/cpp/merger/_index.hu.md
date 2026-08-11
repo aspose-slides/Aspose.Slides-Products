@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PDF, PPT, PPTX és sok más fájlformátumot C++ használatával
 url: /hu/cpp/merger/
 keywords: Egyesítés, csatlakozás, PowerPoint, prezentáció, C++, Aspose

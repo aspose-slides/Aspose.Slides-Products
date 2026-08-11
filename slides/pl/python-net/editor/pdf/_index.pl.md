@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edytuj PDF w Pythonie
 url: /pl/python-net/editor/pdf/
 keywords: Edytuj PDF, PDF, Python API, Python Library

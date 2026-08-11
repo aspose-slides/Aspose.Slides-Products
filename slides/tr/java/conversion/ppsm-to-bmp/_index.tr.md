@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java ile PPSM'yi BMP'ye dönüştürün
 weight: 3980
 url: /tr/java/conversion/ppsm-to-bmp/ 

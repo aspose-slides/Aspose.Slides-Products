@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPT फ़ाइलों को HTML में मर्ज करें
 url: /hi/python-net/merge/ppt-to-html/
 keywords: PPT को HTML में मिलाएं, PPT से HTML में शामिल हों, PPT से HTML, PowerPoint, प्रेजेंटेशन, HTML, Python, Aspose को मिलाएं

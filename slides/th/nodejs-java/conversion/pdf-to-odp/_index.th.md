@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PDF เป็น ODP ใน Node.js
 url: /th/nodejs-java/conversion/pdf-to-odp/
 keywords: PDF เป็น ODP, แปลง PDF เป็น ODP, Node.js API, ไลบรารี Node.js, PDF, ODP

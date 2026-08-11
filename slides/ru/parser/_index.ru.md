@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Извлечение текста, изображений, видео, аудио и других медиафайлов из презентации
 url: /ru/parser/
 description: API для извлечения текста, изображений, видео, аудио из презентаций PowerPoint и OpenOffice

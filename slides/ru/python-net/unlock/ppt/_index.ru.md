@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Разблокируйте файлы презентаций PPT с помощью Python
 url: /ru/python-net/unlock/ppt/
 keywords: Снять защиту от записи PPT, расшифровать PPT, разблокировать презентацию PPT, снять защиту PPT

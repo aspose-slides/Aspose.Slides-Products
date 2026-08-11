@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTM na JPG v Node.js
 url: /cs/nodejs-java/conversion/potm-to-jpg/
 keywords: POTM do JPG, Převést POTM do JPG, Node.js API, Node.js Library, POTM, JPG

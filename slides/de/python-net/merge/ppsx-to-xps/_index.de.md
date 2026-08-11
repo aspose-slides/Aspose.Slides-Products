@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX-Dateien mit Python in XPS zusammenführen
 url: /de/python-net/merge/ppsx-to-xps/
 keywords: PPSX mit XPS zusammenführen, PPSX mit XPS verbinden, PPSX mit XPS kombinieren, PowerPoint, Präsentation, XPS, Python, Aspose

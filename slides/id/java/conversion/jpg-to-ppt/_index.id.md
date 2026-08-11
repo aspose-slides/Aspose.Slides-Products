@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi JPG ke PPT di Jawa
 url: /id/java/conversion/jpg-to-ppt/
 keywords: Konversi JPG ke PPT, JPG ke PPT, PowerPoint, JPG, PPT, API Java, Perpustakaan Java

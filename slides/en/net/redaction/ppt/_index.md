@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact PPT Presentation Files using .NET
 url: /net/redaction/ppt/
 keywords: Redact PPT, Find and Replace Text in PPT, Update PPT Presentation

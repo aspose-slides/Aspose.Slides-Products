@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTX เป็น PPT ผ่าน C#
 weight: 1910
 url: /th/net/conversion/pptx-to-ppt/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PDF إلى XPS باستخدام Python
 url: /ar/python-net/merge/pdf-to-xps/
 keywords: دمج PDF إلى XPS ، انضم إلى PDF إلى XPS ، ادمج PDF إلى XPS ، PowerPoint ، Presentation ، XPS ، Python ، Aspose

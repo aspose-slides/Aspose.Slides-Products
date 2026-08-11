@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera FODP till JPG i Node.js
 url: /sv/nodejs-java/conversion/fodp-to-jpg/
 keywords: FODP till JPG, Konvertera FODP till JPG, Node.js API, Node.js Library, FODP, JPG

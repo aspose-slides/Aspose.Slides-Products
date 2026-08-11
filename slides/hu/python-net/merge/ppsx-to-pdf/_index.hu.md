@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPSX fájlokat a PDF formátumba Python használatával
 url: /hu/python-net/merge/ppsx-to-pdf/
 keywords: A(z) PPSX egyesítése a(z) PDF formátumba, a(z) PPSX csatlakozása a(z) PDF formátumba, a(z)(PPSX) összevonása a(z) PDF formátumba, PowerPoint, Presentation, PDF, Python, Aspose

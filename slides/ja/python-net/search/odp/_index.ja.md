@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して ODP プレゼンテーション ファイル内のテキストを検索
 url: /ja/python-net/search/odp/
 keywords: ODP で単語を検索、ODP でテキストを検索および置換、テキスト ODP を検索

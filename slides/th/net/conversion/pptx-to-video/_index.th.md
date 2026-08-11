@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTX เป็นวิดีโอใน C#
 url: /th/net/conversion/pptx-to-video/
 keywords: แปลง PPTX เป็นวิดีโอ, PPTX เป็นวิดีโอ, PowerPoint เป็นวิดีโอ, PPTX เป็น MP4, C# API, .NET Library

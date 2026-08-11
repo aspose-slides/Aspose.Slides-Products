@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPS ファイルをマージする
 url: /ja/python-net/merge/pps/
 keywords: 結合 PPS、結合 PPS、結合 PPS、PowerPoint、プレゼンテーション、Python、Aspose

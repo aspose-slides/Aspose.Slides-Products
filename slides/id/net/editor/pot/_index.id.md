@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edit file POT melalui .NET
 url: /id/net/editor/pot/ 
 description: Kode sumber C# untuk mengedit dokumen POT di .NET Framework, .NET Core, Windows Azure, Mono atau Xamarin Platforms.

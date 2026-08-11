@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在Java中将图像转换为PPT
 url: /zh/java/conversion/image-to-ppt/
 keywords: 图片转PPT，图片转PPT，PowerPoint，图片，PPT，Java API，Java库

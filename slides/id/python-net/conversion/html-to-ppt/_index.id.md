@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan HTML ke PPT dengan Python
 url: /id/python-net/conversion/html-to-ppt/
 keywords: Konversikan HTML ke PPT, HTML ke PPT, PowerPoint, HTML, PPT, API Python, Perpustakaan Python

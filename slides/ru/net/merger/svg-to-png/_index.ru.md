@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить SVG в PNG в C#
 url: /ru/net/merger/svg-to-png/
 keywords: Объединение SVG в PNG, SVG в PNG, объединение SVG в PNG, объединение SVG в PNG, API C#, библиотека .NET

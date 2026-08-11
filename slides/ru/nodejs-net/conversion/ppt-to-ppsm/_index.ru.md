@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPT в PPSM в JavaScript
 url: /ru/nodejs-net/conversion/ppt-to-ppsm/
 keywords: PPT в PPSM, преобразование PPT в PPSM, Node.js API, библиотека JavaScript, PPT, PPSM

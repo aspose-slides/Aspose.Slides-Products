@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: قفل کردن یا محافظت از رمز عبور ارائه با استفاده از دات نت
 url: /fa/net/protect/
 description: کد منبع سی شارپ برای تنظیم رمز عبور برای قفل کردن ارائه

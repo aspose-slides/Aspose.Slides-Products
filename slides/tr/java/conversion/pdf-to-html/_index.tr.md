@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da PDF biçimini HTML biçimine dönüştürün
 url: /tr/java/conversion/pdf-to-html/
 keywords: PDF'tan HTML'a, PDF'tan HTML'a Dönüştürme, Java API, Java Kitaplığı, PDF, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 锁定或密码保护演示文稿
 url: /zh/python-net/protect/
 description: Python源码设置密码锁定演示文稿

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie HTML in JPG in Java
 url: /de/java/conversion/html-to-jpg/
 keywords: HTML in JPG, Konvertiere HTML in JPG, Java-API, Java-Bibliothek, HTML, JPG

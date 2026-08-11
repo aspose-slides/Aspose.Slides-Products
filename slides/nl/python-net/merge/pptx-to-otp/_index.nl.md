@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPTX-bestanden samen naar OTP met Python
 url: /nl/python-net/merge/pptx-to-otp/
 keywords: Voeg PPTX samen tot OTP, voeg PPTX toe aan OTP, combineer PPTX tot OTP, PowerPoint, Presentatie, OTP, Python, Aspose

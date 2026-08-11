@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg POT-bestanden samen naar POTX met Python
 url: /nl/python-net/merge/pot-to-potx/
 keywords: Voeg POT samen tot POTX, voeg POT toe aan POTX, combineer POT tot POTX, PowerPoint, Presentatie, POTX, Python, Aspose

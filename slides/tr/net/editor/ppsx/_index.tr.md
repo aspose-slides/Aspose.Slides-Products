@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET aracılığıyla PPSX dosyalarını düzenleyin
 url: /tr/net/editor/ppsx/ 
 description: .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platformlarında PPSX belgesini düzenlemek için C# kaynak kodu.

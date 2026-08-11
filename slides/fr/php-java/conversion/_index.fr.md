@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversion de présentation Microsoft PowerPoint en PDF en PHP
 url: /fr/php-java/conversion/
 keywords: "Convertir, PowerPoint, Présentation, PHP, PDF, Convertir en PDF, PPT en PDF"

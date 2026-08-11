@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie ODP in TIFF in Node.js
 url: /de/nodejs-java/conversion/odp-to-tiff/
 keywords: ODP zu TIFF, Konvertieren von ODP zu TIFF, Node.js API, Node.js-Bibliothek, ODP, TIFF

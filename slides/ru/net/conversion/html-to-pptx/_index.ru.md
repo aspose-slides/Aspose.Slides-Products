@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование HTML в PPTX на C#
 url: /ru/net/conversion/html-to-pptx/
 keywords: Преобразование HTML в PPTX, HTML в PPTX, PowerPoint, HTML, PPTX, API C#, библиотеку .NET.

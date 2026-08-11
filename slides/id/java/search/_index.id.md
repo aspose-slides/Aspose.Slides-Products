@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Cari teks di Presentasi PowerPoint dan OpenOffice menggunakan Java
 url: /id/java/search/
 description: Kode sumber Java untuk mencari kata dengan pola dalam presentasi PowerPoint dan OpenOffice™

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 PDF 轉換為 TIFF
 url: /zh-hant/nodejs-java/conversion/pdf-to-tiff/
 keywords: PDF 到 TIFF、將 PDF 轉換為 TIFF、Node.js API、Node.js 庫、PDF、TIFF

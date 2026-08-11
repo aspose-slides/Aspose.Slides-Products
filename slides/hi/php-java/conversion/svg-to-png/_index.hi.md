@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में SVG को PNG में बदलें
 url: /hi/php-java/conversion/svg-to-png/
 keywords: SVG से PNG, SVG को PNG में कन्वर्ट करें, PHP API, PHP लाइब्रेरी, SVG, PNG

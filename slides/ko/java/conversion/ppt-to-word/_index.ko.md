@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java에서 PPT를 Word로 변환
 url: /ko/java/conversion/ppt-to-word/
 keywords: PPT를 Word로, PPT를 Word로, PPT를 DOC로, PowerPoint를 Word로, Java API, Java 라이브러리로 변환

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中將 HTML 轉換為 PPT
 url: /zh-hant/php-java/conversion/html-to-ppt/
 keywords: HTML 到 PPT，將 HTML 轉換為 PPT，PHP API，PHP 庫，HTML，PPT

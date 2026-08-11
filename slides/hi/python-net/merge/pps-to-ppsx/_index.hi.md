@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPS फ़ाइलों को PPSX में मर्ज करें
 url: /hi/python-net/merge/pps-to-ppsx/
 keywords: PPS को PPSX में मिलाएं, PPS से PPSX में शामिल हों, PPS से PPSX, PowerPoint, प्रेजेंटेशन, PPSX, Python, Aspose को मिलाएं

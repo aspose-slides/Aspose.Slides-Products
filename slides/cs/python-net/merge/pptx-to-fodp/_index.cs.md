@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTX do FODP pomocí Pythonu
 url: /cs/python-net/merge/pptx-to-fodp/
 keywords: Sloučit PPTX do FODP, připojit PPTX do FODP, kombinovat PPTX do FODP, PowerPoint, Presentation, FODP, Python, Aspose

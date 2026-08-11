@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti HTML in PPTX in PHP
 url: /it/php-java/conversion/html-to-pptx/
 keywords: HTML in PPTX, conversione di HTML in PPTX, API PHP, libreria PHP, HTML, PPTX

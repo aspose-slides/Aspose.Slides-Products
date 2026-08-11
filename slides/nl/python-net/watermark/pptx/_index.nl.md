@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Watermerk toevoegen aan PPTX presentatiebestanden met Python
 url: /nl/python-net/watermark/pptx/
 keywords: Watermerk toevoegen PPTX, Tekstwatermerk toevoegen PPTX, Afbeeldingswatermerk toevoegen PPTX

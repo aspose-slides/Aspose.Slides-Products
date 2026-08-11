@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất hình ảnh JPG trong C++
 url: /vi/cpp/merger/jpg-to-jpg/
 keywords: Hợp nhất JPG, JPEG sang JPG, Tham gia JPG, Kết hợp JPG, API C++, Thư viện C++

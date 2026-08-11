@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vízjel hozzáadása a PowerPoint-fájlokhoz Windows, Linux és macOS rendszeren
 url: /hu/watermark/
 description: API-k vízjel hozzáadásához PPT, PPTX és ODP prezentációkhoz

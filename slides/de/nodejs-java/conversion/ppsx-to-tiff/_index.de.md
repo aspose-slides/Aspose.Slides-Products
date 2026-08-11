@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPSX in TIFF in Node.js
 url: /de/nodejs-java/conversion/ppsx-to-tiff/
 keywords: PPSX zu TIFF, Konvertieren von PPSX zu TIFF, Node.js API, Node.js-Bibliothek, PPSX, TIFF

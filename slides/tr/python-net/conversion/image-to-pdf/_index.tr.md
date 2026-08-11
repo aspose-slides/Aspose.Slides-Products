@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da Image öğesini PDF biçimine dönüştürün
 url: /tr/python-net/conversion/image-to-pdf/
 keywords: Image'tan PDF'a, Image'tan PDF'a Dönüştürme, Python API, Python Kitaplığı, Image, PDF

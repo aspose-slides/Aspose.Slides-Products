@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 POT 转换为 TIFF
 weight: 1090
 url: /zh/python-net/conversion/pot-to-tiff/ 

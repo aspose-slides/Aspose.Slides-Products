@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till PPSM med Python
 url: /sv/python-net/merge/ppt-to-ppsm/
 keywords: Slå samman PPT till PPSM, gå med PPT till PPSM, kombinera PPT till PPSM, PowerPoint, Presentation, PPSM, Python, Aspose

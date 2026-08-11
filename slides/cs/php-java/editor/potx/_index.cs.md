@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Upravte POTX v PHP
 url: /cs/php-java/editor/potx/
 keywords: Upravit POTX, Upravit PowerPoint, POTX, PowerPoint, PHP API, PHP Library

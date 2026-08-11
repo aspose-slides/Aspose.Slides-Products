@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض أو تحرير PPT البيانات الوصفية للملفات باستخدام .NET
 url: /ar/net/metadata/ppt/
 keywords: تحرير PPT البيانات الوصفية ، عرض PPT البيانات الوصفية ، تحرير خصائص PPT ، عرض الخصائص PPT

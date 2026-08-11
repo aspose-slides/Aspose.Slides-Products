@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PDF konvertálása JPG formátumra C++ nyelven
 url: /hu/cpp/conversion/pdf-to-jpg/
 keywords: PDF to JPG, PDF konvertálása JPG formátumba, C++ API, C++ Library, PDF, JPG

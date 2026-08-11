@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование JPG в PPT в Python
 url: /ru/python-net/conversion/jpg-to-ppt/
 keywords: Преобразование JPG в PPT, JPG в PPT, PowerPoint, JPG, PPT, API Python, библиотеку Python

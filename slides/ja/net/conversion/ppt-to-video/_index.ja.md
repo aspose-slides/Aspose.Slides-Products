@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PPT をビデオに変換
 url: /ja/net/conversion/ppt-to-video/
 keywords: PPT をビデオに変換、PPT をビデオに、PowerPoint をビデオに、PPT を MP4 に変換、C# API、.NET ライブラリ

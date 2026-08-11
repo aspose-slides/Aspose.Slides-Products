@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование POT в PPTM в Python
 url: /ru/python-java/conversion/pot-to-pptm/
 keywords: Преобразование презентаций Python, преобразование презентаций в Python, Python для презентаций, Aspose.Slides Python, преобразование POT в PPTM, библиотека презентаций Python

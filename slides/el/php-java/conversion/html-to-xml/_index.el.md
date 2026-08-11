@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή HTML σε XML σε PHP
 url: /el/php-java/conversion/html-to-xml/
 keywords: HTML σε XML, Convert HTML σε XML, PHP API, PHP Library, HTML, XML

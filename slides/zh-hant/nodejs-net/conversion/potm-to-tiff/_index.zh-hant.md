@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中將 POTM 轉換為 TIFF
 url: /zh-hant/nodejs-net/conversion/potm-to-tiff/
 keywords: POTM 到 TIFF、將 POTM 轉換成 TIFF、Node.js API、JavaScript 函式庫、POTM、TIFF

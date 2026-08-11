@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PDF 파일을 PNG에 병합
 url: /ko/python-net/merge/pdf-to-png/
 keywords: PDF을 PNG에 병합, PDF을 PNG에 결합, PDF을 PNG에 결합, PowerPoint, Presentation, PNG, Python, Aspose

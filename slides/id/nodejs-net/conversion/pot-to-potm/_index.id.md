@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POT ke POTM dalam JavaScript
 url: /id/nodejs-net/conversion/pot-to-potm/
 keywords: POT ke POTM, Konversi POT ke POTM, API Node.js, Pustaka JavaScript, POT, POTM

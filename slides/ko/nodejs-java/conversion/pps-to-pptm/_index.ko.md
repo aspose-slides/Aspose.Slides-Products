@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js에서 PPS을 PPTM으로 변환
 url: /ko/nodejs-java/conversion/pps-to-pptm/
 keywords: PPS에서 PPTM으로, PPS에서 PPTM으로 변환, Node.js API, Node.js 라이브러리, PPS, PPTM

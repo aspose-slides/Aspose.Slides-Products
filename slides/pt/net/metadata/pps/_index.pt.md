@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visualize ou edite metadados de arquivos PPS usando .NET
 url: /pt/net/metadata/pps/
 keywords: Editar metadados PPS, visualizar metadados PPS, editar propriedades PPS, visualizar propriedades PPS

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-13
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to BMP in Node.js
 url: /nodejs-java/conversion/ppsx-to-bmp/
 keywords: PPSX to BMP, Convert PPSX to BMP, Node.js API, Node.js Library, PPSX, BMP

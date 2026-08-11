@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPTX in PNG in JavaScript
 url: /de/nodejs-net/conversion/pptx-to-png/
 keywords: PPTX zu PNG, Konvertieren von PPTX zu PNG, Node.js API, JavaScript-Bibliothek, PPTX, PNG

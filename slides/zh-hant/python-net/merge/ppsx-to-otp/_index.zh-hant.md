@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 將 PPSX 文件合併到 OTP
 url: /zh-hant/python-net/merge/ppsx-to-otp/
 keywords: 將 PPSX 合併到 OTP，將 PPSX 連接到 OTP，將 PPSX 合併到 OTP，PowerPoint，演示文稿，OTP，Python，Aspose

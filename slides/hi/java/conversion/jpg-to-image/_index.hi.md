@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में JPG को Image में कनवर्ट करें
 url: /hi/java/conversion/jpg-to-image/
 keywords: JPG से Image, JPG को Image में बदलें, Java API, Java लाइब्रेरी, JPG, Image

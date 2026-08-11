@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js PPSM را به TIFF تبدیل کنید
 url: /fa/nodejs-java/conversion/ppsm-to-tiff/
 keywords: PPSM به TIFF، تبدیل PPSM به TIFF، Node.js API، Node.js Library، PPSM، TIFF

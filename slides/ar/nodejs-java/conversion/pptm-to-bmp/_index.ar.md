@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPTM إلى BMP في Node.js
 url: /ar/nodejs-java/conversion/pptm-to-bmp/
 keywords: PPTM إلى BMP، تحويل PPTM إلى BMP، Node.js API، مكتبة Node.js، PPTM، BMP

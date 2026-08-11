@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل عرض بايثون. تحويل العروض التقديمية بسهولة باستخدام Aspose.Slides.
 url: /ar/python-java/conversion/
 keywords: "تحويل، PowerPoint، عرض تقديمي، بايثون، مشاريع بايثون، مكتبات بايثون، PDF، تحويل إلى PDF، PPT إلى PDF"

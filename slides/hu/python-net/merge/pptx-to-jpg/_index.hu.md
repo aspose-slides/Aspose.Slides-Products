@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPTX fájlokat a JPG formátumba Python használatával
 url: /hu/python-net/merge/pptx-to-jpg/
 keywords: A(z) PPTX egyesítése a(z) JPG formátumba, a(z) PPTX csatlakozása a(z) JPG formátumba, a(z)(PPTX) összevonása a(z) JPG formátumba, PowerPoint, Presentation, JPG, Python, Aspose

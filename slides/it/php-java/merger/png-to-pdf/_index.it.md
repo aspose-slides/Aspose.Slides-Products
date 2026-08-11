@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci PNG in PDF in PHP
 url: /it/php-java/merger/png-to-pdf/
 keywords: Da PNG a PDF, Unisci PNG a PDF, Unisci PNG a PDF, PDF, PNG, API PHP, Libreria PHP

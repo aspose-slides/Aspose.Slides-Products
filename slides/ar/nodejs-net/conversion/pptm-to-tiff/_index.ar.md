@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPTM إلى TIFF في JavaScript
 url: /ar/nodejs-net/conversion/pptm-to-tiff/
 keywords: PPTM إلى TIFF، تحويل PPTM إلى TIFF، Node.js API، مكتبة JavaScript، PPTM، TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PDF-filer till JPG med Python
 url: /sv/python-net/merge/pdf-to-jpg/
 keywords: Slå samman PDF till JPG, gå med PDF till JPG, kombinera PDF till JPG, PowerPoint, Presentation, JPG, Python, Aspose

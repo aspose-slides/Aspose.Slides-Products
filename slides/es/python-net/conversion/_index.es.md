@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversión de presentaciones de Microsoft PowerPoint a PDF en Python
 url: /es/python-net/conversion/
 keywords: "Convertir, PowerPoint, Presentación, Python, PDF, Convertir a PDF, PPT a PDF"

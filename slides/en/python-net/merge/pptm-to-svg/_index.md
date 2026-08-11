@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTM Files and Export to SVG Using Python
 url: /python-net/merge/pptm-to-svg/
 keywords: Merge PPTM to SVG, Join PPTM to SVG, Combine PPTM to SVG, PowerPoint, Presentation, SVG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPT vers POTX à l'aide de Python
 url: /fr/python-net/merge/ppt-to-potx/
 keywords: Fusionner PPT à POTX, Joindre PPT à POTX, Combiner PPT à POTX, PowerPoint, Présentation, POTX, Python, Aspose

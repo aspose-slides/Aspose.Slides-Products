@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert OTP to ODP in Node.js
 url: /nodejs-net/conversion/otp-to-odp/
 keywords: OTP to ODP, Convert OTP to ODP, Node.js API, JavaScript Library, OTP, ODP

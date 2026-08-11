@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 사용하여 프레젠테이션 잠금 또는 암호 보호
 url: /ko/cpp/protect/
 description: 프레젠테이션을 잠그기 위한 암호를 설정하는 C++ 소스 코드

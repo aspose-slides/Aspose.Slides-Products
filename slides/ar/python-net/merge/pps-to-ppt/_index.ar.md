@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPS إلى PPT باستخدام Python
 url: /ar/python-net/merge/pps-to-ppt/
 keywords: دمج PPS إلى PPT ، انضم إلى PPS إلى PPT ، ادمج PPS إلى PPT ، PowerPoint ، Presentation ، PPT ، Python ، Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir HTML en PDF en PHP
 url: /fr/php-java/conversion/html-to-pdf/
 keywords: HTML en PDF, Convertir HTML en PDF, API PHP, Bibliothèque PHP, HTML, PDF

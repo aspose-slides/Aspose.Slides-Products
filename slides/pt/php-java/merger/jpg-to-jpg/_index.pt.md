@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar imagens JPG em PHP
 url: /pt/php-java/merger/jpg-to-jpg/
 keywords: Mesclar JPG, JPEG para JPG, Juntar JPG, Combinar JPG, API PHP, Biblioteca PHP

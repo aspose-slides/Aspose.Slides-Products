@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTM เป็น POTX ใน JavaScript
 url: /th/nodejs-net/conversion/pptm-to-potx/
 keywords: PPTM เป็น POTX, แปลง PPTM เป็น POTX, Node.js API, ไลบรารี JavaScript, PPTM, POTX

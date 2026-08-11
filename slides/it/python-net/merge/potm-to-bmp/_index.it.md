@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file POTM a BMP usando Python
 url: /it/python-net/merge/potm-to-bmp/
 keywords: Unisci POTM a BMP, Unisci POTM a BMP, Combina POTM a BMP, PowerPoint, Presentazione, BMP, Python, Aspose

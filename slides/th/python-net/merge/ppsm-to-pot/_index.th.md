@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPSM เข้ากับ POT โดยใช้ Python
 url: /th/python-net/merge/ppsm-to-pot/
 keywords: รวม PPSM เป็น POT เข้าร่วม PPSM ถึง POT รวม PPSM เป็น POT PowerPoint การนำเสนอ POT Python Aspose

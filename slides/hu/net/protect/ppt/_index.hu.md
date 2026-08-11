@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPT prezentációs fájlok védelme a .NET használatával
 url: /hu/net/protect/ppt/
 keywords: Írásvédelem PPT, PPT titkosítása, PPT bemutató zárolása, PPT védelme

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPSM σε PPT στο Node.js
 url: /el/nodejs-java/conversion/ppsm-to-ppt/
 keywords: PPSM σε PPT, Convert PPSM σε PPT, Node.js API, Node.js Library, PPSM, PPT

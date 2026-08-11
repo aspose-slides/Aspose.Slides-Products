@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj POTX na SVG w JavaScript
 url: /pl/nodejs-net/conversion/potx-to-svg/
 keywords: POTX na SVG, Konwertuj POTX na SVG, API Node.js, Biblioteka JavaScript, POTX, SVG

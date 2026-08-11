@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPS в HTML в JavaScript
 url: /ru/nodejs-net/conversion/pps-to-html/
 keywords: PPS в HTML, преобразование PPS в HTML, Node.js API, библиотека JavaScript, PPS, HTML

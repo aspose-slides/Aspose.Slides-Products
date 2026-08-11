@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PDF را در C++ به Image تبدیل کنید
 url: /fa/cpp/conversion/pdf-to-image/
 keywords: PDF به Image، تبدیل PDF به Image، C++ API، C++ Library، PDF، Image

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit OTP Metadata using C++
 url: /cpp/metadata/otp/
 keywords: Edit OTP Metadata, View OTP Metadata, Edit OTP properties, View OTP properties

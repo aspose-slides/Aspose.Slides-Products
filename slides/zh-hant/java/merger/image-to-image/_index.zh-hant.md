@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中合併圖像
 url: /zh-hant/java/merger/image-to-image/
 keywords: 合併圖像、圖像到圖像、連接圖像、組合圖像、Java API、Java 庫

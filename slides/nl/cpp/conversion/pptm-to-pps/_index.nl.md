@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPTM naar PPS via de C++-toepassing
 weight: 2250
 url: /nl/cpp/conversion/pptm-to-pps/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPS Ke POTX Menggunakan Python
 url: /id/python-net/merge/pps-to-potx/
 keywords: Gabungkan PPS ke POTX, Gabungkan PPS ke POTX, Gabungkan PPS ke POTX, PowerPoint, Presentasi, POTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java を使用した PowerPoint メタデータの表示と編集
 url: /ja/java/metadata/
 description: プレゼンテーション プロパティを表示および編集するための Java ソース コード

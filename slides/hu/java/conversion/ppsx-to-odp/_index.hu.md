@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a PPSX-et ODP-vé Java-n keresztül
 weight: 5760
 url: /hu/java/conversion/ppsx-to-odp/ 

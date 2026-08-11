@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση JPG σε PDF στην Python
 url: /el/python-net/merge/jpg-to-pdf/
 keywords: JPG σε PDF, Συγχώνευση JPG σε PDF, Συμμετοχή JPG σε PDF, PDF, JPG, Python API, Python Library

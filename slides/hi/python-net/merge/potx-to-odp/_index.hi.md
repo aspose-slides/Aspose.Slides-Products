@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके POTX फ़ाइलों को ODP में मर्ज करें
 url: /hi/python-net/merge/potx-to-odp/
 keywords: POTX को ODP में मिलाएं, POTX से ODP में शामिल हों, POTX से ODP, PowerPoint, प्रेजेंटेशन, ODP, Python, Aspose को मिलाएं

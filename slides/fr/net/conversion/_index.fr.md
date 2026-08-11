@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversion de présentation Microsoft PowerPoint en plusieurs fichiers à l'aide de C#
 url: /fr/net/conversion/
 description: Convertissez les diapositives Microsoft PowerPoint en différents fichiers, notamment les formats PDF, HTML et image sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.

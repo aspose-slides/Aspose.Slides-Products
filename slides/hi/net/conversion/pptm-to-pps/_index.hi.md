@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTM को C# के माध्यम से PPS में बदलें
 weight: 8460
 url: /hi/net/conversion/pptm-to-pps/ 

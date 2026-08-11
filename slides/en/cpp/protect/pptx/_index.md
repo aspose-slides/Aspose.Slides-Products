@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protect PPTX Presentations using C++
 url: /cpp/protect/pptx/
 keywords: Write Protection PPTX, Encrypt PPTX, Lock PPTX Presentation, Protect PPTX

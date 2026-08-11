@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های POT را با ODP ادغام کنید
 url: /fa/python-net/merge/pot-to-odp/
 keywords: ادغام POT به ODP، پیوستن به POT به ODP، ترکیب POT به ODP، PowerPoint، Presentation، ODP، Python، Aspose

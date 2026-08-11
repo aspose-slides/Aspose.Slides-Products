@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中將 PNG 轉換為 SVG
 url: /zh-hant/php-java/conversion/png-to-svg/
 keywords: PNG 到 SVG，將 PNG 轉換為 SVG，PHP API，PHP 庫，PNG，SVG

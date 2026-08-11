@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPTX σε POTX χρησιμοποιώντας Python
 url: /el/python-net/merge/pptx-to-potx/
 keywords: Συγχώνευση PPTX σε POTX, Join PPTX σε POTX, Combine PPTX σε POTX, PowerPoint, Presentation, POTX, Python, Aspose

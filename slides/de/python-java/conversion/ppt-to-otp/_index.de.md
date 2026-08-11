@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPT in OTP in Python
 url: /de/python-java/conversion/ppt-to-otp/
 keywords: Konvertierung von Python-Präsentationen, Konvertierung von Präsentationen in Python, Python für Präsentationen, Aspose.Slides Python, Konvertierung von PPT nach OTP, Python-Präsentationsbibliothek

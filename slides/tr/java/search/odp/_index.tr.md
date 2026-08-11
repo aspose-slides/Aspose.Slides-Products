@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java kullanarak ODP Sunum Dosyalarında Metin Arayın
 url: /tr/java/search/odp/
 keywords: kelimeleri ODP içinde ara, metni ODP içinde ara ve değiştir, metin ara ODP Sunum

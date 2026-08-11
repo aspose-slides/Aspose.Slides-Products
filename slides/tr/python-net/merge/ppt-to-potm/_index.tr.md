@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPT Dosyalarını POTM İle Birleştirin
 url: /tr/python-net/merge/ppt-to-potm/
 keywords: PPT'ı POTM ile birleştir, PPT ile POTM'a katıl, PPT'ı POTM ile birleştir, PowerPoint, Presentation, POTM, Python, Aspose

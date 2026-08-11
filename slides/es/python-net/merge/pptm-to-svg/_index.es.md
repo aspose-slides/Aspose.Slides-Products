@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPTM a SVG usando Python
 url: /es/python-net/merge/pptm-to-svg/
 keywords: Combinar PPTM a SVG, unir PPTM a SVG, combinar PPTM a SVG, PowerPoint, Presentation, SVG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ver o editar metadatos de archivos PPS usando C++
 url: /es/cpp/metadata/pps/
 keywords: Editar PPS Metadatos, Ver PPS Metadatos, Editar PPS propiedades, Ver PPS propiedades

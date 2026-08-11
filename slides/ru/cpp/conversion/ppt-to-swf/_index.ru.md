@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPT в SWF через приложение C++
 url: /ru/cpp/conversion/ppt-to-swf/ 
 description: Пример кода преобразования C++ для документа PPT в формат SWF. Используйте пример кода для пакетного преобразования PPT в SWF в любом приложении C++.

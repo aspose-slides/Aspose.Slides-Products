@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java का उपयोग करके PPTX प्रस्तुति फ़ाइलें अनलॉक करें
 url: /hi/java/unlock/pptx/
 keywords: राइट प्रोटेक्शन हटाएं PPTX, PPTX को डिक्रिप्ट करना, PPTX प्रेजेंटेशन को अनलॉक करना, PPTX को अनप्रोटेक्ट करना

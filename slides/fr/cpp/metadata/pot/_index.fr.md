@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afficher ou modifier les métadonnées des fichiers POT à l'aide de C++
 url: /fr/cpp/metadata/pot/
 keywords: Modifier les métadonnées POT, Afficher les métadonnées POT, Modifier les propriétés POT, Afficher les propriétés POT

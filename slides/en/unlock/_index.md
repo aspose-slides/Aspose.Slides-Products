@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Remove Password from PowerPoint Files on Windows, Linux, and macOS
 url: /unlock/
 description: APIs for removing password protection from PPT, PPTX, and ODP presentations.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lihat & Edit Metadata PowerPoint menggunakan Java
 url: /id/java/metadata/
 description: Kode sumber Java untuk melihat dan mengedit properti presentasi

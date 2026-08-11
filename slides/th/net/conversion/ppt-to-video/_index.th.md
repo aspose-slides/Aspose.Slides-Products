@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPT เป็นวิดีโอใน C#
 url: /th/net/conversion/ppt-to-video/
 keywords: แปลง PPT เป็นวิดีโอ, PPT เป็นวิดีโอ, PowerPoint เป็นวิดีโอ, PPT เป็น MP4, C# API, .NET Library

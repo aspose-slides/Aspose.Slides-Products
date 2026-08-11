@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi OTP thành GIF trong Node.js
 url: /vi/nodejs-java/conversion/otp-to-gif/
 keywords: OTP sang GIF, Chuyển đổi OTP sang GIF, API Node.js, Thư viện Node.js, OTP, GIF

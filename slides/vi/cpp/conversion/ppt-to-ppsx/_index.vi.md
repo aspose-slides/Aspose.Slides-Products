@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT sang PPSX thông qua ứng dụng C ++
 weight: 2740
 url: /vi/cpp/conversion/ppt-to-ppsx/ 

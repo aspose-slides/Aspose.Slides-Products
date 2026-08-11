@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman bild till BMP i C++
 url: /sv/cpp/merger/image-to-bmp/
 keywords: Bild till BMP, Sammanfoga bild till BMP, Sammanfoga bild till BMP, Kombinera bilder, Bild, BMP, C++ API, C++ Library

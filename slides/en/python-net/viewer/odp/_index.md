@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-31
 title: View ODP in Python
 url: /python-net/viewer/odp/
 keywords: View ODP, View OpenDocument Presentation, Open ODP, ODP Viewer, ODP, Python API, Python Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在C#中将PPT转换为视频
 url: /zh/net/conversion/ppt-to-video/
 keywords: 将 PPT 转换为视频、将 PPT 转换为视频、将 PowerPoint 转换为视频、将 PPT 转换为 MP4、C# API、.NET 库

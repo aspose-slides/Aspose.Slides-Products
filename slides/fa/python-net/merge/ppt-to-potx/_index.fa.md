@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPT را با POTX ادغام کنید
 url: /fa/python-net/merge/ppt-to-potx/
 keywords: ادغام PPT به POTX، پیوستن به PPT به POTX، ترکیب PPT به POTX، PowerPoint، Presentation، POTX، Python، Aspose

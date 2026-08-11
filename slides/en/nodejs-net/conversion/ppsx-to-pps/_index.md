@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to PPS in Node.js
 url: /nodejs-net/conversion/ppsx-to-pps/
 keywords: PPSX to PPS, Convert PPSX to PPS, Node.js API, JavaScript Library, PPSX, PPS

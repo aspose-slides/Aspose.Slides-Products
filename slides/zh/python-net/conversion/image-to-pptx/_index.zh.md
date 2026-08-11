@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将图像转换为 PPTX
 url: /zh/python-net/conversion/image-to-pptx/
 keywords: 图像到 PPTX，将图像转换为 PPTX，Python API，Python 库，图像，PPTX

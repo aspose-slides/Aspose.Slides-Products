@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PDF a PPT usando Python
 url: /es/python-net/merge/pdf-to-ppt/
 keywords: Combinar PDF a PPT, unir PDF a PPT, combinar PDF a PPT, PowerPoint, Presentation, PPT, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux और macOS पर मेटाडेटा को PowerPoint फ़ाइलों में देखें और संपादित करें
 url: /hi/metadata/
 description: पीपीटी और पीपीटीएक्स दस्तावेज़ गुणों को देखने और संपादित करने के लिए एपीआई

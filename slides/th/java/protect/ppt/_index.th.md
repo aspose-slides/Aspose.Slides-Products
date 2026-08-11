@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ป้องกันไฟล์นำเสนอ PPT โดยใช้ Java
 url: /th/java/protect/ppt/
 keywords: การป้องกันการเขียน PPT, การเข้ารหัส PPT, ล็อคการนำเสนอ PPT, ป้องกัน PPT

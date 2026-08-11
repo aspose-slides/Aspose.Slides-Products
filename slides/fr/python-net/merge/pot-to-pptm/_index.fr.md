@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers POT vers PPTM à l'aide de Python
 url: /fr/python-net/merge/pot-to-pptm/
 keywords: Fusionner POT à PPTM, Joindre POT à PPTM, Combiner POT à PPTM, PowerPoint, Présentation, PPTM, Python, Aspose

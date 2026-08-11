@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå ihop PNG till PDF i Python
 url: /sv/python-net/merge/png-to-pdf/
 keywords: PNG till PDF, Slå ihop PNG till PDF, Anslut PNG till PDF, PDF, PNG, Python API, Python Library

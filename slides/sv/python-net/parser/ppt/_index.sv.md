@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahera text och bilder från PPT-filer med Python
 url: /sv/python-net/parser/ppt/
 keywords: analysera PPT med Python, PPT parser Python, extrahera data från PPT i Python, extrahera text från PPT med Python, extrahera bilder från PPT med Python

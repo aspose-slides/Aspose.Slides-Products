@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPSM na OTP w Node.js
 url: /pl/nodejs-java/conversion/ppsm-to-otp/
 keywords: PPSM na OTP, Konwertuj PPSM na OTP, API Node.js, Biblioteka Node.js, PPSM, OTP

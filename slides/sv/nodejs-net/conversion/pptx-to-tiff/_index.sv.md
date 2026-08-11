@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPTX till TIFF i JavaScript
 url: /sv/nodejs-net/conversion/pptx-to-tiff/
 keywords: PPTX till TIFF, Konvertera PPTX till TIFF, Node.js API, JavaScript Library, PPTX, TIFF

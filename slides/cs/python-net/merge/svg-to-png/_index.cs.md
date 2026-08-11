@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit SVG do PNG v Pythonu
 url: /cs/python-net/merge/svg-to-png/
 keywords: Sloučit SVG do PNG, SVG do PNG, Připojit SVG k PNG, Kombinovat SVG do PNG, Python API, Python Library

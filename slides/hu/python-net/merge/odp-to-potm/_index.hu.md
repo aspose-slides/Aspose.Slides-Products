@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a ODP fájlokat a POTM formátumba Python használatával
 url: /hu/python-net/merge/odp-to-potm/
 keywords: A(z) ODP egyesítése a(z) POTM formátumba, a(z) ODP csatlakozása a(z) POTM formátumba, a(z)(ODP) összevonása a(z) POTM formátumba, PowerPoint, Presentation, POTM, Python, Aspose

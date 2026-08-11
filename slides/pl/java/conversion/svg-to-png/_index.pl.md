@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj SVG na PNG w Javie
 url: /pl/java/conversion/svg-to-png/
 keywords: SVG do PNG, Konwersja SVG do PNG, Java API, Java Library, SVG, PNG

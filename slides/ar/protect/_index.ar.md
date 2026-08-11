@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: حماية ملفات PowerPoint على أنظمة التشغيل Windows و Linux و macOS
 url: /ar/protect/
 description: واجهات برمجة التطبيقات لإضافة الحماية إلى عروض PPT و PPTX و ODP

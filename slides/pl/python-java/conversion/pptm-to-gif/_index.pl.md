@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPTM na GIF w Pythonie
 url: /pl/python-java/conversion/pptm-to-gif/
 keywords: Konwersja prezentacji w Pythonie, konwersja prezentacji do Pythona, Python do prezentacji, Aspose.Slides Python, konwersja PPTM do GIF, biblioteka prezentacji Python

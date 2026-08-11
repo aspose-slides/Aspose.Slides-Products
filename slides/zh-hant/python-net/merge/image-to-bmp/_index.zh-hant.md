@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中將圖像合併為 BMP
 url: /zh-hant/python-net/merge/image-to-bmp/
 keywords: 圖像到 BMP、合併圖像到 BMP、將圖像連接到 BMP、合併圖像、圖像、BMP、Python API、Python 庫

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 保護 ODP 演示文件
 url: /zh-hant/cpp/protect/odp/
 keywords: 寫保護 ODP，加密 ODP，鎖定 ODP 演示文稿，保護 ODP

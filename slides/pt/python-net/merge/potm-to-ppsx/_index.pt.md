@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POTM para PPSX usando Python
 url: /pt/python-net/merge/potm-to-ppsx/
 keywords: Mesclar POTM com PPSX, juntar POTM com PPSX, combinar POTM com PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PNG ke SVG dengan Python
 url: /id/python-net/conversion/png-to-svg/
 keywords: PNG ke SVG, Konversikan PNG ke SVG, Python API, Python Library, PNG, SVG

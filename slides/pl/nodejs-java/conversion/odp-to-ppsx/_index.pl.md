@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj ODP na PPSX w Node.js
 url: /pl/nodejs-java/conversion/odp-to-ppsx/
 keywords: ODP na PPSX, Konwertuj ODP na PPSX, API Node.js, Biblioteka Node.js, ODP, PPSX

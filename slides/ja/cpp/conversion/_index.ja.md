@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用した Microsoft PowerPoint プレゼンテーションのさまざまな形式への変換
 url: /ja/cpp/conversion/
 description: C++ ベースのアプリケーション内で、Microsoft PowerPoint スライドを HTML、PDF、画像形式などの複数のファイルに変換します。

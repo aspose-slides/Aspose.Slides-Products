@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Przeglądaj formaty plików PPSX przez .NET
 weight: 2370
 url: /pl/net/viewer/ppsx/ 

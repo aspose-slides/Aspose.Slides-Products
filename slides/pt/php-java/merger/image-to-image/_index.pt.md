@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar imagens em PHP
 url: /pt/php-java/merger/image-to-image/
 keywords: Mesclar imagem, imagem a imagem, unir imagens, combinar imagens, PHP API, biblioteca PHP

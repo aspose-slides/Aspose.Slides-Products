@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất PDF, PPT, PPTX và nhiều định dạng tệp khác bằng PHP
 url: /vi/php-java/merger/
 keywords: Hợp nhất, Tham gia, PowerPoint, Trình bày, PHP, Aspose

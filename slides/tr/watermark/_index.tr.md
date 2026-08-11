@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux ve macOS'ta PowerPoint dosyalarına Filigran ekleyin
 url: /tr/watermark/
 description: PPT, PPTX ve ODP Sunumlarına Filigran Ekleyen API'ler

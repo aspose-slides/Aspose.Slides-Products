@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中将 PPTM 转换为 OTP
 url: /zh/nodejs-java/conversion/pptm-to-otp/
 keywords: PPTM 到 OTP、将 PPTM 转换为 OTP、Node.js API、Node.js 库、PPTM、OTP

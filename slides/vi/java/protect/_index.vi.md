@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Khóa hoặc bảo vệ bản trình bày bằng mật khẩu bằng Java
 url: /vi/java/protect/
 description: Mã nguồn Java để đặt mật khẩu để khóa bản trình bày

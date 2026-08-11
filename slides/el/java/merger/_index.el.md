@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχωνεύστε PDF, PPT, PPTX και πολλές άλλες μορφές αρχείων χρησιμοποιώντας Java
 url: /el/java/merger/
 keywords: Συγχώνευση, Συμμετοχή, PowerPoint, Παρουσίαση, Java, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Create Charts in PowerPoint Presentations Using Python
 url: /python-net/chart/
 description: Create and customize charts in PowerPoint presentations using Python and Aspose.Slides for Python via .NET.

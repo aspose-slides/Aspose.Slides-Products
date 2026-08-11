@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTM را در پایتون به POT تبدیل کنید
 weight: 1210
 url: /fa/python-net/conversion/potm-to-pot/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中編輯 HTML
 url: /zh-hant/php-java/editor/html/
 keywords: 編輯 HTML、編輯 PowerPoint、HTML、PowerPoint、PHP API、PHP 庫

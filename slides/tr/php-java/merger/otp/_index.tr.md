@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: OTP Dosyalarını PHP Kullanarak Birleştirin
 url: /tr/php-java/merger/otp/
 keywords: Birleştirme OTP, Birleştirme OTP, Birleştirme OTP, PowerPoint, Sunum, PHP, Aspose

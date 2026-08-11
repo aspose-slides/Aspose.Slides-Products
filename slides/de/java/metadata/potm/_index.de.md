@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Metadaten von POTM-Dateien mit Java anzeigen oder bearbeiten
 url: /de/java/metadata/potm/
 keywords: POTM-Metadaten bearbeiten, POTM-Metadaten anzeigen, POTM-Eigenschaften bearbeiten, POTM-Eigenschaften anzeigen

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง ODP เป็น PPSM ใน JavaScript
 url: /th/nodejs-net/conversion/odp-to-ppsm/
 keywords: ODP เป็น PPSM, แปลง ODP เป็น PPSM, Node.js API, ไลบรารี JavaScript, ODP, PPSM

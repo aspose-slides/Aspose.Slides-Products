@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPS-filer till TIFF med Python
 url: /sv/python-net/merge/pps-to-tiff/
 keywords: Slå samman PPS till TIFF, gå med PPS till TIFF, kombinera PPS till TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

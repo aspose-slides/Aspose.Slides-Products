@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POT en PDF dans Node.js
 url: /fr/nodejs-java/conversion/pot-to-pdf/
 keywords: POT en PDF, Convertir POT en PDF, API Node.js, Bibliothèque Node.js, POT, PDF

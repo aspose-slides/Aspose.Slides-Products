@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redactar presentaciones de PowerPoint y OpenOffice usando C++
 url: /es/cpp/redaction/
 description: Código fuente de C++ para buscar y eliminar contenido en presentaciones de PowerPoint y OpenOffice™

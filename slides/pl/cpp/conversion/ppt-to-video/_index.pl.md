@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPT na wideo w C++
 url: /pl/cpp/conversion/ppt-to-video/
 keywords: Konwertuj PPT na wideo, PPT na wideo, PowerPoint na wideo, PPT na MP4, C++ API, C++ Library

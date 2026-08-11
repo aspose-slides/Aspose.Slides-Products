@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 JPG 이미지 병합
 url: /ko/python-net/merge/jpg-to-jpg/
 keywords: JPG, JPEG를 JPG로 병합, JPG 가입, JPG 결합, Python API, Python 라이브러리

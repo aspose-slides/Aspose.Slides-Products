@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET . के माध्यम से PPSM फ़ाइलें मर्ज करें
 weight: 3860
 url: /hi/net/merger/ppsm/ 

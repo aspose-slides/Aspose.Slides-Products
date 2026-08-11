@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Dodaj wykres do plików programu PowerPoint w systemach Windows, Linux i macOS
 url: /pl/chart/
 description: Interfejsy API do pracy z wykresami w prezentacjach PPT, PPTX

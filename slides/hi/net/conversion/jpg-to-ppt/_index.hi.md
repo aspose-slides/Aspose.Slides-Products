@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # में जेपीजी को पीपीटी में कनवर्ट करें
 url: /hi/net/conversion/jpg-to-ppt/
 keywords: JPG को PPT, JPG को PPT, PowerPoint, JPG, PPT, C# API, .NET लाइब्रेरी में कनवर्ट करें

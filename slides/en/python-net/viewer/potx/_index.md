@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View POTX in Python
 url: /python-net/viewer/potx/
 keywords: View POTX, View PowerPoint Template, Open POTX, POTX Viewer, POTX, PowerPoint, Python API, Python Library

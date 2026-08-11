@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های ODP را با PPT ادغام کنید
 url: /fa/python-net/merge/odp-to-ppt/
 keywords: ادغام ODP به PPT، پیوستن به ODP به PPT، ترکیب ODP به PPT، PowerPoint، Presentation، PPT، Python، Aspose

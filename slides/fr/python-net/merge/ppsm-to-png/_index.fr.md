@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPSM vers PNG à l'aide de Python
 url: /fr/python-net/merge/ppsm-to-png/
 keywords: Fusionner PPSM à PNG, Joindre PPSM à PNG, Combiner PPSM à PNG, PowerPoint, Présentation, PNG, Python, Aspose

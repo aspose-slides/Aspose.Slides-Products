@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके OTP फ़ाइलों को XPS में मर्ज करें
 url: /hi/python-net/merge/otp-to-xps/
 keywords: OTP को XPS में मिलाएं, OTP से XPS में शामिल हों, OTP से XPS, PowerPoint, प्रेजेंटेशन, XPS, Python, Aspose को मिलाएं

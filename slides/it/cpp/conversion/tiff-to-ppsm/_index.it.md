@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti TIFF in PPSM tramite l'applicazione C++
 weight: 4800
 url: /it/cpp/conversion/tiff-to-ppsm/ 

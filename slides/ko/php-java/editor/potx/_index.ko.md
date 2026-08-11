@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP에서 POTX 편집
 url: /ko/php-java/editor/potx/
 keywords: POTX 편집, PowerPoint 편집, POTX, PowerPoint, PHP API, PHP 라이브러리

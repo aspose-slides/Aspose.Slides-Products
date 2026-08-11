@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversion de présentation Microsoft PowerPoint en plusieurs fichiers à l'aide de Java
 url: /fr/java/conversion/
 description: Convertissez les diapositives Microsoft PowerPoint en différents fichiers, y compris les formats HTML, PDF et image dans les applications basées sur Java.

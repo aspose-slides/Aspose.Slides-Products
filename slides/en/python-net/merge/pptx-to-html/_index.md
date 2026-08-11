@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTX Files and Export to HTML Using Python
 url: /python-net/merge/pptx-to-html/
 keywords: Merge PPTX to HTML, Join PPTX to HTML, Combine PPTX to HTML, PowerPoint, Presentation, HTML, Python, Aspose

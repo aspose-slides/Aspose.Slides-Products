@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti POTM in JPG in Python
 url: /it/python-java/conversion/potm-to-jpg/
 keywords: Conversione di presentazioni Python, convertire presentazioni in Python, Python per presentazioni, Aspose.Slides Python, conversione da POTM a JPG, libreria di presentazioni Python

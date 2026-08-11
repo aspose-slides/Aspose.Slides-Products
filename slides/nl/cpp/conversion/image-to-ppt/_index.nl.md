@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer afbeelding naar PPT in C++
 url: /nl/cpp/conversion/image-to-ppt/
 keywords: Afbeelding naar PPT, Afbeelding converteren naar PPT, C++ API, C++ Bibliotheek, Afbeelding, PPT

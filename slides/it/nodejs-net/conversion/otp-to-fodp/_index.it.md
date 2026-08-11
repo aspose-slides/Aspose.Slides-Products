@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti OTP in FODP in JavaScript
 url: /it/nodejs-net/conversion/otp-to-fodp/
 keywords: Da OTP a FODP, Converti {da_format} a FODP, API Node.js, Libreria JavaScript, OTP, FODP

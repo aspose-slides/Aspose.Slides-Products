@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vízjel hozzáadása a PPT prezentációs fájlokhoz a .NET használatával
 url: /hu/net/watermark/ppt/
 keywords: Vízjel hozzáadása PPT, Szöveg vízjel hozzáadása PPT, Kép vízjel hozzáadása PPT

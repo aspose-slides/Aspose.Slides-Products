@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج SVG في PNG في جافا
 url: /ar/java/merger/svg-to-png/
 keywords: دمج SVG في PNG ، و SVG إلى PNG ، والانضمام إلى SVG إلى PNG ، والجمع بين SVG و PNG ، و Java API ، و Java Library

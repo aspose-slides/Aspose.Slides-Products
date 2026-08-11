@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visualize ou edite metadados de arquivos PPTM usando .NET
 url: /pt/net/metadata/pptm/
 keywords: Editar metadados PPTM, visualizar metadados PPTM, editar propriedades PPTM, visualizar propriedades PPTM

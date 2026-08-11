@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) OTP fájlt PDF formátumra a Pythonban
 url: /hu/python-java/conversion/otp-to-pdf/
 keywords: Python prezentáció konvertálás, prezentációk konvertálása Python formátumba, Python prezentációkhoz, Aspose.Slides Python, OTP konvertálása PDF formátumba, Python prezentációs könyvtár

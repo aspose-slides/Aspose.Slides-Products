@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование Image в PDF в Java
 url: /ru/java/conversion/image-to-pdf/
 keywords: Image в PDF, преобразовать Image в PDF, API Java, библиотеку Java, Image, PDF

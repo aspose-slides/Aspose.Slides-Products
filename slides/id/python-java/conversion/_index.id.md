@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi Presentasi Python. Mengonversi Presentasi dengan mudah menggunakan Aspose.Slides.
 url: /id/python-java/conversion/
 keywords: "Konversi, PowerPoint, Presentasi, Python, proyek Python, perpustakaan Python, PDF, Konversi ke PDF, PPT ke PDF"

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP で HTML ファイルをマージする
 url: /ja/php-java/merger/html-to-html/
 keywords: HTML のマージ、HTML から HTML、HTML の結合、HTML の結合、PHP API、PHP ライブラリ

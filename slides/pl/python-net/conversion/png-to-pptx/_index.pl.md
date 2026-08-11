@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PNG na PPTX w Pythonie
 url: /pl/python-net/conversion/png-to-pptx/
 keywords: Konwertuj PNG na PPTX, PNG na PPTX, PowerPoint, PNG, PPTX, Python API, Python Library

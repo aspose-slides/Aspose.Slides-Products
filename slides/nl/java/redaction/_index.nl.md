@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bewerk PowerPoint- en OpenOffice-presentaties met Java
 url: /nl/java/redaction/
 description: Java-broncode om inhoud in PowerPoint- en OpenOffice™-presentaties te vinden en te verwijderen

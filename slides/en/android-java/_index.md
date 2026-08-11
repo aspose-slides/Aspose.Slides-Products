@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Aspose.Slides for Android via Java: PowerPoint API for PPTX and PPT"
 weight: 5960
 url: /android-java/

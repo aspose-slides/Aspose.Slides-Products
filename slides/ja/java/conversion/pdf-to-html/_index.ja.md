@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で PDF を HTML に変換する
 url: /ja/java/conversion/pdf-to-html/
 keywords: PDF から HTML へ、PDF から HTML への変換、Java API、Java ライブラリ、PDF、HTML

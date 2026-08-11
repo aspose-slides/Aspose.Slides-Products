@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTX en BMP dans Node.js
 url: /fr/nodejs-java/conversion/pptx-to-bmp/
 keywords: PPTX en BMP, Convertir PPTX en BMP, API Node.js, Bibliothèque Node.js, PPTX, BMP

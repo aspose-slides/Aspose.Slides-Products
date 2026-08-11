@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση εικόνων JPG σε PHP
 url: /el/php-java/merger/jpg-to-jpg/
 keywords: Συγχώνευση JPG, JPEG σε JPG, Join JPG, Combine JPG, PHP API, PHP Library

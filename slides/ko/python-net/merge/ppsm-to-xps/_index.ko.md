@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PPSM 파일을 XPS에 병합
 url: /ko/python-net/merge/ppsm-to-xps/
 keywords: PPSM을 XPS에 병합, PPSM을 XPS에 결합, PPSM을 XPS에 결합, PowerPoint, Presentation, XPS, Python, Aspose

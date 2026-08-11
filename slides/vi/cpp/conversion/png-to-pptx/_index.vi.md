@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PNG sang PPTX trong C++
 url: /vi/cpp/conversion/png-to-pptx/
 keywords: Chuyển đổi PNG sang PPTX, PNG sang PPTX, PowerPoint, PNG, PPTX, API C++, Thư viện C++

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) Image fájlt PDF formátumra Java nyelven
 url: /hu/java/conversion/image-to-pdf/
 keywords: Image to PDF, Image konvertálása PDF formátumba, Java API, Java Library, Image, PDF

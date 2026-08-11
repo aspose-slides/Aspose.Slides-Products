@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Редактируйте презентации PowerPoint и OpenOffice с помощью Java
 url: /ru/java/redaction/
 description: Исходный код Java для поиска и удаления содержимого в презентациях PowerPoint и OpenOffice™

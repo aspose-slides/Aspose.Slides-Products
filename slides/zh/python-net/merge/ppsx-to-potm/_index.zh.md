@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPSX 文件合并到 POTM
 url: /zh/python-net/merge/ppsx-to-potm/
 keywords: 将 PPSX 合并到 POTM，将 PPSX 连接到 POTM，将 PPSX 合并到 POTM，PowerPoint，演示文稿，POTM，Python，Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos OTP a POTM usando Python
 url: /es/python-net/merge/otp-to-potm/
 keywords: Combinar OTP a POTM, unir OTP a POTM, combinar OTP a POTM, PowerPoint, Presentation, POTM, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPTX σε βίντεο σε Java
 url: /el/java/conversion/pptx-to-video/
 keywords: Μετατροπή PPTX σε βίντεο, PPTX σε βίντεο, PowerPoint σε βίντεο, PPT σε MP4, Java API, Βιβλιοθήκη Java

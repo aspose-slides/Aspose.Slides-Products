@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg FODP-bestanden samen naar PNG met Python
 url: /nl/python-net/merge/fodp-to-png/
 keywords: Voeg FODP samen tot PNG, voeg FODP toe aan PNG, combineer FODP tot PNG, PowerPoint, Presentatie, PNG, Python, Aspose

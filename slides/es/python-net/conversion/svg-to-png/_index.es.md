@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir SVG a PNG en Python
 url: /es/python-net/conversion/svg-to-png/
 keywords: SVG a PNG, convertir SVG a PNG, API de Python, biblioteca de Python, SVG, PNG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل POT إلى OTP في Node.js
 url: /ar/nodejs-java/conversion/pot-to-otp/
 keywords: POT إلى OTP، تحويل POT إلى OTP، Node.js API، مكتبة Node.js، POT، OTP

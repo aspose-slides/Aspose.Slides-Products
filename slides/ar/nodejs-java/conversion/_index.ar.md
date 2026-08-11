@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل عرض Microsoft PowerPoint التقديمي إلى Node.js
 url: /ar/nodejs-java/conversion/
 keywords: "تحويل، PowerPoint، عرض تقديمي، Node.js، PDF، تحويل إلى PDF، PPT إلى PDF"

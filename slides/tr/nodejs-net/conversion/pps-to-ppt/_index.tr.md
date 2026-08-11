@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te PPS'ı PPT'a dönüştürün
 url: /tr/nodejs-net/conversion/pps-to-ppt/
 keywords: PPS'tan PPT'a, PPS'ı PPT'a dönüştürün, Node.js API, JavaScript Kitaplığı, PPS, PPT

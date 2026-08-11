@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTM na TIFF v Node.js
 url: /cs/nodejs-java/conversion/potm-to-tiff/
 keywords: POTM do TIFF, Převést POTM do TIFF, Node.js API, Node.js Library, POTM, TIFF

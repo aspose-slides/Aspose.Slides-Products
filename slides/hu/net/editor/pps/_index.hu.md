@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPS-fájlok szerkesztése .NET-en keresztül
 url: /hu/net/editor/pps/ 
 description: C#-forráskód a PPS-dokumentum szerkesztéséhez .NET-keretrendszeren, .NET Core-on, Windows Azure-on, Mono- vagy Xamarin-platformokon.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลงรูปภาพเป็น PPT ใน C#
 url: /th/net/conversion/image-to-ppt/
 keywords: แปลงรูปภาพเป็น PPT, รูปภาพเป็น PPT, PowerPoint, รูปภาพ, PPT, C# API, .NET Library

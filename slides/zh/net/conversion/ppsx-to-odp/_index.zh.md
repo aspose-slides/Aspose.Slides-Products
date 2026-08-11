@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 C# 将 PPSX 转换为 ODP
 weight: 8410
 url: /zh/net/conversion/ppsx-to-odp/ 

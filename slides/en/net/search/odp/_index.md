@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in ODP Presentation Files using .NET
 url: /net/search/odp/
 keywords: Search Text in ODP, Find Text in ODP, Search ODP Presentation Text

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POT Files Using Python
 url: /python-net/merge/pot/
 keywords: Merge POT, Join POT, Combine POT, PowerPoint, Presentation, Python, Aspose

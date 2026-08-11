@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PPSM'yi OTP'ye Dönüştür
 weight: 1840
 url: /tr/python-net/conversion/ppsm-to-otp/ 

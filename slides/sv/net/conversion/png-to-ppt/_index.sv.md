@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PNG till PPT i C#
 url: /sv/net/conversion/png-to-ppt/
 keywords: Konvertera PNG till PPT, PNG till PPT, PowerPoint, PNG, PPT, C# API, .NET Library

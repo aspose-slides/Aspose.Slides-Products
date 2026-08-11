@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTM na PPSM pomocí aplikace C++
 weight: 2720
 url: /cs/cpp/conversion/potm-to-ppsm/ 

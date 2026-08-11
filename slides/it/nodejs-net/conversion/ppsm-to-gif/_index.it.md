@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPSM in GIF in JavaScript
 url: /it/nodejs-net/conversion/ppsm-to-gif/
 keywords: Da PPSM a GIF, Converti {da_format} a GIF, API Node.js, Libreria JavaScript, PPSM, GIF

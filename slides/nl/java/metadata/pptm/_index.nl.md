@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bekijk of bewerk metadata van PPTM bestanden met behulp van Java
 url: /nl/java/metadata/pptm/
 keywords: Bewerk PPTM metadata, bekijk PPTM metadata, bewerk PPTM eigenschappen, bekijk PPTM eigenschappen

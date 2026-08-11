@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в PNG в PHP
 url: /ru/php-java/conversion/pdf-to-png/
 keywords: PDF в PNG, преобразовать PDF в PNG, PHP API, библиотеку PHP, PDF, PNG

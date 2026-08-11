@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POT do PPTM pomocí Pythonu
 url: /cs/python-net/merge/pot-to-pptm/
 keywords: Sloučit POT do PPTM, připojit POT do PPTM, kombinovat POT do PPTM, PowerPoint, Presentation, PPTM, Python, Aspose

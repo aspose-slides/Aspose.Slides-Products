@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPSM-bestanden samen naar HTML met Python
 url: /nl/python-net/merge/ppsm-to-html/
 keywords: Voeg PPSM samen tot HTML, voeg PPSM toe aan HTML, combineer PPSM tot HTML, PowerPoint, Presentatie, HTML, Python, Aspose

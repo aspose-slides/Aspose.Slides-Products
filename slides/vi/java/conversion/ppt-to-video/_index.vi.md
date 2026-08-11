@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT sang Video trong Java
 url: /vi/java/conversion/ppt-to-video/
 keywords: Chuyển đổi PPT sang video, PPT sang video, PowerPoint sang video, PPT sang MP4, API Java, Thư viện Java

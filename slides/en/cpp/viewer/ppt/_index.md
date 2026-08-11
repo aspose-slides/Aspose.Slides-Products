@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPT in C++
 url: /cpp/viewer/ppt/
 keywords: View PPT, Open PPT, PPT Viewer, PPT, C++ API, C++ Library, CPP

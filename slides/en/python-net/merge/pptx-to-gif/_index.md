@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTX Files to GIF Using Python
 url: /python-net/merge/pptx-to-gif/
 keywords: Merge PPTX to GIF, Join PPTX to GIF, Combine PPTX to GIF, PowerPoint, Presentation, GIF, Python, Aspose

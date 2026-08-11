@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके प्रस्तुतिकरण को लॉक या पासवर्ड सुरक्षित करें
 url: /hi/cpp/protect/
 description: प्रस्तुति को लॉक करने के लिए पासवर्ड सेट करने के लिए C++ स्रोत कोड

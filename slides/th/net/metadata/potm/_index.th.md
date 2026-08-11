@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดูหรือแก้ไขข้อมูลเมตาของไฟล์ POTM โดยใช้ .NET
 url: /th/net/metadata/potm/
 keywords: แก้ไขข้อมูลเมตา POTM ดูข้อมูลเมตา POTM แก้ไขคุณสมบัติ POTM ดูคุณสมบัติ POTM

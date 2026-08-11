@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PDF เข้ากับ POTX โดยใช้ Python
 url: /th/python-net/merge/pdf-to-potx/
 keywords: รวม PDF เป็น POTX เข้าร่วม PDF ถึง POTX รวม PDF เป็น POTX PowerPoint การนำเสนอ POTX Python Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을 통해 POTM 파일 편집
 url: /ko/net/editor/potm/ 
 description: .NET Framework, .NET Core, Windows Azure, Mono 또는 Xamarin 플랫폼에서 POTM 문서를 편집하는 C# 소스 코드.

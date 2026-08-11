@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPSX σε HTML σε JavaScript
 url: /el/nodejs-net/conversion/ppsx-to-html/
 keywords: PPSX σε HTML, Μετατροπή PPSX σε HTML, Node.js API, JavaScript Library, PPSX, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PDF konvertálása HTML formátumra C++ nyelven
 url: /hu/cpp/conversion/pdf-to-html/
 keywords: PDF to HTML, PDF konvertálása HTML formátumba, C++ API, C++ Library, PDF, HTML

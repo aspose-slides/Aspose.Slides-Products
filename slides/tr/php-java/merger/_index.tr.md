@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP Kullanarak PDF, PPT, PPTX ve Diğer Birçok Dosya Formatını Birleştirin
 url: /tr/php-java/merger/
 keywords: Birleştirme, Birleştirme, PowerPoint, Sunum, PHP, Aspose

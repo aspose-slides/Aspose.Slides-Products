@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos FODP a OTP usando Python
 url: /es/python-net/merge/fodp-to-otp/
 keywords: Combinar FODP a OTP, unir FODP a OTP, combinar FODP a OTP, PowerPoint, Presentation, OTP, Python, Aspose

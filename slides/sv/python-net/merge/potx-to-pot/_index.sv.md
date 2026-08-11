@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTX-filer till POT med Python
 url: /sv/python-net/merge/potx-to-pot/
 keywords: Slå samman POTX till POT, gå med POTX till POT, kombinera POTX till POT, PowerPoint, Presentation, POT, Python, Aspose

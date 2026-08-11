@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Изменить POT в PHP
 url: /ru/php-java/editor/pot/
 keywords: Редактировать POT, Редактировать PowerPoint, POT, PowerPoint, API PHP, библиотеку PHP

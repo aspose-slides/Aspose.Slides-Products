@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض أو تحرير POTM البيانات الوصفية للملفات باستخدام Python
 url: /ar/python-net/metadata/potm/
 keywords: تحرير POTM البيانات الوصفية ، عرض POTM البيانات الوصفية ، تحرير خصائص POTM ، عرض الخصائص POTM

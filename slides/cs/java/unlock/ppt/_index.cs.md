@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Odemkněte PPT prezentační soubory pomocí Java
 url: /cs/java/unlock/ppt/
 keywords: Odebrat ochranu proti zápisu PPT, dešifrovat PPT, odemknout prezentaci PPT, zrušit ochranu PPT

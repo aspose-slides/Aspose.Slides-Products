@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل HTML إلى PPT في PHP
 url: /ar/php-java/conversion/html-to-ppt/
 keywords: HTML إلى PPT ، تحويل HTML إلى PPT ، PHP API ، PHP Library ، HTML ، PPT

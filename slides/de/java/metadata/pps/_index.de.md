@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Metadaten von PPS-Dateien mit Java anzeigen oder bearbeiten
 url: /de/java/metadata/pps/
 keywords: PPS-Metadaten bearbeiten, PPS-Metadaten anzeigen, PPS-Eigenschaften bearbeiten, PPS-Eigenschaften anzeigen

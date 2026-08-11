@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPS إلى GIF باستخدام Python
 url: /ar/python-net/merge/pps-to-gif/
 keywords: دمج PPS إلى GIF ، انضم إلى PPS إلى GIF ، ادمج PPS إلى GIF ، PowerPoint ، Presentation ، GIF ، Python ، Aspose

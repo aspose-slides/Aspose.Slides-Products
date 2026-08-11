@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPSM in PNG in Node.js
 url: /de/nodejs-java/conversion/ppsm-to-png/
 keywords: PPSM zu PNG, Konvertieren von PPSM zu PNG, Node.js API, Node.js-Bibliothek, PPSM, PNG

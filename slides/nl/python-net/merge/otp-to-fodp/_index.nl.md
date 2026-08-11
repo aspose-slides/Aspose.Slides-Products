@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg OTP-bestanden samen naar FODP met Python
 url: /nl/python-net/merge/otp-to-fodp/
 keywords: Voeg OTP samen tot FODP, voeg OTP toe aan FODP, combineer OTP tot FODP, PowerPoint, Presentatie, FODP, Python, Aspose

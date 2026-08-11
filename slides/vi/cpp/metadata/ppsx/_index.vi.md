@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp PPSX bằng C++
 url: /vi/cpp/metadata/ppsx/
 keywords: Chỉnh sửa siêu dữ liệu PPSX, Xem siêu dữ liệu PPSX, Chỉnh sửa thuộc tính PPSX, Xem thuộc tính PPSX

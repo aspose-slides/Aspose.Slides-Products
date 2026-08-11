@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tìm kiếm Văn bản trong Tệp Bản trình bày PPTX bằng .NET
 url: /vi/net/search/pptx/
 keywords: tìm kiếm từ trong PPTX, tìm kiếm và thay thế văn bản trong PPTX, tìm kiếm văn bản PPTX Bản trình bày

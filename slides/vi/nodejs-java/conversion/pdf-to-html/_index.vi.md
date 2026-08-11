@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF thành HTML trong Node.js
 url: /vi/nodejs-java/conversion/pdf-to-html/
 keywords: PDF sang HTML, Chuyển đổi PDF sang HTML, API Node.js, Thư viện Node.js, PDF, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bekijk of bewerk metadata van POT bestanden met behulp van C++
 url: /nl/cpp/metadata/pot/
 keywords: Bewerk POT metadata, bekijk POT metadata, bewerk POT eigenschappen, bekijk POT eigenschappen

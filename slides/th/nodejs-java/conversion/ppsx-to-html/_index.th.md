@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPSX เป็น HTML ใน Node.js
 url: /th/nodejs-java/conversion/ppsx-to-html/
 keywords: PPSX เป็น HTML, แปลง PPSX เป็น HTML, Node.js API, ไลบรารี Node.js, PPSX, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) OTP konvertálása FODP formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/otp-to-fodp/
 keywords: OTP to FODP, OTP konvertálása FODP formátumba, Node.js API, JavaScript Library, OTP, FODP

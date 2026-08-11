@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak OTP Dosyalarını POTX İle Birleştirin
 url: /tr/python-net/merge/otp-to-potx/
 keywords: OTP'ı POTX ile birleştir, OTP ile POTX'a katıl, OTP'ı POTX ile birleştir, PowerPoint, Presentation, POTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PDF إلى JPG باستخدام Python
 url: /ar/python-net/merge/pdf-to-jpg/
 keywords: دمج PDF إلى JPG ، انضم إلى PDF إلى JPG ، ادمج PDF إلى JPG ، PowerPoint ، Presentation ، JPG ، Python ، Aspose

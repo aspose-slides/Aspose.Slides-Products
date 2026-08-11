@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a ODP fájlokat a PPTX formátumba Python használatával
 url: /hu/python-net/merge/odp-to-pptx/
 keywords: A(z) ODP egyesítése a(z) PPTX formátumba, a(z) ODP csatlakozása a(z) PPTX formátumba, a(z)(ODP) összevonása a(z) PPTX formátumba, PowerPoint, Presentation, PPTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPS a JPG usando Python
 url: /es/python-net/merge/pps-to-jpg/
 keywords: Combinar PPS a JPG, unir PPS a JPG, combinar PPS a JPG, PowerPoint, Presentation, JPG, Python, Aspose

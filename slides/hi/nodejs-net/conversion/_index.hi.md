@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js पॉवरपॉइंट प्रोसेसिंग। Aspose.Slides का उपयोग करके प्रस्तुतियों को सहजता से रूपांतरित करें।
 url: /hi/nodejs-net/conversion/
 keywords: "कन्वर्ट, पॉवरपॉइंट, प्रेजेंटेशन, नोड.जेएस, जावास्क्रिप्ट, जेएस, पीडीएफ, पीडीएफ में कनवर्ट करें, पीपीटी से पीडीएफ"

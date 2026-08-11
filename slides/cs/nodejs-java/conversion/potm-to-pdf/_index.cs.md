@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTM na PDF v Node.js
 url: /cs/nodejs-java/conversion/potm-to-pdf/
 keywords: POTM do PDF, Převést POTM do PDF, Node.js API, Node.js Library, POTM, PDF

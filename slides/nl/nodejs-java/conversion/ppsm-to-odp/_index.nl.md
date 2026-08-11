@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPSM naar ODP in Node.js
 url: /nl/nodejs-java/conversion/ppsm-to-odp/
 keywords: PPSM naar ODP, Converteer PPSM naar ODP, Node.js API, Node.js-bibliotheek, PPSM, ODP

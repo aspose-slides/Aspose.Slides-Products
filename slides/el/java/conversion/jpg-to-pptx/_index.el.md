@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή JPG σε PPTX σε Java
 url: /el/java/conversion/jpg-to-pptx/
 keywords: Μετατροπή JPG σε PPTX, JPG σε PPTX, PowerPoint, JPG, PPTX, Java API, Java Library

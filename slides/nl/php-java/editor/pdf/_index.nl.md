@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bewerk PDF in PHP
 url: /nl/php-java/editor/pdf/
 keywords: Bewerk PDF, Bewerk PowerPoint, PDF, PowerPoint, PHP API, PHP Library

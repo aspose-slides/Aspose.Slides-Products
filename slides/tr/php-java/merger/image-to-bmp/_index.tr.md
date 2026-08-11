@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü PHP'de BMP ile Birleştirme
 url: /tr/php-java/merger/image-to-bmp/
 keywords: Görüntüyü BMP'ye, Görüntüyü BMP'ye Birleştirme, Görüntüyü BMP'ye Birleştirme, Görüntüleri Birleştirme, Görüntü, BMP, PHP API, PHP Kitaplığı

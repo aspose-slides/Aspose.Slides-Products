@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü Java'da PPT'ye Dönüştür
 url: /tr/java/conversion/image-to-ppt/
 keywords: Görüntüyü PPT'ye, görüntüyü PPT'ye, PowerPoint'e, görüntüye, PPT'ye, Java API'ye, Java Kitaplığına dönüştürün

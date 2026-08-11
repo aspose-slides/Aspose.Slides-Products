@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPTX thành PNG bằng Python
 url: /vi/python-net/merge/pptx-to-png/
 keywords: Hợp nhất PPTX thành PNG, Nối PPTX thành PNG, Kết hợp PPTX thành PNG, PowerPoint, Bản trình bày, PNG, Python, Aspose

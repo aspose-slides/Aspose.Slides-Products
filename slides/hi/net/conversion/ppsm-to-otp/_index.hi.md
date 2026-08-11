@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSM को C# के माध्यम से OTP में बदलें
 weight: 860
 url: /hi/net/conversion/ppsm-to-otp/ 

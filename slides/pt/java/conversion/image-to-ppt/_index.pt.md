@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter imagem para PPT em Java
 url: /pt/java/conversion/image-to-ppt/
 keywords: Converter imagem para PPT, imagem para PPT, PowerPoint, imagem, PPT, API Java, Biblioteca Java

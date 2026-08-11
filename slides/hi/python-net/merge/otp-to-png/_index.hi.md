@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके OTP फ़ाइलों को PNG में मर्ज करें
 url: /hi/python-net/merge/otp-to-png/
 keywords: OTP को PNG में मिलाएं, OTP से PNG में शामिल हों, OTP से PNG, PowerPoint, प्रेजेंटेशन, PNG, Python, Aspose को मिलाएं

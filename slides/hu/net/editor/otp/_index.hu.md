@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szerkessze az OTP-fájlokat .NET-en keresztül
 url: /hu/net/editor/otp/ 
 description: C#-forráskód az OTP-dokumentum szerkesztéséhez .NET-keretrendszeren, .NET Core-on, Windows Azure-on, Mono- vagy Xamarin-platformokon.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files and Save as HTML Using Python
 url: /python-net/merge/pdf-to-html/
 keywords: Merge PDF to HTML, Join PDF to HTML, Combine PDF to HTML, PowerPoint, Presentation, HTML, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Редактировать PDF в Java
 url: /ru/java/editor/pdf/
 keywords: Редактировать PDF, PDF, Java API, библиотеку Java

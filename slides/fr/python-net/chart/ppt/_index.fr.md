@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Créer un graphique dans des fichiers de présentation PPT à l'aide de Python
 url: /fr/python-net/chart/ppt/
 keywords: Créer un graphique, créer un graphique dispersé, créer un graphique à secteurs, créer un graphique en arborescence, créer un graphique boursier, créer un graphique en boîte et à moustaches, créer un graphique en histogramme, créer un graphique en entonnoir, un graphique en rayon de soleil, un graphique multicatégorie, une présentation PowerPoint, Python

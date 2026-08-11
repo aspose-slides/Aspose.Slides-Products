@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы ODP в POTX с помощью Python
 url: /ru/python-net/merge/odp-to-potx/
 keywords: Объединить ODP в POTX, объединить ODP в POTX, объединить ODP в POTX, PowerPoint, презентацию, POTX, Python, Aspose

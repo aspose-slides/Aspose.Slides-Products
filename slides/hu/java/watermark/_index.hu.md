@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vízjel hozzáadása a PowerPoint-bemutatóhoz Java használatával
 url: /hu/java/watermark/
 description: Java forráskód a Watermark bemutatóhoz

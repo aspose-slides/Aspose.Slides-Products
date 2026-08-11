@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java を使用して PPTX プレゼンテーション ファイル内のテキストを検索
 url: /ja/java/search/pptx/
 keywords: PPTX で単語を検索、PPTX でテキストを検索および置換、テキスト PPTX を検索

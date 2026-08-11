@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดูและแก้ไขข้อมูลเมตาของ PowerPoint โดยใช้ Python
 url: /th/python-net/metadata/
 description: ซอร์สโค้ด Python เพื่อดูและแก้ไขคุณสมบัติการนำเสนอ

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP で PDF を Image に変換する
 url: /ja/php-java/conversion/pdf-to-image/
 keywords: PDF から Image へ、PDF から Image への変換、PHP API、PHP ライブラリ、PDF、Image

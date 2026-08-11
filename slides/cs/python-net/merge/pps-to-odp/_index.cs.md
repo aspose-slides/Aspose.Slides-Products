@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPS do ODP pomocí Pythonu
 url: /cs/python-net/merge/pps-to-odp/
 keywords: Sloučit PPS do ODP, připojit PPS do ODP, kombinovat PPS do ODP, PowerPoint, Presentation, ODP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to PPSM in Python
 url: /python-java/conversion/ppsx-to-ppsm/
 keywords: Python PPSX conversion, PPSX to PPSM, PowerPoint slide show conversion, macro-enabled PowerPoint slide show, Aspose.Slides for Python via Java

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera HTML till PNG i PHP
 url: /sv/php-java/conversion/html-to-png/
 keywords: HTML till PNG, Konvertera HTML till PNG, PHP API, PHP Library, HTML, PNG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中將 PNG 轉換為 SVG
 url: /zh-hant/python-net/conversion/png-to-svg/
 keywords: PNG 到 SVG，將 PNG 轉換為 SVG，Python API，Python 庫，PNG，SVG

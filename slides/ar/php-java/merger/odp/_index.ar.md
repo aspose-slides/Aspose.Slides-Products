@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات ODP باستخدام PHP
 url: /ar/php-java/merger/odp/
 keywords: دمج ODP ، انضمام ODP ، دمج ODP ، PowerPoint ، عرض تقديمي ، PHP ، Aspose

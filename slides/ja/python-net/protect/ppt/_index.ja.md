@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPT プレゼンテーション ファイルを保護する
 url: /ja/python-net/protect/ppt/
 keywords: 書き込み保護 PPT、PPT の暗号化、PPT プレゼンテーションのロック、PPT の保護

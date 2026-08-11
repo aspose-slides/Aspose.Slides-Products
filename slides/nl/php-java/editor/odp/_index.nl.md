@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bewerk ODP in PHP
 url: /nl/php-java/editor/odp/
 keywords: Bewerk ODP, Bewerk PowerPoint, ODP, PowerPoint, PHP API, PHP Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zobrazení nebo úprava metadat souborů POTM pomocí .NET
 url: /cs/net/metadata/potm/
 keywords: Upravit metadata POTM, zobrazit metadata POTM, upravit vlastnosti POTM, zobrazit vlastnosti POTM

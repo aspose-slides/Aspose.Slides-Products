@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: پردازش پاورپوینت Node.js. بدون زحمت ارائه ها را با استفاده از Aspose.Slides تبدیل کنید.
 url: /fa/nodejs-net/conversion/
 keywords: "تبدیل، پاورپوینت، ارائه، Node.js، جاوا اسکریپت، js، PDF، تبدیل به PDF، PPT به PDF"

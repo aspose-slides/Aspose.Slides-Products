@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή ή επεξεργασία μεταδεδομένων αρχείων POT χρησιμοποιώντας Python
 url: /el/python-net/metadata/pot/
 keywords: Επεξεργασία μεταδεδομένων POT, Προβολή μεταδεδομένων POT, Επεξεργασία ιδιοτήτων POT, Προβολή ιδιοτήτων POT

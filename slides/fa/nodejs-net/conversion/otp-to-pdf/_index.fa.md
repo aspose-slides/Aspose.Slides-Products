@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت OTP را به PDF تبدیل کنید
 url: /fa/nodejs-net/conversion/otp-to-pdf/
 keywords: OTP به PDF، تبدیل OTP به PDF، Node.js API، کتابخانه جاوا اسکریپت، OTP، PDF

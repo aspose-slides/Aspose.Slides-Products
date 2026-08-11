@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF thành TIFF trong Java
 url: /vi/java/conversion/pdf-to-tiff/
 keywords: PDF sang TIFF, Chuyển đổi PDF sang TIFF, API Java, Thư viện Java, PDF, TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPS thành PDF trong Node.js
 url: /vi/nodejs-java/conversion/pps-to-pdf/
 keywords: PPS sang PDF, Chuyển đổi PPS sang PDF, API Node.js, Thư viện Node.js, PPS, PDF

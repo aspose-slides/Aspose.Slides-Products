@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js で POTM を PNG に変換します
 url: /ja/nodejs-java/conversion/potm-to-png/
 keywords: POTM から PNG、POTM から PNG への変換、Node.js API、Node.js ライブラリ、POTM、PNG

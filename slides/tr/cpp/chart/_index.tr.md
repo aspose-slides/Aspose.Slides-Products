@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak PowerPoint Sunumlarına Grafik Ekleme
 url: /tr/cpp/chart/
 description: PowerPoint sunumlarına grafik eklemek için C++ kaynak kodu

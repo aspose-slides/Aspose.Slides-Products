@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPSM fájlokat Python használatával
 url: /hu/python-net/merge/ppsm/
 keywords: Egyesítés PPSM, Csatlakozás PPSM, Összevonás PPSM, PowerPoint, Prezentáció, Python, Aspose

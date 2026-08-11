@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPTM-filer till JPG med Python
 url: /sv/python-net/merge/pptm-to-jpg/
 keywords: Slå samman PPTM till JPG, gå med PPTM till JPG, kombinera PPTM till JPG, PowerPoint, Presentation, JPG, Python, Aspose

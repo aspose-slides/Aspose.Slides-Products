@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحرير ODP في PHP
 url: /ar/php-java/editor/odp/
 keywords: تحرير ODP ، تحرير PowerPoint ، ODP ، PowerPoint ، PHP API ، مكتبة PHP

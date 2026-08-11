@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: اضافه کردن واترمارک به فایل‌های ارائه PPT با استفاده از C++
 url: /fa/cpp/watermark/ppt/
 keywords: افزودن واترمارک PPT، افزودن واترمارک متنی PPT، افزودن واترمارک تصویری PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak FODP Dosyalarını BMP İle Birleştirin
 url: /tr/python-net/merge/fodp-to-bmp/
 keywords: FODP'ı BMP ile birleştir, FODP ile BMP'a katıl, FODP'ı BMP ile birleştir, PowerPoint, Presentation, BMP, Python, Aspose

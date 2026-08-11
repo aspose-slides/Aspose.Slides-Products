@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 解锁 PPT 演示文件
 url: /zh/cpp/unlock/ppt/
 keywords: 删除写保护 PPT，解密 PPT，解锁 PPT 演示文稿，取消保护 PPT

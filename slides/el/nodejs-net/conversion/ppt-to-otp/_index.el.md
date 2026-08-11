@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPT σε OTP σε JavaScript
 url: /el/nodejs-net/conversion/ppt-to-otp/
 keywords: PPT σε OTP, Μετατροπή PPT σε OTP, Node.js API, JavaScript Library, PPT, OTP

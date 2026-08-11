@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPTM را با BMP ادغام کنید
 url: /fa/python-net/merge/pptm-to-bmp/
 keywords: ادغام PPTM به BMP، پیوستن به PPTM به BMP، ترکیب PPTM به BMP، PowerPoint، Presentation، BMP، Python، Aspose

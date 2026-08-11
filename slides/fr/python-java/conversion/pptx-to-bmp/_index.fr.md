@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTX en BMP en Python
 url: /fr/python-java/conversion/pptx-to-bmp/
 keywords: Conversion de présentation Python, conversion de présentations en Python, Python pour les présentations, Aspose.Slides Python, conversion PPTX en BMP, bibliothèque de présentations Python

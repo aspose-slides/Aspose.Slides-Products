@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSM Files and Export to BMP Using Python
 url: /python-net/merge/ppsm-to-bmp/
 keywords: Merge PPSM to BMP, Join PPSM to BMP, Combine PPSM to BMP, PowerPoint, Presentation, BMP, Python, Aspose

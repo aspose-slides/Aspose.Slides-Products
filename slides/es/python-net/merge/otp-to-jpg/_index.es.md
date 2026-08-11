@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos OTP a JPG usando Python
 url: /es/python-net/merge/otp-to-jpg/
 keywords: Combinar OTP a JPG, unir OTP a JPG, combinar OTP a JPG, PowerPoint, Presentation, JPG, Python, Aspose

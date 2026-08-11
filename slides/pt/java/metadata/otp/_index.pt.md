@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visualize ou edite metadados de arquivos OTP usando Java
 url: /pt/java/metadata/otp/
 keywords: Editar metadados OTP, visualizar metadados OTP, editar propriedades OTP, visualizar propriedades OTP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chỉnh sửa tệp PPTX qua .NET
 url: /vi/net/editor/pptx/ 
 description: Mã nguồn C# để chỉnh sửa tài liệu PPTX trên Nền tảng .NET Framework, .NET Core, Windows Azure, Mono hoặc Xamarin.

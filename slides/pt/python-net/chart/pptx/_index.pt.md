@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Criar gráfico em arquivos de apresentação PPTX usando Python
 url: /pt/python-net/chart/pptx/
 keywords: Criar gráfico, criar gráfico disperso, criar gráfico de pizza, criar gráfico de mapa de árvore, criar gráfico de estoque, criar gráfico de caixa e bigode, criar gráfico de histograma, criar gráfico de funil, gráfico de explosão solar, gráfico multicategoria, apresentação em PowerPoint, Python

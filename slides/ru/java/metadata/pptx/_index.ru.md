@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр или редактирование метаданных файлов PPTX с помощью Java
 url: /ru/java/metadata/pptx/
 keywords: Изменить метаданные PPTX, просмотреть метаданные PPTX, изменить свойства PPTX, просмотреть свойства PPTX

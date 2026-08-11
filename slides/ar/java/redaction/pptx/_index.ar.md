@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: قم بتنقيح PPTX لملفات العروض التقديمية باستخدام Java
 url: /ar/java/redaction/pptx/
 keywords: تنقيح PPTX والعثور على النص واستبداله في PPTX وتحديث PPTX Presentation

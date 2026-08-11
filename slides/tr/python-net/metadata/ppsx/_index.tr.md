@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PPSX Dosya Meta Verilerini Görüntüleyin veya Düzenleyin
 url: /tr/python-net/metadata/ppsx/
 keywords: PPSX Meta Verilerini Düzenleyin, PPSX Meta Verilerini Görüntüleyin, PPSX özelliklerini düzenleyin, PPSX özelliklerini görüntüleyin

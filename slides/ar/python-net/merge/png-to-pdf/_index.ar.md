@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج PNG في PDF في Python
 url: /ar/python-net/merge/png-to-pdf/
 keywords: PNG إلى PDF ، دمج PNG في PDF ، الانضمام إلى PNG إلى PDF ، PDF ، PNG ، Python API ، مكتبة Python

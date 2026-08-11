@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg és képek kibontása a ODP fájlokból a Python használatával
 url: /hu/python-net/parser/odp/
 keywords: elemezze a ODP elemet a Python használatával, a ODP elemzőt a Python használatával, kinyerje ki az adatokat a ODP elemből a Python nyelven, bontsa ki a szöveget a ODP-ből a Python használatával, bontsa ki a képeket a ODP-ból a Python használatával

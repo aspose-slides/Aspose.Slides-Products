@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPS را در PHP ویرایش کنید
 url: /fa/php-java/editor/pps/
 keywords: ویرایش PPS، ویرایش پاورپوینت، PPS، پاورپوینت، PHP API، کتابخانه PHP

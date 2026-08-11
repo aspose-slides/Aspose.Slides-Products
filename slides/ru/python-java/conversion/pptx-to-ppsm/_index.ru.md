@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTX в PPSM в Python
 url: /ru/python-java/conversion/pptx-to-ppsm/
 keywords: Преобразование презентаций Python, преобразование презентаций в Python, Python для презентаций, Aspose.Slides Python, преобразование PPTX в PPSM, библиотека презентаций Python

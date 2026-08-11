@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj JPG na Image w C++
 url: /pl/cpp/conversion/jpg-to-image/
 keywords: JPG do Image, Konwersja JPG do Image, API C++, Biblioteka C++, JPG, Image

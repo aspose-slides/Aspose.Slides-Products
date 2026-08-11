@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPTM σε ODP σε JavaScript
 url: /el/nodejs-net/conversion/pptm-to-odp/
 keywords: PPTM σε ODP, Μετατροπή PPTM σε ODP, Node.js API, JavaScript Library, PPTM, ODP

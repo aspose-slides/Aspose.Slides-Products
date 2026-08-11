@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: استخراج نص أو كائنات من مستندات PowerPoint و OpenOffice باستخدام .NET
 url: /ar/net/parser/
 description: C# شفرة المصدر لاستخراج البيانات من عروض PowerPoint و OpenOffice التقديمية.

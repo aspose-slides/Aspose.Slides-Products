@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # के माध्यम से पीपीटीएक्स को पीडीएफ में कनवर्ट करें
 weight: 2940
 url: /hi/net/conversion/pptx-to-pdf/ 

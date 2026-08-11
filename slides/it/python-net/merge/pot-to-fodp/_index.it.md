@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file POT a FODP usando Python
 url: /it/python-net/merge/pot-to-fodp/
 keywords: Unisci POT a FODP, Unisci POT a FODP, Combina POT a FODP, PowerPoint, Presentazione, FODP, Python, Aspose

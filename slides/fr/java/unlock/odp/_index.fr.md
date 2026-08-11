@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Déverrouillez les fichiers de présentation ODP à l'aide de Java
 url: /fr/java/unlock/odp/
 keywords: Supprimer la protection en écriture ODP, décrypter une présentation ODP, déverrouiller la présentation ODP, déprotéger ODP

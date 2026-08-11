@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PNG в PPTX на C#
 url: /ru/net/conversion/png-to-pptx/
 keywords: Преобразование PNG в PPTX, PNG в PPTX, PowerPoint, PNG, PPTX, C# API, .NET Library

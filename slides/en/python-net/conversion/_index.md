@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PowerPoint Presentations in Python
 url: /python-net/conversion/
 keywords: "Convert, PowerPoint, Presentation, Python, PDF, Convert to PDF, PPT to PDF"

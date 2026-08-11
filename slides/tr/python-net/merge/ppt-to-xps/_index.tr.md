@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPT Dosyalarını XPS İle Birleştirin
 url: /tr/python-net/merge/ppt-to-xps/
 keywords: PPT'ı XPS ile birleştir, PPT ile XPS'a katıl, PPT'ı XPS ile birleştir, PowerPoint, Presentation, XPS, Python, Aspose

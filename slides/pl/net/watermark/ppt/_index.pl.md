@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Dodaj znak wodny do PPT plików prezentacji za pomocą .NET
 url: /pl/net/watermark/ppt/
 keywords: Dodaj znak wodny PPT, Dodaj tekstowy znak wodny PPT, Dodaj graficzny znak wodny PPT

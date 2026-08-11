@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование POT в PDF в JavaScript
 url: /ru/nodejs-net/conversion/pot-to-pdf/
 keywords: POT в PDF, преобразование POT в PDF, Node.js API, библиотека JavaScript, POT, PDF

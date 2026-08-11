@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPSM फ़ाइलों को GIF में मर्ज करें
 url: /hi/python-net/merge/ppsm-to-gif/
 keywords: PPSM को GIF में मिलाएं, PPSM से GIF में शामिल हों, PPSM से GIF, PowerPoint, प्रेजेंटेशन, GIF, Python, Aspose को मिलाएं

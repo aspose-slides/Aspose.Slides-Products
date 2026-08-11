@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extraiga texto e imágenes de archivos PPT usando Python
 url: /es/python-net/parser/ppt/
 keywords: analizar PPT con Python, PPT analizar Python, extraer datos de PPT en Python, extraer texto de PPT con Python, extraer imágenes de PPT con Python

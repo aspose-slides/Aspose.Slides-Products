@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTM do OTP pomocí Pythonu
 url: /cs/python-net/merge/pptm-to-otp/
 keywords: Sloučit PPTM do OTP, připojit PPTM do OTP, kombinovat PPTM do OTP, PowerPoint, Presentation, OTP, Python, Aspose

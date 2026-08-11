@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg keresése PPT prezentációs fájlokban a .NET használatával
 url: /hu/net/search/ppt/
 keywords: szavak keresése PPT nyelven, szöveg keresése és cseréje PPT nyelven, keresési szöveg PPT Bemutatás

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で Image を JPG に変換する
 url: /ja/java/conversion/image-to-jpg/
 keywords: Image から JPG へ、Image から JPG への変換、Java API、Java ライブラリ、Image、JPG

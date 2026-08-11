@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PDF till TIFF i Node.js
 url: /sv/nodejs-java/conversion/pdf-to-tiff/
 keywords: PDF till TIFF, Konvertera PDF till TIFF, Node.js API, Node.js Library, PDF, TIFF

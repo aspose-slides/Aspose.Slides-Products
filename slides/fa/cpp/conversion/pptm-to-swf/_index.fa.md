@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTM را از طریق برنامه ++C به SWF تبدیل کنید
 url: /fa/cpp/conversion/pptm-to-swf/ 
 description: نمونه کد تبدیل C++ برای سند PPTM به فرمت SWF. از کد مثال برای تبدیل دسته ای PPTM به SWF در هر برنامه C++ استفاده کنید.

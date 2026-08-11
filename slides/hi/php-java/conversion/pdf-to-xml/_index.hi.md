@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में PDF को XML में बदलें
 url: /hi/php-java/conversion/pdf-to-xml/
 keywords: PDF से XML, PDF को XML में कन्वर्ट करें, PHP API, PHP लाइब्रेरी, PDF, XML

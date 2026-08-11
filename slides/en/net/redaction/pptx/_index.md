@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact PPTX Presentation Files using .NET
 url: /net/redaction/pptx/
 keywords: Redact PPTX, Find and Replace Text in PPTX, Update PPTX Presentation

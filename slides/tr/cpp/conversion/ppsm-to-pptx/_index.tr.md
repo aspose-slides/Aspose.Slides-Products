@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSM'yi C++ uygulaması aracılığıyla PPTX'e dönüştürün
 weight: 1270
 url: /tr/cpp/conversion/ppsm-to-pptx/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman OTP-filer till GIF med Python
 url: /sv/python-net/merge/otp-to-gif/
 keywords: Slå samman OTP till GIF, gå med OTP till GIF, kombinera OTP till GIF, PowerPoint, Presentation, GIF, Python, Aspose

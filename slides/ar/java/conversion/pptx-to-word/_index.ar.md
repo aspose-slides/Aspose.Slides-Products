@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPTX إلى Word في Java
 url: /ar/java/conversion/pptx-to-word/
 keywords: تحويل PPTX إلى Word ، PPTX إلى Word ، PPTX إلى DOC ، PowerPoint إلى Word ، Java API ، مكتبة Java

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή JPG σε PPT σε C#
 url: /el/net/conversion/jpg-to-ppt/
 keywords: Μετατροπή JPG σε PPT, JPG σε PPT, PowerPoint, JPG, PPT, C# API, .NET Library

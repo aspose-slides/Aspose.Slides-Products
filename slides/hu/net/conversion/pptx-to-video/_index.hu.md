@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX konvertálása videóvá C#-ban
 url: /hu/net/conversion/pptx-to-video/
 keywords: PPTX konvertálása videóvá, PPTX videóvá, PowerPoint videóvá, PPTX konvertálása MP4-re, C# API, .NET Library

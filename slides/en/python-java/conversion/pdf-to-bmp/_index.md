@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to BMP in Python
 url: /python-java/conversion/pdf-to-bmp/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PDF to BMP conversion, Python presentation library

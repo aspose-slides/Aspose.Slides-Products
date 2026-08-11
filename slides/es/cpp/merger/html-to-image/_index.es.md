@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar HTML a imagen en C++
 url: /es/cpp/merger/html-to-image/
 keywords: Combinar HTML con imagen, HTML con imagen, Unir HTML, Combinar HTML, Imagen, API de C++, Biblioteca de C++

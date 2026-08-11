@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extract Text and Objects from PowerPoint and OpenDocument Presentations using Java
 url: /java/parser/
 description: Extract text, images, and other content from PowerPoint and OpenDocument presentations in Java.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer HTML naar PPT in C#
 url: /nl/net/conversion/html-to-ppt/
 keywords: Converteer HTML naar PPT, HTML naar PPT, PowerPoint, HTML, PPT, C# API, .NET Library

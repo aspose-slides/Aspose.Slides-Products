@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 查看或編輯 POTX 文件元數據
 url: /zh-hant/python-net/metadata/potx/
 keywords: 編輯 POTX 元數據，查看 POTX 元數據，編輯 POTX 屬性，查看 POTX 屬性

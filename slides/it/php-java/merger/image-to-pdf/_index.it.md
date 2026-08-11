@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci immagine a PDF in PHP
 url: /it/php-java/merger/image-to-pdf/
 keywords: Immagine in PDF, Unisci immagine in PDF, Unisci immagine in PDF, PDF, Immagine, API PHP, Libreria PHP

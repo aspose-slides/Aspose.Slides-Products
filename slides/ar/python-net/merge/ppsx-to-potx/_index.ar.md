@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPSX إلى POTX باستخدام Python
 url: /ar/python-net/merge/ppsx-to-potx/
 keywords: دمج PPSX إلى POTX ، انضم إلى PPSX إلى POTX ، ادمج PPSX إلى POTX ، PowerPoint ، Presentation ، POTX ، Python ، Aspose

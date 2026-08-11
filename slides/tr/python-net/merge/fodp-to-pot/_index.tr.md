@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak FODP Dosyalarını POT İle Birleştirin
 url: /tr/python-net/merge/fodp-to-pot/
 keywords: FODP'ı POT ile birleştir, FODP ile POT'a katıl, FODP'ı POT ile birleştir, PowerPoint, Presentation, POT, Python, Aspose

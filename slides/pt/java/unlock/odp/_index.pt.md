@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Desbloqueie arquivos de apresentação ODP usando Java
 url: /pt/java/unlock/odp/
 keywords: Remover proteção contra gravação ODP, descriptografar uma apresentação ODP, desbloquear apresentação ODP, desproteger ODP

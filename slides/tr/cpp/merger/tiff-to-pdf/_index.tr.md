@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++'da TIFF'i PDF'ye birleştirme
 url: /tr/cpp/merger/tiff-to-pdf/
 keywords: TIFF'den PDF'e, TIFF'den PDF'e Birleştirin, TIFF'i PDF'ye, PDF'e, TIFF'e, C++ API'ye, C++ Kitaplığına Birleştirin

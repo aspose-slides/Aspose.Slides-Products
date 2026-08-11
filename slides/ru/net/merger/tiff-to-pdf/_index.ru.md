@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить TIFF в PDF на C#
 url: /ru/net/merger/tiff-to-pdf/
 keywords: TIFF в PDF, объединение TIFF в PDF, объединение TIFF в PDF, PDF, TIFF, C# API, .NET Library

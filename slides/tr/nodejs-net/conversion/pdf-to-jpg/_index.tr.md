@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te PDF'ı JPG'a dönüştürün
 url: /tr/nodejs-net/conversion/pdf-to-jpg/
 keywords: PDF'tan JPG'a, PDF'ı JPG'a dönüştürün, Node.js API, JavaScript Kitaplığı, PDF, JPG

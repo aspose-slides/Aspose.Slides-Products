@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak FODP Dosyalarını PNG İle Birleştirin
 url: /tr/python-net/merge/fodp-to-png/
 keywords: FODP'ı PNG ile birleştir, FODP ile PNG'a katıl, FODP'ı PNG ile birleştir, PowerPoint, Presentation, PNG, Python, Aspose

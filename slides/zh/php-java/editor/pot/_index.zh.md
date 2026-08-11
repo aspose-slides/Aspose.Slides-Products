@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中编辑 POT
 url: /zh/php-java/editor/pot/
 keywords: 编辑 POT、编辑 PowerPoint、POT、PowerPoint、PHP API、PHP 库

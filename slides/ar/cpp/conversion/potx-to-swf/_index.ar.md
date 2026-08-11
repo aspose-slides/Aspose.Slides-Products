@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل POTX إلى SWF عبر تطبيق C ++
 url: /ar/cpp/conversion/potx-to-swf/ 
 description: نموذج كود تحويل C ++ لمستند POTX إلى تنسيق SWF. استخدم رمز المثال للتحويل الدفعي من POTX إلى SWF داخل أي تطبيق C ++.

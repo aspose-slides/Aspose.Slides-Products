@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edytuj pliki ODP przez .NET
 url: /pl/net/editor/odp/ 
 description: C# kod źródłowy do edycji dokumentu ODP na platformach .NET Framework, .NET Core, Windows Azure, Mono lub Xamarin.

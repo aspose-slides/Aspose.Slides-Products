@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file OTP a PNG usando Python
 url: /it/python-net/merge/otp-to-png/
 keywords: Unisci OTP a PNG, Unisci OTP a PNG, Combina OTP a PNG, PowerPoint, Presentazione, PNG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادمج SVG في PNG في Python
 url: /ar/python-net/merge/svg-to-png/
 keywords: دمج SVG في PNG ، و SVG إلى PNG ، والانضمام إلى SVG إلى PNG ، والجمع بين SVG و PNG ، و Python API ، و Python Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Modifier POTM en PHP
 url: /fr/php-java/editor/potm/
 keywords: Modifier POTM, Modifier PowerPoint, POTM, PowerPoint, API PHP, Bibliothèque PHP

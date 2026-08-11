@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Κλείδωμα ή Προστασία με κωδικό πρόσβασης παρουσίασης με χρήση C++
 url: /el/cpp/protect/
 description: Πηγαίος κώδικας C++ για να ορίσετε έναν κωδικό πρόσβασης για να κλειδώσετε την παρουσίαση

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSM a GIF usando Python
 url: /it/python-net/merge/ppsm-to-gif/
 keywords: Unisci PPSM a GIF, Unisci PPSM a GIF, Combina PPSM a GIF, PowerPoint, Presentazione, GIF, Python, Aspose

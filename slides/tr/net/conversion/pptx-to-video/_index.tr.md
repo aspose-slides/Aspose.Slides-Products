@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX'i C# ile Videoya Dönüştür
 url: /tr/net/conversion/pptx-to-video/
 keywords: PPTX'i videoya, PPTX'i videoya, PowerPoint'i videoya, PPTX'i MP4'e, C# API'sini, .NET Library'ye dönüştürün

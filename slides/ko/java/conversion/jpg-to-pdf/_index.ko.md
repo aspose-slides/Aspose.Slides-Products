@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java에서 JPG을 PDF로 변환
 url: /ko/java/conversion/jpg-to-pdf/
 keywords: JPG에서 PDF으로, JPG에서 PDF로 변환, Java API, Java 라이브러리, JPG, PDF

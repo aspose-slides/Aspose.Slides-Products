@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü C++ ile PPT'ye Dönüştür
 url: /tr/cpp/conversion/image-to-ppt/
 keywords: Görüntüyü PPT'ye Dönüştürme, Görüntüyü PPT'ye Dönüştürme, C++ API, C++ Kitaplığı, Görüntü, PPT

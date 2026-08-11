@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت PPS را به ODP تبدیل کنید
 url: /fa/nodejs-net/conversion/pps-to-odp/
 keywords: PPS به ODP، تبدیل PPS به ODP، Node.js API، کتابخانه جاوا اسکریپت، PPS، ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to PNG in Java
 url: /java/conversion/pdf-to-png/
 keywords: PDF to PNG, Convert PDF to PNG, Java API, Java Library, PDF, PNG

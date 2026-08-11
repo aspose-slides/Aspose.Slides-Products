@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: OTP-Dateien mit Python in POT zusammenführen
 url: /de/python-net/merge/otp-to-pot/
 keywords: OTP mit POT zusammenführen, OTP mit POT verbinden, OTP mit POT kombinieren, PowerPoint, Präsentation, POT, Python, Aspose

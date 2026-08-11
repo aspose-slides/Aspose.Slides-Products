@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPS-Dateien mit Python in POTX zusammenführen
 url: /de/python-net/merge/pps-to-potx/
 keywords: PPS mit POTX zusammenführen, PPS mit POTX verbinden, PPS mit POTX kombinieren, PowerPoint, Präsentation, POTX, Python, Aspose

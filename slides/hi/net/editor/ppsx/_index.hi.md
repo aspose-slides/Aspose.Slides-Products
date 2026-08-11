@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX फ़ाइलों को .NET के माध्यम से संपादित करें
 url: /hi/net/editor/ppsx/ 
 description: C# स्रोत कोड .NET Framework, .NET Core, Windows Azure, Mono या Xamarin प्लेटफॉर्म पर PPSX दस्तावेज़ को संपादित करने के लिए।

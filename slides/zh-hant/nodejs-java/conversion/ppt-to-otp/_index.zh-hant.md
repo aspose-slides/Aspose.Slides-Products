@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 PPT 轉換為 OTP
 url: /zh-hant/nodejs-java/conversion/ppt-to-otp/
 keywords: PPT 到 OTP、將 PPT 轉換為 OTP、Node.js API、Node.js 庫、PPT、OTP

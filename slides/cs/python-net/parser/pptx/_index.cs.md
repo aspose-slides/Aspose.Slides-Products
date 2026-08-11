@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahujte text a obrázky ze souborů PPTX pomocí Python
 url: /cs/python-net/parser/pptx/
 keywords: analyzovat PPTX pomocí Python, PPTX analyzátor Python, extrahovat data z PPTX v Python, extrahovat text z PPTX pomocí Python, extrahovat obrázky z PPTX pomocí Python

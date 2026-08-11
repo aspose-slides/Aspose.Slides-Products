@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera POTM till PPTM i Node.js
 url: /sv/nodejs-java/conversion/potm-to-pptm/
 keywords: POTM till PPTM, Konvertera POTM till PPTM, Node.js API, Node.js Library, POTM, PPTM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POTM Files and Export to PNG Using Python
 url: /python-net/merge/potm-to-png/
 keywords: Merge POTM to PNG, Join POTM to PNG, Combine POTM to PNG, PowerPoint, Presentation, PNG, Python, Aspose

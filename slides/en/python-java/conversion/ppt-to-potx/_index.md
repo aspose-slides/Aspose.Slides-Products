@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to POTX in Python
 url: /python-java/conversion/ppt-to-potx/
 keywords: Python PPT conversion, PPT to POTX, PowerPoint to POTX, PowerPoint template, Aspose.Slides for Python via Java

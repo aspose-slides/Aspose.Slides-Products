@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta PDF a PPT en Node.js
 url: /es/nodejs-java/conversion/pdf-to-ppt/
 keywords: PDF a PPT, Convertir PDF a PPT, API de Node.js, Biblioteca Node.js, PDF, PPT

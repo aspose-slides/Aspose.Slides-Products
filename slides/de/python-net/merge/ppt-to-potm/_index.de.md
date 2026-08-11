@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT-Dateien mit Python in POTM zusammenführen
 url: /de/python-net/merge/ppt-to-potm/
 keywords: PPT mit POTM zusammenführen, PPT mit POTM verbinden, PPT mit POTM kombinieren, PowerPoint, Präsentation, POTM, Python, Aspose

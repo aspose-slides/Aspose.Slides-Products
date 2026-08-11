@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da HTML biçimini JPG biçimine dönüştürün
 url: /tr/java/conversion/html-to-jpg/
 keywords: HTML'tan JPG'a, HTML'tan JPG'a Dönüştürme, Java API, Java Kitaplığı, HTML, JPG

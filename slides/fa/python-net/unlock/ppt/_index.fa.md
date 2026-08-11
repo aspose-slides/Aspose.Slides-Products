@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: باز کردن قفل فایل‌های ارائه PPT با استفاده از Python
 url: /fa/python-net/unlock/ppt/
 keywords: حذف حفاظت نوشتن PPT، رمزگشایی یک PPT، باز کردن قفل ارائه PPT، لغو محافظت PPT

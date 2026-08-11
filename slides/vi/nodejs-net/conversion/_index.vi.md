@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xử lý PowerPoint của Node.js. Dễ dàng chuyển đổi bản trình bày bằng Aspose.Slides.
 url: /vi/nodejs-net/conversion/
 keywords: "Chuyển đổi, PowerPoint, Trình bày, Node.js, javascript, js, PDF, Chuyển đổi sang PDF, PPT sang PDF"

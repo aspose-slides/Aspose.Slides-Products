@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPTM a HTML usando Python
 url: /es/python-net/merge/pptm-to-html/
 keywords: Combinar PPTM a HTML, unir PPTM a HTML, combinar PPTM a HTML, PowerPoint, Presentation, HTML, Python, Aspose

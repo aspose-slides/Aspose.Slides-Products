@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 사용하여 PowerPoint 및 OpenOffice 문서에서 텍스트 또는 개체 추출
 url: /ko/cpp/parser/
 description: PowerPoint 및 OpenOffice 프레젠테이션에서 데이터를 추출하기 위한 C++ 소스 코드입니다.

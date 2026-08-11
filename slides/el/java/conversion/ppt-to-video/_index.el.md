@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPT σε βίντεο σε Java
 url: /el/java/conversion/ppt-to-video/
 keywords: Μετατροπή PPT σε βίντεο, PPT σε βίντεο, PowerPoint σε βίντεο, PPT σε MP4, Java API, Java Library

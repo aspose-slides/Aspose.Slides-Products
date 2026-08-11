@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج صور PNG في C++
 url: /ar/cpp/merger/png-to-png/
 keywords: ادمج PNG و PNG و PNG و انضم إلى PNG ودمج PNG و C++ API و C++ Library

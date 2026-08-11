@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge FODP Files and Save as POT Using Python
 url: /python-net/merge/fodp-to-pot/
 keywords: Merge FODP to POT, Join FODP to POT, Combine FODP to POT, PowerPoint, Presentation, POT, Python, Aspose

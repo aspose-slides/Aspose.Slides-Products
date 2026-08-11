@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPTM إلى PDF في Node.js
 url: /ar/nodejs-java/conversion/pptm-to-pdf/
 keywords: PPTM إلى PDF، تحويل PPTM إلى PDF، Node.js API، مكتبة Node.js، PPTM، PDF

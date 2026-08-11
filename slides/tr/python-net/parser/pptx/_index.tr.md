@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PPTX Dosyalarından Metin ve Görüntüleri Çıkarın
 url: /tr/python-net/parser/pptx/
 keywords: Python kullanarak PPTX ayrıştırma, PPTX Python ayrıştırıcı, Python içindeki PPTX'dan veri çıkarma, Python kullanarak PPTX'dan metin çıkarma, Python kullanarak PPTX'dan görsel çıkarma

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: أضف علامة مائية إلى ملفات PowerPoint على أنظمة التشغيل Windows و Linux و macOS
 url: /ar/watermark/
 description: واجهات برمجة التطبيقات لإضافة علامة مائية إلى عروض PPT و PPTX و ODP

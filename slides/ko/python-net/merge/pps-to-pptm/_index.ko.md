@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PPS 파일을 PPTM에 병합
 url: /ko/python-net/merge/pps-to-pptm/
 keywords: PPS을 PPTM에 병합, PPS을 PPTM에 결합, PPS을 PPTM에 결합, PowerPoint, Presentation, PPTM, Python, Aspose

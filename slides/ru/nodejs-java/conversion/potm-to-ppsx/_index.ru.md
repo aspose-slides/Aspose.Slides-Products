@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование POTM в PPSX в Node.js
 url: /ru/nodejs-java/conversion/potm-to-ppsx/
 keywords: POTM в PPSX, конвертировать POTM в PPSX, API Node.js, библиотека Node.js, POTM, PPSX

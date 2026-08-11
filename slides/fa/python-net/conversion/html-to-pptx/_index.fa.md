@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: HTML را در پایتون به PPTX تبدیل کنید
 url: /fa/python-net/conversion/html-to-pptx/
 keywords: تبدیل HTML به PPTX، HTML به PPTX، پاورپوینت، HTML، PPTX، Python API، کتابخانه Python

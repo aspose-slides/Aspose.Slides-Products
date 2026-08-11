@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में जेपीजी को पीडीएफ में मर्ज करें
 url: /hi/java/merger/jpg-to-pdf/
 keywords: जेपीजी से पीडीएफ, जेपीजी को पीडीएफ में मर्ज करें, जेपीजी से पीडीएफ, पीडीएफ, जेपीजी, जावा एपीआई, जावा लाइब्रेरी में शामिल हों

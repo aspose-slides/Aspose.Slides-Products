@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till PPTM med Python
 url: /sv/python-net/merge/ppt-to-pptm/
 keywords: Slå samman PPT till PPTM, gå med PPT till PPTM, kombinera PPT till PPTM, PowerPoint, Presentation, PPTM, Python, Aspose

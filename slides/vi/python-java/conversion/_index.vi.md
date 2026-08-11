@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi bản trình bày Python. Dễ dàng chuyển đổi bản trình bày bằng Aspose.Slides.
 url: /vi/python-java/conversion/
 keywords: "Chuyển đổi, PowerPoint, Trình bày, Python, dự án Python, thư viện Python, PDF, Chuyển đổi sang PDF, PPT sang PDF"

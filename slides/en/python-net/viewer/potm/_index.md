@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View POTM in Python
 url: /python-net/viewer/potm/
 keywords: View POTM, View Macro-enabled PowerPoint Template, Open POTM, POTM Viewer, POTM, PowerPoint, Python API, Python Library

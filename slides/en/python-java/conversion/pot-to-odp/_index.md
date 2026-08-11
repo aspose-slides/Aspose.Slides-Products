@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to ODP in Python
 url: /python-java/conversion/pot-to-odp/
 keywords: Python POT conversion, POT to ODP, PowerPoint to ODP, presentation to OpenDocument, Aspose.Slides for Python via Java

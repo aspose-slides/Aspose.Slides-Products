@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PNG σε SVG στην Python
 url: /el/python-net/conversion/png-to-svg/
 keywords: PNG σε SVG, Convert PNG σε SVG, Python API, Python Library, PNG, SVG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 从 PowerPoint 和 OpenOffice 文档中提取文本或对象
 url: /zh/cpp/parser/
 description: 用于从 PowerPoint 和 OpenOffice 演示文稿中提取数据的 C++ 源代码。

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Κλείδωμα ή Προστασία με κωδικό πρόσβασης παρουσίασης με χρήση Java
 url: /el/java/protect/
 description: Πηγαίος κώδικας Java για να ορίσετε έναν κωδικό πρόσβασης για να κλειδώσετε την παρουσίαση

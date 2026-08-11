@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का उपयोग करके PPTX प्रस्तुतिकरण फ़ाइलों की सुरक्षा करें
 url: /hi/python-net/protect/pptx/
 keywords: राइट प्रोटेक्शन PPTX, PPTX को एन्क्रिप्ट करना, PPTX प्रेजेंटेशन को लॉक करना, PPTX को प्रोटेक्ट करना

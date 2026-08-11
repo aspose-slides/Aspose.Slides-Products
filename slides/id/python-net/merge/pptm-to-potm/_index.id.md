@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPTM Ke POTM Menggunakan Python
 url: /id/python-net/merge/pptm-to-potm/
 keywords: Gabungkan PPTM ke POTM, Gabungkan PPTM ke POTM, Gabungkan PPTM ke POTM, PowerPoint, Presentasi, POTM, Python, Aspose

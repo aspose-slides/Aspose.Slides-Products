@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to PPTX in C++
 url: /cpp/conversion/pdf-to-pptx/
 keywords: PDF to PPTX, Convert PDF to PPTX, C++ API, C++ Library, PDF, PPTX

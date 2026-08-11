@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का इस्तेमाल करके PPTX फ़ाइलों से टेक्स्ट और इमेज निकालें
 url: /hi/python-net/parser/pptx/
 keywords: Python का उपयोग करके PPTX को पार्स करें, PPTX पार्सर Python, Python में PPTX से डेटा निकालें, Python का उपयोग करके PPTX से टेक्स्ट निकालें, Python का उपयोग करके PPTX से चित्र निकालें

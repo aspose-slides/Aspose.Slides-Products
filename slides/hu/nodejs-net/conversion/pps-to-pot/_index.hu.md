@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPS konvertálása POT formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/pps-to-pot/
 keywords: PPS to POT, PPS konvertálása POT formátumba, Node.js API, JavaScript Library, PPS, POT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: เพิ่มลายน้ำให้กับไฟล์นำเสนอ ODP โดยใช้ C++
 url: /th/cpp/watermark/odp/
 keywords: เพิ่มลายน้ำ ODP, เพิ่มลายน้ำข้อความ ODP, เพิ่มลายน้ำรูปภาพ ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων OTP σε XPS χρησιμοποιώντας Python
 url: /el/python-net/merge/otp-to-xps/
 keywords: Συγχώνευση OTP σε XPS, Join OTP σε XPS, Combine OTP σε XPS, PowerPoint, Presentation, XPS, Python, Aspose

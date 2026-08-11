@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPTX till video i C++
 url: /sv/cpp/conversion/pptx-to-video/
 keywords: Konvertera PPTX till video, PPTX till video, PowerPoint till video, PPTX till MP4, C++ API, C++ Library

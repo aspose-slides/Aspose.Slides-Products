@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visualizza o modifica i metadati dei file PPT utilizzando Python
 url: /it/python-net/metadata/ppt/
 keywords: Modifica metadati PPT, Visualizza metadati PPT, Modifica proprietà PPT, Visualizza proprietà PPT

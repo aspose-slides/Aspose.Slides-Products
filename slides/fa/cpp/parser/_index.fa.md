@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: متن یا اشیاء را از پاورپوینت و اسناد OpenOffice با استفاده از C++ استخراج کنید
 url: /fa/cpp/parser/
 description: کد منبع C++ برای استخراج داده ها از پاورپوینت و ارائه های OpenOffice.

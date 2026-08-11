@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-27
 title: Convert PPTX to Word in Python
 url: /python-net/conversion/pptx-to-word/
 keywords: Convert PPTX to Word, PPTX to Word, PPTX to DOC, PowerPoint to Word, Python API, Python Library

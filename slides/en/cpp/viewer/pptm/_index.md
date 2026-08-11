@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPTM in C++
 url: /cpp/viewer/pptm/
 keywords: View PPTM, Open PPTM, PPTM Viewer, PPTM, C++ API, C++ Library, CPP

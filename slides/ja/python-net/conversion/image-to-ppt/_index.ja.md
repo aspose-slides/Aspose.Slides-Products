@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Pythonで画像をPPTに変換
 url: /ja/python-net/conversion/image-to-ppt/
 keywords: 画像を PPT に、画像を PPT に変換する、Python API、Python ライブラリ、画像、PPT

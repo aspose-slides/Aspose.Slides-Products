@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावास्क्रिप्ट में POTX को PPT में बदलें
 url: /hi/nodejs-net/conversion/potx-to-ppt/
 keywords: POTX से PPT, POTX को PPT में बदलें, Node.js API, JavaScript लाइब्रेरी, POTX, PPT

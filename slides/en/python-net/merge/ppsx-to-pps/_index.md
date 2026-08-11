@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSX Files and Save as PPS Using Python
 url: /python-net/merge/ppsx-to-pps/
 keywords: Merge PPSX to PPS, Join PPSX to PPS, Combine PPSX to PPS, PowerPoint, Presentation, PPS, Python, Aspose

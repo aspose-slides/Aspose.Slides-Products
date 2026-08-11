@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPTX sang JPG trong JavaScript
 url: /vi/nodejs-net/conversion/pptx-to-jpg/
 keywords: PPTX sang JPG, Chuyển đổi PPTX sang JPG, API Node.js, Thư viện JavaScript, PPTX, JPG

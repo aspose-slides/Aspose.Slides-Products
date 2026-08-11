@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده یا ویرایش فراداده فایل‌های POTM با استفاده از .NET
 url: /fa/net/metadata/potm/
 keywords: ویرایش فراداده POTM، مشاهده فراداده POTM، ویرایش ویژگی‌های POTM، مشاهده ویژگی‌های POTM

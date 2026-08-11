@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 PPTM 轉換為 BMP
 url: /zh-hant/nodejs-java/conversion/pptm-to-bmp/
 keywords: PPTM 到 BMP、將 PPTM 轉換為 BMP、Node.js API、Node.js 庫、PPTM、BMP

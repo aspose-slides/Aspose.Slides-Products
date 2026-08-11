@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 將 PDF 文件合併到 PPTM
 url: /zh-hant/python-net/merge/pdf-to-pptm/
 keywords: 將 PDF 合併到 PPTM，將 PDF 連接到 PPTM，將 PDF 合併到 PPTM，PowerPoint，演示文稿，PPTM，Python，Aspose

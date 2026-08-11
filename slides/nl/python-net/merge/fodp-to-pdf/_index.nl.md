@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg FODP-bestanden samen naar PDF met Python
 url: /nl/python-net/merge/fodp-to-pdf/
 keywords: Voeg FODP samen tot PDF, voeg FODP toe aan PDF, combineer FODP tot PDF, PowerPoint, Presentatie, PDF, Python, Aspose

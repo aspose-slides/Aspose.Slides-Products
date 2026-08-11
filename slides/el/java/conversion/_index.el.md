@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή παρουσίασης Microsoft PowerPoint σε πολλαπλά αρχεία με χρήση Java
 url: /el/java/conversion/
 description: Μετατρέψτε τις διαφάνειες Microsoft PowerPoint σε διαφορετικά αρχεία, συμπεριλαμβανομένων μορφών HTML, PDF και εικόνας εντός εφαρμογών που βασίζονται σε Java.

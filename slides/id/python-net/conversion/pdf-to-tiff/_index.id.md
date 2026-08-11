@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PDF ke TIFF dengan Python
 url: /id/python-net/conversion/pdf-to-tiff/
 keywords: PDF ke TIFF, Konversikan PDF ke TIFF, Python API, Python Library, PDF, TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で PNG を PPTX に変換する
 url: /ja/java/conversion/png-to-pptx/
 keywords: PNG を PPTX に、PNG を PPTX に、PowerPoint、PNG、PPTX、Java API、Java ライブラリに変換

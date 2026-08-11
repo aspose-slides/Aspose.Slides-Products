@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPT konvertálása POT formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/ppt-to-pot/
 keywords: PPT to POT, PPT konvertálása POT formátumba, Node.js API, Node.js Library, PPT, POT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse az SVG-t PNG-be a Pythonban
 url: /hu/python-net/merge/svg-to-png/
 keywords: Egyesítse az SVG-t PNG-be, SVG-t PNG-be, csatlakozzon az SVG-hez PNG-hez, egyesítse az SVG-t PNG-be, Python API, Python Library

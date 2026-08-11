@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή ή επεξεργασία μεταδεδομένων αρχείων PPT χρησιμοποιώντας Java
 url: /el/java/metadata/ppt/
 keywords: Επεξεργασία μεταδεδομένων PPT, Προβολή μεταδεδομένων PPT, Επεξεργασία ιδιοτήτων PPT, Προβολή ιδιοτήτων PPT

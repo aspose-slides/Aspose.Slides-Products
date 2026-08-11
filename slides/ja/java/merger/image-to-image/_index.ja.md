@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で画像をマージする
 url: /ja/java/merger/image-to-image/
 keywords: 画像のマージ、画像から画像へ、画像の結合、画像の結合、Java API、Java ライブラリ

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POTX Files Using Python
 url: /python-net/merge/potx/
 keywords: Merge POTX, Join POTX, Combine POTX, PowerPoint, Presentation, Python, Aspose

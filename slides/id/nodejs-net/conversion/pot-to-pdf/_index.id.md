@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POT ke PDF dalam JavaScript
 url: /id/nodejs-net/conversion/pot-to-pdf/
 keywords: POT ke PDF, Konversi POT ke PDF, API Node.js, Pustaka JavaScript, POT, PDF

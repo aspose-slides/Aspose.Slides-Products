@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPSM do PDF pomocí Pythonu
 url: /cs/python-net/merge/ppsm-to-pdf/
 keywords: Sloučit PPSM do PDF, připojit PPSM do PDF, kombinovat PPSM do PDF, PowerPoint, Presentation, PDF, Python, Aspose

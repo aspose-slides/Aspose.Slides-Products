@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Windows、Linux 和 macOS 上編輯 PowerPoint 文件
 url: /zh-hant/redaction/
 description: 為 PPT、PPTX 和 ODP 演示文稿添加保護的 API

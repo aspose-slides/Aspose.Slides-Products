@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PDF را با POTX ادغام کنید
 url: /fa/python-net/merge/pdf-to-potx/
 keywords: ادغام PDF به POTX، پیوستن به PDF به POTX، ترکیب PDF به POTX، PowerPoint، Presentation، POTX، Python، Aspose

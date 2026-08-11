@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP で JPG を HTML に変換する
 url: /ja/php-java/conversion/jpg-to-html/
 keywords: JPG から HTML へ、JPG から HTML への変換、PHP API、PHP ライブラリ、JPG、HTML

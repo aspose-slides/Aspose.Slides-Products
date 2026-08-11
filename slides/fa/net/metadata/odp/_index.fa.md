@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده یا ویرایش فراداده فایل‌های ODP با استفاده از .NET
 url: /fa/net/metadata/odp/
 keywords: ویرایش فراداده ODP، مشاهده فراداده ODP، ویرایش ویژگی‌های ODP، مشاهده ویژگی‌های ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: متن، تصاویر، ویدئو، صدا و رسانه های دیگر را از ارائه استخراج کنید
 url: /fa/parser/
 description: APIهایی برای استخراج متن، تصاویر، ویدئو، صدا از پاورپوینت و ارائه های OpenOffice

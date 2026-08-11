@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 編輯 PPTX 演示文件
 url: /zh-hant/python-net/redaction/pptx/
 keywords: 編輯 PPTX，查找並替換 PPTX 中的文本，更新 PPTX 演示文稿

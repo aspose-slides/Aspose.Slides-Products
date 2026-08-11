@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 在 PPT 演示文件中创建图表
 url: /zh/python-net/chart/ppt/
 keywords: 创建图表、创建散点图、创建饼图、创建树状图、创建股票图、创建盒须图、创建直方图、创建漏斗图、旭日图、多类别图表、PowerPoint 演示文稿、Python

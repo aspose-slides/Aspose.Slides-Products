@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter FODP em SVG em JavaScript
 url: /pt/nodejs-net/conversion/fodp-to-svg/
 keywords: FODP para SVG, converter FODP para SVG, API Node.js, biblioteca JavaScript, FODP, SVG

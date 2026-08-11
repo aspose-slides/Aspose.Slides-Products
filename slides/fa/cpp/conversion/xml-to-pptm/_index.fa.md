@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: XML را از طریق برنامه ++C به PPTM تبدیل کنید
 weight: 4200
 url: /fa/cpp/conversion/xml-to-pptm/ 

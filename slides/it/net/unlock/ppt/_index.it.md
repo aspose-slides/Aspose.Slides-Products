@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sblocca i file di presentazione PPT utilizzando .NET
 url: /it/net/unlock/ppt/
 keywords: Rimuovi la protezione da scrittura PPT, decodifica di una presentazione PPT, sblocca presentazione PPT, rimuovi protezione PPT

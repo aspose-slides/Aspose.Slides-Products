@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux 및 macOS에서 PowerPoint 파일에 대한 메타데이터 보기 및 편집
 url: /ko/metadata/
 description: PPT 및 PPTX 문서 속성을 보고 편집하는 API

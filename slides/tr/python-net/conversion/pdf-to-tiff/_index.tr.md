@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PDF öğesini TIFF biçimine dönüştürün
 url: /tr/python-net/conversion/pdf-to-tiff/
 keywords: PDF'tan TIFF'a, PDF'tan TIFF'a Dönüştürme, Python API, Python Kitaplığı, PDF, TIFF

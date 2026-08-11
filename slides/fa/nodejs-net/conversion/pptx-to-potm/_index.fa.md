@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت PPTX را به POTM تبدیل کنید
 url: /fa/nodejs-net/conversion/pptx-to-potm/
 keywords: PPTX به POTM، تبدیل PPTX به POTM، Node.js API، کتابخانه جاوا اسکریپت، PPTX، POTM

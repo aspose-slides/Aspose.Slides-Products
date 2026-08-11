@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files and Export to JPG Using Python
 url: /python-net/merge/odp-to-jpg/
 keywords: Merge ODP to JPG, Join ODP to JPG, Combine ODP to JPG, PowerPoint, Presentation, JPG, Python, Aspose

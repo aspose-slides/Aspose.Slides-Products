@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन प्रस्तुति रूपांतरण। Aspose.Slides का उपयोग करके प्रस्तुतियों को सहजता से रूपांतरित करें।
 url: /hi/python-java/conversion/
 keywords: "कन्वर्ट, पॉवरपॉइंट, प्रेजेंटेशन, पायथन, पायथन प्रोजेक्ट्स, पायथन लाइब्रेरीज़, पीडीएफ, पीडीएफ में कनवर्ट करें, पीपीटी से पीडीएफ"

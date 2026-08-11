@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POTX en TIFF en JavaScript
 url: /fr/nodejs-net/conversion/potx-to-tiff/
 keywords: POTX en TIFF, Convertir POTX en TIFF, API Node.js, Bibliothèque JavaScript, POTX, TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中将 PPTX 转换为 Word
 url: /zh/cpp/conversion/pptx-to-word/
 keywords: 将 PPTX 转换为 Word、PPTX 转换为 Word、PPTX 转换为 DOC、PowerPoint 转换为 Word、C++ API、C++ 库、CPP

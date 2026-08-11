@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ODP konvertálása EMF-re a C# segítségével
 weight: 1520
 url: /hu/net/conversion/odp-to-emf/ 

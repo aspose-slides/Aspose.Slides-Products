@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-20
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edit ODP in PHP
 url: /php-java/editor/odp/
 keywords: Edit ODP, Edit PowerPoint, ODP, PowerPoint, PHP API, PHP Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های OTP را با GIF ادغام کنید
 url: /fa/python-net/merge/otp-to-gif/
 keywords: ادغام OTP به GIF، پیوستن به OTP به GIF، ترکیب OTP به GIF، PowerPoint، Presentation، GIF، Python، Aspose

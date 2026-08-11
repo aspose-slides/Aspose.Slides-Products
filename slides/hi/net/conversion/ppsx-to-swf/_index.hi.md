@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीपीएसएक्स को सी # के माध्यम से एसडब्ल्यूएफ में कनवर्ट करें
 weight: 1430
 url: /hi/net/conversion/ppsx-to-swf/ 

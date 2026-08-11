@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का इस्तेमाल करके ODP फ़ाइलों से टेक्स्ट और इमेज निकालें
 url: /hi/python-net/parser/odp/
 keywords: Python का उपयोग करके ODP को पार्स करें, ODP पार्सर Python, Python में ODP से डेटा निकालें, Python का उपयोग करके ODP से टेक्स्ट निकालें, Python का उपयोग करके ODP से चित्र निकालें

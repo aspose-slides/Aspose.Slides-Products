@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge OTP Files into PPT Using Python
 url: /python-net/merge/otp-to-ppt/
 keywords: Merge OTP to PPT, Join OTP to PPT, Combine OTP to PPT, PowerPoint, Presentation, PPT, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak POTX Dosya Meta Verilerini Görüntüleyin veya Düzenleyin
 url: /tr/cpp/metadata/potx/
 keywords: POTX Meta Verilerini Düzenleyin, POTX Meta Verilerini Görüntüleyin, POTX özelliklerini düzenleyin, POTX özelliklerini görüntüleyin

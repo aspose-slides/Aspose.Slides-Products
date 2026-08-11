@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: استخراج متن و تصاویر از فایل‌های ODP با استفاده از Python
 url: /fa/python-net/parser/odp/
 keywords: تجزیه ODP با استفاده از Python، ODP تجزیه کننده Python، استخراج داده ها از ODP در Python، استخراج متن از ODP با استفاده از Python، استخراج تصاویر از ODP با استفاده از Python

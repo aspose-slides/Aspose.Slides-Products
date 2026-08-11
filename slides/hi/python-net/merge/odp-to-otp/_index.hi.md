@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके ODP फ़ाइलों को OTP में मर्ज करें
 url: /hi/python-net/merge/odp-to-otp/
 keywords: ODP को OTP में मिलाएं, ODP से OTP में शामिल हों, ODP से OTP, PowerPoint, प्रेजेंटेशन, OTP, Python, Aspose को मिलाएं

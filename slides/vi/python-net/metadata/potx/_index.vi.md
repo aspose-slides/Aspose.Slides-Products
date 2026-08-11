@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp POTX bằng Python
 url: /vi/python-net/metadata/potx/
 keywords: Chỉnh sửa siêu dữ liệu POTX, Xem siêu dữ liệu POTX, Chỉnh sửa thuộc tính POTX, Xem thuộc tính POTX

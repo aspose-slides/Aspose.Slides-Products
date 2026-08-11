@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPTX naar OTP in Node.js
 url: /nl/nodejs-java/conversion/pptx-to-otp/
 keywords: PPTX naar OTP, Converteer PPTX naar OTP, Node.js API, Node.js-bibliotheek, PPTX, OTP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPTX sang PPTM trong JavaScript
 url: /vi/nodejs-net/conversion/pptx-to-pptm/
 keywords: PPTX sang PPTM, Chuyển đổi PPTX sang PPTM, API Node.js, Thư viện JavaScript, PPTX, PPTM

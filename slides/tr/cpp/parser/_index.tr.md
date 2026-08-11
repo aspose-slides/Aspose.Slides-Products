@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak bir PowerPoint ve OpenOffice belgelerinden metin veya nesneleri ayıklayın
 url: /tr/cpp/parser/
 description: PowerPoint ve OpenOffice sunumlarından veri ayıklamak için C++ kaynak kodu.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام JPG به PDF در پایتون
 url: /fa/python-net/merge/jpg-to-pdf/
 keywords: JPG به PDF، ادغام JPG به PDF، پیوستن JPG به PDF، PDF، JPG، Python API، کتابخانه Python

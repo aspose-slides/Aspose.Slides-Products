@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java에서 PPT를 비디오로 변환
 url: /ko/java/conversion/ppt-to-video/
 keywords: PPT를 비디오로, PPT를 비디오로, PowerPoint를 비디오로, PPT를 MP4로, Java API, Java 라이브러리로 변환

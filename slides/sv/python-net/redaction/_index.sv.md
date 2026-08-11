@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigera PowerPoint- och OpenOffice-presentationer med Python
 url: /sv/python-net/redaction/
 description: Python-källkod för att hitta och ta bort innehåll i PowerPoint- och OpenOffice™-presentationer

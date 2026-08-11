@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPSX konvertálása PPS formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/ppsx-to-pps/
 keywords: PPSX to PPS, PPSX konvertálása PPS formátumba, Node.js API, JavaScript Library, PPSX, PPS

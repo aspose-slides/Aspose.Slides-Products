@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX را از طریق برنامه ++C به PPT تبدیل کنید
 weight: 870
 url: /fa/cpp/conversion/ppsx-to-ppt/ 

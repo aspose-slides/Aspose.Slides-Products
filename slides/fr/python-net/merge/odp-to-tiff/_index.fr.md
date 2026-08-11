@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers ODP vers TIFF à l'aide de Python
 url: /fr/python-net/merge/odp-to-tiff/
 keywords: Fusionner ODP à TIFF, Joindre ODP à TIFF, Combiner ODP à TIFF, PowerPoint, Présentation, TIFF, Python, Aspose

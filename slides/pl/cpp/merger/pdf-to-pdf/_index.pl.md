@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scalanie plików PDF w C++
 url: /pl/cpp/merger/pdf-to-pdf/
 keywords: Scal PDF, PDF do PDF, Dołącz do PDF, Połącz PDF, C++ API, C++ Library

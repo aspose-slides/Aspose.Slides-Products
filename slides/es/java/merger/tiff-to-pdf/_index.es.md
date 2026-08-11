@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Combinar TIFF a PDF en Java
 url: /es/java/merger/tiff-to-pdf/
 keywords: TIFF a PDF, Fusionar TIFF a PDF, Unir TIFF a PDF, PDF, TIFF, API de Java, Biblioteca de Java

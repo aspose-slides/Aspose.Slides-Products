@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal pliki PDF w Pythonie
 url: /pl/python-net/merge/pdf-to-pdf/
 keywords: Scal PDF, PDF do PDF, Dołącz PDF, Połącz PDF, Python API, Python Library

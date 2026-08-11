@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PNG do HTML v PHP
 url: /cs/php-java/conversion/png-to-html/
 keywords: PNG do HTML, Převést PNG do HTML, PHP API, PHP Library, PNG, HTML

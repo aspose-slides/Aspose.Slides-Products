@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#을 사용하여 Microsoft PowerPoint 프레젠테이션을 여러 파일로 변환
 url: /ko/net/conversion/
 description: Microsoft PowerPoint 슬라이드를 .NET Framework, .NET Core, Windows Azure, Mono 또는 Xamarin 플랫폼에서 PDF, HTML 및 이미지 형식을 비롯한 다양한 파일로 변환합니다.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit PPSM Metadata using C++
 url: /cpp/metadata/ppsm/
 keywords: Edit PPSM Metadata, View PPSM Metadata, Edit PPSM properties, View PPSM properties

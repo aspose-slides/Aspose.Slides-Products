@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTM Files and Export to TIFF Using Python
 url: /python-net/merge/pptm-to-tiff/
 keywords: Merge PPTM to TIFF, Join PPTM to TIFF, Combine PPTM to TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

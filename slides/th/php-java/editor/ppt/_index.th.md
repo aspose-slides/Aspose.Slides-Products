@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไข PPT ใน PHP
 url: /th/php-java/editor/ppt/
 keywords: แก้ไข PPT, แก้ไข PowerPoint, PPT, PowerPoint, PHP API, PHP Library

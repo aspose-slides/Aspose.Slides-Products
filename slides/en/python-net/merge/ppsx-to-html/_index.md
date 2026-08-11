@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSX Files to HTML Using Python
 url: /python-net/merge/ppsx-to-html/
 keywords: Merge PPSX to HTML, Join PPSX to HTML, Combine PPSX to HTML, PowerPoint, Presentation, HTML, Python, Aspose

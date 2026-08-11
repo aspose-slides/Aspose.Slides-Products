@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPTX โดยใช้ PHP
 url: /th/php-java/merger/pptx/
 keywords: รวม PPTX, เข้าร่วม PPTX, รวม PPTX, PowerPoint, งานนำเสนอ, PHP, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดูหรือแก้ไขข้อมูลเมตาของไฟล์ OTP โดยใช้ .NET
 url: /th/net/metadata/otp/
 keywords: แก้ไขข้อมูลเมตา OTP ดูข้อมูลเมตา OTP แก้ไขคุณสมบัติ OTP ดูคุณสมบัติ OTP

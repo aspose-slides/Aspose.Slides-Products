@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPSM ファイルのメタデータを表示または編集する
 url: /ja/python-net/metadata/ppsm/
 keywords: PPSM メタデータの編集、PPSM メタデータの表示、PPSM プロパティの編集、PPSM プロパティの表示

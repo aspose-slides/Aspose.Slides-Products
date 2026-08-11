@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPS ke FODP dengan Python
 url: /id/python-java/conversion/pps-to-fodp/
 keywords: Konversi presentasi Python, konversi presentasi ke Python, Python untuk presentasi, Aspose.Slides Python, konversi PPS ke FODP, pustaka presentasi Python

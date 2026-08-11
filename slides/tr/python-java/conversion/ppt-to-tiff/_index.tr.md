@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PPT'ı TIFF'a dönüştürün
 url: /tr/python-java/conversion/ppt-to-tiff/
 keywords: Python sunum dönüşümü, sunumları Python'a dönüştürme, Sunumlar için Python, Aspose.Slides Python, PPT'tan TIFF'a dönüştürme, Python sunum kitaplığı

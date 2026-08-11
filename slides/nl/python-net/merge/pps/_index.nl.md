@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Samenvoegen PPS bestanden met behulp van Python
 url: /nl/python-net/merge/pps/
 keywords: Samenvoegen PPS, Join PPS, Combineren PPS, PowerPoint, Presentatie, Python, Aspose

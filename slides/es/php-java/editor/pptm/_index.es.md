@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Editar PPTM en PHP
 url: /es/php-java/editor/pptm/
 keywords: Editar PPTM, Editar PowerPoint, PPTM, PowerPoint, API de PHP, Biblioteca de PHP

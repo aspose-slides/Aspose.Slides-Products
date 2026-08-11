@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPT в ODP в Node.js
 url: /ru/nodejs-java/conversion/ppt-to-odp/
 keywords: PPT в ODP, конвертировать PPT в ODP, API Node.js, библиотека Node.js, PPT, ODP

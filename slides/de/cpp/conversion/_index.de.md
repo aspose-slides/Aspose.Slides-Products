@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertierung von Microsoft PowerPoint-Präsentationen in verschiedene Formate mit C++
 url: /de/cpp/conversion/
 description: Konvertieren Sie Microsoft PowerPoint-Folien in mehrere Dateien, einschließlich HTML-, PDF- und Bildformate in C++-basierten Anwendungen.

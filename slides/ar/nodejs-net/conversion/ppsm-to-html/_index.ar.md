@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPSM إلى HTML في JavaScript
 url: /ar/nodejs-net/conversion/ppsm-to-html/
 keywords: PPSM إلى HTML، تحويل PPSM إلى HTML، Node.js API، مكتبة JavaScript، PPSM، HTML

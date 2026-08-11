@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to BMP in Python
 url: /python-java/conversion/pptm-to-bmp/
 keywords: Python PPTM conversion, PPTM to BMP, PowerPoint slide to BMP, presentation slide to image, Aspose.Slides for Python via Java

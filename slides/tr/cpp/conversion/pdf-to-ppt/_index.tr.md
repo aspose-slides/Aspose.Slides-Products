@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++'da PDF biçimini PPT biçimine dönüştürün
 url: /tr/cpp/conversion/pdf-to-ppt/
 keywords: PDF'tan PPT'a, PDF'ı PPT'a Dönüştür, C++ API, C++ Kitaplığı, PDF, PPT

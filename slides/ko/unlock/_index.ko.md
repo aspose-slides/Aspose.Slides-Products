@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux 및 macOS의 PowerPoint 파일에서 암호 제거
 url: /ko/unlock/
 description: PPT, PPTX 및 ODP 프레젠테이션에 대한 보호를 제거하는 API

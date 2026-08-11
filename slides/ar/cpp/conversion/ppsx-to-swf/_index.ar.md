@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPSX إلى SWF عبر تطبيق C ++
 url: /ar/cpp/conversion/ppsx-to-swf/ 
 description: نموذج لرمز تحويل C ++ لمستند PPSX إلى تنسيق SWF. استخدم رمز المثال للتحويل الدفعي من PPSX إلى SWF داخل أي تطبيق C ++.

@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PPT in Python
 url: /python-net/viewer/ppt/
 keywords: View PPT, View PowerPoint, Open PPT, PPT Viewer, PPT, PowerPoint, Python API, Python Library

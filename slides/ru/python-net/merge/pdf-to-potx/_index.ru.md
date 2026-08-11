@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PDF в POTX с помощью Python
 url: /ru/python-net/merge/pdf-to-potx/
 keywords: Объединить PDF в POTX, объединить PDF в POTX, объединить PDF в POTX, PowerPoint, презентацию, POTX, Python, Aspose

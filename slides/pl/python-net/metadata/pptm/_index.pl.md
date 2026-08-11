@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyświetl lub edytuj metadane plików PPTM za pomocą Python
 url: /pl/python-net/metadata/pptm/
 keywords: Edytuj metadane PPTM, Wyświetl metadane PPTM, Edytuj właściwości PPTM, Wyświetl właściwości PPTM

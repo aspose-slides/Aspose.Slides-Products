@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไข POTX ใน PHP
 url: /th/php-java/editor/potx/
 keywords: แก้ไข POTX, แก้ไข PowerPoint, POTX, PowerPoint, PHP API, PHP Library

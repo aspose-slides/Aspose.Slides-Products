@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل الصورة إلى PPTX في جافا
 url: /ar/java/conversion/image-to-pptx/
 keywords: تحويل الصورة إلى PPTX ، الصورة إلى PPTX ، PowerPoint ، الصورة ، PPTX ، Java API ، مكتبة Java

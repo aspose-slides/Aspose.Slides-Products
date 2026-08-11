@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPSM σε PDF χρησιμοποιώντας Python
 url: /el/python-net/merge/ppsm-to-pdf/
 keywords: Συγχώνευση PPSM σε PDF, Join PPSM σε PDF, Combine PPSM σε PDF, PowerPoint, Presentation, PDF, Python, Aspose

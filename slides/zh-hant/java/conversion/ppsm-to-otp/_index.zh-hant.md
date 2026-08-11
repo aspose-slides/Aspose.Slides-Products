@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 Java 將 PPSM 轉換為 OTP
 weight: 2540
 url: /zh-hant/java/conversion/ppsm-to-otp/ 

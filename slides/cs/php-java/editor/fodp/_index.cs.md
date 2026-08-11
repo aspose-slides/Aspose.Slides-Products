@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Upravte FODP v PHP
 url: /cs/php-java/editor/fodp/
 keywords: Upravit FODP, Upravit PowerPoint, FODP, PowerPoint, PHP API, PHP Library

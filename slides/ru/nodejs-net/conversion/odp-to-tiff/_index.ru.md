@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование ODP в TIFF в JavaScript
 url: /ru/nodejs-net/conversion/odp-to-tiff/
 keywords: ODP в TIFF, преобразование ODP в TIFF, Node.js API, библиотека JavaScript, ODP, TIFF

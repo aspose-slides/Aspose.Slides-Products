@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie ODP in PPT in JavaScript
 url: /de/nodejs-net/conversion/odp-to-ppt/
 keywords: ODP zu PPT, Konvertieren von ODP zu PPT, Node.js API, JavaScript-Bibliothek, ODP, PPT

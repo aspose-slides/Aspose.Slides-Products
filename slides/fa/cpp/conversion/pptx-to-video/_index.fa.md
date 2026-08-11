@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPTX به ویدیو در C++
 url: /fa/cpp/conversion/pptx-to-video/
 keywords: تبدیل PPTX به ویدیو، PPTX به ویدیو، پاورپوینت به ویدیو، PPTX به MP4، C++ API، کتابخانه C++

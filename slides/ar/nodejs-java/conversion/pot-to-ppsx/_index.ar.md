@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل POT إلى PPSX في Node.js
 url: /ar/nodejs-java/conversion/pot-to-ppsx/
 keywords: POT إلى PPSX، تحويل POT إلى PPSX، Node.js API، مكتبة Node.js، POT، PPSX

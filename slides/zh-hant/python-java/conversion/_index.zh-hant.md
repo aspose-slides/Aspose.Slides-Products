@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python 簡報轉換。使用 Aspose.Slides 輕鬆轉換簡報。
 url: /zh-hant/python-java/conversion/
 keywords: “轉換、PowerPoint、簡報、Python、Python 專案、Python 庫、PDF、轉換為 PDF、PPT 到 PDF”

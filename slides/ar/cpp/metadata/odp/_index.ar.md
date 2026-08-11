@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض أو تحرير ODP البيانات الوصفية للملفات باستخدام C++
 url: /ar/cpp/metadata/odp/
 keywords: تحرير ODP البيانات الوصفية ، عرض ODP البيانات الوصفية ، تحرير خصائص ODP ، عرض الخصائص ODP

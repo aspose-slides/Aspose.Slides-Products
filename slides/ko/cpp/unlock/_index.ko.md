@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 사용하여 PowerPoint 프레젠테이션에서 암호 제거
 url: /ko/cpp/unlock/
 description: 프레젠테이션의 잠금을 해제하는 C++ 소스 코드

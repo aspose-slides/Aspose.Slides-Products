@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPTX naar PPT in Node.js
 url: /nl/nodejs-java/conversion/pptx-to-ppt/
 keywords: PPTX naar PPT, Converteer PPTX naar PPT, Node.js API, Node.js-bibliotheek, PPTX, PPT

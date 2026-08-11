@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTM en FODP dans Node.js
 url: /fr/nodejs-java/conversion/pptm-to-fodp/
 keywords: PPTM en FODP, Convertir PPTM en FODP, API Node.js, Bibliothèque Node.js, PPTM, FODP

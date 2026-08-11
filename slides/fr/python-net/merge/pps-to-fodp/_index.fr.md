@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPS vers FODP à l'aide de Python
 url: /fr/python-net/merge/pps-to-fodp/
 keywords: Fusionner PPS à FODP, Joindre PPS à FODP, Combiner PPS à FODP, PowerPoint, Présentation, FODP, Python, Aspose

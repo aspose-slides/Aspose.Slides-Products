@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Połącz SVG z PNG w Javie
 url: /pl/java/merger/svg-to-png/
 keywords: Połącz SVG z PNG, SVG z PNG, Dołącz SVG do PNG, Połącz SVG z PNG, Java API, Java Library

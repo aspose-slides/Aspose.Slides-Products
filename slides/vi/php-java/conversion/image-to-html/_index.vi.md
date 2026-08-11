@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi Image thành HTML trong PHP
 url: /vi/php-java/conversion/image-to-html/
 keywords: Image sang HTML, Chuyển đổi Image sang HTML, API PHP, Thư viện PHP, Image, HTML

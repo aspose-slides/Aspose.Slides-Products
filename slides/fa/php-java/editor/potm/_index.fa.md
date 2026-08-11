@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTM را در PHP ویرایش کنید
 url: /fa/php-java/editor/potm/
 keywords: ویرایش POTM، ویرایش پاورپوینت، POTM، پاورپوینت، PHP API، کتابخانه PHP

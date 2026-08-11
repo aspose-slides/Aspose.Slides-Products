@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te POTX'ı POTM'a dönüştürün
 url: /tr/nodejs-net/conversion/potx-to-potm/
 keywords: POTX'tan POTM'a, POTX'ı POTM'a dönüştürün, Node.js API, JavaScript Kitaplığı, POTX, POTM

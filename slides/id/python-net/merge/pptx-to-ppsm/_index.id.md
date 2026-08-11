@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPTX Ke PPSM Menggunakan Python
 url: /id/python-net/merge/pptx-to-ppsm/
 keywords: Gabungkan PPTX ke PPSM, Gabungkan PPTX ke PPSM, Gabungkan PPTX ke PPSM, PowerPoint, Presentasi, PPSM, Python, Aspose

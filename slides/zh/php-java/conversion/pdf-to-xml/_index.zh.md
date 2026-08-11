@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 PDF 转换为 XML
 url: /zh/php-java/conversion/pdf-to-xml/
 keywords: PDF 到 XML，将 PDF 转换为 XML，PHP API，PHP 库，PDF，XML

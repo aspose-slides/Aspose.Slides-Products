@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta PPTM a SWF a través de la aplicación C++
 url: /es/cpp/conversion/pptm-to-swf/ 
 description: Ejemplo de código de conversión de C++ para documento PPTM a formato SWF. Utilice un código de ejemplo para la conversión por lotes de PPTM a SWF dentro de cualquier aplicación C++.

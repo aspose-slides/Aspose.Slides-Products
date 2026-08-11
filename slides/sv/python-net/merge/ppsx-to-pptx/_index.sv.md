@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPSX-filer till PPTX med Python
 url: /sv/python-net/merge/ppsx-to-pptx/
 keywords: Slå samman PPSX till PPTX, gå med PPSX till PPTX, kombinera PPSX till PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

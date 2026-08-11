@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 PPSX 轉換為 POT
 url: /zh-hant/nodejs-java/conversion/ppsx-to-pot/
 keywords: PPSX 到 POT、將 PPSX 轉換為 POT、Node.js API、Node.js 庫、PPSX、POT

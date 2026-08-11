@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPTM-filer till XPS med Python
 url: /sv/python-net/merge/pptm-to-xps/
 keywords: Slå samman PPTM till XPS, gå med PPTM till XPS, kombinera PPTM till XPS, PowerPoint, Presentation, XPS, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPTM ke SWF melalui aplikasi C++
 url: /id/cpp/conversion/pptm-to-swf/ 
 description: Contoh kode konversi C++ untuk dokumen PPTM ke format SWF. Gunakan kode contoh untuk konversi batch PPTM ke SWF dalam Aplikasi C++ apa pun.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های ODP را با BMP ادغام کنید
 url: /fa/python-net/merge/odp-to-bmp/
 keywords: ادغام ODP به BMP، پیوستن به ODP به BMP، ترکیب ODP به BMP، PowerPoint، Presentation، BMP، Python، Aspose

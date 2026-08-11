@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTM Files to ODP Using Python
 url: /python-net/merge/pptm-to-odp/
 keywords: Merge PPTM to ODP, Join PPTM to ODP, Combine PPTM to ODP, PowerPoint, Presentation, ODP, Python, Aspose

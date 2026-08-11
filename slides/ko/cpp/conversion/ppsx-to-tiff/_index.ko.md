@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ 응용 프로그램을 통해 PPSX를 TIFF로 변환
 weight: 3000
 url: /ko/cpp/conversion/ppsx-to-tiff/ 

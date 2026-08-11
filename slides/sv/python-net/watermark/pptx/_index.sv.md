@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lägg till vattenstämpel i PPTX presentationsfiler med Python
 url: /sv/python-net/watermark/pptx/
 keywords: Lägg till vattenstämpel PPTX, Lägg till textvattenstämpel PPTX, Lägg till bildvattenstämpel PPTX

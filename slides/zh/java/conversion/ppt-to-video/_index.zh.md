@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中将 PPT 转换为视频
 url: /zh/java/conversion/ppt-to-video/
 keywords: 转换 PPT 为视频，PPT 为视频，PowerPoint 为视频，PPT 为 MP4，Java API，Java 库

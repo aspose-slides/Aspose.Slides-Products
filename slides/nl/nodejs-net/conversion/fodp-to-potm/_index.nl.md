@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer FODP naar POTM in JavaScript
 url: /nl/nodejs-net/conversion/fodp-to-potm/
 keywords: FODP naar POTM, Converteer FODP naar POTM, Node.js API, JavaScript-bibliotheek, FODP, POTM

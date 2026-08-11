@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPS फ़ाइलों को ODP में मर्ज करें
 url: /hi/python-net/merge/pps-to-odp/
 keywords: PPS को ODP में मिलाएं, PPS से ODP में शामिल हों, PPS से ODP, PowerPoint, प्रेजेंटेशन, ODP, Python, Aspose को मिलाएं

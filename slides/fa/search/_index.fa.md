@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: جستجوی متن در فایل های پاورپوینت در ویندوز، لینوکس و macOS
 url: /fa/search/
 description: APIها برای جستجوی متن در PPT، PPTX و ODP Presentations

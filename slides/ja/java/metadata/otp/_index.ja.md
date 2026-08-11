@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java を使用して OTP ファイルのメタデータを表示または編集する
 url: /ja/java/metadata/otp/
 keywords: OTP メタデータの編集、OTP メタデータの表示、OTP プロパティの編集、OTP プロパティの表示

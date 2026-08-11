@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPS fájlok metaadatainak megtekintése vagy szerkesztése a Java használatával
 url: /hu/java/metadata/pps/
 keywords: PPS metaadatok szerkesztése, PPS metaadatok megtekintése, PPS tulajdonságok szerkesztése, PPS tulajdonságok megtekintése

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج الصورة في BMP في Python
 url: /ar/python-net/merge/image-to-bmp/
 keywords: صورة إلى BMP ، دمج الصورة في BMP ، ربط الصورة إلى BMP ، دمج الصور ، الصورة ، BMP ، Python API ، مكتبة Python

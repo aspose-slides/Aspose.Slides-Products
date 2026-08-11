@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 ODP을 BMP으로 변환
 url: /ko/python-java/conversion/odp-to-bmp/
 keywords: Python 프레젠테이션 변환, 프레젠테이션을 Python으로 변환, 프레젠테이션용 Python, Aspose.Slides Python, ODP에서 BMP으로 변환, Python 프레젠테이션 라이브러리

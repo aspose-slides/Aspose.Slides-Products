@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Menggabungkan JPG ke PDF dalam C++
 url: /id/cpp/merger/jpg-to-pdf/
 keywords: JPG ke PDF, Gabungkan JPG ke PDF, Gabungkan JPG ke PDF, PDF, JPG, C++ API, Perpustakaan C++

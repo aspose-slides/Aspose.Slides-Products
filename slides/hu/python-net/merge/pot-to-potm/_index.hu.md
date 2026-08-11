@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a POT fájlokat a POTM formátumba Python használatával
 url: /hu/python-net/merge/pot-to-potm/
 keywords: A(z) POT egyesítése a(z) POTM formátumba, a(z) POT csatlakozása a(z) POTM formátumba, a(z)(POT) összevonása a(z) POTM formátumba, PowerPoint, Presentation, POTM, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTX-filer till PPSX med Python
 url: /sv/python-net/merge/potx-to-ppsx/
 keywords: Slå samman POTX till PPSX, gå med POTX till PPSX, kombinera POTX till PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

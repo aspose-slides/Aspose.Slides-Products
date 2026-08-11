@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PNG ke PPTX di Jawa
 url: /id/java/conversion/png-to-pptx/
 keywords: Konversi PNG ke PPTX, PNG ke PPTX, PowerPoint, PNG, PPTX, API Java, Perpustakaan Java

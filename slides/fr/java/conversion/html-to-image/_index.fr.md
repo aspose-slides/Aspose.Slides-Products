@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir HTML en Image en Java
 url: /fr/java/conversion/html-to-image/
 keywords: HTML en Image, Convertir HTML en Image, API Java, Bibliothèque Java, HTML, Image

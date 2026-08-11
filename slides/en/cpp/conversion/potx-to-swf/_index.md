@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to SWF Using C++
 url: /cpp/conversion/potx-to-swf/
 description: C++ conversion code for POTX to SWF. Use the example code for batch POTX to SWF conversion in C++ applications.

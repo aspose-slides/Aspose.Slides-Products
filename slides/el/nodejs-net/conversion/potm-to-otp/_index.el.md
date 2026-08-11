@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή POTM σε OTP σε JavaScript
 url: /el/nodejs-net/conversion/potm-to-otp/
 keywords: POTM σε OTP, Μετατροπή POTM σε OTP, Node.js API, JavaScript Library, POTM, OTP

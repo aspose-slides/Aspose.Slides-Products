@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) PNG fájlt PDF formátumra a Pythonban
 url: /hu/python-net/conversion/png-to-pdf/
 keywords: PNG to PDF, PNG konvertálása PDF formátumba, Python API, Python Library, PNG, PDF

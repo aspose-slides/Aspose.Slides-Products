@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigera PowerPoint- och OpenOffice-presentationer med Java
 url: /sv/java/redaction/
 description: Java-källkod för att hitta och ta bort innehåll i PowerPoint- och OpenOffice™-presentationer

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POTX ke PNG di Node.js
 url: /id/nodejs-java/conversion/potx-to-png/
 keywords: POTX ke PNG, Konversi POTX ke PNG, API Node.js, Pustaka Node.js, POTX, PNG

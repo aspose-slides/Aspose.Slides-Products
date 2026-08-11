@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POTM เข้ากับ FODP โดยใช้ Python
 url: /th/python-net/merge/potm-to-fodp/
 keywords: รวม POTM เป็น FODP เข้าร่วม POTM ถึง FODP รวม POTM เป็น FODP PowerPoint การนำเสนอ FODP Python Aspose

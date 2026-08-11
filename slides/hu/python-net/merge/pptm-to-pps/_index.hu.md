@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPTM fájlokat a PPS formátumba Python használatával
 url: /hu/python-net/merge/pptm-to-pps/
 keywords: A(z) PPTM egyesítése a(z) PPS formátumba, a(z) PPTM csatlakozása a(z) PPS formátumba, a(z)(PPTM) összevonása a(z) PPS formátumba, PowerPoint, Presentation, PPS, Python, Aspose

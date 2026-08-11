@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPTX را با JPG ادغام کنید
 url: /fa/python-net/merge/pptx-to-jpg/
 keywords: ادغام PPTX به JPG، پیوستن به PPTX به JPG، ترکیب PPTX به JPG، PowerPoint، Presentation، JPG، Python، Aspose

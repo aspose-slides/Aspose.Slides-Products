@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 查看或編輯 POTM 文件元數據
 url: /zh-hant/java/metadata/potm/
 keywords: 編輯 POTM 元數據，查看 POTM 元數據，編輯 POTM 屬性，查看 POTM 屬性

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Удалить пароль из презентации PowerPoint с помощью Python
 url: /ru/python-net/unlock/
 description: Исходный код Python для разблокировки презентации

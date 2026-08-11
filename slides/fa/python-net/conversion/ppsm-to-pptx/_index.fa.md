@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSM را در پایتون به PPTX تبدیل کنید
 weight: 1940
 url: /fa/python-net/conversion/ppsm-to-pptx/ 

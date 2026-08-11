@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPTX vers JPG à l'aide de Python
 url: /fr/python-net/merge/pptx-to-jpg/
 keywords: Fusionner PPTX à JPG, Joindre PPTX à JPG, Combiner PPTX à JPG, PowerPoint, Présentation, JPG, Python, Aspose

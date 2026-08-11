@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات FODP إلى PPSM باستخدام Python
 url: /ar/python-net/merge/fodp-to-ppsm/
 keywords: دمج FODP إلى PPSM ، انضم إلى FODP إلى PPSM ، ادمج FODP إلى PPSM ، PowerPoint ، Presentation ، PPSM ، Python ، Aspose

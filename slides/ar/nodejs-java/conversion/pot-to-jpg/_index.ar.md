@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل POT إلى JPG في Node.js
 url: /ar/nodejs-java/conversion/pot-to-jpg/
 keywords: POT إلى JPG، تحويل POT إلى JPG، Node.js API، مكتبة Node.js، POT، JPG

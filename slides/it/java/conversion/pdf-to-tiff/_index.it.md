@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PDF in TIFF in Java
 url: /it/java/conversion/pdf-to-tiff/
 keywords: PDF in TIFF, conversione di PDF in TIFF, API Java, libreria Java, PDF, TIFF

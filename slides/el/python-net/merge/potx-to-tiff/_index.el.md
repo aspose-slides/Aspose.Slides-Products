@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων POTX σε TIFF χρησιμοποιώντας Python
 url: /el/python-net/merge/potx-to-tiff/
 keywords: Συγχώνευση POTX σε TIFF, Join POTX σε TIFF, Combine POTX σε TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

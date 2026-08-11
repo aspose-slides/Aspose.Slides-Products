@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPS را با PPTX ادغام کنید
 url: /fa/python-net/merge/pps-to-pptx/
 keywords: ادغام PPS به PPTX، پیوستن به PPS به PPTX، ترکیب PPS به PPTX، PowerPoint، Presentation، PPTX، Python، Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPT a GIF usando Python
 url: /es/python-net/merge/ppt-to-gif/
 keywords: Combinar PPT a GIF, unir PPT a GIF, combinar PPT a GIF, PowerPoint, Presentation, GIF, Python, Aspose

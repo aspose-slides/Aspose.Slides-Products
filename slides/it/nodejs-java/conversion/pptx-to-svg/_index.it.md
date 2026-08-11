@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPTX in SVG in Node.js
 url: /it/nodejs-java/conversion/pptx-to-svg/
 keywords: PPTX in SVG, Converti PPTX in SVG, API Node.js, Libreria Node.js, PPTX, SVG

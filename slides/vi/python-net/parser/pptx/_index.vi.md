@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Trích xuất Văn bản và Hình ảnh từ Tệp PPTX bằng Python
 url: /vi/python-net/parser/pptx/
 keywords: phân tích cú pháp PPTX bằng Python, trình phân tích cú pháp PPTX Python, trích xuất dữ liệu từ PPTX trong Python, trích xuất văn bản từ PPTX bằng Python, trích xuất hình ảnh từ PPTX bằng Python

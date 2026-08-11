@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj POTX na PPT w Node.js
 url: /pl/nodejs-java/conversion/potx-to-ppt/
 keywords: POTX na PPT, Konwertuj POTX na PPT, API Node.js, Biblioteka Node.js, POTX, PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PDF'yi Java'da düzenleyin
 url: /tr/java/editor/pdf/
 keywords: PDF, PDF, Java API, Java Kitaplığını Düzenle

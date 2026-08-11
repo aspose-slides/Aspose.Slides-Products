@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-31
 title: View OTP in C++
 url: /cpp/viewer/otp/
 keywords: View OTP, Open OTP, OTP Viewer, OTP, C++ API, C++ Library, CPP

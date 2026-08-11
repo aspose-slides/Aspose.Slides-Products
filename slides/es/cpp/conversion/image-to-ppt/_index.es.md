@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir imagen a PPT en C++
 url: /es/cpp/conversion/image-to-ppt/
 keywords: Imagen a PPT, Convertir imagen a PPT, API de C++, Biblioteca de C++, Imagen, PPT

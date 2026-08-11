@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View and Edit Presentation Metadata using C++
 url: /cpp/metadata/
 description: View and edit presentation metadata in C++. Use Aspose.Slides for C++ to update built-in and custom properties in PowerPoint and OpenDocument files.

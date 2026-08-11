@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPT را با TIFF ادغام کنید
 url: /fa/python-net/merge/ppt-to-tiff/
 keywords: ادغام PPT به TIFF، پیوستن به PPT به TIFF، ترکیب PPT به TIFF، PowerPoint، Presentation، TIFF، Python، Aspose

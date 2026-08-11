@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Microsoft PowerPoint prezentáció konvertálása különféle formátumokra C++ használatával
 url: /hu/cpp/conversion/
 description: Konvertálja a Microsoft PowerPoint diákat több fájllá, beleértve a HTML-t, PDF-t és képformátumokat a C++ alapú alkalmazásokban.

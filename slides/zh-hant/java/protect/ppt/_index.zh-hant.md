@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 保護 PPT 演示文件
 url: /zh-hant/java/protect/ppt/
 keywords: 寫保護 PPT，加密 PPT，鎖定 PPT 演示文稿，保護 PPT

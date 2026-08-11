@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POTX Dosyalarını PPTX İle Birleştirin
 url: /tr/python-net/merge/potx-to-pptx/
 keywords: POTX'ı PPTX ile birleştir, POTX ile PPTX'a katıl, POTX'ı PPTX ile birleştir, PowerPoint, Presentation, PPTX, Python, Aspose

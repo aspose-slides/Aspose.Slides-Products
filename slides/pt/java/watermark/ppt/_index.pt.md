@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Adicionar marca d'água a arquivos de apresentação PPT usando Java
 url: /pt/java/watermark/ppt/
 keywords: Adicionar marca d'água PPT, Adicionar marca d'água de texto PPT, Adicionar marca d'água de imagem PPT

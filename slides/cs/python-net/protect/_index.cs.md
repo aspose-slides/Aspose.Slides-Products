@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zamknout nebo chránit prezentaci heslem pomocí Pythonu
 url: /cs/python-net/protect/
 description: Zdrojový kód Pythonu pro nastavení hesla pro uzamčení prezentace

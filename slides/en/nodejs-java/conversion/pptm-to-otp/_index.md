@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to OTP in Node.js
 url: /nodejs-java/conversion/pptm-to-otp/
 keywords: PPTM to OTP, Convert PPTM to OTP, Node.js API, Node.js Library, PPTM, OTP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyszukaj tekst w plikach prezentacji ODP za pomocą Java
 url: /pl/java/search/odp/
 keywords: wyszukaj słowa w ODP, wyszukaj i zamień tekst w ODP, wyszukaj tekst ODP Prezentacja

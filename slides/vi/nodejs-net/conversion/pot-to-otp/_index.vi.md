@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POT sang OTP trong JavaScript
 url: /vi/nodejs-net/conversion/pot-to-otp/
 keywords: POT sang OTP, Chuyển đổi POT sang OTP, API Node.js, Thư viện JavaScript, POT, OTP

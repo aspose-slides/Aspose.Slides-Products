@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: أضف علامة مائية إلى عرض PowerPoint التقديمي باستخدام Java
 url: /ar/java/watermark/
 description: كود مصدر جافا لعرض العلامة المائية

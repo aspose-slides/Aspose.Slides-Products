@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPSM ファイルを XPS にマージ
 url: /ja/python-net/merge/ppsm-to-xps/
 keywords: PPSM を XPS に結合、PPSM を XPS に結合、PPSM を XPS に結合、PowerPoint、プレゼンテーション、XPS、Python、Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lindungi File Presentasi PPT menggunakan Python
 url: /id/python-net/protect/ppt/
 keywords: Perlindungan Tulis PPT, Enkripsi PPT, Kunci Presentasi PPT, Lindungi PPT

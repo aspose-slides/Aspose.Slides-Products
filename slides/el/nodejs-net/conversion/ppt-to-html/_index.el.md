@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPT σε HTML σε JavaScript
 url: /el/nodejs-net/conversion/ppt-to-html/
 keywords: PPT σε HTML, Μετατροπή PPT σε HTML, Node.js API, JavaScript Library, PPT, HTML

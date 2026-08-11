@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 POT 转换为 PDF
 url: /zh/nodejs-net/conversion/pot-to-pdf/
 keywords: POT 到 PDF、将 POT 转换为 PDF、Node.js API、JavaScript 库、POT、PDF

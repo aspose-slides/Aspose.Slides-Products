@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) PNG fájlt SVG formátumra Java nyelven
 url: /hu/java/conversion/png-to-svg/
 keywords: PNG to SVG, PNG konvertálása SVG formátumba, Java API, Java Library, PNG, SVG

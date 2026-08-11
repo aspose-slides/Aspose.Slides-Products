@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Поиск текста в презентациях PowerPoint и OpenOffice с использованием .NET
 url: /ru/net/search/
 description: Исходный код C# для поиска слов по образцу в презентациях PowerPoint и OpenOffice™

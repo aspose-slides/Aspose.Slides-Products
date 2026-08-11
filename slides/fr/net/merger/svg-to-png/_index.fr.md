@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner SVG en PNG en C#
 url: /fr/net/merger/svg-to-png/
 keywords: Fusionner SVG vers PNG, SVG vers PNG, Joindre SVG vers PNG, Combiner SVG vers PNG, API C#, Bibliothèque .NET

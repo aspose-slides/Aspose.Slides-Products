@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PNG thành HTML trong PHP
 url: /vi/php-java/conversion/png-to-html/
 keywords: PNG sang HTML, Chuyển đổi PNG sang HTML, API PHP, Thư viện PHP, PNG, HTML

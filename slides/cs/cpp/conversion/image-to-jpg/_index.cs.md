@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte Image do JPG v C++
 url: /cs/cpp/conversion/image-to-jpg/
 keywords: Image do JPG, Převést Image do JPG, C++ API, C++ Library, Image, JPG

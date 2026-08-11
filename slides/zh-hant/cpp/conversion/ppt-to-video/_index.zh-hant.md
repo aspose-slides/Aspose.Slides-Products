@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在C++中將PPT轉換為視頻
 url: /zh-hant/cpp/conversion/ppt-to-video/
 keywords: 將 PPT 轉換為視頻，將 PPT 轉換為視頻，將 PowerPoint 轉換為視頻，將 PPT 轉換為 MP4，C++ API，C++ 庫

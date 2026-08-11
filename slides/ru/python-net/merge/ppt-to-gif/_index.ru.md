@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PPT в GIF с помощью Python
 url: /ru/python-net/merge/ppt-to-gif/
 keywords: Объединить PPT в GIF, объединить PPT в GIF, объединить PPT в GIF, PowerPoint, презентацию, GIF, Python, Aspose

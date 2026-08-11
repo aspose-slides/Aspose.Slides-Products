@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 將 POTX 文件合併到 GIF
 url: /zh-hant/python-net/merge/potx-to-gif/
 keywords: 將 POTX 合併到 GIF，將 POTX 連接到 GIF，將 POTX 合併到 GIF，PowerPoint，演示文稿，GIF，Python，Aspose

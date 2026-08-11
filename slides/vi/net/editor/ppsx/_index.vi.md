@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chỉnh sửa tệp PPSX qua .NET
 url: /vi/net/editor/ppsx/ 
 description: Mã nguồn C# để chỉnh sửa tài liệu PPSX trên Nền tảng .NET Framework, .NET Core, Windows Azure, Mono hoặc Xamarin.

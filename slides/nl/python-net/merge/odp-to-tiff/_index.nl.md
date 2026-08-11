@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg ODP-bestanden samen naar TIFF met Python
 url: /nl/python-net/merge/odp-to-tiff/
 keywords: Voeg ODP samen tot TIFF, voeg ODP toe aan TIFF, combineer ODP tot TIFF, PowerPoint, Presentatie, TIFF, Python, Aspose

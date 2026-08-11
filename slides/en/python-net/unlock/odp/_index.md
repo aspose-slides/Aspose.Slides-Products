@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unlock ODP Presentations with Python
 url: /python-net/unlock/odp/
 keywords: unlock ODP, remove password from ODP, remove ODP encryption, remove write protection from ODP

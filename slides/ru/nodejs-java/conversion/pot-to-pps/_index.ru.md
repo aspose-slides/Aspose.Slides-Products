@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование POT в PPS в Node.js
 url: /ru/nodejs-java/conversion/pot-to-pps/
 keywords: POT в PPS, конвертировать POT в PPS, API Node.js, библиотека Node.js, POT, PPS

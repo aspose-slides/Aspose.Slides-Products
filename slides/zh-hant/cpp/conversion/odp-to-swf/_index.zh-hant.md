@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 C++ 應用程序將 ODP 轉換為 SWF
 url: /zh-hant/cpp/conversion/odp-to-swf/ 
 description: ODP 文檔到 SWF 格式的示例 C++ 轉換代碼。在任何 C++ 應用程序中使用示例代碼進行批量 ODP 到 SWF 轉換。

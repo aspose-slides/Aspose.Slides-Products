@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyszukuj tekst w plikach programu PowerPoint w systemach Windows, Linux i macOS
 url: /pl/search/
 description: Interfejsy API do wyszukiwania tekstu w prezentacjach PPT, PPTX i ODP

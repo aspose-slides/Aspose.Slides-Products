@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux और macOS पर PowerPoint फ़ाइलों से पासवर्ड निकालें
 url: /hi/unlock/
 description: पीपीटी, पीपीटीएक्स और ओडीपी प्रस्तुतियों से सुरक्षा हटाने के लिए एपीआई

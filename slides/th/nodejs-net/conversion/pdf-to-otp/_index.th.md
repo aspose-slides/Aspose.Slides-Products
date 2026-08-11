@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PDF เป็น OTP ใน JavaScript
 url: /th/nodejs-net/conversion/pdf-to-otp/
 keywords: PDF เป็น OTP, แปลง PDF เป็น OTP, Node.js API, ไลบรารี JavaScript, PDF, OTP

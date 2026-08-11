@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTM a POT usando Python
 url: /es/python-net/merge/potm-to-pot/
 keywords: Combinar POTM a POT, unir POTM a POT, combinar POTM a POT, PowerPoint, Presentation, POT, Python, Aspose

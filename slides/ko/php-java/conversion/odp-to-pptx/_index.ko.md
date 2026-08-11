@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP에서 ODP을 PPTX으로 변환
 weight: 380
 url: /ko/php-java/conversion/odp-to-pptx/ 

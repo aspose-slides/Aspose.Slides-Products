@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF thành SVG trong C++
 url: /vi/cpp/conversion/pdf-to-svg/
 keywords: PDF sang SVG, Chuyển đổi PDF sang SVG, API C++, Thư viện C++, PDF, SVG

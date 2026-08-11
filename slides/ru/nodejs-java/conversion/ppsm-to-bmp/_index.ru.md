@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPSM в BMP в Node.js
 url: /ru/nodejs-java/conversion/ppsm-to-bmp/
 keywords: PPSM в BMP, конвертировать PPSM в BMP, API Node.js, библиотека Node.js, PPSM, BMP

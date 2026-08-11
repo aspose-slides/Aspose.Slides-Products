@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversion de présentation Python. Convertissez sans effort des présentations à l’aide d’Aspose.Slides.
 url: /fr/python-java/conversion/
 keywords: "Convertir, PowerPoint, Présentation, Python, projets Python, bibliothèques Python, PDF, Convertir en PDF, PPT en PDF"

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar SVG para PNG em C#
 url: /pt/net/merger/svg-to-png/
 keywords: Mesclar SVG para PNG, SVG para PNG, Juntar SVG para PNG, Combinar SVG para PNG, C# API, Biblioteca .NET

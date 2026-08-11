@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti ODP in BMP tramite l'applicazione C++
 weight: 4570
 url: /it/cpp/conversion/odp-to-bmp/ 

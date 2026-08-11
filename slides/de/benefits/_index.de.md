@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-12-08
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vorteile von Aspose.Slides-Produkten
 weight: 1370
 url: /de/benefits/

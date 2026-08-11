@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP에서 JPG 이미지 병합
 url: /ko/php-java/merger/jpg-to-jpg/
 keywords: JPG, JPEG를 JPG로 병합, JPG 가입, JPG 결합, PHP API, PHP 라이브러리

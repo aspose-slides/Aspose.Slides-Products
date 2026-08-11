@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++을(를) 사용하여 FODP 파일 메타데이터 보기 또는 편집
 url: /ko/cpp/metadata/fodp/
 keywords: FODP 메타데이터 수정, FODP 메타데이터 보기, FODP 속성 수정, FODP 속성 보기

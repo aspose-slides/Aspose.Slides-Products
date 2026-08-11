@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Watermarks to PowerPoint Presentations with Python
 url: /python-net/watermark/
 description: Add text and image watermarks to PowerPoint and OpenDocument presentations with Python and Aspose.Slides.

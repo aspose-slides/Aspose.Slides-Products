@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lock atau Password Protect Presentation menggunakan Java
 url: /id/java/protect/
 description: Kode sumber Java untuk mengatur kata sandi untuk mengunci presentasi

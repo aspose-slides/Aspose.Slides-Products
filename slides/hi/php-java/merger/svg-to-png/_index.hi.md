@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में SVG को PNG में मर्ज करें
 url: /hi/php-java/merger/svg-to-png/
 keywords: SVG को PNG में मर्ज करें, SVG को PNG में, SVG को PNG में मिलाएँ, SVG को PNG में मिलाएँ, PHP API, PHP लाइब्रेरी

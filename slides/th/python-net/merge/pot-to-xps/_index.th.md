@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POT เข้ากับ XPS โดยใช้ Python
 url: /th/python-net/merge/pot-to-xps/
 keywords: รวม POT เป็น XPS เข้าร่วม POT ถึง XPS รวม POT เป็น XPS PowerPoint การนำเสนอ XPS Python Aspose

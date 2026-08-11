@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extract Text from PPT Files with Python
 url: /python-net/parser/ppt/
 keywords: parse PPT with Python, PPT parser Python, extract data from PPT in Python, extract text from PPT with Python

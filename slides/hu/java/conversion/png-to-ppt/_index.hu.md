@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PNG konvertálása PPT-re Java nyelven
 url: /hu/java/conversion/png-to-ppt/
 keywords: PNG konvertálása PPT-re, PNG konvertálása PPT-re, PowerPoint, PNG, PPT, Java API, Java Library

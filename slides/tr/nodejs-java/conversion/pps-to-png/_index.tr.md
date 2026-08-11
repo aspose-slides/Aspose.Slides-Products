@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js'de PPS'ı PNG'a dönüştürün
 url: /tr/nodejs-java/conversion/pps-to-png/
 keywords: PPS'tan PNG'a, PPS'ı PNG'a dönüştürün, Node.js API'si, Node.js Kitaplığı, PPS, PNG

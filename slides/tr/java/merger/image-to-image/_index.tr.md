@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da Görüntüleri Birleştirme
 url: /tr/java/merger/image-to-image/
 keywords: Görüntüyü birleştirme, görüntüden görüntüye, Görüntüleri birleştirme, Görüntüleri birleştirme, Java API, Java Kitaplığı

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất hình ảnh thành BMP trong PHP
 url: /vi/php-java/merger/image-to-bmp/
 keywords: Hình ảnh thành BMP, Hợp nhất hình ảnh thành BMP, Nối hình ảnh thành BMP, Kết hợp hình ảnh, Hình ảnh, BMP, API PHP, Thư viện PHP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit PPSX File Metadata Using Java
 url: /java/metadata/ppsx/
 keywords: Edit PPSX Metadata, View PPSX Metadata, Edit PPSX properties, View PPSX properties

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ で PPT を Word に変換する
 url: /ja/cpp/conversion/ppt-to-word/
 keywords: PPT を Word に、PPT を Word に、PPT を DOC に、PowerPoint を Word に、C++ API、C++ ライブラリ、CPP に変換

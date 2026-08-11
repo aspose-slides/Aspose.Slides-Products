@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 將水印添加到 PowerPoint 演示文稿
 url: /zh-hant/python-net/watermark/
 description: Python 源代碼到 Watermark 演示文稿

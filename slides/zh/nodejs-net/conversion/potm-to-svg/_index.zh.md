@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 POTM 转换为 SVG
 url: /zh/nodejs-net/conversion/potm-to-svg/
 keywords: POTM 到 SVG、将 POTM 转换为 SVG、Node.js API、JavaScript 库、POTM、SVG

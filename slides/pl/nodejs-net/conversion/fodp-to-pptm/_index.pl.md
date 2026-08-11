@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj FODP na PPTM w JavaScript
 url: /pl/nodejs-net/conversion/fodp-to-pptm/
 keywords: FODP na PPTM, Konwertuj FODP na PPTM, API Node.js, Biblioteka JavaScript, FODP, PPTM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PDF-bestanden samen naar ODP met Python
 url: /nl/python-net/merge/pdf-to-odp/
 keywords: Voeg PDF samen tot ODP, voeg PDF toe aan ODP, combineer PDF tot ODP, PowerPoint, Presentatie, ODP, Python, Aspose

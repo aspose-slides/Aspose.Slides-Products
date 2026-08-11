@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPTM thành TIFF trong Node.js
 url: /vi/nodejs-java/conversion/pptm-to-tiff/
 keywords: PPTM sang TIFF, Chuyển đổi PPTM sang TIFF, API Node.js, Thư viện Node.js, PPTM, TIFF

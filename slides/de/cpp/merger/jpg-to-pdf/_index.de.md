@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG mit PDF in C++ zusammenführen
 url: /de/cpp/merger/jpg-to-pdf/
 keywords: JPG zu PDF, JPG zu PDF zusammenführen, JPG zu PDF verbinden, PDF, JPG, C++ API, C++ Bibliothek

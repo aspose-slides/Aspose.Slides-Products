@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPTX über eine C++-Anwendung in SWF
 url: /de/cpp/conversion/pptx-to-swf/ 
 description: Beispiel-C++-Konvertierungscode für ein PPTX-Dokument in das SWF-Format. Verwenden Sie Beispielcode für die Batch-Umwandlung von PPTX in SWF in einer beliebigen C++-Anwendung.

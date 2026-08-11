@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ ile PPT'yi Word'e dönüştürün
 url: /tr/cpp/conversion/ppt-to-word/
 keywords: PPT'yi Word'e, PPT'yi Word'e, PPT'yi DOC'a, PowerPoint'i Word'e, C++ API'sini, C++ Kitaplığını, CPP'ye dönüştürün

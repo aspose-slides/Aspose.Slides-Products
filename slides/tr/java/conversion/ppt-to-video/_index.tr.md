@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da PPT'yi Videoya Dönüştür
 url: /tr/java/conversion/ppt-to-video/
 keywords: PPT'yi videoya, PPT'yi videoya, PowerPoint'i videoya, PPT'yi MP4'e, Java API'sini, Java Kitaplığını dönüştürün

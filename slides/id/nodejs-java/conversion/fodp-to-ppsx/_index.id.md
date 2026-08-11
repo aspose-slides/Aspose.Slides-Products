@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan FODP ke PPSX di Node.js
 url: /id/nodejs-java/conversion/fodp-to-ppsx/
 keywords: FODP ke PPSX, Konversi FODP ke PPSX, API Node.js, Pustaka Node.js, FODP, PPSX

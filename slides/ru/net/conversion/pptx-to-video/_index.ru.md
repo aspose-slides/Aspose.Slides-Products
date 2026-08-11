@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTX в видео на C#
 url: /ru/net/conversion/pptx-to-video/
 keywords: Преобразование PPTX в видео, PPTX в видео, PowerPoint в видео, PPTX в MP4, API C#, библиотека .NET.

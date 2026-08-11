@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü Python'da PPTX'e Dönüştür
 url: /tr/python-net/conversion/image-to-pptx/
 keywords: Görüntüyü PPTX'e, Görüntüyü PPTX'e Dönüştürme, Python API, Python Kitaplığı, Görüntü, PPTX

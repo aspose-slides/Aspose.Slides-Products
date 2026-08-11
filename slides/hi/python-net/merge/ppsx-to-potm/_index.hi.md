@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPSX फ़ाइलों को POTM में मर्ज करें
 url: /hi/python-net/merge/ppsx-to-potm/
 keywords: PPSX को POTM में मिलाएं, PPSX से POTM में शामिल हों, PPSX से POTM, PowerPoint, प्रेजेंटेशन, POTM, Python, Aspose को मिलाएं

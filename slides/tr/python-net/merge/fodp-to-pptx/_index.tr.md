@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak FODP Dosyalarını PPTX İle Birleştirin
 url: /tr/python-net/merge/fodp-to-pptx/
 keywords: FODP'ı PPTX ile birleştir, FODP ile PPTX'a katıl, FODP'ı PPTX ile birleştir, PowerPoint, Presentation, PPTX, Python, Aspose

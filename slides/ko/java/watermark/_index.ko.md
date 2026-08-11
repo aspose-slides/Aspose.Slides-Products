@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java를 사용하여 PowerPoint 프레젠테이션에 워터마크 추가
 url: /ko/java/watermark/
 description: 워터마크 프레젠테이션에 대한 Java 소스 코드

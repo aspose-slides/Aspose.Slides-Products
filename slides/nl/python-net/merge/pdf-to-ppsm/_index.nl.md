@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PDF-bestanden samen naar PPSM met Python
 url: /nl/python-net/merge/pdf-to-ppsm/
 keywords: Voeg PDF samen tot PPSM, voeg PDF toe aan PPSM, combineer PDF tot PPSM, PowerPoint, Presentatie, PPSM, Python, Aspose

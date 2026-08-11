@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szerkessze vissza a PowerPoint és az OpenOffice prezentációkat Python használatával
 url: /hu/python-net/redaction/
 description: Python-forráskód a PowerPoint és az OpenOffice™ prezentációk tartalmának megkereséséhez és eltávolításához

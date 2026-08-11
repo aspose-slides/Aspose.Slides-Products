@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή παρουσίασης Microsoft PowerPoint στο Node.js
 url: /el/nodejs-java/conversion/
 keywords: "Μετατροπή, PowerPoint, Παρουσίαση, Node.js, PDF, Μετατροπή σε PDF, PPT σε PDF"

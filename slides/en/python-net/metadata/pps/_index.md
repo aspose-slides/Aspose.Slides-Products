@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit PPS Metadata with Python
 url: /python-net/metadata/pps/
 keywords: Edit PPS Metadata, View PPS Metadata, Edit PPS Properties, View PPS Properties

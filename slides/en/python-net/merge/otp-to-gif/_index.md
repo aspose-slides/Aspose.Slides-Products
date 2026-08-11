@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge OTP Files and Export to GIF Using Python
 url: /python-net/merge/otp-to-gif/
 keywords: Merge OTP to GIF, Join OTP to GIF, Combine OTP to GIF, PowerPoint, Presentation, GIF, Python, Aspose

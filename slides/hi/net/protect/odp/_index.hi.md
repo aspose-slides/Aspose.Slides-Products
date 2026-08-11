@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET का उपयोग करके ODP प्रस्तुतिकरण फ़ाइलों की सुरक्षा करें
 url: /hi/net/protect/odp/
 keywords: राइट प्रोटेक्शन ODP, ODP को एन्क्रिप्ट करना, ODP प्रेजेंटेशन को लॉक करना, ODP को प्रोटेक्ट करना

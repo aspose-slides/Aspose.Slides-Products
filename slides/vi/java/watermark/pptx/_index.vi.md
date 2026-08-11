@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Thêm Hình mờ vào Tệp Bản trình bày PPTX bằng Java
 url: /vi/java/watermark/pptx/
 keywords: Thêm Hình mờ PPTX, Thêm Hình mờ Văn bản PPTX, Thêm Hình mờ Hình ảnh PPTX

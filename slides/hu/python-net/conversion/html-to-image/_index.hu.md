@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) HTML fájlt Image formátumra a Pythonban
 url: /hu/python-net/conversion/html-to-image/
 keywords: HTML to Image, HTML konvertálása Image formátumba, Python API, Python Library, HTML, Image

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPSM ke PDF di Node.js
 url: /id/nodejs-java/conversion/ppsm-to-pdf/
 keywords: PPSM ke PDF, Konversi PPSM ke PDF, API Node.js, Pustaka Node.js, PPSM, PDF

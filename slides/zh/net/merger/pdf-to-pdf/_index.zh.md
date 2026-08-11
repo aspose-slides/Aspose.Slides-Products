@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中合并 PDF 文件
 url: /zh/net/merger/pdf-to-pdf/
 keywords: 合并 PDF、PDF 到 PDF、合并 PDF、合并 PDF、C# API、.NET 库

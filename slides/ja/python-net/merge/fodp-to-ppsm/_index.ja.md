@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して FODP ファイルを PPSM にマージ
 url: /ja/python-net/merge/fodp-to-ppsm/
 keywords: FODP を PPSM に結合、FODP を PPSM に結合、FODP を PPSM に結合、PowerPoint、プレゼンテーション、PPSM、Python、Aspose

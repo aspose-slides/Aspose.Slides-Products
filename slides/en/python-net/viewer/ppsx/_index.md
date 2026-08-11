@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PPSX in Python
 url: /python-net/viewer/ppsx/
 keywords: View PPSX, View PowerPoint Slideshow, Play Slideshow, Open PPSX, PPSX Viewer, PPSX, PowerPoint, Python API, Python Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi hình ảnh sang PPT trong C#
 url: /vi/net/conversion/image-to-ppt/
 keywords: Chuyển ảnh sang PPT, ảnh sang PPT, PowerPoint, image, PPT, C# API, .NET Library

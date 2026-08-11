@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View POTX in Java
 url: /java/viewer/potx/
 keywords: View POTX, Open POTX, POTX Viewer, POTX, Java API, Java Library

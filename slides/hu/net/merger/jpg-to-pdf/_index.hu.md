@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG egyesítése PDF-be C#-ban
 url: /hu/net/merger/jpg-to-pdf/
 keywords: JPG PDF-be, JPG egyesítése PDF-be, JPG csatlakozás PDF-be, PDF, JPG, C# API, .NET Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera JPG till PPTX i Python
 url: /sv/python-net/conversion/jpg-to-pptx/
 keywords: Konvertera JPG till PPTX, JPG till PPTX, PowerPoint, JPG, PPTX, Python API, Python Library

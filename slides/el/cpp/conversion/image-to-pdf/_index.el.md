@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή Image σε PDF σε C++
 url: /el/cpp/conversion/image-to-pdf/
 keywords: Image σε PDF, Convert Image σε PDF, C++ API, C++ Library, Image, PDF

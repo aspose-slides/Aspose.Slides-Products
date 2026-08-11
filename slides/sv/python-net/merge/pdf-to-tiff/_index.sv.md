@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PDF-filer till TIFF med Python
 url: /sv/python-net/merge/pdf-to-tiff/
 keywords: Slå samman PDF till TIFF, gå med PDF till TIFF, kombinera PDF till TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

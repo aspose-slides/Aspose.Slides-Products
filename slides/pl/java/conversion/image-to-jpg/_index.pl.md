@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj Image na JPG w Javie
 url: /pl/java/conversion/image-to-jpg/
 keywords: Image do JPG, Konwersja Image do JPG, Java API, Java Library, Image, JPG

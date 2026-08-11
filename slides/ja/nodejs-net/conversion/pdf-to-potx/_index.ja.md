@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で PDF を POTX に変換します
 url: /ja/nodejs-net/conversion/pdf-to-potx/
 keywords: PDF から POTX、PDF から POTX への変換、Node.js API、JavaScript ライブラリ、PDF、POTX

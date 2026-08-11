@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer POTM naar PPT in JavaScript
 url: /nl/nodejs-net/conversion/potm-to-ppt/
 keywords: POTM naar PPT, Converteer POTM naar PPT, Node.js API, JavaScript-bibliotheek, POTM, PPT

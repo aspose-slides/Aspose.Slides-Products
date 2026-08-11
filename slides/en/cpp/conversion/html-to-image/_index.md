@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: Convert HTML to Image in C++
 url: /cpp/conversion/html-to-image/
 keywords: HTML to Image, Convert HTML to Image, C++ API, C++ Library, HTML, Image

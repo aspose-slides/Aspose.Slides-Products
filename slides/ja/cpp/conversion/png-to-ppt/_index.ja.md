@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ で PNG を PPT に変換する
 url: /ja/cpp/conversion/png-to-ppt/
 keywords: PNG を PPT に変換、PNG を PPT に変換、PowerPoint、PNG、PPT、C++ API、C++ ライブラリ

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPT Files to ODP Using Python
 url: /python-net/merge/ppt-to-odp/
 keywords: Merge PPT to ODP, Join PPT to ODP, Combine PPT to ODP, PowerPoint, Presentation, ODP, Python, Aspose

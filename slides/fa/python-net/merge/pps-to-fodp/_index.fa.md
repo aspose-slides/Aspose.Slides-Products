@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPS را با FODP ادغام کنید
 url: /fa/python-net/merge/pps-to-fodp/
 keywords: ادغام PPS به FODP، پیوستن به PPS به FODP، ترکیب PPS به FODP، PowerPoint، Presentation، FODP، Python، Aspose

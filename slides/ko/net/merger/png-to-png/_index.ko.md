@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 PNG 이미지 병합
 url: /ko/net/merger/png-to-png/
 keywords: PNG 병합, PNG를 PNG로, PNG 결합, PNG 결합, C# API, .NET 라이브러리

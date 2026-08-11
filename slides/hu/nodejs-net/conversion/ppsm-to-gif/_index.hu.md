@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPSM konvertálása GIF formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/ppsm-to-gif/
 keywords: PPSM to GIF, PPSM konvertálása GIF formátumba, Node.js API, JavaScript Library, PPSM, GIF

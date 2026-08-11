@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTM-bestanden bewerken via .NET
 url: /nl/net/editor/potm/ 
 description: C#-broncode om POTM-document te bewerken op .NET Framework, .NET Core, Windows Azure, Mono of Xamarin Platforms.

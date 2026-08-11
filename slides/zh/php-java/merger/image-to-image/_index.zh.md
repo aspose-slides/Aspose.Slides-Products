@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中合并图像
 url: /zh/php-java/merger/image-to-image/
 keywords: 合并图像、图像到图像、连接图像、组合图像、PHP API、PHP 库

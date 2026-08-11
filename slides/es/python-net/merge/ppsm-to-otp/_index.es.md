@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPSM a OTP usando Python
 url: /es/python-net/merge/ppsm-to-otp/
 keywords: Combinar PPSM a OTP, unir PPSM a OTP, combinar PPSM a OTP, PowerPoint, Presentation, OTP, Python, Aspose

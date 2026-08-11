@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edite arquivos POTX via .NET
 url: /pt/net/editor/potx/ 
 description: Código-fonte C# para editar o documento POTX em plataformas .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.

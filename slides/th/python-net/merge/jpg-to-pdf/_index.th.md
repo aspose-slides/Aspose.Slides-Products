@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวม JPG เป็น PDF ใน Python
 url: /th/python-net/merge/jpg-to-pdf/
 keywords: JPG เป็น PDF, รวม JPG เป็น PDF, เข้าร่วม JPG เป็น PDF, PDF, JPG, Python API, Python Library

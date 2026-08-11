@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTX a PPSM usando Python
 url: /es/python-net/merge/potx-to-ppsm/
 keywords: Combinar POTX a PPSM, unir POTX a PPSM, combinar POTX a PPSM, PowerPoint, Presentation, PPSM, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A POTX fájlok metaadatainak megtekintése vagy szerkesztése a .NET használatával
 url: /hu/net/metadata/potx/
 keywords: POTX metaadatok szerkesztése, POTX metaadatok megtekintése, POTX tulajdonságok szerkesztése, POTX tulajdonságok megtekintése

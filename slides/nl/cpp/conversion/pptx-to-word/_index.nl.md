@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPTX naar Word in C++
 url: /nl/cpp/conversion/pptx-to-word/
 keywords: Converteer PPTX naar Word, PPTX naar Word, PPTX naar DOC, PowerPoint naar Word, C++ API, C++ Library, CPP

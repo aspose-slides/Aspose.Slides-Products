@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wachtwoord verwijderen uit PowerPoint-presentatie met behulp van Python
 url: /nl/python-net/unlock/
 description: Python-broncode om presentatie te ontgrendelen

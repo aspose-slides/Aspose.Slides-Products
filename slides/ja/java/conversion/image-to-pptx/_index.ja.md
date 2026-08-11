@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Javaで画像をPPTXに変換
 url: /ja/java/conversion/image-to-pptx/
 keywords: 画像を PPTX に変換、画像を PPTX に変換、PowerPoint、画像、PPTX、Java API、Java ライブラリ

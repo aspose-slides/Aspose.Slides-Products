@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos ODP a POT usando Python
 url: /es/python-net/merge/odp-to-pot/
 keywords: Combinar ODP a POT, unir ODP a POT, combinar ODP a POT, PowerPoint, Presentation, POT, Python, Aspose

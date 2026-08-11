@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل Image إلى PDF في Python
 url: /ar/python-net/conversion/image-to-pdf/
 keywords: Image إلى PDF ، تحويل Image إلى PDF ، Python API ، Python Library ، Image ، PDF

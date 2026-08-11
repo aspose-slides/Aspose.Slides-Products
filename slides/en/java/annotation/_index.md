@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Remove Presentation Annotations using Java
 weight: 1370
 url: /java/annotation/

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPT do FODP v JavaScriptu
 url: /cs/nodejs-net/conversion/ppt-to-fodp/
 keywords: PPT do FODP, Převést PPT do FODP, Node.js API, JavaScript Library, PPT, FODP

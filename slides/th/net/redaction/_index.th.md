@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไขงานนำเสนอ PowerPoint และ OpenOffice โดยใช้ .NET
 url: /th/net/redaction/
 description: ซอร์สโค้ด C# เพื่อค้นหาและลบเนื้อหาในงานนำเสนอ PowerPoint และ OpenOffice™

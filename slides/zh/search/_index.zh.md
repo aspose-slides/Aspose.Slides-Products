@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Windows、Linux 和 macOS 上搜索 PowerPoint 文件中的文本
 url: /zh/search/
 description: 在 PPT、PPTX 和 ODP 演示文稿中搜索文本的 API

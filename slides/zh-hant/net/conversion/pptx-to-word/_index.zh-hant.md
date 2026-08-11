@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中將 PPTX 轉換為 Word
 url: /zh-hant/net/conversion/pptx-to-word/
 keywords: 將 PPTX 轉換為 Word、將 PPTX 轉換為 Word、將 PPTX 轉換為 DOC、將 PowerPoint 轉換為 Word、C# API、.NET 庫

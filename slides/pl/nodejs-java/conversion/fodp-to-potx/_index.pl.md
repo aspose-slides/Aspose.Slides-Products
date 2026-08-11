@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj FODP na POTX w Node.js
 url: /pl/nodejs-java/conversion/fodp-to-potx/
 keywords: FODP na POTX, Konwertuj FODP na POTX, API Node.js, Biblioteka Node.js, FODP, POTX

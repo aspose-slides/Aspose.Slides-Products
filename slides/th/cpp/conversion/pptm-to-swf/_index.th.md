@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTM เป็น SWF ผ่านแอปพลิเคชัน C++
 url: /th/cpp/conversion/pptm-to-swf/ 
 description: ตัวอย่างโค้ดการแปลง C++ สำหรับเอกสาร PPTM เป็นรูปแบบ SWF ใช้โค้ดตัวอย่างสำหรับการแปลงแบตช์ PPTM เป็น SWF ภายในแอปพลิเคชัน C++ ใดๆ

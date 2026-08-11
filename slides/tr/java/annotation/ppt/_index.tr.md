@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java kullanarak PPT Ek Açıklamasını kaldırın
 weight: 3630
 url: /tr/java/annotation/ppt/ 

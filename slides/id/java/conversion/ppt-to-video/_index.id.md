@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPT ke Video di Jawa
 url: /id/java/conversion/ppt-to-video/
 keywords: Konversi PPT ke video, PPT ke video, PowerPoint ke video, PPT ke MP4, API Java, Perpustakaan Java

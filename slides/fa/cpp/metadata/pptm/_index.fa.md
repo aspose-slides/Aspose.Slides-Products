@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده یا ویرایش فراداده فایل‌های PPTM با استفاده از C++
 url: /fa/cpp/metadata/pptm/
 keywords: ویرایش فراداده PPTM، مشاهده فراداده PPTM، ویرایش ویژگی‌های PPTM، مشاهده ویژگی‌های PPTM

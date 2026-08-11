@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPS เข้ากับ PPTM โดยใช้ Python
 url: /th/python-net/merge/pps-to-pptm/
 keywords: รวม PPS เป็น PPTM เข้าร่วม PPS ถึง PPTM รวม PPS เป็น PPTM PowerPoint การนำเสนอ PPTM Python Aspose

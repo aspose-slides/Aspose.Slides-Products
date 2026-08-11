@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPSM เข้ากับ SVG โดยใช้ Python
 url: /th/python-net/merge/ppsm-to-svg/
 keywords: รวม PPSM เป็น SVG เข้าร่วม PPSM ถึง SVG รวม PPSM เป็น SVG PowerPoint การนำเสนอ SVG Python Aspose

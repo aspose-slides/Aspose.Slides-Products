@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos OTP para PPS usando Python
 url: /pt/python-net/merge/otp-to-pps/
 keywords: Mesclar OTP com PPS, juntar OTP com PPS, combinar OTP com PPS, PowerPoint, Presentation, PPS, Python, Aspose

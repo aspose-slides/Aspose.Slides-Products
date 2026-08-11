@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을(를) 사용하여 PPT 프레젠테이션 파일 잠금 해제
 url: /ko/net/unlock/ppt/
 keywords: 쓰기 방지 PPT 제거, PPT 해독, PPT 프레젠테이션 잠금 해제, PPT 보호 해제

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js에서 PDF을 POTX으로 변환
 url: /ko/nodejs-java/conversion/pdf-to-potx/
 keywords: PDF에서 POTX으로, PDF에서 POTX으로 변환, Node.js API, Node.js 라이브러리, PDF, POTX

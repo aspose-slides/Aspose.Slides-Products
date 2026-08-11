@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή παρουσίασης Microsoft PowerPoint σε πολλά αρχεία με χρήση C#
 url: /el/net/conversion/
 description: Μετατρέψτε τις διαφάνειες Microsoft PowerPoint σε διαφορετικά αρχεία, συμπεριλαμβανομένων των μορφών PDF, HTML και εικόνας σε πλατφόρμες .NET Framework, .NET Core, Windows Azure, Mono ή Xamarin.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: جستجوی متن در فایل‌های ارائه PPTX با استفاده از Python
 url: /fa/python-net/search/pptx/
 keywords: کلمات جستجو در PPTX، جستجو و جایگزینی متن در PPTX، متن جستجو PPTX ارائه

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp OTP bằng Java
 url: /vi/java/metadata/otp/
 keywords: Chỉnh sửa siêu dữ liệu OTP, Xem siêu dữ liệu OTP, Chỉnh sửa thuộc tính OTP, Xem thuộc tính OTP

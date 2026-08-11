@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POTM sang SWF thông qua ứng dụng C ++
 url: /vi/cpp/conversion/potm-to-swf/ 
 description: Mã chuyển đổi C ++ mẫu cho tài liệu POTM sang định dạng SWF. Sử dụng mã ví dụ để chuyển đổi hàng loạt POTM sang SWF trong bất kỳ Ứng dụng C ++ nào.

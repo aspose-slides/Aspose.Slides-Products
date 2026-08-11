@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg, kép, videó, hang és egyéb média kibontása a prezentációból
 url: /hu/parser/
 description: API-k szövegek, képek, videók, hangok PowerPointból és OpenOffice-bemutatókból való kinyeréséhez

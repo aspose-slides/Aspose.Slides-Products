@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Windows、Linux 和 macOS 上查看和編輯 PowerPoint 文件的元數據
 url: /zh-hant/metadata/
 description: 用於查看和編輯 PPT 和 PPTX 文檔屬性的 API

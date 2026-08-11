@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ekstrak Teks dan Gambar dari File ODP menggunakan Python
 url: /id/python-net/parser/odp/
 keywords: parse ODP menggunakan Python, ODP parser Python, ekstrak data dari ODP dalam Python, ekstrak teks dari ODP menggunakan Python, ekstrak gambar dari ODP menggunakan Python

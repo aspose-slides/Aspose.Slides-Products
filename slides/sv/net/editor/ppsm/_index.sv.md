@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigera PPSM-filer via .NET
 url: /sv/net/editor/ppsm/ 
 description: C#-källkod för att redigera PPSM-dokument på .NET Framework, .NET Core, Windows Azure, Mono eller Xamarin-plattformar.

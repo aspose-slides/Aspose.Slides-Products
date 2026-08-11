@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to TIFF in Python
 url: /python-net/conversion/pdf-to-tiff/
 keywords: PDF to TIFF, Convert PDF to TIFF, Python API, Python Library, PDF, TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ODP-Dateien mit Python in GIF zusammenführen
 url: /de/python-net/merge/odp-to-gif/
 keywords: ODP mit GIF zusammenführen, ODP mit GIF verbinden, ODP mit GIF kombinieren, PowerPoint, Präsentation, GIF, Python, Aspose

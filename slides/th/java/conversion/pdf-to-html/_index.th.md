@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PDF เป็น HTML ใน Java
 url: /th/java/conversion/pdf-to-html/
 keywords: PDF เป็น HTML, แปลง PDF เป็น HTML, Java API, Java Library, PDF, HTML

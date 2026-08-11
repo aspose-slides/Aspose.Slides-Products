@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) OTP konvertálása PPTX formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/otp-to-pptx/
 keywords: OTP to PPTX, OTP konvertálása PPTX formátumba, Node.js API, Node.js Library, OTP, PPTX

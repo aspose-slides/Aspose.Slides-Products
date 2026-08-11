@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PDF a PPTX en Python
 url: /es/python-java/conversion/pdf-to-pptx/
 keywords: Conversión de presentaciones de Python, convertir presentaciones a Python, Python para presentaciones, Aspose.Slides Python, conversión de PDF a PPTX, biblioteca de presentaciones de Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPS फ़ाइलों को POTX में मर्ज करें
 url: /hi/python-net/merge/pps-to-potx/
 keywords: PPS को POTX में मिलाएं, PPS से POTX में शामिल हों, PPS से POTX, PowerPoint, प्रेजेंटेशन, POTX, Python, Aspose को मिलाएं

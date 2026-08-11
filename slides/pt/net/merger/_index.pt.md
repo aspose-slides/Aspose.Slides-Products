@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar PDF, PPT, PPTX e muitos outros formatos de arquivo usando C#
 url: /pt/net/merger/
 keywords: Mesclar, Juntar, PowerPoint, Apresentação, C#, .NET, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to HTML in PHP
 url: /php-java/conversion/image-to-html/
 keywords: Image to HTML, Convert Image to HTML, PHP API, PHP Library, Image, HTML

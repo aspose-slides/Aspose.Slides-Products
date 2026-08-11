@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Поиск текста в файлах презентаций ODP с использованием C++
 url: /ru/cpp/search/odp/
 keywords: поиск слов в ODP, поиск и замена текста в ODP, поиск текста в ODP Презентация

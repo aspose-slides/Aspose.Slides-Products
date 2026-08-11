@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PPSX เข้ากับ SVG โดยใช้ Python
 url: /th/python-net/merge/ppsx-to-svg/
 keywords: รวม PPSX เป็น SVG เข้าร่วม PPSX ถึง SVG รวม PPSX เป็น SVG PowerPoint การนำเสนอ SVG Python Aspose

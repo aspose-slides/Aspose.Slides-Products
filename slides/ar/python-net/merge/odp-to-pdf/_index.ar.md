@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات ODP إلى PDF باستخدام Python
 url: /ar/python-net/merge/odp-to-pdf/
 keywords: دمج ODP إلى PDF ، انضم إلى ODP إلى PDF ، ادمج ODP إلى PDF ، PowerPoint ، Presentation ، PDF ، Python ، Aspose

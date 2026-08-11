@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPTX 文件合并到 PPS
 url: /zh/python-net/merge/pptx-to-pps/
 keywords: 将 PPTX 合并到 PPS，将 PPTX 连接到 PPS，将 PPTX 合并到 PPS，PowerPoint，演示文稿，PPS，Python，Aspose

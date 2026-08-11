@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: أضف مخططًا إلى ملفات PowerPoint على أنظمة التشغيل Windows و Linux و macOS
 url: /ar/chart/
 description: واجهات برمجة التطبيقات للعمل مع المخططات في عروض PPT و PPTX التقديمية

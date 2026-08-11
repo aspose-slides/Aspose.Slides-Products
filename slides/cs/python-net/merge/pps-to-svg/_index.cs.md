@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPS do SVG pomocí Pythonu
 url: /cs/python-net/merge/pps-to-svg/
 keywords: Sloučit PPS do SVG, připojit PPS do SVG, kombinovat PPS do SVG, PowerPoint, Presentation, SVG, Python, Aspose

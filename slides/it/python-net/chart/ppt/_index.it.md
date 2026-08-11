@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Crea grafico nei file di presentazione PPT utilizzando Python
 url: /it/python-net/chart/ppt/
 keywords: Crea grafico, crea grafico sparso, crea grafico a torta, crea grafico ad albero, crea grafico azionario, crea grafico a scatola e baffi, crea grafico istogramma, crea grafico a imbuto, grafico sunburst, grafico multicategoria, presentazione PowerPoint, Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 사용하여 PowerPoint 및 OpenOffice 프레젠테이션 수정
 url: /ko/cpp/redaction/
 description: PowerPoint 및 OpenOffice™ 프레젠테이션에서 콘텐츠를 찾고 제거하는 C++ 소스 코드

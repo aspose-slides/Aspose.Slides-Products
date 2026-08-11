@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python で HTML を PNG に変換する
 url: /ja/python-net/conversion/html-to-png/
 keywords: HTML から PNG へ、HTML から PNG への変換、Python API、Python ライブラリ、HTML、PNG

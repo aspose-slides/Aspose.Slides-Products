@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tambahkan Tanda Air ke Presentasi PowerPoint menggunakan C++
 url: /id/cpp/watermark/
 description: Kode sumber C++ ke presentasi Watermark

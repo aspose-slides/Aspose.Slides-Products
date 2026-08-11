@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ OTP เข้ากับ HTML โดยใช้ Python
 url: /th/python-net/merge/otp-to-html/
 keywords: รวม OTP เป็น HTML เข้าร่วม OTP ถึง HTML รวม OTP เป็น HTML PowerPoint การนำเสนอ HTML Python Aspose

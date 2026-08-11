@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux 및 macOS에서 PowerPoint 파일에 워터마크 추가
 url: /ko/watermark/
 description: PPT, PPTX 및 ODP 프레젠테이션에 워터마크를 추가하는 API

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mở khóa tệp bản trình bày ODP bằng Java
 url: /vi/java/unlock/odp/
 keywords: Xóa bảo vệ ghi ODP, giải mã ODP, mở khóa bản trình bày ODP, bỏ bảo vệ ODP

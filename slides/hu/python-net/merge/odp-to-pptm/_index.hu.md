@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a ODP fájlokat a PPTM formátumba Python használatával
 url: /hu/python-net/merge/odp-to-pptm/
 keywords: A(z) ODP egyesítése a(z) PPTM formátumba, a(z) ODP csatlakozása a(z) PPTM formátumba, a(z)(ODP) összevonása a(z) PPTM formátumba, PowerPoint, Presentation, PPTM, Python, Aspose

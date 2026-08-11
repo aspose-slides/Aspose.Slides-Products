@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman ODP-filer till JPG med Python
 url: /sv/python-net/merge/odp-to-jpg/
 keywords: Slå samman ODP till JPG, gå med ODP till JPG, kombinera ODP till JPG, PowerPoint, Presentation, JPG, Python, Aspose

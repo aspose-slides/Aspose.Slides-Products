@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman ODP-filer till HTML med Python
 url: /sv/python-net/merge/odp-to-html/
 keywords: Slå samman ODP till HTML, gå med ODP till HTML, kombinera ODP till HTML, PowerPoint, Presentation, HTML, Python, Aspose

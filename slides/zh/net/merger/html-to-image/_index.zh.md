@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中将 HTML 合并为图像
 url: /zh/net/merger/html-to-image/
 keywords: 合并 HTML 到图像、HTML 到图像、加入 HTML、合并 HTML、图像、C# API、.NET 库

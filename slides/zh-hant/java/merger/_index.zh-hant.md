@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 合併 PDF、PPT、PPTX 和許多其他文件格式
 url: /zh-hant/java/merger/
 keywords: 合併、加入、PowerPoint、演示文稿、Java、Aspose

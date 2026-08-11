@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPS in C++
 url: /cpp/viewer/pps/
 keywords: View PPS, Open PPS, PPS Viewer, PPS, C++ API, C++ Library, CPP

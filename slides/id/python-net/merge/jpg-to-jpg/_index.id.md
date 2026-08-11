@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Menggabungkan Gambar JPG dengan Python
 url: /id/python-net/merge/jpg-to-jpg/
 keywords: Gabungkan JPG, JPEG ke JPG, Gabung JPG, Gabungkan JPG, Python API, Perpustakaan Python

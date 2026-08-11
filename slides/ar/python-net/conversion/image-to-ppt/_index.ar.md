@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل الصورة إلى PPT في بايثون
 url: /ar/python-net/conversion/image-to-ppt/
 keywords: صورة إلى PPT ، تحويل الصورة إلى PPT ، Python API ، مكتبة Python ، صورة ، PPT

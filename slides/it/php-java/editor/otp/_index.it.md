@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Modifica OTP in PHP
 url: /it/php-java/editor/otp/
 keywords: Modifica OTP, modifica PowerPoint, OTP, PowerPoint, API PHP, libreria PHP

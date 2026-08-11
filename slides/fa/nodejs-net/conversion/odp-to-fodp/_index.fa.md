@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت ODP را به FODP تبدیل کنید
 url: /fa/nodejs-net/conversion/odp-to-fodp/
 keywords: ODP به FODP، تبدیل ODP به FODP، Node.js API، کتابخانه جاوا اسکریپت، ODP، FODP

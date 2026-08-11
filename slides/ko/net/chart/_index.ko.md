@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을 사용하여 PowerPoint 프레젠테이션에 차트 추가
 url: /ko/net/chart/
 description: PowerPoint 프레젠테이션에 차트를 추가하는 C# 소스 코드

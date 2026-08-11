@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προσθήκη υδατογραφήματος σε αρχεία παρουσίασης PPTX χρησιμοποιώντας Python
 url: /el/python-net/watermark/pptx/
 keywords: Προσθήκη υδατογραφήματος PPTX, προσθήκη υδατογραφήματος κειμένου PPTX, προσθήκη υδατογραφήματος εικόνας PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSX a PPTX usando Python
 url: /it/python-net/merge/ppsx-to-pptx/
 keywords: Unisci PPSX a PPTX, Unisci PPSX a PPTX, Combina PPSX a PPTX, PowerPoint, Presentazione, PPTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POTX Dosyalarını PDF İle Birleştirin
 url: /tr/python-net/merge/potx-to-pdf/
 keywords: POTX'ı PDF ile birleştir, POTX ile PDF'a katıl, POTX'ı PDF ile birleştir, PowerPoint, Presentation, PDF, Python, Aspose

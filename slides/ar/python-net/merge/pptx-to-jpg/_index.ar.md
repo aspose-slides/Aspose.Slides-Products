@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPTX إلى JPG باستخدام Python
 url: /ar/python-net/merge/pptx-to-jpg/
 keywords: دمج PPTX إلى JPG ، انضم إلى PPTX إلى JPG ، ادمج PPTX إلى JPG ، PowerPoint ، Presentation ، JPG ، Python ، Aspose

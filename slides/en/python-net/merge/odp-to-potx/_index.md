@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files and Save as POTX Using Python
 url: /python-net/merge/odp-to-potx/
 keywords: Merge ODP to POTX, Join ODP to POTX, Combine ODP to POTX, PowerPoint, Presentation, POTX, Python, Aspose

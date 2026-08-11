@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 사용하여 PPT 주석 제거
 weight: 4380
 url: /ko/cpp/annotation/ppt/ 

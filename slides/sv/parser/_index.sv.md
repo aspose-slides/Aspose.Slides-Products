@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahera text, bilder, video, ljud och andra medier från presentationen
 url: /sv/parser/
 description: API:er för att extrahera text, bilder, video, ljud från PowerPoint och OpenOffice-presentationer

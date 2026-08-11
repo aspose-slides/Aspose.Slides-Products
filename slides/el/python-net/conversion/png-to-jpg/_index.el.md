@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PNG σε JPG στην Python
 url: /el/python-net/conversion/png-to-jpg/
 keywords: PNG σε JPG, Convert PNG σε JPG, Python API, Python Library, PNG, JPG

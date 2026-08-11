@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta PPSM a PPSX en Node.js
 url: /es/nodejs-java/conversion/ppsm-to-ppsx/
 keywords: PPSM a PPSX, Convertir PPSM a PPSX, API de Node.js, Biblioteca Node.js, PPSM, PPSX

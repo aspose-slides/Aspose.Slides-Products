@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง TIFF เป็น OTP ผ่านแอปพลิเคชัน C++
 weight: 6860
 url: /th/cpp/conversion/tiff-to-otp/ 

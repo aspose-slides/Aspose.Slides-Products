@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中將 TIFF 合併為 PDF
 url: /zh-hant/php-java/merger/tiff-to-pdf/
 keywords: TIFF 到 PDF，將 TIFF 合併到 PDF，將 TIFF 合併到 PDF，PDF，TIFF，PHP API，PHP 庫

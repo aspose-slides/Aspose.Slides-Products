@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 解锁 PPTX 演示文件
 url: /zh/java/unlock/pptx/
 keywords: 删除写保护 PPTX，解密 PPTX，解锁 PPTX 演示文稿，取消保护 PPTX

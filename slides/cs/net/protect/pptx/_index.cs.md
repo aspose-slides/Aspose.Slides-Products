@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chraňte soubory prezentací PPTX pomocí .NET
 url: /cs/net/protect/pptx/
 keywords: Ochrana proti zápisu PPTX, šifrování PPTX, zámek PPTX prezentace, ochrana PPTX

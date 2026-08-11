@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTM را در Python به SVG تبدیل کنید
 url: /fa/python-java/conversion/pptm-to-svg/
 keywords: تبدیل ارائه Python، تبدیل ارائه ها به Python، Python برای ارائه، Aspose.Slides Python، تبدیل PPTM به SVG، کتابخانه ارائه Python

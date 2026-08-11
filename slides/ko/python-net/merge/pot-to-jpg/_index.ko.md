@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 POT 파일을 JPG에 병합
 url: /ko/python-net/merge/pot-to-jpg/
 keywords: POT을 JPG에 병합, POT을 JPG에 결합, POT을 JPG에 결합, PowerPoint, Presentation, JPG, Python, Aspose

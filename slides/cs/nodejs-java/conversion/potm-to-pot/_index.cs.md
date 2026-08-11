@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTM na POT v Node.js
 url: /cs/nodejs-java/conversion/potm-to-pot/
 keywords: POTM do POT, Převést POTM do POT, Node.js API, Node.js Library, POTM, POT

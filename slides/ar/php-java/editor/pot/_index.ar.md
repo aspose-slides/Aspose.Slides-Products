@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحرير POT في PHP
 url: /ar/php-java/editor/pot/
 keywords: تحرير POT ، تحرير PowerPoint ، POT ، PowerPoint ، PHP API ، مكتبة PHP

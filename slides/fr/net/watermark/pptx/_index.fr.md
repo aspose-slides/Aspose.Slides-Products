@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ajouter un filigrane aux fichiers de présentation PPTX à l'aide de .NET
 url: /fr/net/watermark/pptx/
 keywords: Ajouter un filigrane PPTX, Ajouter un filigrane de texte PPTX, Ajouter un filigrane d'image PPTX

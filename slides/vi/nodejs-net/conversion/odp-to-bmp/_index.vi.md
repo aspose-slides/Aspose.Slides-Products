@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi ODP sang BMP trong JavaScript
 url: /vi/nodejs-net/conversion/odp-to-bmp/
 keywords: ODP sang BMP, Chuyển đổi ODP sang BMP, API Node.js, Thư viện JavaScript, ODP, BMP

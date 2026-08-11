@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan HTML ke PPT dalam C++
 url: /id/cpp/conversion/html-to-ppt/
 keywords: Konversikan HTML ke PPT, HTML ke PPT, PowerPoint, HTML, PPT, C++ API, Perpustakaan C++

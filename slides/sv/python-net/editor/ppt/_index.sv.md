@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigera PPT i Python
 url: /sv/python-net/editor/ppt/
 keywords: Redigera PPT, Redigera PowerPoint, PPT, PowerPoint, Python API, Python Library

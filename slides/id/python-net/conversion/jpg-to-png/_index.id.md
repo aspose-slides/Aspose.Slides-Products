@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan JPG ke PNG dengan Python
 url: /id/python-net/conversion/jpg-to-png/
 keywords: JPG ke PNG, Konversikan JPG ke PNG, Python API, Python Library, JPG, PNG

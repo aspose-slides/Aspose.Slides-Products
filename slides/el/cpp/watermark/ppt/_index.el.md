@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προσθήκη υδατογραφήματος σε αρχεία παρουσίασης PPT χρησιμοποιώντας C++
 url: /el/cpp/watermark/ppt/
 keywords: Προσθήκη υδατογραφήματος PPT, προσθήκη υδατογραφήματος κειμένου PPT, προσθήκη υδατογραφήματος εικόνας PPT

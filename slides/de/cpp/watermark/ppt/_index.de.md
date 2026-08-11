@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wasserzeichen zu PPT-Präsentationsdateien mit C++ hinzufügen
 url: /de/cpp/watermark/ppt/
 keywords: Wasserzeichen hinzufügen PPT, Textwasserzeichen hinzufügen PPT, Bildwasserzeichen hinzufügen PPT

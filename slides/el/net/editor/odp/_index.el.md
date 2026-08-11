@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Επεξεργασία αρχείων ODP μέσω .NET
 url: /el/net/editor/odp/ 
 description: Πηγαίος κώδικας C# για επεξεργασία εγγράφου ODP σε πλατφόρμες .NET Framework, .NET Core, Windows Azure, Mono ή Xamarin.

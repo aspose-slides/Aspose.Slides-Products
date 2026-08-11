@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POTX en POT dans Node.js
 url: /fr/nodejs-java/conversion/potx-to-pot/
 keywords: POTX en POT, Convertir POTX en POT, API Node.js, Bibliothèque Node.js, POTX, POT

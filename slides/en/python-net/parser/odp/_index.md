@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extract Text from ODP Files with Python
 url: /python-net/parser/odp/
 keywords: parse ODP with Python, ODP parser Python, extract data from ODP in Python, extract text from ODP with Python

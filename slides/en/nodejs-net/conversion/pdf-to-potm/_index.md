@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to POTM in Node.js
 url: /nodejs-net/conversion/pdf-to-potm/
 keywords: PDF to POTM, Convert PDF to POTM, Node.js API, JavaScript Library, PDF, POTM

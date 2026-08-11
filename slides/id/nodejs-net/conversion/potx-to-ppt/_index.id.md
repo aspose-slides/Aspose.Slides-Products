@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POTX ke PPT dalam JavaScript
 url: /id/nodejs-net/conversion/potx-to-ppt/
 keywords: POTX ke PPT, Konversi POTX ke PPT, API Node.js, Pustaka JavaScript, POTX, PPT

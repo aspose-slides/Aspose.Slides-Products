@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Remove Passwords from PowerPoint Presentations with Python
 url: /python-net/unlock/
 description: Use Python code to remove passwords and write protection from PowerPoint and OpenDocument presentations.

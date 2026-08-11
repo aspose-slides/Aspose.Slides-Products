@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPSM thành HTML bằng Python
 url: /vi/python-net/merge/ppsm-to-html/
 keywords: Hợp nhất PPSM thành HTML, Nối PPSM thành HTML, Kết hợp PPSM thành HTML, PowerPoint, Bản trình bày, HTML, Python, Aspose

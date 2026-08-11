@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή HTML σε PPTX σε C#
 url: /el/net/conversion/html-to-pptx/
 keywords: Μετατροπή HTML σε PPTX, HTML σε PPTX, PowerPoint, HTML, PPTX, C# API, .NET Library

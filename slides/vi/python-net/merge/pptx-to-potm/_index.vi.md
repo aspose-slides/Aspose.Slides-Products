@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPTX thành POTM bằng Python
 url: /vi/python-net/merge/pptx-to-potm/
 keywords: Hợp nhất PPTX thành POTM, Nối PPTX thành POTM, Kết hợp PPTX thành POTM, PowerPoint, Bản trình bày, POTM, Python, Aspose

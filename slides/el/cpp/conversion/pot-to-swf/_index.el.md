@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή POT σε SWF μέσω εφαρμογής C++
 url: /el/cpp/conversion/pot-to-swf/ 
 description: Δείγμα κώδικα μετατροπής C++ για έγγραφο POT σε μορφή SWF. Χρησιμοποιήστε παράδειγμα κώδικα για μετατροπή παρτίδας POT σε SWF σε οποιαδήποτε εφαρμογή C++.

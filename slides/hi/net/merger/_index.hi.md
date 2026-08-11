@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# का उपयोग करके PDF, PPT, PPTX और कई अन्य फ़ाइल स्वरूपों को मर्ज करें
 url: /hi/net/merger/
 keywords: मर्ज, जॉइन, पॉवरपॉइंट, प्रेजेंटेशन, C#, .NET, Aspose

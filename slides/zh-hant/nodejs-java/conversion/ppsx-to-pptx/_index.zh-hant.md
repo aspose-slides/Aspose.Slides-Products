@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 PPSX 轉換為 PPTX
 url: /zh-hant/nodejs-java/conversion/ppsx-to-pptx/
 keywords: PPSX 到 PPTX、將 PPSX 轉換為 PPTX、Node.js API、Node.js 庫、PPSX、PPTX

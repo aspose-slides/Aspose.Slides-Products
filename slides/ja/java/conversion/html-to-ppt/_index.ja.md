@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で HTML を PPT に変換する
 url: /ja/java/conversion/html-to-ppt/
 keywords: HTML を PPT に変換、HTML を PPT に変換、PowerPoint、HTML、PPT、Java API、Java ライブラリ

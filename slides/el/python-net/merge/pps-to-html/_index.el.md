@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPS σε HTML χρησιμοποιώντας Python
 url: /el/python-net/merge/pps-to-html/
 keywords: Συγχώνευση PPS σε HTML, Join PPS σε HTML, Combine PPS σε HTML, PowerPoint, Presentation, HTML, Python, Aspose

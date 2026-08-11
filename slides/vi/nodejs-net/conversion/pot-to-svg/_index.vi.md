@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POT sang SVG trong JavaScript
 url: /vi/nodejs-net/conversion/pot-to-svg/
 keywords: POT sang SVG, Chuyển đổi POT sang SVG, API Node.js, Thư viện JavaScript, POT, SVG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Rimuovi la password dalla presentazione di PowerPoint usando Python
 url: /it/python-net/unlock/
 description: Codice sorgente Python per sbloccare la presentazione

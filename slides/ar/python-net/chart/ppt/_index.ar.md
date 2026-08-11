@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: إنشاء مخطط في PPT ملفات العروض التقديمية باستخدام Python
 url: /ar/python-net/chart/ppt/
 keywords: إنشاء مخطط ، وإنشاء مخطط مبعثر ، وإنشاء مخطط دائري ، وإنشاء مخطط هيكلي ، وإنشاء مخطط أسهم ، وإنشاء مخطط مربع وشعير ، وإنشاء مخطط مدرج تكراري ، وإنشاء مخطط قمعي ، ومخطط أمة الله ، ومخطط متعدد الفئات ، وعرض تقديمي لـ PowerPoint ، Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir ODP en PPTM dans Node.js
 url: /fr/nodejs-java/conversion/odp-to-pptm/
 keywords: ODP en PPTM, Convertir ODP en PPTM, API Node.js, Bibliothèque Node.js, ODP, PPTM

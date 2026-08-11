@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT en PPS dans Node.js
 url: /fr/nodejs-java/conversion/ppt-to-pps/
 keywords: PPT en PPS, Convertir PPT en PPS, API Node.js, Bibliothèque Node.js, PPT, PPS

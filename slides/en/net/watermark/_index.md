@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Watermark to Presentations using C#
 url: /net/watermark/
 description: Add text and image watermarks to PowerPoint and OpenDocument presentations in C# with Aspose.Slides for .NET.

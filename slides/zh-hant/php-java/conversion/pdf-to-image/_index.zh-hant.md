@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中將 PDF 轉換為 Image
 url: /zh-hant/php-java/conversion/pdf-to-image/
 keywords: PDF 到 Image，將 PDF 轉換為 Image，PHP API，PHP 庫，PDF，Image

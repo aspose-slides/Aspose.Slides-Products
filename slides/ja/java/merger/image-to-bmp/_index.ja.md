@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Javaで画像をBMPにマージ
 url: /ja/java/merger/image-to-bmp/
 keywords: BMP への画像、BMP への画像の結合、BMP への画像の結合、画像の結合、画像、BMP、Java API、Java ライブラリ

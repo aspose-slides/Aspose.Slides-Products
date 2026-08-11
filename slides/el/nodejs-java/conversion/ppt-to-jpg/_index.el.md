@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPT σε JPG στο Node.js
 url: /el/nodejs-java/conversion/ppt-to-jpg/
 keywords: PPT σε JPG, Convert PPT σε JPG, Node.js API, Node.js Library, PPT, JPG

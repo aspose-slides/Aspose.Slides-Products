@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des fichiers HTML en C++
 url: /fr/cpp/merger/html-to-html/
 keywords: Fusionner HTML, HTML vers HTML, Joindre HTML, Combiner HTML, API C++, Bibliothèque C++

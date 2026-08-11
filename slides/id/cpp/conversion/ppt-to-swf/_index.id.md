@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPT ke SWF melalui aplikasi C++
 url: /id/cpp/conversion/ppt-to-swf/ 
 description: Contoh kode konversi C++ untuk dokumen PPT ke format SWF. Gunakan kode contoh untuk konversi batch PPT ke SWF dalam Aplikasi C++ apa pun.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti ODP in SWF tramite l'applicazione C++
 url: /it/cpp/conversion/odp-to-swf/ 
 description: Esempio di codice di conversione C++ per documento ODP in formato SWF. Utilizzare il codice di esempio per la conversione batch da ODP a SWF all'interno di qualsiasi applicazione C++.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux 및 macOS에서 PowerPoint 파일 수정
 url: /ko/redaction/
 description: PPT, PPTX 및 ODP 프레젠테이션에 보호 기능을 추가하는 API

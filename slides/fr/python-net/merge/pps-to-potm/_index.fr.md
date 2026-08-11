@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPS vers POTM à l'aide de Python
 url: /fr/python-net/merge/pps-to-potm/
 keywords: Fusionner PPS à POTM, Joindre PPS à POTM, Combiner PPS à POTM, PowerPoint, Présentation, POTM, Python, Aspose

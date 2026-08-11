@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET . के माध्यम से पीपीटी दस्तावेज़ से टेक्स्ट और चित्र निकालें
 weight: 70
 url: /hi/net/parser/ppt/ 

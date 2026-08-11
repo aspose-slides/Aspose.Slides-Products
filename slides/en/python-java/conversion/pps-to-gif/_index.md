@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPS to GIF in Python
 url: /python-java/conversion/pps-to-gif/
 keywords: Python PPS conversion, PPS to GIF, PowerPoint to GIF, slide show to animated GIF, Aspose.Slides for Python via Java

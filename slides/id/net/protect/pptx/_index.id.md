@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lindungi File Presentasi PPTX menggunakan .NET
 url: /id/net/protect/pptx/
 keywords: Perlindungan Tulis PPTX, Enkripsi PPTX, Kunci Presentasi PPTX, Lindungi PPTX

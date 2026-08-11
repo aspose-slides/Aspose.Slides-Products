@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Thêm Hình mờ vào Tệp Bản trình bày ODP bằng .NET
 url: /vi/net/watermark/odp/
 keywords: Thêm Hình mờ ODP, Thêm Hình mờ Văn bản ODP, Thêm Hình mờ Hình ảnh ODP

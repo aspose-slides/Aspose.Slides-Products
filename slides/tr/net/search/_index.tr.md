@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET kullanarak PowerPoint ve OpenOffice Sunumlarında metin arayın
 url: /tr/net/search/
 description: PowerPoint ve OpenOffice™ sunumlarında kalıplı sözcükleri aramak için C# kaynak kodu

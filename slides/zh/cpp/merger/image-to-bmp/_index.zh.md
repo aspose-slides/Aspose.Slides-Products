@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中将图像合并为 BMP
 url: /zh/cpp/merger/image-to-bmp/
 keywords: 图像到 BMP、合并图像到 BMP、将图像连接到 BMP、合并图像、图像、BMP、C++ API、C++ 库

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++'da PNG biçimini PDF biçimine dönüştürün
 url: /tr/cpp/conversion/png-to-pdf/
 keywords: PNG'tan PDF'a, PNG'ı PDF'a Dönüştür, C++ API, C++ Kitaplığı, PNG, PDF

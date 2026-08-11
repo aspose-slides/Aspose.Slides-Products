@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して PPTM ファイルのメタデータを表示または編集する
 url: /ja/cpp/metadata/pptm/
 keywords: PPTM メタデータの編集、PPTM メタデータの表示、PPTM プロパティの編集、PPTM プロパティの表示

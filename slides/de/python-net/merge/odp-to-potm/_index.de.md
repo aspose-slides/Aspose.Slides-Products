@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ODP-Dateien mit Python in POTM zusammenführen
 url: /de/python-net/merge/odp-to-potm/
 keywords: ODP mit POTM zusammenführen, ODP mit POTM verbinden, ODP mit POTM kombinieren, PowerPoint, Präsentation, POTM, Python, Aspose

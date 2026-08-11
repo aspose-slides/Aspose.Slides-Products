@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tekintse meg a POTM-fájlformátumokat a .NET-en keresztül
 weight: 3310
 url: /hu/net/viewer/potm/ 

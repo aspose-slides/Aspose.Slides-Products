@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 刪除 PPTX 註釋
 weight: 360
 url: /zh-hant/java/annotation/pptx/ 

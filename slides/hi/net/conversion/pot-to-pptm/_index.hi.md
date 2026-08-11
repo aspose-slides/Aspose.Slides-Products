@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# के माध्यम से POT को PPTM में बदलें
 weight: 6720
 url: /hi/net/conversion/pot-to-pptm/ 

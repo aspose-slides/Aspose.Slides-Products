@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PNG thành PDF trong Java
 url: /vi/java/conversion/png-to-pdf/
 keywords: PNG sang PDF, Chuyển đổi PNG sang PDF, API Java, Thư viện Java, PNG, PDF

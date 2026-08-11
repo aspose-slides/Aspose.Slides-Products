@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPSX-filer till SVG med Python
 url: /sv/python-net/merge/ppsx-to-svg/
 keywords: Slå samman PPSX till SVG, gå med PPSX till SVG, kombinera PPSX till SVG, PowerPoint, Presentation, SVG, Python, Aspose

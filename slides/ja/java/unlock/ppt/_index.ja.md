@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java を使用して PPT プレゼンテーション ファイルのロックを解除します
 url: /ja/java/unlock/ppt/
 keywords: 書き込み保護 PPT を削除、PPT を復号化、PPT プレゼンテーションのロックを解除、PPT の保護を解除

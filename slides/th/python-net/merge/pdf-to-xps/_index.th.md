@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PDF เข้ากับ XPS โดยใช้ Python
 url: /th/python-net/merge/pdf-to-xps/
 keywords: รวม PDF เป็น XPS เข้าร่วม PDF ถึง XPS รวม PDF เป็น XPS PowerPoint การนำเสนอ XPS Python Aspose

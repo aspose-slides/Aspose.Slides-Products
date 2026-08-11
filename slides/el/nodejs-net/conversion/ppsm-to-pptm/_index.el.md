@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPSM σε PPTM σε JavaScript
 url: /el/nodejs-net/conversion/ppsm-to-pptm/
 keywords: PPSM σε PPTM, Μετατροπή PPSM σε PPTM, Node.js API, JavaScript Library, PPSM, PPTM

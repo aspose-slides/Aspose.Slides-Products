@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PowerPoint Presentations in Python
 url: /python-net/viewer/
 description: Learn how to open PowerPoint and OpenDocument presentation files in Python and export them to HTML for viewing in a browser.

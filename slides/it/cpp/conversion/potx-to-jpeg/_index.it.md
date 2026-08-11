@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti POTX in JPEG tramite l'applicazione C++
 weight: 3800
 url: /it/cpp/conversion/potx-to-jpeg/ 

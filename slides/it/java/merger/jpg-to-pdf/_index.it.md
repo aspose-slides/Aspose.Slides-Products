@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci JPG a PDF in Java
 url: /it/java/merger/jpg-to-pdf/
 keywords: Da JPG a PDF, Unisci JPG a PDF, Unisci JPG a PDF, PDF, JPG, API Java, Libreria Java

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp POT thành ODP bằng Python
 url: /vi/python-net/merge/pot-to-odp/
 keywords: Hợp nhất POT thành ODP, Nối POT thành ODP, Kết hợp POT thành ODP, PowerPoint, Bản trình bày, ODP, Python, Aspose

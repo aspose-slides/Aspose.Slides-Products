@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 PPTX 轉換為視頻
 url: /zh-hant/java/conversion/pptx-to-video/
 keywords: 將 PPTX 轉換為視頻、將 PPTX 轉換為視頻、將 PowerPoint 轉換為視頻、將 PPT 轉換為 MP4、Java API、Java 庫

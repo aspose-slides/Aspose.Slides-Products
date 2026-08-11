@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 將 OTP 文件合併到 SVG
 url: /zh-hant/python-net/merge/otp-to-svg/
 keywords: 將 OTP 合併到 SVG，將 OTP 連接到 SVG，將 OTP 合併到 SVG，PowerPoint，演示文稿，SVG，Python，Aspose

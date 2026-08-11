@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPTM फ़ाइलों को FODP में मर्ज करें
 url: /hi/python-net/merge/pptm-to-fodp/
 keywords: PPTM को FODP में मिलाएं, PPTM से FODP में शामिल हों, PPTM से FODP, PowerPoint, प्रेजेंटेशन, FODP, Python, Aspose को मिलाएं

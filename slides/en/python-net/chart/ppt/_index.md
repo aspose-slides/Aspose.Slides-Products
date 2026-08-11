@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Create Charts in PPT Presentations Using Python
 url: /python-net/chart/ppt/
 keywords: Create chart, create scattered chart, create pie chart, create treemap chart, create stock chart, create box and whisker chart, create histogram chart, create funnel chart, sunburst chart, multicategory chart, PowerPoint presentation, Python

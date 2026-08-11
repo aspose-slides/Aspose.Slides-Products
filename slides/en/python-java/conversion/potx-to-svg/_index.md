@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to SVG in Python
 url: /python-java/conversion/potx-to-svg/
 keywords: Python POTX conversion, POTX to SVG, PowerPoint template to SVG, template slides to SVG, Aspose.Slides for Python via Java

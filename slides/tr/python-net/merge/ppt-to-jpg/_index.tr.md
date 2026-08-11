@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPT Dosyalarını JPG İle Birleştirin
 url: /tr/python-net/merge/ppt-to-jpg/
 keywords: PPT'ı JPG ile birleştir, PPT ile JPG'a katıl, PPT'ı JPG ile birleştir, PowerPoint, Presentation, JPG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で PPSX を FODP に変換します
 url: /ja/nodejs-net/conversion/ppsx-to-fodp/
 keywords: PPSX から FODP、PPSX から FODP への変換、Node.js API、JavaScript ライブラリ、PPSX、FODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PDF naar BMP in JavaScript
 url: /nl/nodejs-net/conversion/pdf-to-bmp/
 keywords: PDF naar BMP, Converteer PDF naar BMP, Node.js API, JavaScript-bibliotheek, PDF, BMP

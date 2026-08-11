@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java에서 PNG를 PDF로 병합
 url: /ko/java/merger/png-to-pdf/
 keywords: PNG를 PDF로, PNG를 PDF로 병합, PNG를 PDF로 결합, PDF, PNG, Java API, Java 라이브러리

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ OTP เข้ากับ JPG โดยใช้ Python
 url: /th/python-net/merge/otp-to-jpg/
 keywords: รวม OTP เป็น JPG เข้าร่วม OTP ถึง JPG รวม OTP เป็น JPG PowerPoint การนำเสนอ JPG Python Aspose

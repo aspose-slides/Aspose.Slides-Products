@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση PNG σε PDF σε C++
 url: /el/cpp/merger/png-to-pdf/
 keywords: PNG σε PDF, Συγχώνευση PNG σε PDF, Συμμετοχή PNG σε PDF, PDF, PNG, C++ API, Βιβλιοθήκη C++

@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PPS in Python
 url: /python-net/viewer/pps/
 keywords: View PPS, View PowerPoint Slideshow, Play Slideshow, Open PPS, PPS Viewer, PPS, PowerPoint, Python API, Python Library

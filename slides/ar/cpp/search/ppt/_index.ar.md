@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: البحث عن نص في PPT ملفات العروض التقديمية باستخدام C++
 url: /ar/cpp/search/ppt/
 keywords: كلمات البحث في PPT ، البحث عن النص واستبداله في PPT ، البحث عن النص PPT Presentation

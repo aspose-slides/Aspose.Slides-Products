@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tạo Biểu đồ trong Tệp Bản trình bày PPTX bằng Python
 url: /vi/python-net/chart/pptx/
 keywords: Tạo biểu đồ, tạo biểu đồ phân tán, tạo biểu đồ hình tròn, tạo biểu đồ cây, tạo biểu đồ chứng khoán, tạo biểu đồ hộp và râu ria, tạo biểu đồ tần suất, tạo biểu đồ phễu, biểu đồ sunburst, biểu đồ đa danh mục, bản trình bày PowerPoint, Python

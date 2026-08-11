@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Suchen Sie Text in PPT-Präsentationsdateien mit Java
 url: /de/java/search/ppt/
 keywords: Wörter in PPT suchen, Text in PPT suchen und ersetzen, Text in PPT suchen. Präsentation

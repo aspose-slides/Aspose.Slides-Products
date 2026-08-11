@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sunting File Presentasi ODP menggunakan Java
 url: /id/java/redaction/odp/
 keywords: Sunting ODP, cari dan ganti teks di ODP, perbarui Presentasi ODP

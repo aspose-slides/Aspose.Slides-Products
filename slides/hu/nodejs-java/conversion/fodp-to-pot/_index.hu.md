@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) FODP konvertálása POT formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/fodp-to-pot/
 keywords: FODP to POT, FODP konvertálása POT formátumba, Node.js API, Node.js Library, FODP, POT

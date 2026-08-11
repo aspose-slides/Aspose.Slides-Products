@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers POT vers PPT à l'aide de Python
 url: /fr/python-net/merge/pot-to-ppt/
 keywords: Fusionner POT à PPT, Joindre POT à PPT, Combiner POT à PPT, PowerPoint, Présentation, PPT, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PDF na POTX w Pythonie
 url: /pl/python-java/conversion/pdf-to-potx/
 keywords: Konwersja prezentacji w Pythonie, konwersja prezentacji do Pythona, Python do prezentacji, Aspose.Slides Python, konwersja PDF do POTX, biblioteka prezentacji Python

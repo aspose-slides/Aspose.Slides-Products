@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET kullanarak PPT Sunum Dosyalarının Kilidini Açın
 url: /tr/net/unlock/ppt/
 keywords: PPT Yazma Korumasını Kaldırma, Bir PPT Şifresini Çözme, PPT Sunumunun Kilidini Kaldırma, PPT Korumasını Kaldırma

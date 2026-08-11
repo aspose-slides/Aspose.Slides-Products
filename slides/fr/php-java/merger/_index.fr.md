@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionnez PDF, PPT, PPTX et de nombreux autres formats de fichiers à l'aide de PHP
 url: /fr/php-java/merger/
 keywords: Fusionner, Joindre, PowerPoint, Présentation, PHP, Aspose

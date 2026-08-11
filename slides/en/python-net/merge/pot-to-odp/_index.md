@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POT Files and Export to ODP Using Python
 url: /python-net/merge/pot-to-odp/
 keywords: Merge POT to ODP, Join POT to ODP, Combine POT to ODP, PowerPoint, Presentation, ODP, Python, Aspose

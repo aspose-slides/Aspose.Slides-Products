@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPSM Dosyalarını JPG İle Birleştirin
 url: /tr/python-net/merge/ppsm-to-jpg/
 keywords: PPSM'ı JPG ile birleştir, PPSM ile JPG'a katıl, PPSM'ı JPG ile birleştir, PowerPoint, Presentation, JPG, Python, Aspose

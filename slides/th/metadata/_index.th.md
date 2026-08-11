@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดูและแก้ไขข้อมูลเมตาเป็นไฟล์ PowerPoint บน Windows, Linux และ macOS
 url: /th/metadata/
 description: API เพื่อดูและแก้ไขคุณสมบัติเอกสาร PPT และ PPTX

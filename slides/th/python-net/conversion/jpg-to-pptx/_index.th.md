@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง JPG เป็น PPTX ใน Python
 url: /th/python-net/conversion/jpg-to-pptx/
 keywords: แปลง JPG เป็น PPTX, JPG เป็น PPTX, PowerPoint, JPG, PPTX, Python API, Python Library

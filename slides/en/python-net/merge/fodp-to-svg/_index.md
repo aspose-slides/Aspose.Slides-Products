@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge FODP Files and Export to SVG Using Python
 url: /python-net/merge/fodp-to-svg/
 keywords: Merge FODP to SVG, Join FODP to SVG, Combine FODP to SVG, PowerPoint, Presentation, SVG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POT เข้ากับ JPG โดยใช้ Python
 url: /th/python-net/merge/pot-to-jpg/
 keywords: รวม POT เป็น JPG เข้าร่วม POT ถึง JPG รวม POT เป็น JPG PowerPoint การนำเสนอ JPG Python Aspose

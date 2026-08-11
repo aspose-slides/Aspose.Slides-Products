@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में PDF को XML में कनवर्ट करें
 url: /hi/java/conversion/pdf-to-xml/
 keywords: PDF से XML, PDF को XML में बदलें, Java API, Java लाइब्रेरी, PDF, XML

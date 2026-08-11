@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPS thành PPTX trong Node.js
 url: /vi/nodejs-java/conversion/pps-to-pptx/
 keywords: PPS sang PPTX, Chuyển đổi PPS sang PPTX, API Node.js, Thư viện Node.js, PPS, PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj obraz na PPT w Pythonie
 url: /pl/python-net/conversion/image-to-ppt/
 keywords: Obraz do PPT, Konwersja obrazu do PPT, API Pythona, Biblioteka Pythona, Obraz, PPT

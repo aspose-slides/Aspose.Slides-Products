@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PDF σε PPTX χρησιμοποιώντας Python
 url: /el/python-net/merge/pdf-to-pptx/
 keywords: Συγχώνευση PDF σε PPTX, Join PDF σε PPTX, Combine PDF σε PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

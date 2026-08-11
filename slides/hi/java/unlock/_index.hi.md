@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा का उपयोग करके PowerPoint प्रस्तुति से पासवर्ड निकालें
 url: /hi/java/unlock/
 description: प्रस्तुति को अनलॉक करने के लिए जावा स्रोत कोड

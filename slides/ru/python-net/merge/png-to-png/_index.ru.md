@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединение изображений PNG в Python
 url: /ru/python-net/merge/png-to-png/
 keywords: Объединить PNG, PNG в PNG, соединить PNG, объединить PNG, API Python, библиотеку Python

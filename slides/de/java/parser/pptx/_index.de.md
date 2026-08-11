@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahieren Sie Text und Bilder aus PPTX-Dokumenten über Java
 weight: 1000
 url: /de/java/parser/pptx/ 

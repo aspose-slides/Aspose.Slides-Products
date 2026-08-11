@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование презентаций Microsoft PowerPoint в различные форматы с использованием C++
 url: /ru/cpp/conversion/
 description: Преобразование слайдов Microsoft PowerPoint в несколько файлов, включая форматы HTML, PDF и изображений, в приложениях на основе C++.

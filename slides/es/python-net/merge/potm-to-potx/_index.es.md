@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTM a POTX usando Python
 url: /es/python-net/merge/potm-to-potx/
 keywords: Combinar POTM a POTX, unir POTM a POTX, combinar POTM a POTX, PowerPoint, Presentation, POTX, Python, Aspose

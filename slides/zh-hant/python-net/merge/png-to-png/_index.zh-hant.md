@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中合併 PNG 圖像
 url: /zh-hant/python-net/merge/png-to-png/
 keywords: 合併 PNG、PNG 到 PNG、合併 PNG、合併 PNG、Python API、Python 庫

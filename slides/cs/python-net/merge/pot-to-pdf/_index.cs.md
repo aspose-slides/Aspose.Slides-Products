@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POT do PDF pomocí Pythonu
 url: /cs/python-net/merge/pot-to-pdf/
 keywords: Sloučit POT do PDF, připojit POT do PDF, kombinovat POT do PDF, PowerPoint, Presentation, PDF, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: محافظت از فایل‌های ارائه ODP با استفاده از C++
 url: /fa/cpp/protect/odp/
 keywords: حفاظت از نوشتن ODP، رمزگذاری ارائه ODP، قفل ODP، محافظت از ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # के माध्यम से ओडीपी को बीएमपी में कनवर्ट करें
 weight: 320
 url: /hi/net/conversion/odp-to-bmp/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Слияние изображений в C#
 url: /ru/net/merger/image-to-image/
 keywords: Объединить изображение, изображение с изображением, соединить изображения, объединить изображения, C# API, библиотека .NET.

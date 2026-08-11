@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact Παρουσιάσεις PowerPoint και OpenOffice χρησιμοποιώντας Java
 url: /el/java/redaction/
 description: Πηγαίος κώδικας Java για εύρεση και κατάργηση περιεχομένου σε παρουσιάσεις PowerPoint και OpenOffice™

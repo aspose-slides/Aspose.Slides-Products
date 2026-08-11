@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Estrai testo e immagini da file PPTX utilizzando Python
 url: /it/python-net/parser/pptx/
 keywords: analizza PPTX utilizzando Python, PPTX parser Python, estrai dati da PPTX in Python, estrai testo da PPTX utilizzando Python, estrai immagini da PPTX utilizzando Python

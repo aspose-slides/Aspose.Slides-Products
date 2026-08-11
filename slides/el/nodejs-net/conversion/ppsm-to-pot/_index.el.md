@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPSM σε POT σε JavaScript
 url: /el/nodejs-net/conversion/ppsm-to-pot/
 keywords: PPSM σε POT, Μετατροπή PPSM σε POT, Node.js API, JavaScript Library, PPSM, POT

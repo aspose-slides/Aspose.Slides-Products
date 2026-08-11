@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++アプリケーションを介してPOTXをODPに変換する
 weight: 6270
 url: /ja/cpp/conversion/potx-to-odp/ 

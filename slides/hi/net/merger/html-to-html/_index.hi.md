@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # में एचटीएमएल फाइलों को मर्ज करें
 url: /hi/net/merger/html-to-html/
 keywords: HTML, HTML को HTML में मर्ज करें, HTML से जुड़ें, HTML को मिलाएं, C# API, .NET लाइब्रेरी

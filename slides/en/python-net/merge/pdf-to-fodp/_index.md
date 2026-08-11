@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files and Save as FODP Using Python
 url: /python-net/merge/pdf-to-fodp/
 keywords: Merge PDF to FODP, Join PDF to FODP, Combine PDF to FODP, PowerPoint, Presentation, FODP, Python, Aspose

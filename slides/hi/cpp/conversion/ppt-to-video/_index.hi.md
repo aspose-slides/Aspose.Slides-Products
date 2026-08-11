@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ में PPT को वीडियो में कन्वर्ट करें
 url: /hi/cpp/conversion/ppt-to-video/
 keywords: PPT को वीडियो में, PPT को वीडियो में, PowerPoint को वीडियो में, PPT को MP4 में, C++ API, C++ लाइब्रेरी में कन्वर्ट करें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ver o editar metadatos de archivos PPTX usando Java
 url: /es/java/metadata/pptx/
 keywords: Editar PPTX Metadatos, Ver PPTX Metadatos, Editar PPTX propiedades, Ver PPTX propiedades

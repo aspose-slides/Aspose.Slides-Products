@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Редактировать файлы презентации PPTX с помощью Java
 url: /ru/java/redaction/pptx/
 keywords: Исправить PPTX, найти и заменить текст в PPTX, обновить презентацию PPTX

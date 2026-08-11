@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü C# dilinde PPTX'e dönüştürün
 url: /tr/net/conversion/image-to-pptx/
 keywords: Görüntüyü PPTX'e, görüntüyü PPTX'e, PowerPoint'e, görüntüye, PPTX'e, C# API'ye, .NET Library'ye dönüştürün

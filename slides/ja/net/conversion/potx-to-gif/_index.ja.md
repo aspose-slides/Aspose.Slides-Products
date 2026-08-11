@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C＃を介してPOTXをGIFに変換する
 weight: 1620
 url: /ja/net/conversion/potx-to-gif/ 

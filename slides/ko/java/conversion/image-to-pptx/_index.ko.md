@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java에서 이미지를 PPTX로 변환
 url: /ko/java/conversion/image-to-pptx/
 keywords: 이미지를 PPTX로 변환, 이미지를 PPTX, PowerPoint, 이미지, PPTX, Java API, Java 라이브러리로 변환

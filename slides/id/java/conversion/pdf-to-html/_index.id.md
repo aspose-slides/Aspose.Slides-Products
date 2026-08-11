@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PDF ke HTML di Java
 url: /id/java/conversion/pdf-to-html/
 keywords: PDF ke HTML, Konversikan PDF ke HTML, Java API, Perpustakaan Java, PDF, HTML

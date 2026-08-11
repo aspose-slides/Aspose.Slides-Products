@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в XML в PHP
 url: /ru/php-java/conversion/pdf-to-xml/
 keywords: PDF в XML, преобразовать PDF в XML, PHP API, библиотеку PHP, PDF, XML

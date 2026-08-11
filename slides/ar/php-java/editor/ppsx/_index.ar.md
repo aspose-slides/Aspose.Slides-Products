@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحرير PPSX في PHP
 url: /ar/php-java/editor/ppsx/
 keywords: تحرير PPSX ، تحرير PowerPoint ، PPSX ، PowerPoint ، PHP API ، مكتبة PHP

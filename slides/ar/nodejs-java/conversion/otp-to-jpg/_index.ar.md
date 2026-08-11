@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل OTP إلى JPG في Node.js
 url: /ar/nodejs-java/conversion/otp-to-jpg/
 keywords: OTP إلى JPG، تحويل OTP إلى JPG، Node.js API، مكتبة Node.js، OTP، JPG

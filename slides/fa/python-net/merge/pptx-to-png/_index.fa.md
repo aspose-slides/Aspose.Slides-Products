@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPTX را با PNG ادغام کنید
 url: /fa/python-net/merge/pptx-to-png/
 keywords: ادغام PPTX به PNG، پیوستن به PPTX به PNG، ترکیب PPTX به PNG، PowerPoint، Presentation، PNG، Python، Aspose

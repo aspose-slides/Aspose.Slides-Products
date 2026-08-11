@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg keresése a PowerPointban és az OpenOffice-bemutatókban Java használatával
 url: /hu/java/search/
 description: Java-forráskód, amellyel szavakat kereshet mintával PowerPoint és OpenOffice™ prezentációkban

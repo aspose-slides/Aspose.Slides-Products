@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات POTM إلى PNG باستخدام Python
 url: /ar/python-net/merge/potm-to-png/
 keywords: دمج POTM إلى PNG ، انضم إلى POTM إلى PNG ، ادمج POTM إلى PNG ، PowerPoint ، Presentation ، PNG ، Python ، Aspose

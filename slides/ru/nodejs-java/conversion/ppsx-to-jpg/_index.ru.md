@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPSX в JPG в Node.js
 url: /ru/nodejs-java/conversion/ppsx-to-jpg/
 keywords: PPSX в JPG, конвертировать PPSX в JPG, API Node.js, библиотека Node.js, PPSX, JPG

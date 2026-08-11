@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: أضف علامة مائية إلى PPT ملفات العروض التقديمية باستخدام Java
 url: /ar/java/watermark/ppt/
 keywords: إضافة علامة مائية PPT ، إضافة علامة مائية نصية PPT ، إضافة علامة مائية للصورة PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PDF ke ODP di Node.js
 url: /id/nodejs-java/conversion/pdf-to-odp/
 keywords: PDF ke ODP, Konversi PDF ke ODP, API Node.js, Pustaka Node.js, PDF, ODP

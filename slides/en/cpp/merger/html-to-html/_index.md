@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge HTML Files in C++
 url: /cpp/merger/html-to-html/
 keywords: Merge HTML, HTML to HTML, Join HTML, Combine HTML, C++ API, C++ Library

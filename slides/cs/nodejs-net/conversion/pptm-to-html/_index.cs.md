@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPTM do HTML v JavaScriptu
 url: /cs/nodejs-net/conversion/pptm-to-html/
 keywords: PPTM do HTML, Převést PPTM do HTML, Node.js API, JavaScript Library, PPTM, HTML

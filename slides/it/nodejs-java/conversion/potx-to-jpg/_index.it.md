@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti POTX in JPG in Node.js
 url: /it/nodejs-java/conversion/potx-to-jpg/
 keywords: POTX in JPG, Converti POTX in JPG, API Node.js, Libreria Node.js, POTX, JPG

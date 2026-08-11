@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PNG ke PPT di PHP
 url: /id/php-java/conversion/png-to-ppt/
 keywords: PNG ke PPT, Konversikan PNG ke PPT, PHP API, Perpustakaan PHP, PNG, PPT

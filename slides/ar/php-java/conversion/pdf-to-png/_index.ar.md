@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى PNG في PHP
 url: /ar/php-java/conversion/pdf-to-png/
 keywords: PDF إلى PNG ، تحويل PDF إلى PNG ، PHP API ، PHP Library ، PDF ، PNG

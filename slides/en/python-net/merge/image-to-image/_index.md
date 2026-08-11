@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge Images in Python
 url: /python-net/merge/image-to-image/
 keywords: Merge image, image to image, Join images, Combine images, Python API, Python Library

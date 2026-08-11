@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PDF Dosyalarını ODP İle Birleştirin
 url: /tr/python-net/merge/pdf-to-odp/
 keywords: PDF'ı ODP ile birleştir, PDF ile ODP'a katıl, PDF'ı ODP ile birleştir, PowerPoint, Presentation, ODP, Python, Aspose

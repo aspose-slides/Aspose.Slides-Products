@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将图像转换为 PPT
 url: /zh/python-net/conversion/image-to-ppt/
 keywords: 图像转 PPT、图像转 PPT、Python API、Python 库、图像、PPT

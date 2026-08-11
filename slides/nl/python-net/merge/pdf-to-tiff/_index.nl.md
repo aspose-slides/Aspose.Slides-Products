@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PDF-bestanden samen naar TIFF met Python
 url: /nl/python-net/merge/pdf-to-tiff/
 keywords: Voeg PDF samen tot TIFF, voeg PDF toe aan TIFF, combineer PDF tot TIFF, PowerPoint, Presentatie, TIFF, Python, Aspose

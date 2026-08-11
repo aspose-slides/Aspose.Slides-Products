@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edite archivos PPS a través de .NET
 url: /es/net/editor/pps/ 
 description: Código fuente C# para editar documentos PPS en plataformas .NET Framework, .NET Core, Windows Azure, Mono o Xamarin.

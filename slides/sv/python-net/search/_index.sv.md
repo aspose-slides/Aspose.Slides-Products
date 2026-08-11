@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sök text i PowerPoint och OpenOffice-presentationer med Python
 url: /sv/python-net/search/
 description: Python-källkod för att söka efter ord med mönster i PowerPoint- och OpenOffice™-presentationer

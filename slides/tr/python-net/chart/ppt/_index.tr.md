@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PPT Sunum Dosyalarında Grafik Oluşturun
 url: /tr/python-net/chart/ppt/
 keywords: Grafik oluşturun, dağınık grafik oluşturun, pasta grafiği oluşturun, ağaç haritası grafiği oluşturun, hisse senedi grafiği oluşturun, kutu ve çizgi grafiği oluşturun, histogram grafiği oluşturun, huni grafiği oluşturun, güneş patlaması grafiği, çok kategorili grafik, PowerPoint sunumu, Python

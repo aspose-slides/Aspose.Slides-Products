@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java을(를) 사용하여 PPT 프레젠테이션 파일에 워터마크 추가
 url: /ko/java/watermark/ppt/
 keywords: 워터마크 추가 PPT, 텍스트 워터마크 추가 PPT, 이미지 워터마크 추가 PPT

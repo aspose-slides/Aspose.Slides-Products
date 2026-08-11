@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в POTM в Node.js
 url: /ru/nodejs-java/conversion/pdf-to-potm/
 keywords: PDF в POTM, конвертировать PDF в POTM, API Node.js, библиотека Node.js, PDF, POTM

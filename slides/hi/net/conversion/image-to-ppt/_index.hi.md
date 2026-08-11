@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # में छवि को पीपीटी में कनवर्ट करें
 url: /hi/net/conversion/image-to-ppt/
 keywords: इमेज को पीपीटी, इमेज को पीपीटी, पॉवरपॉइंट, इमेज, पीपीटी, सी# एपीआई, .नेट लाइब्रेरी में कन्वर्ट करें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 OTP 轉換為 BMP
 url: /zh-hant/nodejs-java/conversion/otp-to-bmp/
 keywords: OTP 到 BMP、將 OTP 轉換為 BMP、Node.js API、Node.js 庫、OTP、BMP

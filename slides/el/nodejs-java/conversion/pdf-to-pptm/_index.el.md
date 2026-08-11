@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PDF σε PPTM στο Node.js
 url: /el/nodejs-java/conversion/pdf-to-pptm/
 keywords: PDF σε PPTM, Convert PDF σε PPTM, Node.js API, Node.js Library, PDF, PPTM

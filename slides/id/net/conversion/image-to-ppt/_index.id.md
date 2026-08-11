@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi gambar ke PPT dalam C#
 url: /id/net/conversion/image-to-ppt/
 keywords: Konversi gambar ke PPT, gambar ke PPT, PowerPoint, gambar, PPT, C# API, .NET Library

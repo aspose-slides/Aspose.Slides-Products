@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPT ファイルからテキストと画像を抽出する
 url: /ja/python-net/parser/ppt/
 keywords: Python を使用して PPT を解析、PPT パーサー Python、Python の PPT からデータを抽出、Python を使用して PPT からテキストを抽出、Python を使用して PPT から画像を抽出

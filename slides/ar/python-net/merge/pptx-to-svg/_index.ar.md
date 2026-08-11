@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPTX إلى SVG باستخدام Python
 url: /ar/python-net/merge/pptx-to-svg/
 keywords: دمج PPTX إلى SVG ، انضم إلى PPTX إلى SVG ، ادمج PPTX إلى SVG ، PowerPoint ، Presentation ، SVG ، Python ، Aspose

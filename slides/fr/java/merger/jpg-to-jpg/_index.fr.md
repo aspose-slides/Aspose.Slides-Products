@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des images JPG en Java
 url: /fr/java/merger/jpg-to-jpg/
 keywords: Fusionner JPG, JPEG à JPG, Joindre JPG, Combiner JPG, API Java, Bibliothèque Java

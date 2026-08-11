@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-05-12
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Windows、Linux 和 macOS 上对 PowerPoint 文件进行数字签名
 weight: 7730
 url: /zh/signature

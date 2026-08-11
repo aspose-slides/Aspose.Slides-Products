@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: استخراج النص والصور من ملفات PPT باستخدام Python
 url: /ar/python-net/parser/ppt/
 keywords: تحليل PPT باستخدام Python ، PPT المحلل اللغوي Python ، واستخراج البيانات من PPT في Python ، واستخراج النص من PPT باستخدام Python ، واستخراج الصور من PPT باستخدام Python

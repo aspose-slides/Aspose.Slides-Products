@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti POT in BMP in Node.js
 url: /it/nodejs-java/conversion/pot-to-bmp/
 keywords: POT in BMP, Converti POT in BMP, API Node.js, Libreria Node.js, POT, BMP

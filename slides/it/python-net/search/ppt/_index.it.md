@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Cerca testo nei file di presentazione PPT utilizzando Python
 url: /it/python-net/search/ppt/
 keywords: cerca parole in PPT, cerca e sostituisci testo in PPT, cerca testo PPT Presentazione

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tìm kiếm Văn bản trong Tệp Bản trình bày ODP bằng Java
 url: /vi/java/search/odp/
 keywords: tìm kiếm từ trong ODP, tìm kiếm và thay thế văn bản trong ODP, tìm kiếm văn bản ODP Bản trình bày

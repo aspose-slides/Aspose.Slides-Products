@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PNG-bilder i C#
 url: /sv/net/merger/png-to-png/
 keywords: Slå samman PNG, PNG till PNG, gå med i PNG, kombinera PNG, C# API, .NET Library

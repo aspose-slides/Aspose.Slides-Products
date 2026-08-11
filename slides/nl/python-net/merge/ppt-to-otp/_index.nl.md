@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPT-bestanden samen naar OTP met Python
 url: /nl/python-net/merge/ppt-to-otp/
 keywords: Voeg PPT samen tot OTP, voeg PPT toe aan OTP, combineer PPT tot OTP, PowerPoint, Presentatie, OTP, Python, Aspose

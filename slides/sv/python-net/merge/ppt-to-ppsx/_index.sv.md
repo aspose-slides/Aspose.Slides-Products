@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till PPSX med Python
 url: /sv/python-net/merge/ppt-to-ppsx/
 keywords: Slå samman PPT till PPSX, gå med PPT till PPSX, kombinera PPT till PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

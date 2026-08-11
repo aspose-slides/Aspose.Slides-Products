@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή POTX σε GIF σε JavaScript
 url: /el/nodejs-net/conversion/potx-to-gif/
 keywords: POTX σε GIF, Μετατροπή POTX σε GIF, Node.js API, JavaScript Library, POTX, GIF

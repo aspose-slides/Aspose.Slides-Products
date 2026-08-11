@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge FODP Files into PPTM Using Python
 url: /python-net/merge/fodp-to-pptm/
 keywords: Merge FODP to PPTM, Join FODP to PPTM, Combine FODP to PPTM, PowerPoint, Presentation, PPTM, Python, Aspose

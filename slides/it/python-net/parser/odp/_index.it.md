@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Estrai testo e immagini da file ODP utilizzando Python
 url: /it/python-net/parser/odp/
 keywords: analizza ODP utilizzando Python, ODP parser Python, estrai dati da ODP in Python, estrai testo da ODP utilizzando Python, estrai immagini da ODP utilizzando Python

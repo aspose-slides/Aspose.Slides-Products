@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET का उपयोग करके PowerPoint प्रस्तुति से पासवर्ड निकालें
 url: /hi/net/unlock/
 description: सी # स्रोत कोड प्रस्तुति अनलॉक करने के लिए

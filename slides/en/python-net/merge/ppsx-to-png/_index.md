@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSX Files and Export to PNG Using Python
 url: /python-net/merge/ppsx-to-png/
 keywords: Merge PPSX to PNG, Join PPSX to PNG, Combine PPSX to PNG, PowerPoint, Presentation, PNG, Python, Aspose

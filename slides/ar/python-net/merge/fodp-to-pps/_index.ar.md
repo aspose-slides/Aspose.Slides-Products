@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات FODP إلى PPS باستخدام Python
 url: /ar/python-net/merge/fodp-to-pps/
 keywords: دمج FODP إلى PPS ، انضم إلى FODP إلى PPS ، ادمج FODP إلى PPS ، PowerPoint ، Presentation ، PPS ، Python ، Aspose

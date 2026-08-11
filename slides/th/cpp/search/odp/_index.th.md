@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ค้นหาข้อความในไฟล์การนำเสนอ ODP โดยใช้ C++
 url: /th/cpp/search/odp/
 keywords: คำค้นหาใน ODP ค้นหาและแทนที่ข้อความใน ODP ข้อความค้นหา ODP

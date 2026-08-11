@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت POTM را به GIF تبدیل کنید
 url: /fa/nodejs-net/conversion/potm-to-gif/
 keywords: POTM به GIF، تبدیل POTM به GIF، Node.js API، کتابخانه جاوا اسکریپت، POTM، GIF

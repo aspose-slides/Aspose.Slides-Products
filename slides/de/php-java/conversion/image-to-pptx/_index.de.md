@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie Image in PPTX in PHP
 url: /de/php-java/conversion/image-to-pptx/
 keywords: Image in PPTX, Konvertiere Image in PPTX, PHP-API, PHP-Bibliothek, Image, PPTX

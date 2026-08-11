@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTX-filer till XPS med Python
 url: /sv/python-net/merge/potx-to-xps/
 keywords: Slå samman POTX till XPS, gå med POTX till XPS, kombinera POTX till XPS, PowerPoint, Presentation, XPS, Python, Aspose

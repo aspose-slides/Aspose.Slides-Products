@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PythonでJPGをPDFにマージ
 url: /ja/python-net/merge/jpg-to-pdf/
 keywords: JPG から PDF、JPG から PDF へのマージ、JPG から PDF への結合、PDF、JPG、Python API、Python ライブラリ

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTX-Dateien mit Python in PPSM zusammenführen
 url: /de/python-net/merge/potx-to-ppsm/
 keywords: POTX mit PPSM zusammenführen, POTX mit PPSM verbinden, POTX mit PPSM kombinieren, PowerPoint, Präsentation, PPSM, Python, Aspose

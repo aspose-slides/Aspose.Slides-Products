@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中将 PNG 转换为 SVG
 url: /zh/cpp/conversion/png-to-svg/
 keywords: PNG 到 SVG，将 PNG 转换为 SVG，C++ API，C++ 库，PNG，SVG

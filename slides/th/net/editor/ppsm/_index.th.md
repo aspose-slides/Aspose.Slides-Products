@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไขไฟล์ PPSM ผ่าน .NET
 url: /th/net/editor/ppsm/ 
 description: ซอร์สโค้ด C# เพื่อแก้ไขเอกสาร PPSM บน .NET Framework, .NET Core, Windows Azure, Mono หรือ Xamarin Platforms

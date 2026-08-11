@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 ODP 文件合并到 PPSX
 url: /zh/python-net/merge/odp-to-ppsx/
 keywords: 将 ODP 合并到 PPSX，将 ODP 连接到 PPSX，将 ODP 合并到 PPSX，PowerPoint，演示文稿，PPSX，Python，Aspose

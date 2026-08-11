@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POTX เข้ากับ PPSX โดยใช้ Python
 url: /th/python-net/merge/potx-to-ppsx/
 keywords: รวม POTX เป็น PPSX เข้าร่วม POTX ถึง PPSX รวม POTX เป็น PPSX PowerPoint การนำเสนอ PPSX Python Aspose

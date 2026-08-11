@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp PPTM bằng C++
 url: /vi/cpp/metadata/pptm/
 keywords: Chỉnh sửa siêu dữ liệu PPTM, Xem siêu dữ liệu PPTM, Chỉnh sửa thuộc tính PPTM, Xem thuộc tính PPTM

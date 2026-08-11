@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 合并 PDF、PPT、PPTX 和许多其他文件格式
 url: /zh/cpp/merger/
 keywords: 合并、加入、PowerPoint、演示文稿、C++、Aspose

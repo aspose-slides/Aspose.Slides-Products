@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 PPT 轉換為 Word
 url: /zh-hant/java/conversion/ppt-to-word/
 keywords: 將 PPT 轉換為 Word、PPT 轉換為 Word、PPT 轉換為 DOC、PowerPoint 轉換為 Word、Java API、Java 庫

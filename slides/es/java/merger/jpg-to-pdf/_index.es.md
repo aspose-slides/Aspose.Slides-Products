@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Combinar JPG a PDF en Java
 url: /es/java/merger/jpg-to-pdf/
 keywords: JPG a PDF, Combinar JPG a PDF, Unir JPG a PDF, PDF, JPG, API Java, Biblioteca Java

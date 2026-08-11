@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PNG إلى PDF في C ++
 url: /ar/cpp/conversion/png-to-pdf/
 keywords: PNG إلى PDF ، تحويل PNG إلى PDF ، واجهة برمجة تطبيقات C ++ ، مكتبة C ++ ، PNG ، PDF

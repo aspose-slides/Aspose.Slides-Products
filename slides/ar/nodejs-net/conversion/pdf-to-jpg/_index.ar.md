@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى JPG في JavaScript
 url: /ar/nodejs-net/conversion/pdf-to-jpg/
 keywords: PDF إلى JPG، تحويل PDF إلى JPG، Node.js API، مكتبة JavaScript، PDF، JPG

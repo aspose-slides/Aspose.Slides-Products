@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lindungi File Presentasi ODP menggunakan Java
 url: /id/java/protect/odp/
 keywords: Perlindungan Tulis ODP, Enkripsi ODP, Kunci Presentasi ODP, Lindungi ODP

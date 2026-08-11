@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: نمودار را به فایل های پاورپوینت در ویندوز، لینوکس و macOS اضافه کنید
 url: /fa/chart/
 description: APIهایی برای کار با نمودارها در PPT، PPTX Presentations

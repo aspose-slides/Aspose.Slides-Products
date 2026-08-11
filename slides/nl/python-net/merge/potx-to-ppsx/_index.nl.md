@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg POTX-bestanden samen naar PPSX met Python
 url: /nl/python-net/merge/potx-to-ppsx/
 keywords: Voeg POTX samen tot PPSX, voeg POTX toe aan PPSX, combineer POTX tot PPSX, PowerPoint, Presentatie, PPSX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Prohledávejte text v PowerPointu a OpenOffice Presentation pomocí Pythonu
 url: /cs/python-net/search/
 description: Zdrojový kód Pythonu pro vyhledávání slov se vzorem v prezentacích PowerPoint a OpenOffice™

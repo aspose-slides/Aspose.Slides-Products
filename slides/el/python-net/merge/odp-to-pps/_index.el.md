@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων ODP σε PPS χρησιμοποιώντας Python
 url: /el/python-net/merge/odp-to-pps/
 keywords: Συγχώνευση ODP σε PPS, Join ODP σε PPS, Combine ODP σε PPS, PowerPoint, Presentation, PPS, Python, Aspose

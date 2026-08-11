@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos FODP a PDF usando Python
 url: /es/python-net/merge/fodp-to-pdf/
 keywords: Combinar FODP a PDF, unir FODP a PDF, combinar FODP a PDF, PowerPoint, Presentation, PDF, Python, Aspose

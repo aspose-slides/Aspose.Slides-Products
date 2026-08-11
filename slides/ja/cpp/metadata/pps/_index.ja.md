@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して PPS ファイルのメタデータを表示または編集する
 url: /ja/cpp/metadata/pps/
 keywords: PPS メタデータの編集、PPS メタデータの表示、PPS プロパティの編集、PPS プロパティの表示

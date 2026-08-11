@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Sunum Dönüşümü. Aspose.Slides'ı kullanarak Sunumları Zahmetsizce Dönüştürün.
 url: /tr/python-java/conversion/
 keywords: "Dönüştürme, PowerPoint, Sunum, Python, Python projeleri, Python kitaplıkları, PDF, PDF'ye dönüştürme, PPT'den PDF'ye"

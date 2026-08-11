@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie OTP in PPT in Node.js
 url: /de/nodejs-java/conversion/otp-to-ppt/
 keywords: OTP zu PPT, Konvertieren von OTP zu PPT, Node.js API, Node.js-Bibliothek, OTP, PPT

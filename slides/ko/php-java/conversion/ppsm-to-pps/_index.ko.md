@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP에서 PPSM을 PPS으로 변환
 weight: 1810
 url: /ko/php-java/conversion/ppsm-to-pps/ 

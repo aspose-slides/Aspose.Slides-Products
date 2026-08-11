@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTX a TIFF usando Python
 url: /es/python-net/merge/potx-to-tiff/
 keywords: Combinar POTX a TIFF, unir POTX a TIFF, combinar POTX a TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Kép konvertálása PPTX-re C#-ban
 url: /hu/net/conversion/image-to-pptx/
 keywords: Kép konvertálása PPTX formátumba, kép konvertálása PPTX formátumba, PowerPoint, image, PPTX, C# API, .NET Library

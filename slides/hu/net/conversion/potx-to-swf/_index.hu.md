@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTX konvertálása SWF-re C#-on keresztül
 weight: 7640
 url: /hu/net/conversion/potx-to-swf/ 

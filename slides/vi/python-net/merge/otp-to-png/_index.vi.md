@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp OTP thành PNG bằng Python
 url: /vi/python-net/merge/otp-to-png/
 keywords: Hợp nhất OTP thành PNG, Nối OTP thành PNG, Kết hợp OTP thành PNG, PowerPoint, Bản trình bày, PNG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединение TIFF в PDF в Java
 url: /ru/java/merger/tiff-to-pdf/
 keywords: TIFF в PDF, объединить TIFF в PDF, объединить TIFF в PDF, PDF, TIFF, API Java, библиотеку Java

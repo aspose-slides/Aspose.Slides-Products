@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C# 將 Microsoft PowerPoint 演示文稿轉換為多個文件
 url: /zh-hant/net/conversion/
 description: 在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上將 Microsoft PowerPoint 幻燈片轉換為不同的文件，包括 PDF、HTML 和圖像格式。

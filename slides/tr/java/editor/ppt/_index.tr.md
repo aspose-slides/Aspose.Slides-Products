@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da PPT'yi düzenleyin
 url: /tr/java/editor/ppt/
 keywords: PPT'yi Düzenle, PowerPoint'i Düzenle, PPT, PowerPoint, Java API, Java Kitaplığı

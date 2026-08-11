@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPSX را با XPS ادغام کنید
 url: /fa/python-net/merge/ppsx-to-xps/
 keywords: ادغام PPSX به XPS، پیوستن به PPSX به XPS، ترکیب PPSX به XPS، PowerPoint، Presentation، XPS، Python، Aspose

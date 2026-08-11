@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTX to PPTM in Python
 url: /python-java/conversion/pptx-to-pptm/
 keywords: Python PPTX conversion, PPTX to PPTM, macro-enabled PowerPoint presentation, PowerPoint conversion, Aspose.Slides for Python via Java

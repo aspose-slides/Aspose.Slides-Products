@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل OTP إلى TIFF في بايثون
 url: /ar/python-java/conversion/otp-to-tiff/
 keywords: تحويل العروض التقديمية بايثون، تحويل العروض التقديمية إلى بايثون، بايثون للعروض التقديمية، Aspose.Slides بايثون، تحويل OTP إلى TIFF، مكتبة بايثون التقديمية

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C＃を介してPPTMをPPSXに変換する
 weight: 8240
 url: /ja/net/conversion/pptm-to-ppsx/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX-Dateien mit Python in BMP zusammenführen
 url: /de/python-net/merge/pptx-to-bmp/
 keywords: PPTX mit BMP zusammenführen, PPTX mit BMP verbinden, PPTX mit BMP kombinieren, PowerPoint, Präsentation, BMP, Python, Aspose

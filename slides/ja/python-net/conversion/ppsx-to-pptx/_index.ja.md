@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PythonでPPSXをPPTXに変換する
 weight: 2160
 url: /ja/python-net/conversion/ppsx-to-pptx/ 

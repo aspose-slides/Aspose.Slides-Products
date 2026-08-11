@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie JPG in PPTX in Java
 url: /de/java/conversion/jpg-to-pptx/
 keywords: Konvertieren Sie JPG in PPTX, JPG in PPTX, PowerPoint, JPG, PPTX, Java-API, Java-Bibliothek

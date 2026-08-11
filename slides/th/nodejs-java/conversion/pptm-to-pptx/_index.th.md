@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTM เป็น PPTX ใน Node.js
 url: /th/nodejs-java/conversion/pptm-to-pptx/
 keywords: PPTM เป็น PPTX, แปลง PPTM เป็น PPTX, Node.js API, ไลบรารี Node.js, PPTM, PPTX

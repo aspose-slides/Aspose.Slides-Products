@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci immagini PNG in PHP
 url: /it/php-java/merger/png-to-png/
 keywords: Unisci PNG, PNG in PNG, Unisci PNG, Combina PNG, API PHP, Libreria PHP

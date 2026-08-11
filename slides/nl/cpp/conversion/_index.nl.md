@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversie van Microsoft PowerPoint-presentaties naar verschillende indelingen met behulp van C++
 url: /nl/cpp/conversion/
 description: Converteer Microsoft PowerPoint-dia's naar meerdere bestanden, waaronder HTML-, PDF- en afbeeldingsindelingen binnen op C++ gebaseerde toepassingen.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT'yi C# ile Videoya Dönüştür
 url: /tr/net/conversion/ppt-to-video/
 keywords: PPT'yi videoya, PPT'yi videoya, PowerPoint'i videoya, PPT'yi MP4'e, C# API'ye, .NET Library'ye dönüştürün

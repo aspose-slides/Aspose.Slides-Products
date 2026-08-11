@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ویرایش پاورپوینت و ارائه OpenOffice با استفاده از ++C
 url: /fa/cpp/redaction/
 description: کد منبع C++ برای یافتن و حذف محتوا در ارائه‌های PowerPoint و OpenOffice™

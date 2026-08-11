@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPTM-filer till POTX med Python
 url: /sv/python-net/merge/pptm-to-potx/
 keywords: Slå samman PPTM till POTX, gå med PPTM till POTX, kombinera PPTM till POTX, PowerPoint, Presentation, POTX, Python, Aspose

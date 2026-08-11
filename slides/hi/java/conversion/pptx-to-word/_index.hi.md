@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में पीपीटीएक्स को वर्ड में कनवर्ट करें
 url: /hi/java/conversion/pptx-to-word/
 keywords: PPTX को Word, PPTX को Word, PPTX को DOC, PowerPoint को Word, Java API, Java लाइब्रेरी में कनवर्ट करें

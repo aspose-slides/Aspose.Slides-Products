@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File POTM Ke PPSX Menggunakan Python
 url: /id/python-net/merge/potm-to-ppsx/
 keywords: Gabungkan POTM ke PPSX, Gabungkan POTM ke PPSX, Gabungkan POTM ke PPSX, PowerPoint, Presentasi, PPSX, Python, Aspose

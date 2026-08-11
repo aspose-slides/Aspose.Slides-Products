@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan FODP ke OTP di Node.js
 url: /id/nodejs-java/conversion/fodp-to-otp/
 keywords: FODP ke OTP, Konversi FODP ke OTP, API Node.js, Pustaka Node.js, FODP, OTP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file POTX a PPTM usando Python
 url: /it/python-net/merge/potx-to-pptm/
 keywords: Unisci POTX a PPTM, Unisci POTX a PPTM, Combina POTX a PPTM, PowerPoint, Presentazione, PPTM, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을(를) 사용하여 PPTX 프레젠테이션 파일 보호
 url: /ko/net/protect/pptx/
 keywords: 쓰기 방지 PPTX, PPTX 암호화, PPTX 프레젠테이션 잠금, PPTX 보호

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPS vers BMP à l'aide de Python
 url: /fr/python-net/merge/pps-to-bmp/
 keywords: Fusionner PPS à BMP, Joindre PPS à BMP, Combiner PPS à BMP, PowerPoint, Présentation, BMP, Python, Aspose

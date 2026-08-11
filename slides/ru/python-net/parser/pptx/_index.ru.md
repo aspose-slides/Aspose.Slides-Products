@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Извлечение текста и изображений из файлов PPTX с помощью Python
 url: /ru/python-net/parser/pptx/
 keywords: анализировать PPTX с помощью Python, синтаксический анализатор PPTX Python, извлекать данные из PPTX в Python, извлекать текст из PPTX с помощью Python, извлекать изображения из PPTX с помощью Python

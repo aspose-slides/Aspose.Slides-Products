@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-06-16
 title: View Presentations using C++
 url: /cpp/viewer/
 description: View PowerPoint and OpenDocument presentations in C++. Use Aspose.Slides for C++ to open presentation files and save them as responsive HTML.

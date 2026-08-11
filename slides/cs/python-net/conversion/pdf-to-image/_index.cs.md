@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PDF na Image v Pythonu
 url: /cs/python-net/conversion/pdf-to-image/
 keywords: PDF do Image, Převést PDF do Image, Python API, Python Library, PDF, Image

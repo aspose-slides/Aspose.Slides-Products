@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で POTM を POT に変換します
 url: /ja/nodejs-net/conversion/potm-to-pot/
 keywords: POTM から POT、POTM から POT への変換、Node.js API、JavaScript ライブラリ、POTM、POT

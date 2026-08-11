@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中將 FODP 轉換為 PPSX
 url: /zh-hant/nodejs-net/conversion/fodp-to-ppsx/
 keywords: FODP 到 PPSX、將 FODP 轉換成 PPSX、Node.js API、JavaScript 函式庫、FODP、PPSX

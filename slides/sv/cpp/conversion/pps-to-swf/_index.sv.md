@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPS till SWF via C++-applikation
 url: /sv/cpp/conversion/pps-to-swf/ 
 description: Exempel på C++-konverteringskod för PPS-dokument till SWF-format. Använd exempelkod för batchkonvertering av PPS till SWF inom alla C++-applikationer.

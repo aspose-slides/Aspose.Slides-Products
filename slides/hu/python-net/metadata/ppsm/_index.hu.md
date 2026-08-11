@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPSM fájlok metaadatainak megtekintése vagy szerkesztése a Python használatával
 url: /hu/python-net/metadata/ppsm/
 keywords: PPSM metaadatok szerkesztése, PPSM metaadatok megtekintése, PPSM tulajdonságok szerkesztése, PPSM tulajdonságok megtekintése

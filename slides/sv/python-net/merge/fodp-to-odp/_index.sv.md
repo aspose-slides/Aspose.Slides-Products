@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman FODP-filer till ODP med Python
 url: /sv/python-net/merge/fodp-to-odp/
 keywords: Slå samman FODP till ODP, gå med FODP till ODP, kombinera FODP till ODP, PowerPoint, Presentation, ODP, Python, Aspose

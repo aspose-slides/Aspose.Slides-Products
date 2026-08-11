@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tambahkan Tanda Air ke file PowerPoint di Windows, Linux, dan macOS
 url: /id/watermark/
 description: API untuk Menambahkan Tanda Air ke Presentasi PPT, PPTX & ODP

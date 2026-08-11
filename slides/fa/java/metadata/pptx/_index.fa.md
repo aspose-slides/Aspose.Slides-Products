@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده یا ویرایش فراداده فایل‌های PPTX با استفاده از Java
 url: /fa/java/metadata/pptx/
 keywords: ویرایش فراداده PPTX، مشاهده فراداده PPTX، ویرایش ویژگی‌های PPTX، مشاهده ویژگی‌های PPTX

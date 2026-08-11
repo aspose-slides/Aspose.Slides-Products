@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Proteja los archivos de presentación de ODP usando Python
 url: /es/python-net/protect/odp/
 keywords: Protección contra escritura ODP, encriptación de ODP, bloqueo de ODP presentación, protección de ODP

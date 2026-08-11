@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض وتحرير البيانات الوصفية لملفات PowerPoint على أنظمة التشغيل Windows و Linux و macOS
 url: /ar/metadata/
 description: واجهات برمجة التطبيقات لعرض وتحرير خصائص مستند PPT و PPTX

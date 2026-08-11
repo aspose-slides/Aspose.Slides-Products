@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sắp xếp lại các tệp PowerPoint trên Windows, Linux và macOS
 url: /vi/redaction/
 description: API để thêm bảo vệ cho bản trình bày PPT, PPTX & ODP

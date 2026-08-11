@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigir arquivos de apresentação PPTX usando C++
 url: /pt/cpp/redaction/pptx/
 keywords: Redigir PPTX, localizar e substituir texto em PPTX, atualizar PPTX Apresentação

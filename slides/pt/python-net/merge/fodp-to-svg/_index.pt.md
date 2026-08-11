@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos FODP para SVG usando Python
 url: /pt/python-net/merge/fodp-to-svg/
 keywords: Mesclar FODP com SVG, juntar FODP com SVG, combinar FODP com SVG, PowerPoint, Presentation, SVG, Python, Aspose

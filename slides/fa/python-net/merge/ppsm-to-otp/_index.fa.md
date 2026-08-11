@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPSM را با OTP ادغام کنید
 url: /fa/python-net/merge/ppsm-to-otp/
 keywords: ادغام PPSM به OTP، پیوستن به PPSM به OTP، ترکیب PPSM به OTP، PowerPoint، Presentation، OTP، Python، Aspose

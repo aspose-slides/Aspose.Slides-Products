@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG'yi Python'da PDF ile birleştirme
 url: /tr/python-net/merge/jpg-to-pdf/
 keywords: JPG'den PDF'e, JPG'den PDF'e Birleştirme, JPG'den PDF'e Birleştirme, PDF, JPG, Python API, Python Kitaplığı

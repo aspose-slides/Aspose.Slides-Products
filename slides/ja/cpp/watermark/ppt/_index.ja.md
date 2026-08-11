@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して、PPT プレゼンテーション ファイルにウォーターマークを追加します
 url: /ja/cpp/watermark/ppt/
 keywords: ウォーターマークの追加 PPT、テキストのウォーターマークの追加 PPT、画像のウォーターマークの追加 PPT

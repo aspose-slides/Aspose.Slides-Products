@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX दस्तावेज़ से C++ . के माध्यम से पाठ और चित्र निकालें
 weight: 2290
 url: /hi/cpp/parser/pptx/ 

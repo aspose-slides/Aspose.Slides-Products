@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi OTP sang PPSX trong JavaScript
 url: /vi/nodejs-net/conversion/otp-to-ppsx/
 keywords: OTP sang PPSX, Chuyển đổi OTP sang PPSX, API Node.js, Thư viện JavaScript, OTP, PPSX

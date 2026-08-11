@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PNG a JPG en PHP
 url: /es/php-java/conversion/png-to-jpg/
 keywords: PNG a JPG, Convertir PNG a JPG, API de PHP, Biblioteca PHP, PNG, JPG

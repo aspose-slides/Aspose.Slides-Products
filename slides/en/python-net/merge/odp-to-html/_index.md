@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files and Export to HTML Using Python
 url: /python-net/merge/odp-to-html/
 keywords: Merge ODP to HTML, Join ODP to HTML, Combine ODP to HTML, PowerPoint, Presentation, HTML, Python, Aspose

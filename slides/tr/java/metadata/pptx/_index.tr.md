@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java kullanarak PPTX Dosya Meta Verilerini Görüntüleyin veya Düzenleyin
 url: /tr/java/metadata/pptx/
 keywords: PPTX Meta Verilerini Düzenleyin, PPTX Meta Verilerini Görüntüleyin, PPTX özelliklerini düzenleyin, PPTX özelliklerini görüntüleyin

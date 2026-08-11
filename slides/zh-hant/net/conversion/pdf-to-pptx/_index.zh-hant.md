@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中將 PDF 轉換為 PPTX
 url: /zh-hant/net/conversion/pdf-to-pptx/
 keywords: 將 PDF 轉換為 PPTX、將 PDF 轉換為 PPTX、PowerPoint、PDF、PPTX、C# API、.NET 庫

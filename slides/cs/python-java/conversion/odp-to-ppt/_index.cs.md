@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte ODP na PPT v Pythonu
 url: /cs/python-java/conversion/odp-to-ppt/
 keywords: Převod prezentací v Pythonu, převod prezentací do jazyka Python, Python pro prezentace, Aspose.Slides Python, převod ODP do PPT, knihovna prezentací Pythonu

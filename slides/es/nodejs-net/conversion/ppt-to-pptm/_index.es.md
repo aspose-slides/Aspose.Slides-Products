@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT a PPTM en JavaScript
 url: /es/nodejs-net/conversion/ppt-to-pptm/
 keywords: PPT a PPTM, Convertir PPT a PPTM, API de Node.js, Biblioteca JavaScript, PPT, PPTM

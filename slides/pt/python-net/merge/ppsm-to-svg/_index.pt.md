@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPSM para SVG usando Python
 url: /pt/python-net/merge/ppsm-to-svg/
 keywords: Mesclar PPSM com SVG, juntar PPSM com SVG, combinar PPSM com SVG, PowerPoint, Presentation, SVG, Python, Aspose

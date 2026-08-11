@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP का उपयोग करके PPT फ़ाइलों को मर्ज करें
 url: /hi/php-java/merger/ppt/
 keywords: PPT मर्ज करें, PPT में शामिल हों, PPT, PowerPoint, प्रस्तुति, PHP, Aspose को मिलाएं

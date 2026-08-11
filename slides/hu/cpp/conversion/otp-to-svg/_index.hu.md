@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja az OTP-t SVG-vé C++ alkalmazással
 weight: 6380
 url: /hu/cpp/conversion/otp-to-svg/ 

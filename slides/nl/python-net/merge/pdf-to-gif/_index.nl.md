@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PDF-bestanden samen naar GIF met Python
 url: /nl/python-net/merge/pdf-to-gif/
 keywords: Voeg PDF samen tot GIF, voeg PDF toe aan GIF, combineer PDF tot GIF, PowerPoint, Presentatie, GIF, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PDF, PPT, PPTX 및 기타 여러 파일 형식 병합
 url: /ko/python-net/merge/
 keywords: 병합, 조인, PowerPoint, 프레젠테이션, Python, Aspose

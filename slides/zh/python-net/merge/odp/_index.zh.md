@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 合并 ODP 文件
 url: /zh/python-net/merge/odp/
 keywords: 合并 ODP、加入 ODP、合并 ODP、PowerPoint、演示文稿、Python、Aspose

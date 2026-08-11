@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file ODP a PPSM usando Python
 url: /it/python-net/merge/odp-to-ppsm/
 keywords: Unisci ODP a PPSM, Unisci ODP a PPSM, Combina ODP a PPSM, PowerPoint, Presentazione, PPSM, Python, Aspose

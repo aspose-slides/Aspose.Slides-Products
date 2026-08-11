@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# dilinde PDF'yi PPT'ye dönüştürün
 url: /tr/net/conversion/pdf-to-ppt/
 keywords: PDF'yi PPT'ye, PDF'yi PPT'ye, PowerPoint, PDF, PPT, C# API, .NET Library'ye dönüştürün

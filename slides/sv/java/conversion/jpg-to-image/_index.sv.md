@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera JPG till Image i Java
 url: /sv/java/conversion/jpg-to-image/
 keywords: JPG till Image, Konvertera JPG till Image, Java API, Java Library, JPG, Image

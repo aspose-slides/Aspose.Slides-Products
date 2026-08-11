@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSM Files and Export to PDF Using Python
 url: /python-net/merge/ppsm-to-pdf/
 keywords: Merge PPSM to PDF, Join PPSM to PDF, Combine PPSM to PDF, PowerPoint, Presentation, PDF, Python, Aspose

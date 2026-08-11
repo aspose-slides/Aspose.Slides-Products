@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPT a PPTM usando Python
 url: /it/python-net/merge/ppt-to-pptm/
 keywords: Unisci PPT a PPTM, Unisci PPT a PPTM, Combina PPT a PPTM, PowerPoint, Presentazione, PPTM, Python, Aspose

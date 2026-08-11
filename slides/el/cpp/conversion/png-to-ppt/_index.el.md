@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PNG σε PPT σε C++
 url: /el/cpp/conversion/png-to-ppt/
 keywords: Μετατροπή PNG σε PPT, PNG σε PPT, PowerPoint, PNG, PPT, C++ API, Βιβλιοθήκη C++

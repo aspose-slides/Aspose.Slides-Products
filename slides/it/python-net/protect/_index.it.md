@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Blocca o proteggi con password la presentazione usando Python
 url: /it/python-net/protect/
 description: Codice sorgente Python per impostare una password per bloccare la presentazione

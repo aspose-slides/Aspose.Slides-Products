@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất SVG thành PNG trong Java
 url: /vi/java/merger/svg-to-png/
 keywords: Hợp nhất SVG thành PNG, SVG thành PNG, Nối SVG thành PNG, Kết hợp SVG thành PNG, API Java, Thư viện Java

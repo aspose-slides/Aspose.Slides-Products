@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 Image 轉換為 PDF
 url: /zh-hant/java/conversion/image-to-pdf/
 keywords: Image 到 PDF，將 Image 轉換為 PDF，Java API，Java 庫，Image，PDF

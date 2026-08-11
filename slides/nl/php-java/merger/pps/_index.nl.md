@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPS bestanden samen met behulp van PHP
 url: /nl/php-java/merger/pps/
 keywords: Samenvoegen PPS, Join PPS, Combineren PPS, PowerPoint, Presentatie, PHP, Aspose

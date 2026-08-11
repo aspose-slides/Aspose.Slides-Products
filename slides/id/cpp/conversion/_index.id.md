@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi Presentasi Microsoft PowerPoint ke Berbagai Format menggunakan C++
 url: /id/cpp/conversion/
 description: Konversi Microsoft PowerPoint Slides ke banyak file termasuk HTML, PDF, dan format gambar dalam aplikasi berbasis C++.

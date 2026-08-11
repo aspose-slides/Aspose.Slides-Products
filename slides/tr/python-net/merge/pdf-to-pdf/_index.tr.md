@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PDF Dosyalarını Python'da Birleştirme
 url: /tr/python-net/merge/pdf-to-pdf/
 keywords: PDF'yi Birleştirme, PDF'den PDF'e, PDF'ye Birleştirme, PDF'yi Birleştirme, Python API, Python Kitaplığı

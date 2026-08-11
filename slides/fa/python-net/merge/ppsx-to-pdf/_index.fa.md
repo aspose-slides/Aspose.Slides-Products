@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPSX را با PDF ادغام کنید
 url: /fa/python-net/merge/ppsx-to-pdf/
 keywords: ادغام PPSX به PDF، پیوستن به PPSX به PDF، ترکیب PPSX به PDF، PowerPoint، Presentation، PDF، Python، Aspose

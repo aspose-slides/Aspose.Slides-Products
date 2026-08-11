@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit ODP Metadata with Python
 url: /python-net/metadata/odp/
 keywords: Edit ODP Metadata, View ODP Metadata, Edit ODP Properties, View ODP Properties

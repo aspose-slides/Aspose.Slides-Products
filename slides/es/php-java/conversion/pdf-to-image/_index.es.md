@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PDF a Image en PHP
 url: /es/php-java/conversion/pdf-to-image/
 keywords: PDF a Image, Convertir PDF a Image, API de PHP, Biblioteca PHP, PDF, Image

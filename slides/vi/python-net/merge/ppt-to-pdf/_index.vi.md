@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPT thành PDF bằng Python
 url: /vi/python-net/merge/ppt-to-pdf/
 keywords: Hợp nhất PPT thành PDF, Nối PPT thành PDF, Kết hợp PPT thành PDF, PowerPoint, Bản trình bày, PDF, Python, Aspose

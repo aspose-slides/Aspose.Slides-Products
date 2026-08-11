@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 PHP 合并 OTP 文件
 url: /zh/php-java/merger/otp/
 keywords: 合并 OTP、加入 OTP、合并 OTP、PowerPoint、演示文稿、PHP、Aspose

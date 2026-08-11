@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で PPT を BMP に変換します
 url: /ja/nodejs-net/conversion/ppt-to-bmp/
 keywords: PPT から BMP、PPT から BMP への変換、Node.js API、JavaScript ライブラリ、PPT、BMP

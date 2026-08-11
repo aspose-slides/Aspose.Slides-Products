@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir ODP a SVG en JavaScript
 url: /es/nodejs-net/conversion/odp-to-svg/
 keywords: ODP a SVG, Convertir ODP a SVG, API de Node.js, Biblioteca JavaScript, ODP, SVG

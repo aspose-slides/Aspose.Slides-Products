@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Kép egyesítése BMP-vel Pythonban
 url: /hu/python-net/merge/image-to-bmp/
 keywords: Kép BMP-be, Kép egyesítése BMP-be, Kép összekapcsolása BMP-be, Képek kombinálása, Kép, BMP, Python API, Python Library

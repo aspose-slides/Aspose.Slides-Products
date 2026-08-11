@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で HTML を PPT に変換する
 url: /ja/net/conversion/html-to-ppt/
 keywords: HTML を PPT に、HTML を PPT に、PowerPoint、HTML、PPT、C# API、.NET ライブラリに変換

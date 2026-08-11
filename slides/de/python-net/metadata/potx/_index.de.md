@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Metadaten von POTX-Dateien mit Python anzeigen oder bearbeiten
 url: /de/python-net/metadata/potx/
 keywords: POTX-Metadaten bearbeiten, POTX-Metadaten anzeigen, POTX-Eigenschaften bearbeiten, POTX-Eigenschaften anzeigen

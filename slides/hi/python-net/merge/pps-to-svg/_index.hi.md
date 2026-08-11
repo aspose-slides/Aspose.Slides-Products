@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPS फ़ाइलों को SVG में मर्ज करें
 url: /hi/python-net/merge/pps-to-svg/
 keywords: PPS को SVG में मिलाएं, PPS से SVG में शामिल हों, PPS से SVG, PowerPoint, प्रेजेंटेशन, SVG, Python, Aspose को मिलाएं

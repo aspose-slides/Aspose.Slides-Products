@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTM-Dateien mit Python in PPSX zusammenführen
 url: /de/python-net/merge/pptm-to-ppsx/
 keywords: PPTM mit PPSX zusammenführen, PPTM mit PPSX verbinden, PPTM mit PPSX kombinieren, PowerPoint, Präsentation, PPSX, Python, Aspose

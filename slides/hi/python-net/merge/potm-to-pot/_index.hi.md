@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके POTM फ़ाइलों को POT में मर्ज करें
 url: /hi/python-net/merge/potm-to-pot/
 keywords: POTM को POT में मिलाएं, POTM से POT में शामिल हों, POTM से POT, PowerPoint, प्रेजेंटेशन, POT, Python, Aspose को मिलाएं

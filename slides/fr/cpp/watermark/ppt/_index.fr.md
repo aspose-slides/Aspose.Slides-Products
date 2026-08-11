@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ajouter un filigrane aux fichiers de présentation PPT à l'aide de C++
 url: /fr/cpp/watermark/ppt/
 keywords: Ajouter un filigrane PPT, Ajouter un filigrane de texte PPT, Ajouter un filigrane d'image PPT

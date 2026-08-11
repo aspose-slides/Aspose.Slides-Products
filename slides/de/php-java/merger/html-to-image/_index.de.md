@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: HTML mit Bild in PHP zusammenführen
 url: /de/php-java/merger/html-to-image/
 keywords: HTML mit Bild zusammenführen, HTML mit Bild, HTML verbinden, HTML kombinieren, Bild, PHP-API, PHP-Bibliothek

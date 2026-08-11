@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で OTP を BMP に変換します
 url: /ja/nodejs-net/conversion/otp-to-bmp/
 keywords: OTP から BMP、OTP から BMP への変換、Node.js API、JavaScript ライブラリ、OTP、BMP

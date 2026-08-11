@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux 및 macOS에서 PowerPoint 파일의 텍스트 검색
 url: /ko/search/
 description: PPT, PPTX 및 ODP 프레젠테이션에서 텍스트를 검색하는 API

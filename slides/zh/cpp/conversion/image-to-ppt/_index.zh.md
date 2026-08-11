@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在C++中将图像转换为PPT
 url: /zh/cpp/conversion/image-to-ppt/
 keywords: 图像到 PPT，将图像转换为 PPT，C++ API，C++ 库，图像，PPT

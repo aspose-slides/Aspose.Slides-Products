@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: FODP-Dateien mit Python in XPS zusammenführen
 url: /de/python-net/merge/fodp-to-xps/
 keywords: FODP mit XPS zusammenführen, FODP mit XPS verbinden, FODP mit XPS kombinieren, PowerPoint, Präsentation, XPS, Python, Aspose

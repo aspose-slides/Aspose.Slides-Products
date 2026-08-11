@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTM в JPG в Node.js
 url: /ru/nodejs-java/conversion/pptm-to-jpg/
 keywords: PPTM в JPG, конвертировать PPTM в JPG, API Node.js, библиотека Node.js, PPTM, JPG

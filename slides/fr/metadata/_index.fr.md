@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afficher et modifier les métadonnées des fichiers PowerPoint sous Windows, Linux et macOS
 url: /fr/metadata/
 description: API pour afficher et modifier les propriétés des documents PPT et PPTX

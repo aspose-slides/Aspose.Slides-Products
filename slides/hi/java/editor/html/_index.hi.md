@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में एचटीएमएल संपादित करें
 url: /hi/java/editor/html/
 keywords: एचटीएमएल, एचटीएमएल, जावा एपीआई, जावा लाइब्रेरी संपादित करें

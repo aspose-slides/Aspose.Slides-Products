@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: การประมวลผล PowerPoint ของ Node.js แปลงงานนำเสนอได้อย่างง่ายดายโดยใช้ Aspose.Slides
 url: /th/nodejs-net/conversion/
 keywords: "แปลง, PowerPoint, การนำเสนอ, Node.js, javascript, js, PDF, แปลงเป็น PDF, PPT เป็น PDF"

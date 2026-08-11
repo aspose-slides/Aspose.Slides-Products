@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 将 Microsoft PowerPoint 演示文稿转换为各种格式
 url: /zh/cpp/conversion/
 description: 在基于 C++ 的应用程序中将 Microsoft PowerPoint 幻灯片转换为多个文件，包括 HTML、PDF 和图像格式。

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-20
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge Images to PDF in PHP
 url: /php-java/merger/image-to-pdf/
 keywords: Image to PDF, Merge Image to PDF, Join Image to PDF, PDF, Image, PHP API, PHP Library

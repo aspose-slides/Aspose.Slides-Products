@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSM a PPSX usando Python
 url: /it/python-net/merge/ppsm-to-ppsx/
 keywords: Unisci PPSM a PPSX, Unisci PPSM a PPSX, Combina PPSM a PPSX, PowerPoint, Presentazione, PPSX, Python, Aspose

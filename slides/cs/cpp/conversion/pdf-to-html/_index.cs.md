@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PDF do HTML v C++
 url: /cs/cpp/conversion/pdf-to-html/
 keywords: PDF do HTML, Převést PDF do HTML, C++ API, C++ Library, PDF, HTML

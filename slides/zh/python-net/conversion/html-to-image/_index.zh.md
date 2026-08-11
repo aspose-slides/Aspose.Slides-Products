@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 HTML 转换为 Image
 url: /zh/python-net/conversion/html-to-image/
 keywords: HTML 到 Image，将 HTML 转换为 Image，Python API，Python 库，HTML，Image

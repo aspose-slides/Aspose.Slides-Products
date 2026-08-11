@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) JPG fájlt PDF formátumra a Pythonban
 url: /hu/python-net/conversion/jpg-to-pdf/
 keywords: JPG to PDF, JPG konvertálása PDF formátumba, Python API, Python Library, JPG, PDF

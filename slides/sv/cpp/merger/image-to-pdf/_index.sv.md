@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman bild till PDF i C++
 url: /sv/cpp/merger/image-to-pdf/
 keywords: Bild till PDF, Slå ihop bild till PDF, anslut bild till PDF, PDF, Bild, C++ API, C++ Library

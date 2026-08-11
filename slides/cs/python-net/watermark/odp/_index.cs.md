@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Přidat vodoznak do prezentačních souborů ODP pomocí Python
 url: /cs/python-net/watermark/odp/
 keywords: Přidat vodoznak ODP, Přidat textový vodoznak ODP, Přidat vodoznak obrázku ODP

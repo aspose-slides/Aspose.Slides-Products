@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files and Export to SVG Using Python
 url: /python-net/merge/pdf-to-svg/
 keywords: Merge PDF to SVG, Join PDF to SVG, Combine PDF to SVG, PowerPoint, Presentation, SVG, Python, Aspose

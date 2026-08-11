@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 PPSM 转换为 OTP
 url: /zh/nodejs-net/conversion/ppsm-to-otp/
 keywords: PPSM 到 OTP、将 PPSM 转换为 OTP、Node.js API、JavaScript 库、PPSM、OTP

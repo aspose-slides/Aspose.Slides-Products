@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a HTML-fájlokat C++-ban
 url: /hu/cpp/merger/html-to-html/
 keywords: HTML egyesítése, HTML HTML-be, csatlakozás HTML-hez, HTML kombinálása, C++ API, C++ könyvtár

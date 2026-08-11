@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT thành SVG trong Node.js
 url: /vi/nodejs-java/conversion/ppt-to-svg/
 keywords: PPT sang SVG, Chuyển đổi PPT sang SVG, API Node.js, Thư viện Node.js, PPT, SVG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj POT na FODP w JavaScript
 url: /pl/nodejs-net/conversion/pot-to-fodp/
 keywords: POT na FODP, Konwertuj POT na FODP, API Node.js, Biblioteka JavaScript, POT, FODP

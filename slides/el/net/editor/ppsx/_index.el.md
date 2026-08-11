@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Επεξεργαστείτε αρχεία PPSX μέσω .NET
 url: /el/net/editor/ppsx/ 
 description: Πηγαίος κώδικας C# για επεξεργασία εγγράφου PPSX σε πλατφόρμες .NET Framework, .NET Core, Windows Azure, Mono ή Xamarin.

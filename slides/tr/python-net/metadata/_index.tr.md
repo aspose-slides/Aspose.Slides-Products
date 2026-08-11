@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PowerPoint Meta Verilerini Görüntüleyin ve Düzenleyin
 url: /tr/python-net/metadata/
 description: Sunum özelliklerini görüntülemek ve düzenlemek için Python kaynak kodu

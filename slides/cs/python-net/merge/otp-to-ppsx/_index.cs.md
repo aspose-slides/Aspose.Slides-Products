@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory OTP do PPSX pomocí Pythonu
 url: /cs/python-net/merge/otp-to-ppsx/
 keywords: Sloučit OTP do PPSX, připojit OTP do PPSX, kombinovat OTP do PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

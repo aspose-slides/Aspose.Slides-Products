@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीपीटीएक्स को सी ++ में वर्ड में कनवर्ट करें
 url: /hi/cpp/conversion/pptx-to-word/
 keywords: PPTX को Word में, PPTX को Word में, PPTX को DOC में, PowerPoint को Word में, C++ API, C++ लाइब्रेरी, CPP में बदलें

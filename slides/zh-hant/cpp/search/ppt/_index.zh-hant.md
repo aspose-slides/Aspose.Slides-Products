@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 在 PPT 演示文件中搜索文本
 url: /zh-hant/cpp/search/ppt/
 keywords: 在 PPT 中搜索單詞，在 PPT 中搜索和替換文本，在 PPT 中搜索文本 Presentation

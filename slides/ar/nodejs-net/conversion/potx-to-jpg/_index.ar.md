@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل POTX إلى JPG في JavaScript
 url: /ar/nodejs-net/conversion/potx-to-jpg/
 keywords: POTX إلى JPG، تحويل POTX إلى JPG، Node.js API، مكتبة JavaScript، POTX، JPG

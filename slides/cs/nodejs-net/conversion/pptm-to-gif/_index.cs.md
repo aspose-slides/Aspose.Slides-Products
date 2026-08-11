@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPTM do GIF v JavaScriptu
 url: /cs/nodejs-net/conversion/pptm-to-gif/
 keywords: PPTM do GIF, Převést PPTM do GIF, Node.js API, JavaScript Library, PPTM, GIF

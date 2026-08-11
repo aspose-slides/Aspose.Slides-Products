@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie HTML in PDF in Python
 url: /de/python-net/conversion/html-to-pdf/
 keywords: HTML in PDF, Konvertiere HTML in PDF, Python-API, Python-Bibliothek, HTML, PDF

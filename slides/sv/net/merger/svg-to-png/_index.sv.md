@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman SVG till PNG i C#
 url: /sv/net/merger/svg-to-png/
 keywords: Slå samman SVG till PNG, SVG till PNG, anslut SVG till PNG, Kombinera SVG till PNG, C# API, .NET Library

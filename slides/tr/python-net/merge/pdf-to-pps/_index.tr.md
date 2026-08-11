@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PDF Dosyalarını PPS İle Birleştirin
 url: /tr/python-net/merge/pdf-to-pps/
 keywords: PDF'ı PPS ile birleştir, PDF ile PPS'a katıl, PDF'ı PPS ile birleştir, PowerPoint, Presentation, PPS, Python, Aspose

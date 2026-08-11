@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में PNG को SVG में कनवर्ट करें
 url: /hi/java/conversion/png-to-svg/
 keywords: PNG से SVG, PNG को SVG में बदलें, Java API, Java लाइब्रेरी, PNG, SVG

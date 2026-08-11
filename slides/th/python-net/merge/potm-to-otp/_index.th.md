@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POTM เข้ากับ OTP โดยใช้ Python
 url: /th/python-net/merge/potm-to-otp/
 keywords: รวม POTM เป็น OTP เข้าร่วม POTM ถึง OTP รวม POTM เป็น OTP PowerPoint การนำเสนอ OTP Python Aspose

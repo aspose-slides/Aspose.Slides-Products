@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX را در PHP ویرایش کنید
 url: /fa/php-java/editor/ppsx/
 keywords: ویرایش PPSX، ویرایش پاورپوینت، PPSX، پاورپوینت، PHP API، کتابخانه PHP

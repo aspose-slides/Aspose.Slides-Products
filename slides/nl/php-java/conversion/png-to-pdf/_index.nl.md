@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PNG naar PDF in PHP
 url: /nl/php-java/conversion/png-to-pdf/
 keywords: PNG naar PDF, Converteer PNG naar PDF, PHP API, PHP Library, PNG, PDF

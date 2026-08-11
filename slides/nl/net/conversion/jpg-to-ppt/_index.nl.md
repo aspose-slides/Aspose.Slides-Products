@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer JPG naar PPT in C#
 url: /nl/net/conversion/jpg-to-ppt/
 keywords: Converteer JPG naar PPT, JPG naar PPT, PowerPoint, JPG, PPT, C# API, .NET Library

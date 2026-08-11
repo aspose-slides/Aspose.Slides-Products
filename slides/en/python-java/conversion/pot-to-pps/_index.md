@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to PPS in Python
 url: /python-java/conversion/pot-to-pps/
 keywords: Python POT conversion, POT to PPS, PowerPoint to PPS, PowerPoint slide show, Aspose.Slides for Python via Java

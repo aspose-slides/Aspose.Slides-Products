@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: FODP-Dateien mit PHP zusammenführen
 url: /de/php-java/merger/fodp/
 keywords: FODP zusammenführen, FODP verbinden, FODP kombinieren, PowerPoint, Präsentation, PHP, Aspose

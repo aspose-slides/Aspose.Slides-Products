@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahujte text a obrázky ze souborů PPT pomocí Python
 url: /cs/python-net/parser/ppt/
 keywords: analyzovat PPT pomocí Python, PPT analyzátor Python, extrahovat data z PPT v Python, extrahovat text z PPT pomocí Python, extrahovat obrázky z PPT pomocí Python

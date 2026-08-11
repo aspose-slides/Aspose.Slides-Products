@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edit file PPSM melalui .NET
 url: /id/net/editor/ppsm/ 
 description: Kode sumber C# untuk mengedit dokumen PPSM di .NET Framework, .NET Core, Windows Azure, Mono atau Platform Xamarin.

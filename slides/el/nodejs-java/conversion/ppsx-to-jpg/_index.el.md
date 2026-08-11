@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPSX σε JPG στο Node.js
 url: /el/nodejs-java/conversion/ppsx-to-jpg/
 keywords: PPSX σε JPG, Convert PPSX σε JPG, Node.js API, Node.js Library, PPSX, JPG

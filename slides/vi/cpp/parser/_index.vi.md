@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Trích xuất văn bản hoặc đối tượng từ tài liệu PowerPoint và OpenOffice bằng C++
 url: /vi/cpp/parser/
 description: Mã nguồn C++ để trích xuất dữ liệu từ các bản trình bày PowerPoint và OpenOffice.

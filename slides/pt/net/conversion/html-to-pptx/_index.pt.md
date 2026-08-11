@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter HTML para PPTX em C#
 url: /pt/net/conversion/html-to-pptx/
 keywords: Converta HTML para PPTX, HTML para PPTX, PowerPoint, HTML, PPTX, C# API, Biblioteca .NET

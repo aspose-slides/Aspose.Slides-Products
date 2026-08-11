@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 从 Windows、Linux 和 macOS 上的 PowerPoint 文件中删除评论
 weight: 7730
 url: /zh/annotation/

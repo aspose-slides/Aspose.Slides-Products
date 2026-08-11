@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Cari Teks di File Presentasi PPTX menggunakan Java
 url: /id/java/search/pptx/
 keywords: cari kata dalam PPTX, cari dan ganti teks dalam PPTX, cari teks PPTX Presentasi

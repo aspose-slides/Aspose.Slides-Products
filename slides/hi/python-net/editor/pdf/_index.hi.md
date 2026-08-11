@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में पीडीएफ संपादित करें
 url: /hi/python-net/editor/pdf/
 keywords: पीडीएफ, पीडीएफ, पायथन एपीआई, पायथन लाइब्रेरी संपादित करें

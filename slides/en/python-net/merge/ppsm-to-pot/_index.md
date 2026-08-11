@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSM Files and Export to POT Using Python
 url: /python-net/merge/ppsm-to-pot/
 keywords: Merge PPSM to POT, Join PPSM to POT, Combine PPSM to POT, PowerPoint, Presentation, POT, Python, Aspose

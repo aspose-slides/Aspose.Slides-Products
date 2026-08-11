@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: فایل های POTM را از طریق دات نت ویرایش کنید
 url: /fa/net/editor/potm/ 
 description: کد منبع سی شارپ برای ویرایش سند POTM در .NET Framework، .NET Core، Windows Azure، Mono یا Xamarin Platforms.

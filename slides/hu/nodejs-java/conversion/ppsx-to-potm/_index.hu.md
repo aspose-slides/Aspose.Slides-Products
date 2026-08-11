@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPSX konvertálása POTM formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/ppsx-to-potm/
 keywords: PPSX to POTM, PPSX konvertálása POTM formátumba, Node.js API, Node.js Library, PPSX, POTM

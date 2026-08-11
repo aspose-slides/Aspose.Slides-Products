@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके PowerPoint और OpenOffice प्रस्तुतियों को संपादित करें
 url: /hi/cpp/redaction/
 description: PowerPoint और OpenOffice™ प्रस्तुतियों में सामग्री खोजने और निकालने के लिए C++ स्रोत कोड

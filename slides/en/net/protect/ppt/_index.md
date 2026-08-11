@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protect PPT Presentation Files using .NET
 url: /net/protect/ppt/
 keywords: PPT Write Protection, Encrypt PPT, Lock PPT Presentation, Protect PPT

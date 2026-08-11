@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت PDF را به PPT تبدیل کنید
 url: /fa/nodejs-net/conversion/pdf-to-ppt/
 keywords: PDF به PPT، تبدیل PDF به PPT، Node.js API، کتابخانه جاوا اسکریپت، PDF، PPT

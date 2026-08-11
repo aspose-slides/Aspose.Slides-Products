@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดูหรือแก้ไขข้อมูลเมตาของไฟล์ POTX โดยใช้ .NET
 url: /th/net/metadata/potx/
 keywords: แก้ไขข้อมูลเมตา POTX ดูข้อมูลเมตา POTX แก้ไขคุณสมบัติ POTX ดูคุณสมบัติ POTX

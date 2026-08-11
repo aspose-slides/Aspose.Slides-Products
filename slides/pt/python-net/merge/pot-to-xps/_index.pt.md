@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POT para XPS usando Python
 url: /pt/python-net/merge/pot-to-xps/
 keywords: Mesclar POT com XPS, juntar POT com XPS, combinar POT com XPS, PowerPoint, Presentation, XPS, Python, Aspose

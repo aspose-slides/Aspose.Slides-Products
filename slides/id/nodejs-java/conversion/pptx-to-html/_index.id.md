@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPTX ke HTML di Node.js
 url: /id/nodejs-java/conversion/pptx-to-html/
 keywords: PPTX ke HTML, Konversi PPTX ke HTML, API Node.js, Pustaka Node.js, PPTX, HTML

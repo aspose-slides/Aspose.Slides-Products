@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert HTML to XML in Python
 url: /python-net/conversion/html-to-xml/
 keywords: HTML to XML, Convert HTML to XML, Python API, Python Library, HTML, XML

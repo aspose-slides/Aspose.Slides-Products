@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων OTP σε PPS χρησιμοποιώντας Python
 url: /el/python-net/merge/otp-to-pps/
 keywords: Συγχώνευση OTP σε PPS, Join OTP σε PPS, Combine OTP σε PPS, PowerPoint, Presentation, PPS, Python, Aspose

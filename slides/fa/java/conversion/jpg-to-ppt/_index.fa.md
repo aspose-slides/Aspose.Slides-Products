@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل JPG به PPT در جاوا
 url: /fa/java/conversion/jpg-to-ppt/
 keywords: تبدیل JPG به PPT، JPG به PPT، پاورپوینت، JPG، PPT، Java API، کتابخانه جاوا

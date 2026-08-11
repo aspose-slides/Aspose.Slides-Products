@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPTX σε BMP σε JavaScript
 url: /el/nodejs-net/conversion/pptx-to-bmp/
 keywords: PPTX σε BMP, Μετατροπή PPTX σε BMP, Node.js API, JavaScript Library, PPTX, BMP

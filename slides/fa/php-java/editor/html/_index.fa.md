@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: HTML را در PHP ویرایش کنید
 url: /fa/php-java/editor/html/
 keywords: ویرایش HTML، ویرایش پاورپوینت، HTML، پاورپوینت، PHP API، کتابخانه PHP

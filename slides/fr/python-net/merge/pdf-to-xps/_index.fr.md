@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PDF vers XPS à l'aide de Python
 url: /fr/python-net/merge/pdf-to-xps/
 keywords: Fusionner PDF à XPS, Joindre PDF à XPS, Combiner PDF à XPS, PowerPoint, Présentation, XPS, Python, Aspose

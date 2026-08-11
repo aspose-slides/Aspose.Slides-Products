@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Thêm Biểu đồ vào Bản trình bày PowerPoint bằng .NET
 url: /vi/net/chart/
 description: Mã nguồn C# để thêm biểu đồ vào bản trình bày PowerPoint

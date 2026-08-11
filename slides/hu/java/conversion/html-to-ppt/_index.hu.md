@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a HTML-t PPT-vé Java nyelven
 url: /hu/java/conversion/html-to-ppt/
 keywords: HTML konvertálása PPT-vé, HTML konvertálása PPT-vé, PowerPoint, HTML, PPT, Java API, Java Library

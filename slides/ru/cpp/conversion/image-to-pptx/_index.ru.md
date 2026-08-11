@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование изображения в PPTX на C++
 url: /ru/cpp/conversion/image-to-pptx/
 keywords: Изображение в PPTX, преобразование изображения в PPTX, C++ API, библиотека C++, изображение, PPTX

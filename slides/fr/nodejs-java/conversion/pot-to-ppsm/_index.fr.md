@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POT en PPSM dans Node.js
 url: /fr/nodejs-java/conversion/pot-to-ppsm/
 keywords: POT en PPSM, Convertir POT en PPSM, API Node.js, Bibliothèque Node.js, POT, PPSM

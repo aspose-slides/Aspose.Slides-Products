@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) POTX konvertálása JPG formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/potx-to-jpg/
 keywords: POTX to JPG, POTX konvertálása JPG formátumba, Node.js API, Node.js Library, POTX, JPG

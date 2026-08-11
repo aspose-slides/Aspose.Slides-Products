@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View POT in Python
 url: /python-net/viewer/pot/
 keywords: View POT, View PowerPoint Template, Open POT, POT Viewer, POT, PowerPoint, Python API, Python Library

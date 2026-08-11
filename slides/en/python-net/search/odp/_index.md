@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in ODP Presentations with Python
 url: /python-net/search/odp/
 keywords: search text in ODP, find words in ODP, search ODP presentation with Python

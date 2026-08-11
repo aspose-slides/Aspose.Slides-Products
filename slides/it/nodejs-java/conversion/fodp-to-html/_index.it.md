@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti FODP in HTML in Node.js
 url: /it/nodejs-java/conversion/fodp-to-html/
 keywords: FODP in HTML, Converti FODP in HTML, API Node.js, Libreria Node.js, FODP, HTML

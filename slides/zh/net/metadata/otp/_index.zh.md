@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 .NET 查看或编辑 OTP 文件元数据
 url: /zh/net/metadata/otp/
 keywords: 编辑 OTP 元数据，查看 OTP 元数据，编辑 OTP 属性，查看 OTP 属性

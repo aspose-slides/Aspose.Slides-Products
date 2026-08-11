@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง HTML เป็น PPT ใน C++
 url: /th/cpp/conversion/html-to-ppt/
 keywords: แปลง HTML เป็น PPT, HTML เป็น PPT, PowerPoint, HTML, PPT, C++ API, C++ Library

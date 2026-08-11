@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos FODP a PPT usando Python
 url: /es/python-net/merge/fodp-to-ppt/
 keywords: Combinar FODP a PPT, unir FODP a PPT, combinar FODP a PPT, PowerPoint, Presentation, PPT, Python, Aspose

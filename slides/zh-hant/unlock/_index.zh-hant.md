@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 從 Windows、Linux 和 macOS 上的 PowerPoint 文件中刪除密碼
 url: /zh-hant/unlock/
 description: 用於取消對 PPT、PPTX 和 ODP 演示文稿的保護的 API

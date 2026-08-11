@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to HTML in C++
 url: /cpp/conversion/pdf-to-html/
 keywords: PDF to HTML, Convert PDF to HTML, C++ API, C++ Library, PDF, HTML

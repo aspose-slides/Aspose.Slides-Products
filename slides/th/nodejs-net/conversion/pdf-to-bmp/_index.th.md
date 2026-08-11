@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PDF เป็น BMP ใน JavaScript
 url: /th/nodejs-net/conversion/pdf-to-bmp/
 keywords: PDF เป็น BMP, แปลง PDF เป็น BMP, Node.js API, ไลบรารี JavaScript, PDF, BMP

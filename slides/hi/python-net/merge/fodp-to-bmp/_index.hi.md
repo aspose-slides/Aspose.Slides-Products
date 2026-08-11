@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके FODP फ़ाइलों को BMP में मर्ज करें
 url: /hi/python-net/merge/fodp-to-bmp/
 keywords: FODP को BMP में मिलाएं, FODP से BMP में शामिल हों, FODP से BMP, PowerPoint, प्रेजेंटेशन, BMP, Python, Aspose को मिलाएं

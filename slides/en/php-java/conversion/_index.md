@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-20
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PowerPoint Presentations in PHP
 url: /php-java/conversion/
 keywords: "Convert, PowerPoint, Presentation, PHP, PDF, Convert to PDF, PPT to PDF"

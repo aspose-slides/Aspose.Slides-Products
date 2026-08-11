@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPTM thành PPT trong Node.js
 url: /vi/nodejs-java/conversion/pptm-to-ppt/
 keywords: PPTM sang PPT, Chuyển đổi PPTM sang PPT, API Node.js, Thư viện Node.js, PPTM, PPT

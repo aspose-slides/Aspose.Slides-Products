@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) HTML fájlt TIFF formátumra Java nyelven
 url: /hu/java/conversion/html-to-tiff/
 keywords: HTML to TIFF, HTML konvertálása TIFF formátumba, Java API, Java Library, HTML, TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to PDF in Node.js
 url: /nodejs-net/conversion/potx-to-pdf/
 keywords: POTX to PDF, Convert POTX to PDF, Node.js API, JavaScript Library, POTX, PDF

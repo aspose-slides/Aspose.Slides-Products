@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات ODP إلى POTM باستخدام Python
 url: /ar/python-net/merge/odp-to-potm/
 keywords: دمج ODP إلى POTM ، انضم إلى ODP إلى POTM ، ادمج ODP إلى POTM ، PowerPoint ، Presentation ، POTM ، Python ، Aspose

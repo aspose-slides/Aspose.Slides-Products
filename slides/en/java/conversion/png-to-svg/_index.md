@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PNG to SVG in Java
 url: /java/conversion/png-to-svg/
 keywords: PNG to SVG, Convert PNG to SVG, Java API, Java Library, PNG, SVG

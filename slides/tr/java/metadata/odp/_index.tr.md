@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java kullanarak ODP Dosya Meta Verilerini Görüntüleyin veya Düzenleyin
 url: /tr/java/metadata/odp/
 keywords: ODP Meta Verilerini Düzenleyin, ODP Meta Verilerini Görüntüleyin, ODP özelliklerini düzenleyin, ODP özelliklerini görüntüleyin

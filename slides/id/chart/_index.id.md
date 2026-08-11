@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tambahkan Bagan ke file PowerPoint di Windows, Linux, dan macOS
 url: /id/chart/
 description: API untuk bekerja dengan bagan di PPT, Presentasi PPTX

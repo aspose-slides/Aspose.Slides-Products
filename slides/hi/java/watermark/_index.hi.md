@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा का उपयोग करके PowerPoint प्रस्तुति में वॉटरमार्क जोड़ें
 url: /hi/java/watermark/
 description: वॉटरमार्क प्रस्तुति के लिए जावा स्रोत कोड

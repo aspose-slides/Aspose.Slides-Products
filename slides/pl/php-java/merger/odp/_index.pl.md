@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Połącz pliki ODP za pomocą PHP
 url: /pl/php-java/merger/odp/
 keywords: Połącz ODP, Dołącz do ODP, Połącz ODP, PowerPoint, Prezentacja, PHP, Aspose

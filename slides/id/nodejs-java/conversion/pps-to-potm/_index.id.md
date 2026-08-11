@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPS ke POTM di Node.js
 url: /id/nodejs-java/conversion/pps-to-potm/
 keywords: PPS ke POTM, Konversi PPS ke POTM, API Node.js, Pustaka Node.js, PPS, POTM

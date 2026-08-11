@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام تصاویر در C++
 url: /fa/cpp/merger/image-to-image/
 keywords: ادغام تصویر، تصویر به تصویر، پیوستن به تصاویر، ترکیب تصاویر، C++ API، کتابخانه C++

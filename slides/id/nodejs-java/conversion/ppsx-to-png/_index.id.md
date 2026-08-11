@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPSX ke PNG di Node.js
 url: /id/nodejs-java/conversion/ppsx-to-png/
 keywords: PPSX ke PNG, Konversi PPSX ke PNG, API Node.js, Pustaka Node.js, PPSX, PNG

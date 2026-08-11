@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter JPG para PDF em PHP
 url: /pt/php-java/conversion/jpg-to-pdf/
 keywords: JPG para PDF, Converter JPG para PDF, API PHP, Biblioteca PHP, JPG, PDF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter PDF para Image em Java
 url: /pt/java/conversion/pdf-to-image/
 keywords: PDF para Image, Converter PDF para Image, API Java, Biblioteca Java, PDF, Image

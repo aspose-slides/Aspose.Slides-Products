@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中将 JPG 转换为 PDF
 url: /zh/java/conversion/jpg-to-pdf/
 keywords: JPG 到 PDF，将 JPG 转换为 PDF，Java API，Java 库，JPG，PDF

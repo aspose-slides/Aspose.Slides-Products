@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-13
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to PPTX in Node.js
 url: /nodejs-java/conversion/pot-to-pptx/
 keywords: POT to PPTX, Convert POT to PPTX, Node.js API, Node.js Library, POT, PPTX

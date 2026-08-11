@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Kép egyesítése BMP-vel PHP-ben
 url: /hu/php-java/merger/image-to-bmp/
 keywords: Kép BMP-be, kép egyesítése BMP-be, kép összekapcsolása BMP-be, képek kombinálása, kép, BMP, PHP API, PHP könyvtár

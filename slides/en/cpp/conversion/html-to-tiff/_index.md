@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: Convert HTML to TIFF in C++
 url: /cpp/conversion/html-to-tiff/
 keywords: HTML to TIFF, Convert HTML to TIFF, C++ API, C++ Library, HTML, TIFF

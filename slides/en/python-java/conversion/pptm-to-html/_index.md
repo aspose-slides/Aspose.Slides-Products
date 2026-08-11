@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to HTML in Python
 url: /python-java/conversion/pptm-to-html/
 keywords: Python PPTM conversion, PPTM to HTML, PowerPoint to HTML, presentation web export, Aspose.Slides for Python via Java

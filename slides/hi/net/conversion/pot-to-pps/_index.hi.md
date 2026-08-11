@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीओटी को सी # के माध्यम से पीपीएस में कनवर्ट करें
 weight: 3420
 url: /hi/net/conversion/pot-to-pps/ 

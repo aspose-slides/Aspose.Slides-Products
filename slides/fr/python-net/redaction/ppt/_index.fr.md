@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Masquer les fichiers de présentation PPT à l'aide de Python
 url: /fr/python-net/redaction/ppt/
 keywords: Caviarder PPT, rechercher et remplacer du texte dans PPT, mettre à jour la présentation PPT

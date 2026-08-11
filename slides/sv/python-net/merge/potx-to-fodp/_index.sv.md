@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTX-filer till FODP med Python
 url: /sv/python-net/merge/potx-to-fodp/
 keywords: Slå samman POTX till FODP, gå med POTX till FODP, kombinera POTX till FODP, PowerPoint, Presentation, FODP, Python, Aspose

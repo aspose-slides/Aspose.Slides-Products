@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPT do OTP v JavaScriptu
 url: /cs/nodejs-net/conversion/ppt-to-otp/
 keywords: PPT do OTP, Převést PPT do OTP, Node.js API, JavaScript Library, PPT, OTP

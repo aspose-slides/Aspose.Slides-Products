@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी ++ में छवि को पीपीटी में कनवर्ट करें
 url: /hi/cpp/conversion/image-to-ppt/
 keywords: छवि को पीपीटी में बदलें, छवि को पीपीटी में बदलें, सी++ एपीआई, सी++ लाइब्रेरी, छवि, पीपीटी

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में एचटीएमएल को पीपीटी में कनवर्ट करें
 url: /hi/java/conversion/html-to-ppt/
 keywords: HTML को PPT, HTML को PPT, PowerPoint, HTML, PPT, Java API, Java लाइब्रेरी में बदलें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ एप्लिकेशन के माध्यम से POTX को SWF में बदलें
 url: /hi/cpp/conversion/potx-to-swf/ 
 description: POTX दस्तावेज़ के लिए SWF प्रारूप में नमूना C++ रूपांतरण कोड। किसी भी सी++ एप्लिकेशन में बैच POTX से SWF रूपांतरण के लिए उदाहरण कोड का उपयोग करें।

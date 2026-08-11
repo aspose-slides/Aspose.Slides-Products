@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPTX konvertálása SWF-re C++ alkalmazáson keresztül
 url: /hu/cpp/conversion/pptx-to-swf/ 
 description: Minta C++ konverziós kód PPTX dokumentumhoz SWF formátumba. Használjon példakódot a kötegelt PPTX SWF konvertáláshoz bármely C++ alkalmazáson belül.

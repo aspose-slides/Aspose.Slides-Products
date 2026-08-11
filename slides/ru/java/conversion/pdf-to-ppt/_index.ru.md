@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в PPT в Java
 url: /ru/java/conversion/pdf-to-ppt/
 keywords: PDF в PPT, преобразовать PDF в PPT, API Java, библиотеку Java, PDF, PPT

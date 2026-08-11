@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chỉnh sửa PPT trong Java
 url: /vi/java/editor/ppt/
 keywords: Chỉnh sửa PPT, Chỉnh sửa PowerPoint, PPT, PowerPoint, API Java, Thư viện Java

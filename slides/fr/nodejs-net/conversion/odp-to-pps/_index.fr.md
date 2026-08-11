@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir ODP en PPS en JavaScript
 url: /fr/nodejs-net/conversion/odp-to-pps/
 keywords: ODP en PPS, Convertir ODP en PPS, API Node.js, Bibliothèque JavaScript, ODP, PPS

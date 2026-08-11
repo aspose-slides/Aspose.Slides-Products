@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPSM फ़ाइलों को TIFF में मर्ज करें
 url: /hi/python-net/merge/ppsm-to-tiff/
 keywords: PPSM को TIFF में मिलाएं, PPSM से TIFF में शामिल हों, PPSM से TIFF, PowerPoint, प्रेजेंटेशन, TIFF, Python, Aspose को मिलाएं

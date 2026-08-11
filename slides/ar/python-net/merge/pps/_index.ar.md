@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPS باستخدام بايثون
 url: /ar/python-net/merge/pps/
 keywords: دمج PPS ، انضمام PPS ، دمج PPS ، PowerPoint ، عرض تقديمي ، Python ، Aspose

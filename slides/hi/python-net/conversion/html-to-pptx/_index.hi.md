@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में HTML को PPTX में बदलें
 url: /hi/python-net/conversion/html-to-pptx/
 keywords: HTML को PPTX, HTML को PPTX, PowerPoint, HTML, PPTX, Python API, Python लाइब्रेरी में बदलें

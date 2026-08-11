@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files and Save as PPS Using Python
 url: /python-net/merge/odp-to-pps/
 keywords: Merge ODP to PPS, Join ODP to PPS, Combine ODP to PPS, PowerPoint, Presentation, PPS, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPSM Dosyalarını Birleştirme
 url: /tr/python-net/merge/ppsm/
 keywords: Birleştirme PPSM, PPSM'a Katıl, PPSM Birleştir, PowerPoint, Presentation, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 PHP 合併 PPT 文件
 url: /zh-hant/php-java/merger/ppt/
 keywords: 合併 PPT、加入 PPT、合併 PPT、PowerPoint、演示文稿、PHP、Aspose

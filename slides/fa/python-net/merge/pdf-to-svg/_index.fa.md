@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PDF را با SVG ادغام کنید
 url: /fa/python-net/merge/pdf-to-svg/
 keywords: ادغام PDF به SVG، پیوستن به PDF به SVG، ترکیب PDF به SVG، PowerPoint، Presentation، SVG، Python، Aspose

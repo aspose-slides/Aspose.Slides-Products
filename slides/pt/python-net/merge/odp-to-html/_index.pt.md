@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos ODP para HTML usando Python
 url: /pt/python-net/merge/odp-to-html/
 keywords: Mesclar ODP com HTML, juntar ODP com HTML, combinar ODP com HTML, PowerPoint, Presentation, HTML, Python, Aspose

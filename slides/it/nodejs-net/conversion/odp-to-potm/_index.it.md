@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti ODP in POTM in JavaScript
 url: /it/nodejs-net/conversion/odp-to-potm/
 keywords: Da ODP a POTM, Converti {da_format} a POTM, API Node.js, Libreria JavaScript, ODP, POTM

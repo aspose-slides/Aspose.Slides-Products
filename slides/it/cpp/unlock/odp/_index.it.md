@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sblocca i file di presentazione ODP utilizzando C++
 url: /it/cpp/unlock/odp/
 keywords: Rimuovi la protezione da scrittura ODP, decodifica di una presentazione ODP, sblocca presentazione ODP, rimuovi protezione ODP

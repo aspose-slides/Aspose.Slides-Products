@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File POTM Ke OTP Menggunakan Python
 url: /id/python-net/merge/potm-to-otp/
 keywords: Gabungkan POTM ke OTP, Gabungkan POTM ke OTP, Gabungkan POTM ke OTP, PowerPoint, Presentasi, OTP, Python, Aspose

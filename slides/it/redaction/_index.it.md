@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redige i file PowerPoint su Windows, Linux e macOS
 url: /it/redaction/
 description: API per aggiungere protezione alle presentazioni PPT, PPTX e ODP

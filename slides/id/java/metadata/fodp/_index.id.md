@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lihat atau Edit Metadata File FODP menggunakan Java
 url: /id/java/metadata/fodp/
 keywords: Edit Metadata FODP, Lihat Metadata FODP, Edit properti FODP, Lihat properti FODP

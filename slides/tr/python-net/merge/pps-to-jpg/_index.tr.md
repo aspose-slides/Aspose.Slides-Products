@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPS Dosyalarını JPG İle Birleştirin
 url: /tr/python-net/merge/pps-to-jpg/
 keywords: PPS'ı JPG ile birleştir, PPS ile JPG'a katıl, PPS'ı JPG ile birleştir, PowerPoint, Presentation, JPG, Python, Aspose

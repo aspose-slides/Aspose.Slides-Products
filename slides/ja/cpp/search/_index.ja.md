@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して PowerPoint および OpenOffice プレゼンテーション内のテキストを検索する
 url: /ja/cpp/search/
 description: PowerPoint および OpenOffice™ プレゼンテーションでパターンを含む単語を検索するための C++ ソース コード

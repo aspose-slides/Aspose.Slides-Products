@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to OTP in Python
 url: /python-java/conversion/ppsx-to-otp/
 keywords: Python PPSX conversion, PPSX to OTP, PowerPoint to OTP, slide show to OTP, Aspose.Slides for Python via Java

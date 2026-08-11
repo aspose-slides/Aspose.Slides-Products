@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование FODP в GIF в Node.js
 url: /ru/nodejs-java/conversion/fodp-to-gif/
 keywords: FODP в GIF, конвертировать FODP в GIF, API Node.js, библиотека Node.js, FODP, GIF

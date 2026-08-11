@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده فرمت های فایل PPTX از طریق دات نت
 weight: 6390
 url: /fa/net/viewer/pptx/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Javaを使用してPDF、PPT、PPTX、およびその他の多くのファイル形式をマージします
 url: /ja/java/merger/
 keywords: マージ、結合、PowerPoint、プレゼンテーション、Java、Aspose

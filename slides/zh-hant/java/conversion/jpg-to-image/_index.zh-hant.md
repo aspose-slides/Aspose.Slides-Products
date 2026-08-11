@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 JPG 轉換為 Image
 url: /zh-hant/java/conversion/jpg-to-image/
 keywords: JPG 到 Image，將 JPG 轉換為 Image，Java API，Java 庫，JPG，Image

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PPTX'ı POTM'a dönüştürün
 url: /tr/python-java/conversion/pptx-to-potm/
 keywords: Python sunum dönüşümü, sunumları Python'a dönüştürme, Sunumlar için Python, Aspose.Slides Python, PPTX'tan POTM'a dönüştürme, Python sunum kitaplığı

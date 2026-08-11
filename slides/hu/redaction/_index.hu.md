@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Törölje a PowerPoint fájlokat Windows, Linux és macOS rendszeren
 url: /hu/redaction/
 description: API-k a PPT, PPTX és ODP prezentációk védelméhez

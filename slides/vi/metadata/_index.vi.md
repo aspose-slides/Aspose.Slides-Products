@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem và chỉnh sửa siêu dữ liệu thành tệp PowerPoint trên Windows, Linux và macOS
 url: /vi/metadata/
 description: API để xem và chỉnh sửa thuộc tính tài liệu PPT và PPTX

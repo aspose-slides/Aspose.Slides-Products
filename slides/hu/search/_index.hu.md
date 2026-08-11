@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg keresése PowerPoint-fájlokban Windows, Linux és macOS rendszeren
 url: /hu/search/
 description: API-k szövegkereséshez PPT, PPTX és ODP prezentációkban

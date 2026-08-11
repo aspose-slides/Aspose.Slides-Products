@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPSX in C++
 url: /cpp/viewer/ppsx/
 keywords: View PPSX, Open PPSX, PPSX Viewer, PPSX, C++ API, C++ Library, CPP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование презентации Microsoft PowerPoint в несколько файлов с использованием Java
 url: /ru/java/conversion/
 description: Преобразование слайдов Microsoft PowerPoint в различные файлы, включая HTML, PDF и форматы изображений, в приложениях на основе Java.

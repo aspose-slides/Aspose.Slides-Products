@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTX Files Using Python
 url: /python-net/merge/pptx/
 keywords: Merge PPTX, Join PPTX, Combine PPTX, PowerPoint, Presentation, Python, Aspose

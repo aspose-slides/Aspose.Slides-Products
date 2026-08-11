@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PDF en HTML en Python
 url: /fr/python-java/conversion/pdf-to-html/
 keywords: Conversion de présentation Python, conversion de présentations en Python, Python pour les présentations, Aspose.Slides Python, conversion PDF en HTML, bibliothèque de présentations Python

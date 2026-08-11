@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP での Microsoft PowerPoint プレゼンテーションの PDF への変換
 url: /ja/php-java/conversion/
 keywords: 「変換、PowerPoint、プレゼンテーション、PHP、PDF、PDF に変換、PPT から PDF」

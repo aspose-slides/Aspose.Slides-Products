@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal pliki PPT do POTX za pomocą Pythona
 url: /pl/python-net/merge/ppt-to-potx/
 keywords: Połącz {z_formatu} z {do_formatu}, Połącz {z_formatu} z {do_formatu}, Połącz {z_formatu} z {do_formatu}, PowerPoint, Prezentacja, {do_formatu}, Python, Aspose

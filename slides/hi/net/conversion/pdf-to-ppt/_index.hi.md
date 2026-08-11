@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # में पीडीएफ को पीपीटी में कनवर्ट करें
 url: /hi/net/conversion/pdf-to-ppt/
 keywords: पीडीएफ को पीपीटी में, पीडीएफ को पीपीटी में, पॉवरपॉइंट, पीडीएफ, पीपीटी, सी#एपीआई, .नेट लाइब्रेरी में कन्वर्ट करें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPSM-filer till POT med Python
 url: /sv/python-net/merge/ppsm-to-pot/
 keywords: Slå samman PPSM till POT, gå med PPSM till POT, kombinera PPSM till POT, PowerPoint, Presentation, POT, Python, Aspose

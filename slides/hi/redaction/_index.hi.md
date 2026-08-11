@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux और macOS पर PowerPoint फ़ाइलें संपादित करें
 url: /hi/redaction/
 description: पीपीटी, पीपीटीएक्स और ओडीपी प्रस्तुतियों में सुरक्षा जोड़ने के लिए एपीआई

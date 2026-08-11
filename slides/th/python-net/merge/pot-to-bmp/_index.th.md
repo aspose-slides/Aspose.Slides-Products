@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POT เข้ากับ BMP โดยใช้ Python
 url: /th/python-net/merge/pot-to-bmp/
 keywords: รวม POT เป็น BMP เข้าร่วม POT ถึง BMP รวม POT เป็น BMP PowerPoint การนำเสนอ BMP Python Aspose

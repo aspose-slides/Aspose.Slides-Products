@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files and Export to TIFF Using Python
 url: /python-net/merge/odp-to-tiff/
 keywords: Merge ODP to TIFF, Join ODP to TIFF, Combine ODP to TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigieren Sie PPTX-Präsentationsdateien mit Java
 url: /de/java/redaction/pptx/
 keywords: PPTX schwärzen, Text in PPTX suchen und ersetzen, PPTX-Präsentation aktualisieren

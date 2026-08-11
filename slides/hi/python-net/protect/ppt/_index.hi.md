@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का उपयोग करके PPT प्रस्तुतिकरण फ़ाइलों की सुरक्षा करें
 url: /hi/python-net/protect/ppt/
 keywords: राइट प्रोटेक्शन PPT, PPT को एन्क्रिप्ट करना, PPT प्रेजेंटेशन को लॉक करना, PPT को प्रोटेक्ट करना

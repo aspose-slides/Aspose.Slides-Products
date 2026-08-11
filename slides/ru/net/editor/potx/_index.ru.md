@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Редактировать файлы POTX через .NET
 url: /ru/net/editor/potx/ 
 description: Исходный код C# для редактирования документа POTX на платформах .NET Framework, .NET Core, Windows Azure, Mono или Xamarin.

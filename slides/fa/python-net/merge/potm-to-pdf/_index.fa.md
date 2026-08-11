@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های POTM را با PDF ادغام کنید
 url: /fa/python-net/merge/potm-to-pdf/
 keywords: ادغام POTM به PDF، پیوستن به POTM به PDF، ترکیب POTM به PDF، PowerPoint، Presentation، PDF، Python، Aspose

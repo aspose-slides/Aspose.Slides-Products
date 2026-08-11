@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files and Export to BMP Using Python
 url: /python-net/merge/odp-to-bmp/
 keywords: Merge ODP to BMP, Join ODP to BMP, Combine ODP to BMP, PowerPoint, Presentation, BMP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPS do JPG pomocí Pythonu
 url: /cs/python-net/merge/pps-to-jpg/
 keywords: Sloučit PPS do JPG, připojit PPS do JPG, kombinovat PPS do JPG, PowerPoint, Presentation, JPG, Python, Aspose

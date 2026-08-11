@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 Java 将 PPS 转换为 TIFF
 weight: 4090
 url: /zh/java/conversion/pps-to-tiff/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact Text in PowerPoint and OpenDocument Presentations with Python
 url: /python-net/redaction/
 description: Find and replace sensitive text in PowerPoint and OpenDocument presentations with Python.

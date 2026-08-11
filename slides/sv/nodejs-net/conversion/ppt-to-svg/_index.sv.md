@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPT till SVG i JavaScript
 url: /sv/nodejs-net/conversion/ppt-to-svg/
 keywords: PPT till SVG, Konvertera PPT till SVG, Node.js API, JavaScript Library, PPT, SVG

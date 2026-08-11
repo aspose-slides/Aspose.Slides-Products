@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPSM Ke JPG Menggunakan Python
 url: /id/python-net/merge/ppsm-to-jpg/
 keywords: Gabungkan PPSM ke JPG, Gabungkan PPSM ke JPG, Gabungkan PPSM ke JPG, PowerPoint, Presentasi, JPG, Python, Aspose

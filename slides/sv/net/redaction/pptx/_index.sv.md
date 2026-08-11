@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigera PPTX presentationsfiler med .NET
 url: /sv/net/redaction/pptx/
 keywords: Redigera PPTX, hitta och ersätt text i PPTX, uppdatera PPTX presentation

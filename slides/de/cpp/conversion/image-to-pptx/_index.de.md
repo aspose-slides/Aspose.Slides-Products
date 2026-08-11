@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bild in PPTX in C++ konvertieren
 url: /de/cpp/conversion/image-to-pptx/
 keywords: Bild in PPTX, Bild in PPTX konvertieren, C++-API, C++-Bibliothek, Bild, PPTX

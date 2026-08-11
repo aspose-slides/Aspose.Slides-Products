@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج صور JPG في C++
 url: /ar/cpp/merger/jpg-to-jpg/
 keywords: دمج JPG و JPEG إلى JPG والانضمام إلى JPG والجمع بين JPG و C++ API و C++ Library

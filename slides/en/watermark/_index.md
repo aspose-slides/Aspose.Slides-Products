@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add a Watermark to PowerPoint Files on Windows, Linux, and macOS
 url: /watermark/
 description: APIs for adding text and image watermarks to PPT, PPTX, and ODP presentations.

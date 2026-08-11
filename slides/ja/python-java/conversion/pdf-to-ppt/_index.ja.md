@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python で PDF を PPT に変換します
 url: /ja/python-java/conversion/pdf-to-ppt/
 keywords: Python プレゼンテーション変換、プレゼンテーションを Python に変換、プレゼンテーション用 Python、Aspose.Slides Python、PDF から PPT への変換、Python プレゼンテーション ライブラリ

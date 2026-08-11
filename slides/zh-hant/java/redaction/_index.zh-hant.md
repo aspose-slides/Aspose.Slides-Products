@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 編輯 PowerPoint 和 OpenOffice 演示文稿
 url: /zh-hant/java/redaction/
 description: 用於在 PowerPoint 和 OpenOffice™ 演示文稿中查找和刪除內容的 Java 源代碼

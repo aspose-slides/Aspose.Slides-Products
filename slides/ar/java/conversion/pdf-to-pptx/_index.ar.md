@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى PPTX في جافا
 url: /ar/java/conversion/pdf-to-pptx/
 keywords: PDF إلى PPTX ، تحويل PDF إلى PPTX ، واجهة برمجة تطبيقات جافا ، مكتبة جافا ، PDF ، PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPSX ke JPG dalam JavaScript
 url: /id/nodejs-net/conversion/ppsx-to-jpg/
 keywords: PPSX ke JPG, Konversi PPSX ke JPG, API Node.js, Pustaka JavaScript, PPSX, JPG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afbeelding samenvoegen naar PDF in C#
 url: /nl/net/merger/image-to-pdf/
 keywords: Afbeelding naar PDF, Afbeelding samenvoegen naar PDF, Afbeelding samenvoegen naar PDF, PDF, Afbeelding, C# API, .NET Library

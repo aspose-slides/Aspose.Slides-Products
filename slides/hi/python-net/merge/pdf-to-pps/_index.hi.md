@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PDF फ़ाइलों को PPS में मर्ज करें
 url: /hi/python-net/merge/pdf-to-pps/
 keywords: PDF को PPS में मिलाएं, PDF से PPS में शामिल हों, PDF से PPS, PowerPoint, प्रेजेंटेशन, PPS, Python, Aspose को मिलाएं

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visa eller redigera metadata för PPT filer med .NET
 url: /sv/net/metadata/ppt/
 keywords: Redigera PPT-metadata, visa PPT-metadata, redigera PPT-egenskaper, visa PPT-egenskaper

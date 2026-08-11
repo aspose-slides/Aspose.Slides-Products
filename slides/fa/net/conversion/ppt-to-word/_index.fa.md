@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPT به Word در سی شارپ
 url: /fa/net/conversion/ppt-to-word/
 keywords: تبدیل PPT به Word، PPT به Word، PPT به DOC، PowerPoint به Word، C# API، کتابخانه دات نت

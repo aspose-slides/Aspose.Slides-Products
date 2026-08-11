@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js 파워포인트 처리. Aspose.Slides를 사용하여 프레젠테이션을 쉽게 변환하세요.
 url: /ko/nodejs-net/conversion/
 keywords: "변환, PowerPoint, 프레젠테이션, Node.js, javascript, js, PDF, PDF로 변환, PPT를 PDF로"

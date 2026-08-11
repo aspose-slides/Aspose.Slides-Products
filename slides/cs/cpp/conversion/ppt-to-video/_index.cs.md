@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převést PPT na video v C++
 url: /cs/cpp/conversion/ppt-to-video/
 keywords: Převod PPT na video, PPT na video, PowerPoint na video, PPT na MP4, C++ API, C++ Library

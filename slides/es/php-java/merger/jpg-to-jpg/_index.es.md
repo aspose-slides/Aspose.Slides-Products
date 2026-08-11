@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Combinar imágenes JPG en PHP
 url: /es/php-java/merger/jpg-to-jpg/
 keywords: Combinar JPG, JPEG a JPG, Unirse a JPG, Combinar JPG, API PHP, Biblioteca PHP

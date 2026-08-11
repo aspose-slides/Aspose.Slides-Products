@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPT in FODP in Node.js
 url: /de/nodejs-java/conversion/ppt-to-fodp/
 keywords: PPT zu FODP, Konvertieren von PPT zu FODP, Node.js API, Node.js-Bibliothek, PPT, FODP

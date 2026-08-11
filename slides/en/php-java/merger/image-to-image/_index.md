@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-20
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge Images in PHP
 url: /php-java/merger/image-to-image/
 keywords: Merge image, image to image, Join images, Combine images, PHP API, PHP Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ekstrak Teks dan Gambar dari File PPTX menggunakan Python
 url: /id/python-net/parser/pptx/
 keywords: parse PPTX menggunakan Python, PPTX parser Python, ekstrak data dari PPTX dalam Python, ekstrak teks dari PPTX menggunakan Python, ekstrak gambar dari PPTX menggunakan Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: การแปลงงานนำเสนอ Microsoft PowerPoint เป็น PDF ใน PHP
 url: /th/php-java/conversion/
 keywords: "แปลง, PowerPoint, งานนำเสนอ, PHP, PDF, แปลงเป็น PDF, PPT เป็น PDF"

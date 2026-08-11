@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPSM in Java
 url: /java/viewer/ppsm/
 keywords: View PPSM, Open PPSM, PPSM Viewer, PPSM, Java API, Java Library

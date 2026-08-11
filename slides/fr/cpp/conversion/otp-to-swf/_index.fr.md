@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir OTP en SWF via une application C++
 url: /fr/cpp/conversion/otp-to-swf/ 
 description: Exemple de code de conversion C++ pour un document OTP au format SWF. Utilisez un exemple de code pour la conversion par lots d'OTP en SWF dans n'importe quelle application C++.

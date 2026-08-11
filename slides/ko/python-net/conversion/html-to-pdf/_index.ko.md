@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 HTML을 PDF으로 변환
 url: /ko/python-net/conversion/html-to-pdf/
 keywords: HTML에서 PDF으로, HTML에서 PDF으로 변환, Python API, Python 라이브러리, HTML, PDF

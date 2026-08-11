@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất hình ảnh PNG trong C#
 url: /vi/net/merger/png-to-png/
 keywords: Hợp nhất PNG, PNG thành PNG, Tham gia PNG, Kết hợp PNG, API C#, Thư viện .NET

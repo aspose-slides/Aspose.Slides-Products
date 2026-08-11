@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام تصاویر JPG در سی شارپ
 url: /fa/net/merger/jpg-to-jpg/
 keywords: ادغام JPG، JPEG به JPG، پیوستن به JPG، ترکیب JPG، C# API، کتابخانه دات نت

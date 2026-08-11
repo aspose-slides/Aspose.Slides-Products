@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ で HTML を画像にマージする
 url: /ja/cpp/merger/html-to-image/
 keywords: HTML を画像に結合、HTML を画像に結合、HTML を結合、HTML を結合、画像、C++ API、C++ ライブラリ

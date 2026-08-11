@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPT ke PNG di Node.js
 url: /id/nodejs-java/conversion/ppt-to-png/
 keywords: PPT ke PNG, Konversi PPT ke PNG, API Node.js, Pustaka Node.js, PPT, PNG

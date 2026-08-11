@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PDF a POTX usando Python
 url: /it/python-net/merge/pdf-to-potx/
 keywords: Unisci PDF a POTX, Unisci PDF a POTX, Combina PDF a POTX, PowerPoint, Presentazione, POTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PDF konvertálása GIF formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/pdf-to-gif/
 keywords: PDF to GIF, PDF konvertálása GIF formátumba, Node.js API, Node.js Library, PDF, GIF

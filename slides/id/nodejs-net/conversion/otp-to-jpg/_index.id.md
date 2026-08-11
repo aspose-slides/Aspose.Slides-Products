@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan OTP ke JPG dalam JavaScript
 url: /id/nodejs-net/conversion/otp-to-jpg/
 keywords: OTP ke JPG, Konversi OTP ke JPG, API Node.js, Pustaka JavaScript, OTP, JPG

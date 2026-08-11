@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konverze prezentace Microsoft PowerPoint do PDF v PHP
 url: /cs/php-java/conversion/
 keywords: "Převést, PowerPoint, prezentace, PHP, PDF, převést do PDF, PPT do PDF"

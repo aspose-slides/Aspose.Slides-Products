@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PNG Görüntülerini Python'da Birleştirme
 url: /tr/python-net/merge/png-to-png/
 keywords: PNG'yi, PNG'yi PNG'ye Birleştirme, PNG'ye Birleştirme, PNG'yi Birleştirme, Python API'si, Python Kitaplığı

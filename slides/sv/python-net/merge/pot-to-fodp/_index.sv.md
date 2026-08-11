@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POT-filer till FODP med Python
 url: /sv/python-net/merge/pot-to-fodp/
 keywords: Slå samman POT till FODP, gå med POT till FODP, kombinera POT till FODP, PowerPoint, Presentation, FODP, Python, Aspose

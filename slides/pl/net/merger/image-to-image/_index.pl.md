@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal obrazy w C#
 url: /pl/net/merger/image-to-image/
 keywords: Scal obraz, obraz do obrazu, dołącz obrazy, połącz obrazy, interfejs API C#, bibliotekę .NET

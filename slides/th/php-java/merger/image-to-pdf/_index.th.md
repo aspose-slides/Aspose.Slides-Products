@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมรูปภาพเป็น PDF ใน PHP
 url: /th/php-java/merger/image-to-pdf/
 keywords: รูปภาพเป็น PDF, รวมรูปภาพเป็น PDF, รวมรูปภาพเป็น PDF, PDF, รูปภาพ, PHP API, PHP Library

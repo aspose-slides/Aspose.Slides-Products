@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTX в PPS в JavaScript
 url: /ru/nodejs-net/conversion/pptx-to-pps/
 keywords: PPTX в PPS, преобразование PPTX в PPS, Node.js API, библиотека JavaScript, PPTX, PPS

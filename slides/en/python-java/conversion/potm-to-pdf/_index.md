@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTM to PDF in Python
 url: /python-java/conversion/potm-to-pdf/
 keywords: Python POTM conversion, POTM to PDF, PowerPoint to PDF, macro-enabled template to PDF, Aspose.Slides for Python via Java

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTM-filer till TIFF med Python
 url: /sv/python-net/merge/potm-to-tiff/
 keywords: Slå samman POTM till TIFF, gå med POTM till TIFF, kombinera POTM till TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

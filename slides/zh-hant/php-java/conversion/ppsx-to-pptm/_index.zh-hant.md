@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中將 PPSX 轉換為 PPTM
 weight: 2050
 url: /zh-hant/php-java/conversion/ppsx-to-pptm/ 

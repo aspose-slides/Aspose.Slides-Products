@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में पीपीटी को वीडियो में बदलें
 url: /hi/java/conversion/ppt-to-video/
 keywords: PPT को वीडियो में, PPT को वीडियो में, PowerPoint को वीडियो में, PPT को MP4 में, Java API, Java लाइब्रेरी में कनवर्ट करें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावास्क्रिप्ट में PPT को PNG में बदलें
 url: /hi/nodejs-net/conversion/ppt-to-png/
 keywords: PPT से PNG, PPT को PNG में बदलें, Node.js API, JavaScript लाइब्रेरी, PPT, PNG

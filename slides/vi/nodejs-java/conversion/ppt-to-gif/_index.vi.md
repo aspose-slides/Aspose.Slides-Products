@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT thành GIF trong Node.js
 url: /vi/nodejs-java/conversion/ppt-to-gif/
 keywords: PPT sang GIF, Chuyển đổi PPT sang GIF, API Node.js, Thư viện Node.js, PPT, GIF

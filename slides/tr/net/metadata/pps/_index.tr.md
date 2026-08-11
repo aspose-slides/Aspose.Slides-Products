@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET kullanarak PPS Dosya Meta Verilerini Görüntüleyin veya Düzenleyin
 url: /tr/net/metadata/pps/
 keywords: PPS Meta Verilerini Düzenleyin, PPS Meta Verilerini Görüntüleyin, PPS özelliklerini düzenleyin, PPS özelliklerini görüntüleyin

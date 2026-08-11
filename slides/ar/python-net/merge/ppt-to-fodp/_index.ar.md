@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPT إلى FODP باستخدام Python
 url: /ar/python-net/merge/ppt-to-fodp/
 keywords: دمج PPT إلى FODP ، انضم إلى PPT إلى FODP ، ادمج PPT إلى FODP ، PowerPoint ، Presentation ، FODP ، Python ، Aspose

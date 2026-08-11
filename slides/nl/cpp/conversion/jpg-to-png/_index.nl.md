@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer JPG naar PNG in C++
 url: /nl/cpp/conversion/jpg-to-png/
 keywords: JPG naar PNG, Converteer JPG naar PNG, C++ API, C++ Library, JPG, PNG

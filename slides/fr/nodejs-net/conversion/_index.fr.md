@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Traitement PowerPoint Node.js. Convertissez sans effort des présentations à l’aide d’Aspose.Slides.
 url: /fr/nodejs-net/conversion/
 keywords: "Convertir, PowerPoint, Présentation, Node.js, javascript, js, PDF, Convertir en PDF, PPT en PDF"

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afficher ou modifier les métadonnées des fichiers POTM à l'aide de .NET
 url: /fr/net/metadata/potm/
 keywords: Modifier les métadonnées POTM, Afficher les métadonnées POTM, Modifier les propriétés POTM, Afficher les propriétés POTM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ uygulaması aracılığıyla TIFF'yi JPEG'e dönüştürün
 weight: 4420
 url: /tr/cpp/conversion/tiff-to-jpeg/ 

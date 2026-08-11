@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPSX إلى PPT باستخدام Python
 url: /ar/python-net/merge/ppsx-to-ppt/
 keywords: دمج PPSX إلى PPT ، انضم إلى PPSX إلى PPT ، ادمج PPSX إلى PPT ، PowerPoint ، Presentation ، PPT ، Python ، Aspose

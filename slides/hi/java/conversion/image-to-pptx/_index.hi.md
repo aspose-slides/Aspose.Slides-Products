@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: छवि को जावा में पीपीटीएक्स में कनवर्ट करें
 url: /hi/java/conversion/image-to-pptx/
 keywords: छवि को PPTX, छवि को PPTX, PowerPoint, छवि, PPTX, Java API, Java लाइब्रेरी में बदलें

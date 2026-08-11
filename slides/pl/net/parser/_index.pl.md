@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyodrębnij tekst lub obiekty z dokumentów PowerPoint i OpenOffice za pomocą .NET
 url: /pl/net/parser/
 description: Kod źródłowy C# do wyodrębniania danych z prezentacji PowerPoint i OpenOffice.

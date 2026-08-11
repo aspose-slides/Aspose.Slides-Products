@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPT till Word i Java
 url: /sv/java/conversion/ppt-to-word/
 keywords: Konvertera PPT till Word, PPT till Word, PPT till DOC, PowerPoint till Word, Java API, Java Library

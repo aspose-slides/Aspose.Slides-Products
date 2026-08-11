@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a POTX fájlokat a FODP formátumba Python használatával
 url: /hu/python-net/merge/potx-to-fodp/
 keywords: A(z) POTX egyesítése a(z) FODP formátumba, a(z) POTX csatlakozása a(z) FODP formátumba, a(z)(POTX) összevonása a(z) FODP formátumba, PowerPoint, Presentation, FODP, Python, Aspose

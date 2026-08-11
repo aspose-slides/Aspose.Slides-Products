@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bảo vệ tệp bản trình bày PPTX bằng C++
 url: /vi/cpp/protect/pptx/
 keywords: Bảo vệ ghi PPTX, Mã hóa PPTX, Khóa bản trình bày PPTX, Bảo vệ PPTX

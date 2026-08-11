@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: أضف علامة مائية إلى عرض PowerPoint التقديمي باستخدام .NET
 url: /ar/net/watermark/
 description: كود المصدر C# لعرض العلامة المائية

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extraire du texte, des images, de la vidéo, de l'audio et d'autres médias de la présentation
 url: /fr/parser/
 description: API pour extraire du texte, des images, de la vidéo, de l'audio à partir de présentations PowerPoint et OpenOffice

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera FODP till PNG i Python
 url: /sv/python-java/conversion/fodp-to-png/
 keywords: Python presentation konvertering, konvertera presentationer till Python, Python för presentationer, Aspose.Slides Python, FODP till PNG konvertering, Python presentationsbibliotek

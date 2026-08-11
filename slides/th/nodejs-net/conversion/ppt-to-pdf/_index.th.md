@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPT เป็น PDF ใน JavaScript
 url: /th/nodejs-net/conversion/ppt-to-pdf/
 keywords: PPT เป็น PDF, แปลง PPT เป็น PDF, Node.js API, ไลบรารี JavaScript, PPT, PDF

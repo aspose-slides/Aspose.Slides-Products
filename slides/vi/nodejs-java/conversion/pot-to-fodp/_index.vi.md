@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POT thành FODP trong Node.js
 url: /vi/nodejs-java/conversion/pot-to-fodp/
 keywords: POT sang FODP, Chuyển đổi POT sang FODP, API Node.js, Thư viện Node.js, POT, FODP

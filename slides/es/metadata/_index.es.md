@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ver y editar metadatos en archivos de PowerPoint en Windows, Linux y macOS
 url: /es/metadata/
 description: API para ver y editar propiedades de documentos PPT y PPTX

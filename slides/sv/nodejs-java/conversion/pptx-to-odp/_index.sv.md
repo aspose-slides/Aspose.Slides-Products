@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPTX till ODP i Node.js
 url: /sv/nodejs-java/conversion/pptx-to-odp/
 keywords: PPTX till ODP, Konvertera PPTX till ODP, Node.js API, Node.js Library, PPTX, ODP

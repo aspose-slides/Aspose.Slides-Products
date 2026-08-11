@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigir arquivos de apresentação PPT usando Python
 url: /pt/python-net/redaction/ppt/
 keywords: Redigir PPT, localizar e substituir texto em PPT, atualizar PPT Apresentação

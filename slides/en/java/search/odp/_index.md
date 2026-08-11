@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in ODP Presentation Files using Java
 url: /java/search/odp/
 keywords: search words in ODP, search text in ODP, search text ODP Presentation

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ปลดล็อกไฟล์การนำเสนอ ODP โดยใช้ Java
 url: /th/java/unlock/odp/
 keywords: ลบการป้องกันการเขียน ODP, ถอดรหัส ODP, ปลดล็อกการนำเสนอ ODP, เลิกป้องกัน ODP

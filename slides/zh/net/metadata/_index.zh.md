@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 .NET 查看和编辑 PowerPoint 元数据
 url: /zh/net/metadata/
 description: 用于查看和编辑演示文稿属性的 C# 源代码

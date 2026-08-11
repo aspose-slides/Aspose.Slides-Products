@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 PPTX 转换为 JPG
 url: /zh/nodejs-net/conversion/pptx-to-jpg/
 keywords: PPTX 到 JPG、将 PPTX 转换为 JPG、Node.js API、JavaScript 库、PPTX、JPG

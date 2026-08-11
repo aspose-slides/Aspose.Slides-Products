@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protégez les fichiers de présentation PPTX à l'aide de Java
 url: /fr/java/protect/pptx/
 keywords: Protection en écriture PPTX, Crypter une présentation PPTX, Verrouiller la présentation PPTX, Protéger PPTX

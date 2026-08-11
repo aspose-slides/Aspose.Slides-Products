@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTX Files and Export to JPG Using Python
 url: /python-net/merge/pptx-to-jpg/
 keywords: Merge PPTX to JPG, Join PPTX to JPG, Combine PPTX to JPG, PowerPoint, Presentation, JPG, Python, Aspose

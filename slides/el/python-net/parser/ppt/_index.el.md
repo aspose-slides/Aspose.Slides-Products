@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Εξαγωγή κειμένου και εικόνων από αρχεία PPT χρησιμοποιώντας Python
 url: /el/python-net/parser/ppt/
 keywords: αναλύστε PPT χρησιμοποιώντας Python, PPT parser Python, εξαγωγή δεδομένων από PPT στο Python, εξαγωγή κειμένου από PPT χρησιμοποιώντας Python, εξαγωγή εικόνων από PPT χρησιμοποιώντας Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zusammenführen von PNG-Bildern in C#
 url: /de/net/merger/png-to-png/
 keywords: PNG, PNG zu PNG zusammenführen, PNG verbinden, PNG, C#-API, .NET-Bibliothek kombinieren

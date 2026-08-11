@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Заблокировать или защитить паролем презентацию с помощью C++
 url: /ru/cpp/protect/
 description: Исходный код C++ для установки пароля для блокировки презентации

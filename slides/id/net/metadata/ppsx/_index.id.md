@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lihat atau Edit Metadata File PPSX menggunakan .NET
 url: /id/net/metadata/ppsx/
 keywords: Edit Metadata PPSX, Lihat Metadata PPSX, Edit properti PPSX, Lihat properti PPSX

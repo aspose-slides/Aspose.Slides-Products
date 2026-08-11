@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-15
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PowerPoint Presentations to Other Formats Using C++
 url: /cpp/conversion/
 description: Convert PowerPoint presentations, PDFs, HTML files, images, and OpenDocument presentation files in C++ applications.

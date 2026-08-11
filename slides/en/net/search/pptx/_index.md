@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in PPTX Presentation Files using .NET
 url: /net/search/pptx/
 keywords: Search Text in PPTX, Find Text in PPTX, Search PPTX Presentation Text

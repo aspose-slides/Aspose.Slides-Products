@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afficher ou modifier les métadonnées des fichiers PPTX à l'aide de Python
 url: /fr/python-net/metadata/pptx/
 keywords: Modifier les métadonnées PPTX, Afficher les métadonnées PPTX, Modifier les propriétés PPTX, Afficher les propriétés PPTX

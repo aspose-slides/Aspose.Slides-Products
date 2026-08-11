@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPSX फ़ाइलों को PPTX में मर्ज करें
 url: /hi/python-net/merge/ppsx-to-pptx/
 keywords: PPSX को PPTX में मिलाएं, PPSX से PPTX में शामिल हों, PPSX से PPTX, PowerPoint, प्रेजेंटेशन, PPTX, Python, Aspose को मिलाएं

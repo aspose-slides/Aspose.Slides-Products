@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPS Files and Save as POT Using Python
 url: /python-net/merge/pps-to-pot/
 keywords: Merge PPS to POT, Join PPS to POT, Combine PPS to POT, PowerPoint, Presentation, POT, Python, Aspose

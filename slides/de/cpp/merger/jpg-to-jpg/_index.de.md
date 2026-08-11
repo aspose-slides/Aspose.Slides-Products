@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zusammenführen von JPG-Bildern in C++
 url: /de/cpp/merger/jpg-to-jpg/
 keywords: JPG, JPEG mit JPG zusammenführen, JPG verbinden, JPG kombinieren, C++-API, C++-Bibliothek

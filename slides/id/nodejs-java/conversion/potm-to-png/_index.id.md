@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POTM ke PNG di Node.js
 url: /id/nodejs-java/conversion/potm-to-png/
 keywords: POTM ke PNG, Konversi POTM ke PNG, API Node.js, Pustaka Node.js, POTM, PNG

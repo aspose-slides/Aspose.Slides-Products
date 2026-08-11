@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POT en SVG dans Node.js
 url: /fr/nodejs-java/conversion/pot-to-svg/
 keywords: POT en SVG, Convertir POT en SVG, API Node.js, Bibliothèque Node.js, POT, SVG

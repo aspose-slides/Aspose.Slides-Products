@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPTX a FODP usando Python
 url: /it/python-net/merge/pptx-to-fodp/
 keywords: Unisci PPTX a FODP, Unisci PPTX a FODP, Combina PPTX a FODP, PowerPoint, Presentazione, FODP, Python, Aspose

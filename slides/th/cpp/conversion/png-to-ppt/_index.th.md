@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PNG เป็น PPT ใน C++
 url: /th/cpp/conversion/png-to-ppt/
 keywords: แปลง PNG เป็น PPT, PNG เป็น PPT, PowerPoint, PNG, PPT, C++ API, C++ Library

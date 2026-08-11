@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPT Menggunakan PHP
 url: /id/php-java/merger/ppt/
 keywords: Gabungkan PPT, Gabungkan PPT, Gabungkan PPT, PowerPoint, Presentasi, PHP, Aspose

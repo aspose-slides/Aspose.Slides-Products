@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 從 PPTX 文件中提取文本和圖像
 url: /zh-hant/python-net/parser/pptx/
 keywords: 使用 Python 解析 PPTX，PPTX 解析器 Python，從 Python 中的 PPTX 中提取數據，使用 Python 從 PPTX 中提取文本，使用 Python 從 PPTX 中提取圖像

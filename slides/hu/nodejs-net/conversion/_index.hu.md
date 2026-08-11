@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js PowerPoint feldolgozás. Könnyedén konvertálja a prezentációkat az Aspose.Slides segítségével.
 url: /hu/nodejs-net/conversion/
 keywords: "Konvertálás, PowerPoint, prezentáció, Node.js, javascript, js, PDF, konvertálás PDF-be, PPT PDF-be"

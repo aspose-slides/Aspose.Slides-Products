@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp PPT bằng Python
 url: /vi/python-net/metadata/ppt/
 keywords: Chỉnh sửa siêu dữ liệu PPT, Xem siêu dữ liệu PPT, Chỉnh sửa thuộc tính PPT, Xem thuộc tính PPT

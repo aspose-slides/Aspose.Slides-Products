@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 將 Microsoft PowerPoint 演示文稿轉換為多個文件
 url: /zh-hant/java/conversion/
 description: 在基於 Java 的應用程序中將 Microsoft PowerPoint 幻燈片轉換為不同的文件，包括 HTML、PDF 和圖像格式。

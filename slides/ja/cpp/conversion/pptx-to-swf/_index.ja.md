@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++アプリケーションを介してPPTXをSWFに変換します
 url: /ja/cpp/conversion/pptx-to-swf/ 
 description: PPTXドキュメントからSWF形式へのサンプルC++変換コード。任意のC++アプリケーション内でのバッチPPTXからSWFへの変換にサンプルコードを使用します。

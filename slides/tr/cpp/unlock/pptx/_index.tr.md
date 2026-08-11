@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak PPTX Sunum Dosyalarının Kilidini Açın
 url: /tr/cpp/unlock/pptx/
 keywords: PPTX Yazma Korumasını Kaldırma, Bir PPTX Şifresini Çözme, PPTX Sunumunun Kilidini Kaldırma, PPTX Korumasını Kaldırma

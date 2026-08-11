@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sök text i PowerPoint-filer på Windows, Linux och macOS
 url: /sv/search/
 description: API:er för att söka text i PPT-, PPTX- och ODP-presentationer

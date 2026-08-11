@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos OTP a PPSX usando Python
 url: /es/python-net/merge/otp-to-ppsx/
 keywords: Combinar OTP a PPSX, unir OTP a PPSX, combinar OTP a PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

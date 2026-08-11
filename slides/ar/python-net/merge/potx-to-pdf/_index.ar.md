@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات POTX إلى PDF باستخدام Python
 url: /ar/python-net/merge/potx-to-pdf/
 keywords: دمج POTX إلى PDF ، انضم إلى POTX إلى PDF ، ادمج POTX إلى PDF ، PowerPoint ، Presentation ، PDF ، Python ، Aspose

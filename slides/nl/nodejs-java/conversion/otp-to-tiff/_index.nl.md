@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer OTP naar TIFF in Node.js
 url: /nl/nodejs-java/conversion/otp-to-tiff/
 keywords: OTP naar TIFF, Converteer OTP naar TIFF, Node.js API, Node.js-bibliotheek, OTP, TIFF

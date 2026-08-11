@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 JPG 转换为 PPT
 url: /zh/php-java/conversion/jpg-to-ppt/
 keywords: JPG 到 PPT，将 JPG 转换为 PPT，PHP API，PHP 库，JPG，PPT

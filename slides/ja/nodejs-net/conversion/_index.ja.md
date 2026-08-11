@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js PowerPoint 処理。 Aspose.Slides を使用してプレゼンテーションを簡単に変換します。
 url: /ja/nodejs-net/conversion/
 keywords: 「変換、PowerPoint、プレゼンテーション、Node.js、JavaScript、js、PDF、PDF への変換、PPT から PDF」

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ค้นหาข้อความในไฟล์ PowerPoint บน Windows, Linux และ macOS
 url: /th/search/
 description: API เพื่อค้นหาข้อความในการนำเสนอ PPT, PPTX และ ODP

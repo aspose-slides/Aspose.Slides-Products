@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory ODP do XPS pomocí Pythonu
 url: /cs/python-net/merge/odp-to-xps/
 keywords: Sloučit ODP do XPS, připojit ODP do XPS, kombinovat ODP do XPS, PowerPoint, Presentation, XPS, Python, Aspose

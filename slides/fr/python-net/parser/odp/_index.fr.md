@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrayez du texte et des images à partir de fichiers ODP à l'aide de Python
 url: /fr/python-net/parser/odp/
 keywords: analysez ODP en utilisant Python, analysez ODP Python, extrayez des données de ODP en Python, extrayez du texte de ODP en utilisant Python, extrayez des images de ODP en utilisant Python

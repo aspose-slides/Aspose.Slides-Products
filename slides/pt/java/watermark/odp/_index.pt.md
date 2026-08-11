@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Adicionar marca d'água a arquivos de apresentação ODP usando Java
 url: /pt/java/watermark/odp/
 keywords: Adicionar marca d'água ODP, Adicionar marca d'água de texto ODP, Adicionar marca d'água de imagem ODP

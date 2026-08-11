@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPTX إلى POT باستخدام Python
 url: /ar/python-net/merge/pptx-to-pot/
 keywords: دمج PPTX إلى POT ، انضم إلى PPTX إلى POT ، ادمج PPTX إلى POT ، PowerPoint ، Presentation ، POT ، Python ، Aspose

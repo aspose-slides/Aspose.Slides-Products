@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 POT 轉換為 PPTM
 url: /zh-hant/nodejs-java/conversion/pot-to-pptm/
 keywords: POT 到 PPTM、將 POT 轉換為 PPTM、Node.js API、Node.js 庫、POT、PPTM

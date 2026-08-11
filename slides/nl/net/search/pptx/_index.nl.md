@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zoek tekst in PPTX presentatiebestanden met behulp van .NET
 url: /nl/net/search/pptx/
 keywords: zoek woorden in PPTX, zoek en vervang tekst in PPTX, zoek tekst PPTX Presentatie

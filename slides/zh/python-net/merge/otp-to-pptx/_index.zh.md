@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 OTP 文件合并到 PPTX
 url: /zh/python-net/merge/otp-to-pptx/
 keywords: 将 OTP 合并到 PPTX，将 OTP 连接到 PPTX，将 OTP 合并到 PPTX，PowerPoint，演示文稿，PPTX，Python，Aspose

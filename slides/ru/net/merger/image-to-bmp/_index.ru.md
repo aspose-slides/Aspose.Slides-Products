@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить изображение в BMP на C#
 url: /ru/net/merger/image-to-bmp/
 keywords: Изображение в BMP, Объединить изображение в BMP, Присоединить изображение к BMP, Объединить изображения, Изображение, BMP, C# API, .NET Library

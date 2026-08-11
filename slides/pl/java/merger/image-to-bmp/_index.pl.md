@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal obraz do BMP w Javie
 url: /pl/java/merger/image-to-bmp/
 keywords: Obraz do BMP, Scal obraz do BMP, Dołącz obraz do BMP, Połącz obrazy, Obraz, BMP, Java API, Biblioteka Java

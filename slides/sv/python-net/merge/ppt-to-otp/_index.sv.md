@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till OTP med Python
 url: /sv/python-net/merge/ppt-to-otp/
 keywords: Slå samman PPT till OTP, gå med PPT till OTP, kombinera PPT till OTP, PowerPoint, Presentation, OTP, Python, Aspose

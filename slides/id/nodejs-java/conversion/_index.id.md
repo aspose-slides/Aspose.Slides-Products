@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi Presentasi Microsoft PowerPoint di Node.js
 url: /id/nodejs-java/conversion/
 keywords: "Konversi, PowerPoint, Presentasi, Node.js, PDF, Konversi ke PDF, PPT ke PDF"

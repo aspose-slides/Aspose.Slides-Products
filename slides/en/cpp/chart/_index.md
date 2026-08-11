@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-08
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Charts to PowerPoint Presentations Using C++
 url: /cpp/chart/
 description: C++ source code to add charts to PowerPoint presentations.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование презентации Microsoft PowerPoint в несколько файлов с использованием C#
 url: /ru/net/conversion/
 description: Преобразуйте слайды Microsoft PowerPoint в различные файлы, включая PDF, HTML и графические форматы, на платформах .NET Framework, .NET Core, Windows Azure, Mono или Xamarin.

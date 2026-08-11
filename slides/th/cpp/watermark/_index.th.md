@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: เพิ่มลายน้ำในงานนำเสนอ PowerPoint โดยใช้ C++
 url: /th/cpp/watermark/
 description: ซอร์สโค้ด C++ เพื่อนำเสนอลายน้ำ

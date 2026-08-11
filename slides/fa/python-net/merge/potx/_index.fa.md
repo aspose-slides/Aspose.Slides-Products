@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: فایل‌های POTX را با استفاده از پایتون ادغام کنید
 url: /fa/python-net/merge/potx/
 keywords: ادغام POTX، Join POTX، Combine POTX، PowerPoint، Presentation، Python، Aspose

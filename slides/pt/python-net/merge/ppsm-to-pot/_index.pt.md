@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPSM para POT usando Python
 url: /pt/python-net/merge/ppsm-to-pot/
 keywords: Mesclar PPSM com POT, juntar PPSM com POT, combinar PPSM com POT, PowerPoint, Presentation, POT, Python, Aspose

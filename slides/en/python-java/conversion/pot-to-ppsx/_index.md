@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to PPSX in Python
 url: /python-java/conversion/pot-to-ppsx/
 keywords: Python POT conversion, POT to PPSX, PowerPoint to PPSX, PowerPoint slide show, Aspose.Slides for Python via Java

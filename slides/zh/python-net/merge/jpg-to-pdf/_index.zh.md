@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 JPG 合并为 PDF
 url: /zh/python-net/merge/jpg-to-pdf/
 keywords: JPG 到 PDF、合并 JPG 到 PDF、将 JPG 合并到 PDF、PDF、JPG、Python API、Python 库

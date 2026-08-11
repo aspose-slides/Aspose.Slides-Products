@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: FODP-Dateien mit Python in GIF zusammenführen
 url: /de/python-net/merge/fodp-to-gif/
 keywords: FODP mit GIF zusammenführen, FODP mit GIF verbinden, FODP mit GIF kombinieren, PowerPoint, Präsentation, GIF, Python, Aspose

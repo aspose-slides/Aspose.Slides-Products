@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PPTM in Python
 url: /python-net/viewer/pptm/
 keywords: View PPTM, View Macro-enabled PowerPoint Presentation, Open PPTM, PPTM Viewer, PPTM, PowerPoint, Python API, Python Library

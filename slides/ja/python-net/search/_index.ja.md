@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PowerPoint および OpenOffice プレゼンテーション内のテキストを検索する
 url: /ja/python-net/search/
 description: PowerPoint および OpenOffice™ プレゼンテーションでパターンを持つ単語を検索するための Python ソース コード

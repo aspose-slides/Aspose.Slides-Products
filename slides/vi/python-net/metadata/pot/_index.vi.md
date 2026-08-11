@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp POT bằng Python
 url: /vi/python-net/metadata/pot/
 keywords: Chỉnh sửa siêu dữ liệu POT, Xem siêu dữ liệu POT, Chỉnh sửa thuộc tính POT, Xem thuộc tính POT

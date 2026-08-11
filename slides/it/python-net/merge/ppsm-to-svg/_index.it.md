@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSM a SVG usando Python
 url: /it/python-net/merge/ppsm-to-svg/
 keywords: Unisci PPSM a SVG, Unisci PPSM a SVG, Combina PPSM a SVG, PowerPoint, Presentazione, SVG, Python, Aspose

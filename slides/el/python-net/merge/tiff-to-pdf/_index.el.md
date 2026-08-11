@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση TIFF σε PDF στην Python
 url: /el/python-net/merge/tiff-to-pdf/
 keywords: TIFF σε PDF, Συγχώνευση TIFF σε PDF, Συμμετοχή TIFF σε PDF, PDF, TIFF, Python API, Python Library

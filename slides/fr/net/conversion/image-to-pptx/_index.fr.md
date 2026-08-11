@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir une image en PPTX en C#
 url: /fr/net/conversion/image-to-pptx/
 keywords: Convertir une image en PPTX, image en PPTX, PowerPoint, image, PPTX, API C#, bibliothèque .NET

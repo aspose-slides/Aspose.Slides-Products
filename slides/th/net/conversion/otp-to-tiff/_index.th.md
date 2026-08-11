@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง OTP เป็น TIFF ผ่าน C#
 weight: 3060
 url: /th/net/conversion/otp-to-tiff/ 

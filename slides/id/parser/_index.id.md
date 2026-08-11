@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ekstrak Teks, Gambar, Video, Audio, dan media lain dari Presentasi
 url: /id/parser/
 description: API untuk Mengekstrak Teks, Gambar, Video, Audio dari Presentasi PowerPoint dan OpenOffice

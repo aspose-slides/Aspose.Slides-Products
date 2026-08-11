@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PNG thành JPG trong PHP
 url: /vi/php-java/conversion/png-to-jpg/
 keywords: PNG sang JPG, Chuyển đổi PNG sang JPG, API PHP, Thư viện PHP, PNG, JPG

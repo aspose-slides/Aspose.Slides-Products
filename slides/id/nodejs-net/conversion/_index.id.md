@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Pemrosesan PowerPoint Node.js. Mengonversi Presentasi dengan mudah menggunakan Aspose.Slides.
 url: /id/nodejs-net/conversion/
 keywords: "Konversi, PowerPoint, Presentasi, Node.js, javascript, js, PDF, Konversi ke PDF, PPT ke PDF"

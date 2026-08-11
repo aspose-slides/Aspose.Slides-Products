@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή ή επεξεργασία μεταδεδομένων αρχείων POTX χρησιμοποιώντας .NET
 url: /el/net/metadata/potx/
 keywords: Επεξεργασία μεταδεδομένων POTX, Προβολή μεταδεδομένων POTX, Επεξεργασία ιδιοτήτων POTX, Προβολή ιδιοτήτων POTX

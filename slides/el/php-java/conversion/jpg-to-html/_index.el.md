@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή JPG σε HTML σε PHP
 url: /el/php-java/conversion/jpg-to-html/
 keywords: JPG σε HTML, Convert JPG σε HTML, PHP API, PHP Library, JPG, HTML

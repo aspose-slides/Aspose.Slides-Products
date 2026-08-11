@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Cerca testo nei file di presentazione PPTX utilizzando Python
 url: /it/python-net/search/pptx/
 keywords: cerca parole in PPTX, cerca e sostituisci testo in PPTX, cerca testo PPTX Presentazione

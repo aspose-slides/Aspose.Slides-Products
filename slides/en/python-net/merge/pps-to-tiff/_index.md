@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPS Files and Export to TIFF Using Python
 url: /python-net/merge/pps-to-tiff/
 keywords: Merge PPS to TIFF, Join PPS to TIFF, Combine PPS to TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

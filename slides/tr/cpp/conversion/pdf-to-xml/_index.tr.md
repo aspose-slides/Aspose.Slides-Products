@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++'da PDF biçimini XML biçimine dönüştürün
 url: /tr/cpp/conversion/pdf-to-xml/
 keywords: PDF'tan XML'a, PDF'ı XML'a Dönüştür, C++ API, C++ Kitaplığı, PDF, XML

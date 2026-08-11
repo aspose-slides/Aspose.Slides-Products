@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci HTML a immagine in PHP
 url: /it/php-java/merger/html-to-image/
 keywords: Unisci HTML a immagine, HTML a immagine, Unisci HTML, Combina HTML, Immagine, API PHP, Libreria PHP

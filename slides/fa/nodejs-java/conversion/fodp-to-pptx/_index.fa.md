@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js FODP را به PPTX تبدیل کنید
 url: /fa/nodejs-java/conversion/fodp-to-pptx/
 keywords: FODP به PPTX، تبدیل FODP به PPTX، Node.js API، Node.js Library، FODP، PPTX

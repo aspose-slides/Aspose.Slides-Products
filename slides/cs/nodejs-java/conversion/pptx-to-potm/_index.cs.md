@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPTX na POTM v Node.js
 url: /cs/nodejs-java/conversion/pptx-to-potm/
 keywords: PPTX do POTM, Převést PPTX do POTM, Node.js API, Node.js Library, PPTX, POTM

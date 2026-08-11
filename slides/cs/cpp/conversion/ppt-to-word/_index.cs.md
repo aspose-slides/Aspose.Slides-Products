@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převést PPT do Wordu v C++
 url: /cs/cpp/conversion/ppt-to-word/
 keywords: Převod PPT do Wordu, PPT do Wordu, PPT do DOC, PowerPoint do Wordu, C++ API, C++ Library, CPP

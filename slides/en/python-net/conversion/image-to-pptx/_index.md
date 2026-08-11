@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to PPTX in Python
 url: /python-net/conversion/image-to-pptx/
 keywords: Image to PPTX, Convert Image to PPTX, Python API, Python Library, Image, PPTX

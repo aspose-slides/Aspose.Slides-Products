@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पाइथन का उपयोग करके POT फ़ाइलें मर्ज करें
 url: /hi/python-net/merge/pot/
 keywords: POT को मिलाएं, POT से जुड़ें, POT, पावरपॉइंट, प्रेजेंटेशन, पायथन, एस्पोज को मिलाएं

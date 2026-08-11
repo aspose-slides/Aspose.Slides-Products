@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Menggabungkan TIFF ke PDF di Jawa
 url: /id/java/merger/tiff-to-pdf/
 keywords: TIFF ke PDF, Gabung TIFF ke PDF, Gabung TIFF ke PDF, PDF, TIFF, Java API, Perpustakaan Java

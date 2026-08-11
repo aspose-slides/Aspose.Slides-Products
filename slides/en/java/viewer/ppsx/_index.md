@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPSX in Java
 url: /java/viewer/ppsx/
 keywords: View PPSX, Open PPSX, PPSX Viewer, PPSX, Java API, Java Library

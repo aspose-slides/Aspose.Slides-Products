@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPTM फ़ाइलों को PPT में मर्ज करें
 url: /hi/python-net/merge/pptm-to-ppt/
 keywords: PPTM को PPT में मिलाएं, PPTM से PPT में शामिल हों, PPTM से PPT, PowerPoint, प्रेजेंटेशन, PPT, Python, Aspose को मिलाएं

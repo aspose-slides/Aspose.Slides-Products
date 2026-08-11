@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) PNG fájlt JPG formátumra a Pythonban
 url: /hu/python-net/conversion/png-to-jpg/
 keywords: PNG to JPG, PNG konvertálása JPG formátumba, Python API, Python Library, PNG, JPG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके FODP फ़ाइलों को PDF में मर्ज करें
 url: /hi/python-net/merge/fodp-to-pdf/
 keywords: FODP को PDF में मिलाएं, FODP से PDF में शामिल हों, FODP से PDF, PowerPoint, प्रेजेंटेशन, PDF, Python, Aspose को मिलाएं

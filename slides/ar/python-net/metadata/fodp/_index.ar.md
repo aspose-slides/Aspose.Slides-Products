@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض أو تحرير FODP البيانات الوصفية للملفات باستخدام Python
 url: /ar/python-net/metadata/fodp/
 keywords: تحرير FODP البيانات الوصفية ، عرض FODP البيانات الوصفية ، تحرير خصائص FODP ، عرض الخصائص FODP

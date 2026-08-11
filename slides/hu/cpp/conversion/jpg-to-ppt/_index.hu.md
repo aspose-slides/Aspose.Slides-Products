@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG konvertálása PPT-re C++ nyelven
 url: /hu/cpp/conversion/jpg-to-ppt/
 keywords: JPG konvertálása PPT-vé, JPG konvertálása PPT-vé, PowerPoint, JPG, PPT, C++ API, C++ Library

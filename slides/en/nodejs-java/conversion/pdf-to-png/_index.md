@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-13
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to PNG in Node.js
 url: /nodejs-java/conversion/pdf-to-png/
 keywords: PDF to PNG, Convert PDF to PNG, Node.js API, Node.js Library, PDF, PNG

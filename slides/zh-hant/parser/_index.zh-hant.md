@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 從演示文稿中提取文本、圖像、視頻、音頻和其他媒體
 url: /zh-hant/parser/
 description: 從 PowerPoint 和 OpenOffice 演示文稿中提取文本、圖像、視頻、音頻的 API

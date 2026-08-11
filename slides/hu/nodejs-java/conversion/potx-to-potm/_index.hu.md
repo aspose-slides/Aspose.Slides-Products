@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) POTX konvertálása POTM formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/potx-to-potm/
 keywords: POTX to POTM, POTX konvertálása POTM formátumba, Node.js API, Node.js Library, POTX, POTM

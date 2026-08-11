@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 POTX 文件合并到 PPSM
 url: /zh/python-net/merge/potx-to-ppsm/
 keywords: 将 POTX 合并到 PPSM，将 POTX 连接到 PPSM，将 POTX 合并到 PPSM，PowerPoint，演示文稿，PPSM，Python，Aspose

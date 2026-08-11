@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir FODP a PPS en JavaScript
 url: /es/nodejs-net/conversion/fodp-to-pps/
 keywords: FODP a PPS, Convertir FODP a PPS, API de Node.js, Biblioteca JavaScript, FODP, PPS

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Microsoft PowerPoint प्रेजेंटेशन को Node.js में कनवर्ट करें
 url: /hi/nodejs-java/conversion/
 keywords: "कन्वर्ट, पॉवरपॉइंट, प्रेजेंटेशन, नोड.जेएस, पीडीएफ, पीडीएफ में कनवर्ट करें, पीपीटी से पीडीएफ"

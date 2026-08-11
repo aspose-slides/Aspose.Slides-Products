@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPSX na PPTM w JavaScript
 url: /pl/nodejs-net/conversion/ppsx-to-pptm/
 keywords: PPSX na PPTM, Konwertuj PPSX na PPTM, API Node.js, Biblioteka JavaScript, PPSX, PPTM

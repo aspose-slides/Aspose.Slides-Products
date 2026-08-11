@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des fichiers PDF en C++
 url: /fr/cpp/merger/pdf-to-pdf/
 keywords: Fusionner PDF, PDF à PDF, Joindre PDF, Combiner PDF, API C++, Bibliothèque C++

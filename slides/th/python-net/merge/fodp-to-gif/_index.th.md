@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ FODP เข้ากับ GIF โดยใช้ Python
 url: /th/python-net/merge/fodp-to-gif/
 keywords: รวม FODP เป็น GIF เข้าร่วม FODP ถึง GIF รวม FODP เป็น GIF PowerPoint การนำเสนอ GIF Python Aspose

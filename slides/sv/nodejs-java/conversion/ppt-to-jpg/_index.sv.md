@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPT till JPG i Node.js
 url: /sv/nodejs-java/conversion/ppt-to-jpg/
 keywords: PPT till JPG, Konvertera PPT till JPG, Node.js API, Node.js Library, PPT, JPG

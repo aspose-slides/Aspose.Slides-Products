@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 프레젠테이션에서 텍스트, 이미지, 비디오, 오디오 및 기타 미디어 추출
 url: /ko/parser/
 description: PowerPoint 및 OpenOffice 프레젠테이션에서 텍스트, 이미지, 비디오, 오디오를 추출하는 API

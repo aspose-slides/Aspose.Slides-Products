@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a PPTM-et ODP-vé C++ alkalmazáson keresztül
 weight: 3580
 url: /hu/cpp/conversion/pptm-to-odp/ 

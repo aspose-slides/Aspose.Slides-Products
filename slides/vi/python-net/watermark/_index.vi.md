@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Thêm hình mờ vào bản trình bày PowerPoint bằng Python
 url: /vi/python-net/watermark/
 description: Mã nguồn Python để trình bày Watermark

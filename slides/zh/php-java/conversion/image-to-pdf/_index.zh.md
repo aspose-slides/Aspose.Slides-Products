@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 Image 转换为 PDF
 url: /zh/php-java/conversion/image-to-pdf/
 keywords: Image 到 PDF，将 Image 转换为 PDF，PHP API，PHP 库，Image，PDF

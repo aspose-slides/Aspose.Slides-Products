@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: विंडोज, लिनक्स और मैकओएस पर पॉवरपॉइंट फाइल्स को मर्ज करें
 weight: 7730
 url: /hi/merger/

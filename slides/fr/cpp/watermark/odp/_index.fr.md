@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ajouter un filigrane aux fichiers de présentation ODP à l'aide de C++
 url: /fr/cpp/watermark/odp/
 keywords: Ajouter un filigrane ODP, Ajouter un filigrane de texte ODP, Ajouter un filigrane d'image ODP

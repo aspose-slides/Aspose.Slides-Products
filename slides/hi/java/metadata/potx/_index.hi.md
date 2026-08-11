@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java का उपयोग करके POTX फ़ाइलें मेटाडेटा देखें या संपादित करें
 url: /hi/java/metadata/potx/
 keywords: POTX मेटाडेटा संपादित करें, POTX मेटाडेटा देखें, POTX गुण संपादित करें, POTX गुण देखें

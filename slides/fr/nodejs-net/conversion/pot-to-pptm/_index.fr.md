@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POT en PPTM en JavaScript
 url: /fr/nodejs-net/conversion/pot-to-pptm/
 keywords: POT en PPTM, Convertir POT en PPTM, API Node.js, Bibliothèque JavaScript, POT, PPTM

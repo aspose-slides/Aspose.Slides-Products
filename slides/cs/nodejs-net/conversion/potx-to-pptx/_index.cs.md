@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTX do PPTX v JavaScriptu
 url: /cs/nodejs-net/conversion/potx-to-pptx/
 keywords: POTX do PPTX, Převést POTX do PPTX, Node.js API, JavaScript Library, POTX, PPTX

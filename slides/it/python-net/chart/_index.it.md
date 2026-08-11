@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Aggiungi grafico alle presentazioni di PowerPoint utilizzando Python
 url: /it/python-net/chart/
 description: Codice sorgente Python per aggiungere grafici alle presentazioni PowerPoint

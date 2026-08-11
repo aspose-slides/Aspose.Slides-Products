@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPSX Ke FODP Menggunakan Python
 url: /id/python-net/merge/ppsx-to-fodp/
 keywords: Gabungkan PPSX ke FODP, Gabungkan PPSX ke FODP, Gabungkan PPSX ke FODP, PowerPoint, Presentasi, FODP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中將 JPG 轉換為 PDF
 url: /zh-hant/python-net/conversion/jpg-to-pdf/
 keywords: JPG 到 PDF，將 JPG 轉換為 PDF，Python API，Python 庫，JPG，PDF

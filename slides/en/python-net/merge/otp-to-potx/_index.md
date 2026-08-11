@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge OTP Files and Save as POTX Using Python
 url: /python-net/merge/otp-to-potx/
 keywords: Merge OTP to POTX, Join OTP to POTX, Combine OTP to POTX, PowerPoint, Presentation, POTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して ODP プレゼンテーション ファイルのロックを解除します
 url: /ja/cpp/unlock/odp/
 keywords: 書き込み保護 ODP を削除、ODP を復号化、ODP プレゼンテーションのロックを解除、ODP の保護を解除

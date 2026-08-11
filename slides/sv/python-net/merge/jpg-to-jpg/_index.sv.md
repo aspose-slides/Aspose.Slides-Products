@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman JPG-bilder i Python
 url: /sv/python-net/merge/jpg-to-jpg/
 keywords: Slå samman JPG, JPEG till JPG, gå med i JPG, kombinera JPG, Python API, Python Library

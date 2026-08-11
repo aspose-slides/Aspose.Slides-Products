@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Αναζήτηση κειμένου σε PPTX Αρχεία παρουσίασης χρησιμοποιώντας .NET
 url: /el/net/search/pptx/
 keywords: αναζήτηση λέξεων σε PPTX, αναζήτηση και αντικατάσταση κειμένου σε PPTX, κείμενο αναζήτησης PPTX Παρουσίαση

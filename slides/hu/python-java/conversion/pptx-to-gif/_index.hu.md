@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) PPTX fájlt GIF formátumra a Pythonban
 url: /hu/python-java/conversion/pptx-to-gif/
 keywords: Python prezentáció konvertálás, prezentációk konvertálása Python formátumba, Python prezentációkhoz, Aspose.Slides Python, PPTX konvertálása GIF formátumba, Python prezentációs könyvtár

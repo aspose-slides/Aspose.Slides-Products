@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPTX naar PDF in Node.js
 url: /nl/nodejs-java/conversion/pptx-to-pdf/
 keywords: PPTX naar PDF, Converteer PPTX naar PDF, Node.js API, Node.js-bibliotheek, PPTX, PDF

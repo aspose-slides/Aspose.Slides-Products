@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中編輯 PDF
 url: /zh-hant/java/editor/pdf/
 keywords: 編輯 PDF、PDF、Java API、Java 庫

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POT para JPG usando Python
 url: /pt/python-net/merge/pot-to-jpg/
 keywords: Mesclar POT com JPG, juntar POT com JPG, combinar POT com JPG, PowerPoint, Presentation, JPG, Python, Aspose

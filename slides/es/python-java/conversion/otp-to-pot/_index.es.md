@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir OTP a POT en Python
 url: /es/python-java/conversion/otp-to-pot/
 keywords: Conversión de presentaciones de Python, convertir presentaciones a Python, Python para presentaciones, Aspose.Slides Python, conversión de OTP a POT, biblioteca de presentaciones de Python

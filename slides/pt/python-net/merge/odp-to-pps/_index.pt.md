@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos ODP para PPS usando Python
 url: /pt/python-net/merge/odp-to-pps/
 keywords: Mesclar ODP com PPS, juntar ODP com PPS, combinar ODP com PPS, PowerPoint, Presentation, PPS, Python, Aspose

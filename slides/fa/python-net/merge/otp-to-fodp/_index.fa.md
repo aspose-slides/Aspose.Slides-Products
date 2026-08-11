@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های OTP را با FODP ادغام کنید
 url: /fa/python-net/merge/otp-to-fodp/
 keywords: ادغام OTP به FODP، پیوستن به OTP به FODP، ترکیب OTP به FODP، PowerPoint، Presentation، FODP، Python، Aspose

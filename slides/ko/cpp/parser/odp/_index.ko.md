@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 통해 ODP 문서에서 텍스트 및 이미지 추출
 weight: 460
 url: /ko/cpp/parser/odp/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت OTP را به PPTM تبدیل کنید
 url: /fa/nodejs-net/conversion/otp-to-pptm/
 keywords: OTP به PPTM، تبدیل OTP به PPTM، Node.js API، کتابخانه جاوا اسکریپت، OTP، PPTM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ekstrak teks atau objek dari dokumen PowerPoint dan OpenOffice menggunakan Python
 url: /id/python-net/parser/
 description: Kode sumber Python untuk mengekstrak data dari presentasi PowerPoint dan OpenOffice.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中將 POTX 轉換為 PPTX
 url: /zh-hant/nodejs-net/conversion/potx-to-pptx/
 keywords: POTX 到 PPTX、將 POTX 轉換成 PPTX、Node.js API、JavaScript 函式庫、POTX、PPTX

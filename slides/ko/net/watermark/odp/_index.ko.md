@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을(를) 사용하여 ODP 프레젠테이션 파일에 워터마크 추가
 url: /ko/net/watermark/odp/
 keywords: 워터마크 추가 ODP, 텍스트 워터마크 추가 ODP, 이미지 워터마크 추가 ODP

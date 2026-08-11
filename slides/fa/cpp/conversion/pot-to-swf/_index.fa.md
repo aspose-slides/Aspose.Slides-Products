@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل POT به SWF از طریق برنامه ++C
 url: /fa/cpp/conversion/pot-to-swf/ 
 description: نمونه کد تبدیل C++ برای سند POT به فرمت SWF. از کد مثال برای تبدیل دسته ای POT به SWF در هر برنامه C++ استفاده کنید.

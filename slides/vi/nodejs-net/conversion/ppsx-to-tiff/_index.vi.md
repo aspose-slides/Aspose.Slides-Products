@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPSX sang TIFF trong JavaScript
 url: /vi/nodejs-net/conversion/ppsx-to-tiff/
 keywords: PPSX sang TIFF, Chuyển đổi PPSX sang TIFF, API Node.js, Thư viện JavaScript, PPSX, TIFF

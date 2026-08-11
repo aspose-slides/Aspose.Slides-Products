@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PDF konvertálása PPSM formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/pdf-to-ppsm/
 keywords: PDF to PPSM, PDF konvertálása PPSM formátumba, Node.js API, JavaScript Library, PDF, PPSM

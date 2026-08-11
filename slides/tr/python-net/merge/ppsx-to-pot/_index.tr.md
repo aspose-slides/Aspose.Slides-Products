@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPSX Dosyalarını POT İle Birleştirin
 url: /tr/python-net/merge/ppsx-to-pot/
 keywords: PPSX'ı POT ile birleştir, PPSX ile POT'a katıl, PPSX'ı POT ile birleştir, PowerPoint, Presentation, POT, Python, Aspose

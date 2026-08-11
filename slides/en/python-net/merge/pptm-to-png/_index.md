@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTM Files and Export Slides to PNG Using Python
 url: /python-net/merge/pptm-to-png/
 keywords: Merge PPTM to PNG, Join PPTM to PNG, Combine PPTM to PNG, PowerPoint, Presentation, PNG, Python, Aspose

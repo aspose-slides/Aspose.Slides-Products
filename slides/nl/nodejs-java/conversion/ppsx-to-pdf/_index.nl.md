@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPSX naar PDF in Node.js
 url: /nl/nodejs-java/conversion/ppsx-to-pdf/
 keywords: PPSX naar PDF, Converteer PPSX naar PDF, Node.js API, Node.js-bibliotheek, PPSX, PDF

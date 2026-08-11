@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام تصویر به BMP در C++
 url: /fa/cpp/merger/image-to-bmp/
 keywords: تصویر به BMP، ادغام تصویر به BMP، پیوستن تصویر به BMP، ترکیب تصاویر، تصویر، BMP، C++ API، کتابخانه C++

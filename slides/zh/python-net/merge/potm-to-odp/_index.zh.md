@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 POTM 文件合并到 ODP
 url: /zh/python-net/merge/potm-to-odp/
 keywords: 将 POTM 合并到 ODP，将 POTM 连接到 ODP，将 POTM 合并到 ODP，PowerPoint，演示文稿，ODP，Python，Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PDF σε PNG σε JavaScript
 url: /el/nodejs-net/conversion/pdf-to-png/
 keywords: PDF σε PNG, Μετατροπή PDF σε PNG, Node.js API, JavaScript Library, PDF, PNG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPS Ke GIF Menggunakan Python
 url: /id/python-net/merge/pps-to-gif/
 keywords: Gabungkan PPS ke GIF, Gabungkan PPS ke GIF, Gabungkan PPS ke GIF, PowerPoint, Presentasi, GIF, Python, Aspose

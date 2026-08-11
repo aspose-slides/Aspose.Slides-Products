@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-24
 title: Convert PPT to Word in Python
 url: /python-net/conversion/ppt-to-word/
 keywords: Convert PPT to Word, PPT to Word, PPT to DOC, PowerPoint to Word, Python API, Python Library

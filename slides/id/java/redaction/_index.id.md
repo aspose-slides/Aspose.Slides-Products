@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact Presentasi PowerPoint dan OpenOffice menggunakan Java
 url: /id/java/redaction/
 description: Kode sumber Java untuk menemukan dan menghapus konten dalam presentasi PowerPoint dan OpenOffice™

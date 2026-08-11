@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή παρουσίασης Python. Μετατρέψτε εύκολα παρουσιάσεις χρησιμοποιώντας το Aspose.Slides.
 url: /el/python-java/conversion/
 keywords: "Μετατροπή, PowerPoint, Παρουσίαση, Python, έργα Python, βιβλιοθήκες Python, PDF, Μετατροπή σε PDF, PPT σε PDF"

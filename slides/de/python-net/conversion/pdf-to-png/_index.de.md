@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PDF in PNG in Python
 url: /de/python-net/conversion/pdf-to-png/
 keywords: PDF in PNG, Konvertiere PDF in PNG, Python-API, Python-Bibliothek, PDF, PNG

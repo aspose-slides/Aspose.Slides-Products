@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中将 PDF 转换为 Image
 url: /zh/cpp/conversion/pdf-to-image/
 keywords: PDF 到 Image，将 PDF 转换为 Image，C++ API，C++ 库，PDF，Image

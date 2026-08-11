@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit PDF, PPT, PPTX a mnoho dalších formátů souborů pomocí Pythonu
 url: /cs/python-net/merge/
 keywords: Sloučit, Připojit, PowerPoint, Prezentace, Python, Aspose

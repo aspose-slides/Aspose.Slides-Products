@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTM-Dateien mit Python in PPTX zusammenführen
 url: /de/python-net/merge/potm-to-pptx/
 keywords: POTM mit PPTX zusammenführen, POTM mit PPTX verbinden, POTM mit PPTX kombinieren, PowerPoint, Präsentation, PPTX, Python, Aspose

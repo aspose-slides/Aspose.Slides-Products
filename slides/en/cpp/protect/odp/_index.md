@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-31
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protect ODP Presentations using C++
 url: /cpp/protect/odp/
 keywords: Write Protection ODP, Encrypt ODP, Lock ODP Presentation, Protect ODP

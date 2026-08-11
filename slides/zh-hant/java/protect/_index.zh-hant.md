@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 鎖定或密碼保護演示文稿
 url: /zh-hant/java/protect/
 description: Java源碼設置密碼鎖定演示文稿

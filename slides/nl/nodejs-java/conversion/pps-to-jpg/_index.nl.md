@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPS naar JPG in Node.js
 url: /nl/nodejs-java/conversion/pps-to-jpg/
 keywords: PPS naar JPG, Converteer PPS naar JPG, Node.js API, Node.js-bibliotheek, PPS, JPG

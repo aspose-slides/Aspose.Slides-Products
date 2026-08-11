@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan PDF, PPT, PPTX, dan Banyak Format File Lainnya Menggunakan Java
 url: /id/java/merger/
 keywords: Gabung, Gabung, PowerPoint, Presentasi, Java, Asumsi

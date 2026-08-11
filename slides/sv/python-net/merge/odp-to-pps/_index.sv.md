@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman ODP-filer till PPS med Python
 url: /sv/python-net/merge/odp-to-pps/
 keywords: Slå samman ODP till PPS, gå med ODP till PPS, kombinera ODP till PPS, PowerPoint, Presentation, PPS, Python, Aspose

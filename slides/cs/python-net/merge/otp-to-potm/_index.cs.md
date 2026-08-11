@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory OTP do POTM pomocí Pythonu
 url: /cs/python-net/merge/otp-to-potm/
 keywords: Sloučit OTP do POTM, připojit OTP do POTM, kombinovat OTP do POTM, PowerPoint, Presentation, POTM, Python, Aspose

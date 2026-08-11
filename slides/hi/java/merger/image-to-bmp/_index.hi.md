@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: छवि को जावा में BMP में मर्ज करें
 url: /hi/java/merger/image-to-bmp/
 keywords: इमेज टू बीएमपी, मर्ज इमेज टू बीएमपी, जॉइन इमेज टू बीएमपी, कम्बाइन इमेजेज, इमेज, बीएमपी, जावा एपीआई, जावा लाइब्रेरी

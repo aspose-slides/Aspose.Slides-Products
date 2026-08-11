@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX dosyasını PHP'de düzenleyin
 url: /tr/php-java/editor/pptx/
 keywords: PPTX Düzenle, PowerPoint'i Düzenle, PPTX, PowerPoint, PHP API, PHP Kitaplığı

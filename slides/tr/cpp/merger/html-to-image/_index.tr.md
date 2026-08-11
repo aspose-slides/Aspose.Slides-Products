@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++'da HTML'yi Görüntüyle Birleştirme
 url: /tr/cpp/merger/html-to-image/
 keywords: HTML'yi görüntüyle birleştir, HTML'yi görüntüyle birleştir, HTML'yi Birleştir, HTML'yi Birleştir, Görüntü, C++ API, C++ Kitaplığı

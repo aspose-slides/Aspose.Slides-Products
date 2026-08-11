@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POTM en PPSM en JavaScript
 url: /fr/nodejs-net/conversion/potm-to-ppsm/
 keywords: POTM en PPSM, Convertir POTM en PPSM, API Node.js, Bibliothèque JavaScript, POTM, PPSM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Εξαγωγή κειμένου ή αντικειμένων από έγγραφα PowerPoint και OpenOffice χρησιμοποιώντας Java
 url: /el/java/parser/
 description: Πηγαίος κώδικας Java για εξαγωγή δεδομένων από παρουσιάσεις PowerPoint και OpenOffice.

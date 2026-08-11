@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT thành BMP trong Node.js
 url: /vi/nodejs-java/conversion/ppt-to-bmp/
 keywords: PPT sang BMP, Chuyển đổi PPT sang BMP, API Node.js, Thư viện Node.js, PPT, BMP

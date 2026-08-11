@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript에서 ODP을(를) HTML(으)로 변환
 url: /ko/nodejs-net/conversion/odp-to-html/
 keywords: ODP을(를) HTML(으)로, ODP을(를) HTML(으)로 변환, Node.js API, JavaScript 라이브러리, ODP, HTML

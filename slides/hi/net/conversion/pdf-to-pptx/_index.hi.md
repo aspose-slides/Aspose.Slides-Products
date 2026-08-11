@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी # में पीडीएफ को पीपीटीएक्स में कनवर्ट करें
 url: /hi/net/conversion/pdf-to-pptx/
 keywords: PDF को PPTX, PDF को PPTX, PowerPoint, PDF, PPTX, C# API, .NET लाइब्रेरी में कनवर्ट करें

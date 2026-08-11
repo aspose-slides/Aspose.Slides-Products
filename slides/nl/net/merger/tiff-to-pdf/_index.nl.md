@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg TIFF samen met PDF in C#
 url: /nl/net/merger/tiff-to-pdf/
 keywords: TIFF naar PDF, TIFF naar PDF samenvoegen, TIFF naar PDF, PDF, TIFF, C# API, .NET Library samenvoegen

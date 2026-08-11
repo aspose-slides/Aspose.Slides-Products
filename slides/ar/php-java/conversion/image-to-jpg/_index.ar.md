@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل Image إلى JPG في PHP
 url: /ar/php-java/conversion/image-to-jpg/
 keywords: Image إلى JPG ، تحويل Image إلى JPG ، PHP API ، PHP Library ، Image ، JPG

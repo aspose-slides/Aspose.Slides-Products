@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPSX σε PDF χρησιμοποιώντας Python
 url: /el/python-net/merge/ppsx-to-pdf/
 keywords: Συγχώνευση PPSX σε PDF, Join PPSX σε PDF, Combine PPSX σε PDF, PowerPoint, Presentation, PDF, Python, Aspose

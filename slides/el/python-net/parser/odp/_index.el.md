@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Εξαγωγή κειμένου και εικόνων από αρχεία ODP χρησιμοποιώντας Python
 url: /el/python-net/parser/odp/
 keywords: αναλύστε ODP χρησιμοποιώντας Python, ODP parser Python, εξαγωγή δεδομένων από ODP στο Python, εξαγωγή κειμένου από ODP χρησιμοποιώντας Python, εξαγωγή εικόνων από ODP χρησιμοποιώντας Python

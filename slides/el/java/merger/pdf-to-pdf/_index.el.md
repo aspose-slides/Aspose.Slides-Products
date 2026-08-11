@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PDF σε Java
 url: /el/java/merger/pdf-to-pdf/
 keywords: Συγχώνευση PDF, PDF σε PDF, Εγγραφή PDF, Συνδυασμός PDF, Java API, Java Library

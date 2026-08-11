@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extraheer tekst of objecten uit een PowerPoint en OpenOffice-documenten met behulp van Java
 url: /nl/java/parser/
 description: Java-broncode voor het extraheren van gegevens uit PowerPoint- en OpenOffice-presentaties.

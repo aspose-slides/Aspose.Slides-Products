@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中转换 Microsoft PowerPoint 演示文稿
 url: /zh/nodejs-java/conversion/
 keywords: “转换、PowerPoint、演示文稿、Node.js、PDF、转换为 PDF、PPT 为 PDF”

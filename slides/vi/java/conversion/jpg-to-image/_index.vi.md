@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi JPG thành Image trong Java
 url: /vi/java/conversion/jpg-to-image/
 keywords: JPG sang Image, Chuyển đổi JPG sang Image, API Java, Thư viện Java, JPG, Image

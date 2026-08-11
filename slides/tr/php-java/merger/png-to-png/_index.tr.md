@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PNG Görüntülerini PHP'de Birleştirme
 url: /tr/php-java/merger/png-to-png/
 keywords: PNG'yi Birleştir, PNG'yi PNG'ye, PNG'ye Birleştir, PNG'yi Birleştir, PHP API, PHP Kitaplığı

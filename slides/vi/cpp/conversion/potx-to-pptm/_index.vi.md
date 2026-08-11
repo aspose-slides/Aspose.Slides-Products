@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POTX sang PPTM thông qua ứng dụng C ++
 weight: 3720
 url: /vi/cpp/conversion/potx-to-pptm/ 

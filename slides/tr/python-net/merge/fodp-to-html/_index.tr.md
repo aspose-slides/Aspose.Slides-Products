@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak FODP Dosyalarını HTML İle Birleştirin
 url: /tr/python-net/merge/fodp-to-html/
 keywords: FODP'ı HTML ile birleştir, FODP ile HTML'a katıl, FODP'ı HTML ile birleştir, PowerPoint, Presentation, HTML, Python, Aspose

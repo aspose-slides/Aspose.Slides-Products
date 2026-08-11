@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to Video in Java
 url: /java/conversion/ppt-to-video/
 keywords: Convert PPT to video, PPT to video, PowerPoint to video, PPT to MP4, Java API, Java Library

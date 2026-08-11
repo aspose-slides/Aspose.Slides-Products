@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigera PPTM i PHP
 url: /sv/php-java/editor/pptm/
 keywords: Redigera PPTM, Redigera PowerPoint, PPTM, PowerPoint, PHP API, PHP Library

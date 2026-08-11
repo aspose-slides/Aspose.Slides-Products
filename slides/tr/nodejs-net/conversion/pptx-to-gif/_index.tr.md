@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te PPTX'ı GIF'a dönüştürün
 url: /tr/nodejs-net/conversion/pptx-to-gif/
 keywords: PPTX'tan GIF'a, PPTX'ı GIF'a dönüştürün, Node.js API, JavaScript Kitaplığı, PPTX, GIF

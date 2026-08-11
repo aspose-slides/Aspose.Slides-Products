@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में छवि को BMP में मर्ज करें
 url: /hi/php-java/merger/image-to-bmp/
 keywords: छवि को BMP में, छवि को BMP में मर्ज करें, छवि को BMP से जोड़ें, छवियों को संयोजित करें, छवि, BMP, PHP API, PHP लाइब्रेरी

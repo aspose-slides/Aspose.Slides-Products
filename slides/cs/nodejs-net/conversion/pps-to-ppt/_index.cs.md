@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPS do PPT v JavaScriptu
 url: /cs/nodejs-net/conversion/pps-to-ppt/
 keywords: PPS do PPT, Převést PPS do PPT, Node.js API, JavaScript Library, PPS, PPT

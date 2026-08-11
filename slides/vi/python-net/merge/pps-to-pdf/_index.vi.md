@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPS thành PDF bằng Python
 url: /vi/python-net/merge/pps-to-pdf/
 keywords: Hợp nhất PPS thành PDF, Nối PPS thành PDF, Kết hợp PPS thành PDF, PowerPoint, Bản trình bày, PDF, Python, Aspose

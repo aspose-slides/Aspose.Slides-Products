@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование OTP в PPSX в JavaScript
 url: /ru/nodejs-net/conversion/otp-to-ppsx/
 keywords: OTP в PPSX, преобразование OTP в PPSX, Node.js API, библиотека JavaScript, OTP, PPSX

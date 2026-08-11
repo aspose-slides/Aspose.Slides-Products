@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: API PowerPoint Python. Python PPTX, PPT de Aspose.Slides
 weight: 5860
 url: /fr/python-net/ 

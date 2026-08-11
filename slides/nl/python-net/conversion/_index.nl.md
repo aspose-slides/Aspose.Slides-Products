@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Conversie van Microsoft PowerPoint-presentatie naar PDF in Python
 url: /nl/python-net/conversion/
 keywords: "Converteren, PowerPoint, Presentatie, Python, PDF, Converteren naar PDF, PPT naar PDF"

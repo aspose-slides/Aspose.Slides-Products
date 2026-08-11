@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แยกข้อความ รูปภาพ วิดีโอ เสียง และสื่ออื่น ๆ ออกจากงานนำเสนอ
 url: /th/parser/
 description: API เพื่อแยกข้อความ รูปภาพ วิดีโอ เสียงจากงานนำเสนอ PowerPoint และ OpenOffice

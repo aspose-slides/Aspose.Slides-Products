@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da Microsoft PowerPoint Sunumunu PDF'ye Dönüştürme
 url: /tr/python-net/conversion/
 keywords: "Dönüştür, PowerPoint, Sunum, Python, PDF, PDF'e Dönüştür, PPT'den PDF'ye"

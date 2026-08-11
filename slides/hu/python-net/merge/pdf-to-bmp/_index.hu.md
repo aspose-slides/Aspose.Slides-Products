@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PDF fájlokat a BMP formátumba Python használatával
 url: /hu/python-net/merge/pdf-to-bmp/
 keywords: A(z) PDF egyesítése a(z) BMP formátumba, a(z) PDF csatlakozása a(z) BMP formátumba, a(z)(PDF) összevonása a(z) BMP formátumba, PowerPoint, Presentation, BMP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावास्क्रिप्ट में PPS को PPTX में बदलें
 url: /hi/nodejs-net/conversion/pps-to-pptx/
 keywords: PPS से PPTX, PPS को PPTX में बदलें, Node.js API, JavaScript लाइब्रेरी, PPS, PPTX

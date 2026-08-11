@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPSM ke POT dalam JavaScript
 url: /id/nodejs-net/conversion/ppsm-to-pot/
 keywords: PPSM ke POT, Konversi PPSM ke POT, API Node.js, Pustaka JavaScript, PPSM, POT

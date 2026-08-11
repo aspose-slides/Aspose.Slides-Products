@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PDF na GIF v Node.js
 url: /cs/nodejs-java/conversion/pdf-to-gif/
 keywords: PDF do GIF, Převést PDF do GIF, Node.js API, Node.js Library, PDF, GIF

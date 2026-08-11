@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPT a TIFF usando Python
 url: /es/python-net/merge/ppt-to-tiff/
 keywords: Combinar PPT a TIFF, unir PPT a TIFF, combinar PPT a TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

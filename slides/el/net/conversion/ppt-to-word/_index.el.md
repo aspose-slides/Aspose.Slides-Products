@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPT σε Word σε C#
 url: /el/net/conversion/ppt-to-word/
 keywords: Μετατροπή PPT σε Word, PPT σε Word, PPT σε DOC, PowerPoint σε Word, C# API, Βιβλιοθήκη .NET

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPSX إلى BMP في JavaScript
 url: /ar/nodejs-net/conversion/ppsx-to-bmp/
 keywords: PPSX إلى BMP، تحويل PPSX إلى BMP، Node.js API، مكتبة JavaScript، PPSX، BMP

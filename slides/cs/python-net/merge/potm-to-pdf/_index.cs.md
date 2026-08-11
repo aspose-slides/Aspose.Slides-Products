@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POTM do PDF pomocí Pythonu
 url: /cs/python-net/merge/potm-to-pdf/
 keywords: Sloučit POTM do PDF, připojit POTM do PDF, kombinovat POTM do PDF, PowerPoint, Presentation, PDF, Python, Aspose

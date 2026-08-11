@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in PPT Presentations using C++
 url: /cpp/search/ppt/
 keywords: search words in PPT, search and replace text in PPT, search text PPT Presentation

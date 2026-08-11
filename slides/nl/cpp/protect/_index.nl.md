@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Presentatie vergrendelen of met een wachtwoord beveiligen met C++
 url: /nl/cpp/protect/
 description: C++-broncode om een ​​wachtwoord in te stellen om de presentatie te vergrendelen

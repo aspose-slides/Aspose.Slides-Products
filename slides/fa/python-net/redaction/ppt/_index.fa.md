@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ویرایش فایل‌های ارائه PPT با استفاده از Python
 url: /fa/python-net/redaction/ppt/
 keywords: ویرایش PPT، یافتن و جایگزینی متن در PPT، به روز رسانی PPT ارائه

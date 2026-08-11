@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPS เป็น OTP ใน Node.js
 url: /th/nodejs-java/conversion/pps-to-otp/
 keywords: PPS เป็น OTP, แปลง PPS เป็น OTP, Node.js API, ไลบรารี Node.js, PPS, OTP

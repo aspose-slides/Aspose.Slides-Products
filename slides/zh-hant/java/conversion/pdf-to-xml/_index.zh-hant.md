@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 PDF 轉換為 XML
 url: /zh-hant/java/conversion/pdf-to-xml/
 keywords: PDF 到 XML，將 PDF 轉換為 XML，Java API，Java 庫，PDF，XML

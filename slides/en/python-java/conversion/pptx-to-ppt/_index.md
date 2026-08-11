@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTX to PPT in Python
 url: /python-java/conversion/pptx-to-ppt/
 keywords: Python PPTX conversion, PPTX to PPT, PowerPoint 97-2003 presentation, legacy PowerPoint conversion, Aspose.Slides for Python via Java

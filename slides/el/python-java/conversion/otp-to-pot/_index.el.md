@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή OTP σε POT στην Python
 url: /el/python-java/conversion/otp-to-pot/
 keywords: Μετατροπή παρουσίασης Python, μετατροπή παρουσιάσεων σε Python, Python για παρουσιάσεις, Aspose.Slides Python, μετατροπή OTP σε POT, βιβλιοθήκη παρουσιάσεων Python

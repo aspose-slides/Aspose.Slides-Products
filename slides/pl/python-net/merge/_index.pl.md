@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scalanie plików PDF, PPT, PPTX i wielu innych formatów plików za pomocą Pythona
 url: /pl/python-net/merge/
 keywords: Scalanie, łączenie, PowerPoint, prezentacja, Python, Aspose

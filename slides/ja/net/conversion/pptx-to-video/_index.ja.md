@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PPTX をビデオに変換する
 url: /ja/net/conversion/pptx-to-video/
 keywords: PPTX からビデオ、PPTX からビデオ、PowerPoint からビデオ、PPTX から MP4、C# API、.NET ライブラリへの変換

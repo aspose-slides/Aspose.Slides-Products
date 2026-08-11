@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) Image fájlt JPG formátumra Java nyelven
 url: /hu/java/conversion/image-to-jpg/
 keywords: Image to JPG, Image konvertálása JPG formátumba, Java API, Java Library, Image, JPG

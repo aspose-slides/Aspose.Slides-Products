@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 从 PowerPoint 演示文稿中删除密码
 url: /zh/cpp/unlock/
 description: C++源码解锁演示文稿

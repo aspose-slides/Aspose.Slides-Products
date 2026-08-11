@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: استخراج النص والصور من ملفات PPTX باستخدام Python
 url: /ar/python-net/parser/pptx/
 keywords: تحليل PPTX باستخدام Python ، PPTX المحلل اللغوي Python ، واستخراج البيانات من PPTX في Python ، واستخراج النص من PPTX باستخدام Python ، واستخراج الصور من PPTX باستخدام Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 POTM 文件合并到 JPG
 url: /zh/python-net/merge/potm-to-jpg/
 keywords: 将 POTM 合并到 JPG，将 POTM 连接到 JPG，将 POTM 合并到 JPG，PowerPoint，演示文稿，JPG，Python，Aspose

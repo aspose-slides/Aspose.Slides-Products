@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java का उपयोग करके PPT प्रस्तुति फ़ाइलें अनलॉक करें
 url: /hi/java/unlock/ppt/
 keywords: राइट प्रोटेक्शन हटाएं PPT, PPT को डिक्रिप्ट करना, PPT प्रेजेंटेशन को अनलॉक करना, PPT को अनप्रोटेक्ट करना

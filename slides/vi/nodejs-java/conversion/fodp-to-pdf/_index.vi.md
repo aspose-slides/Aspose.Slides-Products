@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi FODP thành PDF trong Node.js
 url: /vi/nodejs-java/conversion/fodp-to-pdf/
 keywords: FODP sang PDF, Chuyển đổi FODP sang PDF, API Node.js, Thư viện Node.js, FODP, PDF

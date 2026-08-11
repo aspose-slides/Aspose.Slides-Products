@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg és képek kibontása a PPT fájlokból a Python használatával
 url: /hu/python-net/parser/ppt/
 keywords: elemezze a PPT elemet a Python használatával, a PPT elemzőt a Python használatával, kinyerje ki az adatokat a PPT elemből a Python nyelven, bontsa ki a szöveget a PPT-ből a Python használatával, bontsa ki a képeket a PPT-ból a Python használatával

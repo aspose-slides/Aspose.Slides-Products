@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python で OTP を PPS に変換します
 url: /ja/python-java/conversion/otp-to-pps/
 keywords: Python プレゼンテーション変換、プレゼンテーションを Python に変換、プレゼンテーション用 Python、Aspose.Slides Python、OTP から PPS への変換、Python プレゼンテーション ライブラリ

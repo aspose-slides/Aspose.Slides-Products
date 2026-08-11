@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTX do PNG pomocí Pythonu
 url: /cs/python-net/merge/pptx-to-png/
 keywords: Sloučit PPTX do PNG, připojit PPTX do PNG, kombinovat PPTX do PNG, PowerPoint, Presentation, PNG, Python, Aspose

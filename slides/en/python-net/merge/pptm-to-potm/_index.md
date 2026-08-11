@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTM Files to POTM Using Python
 url: /python-net/merge/pptm-to-potm/
 keywords: Merge PPTM to POTM, Join PPTM to POTM, Combine PPTM to POTM, PowerPoint, Presentation, POTM, Python, Aspose

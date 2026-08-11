@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPSM را با PPTM ادغام کنید
 url: /fa/python-net/merge/ppsm-to-pptm/
 keywords: ادغام PPSM به PPTM، پیوستن به PPSM به PPTM، ترکیب PPSM به PPTM، PowerPoint، Presentation، PPTM، Python، Aspose

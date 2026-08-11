@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir FODP en BMP en JavaScript
 url: /fr/nodejs-net/conversion/fodp-to-bmp/
 keywords: FODP en BMP, Convertir FODP en BMP, API Node.js, Bibliothèque JavaScript, FODP, BMP

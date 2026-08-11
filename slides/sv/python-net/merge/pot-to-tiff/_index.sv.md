@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POT-filer till TIFF med Python
 url: /sv/python-net/merge/pot-to-tiff/
 keywords: Slå samman POT till TIFF, gå med POT till TIFF, kombinera POT till TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

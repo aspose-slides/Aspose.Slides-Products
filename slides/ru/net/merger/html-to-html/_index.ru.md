@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Слияние HTML-файлов в C#
 url: /ru/net/merger/html-to-html/
 keywords: Объединение HTML, HTML в HTML, объединение HTML, объединение HTML, API C#, библиотека .NET.

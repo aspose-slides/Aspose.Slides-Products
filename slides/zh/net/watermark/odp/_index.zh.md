@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 .NET 将水印添加到 ODP 演示文件
 url: /zh/net/watermark/odp/
 keywords: 添加水印 ODP，添加文字水印 ODP，添加图片水印 ODP

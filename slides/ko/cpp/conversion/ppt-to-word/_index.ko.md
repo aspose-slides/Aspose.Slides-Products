@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++에서 PPT를 Word로 변환
 url: /ko/cpp/conversion/ppt-to-word/
 keywords: PPT를 Word로, PPT를 Word로, PPT를 DOC로, PowerPoint를 Word로, C++ API, C++ 라이브러리, CPP로 변환

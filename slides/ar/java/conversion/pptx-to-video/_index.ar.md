@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPTX إلى فيديو بجافا
 url: /ar/java/conversion/pptx-to-video/
 keywords: تحويل PPTX إلى فيديو ، PPTX إلى فيديو ، PowerPoint إلى فيديو ، PPT إلى MP4 ، Java API ، مكتبة Java

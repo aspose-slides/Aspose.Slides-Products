@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact PPTX Presentations using C++
 url: /cpp/redaction/pptx/
 keywords: Redact PPTX, find and replace text in PPTX, update PPTX Presentation

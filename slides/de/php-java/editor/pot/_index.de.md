@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bearbeiten Sie POT in PHP
 url: /de/php-java/editor/pot/
 keywords: POT bearbeiten, PowerPoint bearbeiten, POT, PowerPoint, PHP-API, PHP-Bibliothek

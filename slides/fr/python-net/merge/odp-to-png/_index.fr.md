@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers ODP vers PNG à l'aide de Python
 url: /fr/python-net/merge/odp-to-png/
 keywords: Fusionner ODP à PNG, Joindre ODP à PNG, Combiner ODP à PNG, PowerPoint, Présentation, PNG, Python, Aspose

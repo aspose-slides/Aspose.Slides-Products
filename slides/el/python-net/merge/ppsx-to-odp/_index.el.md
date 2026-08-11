@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPSX σε ODP χρησιμοποιώντας Python
 url: /el/python-net/merge/ppsx-to-odp/
 keywords: Συγχώνευση PPSX σε ODP, Join PPSX σε ODP, Combine PPSX σε ODP, PowerPoint, Presentation, ODP, Python, Aspose

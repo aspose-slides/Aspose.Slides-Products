@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da TIFF'i PDF'ye Birleştirme
 url: /tr/python-net/merge/tiff-to-pdf/
 keywords: TIFF'den PDF'e, TIFF'den PDF'e Birleştirme, TIFF'den PDF'e, PDF'e, TIFF'e, Python API'sine, Python Kitaplığına Katılın

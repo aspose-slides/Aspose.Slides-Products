@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan OTP ke GIF di Node.js
 url: /id/nodejs-java/conversion/otp-to-gif/
 keywords: OTP ke GIF, Konversi OTP ke GIF, API Node.js, Pustaka Node.js, OTP, GIF

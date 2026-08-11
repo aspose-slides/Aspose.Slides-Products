@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory FODP do PPSX pomocí Pythonu
 url: /cs/python-net/merge/fodp-to-ppsx/
 keywords: Sloučit FODP do PPSX, připojit FODP do PPSX, kombinovat FODP do PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

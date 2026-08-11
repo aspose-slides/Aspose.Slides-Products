@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Watermarks to PPTX Presentations with Python
 url: /python-net/watermark/pptx/
 keywords: add watermark to PPTX, add text watermark to PPTX, add image watermark to PPTX

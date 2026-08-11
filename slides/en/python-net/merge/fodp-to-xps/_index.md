@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge FODP Files and Export to XPS Using Python
 url: /python-net/merge/fodp-to-xps/
 keywords: Merge FODP to XPS, Join FODP to XPS, Combine FODP to XPS, PowerPoint, Presentation, XPS, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java를 사용하여 PowerPoint 메타데이터 보기 및 편집
 url: /ko/java/metadata/
 description: 프레젠테이션 속성을 보고 편집하기 위한 Java 소스 코드

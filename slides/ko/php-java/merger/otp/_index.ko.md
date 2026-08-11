@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP를 사용하여 OTP 파일 병합
 url: /ko/php-java/merger/otp/
 keywords: OTP 병합, OTP 가입, OTP 결합, PowerPoint, 프레젠테이션, PHP, Aspose

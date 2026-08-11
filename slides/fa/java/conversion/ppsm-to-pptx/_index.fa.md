@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSM را از طریق جاوا به PPTX تبدیل کنید
 weight: 2550
 url: /fa/java/conversion/ppsm-to-pptx/ 

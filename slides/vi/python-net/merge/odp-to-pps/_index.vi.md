@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp ODP thành PPS bằng Python
 url: /vi/python-net/merge/odp-to-pps/
 keywords: Hợp nhất ODP thành PPS, Nối ODP thành PPS, Kết hợp ODP thành PPS, PowerPoint, Bản trình bày, PPS, Python, Aspose

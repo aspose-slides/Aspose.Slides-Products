@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 POTM 파일을 GIF에 병합
 url: /ko/python-net/merge/potm-to-gif/
 keywords: POTM을 GIF에 병합, POTM을 GIF에 결합, POTM을 GIF에 결합, PowerPoint, Presentation, GIF, Python, Aspose

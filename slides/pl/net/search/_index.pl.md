@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyszukiwanie tekstu w prezentacjach PowerPoint i OpenOffice za pomocą platformy .NET
 url: /pl/net/search/
 description: Kod źródłowy C# do wyszukiwania słów za pomocą wzorca w prezentacjach PowerPoint i OpenOffice™

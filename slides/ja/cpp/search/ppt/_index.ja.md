@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して PPT プレゼンテーション ファイル内のテキストを検索
 url: /ja/cpp/search/ppt/
 keywords: PPT で単語を検索、PPT でテキストを検索および置換、テキスト PPT を検索

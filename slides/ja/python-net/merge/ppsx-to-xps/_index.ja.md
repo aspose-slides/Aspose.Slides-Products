@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPSX ファイルを XPS にマージ
 url: /ja/python-net/merge/ppsx-to-xps/
 keywords: PPSX を XPS に結合、PPSX を XPS に結合、PPSX を XPS に結合、PowerPoint、プレゼンテーション、XPS、Python、Aspose

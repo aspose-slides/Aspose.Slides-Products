@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) HTML fájlt PNG formátumra Java nyelven
 url: /hu/java/conversion/html-to-png/
 keywords: HTML to PNG, HTML konvertálása PNG formátumba, Java API, Java Library, HTML, PNG

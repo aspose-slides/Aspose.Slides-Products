@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 向 PowerPoint 演示文稿添加水印
 url: /zh/cpp/watermark/
 description: C++ 源代码到 Watermark 演示文稿

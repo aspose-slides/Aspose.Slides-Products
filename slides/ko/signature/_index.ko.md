@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-05-12
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux 및 macOS에서 PowerPoint 파일에 디지털 서명
 weight: 7730
 url: /ko/signature

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل POTX إلى HTML في JavaScript
 url: /ar/nodejs-net/conversion/potx-to-html/
 keywords: POTX إلى HTML، تحويل POTX إلى HTML، Node.js API، مكتبة JavaScript، POTX، HTML

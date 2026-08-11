@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edit PPS di PHP
 url: /id/php-java/editor/pps/
 keywords: Edit PPS, Edit PowerPoint, PPS, PowerPoint, API PHP, Perpustakaan PHP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POT-filer till PPSX med Python
 url: /sv/python-net/merge/pot-to-ppsx/
 keywords: Slå samman POT till PPSX, gå med POT till PPSX, kombinera POT till PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

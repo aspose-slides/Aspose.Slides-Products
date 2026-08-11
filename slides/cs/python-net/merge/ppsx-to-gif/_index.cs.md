@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPSX do GIF pomocí Pythonu
 url: /cs/python-net/merge/ppsx-to-gif/
 keywords: Sloučit PPSX do GIF, připojit PPSX do GIF, kombinovat PPSX do GIF, PowerPoint, Presentation, GIF, Python, Aspose

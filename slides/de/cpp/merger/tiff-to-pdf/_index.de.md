@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zusammenführen von TIFF zu PDF in C++
 url: /de/cpp/merger/tiff-to-pdf/
 keywords: TIFF zu PDF, TIFF zu PDF zusammenführen, TIFF zu PDF verbinden, PDF, TIFF, C++ API, C++ Bibliothek

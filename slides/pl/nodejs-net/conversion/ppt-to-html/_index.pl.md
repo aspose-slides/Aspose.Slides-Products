@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPT na HTML w JavaScript
 url: /pl/nodejs-net/conversion/ppt-to-html/
 keywords: PPT na HTML, Konwertuj PPT na HTML, API Node.js, Biblioteka JavaScript, PPT, HTML

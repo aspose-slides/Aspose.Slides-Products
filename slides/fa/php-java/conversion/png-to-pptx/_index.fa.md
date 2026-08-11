@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PNG به PPTX در PHP
 url: /fa/php-java/conversion/png-to-pptx/
 keywords: PNG به PPTX، تبدیل PNG به PPTX، PHP API، PHP Library، PNG، PPTX

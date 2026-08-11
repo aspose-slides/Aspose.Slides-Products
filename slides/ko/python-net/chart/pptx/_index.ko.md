@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을(를) 사용하여 PPTX 프레젠테이션 파일로 차트 만들기
 url: /ko/python-net/chart/pptx/
 keywords: 차트 생성, 분산형 차트 생성, 파이 차트 생성, 트리맵 차트 생성, 주식형 차트 생성, 상자 및 위스커 차트 생성, 히스토그램 차트 생성, 깔때기형 차트 생성, 선버스트 차트, 멀티카테고리 차트, PowerPoint 프레젠테이션, Python

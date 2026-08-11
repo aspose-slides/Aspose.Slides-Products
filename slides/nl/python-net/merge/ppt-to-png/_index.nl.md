@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPT-bestanden samen naar PNG met Python
 url: /nl/python-net/merge/ppt-to-png/
 keywords: Voeg PPT samen tot PNG, voeg PPT toe aan PNG, combineer PPT tot PNG, PowerPoint, Presentatie, PNG, Python, Aspose

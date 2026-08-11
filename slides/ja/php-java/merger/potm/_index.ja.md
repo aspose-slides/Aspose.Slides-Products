@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP を使用して POTM ファイルをマージする
 url: /ja/php-java/merger/potm/
 keywords: 結合 POTM、結合 POTM、結合 POTM、PowerPoint、プレゼンテーション、PHP、Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python で HTML を XML に変換する
 url: /ja/python-net/conversion/html-to-xml/
 keywords: HTML から XML へ、HTML から XML への変換、Python API、Python ライブラリ、HTML、XML

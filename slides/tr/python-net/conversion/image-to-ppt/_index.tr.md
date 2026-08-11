@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da Görüntüyü PPT'ye Dönüştür
 url: /tr/python-net/conversion/image-to-ppt/
 keywords: Görüntüyü PPT'ye, Görüntüyü PPT'ye Dönüştür, Python API, Python Kitaplığı, Görüntü, PPT

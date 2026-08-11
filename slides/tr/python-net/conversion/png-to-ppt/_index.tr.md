@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PNG'yi PPT'ye dönüştürme
 url: /tr/python-net/conversion/png-to-ppt/
 keywords: PNG'yi PPT'ye, PNG'yi PPT'ye, PowerPoint'e, PNG'ye, PPT'ye, Python API'sine, Python Kitaplığına Dönüştür

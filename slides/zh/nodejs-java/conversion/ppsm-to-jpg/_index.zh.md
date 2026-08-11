@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中将 PPSM 转换为 JPG
 url: /zh/nodejs-java/conversion/ppsm-to-jpg/
 keywords: PPSM 到 JPG、将 PPSM 转换为 JPG、Node.js API、Node.js 库、PPSM、JPG

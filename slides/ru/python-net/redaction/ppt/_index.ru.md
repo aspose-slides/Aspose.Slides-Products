@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Редактировать файлы презентации PPT с помощью Python
 url: /ru/python-net/redaction/ppt/
 keywords: Исправить PPT, найти и заменить текст в PPT, обновить презентацию PPT

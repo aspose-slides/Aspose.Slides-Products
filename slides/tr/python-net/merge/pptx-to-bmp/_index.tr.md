@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPTX Dosyalarını BMP İle Birleştirin
 url: /tr/python-net/merge/pptx-to-bmp/
 keywords: PPTX'ı BMP ile birleştir, PPTX ile BMP'a katıl, PPTX'ı BMP ile birleştir, PowerPoint, Presentation, BMP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp FODP thành POTX bằng Python
 url: /vi/python-net/merge/fodp-to-potx/
 keywords: Hợp nhất FODP thành POTX, Nối FODP thành POTX, Kết hợp FODP thành POTX, PowerPoint, Bản trình bày, POTX, Python, Aspose

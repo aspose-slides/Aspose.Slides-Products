@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#で画像をPPTに変換
 url: /ja/net/conversion/image-to-ppt/
 keywords: 画像を PPT に変換、画像を PPT に変換、PowerPoint、画像、PPT、C# API、.NET ライブラリ

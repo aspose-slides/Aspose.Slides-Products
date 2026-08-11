@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Agregar marca de agua a ODP archivos de presentación usando C++
 url: /es/cpp/watermark/odp/
 keywords: Añadir marca de agua ODP, Añadir marca de agua de texto ODP, Añadir marca de agua de imagen ODP

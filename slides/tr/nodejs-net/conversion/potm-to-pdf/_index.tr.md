@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te POTM'ı PDF'a dönüştürün
 url: /tr/nodejs-net/conversion/potm-to-pdf/
 keywords: POTM'tan PDF'a, POTM'ı PDF'a dönüştürün, Node.js API, JavaScript Kitaplığı, POTM, PDF

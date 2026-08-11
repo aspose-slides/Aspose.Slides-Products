@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPT do BMP pomocí Pythonu
 url: /cs/python-net/merge/ppt-to-bmp/
 keywords: Sloučit PPT do BMP, připojit PPT do BMP, kombinovat PPT do BMP, PowerPoint, Presentation, BMP, Python, Aspose

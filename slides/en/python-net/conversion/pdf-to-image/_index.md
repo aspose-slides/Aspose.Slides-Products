@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to Image in Python
 url: /python-net/conversion/pdf-to-image/
 keywords: PDF to Image, Convert PDF to Image, Python API, Python Library, PDF, Image

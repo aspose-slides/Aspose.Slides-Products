@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 .NET 查看和編輯 PowerPoint 元數據
 url: /zh-hant/net/metadata/
 description: 用於查看和編輯演示文稿屬性的 C# 源代碼

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET üzerinden POT dosyalarını düzenleyin
 url: /tr/net/editor/pot/ 
 description: .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platformlarında POT belgesini düzenlemek için C# kaynak kodu.

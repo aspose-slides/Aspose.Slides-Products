@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ontgrendel PPTX presentatiebestanden met C++
 url: /nl/cpp/unlock/pptx/
 keywords: Schrijfbeveiliging PPTX verwijderen, een PPTX ontsleutelen, presentatie PPTX ontgrendelen, beveiliging PPTX opheffen

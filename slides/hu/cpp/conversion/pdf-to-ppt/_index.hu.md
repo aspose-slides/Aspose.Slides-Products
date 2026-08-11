@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PDF konvertálása PPT formátumra C++ nyelven
 url: /hu/cpp/conversion/pdf-to-ppt/
 keywords: PDF to PPT, PDF konvertálása PPT formátumba, C++ API, C++ Library, PDF, PPT

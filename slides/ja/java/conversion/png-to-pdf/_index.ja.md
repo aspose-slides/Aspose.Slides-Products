@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で PNG を PDF に変換する
 url: /ja/java/conversion/png-to-pdf/
 keywords: PNG から PDF へ、PNG から PDF への変換、Java API、Java ライブラリ、PNG、PDF

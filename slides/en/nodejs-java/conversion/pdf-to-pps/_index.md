@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-13
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to PPS in Node.js
 url: /nodejs-java/conversion/pdf-to-pps/
 keywords: PDF to PPS, Convert PDF to PPS, Node.js API, Node.js Library, PDF, PPS

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 POTX 轉換為 ODP
 url: /zh-hant/nodejs-java/conversion/potx-to-odp/
 keywords: POTX 到 ODP、將 POTX 轉換為 ODP、Node.js API、Node.js 庫、POTX、ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POT-filer till PPT med Python
 url: /sv/python-net/merge/pot-to-ppt/
 keywords: Slå samman POT till PPT, gå med POT till PPT, kombinera POT till PPT, PowerPoint, Presentation, PPT, Python, Aspose

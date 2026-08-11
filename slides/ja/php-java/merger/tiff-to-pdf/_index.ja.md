@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHPでTIFFをPDFにマージ
 url: /ja/php-java/merger/tiff-to-pdf/
 keywords: TIFF から PDF、TIFF から PDF へのマージ、TIFF から PDF への結合、PDF、TIFF、PHP API、PHP ライブラリ

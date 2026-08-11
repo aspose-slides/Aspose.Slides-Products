@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extract Text from PPTX Files with Python
 url: /python-net/parser/pptx/
 keywords: parse PPTX with Python, PPTX parser Python, extract data from PPTX in Python, extract text from PPTX with Python

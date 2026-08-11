@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX'i C# dilinde Word'e dönüştürün
 url: /tr/net/conversion/pptx-to-word/
 keywords: PPTX'i Word'e, PPTX'i Word'e, PPTX'i DOC'a, PowerPoint'i Word'e, C# API'sini, .NET Library'ye dönüştürün

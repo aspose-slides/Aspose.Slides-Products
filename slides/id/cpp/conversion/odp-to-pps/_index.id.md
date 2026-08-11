@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi ODP ke PPS melalui aplikasi C++
 weight: 7310
 url: /id/cpp/conversion/odp-to-pps/ 

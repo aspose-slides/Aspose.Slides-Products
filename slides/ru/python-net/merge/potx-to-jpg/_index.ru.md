@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы POTX в JPG с помощью Python
 url: /ru/python-net/merge/potx-to-jpg/
 keywords: Объединить POTX в JPG, объединить POTX в JPG, объединить POTX в JPG, PowerPoint, презентацию, JPG, Python, Aspose

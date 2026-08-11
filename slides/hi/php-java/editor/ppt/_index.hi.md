@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में PPT संपादित करें
 url: /hi/php-java/editor/ppt/
 keywords: संपादित करें PPT, संपादित करें PowerPoint, PPT, PowerPoint, PHP API, PHP लाइब्रेरी

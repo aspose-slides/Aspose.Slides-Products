@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extraheer tekst en afbeeldingen uit PPTX-bestanden met behulp van Python
 url: /nl/python-net/parser/pptx/
 keywords: ontleed PPTX met Python, PPTX ontleder Python, extraheer gegevens uit PPTX in Python, extraheer tekst uit PPTX met Python, extraheer afbeeldingen uit PPTX met Python

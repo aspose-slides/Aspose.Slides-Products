@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi bản trình bày Microsoft PowerPoint trong Node.js
 url: /vi/nodejs-java/conversion/
 keywords: "Chuyển đổi, PowerPoint, Trình bày, Node.js, PDF, Chuyển đổi sang PDF, PPT sang PDF"

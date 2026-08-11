@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till TIFF med Python
 url: /sv/python-net/merge/ppt-to-tiff/
 keywords: Slå samman PPT till TIFF, gå med PPT till TIFF, kombinera PPT till TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

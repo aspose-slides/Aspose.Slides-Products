@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chỉnh sửa PPSX trong PHP
 url: /vi/php-java/editor/ppsx/
 keywords: Chỉnh sửa PPSX, Chỉnh sửa PowerPoint, PPSX, PowerPoint, API PHP, Thư viện PHP

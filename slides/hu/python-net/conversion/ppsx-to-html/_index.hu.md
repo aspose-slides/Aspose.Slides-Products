@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPSX konvertálása HTML-re Pythonban
 weight: 2030
 url: /hu/python-net/conversion/ppsx-to-html/ 

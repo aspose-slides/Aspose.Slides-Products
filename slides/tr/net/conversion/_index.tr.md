@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# kullanarak Microsoft PowerPoint Sunumunu Birden Çok Dosyaya Dönüştürme
 url: /tr/net/conversion/
 description: Microsoft PowerPoint Slaytlarını .NET Framework, .NET Core, Windows Azure, Mono veya Xamarin Platformlarında PDF, HTML ve görüntü biçimleri dahil olmak üzere farklı dosyalara dönüştürün.

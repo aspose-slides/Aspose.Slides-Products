@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPTX-bestanden samen naar PPTM met Python
 url: /nl/python-net/merge/pptx-to-pptm/
 keywords: Voeg PPTX samen tot PPTM, voeg PPTX toe aan PPTM, combineer PPTX tot PPTM, PowerPoint, Presentatie, PPTM, Python, Aspose

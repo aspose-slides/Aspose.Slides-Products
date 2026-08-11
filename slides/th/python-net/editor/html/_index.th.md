@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไข HTML ใน Python
 url: /th/python-net/editor/html/
 keywords: แก้ไข HTML, HTML, Python API, Python Library

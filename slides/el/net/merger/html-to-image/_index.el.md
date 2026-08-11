@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση HTML με εικόνα σε C#
 url: /el/net/merger/html-to-image/
 keywords: Συγχώνευση HTML σε εικόνα, HTML σε εικόνα, Συμμετοχή σε HTML, Συνδυασμός HTML, Εικόνα, C# API, Βιβλιοθήκη .NET

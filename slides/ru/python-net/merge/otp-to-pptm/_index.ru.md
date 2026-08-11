@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы OTP в PPTM с помощью Python
 url: /ru/python-net/merge/otp-to-pptm/
 keywords: Объединить OTP в PPTM, объединить OTP в PPTM, объединить OTP в PPTM, PowerPoint, презентацию, PPTM, Python, Aspose

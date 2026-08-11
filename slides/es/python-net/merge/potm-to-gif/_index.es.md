@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTM a GIF usando Python
 url: /es/python-net/merge/potm-to-gif/
 keywords: Combinar POTM a GIF, unir POTM a GIF, combinar POTM a GIF, PowerPoint, Presentation, GIF, Python, Aspose

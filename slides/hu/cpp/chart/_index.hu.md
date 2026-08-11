@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Diagram hozzáadása a PowerPoint-bemutatókhoz a C++ használatával
 url: /hu/cpp/chart/
 description: C++ forráskód diagram hozzáadásához PowerPoint prezentációkhoz

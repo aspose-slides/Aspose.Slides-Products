@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Déverrouillez les fichiers de présentation PPT à l'aide de .NET
 url: /fr/net/unlock/ppt/
 keywords: Supprimer la protection en écriture PPT, décrypter une présentation PPT, déverrouiller la présentation PPT, déprotéger PPT

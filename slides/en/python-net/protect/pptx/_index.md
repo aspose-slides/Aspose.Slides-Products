@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protect PPTX Presentation Files with Python
 url: /python-net/protect/pptx/
 keywords: PPTX write protection, encrypt PPTX with Python, lock PPTX presentation, protect PPTX with Python

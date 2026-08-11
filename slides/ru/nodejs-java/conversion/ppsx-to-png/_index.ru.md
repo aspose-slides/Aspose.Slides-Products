@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPSX в PNG в Node.js
 url: /ru/nodejs-java/conversion/ppsx-to-png/
 keywords: PPSX в PNG, конвертировать PPSX в PNG, API Node.js, библиотека Node.js, PPSX, PNG

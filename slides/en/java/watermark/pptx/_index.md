@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Watermark to PPTX Presentation Files using Java
 url: /java/watermark/pptx/
 keywords: Add Watermark PPTX, Add Text Watermark PPTX, Add Image Watermark PPTX

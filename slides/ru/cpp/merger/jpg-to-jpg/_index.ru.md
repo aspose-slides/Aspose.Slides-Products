@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Слияние изображений JPG в C++
 url: /ru/cpp/merger/jpg-to-jpg/
 keywords: Объединение JPG, JPEG в JPG, объединение JPG, объединение JPG, API C++, библиотека C++

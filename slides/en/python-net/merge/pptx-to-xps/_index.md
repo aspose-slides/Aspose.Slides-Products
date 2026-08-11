@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTX Files and Export to XPS Using Python
 url: /python-net/merge/pptx-to-xps/
 keywords: Merge PPTX to XPS, Join PPTX to XPS, Combine PPTX to XPS, PowerPoint, Presentation, XPS, Python, Aspose

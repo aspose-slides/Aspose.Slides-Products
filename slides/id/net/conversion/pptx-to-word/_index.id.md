@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPTX ke Word dalam C#
 url: /id/net/conversion/pptx-to-word/
 keywords: Konversikan PPTX ke Word, PPTX ke Word, PPTX ke DOC, PowerPoint ke Word, C# API, .NET Library

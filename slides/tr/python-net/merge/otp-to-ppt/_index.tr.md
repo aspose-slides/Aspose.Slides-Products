@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak OTP Dosyalarını PPT İle Birleştirin
 url: /tr/python-net/merge/otp-to-ppt/
 keywords: OTP'ı PPT ile birleştir, OTP ile PPT'a katıl, OTP'ı PPT ile birleştir, PowerPoint, Presentation, PPT, Python, Aspose

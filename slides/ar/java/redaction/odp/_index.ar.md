@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: قم بتنقيح ODP لملفات العروض التقديمية باستخدام Java
 url: /ar/java/redaction/odp/
 keywords: تنقيح ODP والعثور على النص واستبداله في ODP وتحديث ODP Presentation

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 PPS 轉換為 POTM
 url: /zh-hant/nodejs-java/conversion/pps-to-potm/
 keywords: PPS 到 POTM、將 PPS 轉換為 POTM、Node.js API、Node.js 庫、PPS、POTM

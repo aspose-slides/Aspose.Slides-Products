@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar imagen a BMP en Java
 url: /es/java/merger/image-to-bmp/
 keywords: Imagen a BMP, Fusionar imagen a BMP, Unir imagen a BMP, Combinar imágenes, Imagen, BMP, API de Java, Biblioteca de Java

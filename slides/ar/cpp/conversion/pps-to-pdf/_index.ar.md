@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: قم بتحويل PPS إلى PDF عبر تطبيق C ++
 weight: 7890
 url: /ar/cpp/conversion/pps-to-pdf/ 

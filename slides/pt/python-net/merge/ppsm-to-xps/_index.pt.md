@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPSM para XPS usando Python
 url: /pt/python-net/merge/ppsm-to-xps/
 keywords: Mesclar PPSM com XPS, juntar PPSM com XPS, combinar PPSM com XPS, PowerPoint, Presentation, XPS, Python, Aspose

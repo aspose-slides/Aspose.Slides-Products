@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp POTM thành ODP bằng Python
 url: /vi/python-net/merge/potm-to-odp/
 keywords: Hợp nhất POTM thành ODP, Nối POTM thành ODP, Kết hợp POTM thành ODP, PowerPoint, Bản trình bày, ODP, Python, Aspose

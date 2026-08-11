@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: محافظت از فایل‌های ارائه PPT با استفاده از Python
 url: /fa/python-net/protect/ppt/
 keywords: حفاظت از نوشتن PPT، رمزگذاری ارائه PPT، قفل PPT، محافظت از PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konverze prezentace Microsoft PowerPoint do různých formátů pomocí C++
 url: /cs/cpp/conversion/
 description: Převeďte prezentace Microsoft PowerPoint do více souborů včetně HTML, PDF a obrazových formátů v aplikacích založených na C++.

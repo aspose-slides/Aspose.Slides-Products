@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPS-filer till FODP med Python
 url: /sv/python-net/merge/pps-to-fodp/
 keywords: Slå samman PPS till FODP, gå med PPS till FODP, kombinera PPS till FODP, PowerPoint, Presentation, FODP, Python, Aspose

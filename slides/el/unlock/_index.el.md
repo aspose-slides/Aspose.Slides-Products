@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Καταργήστε τον κωδικό πρόσβασης από αρχεία PowerPoint σε Windows, Linux και macOS
 url: /el/unlock/
 description: API για κατάργηση προστασίας σε παρουσιάσεις PPT, PPTX και ODP

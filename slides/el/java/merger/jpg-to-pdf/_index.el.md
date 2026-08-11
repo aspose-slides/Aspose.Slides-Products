@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση JPG σε PDF σε Java
 url: /el/java/merger/jpg-to-pdf/
 keywords: JPG σε PDF, Συγχώνευση JPG σε PDF, Εγγραφή JPG σε PDF, PDF, JPG, Java API, Java Library

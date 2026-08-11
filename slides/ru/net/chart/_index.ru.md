@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Добавление диаграммы в презентации PowerPoint с помощью .NET
 url: /ru/net/chart/
 description: Исходный код C# для добавления диаграммы в презентации PowerPoint

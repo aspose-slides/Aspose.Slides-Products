@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js で PPTX を POT に変換します
 url: /ja/nodejs-java/conversion/pptx-to-pot/
 keywords: PPTX から POT、PPTX から POT への変換、Node.js API、Node.js ライブラリ、PPTX、POT

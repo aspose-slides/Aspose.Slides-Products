@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti POTX in BMP in JavaScript
 url: /it/nodejs-net/conversion/potx-to-bmp/
 keywords: Da POTX a BMP, Converti {da_format} a BMP, API Node.js, Libreria JavaScript, POTX, BMP

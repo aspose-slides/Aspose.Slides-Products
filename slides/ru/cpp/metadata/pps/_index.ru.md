@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр или редактирование метаданных файлов PPS с помощью C++
 url: /ru/cpp/metadata/pps/
 keywords: Изменить метаданные PPS, просмотреть метаданные PPS, изменить свойства PPS, просмотреть свойства PPS

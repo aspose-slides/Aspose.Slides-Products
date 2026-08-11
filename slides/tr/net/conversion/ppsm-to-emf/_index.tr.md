@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSM'yi C# ile EMF'ye dönüştürün
 weight: 610
 url: /tr/net/conversion/ppsm-to-emf/ 

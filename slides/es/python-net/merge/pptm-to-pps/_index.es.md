@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPTM a PPS usando Python
 url: /es/python-net/merge/pptm-to-pps/
 keywords: Combinar PPTM a PPS, unir PPTM a PPS, combinar PPTM a PPS, PowerPoint, Presentation, PPS, Python, Aspose

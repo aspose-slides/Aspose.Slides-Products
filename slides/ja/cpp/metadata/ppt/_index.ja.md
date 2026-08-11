@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して PPT ファイルのメタデータを表示または編集する
 url: /ja/cpp/metadata/ppt/
 keywords: PPT メタデータの編集、PPT メタデータの表示、PPT プロパティの編集、PPT プロパティの表示

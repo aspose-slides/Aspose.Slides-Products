@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir ODP en BMP dans Node.js
 url: /fr/nodejs-java/conversion/odp-to-bmp/
 keywords: ODP en BMP, Convertir ODP en BMP, API Node.js, Bibliothèque Node.js, ODP, BMP

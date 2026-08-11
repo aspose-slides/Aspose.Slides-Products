@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPT in C++ in Word
 url: /de/cpp/conversion/ppt-to-word/
 keywords: Konvertieren Sie PPT in Word, PPT in Word, PPT in DOC, PowerPoint in Word, C++-API, C++-Bibliothek, CPP

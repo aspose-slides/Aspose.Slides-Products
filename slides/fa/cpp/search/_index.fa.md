@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: جستجوی متن در پاورپوینت و ارائه OpenOffice با استفاده از C++
 url: /fa/cpp/search/
 description: کد منبع C++ برای جستجوی کلمات با الگو در ارائه‌های PowerPoint و OpenOffice™

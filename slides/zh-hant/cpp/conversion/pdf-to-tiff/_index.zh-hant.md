@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中將 PDF 轉換為 TIFF
 url: /zh-hant/cpp/conversion/pdf-to-tiff/
 keywords: PDF 到 TIFF，將 PDF 轉換為 TIFF，C++ API，C++ 庫，PDF，TIFF

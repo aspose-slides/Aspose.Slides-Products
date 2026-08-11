@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to PPT in C#
 url: /net/conversion/image-to-ppt/
 keywords: Convert Image to PPT, Image to PPT, PowerPoint, Image, PPT, C# API, .NET Library

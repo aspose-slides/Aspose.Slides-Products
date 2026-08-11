@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPTX ke POT dalam JavaScript
 url: /id/nodejs-net/conversion/pptx-to-pot/
 keywords: PPTX ke POT, Konversi PPTX ke POT, API Node.js, Pustaka JavaScript, PPTX, POT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไข POTM ใน PHP
 url: /th/php-java/editor/potm/
 keywords: แก้ไข POTM, แก้ไข PowerPoint, POTM, PowerPoint, PHP API, PHP Library

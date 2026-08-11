@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da HTML'yi PPT'ye dönüştürün
 url: /tr/python-net/conversion/html-to-ppt/
 keywords: HTML'yi PPT'ye, HTML'yi PPT'ye, PowerPoint'e, HTML'ye, PPT'ye, Python API'sine, Python Kitaplığına dönüştürün

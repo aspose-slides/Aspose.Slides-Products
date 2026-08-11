@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bảo vệ tệp bản trình bày PPT bằng Java
 url: /vi/java/protect/ppt/
 keywords: Bảo vệ ghi PPT, Mã hóa PPT, Khóa bản trình bày PPT, Bảo vệ PPT

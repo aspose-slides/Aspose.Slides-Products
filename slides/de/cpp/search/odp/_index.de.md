@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Suchen Sie Text in ODP-Präsentationsdateien mit C++
 url: /de/cpp/search/odp/
 keywords: Wörter in ODP suchen, Text in ODP suchen und ersetzen, Text in ODP suchen. Präsentation

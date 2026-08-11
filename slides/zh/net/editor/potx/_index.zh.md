@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 .NET 编辑 POTX 文件
 url: /zh/net/editor/potx/ 
 description: 用于在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上编辑 POTX 文档的 C# 源代码。

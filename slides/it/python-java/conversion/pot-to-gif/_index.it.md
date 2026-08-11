@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti POT in GIF in Python
 url: /it/python-java/conversion/pot-to-gif/
 keywords: Conversione di presentazioni Python, convertire presentazioni in Python, Python per presentazioni, Aspose.Slides Python, conversione da POT a GIF, libreria di presentazioni Python

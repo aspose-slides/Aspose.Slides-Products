@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPTM konvertálása PPTX formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/pptm-to-pptx/
 keywords: PPTM to PPTX, PPTM konvertálása PPTX formátumba, Node.js API, JavaScript Library, PPTM, PPTX

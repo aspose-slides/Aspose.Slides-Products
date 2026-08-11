@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPT σε GIF χρησιμοποιώντας Python
 url: /el/python-net/merge/ppt-to-gif/
 keywords: Συγχώνευση PPT σε GIF, Join PPT σε GIF, Combine PPT σε GIF, PowerPoint, Presentation, GIF, Python, Aspose

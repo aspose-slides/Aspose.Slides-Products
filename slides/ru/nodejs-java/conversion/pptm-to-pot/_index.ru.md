@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTM в POT в Node.js
 url: /ru/nodejs-java/conversion/pptm-to-pot/
 keywords: PPTM в POT, конвертировать PPTM в POT, API Node.js, библиотека Node.js, PPTM, POT

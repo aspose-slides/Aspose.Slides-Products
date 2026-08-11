@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PNG σε PDF σε PHP
 url: /el/php-java/conversion/png-to-pdf/
 keywords: PNG σε PDF, Convert PNG σε PDF, PHP API, PHP Library, PNG, PDF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση PDF, PPT, PPTX και πολλών άλλων μορφών αρχείων χρησιμοποιώντας C#
 url: /el/net/merger/
 keywords: Συγχώνευση, Συμμετοχή, PowerPoint, Παρουσίαση, C#, .NET, Aspose

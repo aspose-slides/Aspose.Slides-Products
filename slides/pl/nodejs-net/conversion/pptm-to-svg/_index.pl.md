@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPTM na SVG w JavaScript
 url: /pl/nodejs-net/conversion/pptm-to-svg/
 keywords: PPTM na SVG, Konwertuj PPTM na SVG, API Node.js, Biblioteka JavaScript, PPTM, SVG

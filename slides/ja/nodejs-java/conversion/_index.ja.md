@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js で Microsoft PowerPoint プレゼンテーションを変換する
 url: /ja/nodejs-java/conversion/
 keywords: 「変換、PowerPoint、プレゼンテーション、Node.js、PDF、PDF への変換、PPT から PDF」

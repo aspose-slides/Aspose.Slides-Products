@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi bản trình bày Microsoft PowerPoint sang các định dạng khác nhau bằng C++
 url: /vi/cpp/conversion/
 description: Chuyển đổi các Trang trình bày Microsoft PowerPoint thành nhiều tệp bao gồm các định dạng HTML, PDF và hình ảnh trong các ứng dụng dựa trên C++.

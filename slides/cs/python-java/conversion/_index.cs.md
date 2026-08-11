@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konverze prezentace v Pythonu. Bez námahy převádějte prezentace pomocí Aspose.Slides.
 url: /cs/python-java/conversion/
 keywords: "Převést, PowerPoint, Prezentace, Python, Python projekty, Python knihovny, PDF, Převést do PDF, PPT do PDF"

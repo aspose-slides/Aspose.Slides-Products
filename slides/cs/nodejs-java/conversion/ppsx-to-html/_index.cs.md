@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPSX na HTML v Node.js
 url: /cs/nodejs-java/conversion/ppsx-to-html/
 keywords: PPSX do HTML, Převést PPSX do HTML, Node.js API, Node.js Library, PPSX, HTML

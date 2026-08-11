@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwersja prezentacji programu Microsoft PowerPoint do wielu plików przy użyciu języka C#
 url: /pl/net/conversion/
 description: Konwertuj slajdy programu Microsoft PowerPoint na różne pliki, w tym formaty PDF, HTML i graficzne na platformach .NET Framework, .NET Core, Windows Azure, Mono lub Xamarin.

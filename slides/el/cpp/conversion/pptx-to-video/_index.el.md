@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPTX σε βίντεο σε C++
 url: /el/cpp/conversion/pptx-to-video/
 keywords: Μετατροπή PPTX σε βίντεο, PPTX σε βίντεο, PowerPoint σε βίντεο, PPTX σε MP4, C++ API, Βιβλιοθήκη C++

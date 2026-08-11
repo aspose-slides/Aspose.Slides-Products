@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將圖像轉換為 PPTX
 url: /zh-hant/java/conversion/image-to-pptx/
 keywords: 將圖像轉換為 PPTX，將圖像轉換為 PPTX，PowerPoint，圖像，PPTX，Java API，Java 庫

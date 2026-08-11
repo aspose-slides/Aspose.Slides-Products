@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File OTP Ke JPG Menggunakan Python
 url: /id/python-net/merge/otp-to-jpg/
 keywords: Gabungkan OTP ke JPG, Gabungkan OTP ke JPG, Gabungkan OTP ke JPG, PowerPoint, Presentasi, JPG, Python, Aspose

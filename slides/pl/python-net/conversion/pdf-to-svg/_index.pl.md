@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PDF na SVG w Pythonie
 url: /pl/python-net/conversion/pdf-to-svg/
 keywords: PDF do SVG, Konwersja PDF do SVG, Python API, Python Library, PDF, SVG

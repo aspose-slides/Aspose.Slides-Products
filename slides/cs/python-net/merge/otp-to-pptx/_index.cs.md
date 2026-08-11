@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory OTP do PPTX pomocí Pythonu
 url: /cs/python-net/merge/otp-to-pptx/
 keywords: Sloučit OTP do PPTX, připojit OTP do PPTX, kombinovat OTP do PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

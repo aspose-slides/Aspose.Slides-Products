@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中编辑 OTP
 url: /zh/php-java/editor/otp/
 keywords: 编辑 OTP、编辑 PowerPoint、OTP、PowerPoint、PHP API、PHP 库

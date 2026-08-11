@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض أو تحرير PPS البيانات الوصفية للملفات باستخدام C++
 url: /ar/cpp/metadata/pps/
 keywords: تحرير PPS البيانات الوصفية ، عرض PPS البيانات الوصفية ، تحرير خصائص PPS ، عرض الخصائص PPS

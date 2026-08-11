@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPSX in ODP in JavaScript
 url: /it/nodejs-net/conversion/ppsx-to-odp/
 keywords: Da PPSX a ODP, Converti {da_format} a ODP, API Node.js, Libreria JavaScript, PPSX, ODP

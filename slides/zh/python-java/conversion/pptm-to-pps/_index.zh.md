@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 PPTM 转换为 PPS
 url: /zh/python-java/conversion/pptm-to-pps/
 keywords: Python 演示文稿转换、将演示文稿转换为 Python、Python 演示文稿、Aspose.Slides Python、PPTM 到 PPS 转换、Python 演示文稿库

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java का उपयोग करके PPTX प्रस्तुतिकरण फ़ाइलों में वॉटरमार्क जोड़ें
 url: /hi/java/watermark/pptx/
 keywords: वॉटरमार्क जोड़ें PPTX, टेक्स्ट वॉटरमार्क जोड़ें PPTX, छवि वॉटरमार्क जोड़ें PPTX

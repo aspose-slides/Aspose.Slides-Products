@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) PDF fájlt POTM formátumra a Pythonban
 url: /hu/python-java/conversion/pdf-to-potm/
 keywords: Python prezentáció konvertálás, prezentációk konvertálása Python formátumba, Python prezentációkhoz, Aspose.Slides Python, PDF konvertálása POTM formátumba, Python prezentációs könyvtár

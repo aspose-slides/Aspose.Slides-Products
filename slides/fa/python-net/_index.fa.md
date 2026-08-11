@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: پایتون پاورپوینت API. Python PPTX، PPT از Aspose.Slides
 weight: 5860
 url: /fa/python-net/ 

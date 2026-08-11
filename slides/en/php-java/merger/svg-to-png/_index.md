@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-20
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge SVG Files into PNG in PHP
 url: /php-java/merger/svg-to-png/
 keywords: Merge SVG to PNG, SVG to PNG, Join SVG to PNG, Combine SVG to PNG, PHP API, PHP Library

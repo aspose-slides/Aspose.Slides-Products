@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg POT-bestanden samen naar BMP met Python
 url: /nl/python-net/merge/pot-to-bmp/
 keywords: Voeg POT samen tot BMP, voeg POT toe aan BMP, combineer POT tot BMP, PowerPoint, Presentatie, BMP, Python, Aspose

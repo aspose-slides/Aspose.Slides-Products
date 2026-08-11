@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPSM-filer till PNG med Python
 url: /sv/python-net/merge/ppsm-to-png/
 keywords: Slå samman PPSM till PNG, gå med PPSM till PNG, kombinera PPSM till PNG, PowerPoint, Presentation, PNG, Python, Aspose

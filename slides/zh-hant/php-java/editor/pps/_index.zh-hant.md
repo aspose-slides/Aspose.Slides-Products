@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中編輯 PPS
 url: /zh-hant/php-java/editor/pps/
 keywords: 編輯 PPS、編輯 PowerPoint、PPS、PowerPoint、PHP API、PHP 庫

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Erstellen Sie ein Diagramm in PPTX-Präsentationsdateien mit Python
 url: /de/python-net/chart/pptx/
 keywords: Diagramm erstellen, Streudiagramm erstellen, Kreisdiagramm erstellen, Treemap-Diagramm erstellen, Aktiendiagramm erstellen, Box- und Whisker-Diagramm erstellen, Histogrammdiagramm erstellen, Trichterdiagramm erstellen, Sunburst-Diagramm, Diagramm mit mehreren Kategorien, PowerPoint-Präsentation, Python

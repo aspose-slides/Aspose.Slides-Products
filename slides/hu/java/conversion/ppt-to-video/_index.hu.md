@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a PPT-t videóvá Java nyelven
 url: /hu/java/conversion/ppt-to-video/
 keywords: PPT konvertálása videóvá, PPT videóvá, PowerPoint videóvá, PPT konvertálása MP4-be, Java API, Java Library

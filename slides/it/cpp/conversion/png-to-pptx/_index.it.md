@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PNG in PPTX in C++
 url: /it/cpp/conversion/png-to-pptx/
 keywords: Converti PNG in PPTX, PNG in PPTX, PowerPoint, PNG, PPTX, API C++, Libreria C++

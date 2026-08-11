@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して、ODP プレゼンテーション ファイルにウォーターマークを追加します
 url: /ja/python-net/watermark/odp/
 keywords: ウォーターマークの追加 ODP、テキストのウォーターマークの追加 ODP、画像のウォーターマークの追加 ODP

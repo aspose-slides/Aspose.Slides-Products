@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTX to GIF in Node.js
 url: /nodejs-java/conversion/pptx-to-gif/
 keywords: PPTX to GIF, Convert PPTX to GIF, Node.js API, Node.js Library, PPTX, GIF

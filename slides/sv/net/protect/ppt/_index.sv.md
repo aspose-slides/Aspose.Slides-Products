@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Skydda PPT presentationsfiler med .NET
 url: /sv/net/protect/ppt/
 keywords: Skrivskydd PPT, kryptera en PPT, lås PPT presentation, skydda PPT

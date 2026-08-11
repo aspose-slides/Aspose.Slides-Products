@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: HTML را در جاوا ویرایش کنید
 url: /fa/java/editor/html/
 keywords: ویرایش HTML، HTML، Java API، کتابخانه جاوا

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POT para PDF usando Python
 url: /pt/python-net/merge/pot-to-pdf/
 keywords: Mesclar POT com PDF, juntar POT com PDF, combinar POT com PDF, PowerPoint, Presentation, PDF, Python, Aspose

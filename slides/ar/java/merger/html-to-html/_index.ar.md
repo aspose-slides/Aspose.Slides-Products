@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات HTML في Java
 url: /ar/java/merger/html-to-html/
 keywords: دمج HTML ، HTML إلى HTML ، الانضمام إلى HTML ، الجمع بين HTML ، Java API ، مكتبة Java

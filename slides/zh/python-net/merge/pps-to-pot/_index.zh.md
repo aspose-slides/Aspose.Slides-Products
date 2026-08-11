@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPS 文件合并到 POT
 url: /zh/python-net/merge/pps-to-pot/
 keywords: 将 PPS 合并到 POT，将 PPS 连接到 POT，将 PPS 合并到 POT，PowerPoint，演示文稿，POT，Python，Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPS Files and Export to GIF Using Python
 url: /python-net/merge/pps-to-gif/
 keywords: Merge PPS to GIF, Join PPS to GIF, Combine PPS to GIF, PowerPoint, Presentation, GIF, Python, Aspose

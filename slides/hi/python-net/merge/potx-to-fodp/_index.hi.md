@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके POTX फ़ाइलों को FODP में मर्ज करें
 url: /hi/python-net/merge/potx-to-fodp/
 keywords: POTX को FODP में मिलाएं, POTX से FODP में शामिल हों, POTX से FODP, PowerPoint, प्रेजेंटेशन, FODP, Python, Aspose को मिलाएं

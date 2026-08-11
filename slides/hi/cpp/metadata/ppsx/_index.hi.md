@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके PPSX फ़ाइलें मेटाडेटा देखें या संपादित करें
 url: /hi/cpp/metadata/ppsx/
 keywords: PPSX मेटाडेटा संपादित करें, PPSX मेटाडेटा देखें, PPSX गुण संपादित करें, PPSX गुण देखें

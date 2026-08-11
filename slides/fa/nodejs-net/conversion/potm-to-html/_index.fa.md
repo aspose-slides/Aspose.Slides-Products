@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت POTM را به HTML تبدیل کنید
 url: /fa/nodejs-net/conversion/potm-to-html/
 keywords: POTM به HTML، تبدیل POTM به HTML، Node.js API، کتابخانه جاوا اسکریپت، POTM، HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: حماية PPTX ملفات العروض التقديمية باستخدام Python
 url: /ar/python-net/protect/pptx/
 keywords: حماية الكتابة PPTX ، تشفير PPTX ، تأمين PPTX Presentation ، Protect PPTX

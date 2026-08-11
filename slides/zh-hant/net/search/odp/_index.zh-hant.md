@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 .NET 在 ODP 演示文件中搜索文本
 url: /zh-hant/net/search/odp/
 keywords: 在 ODP 中搜索單詞，在 ODP 中搜索和替換文本，在 ODP 中搜索文本 Presentation

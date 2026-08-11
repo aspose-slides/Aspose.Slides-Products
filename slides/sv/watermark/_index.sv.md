@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lägg till vattenstämpel i PowerPoint-filer på Windows, Linux och macOS
 url: /sv/watermark/
 description: API:er för att lägga till vattenstämpel till PPT-, PPTX- och ODP-presentationer

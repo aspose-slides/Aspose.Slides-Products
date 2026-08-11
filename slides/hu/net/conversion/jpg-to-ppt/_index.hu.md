@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a JPG-t PPT-vé C#-ban
 url: /hu/net/conversion/jpg-to-ppt/
 keywords: JPG konvertálása PPT-vé, JPG konvertálása PPT-vé, PowerPoint, JPG, PPT, C# API, .NET Library

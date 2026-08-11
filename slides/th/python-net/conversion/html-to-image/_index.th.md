@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง HTML เป็น Image ใน Python
 url: /th/python-net/conversion/html-to-image/
 keywords: HTML เป็น Image, แปลง HTML เป็น Image, Python API, Python Library, HTML, Image

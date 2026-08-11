@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POTM ke HTML dalam JavaScript
 url: /id/nodejs-net/conversion/potm-to-html/
 keywords: POTM ke HTML, Konversi POTM ke HTML, API Node.js, Pustaka JavaScript, POTM, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 从 ODP 文件中提取文本和图像
 url: /zh/python-net/parser/odp/
 keywords: 使用 Python 解析 ODP，ODP 解析器 Python，从 Python 中的 ODP 中提取数据，使用 Python 从 ODP 中提取文本，使用 Python 从 ODP 中提取图像

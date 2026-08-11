@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da PNG'yi PPTX'e dönüştürme
 url: /tr/java/conversion/png-to-pptx/
 keywords: PNG'yi PPTX'e, PNG'yi PPTX'e, PowerPoint'e, PNG'ye, PPTX'e, Java API'sine, Java Kitaplığına dönüştürün

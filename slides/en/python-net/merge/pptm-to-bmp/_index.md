@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPTM Files and Export Slides to BMP Using Python
 url: /python-net/merge/pptm-to-bmp/
 keywords: Merge PPTM to BMP, Join PPTM to BMP, Combine PPTM to BMP, PowerPoint, Presentation, BMP, Python, Aspose

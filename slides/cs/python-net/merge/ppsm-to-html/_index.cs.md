@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPSM do HTML pomocí Pythonu
 url: /cs/python-net/merge/ppsm-to-html/
 keywords: Sloučit PPSM do HTML, připojit PPSM do HTML, kombinovat PPSM do HTML, PowerPoint, Presentation, HTML, Python, Aspose

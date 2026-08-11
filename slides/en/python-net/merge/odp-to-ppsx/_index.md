@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files into PPSX Using Python
 url: /python-net/merge/odp-to-ppsx/
 keywords: Merge ODP to PPSX, Join ODP to PPSX, Combine ODP to PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で HTML を PPTX に変換する
 url: /ja/java/conversion/html-to-pptx/
 keywords: HTML を PPTX に、HTML を PPTX に、PowerPoint、HTML、PPTX、Java API、Java ライブラリに変換

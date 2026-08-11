@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++을(를) 사용하여 ODP 프레젠테이션 파일 보호
 url: /ko/cpp/protect/odp/
 keywords: 쓰기 방지 ODP, ODP 암호화, ODP 프레젠테이션 잠금, ODP 보호

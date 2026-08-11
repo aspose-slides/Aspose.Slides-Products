@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل ملفات POTM إلى SWF عبر تطبيق C ++
 url: /ar/cpp/conversion/potm-to-swf/ 
 description: عينة كود تحويل C ++ لمستند POTM إلى تنسيق SWF. استخدم رمز المثال للتحويل الدفعي POTM إلى SWF داخل أي تطبيق C ++.

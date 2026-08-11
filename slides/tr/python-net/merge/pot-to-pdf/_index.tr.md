@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POT Dosyalarını PDF İle Birleştirin
 url: /tr/python-net/merge/pot-to-pdf/
 keywords: POT'ı PDF ile birleştir, POT ile PDF'a katıl, POT'ı PDF ile birleştir, PowerPoint, Presentation, PDF, Python, Aspose

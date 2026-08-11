@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: Convert HTML to JPG in C++
 url: /cpp/conversion/html-to-jpg/
 keywords: HTML to JPG, Convert HTML to JPG, C++ API, C++ Library, HTML, JPG

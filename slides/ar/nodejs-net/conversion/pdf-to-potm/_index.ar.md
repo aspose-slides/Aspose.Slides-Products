@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى POTM في JavaScript
 url: /ar/nodejs-net/conversion/pdf-to-potm/
 keywords: PDF إلى POTM، تحويل PDF إلى POTM، Node.js API، مكتبة JavaScript، PDF، POTM

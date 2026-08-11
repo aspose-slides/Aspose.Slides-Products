@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extraheer tekst, afbeeldingen, video, audio en andere media uit de presentatie
 url: /nl/parser/
 description: API's om tekst, afbeeldingen, video en audio uit PowerPoint- en OpenOffice-presentaties te extraheren

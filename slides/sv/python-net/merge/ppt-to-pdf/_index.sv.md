@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till PDF med Python
 url: /sv/python-net/merge/ppt-to-pdf/
 keywords: Slå samman PPT till PDF, gå med PPT till PDF, kombinera PPT till PDF, PowerPoint, Presentation, PDF, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PPTM в PPSM с помощью Python
 url: /ru/python-net/merge/pptm-to-ppsm/
 keywords: Объединить PPTM в PPSM, объединить PPTM в PPSM, объединить PPTM в PPSM, PowerPoint, презентацию, PPSM, Python, Aspose

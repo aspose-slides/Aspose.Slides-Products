@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPTX إلى PDF في JavaScript
 url: /ar/nodejs-net/conversion/pptx-to-pdf/
 keywords: PPTX إلى PDF، تحويل PPTX إلى PDF، Node.js API، مكتبة JavaScript، PPTX، PDF

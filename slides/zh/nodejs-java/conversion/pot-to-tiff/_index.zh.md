@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中将 POT 转换为 TIFF
 url: /zh/nodejs-java/conversion/pot-to-tiff/
 keywords: POT 到 TIFF、将 POT 转换为 TIFF、Node.js API、Node.js 库、POT、TIFF

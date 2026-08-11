@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PPTM в POT с помощью Python
 url: /ru/python-net/merge/pptm-to-pot/
 keywords: Объединить PPTM в POT, объединить PPTM в POT, объединить PPTM в POT, PowerPoint, презентацию, POT, Python, Aspose

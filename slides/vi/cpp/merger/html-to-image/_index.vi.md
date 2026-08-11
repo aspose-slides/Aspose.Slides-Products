@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất HTML thành hình ảnh trong C++
 url: /vi/cpp/merger/html-to-image/
 keywords: Hợp nhất HTML thành hình ảnh, HTML thành hình ảnh, Tham gia HTML, Kết hợp HTML, Hình ảnh, API C++, Thư viện C++

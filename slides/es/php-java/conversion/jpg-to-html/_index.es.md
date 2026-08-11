@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir JPG a HTML en PHP
 url: /es/php-java/conversion/jpg-to-html/
 keywords: JPG a HTML, Convertir JPG a HTML, API de PHP, Biblioteca PHP, JPG, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lägg till diagram i PowerPoint-filer på Windows, Linux och macOS
 url: /sv/chart/
 description: API:er för att arbeta med diagram i PPT, PPTX Presentations

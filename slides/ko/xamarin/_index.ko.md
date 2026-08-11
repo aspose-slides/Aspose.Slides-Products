@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Aspose.Slides for Xamarin | 자마린 파워포인트 API
 weight: 800
 url: /ko/xamarin/ 

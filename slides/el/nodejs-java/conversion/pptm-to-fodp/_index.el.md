@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPTM σε FODP στο Node.js
 url: /el/nodejs-java/conversion/pptm-to-fodp/
 keywords: PPTM σε FODP, Convert PPTM σε FODP, Node.js API, Node.js Library, PPTM, FODP

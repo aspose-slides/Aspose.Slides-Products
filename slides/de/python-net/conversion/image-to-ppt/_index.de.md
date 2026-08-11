@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bild in PPT in Python konvertieren
 url: /de/python-net/conversion/image-to-ppt/
 keywords: Bild in PPT, Bild in PPT konvertieren, Python-API, Python-Bibliothek, Bild, PPT

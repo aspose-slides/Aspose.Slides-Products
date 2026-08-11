@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POT Dosyalarını HTML İle Birleştirin
 url: /tr/python-net/merge/pot-to-html/
 keywords: POT'ı HTML ile birleştir, POT ile HTML'a katıl, POT'ı HTML ile birleştir, PowerPoint, Presentation, HTML, Python, Aspose

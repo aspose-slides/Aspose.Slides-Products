@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PDF-Dateien mit Python in XPS zusammenführen
 url: /de/python-net/merge/pdf-to-xps/
 keywords: PDF mit XPS zusammenführen, PDF mit XPS verbinden, PDF mit XPS kombinieren, PowerPoint, Präsentation, XPS, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 从 PowerPoint 演示文稿中删除密码
 url: /zh/python-net/unlock/
 description: 解锁演示文稿的Python源码

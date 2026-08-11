@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan OTP ke PDF di Node.js
 url: /id/nodejs-java/conversion/otp-to-pdf/
 keywords: OTP ke PDF, Konversi OTP ke PDF, API Node.js, Pustaka Node.js, OTP, PDF

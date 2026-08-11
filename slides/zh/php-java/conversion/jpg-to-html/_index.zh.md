@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 JPG 转换为 HTML
 url: /zh/php-java/conversion/jpg-to-html/
 keywords: JPG 到 HTML，将 JPG 转换为 HTML，PHP API，PHP 库，JPG，HTML

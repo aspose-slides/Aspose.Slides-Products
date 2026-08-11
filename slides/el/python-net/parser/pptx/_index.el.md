@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Εξαγωγή κειμένου και εικόνων από αρχεία PPTX χρησιμοποιώντας Python
 url: /el/python-net/parser/pptx/
 keywords: αναλύστε PPTX χρησιμοποιώντας Python, PPTX parser Python, εξαγωγή δεδομένων από PPTX στο Python, εξαγωγή κειμένου από PPTX χρησιμοποιώντας Python, εξαγωγή εικόνων από PPTX χρησιμοποιώντας Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Edytuj PPT w Javie
 url: /pl/java/editor/ppt/
 keywords: Edytuj PPT, edytuj PowerPoint, PPT, PowerPoint, Java API, Java Library

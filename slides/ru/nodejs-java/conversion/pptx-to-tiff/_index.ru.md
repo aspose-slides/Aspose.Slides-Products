@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTX в TIFF в Node.js
 url: /ru/nodejs-java/conversion/pptx-to-tiff/
 keywords: PPTX в TIFF, конвертировать PPTX в TIFF, API Node.js, библиотека Node.js, PPTX, TIFF

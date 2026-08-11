@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ver o editar metadatos de archivos FODP usando Java
 url: /es/java/metadata/fodp/
 keywords: Editar FODP Metadatos, Ver FODP Metadatos, Editar FODP propiedades, Ver FODP propiedades

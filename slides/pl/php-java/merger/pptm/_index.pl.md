@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Połącz pliki PPTM za pomocą PHP
 url: /pl/php-java/merger/pptm/
 keywords: Połącz PPTM, Dołącz do PPTM, Połącz PPTM, PowerPoint, Prezentacja, PHP, Aspose

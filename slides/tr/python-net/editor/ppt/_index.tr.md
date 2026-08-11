@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-01-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PPT'yi düzenleyin
 url: /tr/python-net/editor/ppt/
 keywords: PPT'yi Düzenle, PowerPoint'i Düzenle, PPT, PowerPoint, Python API, Python Kitaplığı

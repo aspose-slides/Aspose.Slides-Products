@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer till ODP med Python
 url: /sv/python-net/merge/ppt-to-odp/
 keywords: Slå samman PPT till ODP, gå med PPT till ODP, kombinera PPT till ODP, PowerPoint, Presentation, ODP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPTX prezentációs fájlok védelme a Java használatával
 url: /hu/java/protect/pptx/
 keywords: Írásvédelem PPTX, PPTX titkosítása, PPTX bemutató zárolása, PPTX védelme

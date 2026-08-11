@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) FODP konvertálása ODP formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/fodp-to-odp/
 keywords: FODP to ODP, FODP konvertálása ODP formátumba, Node.js API, Node.js Library, FODP, ODP

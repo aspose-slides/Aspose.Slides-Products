@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPSX Dosyalarını PPSM İle Birleştirin
 url: /tr/python-net/merge/ppsx-to-ppsm/
 keywords: PPSX'ı PPSM ile birleştir, PPSX ile PPSM'a katıl, PPSX'ı PPSM ile birleştir, PowerPoint, Presentation, PPSM, Python, Aspose

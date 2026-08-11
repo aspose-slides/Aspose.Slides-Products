@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων POTM σε OTP χρησιμοποιώντας Python
 url: /el/python-net/merge/potm-to-otp/
 keywords: Συγχώνευση POTM σε OTP, Join POTM σε OTP, Combine POTM σε OTP, PowerPoint, Presentation, OTP, Python, Aspose

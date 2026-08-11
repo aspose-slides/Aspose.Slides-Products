@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PDF را با PPS ادغام کنید
 url: /fa/python-net/merge/pdf-to-pps/
 keywords: ادغام PDF به PPS، پیوستن به PDF به PPS، ترکیب PDF به PPS، PowerPoint، Presentation، PPS، Python، Aspose

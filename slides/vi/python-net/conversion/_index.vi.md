@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi bản trình bày Microsoft PowerPoint sang PDF bằng Python
 url: /vi/python-net/conversion/
 keywords: "Chuyển đổi, PowerPoint, Bản trình bày, Python, PDF, Chuyển đổi sang PDF, PPT sang PDF"

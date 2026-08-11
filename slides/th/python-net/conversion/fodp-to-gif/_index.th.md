@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง FODP เป็น GIF ใน Python
 weight: 30
 url: /th/python-net/conversion/fodp-to-gif/ 

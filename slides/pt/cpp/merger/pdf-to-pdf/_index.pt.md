@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PDF em C++
 url: /pt/cpp/merger/pdf-to-pdf/
 keywords: Mesclar PDF, PDF para PDF, Juntar PDF, Combinar PDF, API C++, Biblioteca C++

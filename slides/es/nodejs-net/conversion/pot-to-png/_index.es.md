@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POT a PNG en JavaScript
 url: /es/nodejs-net/conversion/pot-to-png/
 keywords: POT a PNG, Convertir POT a PNG, API de Node.js, Biblioteca JavaScript, POT, PNG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert JPG to PNG in Java
 url: /java/conversion/jpg-to-png/
 keywords: JPG to PNG, Convert JPG to PNG, Java API, Java Library, JPG, PNG

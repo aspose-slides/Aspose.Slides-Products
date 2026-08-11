@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в TIFF в C++
 url: /ru/cpp/conversion/pdf-to-tiff/
 keywords: PDF в TIFF, преобразовать PDF в TIFF, API C++, библиотеку C++, PDF, TIFF

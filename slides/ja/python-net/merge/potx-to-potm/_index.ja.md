@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して POTX ファイルを POTM にマージ
 url: /ja/python-net/merge/potx-to-potm/
 keywords: POTX を POTM に結合、POTX を POTM に結合、POTX を POTM に結合、PowerPoint、プレゼンテーション、POTM、Python、Aspose

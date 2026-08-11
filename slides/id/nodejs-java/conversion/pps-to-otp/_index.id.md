@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPS ke OTP di Node.js
 url: /id/nodejs-java/conversion/pps-to-otp/
 keywords: PPS ke OTP, Konversi PPS ke OTP, API Node.js, Pustaka Node.js, PPS, OTP

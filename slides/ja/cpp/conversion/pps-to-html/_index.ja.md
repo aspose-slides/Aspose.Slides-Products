@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++アプリケーションを介してPPSをHTMLに変換する
 weight: 5020
 url: /ja/cpp/conversion/pps-to-html/ 

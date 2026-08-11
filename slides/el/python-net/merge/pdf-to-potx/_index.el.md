@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PDF σε POTX χρησιμοποιώντας Python
 url: /el/python-net/merge/pdf-to-potx/
 keywords: Συγχώνευση PDF σε POTX, Join PDF σε POTX, Combine PDF σε POTX, PowerPoint, Presentation, POTX, Python, Aspose

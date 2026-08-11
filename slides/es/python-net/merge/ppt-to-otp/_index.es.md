@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPT a OTP usando Python
 url: /es/python-net/merge/ppt-to-otp/
 keywords: Combinar PPT a OTP, unir PPT a OTP, combinar PPT a OTP, PowerPoint, Presentation, OTP, Python, Aspose

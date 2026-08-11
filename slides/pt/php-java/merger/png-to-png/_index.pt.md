@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar imagens PNG em PHP
 url: /pt/php-java/merger/png-to-png/
 keywords: Mesclar PNG, PNG para PNG, Unir PNG, Combinar PNG, PHP API, Biblioteca PHP

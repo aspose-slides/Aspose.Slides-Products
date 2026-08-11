@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tambahkan Bagan ke Presentasi PowerPoint menggunakan Java
 url: /id/java/chart/
 description: Kode sumber Java untuk menambahkan bagan ke presentasi PowerPoint

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A SVG konvertálása PNG formátumra PHP-ben
 url: /hu/php-java/conversion/svg-to-png/
 keywords: SVG to PNG, SVG konvertálása PNG formátumba, PHP API, PHP Library, SVG, PNG

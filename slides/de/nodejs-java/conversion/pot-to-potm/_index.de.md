@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie POT in POTM in Node.js
 url: /de/nodejs-java/conversion/pot-to-potm/
 keywords: POT zu POTM, Konvertieren von POT zu POTM, Node.js API, Node.js-Bibliothek, POT, POTM

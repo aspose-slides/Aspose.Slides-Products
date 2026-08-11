@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить PNG в PDF в PHP
 url: /ru/php-java/merger/png-to-pdf/
 keywords: PNG в PDF, Объединить PNG в PDF, Объединить PNG в PDF, PDF, PNG, API PHP, библиотеку PHP

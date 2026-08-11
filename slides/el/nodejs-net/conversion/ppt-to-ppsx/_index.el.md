@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPT σε PPSX σε JavaScript
 url: /el/nodejs-net/conversion/ppt-to-ppsx/
 keywords: PPT σε PPSX, Μετατροπή PPT σε PPSX, Node.js API, JavaScript Library, PPT, PPSX

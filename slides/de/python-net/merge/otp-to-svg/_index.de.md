@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: OTP-Dateien mit Python in SVG zusammenführen
 url: /de/python-net/merge/otp-to-svg/
 keywords: OTP mit SVG zusammenführen, OTP mit SVG verbinden, OTP mit SVG kombinieren, PowerPoint, Präsentation, SVG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak ODP Dosyalarını POTX İle Birleştirin
 url: /tr/python-net/merge/odp-to-potx/
 keywords: ODP'ı POTX ile birleştir, ODP ile POTX'a katıl, ODP'ı POTX ile birleştir, PowerPoint, Presentation, POTX, Python, Aspose

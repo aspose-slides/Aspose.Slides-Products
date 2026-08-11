@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Odebrat heslo ze souborů PowerPoint v systémech Windows, Linux a macOS
 url: /cs/unlock/
 description: API pro odstranění ochrany prezentací PPT, PPTX a ODP

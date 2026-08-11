@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux और macOS पर PowerPoint फ़ाइलों को सुरक्षित रखें
 url: /hi/protect/
 description: पीपीटी, पीपीटीएक्स और ओडीपी प्रस्तुतियों में सुरक्षा जोड़ने के लिए एपीआई

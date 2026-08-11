@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ を使用して FODP ファイルのメタデータを表示または編集する
 url: /ja/cpp/metadata/fodp/
 keywords: FODP メタデータの編集、FODP メタデータの表示、FODP プロパティの編集、FODP プロパティの表示

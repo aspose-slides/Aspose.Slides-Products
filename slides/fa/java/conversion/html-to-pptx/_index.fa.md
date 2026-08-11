@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل HTML به PPTX در جاوا
 url: /fa/java/conversion/html-to-pptx/
 keywords: تبدیل HTML به PPTX، HTML به PPTX، پاورپوینت، HTML، PPTX، Java API، کتابخانه جاوا

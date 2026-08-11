@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके Microsoft PowerPoint प्रस्तुति का विभिन्न स्वरूपों में रूपांतरण
 url: /hi/cpp/conversion/
 description: C++ आधारित अनुप्रयोगों के भीतर HTML, PDF और छवि प्रारूपों सहित Microsoft PowerPoint स्लाइड को कई फ़ाइलों में कनवर्ट करें।

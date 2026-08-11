@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Dodaj znak wodny do ODP plików prezentacji za pomocą Java
 url: /pl/java/watermark/odp/
 keywords: Dodaj znak wodny ODP, Dodaj tekstowy znak wodny ODP, Dodaj graficzny znak wodny ODP

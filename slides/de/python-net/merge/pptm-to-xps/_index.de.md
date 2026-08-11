@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTM-Dateien mit Python in XPS zusammenführen
 url: /de/python-net/merge/pptm-to-xps/
 keywords: PPTM mit XPS zusammenführen, PPTM mit XPS verbinden, PPTM mit XPS kombinieren, PowerPoint, Präsentation, XPS, Python, Aspose

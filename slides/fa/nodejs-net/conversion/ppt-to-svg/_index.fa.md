@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت PPT را به SVG تبدیل کنید
 url: /fa/nodejs-net/conversion/ppt-to-svg/
 keywords: PPT به SVG، تبدیل PPT به SVG، Node.js API، کتابخانه جاوا اسکریپت، PPT، SVG

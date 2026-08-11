@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) FODP konvertálása PNG formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/fodp-to-png/
 keywords: FODP to PNG, FODP konvertálása PNG formátumba, Node.js API, Node.js Library, FODP, PNG

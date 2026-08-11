@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js'de ODP'ı GIF'a dönüştürün
 url: /tr/nodejs-java/conversion/odp-to-gif/
 keywords: ODP'tan GIF'a, ODP'ı GIF'a dönüştürün, Node.js API'si, Node.js Kitaplığı, ODP, GIF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter POT para POTX via aplicativo C++
 weight: 7770
 url: /pt/cpp/conversion/pot-to-potx/ 

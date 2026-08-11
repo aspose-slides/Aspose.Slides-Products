@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPSM para GIF usando Python
 url: /pt/python-net/merge/ppsm-to-gif/
 keywords: Mesclar PPSM com GIF, juntar PPSM com GIF, combinar PPSM com GIF, PowerPoint, Presentation, GIF, Python, Aspose

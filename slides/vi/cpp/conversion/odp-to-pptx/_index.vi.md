@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi ODP sang PPTX thông qua ứng dụng C ++
 weight: 2350
 url: /vi/cpp/conversion/odp-to-pptx/ 

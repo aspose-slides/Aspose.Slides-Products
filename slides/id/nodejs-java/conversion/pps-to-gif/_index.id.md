@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPS ke GIF di Node.js
 url: /id/nodejs-java/conversion/pps-to-gif/
 keywords: PPS ke GIF, Konversi PPS ke GIF, API Node.js, Pustaka Node.js, PPS, GIF

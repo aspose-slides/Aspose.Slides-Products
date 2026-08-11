@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPSX naar PPT in Node.js
 url: /nl/nodejs-java/conversion/ppsx-to-ppt/
 keywords: PPSX naar PPT, Converteer PPSX naar PPT, Node.js API, Node.js-bibliotheek, PPSX, PPT

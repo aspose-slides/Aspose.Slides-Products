@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File POTM Ke GIF Menggunakan Python
 url: /id/python-net/merge/potm-to-gif/
 keywords: Gabungkan POTM ke GIF, Gabungkan POTM ke GIF, Gabungkan POTM ke GIF, PowerPoint, Presentasi, GIF, Python, Aspose

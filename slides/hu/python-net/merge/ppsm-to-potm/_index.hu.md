@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPSM fájlokat a POTM formátumba Python használatával
 url: /hu/python-net/merge/ppsm-to-potm/
 keywords: A(z) PPSM egyesítése a(z) POTM formátumba, a(z) PPSM csatlakozása a(z) POTM formátumba, a(z)(PPSM) összevonása a(z) POTM formátumba, PowerPoint, Presentation, POTM, Python, Aspose

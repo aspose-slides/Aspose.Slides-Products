@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 PPTX 转换为 HTML
 url: /zh/nodejs-net/conversion/pptx-to-html/
 keywords: PPTX 到 HTML、将 PPTX 转换为 HTML、Node.js API、JavaScript 库、PPTX、HTML

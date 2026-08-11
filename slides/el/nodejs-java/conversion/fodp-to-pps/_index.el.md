@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή FODP σε PPS στο Node.js
 url: /el/nodejs-java/conversion/fodp-to-pps/
 keywords: FODP σε PPS, Convert FODP σε PPS, Node.js API, Node.js Library, FODP, PPS

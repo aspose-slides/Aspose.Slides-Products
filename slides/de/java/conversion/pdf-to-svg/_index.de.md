@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PDF in SVG in Java
 url: /de/java/conversion/pdf-to-svg/
 keywords: PDF in SVG, Konvertiere PDF in SVG, Java-API, Java-Bibliothek, PDF, SVG

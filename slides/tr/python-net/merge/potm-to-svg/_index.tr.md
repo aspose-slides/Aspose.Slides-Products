@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POTM Dosyalarını SVG İle Birleştirin
 url: /tr/python-net/merge/potm-to-svg/
 keywords: POTM'ı SVG ile birleştir, POTM ile SVG'a katıl, POTM'ı SVG ile birleştir, PowerPoint, Presentation, SVG, Python, Aspose

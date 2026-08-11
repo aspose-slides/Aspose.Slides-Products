@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων OTP σε PPSX χρησιμοποιώντας Python
 url: /el/python-net/merge/otp-to-ppsx/
 keywords: Συγχώνευση OTP σε PPSX, Join OTP σε PPSX, Combine OTP σε PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

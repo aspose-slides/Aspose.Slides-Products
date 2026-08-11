@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPS-filer till HTML med Python
 url: /sv/python-net/merge/pps-to-html/
 keywords: Slå samman PPS till HTML, gå med PPS till HTML, kombinera PPS till HTML, PowerPoint, Presentation, HTML, Python, Aspose

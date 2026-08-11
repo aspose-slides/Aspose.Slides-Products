@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java का इस्तेमाल करके PPTX प्रस्तुति फ़ाइलें संपादित करें
 url: /hi/java/redaction/pptx/
 keywords: PPTX संपादित करें, PPTX में टेक्स्ट ढूंढें और बदलें, PPTX प्रस्तुति अपडेट करें

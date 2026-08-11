@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PPSM 파일을 FODP에 병합
 url: /ko/python-net/merge/ppsm-to-fodp/
 keywords: PPSM을 FODP에 병합, PPSM을 FODP에 결합, PPSM을 FODP에 결합, PowerPoint, Presentation, FODP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF thành PNG trong C++
 url: /vi/cpp/conversion/pdf-to-png/
 keywords: PDF sang PNG, Chuyển đổi PDF sang PNG, API C++, Thư viện C++, PDF, PNG

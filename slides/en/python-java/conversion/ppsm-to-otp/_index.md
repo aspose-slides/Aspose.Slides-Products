@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSM to OTP in Python
 url: /python-java/conversion/ppsm-to-otp/
 keywords: Python PPSM conversion, PPSM to OTP, PowerPoint to OTP, macro-enabled slide show to OTP, Aspose.Slides for Python via Java

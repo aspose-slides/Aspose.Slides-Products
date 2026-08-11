@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 PPTX를 비디오로 변환
 url: /ko/net/conversion/pptx-to-video/
 keywords: PPTX를 비디오로, PPTX를 비디오로, PowerPoint를 비디오로, PPTX를 MP4로, C# API, .NET 라이브러리로 변환

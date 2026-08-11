@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POT ke PPT di Node.js
 url: /id/nodejs-java/conversion/pot-to-ppt/
 keywords: POT ke PPT, Konversi POT ke PPT, API Node.js, Pustaka Node.js, POT, PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak PowerPoint Sunumundan Parolayı Kaldırma
 url: /tr/cpp/unlock/
 description: Sunumun kilidini açmak için C++ kaynak kodu

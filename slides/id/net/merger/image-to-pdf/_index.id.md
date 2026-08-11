@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Menggabungkan Gambar ke PDF dalam C#
 url: /id/net/merger/image-to-pdf/
 keywords: Gambar ke PDF, Gabungkan Gambar ke PDF, Gabungkan Gambar ke PDF, PDF, Gambar, C# API, Perpustakaan .NET

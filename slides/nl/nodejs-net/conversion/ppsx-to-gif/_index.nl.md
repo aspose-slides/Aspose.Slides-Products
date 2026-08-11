@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPSX naar GIF in JavaScript
 url: /nl/nodejs-net/conversion/ppsx-to-gif/
 keywords: PPSX naar GIF, Converteer PPSX naar GIF, Node.js API, JavaScript-bibliotheek, PPSX, GIF

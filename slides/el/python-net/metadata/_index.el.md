@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή & Επεξεργασία Μεταδεδομένων PowerPoint χρησιμοποιώντας Python
 url: /el/python-net/metadata/
 description: Πηγαίος κώδικας Python για προβολή και επεξεργασία ιδιοτήτων παρουσίασης

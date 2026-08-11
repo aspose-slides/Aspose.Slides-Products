@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل الصورة إلى PPT في C#
 url: /ar/net/conversion/image-to-ppt/
 keywords: تحويل الصورة إلى PPT ، صورة إلى PPT ، PowerPoint ، صورة ، PPT ، C# API ، مكتبة .NET

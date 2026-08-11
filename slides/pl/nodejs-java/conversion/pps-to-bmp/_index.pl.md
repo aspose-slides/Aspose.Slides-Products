@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPS na BMP w Node.js
 url: /pl/nodejs-java/conversion/pps-to-bmp/
 keywords: PPS na BMP, Konwertuj PPS na BMP, API Node.js, Biblioteka Node.js, PPS, BMP

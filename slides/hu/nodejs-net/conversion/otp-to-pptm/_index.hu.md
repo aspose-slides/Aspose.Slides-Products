@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) OTP konvertálása PPTM formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/otp-to-pptm/
 keywords: OTP to PPTM, OTP konvertálása PPTM formátumba, Node.js API, JavaScript Library, OTP, PPTM

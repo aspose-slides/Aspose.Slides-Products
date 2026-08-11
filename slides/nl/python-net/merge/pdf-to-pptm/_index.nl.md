@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PDF-bestanden samen naar PPTM met Python
 url: /nl/python-net/merge/pdf-to-pptm/
 keywords: Voeg PDF samen tot PPTM, voeg PDF toe aan PPTM, combineer PDF tot PPTM, PowerPoint, Presentatie, PPTM, Python, Aspose

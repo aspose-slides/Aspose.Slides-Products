@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera FODP till ODP i Node.js
 url: /sv/nodejs-java/conversion/fodp-to-odp/
 keywords: FODP till ODP, Konvertera FODP till ODP, Node.js API, Node.js Library, FODP, ODP

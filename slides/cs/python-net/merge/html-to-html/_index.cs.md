@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory HTML v Pythonu
 url: /cs/python-net/merge/html-to-html/
 keywords: Sloučit HTML, HTML do HTML, Připojit HTML, Kombinovat HTML, Python API, Python Library

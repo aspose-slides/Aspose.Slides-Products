@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中编辑 POTM
 url: /zh/php-java/editor/potm/
 keywords: 编辑 POTM、编辑 PowerPoint、POTM、PowerPoint、PHP API、PHP 库

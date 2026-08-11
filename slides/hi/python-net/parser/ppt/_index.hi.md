@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का इस्तेमाल करके PPT फ़ाइलों से टेक्स्ट और इमेज निकालें
 url: /hi/python-net/parser/ppt/
 keywords: Python का उपयोग करके PPT को पार्स करें, PPT पार्सर Python, Python में PPT से डेटा निकालें, Python का उपयोग करके PPT से टेक्स्ट निकालें, Python का उपयोग करके PPT से चित्र निकालें

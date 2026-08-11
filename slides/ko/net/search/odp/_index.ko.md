@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을(를) 사용하여 ODP 프레젠테이션 파일에서 텍스트 검색
 url: /ko/net/search/odp/
 keywords: ODP에서 단어 검색, ODP에서 텍스트 검색 및 바꾸기, ODP에서 텍스트 검색 프레젠테이션

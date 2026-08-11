@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tìm kiếm văn bản trong Bản trình bày PowerPoint và OpenOffice bằng .NET
 url: /vi/net/search/
 description: Mã nguồn C# để tìm kiếm từ có mẫu trong bản trình bày PowerPoint và OpenOffice™

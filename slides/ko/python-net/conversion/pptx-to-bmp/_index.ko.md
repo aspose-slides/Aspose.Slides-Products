@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 PPTX를 BMP로 변환
 weight: 2650
 url: /ko/python-net/conversion/pptx-to-bmp/ 

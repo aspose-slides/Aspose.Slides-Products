@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中合并 HTML 文件
 url: /zh/php-java/merger/html-to-html/
 keywords: 合并 HTML、HTML 到 HTML、加入 HTML、合并 HTML、PHP API、PHP 库

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan Image ke PDF di PHP
 url: /id/php-java/conversion/image-to-pdf/
 keywords: Image ke PDF, Konversikan Image ke PDF, PHP API, Perpustakaan PHP, Image, PDF

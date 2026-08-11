@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 Image 转换为 JPG
 url: /zh/python-net/conversion/image-to-jpg/
 keywords: Image 到 JPG，将 Image 转换为 JPG，Python API，Python 库，Image，JPG

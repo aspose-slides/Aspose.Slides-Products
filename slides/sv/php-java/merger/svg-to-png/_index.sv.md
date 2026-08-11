@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå ihop SVG till PNG i PHP
 url: /sv/php-java/merger/svg-to-png/
 keywords: Slå samman SVG till PNG, SVG till PNG, Gå med SVG till PNG, Kombinera SVG till PNG, PHP API, PHP Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des images en Python
 url: /fr/python-net/merge/image-to-image/
 keywords: Fusionner une image, image à image, joindre des images, combiner des images, API Python, bibliothèque Python

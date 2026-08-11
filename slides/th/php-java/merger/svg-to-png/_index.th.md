@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวม SVG เป็น PNG ใน PHP
 url: /th/php-java/merger/svg-to-png/
 keywords: รวม SVG เป็น PNG, SVG เป็น PNG, เข้าร่วม SVG เป็น PNG, รวม SVG เป็น PNG, PHP API, PHP Library

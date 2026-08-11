@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Thêm biểu đồ vào bản trình bày PowerPoint bằng Java
 url: /vi/java/chart/
 description: Mã nguồn Java để thêm biểu đồ vào bản trình bày PowerPoint

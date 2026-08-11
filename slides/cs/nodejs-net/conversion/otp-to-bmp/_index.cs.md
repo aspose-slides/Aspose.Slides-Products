@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte OTP do BMP v JavaScriptu
 url: /cs/nodejs-net/conversion/otp-to-bmp/
 keywords: OTP do BMP, Převést OTP do BMP, Node.js API, JavaScript Library, OTP, BMP

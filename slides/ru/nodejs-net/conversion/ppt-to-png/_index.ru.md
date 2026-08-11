@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPT в PNG в JavaScript
 url: /ru/nodejs-net/conversion/ppt-to-png/
 keywords: PPT в PNG, преобразование PPT в PNG, Node.js API, библиотека JavaScript, PPT, PNG

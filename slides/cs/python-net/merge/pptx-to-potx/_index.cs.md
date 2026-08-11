@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTX do POTX pomocí Pythonu
 url: /cs/python-net/merge/pptx-to-potx/
 keywords: Sloučit PPTX do POTX, připojit PPTX do POTX, kombinovat PPTX do POTX, PowerPoint, Presentation, POTX, Python, Aspose

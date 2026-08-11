@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ผสาน PDF, PPT, PPTX และรูปแบบไฟล์อื่นๆ อีกมากมายโดยใช้ PHP
 url: /th/php-java/merger/
 keywords: รวม, เข้าร่วม, PowerPoint, การนำเสนอ, PHP, Aspose

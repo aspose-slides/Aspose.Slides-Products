@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# ile PDF'yi PPTX'e dönüştürün
 url: /tr/net/conversion/pdf-to-pptx/
 keywords: PDF'yi PPTX'e, PDF'yi PPTX'e, PowerPoint, PDF, PPTX, C# API, .NET Library'ye dönüştürün

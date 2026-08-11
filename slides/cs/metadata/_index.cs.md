@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Prohlížejte a upravujte metadata souborů PowerPoint v systémech Windows, Linux a macOS
 url: /cs/metadata/
 description: API pro zobrazení a úpravu vlastností dokumentu PPT a PPTX

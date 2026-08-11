@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPS-Dateien mit Python in SVG zusammenführen
 url: /de/python-net/merge/pps-to-svg/
 keywords: PPS mit SVG zusammenführen, PPS mit SVG verbinden, PPS mit SVG kombinieren, PowerPoint, Präsentation, SVG, Python, Aspose

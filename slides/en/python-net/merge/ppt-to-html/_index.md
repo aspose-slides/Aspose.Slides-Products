@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPT Files to HTML Using Python
 url: /python-net/merge/ppt-to-html/
 keywords: Merge PPT to HTML, Join PPT to HTML, Combine PPT to HTML, PowerPoint, Presentation, HTML, Python, Aspose

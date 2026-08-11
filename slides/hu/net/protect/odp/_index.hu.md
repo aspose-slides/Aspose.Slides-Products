@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A ODP prezentációs fájlok védelme a .NET használatával
 url: /hu/net/protect/odp/
 keywords: Írásvédelem ODP, ODP titkosítása, ODP bemutató zárolása, ODP védelme

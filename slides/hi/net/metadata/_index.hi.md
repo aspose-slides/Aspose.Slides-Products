@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET का उपयोग करके PowerPoint मेटाडेटा देखें और संपादित करें
 url: /hi/net/metadata/
 description: प्रस्तुति गुणों को देखने और संपादित करने के लिए C# स्रोत कोड

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPSX do PPSM pomocí Pythonu
 url: /cs/python-net/merge/ppsx-to-ppsm/
 keywords: Sloučit PPSX do PPSM, připojit PPSX do PPSM, kombinovat PPSX do PPSM, PowerPoint, Presentation, PPSM, Python, Aspose

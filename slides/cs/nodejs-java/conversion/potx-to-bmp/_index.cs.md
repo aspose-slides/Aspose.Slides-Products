@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTX na BMP v Node.js
 url: /cs/nodejs-java/conversion/potx-to-bmp/
 keywords: POTX do BMP, Převést POTX do BMP, Node.js API, Node.js Library, POTX, BMP

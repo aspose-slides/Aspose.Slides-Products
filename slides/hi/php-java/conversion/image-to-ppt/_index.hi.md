@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में Image को PPT में बदलें
 url: /hi/php-java/conversion/image-to-ppt/
 keywords: Image से PPT, Image को PPT में कन्वर्ट करें, PHP API, PHP लाइब्रेरी, Image, PPT

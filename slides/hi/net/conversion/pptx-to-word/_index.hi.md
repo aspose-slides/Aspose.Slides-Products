@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीपीटीएक्स को सी # में वर्ड में कनवर्ट करें
 url: /hi/net/conversion/pptx-to-word/
 keywords: PPTX को Word, PPTX को Word, PPTX को DOC, PowerPoint को Word, C# API, .NET लाइब्रेरी में कनवर्ट करें

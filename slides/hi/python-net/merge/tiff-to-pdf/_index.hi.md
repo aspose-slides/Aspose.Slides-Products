@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में टीआईएफएफ को पीडीएफ में मर्ज करें
 url: /hi/python-net/merge/tiff-to-pdf/
 keywords: TIFF से PDF, TIFF को PDF में मर्ज करें, TIFF से PDF, PDF, TIFF, Python API, Python लाइब्रेरी में शामिल हों

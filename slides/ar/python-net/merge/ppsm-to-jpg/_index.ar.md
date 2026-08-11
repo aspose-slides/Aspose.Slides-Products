@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPSM إلى JPG باستخدام Python
 url: /ar/python-net/merge/ppsm-to-jpg/
 keywords: دمج PPSM إلى JPG ، انضم إلى PPSM إلى JPG ، ادمج PPSM إلى JPG ، PowerPoint ، Presentation ، JPG ، Python ، Aspose

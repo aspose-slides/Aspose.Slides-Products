@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi OTP sang SVG trong JavaScript
 url: /vi/nodejs-net/conversion/otp-to-svg/
 keywords: OTP sang SVG, Chuyển đổi OTP sang SVG, API Node.js, Thư viện JavaScript, OTP, SVG

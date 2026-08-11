@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPT إلى PNG باستخدام Python
 url: /ar/python-net/merge/ppt-to-png/
 keywords: دمج PPT إلى PNG ، انضم إلى PPT إلى PNG ، ادمج PPT إلى PNG ، PowerPoint ، Presentation ، PNG ، Python ، Aspose

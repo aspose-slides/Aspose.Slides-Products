@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti OTP in POTX in JavaScript
 url: /it/nodejs-net/conversion/otp-to-potx/
 keywords: Da OTP a POTX, Converti {da_format} a POTX, API Node.js, Libreria JavaScript, OTP, POTX

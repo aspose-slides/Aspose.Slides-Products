@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Pesquise texto em apresentações do PowerPoint e do OpenOffice usando Python
 url: /pt/python-net/search/
 description: Código-fonte Python para pesquisar palavras com padrão em apresentações do PowerPoint e OpenOffice™

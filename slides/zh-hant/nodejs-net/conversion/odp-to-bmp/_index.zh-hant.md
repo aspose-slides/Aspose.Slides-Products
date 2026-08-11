@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中將 ODP 轉換為 BMP
 url: /zh-hant/nodejs-net/conversion/odp-to-bmp/
 keywords: ODP 到 BMP、將 ODP 轉換成 BMP、Node.js API、JavaScript 函式庫、ODP、BMP

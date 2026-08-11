@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して、PPTX プレゼンテーション ファイルにグラフを作成します
 url: /ja/python-net/chart/pptx/
 keywords: チャートの作成、散布図の作成、円グラフの作成、ツリーマップ チャートの作成、株価チャートの作成、箱ひげ図の作成、ヒストグラム チャートの作成、ファネル チャートの作成、サンバースト チャート、マルチカテゴリ チャート、PowerPoint プレゼンテーション、Python

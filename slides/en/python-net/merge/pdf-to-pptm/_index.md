@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files and Save as PPTM Using Python
 url: /python-net/merge/pdf-to-pptm/
 keywords: Merge PDF to PPTM, Join PDF to PPTM, Combine PDF to PPTM, PowerPoint, Presentation, PPTM, Python, Aspose

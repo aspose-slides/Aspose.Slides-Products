@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan FODP ke ODP dalam JavaScript
 url: /id/nodejs-net/conversion/fodp-to-odp/
 keywords: FODP ke ODP, Konversi FODP ke ODP, API Node.js, Pustaka JavaScript, FODP, ODP

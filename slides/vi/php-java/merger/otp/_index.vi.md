@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp OTP bằng PHP
 url: /vi/php-java/merger/otp/
 keywords: Hợp nhất OTP, Tham gia OTP, Kết hợp OTP, PowerPoint, Bản trình bày, PHP, Aspose

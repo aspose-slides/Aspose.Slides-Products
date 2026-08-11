@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में पीएनजी छवियों को मर्ज करें
 url: /hi/python-net/merge/png-to-png/
 keywords: PNG, PNG को PNG में मर्ज करें, PNG से जुड़ें, PNG, Python API, Python लाइब्रेरी को मिलाएं

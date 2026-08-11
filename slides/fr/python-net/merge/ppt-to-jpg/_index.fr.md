@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPT vers JPG à l'aide de Python
 url: /fr/python-net/merge/ppt-to-jpg/
 keywords: Fusionner PPT à JPG, Joindre PPT à JPG, Combiner PPT à JPG, PowerPoint, Présentation, JPG, Python, Aspose

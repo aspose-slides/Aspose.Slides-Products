@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js'de OTP'ı PPSM'a dönüştürün
 url: /tr/nodejs-java/conversion/otp-to-ppsm/
 keywords: OTP'tan PPSM'a, OTP'ı PPSM'a dönüştürün, Node.js API'si, Node.js Kitaplığı, OTP, PPSM

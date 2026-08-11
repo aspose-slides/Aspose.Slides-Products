@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPSM a PDF usando Python
 url: /it/python-net/merge/ppsm-to-pdf/
 keywords: Unisci PPSM a PDF, Unisci PPSM a PDF, Combina PPSM a PDF, PowerPoint, Presentazione, PDF, Python, Aspose

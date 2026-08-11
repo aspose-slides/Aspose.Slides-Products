@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPT إلى GIF باستخدام Python
 url: /ar/python-net/merge/ppt-to-gif/
 keywords: دمج PPT إلى GIF ، انضم إلى PPT إلى GIF ، ادمج PPT إلى GIF ، PowerPoint ، Presentation ، GIF ، Python ، Aspose

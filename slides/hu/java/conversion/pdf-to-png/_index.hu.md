@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) PDF fájlt PNG formátumra Java nyelven
 url: /hu/java/conversion/pdf-to-png/
 keywords: PDF to PNG, PDF konvertálása PNG formátumba, Java API, Java Library, PDF, PNG

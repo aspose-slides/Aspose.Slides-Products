@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Přidejte vodoznak do souborů PowerPoint na Windows, Linux a macOS
 url: /cs/watermark/
 description: API pro přidání vodoznaku do prezentací PPT, PPTX a ODP

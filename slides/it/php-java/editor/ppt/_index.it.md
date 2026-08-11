@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Modifica PPT in PHP
 url: /it/php-java/editor/ppt/
 keywords: Modifica PPT, modifica PowerPoint, PPT, PowerPoint, API PHP, libreria PHP

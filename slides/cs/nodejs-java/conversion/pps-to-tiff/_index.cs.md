@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPS na TIFF v Node.js
 url: /cs/nodejs-java/conversion/pps-to-tiff/
 keywords: PPS do TIFF, Převést PPS do TIFF, Node.js API, Node.js Library, PPS, TIFF

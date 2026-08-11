@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PNG konvertálása SVG formátumra C++ nyelven
 url: /hu/cpp/conversion/png-to-svg/
 keywords: PNG to SVG, PNG konvertálása SVG formátumba, C++ API, C++ Library, PNG, SVG

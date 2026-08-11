@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET を使用して POTM ファイルのメタデータを表示または編集する
 url: /ja/net/metadata/potm/
 keywords: POTM メタデータの編集、POTM メタデータの表示、POTM プロパティの編集、POTM プロパティの表示

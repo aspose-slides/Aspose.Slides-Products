@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPS σε POTX σε JavaScript
 url: /el/nodejs-net/conversion/pps-to-potx/
 keywords: PPS σε POTX, Μετατροπή PPS σε POTX, Node.js API, JavaScript Library, PPS, POTX

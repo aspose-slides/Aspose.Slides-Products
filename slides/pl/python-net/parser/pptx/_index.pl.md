@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyodrębnij tekst i obrazy z plików PPTX za pomocą Python
 url: /pl/python-net/parser/pptx/
 keywords: przeanalizuj PPTX za pomocą Python, PPTX parser Python, wyodrębnij dane z PPTX w Python, wyodrębnij tekst z PPTX za pomocą Python, wyodrębnij obrazy z PPTX za pomocą Python

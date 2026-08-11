@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vyhledejte text v prezentačních souborech ODP pomocí .NET
 url: /cs/net/search/odp/
 keywords: hledat slova ve ODP, hledat a nahrazovat text ve ODP, hledat text ODP Prezentace

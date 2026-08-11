@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js में ODP को PPSX में बदलें
 url: /hi/nodejs-java/conversion/odp-to-ppsx/
 keywords: ODP से PPSX, ODP को PPSX में बदलें, Node.js API, Node.js लाइब्रेरी, ODP, PPSX

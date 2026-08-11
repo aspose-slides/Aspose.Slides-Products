@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPSX Dosyalarını HTML İle Birleştirin
 url: /tr/python-net/merge/ppsx-to-html/
 keywords: PPSX'ı HTML ile birleştir, PPSX ile HTML'a katıl, PPSX'ı HTML ile birleştir, PowerPoint, Presentation, HTML, Python, Aspose

@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View POTM in C++
 url: /cpp/viewer/potm/
 keywords: View POTM, Open POTM, POTM Viewer, POTM, C++ API, C++ Library, CPP

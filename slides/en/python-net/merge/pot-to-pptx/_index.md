@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POT Files and Export to PPTX Using Python
 url: /python-net/merge/pot-to-pptx/
 keywords: Merge POT to PPTX, Join POT to PPTX, Combine POT to PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

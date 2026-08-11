@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Upravte PPT v PHP
 url: /cs/php-java/editor/ppt/
 keywords: Upravit PPT, Upravit PowerPoint, PPT, PowerPoint, PHP API, PHP Library

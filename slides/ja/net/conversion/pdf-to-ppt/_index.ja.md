@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#でPDFをPPTに変換
 url: /ja/net/conversion/pdf-to-ppt/
 keywords: PDF を PPT に、PDF を PPT に、PowerPoint、PDF、PPT、C# API、.NET ライブラリに変換

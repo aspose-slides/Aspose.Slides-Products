@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPSX إلى ODP باستخدام Python
 url: /ar/python-net/merge/ppsx-to-odp/
 keywords: دمج PPSX إلى ODP ، انضم إلى PPSX إلى ODP ، ادمج PPSX إلى ODP ، PowerPoint ، Presentation ، ODP ، Python ، Aspose

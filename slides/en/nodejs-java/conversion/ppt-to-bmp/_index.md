@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to BMP in Node.js
 url: /nodejs-java/conversion/ppt-to-bmp/
 keywords: PPT to BMP, Convert PPT to BMP, Node.js API, Node.js Library, PPT, BMP

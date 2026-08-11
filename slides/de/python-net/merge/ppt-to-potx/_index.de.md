@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT-Dateien mit Python in POTX zusammenführen
 url: /de/python-net/merge/ppt-to-potx/
 keywords: PPT mit POTX zusammenführen, PPT mit POTX verbinden, PPT mit POTX kombinieren, PowerPoint, Präsentation, POTX, Python, Aspose

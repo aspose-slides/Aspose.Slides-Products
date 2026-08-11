@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File POT Ke SVG Menggunakan Python
 url: /id/python-net/merge/pot-to-svg/
 keywords: Gabungkan POT ke SVG, Gabungkan POT ke SVG, Gabungkan POT ke SVG, PowerPoint, Presentasi, SVG, Python, Aspose

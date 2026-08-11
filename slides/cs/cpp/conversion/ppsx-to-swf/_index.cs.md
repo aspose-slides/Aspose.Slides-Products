@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPSX na SWF pomocí aplikace C++
 url: /cs/cpp/conversion/ppsx-to-swf/ 
 description: Ukázka převodního kódu C++ pro dokument PPSX do formátu SWF. Použijte ukázkový kód pro dávkový převod PPSX na SWF v jakékoli aplikaci C++.

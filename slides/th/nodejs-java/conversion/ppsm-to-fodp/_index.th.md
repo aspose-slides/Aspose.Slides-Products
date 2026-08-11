@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPSM เป็น FODP ใน Node.js
 url: /th/nodejs-java/conversion/ppsm-to-fodp/
 keywords: PPSM เป็น FODP, แปลง PPSM เป็น FODP, Node.js API, ไลบรารี Node.js, PPSM, FODP

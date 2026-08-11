@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POTX Dosyalarını BMP İle Birleştirin
 url: /tr/python-net/merge/potx-to-bmp/
 keywords: POTX'ı BMP ile birleştir, POTX ile BMP'a katıl, POTX'ı BMP ile birleştir, PowerPoint, Presentation, BMP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Adicionar gráfico a arquivos do PowerPoint no Windows, Linux e macOS
 url: /pt/chart/
 description: APIs para trabalhar com gráficos em apresentações PPT, PPTX

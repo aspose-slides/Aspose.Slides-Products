@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT en HTML dans Node.js
 url: /fr/nodejs-java/conversion/ppt-to-html/
 keywords: PPT en HTML, Convertir PPT en HTML, API Node.js, Bibliothèque Node.js, PPT, HTML

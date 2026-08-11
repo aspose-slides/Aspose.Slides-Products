@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js で POTX を SVG に変換します
 url: /ja/nodejs-java/conversion/potx-to-svg/
 keywords: POTX から SVG、POTX から SVG への変換、Node.js API、Node.js ライブラリ、POTX、SVG

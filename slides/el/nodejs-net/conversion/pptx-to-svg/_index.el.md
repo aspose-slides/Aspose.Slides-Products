@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPTX σε SVG σε JavaScript
 url: /el/nodejs-net/conversion/pptx-to-svg/
 keywords: PPTX σε SVG, Μετατροπή PPTX σε SVG, Node.js API, JavaScript Library, PPTX, SVG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Επεξεργασία PowerPoint Node.js. Μετατρέψτε χωρίς κόπο Παρουσιάσεις χρησιμοποιώντας το Aspose.Slides.
 url: /el/nodejs-net/conversion/
 keywords: "Μετατροπή, PowerPoint, Παρουσίαση, Node.js, javascript, js, PDF, Μετατροπή σε PDF, PPT σε PDF"

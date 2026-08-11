@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Добавьте водяной знак в файлы презентаций PPT с помощью Java
 url: /ru/java/watermark/ppt/
 keywords: Добавить водяной знак PPT, Добавить текстовый водяной знак PPT, Добавить водяной знак изображения PPT

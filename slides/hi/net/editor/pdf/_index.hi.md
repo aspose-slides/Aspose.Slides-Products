@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीडीएफ को सी # में संपादित करें
 url: /hi/net/editor/pdf/
 keywords: PDF, PDF, C# API, .NET लाइब्रेरी संपादित करें

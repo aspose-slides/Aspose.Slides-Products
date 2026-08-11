@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPSM thành XPS bằng Python
 url: /vi/python-net/merge/ppsm-to-xps/
 keywords: Hợp nhất PPSM thành XPS, Nối PPSM thành XPS, Kết hợp PPSM thành XPS, PowerPoint, Bản trình bày, XPS, Python, Aspose

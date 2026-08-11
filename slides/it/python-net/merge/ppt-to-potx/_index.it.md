@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPT a POTX usando Python
 url: /it/python-net/merge/ppt-to-potx/
 keywords: Unisci PPT a POTX, Unisci PPT a POTX, Combina PPT a POTX, PowerPoint, Presentazione, POTX, Python, Aspose

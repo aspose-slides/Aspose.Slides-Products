@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg keresése ODP prezentációs fájlokban a C++ használatával
 url: /hu/cpp/search/odp/
 keywords: szavak keresése ODP nyelven, szöveg keresése és cseréje ODP nyelven, keresési szöveg ODP Bemutatás

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Конвертировать PPTX в видео на Java
 url: /ru/java/conversion/pptx-to-video/
 keywords: Преобразование PPTX в видео, PPTX в видео, PowerPoint в видео, PPT в MP4, Java API, библиотека Java

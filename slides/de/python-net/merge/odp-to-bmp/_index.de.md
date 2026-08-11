@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ODP-Dateien mit Python in BMP zusammenführen
 url: /de/python-net/merge/odp-to-bmp/
 keywords: ODP mit BMP zusammenführen, ODP mit BMP verbinden, ODP mit BMP kombinieren, PowerPoint, Präsentation, BMP, Python, Aspose

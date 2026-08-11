@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPTM in GIF in Node.js
 url: /it/nodejs-java/conversion/pptm-to-gif/
 keywords: PPTM in GIF, Converti PPTM in GIF, API Node.js, Libreria Node.js, PPTM, GIF

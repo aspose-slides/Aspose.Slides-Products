@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPS फ़ाइलों को GIF में मर्ज करें
 url: /hi/python-net/merge/pps-to-gif/
 keywords: PPS को GIF में मिलाएं, PPS से GIF में शामिल हों, PPS से GIF, PowerPoint, प्रेजेंटेशन, GIF, Python, Aspose को मिलाएं

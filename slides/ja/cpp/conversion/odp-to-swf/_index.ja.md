@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++アプリケーションを介してODPをSWFに変換する
 url: /ja/cpp/conversion/odp-to-swf/ 
 description: ODPドキュメントからSWF形式へのサンプルC++変換コード。任意のC++アプリケーション内でのバッチODPからSWFへの変換にサンプルコードを使用します。

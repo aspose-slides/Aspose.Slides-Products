@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tambahkan Watermark ke File Presentasi PPT menggunakan .NET
 url: /id/net/watermark/ppt/
 keywords: Tambahkan Tanda Air PPT, Tambahkan Tanda Air Teks PPT, Tambahkan Tanda Air Gambar PPT

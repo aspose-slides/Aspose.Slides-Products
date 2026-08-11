@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to PPT in Python
 url: /python-java/conversion/pot-to-ppt/
 keywords: Python POT conversion, POT to PPT, PowerPoint template to presentation, PowerPoint 97–2003, Aspose.Slides for Python via Java

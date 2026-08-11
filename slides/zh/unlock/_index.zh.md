@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 从 Windows、Linux 和 macOS 上的 PowerPoint 文件中删除密码
 url: /zh/unlock/
 description: 用于取消对 PPT、PPTX 和 ODP 演示文稿的保护的 API

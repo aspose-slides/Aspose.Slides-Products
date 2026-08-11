@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python プレゼンテーションの変換。 Aspose.Slides を使用してプレゼンテーションを簡単に変換します。
 url: /ja/python-java/conversion/
 keywords: 「変換、PowerPoint、プレゼンテーション、Python、Python プロジェクト、Python ライブラリ、PDF、PDF への変換、PPT から PDF」

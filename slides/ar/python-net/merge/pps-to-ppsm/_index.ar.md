@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPS إلى PPSM باستخدام Python
 url: /ar/python-net/merge/pps-to-ppsm/
 keywords: دمج PPS إلى PPSM ، انضم إلى PPS إلى PPSM ، ادمج PPS إلى PPSM ، PowerPoint ، Presentation ، PPSM ، Python ، Aspose

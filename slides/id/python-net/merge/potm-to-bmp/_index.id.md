@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File POTM Ke BMP Menggunakan Python
 url: /id/python-net/merge/potm-to-bmp/
 keywords: Gabungkan POTM ke BMP, Gabungkan POTM ke BMP, Gabungkan POTM ke BMP, PowerPoint, Presentasi, BMP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge OTP Files into PPSM Using Python
 url: /python-net/merge/otp-to-ppsm/
 keywords: Merge OTP to PPSM, Join OTP to PPSM, Combine OTP to PPSM, PowerPoint, Presentation, PPSM, Python, Aspose

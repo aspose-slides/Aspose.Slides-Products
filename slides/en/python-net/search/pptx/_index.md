@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in PPTX Presentations with Python
 url: /python-net/search/pptx/
 keywords: search text in PPTX, find words in PPTX, search PPTX presentation with Python

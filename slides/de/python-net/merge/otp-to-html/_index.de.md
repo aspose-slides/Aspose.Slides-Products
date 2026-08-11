@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: OTP-Dateien mit Python in HTML zusammenführen
 url: /de/python-net/merge/otp-to-html/
 keywords: OTP mit HTML zusammenführen, OTP mit HTML verbinden, OTP mit HTML kombinieren, PowerPoint, Präsentation, HTML, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های ODP را با PPTX ادغام کنید
 url: /fa/python-net/merge/odp-to-pptx/
 keywords: ادغام ODP به PPTX، پیوستن به ODP به PPTX، ترکیب ODP به PPTX، PowerPoint، Presentation، PPTX، Python، Aspose

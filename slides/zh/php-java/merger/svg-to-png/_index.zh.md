@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 SVG 合并为 PNG
 url: /zh/php-java/merger/svg-to-png/
 keywords: 将 SVG 合并到 PNG、将 SVG 合并到 PNG、将 SVG 合并到 PNG、将 SVG 合并到 PNG、PHP API、PHP 库

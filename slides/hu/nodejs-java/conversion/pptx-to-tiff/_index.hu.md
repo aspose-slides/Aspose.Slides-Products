@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) PPTX konvertálása TIFF formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/pptx-to-tiff/
 keywords: PPTX to TIFF, PPTX konvertálása TIFF formátumba, Node.js API, Node.js Library, PPTX, TIFF

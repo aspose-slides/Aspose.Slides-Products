@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीडीएफ फाइलों को PHP में मर्ज करें
 url: /hi/php-java/merger/pdf-to-pdf/
 keywords: पीडीएफ, पीडीएफ को पीडीएफ में मर्ज करें, पीडीएफ से जुड़ें, पीडीएफ को मिलाएं, पीएचपी एपीआई, पीएचपी लाइब्रेरी

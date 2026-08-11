@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to SVG in Python
 url: /python-java/conversion/pptm-to-svg/
 keywords: Python PPTM conversion, PPTM to SVG, PowerPoint slide to SVG, presentation slide to vector image, Aspose.Slides for Python via Java

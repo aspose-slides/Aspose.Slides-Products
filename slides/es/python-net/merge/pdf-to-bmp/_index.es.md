@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PDF a BMP usando Python
 url: /es/python-net/merge/pdf-to-bmp/
 keywords: Combinar PDF a BMP, unir PDF a BMP, combinar PDF a BMP, PowerPoint, Presentation, BMP, Python, Aspose

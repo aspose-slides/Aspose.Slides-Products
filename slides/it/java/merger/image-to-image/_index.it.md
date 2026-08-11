@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci immagini in Java
 url: /it/java/merger/image-to-image/
 keywords: Unisci immagine, immagine con immagine, Unisci immagini, Combina immagini, API Java, Libreria Java

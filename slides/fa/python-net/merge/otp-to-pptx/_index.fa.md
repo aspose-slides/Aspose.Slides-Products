@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های OTP را با PPTX ادغام کنید
 url: /fa/python-net/merge/otp-to-pptx/
 keywords: ادغام OTP به PPTX، پیوستن به OTP به PPTX، ترکیب OTP به PPTX، PowerPoint، Presentation، PPTX، Python، Aspose

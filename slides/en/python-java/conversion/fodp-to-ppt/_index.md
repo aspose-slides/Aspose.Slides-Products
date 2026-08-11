@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert FODP to PPT in Python
 url: /python-java/conversion/fodp-to-ppt/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, FODP to PPT conversion, Python presentation library

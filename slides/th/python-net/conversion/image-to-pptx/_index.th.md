@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลงรูปภาพเป็น PPTX ใน Python
 url: /th/python-net/conversion/image-to-pptx/
 keywords: รูปภาพเป็น PPTX, แปลงรูปภาพเป็น PPTX, Python API, Python Library, รูปภาพ, PPTX

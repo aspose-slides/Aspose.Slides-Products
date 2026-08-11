@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPT naar POTM in Node.js
 url: /nl/nodejs-java/conversion/ppt-to-potm/
 keywords: PPT naar POTM, Converteer PPT naar POTM, Node.js API, Node.js-bibliotheek, PPT, POTM

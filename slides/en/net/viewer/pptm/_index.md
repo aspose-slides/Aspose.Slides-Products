@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View PPTM in C#
 url: /net/viewer/pptm/
 keywords: View PPTM, Open PPTM, PPTM Viewer, PPTM, PowerPoint, C# API, .NET Library

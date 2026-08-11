@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام TIFF به PDF در سی شارپ
 url: /fa/net/merger/tiff-to-pdf/
 keywords: TIFF به PDF، ادغام TIFF به PDF، پیوستن به TIFF به PDF، PDF، TIFF، C# API، کتابخانه دات نت

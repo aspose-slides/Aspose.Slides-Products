@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python 프레젠테이션 변환. Aspose.Slides를 사용하여 프레젠테이션을 쉽게 변환하세요.
 url: /ko/python-java/conversion/
 keywords: "변환, PowerPoint, 프레젠테이션, Python, Python 프로젝트, Python 라이브러리, PDF, PDF로 변환, PPT를 PDF로"

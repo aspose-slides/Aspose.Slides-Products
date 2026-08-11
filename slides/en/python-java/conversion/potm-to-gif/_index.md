@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTM to GIF in Python
 url: /python-java/conversion/potm-to-gif/
 keywords: Python POTM conversion, POTM to GIF, PowerPoint to GIF, macro-enabled template to animated GIF, Aspose.Slides for Python via Java

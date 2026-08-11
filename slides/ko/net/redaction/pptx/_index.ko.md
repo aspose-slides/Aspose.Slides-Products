@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을(를) 사용하여 PPTX 프레젠테이션 파일 수정
 url: /ko/net/redaction/pptx/
 keywords: PPTX 수정, PPTX에서 텍스트 찾기 및 바꾸기, PPTX 프레젠테이션 업데이트

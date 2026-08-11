@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр или редактирование метаданных файлов PPTM с помощью C++
 url: /ru/cpp/metadata/pptm/
 keywords: Изменить метаданные PPTM, просмотреть метаданные PPTM, изменить свойства PPTM, просмотреть свойства PPTM

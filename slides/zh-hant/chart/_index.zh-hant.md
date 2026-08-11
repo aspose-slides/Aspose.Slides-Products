@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Windows、Linux 和 macOS 上將圖表添加到 PowerPoint 文件
 url: /zh-hant/chart/
 description: 用於處理 PPT、PPTX 演示文稿中的圖表的 API

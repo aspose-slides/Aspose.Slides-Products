@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PDF-Dateien mit Python in PPSM zusammenführen
 url: /de/python-net/merge/pdf-to-ppsm/
 keywords: PDF mit PPSM zusammenführen, PDF mit PPSM verbinden, PDF mit PPSM kombinieren, PowerPoint, Präsentation, PPSM, Python, Aspose

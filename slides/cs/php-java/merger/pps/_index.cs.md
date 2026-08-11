@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPS pomocí PHP
 url: /cs/php-java/merger/pps/
 keywords: Sloučit PPS, Připojit PPS, Kombinovat PPS, PowerPoint, Prezentace, PHP, Aspose

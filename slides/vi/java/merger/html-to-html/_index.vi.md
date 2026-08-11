@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp HTML trong Java
 url: /vi/java/merger/html-to-html/
 keywords: Hợp nhất HTML, HTML sang HTML, Tham gia HTML, Kết hợp HTML, API Java, Thư viện Java

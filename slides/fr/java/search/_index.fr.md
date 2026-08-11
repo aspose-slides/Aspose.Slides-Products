@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Rechercher du texte dans des présentations PowerPoint et OpenOffice à l'aide de Java
 url: /fr/java/search/
 description: Code source Java pour rechercher des mots avec un motif dans les présentations PowerPoint et OpenOffice™

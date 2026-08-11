@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPS thành FODP bằng Python
 url: /vi/python-net/merge/pps-to-fodp/
 keywords: Hợp nhất PPS thành FODP, Nối PPS thành FODP, Kết hợp PPS thành FODP, PowerPoint, Bản trình bày, FODP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Proteger arquivos de apresentação PPT usando Python
 url: /pt/python-net/protect/ppt/
 keywords: Proteção contra gravação PPT, criptografia de uma apresentação PPT, bloqueio PPT, proteção PPT

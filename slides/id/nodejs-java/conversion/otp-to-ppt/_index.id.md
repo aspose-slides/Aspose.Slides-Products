@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan OTP ke PPT di Node.js
 url: /id/nodejs-java/conversion/otp-to-ppt/
 keywords: OTP ke PPT, Konversi OTP ke PPT, API Node.js, Pustaka Node.js, OTP, PPT

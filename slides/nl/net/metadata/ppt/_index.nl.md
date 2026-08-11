@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bekijk of bewerk metadata van PPT bestanden met behulp van .NET
 url: /nl/net/metadata/ppt/
 keywords: Bewerk PPT metadata, bekijk PPT metadata, bewerk PPT eigenschappen, bekijk PPT eigenschappen

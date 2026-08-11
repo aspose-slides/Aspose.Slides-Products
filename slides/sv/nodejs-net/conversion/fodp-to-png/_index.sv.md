@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera FODP till PNG i JavaScript
 url: /sv/nodejs-net/conversion/fodp-to-png/
 keywords: FODP till PNG, Konvertera FODP till PNG, Node.js API, JavaScript Library, FODP, PNG

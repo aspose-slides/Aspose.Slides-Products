@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python での Microsoft PowerPoint プレゼンテーションの PDF への変換
 url: /ja/python-net/conversion/
 keywords: 「変換、PowerPoint、プレゼンテーション、Python、PDF、PDF に変換、PPT から PDF」

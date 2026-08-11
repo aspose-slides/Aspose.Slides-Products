@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir HTML a PPTX en C++
 url: /es/cpp/conversion/html-to-pptx/
 keywords: Convierta HTML a PPTX, HTML a PPTX, PowerPoint, HTML, PPTX, API de C++, Biblioteca de C++

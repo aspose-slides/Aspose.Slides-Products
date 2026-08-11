@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java을(를) 사용하여 ODP 프레젠테이션 파일 잠금 해제
 url: /ko/java/unlock/odp/
 keywords: 쓰기 방지 ODP 제거, ODP 해독, ODP 프레젠테이션 잠금 해제, ODP 보호 해제

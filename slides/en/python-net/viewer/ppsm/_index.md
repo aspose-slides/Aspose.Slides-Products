@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PPSM in Python
 url: /python-net/viewer/ppsm/
 keywords: View PPSM, View Macro-enabled PowerPoint Slideshow, Open PPSM, PPSM Viewer, PPSM, PowerPoint, Python API, Python Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan JPG ke PDF di PHP
 url: /id/php-java/conversion/jpg-to-pdf/
 keywords: JPG ke PDF, Konversikan JPG ke PDF, PHP API, Perpustakaan PHP, JPG, PDF

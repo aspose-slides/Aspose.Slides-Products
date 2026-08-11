@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti ODP in POTX in Node.js
 url: /it/nodejs-java/conversion/odp-to-potx/
 keywords: ODP in POTX, Converti ODP in POTX, API Node.js, Libreria Node.js, ODP, POTX

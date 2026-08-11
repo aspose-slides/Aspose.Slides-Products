@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPS σε BMP στην Python
 url: /el/python-java/conversion/pps-to-bmp/
 keywords: Μετατροπή παρουσίασης Python, μετατροπή παρουσιάσεων σε Python, Python για παρουσιάσεις, Aspose.Slides Python, μετατροπή PPS σε BMP, βιβλιοθήκη παρουσιάσεων Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Διορθώστε τα αρχεία παρουσίασης PPT χρησιμοποιώντας το Python
 url: /el/python-net/redaction/ppt/
 keywords: Διορθώστε το PPT, βρείτε και αντικαταστήστε κείμενο στο PPT, ενημερώστε την παρουσίαση PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή POTX σε PPSM στο Node.js
 url: /el/nodejs-java/conversion/potx-to-ppsm/
 keywords: POTX σε PPSM, Convert POTX σε PPSM, Node.js API, Node.js Library, POTX, PPSM

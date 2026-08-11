@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Защитите файлы презентаций ODP с помощью Java
 url: /ru/java/protect/odp/
 keywords: Защита от записи ODP, шифрование ODP, блокировка презентации ODP, защита ODP

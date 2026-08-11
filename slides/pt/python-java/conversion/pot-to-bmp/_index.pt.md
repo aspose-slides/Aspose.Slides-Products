@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter POT em BMP em Python
 url: /pt/python-java/conversion/pot-to-bmp/
 keywords: Conversão de apresentação Python, conversão de apresentações para Python, Python para apresentações, Aspose.Slides Python, conversão de POT para BMP, biblioteca de apresentação Python

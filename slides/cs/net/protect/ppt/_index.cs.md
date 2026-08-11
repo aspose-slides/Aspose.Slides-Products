@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chraňte soubory prezentací PPT pomocí .NET
 url: /cs/net/protect/ppt/
 keywords: Ochrana proti zápisu PPT, šifrování PPT, zámek PPT prezentace, ochrana PPT

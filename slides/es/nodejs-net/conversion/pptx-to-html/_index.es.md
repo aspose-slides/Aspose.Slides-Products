@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTX a HTML en JavaScript
 url: /es/nodejs-net/conversion/pptx-to-html/
 keywords: PPTX a HTML, Convertir PPTX a HTML, API de Node.js, Biblioteca JavaScript, PPTX, HTML

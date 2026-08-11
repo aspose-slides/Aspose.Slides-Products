@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات FODP إلى POTM باستخدام Python
 url: /ar/python-net/merge/fodp-to-potm/
 keywords: دمج FODP إلى POTM ، انضم إلى FODP إلى POTM ، ادمج FODP إلى POTM ، PowerPoint ، Presentation ، POTM ، Python ، Aspose

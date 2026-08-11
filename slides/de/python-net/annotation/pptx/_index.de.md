@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Entfernen Sie die PPTX-Anmerkung mit Python
 weight: 4380
 url: /de/python-net/annotation/pptx/ 

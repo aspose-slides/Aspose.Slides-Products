@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redact ODP Presentation Files using .NET
 url: /net/redaction/odp/
 keywords: Redact ODP, Find and Replace Text in ODP, Update ODP Presentation

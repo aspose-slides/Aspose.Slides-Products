@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPSX в FODP в JavaScript
 url: /ru/nodejs-net/conversion/ppsx-to-fodp/
 keywords: PPSX в FODP, преобразование PPSX в FODP, Node.js API, библиотека JavaScript, PPSX, FODP

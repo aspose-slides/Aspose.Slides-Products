@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahera text och bilder från ODP-filer med Python
 url: /sv/python-net/parser/odp/
 keywords: analysera ODP med Python, ODP parser Python, extrahera data från ODP i Python, extrahera text från ODP med Python, extrahera bilder från ODP med Python

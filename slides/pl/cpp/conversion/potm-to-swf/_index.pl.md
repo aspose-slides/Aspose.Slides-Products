@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj POTM na SWF za pomocą aplikacji C++
 url: /pl/cpp/conversion/potm-to-swf/ 
 description: Przykładowy kod konwersji C++ dla dokumentu POTM do formatu SWF. Użyj przykładowego kodu do konwersji wsadowej POTM na SWF w dowolnej aplikacji C++.

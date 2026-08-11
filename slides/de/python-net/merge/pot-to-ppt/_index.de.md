@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POT-Dateien mit Python in PPT zusammenführen
 url: /de/python-net/merge/pot-to-ppt/
 keywords: POT mit PPT zusammenführen, POT mit PPT verbinden, POT mit PPT kombinieren, PowerPoint, Präsentation, PPT, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js에서 PPT을 ODP으로 변환
 url: /ko/nodejs-java/conversion/ppt-to-odp/
 keywords: PPT에서 ODP으로, PPT에서 ODP으로 변환, Node.js API, Node.js 라이브러리, PPT, ODP

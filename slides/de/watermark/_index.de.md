@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fügen Sie Wasserzeichen zu PowerPoint-Dateien unter Windows, Linux und macOS hinzu
 url: /de/watermark/
 description: APIs zum Hinzufügen von Wasserzeichen zu PPT-, PPTX- und ODP-Präsentationen

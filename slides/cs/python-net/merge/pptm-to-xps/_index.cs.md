@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTM do XPS pomocí Pythonu
 url: /cs/python-net/merge/pptm-to-xps/
 keywords: Sloučit PPTM do XPS, připojit PPTM do XPS, kombinovat PPTM do XPS, PowerPoint, Presentation, XPS, Python, Aspose

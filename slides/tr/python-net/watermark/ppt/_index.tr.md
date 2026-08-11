@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PPT Sunum Dosyalarına Filigran ekleyin
 url: /tr/python-net/watermark/ppt/
 keywords: Filigran Ekle PPT, Metin Filigranı Ekle PPT, Görüntü Filigranı Ekle PPT

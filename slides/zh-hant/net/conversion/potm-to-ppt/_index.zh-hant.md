@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 C# 將 POTM 轉換為 PPT
 weight: 8000
 url: /zh-hant/net/conversion/potm-to-ppt/ 

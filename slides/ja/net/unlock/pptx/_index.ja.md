@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET を使用して PPTX プレゼンテーション ファイルのロックを解除します
 url: /ja/net/unlock/pptx/
 keywords: 書き込み保護 PPTX を削除、PPTX を復号化、PPTX プレゼンテーションのロックを解除、PPTX の保護を解除

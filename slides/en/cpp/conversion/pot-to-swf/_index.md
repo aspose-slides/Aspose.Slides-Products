@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to SWF Using C++
 url: /cpp/conversion/pot-to-swf/
 description: C++ conversion code for POT to SWF. Use the example code for batch POT to SWF conversion in C++ applications.

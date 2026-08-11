@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js'de POT'ı ODP'a dönüştürün
 url: /tr/nodejs-java/conversion/pot-to-odp/
 keywords: POT'tan ODP'a, POT'ı ODP'a dönüştürün, Node.js API'si, Node.js Kitaplığı, POT, ODP

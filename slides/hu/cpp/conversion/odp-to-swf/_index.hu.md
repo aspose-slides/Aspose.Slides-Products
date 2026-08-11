@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja az ODP-t SWF-re C++ alkalmazással
 url: /hu/cpp/conversion/odp-to-swf/ 
 description: Minta C++ konverziós kód az ODP dokumentumhoz SWF formátumba. Használjon példakódot a kötegelt ODP-SWF konvertáláshoz bármely C++ alkalmazáson belül.

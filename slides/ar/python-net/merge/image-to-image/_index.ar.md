@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج الصور في بايثون
 url: /ar/python-net/merge/image-to-image/
 keywords: دمج الصورة ، الصورة إلى الصورة ، الانضمام إلى الصور ، الجمع بين الصور ، Python API ، مكتبة Python

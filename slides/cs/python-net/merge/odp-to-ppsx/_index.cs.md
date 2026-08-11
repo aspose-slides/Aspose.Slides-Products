@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory ODP do PPSX pomocí Pythonu
 url: /cs/python-net/merge/odp-to-ppsx/
 keywords: Sloučit ODP do PPSX, připojit ODP do PPSX, kombinovat ODP do PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPS do PPTX pomocí Pythonu
 url: /cs/python-net/merge/pps-to-pptx/
 keywords: Sloučit PPS do PPTX, připojit PPS do PPTX, kombinovat PPS do PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

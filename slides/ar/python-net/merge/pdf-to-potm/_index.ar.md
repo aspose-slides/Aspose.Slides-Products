@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PDF إلى POTM باستخدام Python
 url: /ar/python-net/merge/pdf-to-potm/
 keywords: دمج PDF إلى POTM ، انضم إلى PDF إلى POTM ، ادمج PDF إلى POTM ، PowerPoint ، Presentation ، POTM ، Python ، Aspose

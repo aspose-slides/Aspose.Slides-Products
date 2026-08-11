@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр и редактирование метаданных в файлы PowerPoint в Windows, Linux и macOS
 url: /ru/metadata/
 description: API для просмотра и редактирования свойств документов PPT и PPTX

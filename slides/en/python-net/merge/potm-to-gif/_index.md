@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POTM Files and Export to GIF Using Python
 url: /python-net/merge/potm-to-gif/
 keywords: Merge POTM to GIF, Join POTM to GIF, Combine POTM to GIF, PowerPoint, Presentation, GIF, Python, Aspose

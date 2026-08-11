@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigir apresentações em PowerPoint e OpenOffice usando Java
 url: /pt/java/redaction/
 description: Código-fonte Java para localizar e remover conteúdo em apresentações do PowerPoint e do OpenOffice™

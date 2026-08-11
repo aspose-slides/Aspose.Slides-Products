@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PowerPoint Sunumundan Parolayı Kaldırma
 url: /tr/python-net/unlock/
 description: Sunumun kilidini açmak için Python kaynak kodu

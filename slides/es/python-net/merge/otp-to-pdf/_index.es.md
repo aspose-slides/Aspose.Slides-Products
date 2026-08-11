@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos OTP a PDF usando Python
 url: /es/python-net/merge/otp-to-pdf/
 keywords: Combinar OTP a PDF, unir OTP a PDF, combinar OTP a PDF, PowerPoint, Presentation, PDF, Python, Aspose

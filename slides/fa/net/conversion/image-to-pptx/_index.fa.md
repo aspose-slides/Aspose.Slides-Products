@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل تصویر به PPTX در سی شارپ
 url: /fa/net/conversion/image-to-pptx/
 keywords: تبدیل تصویر به PPTX، تصویر به PPTX، پاورپوینت، تصویر، PPTX، C# API، کتابخانه دات نت

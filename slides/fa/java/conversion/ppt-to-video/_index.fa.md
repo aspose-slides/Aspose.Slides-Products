@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPT به ویدیو در جاوا
 url: /fa/java/conversion/ppt-to-video/
 keywords: تبدیل PPT به ویدئو، PPT به ویدئو، پاورپوینت به ویدئو، PPT به MP4، Java API، کتابخانه جاوا

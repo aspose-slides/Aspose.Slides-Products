@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: معالجة Node.js باور بوينت. تحويل العروض التقديمية بسهولة باستخدام Aspose.Slides.
 url: /ar/nodejs-net/conversion/
 keywords: "تحويل، PowerPoint، عرض تقديمي، Node.js، javascript، js، PDF، تحويل إلى PDF، PPT إلى PDF"

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPT a PPS usando Python
 url: /es/python-net/merge/ppt-to-pps/
 keywords: Combinar PPT a PPS, unir PPT a PPS, combinar PPT a PPS, PowerPoint, Presentation, PPS, Python, Aspose

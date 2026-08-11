@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 C++ 應用程序將 PPTX 轉換為 HTML
 weight: 4170
 url: /zh-hant/cpp/conversion/pptx-to-html/ 

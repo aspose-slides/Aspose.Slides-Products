@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a PNG-t PPTX-re Pythonban
 url: /hu/python-net/conversion/png-to-pptx/
 keywords: PNG konvertálása PPTX-re, PNG-ből PPTX-re, PowerPoint, PNG, PPTX, Python API, Python Library

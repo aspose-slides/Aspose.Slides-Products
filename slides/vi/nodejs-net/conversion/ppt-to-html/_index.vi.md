@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT sang HTML trong JavaScript
 url: /vi/nodejs-net/conversion/ppt-to-html/
 keywords: PPT sang HTML, Chuyển đổi PPT sang HTML, API Node.js, Thư viện JavaScript, PPT, HTML

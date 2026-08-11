@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSX Files and Save as PDF Using Python
 url: /python-net/merge/ppsx-to-pdf/
 keywords: Merge PPSX to PDF, Join PPSX to PDF, Combine PPSX to PDF, PowerPoint, Presentation, PDF, Python, Aspose

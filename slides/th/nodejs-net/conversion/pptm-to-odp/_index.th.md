@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTM เป็น ODP ใน JavaScript
 url: /th/nodejs-net/conversion/pptm-to-odp/
 keywords: PPTM เป็น ODP, แปลง PPTM เป็น ODP, Node.js API, ไลบรารี JavaScript, PPTM, ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PowerPoint로 JasperReports 내보내기 | Aspose.슬라이드
 weight: 8320
 url: /ko/jasperreports/ 

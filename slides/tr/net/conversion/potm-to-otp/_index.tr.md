@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTM'yi C# ile OTP'ye dönüştürün
 weight: 8100
 url: /tr/net/conversion/potm-to-otp/ 

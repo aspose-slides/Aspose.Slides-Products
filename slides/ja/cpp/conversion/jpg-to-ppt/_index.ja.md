@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ で JPG を PPT に変換する
 url: /ja/cpp/conversion/jpg-to-ppt/
 keywords: JPG を PPT に、JPG を PPT に、PowerPoint に、JPG に、PPT に、C++ API に、C++ ライブラリに変換する

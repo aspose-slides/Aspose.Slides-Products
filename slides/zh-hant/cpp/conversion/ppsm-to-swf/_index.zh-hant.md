@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 C++ 應用程序將 PPSM 轉換為 SWF
 url: /zh-hant/cpp/conversion/ppsm-to-swf/ 
 description: 將 PPSM 文檔轉換為 SWF 格式的示例 C++ 轉換代碼。在任何 C++ 應用程序中使用示例代碼將 PPSM 批量轉換為 SWF。

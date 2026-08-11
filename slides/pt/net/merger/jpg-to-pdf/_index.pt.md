@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar JPG para PDF em C#
 url: /pt/net/merger/jpg-to-pdf/
 keywords: JPG para PDF, Mesclar JPG para PDF, Juntar JPG para PDF, PDF, JPG, API C#, Biblioteca .NET

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PPT с помощью Python
 url: /ru/python-net/merge/ppt/
 keywords: Объединить PPT, присоединиться к PPT, объединить PPT, PowerPoint, презентацию, Python, Aspose

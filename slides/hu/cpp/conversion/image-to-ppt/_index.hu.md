@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a képet PPT-re C++-ban
 url: /hu/cpp/conversion/image-to-ppt/
 keywords: Kép PPT-be, kép konvertálása PPT-be, C++ API, C++ Library, Image, PPT

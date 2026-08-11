@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Microsoft PowerPoint Presentation Conversion to Multiple Files using Java
 url: /java/conversion/
 description: Convert Microsoft PowerPoint slides to HTML, PDF, image, and other file formats in Java applications.

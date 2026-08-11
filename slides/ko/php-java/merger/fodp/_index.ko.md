@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP를 사용하여 FODP 파일 병합
 url: /ko/php-java/merger/fodp/
 keywords: FODP 병합, FODP 가입, FODP 결합, PowerPoint, 프레젠테이션, PHP, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman ODP-filer till PPTX med Python
 url: /sv/python-net/merge/odp-to-pptx/
 keywords: Slå samman ODP till PPTX, gå med ODP till PPTX, kombinera ODP till PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت ODP را به POTX تبدیل کنید
 url: /fa/nodejs-net/conversion/odp-to-potx/
 keywords: ODP به POTX، تبدیل ODP به POTX، Node.js API، کتابخانه جاوا اسکریپت، ODP، POTX

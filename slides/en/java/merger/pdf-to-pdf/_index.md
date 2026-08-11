@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files in Java
 url: /java/merger/pdf-to-pdf/
 keywords: Merge PDF, PDF to PDF, Join PDF, Combine PDF, Java API, Java Library

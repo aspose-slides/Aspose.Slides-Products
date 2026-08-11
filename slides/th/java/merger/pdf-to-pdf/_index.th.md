@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ PDF ใน Java
 url: /th/java/merger/pdf-to-pdf/
 keywords: ผสาน PDF, PDF เป็น PDF, เข้าร่วม PDF, รวม PDF, Java API, Java Library

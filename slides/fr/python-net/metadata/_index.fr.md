@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afficher et modifier les métadonnées PowerPoint à l'aide de Python
 url: /fr/python-net/metadata/
 description: Code source Python pour afficher et modifier les propriétés de présentation

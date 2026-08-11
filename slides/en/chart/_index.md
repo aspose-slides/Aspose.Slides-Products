@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-05
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Charts to PowerPoint Files on Windows, Linux, and macOS
 url: /chart/
 description: APIs to create and edit charts in PPT and PPTX presentations.

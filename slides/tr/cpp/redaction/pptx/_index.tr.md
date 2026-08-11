@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak PPTX Sunum Dosyalarını Reddet
 url: /tr/cpp/redaction/pptx/
 keywords: PPTX dosyasını yeniden düzenleyin, PPTX içindeki metni bulun ve değiştirin, PPTX Sunumunu güncelleyin

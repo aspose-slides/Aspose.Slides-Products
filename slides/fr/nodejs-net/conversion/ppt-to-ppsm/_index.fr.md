@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT en PPSM en JavaScript
 url: /fr/nodejs-net/conversion/ppt-to-ppsm/
 keywords: PPT en PPSM, Convertir PPT en PPSM, API Node.js, Bibliothèque JavaScript, PPT, PPSM

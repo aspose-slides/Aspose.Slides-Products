@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPT in Video in C#
 url: /de/net/conversion/ppt-to-video/
 keywords: Konvertieren Sie PPT in Video, PPT in Video, PowerPoint in Video, PPT in MP4, C#-API, .NET-Bibliothek

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PPTX 파일에서 텍스트 및 이미지 추출
 url: /ko/python-net/parser/pptx/
 keywords: Python을 사용하여 PPTX 구문 분석, PPTX 구문 분석기 Python, Python의 PPTX에서 데이터 추출, Python을 사용하여 PPTX에서 텍스트 추출, Python을 사용하여 PPTX에서 이미지 추출

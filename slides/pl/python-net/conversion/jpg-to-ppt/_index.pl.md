@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj JPG na PPT w Pythonie
 url: /pl/python-net/conversion/jpg-to-ppt/
 keywords: Konwertuj JPG na PPT, JPG na PPT, PowerPoint, JPG, PPT, Python API, Python Library

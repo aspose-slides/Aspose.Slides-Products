@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPS thành PPSM bằng Python
 url: /vi/python-net/merge/pps-to-ppsm/
 keywords: Hợp nhất PPS thành PPSM, Nối PPS thành PPSM, Kết hợp PPS thành PPSM, PowerPoint, Bản trình bày, PPSM, Python, Aspose

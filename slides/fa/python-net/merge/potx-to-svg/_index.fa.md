@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های POTX را با SVG ادغام کنید
 url: /fa/python-net/merge/potx-to-svg/
 keywords: ادغام POTX به SVG، پیوستن به POTX به SVG، ترکیب POTX به SVG، PowerPoint، Presentation، SVG، Python، Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POTM ke PPTX dalam JavaScript
 url: /id/nodejs-net/conversion/potm-to-pptx/
 keywords: POTM ke PPTX, Konversi POTM ke PPTX, API Node.js, Pustaka JavaScript, POTM, PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: TIFF را به PDF در پایتون ادغام کنید
 url: /fa/python-net/merge/tiff-to-pdf/
 keywords: TIFF به PDF، ادغام TIFF به PDF، پیوستن به TIFF به PDF، PDF، TIFF، Python API، کتابخانه Python

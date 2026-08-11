@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTX a HTML usando Python
 url: /es/python-net/merge/potx-to-html/
 keywords: Combinar POTX a HTML, unir POTX a HTML, combinar POTX a HTML, PowerPoint, Presentation, HTML, Python, Aspose

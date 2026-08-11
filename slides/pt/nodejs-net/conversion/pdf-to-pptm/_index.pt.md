@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter PDF em PPTM em JavaScript
 url: /pt/nodejs-net/conversion/pdf-to-pptm/
 keywords: PDF para PPTM, converter PDF para PPTM, API Node.js, biblioteca JavaScript, PDF, PPTM

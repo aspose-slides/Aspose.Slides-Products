@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg ODP-bestanden samen naar HTML met Python
 url: /nl/python-net/merge/odp-to-html/
 keywords: Voeg ODP samen tot HTML, voeg ODP toe aan HTML, combineer ODP tot HTML, PowerPoint, Presentatie, HTML, Python, Aspose

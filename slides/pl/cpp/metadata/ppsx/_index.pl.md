@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyświetl lub edytuj metadane plików PPSX za pomocą C++
 url: /pl/cpp/metadata/ppsx/
 keywords: Edytuj metadane PPSX, Wyświetl metadane PPSX, Edytuj właściwości PPSX, Wyświetl właściwości PPSX

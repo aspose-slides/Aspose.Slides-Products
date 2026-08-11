@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da HTML öğesini TIFF biçimine dönüştürün
 url: /tr/python-net/conversion/html-to-tiff/
 keywords: HTML'tan TIFF'a, HTML'tan TIFF'a Dönüştürme, Python API, Python Kitaplığı, HTML, TIFF

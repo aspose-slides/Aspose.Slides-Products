@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převést HTML na PPT v C#
 url: /cs/net/conversion/html-to-ppt/
 keywords: Převod HTML na PPT, HTML na PPT, PowerPoint, HTML, PPT, C# API, .NET Library

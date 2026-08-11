@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل ODP إلى GIF في بايثون
 url: /ar/python-java/conversion/odp-to-gif/
 keywords: تحويل العروض التقديمية بايثون، تحويل العروض التقديمية إلى بايثون، بايثون للعروض التقديمية، Aspose.Slides بايثون، تحويل ODP إلى GIF، مكتبة بايثون التقديمية

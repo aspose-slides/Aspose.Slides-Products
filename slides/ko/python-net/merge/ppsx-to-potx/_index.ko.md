@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PPSX 파일을 POTX에 병합
 url: /ko/python-net/merge/ppsx-to-potx/
 keywords: PPSX을 POTX에 병합, PPSX을 POTX에 결합, PPSX을 POTX에 결합, PowerPoint, Presentation, POTX, Python, Aspose

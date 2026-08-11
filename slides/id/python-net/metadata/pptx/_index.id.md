@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lihat atau Edit Metadata File PPTX menggunakan Python
 url: /id/python-net/metadata/pptx/
 keywords: Edit Metadata PPTX, Lihat Metadata PPTX, Edit properti PPTX, Lihat properti PPTX

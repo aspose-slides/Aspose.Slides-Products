@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام تصویر به PDF در پایتون
 url: /fa/python-net/merge/image-to-pdf/
 keywords: تصویر به PDF، ادغام تصویر به PDF، پیوستن تصویر به PDF، PDF، تصویر، Python API، کتابخانه Python

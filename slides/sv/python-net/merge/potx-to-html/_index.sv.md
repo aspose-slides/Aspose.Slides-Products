@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman POTX-filer till HTML med Python
 url: /sv/python-net/merge/potx-to-html/
 keywords: Slå samman POTX till HTML, gå med POTX till HTML, kombinera POTX till HTML, PowerPoint, Presentation, HTML, Python, Aspose

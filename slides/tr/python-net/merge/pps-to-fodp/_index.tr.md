@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PPS Dosyalarını FODP İle Birleştirin
 url: /tr/python-net/merge/pps-to-fodp/
 keywords: PPS'ı FODP ile birleştir, PPS ile FODP'a katıl, PPS'ı FODP ile birleştir, PowerPoint, Presentation, FODP, Python, Aspose

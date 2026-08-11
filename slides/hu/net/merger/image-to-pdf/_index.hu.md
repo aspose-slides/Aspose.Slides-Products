@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Kép egyesítése PDF-be C#-ban
 url: /hu/net/merger/image-to-pdf/
 keywords: Kép PDF-be, kép egyesítése PDF-be, kép csatlakoztatása PDF-be, PDF, kép, C# API, .NET-könyvtár

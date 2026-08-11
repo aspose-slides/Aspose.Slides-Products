@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 TIFF 合并为 PDF
 url: /zh/python-net/merge/tiff-to-pdf/
 keywords: TIFF 到 PDF，合并 TIFF 到 PDF，将 TIFF 加入 PDF，PDF，TIFF，Python API，Python 库

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge OTP to SVG in Python
 url: /python-net/merge/otp-to-svg/
 keywords: Merge OTP to SVG, Join OTP to SVG, Combine OTP to SVG, PowerPoint, Presentation, Python

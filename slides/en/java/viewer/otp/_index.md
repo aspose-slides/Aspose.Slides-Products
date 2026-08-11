@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-31
 title: View OTP in Java
 url: /java/viewer/otp/
 keywords: View OTP, Open OTP, OTP Viewer, OTP, Java API, Java Library

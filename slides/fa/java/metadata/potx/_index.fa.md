@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده یا ویرایش فراداده فایل‌های POTX با استفاده از Java
 url: /fa/java/metadata/potx/
 keywords: ویرایش فراداده POTX، مشاهده فراداده POTX، ویرایش ویژگی‌های POTX، مشاهده ویژگی‌های POTX

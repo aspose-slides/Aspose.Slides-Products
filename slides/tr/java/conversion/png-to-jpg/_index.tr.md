@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java'da PNG biçimini JPG biçimine dönüştürün
 url: /tr/java/conversion/png-to-jpg/
 keywords: PNG'tan JPG'a, PNG'tan JPG'a Dönüştürme, Java API, Java Kitaplığı, PNG, JPG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera POTX till OTP i Node.js
 url: /sv/nodejs-java/conversion/potx-to-otp/
 keywords: POTX till OTP, Konvertera POTX till OTP, Node.js API, Node.js Library, POTX, OTP

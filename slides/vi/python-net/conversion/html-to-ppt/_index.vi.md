@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi HTML sang PPT bằng Python
 url: /vi/python-net/conversion/html-to-ppt/
 keywords: Chuyển đổi HTML sang PPT, HTML sang PPT, PowerPoint, HTML, PPT, API Python, Thư viện Python

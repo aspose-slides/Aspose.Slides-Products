@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PDF do GIF pomocí Pythonu
 url: /cs/python-net/merge/pdf-to-gif/
 keywords: Sloučit PDF do GIF, připojit PDF do GIF, kombinovat PDF do GIF, PowerPoint, Presentation, GIF, Python, Aspose

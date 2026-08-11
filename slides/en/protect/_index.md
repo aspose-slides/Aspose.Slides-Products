@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-20
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protect PowerPoint Files on Windows, Linux, and macOS
 url: /protect/
 description: Protect PPT, PPTX, and ODP presentations with Aspose.Slides APIs for .NET, Java, C++, and Python.

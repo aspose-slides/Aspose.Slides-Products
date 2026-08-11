@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to JPG in Python
 url: /python-net/conversion/pdf-to-jpg/
 keywords: PDF to JPG, Convert PDF to JPG, Python API, Python Library, PDF, JPG

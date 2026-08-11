@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PDF in HTML in Java
 url: /de/java/conversion/pdf-to-html/
 keywords: PDF in HTML, Konvertiere PDF in HTML, Java-API, Java-Bibliothek, PDF, HTML

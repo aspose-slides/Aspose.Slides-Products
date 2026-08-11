@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPS เป็น POTM ใน JavaScript
 url: /th/nodejs-net/conversion/pps-to-potm/
 keywords: PPS เป็น POTM, แปลง PPS เป็น POTM, Node.js API, ไลบรารี JavaScript, PPS, POTM

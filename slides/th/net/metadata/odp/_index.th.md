@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดูหรือแก้ไขข้อมูลเมตาของไฟล์ ODP โดยใช้ .NET
 url: /th/net/metadata/odp/
 keywords: แก้ไขข้อมูลเมตา ODP ดูข้อมูลเมตา ODP แก้ไขคุณสมบัติ ODP ดูคุณสมบัติ ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जेपीजी छवियों को जावा में मर्ज करें
 url: /hi/java/merger/jpg-to-jpg/
 keywords: जेपीजी, जेपीईजी को जेपीजी में मर्ज करें, जेपीजी से जुड़ें, जेपीजी, जावा एपीआई, जावा लाइब्रेरी को मिलाएं

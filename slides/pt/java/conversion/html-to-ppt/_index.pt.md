@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter HTML para PPT em Java
 url: /pt/java/conversion/html-to-ppt/
 keywords: Converter HTML para PPT, HTML para PPT, PowerPoint, HTML, PPT, API Java, Biblioteca Java

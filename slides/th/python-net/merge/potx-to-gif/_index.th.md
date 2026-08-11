@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ POTX เข้ากับ GIF โดยใช้ Python
 url: /th/python-net/merge/potx-to-gif/
 keywords: รวม POTX เป็น GIF เข้าร่วม POTX ถึง GIF รวม POTX เป็น GIF PowerPoint การนำเสนอ GIF Python Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory FODP do JPG pomocí Pythonu
 url: /cs/python-net/merge/fodp-to-jpg/
 keywords: Sloučit FODP do JPG, připojit FODP do JPG, kombinovat FODP do JPG, PowerPoint, Presentation, JPG, Python, Aspose

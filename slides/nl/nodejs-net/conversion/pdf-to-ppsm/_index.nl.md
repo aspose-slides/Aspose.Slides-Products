@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PDF naar PPSM in JavaScript
 url: /nl/nodejs-net/conversion/pdf-to-ppsm/
 keywords: PDF naar PPSM, Converteer PDF naar PPSM, Node.js API, JavaScript-bibliotheek, PDF, PPSM

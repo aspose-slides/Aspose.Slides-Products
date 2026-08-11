@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PPT Dosyalarından Metin ve Görüntüleri Çıkarın
 url: /tr/python-net/parser/ppt/
 keywords: Python kullanarak PPT ayrıştırma, PPT Python ayrıştırıcı, Python içindeki PPT'dan veri çıkarma, Python kullanarak PPT'dan metin çıkarma, Python kullanarak PPT'dan görsel çıkarma

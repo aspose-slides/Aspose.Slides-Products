@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Buka Kunci File Presentasi PPT menggunakan .NET
 url: /id/net/unlock/ppt/
 keywords: Hapus Write Protection PPT, Mendekripsi PPT, Buka Presentasi PPT, Unprotect PPT

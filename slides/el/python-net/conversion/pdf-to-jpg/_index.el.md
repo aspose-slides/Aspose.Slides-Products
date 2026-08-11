@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PDF σε JPG στην Python
 url: /el/python-net/conversion/pdf-to-jpg/
 keywords: PDF σε JPG, Convert PDF σε JPG, Python API, Python Library, PDF, JPG

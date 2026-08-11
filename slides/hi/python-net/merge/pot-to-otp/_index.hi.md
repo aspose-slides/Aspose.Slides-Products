@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके POT फ़ाइलों को OTP में मर्ज करें
 url: /hi/python-net/merge/pot-to-otp/
 keywords: POT को OTP में मिलाएं, POT से OTP में शामिल हों, POT से OTP, PowerPoint, प्रेजेंटेशन, OTP, Python, Aspose को मिलाएं

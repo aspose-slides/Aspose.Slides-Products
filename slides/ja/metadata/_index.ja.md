@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows、Linux、macOS で PowerPoint ファイルのメタデータを表示および編集
 url: /ja/metadata/
 description: PPT および PPTX ドキュメント プロパティを表示および編集するための API

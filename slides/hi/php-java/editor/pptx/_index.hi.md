@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में PPTX संपादित करें
 url: /hi/php-java/editor/pptx/
 keywords: संपादित करें PPTX, संपादित करें PowerPoint, PPTX, PowerPoint, PHP API, PHP लाइब्रेरी

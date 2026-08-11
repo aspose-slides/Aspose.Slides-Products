@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file ODP a TIFF usando Python
 url: /it/python-net/merge/odp-to-tiff/
 keywords: Unisci ODP a TIFF, Unisci ODP a TIFF, Combina ODP a TIFF, PowerPoint, Presentazione, TIFF, Python, Aspose

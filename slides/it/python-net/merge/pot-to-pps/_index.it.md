@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file POT a PPS usando Python
 url: /it/python-net/merge/pot-to-pps/
 keywords: Unisci POT a PPS, Unisci POT a PPS, Combina POT a PPS, PowerPoint, Presentazione, PPS, Python, Aspose

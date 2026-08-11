@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में पीपीटी को वर्ड में बदलें
 url: /hi/java/conversion/ppt-to-word/
 keywords: PPT को Word में, PPT को Word में, PPT को DOC में, PowerPoint को Word में, Java API, Java लाइब्रेरी में कन्वर्ट करें

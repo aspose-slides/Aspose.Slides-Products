@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-15
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to PNG in Node.js
 url: /nodejs-net/conversion/pptm-to-png/
 keywords: PPTM to PNG, Convert PPTM to PNG, Node.js API, JavaScript Library, PPTM, PNG

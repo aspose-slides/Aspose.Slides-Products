@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge ODP Files in Python
 url: /python-net/merge/odp/
 keywords: Merge ODP, Join ODP, Combine ODP, PowerPoint, Presentation, Python, Aspose

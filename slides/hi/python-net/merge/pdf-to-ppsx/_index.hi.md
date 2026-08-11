@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PDF फ़ाइलों को PPSX में मर्ज करें
 url: /hi/python-net/merge/pdf-to-ppsx/
 keywords: PDF को PPSX में मिलाएं, PDF से PPSX में शामिल हों, PDF से PPSX, PowerPoint, प्रेजेंटेशन, PPSX, Python, Aspose को मिलाएं

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp ODP thành SVG bằng Python
 url: /vi/python-net/merge/odp-to-svg/
 keywords: Hợp nhất ODP thành SVG, Nối ODP thành SVG, Kết hợp ODP thành SVG, PowerPoint, Bản trình bày, SVG, Python, Aspose

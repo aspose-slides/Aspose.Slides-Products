@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل FODP إلى PDF في JavaScript
 url: /ar/nodejs-net/conversion/fodp-to-pdf/
 keywords: FODP إلى PDF، تحويل FODP إلى PDF، Node.js API، مكتبة JavaScript، FODP، PDF

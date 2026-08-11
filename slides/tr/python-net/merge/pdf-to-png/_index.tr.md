@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak PDF Dosyalarını PNG İle Birleştirin
 url: /tr/python-net/merge/pdf-to-png/
 keywords: PDF'ı PNG ile birleştir, PDF ile PNG'a katıl, PDF'ı PNG ile birleştir, PowerPoint, Presentation, PNG, Python, Aspose

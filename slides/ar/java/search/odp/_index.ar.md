@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: البحث عن نص في ODP ملفات العروض التقديمية باستخدام Java
 url: /ar/java/search/odp/
 keywords: كلمات البحث في ODP ، البحث عن النص واستبداله في ODP ، البحث عن النص ODP Presentation

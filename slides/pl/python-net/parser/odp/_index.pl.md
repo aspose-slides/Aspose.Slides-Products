@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyodrębnij tekst i obrazy z plików ODP za pomocą Python
 url: /pl/python-net/parser/odp/
 keywords: przeanalizuj ODP za pomocą Python, ODP parser Python, wyodrębnij dane z ODP w Python, wyodrębnij tekst z ODP za pomocą Python, wyodrębnij obrazy z ODP za pomocą Python

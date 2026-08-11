@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Aggiungi filigrana ai file PowerPoint su Windows, Linux e macOS
 url: /it/watermark/
 description: API per aggiungere filigrana alle presentazioni PPT, PPTX e ODP

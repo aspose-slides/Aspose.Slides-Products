@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java を使用して PPSX ファイルのメタデータを表示または編集する
 url: /ja/java/metadata/ppsx/
 keywords: PPSX メタデータの編集、PPSX メタデータの表示、PPSX プロパティの編集、PPSX プロパティの表示

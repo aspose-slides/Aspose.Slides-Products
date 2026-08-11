@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extraheer tekst en afbeeldingen uit ODP-bestanden met behulp van Python
 url: /nl/python-net/parser/odp/
 keywords: ontleed ODP met Python, ODP ontleder Python, extraheer gegevens uit ODP in Python, extraheer tekst uit ODP met Python, extraheer afbeeldingen uit ODP met Python

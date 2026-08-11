@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit PNG do PDF v Javě
 url: /cs/java/merger/png-to-pdf/
 keywords: PNG do PDF, Sloučit PNG do PDF, Připojit PNG k PDF, PDF, PNG, Java API, Java Library

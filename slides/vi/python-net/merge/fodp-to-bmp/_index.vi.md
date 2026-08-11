@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp FODP thành BMP bằng Python
 url: /vi/python-net/merge/fodp-to-bmp/
 keywords: Hợp nhất FODP thành BMP, Nối FODP thành BMP, Kết hợp FODP thành BMP, PowerPoint, Bản trình bày, BMP, Python, Aspose

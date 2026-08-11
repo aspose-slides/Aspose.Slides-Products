@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى SVG في جافا
 url: /ar/java/conversion/pdf-to-svg/
 keywords: PDF إلى SVG ، تحويل PDF إلى SVG ، واجهة برمجة تطبيقات جافا ، مكتبة جافا ، PDF ، SVG

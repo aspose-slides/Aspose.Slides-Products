@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigir arquivos de apresentação ODP usando Java
 url: /pt/java/redaction/odp/
 keywords: Redigir ODP, localizar e substituir texto em ODP, atualizar ODP Apresentação

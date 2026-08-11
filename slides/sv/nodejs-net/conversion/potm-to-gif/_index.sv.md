@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera POTM till GIF i JavaScript
 url: /sv/nodejs-net/conversion/potm-to-gif/
 keywords: POTM till GIF, Konvertera POTM till GIF, Node.js API, JavaScript Library, POTM, GIF

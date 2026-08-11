@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi hình ảnh sang PPTX trong C#
 url: /vi/net/conversion/image-to-pptx/
 keywords: Chuyển đổi hình ảnh sang PPTX, hình ảnh sang PPTX, PowerPoint, image, PPTX, C# API, .NET Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Połącz obrazy w PHP
 url: /pl/php-java/merger/image-to-image/
 keywords: Scal obraz, obraz do obrazu, dołącz obrazy, połącz obrazy, PHP API, PHP Library

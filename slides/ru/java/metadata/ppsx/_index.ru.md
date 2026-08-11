@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр или редактирование метаданных файлов PPSX с помощью Java
 url: /ru/java/metadata/ppsx/
 keywords: Изменить метаданные PPSX, просмотреть метаданные PPSX, изменить свойства PPSX, просмотреть свойства PPSX

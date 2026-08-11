@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPSM в FODP в Node.js
 url: /ru/nodejs-java/conversion/ppsm-to-fodp/
 keywords: PPSM в FODP, конвертировать PPSM в FODP, API Node.js, библиотека Node.js, PPSM, FODP

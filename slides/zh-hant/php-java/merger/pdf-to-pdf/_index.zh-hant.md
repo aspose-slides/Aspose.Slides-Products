@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中合併 PDF 文件
 url: /zh-hant/php-java/merger/pdf-to-pdf/
 keywords: 合併 PDF、PDF 到 PDF、合併 PDF、合併 PDF、PHP API、PHP 庫

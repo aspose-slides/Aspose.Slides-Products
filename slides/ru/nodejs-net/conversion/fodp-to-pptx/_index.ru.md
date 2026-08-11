@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование FODP в PPTX в JavaScript
 url: /ru/nodejs-net/conversion/fodp-to-pptx/
 keywords: FODP в PPTX, преобразование FODP в PPTX, Node.js API, библиотека JavaScript, FODP, PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zusammenführen von SVG mit PNG in Python
 url: /de/python-net/merge/svg-to-png/
 keywords: SVG mit PNG, SVG mit PNG zusammenführen, SVG mit PNG verbinden, SVG mit PNG kombinieren, Python-API, Python-Bibliothek

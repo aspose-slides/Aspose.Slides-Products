@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) POT konvertálása POTX formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/pot-to-potx/
 keywords: POT to POTX, POT konvertálása POTX formátumba, Node.js API, JavaScript Library, POT, POTX

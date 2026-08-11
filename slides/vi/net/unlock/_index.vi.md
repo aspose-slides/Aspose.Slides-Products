@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xóa mật khẩu khỏi bản trình bày PowerPoint bằng .NET
 url: /vi/net/unlock/
 description: Mã nguồn C# để mở khóa bản trình bày

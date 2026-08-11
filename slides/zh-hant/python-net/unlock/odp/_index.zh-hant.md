@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 解鎖 ODP 演示文件
 url: /zh-hant/python-net/unlock/odp/
 keywords: 刪除寫保護 ODP，解密 ODP，解鎖 ODP 演示文稿，取消保護 ODP

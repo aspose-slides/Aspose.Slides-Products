@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to POT in Python
 url: /python-java/conversion/potx-to-pot/
 keywords: Python POTX conversion, POTX to POT, PowerPoint template conversion, Open XML template to POT, Aspose.Slides for Python via Java

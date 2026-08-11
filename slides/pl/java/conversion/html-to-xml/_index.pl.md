@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj HTML na XML w Javie
 url: /pl/java/conversion/html-to-xml/
 keywords: HTML do XML, Konwersja HTML do XML, Java API, Java Library, HTML, XML

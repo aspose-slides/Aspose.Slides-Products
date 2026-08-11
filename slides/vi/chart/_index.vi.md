@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Thêm biểu đồ vào tệp PowerPoint trên Windows, Linux và macOS
 url: /vi/chart/
 description: API để hoạt động với các biểu đồ trong Bản trình bày PPT, PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visa eller redigera metadata för OTP filer med C++
 url: /sv/cpp/metadata/otp/
 keywords: Redigera OTP-metadata, visa OTP-metadata, redigera OTP-egenskaper, visa OTP-egenskaper

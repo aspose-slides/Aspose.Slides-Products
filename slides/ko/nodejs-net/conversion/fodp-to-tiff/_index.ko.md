@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript에서 FODP을(를) TIFF(으)로 변환
 url: /ko/nodejs-net/conversion/fodp-to-tiff/
 keywords: FODP을(를) TIFF(으)로, FODP을(를) TIFF(으)로 변환, Node.js API, JavaScript 라이브러리, FODP, TIFF

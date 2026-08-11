@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت POTM را به PDF تبدیل کنید
 url: /fa/nodejs-net/conversion/potm-to-pdf/
 keywords: POTM به PDF، تبدیل POTM به PDF، Node.js API، کتابخانه جاوا اسکریپت، POTM، PDF

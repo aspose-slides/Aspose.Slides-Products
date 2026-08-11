@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده و ویرایش متادیتا به فایل های پاورپوینت در ویندوز، لینوکس و macOS
 url: /fa/metadata/
 description: API هایی برای مشاهده و ویرایش ویژگی های سند PPT و PPTX

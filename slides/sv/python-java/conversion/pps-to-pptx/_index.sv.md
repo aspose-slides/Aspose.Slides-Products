@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPS till PPTX i Python
 url: /sv/python-java/conversion/pps-to-pptx/
 keywords: Python presentation konvertering, konvertera presentationer till Python, Python för presentationer, Aspose.Slides Python, PPS till PPTX konvertering, Python presentationsbibliotek

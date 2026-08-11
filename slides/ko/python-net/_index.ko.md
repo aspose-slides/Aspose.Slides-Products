@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 파이썬 파워포인트 API. Aspose.Slides의 Python PPTX, PPT
 weight: 5860
 url: /ko/python-net/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή POTM σε ODP στην Python
 url: /el/python-java/conversion/potm-to-odp/
 keywords: Μετατροπή παρουσίασης Python, μετατροπή παρουσιάσεων σε Python, Python για παρουσιάσεις, Aspose.Slides Python, μετατροπή POTM σε ODP, βιβλιοθήκη παρουσιάσεων Python

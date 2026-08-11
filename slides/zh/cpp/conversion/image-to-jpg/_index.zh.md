@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中将 Image 转换为 JPG
 url: /zh/cpp/conversion/image-to-jpg/
 keywords: Image 到 JPG，将 Image 转换为 JPG，C++ API，C++ 库，Image，JPG

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ में PDF को SVG में बदलें
 url: /hi/cpp/conversion/pdf-to-svg/
 keywords: PDF से SVG, PDF को SVG में बदलें, C++ API, C++ लाइब्रेरी, PDF, SVG

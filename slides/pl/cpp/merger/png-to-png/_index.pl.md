@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal obrazy PNG w C++
 url: /pl/cpp/merger/png-to-png/
 keywords: Scal PNG, PNG do PNG, Dołącz do PNG, Połącz PNG, C++ API, C++ Library

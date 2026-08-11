@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPS-Dateien mit Python in TIFF zusammenführen
 url: /de/python-net/merge/pps-to-tiff/
 keywords: PPS mit TIFF zusammenführen, PPS mit TIFF verbinden, PPS mit TIFF kombinieren, PowerPoint, Präsentation, TIFF, Python, Aspose

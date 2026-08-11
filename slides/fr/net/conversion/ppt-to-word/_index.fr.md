@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT en Word en C#
 url: /fr/net/conversion/ppt-to-word/
 keywords: Convertir PPT en Word, PPT en Word, PPT en DOC, PowerPoint en Word, API C#, bibliothèque .NET

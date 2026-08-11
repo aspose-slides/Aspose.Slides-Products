@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP에서 TIFF를 PDF로 병합
 url: /ko/php-java/merger/tiff-to-pdf/
 keywords: TIFF를 PDF로, TIFF를 PDF로 병합, TIFF를 PDF로 결합, PDF, TIFF, PHP API, PHP 라이브러리

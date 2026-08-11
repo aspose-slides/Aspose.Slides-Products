@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP'de SVG öğesini PNG biçimine dönüştürün
 url: /tr/php-java/conversion/svg-to-png/
 keywords: SVG'tan PNG'a, SVG'tan PNG'a Dönüştürme, PHP API, PHP Kitaplığı, SVG, PNG

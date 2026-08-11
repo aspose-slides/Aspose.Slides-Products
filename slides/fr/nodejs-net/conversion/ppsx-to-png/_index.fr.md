@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPSX en PNG en JavaScript
 url: /fr/nodejs-net/conversion/ppsx-to-png/
 keywords: PPSX en PNG, Convertir PPSX en PNG, API Node.js, Bibliothèque JavaScript, PPSX, PNG

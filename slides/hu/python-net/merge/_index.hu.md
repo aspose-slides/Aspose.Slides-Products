@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítsen PDF, PPT, PPTX és sok más fájlformátumot Python segítségével
 url: /hu/python-net/merge/
 keywords: Egyesítés, csatlakozás, PowerPoint, prezentáció, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da HTML'yi PPTX'e dönüştürme
 url: /tr/python-net/conversion/html-to-pptx/
 keywords: HTML'yi PPTX'e, HTML'yi PPTX'e, PowerPoint, HTML, PPTX, Python API, Python Library'ye dönüştürün

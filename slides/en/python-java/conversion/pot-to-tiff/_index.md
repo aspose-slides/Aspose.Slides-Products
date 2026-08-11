@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to TIFF in Python
 url: /python-java/conversion/pot-to-tiff/
 keywords: Python POT conversion, POT to TIFF, PowerPoint to TIFF, presentation to multipage image, Aspose.Slides for Python via Java

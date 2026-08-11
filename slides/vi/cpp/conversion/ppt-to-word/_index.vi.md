@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển PPT sang Word trong C++
 url: /vi/cpp/conversion/ppt-to-word/
 keywords: Chuyển đổi PPT sang Word, PPT sang Word, PPT sang DOC, PowerPoint sang Word, API C++, Thư viện C++, CPP

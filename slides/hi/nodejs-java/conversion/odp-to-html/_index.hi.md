@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js में ODP को HTML में बदलें
 url: /hi/nodejs-java/conversion/odp-to-html/
 keywords: ODP से HTML, ODP को HTML में बदलें, Node.js API, Node.js लाइब्रेरी, ODP, HTML

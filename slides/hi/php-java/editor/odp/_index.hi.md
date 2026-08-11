@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में ODP संपादित करें
 url: /hi/php-java/editor/odp/
 keywords: संपादित करें ODP, संपादित करें PowerPoint, ODP, PowerPoint, PHP API, PHP लाइब्रेरी

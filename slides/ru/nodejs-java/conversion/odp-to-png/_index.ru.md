@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование ODP в PNG в Node.js
 url: /ru/nodejs-java/conversion/odp-to-png/
 keywords: ODP в PNG, конвертировать ODP в PNG, API Node.js, библиотека Node.js, ODP, PNG

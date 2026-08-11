@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 PNG 转换为 PPT
 url: /zh/php-java/conversion/png-to-ppt/
 keywords: PNG 到 PPT，将 PNG 转换为 PPT，PHP API，PHP 库，PNG，PPT

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPSM-filer till ODP med Python
 url: /sv/python-net/merge/ppsm-to-odp/
 keywords: Slå samman PPSM till ODP, gå med PPSM till ODP, kombinera PPSM till ODP, PowerPoint, Presentation, ODP, Python, Aspose

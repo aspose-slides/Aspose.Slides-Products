@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPSM в PPS в Node.js
 url: /ru/nodejs-java/conversion/ppsm-to-pps/
 keywords: PPSM в PPS, конвертировать PPSM в PPS, API Node.js, библиотека Node.js, PPSM, PPS

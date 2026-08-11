@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: SVG را به PNG در جاوا ادغام کنید
 url: /fa/java/merger/svg-to-png/
 keywords: ادغام SVG به PNG، SVG به PNG، پیوستن SVG به PNG، ترکیب SVG به PNG، Java API، کتابخانه جاوا

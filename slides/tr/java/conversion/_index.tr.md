@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java Kullanarak Birden Çok Dosyaya Microsoft PowerPoint Sunumu Dönüştürme
 url: /tr/java/conversion/
 description: Java tabanlı uygulamalarda Microsoft PowerPoint Slaytlarını HTML, PDF ve resim biçimleri dahil olmak üzere farklı dosyalara dönüştürün.

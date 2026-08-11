@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 在 PPTX 演示文件中創建圖表
 url: /zh-hant/python-net/chart/pptx/
 keywords: 創建圖表、創建散點圖、創建餅圖、創建樹狀圖、創建股票圖、創建盒須圖、創建直方圖、創建漏斗圖、旭日圖、多類別圖表、PowerPoint 演示文稿、Python

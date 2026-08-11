@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование презентации Python. Легко конвертируйте презентации с помощью Aspose.Slides.
 url: /ru/python-java/conversion/
 keywords: «Конвертировать, PowerPoint, Презентация, Python, Проекты Python, Библиотеки Python, PDF, Конвертировать в PDF, PPT в PDF»

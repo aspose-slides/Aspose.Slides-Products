@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a POT-ot PPSX-re Java segítségével
 weight: 7790
 url: /hu/java/conversion/pot-to-ppsx/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP'de JPG'yi PDF'ye birleştirme
 url: /tr/php-java/merger/jpg-to-pdf/
 keywords: JPG'den PDF'e, JPG'den PDF'e Birleştirme, JPG'den PDF'e Birleştirme, PDF, JPG, PHP API, PHP Kitaplığı

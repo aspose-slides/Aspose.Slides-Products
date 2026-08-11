@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で PDF を PPTM に変換します
 url: /ja/nodejs-net/conversion/pdf-to-pptm/
 keywords: PDF から PPTM、PDF から PPTM への変換、Node.js API、JavaScript ライブラリ、PDF、PPTM

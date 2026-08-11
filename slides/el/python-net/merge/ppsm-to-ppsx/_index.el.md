@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPSM σε PPSX χρησιμοποιώντας Python
 url: /el/python-net/merge/ppsm-to-ppsx/
 keywords: Συγχώνευση PPSM σε PPSX, Join PPSM σε PPSX, Combine PPSM σε PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

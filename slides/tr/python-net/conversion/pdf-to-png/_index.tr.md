@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PDF öğesini PNG biçimine dönüştürün
 url: /tr/python-net/conversion/pdf-to-png/
 keywords: PDF'tan PNG'a, PDF'tan PNG'a Dönüştürme, Python API, Python Kitaplığı, PDF, PNG

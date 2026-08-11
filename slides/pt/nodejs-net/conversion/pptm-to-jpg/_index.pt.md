@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter PPTM em JPG em JavaScript
 url: /pt/nodejs-net/conversion/pptm-to-jpg/
 keywords: PPTM para JPG, converter PPTM para JPG, API Node.js, biblioteca JavaScript, PPTM, JPG

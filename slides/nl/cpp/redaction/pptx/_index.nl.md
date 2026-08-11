@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bewerk PPTX presentatiebestanden met C++
 url: /nl/cpp/redaction/pptx/
 keywords: Bewerk PPTX, zoek en vervang tekst in PPTX, update PPTX presentatie

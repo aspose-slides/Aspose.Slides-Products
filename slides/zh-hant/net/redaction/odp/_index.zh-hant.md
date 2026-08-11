@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 .NET 編輯 ODP 演示文件
 url: /zh-hant/net/redaction/odp/
 keywords: 編輯 ODP，查找並替換 ODP 中的文本，更新 ODP 演示文稿

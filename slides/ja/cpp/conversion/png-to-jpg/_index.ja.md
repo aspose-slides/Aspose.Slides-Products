@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ で PNG を JPG に変換する
 url: /ja/cpp/conversion/png-to-jpg/
 keywords: PNG から JPG へ、PNG から JPG への変換、C++ API、C++ ライブラリ、PNG、JPG

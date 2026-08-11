@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++에서 이미지를 BMP에 병합
 url: /ko/cpp/merger/image-to-bmp/
 keywords: BMP에 이미지, BMP에 이미지 병합, BMP에 이미지 결합, 이미지 결합, 이미지, BMP, C++ API, C++ 라이브러리

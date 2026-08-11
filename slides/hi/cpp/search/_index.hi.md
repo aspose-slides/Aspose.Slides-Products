@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके PowerPoint और OpenOffice प्रस्तुतियों में पाठ खोजें
 url: /hi/cpp/search/
 description: PowerPoint और OpenOffice™ प्रस्तुतियों में पैटर्न वाले शब्दों को खोजने के लिए C++ स्रोत कोड

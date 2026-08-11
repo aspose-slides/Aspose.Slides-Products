@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPTX a BMP usando Python
 url: /it/python-net/merge/pptx-to-bmp/
 keywords: Unisci PPTX a BMP, Unisci PPTX a BMP, Combina PPTX a BMP, PowerPoint, Presentazione, BMP, Python, Aspose

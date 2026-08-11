@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman JPG-bilder i C#
 url: /sv/net/merger/jpg-to-jpg/
 keywords: Slå samman JPG, JPEG till JPG, gå med i JPG, kombinera JPG, C# API, .NET Library

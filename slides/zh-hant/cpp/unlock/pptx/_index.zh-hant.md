@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C++ 解鎖 PPTX 演示文件
 url: /zh-hant/cpp/unlock/pptx/
 keywords: 刪除寫保護 PPTX，解密 PPTX，解鎖 PPTX 演示文稿，取消保護 PPTX

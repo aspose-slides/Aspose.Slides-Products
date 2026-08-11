@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak POTX Dosyalarını POT İle Birleştirin
 url: /tr/python-net/merge/potx-to-pot/
 keywords: POTX'ı POT ile birleştir, POTX ile POT'a katıl, POTX'ı POT ile birleştir, PowerPoint, Presentation, POT, Python, Aspose

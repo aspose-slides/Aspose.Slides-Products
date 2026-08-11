@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง JPG เป็น PNG ใน Java
 url: /th/java/conversion/jpg-to-png/
 keywords: JPG เป็น PNG, แปลง JPG เป็น PNG, Java API, Java Library, JPG, PNG

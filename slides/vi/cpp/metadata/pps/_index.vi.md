@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem hoặc chỉnh sửa siêu dữ liệu tệp PPS bằng C++
 url: /vi/cpp/metadata/pps/
 keywords: Chỉnh sửa siêu dữ liệu PPS, Xem siêu dữ liệu PPS, Chỉnh sửa thuộc tính PPS, Xem thuộc tính PPS

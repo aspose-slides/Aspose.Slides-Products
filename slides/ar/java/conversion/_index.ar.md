@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل Microsoft PowerPoint Presentation إلى ملفات متعددة باستخدام Java
 url: /ar/java/conversion/
 description: قم بتحويل شرائح Microsoft PowerPoint إلى ملفات مختلفة بما في ذلك تنسيقات HTML و PDF والصور داخل التطبيقات المستندة إلى Java.

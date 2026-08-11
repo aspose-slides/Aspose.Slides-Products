@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files and Export to BMP Using Python
 url: /python-net/merge/pdf-to-bmp/
 keywords: Merge PDF to BMP, Join PDF to BMP, Combine PDF to BMP, PowerPoint, Presentation, BMP, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: مشاهده یا ویرایش فراداده فایل‌های PPSX با استفاده از Python
 url: /fa/python-net/metadata/ppsx/
 keywords: ویرایش فراداده PPSX، مشاهده فراداده PPSX، ویرایش ویژگی‌های PPSX، مشاهده ویژگی‌های PPSX

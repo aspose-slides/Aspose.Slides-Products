@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل OTP إلى GIF في JavaScript
 url: /ar/nodejs-net/conversion/otp-to-gif/
 keywords: OTP إلى GIF، تحويل OTP إلى GIF، Node.js API، مكتبة JavaScript، OTP، GIF

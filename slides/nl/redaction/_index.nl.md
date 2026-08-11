@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Redigeer PowerPoint-bestanden op Windows, Linux en macOS
 url: /nl/redaction/
 description: API's om bescherming toe te voegen aan PPT-, PPTX- en ODP-presentaties

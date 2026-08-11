@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPTX à l'aide de PHP
 url: /fr/php-java/merger/pptx/
 keywords: Fusionner PPTX, Joindre PPTX, Combiner PPTX, PowerPoint, Présentation, PHP, Aspose

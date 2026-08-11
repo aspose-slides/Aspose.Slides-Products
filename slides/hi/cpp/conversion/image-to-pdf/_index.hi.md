@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ में Image को PDF में बदलें
 url: /hi/cpp/conversion/image-to-pdf/
 keywords: Image से PDF, Image को PDF में बदलें, C++ API, C++ लाइब्रेरी, Image, PDF

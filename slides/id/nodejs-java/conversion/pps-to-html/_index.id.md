@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan PPS ke HTML di Node.js
 url: /id/nodejs-java/conversion/pps-to-html/
 keywords: PPS ke HTML, Konversi PPS ke HTML, API Node.js, Pustaka Node.js, PPS, HTML

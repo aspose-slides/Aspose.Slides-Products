@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal TIFF do PDF w PHP
 url: /pl/php-java/merger/tiff-to-pdf/
 keywords: TIFF do PDF, Scal TIFF do PDF, Dołącz TIFF do PDF, PDF, TIFF, PHP API, Biblioteka PHP

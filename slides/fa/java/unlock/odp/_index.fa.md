@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: باز کردن قفل فایل‌های ارائه ODP با استفاده از Java
 url: /fa/java/unlock/odp/
 keywords: حذف حفاظت نوشتن ODP، رمزگشایی یک ODP، باز کردن قفل ارائه ODP، لغو محافظت ODP

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman ODP-filer till POT med Python
 url: /sv/python-net/merge/odp-to-pot/
 keywords: Slå samman ODP till POT, gå med ODP till POT, kombinera ODP till POT, PowerPoint, Presentation, POT, Python, Aspose

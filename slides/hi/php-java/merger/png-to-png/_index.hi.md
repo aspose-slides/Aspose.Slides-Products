@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में PNG छवियों को मर्ज करें
 url: /hi/php-java/merger/png-to-png/
 keywords: PNG, PNG को PNG में मर्ज करें, PNG से जुड़ें, PNG, PHP API, PHP लाइब्रेरी को मिलाएं

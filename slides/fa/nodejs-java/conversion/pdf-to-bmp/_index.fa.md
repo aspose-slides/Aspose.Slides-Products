@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js PDF را به BMP تبدیل کنید
 url: /fa/nodejs-java/conversion/pdf-to-bmp/
 keywords: PDF به BMP، تبدیل PDF به BMP، Node.js API، Node.js Library، PDF، BMP

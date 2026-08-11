@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szerkessze a POTX fájlt PHP-ben
 url: /hu/php-java/editor/potx/
 keywords: Szerkesztés POTX, PowerPoint szerkesztése, POTX, PowerPoint, PHP API, PHP Library

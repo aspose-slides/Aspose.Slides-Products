@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 從 PowerPoint 和 OpenOffice 文檔中提取文本或對象
 url: /zh-hant/java/parser/
 description: 用於從 PowerPoint 和 OpenOffice 演示文稿中提取數據的 Java 源代碼。

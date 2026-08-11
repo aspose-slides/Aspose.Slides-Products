@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POT para BMP usando Python
 url: /pt/python-net/merge/pot-to-bmp/
 keywords: Mesclar POT com BMP, juntar POT com BMP, combinar POT com BMP, PowerPoint, Presentation, BMP, Python, Aspose

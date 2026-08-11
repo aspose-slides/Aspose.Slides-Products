@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中將 POT 轉換為 PPTX
 weight: 1060
 url: /zh-hant/python-net/conversion/pot-to-pptx/ 

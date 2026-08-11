@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File ODP Ke PPSX Menggunakan Python
 url: /id/python-net/merge/odp-to-ppsx/
 keywords: Gabungkan ODP ke PPSX, Gabungkan ODP ke PPSX, Gabungkan ODP ke PPSX, PowerPoint, Presentasi, PPSX, Python, Aspose

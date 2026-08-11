@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в HTML в Java
 url: /ru/java/conversion/pdf-to-html/
 keywords: PDF в HTML, преобразовать PDF в HTML, API Java, библиотеку Java, PDF, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTM do JPG pomocí Pythonu
 url: /cs/python-net/merge/pptm-to-jpg/
 keywords: Sloučit PPTM do JPG, připojit PPTM do JPG, kombinovat PPTM do JPG, PowerPoint, Presentation, JPG, Python, Aspose

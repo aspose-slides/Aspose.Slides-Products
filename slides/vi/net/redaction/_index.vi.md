@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Làm lại các bản trình bày PowerPoint và OpenOffice bằng .NET
 url: /vi/net/redaction/
 description: Mã nguồn C# để tìm và xóa nội dung trong bản trình bày PowerPoint và OpenOffice™

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-13
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to TIFF in Node.js
 url: /nodejs-java/conversion/pot-to-tiff/
 keywords: POT to TIFF, Convert POT to TIFF, Node.js API, Node.js Library, POT, TIFF

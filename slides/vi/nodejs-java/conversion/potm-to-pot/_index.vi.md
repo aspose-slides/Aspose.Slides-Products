@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POTM thành POT trong Node.js
 url: /vi/nodejs-java/conversion/potm-to-pot/
 keywords: POTM sang POT, Chuyển đổi POTM sang POT, API Node.js, Thư viện Node.js, POTM, POT

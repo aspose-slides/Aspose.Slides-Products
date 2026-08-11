@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PPSX را با OTP ادغام کنید
 url: /fa/python-net/merge/ppsx-to-otp/
 keywords: ادغام PPSX به OTP، پیوستن به PPSX به OTP، ترکیب PPSX به OTP، PowerPoint، Presentation، OTP، Python، Aspose

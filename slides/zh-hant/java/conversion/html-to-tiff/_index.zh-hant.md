@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 HTML 轉換為 TIFF
 url: /zh-hant/java/conversion/html-to-tiff/
 keywords: HTML 到 TIFF，將 HTML 轉換為 TIFF，Java API，Java 庫，HTML，TIFF

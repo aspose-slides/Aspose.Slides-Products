@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) POTM konvertálása PPTX formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/potm-to-pptx/
 keywords: POTM to PPTX, POTM konvertálása PPTX formátumba, Node.js API, Node.js Library, POTM, PPTX

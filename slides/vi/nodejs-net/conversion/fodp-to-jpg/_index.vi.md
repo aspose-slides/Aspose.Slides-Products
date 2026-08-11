@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi FODP sang JPG trong JavaScript
 url: /vi/nodejs-net/conversion/fodp-to-jpg/
 keywords: FODP sang JPG, Chuyển đổi FODP sang JPG, API Node.js, Thư viện JavaScript, FODP, JPG

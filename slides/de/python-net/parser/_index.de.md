@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahieren Sie Text oder Objekte aus PowerPoint- und OpenOffice-Dokumenten mit Python
 url: /de/python-net/parser/
 description: Python-Quellcode zum Extrahieren von Daten aus PowerPoint- und OpenOffice-Präsentationen.

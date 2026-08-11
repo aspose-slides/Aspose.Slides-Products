@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPS in Java
 url: /java/viewer/pps/
 keywords: View PPS, Open PPS, PPS Viewer, PPS, Java API, Java Library

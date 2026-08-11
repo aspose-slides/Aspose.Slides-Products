@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PDF σε SVG στο Node.js
 url: /el/nodejs-java/conversion/pdf-to-svg/
 keywords: PDF σε SVG, Convert PDF σε SVG, Node.js API, Node.js Library, PDF, SVG

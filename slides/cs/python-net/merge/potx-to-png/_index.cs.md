@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POTX do PNG pomocí Pythonu
 url: /cs/python-net/merge/potx-to-png/
 keywords: Sloučit POTX do PNG, připojit POTX do PNG, kombinovat POTX do PNG, PowerPoint, Presentation, PNG, Python, Aspose

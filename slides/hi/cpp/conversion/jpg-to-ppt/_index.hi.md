@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जेपीजी को सी++ में पीपीटी में बदलें
 url: /hi/cpp/conversion/jpg-to-ppt/
 keywords: JPG को PPT, JPG को PPT, PowerPoint, JPG, PPT, C++ API, C++ लाइब्रेरी में कनवर्ट करें

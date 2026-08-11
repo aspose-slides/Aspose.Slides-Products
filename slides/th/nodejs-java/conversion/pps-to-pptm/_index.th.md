@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPS เป็น PPTM ใน Node.js
 url: /th/nodejs-java/conversion/pps-to-pptm/
 keywords: PPS เป็น PPTM, แปลง PPS เป็น PPTM, Node.js API, ไลบรารี Node.js, PPS, PPTM

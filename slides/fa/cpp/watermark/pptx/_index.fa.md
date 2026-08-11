@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: اضافه کردن واترمارک به فایل‌های ارائه PPTX با استفاده از C++
 url: /fa/cpp/watermark/pptx/
 keywords: افزودن واترمارک PPTX، افزودن واترمارک متنی PPTX، افزودن واترمارک تصویری PPTX

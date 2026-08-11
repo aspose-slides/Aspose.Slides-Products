@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a OTP fájlokat a PPTM formátumba Python használatával
 url: /hu/python-net/merge/otp-to-pptm/
 keywords: A(z) OTP egyesítése a(z) PPTM formátumba, a(z) OTP csatlakozása a(z) PPTM formátumba, a(z)(OTP) összevonása a(z) PPTM formátumba, PowerPoint, Presentation, PPTM, Python, Aspose

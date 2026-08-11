@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แยกข้อความและรูปภาพจากไฟล์ PPTX โดยใช้ Python
 url: /th/python-net/parser/pptx/
 keywords: แยก PPTX โดยใช้ Python, PPTX แยกวิเคราะห์ Python, แยกข้อมูลจาก PPTX ใน Python, แยกข้อความจาก PPTX โดยใช้ Python, แยกรูปภาพจาก PPTX โดยใช้ Python

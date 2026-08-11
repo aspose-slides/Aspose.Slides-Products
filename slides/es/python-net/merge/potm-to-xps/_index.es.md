@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTM a XPS usando Python
 url: /es/python-net/merge/potm-to-xps/
 keywords: Combinar POTM a XPS, unir POTM a XPS, combinar POTM a XPS, PowerPoint, Presentation, XPS, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ค้นหาข้อความในไฟล์การนำเสนอ PPT โดยใช้ Python
 url: /th/python-net/search/ppt/
 keywords: คำค้นหาใน PPT ค้นหาและแทนที่ข้อความใน PPT ข้อความค้นหา PPT

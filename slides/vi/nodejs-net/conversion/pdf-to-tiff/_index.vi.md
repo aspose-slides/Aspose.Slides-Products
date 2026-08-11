@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF sang TIFF trong JavaScript
 url: /vi/nodejs-net/conversion/pdf-to-tiff/
 keywords: PDF sang TIFF, Chuyển đổi PDF sang TIFF, API Node.js, Thư viện JavaScript, PDF, TIFF

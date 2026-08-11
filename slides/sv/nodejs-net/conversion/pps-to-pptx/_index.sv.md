@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPS till PPTX i JavaScript
 url: /sv/nodejs-net/conversion/pps-to-pptx/
 keywords: PPS till PPTX, Konvertera PPS till PPTX, Node.js API, JavaScript Library, PPS, PPTX

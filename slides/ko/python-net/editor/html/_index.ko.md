@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 파이썬에서 HTML 편집
 url: /ko/python-net/editor/html/
 keywords: HTML, HTML, Python API, Python 라이브러리 편집

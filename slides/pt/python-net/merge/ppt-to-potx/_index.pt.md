@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPT para POTX usando Python
 url: /pt/python-net/merge/ppt-to-potx/
 keywords: Mesclar PPT com POTX, juntar PPT com POTX, combinar PPT com POTX, PowerPoint, Presentation, POTX, Python, Aspose

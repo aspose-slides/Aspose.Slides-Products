@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPSM konvertálása PPTM-re C# segítségével
 weight: 8120
 url: /hu/net/conversion/ppsm-to-pptm/ 

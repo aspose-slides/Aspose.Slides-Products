@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg és képek kibontása a PPTX fájlokból a Python használatával
 url: /hu/python-net/parser/pptx/
 keywords: elemezze a PPTX elemet a Python használatával, a PPTX elemzőt a Python használatával, kinyerje ki az adatokat a PPTX elemből a Python nyelven, bontsa ki a szöveget a PPTX-ből a Python használatával, bontsa ki a képeket a PPTX-ból a Python használatával

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های PDF را با PPSM ادغام کنید
 url: /fa/python-net/merge/pdf-to-ppsm/
 keywords: ادغام PDF به PPSM، پیوستن به PDF به PPSM، ترکیب PDF به PPSM، PowerPoint، Presentation، PPSM، Python، Aspose

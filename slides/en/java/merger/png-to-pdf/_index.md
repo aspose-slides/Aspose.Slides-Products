@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PNG to PDF in Java
 url: /java/merger/png-to-pdf/
 keywords: PNG to PDF, Merge PNG to PDF, Join PNG to PDF, PDF, PNG, Java API, Java Library

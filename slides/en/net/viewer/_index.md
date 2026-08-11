@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-10
 title: View PowerPoint Presentations using Aspose.Slides for .NET API
 url: /net/viewer/
 description: View PowerPoint and OpenDocument presentations in C# using Aspose.Slides for .NET.

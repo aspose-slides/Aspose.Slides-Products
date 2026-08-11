@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP를 사용하여 PPTX 파일 병합
 url: /ko/php-java/merger/pptx/
 keywords: PPTX 병합, PPTX 가입, PPTX 결합, PowerPoint, 프레젠테이션, PHP, Aspose

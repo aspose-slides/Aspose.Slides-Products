@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POT do PPSX pomocí Pythonu
 url: /cs/python-net/merge/pot-to-ppsx/
 keywords: Sloučit POT do PPSX, připojit POT do PPSX, kombinovat POT do PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

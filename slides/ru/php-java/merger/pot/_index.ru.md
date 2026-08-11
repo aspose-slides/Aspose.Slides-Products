@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы POT с помощью PHP
 url: /ru/php-java/merger/pot/
 keywords: Объединить POT, присоединиться к POT, объединить POT, PowerPoint, презентацию, PHP, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แยกข้อความหรือวัตถุจากเอกสาร PowerPoint และ OpenOffice โดยใช้ Java
 url: /th/java/parser/
 description: ซอร์สโค้ด Java สำหรับการดึงข้อมูลจากงานนำเสนอ PowerPoint และ OpenOffice

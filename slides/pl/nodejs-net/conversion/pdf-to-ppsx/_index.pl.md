@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PDF na PPSX w JavaScript
 url: /pl/nodejs-net/conversion/pdf-to-ppsx/
 keywords: PDF na PPSX, Konwertuj PDF na PPSX, API Node.js, Biblioteka JavaScript, PDF, PPSX

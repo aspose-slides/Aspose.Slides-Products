@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj OTP na JPG w JavaScript
 url: /pl/nodejs-net/conversion/otp-to-jpg/
 keywords: OTP na JPG, Konwertuj OTP na JPG, API Node.js, Biblioteka JavaScript, OTP, JPG

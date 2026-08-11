@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View POT in C++
 url: /cpp/viewer/pot/
 keywords: View POT, Open POT, POT Viewer, POT, C++ API, C++ Library, CPP

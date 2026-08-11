@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to PDF in C++
 url: /cpp/conversion/image-to-pdf/
 keywords: Image to PDF, Convert Image to PDF, C++ API, C++ Library, Image, PDF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 FODP 파일을 POT에 병합
 url: /ko/python-net/merge/fodp-to-pot/
 keywords: FODP을 POT에 병합, FODP을 POT에 결합, FODP을 POT에 결합, PowerPoint, Presentation, POT, Python, Aspose

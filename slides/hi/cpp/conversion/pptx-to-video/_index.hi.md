@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पीपीटीएक्स को सी ++ में वीडियो में कनवर्ट करें
 url: /hi/cpp/conversion/pptx-to-video/
 keywords: PPTX को वीडियो में, PPTX को वीडियो में, PowerPoint को वीडियो में, PPTX को MP4 में, C++ API, C++ लाइब्रेरी में कन्वर्ट करें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 PNG 转换为 PPT
 url: /zh/python-net/conversion/png-to-ppt/
 keywords: 将 PNG 转换为 PPT、将 PNG 转换为 PPT、PowerPoint、PNG、PPT、Python API、Python 库

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Protect ODP Presentation Files using .NET
 url: /net/protect/odp/
 keywords: ODP Write Protection, Encrypt ODP, Lock ODP Presentation, Protect ODP

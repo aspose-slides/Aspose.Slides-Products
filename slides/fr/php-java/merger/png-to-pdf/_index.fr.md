@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner PNG en PDF en PHP
 url: /fr/php-java/merger/png-to-pdf/
 keywords: PNG en PDF, Fusionner PNG en PDF, Joindre PNG en PDF, PDF, PNG, API PHP, Bibliothèque PHP

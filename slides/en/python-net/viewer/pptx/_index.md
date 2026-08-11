@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: View PPTX in Python
 url: /python-net/viewer/pptx/
 keywords: View PPTX, View PowerPoint, Open PPTX, PPTX Viewer, PPTX, PowerPoint, Python API, Python Library

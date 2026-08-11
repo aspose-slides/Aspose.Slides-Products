@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a(z) FODP fájlt PPSM formátumra a Pythonban
 url: /hu/python-java/conversion/fodp-to-ppsm/
 keywords: Python prezentáció konvertálás, prezentációk konvertálása Python formátumba, Python prezentációkhoz, Aspose.Slides Python, FODP konvertálása PPSM formátumba, Python prezentációs könyvtár

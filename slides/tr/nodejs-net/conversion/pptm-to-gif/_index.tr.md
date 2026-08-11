@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript'te PPTM'ı GIF'a dönüştürün
 url: /tr/nodejs-net/conversion/pptm-to-gif/
 keywords: PPTM'tan GIF'a, PPTM'ı GIF'a dönüştürün, Node.js API, JavaScript Kitaplığı, PPTM, GIF

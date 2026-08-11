@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中將 PPS 轉換為 PNG
 url: /zh-hant/python-java/conversion/pps-to-png/
 keywords: Python 簡報轉換、將簡報轉換為 Python、Python 簡報、Aspose.Slides Python、PPS 到 PNG 轉換、Python 簡報庫

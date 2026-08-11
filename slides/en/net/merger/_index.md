@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF, PPT, PPTX and Many Other File Formats Using C#
 url: /net/merger/
 keywords: Merge, Join, PowerPoint, Presentation, C#, .NET, Aspose

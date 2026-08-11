@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή HTML σε PPT στην Python
 url: /el/python-net/conversion/html-to-ppt/
 keywords: Μετατροπή HTML σε PPT, HTML σε PPT, PowerPoint, HTML, PPT, Python API, Python Library

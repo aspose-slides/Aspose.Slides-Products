@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام PNG به PDF در سی شارپ
 url: /fa/net/merger/png-to-pdf/
 keywords: PNG به PDF، ادغام PNG به PDF، پیوستن PNG به PDF، PDF، PNG، C# API، کتابخانه NET.

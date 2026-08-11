@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PPSX σε PPS στο Node.js
 url: /el/nodejs-java/conversion/ppsx-to-pps/
 keywords: PPSX σε PPS, Convert PPSX σε PPS, Node.js API, Node.js Library, PPSX, PPS

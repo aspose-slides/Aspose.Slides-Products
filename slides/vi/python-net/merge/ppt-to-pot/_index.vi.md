@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPT thành POT bằng Python
 url: /vi/python-net/merge/ppt-to-pot/
 keywords: Hợp nhất PPT thành POT, Nối PPT thành POT, Kết hợp PPT thành POT, PowerPoint, Bản trình bày, POT, Python, Aspose

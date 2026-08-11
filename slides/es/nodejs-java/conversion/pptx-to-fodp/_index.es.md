@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta PPTX a FODP en Node.js
 url: /es/nodejs-java/conversion/pptx-to-fodp/
 keywords: PPTX a FODP, Convertir PPTX a FODP, API de Node.js, Biblioteca Node.js, PPTX, FODP

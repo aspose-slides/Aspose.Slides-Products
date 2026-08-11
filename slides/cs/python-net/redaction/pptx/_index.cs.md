@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Úprava souborů prezentace PPTX pomocí Python
 url: /cs/python-net/redaction/pptx/
 keywords: Upravit PPTX, najít a nahradit text ve PPTX, aktualizovat PPTX prezentaci

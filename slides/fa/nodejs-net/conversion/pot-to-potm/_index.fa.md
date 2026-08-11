@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت POT را به POTM تبدیل کنید
 url: /fa/nodejs-net/conversion/pot-to-potm/
 keywords: POT به POTM، تبدیل POT به POTM، Node.js API، کتابخانه جاوا اسکریپت، POT، POTM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos FODP a XPS usando Python
 url: /es/python-net/merge/fodp-to-xps/
 keywords: Combinar FODP a XPS, unir FODP a XPS, combinar FODP a XPS, PowerPoint, Presentation, XPS, Python, Aspose

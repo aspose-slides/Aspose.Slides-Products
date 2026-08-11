@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPSX-bestanden samen naar PPS met Python
 url: /nl/python-net/merge/ppsx-to-pps/
 keywords: Voeg PPSX samen tot PPS, voeg PPSX toe aan PPS, combineer PPSX tot PPS, PowerPoint, Presentatie, PPS, Python, Aspose

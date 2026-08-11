@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPS Files to OTP with Python
 url: /python-net/merge/pps-to-otp/
 keywords: Merge PPS to OTP, Join PPS to OTP, Combine PPS to OTP, PowerPoint, Presentation, OTP, Python, Aspose

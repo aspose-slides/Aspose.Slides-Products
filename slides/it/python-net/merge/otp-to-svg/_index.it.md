@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file OTP a SVG usando Python
 url: /it/python-net/merge/otp-to-svg/
 keywords: Unisci OTP a SVG, Unisci OTP a SVG, Combina OTP a SVG, PowerPoint, Presentazione, SVG, Python, Aspose

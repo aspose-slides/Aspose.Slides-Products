@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript で PDF を HTML に変換します
 url: /ja/nodejs-net/conversion/pdf-to-html/
 keywords: PDF から HTML、PDF から HTML への変換、Node.js API、JavaScript ライブラリ、PDF、HTML

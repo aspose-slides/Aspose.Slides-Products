@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg ODP-bestanden samen naar PPSM met Python
 url: /nl/python-net/merge/odp-to-ppsm/
 keywords: Voeg ODP samen tot PPSM, voeg ODP toe aan PPSM, combineer ODP tot PPSM, PowerPoint, Presentatie, PPSM, Python, Aspose

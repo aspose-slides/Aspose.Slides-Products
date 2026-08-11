@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل HTML إلى Image في جافا
 url: /ar/java/conversion/html-to-image/
 keywords: HTML إلى Image ، تحويل HTML إلى Image ، واجهة برمجة تطبيقات جافا ، مكتبة جافا ، HTML ، Image

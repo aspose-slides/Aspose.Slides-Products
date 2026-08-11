@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Editar PPTX en PHP
 url: /es/php-java/editor/pptx/
 keywords: Editar PPTX, Editar PowerPoint, PPTX, PowerPoint, API de PHP, Biblioteca de PHP

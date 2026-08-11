@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to ODP in Python
 url: /python-java/conversion/ppt-to-odp/
 keywords: Python PPT conversion, PPT to ODP, PowerPoint to OpenDocument, presentation format conversion, Aspose.Slides for Python via Java

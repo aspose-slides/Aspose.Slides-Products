@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers POTM vers SVG à l'aide de Python
 url: /fr/python-net/merge/potm-to-svg/
 keywords: Fusionner POTM à SVG, Joindre POTM à SVG, Combiner POTM à SVG, PowerPoint, Présentation, SVG, Python, Aspose

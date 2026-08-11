@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi Presentasi Microsoft PowerPoint ke PDF dengan Python
 url: /id/python-net/conversion/
 keywords: "Konversi, PowerPoint, Presentasi, Python, PDF, Konversi ke PDF, PPT ke PDF"

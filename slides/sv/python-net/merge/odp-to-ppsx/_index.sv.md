@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman ODP-filer till PPSX med Python
 url: /sv/python-net/merge/odp-to-ppsx/
 keywords: Slå samman ODP till PPSX, gå med ODP till PPSX, kombinera ODP till PPSX, PowerPoint, Presentation, PPSX, Python, Aspose

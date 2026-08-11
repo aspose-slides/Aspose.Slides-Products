@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 POTX 파일 병합
 url: /ko/python-net/merge/potx/
 keywords: POTX 병합, POTX 가입, POTX 결합, PowerPoint, Presentation, Python, Aspose

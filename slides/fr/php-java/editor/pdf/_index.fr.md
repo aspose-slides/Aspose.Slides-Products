@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Modifier PDF en PHP
 url: /fr/php-java/editor/pdf/
 keywords: Modifier PDF, Modifier PowerPoint, PDF, PowerPoint, API PHP, Bibliothèque PHP

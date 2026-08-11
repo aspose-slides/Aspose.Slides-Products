@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg SVG samen met PNG in C++
 url: /nl/cpp/merger/svg-to-png/
 keywords: Voeg SVG samen met PNG, SVG met PNG, Word lid van SVG met PNG, Combineer SVG met PNG, C++ API, C++ Library

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSM Files into PPTX Using Python
 url: /python-net/merge/ppsm-to-pptx/
 keywords: Merge PPSM to PPTX, Join PPSM to PPTX, Combine PPSM to PPTX, PowerPoint, Presentation, PPTX, Python, Aspose

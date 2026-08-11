@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory POT do ODP pomocí Pythonu
 url: /cs/python-net/merge/pot-to-odp/
 keywords: Sloučit POT do ODP, připojit POT do ODP, kombinovat POT do ODP, PowerPoint, Presentation, ODP, Python, Aspose

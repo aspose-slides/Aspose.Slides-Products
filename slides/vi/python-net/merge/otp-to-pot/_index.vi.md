@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp OTP thành POT bằng Python
 url: /vi/python-net/merge/otp-to-pot/
 keywords: Hợp nhất OTP thành POT, Nối OTP thành POT, Kết hợp OTP thành POT, PowerPoint, Bản trình bày, POT, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da PPT'yi FODP'ye Dönüştür
 weight: 2230
 url: /tr/python-net/conversion/ppt-to-fodp/ 

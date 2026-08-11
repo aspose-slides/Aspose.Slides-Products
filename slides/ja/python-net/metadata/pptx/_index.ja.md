@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPTX ファイルのメタデータを表示または編集する
 url: /ja/python-net/metadata/pptx/
 keywords: PPTX メタデータの編集、PPTX メタデータの表示、PPTX プロパティの編集、PPTX プロパティの表示

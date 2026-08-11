@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPTM vers TIFF à l'aide de Python
 url: /fr/python-net/merge/pptm-to-tiff/
 keywords: Fusionner PPTM à TIFF, Joindre PPTM à TIFF, Combiner PPTM à TIFF, PowerPoint, Présentation, TIFF, Python, Aspose

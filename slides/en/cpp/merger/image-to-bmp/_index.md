@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-09
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge Image to BMP in C++
 url: /cpp/merger/image-to-bmp/
 keywords: Image to BMP, Merge image to BMP, Join image to BMP, Combine images, Image, BMP, C++ API, C++ Library

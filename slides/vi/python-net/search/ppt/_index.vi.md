@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Tìm kiếm Văn bản trong Tệp Bản trình bày PPT bằng Python
 url: /vi/python-net/search/ppt/
 keywords: tìm kiếm từ trong PPT, tìm kiếm và thay thế văn bản trong PPT, tìm kiếm văn bản PPT Bản trình bày

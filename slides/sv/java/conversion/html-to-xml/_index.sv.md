@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera HTML till XML i Java
 url: /sv/java/conversion/html-to-xml/
 keywords: HTML till XML, Konvertera HTML till XML, Java API, Java Library, HTML, XML

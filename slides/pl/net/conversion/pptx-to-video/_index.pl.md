@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PPTX na wideo w C#
 url: /pl/net/conversion/pptx-to-video/
 keywords: Konwertuj PPTX na wideo, PPTX na wideo, PowerPoint na wideo, PPTX na MP4, C# API, .NET Library

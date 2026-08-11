@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PNG na PPT w Pythonie
 url: /pl/python-net/conversion/png-to-ppt/
 keywords: Konwertuj PNG na PPT, PNG na PPT, PowerPoint, PNG, PPT, Python API, Python Library

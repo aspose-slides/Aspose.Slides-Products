@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg POTX-bestanden samen naar PDF met Python
 url: /nl/python-net/merge/potx-to-pdf/
 keywords: Voeg POTX samen tot PDF, voeg POTX toe aan PDF, combineer POTX tot PDF, PowerPoint, Presentatie, PDF, Python, Aspose

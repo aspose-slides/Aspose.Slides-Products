@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Odeberte anotaci ODP pomocí jazyka Java
 weight: 1790
 url: /cs/java/annotation/odp/ 

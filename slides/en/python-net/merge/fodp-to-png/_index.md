@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-27
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge FODP Files and Export to PNG Using Python
 url: /python-net/merge/fodp-to-png/
 keywords: Merge FODP to PNG, Join FODP to PNG, Combine FODP to PNG, PowerPoint, Presentation, PNG, Python, Aspose

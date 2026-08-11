@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP で POTM を編集
 url: /ja/php-java/editor/potm/
 keywords: POTM の編集、PowerPoint の編集、POTM、PowerPoint、PHP API、PHP ライブラリ

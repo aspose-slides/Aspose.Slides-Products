@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file FODP a PPSM usando Python
 url: /it/python-net/merge/fodp-to-ppsm/
 keywords: Unisci FODP a PPSM, Unisci FODP a PPSM, Combina FODP a PPSM, PowerPoint, Presentazione, PPSM, Python, Aspose

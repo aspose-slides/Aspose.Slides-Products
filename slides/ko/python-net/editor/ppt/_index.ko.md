@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 PPT 편집
 url: /ko/python-net/editor/ppt/
 keywords: PPT 편집, PowerPoint 편집, PPT, PowerPoint, Python API, Python 라이브러리

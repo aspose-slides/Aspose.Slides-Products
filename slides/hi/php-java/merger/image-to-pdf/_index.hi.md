@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में छवि को पीडीएफ में मर्ज करें
 url: /hi/php-java/merger/image-to-pdf/
 keywords: इमेज टू पीडीएफ, मर्ज इमेज टू पीडीएफ, ज्वाइन इमेज टू पीडीएफ, पीडीएफ, इमेज, पीएचपी एपीआई, पीएचपी लाइब्रेरी

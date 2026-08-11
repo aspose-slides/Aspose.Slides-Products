@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPSM σε BMP χρησιμοποιώντας Python
 url: /el/python-net/merge/ppsm-to-bmp/
 keywords: Συγχώνευση PPSM σε BMP, Join PPSM σε BMP, Combine PPSM σε BMP, PowerPoint, Presentation, BMP, Python, Aspose

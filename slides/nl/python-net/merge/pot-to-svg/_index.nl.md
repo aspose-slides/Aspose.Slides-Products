@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg POT-bestanden samen naar SVG met Python
 url: /nl/python-net/merge/pot-to-svg/
 keywords: Voeg POT samen tot SVG, voeg POT toe aan SVG, combineer POT tot SVG, PowerPoint, Presentatie, SVG, Python, Aspose

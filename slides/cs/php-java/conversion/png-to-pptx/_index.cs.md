@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PNG do PPTX v PHP
 url: /cs/php-java/conversion/png-to-pptx/
 keywords: PNG do PPTX, Převést PNG do PPTX, PHP API, PHP Library, PNG, PPTX

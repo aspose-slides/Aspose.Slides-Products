@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Agregar marca de agua a PPTX archivos de presentación usando C++
 url: /es/cpp/watermark/pptx/
 keywords: Añadir marca de agua PPTX, Añadir marca de agua de texto PPTX, Añadir marca de agua de imagen PPTX

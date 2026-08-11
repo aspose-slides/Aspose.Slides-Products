@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-06-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert HTML to PPT in C++
 url: /cpp/conversion/html-to-ppt/
 keywords: Convert HTML to PPT, HTML to PPT, PowerPoint, HTML, PPT, C++ API, C++ Library

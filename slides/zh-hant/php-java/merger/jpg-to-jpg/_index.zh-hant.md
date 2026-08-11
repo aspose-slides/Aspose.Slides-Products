@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中合併 JPG 圖像
 url: /zh-hant/php-java/merger/jpg-to-jpg/
 keywords: 合併 JPG、JPEG 到 JPG、合併 JPG、合併 JPG、PHP API、PHP 庫

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPT fájlokat PHP segítségével
 url: /hu/php-java/merger/ppt/
 keywords: Egyesítés PPT, Csatlakozás PPT, Összevonás PPT, PowerPoint, Prezentáció, PHP, Aspose

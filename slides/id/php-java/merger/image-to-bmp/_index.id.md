@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan Gambar ke BMP di PHP
 url: /id/php-java/merger/image-to-bmp/
 keywords: Gambar ke BMP, Gabungkan gambar ke BMP, Gabungkan gambar ke BMP, Gabungkan gambar, Gambar, BMP, API PHP, Perpustakaan PHP

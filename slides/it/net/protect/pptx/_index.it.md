@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Proteggi i file di presentazione PPTX utilizzando .NET
 url: /it/net/protect/pptx/
 keywords: Protezione da scrittura PPTX, crittografia di una presentazione PPTX, blocco PPTX, protezione PPTX

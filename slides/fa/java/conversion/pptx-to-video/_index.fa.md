@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPTX به ویدیو در جاوا
 url: /fa/java/conversion/pptx-to-video/
 keywords: تبدیل PPTX به ویدئو، PPTX به ویدئو، پاورپوینت به ویدئو، PPT به MP4، Java API، کتابخانه جاوا

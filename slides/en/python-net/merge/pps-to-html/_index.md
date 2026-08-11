@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPS Files to HTML with Python
 url: /python-net/merge/pps-to-html/
 keywords: Merge PPS to HTML, Join PPS to HTML, Combine PPS to HTML, PowerPoint, Presentation, HTML, Python, Aspose

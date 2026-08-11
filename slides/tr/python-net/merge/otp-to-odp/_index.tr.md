@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python Kullanarak OTP Dosyalarını ODP İle Birleştirin
 url: /tr/python-net/merge/otp-to-odp/
 keywords: OTP'ı ODP ile birleştir, OTP ile ODP'a katıl, OTP'ı ODP ile birleştir, PowerPoint, Presentation, ODP, Python, Aspose

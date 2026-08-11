@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất JPG sang PDF trong Python
 url: /vi/python-net/merge/jpg-to-pdf/
 keywords: JPG sang PDF, Hợp nhất JPG sang PDF, Nối JPG sang PDF, PDF, JPG, API Python, Thư viện Python

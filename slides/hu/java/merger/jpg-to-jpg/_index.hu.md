@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG képek egyesítése Java nyelven
 url: /hu/java/merger/jpg-to-jpg/
 keywords: JPG, JPEG egyesítése JPG-be, Csatlakozás JPG-hez, JPG kombinálása, Java API, Java könyvtár

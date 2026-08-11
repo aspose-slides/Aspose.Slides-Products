@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή POT σε PPS σε JavaScript
 url: /el/nodejs-net/conversion/pot-to-pps/
 keywords: POT σε PPS, Μετατροπή POT σε PPS, Node.js API, JavaScript Library, POT, PPS

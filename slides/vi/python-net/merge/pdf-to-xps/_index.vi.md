@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PDF thành XPS bằng Python
 url: /vi/python-net/merge/pdf-to-xps/
 keywords: Hợp nhất PDF thành XPS, Nối PDF thành XPS, Kết hợp PDF thành XPS, PowerPoint, Bản trình bày, XPS, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPTX vers OTP à l'aide de Python
 url: /fr/python-net/merge/pptx-to-otp/
 keywords: Fusionner PPTX à OTP, Joindre PPTX à OTP, Combiner PPTX à OTP, PowerPoint, Présentation, OTP, Python, Aspose

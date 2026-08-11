@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to TIFF in Python
 url: /python-java/conversion/potx-to-tiff/
 keywords: Python POTX conversion, POTX to TIFF, PowerPoint template to TIFF, template to multipage TIFF, Aspose.Slides for Python via Java

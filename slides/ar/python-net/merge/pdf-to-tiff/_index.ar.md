@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PDF إلى TIFF باستخدام Python
 url: /ar/python-net/merge/pdf-to-tiff/
 keywords: دمج PDF إلى TIFF ، انضم إلى PDF إلى TIFF ، ادمج PDF إلى TIFF ، PowerPoint ، Presentation ، TIFF ، Python ، Aspose

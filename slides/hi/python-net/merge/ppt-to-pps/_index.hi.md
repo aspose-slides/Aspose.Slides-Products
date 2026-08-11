@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPT फ़ाइलों को PPS में मर्ज करें
 url: /hi/python-net/merge/ppt-to-pps/
 keywords: PPT को PPS में मिलाएं, PPT से PPS में शामिल हों, PPT से PPS, PowerPoint, प्रेजेंटेशन, PPS, Python, Aspose को मिलाएं

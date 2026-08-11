@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ kullanarak ODP Sunum Dosyalarına Filigran ekleyin
 url: /tr/cpp/watermark/odp/
 keywords: Filigran Ekle ODP, Metin Filigranı Ekle ODP, Görüntü Filigranı Ekle ODP

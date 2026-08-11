@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PDF in C#
 url: /it/net/merger/pdf-to-pdf/
 keywords: Unisci PDF, PDF in PDF, Unisci PDF, Combina PDF, API C#, Libreria .NET

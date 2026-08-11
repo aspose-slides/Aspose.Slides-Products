@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hozzon létre diagramot PPT prezentációs fájlokban a Python használatával
 url: /hu/python-net/chart/ppt/
 keywords: Hozzon létre diagramot, szórt diagramot, kördiagramot, fatérképes diagramot, részvénydiagramot, doboz- és bajuszdiagramot, hisztogram diagramot, tölcsérdiagramot, napkitörési diagramot, többkategóriás diagramot, PowerPoint-prezentációt, Python

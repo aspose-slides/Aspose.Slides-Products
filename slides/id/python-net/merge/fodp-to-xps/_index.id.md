@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File FODP Ke XPS Menggunakan Python
 url: /id/python-net/merge/fodp-to-xps/
 keywords: Gabungkan FODP ke XPS, Gabungkan FODP ke XPS, Gabungkan FODP ke XPS, PowerPoint, Presentasi, XPS, Python, Aspose

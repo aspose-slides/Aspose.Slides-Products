@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض وتحرير البيانات الوصفية في PowerPoint باستخدام Python
 url: /ar/python-net/metadata/
 description: كود مصدر Python لعرض خصائص العرض وتحريرها

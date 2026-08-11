@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg POTM-bestanden samen naar PPSX met Python
 url: /nl/python-net/merge/potm-to-ppsx/
 keywords: Voeg POTM samen tot PPSX, voeg POTM toe aan PPSX, combineer POTM tot PPSX, PowerPoint, Presentatie, PPSX, Python, Aspose

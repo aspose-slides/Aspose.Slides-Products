@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTX को C++ एप्लिकेशन के माध्यम से PPT में बदलें
 weight: 8090
 url: /hi/cpp/conversion/potx-to-ppt/ 

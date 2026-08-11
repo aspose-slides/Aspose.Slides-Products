@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 合并 PPSM 文件
 url: /zh/python-net/merge/ppsm/
 keywords: 合并 PPSM、加入 PPSM、合并 PPSM、PowerPoint、演示文稿、Python、Aspose

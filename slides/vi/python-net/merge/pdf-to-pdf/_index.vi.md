@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PDF trong Python
 url: /vi/python-net/merge/pdf-to-pdf/
 keywords: Hợp nhất PDF, PDF sang PDF, Tham gia PDF, Kết hợp PDF, API Python, Thư viện Python

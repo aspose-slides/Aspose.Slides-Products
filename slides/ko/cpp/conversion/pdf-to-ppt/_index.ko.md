@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++에서 PDF을 PPT로 변환
 url: /ko/cpp/conversion/pdf-to-ppt/
 keywords: PDF에서 PPT으로, PDF에서 PPT으로 변환, C++ API, C++ 라이브러리, PDF, PPT

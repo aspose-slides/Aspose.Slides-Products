@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中將 PPTM 轉換為 PDF
 url: /zh-hant/nodejs-net/conversion/pptm-to-pdf/
 keywords: PPTM 到 PDF、將 PPTM 轉換成 PDF、Node.js API、JavaScript 函式庫、PPTM、PDF

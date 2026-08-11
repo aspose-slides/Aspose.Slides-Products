@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Crear gráfico en archivos de presentación PPT usando Python
 url: /es/python-net/chart/ppt/
 keywords: Crear gráfico, crear gráfico disperso, crear gráfico circular, crear gráfico de mapa de árbol, crear gráfico de cotizaciones, crear gráfico de caja y bigotes, crear gráfico de histograma, crear gráfico de embudo, gráfico de rayos solares, gráfico multicategoría, presentación de PowerPoint, Python

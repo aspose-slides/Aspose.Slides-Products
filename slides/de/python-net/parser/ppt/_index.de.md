@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Extrahieren Sie Text und Bilder aus PPT-Dateien mit Python
 url: /de/python-net/parser/ppt/
 keywords: parse PPT mit Python, PPT parser Python, extrahiere Daten aus PPT in Python, extrahiere Text aus PPT mit Python, extrahiere Bilder aus PPT mit Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไข PPT ใน Python
 url: /th/python-net/editor/ppt/
 keywords: แก้ไข PPT, แก้ไข PowerPoint, PPT, PowerPoint, Python API, Python Library

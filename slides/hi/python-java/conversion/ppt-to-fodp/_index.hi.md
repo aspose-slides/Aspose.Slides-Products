@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-16
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में PPT को FODP में बदलें
 url: /hi/python-java/conversion/ppt-to-fodp/
 keywords: पायथन प्रस्तुति रूपांतरण, प्रस्तुतियों को पायथन में परिवर्तित करें, प्रस्तुतियों के लिए पायथन, Aspose.Slides Python, PPT से FODP रूपांतरण, पायथन प्रस्तुति लाइब्रेरी

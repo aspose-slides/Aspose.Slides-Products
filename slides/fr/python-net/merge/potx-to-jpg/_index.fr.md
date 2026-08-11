@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers POTX vers JPG à l'aide de Python
 url: /fr/python-net/merge/potx-to-jpg/
 keywords: Fusionner POTX à JPG, Joindre POTX à JPG, Combiner POTX à JPG, PowerPoint, Présentation, JPG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci PNG a PDF in C#
 url: /it/net/merger/png-to-pdf/
 keywords: Da PNG a PDF, Unisci PNG a PDF, Unisci PNG a PDF, PDF, PNG, API C#, Libreria .NET

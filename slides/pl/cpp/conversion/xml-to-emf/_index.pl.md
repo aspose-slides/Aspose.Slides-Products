@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj XML na EMF za pomocą aplikacji C++
 weight: 4040
 url: /pl/cpp/conversion/xml-to-emf/ 

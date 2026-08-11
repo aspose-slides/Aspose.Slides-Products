@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PDF เป็น PPTX ใน C#
 url: /th/net/conversion/pdf-to-pptx/
 keywords: แปลง PDF เป็น PPTX, PDF เป็น PPTX, PowerPoint, PDF, PPTX, C# API, .NET Library

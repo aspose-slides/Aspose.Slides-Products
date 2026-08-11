@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPS-filer till POTM med Python
 url: /sv/python-net/merge/pps-to-potm/
 keywords: Slå samman PPS till POTM, gå med PPS till POTM, kombinera PPS till POTM, PowerPoint, Presentation, POTM, Python, Aspose

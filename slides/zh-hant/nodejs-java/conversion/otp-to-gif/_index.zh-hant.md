@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Node.js 中將 OTP 轉換為 GIF
 url: /zh-hant/nodejs-java/conversion/otp-to-gif/
 keywords: OTP 到 GIF、將 OTP 轉換為 GIF、Node.js API、Node.js 庫、OTP、GIF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PPTX เป็น PPT ใน JavaScript
 url: /th/nodejs-net/conversion/pptx-to-ppt/
 keywords: PPTX เป็น PPT, แปลง PPTX เป็น PPT, Node.js API, ไลบรารี JavaScript, PPTX, PPT

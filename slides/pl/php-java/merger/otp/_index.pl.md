@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Połącz pliki OTP za pomocą PHP
 url: /pl/php-java/merger/otp/
 keywords: Połącz OTP, Dołącz do OTP, Połącz OTP, PowerPoint, Prezentacja, PHP, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های FODP را با PNG ادغام کنید
 url: /fa/python-net/merge/fodp-to-png/
 keywords: ادغام FODP به PNG، پیوستن به FODP به PNG، ترکیب FODP به PNG، PowerPoint، Presentation، PNG، Python، Aspose

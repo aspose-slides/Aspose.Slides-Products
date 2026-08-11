@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert HTML to XML in Java
 url: /java/conversion/html-to-xml/
 keywords: HTML to XML, Convert HTML to XML, PowerPoint XML Presentation, Java API, Java Library, HTML, XML

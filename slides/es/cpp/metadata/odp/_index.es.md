@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ver o editar metadatos de archivos ODP usando C++
 url: /es/cpp/metadata/odp/
 keywords: Editar ODP Metadatos, Ver ODP Metadatos, Editar ODP propiedades, Ver ODP propiedades

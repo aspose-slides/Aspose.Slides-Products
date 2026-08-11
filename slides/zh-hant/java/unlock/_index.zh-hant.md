@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Java 從 PowerPoint 演示文稿中刪除密碼
 url: /zh-hant/java/unlock/
 description: 解鎖演示文稿的Java源代碼

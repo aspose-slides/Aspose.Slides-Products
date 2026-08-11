@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chroń pliki prezentacji PPT za pomocą C++
 url: /pl/cpp/protect/ppt/
 keywords: Ochrona przed zapisem PPT, szyfrowanie PPT, blokada prezentacji PPT, ochrona PPT

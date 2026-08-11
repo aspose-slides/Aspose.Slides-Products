@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Agregar marca de agua a archivos de PowerPoint en Windows, Linux y macOS
 url: /es/watermark/
 description: API para agregar marcas de agua a presentaciones PPT, PPTX y ODP

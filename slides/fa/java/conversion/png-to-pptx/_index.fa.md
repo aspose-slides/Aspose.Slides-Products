@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PNG به PPTX در جاوا
 url: /fa/java/conversion/png-to-pptx/
 keywords: تبدیل PNG به PPTX، PNG به PPTX، پاورپوینت، PNG، PPTX، Java API، کتابخانه جاوا

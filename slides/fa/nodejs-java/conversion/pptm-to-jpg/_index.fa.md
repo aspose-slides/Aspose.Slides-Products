@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js PPTM را به JPG تبدیل کنید
 url: /fa/nodejs-java/conversion/pptm-to-jpg/
 keywords: PPTM به JPG، تبدیل PPTM به JPG، Node.js API، Node.js Library، PPTM، JPG

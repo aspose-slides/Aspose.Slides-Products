@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan POTX ke PDF dalam JavaScript
 url: /id/nodejs-net/conversion/potx-to-pdf/
 keywords: POTX ke PDF, Konversi POTX ke PDF, API Node.js, Pustaka JavaScript, POTX, PDF

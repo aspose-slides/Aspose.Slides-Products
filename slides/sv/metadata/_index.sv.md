@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visa och redigera metadata till PowerPoint-filer på Windows, Linux och macOS
 url: /sv/metadata/
 description: API:er för att visa och redigera PPT- och PPTX-dokumentegenskaper

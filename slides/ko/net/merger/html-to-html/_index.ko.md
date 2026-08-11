@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 HTML 파일 병합
 url: /ko/net/merger/html-to-html/
 keywords: HTML 병합, HTML을 HTML로, HTML 결합, HTML 결합, C# API, .NET 라이브러리

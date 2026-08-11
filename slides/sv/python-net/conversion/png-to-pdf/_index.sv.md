@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PNG till PDF i Python
 url: /sv/python-net/conversion/png-to-pdf/
 keywords: PNG till PDF, Konvertera PNG till PDF, Python API, Python Library, PNG, PDF

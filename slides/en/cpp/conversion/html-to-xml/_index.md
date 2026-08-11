@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-30
 title: Convert HTML to XML in C++
 url: /cpp/conversion/html-to-xml/
 keywords: HTML to XML, Convert HTML to XML, PowerPoint XML Presentation, C++ API, C++ Library, HTML, XML

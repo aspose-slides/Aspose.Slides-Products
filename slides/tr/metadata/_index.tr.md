@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Windows, Linux ve macOS'ta Meta Verileri PowerPoint dosyalarına Görüntüleyin ve Düzenleyin
 url: /tr/metadata/
 description: PPT ve PPTX Belge Özelliklerini Görüntülemek ve Düzenlemek için API'ler

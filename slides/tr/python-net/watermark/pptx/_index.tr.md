@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PPTX Sunum Dosyalarına Filigran ekleyin
 url: /tr/python-net/watermark/pptx/
 keywords: Filigran Ekle PPTX, Metin Filigranı Ekle PPTX, Görüntü Filigranı Ekle PPTX

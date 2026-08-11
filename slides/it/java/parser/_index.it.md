@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Estrai testo o oggetti da documenti PowerPoint e OpenOffice utilizzando Java
 url: /it/java/parser/
 description: Codice sorgente Java per l'estrazione di dati da presentazioni PowerPoint e OpenOffice.

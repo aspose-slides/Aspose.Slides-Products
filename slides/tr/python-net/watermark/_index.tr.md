@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak PowerPoint Sunumuna Filigran Ekleme
 url: /tr/python-net/watermark/
 description: Filigran sunumuna Python kaynak kodu

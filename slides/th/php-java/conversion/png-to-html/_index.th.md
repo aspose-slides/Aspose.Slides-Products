@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง PNG เป็น HTML ใน PHP
 url: /th/php-java/conversion/png-to-html/
 keywords: PNG เป็น HTML, แปลง PNG เป็น HTML, PHP API, PHP Library, PNG, HTML

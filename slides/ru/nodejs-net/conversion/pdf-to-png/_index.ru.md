@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в PNG в JavaScript
 url: /ru/nodejs-net/conversion/pdf-to-png/
 keywords: PDF в PNG, преобразование PDF в PNG, Node.js API, библиотека JavaScript, PDF, PNG

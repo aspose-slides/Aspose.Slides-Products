@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中将 TIFF 合并为 PDF
 url: /zh/net/merger/tiff-to-pdf/
 keywords: TIFF 到 PDF、合并 TIFF 到 PDF、将 TIFF 合并到 PDF、PDF、TIFF、C# API、.NET 库

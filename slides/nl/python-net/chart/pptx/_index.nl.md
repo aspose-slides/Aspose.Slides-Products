@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Maak een grafiek in PPTX presentatiebestanden met behulp van Python
 url: /nl/python-net/chart/pptx/
 keywords: Maak een diagram, maak een verspreid diagram, maak een cirkeldiagram, maak een treemap-diagram, maak een aandelendiagram, maak een box- en whisker-diagram, maak een histogramdiagram, maak een trechterdiagram, een zonnestraaldiagram, een diagram met meerdere categorieën, PowerPoint-presentatie, Python

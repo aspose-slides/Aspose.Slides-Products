@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा में PDF को HTML में कनवर्ट करें
 url: /hi/java/conversion/pdf-to-html/
 keywords: PDF से HTML, PDF को HTML में बदलें, Java API, Java लाइब्रेरी, PDF, HTML

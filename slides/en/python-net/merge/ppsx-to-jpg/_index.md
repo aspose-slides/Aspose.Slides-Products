@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSX Files to JPG Using Python
 url: /python-net/merge/ppsx-to-jpg/
 keywords: Merge PPSX to JPG, Join PPSX to JPG, Combine PPSX to JPG, PowerPoint, Presentation, JPG, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti Image in PDF in PHP
 url: /it/php-java/conversion/image-to-pdf/
 keywords: Image in PDF, conversione di Image in PDF, API PHP, libreria PHP, Image, PDF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PDF を PPTX に変換する
 url: /ja/net/conversion/pdf-to-pptx/
 keywords: PDF を PPTX に、PDF を PPTX に、PowerPoint、PDF、PPTX、C# API、.NET ライブラリに変換

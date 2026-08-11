@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lägg till vattenstämpel i PowerPoint-presentation med Python
 url: /sv/python-net/watermark/
 description: Python källkod till Watermark presentation

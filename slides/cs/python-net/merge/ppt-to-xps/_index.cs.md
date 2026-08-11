@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPT do XPS pomocí Pythonu
 url: /cs/python-net/merge/ppt-to-xps/
 keywords: Sloučit PPT do XPS, připojit PPT do XPS, kombinovat PPT do XPS, PowerPoint, Presentation, XPS, Python, Aspose

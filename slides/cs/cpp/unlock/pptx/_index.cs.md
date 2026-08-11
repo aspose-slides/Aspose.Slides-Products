@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Odemkněte PPTX prezentační soubory pomocí C++
 url: /cs/cpp/unlock/pptx/
 keywords: Odebrat ochranu proti zápisu PPTX, dešifrovat PPTX, odemknout prezentaci PPTX, zrušit ochranu PPTX

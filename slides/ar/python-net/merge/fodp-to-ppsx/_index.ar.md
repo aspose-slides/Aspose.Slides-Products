@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات FODP إلى PPSX باستخدام Python
 url: /ar/python-net/merge/fodp-to-ppsx/
 keywords: دمج FODP إلى PPSX ، انضم إلى FODP إلى PPSX ، ادمج FODP إلى PPSX ، PowerPoint ، Presentation ، PPSX ، Python ، Aspose

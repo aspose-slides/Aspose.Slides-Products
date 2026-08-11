@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل JPG إلى PPTX في C++
 url: /ar/cpp/conversion/jpg-to-pptx/
 keywords: تحويل JPG إلى PPTX ، JPG إلى PPTX ، PowerPoint ، JPG ، PPTX ، C++ API ، مكتبة C++

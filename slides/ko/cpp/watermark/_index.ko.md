@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++를 사용하여 PowerPoint 프레젠테이션에 워터마크 추가
 url: /ko/cpp/watermark/
 description: 워터마크 프레젠테이션에 대한 C++ 소스 코드

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF thành JPG trong Python
 url: /vi/python-net/conversion/pdf-to-jpg/
 keywords: PDF sang JPG, Chuyển đổi PDF sang JPG, API Python, Thư viện Python, PDF, JPG

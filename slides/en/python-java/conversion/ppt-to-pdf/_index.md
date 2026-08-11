@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to PDF in Python
 url: /python-java/conversion/ppt-to-pdf/
 keywords: Python PPT conversion, PPT to PDF, PowerPoint to PDF, presentation document conversion, Aspose.Slides for Python via Java

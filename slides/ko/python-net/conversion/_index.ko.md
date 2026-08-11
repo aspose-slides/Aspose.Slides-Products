@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 Microsoft PowerPoint 프레젠테이션을 PDF로 변환
 url: /ko/python-net/conversion/
 keywords: "변환, PowerPoint, 프레젠테이션, Python, PDF, PDF로 변환, PPT를 PDF로"

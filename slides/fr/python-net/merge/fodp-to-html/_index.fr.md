@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers FODP vers HTML à l'aide de Python
 url: /fr/python-net/merge/fodp-to-html/
 keywords: Fusionner FODP à HTML, Joindre FODP à HTML, Combiner FODP à HTML, PowerPoint, Présentation, HTML, Python, Aspose

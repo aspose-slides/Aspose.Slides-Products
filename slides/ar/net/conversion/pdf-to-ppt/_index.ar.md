@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PDF إلى PPT في C#
 url: /ar/net/conversion/pdf-to-ppt/
 keywords: تحويل PDF إلى PPT ، PDF إلى PPT ، PowerPoint ، PDF ، PPT ، C# API ، مكتبة .NET

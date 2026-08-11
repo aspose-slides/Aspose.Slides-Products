@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προσθήκη υδατογραφήματος στην παρουσίαση του PowerPoint χρησιμοποιώντας Java
 url: /el/java/watermark/
 description: Πηγαίος κώδικας Java για παρουσίαση υδατογραφήματος

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت OTP را به JPG تبدیل کنید
 url: /fa/nodejs-net/conversion/otp-to-jpg/
 keywords: OTP به JPG، تبدیل OTP به JPG، Node.js API، کتابخانه جاوا اسکریپت، OTP، JPG

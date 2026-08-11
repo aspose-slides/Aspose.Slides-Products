@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή εικόνας σε PPTX σε C#
 url: /el/net/conversion/image-to-pptx/
 keywords: Μετατροπή εικόνας σε PPTX, εικόνας σε PPTX, PowerPoint, εικόνας, PPTX, C# API, Βιβλιοθήκη .NET

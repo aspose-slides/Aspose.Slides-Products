@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan PPT File Menggunakan Python
 url: /id/python-net/merge/ppt/
 keywords: Gabungkan PPT, Gabung PPT, Gabungkan PPT, PowerPoint, Presentasi, Python, Aspose

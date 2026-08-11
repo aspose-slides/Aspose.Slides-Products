@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы FODP в HTML с помощью Python
 url: /ru/python-net/merge/fodp-to-html/
 keywords: Объединить FODP в HTML, объединить FODP в HTML, объединить FODP в HTML, PowerPoint, презентацию, HTML, Python, Aspose

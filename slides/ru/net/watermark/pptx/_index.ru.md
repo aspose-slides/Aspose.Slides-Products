@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Добавьте водяной знак в файлы презентаций PPTX с помощью .NET
 url: /ru/net/watermark/pptx/
 keywords: Добавить водяной знак PPTX, Добавить текстовый водяной знак PPTX, Добавить водяной знак изображения PPTX

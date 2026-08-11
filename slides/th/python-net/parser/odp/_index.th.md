@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แยกข้อความและรูปภาพจากไฟล์ ODP โดยใช้ Python
 url: /th/python-net/parser/odp/
 keywords: แยก ODP โดยใช้ Python, ODP แยกวิเคราะห์ Python, แยกข้อมูลจาก ODP ใน Python, แยกข้อความจาก ODP โดยใช้ Python, แยกรูปภาพจาก ODP โดยใช้ Python

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: استخراج متن و تصاویر از فایل‌های PPT با استفاده از Python
 url: /fa/python-net/parser/ppt/
 keywords: تجزیه PPT با استفاده از Python، PPT تجزیه کننده Python، استخراج داده ها از PPT در Python، استخراج متن از PPT با استفاده از Python، استخراج تصاویر از PPT با استفاده از Python

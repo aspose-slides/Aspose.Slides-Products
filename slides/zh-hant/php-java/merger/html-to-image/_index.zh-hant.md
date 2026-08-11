@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中將 HTML 合併為圖像
 url: /zh-hant/php-java/merger/html-to-image/
 keywords: 合併 HTML 到圖像、HTML 到圖像、加入 HTML、合併 HTML、圖像、PHP API、PHP 庫

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da JPG'yi PPT'ye dönüştürme
 url: /tr/python-net/conversion/jpg-to-ppt/
 keywords: JPG'yi PPT'ye, JPG'yi PPT'ye, PowerPoint, JPG, PPT, Python API, Python Kitaplığına dönüştürün

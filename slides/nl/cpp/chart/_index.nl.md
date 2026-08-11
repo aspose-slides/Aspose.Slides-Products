@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Grafiek toevoegen aan PowerPoint-presentaties met behulp van C++
 url: /nl/cpp/chart/
 description: C++-broncode om grafieken toe te voegen aan PowerPoint-presentaties

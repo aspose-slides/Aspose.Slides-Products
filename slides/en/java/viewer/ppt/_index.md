@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-09
 title: View PPT in Java
 url: /java/viewer/ppt/
 keywords: View PPT, Open PPT, PPT Viewer, PPT, Java API, Java Library

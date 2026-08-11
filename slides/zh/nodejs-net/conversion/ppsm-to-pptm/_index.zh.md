@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 PPSM 转换为 PPTM
 url: /zh/nodejs-net/conversion/ppsm-to-pptm/
 keywords: PPSM 到 PPTM、将 PPSM 转换为 PPTM、Node.js API、JavaScript 库、PPSM、PPTM

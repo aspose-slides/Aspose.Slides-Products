@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSM Files and Export to JPG Using Python
 url: /python-net/merge/ppsm-to-jpg/
 keywords: Merge PPSM to JPG, Join PPSM to JPG, Combine PPSM to JPG, PowerPoint, Presentation, JPG, Python, Aspose

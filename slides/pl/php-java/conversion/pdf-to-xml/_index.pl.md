@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PDF na XML w PHP
 url: /pl/php-java/conversion/pdf-to-xml/
 keywords: PDF do XML, Konwersja PDF do XML, API PHP, Biblioteka PHP, PDF, XML

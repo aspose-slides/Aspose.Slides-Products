@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPT Files Using Python
 url: /python-net/merge/ppt/
 keywords: Merge PPT, Join PPT, Combine PPT, PowerPoint, Presentation, Python, Aspose

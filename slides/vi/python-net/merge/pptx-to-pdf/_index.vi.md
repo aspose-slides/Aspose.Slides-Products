@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp PPTX thành PDF bằng Python
 url: /vi/python-net/merge/pptx-to-pdf/
 keywords: Hợp nhất PPTX thành PDF, Nối PPTX thành PDF, Kết hợp PPTX thành PDF, PowerPoint, Bản trình bày, PDF, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPS إلى BMP عبر تطبيق C ++
 weight: 6260
 url: /ar/cpp/conversion/pps-to-bmp/ 

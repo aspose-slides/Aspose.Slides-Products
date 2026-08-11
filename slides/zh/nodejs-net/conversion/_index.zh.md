@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js PowerPoint 处理。使用 Aspose.Slides 轻松转换演示文稿。
 url: /zh/nodejs-net/conversion/
 keywords: “转换、PowerPoint、演示文稿、Node.js、javascript、js、PDF、转换为 PDF、PPT 到 PDF”

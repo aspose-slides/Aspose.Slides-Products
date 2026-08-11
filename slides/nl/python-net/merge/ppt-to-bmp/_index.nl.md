@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPT-bestanden samen naar BMP met Python
 url: /nl/python-net/merge/ppt-to-bmp/
 keywords: Voeg PPT samen tot BMP, voeg PPT toe aan BMP, combineer PPT tot BMP, PowerPoint, Presentatie, BMP, Python, Aspose

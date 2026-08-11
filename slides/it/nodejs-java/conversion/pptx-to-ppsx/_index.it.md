@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPTX in PPSX in Node.js
 url: /it/nodejs-java/conversion/pptx-to-ppsx/
 keywords: PPTX in PPSX, Converti PPTX in PPSX, API Node.js, Libreria Node.js, PPTX, PPSX

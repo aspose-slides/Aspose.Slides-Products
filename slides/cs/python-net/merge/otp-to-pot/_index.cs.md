@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory OTP do POT pomocí Pythonu
 url: /cs/python-net/merge/otp-to-pot/
 keywords: Sloučit OTP do POT, připojit OTP do POT, kombinovat OTP do POT, PowerPoint, Presentation, POT, Python, Aspose

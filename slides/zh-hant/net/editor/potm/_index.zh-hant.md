@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 .NET 編輯 POTM 文件
 url: /zh-hant/net/editor/potm/ 
 description: 用於在 .NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上編輯 POTM 文檔的 C# 源代碼。

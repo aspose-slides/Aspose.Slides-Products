@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-30
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert JPG to PDF in C++
 url: /cpp/conversion/jpg-to-pdf/
 keywords: JPG to PDF, Convert JPG to PDF, C++ API, C++ Library, JPG, PDF

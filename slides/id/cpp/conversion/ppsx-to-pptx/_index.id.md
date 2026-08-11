@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi PPSX ke PPTX melalui aplikasi C++
 weight: 8590
 url: /id/cpp/conversion/ppsx-to-pptx/ 

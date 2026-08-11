@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP で SVG を PPT に変換する
 url: /ja/php-java/conversion/svg-to-ppt/
 keywords: SVG から PPT へ、SVG から PPT への変換、PHP API、PHP ライブラリ、SVG、PPT

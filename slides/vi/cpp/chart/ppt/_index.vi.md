@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Biểu đồ tài liệu PPT qua C ++
 weight: 7490
 url: /vi/cpp/chart/ppt/ 

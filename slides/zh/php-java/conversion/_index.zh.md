@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将 Microsoft PowerPoint 演示文稿转换为 PDF
 url: /zh/php-java/conversion/
 keywords: “转换、PowerPoint、演示文稿、PHP、PDF、转换为 PDF、PPT 为 PDF”

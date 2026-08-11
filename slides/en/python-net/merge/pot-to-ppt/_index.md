@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POT Files to PPT with Python
 url: /python-net/merge/pot-to-ppt/
 keywords: Merge POT to PPT, Join POT to PPT, Combine POT to PPT, PowerPoint, Presentation, PPT, Python, Aspose

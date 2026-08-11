@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTX en Word en C#
 url: /fr/net/conversion/pptx-to-word/
 keywords: Convertir PPTX en Word, PPTX en Word, PPTX en DOC, PowerPoint en Word, API C#, bibliothèque .NET

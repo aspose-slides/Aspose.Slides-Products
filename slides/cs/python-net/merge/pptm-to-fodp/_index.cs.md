@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit soubory PPTM do FODP pomocí Pythonu
 url: /cs/python-net/merge/pptm-to-fodp/
 keywords: Sloučit PPTM do FODP, připojit PPTM do FODP, kombinovat PPTM do FODP, PowerPoint, Presentation, FODP, Python, Aspose

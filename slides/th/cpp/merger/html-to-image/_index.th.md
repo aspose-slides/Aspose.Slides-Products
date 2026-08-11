@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวม HTML เป็นรูปภาพใน C++
 url: /th/cpp/merger/html-to-image/
 keywords: ผสาน HTML เข้ากับรูปภาพ, HTML เข้ากับรูปภาพ, เข้าร่วม HTML, รวม HTML, รูปภาพ, C++ API, ไลบรารี C++

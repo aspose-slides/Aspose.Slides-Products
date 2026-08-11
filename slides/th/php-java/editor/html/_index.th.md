@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-02-06
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แก้ไข HTML ใน PHP
 url: /th/php-java/editor/html/
 keywords: แก้ไข HTML, แก้ไข PowerPoint, HTML, PowerPoint, PHP API, PHP Library

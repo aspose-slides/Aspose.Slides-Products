@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPTX till PNG i Node.js
 url: /sv/nodejs-java/conversion/pptx-to-png/
 keywords: PPTX till PNG, Konvertera PPTX till PNG, Node.js API, Node.js Library, PPTX, PNG

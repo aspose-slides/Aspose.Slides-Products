@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در Node.js ODP را به PPT تبدیل کنید
 url: /fa/nodejs-java/conversion/odp-to-ppt/
 keywords: ODP به PPT، تبدیل ODP به PPT، Node.js API، Node.js Library، ODP، PPT

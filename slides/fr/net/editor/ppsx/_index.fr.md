@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Modifier les fichiers PPSX via .NET
 url: /fr/net/editor/ppsx/ 
 description: Code source C# pour modifier le document PPSX sur les plates-formes .NET Framework, .NET Core, Windows Azure, Mono ou Xamarin.

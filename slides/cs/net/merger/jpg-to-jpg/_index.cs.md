@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Sloučit obrázky JPG v C#
 url: /cs/net/merger/jpg-to-jpg/
 keywords: Sloučit JPG, JPEG do JPG, Připojit JPG, Kombinovat JPG, C# API, .NET Library

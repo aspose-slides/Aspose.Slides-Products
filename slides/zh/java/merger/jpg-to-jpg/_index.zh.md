@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中合并 JPG 图像
 url: /zh/java/merger/jpg-to-jpg/
 keywords: 合并 JPG、JPEG 到 JPG、加入 JPG、合并 JPG、Java API、Java 库

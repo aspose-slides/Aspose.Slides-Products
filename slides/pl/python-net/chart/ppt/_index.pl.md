@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Utwórz wykres w plikach prezentacji PPT za pomocą Python
 url: /pl/python-net/chart/ppt/
 keywords: Utwórz wykres, utwórz wykres rozproszony, utwórz wykres kołowy, utwórz wykres mapy drzewa, utwórz wykres giełdowy, utwórz wykres pudełkowy i wąsowy, utwórz wykres histogramowy, utwórz wykres lejkowy, wykres sunburst, wykres wielokategorii, prezentacja PowerPoint, Python

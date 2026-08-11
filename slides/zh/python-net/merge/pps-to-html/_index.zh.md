@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 Python 将 PPS 文件合并到 HTML
 url: /zh/python-net/merge/pps-to-html/
 keywords: 将 PPS 合并到 HTML，将 PPS 连接到 HTML，将 PPS 合并到 HTML，PowerPoint，演示文稿，HTML，Python，Aspose

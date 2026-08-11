@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-24
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPT в видео на C#
 url: /ru/net/conversion/ppt-to-video/
 keywords: Преобразование PPT в видео, PPT в видео, PowerPoint в видео, PPT в MP4, API C#, библиотека .NET

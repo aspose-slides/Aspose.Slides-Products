@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中将 JPG 转换为 PPT
 url: /zh/cpp/conversion/jpg-to-ppt/
 keywords: 将 JPG 转换为 PPT、将 JPG 转换为 PPT、PowerPoint、JPG、PPT、C++ API、C++ 库

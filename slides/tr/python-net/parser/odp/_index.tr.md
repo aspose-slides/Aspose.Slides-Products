@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python kullanarak ODP Dosyalarından Metin ve Görüntüleri Çıkarın
 url: /tr/python-net/parser/odp/
 keywords: Python kullanarak ODP ayrıştırma, ODP Python ayrıştırıcı, Python içindeki ODP'dan veri çıkarma, Python kullanarak ODP'dan metin çıkarma, Python kullanarak ODP'dan görsel çıkarma

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos PPTM a XPS usando Python
 url: /es/python-net/merge/pptm-to-xps/
 keywords: Combinar PPTM a XPS, unir PPTM a XPS, combinar PPTM a XPS, PowerPoint, Presentation, XPS, Python, Aspose

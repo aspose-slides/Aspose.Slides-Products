@@ -1,4 +1,6 @@
 ---
+lastmod: 2022-12-23
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中编辑 HTML
 url: /zh/cpp/editor/html/
 keywords: 编辑 HTML、HTML、C++ API、C++ 库

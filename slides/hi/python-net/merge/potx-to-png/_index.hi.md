@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके POTX फ़ाइलों को PNG में मर्ज करें
 url: /hi/python-net/merge/potx-to-png/
 keywords: POTX को PNG में मिलाएं, POTX से PNG में शामिल हों, POTX से PNG, PowerPoint, प्रेजेंटेशन, PNG, Python, Aspose को मिलाएं

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionar archivos POTM a PPT usando Python
 url: /es/python-net/merge/potm-to-ppt/
 keywords: Combinar POTM a PPT, unir POTM a PPT, combinar POTM a PPT, PowerPoint, Presentation, PPT, Python, Aspose

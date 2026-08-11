@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して ODP ファイルからテキストと画像を抽出する
 url: /ja/python-net/parser/odp/
 keywords: Python を使用して ODP を解析、ODP パーサー Python、Python の ODP からデータを抽出、Python を使用して ODP からテキストを抽出、Python を使用して ODP から画像を抽出

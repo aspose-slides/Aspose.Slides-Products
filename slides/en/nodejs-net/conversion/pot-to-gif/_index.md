@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to GIF in Node.js
 url: /nodejs-net/conversion/pot-to-gif/
 keywords: POT to GIF, Convert POT to GIF, Node.js API, JavaScript Library, POT, GIF

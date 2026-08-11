@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PPTM в FODP в JavaScript
 url: /ru/nodejs-net/conversion/pptm-to-fodp/
 keywords: PPTM в FODP, преобразование PPTM в FODP, Node.js API, библиотека JavaScript, PPTM, FODP

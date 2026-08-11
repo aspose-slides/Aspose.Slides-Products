@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python का उपयोग करके FODP फ़ाइलें मेटाडेटा देखें या संपादित करें
 url: /hi/python-net/metadata/fodp/
 keywords: FODP मेटाडेटा संपादित करें, FODP मेटाडेटा देखें, FODP गुण संपादित करें, FODP गुण देखें

@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 ODP 转换为 PPSX
 url: /zh/nodejs-net/conversion/odp-to-ppsx/
 keywords: ODP 到 PPSX、将 ODP 转换为 PPSX、Node.js API、JavaScript 库、ODP、PPSX

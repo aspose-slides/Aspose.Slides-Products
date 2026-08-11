@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 JavaScript 中将 FODP 转换为 POT
 url: /zh/nodejs-net/conversion/fodp-to-pot/
 keywords: FODP 到 POT、将 FODP 转换为 POT、Node.js API、JavaScript 库、FODP、POT

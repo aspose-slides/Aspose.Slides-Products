@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-07-31
 title: View OTP in Python
 url: /python-net/viewer/otp/
 keywords: View OTP, View OpenDocument Presentation, Open OTP, OTP Viewer, OTP, Python API, Python Library

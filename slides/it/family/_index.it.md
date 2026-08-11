@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-03-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PowerPoint .NET Java C++ Python PHP Node.js API Android
 weight: 10
 url: /it/family/

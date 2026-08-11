@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JPG'yi Java'da PPT'ye dönüştürün
 url: /tr/java/conversion/jpg-to-ppt/
 keywords: JPG'yi PPT'ye, JPG'yi PPT'ye, PowerPoint, JPG, PPT, Java API, Java Library'ye dönüştürün

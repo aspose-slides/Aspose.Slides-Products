@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวม TIFF เป็น PDF ใน Python
 url: /th/python-net/merge/tiff-to-pdf/
 keywords: TIFF เป็น PDF, รวม TIFF เป็น PDF, เข้าร่วม TIFF เป็น PDF, PDF, TIFF, Python API, Python Library

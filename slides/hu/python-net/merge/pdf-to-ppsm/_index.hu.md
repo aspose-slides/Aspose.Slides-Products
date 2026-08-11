@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PDF fájlokat a PPSM formátumba Python használatával
 url: /hu/python-net/merge/pdf-to-ppsm/
 keywords: A(z) PDF egyesítése a(z) PPSM formátumba, a(z) PDF csatlakozása a(z) PPSM formátumba, a(z)(PDF) összevonása a(z) PPSM formátumba, PowerPoint, Presentation, PPSM, Python, Aspose

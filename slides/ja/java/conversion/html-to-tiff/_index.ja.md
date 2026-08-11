@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java で HTML を TIFF に変換する
 url: /ja/java/conversion/html-to-tiff/
 keywords: HTML から TIFF へ、HTML から TIFF への変換、Java API、Java ライブラリ、HTML、TIFF

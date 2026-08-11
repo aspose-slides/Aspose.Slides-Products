@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-22
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSM to POT in Python
 url: /python-java/conversion/ppsm-to-pot/
 keywords: Python PPSM conversion, PPSM to POT, PowerPoint slide show to template, PowerPoint 97-2003 template, Aspose.Slides for Python via Java

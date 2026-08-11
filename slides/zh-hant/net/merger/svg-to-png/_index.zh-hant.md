@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C# 中將 SVG 合併為 PNG
 url: /zh-hant/net/merger/svg-to-png/
 keywords: 將 SVG 合併到 PNG、將 SVG 合併到 PNG、將 SVG 合併到 PNG、將 SVG 合併到 PNG、C# API、.NET 庫

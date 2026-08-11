@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा का उपयोग करके पीडीएफ, पीपीटी, पीपीटीएक्स और कई अन्य फ़ाइल स्वरूपों को मर्ज करें
 url: /hi/java/merger/
 keywords: मर्ज करें, जुड़ें, पावरपॉइंट, प्रेजेंटेशन, जावा, एस्पोज करें

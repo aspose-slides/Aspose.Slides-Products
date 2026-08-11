@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPT إلى PDF باستخدام Python
 url: /ar/python-net/merge/ppt-to-pdf/
 keywords: دمج PPT إلى PDF ، انضم إلى PPT إلى PDF ، ادمج PPT إلى PDF ، PowerPoint ، Presentation ، PDF ، Python ، Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF Files and Export to GIF Using Python
 url: /python-net/merge/pdf-to-gif/
 keywords: Merge PDF to GIF, Join PDF to GIF, Combine PDF to GIF, PowerPoint, Presentation, GIF, Python, Aspose

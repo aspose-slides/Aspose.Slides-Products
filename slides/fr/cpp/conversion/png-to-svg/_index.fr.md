@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PNG en SVG en C++
 url: /fr/cpp/conversion/png-to-svg/
 keywords: PNG en SVG, Convertir PNG en SVG, API C++, Bibliothèque C++, PNG, SVG

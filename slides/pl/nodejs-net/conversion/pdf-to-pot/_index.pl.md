@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj PDF na POT w JavaScript
 url: /pl/nodejs-net/conversion/pdf-to-pot/
 keywords: PDF na POT, Konwertuj PDF na POT, API Node.js, Biblioteka JavaScript, PDF, POT

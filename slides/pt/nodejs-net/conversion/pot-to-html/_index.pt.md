@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter POT em HTML em JavaScript
 url: /pt/nodejs-net/conversion/pot-to-html/
 keywords: POT para HTML, converter POT para HTML, API Node.js, biblioteca JavaScript, POT, HTML

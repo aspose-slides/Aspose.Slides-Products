@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을(를) 사용하여 POTX 파일 메타데이터 보기 또는 편집
 url: /ko/python-net/metadata/potx/
 keywords: POTX 메타데이터 수정, POTX 메타데이터 보기, POTX 속성 수정, POTX 속성 보기

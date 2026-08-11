@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ का उपयोग करके ODP प्रस्तुतिकरण फ़ाइलों में वॉटरमार्क जोड़ें
 url: /hi/cpp/watermark/odp/
 keywords: वॉटरमार्क जोड़ें ODP, टेक्स्ट वॉटरमार्क जोड़ें ODP, छवि वॉटरमार्क जोड़ें ODP

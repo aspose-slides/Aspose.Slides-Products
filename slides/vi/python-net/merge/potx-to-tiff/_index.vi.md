@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất các tệp POTX thành TIFF bằng Python
 url: /vi/python-net/merge/potx-to-tiff/
 keywords: Hợp nhất POTX thành TIFF, Nối POTX thành TIFF, Kết hợp POTX thành TIFF, PowerPoint, Bản trình bày, TIFF, Python, Aspose

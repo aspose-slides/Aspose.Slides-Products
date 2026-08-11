@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ एप्लिकेशन के माध्यम से PPS को SWF में बदलें
 url: /hi/cpp/conversion/pps-to-swf/ 
 description: पीपीएस दस्तावेज़ के लिए एसडब्ल्यूएफ प्रारूप में नमूना सी ++ रूपांतरण कोड। किसी भी सी++ एप्लिकेशन में बैच पीपीएस से एसडब्ल्यूएफ रूपांतरण के लिए उदाहरण कोड का उपयोग करें।

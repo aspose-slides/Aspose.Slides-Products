@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSX Files Using Python
 url: /python-net/merge/ppsx/
 keywords: Merge PPSX, Join PPSX, Combine PPSX, PowerPoint, Presentation, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Görüntüyü C++ ile PPTX'e Dönüştür
 url: /tr/cpp/conversion/image-to-pptx/
 keywords: Görüntüyü PPTX'e, Görüntüyü PPTX'e Dönüştürme, C++ API, C++ Kitaplığı, Görüntü, PPTX

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner l'image au format PDF en C#
 url: /fr/net/merger/image-to-pdf/
 keywords: Image au format PDF, Fusionner l'image au format PDF, Joindre l'image au format PDF, PDF, Image, API C#, Bibliothèque .NET

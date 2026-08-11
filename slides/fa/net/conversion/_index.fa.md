@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل مایکروسافت پاورپوینت به چندین فایل با استفاده از سی شارپ
 url: /fa/net/conversion/
 description: اسلایدهای پاورپوینت مایکروسافت را به فایل‌های مختلف از جمله PDF، HTML و فرمت‌های تصویر در .NET Framework، .NET Core، Windows Azure، Mono یا Xamarin تبدیل کنید.

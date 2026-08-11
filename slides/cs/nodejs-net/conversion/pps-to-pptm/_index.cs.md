@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PPS do PPTM v JavaScriptu
 url: /cs/nodejs-net/conversion/pps-to-pptm/
 keywords: PPS do PPTM, Převést PPS do PPTM, Node.js API, JavaScript Library, PPS, PPTM

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python を使用して PPTM ファイルを PNG にマージ
 url: /ja/python-net/merge/pptm-to-png/
 keywords: PPTM を PNG に結合、PPTM を PNG に結合、PPTM を PNG に結合、PowerPoint、プレゼンテーション、PNG、Python、Aspose

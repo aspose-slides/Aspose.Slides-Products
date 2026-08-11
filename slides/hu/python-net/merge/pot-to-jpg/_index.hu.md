@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a POT fájlokat a JPG formátumba Python használatával
 url: /hu/python-net/merge/pot-to-jpg/
 keywords: A(z) POT egyesítése a(z) JPG formátumba, a(z) POT csatlakozása a(z) JPG formátumba, a(z)(POT) összevonása a(z) JPG formátumba, PowerPoint, Presentation, JPG, Python, Aspose

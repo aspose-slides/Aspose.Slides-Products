@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมรูปภาพ JPG ใน Python
 url: /th/python-net/merge/jpg-to-jpg/
 keywords: รวม JPG, JPEG เป็น JPG, เข้าร่วม JPG, รวม JPG, Python API, Python Library

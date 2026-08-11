@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan PNG ke PDF di Jawa
 url: /id/java/merger/png-to-pdf/
 keywords: PNG ke PDF, Gabungkan PNG ke PDF, Gabungkan PNG ke PDF, PDF, PNG, Java API, Perpustakaan Java

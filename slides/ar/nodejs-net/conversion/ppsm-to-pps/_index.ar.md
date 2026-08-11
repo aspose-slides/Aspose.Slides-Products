@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل PPSM إلى PPS في JavaScript
 url: /ar/nodejs-net/conversion/ppsm-to-pps/
 keywords: PPSM إلى PPS، تحويل PPSM إلى PPS، Node.js API، مكتبة JavaScript، PPSM، PPS

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Szöveg vagy objektumok kibontása PowerPoint és OpenOffice dokumentumokból Python segítségével
 url: /hu/python-net/parser/
 description: Python forráskód adatok kinyeréséhez PowerPoint és OpenOffice prezentációkból.

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Vízjel hozzáadása a ODP prezentációs fájlokhoz a Python használatával
 url: /hu/python-net/watermark/odp/
 keywords: Vízjel hozzáadása ODP, Szöveg vízjel hozzáadása ODP, Kép vízjel hozzáadása ODP

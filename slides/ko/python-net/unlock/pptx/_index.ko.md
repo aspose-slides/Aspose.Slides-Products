@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을(를) 사용하여 PPTX 프레젠테이션 파일 잠금 해제
 url: /ko/python-net/unlock/pptx/
 keywords: 쓰기 방지 PPTX 제거, PPTX 해독, PPTX 프레젠테이션 잠금 해제, PPTX 보호 해제

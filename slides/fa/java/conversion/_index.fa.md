@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-19
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل مایکروسافت پاورپوینت به چندین فایل با استفاده از جاوا
 url: /fa/java/conversion/
 description: اسلایدهای پاورپوینت مایکروسافت را به فایل های مختلف از جمله فرمت های HTML، PDF و تصویر در برنامه های کاربردی مبتنی بر جاوا تبدیل کنید.

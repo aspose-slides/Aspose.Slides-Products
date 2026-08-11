@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में Image को JPG में कनवर्ट करें
 url: /hi/python-net/conversion/image-to-jpg/
 keywords: Image से JPG, Image को JPG में बदलें, Python API, Python लाइब्रेरी, Image, JPG

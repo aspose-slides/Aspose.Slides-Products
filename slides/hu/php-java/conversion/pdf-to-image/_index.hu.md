@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PDF konvertálása Image formátumra PHP-ben
 url: /hu/php-java/conversion/pdf-to-image/
 keywords: PDF to Image, PDF konvertálása Image formátumba, PHP API, PHP Library, PDF, Image

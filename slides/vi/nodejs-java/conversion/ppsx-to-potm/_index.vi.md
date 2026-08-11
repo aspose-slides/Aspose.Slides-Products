@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPSX thành POTM trong Node.js
 url: /vi/nodejs-java/conversion/ppsx-to-potm/
 keywords: PPSX sang POTM, Chuyển đổi PPSX sang POTM, API Node.js, Thư viện Node.js, PPSX, POTM

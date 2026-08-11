@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-29
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PPSM Files to TIFF Using Python
 url: /python-net/merge/ppsm-to-tiff/
 keywords: Merge PPSM to TIFF, Join PPSM to TIFF, Combine PPSM to TIFF, PowerPoint, Presentation, TIFF, Python, Aspose

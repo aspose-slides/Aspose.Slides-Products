@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to PPSM in Node.js
 url: /nodejs-java/conversion/pptm-to-ppsm/
 keywords: PPTM to PPSM, Convert PPTM to PPSM, Node.js API, Node.js Library, PPTM, PPSM

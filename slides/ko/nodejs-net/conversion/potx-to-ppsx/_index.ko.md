@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: JavaScript에서 POTX을(를) PPSX(으)로 변환
 url: /ko/nodejs-net/conversion/potx-to-ppsx/
 keywords: POTX을(를) PPSX(으)로, POTX을(를) PPSX(으)로 변환, Node.js API, JavaScript 라이브러리, POTX, PPSX

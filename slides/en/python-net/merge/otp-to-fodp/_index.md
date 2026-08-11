@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-28
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge OTP Files and Save as FODP Using Python
 url: /python-net/merge/otp-to-fodp/
 keywords: Merge OTP to FODP, Join OTP to FODP, Combine OTP to FODP, PowerPoint, Presentation, FODP, Python, Aspose

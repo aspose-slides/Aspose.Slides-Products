@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы PDF в PPSM с помощью Python
 url: /ru/python-net/merge/pdf-to-ppsm/
 keywords: Объединить PDF в PPSM, объединить PDF в PPSM, объединить PDF в PPSM, PowerPoint, презентацию, PPSM, Python, Aspose

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Node.js에서 PPSM을 FODP으로 변환
 url: /ko/nodejs-java/conversion/ppsm-to-fodp/
 keywords: PPSM에서 FODP으로, PPSM에서 FODP으로 변환, Node.js API, Node.js 라이브러리, PPSM, FODP

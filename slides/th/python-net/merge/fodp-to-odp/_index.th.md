@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: รวมไฟล์ FODP เข้ากับ ODP โดยใช้ Python
 url: /th/python-net/merge/fodp-to-odp/
 keywords: รวม FODP เป็น ODP เข้าร่วม FODP ถึง ODP รวม FODP เป็น ODP PowerPoint การนำเสนอ ODP Python Aspose

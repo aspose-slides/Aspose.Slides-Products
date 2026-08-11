@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы POTX с помощью PHP
 url: /ru/php-java/merger/potx/
 keywords: Объединить POTX, присоединиться к POTX, объединить POTX, PowerPoint, презентацию, PHP, Aspose

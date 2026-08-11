@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Adicionar marca d'água à apresentação do PowerPoint usando Java
 url: /pt/java/watermark/
 description: Código-fonte Java para apresentação de marca d'água

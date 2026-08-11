@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-09-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer POTM naar HTML in Node.js
 url: /nl/nodejs-java/conversion/potm-to-html/
 keywords: POTM naar HTML, Converteer POTM naar HTML, Node.js API, Node.js-bibliotheek, POTM, HTML

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afbeelding samenvoegen naar BMP in Java
 url: /nl/java/merger/image-to-bmp/
 keywords: Afbeelding naar BMP, afbeelding samenvoegen tot BMP, afbeelding samenvoegen tot BMP, afbeeldingen combineren, afbeelding, BMP, Java API, Java Library

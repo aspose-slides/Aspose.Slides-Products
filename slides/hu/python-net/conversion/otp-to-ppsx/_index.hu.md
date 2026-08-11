@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja az OTP-t PPSX-re a Pythonban
 weight: 590
 url: /hu/python-net/conversion/otp-to-ppsx/ 

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python을 사용하여 PPSM 파일을 PPT에 병합
 url: /ko/python-net/merge/ppsm-to-ppt/
 keywords: PPSM을 PPT에 병합, PPSM을 PPT에 결합, PPSM을 PPT에 결합, PowerPoint, Presentation, PPT, Python, Aspose

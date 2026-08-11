@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci file PPTX a GIF usando Python
 url: /it/python-net/merge/pptx-to-gif/
 keywords: Unisci PPTX a GIF, Unisci PPTX a GIF, Combina PPTX a GIF, PowerPoint, Presentazione, GIF, Python, Aspose

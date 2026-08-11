@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte PNG na SVG v Pythonu
 url: /cs/python-net/conversion/png-to-svg/
 keywords: PNG do SVG, Převést PNG do SVG, Python API, Python Library, PNG, SVG

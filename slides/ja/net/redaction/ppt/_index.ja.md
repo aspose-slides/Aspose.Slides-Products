@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET を使用して PPT プレゼンテーション ファイルを編集します
 url: /ja/net/redaction/ppt/
 keywords: PPT を編集し、PPT 内のテキストを検索して置換し、PPT プレゼンテーションを更新します

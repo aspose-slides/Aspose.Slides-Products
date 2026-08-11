@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP'de HTML'yi Görüntüyle Birleştirme
 url: /tr/php-java/merger/html-to-image/
 keywords: HTML'yi görüntüyle birleştir, HTML'yi görüntüyle birleştir, HTML'yi birleştir, HTML'yi birleştir, Görüntü, PHP API, PHP Kitaplığı

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-05-17
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPT prezentációs fájlok szerkesztése a C++ használatával
 url: /hu/cpp/redaction/ppt/
 keywords: PPT szerkesztése, szöveg keresése és cseréje a következőben PPT, PPT prezentáció frissítése

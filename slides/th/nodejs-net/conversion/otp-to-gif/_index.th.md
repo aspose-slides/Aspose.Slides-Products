@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง OTP เป็น GIF ใน JavaScript
 url: /th/nodejs-net/conversion/otp-to-gif/
 keywords: OTP เป็น GIF, แปลง OTP เป็น GIF, Node.js API, ไลบรารี JavaScript, OTP, GIF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-18
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Удалить комментарии из файлов PowerPoint в Windows, Linux и macOS
 weight: 7730
 url: /ru/annotation/

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java का उपयोग करके PPSM फ़ाइलें मेटाडेटा देखें या संपादित करें
 url: /hi/java/metadata/ppsm/
 keywords: PPSM मेटाडेटा संपादित करें, PPSM मेटाडेटा देखें, PPSM गुण संपादित करें, PPSM गुण देखें

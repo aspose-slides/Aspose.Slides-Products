@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-26
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Verrouiller ou protéger par mot de passe la présentation à l'aide de Java
 url: /fr/java/protect/
 description: Code source Java pour définir un mot de passe pour verrouiller la présentation

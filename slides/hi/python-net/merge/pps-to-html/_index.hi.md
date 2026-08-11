@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPS फ़ाइलों को HTML में मर्ज करें
 url: /hi/python-net/merge/pps-to-html/
 keywords: PPS को HTML में मिलाएं, PPS से HTML में शामिल हों, PPS से HTML, PowerPoint, प्रेजेंटेशन, HTML, Python, Aspose को मिलाएं

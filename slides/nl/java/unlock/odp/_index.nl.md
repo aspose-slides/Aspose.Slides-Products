@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Ontgrendel ODP presentatiebestanden met Java
 url: /nl/java/unlock/odp/
 keywords: Schrijfbeveiliging ODP verwijderen, een ODP ontsleutelen, presentatie ODP ontgrendelen, beveiliging ODP opheffen

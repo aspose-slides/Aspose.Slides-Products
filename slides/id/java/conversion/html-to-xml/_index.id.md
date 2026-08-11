@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-03-21
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan HTML ke XML di Java
 url: /id/java/conversion/html-to-xml/
 keywords: HTML ke XML, Konversikan HTML ke XML, Java API, Perpustakaan Java, HTML, XML

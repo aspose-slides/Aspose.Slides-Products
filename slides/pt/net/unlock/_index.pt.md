@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Remova a senha da apresentação do PowerPoint usando .NET
 url: /pt/net/unlock/
 description: Código-fonte C# para desbloquear a apresentação

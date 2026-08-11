@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A(z) POTX konvertálása TIFF formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/potx-to-tiff/
 keywords: POTX to TIFF, POTX konvertálása TIFF formátumba, Node.js API, JavaScript Library, POTX, TIFF

@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PDF sang PPT trong C#
 url: /vi/net/conversion/pdf-to-ppt/
 keywords: Chuyển đổi PDF sang PPT, PDF sang PPT, PowerPoint, PDF, PPT, C# API, Thư viện .NET

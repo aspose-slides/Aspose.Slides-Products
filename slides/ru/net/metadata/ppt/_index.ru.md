@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр или редактирование метаданных файлов PPT с помощью .NET
 url: /ru/net/metadata/ppt/
 keywords: Изменить метаданные PPT, просмотреть метаданные PPT, изменить свойства PPT, просмотреть свойства PPT

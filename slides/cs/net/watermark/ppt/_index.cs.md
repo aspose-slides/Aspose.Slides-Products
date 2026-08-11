@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Přidat vodoznak do prezentačních souborů PPT pomocí .NET
 url: /cs/net/watermark/ppt/
 keywords: Přidat vodoznak PPT, Přidat textový vodoznak PPT, Přidat vodoznak obrázku PPT

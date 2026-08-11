@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPTX vers PPS à l'aide de Python
 url: /fr/python-net/merge/pptx-to-pps/
 keywords: Fusionner PPTX à PPS, Joindre PPTX à PPS, Combiner PPTX à PPS, PowerPoint, Présentation, PPS, Python, Aspose

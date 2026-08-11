@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в PPTX на C#
 url: /ru/net/conversion/pdf-to-pptx/
 keywords: Преобразование PDF в PPTX, PDF в PPTX, PowerPoint, PDF, PPTX, C# API, .NET Library

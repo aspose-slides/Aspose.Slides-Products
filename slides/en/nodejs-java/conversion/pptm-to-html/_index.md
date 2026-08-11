@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-07-14
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPTM to HTML in Node.js
 url: /nodejs-java/conversion/pptm-to-html/
 keywords: PPTM to HTML, Convert PPTM to HTML, Node.js API, Node.js Library, PPTM, HTML

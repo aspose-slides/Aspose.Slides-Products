@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-06-01
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Buat Bagan di File Presentasi PPT menggunakan Python
 url: /id/python-net/chart/ppt/
 keywords: Buat bagan, buat bagan tersebar, buat bagan pai, buat bagan treemap, buat bagan stok, buat bagan kotak dan kumis, buat bagan histogram, buat bagan corong, bagan sunburst, bagan multikategori, presentasi PowerPoint, Python

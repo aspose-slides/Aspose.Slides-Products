@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατροπή PDF σε OTP σε JavaScript
 url: /el/nodejs-net/conversion/pdf-to-otp/
 keywords: PDF σε OTP, Μετατροπή PDF σε OTP, Node.js API, JavaScript Library, PDF, OTP

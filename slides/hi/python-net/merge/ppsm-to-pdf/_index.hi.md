@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन का उपयोग करके PPSM फ़ाइलों को PDF में मर्ज करें
 url: /hi/python-net/merge/ppsm-to-pdf/
 keywords: PPSM को PDF में मिलाएं, PPSM से PDF में शामिल हों, PPSM से PDF, PowerPoint, प्रेजेंटेशन, PDF, Python, Aspose को मिलाएं

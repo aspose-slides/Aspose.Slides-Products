@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات POTX إلى SVG باستخدام Python
 url: /ar/python-net/merge/potx-to-svg/
 keywords: دمج POTX إلى SVG ، انضم إلى POTX إلى SVG ، ادمج POTX إلى SVG ، PowerPoint ، Presentation ، SVG ، Python ، Aspose

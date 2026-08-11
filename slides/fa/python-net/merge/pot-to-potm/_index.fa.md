@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: با استفاده از پایتون، فایل‌های POT را با POTM ادغام کنید
 url: /fa/python-net/merge/pot-to-potm/
 keywords: ادغام POT به POTM، پیوستن به POT به POTM، ترکیب POT به POTM، PowerPoint، Presentation، POTM، Python، Aspose

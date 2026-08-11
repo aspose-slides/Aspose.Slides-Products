@@ -1,4 +1,6 @@
 ---
+lastmod: 2024-04-10
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: در جاوا اسکریپت PDF را به BMP تبدیل کنید
 url: /fa/nodejs-net/conversion/pdf-to-bmp/
 keywords: PDF به BMP، تبدیل PDF به BMP، Node.js API، کتابخانه جاوا اسکریپت، PDF، BMP

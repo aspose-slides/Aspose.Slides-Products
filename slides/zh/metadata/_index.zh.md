@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-25
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Windows、Linux 和 macOS 上查看和编辑 PowerPoint 文件的元数据
 url: /zh/metadata/
 description: 用于查看和编辑 PPT 和 PPTX 文档属性的 API

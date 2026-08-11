@@ -1,4 +1,6 @@
 ---
+lastmod: 2023-04-07
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PDF-filer med Python
 url: /sv/python-net/merge/pdf/
 keywords: Slå samman PDF, gå med i PDF, kombinera PDF, PowerPoint, Presentation, Python, Aspose

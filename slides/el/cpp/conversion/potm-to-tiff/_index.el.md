@@ -1,4 +1,6 @@
 ---
+lastmod: 2026-08-11
+locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Μετατρέψτε το POTM σε TIFF μέσω της εφαρμογής C++
 weight: 7410
 url: /el/cpp/conversion/potm-to-tiff/ 
