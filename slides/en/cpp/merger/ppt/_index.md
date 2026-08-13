@@ -108,6 +108,7 @@ destinationPresentation->Dispose();
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
 A file with the .ppt extension is a PowerPoint presentation that contains a collection of slides for use in a slide show. It uses the binary file format supported by Microsoft PowerPoint 97–2003. A PPT file can contain several types of content, such as text, bulleted lists, images, multimedia, and other embedded OLE objects. Beginning with PowerPoint 2007, Microsoft introduced the newer PPTX format, which is based on Office Open XML rather than this binary format. Other applications, such as OpenOffice Impress and Apple Keynote, can also create PPT files. 

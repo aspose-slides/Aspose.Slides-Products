@@ -186,6 +186,7 @@ Create `PPTX` charts online by visiting our [Live Demos website](https://product
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" The chart will be created instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
 A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, charts, formatting, animations, and other presentation content in a zipped XML-based package.

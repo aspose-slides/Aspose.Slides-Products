@@ -50,6 +50,7 @@ Ergebnis im Format PPTX speichern
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Live-Demos durchsuchen" sectionDescription="Suchen und ersetzen Sie jetzt Text in Inhalten, Kommentaren oder Metadaten in PPTX-Dokumenten." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Suchformate" subTitle="Mit C# können Sie auch nach Text in den folgenden Formaten suchen:" >}}
 

@@ -152,6 +152,7 @@ with slides.Presentation() as presentation:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="PPTX عبر الإنترنت يمكنك إنشاء عروض توضيحية مباشرة للمخططات" sectionDescription="إنشاء الرسوم البيانية على الإنترنت" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="التنسيقات الأخرى المدعومة" subTitle="باستخدام Python ، يمكنك أيضًا إضافة مخططات إلى التنسيقات التالية:" >}}
 

@@ -152,6 +152,7 @@ Spara resultatet i formatet PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Skapa diagram livedemos" sectionDescription="Skapa diagram online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds" subTitle="Med Python kan du också lägga till diagram i följande format:" >}}
 

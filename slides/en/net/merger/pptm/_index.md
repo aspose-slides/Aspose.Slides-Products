@@ -119,6 +119,7 @@ mergedPresentation.Save("merged.pptm", SaveFormat.Pptm);
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTM files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" >}}
 Files with the `.PPTM` extension are macro-enabled presentation files introduced with Microsoft PowerPoint 2007. They are similar to PPTX files, but PPTM files can store VBA macro code, whereas PPTX files cannot. PPTM files can be opened and edited in Microsoft PowerPoint. The related PPSM format opens in Slide Show view by default but can also be opened in PowerPoint for editing. Like PPTX files, PPTM files can contain text, images, videos, charts, and other presentation content.

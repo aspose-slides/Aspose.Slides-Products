@@ -152,6 +152,7 @@ Add_chart(...) पद्धति का उपयोग करके डिफ�
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPTX चार्ट लाइव डेमो बनाएं" sectionDescription="ऑनलाइन चार्ट बनाएं" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित प्रारूप" subTitle="{Product_lang} का इस्तेमाल करके, आप नीचे दिए गए फ़ॉर्मैट में चार्ट भी जोड़ सकते हैं:" >}}
 

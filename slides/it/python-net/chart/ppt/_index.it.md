@@ -152,6 +152,7 @@ Salva il risultato nel formato PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Crea grafici Demo dal vivo" sectionDescription="Crea grafici online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Altri formati supportati" subTitle="Utilizzando Python, puoi anche aggiungere grafici ai seguenti formati:" >}}
 

@@ -52,6 +52,7 @@ try {
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="عبر الإنترنت PPT عروض توضيحية مباشرة للتنقيح" sectionDescription="ابحث واستبدل النص في المحتويات أو التعليقات أو البيانات الوصفية في مستندات PPT الآن." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات Redact المدعومة الأخرى" subTitle="باستخدام Java ، يمكنك أيضًا تنقيح التنسيقات التالية:" >}}
 

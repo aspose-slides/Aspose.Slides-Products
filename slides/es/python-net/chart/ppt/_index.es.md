@@ -152,6 +152,7 @@ Guardar resultado en formato PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="En línea PPT Crear gráficos Demostraciones en vivo" sectionDescription="Crear gráficos en línea" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Otros formatos compatibles" subTitle="Usando Python, también puede agregar gráficos a los siguientes formatos:" >}}
 

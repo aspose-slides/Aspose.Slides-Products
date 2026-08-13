@@ -50,6 +50,7 @@ using (Presentation presentation = new Presentation("welcome-to-powerpoint.odp")
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="在线 ODP 编辑现场演示" sectionDescription="立即在 ODP 文档的内容、评论或元数据中搜索和替换文本。" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的密文格式" subTitle="使用C#，您还可以编辑以下格式：" >}}
 

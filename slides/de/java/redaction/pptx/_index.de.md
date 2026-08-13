@@ -52,6 +52,7 @@ Ergebnis im Format PPTX speichern
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online-Redaktions-Live-Demos von PPTX" sectionDescription="Suchen und ersetzen Sie jetzt Text in Inhalten, Kommentaren oder Metadaten in PPTX-Dokumenten." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Schwärzungsformate" subTitle="Mit Java können Sie auch die folgenden Formate redigieren:" >}}
 

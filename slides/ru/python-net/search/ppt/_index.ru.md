@@ -50,6 +50,7 @@ with slides.Presentation("welcome-to-powerpoint.ppt") as pres:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Онлайн PPT Искать живые демонстрации" sectionDescription="Ищите и заменяйте текст в содержимом, комментариях или метаданных в документах PPT прямо сейчас." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы поиска" subTitle="Используя Python, Вы также можете искать текст в следующих форматах:" >}}
 

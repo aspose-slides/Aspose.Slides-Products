@@ -52,6 +52,7 @@ try {
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="在線 PPT 編輯現場演示" sectionDescription="立即在 PPT 文檔的內容、評論或元數據中搜索和替換文本。" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的密文格式" subTitle="使用Java，您還可以編輯以下格式：" >}}
 

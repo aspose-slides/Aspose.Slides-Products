@@ -202,6 +202,7 @@ presentation->Dispose();
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Charts are created instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
 PPTX files are presentation files created by Microsoft PowerPoint and other presentation apps. Unlike the older binary PPT format, PPTX is based on Office Open XML. A presentation contains slides that can include text, images, formatting, animations, and other media. Slides are shown to an audience as slide shows with custom presentation settings.

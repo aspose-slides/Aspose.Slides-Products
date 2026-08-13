@@ -108,6 +108,7 @@ destinationPresentation->Dispose();
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your OTP files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
 Files with the `.OTP` extension are OpenDocument presentation templates. They store reusable layouts, styles, formatting, backgrounds, and other content for creating new presentations with a consistent design. OTP files can be created and opened by applications that support the OpenDocument Format (ODF). The format is comparable to the Microsoft PowerPoint POT and POTX template formats.

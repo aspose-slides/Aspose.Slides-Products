@@ -52,6 +52,7 @@ try {
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="オンラインの PPTX 編集ライブ デモ" sectionDescription="今すぐ、PPTX ドキュメントのコンテンツ、コメント、またはメタデータ内のテキストを検索して置換します。" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている墨消し形式" subTitle="Java を使用すると、次の形式を編集することもできます。" >}}
 

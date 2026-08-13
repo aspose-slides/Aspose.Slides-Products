@@ -202,6 +202,7 @@ presentation->Dispose();
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Charts are created instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
 A PPT file contains a collection of slides for a slide show. It uses the binary file format used by Microsoft PowerPoint 97-2003. A PPT file can contain text, bulleted points, images, multimedia, and other embedded OLE objects. Microsoft introduced the newer PPTX format in PowerPoint 2007. PPTX is based on Office Open XML and differs from the older binary format. Several other applications, such as OpenOffice Impress and Apple Keynote, can also create PPT files.

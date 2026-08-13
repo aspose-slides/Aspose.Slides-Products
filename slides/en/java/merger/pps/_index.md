@@ -133,6 +133,7 @@ Aspose.Slides for Java can read, write, manipulate, merge, and convert Microsoft
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your PPS files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="The files will be merged instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
 Files with the `.PPS` extension are PowerPoint Slide Show files created by Microsoft PowerPoint 97-2003. A `PPS` file opens directly as a slide show instead of opening in edit mode.

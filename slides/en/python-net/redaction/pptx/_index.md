@@ -51,6 +51,7 @@ Save the modified presentation with `SaveFormat.PPTX`.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Redaction" sectionDescription="Find and replace text in PPTX presentations online." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Redaction Formats" subTitle="Use Python to redact text in other supported presentation formats." >}}
 

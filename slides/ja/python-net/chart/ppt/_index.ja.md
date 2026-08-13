@@ -152,6 +152,7 @@ add_chart(...) メソッドを使用して、デフォルト データを含む�
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="オンライン PPT チャートの作成ライブ デモ" sectionDescription="オンラインでチャートを作成する" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている形式" subTitle="Python を使用すると、次の形式でグラフを追加することもできます。" >}}
 

@@ -152,6 +152,7 @@ Enregistrer le résultat au format PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="En ligne PPTX Créer des graphiques Démos en direct" sectionDescription="Créer des graphiques en ligne" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats pris en charge" subTitle="À l'aide de Python, vous pouvez également ajouter des graphiques aux formats suivants :" >}}
 

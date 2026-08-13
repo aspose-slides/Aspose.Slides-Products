@@ -50,6 +50,7 @@ Salve o resultado no formato PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Demonstrações ao vivo de redação PPT on-line" sectionDescription="Pesquise e substitua texto em conteúdos, comentários ou metadados em documentos PPT agora mesmo." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Outros formatos de edição suportados" subTitle="Usando Python, você também pode redigir os seguintes formatos:" >}}
 

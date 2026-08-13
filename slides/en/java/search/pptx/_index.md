@@ -64,6 +64,7 @@ Inspect `ITextFrame`, `IParagraph`, and `IPortion` objects to find matching text
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Search Live Demos" sectionDescription="Search text in PPTX documents online." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Using Java, you can also search text in the following formats:" >}}
 

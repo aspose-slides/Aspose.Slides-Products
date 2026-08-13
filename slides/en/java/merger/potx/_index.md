@@ -133,6 +133,7 @@ Aspose.Slides for Java can read, write, manipulate, merge, and convert Microsoft
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your POTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="The files will be merged instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
 Files with the `.POTX` extension represent Microsoft PowerPoint template presentations created with PowerPoint 2007 and later. A `POTX` file can store layouts, styles, themes, backgrounds, fonts, and defaults used to create new presentations.

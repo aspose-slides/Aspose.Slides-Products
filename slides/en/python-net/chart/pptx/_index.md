@@ -87,6 +87,7 @@ Call `save` with `SaveFormat.PPTX` to write the presentation in PPTX format.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Create Charts in PPTX Online" sectionDescription="Try the online chart creation demos." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Chart Formats" subTitle="You can also create charts in other supported presentation formats." >}}
 

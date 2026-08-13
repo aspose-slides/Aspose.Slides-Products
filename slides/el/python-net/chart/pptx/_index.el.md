@@ -152,6 +152,7 @@ with slides.Presentation() as presentation:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Διαδικτυακά PPTX Δημιουργία ζωντανών επιδείξεων γραφημάτων" sectionDescription="Δημιουργία γραφημάτων online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να προσθέσετε γραφήματα στις ακόλουθες μορφές:" >}}
 

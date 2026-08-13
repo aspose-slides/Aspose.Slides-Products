@@ -50,6 +50,7 @@ Lưu kết quả ở định dạng ODP
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Trình diễn Trực tiếp Biên tập ODP trực tuyến" sectionDescription="Tìm kiếm và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu trong tài liệu ODP ngay bây giờ." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng Redact được hỗ trợ khác" subTitle="Sử dụng Python, Bạn cũng có thể sắp xếp lại các định dạng sau:" >}}
 

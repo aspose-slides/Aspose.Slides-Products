@@ -152,6 +152,7 @@ Lưu kết quả ở định dạng PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Trực tuyến PPTX Tạo biểu đồ Trình diễn trực tiếp" sectionDescription="Tạo biểu đồ trực tuyến" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Các định dạng được hỗ trợ khác" subTitle="Sử dụng Python, Bạn cũng có thể thêm biểu đồ vào các định dạng sau:" >}}
 

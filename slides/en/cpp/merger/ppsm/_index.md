@@ -108,6 +108,7 @@ destinationPresentation->Dispose();
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPSM files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
 Files with the PPSM extension are macro-enabled slide show files introduced with Microsoft PowerPoint 2007. Unlike PPTM, PPSM opens in Slide Show view by default. This default opening mode is not file protection; a PPSM file can also be opened in Microsoft PowerPoint for editing.

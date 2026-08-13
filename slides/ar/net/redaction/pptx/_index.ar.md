@@ -50,6 +50,7 @@ using (Presentation presentation = new Presentation("welcome-to-powerpoint.pptx"
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="عبر الإنترنت PPTX عروض توضيحية مباشرة للتنقيح" sectionDescription="ابحث واستبدل النص في المحتويات أو التعليقات أو البيانات الوصفية في مستندات PPTX الآن." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات Redact المدعومة الأخرى" subTitle="باستخدام C# ، يمكنك أيضًا تنقيح التنسيقات التالية:" >}}
 

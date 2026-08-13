@@ -133,6 +133,7 @@ Aspose.Slides for Java can read, write, manipulate, merge, and convert Microsoft
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your POTM files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="The files will be merged instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" >}}
 Files with the `.POTM` extension are Microsoft PowerPoint macro-enabled template files. A `POTM` file can store layouts, styles, themes, defaults, and macros used to create new presentations.

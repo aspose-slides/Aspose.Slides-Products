@@ -49,6 +49,7 @@ presentation->Save(u"replaced.pptx", SaveFormat::Pptx);
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="온라인 PPTX 리댁션 라이브 데모" sectionDescription="지금 바로 PPTX 문서의 콘텐츠, 댓글 또는 메타데이터에서 텍스트를 검색하고 교체하세요." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 교정 형식" subTitle="C++을(를) 사용하여 다음 형식을 수정할 수도 있습니다." >}}
 

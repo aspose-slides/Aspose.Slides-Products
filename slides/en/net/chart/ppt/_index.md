@@ -140,6 +140,7 @@ Aspose.Slides for .NET can read, write, manipulate, and convert presentation doc
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your PPT files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Charts are created instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
 A PPT file stores a PowerPoint 97-2003 presentation in the binary file format. It can contain slides with text, charts, images, multimedia, and embedded objects.

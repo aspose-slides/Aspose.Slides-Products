@@ -133,6 +133,7 @@ Aspose.Slides for Java can read, write, manipulate, merge, and convert Microsoft
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your PPSM files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="The files will be merged instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" >}}
 Files with the `.PPSM` extension are macro-enabled slide show files created with Microsoft PowerPoint 2007 or later. A `PPSM` file opens as a slide show and can contain macros.

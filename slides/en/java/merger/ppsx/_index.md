@@ -133,6 +133,7 @@ Aspose.Slides for Java can read, write, manipulate, merge, and convert Microsoft
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your PPSX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="The files will be merged instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" >}}
 Files with the `.PPSX` extension are PowerPoint Slide Show files created with Microsoft PowerPoint 2007 or later. A `PPSX` file opens directly as a slide show while preserving the presentation content.

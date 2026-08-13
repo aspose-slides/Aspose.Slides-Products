@@ -119,6 +119,7 @@ mergedPresentation.Save("merged.potx", SaveFormat.Potx);
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your POTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
 Files with the .POTX extension are Microsoft PowerPoint Open XML presentation templates. Unlike the binary POT format, POTX is based on the Office Open XML standard. POTX files store reusable slide layouts, themes, styles, backgrounds, color schemes, fonts, and other formatting for creating new presentations.

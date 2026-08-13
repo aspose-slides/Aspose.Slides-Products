@@ -50,6 +50,7 @@ Simpan hasil dalam format PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Demo Langsung Redaksi PPTX Online" sectionDescription="Cari dan ganti teks dalam konten, komentar, atau metadata dalam dokumen PPTX sekarang juga." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Redact Lain yang Didukung" subTitle="Menggunakan C#, Anda juga dapat menyunting format berikut:" >}}
 

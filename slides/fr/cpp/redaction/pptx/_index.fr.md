@@ -49,6 +49,7 @@ Enregistrer le résultat au format PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Démonstrations en direct de la rédaction PPTX en ligne" sectionDescription="Recherchez et remplacez du texte dans le contenu, les commentaires ou les métadonnées des documents PPTX dès maintenant." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Autres formats de rédaction pris en charge" subTitle="À l'aide de C++, vous pouvez également masquer les formats suivants :" >}}
 

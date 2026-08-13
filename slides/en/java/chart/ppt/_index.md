@@ -186,6 +186,7 @@ Create `PPT` charts online by visiting our [Live Demos website](https://products
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPT files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" The chart will be created instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" >}}
 A PPT file is a Microsoft PowerPoint 97-2003 presentation file. It stores slides, text, images, multimedia, charts, and embedded objects in the binary PowerPoint file format used before the Open XML PPTX format.

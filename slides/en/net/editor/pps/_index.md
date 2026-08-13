@@ -103,6 +103,7 @@ Aspose.Slides for .NET can read, write, edit, and convert presentation files to 
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your PPS files and edit them instantly." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Save and download the edited file." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" >}}
 Files with the PPS extension are PowerPoint 97-2003 slide show files. A PPS file opens directly as a slide show and can contain slides, text, charts, images, multimedia, and formatting.

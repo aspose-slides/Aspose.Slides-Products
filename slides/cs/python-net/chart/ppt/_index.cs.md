@@ -152,6 +152,7 @@ Uložte výsledek ve formátu PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Vytvářejte živé ukázky žebříčků" sectionDescription="Vytvářejte grafy online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty" subTitle="Pomocí Python můžete také přidávat grafy do následujících formátů:" >}}
 

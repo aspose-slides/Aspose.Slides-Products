@@ -49,6 +49,7 @@ presentation->Save(u"replaced.odp", SaveFormat::Odp);
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="在线 ODP 搜索现场演示" sectionDescription="立即在 ODP 文档的内容、评论或元数据中搜索和替换文本。" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用C++，您还可以搜索以下格式的文本：" >}}
 

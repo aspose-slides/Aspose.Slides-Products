@@ -52,6 +52,7 @@ Simpan hasil dalam format PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Demo Langsung Penelusuran PPTX Online" sectionDescription="Cari dan ganti teks dalam konten, komentar, atau metadata dalam dokumen PPTX sekarang juga." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Pencarian Lain yang Didukung" subTitle="Menggunakan Java, Anda juga dapat menelusuri teks dalam format berikut:" >}}
 

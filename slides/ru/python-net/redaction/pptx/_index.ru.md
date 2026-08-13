@@ -50,6 +50,7 @@ with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Онлайн-редакция PPTX Демонстрации в реальном времени" sectionDescription="Ищите и заменяйте текст в содержимом, комментариях или метаданных в документах PPTX прямо сейчас." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы редактирования" subTitle="Используя Python, вы также можете редактировать следующие форматы:" >}}
 

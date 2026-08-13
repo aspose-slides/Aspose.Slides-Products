@@ -152,6 +152,7 @@ Sonucu PPTX biçiminde kaydedin
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Çevrimiçi PPTX Grafikler Oluşturun Canlı Demolar" sectionDescription="Çevrimiçi Grafikler oluşturun" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Formatlar" subTitle="Python kullanarak aşağıdaki biçimlerde grafikler de ekleyebilirsiniz:" >}}
 

@@ -51,6 +51,7 @@ Save the updated presentation in PPTX format.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Redaction Live Demos" sectionDescription="Search and replace text in PPTX documents online." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Redact Formats" subTitle="Using Java, you can also redact the following formats:" >}}
 

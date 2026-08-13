@@ -49,6 +49,7 @@ Save the redacted file with `SaveFormat::Pptx`.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Redaction Live Demos" sectionDescription="Search and replace text in PPTX documents right now." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Redact Formats" subTitle="You can also redact the following formats with C++." >}}
 

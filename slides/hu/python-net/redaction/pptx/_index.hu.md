@@ -50,6 +50,7 @@ Az eredmény mentése PPTX formátumban
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX szerkesztés élő bemutatók" sectionDescription="Keressen és cseréljen szöveget a PPTX dokumentumok tartalmában, megjegyzéseiben vagy metaadataiban." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott Redact formátumok" subTitle="A Python használatával a következő formátumokat is szerkesztheti:" >}}
 

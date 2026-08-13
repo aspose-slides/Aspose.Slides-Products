@@ -50,6 +50,7 @@ with slides.Presentation("welcome-to-powerpoint.odp") as pres:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Διαδικτυακή αναζήτηση σε ζωντανές επιδείξεις ODP" sectionDescription="Αναζητήστε και αντικαταστήστε κείμενο σε περιεχόμενα, σχόλια ή μεταδεδομένα σε έγγραφα ODP αυτήν τη στιγμή." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές αναζήτησης" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να αναζητήσετε κείμενο στις ακόλουθες μορφές:" >}}
 

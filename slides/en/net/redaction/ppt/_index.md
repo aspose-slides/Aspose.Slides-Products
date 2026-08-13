@@ -49,6 +49,7 @@ Save the modified presentation with `SaveFormat.Ppt`.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Redaction" sectionDescription="Find and replace text in PPT presentations online." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Redaction Formats" subTitle="Using C#, you can also redact the following formats." >}}
 

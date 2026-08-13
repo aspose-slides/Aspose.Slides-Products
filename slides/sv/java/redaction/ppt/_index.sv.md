@@ -52,6 +52,7 @@ Spara resultatet i formatet PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Redaction Live Demos" sectionDescription="Sök och ersätt text i innehåll, kommentarer eller metadata i PPT dokument just nu." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra Redact-format som stöds" subTitle="Med Java kan du även redigera följande format:" >}}
 

@@ -119,6 +119,7 @@ mergedPresentation.Save("merged.odp", SaveFormat.Odp);
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your ODP files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" >}}
 Files with the `.ODP` extension use the OpenDocument Presentation format defined by the OASIS OpenDocument standard. An ODP file contains a collection of slides that can include text, images, formatting, animations, and other media. Applications that support OpenDocument presentations, such as LibreOffice Impress and Apache OpenOffice Impress, can open ODP files.

@@ -152,6 +152,7 @@ add_chart(...) 메서드를 사용하여 기본 데이터로 원형 차트를 �
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="온라인 PPT Create Charts 라이브 데모" sectionDescription="온라인 차트 만들기" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 형식" subTitle="Python을 사용하여 다음 형식으로 차트를 추가할 수도 있습니다." >}}
 

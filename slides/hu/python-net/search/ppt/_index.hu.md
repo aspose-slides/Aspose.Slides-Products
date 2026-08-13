@@ -50,6 +50,7 @@ Az eredmény mentése PPT formátumban
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Keressen élő bemutatókat" sectionDescription="Keressen és cseréljen szöveget a PPT dokumentumok tartalmában, megjegyzéseiben vagy metaadataiban." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott keresési formátumok" subTitle="A Python használatával a következő formátumokban is kereshet szöveget:" >}}
 

@@ -50,6 +50,7 @@ with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="عبر الإنترنت PPTX ابحث في العروض التوضيحية المباشرة" sectionDescription="ابحث واستبدل النص في المحتويات أو التعليقات أو البيانات الوصفية في مستندات PPTX الآن." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="تنسيقات البحث الأخرى المدعومة" subTitle="باستخدام Python ، يمكنك أيضًا البحث عن نص بالتنسيقات التالية:" >}}
 

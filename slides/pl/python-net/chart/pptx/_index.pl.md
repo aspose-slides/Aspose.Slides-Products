@@ -152,6 +152,7 @@ Zapisz wynik w formacie PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Twórz wykresy Prezentacje na żywo" sectionDescription="Twórz wykresy online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty" subTitle="Korzystając z Python, możesz również dodawać wykresy w następujących formatach:" >}}
 

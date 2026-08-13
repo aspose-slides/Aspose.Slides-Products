@@ -50,6 +50,7 @@ PPT را با یک نمونه از Presentation بارگیری کنید.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="نسخه‌های نمایشی زنده ویرایش آنلاین PPT" sectionDescription="در حال حاضر متن، نظرات یا ابرداده را در اسناد PPT جستجو و جایگزین کنید." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های پشتیبانی شده Redact" subTitle="با استفاده از C#، می‌توانید قالب‌های زیر را نیز ویرایش کنید:" >}}
 

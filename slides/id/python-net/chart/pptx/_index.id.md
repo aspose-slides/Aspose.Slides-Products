@@ -152,6 +152,7 @@ Simpan hasil dalam format PPTX
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Buat Bagan Demo Langsung" sectionDescription="Buat Bagan online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Format lain yang Didukung" subTitle="Menggunakan Python, Anda juga dapat menambahkan diagram ke format berikut:" >}}
 

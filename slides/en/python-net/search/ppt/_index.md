@@ -50,6 +50,7 @@ Read the `text` property of each matching text frame.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Search" sectionDescription="Search for text in PPT presentations online." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Use Python to search for text in other supported presentation formats." >}}
 

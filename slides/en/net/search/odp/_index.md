@@ -62,6 +62,7 @@ Check the `Text` value of each frame for the required phrase.
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Text Search" sectionDescription="Search text in ODP presentations online." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="Using C#, you can also search text in the following formats." >}}
 

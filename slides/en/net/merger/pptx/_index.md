@@ -119,6 +119,7 @@ mergedPresentation.Save("merged.pptx", SaveFormat.Pptx);
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPTX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
 Files with the `.PPTX` extension use the PowerPoint Open XML Presentation format introduced with PowerPoint 2007. Unlike the older binary PPT format, PPTX stores presentation data in an Office Open XML package. A PPTX file contains a collection of slides that can include text, images, formatting, animations, and other media, along with presentation settings.

@@ -152,6 +152,7 @@ with slides.Presentation() as presentation:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="在线 PPT 创建图表现场演示" sectionDescription="在线创建图表" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用 Python，您还可以将图表添加为以下格式：" >}}
 

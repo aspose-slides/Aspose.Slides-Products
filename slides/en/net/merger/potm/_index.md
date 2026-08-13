@@ -119,6 +119,7 @@ mergedPresentation.Save("merged.potm", SaveFormat.Potm);
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your POTM files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" >}}
 Files with the `.POTM` extension are macro-enabled Microsoft PowerPoint template files introduced with PowerPoint 2007. They can store reusable presentation settings such as layouts, styles, backgrounds, color palettes, fonts, default formatting, and VBA macros. PowerPoint 2007 and later can open and edit POTM files.

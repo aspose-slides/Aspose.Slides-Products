@@ -103,6 +103,7 @@ Aspose.Slides for .NET can read, write, edit, and convert presentation files to 
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your PPTX files and edit them instantly." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Save and download the edited file." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" >}}
 Files with the PPTX extension use the Office Open XML presentation format. A PPTX file can contain slides with text, charts, images, formatting, animations, and other presentation content.

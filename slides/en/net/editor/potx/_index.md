@@ -103,6 +103,7 @@ Aspose.Slides for .NET can read, write, edit, and convert presentation files to 
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your POTX files and edit them instantly." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Save and download the edited file." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" >}}
 Files with the POTX extension are PowerPoint Open XML template files. They store slide layouts, styles, themes, and other template settings that can be used to create new presentations.

@@ -119,6 +119,7 @@ mergedPresentation.Save("merged.ppsx", SaveFormat.Ppsx);
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PPSX files." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" >}}
 A PPSX file is a PowerPoint Open XML Slide Show created by Microsoft PowerPoint 2007 or later. It is the Open XML successor to the PPS format used by PowerPoint 97–2003. Unlike a PPTX file, which opens in editing mode by default, a PPSX file opens directly as a slide show. It preserves the presentation's slide order and can contain images, audio, and other embedded media.

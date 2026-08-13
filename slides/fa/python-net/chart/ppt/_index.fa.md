@@ -152,6 +152,7 @@ with slides.Presentation() as presentation:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="آنلاین PPT نمایش‌های نمایشی زنده نمودارها را ایجاد کنید" sectionDescription="نمودارها را به صورت آنلاین ایجاد کنید" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های پشتیبانی شده" subTitle="با استفاده از Python، می‌توانید نمودارها را نیز به قالب‌های زیر اضافه کنید:" >}}
 

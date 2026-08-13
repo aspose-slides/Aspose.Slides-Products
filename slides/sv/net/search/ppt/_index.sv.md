@@ -50,6 +50,7 @@ Spara resultatet i formatet PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Sök livedemos" sectionDescription="Sök och ersätt text i innehåll, kommentarer eller metadata i PPT dokument just nu." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Andra sökformat som stöds" subTitle="Med C# kan du även söka efter text i följande format:" >}}
 

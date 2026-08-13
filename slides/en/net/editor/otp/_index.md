@@ -103,6 +103,7 @@ Aspose.Slides for .NET can read, write, edit, and convert presentation files to 
             {{< blocks/products/pf/agp/democard icon="fa-edit" text="No need to write any code." >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Upload your OTP files and edit them instantly." >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text="Save and download the edited file." >}}
+        {{< /blocks/products/pf/agp/demobox >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" >}}
 Files with the OTP extension are OpenDocument presentation templates. They store slide layouts, styles, and presentation content that can be used to create new presentations.

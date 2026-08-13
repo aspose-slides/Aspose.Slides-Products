@@ -50,6 +50,7 @@ Simpan hasil dalam format PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Demo Langsung Penelusuran PPT Online" sectionDescription="Cari dan ganti teks dalam konten, komentar, atau metadata dalam dokumen PPT sekarang juga." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Pencarian Lain yang Didukung" subTitle="Menggunakan C#, Anda juga dapat menelusuri teks dalam format berikut:" >}}
 

@@ -152,6 +152,7 @@ Az eredmény mentése PPTX formátumban
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Hozzon létre grafikonokat élő bemutatókat" sectionDescription="Hozzon létre diagramokat online" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott formátumok" subTitle="A Python használatával a következő formátumokhoz is hozzáadhat diagramokat:" >}}
 

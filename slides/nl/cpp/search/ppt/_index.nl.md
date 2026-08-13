@@ -49,6 +49,7 @@ Sla resultaat op in PPT formaat
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Zoek live demo's" sectionDescription="Zoek en vervang nu tekst in inhoud, opmerkingen of metadata in PPT documenten." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde zoekformaten" subTitle="Met C++ kunt u ook tekst zoeken in de volgende indelingen:" >}}
 

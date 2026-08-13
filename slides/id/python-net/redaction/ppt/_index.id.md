@@ -50,6 +50,7 @@ Simpan hasil dalam format PPT
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Demo Langsung Redaksi PPT Online" sectionDescription="Cari dan ganti teks dalam konten, komentar, atau metadata dalam dokumen PPT sekarang juga." >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Format Redact Lain yang Didukung" subTitle="Menggunakan Python, Anda juga dapat menyunting format berikut:" >}}
 

@@ -152,6 +152,7 @@ with slides.Presentation() as presentation:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Онлайн PPTX Создание диаграмм Живые демонстрации" sectionDescription="Создание диаграмм онлайн" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы" subTitle="Используя Python, вы также можете добавлять диаграммы в следующие форматы:" >}}
 

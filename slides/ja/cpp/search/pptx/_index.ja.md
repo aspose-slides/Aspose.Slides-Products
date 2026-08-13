@@ -49,6 +49,7 @@ presentation->Save(u"replaced.pptx", SaveFormat::Pptx);
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="オンライン PPTX 検索ライブ デモ" sectionDescription="今すぐ、PPTX ドキュメントのコンテンツ、コメント、またはメタデータ内のテキストを検索して置換します。" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている検索形式" subTitle="C++ を使用すると、次の形式でテキストを検索することもできます。" >}}
 

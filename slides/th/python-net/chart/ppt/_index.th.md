@@ -152,6 +152,7 @@ with slides.Presentation() as presentation:
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="ออนไลน์ PPT สร้างแผนภูมิ การสาธิตสด" sectionDescription="สร้างแผนภูมิออนไลน์" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ Python คุณยังสามารถเพิ่มแผนภูมิในรูปแบบต่อไปนี้:" >}}
 

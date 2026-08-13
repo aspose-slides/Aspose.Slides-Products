@@ -50,6 +50,7 @@ using (Presentation presentation = new Presentation("welcome-to-powerpoint.pptx"
 {{< /blocks/products/pf/feature-page-section >}}
 
 {{< blocks/products/pf/agp/demobox sectionTitle="ออนไลน์ PPTX Redaction การสาธิตสด" sectionDescription="ค้นหาและแทนที่ข้อความในเนื้อหา ความคิดเห็น หรือข้อมูลเมตาในเอกสาร PPTX ทันที" >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/agp/other-supported-section title="รูปแบบ Redact อื่น ๆ ที่รองรับ" subTitle="เมื่อใช้ C# คุณยังสามารถแก้ไขรูปแบบต่อไปนี้ได้ด้วย:" >}}
 
