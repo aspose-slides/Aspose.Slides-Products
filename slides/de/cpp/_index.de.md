@@ -376,7 +376,7 @@ Netz:
 
 -->
    <div class="col-lg-4">
-    <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Erstellen Sie Präsentationen aus der Datenbank
@@ -411,7 +411,7 @@ Netz:
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
+    <em class="fa fa-key ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Geschützte Präsentationen laden

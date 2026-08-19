@@ -246,42 +246,42 @@ Web:
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-signal ico-blue fa-2x col-lg-2">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Trabajar con tablas de PowerPoint a través de API
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Aplicar o quitar la protección en las formas
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Agregue gráficos de Excel como OleObjects a las diapositivas
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Compatibilidad con OleObjects vinculados
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Generar presentaciones desde la base de datos.
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Proteja las presentaciones y el PDF resultante
@@ -295,7 +295,7 @@ Web:
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Crear y personalizar gráficos

@@ -5,6 +5,7 @@ title: Python PowerPoint API for PPT, PPTX, and ODP Presentations
 weight: 5890
 url: /python-java/
 description: Aspose.Slides for Python via Java is a Python PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Python.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

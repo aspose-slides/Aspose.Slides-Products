@@ -5,6 +5,7 @@ title: Java PowerPoint API | Aspose.Slides for Java
 weight: 6330
 url: /java/
 description: Aspose.Slides for Java is a PowerPoint API for creating, editing, converting, and processing PPT, PPTX, and other presentation formats in Java.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -304,7 +305,7 @@ With Aspose.Slides for Java, you can access and manipulate every presentation el
     </h2>
     <p>You can use Aspose.Slides for Java to create a presentation and set an image as a slide background. Image backgrounds can make slides more visual, reinforce the message, or highlight text and other slide elements.</p>
     <p>Use the following code to add a background to your presentation:</p>
-    <div class="codeblock" id="code">
+    <div class="codeblock" id="code-1">
      <h3>
       Add background to a presentation in Java
      </h3>
@@ -331,13 +332,14 @@ try {
 }
      </code></pre>
     </div>
+   </div>
    <div class="col-lg-12">
     <h2 class="h2title">
      Convert Presentations to PDF in Java
     </h2>
     <p>PDF is a common format for sharing presentations because it preserves layout and can be opened on many devices without PowerPoint.</p>
     <p>Use the following code to convert a PowerPoint presentation to PDF:</p>
-    <div class="codeblock" id="code">
+    <div class="codeblock" id="code-2">
      <h3>
       Convert PPT to PDF in Java
      </h3>
@@ -350,6 +352,7 @@ try {
 }
      </code></pre>
     </div>
+   </div>
     <div class="col-lg-12">
     <h2 class="h2title">
      Import a Presentation from PDF in Java
@@ -357,7 +360,7 @@ try {
     <p>
      Converting PDF files to PPT with Aspose.Slides for Java is a simple and effective way to create editable PowerPoint presentations from PDF content. This is useful when you need to modify, customize, or reuse PDF content in a presentation format.
     </p>
-    <div class="codeblock" id="code">
+    <div class="codeblock" id="code-3">
      <h3>
       Import a presentation from PDF in Java
      </h3>
@@ -379,7 +382,7 @@ try {
     <p>
      Slide thumbnails can be used in many scenarios, such as building an online presentation viewer for a custom website, sharing slide previews with customers, or displaying presentation templates. Aspose.Slides for Java allows you to create slide thumbnails with just a few lines of code.
     </p>
-    <div class="codeblock" id="code">
+    <div class="codeblock" id="code-4">
      <h3>
       Create a slide thumbnail in Java
      </h3>

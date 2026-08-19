@@ -5,6 +5,7 @@ title: Node.js via .NET PowerPoint API by Aspose.Slides
 weight: 5890
 url: /nodejs-net/
 description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

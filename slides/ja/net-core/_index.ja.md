@@ -250,42 +250,42 @@ SVG
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-signal ico-blue fa-2x col-lg-2">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      APIを介してPowerPointテーブルを操作する
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      形状に保護を適用または削除します
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      ExcelチャートをOleObjectsとしてスライドに追加します
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      リンクされたOleObjectのサポート
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      データベースからプレゼンテーションを生成する
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      プレゼンテーションと結果のPDFを保護する
@@ -299,7 +299,7 @@ SVG
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      チャートを作成してカスタマイズする

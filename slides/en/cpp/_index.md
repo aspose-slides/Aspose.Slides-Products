@@ -5,6 +5,7 @@ title: Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides for
 weight: 6580
 url: /cpp/
 description: Aspose.Slides for C++ is a powerful library for creating, editing, and converting PowerPoint presentations in C++.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -90,7 +91,7 @@ Aspose.Slides for C++ offers many advantages over other solutions for PowerPoint
             <p class="col-lg-10">Add infographics to presentations</p>
          </div>
          <div class="col-lg-4">
-            <em class="fa fa-text-width ico-blue fa-2x col-lg-2"></em>
+            <em class="fa fa-database ico-blue fa-2x col-lg-2"></em>
             <p class="col-lg-10">Generate presentations from database content</p>
          </div>
          <div class="col-lg-4">
@@ -110,7 +111,7 @@ Aspose.Slides for C++ offers many advantages over other solutions for PowerPoint
             <p class="col-lg-10">Add layout slides to presentations</p>
          </div>
          <div class="col-lg-4">
-            <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2"></em>
+            <em class="fa fa-key ico-blue fa-2x col-lg-2"></em>
             <p class="col-lg-10">Load protected presentations</p>
          </div>
          <div class="col-lg-4">

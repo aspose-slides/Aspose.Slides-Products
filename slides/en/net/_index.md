@@ -5,6 +5,7 @@ title: C# .NET PowerPoint Processing API | Aspose.Slides
 weight: 1890
 url: /net/
 description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing, converting, and processing presentations programmatically.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -279,42 +280,42 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-signal ico-blue fa-2x col-lg-2">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Work with PowerPoint tables programmatically
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Apply or remove shape protection
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Add Excel charts as OLE objects to slides
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Work with linked OLE objects
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Generate presentations from databases
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Protect presentations and exported PDF files
@@ -328,7 +329,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Create and customize charts
@@ -341,7 +342,7 @@ description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing
     <p>
      Aspose.Slides for .NET includes a rendering engine for PowerPoint and OpenDocument formats. It can export presentations to PDF, HTML, TIFF, XPS, and other formats by loading a presentation and calling the <code>Save</code> method with the required output format.
     </p>
-    <div class="codeblock" id="code">
+    <div class="codeblock" id="code-1">
      <h3>
        Convert Presentations in C#
      </h3>
@@ -392,7 +393,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
     <p>
      Aspose.Slides for .NET can generate slide thumbnails that can be used in custom presentation viewers, websites, desktop apps, and other .NET applications.
     </p>
-    <div class="codeblock" id="code">
+    <div class="codeblock" id="code-2">
      <h3>
       Generate slide thumbnails via .NET - C#
      </h3>
@@ -465,6 +466,7 @@ image.Save("output.jpg", ImageFormat.Jpeg);
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/net/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-.NET" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/net/" >}}
+{{< blocks/products/pf/slr-element name="AI Agent Examples" href="https://github.com/aspose-slides/agentic-net-examples" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}

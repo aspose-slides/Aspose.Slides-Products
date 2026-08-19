@@ -5,6 +5,7 @@ title: PHP PowerPoint API for PPT, PPTX, and ODP Presentations
 weight: 5890
 url: /php-java/
 description: PHP library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -301,42 +302,42 @@ description: PHP library for creating, editing, converting, and processing prese
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-signal ico-blue fa-2x col-lg-2">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Create and format tables
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Apply or remove shape protection
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Embed Excel workbooks as OLE objects
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Support linked OLE objects
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Generate presentations from a database
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Protect presentations and generated PDFs
@@ -350,7 +351,7 @@ description: PHP library for creating, editing, converting, and processing prese
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Create and customize charts

@@ -5,6 +5,7 @@ title: Node.js via Java PowerPoint API by Aspose.Slides
 weight: 5890
 url: /nodejs-java/
 description: Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js.
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

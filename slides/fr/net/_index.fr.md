@@ -266,42 +266,42 @@ La toile:
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-signal ico-blue fa-2x col-lg-2">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Travailler avec des tableaux PowerPoint via l'API
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Appliquer ou supprimer la protection sur les formes
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Ajouter des graphiques Excel en tant qu'OleObjects aux diapositives
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Prise en charge des OleObjects liés
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-text-width ico-blue fa-2x col-lg-2">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Générer des présentations à partir de la base de données
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-unlock-alt ico-blue fa-2x col-lg-2">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Protégez les présentations et le PDF résultant
@@ -315,7 +315,7 @@ La toile:
     </p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
      Créer et personnaliser des graphiques
