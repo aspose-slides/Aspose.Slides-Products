@@ -64,24 +64,6 @@ Call `save` to export the presentation as a `PPT` file with `SaveFormat.Ppt`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPTX to Other Supported Formats" subTitle="You can also convert PPTX files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-jpg/" name="PPTX TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-fodp/" name="PPTX TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-odp/" name="PPTX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-otp/" name="PPTX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-pot/" name="PPTX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-potm/" name="PPTX TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-potx/" name="PPTX TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-pps/" name="PPTX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-pptm/" name="PPTX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/pptx-to-tiff/" name="PPTX TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

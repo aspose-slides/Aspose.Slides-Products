@@ -81,10 +81,6 @@ Call `Presentation.save` with the output file path and `SaveFormat.PDF`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG to Other Supported Formats" subTitle="You can also convert JPG files and save them in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

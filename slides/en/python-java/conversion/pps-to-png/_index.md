@@ -74,24 +74,6 @@ Access each `Slide`, call `getImage`, and save the result with `ImageFormat.Png`
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPS to Other Supported Formats" subTitle="You can also convert PPS files to the formats listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-html/" name="PPS TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-jpg/" name="PPS TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-gif/" name="PPS TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-odp/" name="PPS TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-otp/" name="PPS TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pot/" name="PPS TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-potm/" name="PPS TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-potx/" name="PPS TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-svg/" name="PPS TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

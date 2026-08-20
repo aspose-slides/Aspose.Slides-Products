@@ -100,26 +100,6 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSM to many other file formats. See other supported conversions below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-fodp/" name="PPSM TO FODP" description="Flat OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-gif/" name="PPSM TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-html/" name="PPSM TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-jpg/" name="PPSM TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-otp/" name="PPSM TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-pdf/" name="PPSM TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-png/" name="PPSM TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-pot/" name="PPSM TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-potm/" name="PPSM TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-potx/" name="PPSM TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-pps/" name="PPSM TO PPS" description="PowerPoint 97-2003 Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-ppt/" name="PPSM TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" description="PowerPoint Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" description="PowerPoint Open XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-svg/" name="PPSM TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-swf/" name="PPSM TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/ppsm-to-xps/" name="PPSM TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

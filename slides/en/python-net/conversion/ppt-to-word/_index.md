@@ -101,13 +101,6 @@ Save the resulting DOCX file by using `Document.save`.
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPT files to other supported formats." >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-jpg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
 
 
 

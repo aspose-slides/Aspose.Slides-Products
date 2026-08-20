@@ -83,26 +83,6 @@ presentation->Dispose();
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT into other file formats, including:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-emf/" name="POT TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-html/" name="POT TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-jpeg/" name="POT TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-odp/" name="POT TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-pdf/" name="POT TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-png/" name="POT TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-potm/" name="POT TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-potx/" name="POT TO POTX" description="PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-ppsm/" name="POT TO PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-ppt/" name="POT TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-pptm/" name="POT TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-pptx/" name="POT TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-svg/" name="POT TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-tiff/" name="POT TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-xml/" name="POT TO XML" description="PowerPoint XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/pot-to-xps/" name="POT TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

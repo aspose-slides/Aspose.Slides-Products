@@ -73,9 +73,6 @@ Save the presentation with `SaveFormat.Pdf`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert Image To Other Supported Formats" subTitle="You can also convert images and save them to other file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

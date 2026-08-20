@@ -66,14 +66,6 @@ Save the result as a `PPT` file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PDF To Other Supported Formats" subTitle="You can also convert PDF and save to other file formats. See all supported formats below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-xml/" name="PDF TO XML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

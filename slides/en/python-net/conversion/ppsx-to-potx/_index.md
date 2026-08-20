@@ -90,27 +90,6 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSX slide shows to many other file formats. See the supported conversions below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-fodp/" name="PPSX TO FODP" description="OpenDocument Flat XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-jpg/" name="PPSX TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-png/" name="PPSX TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-pot/" name="PPSX TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-potm/" name="PPSX TO POTM" description="Macro-Enabled PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-pps/" name="PPSX TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" description="Macro-Enabled PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-ppt/" name="PPSX TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" description="Macro-Enabled PowerPoint Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="PowerPoint Open XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-svg/" name="PPSX TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="Shockwave Flash" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

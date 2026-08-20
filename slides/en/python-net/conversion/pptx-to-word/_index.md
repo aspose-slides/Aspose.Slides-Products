@@ -105,13 +105,6 @@ Save the resulting DOCX file by using `Document.save`.
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX files to other supported formats." >}}
 
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-jpg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
 
 
 

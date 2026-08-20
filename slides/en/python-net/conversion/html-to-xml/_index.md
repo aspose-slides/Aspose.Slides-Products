@@ -67,11 +67,6 @@ Call `Presentation.save` with the output file path and `SaveFormat.XML`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert HTML to Other Supported Formats" subTitle="You can also import HTML content and save it in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/html-to-png/" name="HTML TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -90,27 +90,6 @@ Try the free [Aspose.Slides Conversion app](https://products.aspose.app/slides/c
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPS to many other file formats. See other supported conversions below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmap image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-emf/" name="PPS TO EMF" description="Enhanced Metafile" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-fodp/" name="PPS TO FODP" description="OpenDocument Flat XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-gif/" name="PPS TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-html/" name="PPS TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument presentation template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-pdf/" name="PPS TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-png/" name="PPS TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-pot/" name="PPS TO POT" description="PowerPoint 97–2003 template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-potm/" name="PPS TO POTM" description="Macro-enabled PowerPoint template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-potx/" name="PPS TO POTX" description="PowerPoint Open XML template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="Macro-enabled PowerPoint slide show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-ppt/" name="PPS TO PPT" description="PowerPoint 97–2003 presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-pptm/" name="PPS TO PPTM" description="Macro-enabled PowerPoint presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-pptx/" name="PPS TO PPTX" description="PowerPoint Open XML presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-svg/" name="PPS TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-swf/" name="PPS TO SWF" description="Shockwave Flash" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pps-to-xps/" name="PPS TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -114,26 +114,6 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF to many other file formats. See other supported conversions below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-fodp/" name="PDF TO FODP" description="Flat OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-gif/" name="PDF TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-html/" name="PDF TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-odp/" name="PDF TO ODP" description="OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-otp/" name="PDF TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-pot/" name="PDF TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-potm/" name="PDF TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-potx/" name="PDF TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-pps/" name="PDF TO PPS" description="PowerPoint 97-2003 Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-ppsm/" name="PDF TO PPSM" description="PowerPoint Macro-Enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-ppsx/" name="PDF TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-ppt/" name="PDF TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-pptm/" name="PDF TO PPTM" description="PowerPoint Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="PowerPoint Open XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-svg/" name="PDF TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-swf/" name="PDF TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

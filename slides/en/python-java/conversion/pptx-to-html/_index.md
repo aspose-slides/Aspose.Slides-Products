@@ -62,24 +62,6 @@ Call `save` with `SaveFormat.Html` to write the HTML document.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPTX to Other Supported Formats" subTitle="You can also convert PPTX presentations to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-ppt/" name="PPTX TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-jpg/" name="PPTX TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-fodp/" name="PPTX TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-odp/" name="PPTX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-otp/" name="PPTX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-pot/" name="PPTX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-potm/" name="PPTX TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-potx/" name="PPTX TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-pps/" name="PPTX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-pptm/" name="PPTX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/pptx-to-tiff/" name="PPTX TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

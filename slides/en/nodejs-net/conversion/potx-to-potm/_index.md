@@ -64,24 +64,6 @@ Call `save` to export the presentation as a `POTM` file with `SaveFormat.Potm`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert POTX to Other Supported Formats" subTitle="You can also convert POTX files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-pptx/" name="POTX TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-ppt/" name="POTX TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-pdf/" name="POTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-html/" name="POTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-png/" name="POTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-bmp/" name="POTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-jpg/" name="POTX TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-fodp/" name="POTX TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-gif/" name="POTX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-odp/" name="POTX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-otp/" name="POTX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-pot/" name="POTX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-pps/" name="POTX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-ppsm/" name="POTX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-ppsx/" name="POTX TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-pptm/" name="POTX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-svg/" name="POTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/potx-to-tiff/" name="POTX TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

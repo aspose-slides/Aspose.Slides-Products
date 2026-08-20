@@ -83,8 +83,6 @@ Call `Slide.write_as_svg` with a writable binary stream.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images to other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

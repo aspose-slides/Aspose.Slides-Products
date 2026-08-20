@@ -64,14 +64,6 @@ Call `Presentation.save` with the output file path and `SaveFormat.XML`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

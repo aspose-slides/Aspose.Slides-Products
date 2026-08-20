@@ -96,26 +96,6 @@ presentation->Dispose();
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert TIFF into many other file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-bmp/" name="TIFF TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-emf/" name="TIFF TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-gif/" name="TIFF TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-html/" name="TIFF TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-jpeg/" name="TIFF TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-odp/" name="TIFF TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-otp/" name="TIFF TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-pdf/" name="TIFF TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-png/" name="TIFF TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-pot/" name="TIFF TO POT" description="PowerPoint 97–2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-potx/" name="TIFF TO POTX" description="PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-pps/" name="TIFF TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-ppsm/" name="TIFF TO PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-ppsx/" name="TIFF TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-ppt/" name="TIFF TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-pptm/" name="TIFF TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-pptx/" name="TIFF TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-svg/" name="TIFF TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-xml/" name="TIFF TO XML" description="PowerPoint XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/tiff-to-xps/" name="TIFF TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

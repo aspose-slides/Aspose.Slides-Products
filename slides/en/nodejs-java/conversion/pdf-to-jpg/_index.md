@@ -78,24 +78,6 @@ Render each slide with `getImage` and save it with `ImageFormat.Jpeg`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-bmp/" name="PDF TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-fodp/" name="PDF TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-gif/" name="PDF TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-odp/" name="PDF TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-otp/" name="PDF TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-pot/" name="PDF TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-potm/" name="PDF TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-potx/" name="PDF TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-pps/" name="PDF TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-ppsm/" name="PDF TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-ppsx/" name="PDF TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-pptm/" name="PDF TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -100,26 +100,6 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP to many other file formats. See other supported conversions below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-fodp/" name="OTP TO FODP" description="Flat OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-gif/" name="OTP TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-html/" name="OTP TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-jpg/" name="OTP TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-odp/" name="OTP TO ODP" description="OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-pdf/" name="OTP TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-png/" name="OTP TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-pot/" name="OTP TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-potm/" name="OTP TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-potx/" name="OTP TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-pps/" name="OTP TO PPS" description="PowerPoint 97-2003 Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-ppt/" name="OTP TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-pptm/" name="OTP TO PPTM" description="PowerPoint Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-pptx/" name="OTP TO PPTX" description="PowerPoint Open XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-svg/" name="OTP TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-swf/" name="OTP TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/otp-to-xps/" name="OTP TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

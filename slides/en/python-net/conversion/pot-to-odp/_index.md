@@ -90,27 +90,6 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert POT presentation templates to many other file formats. See the supported conversions below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-emf/" name="POT TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-fodp/" name="POT TO FODP" description="OpenDocument Flat XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-gif/" name="POT TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-html/" name="POT TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-jpg/" name="POT TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-otp/" name="POT TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-pdf/" name="POT TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-png/" name="POT TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-potm/" name="POT TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-potx/" name="POT TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-pps/" name="POT TO PPS" description="PowerPoint 97-2003 Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-ppsm/" name="POT TO PPSM" description="PowerPoint Macro-Enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-ppsx/" name="POT TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-ppt/" name="POT TO PPT" description="Microsoft PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-pptm/" name="POT TO PPTM" description="PowerPoint Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-pptx/" name="POT TO PPTX" description="PowerPoint Open XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-svg/" name="POT TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-swf/" name="POT TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-tiff/" name="POT TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pot-to-xps/" name="POT TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

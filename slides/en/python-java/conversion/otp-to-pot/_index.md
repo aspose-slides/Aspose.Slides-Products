@@ -62,24 +62,6 @@ Call `save` with `SaveFormat.Pot` to write the POT file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert OTP to Other Supported Formats" subTitle="You can also convert OTP templates to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-pptx/" name="OTP TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-ppt/" name="OTP TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-pdf/" name="OTP TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-html/" name="OTP TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-png/" name="OTP TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-bmp/" name="OTP TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-jpg/" name="OTP TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-fodp/" name="OTP TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-gif/" name="OTP TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-odp/" name="OTP TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-potm/" name="OTP TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-potx/" name="OTP TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-pps/" name="OTP TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-ppsm/" name="OTP TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-ppsx/" name="OTP TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-pptm/" name="OTP TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-svg/" name="OTP TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/otp-to-tiff/" name="OTP TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

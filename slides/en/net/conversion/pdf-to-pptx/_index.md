@@ -73,14 +73,6 @@ Call the `Save` method with the output file path and `SaveFormat.Pptx`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-xml/" name="PDF TO XML" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

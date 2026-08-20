@@ -76,8 +76,6 @@ Save the result as a PNG image.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG to Other Supported Formats" subTitle="You can also convert JPG files and save them to other file formats. See all supported formats below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

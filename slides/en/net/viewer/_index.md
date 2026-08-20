@@ -10,7 +10,7 @@ description: View PowerPoint and OpenDocument presentations in C# using Aspose.S
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="View Presentation Code Samples" >}}
+{{< blocks/products/pf/product-card-row title="View presentations by format" >}}
 
 {{< blocks/products/pf/product pfName="View" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/net/viewer/odp/" >}}
 View ODP files using the Aspose.Slides for .NET API.

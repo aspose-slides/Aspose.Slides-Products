@@ -81,13 +81,6 @@ Render slides with `GetImage`, insert the slide images with `DocumentBuilder`, a
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

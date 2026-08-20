@@ -82,11 +82,6 @@ Add the JPG image with `addPictureFrame`, then save the presentation with `SaveF
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG and save to other file formats. See all supported formats below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-html/" name="JPG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

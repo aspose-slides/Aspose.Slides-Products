@@ -62,24 +62,6 @@ Call `save` with `SaveFormat.Tiff` to create the multipage TIFF image.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPT to Other Supported Formats" subTitle="You can also convert PPT presentations to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-pot/" name="PPT TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

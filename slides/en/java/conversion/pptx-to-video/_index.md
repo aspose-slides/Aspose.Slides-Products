@@ -99,27 +99,6 @@ try {
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-odp/" name="PPTX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-otp/" name="PPTX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-pot/" name="PPTX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-potm/" name="PPTX TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-potx/" name="PPTX TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-pps/" name="PPTX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-ppsm/" name="PPTX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-ppsx/" name="PPTX TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-ppt/" name="PPTX TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-pptm/" name="PPTX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-swf/" name="PPTX TO SWF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-tiff/" name="PPTX TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/pptx-to-xps/" name="PPTX TO XPS" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

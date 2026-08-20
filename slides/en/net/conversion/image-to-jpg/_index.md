@@ -99,25 +99,6 @@ image.Save("image.jpg", ImageFormat.Jpeg);
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="Aspose.Slides supports conversion operations for many file formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-emf/" name="PPT TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-gif/" name="PPT TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-html/" name="PPT TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-odp/" name="PPT TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-otp/" name="PPT TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-png/" name="PPT TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pot/" name="PPT TO POT" description="PowerPoint 97–2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-potm/" name="PPT TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-potx/" name="PPT TO POTX" description="PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pps/" name="PPT TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pptm/" name="PPT TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-pptx/" name="PPT TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-svg/" name="PPT TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-swf/" name="PPT TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-tiff/" name="PPT TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppt-to-xps/" name="PPT TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

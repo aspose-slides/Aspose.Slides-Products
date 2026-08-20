@@ -64,24 +64,6 @@ Call `save` with `SaveFormat.Odp` and an `.odp` output path.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPSM to Other Supported Formats" subTitle="You can also convert PPSM presentations to other supported file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-ppt/" name="PPSM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-pdf/" name="PPSM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-html/" name="PPSM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-png/" name="PPSM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-jpg/" name="PPSM TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-fodp/" name="PPSM TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-gif/" name="PPSM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-otp/" name="PPSM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-pot/" name="PPSM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-potm/" name="PPSM TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-potx/" name="PPSM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-pps/" name="PPSM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-svg/" name="PPSM TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-java/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

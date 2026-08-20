@@ -70,10 +70,6 @@ Save the result as a PDF file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG to Other Supported Formats" subTitle="You can also convert JPG files and save them to other file formats. See all supported formats below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

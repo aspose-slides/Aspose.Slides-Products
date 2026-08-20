@@ -64,24 +64,6 @@ Call `save` to export the presentation as a `PPT` file with `SaveFormat.Ppt`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PPSX to Other Supported Formats" subTitle="You can also convert PPSX files to other supported presentation and export formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-html/" name="PPSX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-png/" name="PPSX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-jpg/" name="PPSX TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-fodp/" name="PPSX TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-gif/" name="PPSX TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-odp/" name="PPSX TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-otp/" name="PPSX TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-pot/" name="PPSX TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-potm/" name="PPSX TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-potx/" name="PPSX TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-pps/" name="PPSX TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-svg/" name="PPSX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/nodejs-net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

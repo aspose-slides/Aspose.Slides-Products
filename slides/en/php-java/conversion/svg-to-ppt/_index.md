@@ -76,8 +76,6 @@ Add the SVG image with `addPictureFrame`, then call `save` with `SaveFormat::Ppt
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert SVG to Other Supported Formats" subTitle="You can also convert SVG files and save them to other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/svg-to-png/" name="SVG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/svg-to-pptx/" name="SVG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

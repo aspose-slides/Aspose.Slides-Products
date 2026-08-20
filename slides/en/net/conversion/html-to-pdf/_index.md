@@ -92,12 +92,6 @@ presentation.Save("document.pdf", SaveFormat.Pdf);
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="Aspose.Slides supports conversion operations for many file formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-xml/" name="HTML TO XML" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

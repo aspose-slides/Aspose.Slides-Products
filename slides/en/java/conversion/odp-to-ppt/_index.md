@@ -108,25 +108,6 @@ try {
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert ODP into many other file formats including a few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-bmp/" name="ODP TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-gif/" name="ODP TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-html/" name="ODP TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-jpeg/" name="ODP TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-otp/" name="ODP TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-pdf/" name="ODP TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-png/" name="ODP TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-pot/" name="ODP TO POT" description="PowerPoint 97–2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-potm/" name="ODP TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-potx/" name="ODP TO POTX" description="PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-pps/" name="ODP TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-ppsm/" name="ODP TO PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-ppsx/" name="ODP TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-pptm/" name="ODP TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-pptx/" name="ODP TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-svg/" name="ODP TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-swf/" name="ODP TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-tiff/" name="ODP TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/odp-to-xps/" name="ODP TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

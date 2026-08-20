@@ -62,8 +62,6 @@ Call `IImage.save` with the output file path and the required `ImageFormat` valu
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG to Other Supported Formats" subTitle="You can also convert JPG files and save them in other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

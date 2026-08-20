@@ -100,26 +100,6 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPS to many other file formats. See other supported conversions below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-fodp/" name="PPS TO FODP" description="Flat OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-gif/" name="PPS TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-html/" name="PPS TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-jpg/" name="PPS TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-odp/" name="PPS TO ODP" description="OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-otp/" name="PPS TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-pdf/" name="PPS TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-png/" name="PPS TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-pot/" name="PPS TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-potm/" name="PPS TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-potx/" name="PPS TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-ppsm/" name="PPS TO PPSM" description="PowerPoint Macro-Enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-ppsx/" name="PPS TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-ppt/" name="PPS TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-pptm/" name="PPS TO PPTM" description="PowerPoint Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-svg/" name="PPS TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-swf/" name="PPS TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-tiff/" name="PPS TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pps-to-xps/" name="PPS TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

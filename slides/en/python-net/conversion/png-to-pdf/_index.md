@@ -81,10 +81,6 @@ Call `Presentation.save` with the output file path and `SaveFormat.PDF`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images to other supported formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-svg/" name="PNG TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

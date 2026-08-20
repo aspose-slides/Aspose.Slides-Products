@@ -90,27 +90,6 @@ Use the [free online app](https://products.aspose.app/slides/conversion) to see 
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTM presentations to many other file formats. See the supported conversions below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Enhanced Metafile" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-fodp/" name="PPTM TO FODP" description="OpenDocument Flat XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-jpg/" name="PPTM TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-pot/" name="PPTM TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-potm/" name="PPTM TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-potx/" name="PPTM TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-pps/" name="PPTM TO PPS" description="PowerPoint 97-2003 Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="PowerPoint Macro-Enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="PowerPoint Open XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-swf/" name="PPTM TO SWF" description="Shockwave Flash" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

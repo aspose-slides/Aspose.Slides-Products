@@ -87,11 +87,6 @@ Add the JPG image with `addPictureFrame`, render the slide with `getImage`, and 
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG and save to other file formats. See all supported formats below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-html/" name="JPG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -79,10 +79,6 @@ Write the slide to an SVG file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images and save them to other file formats. See all supported formats below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

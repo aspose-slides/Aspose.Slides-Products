@@ -99,26 +99,6 @@ foreach (var slide in presentation.Slides)
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPSX into many other file formats including a few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-emf/" name="PPSX TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-gif/" name="PPSX TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-html/" name="PPSX TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-jpeg/" name="PPSX TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-odp/" name="PPSX TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-otp/" name="PPSX TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pdf/" name="PPSX TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pot/" name="PPSX TO POT" description="PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-potm/" name="PPSX TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-potx/" name="PPSX TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pps/" name="PPSX TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-ppsm/" name="PPSX TO PPSM" description="Macro-Enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-ppt/" name="PPSX TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pptm/" name="PPSX TO PPTM" description="Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-pptx/" name="PPSX TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-svg/" name="PPSX TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-swf/" name="PPSX TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-tiff/" name="PPSX TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/ppsx-to-xps/" name="PPSX TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

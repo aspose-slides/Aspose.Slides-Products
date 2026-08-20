@@ -100,26 +100,6 @@ sectionDescription="[Try our free Conversion app](https://products.aspose.app/sl
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTM to many other file formats. See other supported conversions below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-fodp/" name="PPTM TO FODP" description="OpenDocument Flat XML Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-jpg/" name="PPTM TO JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-pot/" name="PPTM TO POT" description="PowerPoint 97-2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-potm/" name="PPTM TO POTM" description="Macro-Enabled PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-pps/" name="PPTM TO PPS" description="PowerPoint 97-2003 Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" description="Macro-Enabled PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="Open XML PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Open XML PowerPoint Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-swf/" name="PPTM TO SWF" description="Small Web Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML Paper Specification" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

@@ -90,26 +90,6 @@ presentation.Save("output.xps", SaveFormat.Xps);
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert OTP into many other file formats including a few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-emf/" name="OTP TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-gif/" name="OTP TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-html/" name="OTP TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-jpeg/" name="OTP TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-odp/" name="OTP TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-pdf/" name="OTP TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-png/" name="OTP TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-pot/" name="OTP TO POT" description="PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-potm/" name="OTP TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-potx/" name="OTP TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-pps/" name="OTP TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-ppsm/" name="OTP TO PPSM" description="Macro-Enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-ppsx/" name="OTP TO PPSX" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-ppt/" name="OTP TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-pptm/" name="OTP TO PPTM" description="Macro-Enabled Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-pptx/" name="OTP TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-svg/" name="OTP TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-swf/" name="OTP TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/otp-to-tiff/" name="OTP TO TIFF" description="Tagged Image File Format" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

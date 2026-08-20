@@ -73,13 +73,6 @@ Call the `Save` method with the output file path and `SaveFormat.Ppt`.
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

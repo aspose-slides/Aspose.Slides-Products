@@ -82,11 +82,6 @@ Add the image to the slide with `addPictureFrame`, then save with `SaveFormat::H
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below:" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

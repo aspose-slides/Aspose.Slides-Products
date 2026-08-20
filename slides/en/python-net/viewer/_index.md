@@ -10,7 +10,7 @@ description: Learn how to open PowerPoint and OpenDocument presentation files in
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="Presentation Viewer Code Samples" >}}
+{{< blocks/products/pf/product-card-row title="View presentations by format" >}}
 
 {{< blocks/products/pf/product pfName="View" title="ODP" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/python-net/viewer/odp/" >}}
 Learn how to view an ODP file with Aspose.Slides for Python via .NET.

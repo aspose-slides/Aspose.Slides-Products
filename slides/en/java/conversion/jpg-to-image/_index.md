@@ -78,8 +78,6 @@ Render the slide as an `IImage` and save it as an image file.
 
 {{< blocks/products/pf/agp/other-supported-section title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG files and save them to other file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
 
 
 {{< /blocks/products/pf/agp/other-supported-section >}}

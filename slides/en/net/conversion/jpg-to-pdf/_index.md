@@ -94,10 +94,6 @@ presentation.Save("image.pdf", SaveFormat.Pdf);
     
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="Aspose.Slides supports conversion operations for many file formats" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

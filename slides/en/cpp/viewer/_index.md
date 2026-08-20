@@ -10,7 +10,7 @@ description: View PowerPoint and OpenDocument presentations in C++. Use Aspose.S
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/product-card-row title="View Presentation Code Samples" >}}
+{{< blocks/products/pf/product-card-row title="View presentations by format" >}}
 
 {{< blocks/products/pf/product pfName="View" title="PPT" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/cpp/viewer/ppt/" >}}
 Use Aspose.Slides for C++ to open `PPT` PowerPoint presentation files and save them as responsive HTML.

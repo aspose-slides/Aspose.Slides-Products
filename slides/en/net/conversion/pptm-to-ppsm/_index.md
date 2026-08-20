@@ -90,26 +90,6 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTM into many other file formats including a few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-emf/" name="PPTM TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-gif/" name="PPTM TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-html/" name="PPTM TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-jpeg/" name="PPTM TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-odp/" name="PPTM TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-otp/" name="PPTM TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pdf/" name="PPTM TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-png/" name="PPTM TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pot/" name="PPTM TO POT" description="PowerPoint Template Files" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-potm/" name="PPTM TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-potx/" name="PPTM TO POTX" description="PowerPoint Open XML Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pps/" name="PPTM TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" description="PowerPoint Open XML Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-ppt/" name="PPTM TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-svg/" name="PPTM TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-swf/" name="PPTM TO SWF" description="SWF Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/conversion/pptm-to-xps/" name="PPTM TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

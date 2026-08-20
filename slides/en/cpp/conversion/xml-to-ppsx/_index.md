@@ -82,26 +82,6 @@ presentation->Dispose();
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint XML Presentation files into many other file formats." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-bmp/" name="XML TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-emf/" name="XML TO EMF" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-gif/" name="XML TO GIF" description="Graphics Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-html/" name="XML TO HTML" description="Hypertext Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-jpeg/" name="XML TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-odp/" name="XML TO ODP" description="OpenDocument Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-otp/" name="XML TO OTP" description="OpenDocument Presentation Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-pdf/" name="XML TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-png/" name="XML TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-pot/" name="XML TO POT" description="PowerPoint 97–2003 Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-potm/" name="XML TO POTM" description="PowerPoint Macro-Enabled Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-potx/" name="XML TO POTX" description="PowerPoint Template" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-pps/" name="XML TO PPS" description="PowerPoint Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-ppsm/" name="XML TO PPSM" description="Macro-enabled Slide Show" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-ppt/" name="XML TO PPT" description="PowerPoint 97-2003 Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-pptm/" name="XML TO PPTM" description="Macro-enabled Presentation File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-pptx/" name="XML TO PPTX" description="Open XML Presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-svg/" name="XML TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-tiff/" name="XML TO TIFF" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/conversion/xml-to-xps/" name="XML TO XPS" description="XML Paper Specification" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
