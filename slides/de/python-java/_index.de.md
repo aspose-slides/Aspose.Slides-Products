@@ -41,6 +41,27 @@ Aspose.Slides für Python über Java bietet viele Vorteile gegenüber anderen L�
    <h2 class="pr-ft">Erweiterte Python PowerPoint-API-Funktionen</h2>
    <p>
    </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">So erstellen Sie eine neue PowerPoint-Präsentation in Python</h2>
+        <p>Im folgenden Beispiel haben wir der ersten Folie der Präsentation ein Rechteck hinzugefügt.</p>
+        <pre>
+            <code class="python">	
+import jpype
+import asposeslides
+
+jpype.startJVM()
+
+from asposeslides.api import Presentation, SaveFormat, ShapeType
+
+pres = Presentation()
+slide = pres.getSlides().get_Item(0)
+slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200)
+pres.save("NewPresentation.pptx", SaveFormat.Pptx)
+
+jpype.shutdownJVM()
+            </code>
+        </pre>
+    </div>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
@@ -104,27 +125,6 @@ Aspose.Slides für Python über Java bietet viele Vorteile gegenüber anderen L�
     <p>Verwenden Sie <strong>PyPI</strong>, um unsere Python-Bibliothek für die Präsentationsverarbeitung aus dem <a href="https://pypi.org/project/aspose-slides-java/">PyPI-Repository:</a> zu installieren</p>
     <pre><code>pip install aspose-slides-java</code></pre>
    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">So erstellen Sie eine neue PowerPoint-Präsentation in Python</h2>
-        <p>Im folgenden Beispiel haben wir der ersten Folie der Präsentation ein Rechteck hinzugefügt.</p>
-        <pre>
-            <code class="python">	
-import jpype
-import asposeslides
-
-jpype.startJVM()
-
-from asposeslides.api import Presentation, SaveFormat, ShapeType
-
-pres = Presentation()
-slide = pres.getSlides().get_Item(0)
-slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200)
-pres.save("NewPresentation.pptx", SaveFormat.Pptx)
-
-jpype.shutdownJVM()
-            </code>
-        </pre>
-    </div>
     <div class="col-lg-12">
         <h2 class="h2title">So führen Sie Präsentationen in Python zusammen</h2>
         <p>Dieser Python-Code zeigt Ihnen, wie Sie Präsentationen zusammenführen:</p>
@@ -241,8 +241,8 @@ jpype.shutdownJVM()
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Warum Aspose.Slides für Python über Java?" tabId="success-stories" >}}
-        {{< blocks/products/pf/slr-element name="Kundenliste" href="https://company.aspose.com/customers" >}}
-        {{< blocks/products/pf/slr-element name="Erfolgsgeschichten" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+        {{< blocks/products/pf/slr-element name="Kundenliste" href="https://about.aspose.com/customers/" >}}
+        {{< blocks/products/pf/slr-element name="Erfolgsgeschichten" href="https://about.aspose.com/customers/success-stories/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 {{< /blocks/products/pf/support-learning-resources >}}
 

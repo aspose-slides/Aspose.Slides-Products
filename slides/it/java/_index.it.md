@@ -14,6 +14,175 @@ description: Aspose.Slides per Java è un'API Aspose Java PowerPoint per la crea
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/pricing/slides/java/" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/java" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <!--<h2 class="h2title">Funzionalità avanzate dell'API di elaborazione di documenti Java PowerPoint</h2>
+
+<p>Aspose.Slides per Java incorpora una serie di funzionalità avanzate che offrono agli sviluppatori il controllo completo durante la programmazione con presentazioni di Microsoft PowerPoint in un ambiente Java.</p>-->
+   <h2 class="pr-ft">
+    Funzionalità avanzate dell'API Java PowerPoint
+   </h2>
+   <p>
+   </p>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Converti presentazione in più formati in Java
+    </h2>
+    <p>
+     L'API Aspose.Slides per Java esegue il rendering delle presentazioni in un ampio numero di formati standard simili a quello originale utilizzando il suo motore di rendering. Il motore di rendering è appositamente progettato per il rendering con la massima fedeltà a PowerPoint. La conversione delle presentazioni in qualsiasi formato supportato è semplice: basta caricare, impostare il formato di output e chiamare il metodo Save. Con l'API Java PowerPoint, definisci le impostazioni della conversione Java PPT per modificare il documento di output al volo.
+    </p>
+    <div class="codeblock" id="code-1">
+     <h3>
+      Presentazioni di rendering - Java
+     </h3>
+     <pre><code class="java">// load the file to be rendered
+
+Presentation prest = new Presentation(dir + "template.pptx");
+
+// Convert PPTX to PDF, XPS and TIFF
+
+prest.save(dir + "output.pdf", SaveFormat.Pdf);
+
+prest.save(dir + "output.xps", SaveFormat.Xps);
+
+prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Crea o clona diapositive esistenti dai modelli
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-save ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Salva e apri file in e da stream
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Genera presentazioni dal database
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-image ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Crea forme e aggiungi testo alle forme sulle diapositive
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Lavora con le tabelle PowerPoint
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Gestire il testo e la formattazione delle forme
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Rimuovere o applicare la protezione sulle forme
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Incorpora i grafici di Excel come oggetti OLE nelle diapositive
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Lavora con i componenti ActiveX
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Modifica gli elementi di presentazione in Java
+    </h2>
+    <p>
+     Aspose.Slides per Java API è in grado di gestire tutti gli elementi della diapositiva inclusi tabella, casella di testo, rettangolo, polilinea, ellisse, forma automatica, cornice immagine, cornice video, cornice audio e cornice oggetto OLE. L'API Java PowerPoint fornisce anche un insieme ben progettato di classi Java PPT che consentono di manipolare in modo completo ciascuno di questi elementi.
+    </p>
+   </div>
+   <!--
+
+<div class="col-lg-12">
+
+<h2 class="h2title">Formattazione del contenuto delle diapositive</h2>
+
+<p>È possibile formattare testo e forme sulle diapositive in una presentazione utilizzando Aspose.Slides per l'API Java. Il testo viene gestito tramite cornici di testo associate alle forme. Quindi il testo viene formattato utilizzando paragrafi e parti associati alle cornici di testo. Puoi anche manipolare gli attributi dell'elemento forma come posizione, dimensione, linea, immagine, testo e riempimento.</p>
+
+</div>
+
+-->
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Manipola PowerPoint SmartArt in Java
+    </h2>
+    <p>
+     Aspose.Slides per l'API Java può facilmente creare o accedere, manipolare e rimuovere forme SmartArt esistenti da una diapositiva. L'API Java PowerPoint facilita l'esplorazione dinamica delle proprietà di SmartArt o la gestione dei nodi SmartArt, nonché la manipolazione del layout, dello stile e del colore delle forme SmartArt.
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Crea miniature diapositive in Java
+    </h2>
+    <p>
+     Esistono molte possibilità per utilizzare le miniature delle diapositive, ad esempio: creare un visualizzatore di presentazioni online su un sito Web personalizzato, condividere le miniature delle diapositive con i clienti come modello di presentazione e molti altri. Aspose.Slides per l'API Java consente di creare miniature di diapositive con poche righe di codice.
+    </p>
+    <div class="codeblock" id="code-2">
+     <h3>
+      Crea la miniatura della diapositiva - Java
+     </h3>
+     <pre><code class="java">// load the file
+
+Presentation prest = new Presentation(dir + "template.pptx");
+
+// access the first slide from the collection
+
+ISlide sld = prest.getSlides().get_Item(0);
+
+// create a full scale image of the slide
+
+BufferedImage image = sld.getThumbnail(1f, 1f);
+
+// save the image in JPEG format
+
+ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Microsoft Office Automation: non necessario
+    </h2>
+    <p>
+     L'API viene creata utilizzando codice gestito che non richiede l'installazione di Microsoft Office o Microsoft PowerPoint sulla macchina per funzionare con i formati di documento PowerPoint. È una perfetta alternativa all'automazione di Microsoft PowerPoint in termini di funzionalità supportate, sicurezza, stabilità, scalabilità, velocità e prezzo.
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>
  Aspose.Slides per Java è un'API Java PowerPoint per la manipolazione e la gestione delle presentazioni. Consente agli sviluppatori di leggere, scrivere, convertire e manipolare presentazioni PowerPoint in Java. Tutti gli elementi del documento come diapositive, tabelle, testo, grafici, forme, immagini e diagrammi SmartArt sono accessibili per la manipolazione.
@@ -253,175 +422,6 @@ Ragnatela:
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <!--<h2 class="h2title">Funzionalità avanzate dell'API di elaborazione di documenti Java PowerPoint</h2>
-
-<p>Aspose.Slides per Java incorpora una serie di funzionalità avanzate che offrono agli sviluppatori il controllo completo durante la programmazione con presentazioni di Microsoft PowerPoint in un ambiente Java.</p>-->
-   <h2 class="pr-ft">
-    Funzionalità avanzate dell'API Java PowerPoint
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Crea o clona diapositive esistenti dai modelli
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-save ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Salva e apri file in e da stream
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Genera presentazioni dal database
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Crea forme e aggiungi testo alle forme sulle diapositive
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Lavora con le tabelle PowerPoint
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Gestire il testo e la formattazione delle forme
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Rimuovere o applicare la protezione sulle forme
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Incorpora i grafici di Excel come oggetti OLE nelle diapositive
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Lavora con i componenti ActiveX
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Converti presentazione in più formati in Java
-    </h2>
-    <p>
-     L'API Aspose.Slides per Java esegue il rendering delle presentazioni in un ampio numero di formati standard simili a quello originale utilizzando il suo motore di rendering. Il motore di rendering è appositamente progettato per il rendering con la massima fedeltà a PowerPoint. La conversione delle presentazioni in qualsiasi formato supportato è semplice: basta caricare, impostare il formato di output e chiamare il metodo Save. Con l'API Java PowerPoint, definisci le impostazioni della conversione Java PPT per modificare il documento di output al volo.
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      Presentazioni di rendering - Java
-     </h3>
-     <pre><code class="java">// load the file to be rendered
-
-Presentation prest = new Presentation(dir + "template.pptx");
-
-// Convert PPTX to PDF, XPS and TIFF
-
-prest.save(dir + "output.pdf", SaveFormat.Pdf);
-
-prest.save(dir + "output.xps", SaveFormat.Xps);
-
-prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Modifica gli elementi di presentazione in Java
-    </h2>
-    <p>
-     Aspose.Slides per Java API è in grado di gestire tutti gli elementi della diapositiva inclusi tabella, casella di testo, rettangolo, polilinea, ellisse, forma automatica, cornice immagine, cornice video, cornice audio e cornice oggetto OLE. L'API Java PowerPoint fornisce anche un insieme ben progettato di classi Java PPT che consentono di manipolare in modo completo ciascuno di questi elementi.
-    </p>
-   </div>
-   <!--
-
-<div class="col-lg-12">
-
-<h2 class="h2title">Formattazione del contenuto delle diapositive</h2>
-
-<p>È possibile formattare testo e forme sulle diapositive in una presentazione utilizzando Aspose.Slides per l'API Java. Il testo viene gestito tramite cornici di testo associate alle forme. Quindi il testo viene formattato utilizzando paragrafi e parti associati alle cornici di testo. Puoi anche manipolare gli attributi dell'elemento forma come posizione, dimensione, linea, immagine, testo e riempimento.</p>
-
-</div>
-
--->
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Manipola PowerPoint SmartArt in Java
-    </h2>
-    <p>
-     Aspose.Slides per l'API Java può facilmente creare o accedere, manipolare e rimuovere forme SmartArt esistenti da una diapositiva. L'API Java PowerPoint facilita l'esplorazione dinamica delle proprietà di SmartArt o la gestione dei nodi SmartArt, nonché la manipolazione del layout, dello stile e del colore delle forme SmartArt.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Crea miniature diapositive in Java
-    </h2>
-    <p>
-     Esistono molte possibilità per utilizzare le miniature delle diapositive, ad esempio: creare un visualizzatore di presentazioni online su un sito Web personalizzato, condividere le miniature delle diapositive con i clienti come modello di presentazione e molti altri. Aspose.Slides per l'API Java consente di creare miniature di diapositive con poche righe di codice.
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      Crea la miniatura della diapositiva - Java
-     </h3>
-     <pre><code class="java">// load the file
-
-Presentation prest = new Presentation(dir + "template.pptx");
-
-// access the first slide from the collection
-
-ISlide sld = prest.getSlides().get_Item(0);
-
-// create a full scale image of the slide
-
-BufferedImage image = sld.getThumbnail(1f, 1f);
-
-// save the image in JPEG format
-
-ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation: non necessario
-    </h2>
-    <p>
-     L'API viene creata utilizzando codice gestito che non richiede l'installazione di Microsoft Office o Microsoft PowerPoint sulla macchina per funzionare con i formati di documento PowerPoint. È una perfetta alternativa all'automazione di Microsoft PowerPoint in termini di funzionalità supportate, sicurezza, stabilità, scalabilità, velocità e prezzo.
-    </p>
-   </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
-
 {{< /blocks/products/pf/main-container >}}
 
 
@@ -429,7 +429,7 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 {{< blocks/products/pf/slr-tab tabTitle="Risorse di apprendimento" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentazione" href="https://docs.aspose.com/slides/java/" >}}
 {{< blocks/products/pf/slr-element name="Codice sorgente" href="https://github.com/aspose-slides/Aspose.Slides-for-Java" >}}
-{{< blocks/products/pf/slr-element name="Riferimenti API" href="https://apireference.aspose.com/slides/java" >}}
+{{< blocks/products/pf/slr-element name="Riferimenti API" href="https://reference.aspose.com/slides/java/" >}}
 {{< blocks/products/pf/slr-element name="Video tutorial" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -441,8 +441,8 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Perché Aspose.Slides per Java?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Elenco clienti" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Storie di successo" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Elenco clienti" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Storie di successo" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

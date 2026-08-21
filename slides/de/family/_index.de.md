@@ -141,7 +141,7 @@ So fügen Sie Wasserzeichen mithilfe der Aspose.Slides-API hinzu.
 {{< blocks/products/pf/slr-tab tabTitle="Lernmittel" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Dokumentation" href="https://docs.aspose.com/slides/" >}}
 {{< blocks/products/pf/slr-element name="Quellcode" href="https://github.com/aspose-slides?tab=repositories" >}}
-{{< blocks/products/pf/slr-element name="API-Referenzen" href="https://apireference.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="API-Referenzen" href="https://reference.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Tutorial-Videos" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -153,8 +153,8 @@ So fügen Sie Wasserzeichen mithilfe der Aspose.Slides-API hinzu.
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Warum die Aspose.Slides-Produktfamilie?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Kundenliste" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Erfolgsgeschichten" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Kundenliste" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Erfolgsgeschichten" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

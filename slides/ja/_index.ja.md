@@ -67,7 +67,7 @@ Aspose.Slides Cloud API for Microsoft PowerPointファイルおよびスライ�
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/i18n/testimonials title="人々が言っ​​ていること" subTitle="私たちの言葉をそのまま受け入れるのではありません。 Aspose.Slidesについてユーザーの意見をご覧ください。" caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/i18n/testimonials title="人々が言っ​​ていること" subTitle="私たちの言葉をそのまま受け入れるのではありません。 Aspose.Slidesについてユーザーの意見をご覧ください。" caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">

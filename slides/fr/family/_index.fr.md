@@ -141,7 +141,7 @@ Comment ajouter un filigrane à l'aide de l'API Aspose.Slides.
 {{< blocks/products/pf/slr-tab tabTitle="Ressources d'apprentissage" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/" >}}
 {{< blocks/products/pf/slr-element name="Code source" href="https://github.com/aspose-slides?tab=repositories" >}}
-{{< blocks/products/pf/slr-element name="Références API" href="https://apireference.aspose.com/" >}}
+{{< blocks/products/pf/slr-element name="Références API" href="https://reference.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Vidéos tutorielles" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -153,8 +153,8 @@ Comment ajouter un filigrane à l'aide de l'API Aspose.Slides.
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Pourquoi la famille de produits Aspose.Slides ?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Liste des clients" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Réussites" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Liste des clients" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Réussites" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

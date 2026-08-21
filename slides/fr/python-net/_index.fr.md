@@ -14,6 +14,176 @@ description: Bibliothèque Python pour travailler avec des fichiers Microsoft Po
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/python-net" buyLink="https://purchase.aspose.com/pricing/slides/python-net/" docsLink="https://docs.aspose.com/slides/python-net/" installationsDocsLink="https://docs.aspose.com/slides/python-net/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/python-net" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    Fonctionnalités avancées de l'API Python PowerPoint
+   </h2>
+   <p>
+   </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Créer une nouvelle présentation PowerPoint. Python PPTX, PPT ou ODP</h2>
+        <p>Dans l'exemple ci-dessous, nous avons ajouté une ligne à la première diapositive de la présentation.</p>
+        <pre>
+            <code class="python">
+import aspose.slides as slides
+
+# Instantiate a Presentation object that represents a presentation file
+with slides.Presentation() as presentation:
+    slide = presentation.slides[0]
+    slide.shapes.add_auto_shape(slides.ShapeType.LINE, 50, 150, 300, 0)
+    presentation.save("NewPresentation_out.pptx", slides.export.SaveFormat.PPTX)
+            </code>
+        </pre>
+    </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Créer ou cloner des diapositives à partir de modèles
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Travailler avec des tableaux PowerPoint via l'API
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Appliquer ou supprimer la protection sur les formes
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Ajouter des graphiques Excel en tant qu'OleObjects aux diapositives
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Prise en charge des OleObjects liés
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Générer des présentations à partir de la base de données
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Protégez les présentations et le PDF résultant
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Imprimer des présentations sur une imprimante physique
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Créer et personnaliser des graphiques
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Configuration requise
+    </h2>
+    <ul>
+	  <li>Compatible avec Python 3.5, 3.6, 3.7, 3.8 et 3.9</li>
+	  <li>Si vous écrivez du code Python sous Linux, consultez les <a href="https://docs.aspose.com/slides/python-net/system-requirements/">exigences supplémentaires pour Linux</a></li>
+    </ul>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Comment installer
+    </h2>
+    <p>Utilisez <strong>pip</strong> pour installer notre bibliothèque Python pour le traitement des présentations à partir du <a href="https://pypi.org/project/aspose.slides/">dépôt PyPI</a></p>:
+	<pre><code>pip install aspose.slides</code></pre>
+   </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Fusionner des présentations : Python PPTX, PPT ou ODP</h2>
+        <p>Ce code Python vous montre comment fusionner des présentations :</p>
+        <pre>
+            <code class="python">
+import aspose.slides as slides
+
+with slides.Presentation("Presentation1.pptx") as pres1:
+    with slides.Presentation("Presentation2.pptx") as pres2:
+        for slide in pres2.slides:
+            pres1.slides.add_clone(slide)
+        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title"> Importer une présentation à partir d'un PDF : Python PPTX, PPT ou ODP</h2>
+        <p>Ce code Python illustre le processus de conversion PDF vers PowerPoint :</p>
+        <pre>
+            <code class="python">
+import aspose.slides as slides
+
+with slides.Presentation() as pres:
+    pres.slides.remove_at(0)
+    pres.slides.add_from_pdf("welcome-to-powerpoint.pdf")
+    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convertir PowerPoint en PDF avec les options par défaut : Python PPTX, PPT ou ODP en PDF</h2>
+        <p>Ce code python vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un document PDF en utilisant les options par défaut. Le fichier résultant est un document PDF aux niveaux de qualité maximum</p>
+        <pre>
+            <code class="python">
+import aspose.slides as slides
+
+# Instantiate a Presentation object that represents a PPT file
+presentation = slides.Presentation("PowerPoint.ppt")
+
+# Save the presentation as PDF
+presentation.save("PPT-to-PDF.pdf", slides.export.SaveFormat.PDF)
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convertir PowerPoint en JPG : Python PPTX, PPT ou ODP en JPEG</h2>
+        <p>L'exemple suivant vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un ensemble d'images JPEG.</p>
+        <pre>
+            <code class="python">
+import aspose.slides as slides
+import aspose.pydrawing as drawing
+
+pres = slides.Presentation("pres.pptx")
+
+for sld in pres.slides:
+    bmp = sld.get_thumbnail(1, 1)
+    bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.jpeg)
+            </code>
+        </pre>
+    </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/i18n/tab-content >}}
 
 <p><strong>Aspose.Slides pour Python via .NET</strong> est une bibliothèque de classes puissante pour travailler avec ou traiter des présentations. Grâce à ce produit, les applications et les développeurs peuvent lire, éditer ou manipuler et convertir des présentations PowerPoint (PPT, PPTX) et des présentations dans d'autres formats (ODP) sans applications ou dépendances tierces. </p>
@@ -283,179 +453,9 @@ La toile:
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Fonctionnalités avancées de l'API Python PowerPoint
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Créer ou cloner des diapositives à partir de modèles
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Travailler avec des tableaux PowerPoint via l'API
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Appliquer ou supprimer la protection sur les formes
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Ajouter des graphiques Excel en tant qu'OleObjects aux diapositives
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Prise en charge des OleObjects liés
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Générer des présentations à partir de la base de données
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protégez les présentations et le PDF résultant
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Imprimer des présentations sur une imprimante physique
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Créer et personnaliser des graphiques
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Configuration requise
-    </h2>
-    <ul>
-	  <li>Compatible avec Python 3.5, 3.6, 3.7, 3.8 et 3.9</li>
-	  <li>Si vous écrivez du code Python sous Linux, consultez les <a href="https://docs.aspose.com/slides/python-net/system-requirements/">exigences supplémentaires pour Linux</a></li>
-    </ul>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Comment installer
-    </h2>
-    <p>Utilisez <strong>pip</strong> pour installer notre bibliothèque Python pour le traitement des présentations à partir du <a href="https://pypi.org/project/aspose.slides/">dépôt PyPI</a></p>:
-	<pre><code>pip install aspose.slides</code></pre>
-   </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Créer une nouvelle présentation PowerPoint. Python PPTX, PPT ou ODP</h2>
-        <p>Dans l'exemple ci-dessous, nous avons ajouté une ligne à la première diapositive de la présentation.</p>
-        <pre>
-            <code class="python">
-import aspose.slides as slides
-
-# Instantiate a Presentation object that represents a presentation file
-with slides.Presentation() as presentation:
-    slide = presentation.slides[0]
-    slide.shapes.add_auto_shape(slides.ShapeType.LINE, 50, 150, 300, 0)
-    presentation.save("NewPresentation_out.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Fusionner des présentations : Python PPTX, PPT ou ODP</h2>
-        <p>Ce code Python vous montre comment fusionner des présentations :</p>
-        <pre>
-            <code class="python">
-import aspose.slides as slides
-
-with slides.Presentation("Presentation1.pptx") as pres1:
-    with slides.Presentation("Presentation2.pptx") as pres2:
-        for slide in pres2.slides:
-            pres1.slides.add_clone(slide)
-        pres1.save("combined.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title"> Importer une présentation à partir d'un PDF : Python PPTX, PPT ou ODP</h2>
-        <p>Ce code Python illustre le processus de conversion PDF vers PowerPoint :</p>
-        <pre>
-            <code class="python">
-import aspose.slides as slides
-
-with slides.Presentation() as pres:
-    pres.slides.remove_at(0)
-    pres.slides.add_from_pdf("welcome-to-powerpoint.pdf")
-    pres.save("OutputPresentation.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convertir PowerPoint en PDF avec les options par défaut : Python PPTX, PPT ou ODP en PDF</h2>
-        <p>Ce code python vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un document PDF en utilisant les options par défaut. Le fichier résultant est un document PDF aux niveaux de qualité maximum</p>
-        <pre>
-            <code class="python">
-import aspose.slides as slides
-
-# Instantiate a Presentation object that represents a PPT file
-presentation = slides.Presentation("PowerPoint.ppt")
-
-# Save the presentation as PDF
-presentation.save("PPT-to-PDF.pdf", slides.export.SaveFormat.PDF)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convertir PowerPoint en JPG : Python PPTX, PPT ou ODP en JPEG</h2>
-        <p>L'exemple suivant vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un ensemble d'images JPEG.</p>
-        <pre>
-            <code class="python">
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-pres = slides.Presentation("pres.pptx")
-
-for sld in pres.slides:
-    bmp = sld.get_thumbnail(1, 1)
-    bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.jpeg)
-            </code>
-        </pre>
-    </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
-
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/i18n/testimonials title="Ce que les gens disent" subTitle="Ne vous contentez pas de nous croire sur parole. Découvrez ce que les utilisateurs ont à dire sur les API PowerPoint." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/i18n/testimonials title="Ce que les gens disent" subTitle="Ne vous contentez pas de nous croire sur parole. Découvrez ce que les utilisateurs ont à dire sur les API PowerPoint." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
@@ -493,8 +493,8 @@ Le produit fonctionnait comme annoncé, la documentation était facile à suivre
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.Slides pour Python via .NET ?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Liste des clients" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Réussites" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Liste des clients" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Réussites" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

@@ -43,6 +43,30 @@ description: Aspose.Slides pour Node.js via .NET est une API PowerPoint Node.js 
    <h2 class="pr-ft">Fonctionnalités avancées de l'API PowerPoint Node.js</h2>
    <p>
    </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Comment créer une nouvelle présentation PowerPoint dans Node.js</h2>
+        <p>Dans l'exemple ci-dessous, nous avons ajouté un rectangle à la première diapositive de la présentation.</p>
+        <pre>
+            <code class="JavaScript">	
+const asposeSlides = require('aspose.slides.via.net');
+
+const { Presentation, SaveFormat, ShapeType } = asposeSlides;
+
+var pres = new Presentation();
+try 
+{
+    var slide = pres.slides.get(0);
+    slide.shapes.addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200);
+    
+    pres.save("pres.pptx", SaveFormat.Pptx);
+}
+finally
+{
+    if (pres != null) pres.dispose();
+}
+            </code>
+        </pre>
+    </div>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
@@ -103,30 +127,6 @@ description: Aspose.Slides pour Node.js via .NET est une API PowerPoint Node.js 
     <p>Utilisez <strong>NPM</strong> pour installer notre bibliothèque Node.js pour le traitement des présentations à partir du <a href="https://www.npmjs.com/package/aspose.slides.via.net">référentiel de packages NPM. :</a></p>
     <pre><code>npm install aspose.slides.via.net</code></pre>
    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Comment créer une nouvelle présentation PowerPoint dans Node.js</h2>
-        <p>Dans l'exemple ci-dessous, nous avons ajouté un rectangle à la première diapositive de la présentation.</p>
-        <pre>
-            <code class="JavaScript">	
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat, ShapeType } = asposeSlides;
-
-var pres = new Presentation();
-try 
-{
-    var slide = pres.slides.get(0);
-    slide.shapes.addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200);
-    
-    pres.save("pres.pptx", SaveFormat.Pptx);
-}
-finally
-{
-    if (pres != null) pres.dispose();
-}
-            </code>
-        </pre>
-    </div>
     
     <div class="col-lg-12">
         <h2 class="h2title">Comment ajouter/supprimer/cloner des diapositives et modifier les propriétés de forme dans Node.js</h2>
@@ -350,8 +350,8 @@ finally
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.Slides pour Node.js via .NET ?" tabId="success-stories" >}}
-        {{< blocks/products/pf/slr-element name="Liste des clients" href="https://company.aspose.com/customers" >}}
-        {{< blocks/products/pf/slr-element name="Réussites" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+        {{< blocks/products/pf/slr-element name="Liste des clients" href="https://about.aspose.com/customers/" >}}
+        {{< blocks/products/pf/slr-element name="Réussites" href="https://about.aspose.com/customers/success-stories/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 {{< /blocks/products/pf/support-learning-resources >}}
 

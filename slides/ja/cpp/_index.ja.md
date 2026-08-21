@@ -14,257 +14,6 @@ description: Aspose.Slides API for C ++は、C ++でPPTを作成、表示、操�
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/cpp" buyLink="https://purchase.aspose.com/pricing/slides/cpp/" docsLink="https://docs.aspose.com/slides/cpp/" installationsDocsLink="https://docs.aspose.com/slides/cpp/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.Cpp/" nugetPackageName="Aspose.Slides.Cpp" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/cpp" >}}
 
-{{< blocks/products/pf/i18n/tab-content >}}
-<p>
- Aspose.Slides for C ++は、MicrosoftPowerPointを使用せずにC++でPPT（X）を操作、レンダリング、変換するための強力なPowerPointAPIです。 APIは、ドキュメント内のスライドのさまざまなグラフィック形式への忠実度の高いレンダリングをサポートするだけでなく、ファイルのほぼすべての可能なコンテンツを変更または作成したり、スライド上のテキストや図形をフォーマットしたりする機能を提供します。
-</p>
-
-<p>
- Aspose.Slides for C ++は、POT、PPT、PPS、POTX、PPTX、PPSX、ODPなどを含むほとんどのPowerPointおよびスライドショー形式をサポートしています。 Aspose.Slides for C ++は、これらすべての形式をPDF、HTML、XPSなどに変換することもできます。
-</p>
-
-{{< /blocks/products/pf/i18n/tab-content >}}
-
-<!--Diagrams Start-->
-{{< blocks/products/pf/i18n/carousel >}}
-
-{{< blocks/products/pf/carousel-item h3="一目で" description="Aspose.Slides for C++API機能の概要。" >}}
-<div class="diagram1 d1-cplus">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-table">
-    </i>
-    情報処理
-   </header>
-   <ul>
-    <li>
-チャートを作成する
-    </li>
-    <li>
-SmartArtsを使用する
-    </li>
-    <li>
-PowerPointの図形を操作する
-    </li>
-    <li>
-ActiveXコントロールのサポート
-    </li>
-    <li>
-Oleオブジェクトのサポート
-    </li>
-   </ul>
-   <header>
-    <i class="fa fa-text-width">
-    </i>
-    テキストと段落
-   </header>
-   <ul>
-    <li>
-テキストとフォーマットを管理する
-    </li>
-    <li>
-ハイパーリンクテキストの管理
-    </li>
-    <li>
-プレースホルダータイプを設定する
-    </li>
-    <li>
-テキストプレースホルダーとフレーム
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cog">
-    </i>
-    グラフィックとマルチメディア
-   </header>
-   <ul>
-    <li>
-MSOチャートをサポート
-    </li>
-    <li>
-SmartArtシェイプをサポート
-    </li>
-    <li>
-ActiveXシェイプをサポート
-    </li>
-    <li>
-スライドトランジションの管理
-    </li>
-    <li>
-アニメーション効果の管理
-    </li>
-    <li>
-図形にコネクタを追加する
-    </li>
-    <li>
-形状を回転および反転
-    </li>
-    <li>
-シェイプの線のスタイルを管理する
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    C++
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
-
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< blocks/products/pf/carousel-item h3="プラットフォームの独立性" description="Aspose.Slides for C ++は、[システム要件]（https://docs.aspose.com/slides/cpp/system-requirements/）を使用して次のプラットフォームで開発されたC++アプリケーションをサポートします。" >}}
-<div class="diagram1 d1-cplus">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Windows32ビット
-   </header>
-   <br/>
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Windows64ビット
-   </header>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Linux64ビット
-   </header>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for C++" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    C++
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
-
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for C ++ APIは、[PowerPoint形式]（https://docs.aspose.com/slides/cpp/supported-file-formats/）と多くの変換形式をサポートしています。" >}}
-<div class="diagram1 d2 d1-cplus">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    入出力
-   </header>
-   <ul>
-    <li>
-     <b>
-Microsoft PowerPoint：
-     </b>
-     PPT, POT, PPS, PPTX, POTX, PPSX, PPTM, PPSM, POTM
-    </li>
-    <li>
-     <b>
-OpenOffice：
-     </b>
-     ODP
-    </li>
-    <li>
-     <strong>
-      Open Document:
-     </strong>
-     OTP
-    </li>
-    <li>
-     <strong>
-      Others:
-     </strong>
-     TIFF, EMF, XML
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    出力のみ
-   </header>
-   <ul>
-    <li>
-     <b>
-固定レイアウト：
-     </b>
-     PDF, XPS
-    </li>
-    <li>
-     <b>
-画像：
-     </b>
-     JPEG, PNG, GIF, BMP, SVG
-    </li>
-    <li>
-     <b>
-ウェブ：
-     </b>
-     HTML
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    C++
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
-
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< /blocks/products/pf/i18n/carousel >}}
-<!--Diagrams End-->
-
 <!--Feature-section Start-->
 <div class="container-fluid features-section bg-gray singleproduct">
  <a class="anchor" id="features" name="features">
@@ -276,6 +25,28 @@ OpenOffice：
    </h2>
    <p>
    </p>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     PowerPointファイルをPDFまたはXPSとしてエクスポートする
+    </h2>
+    <p>
+     独自に特別に設計されたレンダリングエンジンを備えたAspose.SlidesforC ++は、MicrosoftPowerPointに最も忠実にレンダリングします。プレゼンテーションをXPSやPDFなどの業界標準形式にエクスポートして、元のプレゼンテーションと同様の結果を得ることができます。
+    </p>
+    <div class="codeblock" id="code">
+     <h3>
+      PDFおよびXPS形式でプレゼンテーションをレンダリングする-C++
+     </h3>
+     <pre><code class="cpp">// load presentation to be converted
+
+SharedPtr&lt;Presentation&gt; prs = MakeObject&lt;Presentation&gt;(dir + L"template.pptx");
+
+// save in PDF &amp; XPS formats
+
+prs-&gt;Save(dir + L"output.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
+
+prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</code></pre>
+    </div>
+   </div>
    <div class="col-lg-4">
     <em class="fa fa-floppy-o ico-blue fa-2x col-lg-2">
     </em>
@@ -527,28 +298,6 @@ OpenOffice：
 </div>-->
    <div class="col-lg-12">
     <h2 class="h2title">
-     PowerPointファイルをPDFまたはXPSとしてエクスポートする
-    </h2>
-    <p>
-     独自に特別に設計されたレンダリングエンジンを備えたAspose.SlidesforC ++は、MicrosoftPowerPointに最も忠実にレンダリングします。プレゼンテーションをXPSやPDFなどの業界標準形式にエクスポートして、元のプレゼンテーションと同様の結果を得ることができます。
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      PDFおよびXPS形式でプレゼンテーションをレンダリングする-C++
-     </h3>
-     <pre><code class="cpp">// load presentation to be converted
-
-SharedPtr&lt;Presentation&gt; prs = MakeObject&lt;Presentation&gt;(dir + L"template.pptx");
-
-// save in PDF &amp; XPS formats
-
-prs-&gt;Save(dir + L"output.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
-
-prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
      プレゼンテーションスライドのコピーまたはクローン作成
     </h2>
     <p>
@@ -583,6 +332,257 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
 </div>
 <!--Feature-section End-->
 
+{{< blocks/products/pf/i18n/tab-content >}}
+<p>
+ Aspose.Slides for C ++は、MicrosoftPowerPointを使用せずにC++でPPT（X）を操作、レンダリング、変換するための強力なPowerPointAPIです。 APIは、ドキュメント内のスライドのさまざまなグラフィック形式への忠実度の高いレンダリングをサポートするだけでなく、ファイルのほぼすべての可能なコンテンツを変更または作成したり、スライド上のテキストや図形をフォーマットしたりする機能を提供します。
+</p>
+
+<p>
+ Aspose.Slides for C ++は、POT、PPT、PPS、POTX、PPTX、PPSX、ODPなどを含むほとんどのPowerPointおよびスライドショー形式をサポートしています。 Aspose.Slides for C ++は、これらすべての形式をPDF、HTML、XPSなどに変換することもできます。
+</p>
+
+{{< /blocks/products/pf/i18n/tab-content >}}
+
+<!--Diagrams Start-->
+{{< blocks/products/pf/i18n/carousel >}}
+
+{{< blocks/products/pf/carousel-item h3="一目で" description="Aspose.Slides for C++API機能の概要。" >}}
+<div class="diagram1 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    情報処理
+   </header>
+   <ul>
+    <li>
+チャートを作成する
+    </li>
+    <li>
+SmartArtsを使用する
+    </li>
+    <li>
+PowerPointの図形を操作する
+    </li>
+    <li>
+ActiveXコントロールのサポート
+    </li>
+    <li>
+Oleオブジェクトのサポート
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-text-width">
+    </i>
+    テキストと段落
+   </header>
+   <ul>
+    <li>
+テキストとフォーマットを管理する
+    </li>
+    <li>
+ハイパーリンクテキストの管理
+    </li>
+    <li>
+プレースホルダータイプを設定する
+    </li>
+    <li>
+テキストプレースホルダーとフレーム
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    グラフィックとマルチメディア
+   </header>
+   <ul>
+    <li>
+MSOチャートをサポート
+    </li>
+    <li>
+SmartArtシェイプをサポート
+    </li>
+    <li>
+ActiveXシェイプをサポート
+    </li>
+    <li>
+スライドトランジションの管理
+    </li>
+    <li>
+アニメーション効果の管理
+    </li>
+    <li>
+図形にコネクタを追加する
+    </li>
+    <li>
+形状を回転および反転
+    </li>
+    <li>
+シェイプの線のスタイルを管理する
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img width="70" height="75" alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="プラットフォームの独立性" description="Aspose.Slides for C ++は、[システム要件]（https://docs.aspose.com/slides/cpp/system-requirements/）を使用して次のプラットフォームで開発されたC++アプリケーションをサポートします。" >}}
+<div class="diagram1 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Windows32ビット
+   </header>
+   <br/>
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Windows64ビット
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Linux64ビット
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img width="70" height="75" alt="Presentation APIs for C++" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for C ++ APIは、[PowerPoint形式]（https://docs.aspose.com/slides/cpp/supported-file-formats/）と多くの変換形式をサポートしています。" >}}
+<div class="diagram1 d2 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    入出力
+   </header>
+   <ul>
+    <li>
+     <b>
+Microsoft PowerPoint：
+     </b>
+     PPT, POT, PPS, PPTX, POTX, PPSX, PPTM, PPSM, POTM
+    </li>
+    <li>
+     <b>
+OpenOffice：
+     </b>
+     ODP
+    </li>
+    <li>
+     <strong>
+      Open Document:
+     </strong>
+     OTP
+    </li>
+    <li>
+     <strong>
+      Others:
+     </strong>
+     TIFF, EMF, XML
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    出力のみ
+   </header>
+   <ul>
+    <li>
+     <b>
+固定レイアウト：
+     </b>
+     PDF, XPS
+    </li>
+    <li>
+     <b>
+画像：
+     </b>
+     JPEG, PNG, GIF, BMP, SVG
+    </li>
+    <li>
+     <b>
+ウェブ：
+     </b>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg"/>
+  <header>
+   Aspose.Slides
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< /blocks/products/pf/i18n/carousel >}}
+<!--Diagrams End-->
+
 {{< /blocks/products/pf/main-container >}}
 
 
@@ -590,7 +590,7 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
 {{< blocks/products/pf/slr-tab tabTitle="学習リソース" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="ドキュメンテーション" href="https://docs.aspose.com/slides/cpp/" >}}
 {{< blocks/products/pf/slr-element name="ソースコード" href="https://github.com/aspose-slides/Aspose.Slides-for-C" >}}
-{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://apireference.aspose.com/cpp/slides" >}}
+{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://reference.aspose.com/slides/cpp/" >}}
 {{< blocks/products/pf/slr-element name="チュートリアルビデオ" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -602,8 +602,8 @@ prs-&gt;Save(dir + L"output.xps", Aspose::Slides::Export::SaveFormat::Xps);</cod
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="なぜAspose.SlidesforC ++？" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="サクセスストーリー" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="サクセスストーリー" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

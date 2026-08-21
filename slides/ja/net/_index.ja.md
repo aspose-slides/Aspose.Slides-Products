@@ -14,6 +14,185 @@ description: Aspose.SlidesはC＃.NETPowerPointAPIです。 Slides APIを使用�
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/pricing/slides/net/" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/net" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    高度な.NETC＃PowerPointAPI機能
+   </h2>
+   <p>
+   </p>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     .NET C＃でプレゼンテーションをPDF、HTML、TIFF、またはXPSに変換する
+    </h2>
+    <p>
+     Aspose.Slides for .NET APIには、PowerPointおよびOpenOffice形式を最高の忠実度でレンダリングするために特別に設計された独自のレンダリングエンジンがあります。 .NET C＃PowerPoint APIを使用すると、プレゼンテーションをPDF、HTML、TIFF、XPSなどの業界標準の形式にエクスポートして、元のプレゼンテーションと同じ結果を得ることができます。さらに、C＃でPPTを変換するには、プレゼンテーションファイルをロードし、目的の出力形式とともにSaveメソッドを呼び出すだけです。 C＃PowerPointの変換は、Aspose.Slides for.NETAPIを使用すると非常に簡単です。
+    </p>
+    <div class="codeblock" id="code-1">
+     <h3>
+      プレゼンテーションのレンダリング-C＃
+     </h3>
+     <pre><code class="cs">// load the file to be converted
+
+var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
+
+// render as PDF, XPS &amp; TIFF
+
+prs.Save(dir + "output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
+
+prs.Save(dir + "output.xps", Aspose.Slides.Export.SaveFormat.Xps);
+
+prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     テンプレートからスライドを作成または複製する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     APIを介してPowerPointテーブルを操作する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     形状に保護を適用または削除します
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     ExcelチャートをOleObjectsとしてスライドに追加します
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     リンクされたOleObjectのサポート
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     データベースからプレゼンテーションを生成する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     プレゼンテーションと結果のPDFを保護する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     物理プリンターでプレゼンテーションを印刷する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     チャートを作成してカスタマイズする
+    </p>
+   </div>
+   <!--<div class="col-lg-12">
+
+<h2 class="h2title">PowerPointのスライド要素を完全に制御</h2>
+
+<p>Aspose.Slides for .NETは、テキストボックス、テーブル、長方形、楕円、ポリライン、自動形状、額縁、オーディオフレーム、ビデオフレーム、OLEオブジェクトフレームなど、すべてのプレゼンテーションスライド要素を処理できます。 APIは、これらの各要素を包括的に操作できるように、適切に設計されたクラスのセットを提供します。</p>
+
+</div>-->
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     プレゼンテーションコンテンツを.NETC＃でフォーマットする
+    </h2>
+    <p>
+     Aspose.Slides .NET APIを使用して、C＃でスライド上のテキストと図形をフォーマットすることができます。プレゼンテーションのテキストは、図形に関連付けられたテキストフレームを使用して管理されます。したがって、開発者は、テキストフレームに関連付けられた段落と部分を使用してテキストを簡単にフォーマットできます。 C＃PowerPoint APIを使用して、位置、サイズ、線、画像、テキスト、塗りつぶしなどの形状要素の属性を操作することもできます。
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     .NET C＃でPowerPointSmartArtを作成および変更する
+    </h2>
+    <p>
+     Aspose.Slides for .NETは、SmartArt図形を最初から作成するのを容易にするだけでなく、スライドから既存のSmartArtオブジェクトにアクセス、操作、または削除する機能を提供します。さらに、.NET C＃PowerPoint APIは、SmartArtのノードを追加、削除、または反復する機能を提供します。また、スタイル、色、レイアウトの設定など、SmartArtの外観を動的に変更することもできます。
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     .NET C＃でプレゼンテーションを保護する
+    </h2>
+    <p>
+     Aspose.Slides for .NET APIは、コンテンツが変更されないように保護するために、プレゼンテーションファイルをロックできます。開発者は、安全な配布のために、C＃のPPT、および変換されたPDFドキュメントをパスワードで保護することもできます。 C＃PowerPoint APIは、生成されたプレゼンテーションとそのドキュメントプロパティの読み取り専用アクセスモードもサポートしています。
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     .NET C＃でスライドサムネイルを使用してプレゼンテーションビューアを作成する
+    </h2>
+    <p>
+     Aspose.Slides for .NETは、スライドのサムネイルを生成できるため、PowerPointアプリケーションがマシンにインストールされていないユーザーにスライドイメージを配布できます。 C＃PowerPoint APIを使用して、カスタムWebサイトやデスクトップアプリなど、あらゆる種類の.NET C＃アプリケーションでPPTを表示できます。この機能を使用して、C＃で独自のプレゼンテーションビューアを作成します。
+    </p>
+    <div class="codeblock" id="code-2">
+     <h3>
+      .NET経由でスライドのサムネイルを生成-C＃
+     </h3>
+     <pre><code class="cs">// load the presentation file
+
+var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
+
+// access the first slide from the collection
+
+var sld = prs.Slides[0];
+
+// create a full scale image of the slide
+
+var bmp = sld.GetThumbnail(1f, 1f);
+
+// save the image in JPEG format
+
+bmp.Save(dir + "output.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Microsoft Office Automation –不要
+    </h2>
+    <p>
+     Aspose.Slides for .NETは、PowerPointドキュメント形式で動作するためにMicrosoftOfficeまたはMicrosoftPowerPointをマシンにインストールする必要のないマネージコードを使用して構築されています。これは、サポートされている機能、セキュリティ、安定性、拡張性、速度、および価格の点で、MicrosoftOfficeオートメーションの完璧な代替手段です。
+    </p>
+   </div>
+   <!--<div class="col-lg-12">
+
+<h2 class="h2title">OfficeOpenXMLのサポート</h2>
+
+<p>Office OpenXML（OOXML）は、MicrosoftOffice2007に導入されたXMLベースの形式です。</p>
+
+<p>PresentationML（OOXML、PPTX）は、Microsoft OfficePowerPoint2007でドキュメントを保存するために使用されるマークアップ言語です。 Aspose.Slides for .NETは、PresentationMLドキュメントの作成、読み取り、操作、および書き込みを幅広くサポートします。</p>
+
+</div>-->
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>Aspose.Slides for .NETは、PowerPointおよびOpenOffice形式のプレゼンテーション処理APIです。 Aspose.Slidesを使用すると、アプリケーションで.NET C＃のプレゼンテーションの読み取り、書き込み、保護、変更、および変換を行うことができます。プレゼンテーションのテキスト、図形、グラフ、表、アニメーションを管理し、スライドにオーディオとビデオを追加し、スライドをプレビューします。</p>
 
@@ -247,188 +426,9 @@ SVG
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    高度な.NETC＃PowerPointAPI機能
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     テンプレートからスライドを作成または複製する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     APIを介してPowerPointテーブルを操作する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     形状に保護を適用または削除します
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     ExcelチャートをOleObjectsとしてスライドに追加します
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     リンクされたOleObjectのサポート
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     データベースからプレゼンテーションを生成する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     プレゼンテーションと結果のPDFを保護する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     物理プリンターでプレゼンテーションを印刷する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     チャートを作成してカスタマイズする
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     .NET C＃でプレゼンテーションをPDF、HTML、TIFF、またはXPSに変換する
-    </h2>
-    <p>
-     Aspose.Slides for .NET APIには、PowerPointおよびOpenOffice形式を最高の忠実度でレンダリングするために特別に設計された独自のレンダリングエンジンがあります。 .NET C＃PowerPoint APIを使用すると、プレゼンテーションをPDF、HTML、TIFF、XPSなどの業界標準の形式にエクスポートして、元のプレゼンテーションと同じ結果を得ることができます。さらに、C＃でPPTを変換するには、プレゼンテーションファイルをロードし、目的の出力形式とともにSaveメソッドを呼び出すだけです。 C＃PowerPointの変換は、Aspose.Slides for.NETAPIを使用すると非常に簡単です。
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      プレゼンテーションのレンダリング-C＃
-     </h3>
-     <pre><code class="cs">// load the file to be converted
-
-var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
-
-// render as PDF, XPS &amp; TIFF
-
-prs.Save(dir + "output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-
-prs.Save(dir + "output.xps", Aspose.Slides.Export.SaveFormat.Xps);
-
-prs.Save(dir + "output.tiff", Aspose.Slides.Export.SaveFormat.Tiff);</code></pre>
-    </div>
-   </div>
-   <!--<div class="col-lg-12">
-
-<h2 class="h2title">PowerPointのスライド要素を完全に制御</h2>
-
-<p>Aspose.Slides for .NETは、テキストボックス、テーブル、長方形、楕円、ポリライン、自動形状、額縁、オーディオフレーム、ビデオフレーム、OLEオブジェクトフレームなど、すべてのプレゼンテーションスライド要素を処理できます。 APIは、これらの各要素を包括的に操作できるように、適切に設計されたクラスのセットを提供します。</p>
-
-</div>-->
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     プレゼンテーションコンテンツを.NETC＃でフォーマットする
-    </h2>
-    <p>
-     Aspose.Slides .NET APIを使用して、C＃でスライド上のテキストと図形をフォーマットすることができます。プレゼンテーションのテキストは、図形に関連付けられたテキストフレームを使用して管理されます。したがって、開発者は、テキストフレームに関連付けられた段落と部分を使用してテキストを簡単にフォーマットできます。 C＃PowerPoint APIを使用して、位置、サイズ、線、画像、テキスト、塗りつぶしなどの形状要素の属性を操作することもできます。
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     .NET C＃でPowerPointSmartArtを作成および変更する
-    </h2>
-    <p>
-     Aspose.Slides for .NETは、SmartArt図形を最初から作成するのを容易にするだけでなく、スライドから既存のSmartArtオブジェクトにアクセス、操作、または削除する機能を提供します。さらに、.NET C＃PowerPoint APIは、SmartArtのノードを追加、削除、または反復する機能を提供します。また、スタイル、色、レイアウトの設定など、SmartArtの外観を動的に変更することもできます。
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     .NET C＃でプレゼンテーションを保護する
-    </h2>
-    <p>
-     Aspose.Slides for .NET APIは、コンテンツが変更されないように保護するために、プレゼンテーションファイルをロックできます。開発者は、安全な配布のために、C＃のPPT、および変換されたPDFドキュメントをパスワードで保護することもできます。 C＃PowerPoint APIは、生成されたプレゼンテーションとそのドキュメントプロパティの読み取り専用アクセスモードもサポートしています。
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     .NET C＃でスライドサムネイルを使用してプレゼンテーションビューアを作成する
-    </h2>
-    <p>
-     Aspose.Slides for .NETは、スライドのサムネイルを生成できるため、PowerPointアプリケーションがマシンにインストールされていないユーザーにスライドイメージを配布できます。 C＃PowerPoint APIを使用して、カスタムWebサイトやデスクトップアプリなど、あらゆる種類の.NET C＃アプリケーションでPPTを表示できます。この機能を使用して、C＃で独自のプレゼンテーションビューアを作成します。
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      .NET経由でスライドのサムネイルを生成-C＃
-     </h3>
-     <pre><code class="cs">// load the presentation file
-
-var prs = new Aspose.Slides.Presentation(dir + "template.pptx");
-
-// access the first slide from the collection
-
-var sld = prs.Slides[0];
-
-// create a full scale image of the slide
-
-var bmp = sld.GetThumbnail(1f, 1f);
-
-// save the image in JPEG format
-
-bmp.Save(dir + "output.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);</code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation –不要
-    </h2>
-    <p>
-     Aspose.Slides for .NETは、PowerPointドキュメント形式で動作するためにMicrosoftOfficeまたはMicrosoftPowerPointをマシンにインストールする必要のないマネージコードを使用して構築されています。これは、サポートされている機能、セキュリティ、安定性、拡張性、速度、および価格の点で、MicrosoftOfficeオートメーションの完璧な代替手段です。
-    </p>
-   </div>
-   <!--<div class="col-lg-12">
-
-<h2 class="h2title">OfficeOpenXMLのサポート</h2>
-
-<p>Office OpenXML（OOXML）は、MicrosoftOffice2007に導入されたXMLベースの形式です。</p>
-
-<p>PresentationML（OOXML、PPTX）は、Microsoft OfficePowerPoint2007でドキュメントを保存するために使用されるマークアップ言語です。 Aspose.Slides for .NETは、PresentationMLドキュメントの作成、読み取り、操作、および書き込みを幅広くサポートします。</p>
-
-</div>-->
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
-
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/i18n/testimonials title="人々が言っ​​ていること" subTitle="私たちの言葉をそのまま受け入れるのではありません。 PowerPointAPIについてユーザーが何を言わなければならないかを確認してください。" caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/i18n/testimonials title="人々が言っ​​ていること" subTitle="私たちの言葉をそのまま受け入れるのではありません。 PowerPointAPIについてユーザーが何を言わなければならないかを確認してください。" caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
@@ -454,7 +454,7 @@ Aspose.Slidesは使いやすく、ASP.Netサーバーでうまく機能するこ
 {{< blocks/products/pf/slr-tab tabTitle="学習リソース" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="ドキュメンテーション" href="https://docs.aspose.com/slides/net/" >}}
 {{< blocks/products/pf/slr-element name="ソースコード" href="https://github.com/aspose-slides/Aspose.Slides-for-.NET" >}}
-{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://apireference.aspose.com/slides/net" >}}
+{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://reference.aspose.com/slides/net/" >}}
 {{< blocks/products/pf/slr-element name="チュートリアルビデオ" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -466,8 +466,8 @@ Aspose.Slidesは使いやすく、ASP.Netサーバーでうまく機能するこ
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Aspose.Slides for.NETを選ぶ理由" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="サクセスストーリー" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="サクセスストーリー" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

@@ -41,6 +41,27 @@ Java 経由の Aspose.Slides for Python には、PowerPoint 自動化の他の�
    <h2 class="pr-ft">高度な Python PowerPoint API 機能</h2>
    <p>
    </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Python で新しい PowerPoint プレゼンテーションを作成する方法</h2>
+        <p>以下の例では、プレゼンテーションの最初のスライドに四角形を追加しています。</p>
+        <pre>
+            <code class="python">	
+import jpype
+import asposeslides
+
+jpype.startJVM()
+
+from asposeslides.api import Presentation, SaveFormat, ShapeType
+
+pres = Presentation()
+slide = pres.getSlides().get_Item(0)
+slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200)
+pres.save("NewPresentation.pptx", SaveFormat.Pptx)
+
+jpype.shutdownJVM()
+            </code>
+        </pre>
+    </div>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2xcol-lg-2">
     </em>
@@ -104,27 +125,6 @@ Java 経由の Aspose.Slides for Python には、PowerPoint 自動化の他の�
     <p><strong>PyPI</strong> を使用して、<a href="https://pypi.org/project/aspose-slides-java/">PyPI リポジトリ</a>からプレゼンテーション処理用の Python ライブラリをインストールします。</p>
     <pre><code>pip install aspose-slides-java</code></pre>
    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Python で新しい PowerPoint プレゼンテーションを作成する方法</h2>
-        <p>以下の例では、プレゼンテーションの最初のスライドに四角形を追加しています。</p>
-        <pre>
-            <code class="python">	
-import jpype
-import asposeslides
-
-jpype.startJVM()
-
-from asposeslides.api import Presentation, SaveFormat, ShapeType
-
-pres = Presentation()
-slide = pres.getSlides().get_Item(0)
-slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200)
-pres.save("NewPresentation.pptx", SaveFormat.Pptx)
-
-jpype.shutdownJVM()
-            </code>
-        </pre>
-    </div>
     <div class="col-lg-12">
         <h2 class="h2title">Python でプレゼンテーションを結合する方法</h2>
         <p>この Python コードは、プレゼンテーションを結合する方法を示しています。</p>
@@ -241,8 +241,8 @@ jpype.shutdownJVM()
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Java 経由で Python に Aspose.Slides を使用する理由" tabId="success-stories" >}}
-        {{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.com/customers" >}}
-        {{< blocks/products/pf/slr-element name="成功事例" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+        {{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.com/customers/" >}}
+        {{< blocks/products/pf/slr-element name="成功事例" href="https://about.aspose.com/customers/success-stories/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 {{< /blocks/products/pf/support-learning-resources >}}
 

@@ -14,6 +14,175 @@ description: Aspose.Slides for Javaは、JavaPPTおよびJavaPPTXを作成する
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/pricing/slides/java/" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides" directDownloadLink="https://downloads.aspose.com/slides/java" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <!--<h2 class="h2title">高度なJavaPowerPointドキュメント処理API機能</h2>
+
+<p>Aspose.Slides for Javaには、Java環境でMicrosoft PowerPointプレゼンテーションを使用してプログラミングするときに、開発者が完全に制御できるようにする多数の高度な機能が組み込まれています。</p>-->
+   <h2 class="pr-ft">
+    JavaPowerPointAPIの高度な機能
+   </h2>
+   <p>
+   </p>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Javaでプレゼンテーションを複数の形式に変換する
+    </h2>
+    <p>
+     Aspose.Slides for Java APIは、レンダリングエンジンを使用して、元の形式と同様の多数の標準形式でプレゼンテーションをレンダリングします。レンダリングエンジンは、PowerPointに対して最高の忠実度でレンダリングするために特別に設計されています。プレゼンテーションをサポートされている形式に変換するのは、ロードして出力形式を設定し、Saveメソッドを呼び出すだけです。 Java PowerPoint APIを使用して、Java PPT変換の設定を定義し、出力ドキュメントをその場で変更します。
+    </p>
+    <div class="codeblock" id="code-1">
+     <h3>
+      プレゼンテーションのレンダリング-Java
+     </h3>
+     <pre><code class="java">// load the file to be rendered
+
+Presentation prest = new Presentation(dir + "template.pptx");
+
+// Convert PPTX to PDF, XPS and TIFF
+
+prest.save(dir + "output.pdf", SaveFormat.Pdf);
+
+prest.save(dir + "output.xps", SaveFormat.Xps);
+
+prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     テンプレートから既存のスライドを作成または複製する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-save ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     ストリームとの間でファイルを保存して開く
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     データベースからプレゼンテーションを生成する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-image ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     図形を作成し、スライド上の図形にテキストを追加します
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     PowerPointテーブルを操作する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     テキストと図形の書式設定を処理する
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     形状の保護を削除または適用します
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     ExcelチャートをOLEオブジェクトとしてスライドに埋め込む
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     ActiveXコンポーネントを操作する
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Javaでプレゼンテーション要素を変更する
+    </h2>
+    <p>
+     Aspose.Slides for Java APIは、テーブル、テキストボックス、長方形、ポリライン、楕円、自動形状、額縁、ビデオフレーム、オーディオフレーム、OLEオブジェクトフレームなど、すべてのスライド要素を処理できます。 Java PowerPoint APIは、これらの各要素を包括的に操作できるように、適切に設計されたJavaPPTクラスのセットも提供します。
+    </p>
+   </div>
+   <!--
+
+<div class="col-lg-12">
+
+<h2 class="h2title">スライドコンテンツの書式設定</h2>
+
+<p>Aspose.Slides for Java APIを使用して、プレゼンテーションのスライドのテキストと図形をフォーマットすることができます。テキストは、図形に関連付けられたテキストフレームを介して管理されます。したがって、テキストは、テキストフレームに関連付けられた段落と部分を使用してフォーマットされます。位置、サイズ、線、画像、テキスト、塗りつぶしなどの形状要素の属性を操作することもできます。</p>
+
+</div>
+
+-->
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     JavaでPowerPointSmartArtを操作する
+    </h2>
+    <p>
+     Aspose.Slides for Java APIは、スライドから既存のSmartArt図形を簡単に作成、アクセス、操作、および削除できます。 Java PowerPoint APIを使用すると、SmartArtのプロパティを動的に探索したり、SmartArtノードを管理したり、SmartArtシェイプのレイアウト、スタイル、色を操作したりできます。
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Javaでスライドサムネイルを作成する
+    </h2>
+    <p>
+     スライドサムネイルを使用する可能性はたくさんあります。たとえば、カスタムWebサイトでオンラインプレゼンテーションビューアを作成したり、プレゼンテーションテンプレートとしてスライドサムネイルを顧客と共有したりできます。 Aspose.Slides for Java APIを使用すると、わずか数行のコードでスライドのサムネイルを作成できます。
+    </p>
+    <div class="codeblock" id="code-2">
+     <h3>
+      スライドのサムネイルを作成する-Java
+     </h3>
+     <pre><code class="java">// load the file
+
+Presentation prest = new Presentation(dir + "template.pptx");
+
+// access the first slide from the collection
+
+ISlide sld = prest.getSlides().get_Item(0);
+
+// create a full scale image of the slide
+
+BufferedImage image = sld.getThumbnail(1f, 1f);
+
+// save the image in JPEG format
+
+ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
+    </div>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Microsoft Office Automation –不要
+    </h2>
+    <p>
+     APIは、PowerPointドキュメント形式で動作するためにMicrosoftOfficeまたはMicrosoftPowerPointをマシンにインストールする必要のないマネージコードを使用して構築されています。これは、サポートされている機能、セキュリティ、安定性、スケーラビリティ、速度、および価格の点で、MicrosoftPowerPointの自動化に最適な代替手段です。
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/i18n/tab-content >}}
 <p>
  Aspose.Slides for Javaは、プレゼンテーションの操作と管理のためのJavaPowerPointAPIです。これにより、開発者はJavaでPowerPointプレゼンテーションを読み取り、書き込み、変換、および操作できます。スライド、表、テキスト、グラフ、図形、画像、SmartArtダイアグラムなど、すべてのドキュメント要素にアクセスして操作できます。
@@ -253,175 +422,6 @@ SVG
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <!--<h2 class="h2title">高度なJavaPowerPointドキュメント処理API機能</h2>
-
-<p>Aspose.Slides for Javaには、Java環境でMicrosoft PowerPointプレゼンテーションを使用してプログラミングするときに、開発者が完全に制御できるようにする多数の高度な機能が組み込まれています。</p>-->
-   <h2 class="pr-ft">
-    JavaPowerPointAPIの高度な機能
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     テンプレートから既存のスライドを作成または複製する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-save ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     ストリームとの間でファイルを保存して開く
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     データベースからプレゼンテーションを生成する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     図形を作成し、スライド上の図形にテキストを追加します
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     PowerPointテーブルを操作する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     テキストと図形の書式設定を処理する
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     形状の保護を削除または適用します
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     ExcelチャートをOLEオブジェクトとしてスライドに埋め込む
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     ActiveXコンポーネントを操作する
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Javaでプレゼンテーションを複数の形式に変換する
-    </h2>
-    <p>
-     Aspose.Slides for Java APIは、レンダリングエンジンを使用して、元の形式と同様の多数の標準形式でプレゼンテーションをレンダリングします。レンダリングエンジンは、PowerPointに対して最高の忠実度でレンダリングするために特別に設計されています。プレゼンテーションをサポートされている形式に変換するのは、ロードして出力形式を設定し、Saveメソッドを呼び出すだけです。 Java PowerPoint APIを使用して、Java PPT変換の設定を定義し、出力ドキュメントをその場で変更します。
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      プレゼンテーションのレンダリング-Java
-     </h3>
-     <pre><code class="java">// load the file to be rendered
-
-Presentation prest = new Presentation(dir + "template.pptx");
-
-// Convert PPTX to PDF, XPS and TIFF
-
-prest.save(dir + "output.pdf", SaveFormat.Pdf);
-
-prest.save(dir + "output.xps", SaveFormat.Xps);
-
-prest.save(dir + "output.tiff", SaveFormat.Tiff);</code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Javaでプレゼンテーション要素を変更する
-    </h2>
-    <p>
-     Aspose.Slides for Java APIは、テーブル、テキストボックス、長方形、ポリライン、楕円、自動形状、額縁、ビデオフレーム、オーディオフレーム、OLEオブジェクトフレームなど、すべてのスライド要素を処理できます。 Java PowerPoint APIは、これらの各要素を包括的に操作できるように、適切に設計されたJavaPPTクラスのセットも提供します。
-    </p>
-   </div>
-   <!--
-
-<div class="col-lg-12">
-
-<h2 class="h2title">スライドコンテンツの書式設定</h2>
-
-<p>Aspose.Slides for Java APIを使用して、プレゼンテーションのスライドのテキストと図形をフォーマットすることができます。テキストは、図形に関連付けられたテキストフレームを介して管理されます。したがって、テキストは、テキストフレームに関連付けられた段落と部分を使用してフォーマットされます。位置、サイズ、線、画像、テキスト、塗りつぶしなどの形状要素の属性を操作することもできます。</p>
-
-</div>
-
--->
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     JavaでPowerPointSmartArtを操作する
-    </h2>
-    <p>
-     Aspose.Slides for Java APIは、スライドから既存のSmartArt図形を簡単に作成、アクセス、操作、および削除できます。 Java PowerPoint APIを使用すると、SmartArtのプロパティを動的に探索したり、SmartArtノードを管理したり、SmartArtシェイプのレイアウト、スタイル、色を操作したりできます。
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Javaでスライドサムネイルを作成する
-    </h2>
-    <p>
-     スライドサムネイルを使用する可能性はたくさんあります。たとえば、カスタムWebサイトでオンラインプレゼンテーションビューアを作成したり、プレゼンテーションテンプレートとしてスライドサムネイルを顧客と共有したりできます。 Aspose.Slides for Java APIを使用すると、わずか数行のコードでスライドのサムネイルを作成できます。
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      スライドのサムネイルを作成する-Java
-     </h3>
-     <pre><code class="java">// load the file
-
-Presentation prest = new Presentation(dir + "template.pptx");
-
-// access the first slide from the collection
-
-ISlide sld = prest.getSlides().get_Item(0);
-
-// create a full scale image of the slide
-
-BufferedImage image = sld.getThumbnail(1f, 1f);
-
-// save the image in JPEG format
-
-ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation –不要
-    </h2>
-    <p>
-     APIは、PowerPointドキュメント形式で動作するためにMicrosoftOfficeまたはMicrosoftPowerPointをマシンにインストールする必要のないマネージコードを使用して構築されています。これは、サポートされている機能、セキュリティ、安定性、スケーラビリティ、速度、および価格の点で、MicrosoftPowerPointの自動化に最適な代替手段です。
-    </p>
-   </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
-
 {{< /blocks/products/pf/main-container >}}
 
 
@@ -429,7 +429,7 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 {{< blocks/products/pf/slr-tab tabTitle="学習リソース" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="ドキュメンテーション" href="https://docs.aspose.com/slides/java/" >}}
 {{< blocks/products/pf/slr-element name="ソースコード" href="https://github.com/aspose-slides/Aspose.Slides-for-Java" >}}
-{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://apireference.aspose.com/slides/java" >}}
+{{< blocks/products/pf/slr-element name="APIリファレンス" href="https://reference.aspose.com/slides/java/" >}}
 {{< blocks/products/pf/slr-element name="チュートリアルビデオ" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -441,8 +441,8 @@ ImageIO.write(image, "jpeg", new File(dir + "output.jpg"));</code></pre>
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Aspose.Slides forJavaを選ぶ理由" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="サクセスストーリー" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="サクセスストーリー" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}

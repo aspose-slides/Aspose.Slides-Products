@@ -43,6 +43,30 @@ description: Aspose.Slides for Node.js via .NET は、Node.js で PowerPoint プ
    <h2 class="pr-ft">高度な Node.js PowerPoint API 機能</h2>
    <p>
    </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Node.js で新しい PowerPoint プレゼンテーションを作成する方法</h2>
+        <p>以下の例では、プレゼンテーションの最初のスライドに四角形を追加しています。</p>
+        <pre>
+            <code class="JavaScript">	
+const asposeSlides = require('aspose.slides.via.net');
+
+const { Presentation, SaveFormat, ShapeType } = asposeSlides;
+
+var pres = new Presentation();
+try 
+{
+    var slide = pres.slides.get(0);
+    slide.shapes.addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200);
+    
+    pres.save("pres.pptx", SaveFormat.Pptx);
+}
+finally
+{
+    if (pres != null) pres.dispose();
+}
+            </code>
+        </pre>
+    </div>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
@@ -103,30 +127,6 @@ description: Aspose.Slides for Node.js via .NET は、Node.js で PowerPoint プ
     <p><strong>NPM</strong> を使用して、<a href="https://www.npmjs.com/package/aspose.slides.via.net">NPM パッケージ リポジトリからプレゼンテーション処理用の Node.js ライブラリをインストールします。 :</a></p>
     <pre><code>npm install aspose.slides.via.net</code></pre>
    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Node.js で新しい PowerPoint プレゼンテーションを作成する方法</h2>
-        <p>以下の例では、プレゼンテーションの最初のスライドに四角形を追加しています。</p>
-        <pre>
-            <code class="JavaScript">	
-const asposeSlides = require('aspose.slides.via.net');
-
-const { Presentation, SaveFormat, ShapeType } = asposeSlides;
-
-var pres = new Presentation();
-try 
-{
-    var slide = pres.slides.get(0);
-    slide.shapes.addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200);
-    
-    pres.save("pres.pptx", SaveFormat.Pptx);
-}
-finally
-{
-    if (pres != null) pres.dispose();
-}
-            </code>
-        </pre>
-    </div>
     
     <div class="col-lg-12">
         <h2 class="h2title">Node.js でスラ​​イドを追加/削除/クローン作成し、形状プロパティを編集する方法</h2>
@@ -350,8 +350,8 @@ finally
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle=".NET 経由で Node.js に Aspose.Slides を使用する理由" tabId="success-stories" >}}
-        {{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.com/customers" >}}
-        {{< blocks/products/pf/slr-element name="成功事例" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+        {{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.com/customers/" >}}
+        {{< blocks/products/pf/slr-element name="成功事例" href="https://about.aspose.com/customers/success-stories/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 {{< /blocks/products/pf/support-learning-resources >}}
 

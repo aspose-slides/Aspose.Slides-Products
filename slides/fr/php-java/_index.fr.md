@@ -14,6 +14,246 @@ description: Bibliothèque PHP pour travailler avec des fichiers Microsoft Power
 
 {{< blocks/products/pf/i18n/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/php-java" buyLink="https://purchase.aspose.com/pricing/slides/php-java/" docsLink="https://docs.aspose.com/slides/php-java/" installationsDocsLink="https://docs.aspose.com/slides/php-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/slides/php-java" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    Fonctionnalités avancées de l'API PHP PowerPoint
+   </h2>
+   <p>
+   </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Créer une nouvelle présentation PowerPoint. Présentation PHP : PPT, PPTX, ODP</h2>
+        <p>Dans l'exemple ci-dessous, nous avons ajouté une ligne à la première diapositive de la présentation.</p>
+        <pre>
+            <code class="php">	
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+
+use aspose\slides;
+use aspose\slides\Presentation;
+use aspose\slides\ShapeType;
+use aspose\slides\SaveFormat;
+
+$pres = new Presentation();
+try
+{
+    // Gets the first slide
+    $slide = $pres->getSlides()->get_Item(0);
+    // Adds an autoshape with type set to line
+    $slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
+    $pres->save("NewPresentation_out.pptx", SaveFormat::Pptx);
+}
+finally
+{
+    if ($pres != null) $pres->dispose();
+}
+            </code>
+        </pre>
+    </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Créer ou cloner des diapositives à partir de modèles
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Travailler avec des tableaux PowerPoint via l'API
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Appliquer ou supprimer la protection sur les formes
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Ajouter des graphiques Excel en tant qu'OleObjects aux diapositives
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Prise en charge des OleObjects liés
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Générer des présentations à partir de la base de données
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Protégez les présentations et le PDF résultant
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Imprimer des présentations sur une imprimante physique
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Créer et personnaliser des graphiques
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Configuration requise
+    </h2>
+    <ul>
+	  <li>Compatible avec PHP 7 ou version ultérieure</li>
+    </ul>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Comment installer
+    </h2>
+    <p>Utilisez <strong>packagist</strong> pour installer notre bibliothèque PHP pour le traitement des présentations à partir du <a href="https://packagist.org/packages/aspose/slides">dépôt de packages PHP :</a></p>
+	<pre><code>composer require aspose/slides</code></pre>
+   </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Fusionner les présentations. Présentation PHP : PPT, PPTX, ODP</h2>
+        <p>Ce code PHP vous montre comment fusionner des présentations :</p>
+        <pre>
+            <code class="php">
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+
+use aspose\slides;
+use aspose\slides\Presentation;
+use aspose\slides\ShapeType;
+use aspose\slides\SaveFormat;
+
+$pres1 = new Presentation("pres1.pptx");
+$pres2 = new Presentation("pres2.pptx");
+try
+{
+	for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
+	{
+		$pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
+	}
+	$pres1->save("combined.pptx", SaveFormat::Pptx);
+}
+finally
+{
+    if ($pres1 != null) $pres1->dispose();
+	if ($pres2 != null) $pres2->dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title"> Importer une présentation à partir d'un PDF. Présentation PHP : PDF vers PPT, PDF vers PPTX, PDF vers ODP</h2>
+        <p>Ce code PHP illustre le processus de conversion PDF vers PowerPoint :</p>
+        <pre>
+            <code class="php">
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+
+use aspose\slides;
+use aspose\slides\Presentation;
+use aspose\slides\ShapeType;
+use aspose\slides\SaveFormat;
+
+$pres = new Presentation();
+try
+{
+    $pres->getSlides()->removeAt(0);
+    $pres->getSlides()->addFromPdf("welcome-to-powerpoint.pdf");
+    $pres->save("OutputPresentation.pptx", SaveFormat::Pptx);
+}
+finally
+{
+    if ($pres != null) $pres->dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convertissez PowerPoint en PDF avec les options par défaut : Présentation PHP, PPT, PPTX ou ODP en PDF</h2>
+        <p>Ce code PHP vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un document PDF en utilisant les options par défaut. Le fichier résultant est un document PDF aux niveaux de qualité maximum</p>
+        <pre>
+            <code class="php">
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+
+use aspose\slides;
+use aspose\slides\Presentation;
+use aspose\slides\ShapeType;
+use aspose\slides\SaveFormat;
+
+// Instantiate a Presentation object that represents a PPT file
+$pres = new Presentation("PowerPoint.ppt");
+try
+{
+    // Save the presentation as PDF
+    $pres->save("PPT-to-PDF.pdf", SaveFormat::Pdf);
+}
+finally
+{
+    if ($pres != null) $pres->dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convertissez PowerPoint en JPG. Présentation PHP. PPT en JPG, PPTX en JPG, ODP en JPG</h2>
+        <p>L'exemple suivant vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un ensemble d'images JPEG.</p>
+        <pre>
+            <code class="php">
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+require_once("lib/aspose.slides.php");
+
+use aspose\slides;
+use aspose\slides\Presentation;
+use aspose\slides\ShapeType;
+use aspose\slides\SaveFormat;
+
+// Instantiate a Presentation object that represents a PPT file
+$pres = new Presentation("pres.pptx");
+try
+{
+    for ($i = 0; $i < java_values($pres->getSlides()->size()); $i++)
+    {
+        $bmp = $pres->getSlides()->get_Item($i)->getThumbnail(1, 1);
+		$imageio = new Java("javax.imageio.ImageIO");
+		$javafile = new Java("java.io.File", "slide_". $i .".jpg");
+		$imageio->write($bmp, "JPEG", $javafile);
+	}
+}
+finally
+{
+    if ($pres != null) $pres->dispose();
+}
+            </code>
+        </pre>
+    </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/i18n/tab-content >}}
 
 <p><strong>Aspose.Slides pour PHP via Java</strong> est une puissante bibliothèque de classes pour travailler avec ou traiter des présentations. Grâce à ce produit, les applications et les développeurs peuvent lire, éditer ou manipuler et convertir des présentations PowerPoint (PPT, PPTX) et des présentations dans d'autres formats (ODP) sans applications ou dépendances tierces. </p>
@@ -283,249 +523,9 @@ La toile:
 {{< /blocks/products/pf/i18n/carousel >}}
 <!--Diagrams End-->
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Fonctionnalités avancées de l'API PHP PowerPoint
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Créer ou cloner des diapositives à partir de modèles
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Travailler avec des tableaux PowerPoint via l'API
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Appliquer ou supprimer la protection sur les formes
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Ajouter des graphiques Excel en tant qu'OleObjects aux diapositives
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Prise en charge des OleObjects liés
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Générer des présentations à partir de la base de données
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protégez les présentations et le PDF résultant
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Imprimer des présentations sur une imprimante physique
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Créer et personnaliser des graphiques
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Configuration requise
-    </h2>
-    <ul>
-	  <li>Compatible avec PHP 7 ou version ultérieure</li>
-    </ul>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Comment installer
-    </h2>
-    <p>Utilisez <strong>packagist</strong> pour installer notre bibliothèque PHP pour le traitement des présentations à partir du <a href="https://packagist.org/packages/aspose/slides">dépôt de packages PHP :</a></p>
-	<pre><code>composer require aspose/slides</code></pre>
-   </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Créer une nouvelle présentation PowerPoint. Présentation PHP : PPT, PPTX, ODP</h2>
-        <p>Dans l'exemple ci-dessous, nous avons ajouté une ligne à la première diapositive de la présentation.</p>
-        <pre>
-            <code class="php">	
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
-
-$pres = new Presentation();
-try
-{
-    // Gets the first slide
-    $slide = $pres->getSlides()->get_Item(0);
-    // Adds an autoshape with type set to line
-    $slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
-    $pres->save("NewPresentation_out.pptx", SaveFormat::Pptx);
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Fusionner les présentations. Présentation PHP : PPT, PPTX, ODP</h2>
-        <p>Ce code PHP vous montre comment fusionner des présentations :</p>
-        <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
-
-$pres1 = new Presentation("pres1.pptx");
-$pres2 = new Presentation("pres2.pptx");
-try
-{
-	for ($i = 0; $i < java_values($pres2->getSlides()->size()); $i++) 
-	{
-		$pres1->getSlides()->addClone($pres2->getSlides()->get_Item($i));
-	}
-	$pres1->save("combined.pptx", SaveFormat::Pptx);
-}
-finally
-{
-    if ($pres1 != null) $pres1->dispose();
-	if ($pres2 != null) $pres2->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title"> Importer une présentation à partir d'un PDF. Présentation PHP : PDF vers PPT, PDF vers PPTX, PDF vers ODP</h2>
-        <p>Ce code PHP illustre le processus de conversion PDF vers PowerPoint :</p>
-        <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
-
-$pres = new Presentation();
-try
-{
-    $pres->getSlides()->removeAt(0);
-    $pres->getSlides()->addFromPdf("welcome-to-powerpoint.pdf");
-    $pres->save("OutputPresentation.pptx", SaveFormat::Pptx);
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convertissez PowerPoint en PDF avec les options par défaut : Présentation PHP, PPT, PPTX ou ODP en PDF</h2>
-        <p>Ce code PHP vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un document PDF en utilisant les options par défaut. Le fichier résultant est un document PDF aux niveaux de qualité maximum</p>
-        <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
-
-// Instantiate a Presentation object that represents a PPT file
-$pres = new Presentation("PowerPoint.ppt");
-try
-{
-    // Save the presentation as PDF
-    $pres->save("PPT-to-PDF.pdf", SaveFormat::Pdf);
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convertissez PowerPoint en JPG. Présentation PHP. PPT en JPG, PPTX en JPG, ODP en JPG</h2>
-        <p>L'exemple suivant vous montre comment convertir un document PowerPoint PPT, PPTX et OpenOffice ODP en un ensemble d'images JPEG.</p>
-        <pre>
-            <code class="php">
-require_once("http://localhost:8080/JavaBridge/java/Java.inc");
-require_once("lib/aspose.slides.php");
-
-use aspose\slides;
-use aspose\slides\Presentation;
-use aspose\slides\ShapeType;
-use aspose\slides\SaveFormat;
-
-// Instantiate a Presentation object that represents a PPT file
-$pres = new Presentation("pres.pptx");
-try
-{
-    for ($i = 0; $i < java_values($pres->getSlides()->size()); $i++)
-    {
-        $bmp = $pres->getSlides()->get_Item($i)->getThumbnail(1, 1);
-		$imageio = new Java("javax.imageio.ImageIO");
-		$javafile = new Java("java.io.File", "slide_". $i .".jpg");
-		$imageio->write($bmp, "JPEG", $javafile);
-	}
-}
-finally
-{
-    if ($pres != null) $pres->dispose();
-}
-            </code>
-        </pre>
-    </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
-
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/i18n/testimonials title="Ce que les gens disent" subTitle="Ne vous contentez pas de nous croire sur parole. Découvrez ce que les utilisateurs ont à dire sur les API PowerPoint." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+{{< blocks/products/pf/i18n/testimonials title="Ce que les gens disent" subTitle="Ne vous contentez pas de nous croire sur parole. Découvrez ce que les utilisateurs ont à dire sur les API PowerPoint." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
@@ -563,8 +563,8 @@ Le produit fonctionnait comme annoncé, la documentation était facile à suivre
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.Slides pour PHP via Java ?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Liste des clients" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Réussites" href="https://company.aspose.com/customers/success-stories/aspose-slides" >}}
+{{< blocks/products/pf/slr-element name="Liste des clients" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Réussites" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/i18n/support-learning-resources >}}
