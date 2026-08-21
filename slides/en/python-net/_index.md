@@ -15,6 +15,160 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-net/" buyLink="https://purchase.aspose.com/pricing/slides/python-net/" docsLink="https://docs.aspose.com/slides/python-net/" installationsDocsLink="https://docs.aspose.com/slides/python-net/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-net/" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    Advanced Python PowerPoint API Features
+   </h2>
+   <p>
+   </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Create a New PowerPoint Presentation in Python</h2>
+        <p>The following example adds a line shape to the first slide of a presentation.</p>
+        <pre>
+            <code class="python">
+with slides.Presentation() as presentation:
+    slide = presentation.slides[0]
+    slide.shapes.add_auto_shape(slides.ShapeType.LINE, 50, 150, 300, 0)
+    presentation.save("presentation.pptx", slides.export.SaveFormat.PPTX)
+            </code>
+        </pre>
+    </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create or clone slides from templates
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Work with PowerPoint tables via API
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Apply or remove shape protection
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Add Excel charts as OLE objects to slides
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Support linked OLE objects
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Generate presentations from a database
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Protect presentations and generated PDFs
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Print presentations on a physical printer
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create and customize charts
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     System Requirements
+    </h2>
+    <ul>
+      <li>Compatible with Python 3.5 or later</li>
+      <li>For Python development on Linux, see the <a href="https://docs.aspose.com/slides/python-net/system-requirements/">additional Linux requirements</a>.</li>
+    </ul>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     How to Install
+    </h2>
+     <p>Use <code>pip</code> to install the Aspose.Slides Python library for presentation processing from the <a href="https://pypi.org/project/aspose-slides/">PyPI repository</a>:</p>
+    <pre>pip install aspose-slides</pre>
+   </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Merge Presentations in Python</h2>
+        <p>This Python code shows you how to merge presentations:</p>
+        <pre>
+            <code class="python">
+with slides.Presentation("presentation1.pptx") as destination_presentation:
+    with slides.Presentation("presentation2.pptx") as source_presentation:
+        for slide in source_presentation.slides:
+            destination_presentation.slides.add_clone(slide)
+        destination_presentation.save("combined.pptx", slides.export.SaveFormat.PPTX)
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Import a Presentation from PDF in Python</h2>
+        <p>This Python code demonstrates the PDF to PowerPoint conversion process:</p>
+        <pre>
+            <code class="python">
+with slides.Presentation() as presentation:
+    presentation.slides.remove_at(0)
+    presentation.slides.add_from_pdf("welcome_to_powerpoint.pdf")
+    presentation.save("output_presentation.pptx", slides.export.SaveFormat.PPTX)
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convert PowerPoint to PDF with Default Options in Python</h2>
+        <p>This Python code shows how to convert a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
+        <pre>
+            <code class="python">
+with slides.Presentation("presentation.ppt") as presentation:
+    presentation.save("document.pdf", slides.export.SaveFormat.PDF)
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convert PowerPoint to JPG in Python</h2>
+        <p>The following example shows you how to convert a PPT, PPTX, or OpenDocument Presentation (ODP) file into a set of JPEG images.</p>
+        <pre>
+            <code class="python">
+with slides.Presentation("presentation.pptx") as presentation:
+    for slide in presentation.slides:
+        with slide.get_image(1, 1) as slide_image:
+            slide_image.save(f"slide_{slide.slide_number}.jpg", slides.ImageFormat.JPEG)
+            </code>
+        </pre>
+    </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/tab-content >}}
 
 <p><strong>Aspose.Slides for Python via .NET</strong> is a presentation processing library that lets Python applications read, edit, manipulate, and convert PowerPoint and OpenDocument presentations without requiring Microsoft PowerPoint for core presentation processing. Optional workflows such as video encoding and AI-powered translation use external tools or services.</p>
@@ -286,160 +440,6 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 {{< /blocks/products/pf/carousel >}}
 <!--Diagrams End-->
-
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced Python PowerPoint API Features
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create or clone slides from templates
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Work with PowerPoint tables via API
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Apply or remove shape protection
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add Excel charts as OLE objects to slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Support linked OLE objects
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Generate presentations from a database
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protect presentations and generated PDFs
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Print presentations on a physical printer
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and customize charts
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     System Requirements
-    </h2>
-    <ul>
-      <li>Compatible with Python 3.5 or later</li>
-      <li>For Python development on Linux, see the <a href="https://docs.aspose.com/slides/python-net/system-requirements/">additional Linux requirements</a>.</li>
-    </ul>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     How to Install
-    </h2>
-     <p>Use <code>pip</code> to install the Aspose.Slides Python library for presentation processing from the <a href="https://pypi.org/project/aspose-slides/">PyPI repository</a>:</p>
-    <pre>pip install aspose-slides</pre>
-   </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Create a New PowerPoint Presentation in Python</h2>
-        <p>The following example adds a line shape to the first slide of a presentation.</p>
-        <pre>
-            <code class="python">
-with slides.Presentation() as presentation:
-    slide = presentation.slides[0]
-    slide.shapes.add_auto_shape(slides.ShapeType.LINE, 50, 150, 300, 0)
-    presentation.save("presentation.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Merge Presentations in Python</h2>
-        <p>This Python code shows you how to merge presentations:</p>
-        <pre>
-            <code class="python">
-with slides.Presentation("presentation1.pptx") as destination_presentation:
-    with slides.Presentation("presentation2.pptx") as source_presentation:
-        for slide in source_presentation.slides:
-            destination_presentation.slides.add_clone(slide)
-        destination_presentation.save("combined.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Import a Presentation from PDF in Python</h2>
-        <p>This Python code demonstrates the PDF to PowerPoint conversion process:</p>
-        <pre>
-            <code class="python">
-with slides.Presentation() as presentation:
-    presentation.slides.remove_at(0)
-    presentation.slides.add_from_pdf("welcome_to_powerpoint.pdf")
-    presentation.save("output_presentation.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to PDF with Default Options in Python</h2>
-        <p>This Python code shows how to convert a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
-        <pre>
-            <code class="python">
-with slides.Presentation("presentation.ppt") as presentation:
-    presentation.save("document.pdf", slides.export.SaveFormat.PDF)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to JPG in Python</h2>
-        <p>The following example shows you how to convert a PPT, PPTX, or OpenDocument Presentation (ODP) file into a set of JPEG images.</p>
-        <pre>
-            <code class="python">
-with slides.Presentation("presentation.pptx") as presentation:
-    for slide in presentation.slides:
-        with slide.get_image(1, 1) as slide_image:
-            slide_image.save(f"slide_{slide.slide_number}.jpg", slides.ImageFormat.JPEG)
-            </code>
-        </pre>
-    </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
 
 {{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
 {{< blocks/products/pf/agp/faq-item question="How do I install Aspose.Slides for Python via .NET?" answer="`pip install aspose-slides` from PyPI. There is no separate runtime to install — the .NET components the library needs ship inside the wheel." >}}

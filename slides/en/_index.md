@@ -28,6 +28,10 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.Slides High-Code APIs" >}}
 
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
+Python via .NET API for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations. It also supports programmatic presentation translation through external AI services.
+{{< /blocks/products/pf/product >}}
+
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/" >}}
 On-premises .NET APIs for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations. Import content from `PDF`, generate frames for animated video export, and translate presentation text through external AI services.
 {{< /blocks/products/pf/product >}}
@@ -36,8 +40,8 @@ On-premises .NET APIs for creating, editing, rendering, and converting PowerPoin
 Java APIs for creating, loading, editing, rendering, converting, and parsing PowerPoint and OpenDocument presentations in Java SE and enterprise applications. Translate presentation text through external AI services.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
-Python via .NET API for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations. It also supports programmatic presentation translation through external AI services.
+{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/cpp/" >}}
+Native C++ library for creating, loading, editing, rendering, and converting PowerPoint and OpenDocument presentations without Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Node.js via Java" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/nodejs-java/" >}}
@@ -46,10 +50,6 @@ Node.js via Java API for creating, editing, rendering, and converting PowerPoint
 
 {{< blocks/products/pf/product pfName="Aspose.Slides for " title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
 Android via Java API for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations in mobile applications. It also supports programmatic presentation translation through external AI services.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/cpp/" >}}
-Native C++ library for creating, loading, editing, rendering, and converting PowerPoint and OpenDocument presentations without Microsoft PowerPoint.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/center-button href="/slides/family/" innerText="View All High-Code APIs" >}}
@@ -93,6 +93,36 @@ Convert PowerPoint and OpenDocument presentations to `PDF`, `HTML`, images, and 
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< /blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/slides-fact-band title="Build a presentation from content you already have" lede="Most of the presentation work people automate runs *into* a deck rather than out of one: pulling HTML, images, PDF pages or database rows onto slides. Aspose.Slides reads HTML markup straight into a text frame, keeping the headings, bold runs and lists it finds." >}}
+
+```
+import aspose.slides as slides
+
+html = "<h1>Quarterly review</h1><p>Revenue up <b>18%</b> on the quarter.</p>"
+
+with slides.Presentation() as presentation:
+    frame = presentation.slides[0].shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 40, 40, 640, 300).text_frame
+    frame.paragraphs.clear()
+    frame.paragraphs.add_from_html(html)
+    presentation.save("quarterly.pptx", slides.export.SaveFormat.PPTX)
+```
+
+That is the whole program: no PowerPoint, no headless Office, no template file to keep in step. The same call takes markup a reporting job or a content system already produces, so an existing HTML report becomes a deck on a schedule instead of by hand.
+
+{{< /blocks/products/pf/slides-fact-band >}}
+
+{{< blocks/products/pf/slides-fact-band title="What the library is, in numbers" isGrey="true" >}}
+
+- **189 shape types and 82 chart types**, each a real object that PowerPoint still recognises and lets a person edit after the file is written.
+- **Reads 15 presentation formats and writes 21**, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`.
+- **A release every month for 128 consecutive months**, on a published version stream.
+- **No Microsoft Office, no GDI and no X display** on the machine that runs it, so a small Linux container is enough.
+
+{{< /blocks/products/pf/slides-fact-band >}}
+
+{{< blocks/products/pf/slides-capability-table title="What Aspose.Slides supports" lede="One row per capability, with the qualified ones marked as qualified rather than rounded up." >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.Slides." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
 

@@ -42,6 +42,21 @@ Aspose.Slides for Python via Java offers several advantages for PowerPoint autom
    <h2 class="pr-ft">Advanced Python PowerPoint API Features</h2>
    <p>
    </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">How to Create New PowerPoint Presentation in Python</h2>
+        <p>The following example accesses the first slide through a variable, adds a rectangle with <code>addAutoShape</code>, and saves the presentation as PPTX.</p>
+        <pre>
+            <code class="python">
+presentation = Presentation()
+try:
+    slide = presentation.getSlides().get_Item(0)
+    slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200)
+    presentation.save("presentation.pptx", SaveFormat.Pptx)
+finally:
+    presentation.dispose()
+            </code>
+        </pre>
+    </div>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
@@ -105,21 +120,6 @@ Aspose.Slides for Python via Java offers several advantages for PowerPoint autom
     <p>Install Aspose.Slides for Python via Java from its <a href="https://pypi.org/project/aspose-slides-java/">PyPI package page</a>:</p>
     <pre>pip install aspose-slides-java</pre>
    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Create New PowerPoint Presentation in Python</h2>
-        <p>The following example accesses the first slide through a variable, adds a rectangle with <code>addAutoShape</code>, and saves the presentation as PPTX.</p>
-        <pre>
-            <code class="python">
-presentation = Presentation()
-try:
-    slide = presentation.getSlides().get_Item(0)
-    slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 200)
-    presentation.save("presentation.pptx", SaveFormat.Pptx)
-finally:
-    presentation.dispose()
-            </code>
-        </pre>
-    </div>
     <div class="col-lg-12">
         <h2 class="h2title">How to Merge Presentations in Python</h2>
         <p>This example uses <code>addClone</code> to copy every slide from a source presentation to a destination presentation.</p>

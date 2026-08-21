@@ -15,6 +15,181 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/pricing/slides/java/" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://releases.aspose.com/java/repo/com/aspose/aspose-slides/" directDownloadLink="https://releases.aspose.com/slides/java/" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    Advanced Features of Java PowerPoint API
+   </h2>
+   <p>
+   </p>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Create a New Presentation and Set an Image as the Slide Background in Java
+    </h2>
+    <p>You can use Aspose.Slides for Java to create a presentation and set an image as a slide background. Image backgrounds can make slides more visual, reinforce the message, or highlight text and other slide elements.</p>
+    <p>Use the following code to add a background to your presentation:</p>
+    <div class="codeblock" id="code-1">
+     <h3>
+      Add background to a presentation in Java
+     </h3>
+     <pre><code class="java">
+Presentation presentation = new Presentation();
+try {
+    ISlide slide = presentation.getSlides().get_Item(0);
+
+    // Configure the slide background to use a stretched picture fill.
+    slide.getBackground().setType(BackgroundType.OwnBackground);
+    slide.getBackground().getFillFormat().setFillType(FillType.Picture);
+    slide.getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
+
+    // Load the image from disk.
+    byte[] imageData = Files.readAllBytes(Paths.get("image.jpg"));
+    IPPImage image = presentation.getImages().addImage(imageData);
+
+    // Set the image as the slide background.
+    slide.getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+
+    presentation.save("background.pptx", SaveFormat.Pptx);
+} finally {
+    presentation.dispose();
+}
+     </code></pre>
+    </div>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Create or clone existing slides from templates</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-save ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Open and save files from streams</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Generate presentations from database content</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-image ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Add elements to slides such as shapes and images</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Work with PowerPoint tables</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Insert, change, and remove text</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Apply or remove shape protection</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Add charts</p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">Work with ActiveX and OLE components</p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Convert Presentations to PDF in Java
+    </h2>
+    <p>PDF is a common format for sharing presentations because it preserves layout and can be opened on many devices without PowerPoint.</p>
+    <p>Use the following code to convert a PowerPoint presentation to PDF:</p>
+    <div class="codeblock" id="code-2">
+     <h3>
+      Convert PPT to PDF in Java
+     </h3>
+     <pre><code class="java">
+Presentation presentation = new Presentation("presentation.ppt");
+try {
+    presentation.save("output.pdf", SaveFormat.Pdf);
+} finally {
+    presentation.dispose();
+}
+     </code></pre>
+    </div>
+   </div>
+    <div class="col-lg-12">
+    <h2 class="h2title">
+     Import a Presentation from PDF in Java
+    </h2>
+    <p>
+     Converting PDF files to PPT with Aspose.Slides for Java is a simple and effective way to create editable PowerPoint presentations from PDF content. This is useful when you need to modify, customize, or reuse PDF content in a presentation format.
+    </p>
+    <div class="codeblock" id="code-3">
+     <h3>
+      Import a presentation from PDF in Java
+     </h3>
+     <pre><code class="java">
+Presentation presentation = new Presentation();
+try {
+    presentation.getSlides().addFromPdf("input.pdf");
+    presentation.save("presentation.pptx", SaveFormat.Pptx);
+} finally {
+    presentation.dispose();
+}
+     </code></pre>
+    </div>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Convert PowerPoint Slides to JPG in Java
+    </h2>
+    <p>
+     Slide thumbnails can be used in many scenarios, such as building an online presentation viewer for a custom website, sharing slide previews with customers, or displaying presentation templates. Aspose.Slides for Java allows you to create slide thumbnails with just a few lines of code.
+    </p>
+    <div class="codeblock" id="code-4">
+     <h3>
+      Create a slide thumbnail in Java
+     </h3>
+     <pre><code class="java">
+Presentation presentation = new Presentation("presentation.pptx");
+try {
+    for (ISlide slide : presentation.getSlides()) {
+        // Render the slide to an image using the specified scale factors.
+        IImage image = slide.getImage(2f, 2f);
+
+        // Save the image to disk in JPEG format.
+        String fileName = String.format("slide_%d.jpg", slide.getSlideNumber());
+        image.save(fileName, ImageFormat.Jpeg);
+
+        image.dispose();
+    }
+} finally {
+    presentation.dispose();
+}
+     </code></pre>
+    </div>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     Microsoft Office Automation – Not Needed
+    </h2>
+    <p>
+     Aspose.Slides for Java does not require Microsoft Office or Microsoft PowerPoint to be installed to work with PowerPoint presentation formats. It is a reliable alternative to Microsoft PowerPoint automation in terms of supported features, security, stability, scalability, performance, and cost.
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/tab-content >}}
 <p><strong>Aspose.Slides for Java</strong> is a robust and feature-rich Java API for PowerPoint and OpenDocument presentation file processing. It empowers Java developers to create, read, edit, convert, and manage presentations programmatically without requiring Microsoft PowerPoint.
 </p>
@@ -242,181 +417,6 @@ With Aspose.Slides for Java, you can access and manipulate every presentation el
 
 {{< /blocks/products/pf/carousel >}}
 <!--Diagrams End-->
-
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced Features of Java PowerPoint API
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Create or clone existing slides from templates</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-save ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Open and save files from streams</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Generate presentations from database content</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Add elements to slides such as shapes and images</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Work with PowerPoint tables</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Insert, change, and remove text</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Apply or remove shape protection</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Add charts</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Work with ActiveX and OLE components</p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Create a New Presentation and Set an Image as the Slide Background in Java
-    </h2>
-    <p>You can use Aspose.Slides for Java to create a presentation and set an image as a slide background. Image backgrounds can make slides more visual, reinforce the message, or highlight text and other slide elements.</p>
-    <p>Use the following code to add a background to your presentation:</p>
-    <div class="codeblock" id="code-1">
-     <h3>
-      Add background to a presentation in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation();
-try {
-    ISlide slide = presentation.getSlides().get_Item(0);
-
-    // Configure the slide background to use a stretched picture fill.
-    slide.getBackground().setType(BackgroundType.OwnBackground);
-    slide.getBackground().getFillFormat().setFillType(FillType.Picture);
-    slide.getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
-
-    // Load the image from disk.
-    byte[] imageData = Files.readAllBytes(Paths.get("image.jpg"));
-    IPPImage image = presentation.getImages().addImage(imageData);
-
-    // Set the image as the slide background.
-    slide.getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(image);
-
-    presentation.save("background.pptx", SaveFormat.Pptx);
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert Presentations to PDF in Java
-    </h2>
-    <p>PDF is a common format for sharing presentations because it preserves layout and can be opened on many devices without PowerPoint.</p>
-    <p>Use the following code to convert a PowerPoint presentation to PDF:</p>
-    <div class="codeblock" id="code-2">
-     <h3>
-      Convert PPT to PDF in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation("presentation.ppt");
-try {
-    presentation.save("output.pdf", SaveFormat.Pdf);
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-    <div class="col-lg-12">
-    <h2 class="h2title">
-     Import a Presentation from PDF in Java
-    </h2>
-    <p>
-     Converting PDF files to PPT with Aspose.Slides for Java is a simple and effective way to create editable PowerPoint presentations from PDF content. This is useful when you need to modify, customize, or reuse PDF content in a presentation format.
-    </p>
-    <div class="codeblock" id="code-3">
-     <h3>
-      Import a presentation from PDF in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation();
-try {
-    presentation.getSlides().addFromPdf("input.pdf");
-    presentation.save("presentation.pptx", SaveFormat.Pptx);
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert PowerPoint Slides to JPG in Java
-    </h2>
-    <p>
-     Slide thumbnails can be used in many scenarios, such as building an online presentation viewer for a custom website, sharing slide previews with customers, or displaying presentation templates. Aspose.Slides for Java allows you to create slide thumbnails with just a few lines of code.
-    </p>
-    <div class="codeblock" id="code-4">
-     <h3>
-      Create a slide thumbnail in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation("presentation.pptx");
-try {
-    for (ISlide slide : presentation.getSlides()) {
-        // Render the slide to an image using the specified scale factors.
-        IImage image = slide.getImage(2f, 2f);
-
-        // Save the image to disk in JPEG format.
-        String fileName = String.format("slide_%d.jpg", slide.getSlideNumber());
-        image.save(fileName, ImageFormat.Jpeg);
-
-        image.dispose();
-    }
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation – Not Needed
-    </h2>
-    <p>
-     Aspose.Slides for Java does not require Microsoft Office or Microsoft PowerPoint to be installed to work with PowerPoint presentation formats. It is a reliable alternative to Microsoft PowerPoint automation in terms of supported features, security, stability, scalability, performance, and cost.
-    </p>
-   </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
 
 {{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
 {{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for Java to a Maven build?" answer="Point Maven at the [Aspose Java repository](https://releases.aspose.com/java/repo/com/aspose/aspose-slides/) and depend on `com.aspose:aspose-slides`. The artifacts are not on Maven Central, so the repository entry is required." >}}

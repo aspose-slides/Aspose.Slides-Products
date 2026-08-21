@@ -44,6 +44,24 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
    <h2 class="pr-ft">Advanced Node.js PowerPoint API Features</h2>
    <p>
    </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">How to Create a New PowerPoint Presentation in Node.js</h2>
+        <p>The example below adds a rectangle to the first slide of a presentation.</p>
+        <pre>
+            <code class="javascript">
+const presentation = new asposeSlides.Presentation();
+try {
+    const slide = presentation.slides.get(0);
+    slide.shapes.addAutoShape(asposeSlides.ShapeType.Rectangle, 50, 150, 300, 200);
+
+    presentation.save("presentation.pptx", asposeSlides.SaveFormat.Pptx);
+}
+finally {
+    presentation.dispose();
+}
+            </code>
+        </pre>
+    </div>
    <div class="col-lg-4">
     <em class="fa fa-copy ico-blue fa-2x col-lg-2">
     </em>
@@ -104,24 +122,6 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
     <p>Use npm to install the Aspose.Slides Node.js library for presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides.via.net">npm package repository</a>:</p>
     <pre>npm install aspose.slides.via.net</pre>
    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Create a New PowerPoint Presentation in Node.js</h2>
-        <p>The example below adds a rectangle to the first slide of a presentation.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation();
-try {
-    const slide = presentation.slides.get(0);
-    slide.shapes.addAutoShape(asposeSlides.ShapeType.Rectangle, 50, 150, 300, 200);
-
-    presentation.save("presentation.pptx", asposeSlides.SaveFormat.Pptx);
-}
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
 
     <div class="col-lg-12">
         <h2 class="h2title">How to Add and Clone Slides and Edit Shape Properties in Node.js</h2>

@@ -15,6 +15,198 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/php-java" buyLink="https://purchase.aspose.com/pricing/slides/php-java/" docsLink="https://docs.aspose.com/slides/php-java/" installationsDocsLink="https://docs.aspose.com/slides/php-java/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/php-java/" >}}
 
+<!--Feature-section Start-->
+<div class="container-fluid features-section bg-gray singleproduct">
+ <a class="anchor" id="features" name="features">
+ </a>
+ <div class="row">
+  <div class="container">
+   <h2 class="pr-ft">
+    Advanced PHP PowerPoint API Features
+   </h2>
+   <p>
+   </p>
+    <div class="col-lg-12">
+        <h2 class="h2title">Create a New PowerPoint Presentation in PHP</h2>
+        <p>The following example adds a line shape to the first slide and saves the presentation as a PPTX file.</p>
+        <pre>
+            <code class="php">
+$presentation = new Presentation();
+try {
+    $slide = $presentation->getSlides()->get_Item(0);
+    $slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
+
+    $presentation->save("line.pptx", SaveFormat::Pptx);
+} finally {
+    $presentation->dispose();
+}
+            </code>
+        </pre>
+    </div>
+   <div class="col-lg-4">
+    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create and clone slides
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-table ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create and format tables
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Apply or remove shape protection
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Embed Excel workbooks as OLE objects
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-link ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Support linked OLE objects
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-database ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Generate presentations from a database
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Protect presentations and generated PDFs
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-print ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Render presentations for printing
+    </p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
+    </em>
+    <p class="col-lg-10">
+     Create and customize charts
+    </p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     System Requirements
+    </h2>
+    <ul>
+      <li>PHP 7 or later and a supported Java Runtime Environment</li>
+    </ul>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">
+     How to Install
+    </h2>
+    <p>Use Packagist to install the Aspose.Slides PHP library for presentation processing from the <a href="https://packagist.org/packages/aspose/slides">PHP package repository</a>:</p>
+    <pre>composer require aspose/slides</pre>
+   </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Merge Presentations in PHP</h2>
+        <p>The following example clones every slide from a source presentation into a destination presentation.</p>
+        <pre>
+            <code class="php">
+$destinationPresentation = new Presentation("presentation1.pptx");
+try {
+    $sourcePresentation = new Presentation("presentation2.pptx");
+    try {
+        $slideCount = java_values($sourcePresentation->getSlides()->size());
+
+        for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
+            $slide = $sourcePresentation->getSlides()->get_Item($slideIndex);
+            $destinationPresentation->getSlides()->addClone($slide);
+        }
+    } finally {
+        $sourcePresentation->dispose();
+    }
+
+    $destinationPresentation->save("combined-presentation.pptx", SaveFormat::Pptx);
+} finally {
+    $destinationPresentation->dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Import a Presentation from PDF in PHP</h2>
+        <p>The following example imports pages from a PDF document as presentation slides and saves the result as PPTX.</p>
+        <pre>
+            <code class="php">
+$presentation = new Presentation();
+try {
+    $presentation->getSlides()->removeAt(0);
+    $presentation->getSlides()->addFromPdf("welcome-to-powerpoint.pdf");
+    $presentation->save("output-presentation.pptx", SaveFormat::Pptx);
+} finally {
+    $presentation->dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convert PowerPoint to PDF with Default Options in PHP</h2>
+        <p>The following example converts a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
+        <pre>
+            <code class="php">
+$presentation = new Presentation("presentation.pptx");
+try {
+    $presentation->save("document.pdf", SaveFormat::Pdf);
+} finally {
+    $presentation->dispose();
+}
+            </code>
+        </pre>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="h2title">Convert PowerPoint to JPG in PHP</h2>
+        <p>The following example renders each slide in a PowerPoint or OpenDocument presentation as a JPEG image.</p>
+        <pre>
+            <code class="php">
+$presentation = new Presentation("presentation.pptx");
+try {
+    $slideCount = java_values($presentation->getSlides()->size());
+
+    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
+        $slide = $presentation->getSlides()->get_Item($slideIndex);
+        $slideImage = $slide->getImage(1, 1);
+        try {
+            $filePath = "slide-" . ($slideIndex + 1) . ".jpg";
+            $slideImage->save($filePath, ImageFormat::Jpeg);
+        } finally {
+            $slideImage->dispose();
+        }
+    }
+} finally {
+    $presentation->dispose();
+}
+            </code>
+        </pre>
+    </div>
+  </div>
+ </div>
+</div>
+<!--Feature-section End-->
+
 {{< blocks/products/pf/tab-content >}}
 
 <p><strong>Aspose.Slides for PHP via Java</strong> is a presentation processing library that lets PHP applications read, edit, manipulate, and convert PowerPoint and OpenDocument presentations without requiring Microsoft PowerPoint.</p>
@@ -282,198 +474,6 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 {{< /blocks/products/pf/carousel >}}
 <!--Diagrams End-->
-
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced PHP PowerPoint API Features
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and clone slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and format tables
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Apply or remove shape protection
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Embed Excel workbooks as OLE objects
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Support linked OLE objects
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Generate presentations from a database
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protect presentations and generated PDFs
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Render presentations for printing
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and customize charts
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     System Requirements
-    </h2>
-    <ul>
-      <li>PHP 7 or later and a supported Java Runtime Environment</li>
-    </ul>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     How to Install
-    </h2>
-    <p>Use Packagist to install the Aspose.Slides PHP library for presentation processing from the <a href="https://packagist.org/packages/aspose/slides">PHP package repository</a>:</p>
-    <pre>composer require aspose/slides</pre>
-   </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Create a New PowerPoint Presentation in PHP</h2>
-        <p>The following example adds a line shape to the first slide and saves the presentation as a PPTX file.</p>
-        <pre>
-            <code class="php">
-$presentation = new Presentation();
-try {
-    $slide = $presentation->getSlides()->get_Item(0);
-    $slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
-
-    $presentation->save("line.pptx", SaveFormat::Pptx);
-} finally {
-    $presentation->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Merge Presentations in PHP</h2>
-        <p>The following example clones every slide from a source presentation into a destination presentation.</p>
-        <pre>
-            <code class="php">
-$destinationPresentation = new Presentation("presentation1.pptx");
-try {
-    $sourcePresentation = new Presentation("presentation2.pptx");
-    try {
-        $slideCount = java_values($sourcePresentation->getSlides()->size());
-
-        for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
-            $slide = $sourcePresentation->getSlides()->get_Item($slideIndex);
-            $destinationPresentation->getSlides()->addClone($slide);
-        }
-    } finally {
-        $sourcePresentation->dispose();
-    }
-
-    $destinationPresentation->save("combined-presentation.pptx", SaveFormat::Pptx);
-} finally {
-    $destinationPresentation->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Import a Presentation from PDF in PHP</h2>
-        <p>The following example imports pages from a PDF document as presentation slides and saves the result as PPTX.</p>
-        <pre>
-            <code class="php">
-$presentation = new Presentation();
-try {
-    $presentation->getSlides()->removeAt(0);
-    $presentation->getSlides()->addFromPdf("welcome-to-powerpoint.pdf");
-    $presentation->save("output-presentation.pptx", SaveFormat::Pptx);
-} finally {
-    $presentation->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to PDF with Default Options in PHP</h2>
-        <p>The following example converts a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
-        <pre>
-            <code class="php">
-$presentation = new Presentation("presentation.pptx");
-try {
-    $presentation->save("document.pdf", SaveFormat::Pdf);
-} finally {
-    $presentation->dispose();
-}
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to JPG in PHP</h2>
-        <p>The following example renders each slide in a PowerPoint or OpenDocument presentation as a JPEG image.</p>
-        <pre>
-            <code class="php">
-$presentation = new Presentation("presentation.pptx");
-try {
-    $slideCount = java_values($presentation->getSlides()->size());
-
-    for ($slideIndex = 0; $slideIndex < $slideCount; $slideIndex++) {
-        $slide = $presentation->getSlides()->get_Item($slideIndex);
-        $slideImage = $slide->getImage(1, 1);
-        try {
-            $filePath = "slide-" . ($slideIndex + 1) . ".jpg";
-            $slideImage->save($filePath, ImageFormat::Jpeg);
-        } finally {
-            $slideImage->dispose();
-        }
-    }
-} finally {
-    $presentation->dispose();
-}
-            </code>
-        </pre>
-    </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
 
 {{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
 {{< blocks/products/pf/agp/faq-item question="How do I install the PHP library?" answer="`composer require aspose/slides`, from the [Packagist package](https://packagist.org/packages/aspose/slides). PHP 7 or later and a supported Java Runtime Environment must both be present." >}}
