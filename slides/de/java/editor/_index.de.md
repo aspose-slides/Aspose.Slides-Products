@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Bearbeiten Sie HTML, PDF, PPT in Java
 url: /de/java/editor/
 description: Bearbeiten Sie HTML, PDF, PPT in Java. Verwenden Sie die Java-Bibliotheks-API, um PowerPoint-Präsentationen zu bearbeiten

@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Edit Presentations in C++
 url: /cpp/editor/
 description: Edit presentation and document formats in C++ with Aspose.Slides for C++.

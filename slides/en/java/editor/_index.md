@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Edit Presentations in Java
 url: /java/editor/
 description: Edit presentation and document formats in Java with Aspose.Slides for Java.

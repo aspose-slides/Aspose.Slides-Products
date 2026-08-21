@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Visualizza i formati di file ODP, OTP, POT, POTM, POTX, PPS, PPSM, PPSX, PPT, PPTM, PPTX tramite .NET
 url: /it/net/viewer/
 description: Codice sorgente C# per caricare, eseguire il rendering e visualizzare documenti ODP, OTP, POT, POTM, POTX, PPS, PPSM, PPSX, PPT, PPTM, PPTX su piattaforme .NET Framework, .NET Core, Windows Azure, Mono o Xamarin.

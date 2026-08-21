@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Edite archivos HTML, ODP, OTP, PDF, POT, POTM, POTX, PPS, PPSM, PPSX, PPT, PPTM, PPTX a través de .NET
 url: /es/net/editor/
 description: Código fuente C# para editar documentos HTML, ODP, OTP, PDF, POT, POTM, POTX, PPS, PPSM, PPSX, PPT, PPTM, PPTX en plataformas .NET Framework, .NET Core, Windows Azure, Mono o Xamarin.

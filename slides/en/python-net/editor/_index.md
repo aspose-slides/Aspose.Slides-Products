@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Edit Presentations in Python
 url: /python-net/editor/
 description: Edit presentation and document formats in Python with Aspose.Slides for Python via .NET.

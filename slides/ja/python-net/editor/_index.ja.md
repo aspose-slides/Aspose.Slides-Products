@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Python で HTML、PDF、PPT を編集する
 url: /ja/python-net/editor/
 description: Python で HTML、PDF、PPT を編集します。 Python ライブラリ API を使用して PowerPoint プレゼンテーションを編集する

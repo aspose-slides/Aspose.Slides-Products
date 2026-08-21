@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: C++ で HTML、PDF、PPT を編集する
 url: /ja/cpp/editor/
 description: C++ で HTML、PDF、PPT を編集します。 C++ ライブラリ API を使用して PowerPoint プレゼンテーションを編集する

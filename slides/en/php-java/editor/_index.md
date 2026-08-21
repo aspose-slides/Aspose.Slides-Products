@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Edit Presentations in PHP
 url: /php-java/editor/
 description: Edit presentation and document formats in PHP with Aspose.Slides for PHP via Java.

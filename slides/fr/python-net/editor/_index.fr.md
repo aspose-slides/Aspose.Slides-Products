@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Modifier HTML, PDF, PPT en Python
 url: /fr/python-net/editor/
 description: Modifier HTML, PDF, PPT en Python. Utiliser l'API de la bibliothèque Python pour modifier la présentation PowerPoint

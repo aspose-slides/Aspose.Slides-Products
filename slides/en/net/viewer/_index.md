@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 lastmod: 2026-07-10
 title: View PowerPoint Presentations using Aspose.Slides for .NET API
 url: /net/viewer/

@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Editar FODP, HTML, ODP, OTP, PDF, POT, POTM, POTX, PPS, PPSM, PPSX, PPT, PPTM, PPTX en PHP
 url: /es/php-java/editor/
 description: Edite FODP, HTML, ODP, OTP, PDF, POT, POTM, POTX, PPS, PPSM, PPSX, PPT, PPTM, PPTX en PHP.

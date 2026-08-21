@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: JavaでHTML、PDF、PPTを編集
 url: /ja/java/editor/
 description: Java で HTML、PDF、PPT を編集します。 Java ライブラリ API を使用して PowerPoint プレゼンテーションを編集する

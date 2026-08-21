@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: .NET経由でODP、OTP、POT、POTM、POTX、PPS、PPSM、PPSX、PPT、PPTM、PPTXファイル形式を表示
 url: /ja/net/viewer/
 description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamarinプラットフォームでODP、OTP、POT、POTM、POTX、PPS、PPSM、PPSX、PPT、PPTM、PPTXドキュメントをロード、レンダリング、および表示するためのC＃ソースコード。

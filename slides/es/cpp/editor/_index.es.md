@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Editar HTML, PDF, PPT en C++
 url: /es/cpp/editor/
 description: Editar HTML, PDF, PPT en C++. Utilice la API de la biblioteca de C++ para editar la presentación de PowerPoint

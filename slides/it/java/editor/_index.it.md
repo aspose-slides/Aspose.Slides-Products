@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: Modifica HTML, PDF, PPT in Java
 url: /it/java/editor/
 description: Modifica HTML, PDF, PPT in Java. Usa l'API della libreria Java per modificare la presentazione di PowerPoint

@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: .NETを介してHTML、ODP、OTP、PDF、POT、POTM、POTX、PPS、PPSM、PPSX、PPT、PPTM、PPTXファイルを編集する
 url: /ja/net/editor/
 description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamarinプラットフォームでHTML、ODP、OTP、PDF、POT、POTM、POTX、PPS、PPSM、PPSX、PPT、PPTM、PPTXドキュメントを編集するためのC＃ソースコード。

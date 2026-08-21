@@ -1,4 +1,5 @@
 ---
+locales: "de,es,fr,it,ja"
 title: PHP で FODP、HTML、ODP、OTP、PDF、POT、POTM、POTX、PPS、PPSM、PPSX、PPT、PPTM、PPTX を編集
 url: /ja/php-java/editor/
 description: PHP で FODP、HTML、ODP、OTP、PDF、POT、POTM、POTX、PPS、PPSM、PPSX、PPT、PPTM、PPTX を編集します。
