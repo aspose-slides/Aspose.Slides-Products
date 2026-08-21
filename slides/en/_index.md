@@ -116,11 +116,13 @@ That is the whole program: no PowerPoint, no headless Office, no template file t
 {{< blocks/products/pf/slides-fact-band title="What the library is, in numbers" isGrey="true" >}}
 
 - **189 shape types and 82 chart types**, each a real object that PowerPoint still recognises and lets a person edit after the file is written.
-- **Reads 15 presentation formats and writes 21**, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`.
+- **Reads 13 presentation formats and writes 12**, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, and writes 9 further export targets.
 - **A release every month for 128 consecutive months**, on a published version stream.
 - **No Microsoft Office, no GDI and no X display** on the machine that runs it, so a small Linux container is enough.
 
 {{< /blocks/products/pf/slides-fact-band >}}
+
+{{< blocks/products/pf/slides-formats title="Formats it reads and writes" >}}
 
 {{< blocks/products/pf/slides-capability-table title="What Aspose.Slides supports" lede="One row per capability, with the qualified ones marked as qualified rather than rounded up." >}}
 
