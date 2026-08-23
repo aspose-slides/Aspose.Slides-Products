@@ -1,8 +1,9 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-08-23
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides"
 weight: 7160
+slidesIndexRebuild: true
 url: /
 keywords:
 - PowerPoint
@@ -23,78 +24,53 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides" h2="Standalone APIs for automating presentation tasks without Microsoft Office." h3="Build applications with .NET, Java, Python, Node.js, and C++ to manipulate slides, charts, animations, transitions, and multimedia." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides product family" >}}
 
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides High-Code APIs" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
+  h1="Read, write and render PowerPoint files from your own code."
+  sub="Aspose.Slides creates, edits, converts and renders PowerPoint and OpenDocument presentations in .NET, Java, Python, C++, Node.js, Android and more. It runs in your process, on Windows, Linux or macOS, in a container or on a host, with no Office install."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/"
+  note="Full API on trial · watermark on open and save"
+  moreText="C++, Android, PHP, SharePoint, JasperReports and more" moreUrl="#platforms"
+  runsOnTitle="RUNS ON"
+  runsOn="Windows, Linux and macOS, on a host or in a container, wherever the .NET, Java or Python runtime the build targets is supported. No Microsoft Office installation on the machine that runs it."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/python-net/" >}}
-Python via .NET API for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations. It also supports programmatic presentation translation through external AI services.
-{{< /blocks/products/pf/product >}}
+| Platform | Install |
+|---|---|
+| .NET | dotnet add package Aspose.Slides.NET |
+| Python | pip install aspose-slides |
+| Node.js | npm install aspose.slides.via.java |
+| Java | com.aspose:aspose-slides |
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/net/" >}}
-On-premises .NET APIs for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations. Import content from `PDF`, generate frames for animated video export, and translate presentation text through external AI services.
-{{< /blocks/products/pf/product >}}
+{{< /blocks/products/pf/slides-hero >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/java/" >}}
-Java APIs for creating, loading, editing, rendering, converting, and parsing PowerPoint and OpenDocument presentations in Java SE and enterprise applications. Translate presentation text through external AI services.
-{{< /blocks/products/pf/product >}}
+{{< blocks/products/pf/slides-stat-row >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/cpp/" >}}
-Native C++ library for creating, loading, editing, rendering, and converting PowerPoint and OpenDocument presentations without Microsoft PowerPoint.
-{{< /blocks/products/pf/product >}}
+| Figure | Caption |
+|---|---|
+| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit after the file is written. |
+| 13 → 12 | Presentation formats read and written, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, plus 9 further export targets. |
+| 128 | Consecutive months with a release, on a published version stream. |
+| 0 | Microsoft Office installs, GDI dependencies and X displays needed. A small Linux container is enough. |
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Node.js via Java" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/nodejs-java/" >}}
-Node.js via Java API for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations. It also supports programmatic presentation translation through external AI services.
-{{< /blocks/products/pf/product >}}
+{{< /blocks/products/pf/slides-stat-row >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/android-java/" >}}
-Android via Java API for creating, editing, rendering, and converting PowerPoint and OpenDocument presentations in mobile applications. It also supports programmatic presentation translation through external AI services.
-{{< /blocks/products/pf/product >}}
+{{< blocks/products/pf/slides-platform-table
+  title="Pick your platform"
+  lede="Same object model everywhere. The differences that matter are the runtime and what each build adds on top."
+  allHref="/slides/family/" allText="All high-code APIs"
+>}}
 
-{{< blocks/products/pf/center-button href="/slides/family/" innerText="View All High-Code APIs" >}}
-
-{{< /blocks/products/pf/product-card-row >}}
-
-{{< blocks/products/pf/product-card-row title="Aspose.Slides Low-Code APIs" >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides" title="Cloud for cURL" imgSrc="https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-curl.png" productLink="https://products.aspose.cloud/slides/curl/" >}}
-REST API for loading, creating, editing, and converting presentations through `cURL` commands.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides" title="Cloud SDK for .NET" imgSrc="https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-net.png" productLink="https://products.aspose.cloud/slides/net/" >}}
-Use the .NET Cloud SDK to create, merge, split, and convert presentations through Aspose.Slides Cloud.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides" title="Cloud SDK for Java" imgSrc="https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-java.png" productLink="https://products.aspose.cloud/slides/java/" >}}
-Use the Java Cloud SDK to create, edit, merge, split, and convert presentations through Aspose.Slides Cloud.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/center-button href="https://products.aspose.cloud/slides/family/" innerText="View All Low-Code APIs" >}}
-
-{{< /blocks/products/pf/product-card-row >}}
-
-{{< blocks/products/pf/product-card-row title="Aspose.Slides No-Code Apps" >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides " title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="https://products.aspose.app/slides/viewer" >}}
-View PowerPoint and OpenDocument presentations in a web browser.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides " title="Annotation" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="https://products.aspose.app/slides/annotation" >}}
-Remove annotations from PowerPoint and OpenDocument presentations in a web browser.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/product pfName="Aspose.Slides " title="Conversion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="https://products.aspose.app/slides/conversion" >}}
-Convert PowerPoint and OpenDocument presentations to `PDF`, `HTML`, images, and other popular file formats in a web browser.
-{{< /blocks/products/pf/product >}}
-
-{{< blocks/products/pf/center-button href="https://products.aspose.app/slides/family" innerText="View All No-Code Apps" >}}
-
-{{< /blocks/products/pf/product-card-row >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/slides-fact-band title="Build a presentation from content you already have" lede="Most of the presentation work people automate runs *into* a deck rather than out of one: pulling HTML, images, PDF pages or database rows onto slides. Aspose.Slides reads HTML markup straight into a text frame, keeping the headings, bold runs and lists it finds." >}}
+{{< blocks/products/pf/slides-fact-band
+  id="example"
+  title="Build a presentation from content you already have"
+  lede="Most of the presentation work people automate runs *into* a deck rather than out of one: pulling HTML, images, PDF pages or database rows onto slides. Aspose.Slides reads HTML markup straight into a text frame, keeping the headings, bold runs and lists it finds."
+  isGrey="true"
+  split="true" codeLabelLeft="HTML → PPTX" codeLabelRight="PYTHON"
+>}}
 
 ```
 import aspose.slides as slides
@@ -113,42 +89,52 @@ That is the whole program: no PowerPoint, no headless Office, no template file t
 
 {{< /blocks/products/pf/slides-fact-band >}}
 
-{{< blocks/products/pf/slides-fact-band title="What the library is, in numbers" isGrey="true" >}}
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-- **189 shape types and 82 chart types**, each a real object that PowerPoint still recognises and lets a person edit after the file is written.
-- **Reads 13 presentation formats and writes 12**, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, and writes 9 further export targets.
-- **A release every month for 128 consecutive months**, on a published version stream.
-- **No Microsoft Office, no GDI and no X display** on the machine that runs it, so a small Linux container is enough.
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit." >}}
 
-{{< /blocks/products/pf/slides-fact-band >}}
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< blocks/products/pf/slides-formats title="Formats it reads and writes" >}}
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
 
-{{< blocks/products/pf/slides-capability-table title="What Aspose.Slides supports" lede="One row per capability, with the qualified ones marked as qualified rather than rounded up." >}}
+## If you don't want a library
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.Slides." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our ASP.NET servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
+- [![](https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-curl.png)cURL](https://products.aspose.cloud/slides/curl/)
+- [![](https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-net.png).NET SDK](https://products.aspose.cloud/slides/net/)
+- [![](https://www.aspose.cloud/templates/asposecloud/App_Themes/V3/images/sdk/272x272/aspose_slides-for-java.png)Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
 
-{{< /blocks/products/pf/testimonials-quote >}}
+## No-code apps
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
+- [![](https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png)Viewer](https://products.aspose.app/slides/viewer)
+- [![](https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png)Conversion](https://products.aspose.app/slides/conversion)
+- [![](https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png)Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
 
-{{< /blocks/products/pf/testimonials-quote >}}
+## Resources
 
-{{< /blocks/products/pf/testimonials >}}
+- [Documentation](https://docs.aspose.com/slides/)
+- [API reference](https://reference.aspose.com/slides/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Case studies](https://about.aspose.com/customers/success-stories/)
+
+## In use
+
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— BRUCE BRIEN · STRATASCOPE INC, USA
+
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
