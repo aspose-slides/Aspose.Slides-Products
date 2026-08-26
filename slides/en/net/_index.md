@@ -1,504 +1,189 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# .NET PowerPoint Processing API | Aspose.Slides
 weight: 1890
+slidesIndexRebuild: true
 url: /net/
 description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing, converting, and processing presentations programmatically.
 outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET API for PowerPoint File Formats" h2="Read, write, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in C# without requiring Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-net.svg" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/slides/net/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR .NET · ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
+  h1="PowerPoint files, from C#."
+  sub="Aspose.Slides for .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from managed code. One NuGet package, running in your own process on Windows, Linux, macOS or a container — no Office install, no COM automation, no display server."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/"
+  note="Full API on trial · watermark on output"
+  moreText="Java, Python, C++, Node.js, Android and more" moreUrl="/slides/family/"
+  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn=".NET Framework, .NET Core and later, Mono and Xamarin.Android. Callable over COM interop from PHP, VBScript, Delphi and C++ on Windows. No Office, no GDI, no display server."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/net/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/pricing/slides/net/" docsLink="https://docs.aspose.com/slides/net/" installationsDocsLink="https://docs.aspose.com/slides/net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/net/" >}}
+| Label | Install |
+|---|---|
+| CLI | dotnet add package Aspose.Slides.NET |
+| Console | Install-Package Aspose.Slides.NET |
+| Assembly | Aspose.Slides.dll |
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced .NET C# PowerPoint API Features
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert Presentations to PDF, HTML, TIFF, or XPS in C#
-    </h2>
-    <p>
-     Aspose.Slides for .NET includes a rendering engine for PowerPoint and OpenDocument formats. It can export presentations to PDF, HTML, TIFF, XPS, and other formats by loading a presentation and calling the <code>Save</code> method with the required output format.
-    </p>
-    <div class="codeblock" id="code-1">
-     <h3>
-       Convert Presentations in C#
-     </h3>
-     <pre><code class="cs">
-using var presentation = new Presentation("presentation.pptx");
+{{< /blocks/products/pf/slides-hero >}}
 
-presentation.Save("output.pdf", SaveFormat.Pdf);
-presentation.Save("output.xps", SaveFormat.Xps);
-presentation.Save("output.tiff", SaveFormat.Tiff);
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create or clone slides from templates
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Work with PowerPoint tables programmatically
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Apply or remove shape protection
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add Excel charts as OLE objects to slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Work with linked OLE objects
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Generate presentations from databases
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protect presentations and exported PDF files
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Print presentations to physical printers
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and customize charts
-    </p>
-   </div>
-   <!--<div class="col-lg-12">
+{{< blocks/products/pf/slides-stat-row >}}
 
-<h2 class="h2title">Complete Control Over PowerPoint Slide Elements</h2>
+| Figure | Caption |
+|---|---|
+| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
+| 13 → 12 | Presentation formats read and written, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, plus 9 further export targets. |
+| 1 | NuGet package. No native prerequisites to install alongside it. |
+| 0 | Microsoft Office installs, GDI dependencies and X displays needed. A small Linux container is enough. |
 
-<p>Aspose.Slides for .NET can handle presentation elements including text boxes, tables, rectangles, ellipses, polylines, AutoShapes, picture frames, audio frames, video frames, and OLE object frames. The API provides well-designed classes for comprehensively manipulating each of these elements.</p>
+{{< /blocks/products/pf/slides-stat-row >}}
 
-</div>-->
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Format Presentation Content in .NET C#
-    </h2>
-    <p>
-     Aspose.Slides for .NET allows you to format text, shapes, and other slide elements programmatically. Text is managed through text frames, paragraphs, and portions, while shapes can be customized by changing their position, size, line style, fill, image, and text formatting.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Create and modify PowerPoint SmartArt in .NET C#
-    </h2>
-    <p>
-     Aspose.Slides for .NET allows you to create SmartArt shapes from scratch and work with existing SmartArt objects in presentations. You can access, modify, or remove SmartArt objects, manage their nodes, and update their appearance by changing styles, colors, and layouts.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Protect Presentations in C#
-    </h2>
-    <p>
-     Aspose.Slides for .NET can lock presentation files to prevent unwanted changes. Developers can also password-protect PPT files and exported PDF documents, enable read-only access, and manage document properties.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Create a Presentation Viewer with Slide Thumbnails in C#
-    </h2>
-    <p>
-     Aspose.Slides for .NET can generate slide thumbnails that can be used in custom presentation viewers, websites, desktop apps, and other .NET applications.
-    </p>
-    <div class="codeblock" id="code-2">
-     <h3>
-      Generate slide thumbnails via .NET - C#
-     </h3>
-     <pre><code class="cs">
-using var presentation = new Presentation("presentation.pptx");
+{{< blocks/products/pf/slides-task-tabs
+  id="tasks"
+  title="Five things people actually write"
+  lede="Each sample is the whole program, C# as shipped. Pick the job on the left."
+  lang="C#"
+  allText="All examples on GitHub" allHref="https://github.com/aspose-slides/Aspose.Slides-for-.NET"
+>}}
+
+| Task | Hint | Flow | Note | Docs |
+|---|---|---|---|---|
+| Convert | One load, many output formats | PPTX → PDF / HTML / TIFF | The rendering engine ships with the library. | https://docs.aspose.com/slides/net/convert-powerpoint-ppt-and-pptx/ |
+| Slide thumbnails | Images for a viewer or an index | PPTX → PNG | The scale factor controls output resolution. | https://docs.aspose.com/slides/net/create-slides-thumbnail-images/ |
+| Charts from data | A real chart, still editable in PowerPoint | DATA → PPTX | Chart data lives in an embedded workbook. 82 chart types. | https://docs.aspose.com/slides/net/create-chart/ |
+| Protect | Encrypt the deck and the PDF you hand out | PPTX → ENCRYPTED PPTX / PDF | The password applies to the deck and to the export. | https://docs.aspose.com/slides/net/password-protected-presentation/ |
+| Merge | Clone slides between decks, layouts intact | PPTX + PPTX → PPTX | Layouts and masters travel with the cloned slide. | https://docs.aspose.com/slides/net/clone-slides/ |
+
+```
+using Aspose.Slides;
+using Aspose.Slides.Export;
+
+using var presentation = new Presentation("quarterly-review.pptx");
+
+presentation.Save("review.pdf", SaveFormat.Pdf);
+presentation.Save("review.html", SaveFormat.Html);
+presentation.Save("review.tiff", SaveFormat.Tiff);
+```
+
+```
+using var presentation = new Presentation("deck.pptx");
+
+foreach (var slide in presentation.Slides)
+{
+    using var image = slide.GetImage(2f, 2f);
+    image.Save($"slide-{slide.SlideNumber}.png", ImageFormat.Png);
+}
+```
+
+```
+using Aspose.Slides.Charts;
+
+using var presentation = new Presentation();
 var slide = presentation.Slides[0];
 
-using var image = slide.GetImage(1f, 1f);
+var chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 60, 60, 620, 400);
+var cells = chart.ChartData.ChartDataWorkbook;
 
-image.Save("output.jpg", ImageFormat.Jpeg);
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation Is Not Needed
-    </h2>
-    <p>
-     Aspose.Slides for .NET is built with managed code and does not require Microsoft Office or Microsoft PowerPoint to be installed. It provides a reliable alternative to Microsoft Office automation for applications that need presentation processing with better security, stability, scalability, performance, and deployment flexibility.
-    </p>
-   </div>
-   <!--<div class="col-lg-12">
+chart.ChartData.Categories.Add(cells.GetCell(0, 1, 0, "Q1"));
+chart.ChartData.Categories.Add(cells.GetCell(0, 2, 0, "Q2"));
+chart.ChartData.Series.Add(cells.GetCell(0, 0, 1, "Revenue"), chart.Type);
 
-<h2 class="h2title">Support For Office Open XML</h2>
+presentation.Save("report.pptx", SaveFormat.Pptx);
+```
 
-<p>Office Open XML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
+```
+using var presentation = new Presentation("board-deck.pptx");
 
-<p>PresentationML is the presentation-specific markup language defined by Office Open XML (OOXML). PPTX files use an OOXML package that contains PresentationML parts. Aspose.Slides for .NET supports creating, reading, manipulating, and writing PresentationML content.</p>
+presentation.ProtectionManager.Encrypt("s3cret");
 
-</div>-->
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+var options = new PdfOptions { Password = "s3cret" };
+presentation.Save("board-deck.pdf", SaveFormat.Pdf, options);
+```
 
-{{< blocks/products/pf/tab-content >}}
-<p><strong>Aspose.Slides for .NET</strong> is a powerful presentation processing API designed for working with PowerPoint and OpenDocument presentation formats in C#. It allows developers to create, read, write, modify, protect, and convert presentations programmatically without needing Microsoft PowerPoint.</p>
+```
+using var target = new Presentation("master.pptx");
+using var source = new Presentation("appendix.pptx");
 
-<p>With Aspose.Slides for .NET, you can manage and manipulate presentation content, including text, shapes, charts, tables, animations, as well as add multimedia elements like audio and video. The API also enables slide preview and seamless integration into .NET applications.</p>
+foreach (var slide in source.Slides)
+    target.Slides.AddClone(slide);
 
-<p><strong>Key Features:</strong></p>
-<ul>
-    <li>Supports all major presentation formats including PPT, PPTX, PPS, PPSX, ODP, and more.</li>
-    <li>Perform advanced operations such as merging, splitting, cloning, and reusing slides or entire presentations.</li>
-    <li>Convert presentations to fixed-layout formats such as PDF and XPS, as well as export to HTML, SVG, JPEG, PNG, and other image formats.</li>
-    <li>Generate presentation frames for video export and create video files such as MP4 or WebM using FFmpeg or another video tool, with support for selected animations and slide transitions.</li>
-    <li>Print presentations directly to physical printers from your .NET application.</li>
-    <li>Produce high-fidelity rendered output; for consistent results, make the presentation fonts or suitable substitutes available in the runtime environment.</li>
-    <li>Translate entire presentations automatically with AI-powered translation that integrates with OpenAI or other language models to enable smarter, multilingual workflows.</li>
-</ul>
+target.Save("combined.pptx", SaveFormat.Pptx);
+```
 
-<p>Aspose.Slides for .NET is a standalone API and does not require Microsoft PowerPoint. It is ideal for on-premises or server-side scenarios where automation and scalability are essential.</p>
+{{< /blocks/products/pf/slides-task-tabs >}}
 
-<p><a href="/slides/benefits/">Learn more about the benefits of Aspose.Slides for .NET</a> and how it can enhance your .NET presentation processing workflows.</p>
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< /blocks/products/pf/tab-content >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported in the .NET build. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit." >}}
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Managed code and one package, so the library deploys with the application — onto build agents, containers and servers unchanged."
+  footText="Same object model on other platforms: Java, Python, C++, Node.js, Android, PHP, SharePoint and JasperReports."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of API capabilities." >}}
-<div class="diagram1 d1-net">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-table">
-    </i>
-    Data Processing
-   </header>
-   <ul>
-    <li>
-     Manage Charts
-    </li>
-    <li>
-     Manage SmartArt graphics
-    </li>
-    <li>
-     Manage PowerPoint Shapes
-    </li>
-    <li>
-     Manage ActiveX Controls
-    </li>
-    <li>
-     Manage OLE Objects
-    </li>
-   </ul>
-   <header>
-    <i class="fa fa-text-width">
-    </i>
-    Text &amp; Paragraph
-   </header>
-   <ul>
-    <li>
-     Manipulate Text &amp; Formatting
-    </li>
-    <li>
-     Manipulate Hyperlink Text
-    </li>
-    <li>
-     Set Placeholder Type
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cog">
-    </i>
-    Graphics &amp; Multimedia
-   </header>
-   <ul>
-    <li>
-     Manage Slide Transitions
-    </li>
-    <li>
-     Manage Animation Effects
-    </li>
-    <li>
-     Add Connectors to Shapes
-    </li>
-    <li>
-     Rotate &amp; Flip Shapes
-    </li>
-    <li>
-     Manage Shape's Line Styles
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint API C#" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    .NET
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+| Runtime | Note | Platforms |
+|---|---|---|
+| .NET Framework | Classic desktop, ASP.NET and Windows service workloads. | WINDOWS |
+| .NET Core and .NET 5+ | Cross-platform applications, containers and cloud functions. | WINDOWS · LINUX · MACOS |
+| Mono | Supported for non-Windows runtimes where Mono hosts the application. | LINUX · MACOS |
+| Xamarin.Android | Presentation handling inside mobile applications. | ANDROID |
+| COM interop | Callable from PHP, VBScript, Delphi and C++ on Windows. | WINDOWS |
 
-{{< /blocks/products/pf/carousel-item >}}
+{{< /blocks/products/pf/slides-runtime-cards >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for .NET supports .NET Framework, .NET Core, and Xamarin.Android. It can also be used with Mono; COM interop is available on Windows." >}}
-<div class="diagram1 d1-net">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    COM Interop
-   </header>
-   <ul>
-    <li>
-     PHP, VBScript, Delphi, C++
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    .NET Framework
-   </header>
-   <br/>
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    .NET Core
-   </header>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for .NET" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    .NET
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< /blocks/products/pf/carousel-item >}}
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR .NET · PRODUCTS.ASPOSE.COM"
+  barRight="POWERPOINT AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for .NET supports the popular [presentation formats](https://docs.aspose.com/slides/net/supported-file-formats/) and export formats listed below." >}}
-<div class="diagram1 d2 d1-net">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    Input/Output
-   </header>
-   <ul>
-    <li>
-     <b>
-      Microsoft PowerPoint:
-     </b>
-     PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
-    </li>
-    <li>
-     <b>
-      OpenDocument:
-     </b>
-     ODP
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-    <li>
-     <b>
-      Fixed Layout:
-     </b>
-     PDF, PDF/A, XPS
-    </li>
-    <li>
-     <b>
-      Images:
-     </b>
-     JPEG, PNG, BMP, TIFF, GIF
-    </li>
-    <li>
-     SVG
-    </li>
-    <li>
-     <b>
-      Web:
-     </b>
-     HTML
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    .NET
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+## If you don't want a library
 
-{{< /blocks/products/pf/carousel-item >}}
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
 
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="Do I need Microsoft PowerPoint or Office installed to use Aspose.Slides for .NET?" answer="No. The library reads and writes presentation files directly, so it runs on build agents, containers and servers with no Microsoft Office installation and no PowerPoint automation." >}}
-{{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for .NET to a project?" answer="Install the `Aspose.Slides.NET` package from NuGet, or take the assemblies from the [Aspose.Slides for .NET downloads](https://releases.aspose.com/slides/net/). The same package also serves .NET Core and Xamarin projects." >}}
-{{< blocks/products/pf/agp/faq-item question="Which presentation formats can Aspose.Slides for .NET read and write?" answer="It reads and writes PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and OpenDocument ODP. PDF, PDF/A, XPS, JPEG, PNG, BMP, TIFF and GIF are export targets." >}}
-{{< blocks/products/pf/agp/faq-item question="What happens if I use the library without a licence?" answer="It works, but in evaluation mode: exported files are stamped with an *Evaluation only* notice and a line naming the product and version. Applying a licence file at start-up removes both." >}}
-{{< blocks/products/pf/agp/faq-item question="Can I open a legacy binary .ppt file, not just .pptx?" answer="Yes. The 97-2003 binary formats (PPT, PPS, POT) are read and written alongside the OOXML ones, so decks that predate PowerPoint 2007 do not need converting first." >}}
-{{< /blocks/products/pf/agp/faq >}}
+## No-code apps
 
-{{< /blocks/products/pf/main-container >}}
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.slides/" >}}
+## Resources
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our ASP.NET servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
+- [Documentation](https://docs.aspose.com/slides/net/)
+- [API reference](https://reference.aspose.com/slides/net/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/net/installation/)
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
+## In use
 
-{{< /blocks/products/pf/testimonials >}}
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/net/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-.NET" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/net/" >}}
-{{< blocks/products/pf/slr-element name="AI Agent Examples" href="https://github.com/aspose-slides/agentic-net-examples" >}}
-{{< /blocks/products/pf/slr-tab >}}
+— BRUCE BRIEN · STRATASCOPE INC, USA
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/net/release-notes/" >}}
-{{< /blocks/products/pf/slr-tab >}}
-
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for .NET?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
-
-{{< /blocks/products/pf/support-learning-resources >}}
-
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/net" >}}
-
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
-
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
-
-{{< /blocks/products/pf/offers-section >}}
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
