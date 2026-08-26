@@ -1,333 +1,218 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Node.js via .NET PowerPoint API by Aspose.Slides
+title: "Node.js via .NET PowerPoint API by Aspose.Slides"
 weight: 5890
+slidesIndexRebuild: true
 url: /nodejs-net/
-description: Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js.
+description: "Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js."
 outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Node.js PowerPoint API for Presentations" h2="Create, read, modify, and convert PowerPoint and OpenDocument presentations using Node.js without requiring Microsoft PowerPoint." logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" downloadUrl="https://releases.aspose.com/slides/nodejs-net/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Node.js via .NET" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR NODE.JS VIA .NET · ON-PREMISES LIBRARY · NEEDS A .NET 6 RUNTIME"
+  h1="PowerPoint files, from Node.js."
+  sub="Aspose.Slides for Node.js via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from JavaScript. It is not a native Node addon: the npm package wraps the Aspose.Slides .NET engine and calls into it over the edge-js bridge, so a .NET 6 or later runtime has to be present on the machine. Everything else is bundled, including edge-js and the native rendering libraries for Windows, Linux and macOS, and no Microsoft Office install or display server is involved."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/nodejs-net/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/nodejs-net/"
+  note="Full API on trial · watermark on output"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Windows, Linux and macOS, on Node.js with a .NET 6 or later runtime installed. The package carries its own native rendering libraries, x86 and x64 on Windows, x64 on Linux, and both Intel and Apple Silicon on macOS, and pulls in the edge-js bridge as an npm dependency. No Microsoft Office, no COM automation, no display server."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" buyLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" docsLink="https://docs.aspose.com/slides/nodejs-net/" installationsDocsLink="https://docs.aspose.com/slides/nodejs-net/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET6.CrossPlatform" nugetPackageName="Aspose.Slides.NET6.CrossPlatform" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/nodejs-net/" >}}
+| Label | Install |
+|---|---|
+| npm | npm install aspose.slides.via.net |
+| Check prerequisite | dotnet --list-runtimes |
+| Require | const { Presentation } = require('aspose.slides.via.net'); |
 
-{{% blocks/products/pf/feature-page-section %}}
+{{< /blocks/products/pf/slides-hero >}}
 
-<p><strong>Aspose.Slides for Node.js via .NET</strong> is a Node.js library for creating, modifying, and converting PowerPoint presentations. It supports presentation elements such as slides, shapes, text, charts, tables, images, SmartArt, OLE objects, multimedia, and VBA macros. The API also supports merging, cloning, splitting, comparing, rendering, and printing presentations without Microsoft PowerPoint.</p>
+{{< blocks/products/pf/slides-stat-row >}}
 
-<p><strong>Aspose.Slides for Node.js via .NET</strong> provides these popular features:</p>
-<ul>
-    <li>Loading, opening, and viewing presentations.</li>
-    <li>Editing presentations.</li>
-    <li>Converting presentation files to popular presentation formats, such as <code>PPT</code>, <code>PPTX</code>, and <code>ODP</code>.</li>
-    <li>Exporting presentations to <code>PDF</code>, <code>JPG</code>, <code>HTML</code>, <code>GIF</code>, <code>SVG</code>, and many other formats.</li>
-    <li>Rendering and printing presentations.</li>
-    <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
-    <li>Manipulating presentation entities, such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE, VBA macros, animations, etc.</li>
-    <li>Automatically translating presentations using AI-powered translation through external language model integration.</li>
-</ul>
+| Figure | Caption |
+|---|---|
+| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
+| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 2 | Things to install: the npm package and a .NET 6 or later runtime. The edge-js bridge and the native rendering libraries ship inside the package. |
+| 0 | Microsoft Office installs, COM automation and display servers needed. A headless container is enough once the .NET runtime is in it. |
 
-<p>Node.js is a popular, free, open-source, cross-platform JavaScript runtime environment that lets developers write command line tools and server-side scripts outside of a browser. For this reason, the <strong>Aspose.Slides</strong> team is proud to offer <strong>Aspose.Slides for Node.js via .NET</strong> to the Node.js community.</p>
+{{< /blocks/products/pf/slides-stat-row >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-task-tabs
+  id="tasks"
+  title="Five things people actually write"
+  lede="Each sample is the whole program, Node.js as shipped. Pick the job on the left."
+  lang="JAVASCRIPT"
+  allText="All examples on GitHub" allHref="https://github.com/aspose-slides/Aspose.Slides-for-Node.js-via-.NET"
+>}}
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">Advanced Node.js PowerPoint API Features</h2>
-   <p>
-   </p>
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Create a New PowerPoint Presentation in Node.js</h2>
-        <p>The example below adds a rectangle to the first slide of a presentation.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation();
-try {
-    const slide = presentation.slides.get(0);
-    slide.shapes.addAutoShape(asposeSlides.ShapeType.Rectangle, 50, 150, 300, 200);
+| Task | Hint | Flow | Note | Docs |
+|---|---|---|---|---|
+| Convert | Open a deck and write it out in another format. | PPTX -> PDF / HTML / TIFF | One save call per target. The SaveFormat constant chooses the writer, not the file extension. | https://reference.aspose.com/slides/net/aspose.slides/presentation/save/ |
+| Slide thumbnails | Render every slide to a raster image at a fixed pixel size. | Slide -> PNG 960 x 540 | getImageWithImageSize takes a plain object with width and height. Dispose each image, it holds a handle on the .NET side. | https://reference.aspose.com/slides/net/aspose.slides/islide/getimage/ |
+| Tables from data | Push a JavaScript array onto a slide as a native, editable table. | Array -> native table | Cell text is set through textFrame.text. This is the route from structured data to a slide in this binding, which does not surface the chart object model. | https://reference.aspose.com/slides/net/aspose.slides/ishapecollection/addtable/ |
+| Protect | Encrypt a deck and mark it read-only before it leaves your process. | PPTX -> encrypted PPTX | encrypt sets the password needed to open the file, setWriteProtection the one needed to edit it. Both take effect on save. | https://reference.aspose.com/slides/net/aspose.slides/iprotectionmanager/encrypt/ |
+| Merge | Append the slides of one deck to another and keep their layouts. | N decks -> 1 deck | addClone brings the slide across with its layout and master, so appended slides keep the look they had. | https://reference.aspose.com/slides/net/aspose.slides/islidecollection/addclone/ |
 
-    presentation.save("presentation.pptx", asposeSlides.SaveFormat.Pptx);
+```
+const asposeSlides = require('aspose.slides.via.net');
+const { Presentation, SaveFormat } = asposeSlides;
+
+const pres = new Presentation("quarterly-review.pptx");
+
+pres.save("quarterly-review.pdf", SaveFormat.Pdf);
+pres.save("quarterly-review.html", SaveFormat.Html);
+pres.save("quarterly-review.tiff", SaveFormat.Tiff);
+
+pres.dispose();
+```
+
+```
+const asposeSlides = require('aspose.slides.via.net');
+const { Presentation, ImageFormat } = asposeSlides;
+const fs = require('fs');
+
+if (!fs.existsSync("thumbs")) fs.mkdirSync("thumbs");
+
+const pres = new Presentation("quarterly-review.pptx");
+
+for (let i = 0; i < pres.slides.count; i++) {
+    const image = pres.slides.get(i).getImageWithImageSize({ width: 960, height: 540 });
+    image.save("thumbs/slide-" + (i + 1) + ".png", ImageFormat.Png);
+    image.dispose();
 }
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Create slides or clone existing slides from templates</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Work with PowerPoint tables via API</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Apply or remove shape protection</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Add Excel charts as OLE objects to slides</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create shapes and add text to shapes on slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Handle text and shape formatting
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Generate presentations from a database</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Protect presentations and generated <code>PDF</code> files</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Print presentations on a physical printer</p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">System Requirements</h2>
-    <ul>
-      <li>Aspose.Slides for Node.js via .NET is a server-side JavaScript API based on Node.js. It can run on Windows, Linux, and macOS with .NET 6 or later.</li>
-    </ul>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">How to Install</h2>
-    <p>Use npm to install the Aspose.Slides Node.js library for presentation processing from the <a href="https://www.npmjs.com/package/aspose.slides.via.net">npm package repository</a>:</p>
-    <pre>npm install aspose.slides.via.net</pre>
-   </div>
 
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Add and Clone Slides and Edit Shape Properties in Node.js</h2>
-        <p>This Node.js code shows you how to add and clone slides and set a slide background:</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation();
-const sourcePresentation = new asposeSlides.Presentation();
-try {
-    // Add an empty slide to the presentation.
-    const layoutSlide = presentation.layoutSlides.get(0);
-    presentation.slides.addEmptySlide(layoutSlide);
+pres.dispose();
+```
 
-    // Clone a slide from the source presentation.
-    const sourceSlide = sourcePresentation.slides.get(0);
-    presentation.slides.addClone(sourceSlide);
+```
+const asposeSlides = require('aspose.slides.via.net');
+const { Presentation, SaveFormat } = asposeSlides;
 
-    // Access and modify properties of the first slide.
-    const slide = presentation.slides.get(0);
+const rows = [
+    ["Region", "Q1", "Q2"],
+    ["EMEA", "412", "455"],
+    ["APAC", "388", "501"]
+];
 
-    // Set the background of the first slide.
-    slide.background.type = asposeSlides.BackgroundType.OwnBackground;
-    slide.background.fillFormat.fillType = asposeSlides.FillType.Solid;
-    slide.background.fillFormat.solidFillColor.color = "#AEC025F4";
-}
-finally {
-    sourcePresentation.dispose();
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
+const pres = new Presentation();
+const slide = pres.slides.get(0);
+const table = slide.shapes.addTable(50, 50, [200, 120, 120], [40, 40, 40]);
 
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Convert PowerPoint to PDF in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to a <code>PDF</code> document.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation("presentation.pptx");
-try {
-    presentation.save("presentation.pdf", asposeSlides.SaveFormat.Pdf);
-}
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
-
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Convert PowerPoint to GIF in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to a <code>GIF</code> image.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation("presentation.pptx");
-try {
-    presentation.save("presentation.gif", asposeSlides.SaveFormat.Gif);
-}
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
-
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Convert PowerPoint to HTML in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to an <code>HTML</code> document.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation("presentation.pptx");
-try {
-    presentation.save("presentation.html", asposeSlides.SaveFormat.Html);
-}
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
-
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Convert PowerPoint to ODP in Node.js</h2>
-        <p>This Node.js code shows you how to convert a PowerPoint presentation to an <code>ODP</code> document.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation("presentation.pptx");
-try {
-    presentation.save("presentation.odp", asposeSlides.SaveFormat.Odp);
-}
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
-
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Merge Presentations in Node.js</h2>
-        <p>This Node.js code shows you how to merge presentations:</p>
-        <pre>
-            <code class="javascript">
-const destinationPresentation = new asposeSlides.Presentation("presentation1.pptx");
-const sourcePresentation = new asposeSlides.Presentation("presentation2.pptx");
-try {
-    const slideCount = sourcePresentation.slides.length;
-    for (let slideIndex = 0; slideIndex < slideCount; slideIndex++) {
-        const slide = sourcePresentation.slides.get(slideIndex);
-        destinationPresentation.slides.addClone(slide);
+for (let r = 0; r < rows.length; r++) {
+    for (let c = 0; c < rows[r].length; c++) {
+        table.getCell(c, r).textFrame.text = rows[r][c];
     }
-
-    destinationPresentation.save("combined-presentation.pptx", asposeSlides.SaveFormat.Pptx);
 }
-finally {
-    destinationPresentation.dispose();
-    sourcePresentation.dispose();
+
+pres.save("regional-summary.pptx", SaveFormat.Pptx);
+pres.dispose();
+```
+
+```
+const asposeSlides = require('aspose.slides.via.net');
+const { Presentation, SaveFormat } = asposeSlides;
+
+const pres = new Presentation("quarterly-review.pptx");
+
+pres.protectionManager.encrypt("open-sesame");
+pres.protectionManager.setWriteProtection("editors-only");
+
+pres.save("quarterly-review-protected.pptx", SaveFormat.Pptx);
+pres.dispose();
+```
+
+```
+const asposeSlides = require('aspose.slides.via.net');
+const { Presentation, SaveFormat } = asposeSlides;
+
+const target = new Presentation("quarterly-review.pptx");
+const source = new Presentation("appendix.pptx");
+
+for (let i = 0; i < source.slides.count; i++) {
+    target.slides.addClone(source.slides.get(i));
 }
-            </code>
-        </pre>
-    </div>
 
-    <div class="col-lg-12">
-        <h2 class="h2title">How to Retrieve Various Properties of a PowerPoint Presentation</h2>
-        <p>The following example shows you how to retrieve various properties of a PowerPoint presentation.</p>
-        <pre>
-            <code class="javascript">
-const presentation = new asposeSlides.Presentation("presentation.pptx");
-try {
-    // Retrieve various properties of the presentation.
-    const slideCount = presentation.slides.length;
-    const masterSlideCount = presentation.masters.length;
-    const layoutSlideCount = presentation.layoutSlides.length;
-    const firstSlideNumber = presentation.firstSlideNumber;
-    const lastView = presentation.viewProperties.lastView;
-    const masterThemeName = presentation.masterTheme.name;
-    const sourceFormat = presentation.sourceFormat;
-    const videoCount = presentation.videos.length;
-    const imageCount = presentation.images.length;
+target.save("combined.pptx", SaveFormat.Pptx);
 
-    // Log presentation properties to the console.
-    console.log("Slide count: " + slideCount);
-    console.log("Master slide count: " + masterSlideCount);
-    console.log("Layout slide count: " + layoutSlideCount);
-    console.log("First slide number: " + firstSlideNumber);
-    console.log("Last view: " + lastView);
-    console.log("Master theme name: " + masterThemeName);
-    console.log("Source format: " + sourceFormat);
-    console.log("Video count: " + videoCount);
-    console.log("Image count: " + imageCount);
-}
-finally {
-    presentation.dispose();
-}
-            </code>
-        </pre>
-    </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+source.dispose();
+target.dispose();
+```
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="What do I install, and does the machine need .NET?" answer="`npm install aspose.slides.via.net`, and yes — it runs on Windows, Linux and macOS with .NET 6 or later present." >}}
-{{< blocks/products/pf/agp/faq-item question="How does it differ from Aspose.Slides for Node.js via Java?" answer="This build bridges to .NET and needs a .NET 6+ runtime; the [via Java build](/slides/nodejs-java/) bridges to a JVM and needs JDK 1.8 or above. The presentation features are the same, so pick the runtime you already operate." >}}
-{{< blocks/products/pf/agp/faq-item question="Can it run inside a Node.js container image?" answer="Yes, provided the image also carries the .NET 6+ runtime. A plain `node:alpine` base does not, so either start from an image that includes .NET or install it in the Dockerfile." >}}
-{{< blocks/products/pf/agp/faq-item question="Is presentation processing blocking?" answer="The calls are synchronous, so converting a large deck on the main thread will stall the event loop. Move heavy conversions to a worker thread or a separate process." >}}
-{{< /blocks/products/pf/agp/faq >}}
+{{< /blocks/products/pf/slides-task-tabs >}}
 
-{{< /blocks/products/pf/main-container >}}
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< blocks/products/pf/support-learning-resources >}}
-    {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-        {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/nodejs-net/" >}}
-        {{< blocks/products/pf/slr-element name="API References" href="https://docs.aspose.com/slides/nodejs-net/api-reference/" >}}
-    {{< /blocks/products/pf/slr-tab >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="The Aspose.Slides object model is reachable from JavaScript, from slides, shapes, tables and text through to rendering and export, with charts the one area this binding does not surface." >}}
 
-    {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-        {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides/11" >}}
-        {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-        {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/nodejs-net/release-notes/" >}}
-    {{< /blocks/products/pf/slr-tab >}}
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="The same object model ships for .NET, Java, C++, Python and PHP, so a deck built here is built the same way on any of them."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-    {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Node.js via .NET?" tabId="success-stories" >}}
-        {{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-        {{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-    {{< /blocks/products/pf/slr-tab >}}
-{{< /blocks/products/pf/support-learning-resources >}}
+| Runtime | Note | Platforms |
+|---|---|---|
+| Aspose.Slides for .NET | The engine this package wraps, called directly from C#, VB.NET or F#. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Node.js via Java | Same language, a JVM instead of .NET. The alternative when a .NET runtime is not an option. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Java | Pure Java library. Needs a JVM and no .NET at all. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Python via .NET | The same .NET engine behind a Python API. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for C++ | Native library with no managed runtime to install alongside it. | WINDOWS · LINUX · MACOS |
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/nodejs-net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/nodejs-net/" >}}
+{{< /blocks/products/pf/slides-runtime-cards >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/nodejs-net/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< /blocks/products/pf/offers-section >}}
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR NODE.JS VIA .NET · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
+
+## If you don't want a library
+
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
+
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
+
+## No-code apps
+
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
+
+## Resources
+
+- [Documentation](https://docs.aspose.com/slides/nodejs-net/)
+- [API reference](https://docs.aspose.com/slides/nodejs-net/api-reference/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/nodejs-net/installation/)
+
+## In use
+
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— BRUCE BRIEN · STRATASCOPE INC, USA
+
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
+{{< blocks/products/products-backtop-button >}}

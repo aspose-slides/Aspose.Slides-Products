@@ -1,339 +1,321 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides for C++
+title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides for C++"
 weight: 6580
+slidesIndexRebuild: true
 url: /cpp/
-description: Aspose.Slides for C++ is a powerful library for creating, editing, and converting PowerPoint presentations in C++.
+description: "Aspose.Slides for C++ is a powerful library for creating, editing, and converting PowerPoint presentations in C++."
 outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides for C++" h2="Create, edit, convert, render, and manage PowerPoint presentations in C++ without Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-cpp.svg" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="https://releases.aspose.com/slides/cpp/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR C++ · NATIVE ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
+  h1="PowerPoint files, from C++."
+  sub="Aspose.Slides for C++ creates, edits, converts and renders PowerPoint and OpenDocument presentations from native C++. It compiles and links straight into your own binary - no .NET runtime, no JVM, no bridge process, no Office install, no COM automation, no display server. Prebuilt libraries ship for Windows on MSVC 2017 or later, Linux on GCC 6.1 or Clang 3.9, and macOS on Xcode 13.4."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/cpp/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/cpp/"
+  note="Full API on trial · watermark on output"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Windows with Visual Studio 2017 or later. Linux with GCC 6.1 or Clang 3.9 on glibc 2.23 or later, which covers Ubuntu 16.04, CentOS 8, Fedora 24 and anything newer. macOS Monterey 12.1 or later with Xcode 13.4. CMake 3.18 or later anywhere outside Visual Studio. Prebuilt x86_64 binaries on all three platforms, arm64 as well on macOS, and a separate package for 32-bit Windows. No .NET runtime and no JVM anywhere in the chain. On a minimal Linux or macOS image install a common font package, or rendered text falls back to whatever happens to be present and the metrics shift."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/cpp" buyLink="https://purchase.aspose.com/pricing/slides/cpp/" docsLink="https://docs.aspose.com/slides/cpp/" installationsDocsLink="https://docs.aspose.com/slides/cpp/installation/" nugetLink="https://www.nuget.org/packages/Aspose.Slides.Cpp/" nugetPackageName="Aspose.Slides.Cpp" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/cpp/" >}}
+| Label | Install |
+|---|---|
+| Console | Install-Package Aspose.Slides.Cpp |
+| 32-bit | Install-Package Aspose.Slides.Cpp.x86 |
+| Header | DOM/Presentation.h |
 
-{{% blocks/products/pf/feature-page-section h2="Why Choose Aspose.Slides for C++?" %}}
+{{< /blocks/products/pf/slides-hero >}}
 
-Aspose.Slides for C++ offers many advantages over other solutions for PowerPoint automation, such as:
+{{< blocks/products/pf/slides-stat-row >}}
 
-- **Cross-platform compatibility**: Aspose.Slides for C++ supports multiple platforms. You can use Aspose.Slides for C++ on Windows, Linux, macOS, and other operating systems.
-- **Easy integration and deployment**: Aspose.Slides for C++ is a standalone library that does not require Microsoft Office to be installed on your system. You can integrate Aspose.Slides for C++ with existing applications and deploy it on servers or cloud environments.
-- **Powerful features and functionality**: Aspose.Slides for C++ provides a rich set of features for working with PowerPoint presentations, such as creating and modifying slides, adding and editing shapes, text, images, animations, transitions, charts, tables, and other elements, applying themes and layouts, inserting audio and video, exporting and printing presentations, generating frames for video export, and more.
-- **AI**: Includes AI-powered translation support through integration with external language models for automatic multilingual presentation workflows.
-- **Batch processing**: Aspose.Slides for C++ can automate presentation processing in batch workflows. Actual throughput and output fidelity depend on the presentation content, selected operations, application design, hardware, and runtime configuration.
-- **Free trial and licensing options**: Download a free trial for evaluation, request a temporary license to remove evaluation limitations, or choose a commercial license that fits your deployment.
-{{% /blocks/products/pf/feature-page-section %}}
-<!--Feature-section Start-->
+| Figure | Caption |
+|---|---|
+| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
+| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 1 | NuGet package for Visual Studio, headers and prebuilt libraries in the box. On Linux and macOS the same build ships as one archive you point CMake at. |
+| 0 | Microsoft Office installs, .NET runtimes and JVMs needed. It is native code linked into your own process, so a small Linux container plus a font package is enough. |
 
-<div class="container-fluid features-section bg-gray singleproduct">
-   <a class="anchor" id="features" name="features"></a>
-   <div class="row">
-      <div class="container">
-         <h2 class="pr-ft">Advanced C++ PowerPoint Processing Library Features</h2>
-         <p></p>
-         <div class="col-lg-4">
-            <em class="fa fa-floppy-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Save presentations to files or streams</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Convert presentations to standard formats</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Manage built-in and custom document properties</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-lock ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Password-protect presentations</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add, format, and manipulate charts</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-square-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add, format, and manipulate shapes</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-film ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add, format, and manipulate slides</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add, format, and manipulate text</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-table ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add, format, and manipulate tables</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-check-square-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Export presentations to PDF and XPS</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Export slides in SVG format</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-picture-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add images to presentations</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-lock  ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Generate frames for video export</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-print  ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add infographics to presentations</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-database ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Generate presentations from database content</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Support MSO 2016 charts</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Export presentations as HTML</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-refresh ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Import and export HTML text in slides</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-th-large ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add layout slides to presentations</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-key ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Load protected presentations</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-text-height ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Set the font size of individual legends</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-area-chart ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Create stock charts and get chart images</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-cog ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Change series colors</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Set rounded borders for chart areas</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-cogs ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Change category colors in series</p>
-         </div>
-         <div class="col-lg-4">
-            <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Set font properties for chart data tables</p>
-         </div>
-      </div>
-   </div>
-</div>
-<!--Feature-section End-->
+{{< /blocks/products/pf/slides-stat-row >}}
 
-{{% blocks/products/pf/feature-page-section h2="Supported File Formats" %}}
+{{< blocks/products/pf/slides-task-tabs
+  id="tasks"
+  title="Five things people actually write"
+  lede="Each sample is the whole program, C++ as shipped. Pick the job on the left."
+  lang="C++"
+  allText="All examples on GitHub" allHref="https://github.com/aspose-slides/Aspose.Slides-for-C"
+>}}
 
-Aspose.Slides for C++ supports a wide range of PowerPoint presentation file formats, including:
+| Task | Hint | Flow | Note | Docs |
+|---|---|---|---|---|
+| Convert | Load a deck once and write it out in as many formats as you need. | PPTX -> PDF / HTML / TIFF | One Save call per target. PdfOptions, HtmlOptions and TiffOptions control resolution, compression and PDF/A compliance when the defaults are not enough. | https://docs.aspose.com/slides/cpp/convert-powerpoint-to-pdf/ |
+| Slide thumbnails | Render every slide to a raster image at whatever size you ask for. | PPTX -> PNG per slide | GetImage takes a scale pair, an explicit Size, or rendering options that place speaker notes and comments inside the frame. | https://docs.aspose.com/slides/cpp/convert-slide/ |
+| Charts from data | Build a native chart backed by a real, editable worksheet. | values -> ChartData -> PPTX | AddChart writes a genuine OOXML chart with its own cached workbook, so whoever opens the deck can click the chart and edit the numbers behind it. | https://docs.aspose.com/slides/cpp/create-chart/ |
+| Protect | Encrypt a deck, mark it read-only, or both at once. | PPTX -> encrypted PPTX | Encrypt sets the password required to open the file. SetWriteProtection leaves it readable and only guards saving. RemoveEncryption and CheckWriteProtection undo and test the same state. | https://docs.aspose.com/slides/cpp/password-protected-presentation/ |
+| Merge | Clone slides out of many decks into one, keeping their formatting. | PPTX + PPTX -> PPTX | AddClone copies a slide with its layout and master. Two further overloads take a destination master or layout instead, when everything should land in one house style. | https://docs.aspose.com/slides/cpp/merge-presentation/ |
 
-- **Input formats**: PPT, PPTX, PDF, ODP, OTP, POT, POTM, POTX, PPS, PPSM, PPSX, PPTM, FODP, and more.
-- **Output formats**: PPTX, PPT, PDF, HTML, PNG, BMP, JPG, FODP, GIF, ODP, OTP, POT, POTM, POTX, PPS, PPSM, PPSX, PPTM, SVG, TIFF, and more.
-
-You can also convert presentations to and from streams and byte arrays.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Export PowerPoint Files to PDF" %}}
-
-[**Aspose.Slides for C++**](/slides/cpp/) can convert presentation files to PDF by loading a presentation and saving it with the PDF output format.
-
-{{% blocks/products/pf/agp/code-block title="C++ code for converting a presentation to PDF" offSpacer="true" %}}
-
-```cpp
-auto presentation = MakeObject<Presentation>(u"presentation.ppt");
-presentation->Save(u"document.pdf", SaveFormat::Pdf);
-presentation->Dispose();
 ```
+#include <DOM/Presentation.h>
+#include <Export/PdfOptions.h>
+#include <Export/SaveFormat.h>
+#include <system/smart_ptr.h>
 
-{{% /blocks/products/pf/agp/code-block %}}
+using namespace Aspose::Slides;
+using namespace Aspose::Slides::Export;
+using namespace System;
 
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Add Animation to Presentations" %}}
-
-Adding animations to presentation elements can make slides more interactive and engaging.
-
-{{% blocks/products/pf/agp/code-block title="C++ code for adding animation to a text box" offSpacer="true" %}}
-
-```cpp
-auto presentation = MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-
-auto autoShape = slide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 20, 20, 150, 100);
-
-auto textFrame = autoShape->get_TextFrame();
-textFrame->set_Text(u"First paragraph \nSecond paragraph \n Third paragraph");
-
-// Get the main animation sequence of the slide.
-auto mainSequence = slide->get_Timeline()->get_MainSequence();
-
-// Add the Fade animation effect to the shape.
-auto effect = mainSequence->AddEffect(autoShape, EffectType::Fade, EffectSubtype::None, EffectTriggerType::OnClick);
-
-// Animate the shape text by first-level paragraphs.
-effect->get_TextAnimation()->set_BuildType(BuildType::ByLevelParagraphs1);
-
-presentation->Save(u"animated_text.pptx", SaveFormat::Pptx);
-presentation->Dispose();
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Save PowerPoint Slides to Images" %}}
-
-Aspose.Slides for C++ can render presentation slides as images. This is useful for previews, web pages, documents, and video workflows.
-
-The C++ code demonstrates how to convert a presentation to JPG images.
-
-{{% blocks/products/pf/agp/code-block title="C++ code for converting a presentation to JPG with custom scale" offSpacer="true" %}}
-
-```cpp
-auto presentation = MakeObject<Presentation>(u"presentation.pptx");
-
-auto desiredSize = Size(1200, 800);
-
-for (auto&& slide : presentation->get_Slides())
+int main()
 {
-    // Generate an image of the slide with the specified dimensions.
-    auto image = slide->GetImage(desiredSize);
+    auto presentation = MakeObject<Presentation>(u"quarterly-review.pptx");
 
-    // Save the image to disk in JPEG format.
-    auto fileName = String::Format(u"slide_{0}.jpg", slide->get_SlideNumber());
-    image->Save(fileName, ImageFormat::Jpeg);
-    image->Dispose();
-}
+    // Straight to PDF on the defaults.
+    presentation->Save(u"quarterly-review.pdf", SaveFormat::Pdf);
 
-presentation->Dispose();
-```
+    // Or tune the render first.
+    auto options = MakeObject<PdfOptions>();
+    options->set_JpegQuality(90);
+    options->set_SufficientResolution(300);
+    presentation->Save(u"print-ready.pdf", SaveFormat::Pdf, options);
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Convert Presentations to Video" %}}
-
-Aspose.Slides for C++ can generate presentation frames that can be assembled into video files with tools such as FFmpeg.
-
-
-{{% blocks/products/pf/agp/code-block title="C++ code for converting a presentation to video" offSpacer="true" %}}
-
-```cpp
-void OnFrameTick(SharedPtr<PresentationPlayer> sender, SharedPtr<FrameTickEventArgs> args)
-{
-    auto fileName = String::Format(u"frame_{0}.png", sender->get_FrameIndex());
-    args->GetFrame()->Save(fileName);
-}
-
-void Run()
-{
-    auto presentation = MakeObject<Presentation>(u"Presentation.pptx");
-
-    const int fps = 33;
-
-    auto animationsGenerator = MakeObject<PresentationAnimationsGenerator>(presentation);
-
-    auto player = MakeObject<PresentationPlayer>(animationsGenerator, fps);
-    player->FrameTick += OnFrameTick;
-
-    animationsGenerator->Run(presentation->get_Slides());
-
-    const String ffmpegParameters = String::Format(
-        u"-loglevel {0} -framerate {1} -i {2} -y -c:v {3} -pix_fmt {4} {5}",
-        u"warning", fps, "frame_%d.png", u"libx264", u"yuv420p", "video.mp4");
-
-    auto ffmpegProcess = Process::Start(u"ffmpeg", ffmpegParameters);
-    ffmpegProcess->WaitForExit();
+    // Same loaded object, other targets.
+    presentation->Save(u"quarterly-review.html", SaveFormat::Html);
+    presentation->Save(u"quarterly-review.tiff", SaveFormat::Tiff);
 
     presentation->Dispose();
+    return 0;
 }
 ```
 
-{{% /blocks/products/pf/agp/code-block %}}
+```
+#include <DOM/ISlide.h>
+#include <DOM/ISlideCollection.h>
+#include <DOM/Presentation.h>
+#include <IImage.h>
+#include <ImageFormat.h>
+#include <system/smart_ptr.h>
+#include <system/string.h>
 
-{{% /blocks/products/pf/feature-page-section %}}
+using namespace Aspose::Slides;
+using namespace System;
 
-{{% blocks/products/pf/feature-page-section h2="Learn More about Aspose.Slides for C++" %}}
+int main()
+{
+    auto presentation = MakeObject<Presentation>(u"quarterly-review.pptx");
 
-To learn more about Aspose.Slides and how to use it, you can visit the following pages:
+    // Scale is relative to the slide's nominal size, so 2.0f doubles both axes.
+    const float scale = 2.0f;
 
-- [Aspose.Slides Product Family](https://products.aspose.com/slides/family/): Overview of Aspose.Slides products, features, benefits, and use cases.
-- [Aspose.Slides Documentation](https://docs.aspose.com/slides/cpp/): Tutorials, guides, and documentation for Aspose.Slides for C++.
-- [Aspose.Slides Pricing](https://purchase.aspose.com/pricing/slides/family): Pricing, licensing options, FAQs, and support information.
-- [Aspose.Slides Blog](https://blog.aspose.com/categories/aspose.slides-product-family/): News, updates, and articles about Aspose.Slides.
-- [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11): Community support for questions, feedback, and troubleshooting.
+    for (int32_t i = 0; i < presentation->get_Slides()->get_Count(); i++)
+    {
+        auto image = presentation->get_Slide(i)->GetImage(scale, scale);
+        image->Save(String::Format(u"slide_{0}.png", i + 1), ImageFormat::Png);
+        image->Dispose();
+    }
 
-{{% /blocks/products/pf/feature-page-section %}}
+    presentation->Dispose();
+    return 0;
+}
+```
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for C++ to a project?" answer="Install the `Aspose.Slides.Cpp` package from NuGet, or download the libraries and headers from the [C++ downloads page](https://releases.aspose.com/slides/cpp/)." >}}
-{{< blocks/products/pf/agp/faq-item question="Which C++ formats can I convert between?" answer="Input includes PPT, PPTX, PDF, ODP, OTP, POT, POTM, POTX, PPS, PPSM, PPSX, PPTM and FODP; output adds HTML, PNG, BMP, JPG, GIF, SVG and TIFF alongside the presentation formats." >}}
-{{< blocks/products/pf/agp/faq-item question="Can I read a presentation from memory instead of from a file?" answer="Yes. Presentations can be loaded from and saved to streams and byte arrays, so a deck arriving over HTTP never has to be written to disk." >}}
-{{< blocks/products/pf/agp/faq-item question="How is memory managed — do I delete the presentation object myself?" answer="No. The API uses smart pointers created through `MakeObject`, and a presentation is released with `Dispose()` when you are finished with it, as the samples on this page show." >}}
-{{< blocks/products/pf/agp/faq-item question="Can C++ turn a presentation into a video?" answer="Yes, in two stages: the library renders the animation as frames, and an external encoder such as FFmpeg assembles them. The presentation-to-video sample on this page shows the full sequence." >}}
-{{< /blocks/products/pf/agp/faq >}}
+```
+#include <DOM/Chart/ChartType.h>
+#include <DOM/Chart/IChartCategoryCollection.h>
+#include <DOM/Chart/IChartData.h>
+#include <DOM/Chart/IChartDataPointCollection.h>
+#include <DOM/Chart/IChartDataWorkbook.h>
+#include <DOM/Chart/IChartSeries.h>
+#include <DOM/Chart/IChartSeriesCollection.h>
+#include <DOM/IChart.h>
+#include <DOM/IShapeCollection.h>
+#include <DOM/ISlide.h>
+#include <DOM/ISlideCollection.h>
+#include <DOM/Presentation.h>
+#include <Export/SaveFormat.h>
+#include <system/object_ext.h>
+#include <system/smart_ptr.h>
+#include <system/string.h>
+#include <vector>
 
-{{< /blocks/products/pf/main-container >}}
+using namespace Aspose::Slides;
+using namespace Aspose::Slides::Charts;
+using namespace Aspose::Slides::Export;
+using namespace System;
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/cpp/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-C" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/cpp/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+int main()
+{
+    const std::vector<String> quarters = { u"Q1", u"Q2", u"Q3", u"Q4" };
+    const std::vector<double> revenue  = { 12.4, 15.1, 13.8, 19.6 };
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/cpp/release-notes/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+    auto presentation = MakeObject<Presentation>();
+    auto slide = presentation->get_Slide(0);
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for C++?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+    auto chart = slide->get_Shapes()->AddChart(
+        ChartType::ClusteredColumn, 50.0f, 50.0f, 600.0f, 400.0f);
 
-{{< /blocks/products/pf/support-learning-resources >}}
+    auto data = chart->get_ChartData();
+    auto book = data->get_ChartDataWorkbook();
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/cpp/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/cpp" >}}
+    // Drop the placeholder data a new chart is seeded with.
+    data->get_Series()->Clear();
+    data->get_Categories()->Clear();
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
+    const int32_t sheet = 0;
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
+    for (int32_t row = 0; row < static_cast<int32_t>(quarters.size()); row++)
+    {
+        data->get_Categories()->Add(
+            book->GetCell(sheet, row + 1, 0, ObjectExt::Box<String>(quarters[row])));
+    }
 
-{{< /blocks/products/pf/offers-section >}}
+    data->get_Series()->Add(
+        book->GetCell(sheet, 0, 1, ObjectExt::Box<String>(u"Revenue")),
+        chart->get_Type());
+
+    auto series = data->get_Series()->idx_get(0);
+
+    for (int32_t row = 0; row < static_cast<int32_t>(revenue.size()); row++)
+    {
+        series->get_DataPoints()->AddDataPointForBarSeries(
+            book->GetCell(sheet, row + 1, 1, ObjectExt::Box<double>(revenue[row])));
+    }
+
+    presentation->Save(u"revenue.pptx", SaveFormat::Pptx);
+    presentation->Dispose();
+    return 0;
+}
+```
+
+```
+#include <DOM/IProtectionManager.h>
+#include <DOM/Presentation.h>
+#include <Export/SaveFormat.h>
+#include <system/smart_ptr.h>
+
+using namespace Aspose::Slides;
+using namespace Aspose::Slides::Export;
+using namespace System;
+
+int main()
+{
+    auto presentation = MakeObject<Presentation>(u"quarterly-review.pptx");
+    auto protection = presentation->get_ProtectionManager();
+
+    // Opens for anyone, but PowerPoint asks for this before it will save edits.
+    protection->SetWriteProtection(u"edit-password");
+
+    // Encrypts the file itself. Without this one, nothing opens it at all.
+    protection->Encrypt(u"open-password");
+
+    presentation->Save(u"quarterly-review-locked.pptx", SaveFormat::Pptx);
+    presentation->Dispose();
+    return 0;
+}
+```
+
+```
+#include <DOM/ISlide.h>
+#include <DOM/ISlideCollection.h>
+#include <DOM/Presentation.h>
+#include <Export/SaveFormat.h>
+#include <system/smart_ptr.h>
+
+using namespace Aspose::Slides;
+using namespace Aspose::Slides::Export;
+using namespace System;
+
+int main()
+{
+    auto destination = MakeObject<Presentation>(u"deck-a.pptx");
+    auto source = MakeObject<Presentation>(u"deck-b.pptx");
+
+    // Each clone arrives with its own layout and master intact.
+    for (const auto& slide : source->get_Slides())
+    {
+        destination->get_Slides()->AddClone(slide);
+    }
+
+    destination->Save(u"merged.pptx", SaveFormat::Pptx);
+
+    source->Dispose();
+    destination->Dispose();
+    return 0;
+}
+```
+
+{{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
+
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="The whole object model is exposed as C++ classes - slides, layouts and masters, shapes and groups, text down to the portion, tables, charts, SmartArt, animation timelines, comments and the renderer behind every export - with nothing held back on this runtime." >}}
+
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="The same object model ships for .NET, Java, Python, Node.js, PHP and Android. Class names, enumerations and save-format constants carry across unchanged, so a routine written against this page reads almost line for line on the next runtime."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
+
+| Runtime | Note | Platforms |
+|---|---|---|
+| Aspose.Slides for .NET | One NuGet package for .NET Framework 4.x and .NET 6 or later, with no native prerequisite alongside it. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Java | A single JAR from Maven Central, published against a JDK classifier. Pure Java, nothing native to place. | JVM 8+ |
+| Aspose.Slides for Python via .NET | A wheel that carries the engine with it, so pip install is the whole setup. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Node.js via Java | An npm package driving the Java build across a bridge. A JDK 8 or later must be installed and JAVA_HOME set. | NODE · JDK REQUIRED |
+| Aspose.Slides for PHP via Java | PHP scripts calling the Java build through the same bridge, so a JDK is a hard prerequisite here too. | PHP · JDK REQUIRED |
+
+{{< /blocks/products/pf/slides-runtime-cards >}}
+
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/cpp/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
+
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR C++ · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
+
+## If you don't want a library
+
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
+
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
+
+## No-code apps
+
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
+
+## Resources
+
+- [Documentation](https://docs.aspose.com/slides/cpp/)
+- [API reference](https://reference.aspose.com/slides/cpp/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/cpp/installation/)
+
+## In use
+
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— BRUCE BRIEN · STRATASCOPE INC, USA
+
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

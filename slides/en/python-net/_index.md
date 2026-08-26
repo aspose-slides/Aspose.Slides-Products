@@ -1,515 +1,220 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Aspose.Slides for Python: PowerPoint API for PPTX and PPT"
 weight: 5860
+slidesIndexRebuild: true
 url: /python-net/
-description: Python library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output.
+description: "Python library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output."
 outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Python PowerPoint API for Presentations" h2="Create, read, modify, merge, clone, protect, and convert PowerPoint and OpenDocument presentations in Python without requiring Microsoft PowerPoint for core presentation operations." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-python.svg" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="https://releases.aspose.com/slides/python-net/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR PYTHON VIA .NET · ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
+  h1="PowerPoint files, from Python."
+  sub="Aspose.Slides for Python via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides .NET engine, not a pure-Python rewrite: one wheel from PyPI carries the compiled engine and the .NET runtime it needs, so there is no .NET SDK to install and no JVM anywhere in the stack. Python 3.5 or later on Windows, Linux or macOS, running in your own process - on Linux and macOS the wheel also wants libgdiplus and the native dependencies of the .NET Core runtime."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/python-net/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/python-net/"
+  note="Full API on trial · watermark on output"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Windows, Linux and macOS on CPython 3.5 or later. The wheel is a compiled binding rather than pure Python, and it ships the .NET runtime it needs inside the package, so there is no .NET SDK to install and no JVM in the stack. Linux and macOS additionally need libgdiplus (apt-get install libgdiplus, or brew install mono-libgdiplus), the native dependencies of the .NET Core runtime and a Python built with a shared libpython; on Windows the wheel alone is enough. Containers are fine, and a minimal image should add libgdiplus and at least one font package."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" liveDemosLink="https://products.aspose.app/slides/family/" PricingLink="https://purchase.aspose.com/pricing/slides/python-net/" buyLink="https://purchase.aspose.com/pricing/slides/python-net/" docsLink="https://docs.aspose.com/slides/python-net/" installationsDocsLink="https://docs.aspose.com/slides/python-net/installation/" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/python-net/" >}}
+| Label | Install |
+|---|---|
+| CLI | pip install aspose-slides |
+| Import | import aspose.slides as slides |
+| Linux | apt-get install -y libgdiplus |
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced Python PowerPoint API Features
-   </h2>
-   <p>
-   </p>
-    <div class="col-lg-12">
-        <h2 class="h2title">Create a New PowerPoint Presentation in Python</h2>
-        <p>The following example adds a line shape to the first slide of a presentation.</p>
-        <pre>
-            <code class="python">
+{{< /blocks/products/pf/slides-hero >}}
+
+{{< blocks/products/pf/slides-stat-row >}}
+
+| Figure | Caption |
+|---|---|
+| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
+| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 1 | PyPI wheel, aspose-slides. It carries the compiled .NET engine inside it, so there is no .NET SDK to install and no JVM to run. |
+| 0 / 1 | Microsoft Office installs needed, and one native package on Linux and macOS: libgdiplus. On Windows the wheel alone is enough. |
+
+{{< /blocks/products/pf/slides-stat-row >}}
+
+{{< blocks/products/pf/slides-task-tabs
+  id="tasks"
+  title="Five things people actually write"
+  lede="Each sample is the whole program, Python as shipped. Pick the job on the left."
+  lang="PYTHON"
+  allText="All examples on GitHub" allHref="https://github.com/aspose-slides/Aspose.Slides-for-Python-via-.NET"
+>}}
+
+| Task | Hint | Flow | Note | Docs |
+|---|---|---|---|---|
+| Convert | Load a deck and write it out in another format, in three lines. | PPTX -> PDF / HTML / TIFF | The bundled engine does the rendering, so the same input produces the same output on Windows, Linux and macOS. | https://docs.aspose.com/slides/python-net/convert-powerpoint-to-pdf/ |
+| Slide thumbnails | Render every slide to a raster image at whatever scale you ask for. | PPTX -> one PNG per slide | get_image returns a Modern API image and closes as a context manager, so aspose.pydrawing never enters your code. | https://docs.aspose.com/slides/python-net/presentation-viewer/ |
+| Charts from data | Build a native PowerPoint chart from Python values, not a pasted picture. | Python lists -> native chart | The chart keeps its own data workbook, so whoever opens the deck can edit the numbers in PowerPoint. | https://docs.aspose.com/slides/python-net/create-chart/ |
+| Protect | Encrypt a deck with an opening password and mark it read-only. | PPTX -> encrypted PPTX | This is real document encryption, so PowerPoint asks for the password itself and the file is unreadable without it. | https://docs.aspose.com/slides/python-net/password-protected-presentation/ |
+| Merge | Clone slides out of several decks into one, resizing anything that does not fit. | N decks -> 1 deck | add_clone brings the layout and master across with the slide, so source formatting survives the move. | https://docs.aspose.com/slides/python-net/merge-presentation/ |
+
+```
+import aspose.slides as slides
+
+with slides.Presentation("quarterly-review.pptx") as presentation:
+    presentation.save("quarterly-review.pdf", slides.export.SaveFormat.PDF)
+    presentation.save("quarterly-review.html", slides.export.SaveFormat.HTML)
+
+    tiff_options = slides.export.TiffOptions()
+    tiff_options.dpi_x = 300
+    tiff_options.dpi_y = 300
+    tiff_options.compression_type = slides.export.TiffCompressionTypes.LZW
+    presentation.save("quarterly-review.tiff", slides.export.SaveFormat.TIFF, tiff_options)
+```
+
+```
+import aspose.slides as slides
+
+with slides.Presentation("quarterly-review.pptx") as presentation:
+    for index, slide in enumerate(presentation.slides, start=1):
+        with slide.get_image(2.0, 2.0) as image:
+            image.save(f"slide-{index}.png", slides.ImageFormat.PNG)
+```
+
+```
+import aspose.slides as slides
+import aspose.slides.charts as charts
+
+quarters = ["Q1", "Q2", "Q3", "Q4"]
+revenue = [128.4, 141.9, 137.2, 168.5]
+
 with slides.Presentation() as presentation:
     slide = presentation.slides[0]
-    slide.shapes.add_auto_shape(slides.ShapeType.LINE, 50, 150, 300, 0)
-    presentation.save("presentation.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create or clone slides from templates
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Work with PowerPoint tables via API
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Apply or remove shape protection
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add Excel charts as OLE objects to slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Support linked OLE objects
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Generate presentations from a database
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protect presentations and generated PDFs
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Print presentations on a physical printer
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and customize charts
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     System Requirements
-    </h2>
-    <ul>
-      <li>Compatible with Python 3.5 or later</li>
-      <li>For Python development on Linux, see the <a href="https://docs.aspose.com/slides/python-net/system-requirements/">additional Linux requirements</a>.</li>
-    </ul>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     How to Install
-    </h2>
-     <p>Use <code>pip</code> to install the Aspose.Slides Python library for presentation processing from the <a href="https://pypi.org/project/aspose-slides/">PyPI repository</a>:</p>
-    <pre>pip install aspose-slides</pre>
-   </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Merge Presentations in Python</h2>
-        <p>This Python code shows you how to merge presentations:</p>
-        <pre>
-            <code class="python">
-with slides.Presentation("presentation1.pptx") as destination_presentation:
-    with slides.Presentation("presentation2.pptx") as source_presentation:
-        for slide in source_presentation.slides:
-            destination_presentation.slides.add_clone(slide)
-        destination_presentation.save("combined.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Import a Presentation from PDF in Python</h2>
-        <p>This Python code demonstrates the PDF to PowerPoint conversion process:</p>
-        <pre>
-            <code class="python">
-with slides.Presentation() as presentation:
-    presentation.slides.remove_at(0)
-    presentation.slides.add_from_pdf("welcome_to_powerpoint.pdf")
-    presentation.save("output_presentation.pptx", slides.export.SaveFormat.PPTX)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to PDF with Default Options in Python</h2>
-        <p>This Python code shows how to convert a PowerPoint or OpenDocument presentation to PDF using the default options.</p>
-        <pre>
-            <code class="python">
-with slides.Presentation("presentation.ppt") as presentation:
-    presentation.save("document.pdf", slides.export.SaveFormat.PDF)
-            </code>
-        </pre>
-    </div>
-    <div class="col-lg-12">
-        <h2 class="h2title">Convert PowerPoint to JPG in Python</h2>
-        <p>The following example shows you how to convert a PPT, PPTX, or OpenDocument Presentation (ODP) file into a set of JPEG images.</p>
-        <pre>
-            <code class="python">
-with slides.Presentation("presentation.pptx") as presentation:
-    for slide in presentation.slides:
-        with slide.get_image(1, 1) as slide_image:
-            slide_image.save(f"slide_{slide.slide_number}.jpg", slides.ImageFormat.JPEG)
-            </code>
-        </pre>
-    </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+    chart = slide.shapes.add_chart(charts.ChartType.CLUSTERED_COLUMN, 50, 50, 620, 400)
+    chart.has_title = True
+    chart.chart_title.add_text_frame_for_overriding("Revenue by quarter")
 
-{{< blocks/products/pf/tab-content >}}
+    workbook = chart.chart_data.chart_data_workbook
+    chart.chart_data.series.clear()
+    chart.chart_data.categories.clear()
 
-<p><strong>Aspose.Slides for Python via .NET</strong> is a presentation processing library that lets Python applications read, edit, manipulate, and convert PowerPoint and OpenDocument presentations without requiring Microsoft PowerPoint for core presentation processing. Optional workflows such as video encoding and AI-powered translation use external tools or services.</p>
+    for row, quarter in enumerate(quarters, start=1):
+        chart.chart_data.categories.add(workbook.get_cell(0, row, 0, quarter))
 
-<p>The library is suitable for server-side automation, batch processing, and desktop workflows on Windows, Linux, and macOS.</p>
+    series = chart.chart_data.series.add(workbook.get_cell(0, 0, 1, "Revenue"), chart.type)
+    for row, value in enumerate(revenue, start=1):
+        series.data_points.add_data_point_for_bar_series(workbook.get_cell(0, row, 1, value))
 
-<p><strong>Aspose.Slides for Python via .NET</strong> provides these popular features:</p>
-<ul>
-    <li>Loading, opening, and viewing presentations.</li>
-    <li>Editing presentations.</li>
-    <li>Converting presentations to PDF, JPG, HTML, GIF, SVG, and many other formats.</li>
-    <li>Rendering and printing presentations.</li>
-    <li>Generating slide frames and timing data for videos with animations and transitions; encoding the frames into a video file requires an external tool such as FFmpeg.</li>
-    <li>Automatically translating presentations using AI-powered translation through external language model integration.</li>
-    <li>Encrypting and decrypting presentations; password-protecting presentations and removing passwords.</li>
-    <li>Manipulating presentation elements such as master slides, shapes, charts, picture frames, audio frames, video frames, OLE objects, VBA macros, and animations.</li>
-</ul>
+    presentation.save("revenue.pptx", slides.export.SaveFormat.PPTX)
+```
 
-<p>Python developers can use <strong>Aspose.Slides for Python via .NET</strong> in web applications, desktop software, data-processing pipelines, and research or academic projects.</p>
+```
+import aspose.slides as slides
 
-{{< /blocks/products/pf/tab-content >}}
+with slides.Presentation("quarterly-review.pptx") as presentation:
+    presentation.protection_manager.encrypt("open-sesame")
+    presentation.protection_manager.set_write_protection("edit-me")
+    presentation.save("quarterly-review-locked.pptx", slides.export.SaveFormat.PPTX)
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+load_options = slides.LoadOptions()
+load_options.password = "open-sesame"
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of API capabilities." >}}
-<div class="diagram1 d1-python">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-table">
-    </i>
-    Data Processing
-   </header>
-   <ul>
-    <li>
-     Manage Charts
-    </li>
-    <li>
-     Manage SmartArt
-    </li>
-    <li>
-     Manage PowerPoint Shapes
-    </li>
-    <li>
-     Manage ActiveX Controls
-    </li>
-    <li>
-     Manage OLE objects
-    </li>
-   </ul>
-   <header>
-    <i class="fa fa-text-width">
-    </i>
-    Text and Paragraph
-   </header>
-   <ul>
-    <li>
-     Manage text and formatting
-    </li>
-    <li>
-     Manipulate Hyperlink Text
-    </li>
-    <li>
-     Set Placeholder Type
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cog">
-    </i>
-    Graphics and Multimedia
-   </header>
-   <ul>
-    <li>
-     Manage Slide Transitions
-    </li>
-    <li>
-     Manage Animation Effects
-    </li>
-    <li>
-     Add Connectors to Shapes
-    </li>
-    <li>
-     Rotate and flip shapes
-    </li>
-    <li>
-     Manage Shape's Line Styles
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Python PowerPoint Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-   </small>
-   Python
-   <em>via .NET</em>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+with slides.Presentation("quarterly-review-locked.pptx", load_options) as presentation:
+    print(presentation.protection_manager.is_encrypted)
+    print(presentation.protection_manager.is_write_protected)
+```
 
-{{< /blocks/products/pf/carousel-item >}}
+```
+import aspose.slides as slides
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Python Presentation API supports all major platforms including the following." >}}
-<div class="diagram1 d1-python">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Windows (32-bit and 64-bit)
-   </header>
-   <ul>
-    <li>
-     Windows 7
-    </li>
-    <li>
-     Windows 8 and 8.1
-    </li>
-    <li>
-     Windows 10
-    </li>
-    <li>
-     Windows 11
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Linux and macOS
-   </header>
-   <ul>
-    <li>
-     Ubuntu
-    </li>
-    <li>
-     OpenSUSE
-    </li>
-    <li>
-     CentOS
-    </li>
-    <li>
-     macOS
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for Python" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-   </small>
-   Python
-   <em>via .NET</em>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+parts = ["intro.pptx", "results.pptx", "appendix.pptx"]
 
-{{< /blocks/products/pf/carousel-item >}}
+with slides.Presentation(parts[0]) as deck:
+    for part in parts[1:]:
+        with slides.Presentation(part) as source:
+            if (source.slide_size.size.width != deck.slide_size.size.width
+                    or source.slide_size.size.height != deck.slide_size.size.height):
+                source.slide_size.set_size(
+                    deck.slide_size.size.width,
+                    deck.slide_size.size.height,
+                    slides.SlideSizeScaleType.ENSURE_FIT)
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Python via .NET supports popular [presentation formats](https://docs.aspose.com/slides/python-net/supported-file-formats/) and these export formats." >}}
-<div class="diagram1 d2 d1-python">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    Input/Output
-   </header>
-   <ul>
-    <li>
-     <b>
-      Microsoft PowerPoint:
-     </b>
-     PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
-    </li>
-    <li>
-     <b>
-      OpenDocument:
-     </b>
-     ODP
-    </li>
-    <li>
-     <b>
-      Fixed Layout:
-     </b>
-     PDF
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-    <li>
-     <b>
-      Fixed Layout:
-     </b>
-     PDF/A, XPS
-    </li>
-    <li>
-     <b>
-      Images:
-     </b>
-     JPEG, PNG, BMP, TIFF, GIF
-    </li>
-    <li>
-     SVG
-    </li>
-    <li>
-     <b>
-      Web:
-     </b>
-     HTML
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-   </small>
-   Python
-   <em>via .NET</em>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+            for slide in source.slides:
+                deck.slides.add_clone(slide)
 
-{{< /blocks/products/pf/carousel-item >}}
+    deck.save("handbook.pptx", slides.export.SaveFormat.PPTX)
+```
 
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+{{< /blocks/products/pf/slides-task-tabs >}}
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="How do I install Aspose.Slides for Python via .NET?" answer="`pip install aspose-slides` from PyPI. There is no separate runtime to install — the .NET components the library needs ship inside the wheel." >}}
-{{< blocks/products/pf/agp/faq-item question="Which Python versions does it support, and does it work on Linux?" answer="Python 3.5 and later, on Windows, Linux and macOS. Linux has a small set of extra system requirements, listed in the installation documentation." >}}
-{{< blocks/products/pf/agp/faq-item question="How does it compare with python-pptx?" answer="python-pptx reads and writes PPTX and is free and MIT-licensed; it does not render. Aspose.Slides adds PDF and image export, legacy `.ppt` and ODP support, animations and encryption. The [tested comparison](/slides/python-net/python-pptx-comparison/) runs both libraries and records what each one did." >}}
-{{< blocks/products/pf/agp/faq-item question="Do I need Microsoft PowerPoint installed?" answer="No. The library parses and writes the file formats itself, so it runs in containers, on CI workers and on Linux servers with no Office present." >}}
-{{< blocks/products/pf/agp/faq-item question="What does the library do if no licence is applied?" answer="It runs, but every export is stamped with an *Evaluation only* notice and a line naming the product and version. Setting a licence at start-up removes the stamp." >}}
-{{< /blocks/products/pf/agp/faq >}}
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< /blocks/products/pf/main-container >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="One object model covers the whole file - slides, layouts and masters, shapes and text, tables, charts, SmartArt, animation, media, comments and speaker notes - all of it reachable as ordinary Python objects." >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="The same object model on other platforms: .NET, Java, C++, Node.js and PHP, reading and writing the same formats and producing the same output."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
+| Runtime | Note | Platforms |
+|---|---|---|
+| Aspose.Slides for .NET | The engine this binding wraps, used directly from C#, VB.NET or F# as a NuGet package. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Java | A separate pure-Java build of the same object model. It runs on a JVM rather than on the .NET runtime. | JAVA SE 8 OR LATER |
+| Aspose.Slides for C++ | Native headers and libraries for C++ projects, with no managed runtime in the process at all. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for Node.js via .NET | The same bundled .NET engine behind a JavaScript binding, installed from npm. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for PHP via Java | A PHP binding over the Java build, so it needs a JVM and the PHP-Java bridge alongside PHP. | JVM REQUIRED |
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
+{{< /blocks/products/pf/slides-runtime-cards >}}
 
-{{< /blocks/products/pf/testimonials >}}
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/python-net/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/python-net/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-Python-via-.NET" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/python-net/" >}}
-{{< blocks/products/pf/slr-element name="MCP Server" href="https://github.com/aspose-total/Aspose.Total-for-Python-via-.NET-MCP-Server" >}}
-{{< /blocks/products/pf/slr-tab >}}
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR PYTHON VIA .NET · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/python-net/release-notes/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+## If you don't want a library
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Python via .NET?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
 
-{{< /blocks/products/pf/support-learning-resources >}}
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/python-net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/python-net/" >}}
+## No-code apps
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
 
-{{< /blocks/products/pf/offers-section >}}
+## Resources
+
+- [Documentation](https://docs.aspose.com/slides/python-net/)
+- [API reference](https://reference.aspose.com/slides/python-net/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/python-net/installation/)
+
+## In use
+
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— BRUCE BRIEN · STRATASCOPE INC, USA
+
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

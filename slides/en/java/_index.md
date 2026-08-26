@@ -1,470 +1,281 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java PowerPoint API | Aspose.Slides for Java
+title: "Java PowerPoint API | Aspose.Slides for Java"
 weight: 6330
+slidesIndexRebuild: true
 url: /java/
-description: Aspose.Slides for Java is a PowerPoint API for creating, editing, converting, and processing PPT, PPTX, and other presentation formats in Java.
+description: "Aspose.Slides for Java is a PowerPoint API for creating, editing, converting, and processing PPT, PPTX, and other presentation formats in Java."
 outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Java PowerPoint API for Presentations" h2="Create, edit, and convert PowerPoint presentations in Java without Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-java.svg" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="https://releases.aspose.com/slides/java/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR JAVA · ON-PREMISES JAR · NO MICROSOFT OFFICE REQUIRED"
+  h1="PowerPoint files, from Java."
+  sub="Aspose.Slides for Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Java code. It is a pure-Java JAR whose POM declares no dependencies and which carries no native library, no COM automation and no .NET runtime underneath it. What it does need is a JVM: Java 6 or later on Windows, Linux, Unix, macOS or a container, plus fontconfig and installed fonts anywhere you render to PDF or images."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/java/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/java/"
+  note="Full API on trial · watermark on output"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Java 6 and later, on Windows, Linux, Unix, macOS and containers. Aspose.Slides for Java is a pure-Java JAR with no declared dependencies and no native library, so a JVM is very nearly the whole prerequisite list; the exception is rendering, where a bare Linux image also needs fontconfig and installed fonts before PDF or image output looks right. The artifact resolves only from the Aspose repository at https://releases.aspose.com/java/repo/ and is not published to Maven Central, so a bare com.aspose:aspose-slides coordinate will fail until you add that repository. No Office install, no COM automation, no X display."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/java" buyLink="https://purchase.aspose.com/pricing/slides/java/" docsLink="https://docs.aspose.com/slides/java/" installationsDocsLink="https://docs.aspose.com/slides/java/installation" nugetLink="" nugetPackageName="Microsoft PowerPoint:" mavenRepoLink="https://releases.aspose.com/java/repo/com/aspose/aspose-slides/" directDownloadLink="https://releases.aspose.com/slides/java/" >}}
+| Label | Install |
+|---|---|
+| CLI | mvn dependency:get -DremoteRepositories=https://releases.aspose.com/java/repo/ -Dartifact=com.aspose:aspose-slides:26.8:jar:jdk16 |
+| Repository | https://releases.aspose.com/java/repo/ |
+| Coordinate | com.aspose:aspose-slides:26.8:jdk16 |
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced Features of Java PowerPoint API
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Create a New Presentation and Set an Image as the Slide Background in Java
-    </h2>
-    <p>You can use Aspose.Slides for Java to create a presentation and set an image as a slide background. Image backgrounds can make slides more visual, reinforce the message, or highlight text and other slide elements.</p>
-    <p>Use the following code to add a background to your presentation:</p>
-    <div class="codeblock" id="code-1">
-     <h3>
-      Add background to a presentation in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation();
-try {
-    ISlide slide = presentation.getSlides().get_Item(0);
+{{< /blocks/products/pf/slides-hero >}}
 
-    // Configure the slide background to use a stretched picture fill.
-    slide.getBackground().setType(BackgroundType.OwnBackground);
-    slide.getBackground().getFillFormat().setFillType(FillType.Picture);
-    slide.getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
+{{< blocks/products/pf/slides-stat-row >}}
 
-    // Load the image from disk.
-    byte[] imageData = Files.readAllBytes(Paths.get("image.jpg"));
-    IPPImage image = presentation.getImages().addImage(imageData);
+| Figure | Caption |
+|---|---|
+| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
+| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 1 | JAR, resolved from the Aspose repository rather than Maven Central. Its POM declares no dependencies, so nothing is dragged in behind it and nothing native sits beside it. |
+| Java 6+ | The one real prerequisite. This is pure Java, so no Office install, no COM automation and no X display enter the picture, but it runs inside a JVM and it wants fontconfig and installed fonts wherever it renders. |
 
-    // Set the image as the slide background.
-    slide.getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+{{< /blocks/products/pf/slides-stat-row >}}
 
-    presentation.save("background.pptx", SaveFormat.Pptx);
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Create or clone existing slides from templates</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-save ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Open and save files from streams</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Generate presentations from database content</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-image ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Add elements to slides such as shapes and images</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Work with PowerPoint tables</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-align-left ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Insert, change, and remove text</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Apply or remove shape protection</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Add charts</p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-flash ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">Work with ActiveX and OLE components</p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert Presentations to PDF in Java
-    </h2>
-    <p>PDF is a common format for sharing presentations because it preserves layout and can be opened on many devices without PowerPoint.</p>
-    <p>Use the following code to convert a PowerPoint presentation to PDF:</p>
-    <div class="codeblock" id="code-2">
-     <h3>
-      Convert PPT to PDF in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation("presentation.ppt");
-try {
-    presentation.save("output.pdf", SaveFormat.Pdf);
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-    <div class="col-lg-12">
-    <h2 class="h2title">
-     Import a Presentation from PDF in Java
-    </h2>
-    <p>
-     Converting PDF files to PPT with Aspose.Slides for Java is a simple and effective way to create editable PowerPoint presentations from PDF content. This is useful when you need to modify, customize, or reuse PDF content in a presentation format.
-    </p>
-    <div class="codeblock" id="code-3">
-     <h3>
-      Import a presentation from PDF in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation();
-try {
-    presentation.getSlides().addFromPdf("input.pdf");
-    presentation.save("presentation.pptx", SaveFormat.Pptx);
-} finally {
-    presentation.dispose();
-}
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert PowerPoint Slides to JPG in Java
-    </h2>
-    <p>
-     Slide thumbnails can be used in many scenarios, such as building an online presentation viewer for a custom website, sharing slide previews with customers, or displaying presentation templates. Aspose.Slides for Java allows you to create slide thumbnails with just a few lines of code.
-    </p>
-    <div class="codeblock" id="code-4">
-     <h3>
-      Create a slide thumbnail in Java
-     </h3>
-     <pre><code class="java">
-Presentation presentation = new Presentation("presentation.pptx");
-try {
-    for (ISlide slide : presentation.getSlides()) {
-        // Render the slide to an image using the specified scale factors.
-        IImage image = slide.getImage(2f, 2f);
+{{< blocks/products/pf/slides-task-tabs
+  id="tasks"
+  title="Five things people actually write"
+  lede="Each sample is the whole program, Java as shipped. Pick the job on the left."
+  lang="JAVA"
+  allText="All examples on GitHub" allHref="https://github.com/aspose-slides/Aspose.Slides-for-Java"
+>}}
 
-        // Save the image to disk in JPEG format.
-        String fileName = String.format("slide_%d.jpg", slide.getSlideNumber());
-        image.save(fileName, ImageFormat.Jpeg);
+| Task | Hint | Flow | Note | Docs |
+|---|---|---|---|---|
+| Convert | Read a deck once and write it back out in whichever formats your readers actually open. | PPTX -> PDF / HTML / TIFF | One Presentation instance, saved three times. Call dispose() in a finally block to release the file handles and the render cache. | https://docs.aspose.com/slides/java/convert-powerpoint-to-pdf/ |
+| Slide thumbnails | Render any slide to a bitmap at a size you pick, with no PowerPoint and no screenshot. | ISlide -> IImage -> PNG | getImage() also accepts a scale pair or a RenderingOptions for notes and comments. Dispose each IImage as you go so a long deck never holds every bitmap at once. | https://docs.aspose.com/slides/java/convert-slide/ |
+| Charts from data | Turn your own arrays into a native PowerPoint chart that stays editable after you hand it over. | double[] -> IChart -> PPTX | The chart carries a real embedded workbook, so whoever opens the deck can pull up the data sheet and change a number. | https://docs.aspose.com/slides/java/create-chart/ |
+| Protect | Encrypt a deck so it cannot be opened, and mark it so it cannot be saved over. | PPTX -> encrypted PPTX | encrypt() sets the open password and genuinely encrypts the file. setWriteProtection() only sets the modify password, and does not. | https://docs.aspose.com/slides/java/password-protected-presentation/ |
+| Merge | Fold several decks into one, carrying each slide's layout and master across with it. | 3 x PPTX -> 1 PPTX | addClone() brings the source layout and master along when the destination has no match. Overloads let you force a destination layout or master instead. | https://docs.aspose.com/slides/java/merge-presentation/ |
 
-        image.dispose();
+```
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
+
+public class ConvertPresentation {
+    public static void main(String[] args) {
+        Presentation presentation = new Presentation("quarterly-review.pptx");
+        try {
+            presentation.save("quarterly-review.pdf", SaveFormat.Pdf);
+            presentation.save("quarterly-review.html", SaveFormat.Html);
+            presentation.save("quarterly-review.tiff", SaveFormat.Tiff);
+        } finally {
+            presentation.dispose();
+        }
     }
-} finally {
-    presentation.dispose();
 }
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation – Not Needed
-    </h2>
-    <p>
-     Aspose.Slides for Java does not require Microsoft Office or Microsoft PowerPoint to be installed to work with PowerPoint presentation formats. It is a reliable alternative to Microsoft PowerPoint automation in terms of supported features, security, stability, scalability, performance, and cost.
-    </p>
-   </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+```
 
-{{< blocks/products/pf/tab-content >}}
-<p><strong>Aspose.Slides for Java</strong> is a robust and feature-rich Java API for PowerPoint and OpenDocument presentation file processing. It empowers Java developers to create, read, edit, convert, and manage presentations programmatically without requiring Microsoft PowerPoint.
-</p>
+```
+import com.aspose.slides.IImage;
+import com.aspose.slides.ISlide;
+import com.aspose.slides.ImageFormat;
+import com.aspose.slides.Presentation;
 
-<p>
-With Aspose.Slides for Java, you can access and manipulate every presentation element, including slides, text, tables, charts, images, SmartArt, and multimedia content. The library is designed for high performance and can be integrated into both client-side and server-side Java applications.
-</p>
+import java.awt.Dimension;
 
-<p><strong>Core Capabilities:</strong></p>
-<ul>
-    <li>Full support for PowerPoint file formats, including PPT, PPTX, PPS, PPSX, POTX, and ODP.</li>
-    <li>Programmatic control over slide elements: modify text, insert tables and shapes, customize animations, and manage transitions.</li>
-    <li>Convert presentations to multiple formats: PDF, PDF/A, HTML, Markdown, SVG, TIFF, PNG, JPEG, and other popular image types.</li>
-    <li>Generate frames for video export and create MP4 output using FFmpeg or another video tool with support for transitions and animations.</li>
-    <li>Perform advanced presentation tasks like slide merging, cloning, comparison, and splitting of presentations.</li>
-    <li>Automatically translate presentations with AI-powered translation support compatible with OpenAI and other language models.</li>
-    <li>Print slides directly to physical printers or virtual devices within Java applications.</li>
-    <li>High-fidelity rendering that preserves layout, fonts, and design integrity during export.</li>
-</ul>
+public class SlideThumbnails {
+    public static void main(String[] args) {
+        Presentation presentation = new Presentation("quarterly-review.pptx");
+        try {
+            Dimension size = new Dimension(1280, 720);
+            for (int i = 0; i < presentation.getSlides().size(); i++) {
+                ISlide slide = presentation.getSlides().get_Item(i);
+                IImage image = slide.getImage(size);
+                try {
+                    image.save("slide-" + (i + 1) + ".png", ImageFormat.Png);
+                } finally {
+                    image.dispose();
+                }
+            }
+        } finally {
+            presentation.dispose();
+        }
+    }
+}
+```
 
-<p>Aspose.Slides for Java is a pure Java library with no external dependencies, making it ideal for cross-platform deployment in enterprise, cloud, and embedded systems.</p>
+```
+import com.aspose.slides.ChartType;
+import com.aspose.slides.IChart;
+import com.aspose.slides.IChartDataWorkbook;
+import com.aspose.slides.IChartSeries;
+import com.aspose.slides.ISlide;
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
 
-<p><a href="https://tutorials.aspose.com/slides/java/batch-processing/aspose-slides-java-automate-presentation-management/">Explore how Aspose.Slides for Java can streamline presentation automation</a> and elevate your Java-based document processing solutions.</p>
+public class ChartFromData {
+    public static void main(String[] args) {
+        String[] quarters = { "Q1", "Q2", "Q3", "Q4" };
+        double[] revenue = { 18.4, 21.9, 20.1, 26.7 };
 
-{{< /blocks/products/pf/tab-content >}}
+        Presentation presentation = new Presentation();
+        try {
+            ISlide slide = presentation.getSlides().get_Item(0);
+            IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 40, 40, 620, 400);
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+            IChartDataWorkbook book = chart.getChartData().getChartDataWorkbook();
+            chart.getChartData().getSeries().clear();
+            chart.getChartData().getCategories().clear();
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="Overview of key presentation-processing capabilities available in Aspose.Slides for Java." >}}
-<div class="diagram1 d1-java">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-table">
-    </i>
-    Data Processing
-   </header>
-   <ul>
-    <li>
-     Create Charts
-    </li>
-    <li>
-     Work with SmartArt
-    </li>
-    <li>
-     Work with PowerPoint Shapes
-    </li>
-    <li>
-     Support for ActiveX Controls
-    </li>
-    <li>
-     Work with OLE objects
-    </li>
-   </ul>
-   <header>
-    <i class="fa fa-text-width">
-    </i>
-    Text &amp; Paragraph
-   </header>
-   <ul>
-    <li>
-     Manage Text &amp; Formatting
-    </li>
-    <li>
-     Manage Hyperlink Text
-    </li>
-    <li>
-     Set Placeholder Type
-    </li>
-    <li>
-     Text placeholders &amp; frames
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cog">
-    </i>
-    Graphics &amp; Multimedia
-   </header>
-   <ul>
-    <li>
-     Support MSO charts
-    </li>
-    <li>
-     Support SmartArt shapes
-    </li>
-    <li>
-     Support ActiveX shapes
-    </li>
-    <li>
-     Manage Slide Transitions
-    </li>
-    <li>
-     Manage Animation Effects
-    </li>
-    <li>
-     Add Connectors to Shapes
-    </li>
-    <li>
-     Rotate &amp; Flip Shapes
-    </li>
-    <li>
-     Manage Shape's Line Styles
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Presentation API" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Java
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+            chart.getChartData().getSeries().add(book.getCell(0, 0, 1, "Revenue"), chart.getType());
+            IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
-{{< /blocks/products/pf/carousel-item >}}
+            for (int i = 0; i < quarters.length; i++) {
+                chart.getChartData().getCategories().add(book.getCell(0, i + 1, 0, quarters[i]));
+                series.getDataPoints().addDataPointForBarSeries(book.getCell(0, i + 1, 1, revenue[i]));
+            }
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Java can be used in Java desktop, enterprise, and web applications on Windows, Linux, Unix, and macOS." >}}
-<div class="diagram1 d1-java">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cubes">
-    </i>
-    Java Runtime Environment
-   </header>
-   <ul>
-    <li>
-     JSP/JSF Application
-    </li>
-    <li>
-     Desktop Application
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint API Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Java
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+            series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-{{< /blocks/products/pf/carousel-item >}}
+            presentation.save("revenue.pptx", SaveFormat.Pptx);
+        } finally {
+            presentation.dispose();
+        }
+    }
+}
+```
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Java supports the following [presentation](https://docs.aspose.com/slides/java/supported-file-formats/) and conversion formats." >}}
-<div class="diagram1 d2 d1-java">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    Input/Output
-   </header>
-   <ul>
-    <li><b>Microsoft PowerPoint:</b> PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM</li>
-    <li><b>OpenDocument:</b> ODP</li>
-    <li><b>Fixed Layout:</b> PDF, PDF/A</li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-     <li><b>Fixed Layout:</b> XPS</li>
-     <li><b>Images:</b> JPEG, PNG, BMP, TIFF, GIF</li>
-    <li>SVG</li>
-     <li><b>Web:</b> HTML, MD</li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation APIs for Java" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Java
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+```
+import com.aspose.slides.LoadOptions;
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
 
-{{< /blocks/products/pf/carousel-item >}}
+public class ProtectPresentation {
+    public static void main(String[] args) {
+        Presentation presentation = new Presentation("quarterly-review.pptx");
+        try {
+            presentation.getProtectionManager().setWriteProtection("do-not-edit");
+            presentation.getProtectionManager().encrypt("open-sesame");
+            presentation.save("quarterly-review-protected.pptx", SaveFormat.Pptx);
+        } finally {
+            presentation.dispose();
+        }
 
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+        LoadOptions options = new LoadOptions();
+        options.setPassword("open-sesame");
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="How do I add Aspose.Slides for Java to a Maven build?" answer="Point Maven at the [Aspose Java repository](https://releases.aspose.com/java/repo/com/aspose/aspose-slides/) and depend on `com.aspose:aspose-slides`. The artifacts are not on Maven Central, so the repository entry is required." >}}
-{{< blocks/products/pf/agp/faq-item question="Does Aspose.Slides for Java need PowerPoint or a headless display?" answer="It needs neither an Office installation nor an X display. It runs in a plain server JVM, which is why it can be used from batch jobs and web applications." >}}
-{{< blocks/products/pf/agp/faq-item question="Which output formats does the Java build add beyond PowerPoint files?" answer="Besides PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM and ODP, it writes PDF and PDF/A, and exports to XPS, JPEG, PNG, BMP, TIFF, GIF, SVG, HTML and Markdown." >}}
-{{< blocks/products/pf/agp/faq-item question="Do I have to dispose of a presentation explicitly?" answer="Yes. `Presentation` holds native resources; call `dispose()` in a `finally` block, or use try-with-resources, or long-running services will accumulate memory." >}}
-{{< /blocks/products/pf/agp/faq >}}
+        Presentation reopened = new Presentation("quarterly-review-protected.pptx", options);
+        try {
+            System.out.println("Encrypted: " + reopened.getProtectionManager().isEncrypted());
+            System.out.println("Write protected: " + reopened.getProtectionManager().isWriteProtected());
+        } finally {
+            reopened.dispose();
+        }
+    }
+}
+```
 
-{{< /blocks/products/pf/main-container >}}
+```
+import com.aspose.slides.ISlide;
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
 
+public class MergePresentations {
+    public static void main(String[] args) {
+        String[] sources = { "results.pptx", "appendix.pptx" };
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/java/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-Java" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/java/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+        Presentation merged = new Presentation("intro.pptx");
+        try {
+            for (String path : sources) {
+                Presentation source = new Presentation(path);
+                try {
+                    for (ISlide slide : source.getSlides()) {
+                        merged.getSlides().addClone(slide);
+                    }
+                } finally {
+                    source.dispose();
+                }
+            }
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/java/release-notes/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+            merged.save("deck.pptx", SaveFormat.Pptx);
+        } finally {
+            merged.dispose();
+        }
+    }
+}
+```
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Java?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+{{< /blocks/products/pf/slides-task-tabs >}}
 
-{{< /blocks/products/pf/support-learning-resources >}}
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/java/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/java" >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything below is reached through plain Java objects and getters rather than a bridge or a generated wrapper, and none of it asks for PowerPoint to be installed." >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="The same object model, the same class names and the same format support are available for .NET, C++, Python, PHP and Android."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
+| Runtime | Note | Platforms |
+|---|---|---|
+| .NET | The C# and VB.NET build of the same object model, on .NET and .NET Framework. | WINDOWS · LINUX · MACOS |
+| C++ | A native build for C++ projects, with no managed runtime sitting underneath it. | WINDOWS · LINUX · MACOS |
+| Python via .NET | The Python package, with the .NET runtime it needs shipped inside the wheel. | WINDOWS · LINUX · MACOS |
+| PHP via Java | This same JAR, driven from PHP over a Java bridge. A JVM is required there too. | WINDOWS · LINUX · MACOS |
+| Android via Java | The same object model built against the Android runtime, for on-device work. | ANDROID |
 
-{{< /blocks/products/pf/offers-section >}}
+{{< /blocks/products/pf/slides-runtime-cards >}}
+
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/java/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
+
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR JAVA · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
+
+## If you don't want a library
+
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
+
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
+
+## No-code apps
+
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
+
+## Resources
+
+- [Documentation](https://docs.aspose.com/slides/java/)
+- [API reference](https://reference.aspose.com/slides/java/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/java/installation)
+
+## In use
+
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— BRUCE BRIEN · STRATASCOPE INC, USA
+
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
