@@ -1,433 +1,221 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Aspose.Slides for Xamarin | Xamarin PowerPoint API
+title: "Aspose.Slides for Xamarin | Xamarin PowerPoint API"
 weight: 800
+slidesIndexRebuild: true
 url: /xamarin/
-description: Aspose.Slides for Xamarin enables C# applications to create, edit, render, and convert PowerPoint and OpenDocument presentations.
+description: "Aspose.Slides for Xamarin enables C# applications to create, edit, render, and convert PowerPoint and OpenDocument presentations."
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint API for Xamarin by Aspose.Slides" h2="Build Xamarin applications that create, edit, render, and convert presentations." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-xamarin.svg" pfName="Aspose.Slides" subTitlepfName="for Xamarin" downloadUrl="https://releases.aspose.com/slides/net/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Xamarin" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR XAMARIN · NOT A SEPARATE PRODUCT · THE .NET PACKAGE, REFERENCED FROM A XAMARIN PROJECT"
+  h1="The .NET library, from a Xamarin project."
+  sub="Aspose.Slides for Xamarin is not a separate product. It is Aspose.Slides for .NET referenced from a Xamarin project: the same NuGet package, Aspose.Slides.NET, the same download page, the same licence file. A Xamarin target restores and compiles against the package's netstandard2.0 asset, so the classes you call are the .NET classes. No Xamarin-specific assembly ships in the package any more — Aspose.Slides.Droid.dll last shipped in 22.10 and was gone from 22.11 — although the assembly still embeds Xamarin.Forms project templates among its XAML-export resources. What nobody has established since is how much of the library runs on an Android device: that asset depends on System.Drawing.Common, and Android has no GDI+ behind it."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/"
+  note="Full API on trial · evaluation watermark on open and save · text extraction returns only an evaluation notice"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Aspose.Slides.NET restores and compiles against a Xamarin.Android target through its netstandard2.0 asset, byte for byte the one a .NET Standard 2.0 class library gets. That is where the checkable part stops. Aspose removed its last Xamarin-specific assembly in 22.11 (2022-11-23). Its Xamarin documentation page is still live and still tells you to reference Aspose.Slides.Droid.dll — that assembly is not in any release from 22.11 onward; ignore it. The netstandard2.0 asset depends on System.Drawing.Common 5.0.3, which has no working GDI+ backend on Android, and that dependency is loaded by the Presentation constructor itself, not only at render time. Compiling is not running, and nothing on this page has been run on a Xamarin.Android device, so prove any of it on real hardware before you ship it, or do that work server-side and return the file. NuGet also lists Xamarin.iOS, Xamarin.Mac, tvOS and watchOS as compatible frameworks, but that is NuGet's netstandard2.0 compatibility table rather than a support statement, and Android is the only Xamarin target Aspose ever documented. Microsoft ended support for every Xamarin SDK on 2024-05-01. No Microsoft Office, no COM automation and no network call: the work happens in your own process."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" liveDemosLink="https://products.aspose.app/slides/family" PricingLink="https://purchase.aspose.com/pricing/slides/net" buyLink="https://purchase.aspose.com/pricing/slides/net/" docsLink="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/" installationsDocsLink="" nugetLink="https://www.nuget.org/packages/Aspose.Slides.NET/" nugetPackageName="Aspose.Slides.NET" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/net/" >}}
+| Label | Install |
+|---|---|
+| NuGet CLI | dotnet add package Aspose.Slides.NET |
+| Package Manager | Install-Package Aspose.Slides.NET |
 
-{{< blocks/products/pf/tab-content >}}
-<p>
- Aspose.Slides for Xamarin supports mobile presentation-processing applications written in C#. It lets applications edit slide text, media, and shapes; save presentations in different formats; add comments and notes; apply themes; and split presentations into multiple files.
-</p>
+{{< /blocks/products/pf/slides-hero >}}
 
-<p>
- Aspose.Slides for Xamarin is a standalone presentation API that does not require Microsoft PowerPoint, OpenOffice, or LibreOffice.
-</p>
+{{< blocks/products/pf/slides-stat-row >}}
 
-<p>
-</p>
+| Figure | Caption |
+|---|---|
+| 1 | NuGet package to install, Aspose.Slides.NET, and one download page. There is no Xamarin-specific package and no Xamarin download: releases.aspose.com/slides/xamarin/ returns 404. |
+| netstandard2.0 | The asset a Xamarin target resolves out of that package. The 26.8 package ships netstandard2.0, net6.0 and net462 and nothing else, and the netstandard2.0 group pulls System.Drawing.Common 5.0.3 with it. |
+| 0 | Xamarin-specific assemblies in the release you install. Aspose.Slides.Droid.dll last shipped in 22.10 and was gone from 22.11, released 2022-11-23; the Aspose.Slides.Drawing.Xamarin types went with it. |
+| 2024-05-01 | The day Microsoft ended support for every Xamarin SDK, Xamarin.Forms included. New mobile work belongs on .NET for Android or .NET MAUI, which reference this same package. |
 
-{{< /blocks/products/pf/tab-content >}}
+{{< /blocks/products/pf/slides-stat-row >}}
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+{{< blocks/products/pf/slides-task-tabs
+  id="tasks"
+  title="Five things people actually write"
+  lede="Each sample is the whole program, C# as shipped. Pick the job on the left."
+  lang="C#"
+  allText="All examples on GitHub" allHref="https://github.com/aspose-slides/Aspose.Slides-for-.NET"
+>}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for Xamarin capabilities." >}}
-<div class="diagram1 d1-net">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-table">
-    </i>
-    Data Processing
-   </header>
-   <ul>
-    <li>
-     Manage charts
-    </li>
-    <li>
-     Manage SmartArt
-    </li>
-    <li>
-     Manage PowerPoint shapes
-    </li>
-    <li>
-     Manage ActiveX controls
-    </li>
-    <li>
-     Manage OLE objects
-    </li>
-   </ul>
-   <header>
-    <i class="fa fa-text-width">
-    </i>
-    Text and paragraphs
-   </header>
-   <ul>
-    <li>
-     Manipulate text and formatting
-    </li>
-    <li>
-     Manipulate hyperlink text
-    </li>
-    <li>
-     Set placeholder type
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-cog">
-    </i>
-    Graphics and multimedia
-   </header>
-   <ul>
-    <li>
-     Manage slide transitions
-    </li>
-    <li>
-     Manage animation effects
-    </li>
-    <li>
-     Add connectors to shapes
-    </li>
-    <li>
-     Rotate and flip shapes
-    </li>
-    <li>
-     Manage shape line styles
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Aspose.Slides for Xamarin" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Xamarin
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+| Task | Hint | Flow | Note | Docs |
+|---|---|---|---|---|
+| Open | Load a deck from a stream, in-process and offline. | STREAM -> PRESENTATION | The constructor does not dispose the stream — that is yours to close. By default (PresentationLockingBehavior.LoadAndRelease) it reads the source during construction and releases it, so the Presentation keeps working after you close the stream. Dispose the Presentation when you are done; until you do, the whole in-memory document stays alive. | https://reference.aspose.com/slides/net/aspose.slides/presentation/ |
+| Read text | Pull every word out of a deck without laying a slide out. | PPTX -> STRING | Unarranged is the faster of the two modes and is what the docs point at when speed matters; Arranged returns the text in on-slide order and is slower. Unlicensed, extraction returns no usable text: every slide's text comes back replaced by an evaluation notice, and the array is capped at two entries whatever the deck's length. | https://reference.aspose.com/slides/net/aspose.slides/presentationfactory/getpresentationtext/ |
+| Edit | Rewrite text in place and write the deck back out as PPTX. | PPTX -> PPTX | Setting portion.Text keeps that run's own font, size and colour. Setting textFrame.Text instead replaces every run in the frame and flattens it to the first run's look. | https://reference.aspose.com/slides/net/aspose.slides/iportion/text/ |
+| License | Apply the licence file once, at start-up. | STREAM -> LICENSE | Call it once before the first Presentation is constructed, from Application.OnCreate rather than from an activity. Unlicensed, an evaluation watermark is inserted on open and on save, and text extraction returns no usable text — every slide's text comes back replaced by an evaluation notice. It is the same .lic file the .NET build uses. | https://reference.aspose.com/slides/net/aspose.slides/license/setlicense/ |
 
-{{< /blocks/products/pf/carousel-item >}}
+```
+using System.IO;
+using Aspose.Slides;
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Xamarin supports Xamarin.Android." >}}
-<div class="diagram1 d1-net">
- <div class="d1-row">
-  <!--/left-->
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Aspose.Slides for Xamarin" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Xamarin
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+public static int CountSlides(Stream source)
+{
+    using (MemoryStream buffer = new MemoryStream())
+    {
+        source.CopyTo(buffer);
+        buffer.Position = 0;
 
-{{< /blocks/products/pf/carousel-item >}}
+        using (Presentation presentation = new Presentation(buffer))
+        {
+            return presentation.Slides.Count;
+        }
+    }
+}
+```
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Xamarin supports popular [presentation formats](https://docs.aspose.com/slides/net/supported-file-formats/) and the export formats listed below." >}}
-<div class="diagram1 d2 d1-net">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    Input/Output
-   </header>
-   <ul>
-    <li>
-     <b>
-      Microsoft PowerPoint:
-     </b>
-     <code>PPT</code>, <code>PPTX</code>, <code>PPS</code>, <code>POT</code>, <code>PPSX</code>, <code>PPTM</code>, <code>PPSM</code>, <code>POTX</code>, <code>POTM</code>
-    </li>
-    <li>
-     <b>
-      OpenDocument:
-     </b>
-     <code>ODP</code>
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-    <li>
-     <b>
-      Fixed Layout:
-     </b>
-     <code>PDF</code>, <code>PDF/A</code>, <code>XPS</code>
-    </li>
-    <li>
-     <b>
-      Images:
-     </b>
-     <code>JPEG</code>, <code>PNG</code>, <code>BMP</code>, <code>TIFF</code>, <code>GIF</code>
-    </li>
-    <li>
-     <code>SVG</code>
-    </li>
-    <li>
-     <b>
-      Web:
-     </b>
-     <code>HTML</code>
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Aspose.Slides for Xamarin" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Xamarin
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+```
+using System.IO;
+using System.Text;
+using Aspose.Slides;
 
-{{< /blocks/products/pf/carousel-item >}}
+public static string ReadDeckText(Stream source)
+{
+    using (MemoryStream buffer = new MemoryStream())
+    {
+        source.CopyTo(buffer);
+        buffer.Position = 0;
 
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+        IPresentationText text = PresentationFactory.Instance.GetPresentationText(
+            buffer, TextExtractionArrangingMode.Unarranged);
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced Features of the Xamarin PowerPoint API
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-copy ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and clone presentation slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-table ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Work with PowerPoint tables via API
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-shield ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Apply or remove protection settings on shapes
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add Excel charts as OLE objects to slides
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-link ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Support linked OLE objects
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-database ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Generate presentations from databases
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-lock ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Protect presentations and output PDF files
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-print ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Print presentations in supported environments
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create and customize charts
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert Presentations with the Xamarin PowerPoint API
-    </h2>
-    <p>
-     Aspose.Slides for Xamarin lets mobile applications convert PowerPoint and OpenDocument presentations to fixed-layout, web, and image formats such as <code>PDF</code>, <code>HTML</code>, <code>XPS</code>, <code>JPEG</code>, and <code>TIFF</code>.
-    </p>
-    <div class="codeblock" id="code">
-     <h3>
-      Render Presentations in C#
-     </h3>
-     <pre><code class="cs">
-using var presentation = new Presentation("presentation.pptx");
+        StringBuilder builder = new StringBuilder();
+        foreach (ISlideText slide in text.SlidesText)
+        {
+            builder.AppendLine(slide.Text);
+            builder.AppendLine(slide.NotesText);
+        }
 
-// Render as PDF, XPS, and TIFF.
-presentation.Save("output.pdf", SaveFormat.Pdf);
-presentation.Save("output.xps", SaveFormat.Xps);
-presentation.Save("output.tiff", SaveFormat.Tiff);
-     </code></pre>
-    </div>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Modify Presentations with the Xamarin PowerPoint API
-    </h2>
-    <p>
-     Aspose.Slides for Xamarin lets mobile applications modify slides, presentation content, and metadata. Applications can access text, tables, shapes, charts, SmartArt, animations, comments, notes, document properties, layouts, and themes.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Merge, Compare, Split, and Print Presentations with the Xamarin PowerPoint API
-    </h2>
-    <p>
-     Use Aspose.Slides for Xamarin to build presentation-processing workflows that merge, split, compare, and print presentations. An application can combine presentations in different formats into one output file or divide a presentation into multiple files.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft Office Automation Is Not Required
-    </h2>
-    <p>
-     Aspose.Slides for Xamarin does not require Microsoft Office or Microsoft PowerPoint to be installed. It is built for server-side and mobile presentation processing without Office automation.
-    </p>
-   </div>
-   <!--<div class="col-lg-12">
+        return builder.ToString();
+    }
+}
+```
 
-<h2 class="h2title">Support For Office Open XML</h2>
+```
+using System.IO;
+using Aspose.Slides;
+using Aspose.Slides.Export;
 
-<p>Office Open XML (OOXML) is the XML-based format that was introduced into Microsoft Office 2007.</p>
+public static void ReplaceText(Stream source, Stream output, string find, string replacement)
+{
+    using (Presentation presentation = new Presentation(source))
+    {
+        foreach (ISlide slide in presentation.Slides)
+        {
+            foreach (IShape shape in slide.Shapes)
+            {
+                IAutoShape autoShape = shape as IAutoShape;
+                if (autoShape != null && autoShape.TextFrame != null)
+                {
+                    foreach (IParagraph paragraph in autoShape.TextFrame.Paragraphs)
+                    {
+                        foreach (IPortion portion in paragraph.Portions)
+                        {
+                            portion.Text = portion.Text.Replace(find, replacement);
+                        }
+                    }
+                }
+            }
+        }
 
-<p>PresentationML is the presentation-specific markup language defined by Office Open XML (OOXML). PPTX files use an OOXML package that contains PresentationML parts. Aspose.Slides for .NET supports creating, reading, manipulating, and writing PresentationML content.</p>
+        presentation.Save(output, SaveFormat.Pptx);
+    }
+}
+```
 
-</div>-->
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+```
+using System.IO;
+using Aspose.Slides;
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="Which package do I install for a Xamarin project?" answer="The same `Aspose.Slides.NET` NuGet package used by desktop and server .NET projects; there is no separate Xamarin build to track." >}}
-{{< blocks/products/pf/agp/faq-item question="Can a Xamarin app convert a presentation to PDF on the device itself?" answer="Yes. Conversion runs in-process against the file, with no service call and no Office install, so it works on a device that is offline." >}}
-{{< blocks/products/pf/agp/faq-item question="Should I do presentation processing on the device or on a server?" answer="Both work, but rendering a large deck is memory-hungry and mobile devices are the tightest environment the library runs in. If your decks are large or arbitrary, converting server-side and returning the result is the safer design." >}}
-{{< blocks/products/pf/agp/faq-item question="Do fonts behave the same on a mobile device as on the desktop?" answer="Not necessarily. Rendering uses the fonts available to the app, and a phone or tablet carries a much smaller font set than a workstation. Embed or bundle the fonts your decks depend on if output has to match exactly." >}}
-{{< /blocks/products/pf/agp/faq >}}
+public static void ApplyLicense(Stream licenseStream)
+{
+    // Once per process, before the first Presentation is constructed.
+    License license = new License();
+    license.SetLicense(licenseStream);
+}
+```
 
-{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/slides-task-tabs >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about PowerPoint APIs." caseStudiesLink="https://about.aspose.com/customers/success-stories/" >}}
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="first">
- We have found Aspose.Slides to be easy to use and to work nicely on our ASP.NET servers. We have found they fill an important need for dynamically generating files to expand our reach beyond the traditional web application.
- <em>
-  Rick Joi | Workplace Dynamics, UK
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="The object model here is the .NET object model — one assembly, the same class and method names — so a call written in a Xamarin project is the call you would write in a console app. Every strip below is plain stream-in, stream-out C#, kept to the C# 7.3 that a classic Xamarin.Android project compiles by default, and none of it rasterises a slide. System.Drawing.Common is loaded by the Presentation constructor itself, not only by rendering and export, and nothing here has been run on a Xamarin.Android device, so prove any of it on real hardware before you depend on it or move the work server-side. Do not lean on the device's fonts either: bundle the faces your decks need and register them with FontsLoader.LoadExternalFonts. And ignore Aspose's own Xamarin documentation page — it still tells you to look for a separate Aspose.Slides.Droid.dll, four years after that assembly stopped shipping." >}}
 
-{{< blocks/products/pf/testimonials-quote >}}
-<p class="second">
- The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
- <em>
-  Bruce Brien | Stratascope Inc, USA
- </em>
-</p>
-{{< /blocks/products/pf/testimonials-quote >}}
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="Building for Android today? Aspose.Slides for Android via Java is the build Aspose actually ships for the platform. The same object model also ships for .NET, Java, C++, Python, PHP and Node.js."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-{{< /blocks/products/pf/testimonials >}}
+| Runtime | Note | Platforms |
+|---|---|---|
+| Aspose.Slides for .NET | The library this page is about, called directly. One package carries the net6.0, net462 and netstandard2.0 assets, and a Xamarin project picks the last of the three. | WINDOWS · LINUX · MACOS |
+| .NET for Android and .NET MAUI | Microsoft's supported successors to Xamarin.Android and Xamarin.Forms. The same package is the one you would reference, and Aspose publishes no supported-platform statement for either, so prove anything that renders on a device before you commit a mobile target. | ANDROID · IOS |
+| Aspose.Slides for Android via Java | The build Aspose actually ships for Android, on the Java engine rather than reached through Mono. The route when the app is Kotlin or Java instead of C#. | ANDROID |
+| Aspose.Slides for Java | Pure Java library and the engine behind the Android build. Needs a JVM and no .NET at all. | WINDOWS · LINUX · MACOS |
+| Aspose.Slides for C++ | Native library for C++ codebases, with no managed runtime to install alongside it. | WINDOWS · LINUX · MACOS |
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/net/" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-slides/Aspose.Slides-for-.NET" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/slides/net/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+{{< /blocks/products/pf/slides-runtime-cards >}}
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< blocks/products/pf/slr-element name="Release Notes" href="https://releases.aspose.com/slides/net/release-notes/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Xamarin?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR XAMARIN · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
 
-{{< /blocks/products/pf/support-learning-resources >}}
+## If you don't want a library
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/net/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/net/" >}}
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
 
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
+## No-code apps
 
-{{< /blocks/products/pf/offers-section >}}
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
+
+## Resources
+
+- [Documentation](https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/)
+- [API reference](https://reference.aspose.com/slides/xamarin/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/xamarin/installation/)
+
+## In use
+
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— BRUCE BRIEN · STRATASCOPE INC, USA
+
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

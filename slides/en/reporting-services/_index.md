@@ -1,445 +1,115 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: PowerPoint Rendering Extension for Reporting Services
+title: "PowerPoint Rendering Extension for Reporting Services"
 weight: 3020
+slidesIndexRebuild: true
 url: /reporting-services/
-description: PowerPoint rendering extension for SQL Server Reporting Services and Power BI Report Server to export RDL reports to PPT, PPTX, PPS, PPSX, and XPS.
+description: "PowerPoint rendering extension for SQL Server Reporting Services and Power BI Report Server to export RDL reports to PPT, PPTX, PPS, PPSX, and XPS."
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint Rendering Extension for Reporting Services" h2="Export RDL reports to PPT, PPTX, PPS, PPSX, and XPS formats." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-reporting-services.svg" pfName="Aspose.Slides" subTitlepfName="for Reporting Services" downloadUrl="https://releases.aspose.com/slides/reportingservices/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Reporting Services" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR REPORTING SERVICES · SERVER RENDERING EXTENSIONS · NO MICROSOFT OFFICE REQUIRED"
+  h1="PowerPoint, from the report server."
+  sub="Aspose.Slides for Reporting Services is a set of rendering extensions you install into Microsoft SQL Server Reporting Services or Power BI Report Server. Once they are registered, PowerPoint output — PPT, PPS, PPTX and PPSX — appears in the Select Format list of every paginated RDL report on the server. Existing reports export unchanged, one managed assembly is deployed, and no Microsoft Office goes on the machine."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/reportingservices/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/reportingservices/"
+  note="Evaluation has no time limit · watermarks on exported reports"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Microsoft SQL Server Reporting Services 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017 and 2019, 32-bit and 64-bit, and Power BI Report Server for paginated RDL reports. Requires .NET Framework 3.5 on the host machine. The MSI installs and configures the default Reporting Services instance; a named instance, or more than one instance on the same machine, takes the manual route instead. No Microsoft Office, no PowerPoint automation."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/reporting-services" buyLink="https://purchase.aspose.com/pricing/slides/reporting-services/" docsLink="https://docs.aspose.com/slides/reportingservices/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/reportingservices/" >}}
+| Label | Install |
+|---|---|
+| MSI (default instance) | Run the Aspose.Slides for Reporting Services 26.8 MSI installer; it configures the default Reporting Services instance |
+| Manual | Copy Aspose.Slides.ReportingServices.dll from the Universal directory into the report server bin directory for SSRS 2008 and later and Power BI, or from the SSRS2005 directory for SQL Server 2005. The copy carries no explicit NTFS permissions with it |
+| Register | Extension entries under Render in rsreportserver.config, plus a FullTrust CodeGroup in rssrvpolicy.config. The MSI registers six renderers — ASPPT, ASPPS, ASPPTX, ASPPSX, ASXPSS (XPS) and ASODP (ODP); the hand-editing procedures register the four PowerPoint ones |
 
-{{< blocks/products/pf/tab-content >}}
-<p>
- Aspose.Slides for Reporting Services adds rendering extensions that export paginated RDL reports from Microsoft SQL Server Reporting Services and Power BI Report Server to PowerPoint and XPS formats.
-</p>
+{{< /blocks/products/pf/slides-hero >}}
 
-<p>
- The extension supports RDL elements such as tables, matrices, charts, images, lists, subreports, headers, and footers while preserving the report layout.
-</p>
+{{< blocks/products/pf/slides-stat-row >}}
 
-{{< /blocks/products/pf/tab-content >}}
+| Figure | Caption |
+|---|---|
+| 1 | Assembly to deploy, chosen from three per-host builds in the ZIP that share the name Aspose.Slides.ReportingServices.dll: SSRS2005 (24,607,736 B), Universal (24,675,832 B) and ReportViewer2010 (24,662,520 B). One of them is copied into the report server bin directory. |
+| 8 | SQL Server Reporting Services releases named as supported: 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017 and 2019, 32-bit and 64-bit. Power BI Report Server sits alongside them for paginated RDL. |
+| 10 | RDL element groups the documented renderer covers: pages with headers and footers, text boxes, images, sub-reports, charts, lists, tables, matrices, styles and rectangles. That published list does not extend to gauges, maps, indicators, data bars or sparklines. |
+| 0 | Microsoft PowerPoint installs needed on the report server. The product internally uses Aspose.Slides for .NET to produce the presentations, with no Office automation in the path. |
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+{{< /blocks/products/pf/slides-stat-row >}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for Reporting Services." >}}
-<div class="diagram1 d1-rs">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-file-image-o">
-    </i>
-    RDL Support
-   </header>
-   <ul>
-    <li>
-     Report Pages
-    </li>
-    <li>
-     Headers and Footers
-    </li>
-    <li>
-     Text Boxes
-    </li>
-    <li>
-     Images
-    </li>
-    <li>
-     Subreports
-    </li>
-    <li>
-     Charts
-    </li>
-    <li>
-     Lists
-    </li>
-    <li>
-     Tables
-    </li>
-    <li>
-     Encryption
-    </li>
-    <li>
-     Matrices
-    </li>
-    <li>
-     Rectangles
-    </li>
-    <li>
-     Styles
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="RDL to PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Reporting Services
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< /blocks/products/pf/carousel-item >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is delivered by the installed rendering extensions and switched on in the report server's own configuration files, not by code you write. Where a note follows, the capability has a stated limit or applies to one output format only." >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for Reporting Services supports Microsoft SQL Server Reporting Services and Power BI Report Server." >}}
-<div class="diagram1 d1-rs">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header style="padding-left: 0px;">
-    <i class="fa fa-cubes">
-    </i>
-    SQL Server Reporting Services
-   </header>
-   <ul>
-    <li>2005</li>
-    <li>2008 and 2008 R2</li>
-    <li>2012 and 2014</li>
-    <li>2016</li>
-    <li>2017</li>
-    <li>2019</li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="SSRS to PowerPoint Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Reporting Services
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="Need the same output from your own code rather than from a report server? The same engine ships as a library for .NET, Java, C++, Python, Node.js and PHP."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-{{< /blocks/products/pf/carousel-item >}}
+| Runtime | Note | Platforms |
+|---|---|---|
+| SQL Server Reporting Services | Registered as named rendering extensions under Render in rsreportserver.config, with a FullTrust CodeGroup in rssrvpolicy.config. Documented for 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017 and 2019. | 32-BIT · 64-BIT |
+| Power BI Report Server | Paginated RDL reports export through the same extensions. The installer detects the Power BI server on the machine, installs the product and then configures it. | WINDOWS |
+| SharePoint integrated mode | A manual integration procedure is documented for SSRS 2012 in SharePoint integrated mode, as a fallback for when MSI installation fails. It is pinned to the SharePoint 2010 hive. | SSRS 2012 · MANUAL FALLBACK |
+| Visual Studio Report Designer | Copy the assembly into Common7/IDE/PrivateAssemblies, add the Extension entries to RSReportDesigner.config and a FullTrust CodeGroup to RSPreviewPolicy.config, then restart Visual Studio. Both edits are required — the CodeGroup is what grants the assembly permission to execute. | VS 2005 · VS 2008 |
+| .NET Framework | .NET Framework 3.5 must be present on the host. The shipped assemblies are themselves built against the .NET 2.0 runtime (CLR 2.0.50727), which is why 3.5 rather than 4.x is the requirement. | PREREQUISITE |
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for Reporting Services accepts RDL and RPL input and exports reports to the supported [output formats](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
-<div class="diagram1 d2 d1-rs">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-long-arrow-down">
-    </i>
-    Input Only
-   </header>
-   <ul>
-    <li>
-     RDL
-    </li>
-    <li>
-     RPL
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-    <li>PPT</li>
-    <li>PPTX</li>
-    <li>PPS</li>
-    <li>PPSX</li>
-    <li>XPS</li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="PowerPoint Rendering Extension" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    Reporting Services
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< /blocks/products/pf/slides-runtime-cards >}}
 
-{{< /blocks/products/pf/carousel-item >}}
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/reportingservices/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR REPORTING SERVICES · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    Advanced Reporting Services Extension Features
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-share ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export paginated RDL reports as editable PowerPoint presentations
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export paginated reports from Power BI Report Server
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-list-alt ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Render tables and matrices from RDL reports
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-th ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export reports that contain subreports
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-file-audio-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Preserve images embedded in reports
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bar-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Render report charts in presentation output
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Preserve report headers and footers
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bars ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Render text boxes, lists, and rectangles
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-newspaper-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Preserve the original report layout with high fidelity
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-balance-scale ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Deploy automatically with an MSI installer or manually
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export reports to the PPT format
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export reports to the PPTX format
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export reports to the PPS format
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export reports to the PPSX format
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export reports to the XPS format
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-cog ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Read Report Definition Language files
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-share ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Process Report Page Layout input
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-adjust ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Configure hyperlink colors for each rendering extension
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-plus ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Configure how text in exported tables is rendered
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-bolt ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Run in 32-bit and 64-bit Reporting Services environments
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Generate presentation output without Microsoft PowerPoint
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-comments ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Configure each installed output extension independently
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">Export to Presentation and Slideshow Formats</h2>
-    <p>
-     Aspose.Slides for Reporting Services adds rendering extensions for exporting paginated reports to <code>PPT</code>, <code>PPTX</code>, <code>PPS</code>, <code>PPSX</code>, and <code>XPS</code>.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">Comprehensive RDL Support</h2>
-    <p>
-     Aspose.Slides for Reporting Services supports the RDL specification and lets you customize existing reports with this extension. You can design reports in an RDL report designer and export them while preserving the layout.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">Power BI Report Server Support</h2>
-    <p>
-     Aspose.Slides for Reporting Services supports paginated reports defined with <code>RDL</code> in Power BI Report Server. The installed rendering extensions export those reports to the supported PowerPoint and <code>XPS</code> formats while preserving the report layout.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">Microsoft PowerPoint Automation Is Not Required</h2>
-    <p>
-     Aspose.Slides for Reporting Services is built with managed code and does not require Microsoft PowerPoint to be installed on the server.
-    </p>
-   </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+## If you don't want a library
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="What does this rendering extension do?" answer="It adds PowerPoint output to SQL Server Reporting Services and Power BI Report Server, so an RDL report can be delivered as a presentation instead of only as PDF or Excel." >}}
-{{< blocks/products/pf/agp/faq-item question="Which inputs and outputs are supported?" answer="It accepts RDL and RPL input and writes PPT, PPTX, PPS, PPSX and XPS." >}}
-{{< blocks/products/pf/agp/faq-item question="Does it need PowerPoint on the report server?" answer="No. The extension generates the presentation files itself, so the report server needs no Office installation." >}}
-{{< blocks/products/pf/agp/faq-item question="How is it installed?" answer="As a rendering extension registered with the report server, from the [Reporting Services downloads](https://releases.aspose.com/slides/reportingservices/). Once registered, PowerPoint appears in the export list beside the built-in formats." >}}
-{{< /blocks/products/pf/agp/faq >}}
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
 
-{{< /blocks/products/pf/main-container >}}
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
 
+## No-code apps
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/reportingservices/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+## Resources
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for Reporting Services?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+- [Documentation](https://docs.aspose.com/slides/reportingservices/)
+- [API reference](https://reference.aspose.com/slides/reporting-services/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/reporting-services/installation/)
 
-{{< /blocks/products/pf/support-learning-resources >}}
+## In use
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/reportingservices/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/reporting-services" >}}
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
+— BRUCE BRIEN · STRATASCOPE INC, USA
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
-
-{{< /blocks/products/pf/offers-section >}}
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

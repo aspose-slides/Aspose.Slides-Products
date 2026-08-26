@@ -1,377 +1,116 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-08-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: PowerPoint Conversion Solution for SharePoint
+title: "PowerPoint Conversion Solution for SharePoint"
 weight: 910
+slidesIndexRebuild: true
 url: /sharepoint/
-description: SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX, and macro-enabled presentations to PDF, TIFF, XPS, SVG, SWF, HTML, and other output formats.
+description: "SharePoint solution for converting PPT, PPTX, PPS, PPSX, POT, POTX, and macro-enabled presentations to PDF, TIFF, XPS, SVG, SWF, HTML, and other output formats."
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PowerPoint Conversion Solution for SharePoint" h2="Convert PowerPoint presentations directly from SharePoint document libraries." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-for-sharepoint.svg" pfName="Aspose.Slides" subTitlepfName="for SharePoint" downloadUrl="https://releases.aspose.com/slides/sharepoint/" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for SharePoint" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES FOR SHAREPOINT · FARM SOLUTION, NOT A LIBRARY · ONE SETUP.EXE PER SHAREPOINT GENERATION · NO MICROSOFT POWERPOINT"
+  h1="Convert presentations inside SharePoint."
+  sub="Aspose.Slides for SharePoint is a deployed solution, not a component you program against. You download one archive and run the Setup<version>.exe matching your farm — Setup2007, Setup2010, Setup2013, Setup2016 or Setup2019 — on the SharePoint server, and the solution adds a convert command to the Edit Control Block menu of items in document libraries, in every site collection where the feature has been activated; the 2007 package labels it Convert with Aspose.Slides, the 2019 package labels it Convert via Aspose.Slides... A person picks the output format, the destination file name and the destination folder, clicks Convert, and the converted file is written back into a SharePoint document library, with a results page that reports each file's status and offers Return to Source Library or Destination Library. Nothing is downloaded to a desktop first, no Microsoft PowerPoint is installed on the server, and nobody writes any code."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/sharepoint/"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/sharepoint/"
+  note="Free trial · evaluation watermark on each slide of every exported document until the licence package is deployed"
+  moreText="Other platforms, same object model" moreUrl="/slides/family/"
+  jump="Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  runsOnTitle="RUNS ON"
+  runsOn="Windows Server, on-premises, inside your own SharePoint farm. The documented system requirements list Windows SharePoint Services 3.0, Microsoft Office SharePoint Server 2007, and SharePoint Server 2010, 2013, 2016 and 2019; Service Pack 2 or later is recommended for WSS 3.0 and MOSS 2007, while 2016 and 2019 are serviced by feature packs and public updates instead. The 26.7 archive ships a solution package and a matching installer for each of 2007, 2010, 2013, 2016 and 2019, and you run the one that matches your farm. That version-specific installer carries a minimum-version gate of its own: Setup2019.exe.config declares Require=“MOSS”, MinSharePointVersion 12.0.0.0 and no maximum. Aspose’s installation documentation adds three further conditions it says the installer checks — the SharePoint database online, the WSS Administration and Timer services running, and an account allowed to deploy SharePoint solutions. Deployment puts a version-specific Aspose.Slides.SharePoint assembly into the Global Assembly Cache and adds SafeControl entries to web.config; activation is scoped to a site collection, and in the 2007 package a feature receiver copies resource files into App_GlobalResources on the parent web application. The licence is a second solution package, Aspose.Slides.SharePoint.License.wsp, shipped in its own archive and deployed from the server console with stsadm.exe; until it is deployed, every exported document carries an evaluation watermark on each slide. No Microsoft PowerPoint and no Office automation on the server. Every supported host is an on-premises server product, so this is a farm solution rather than a SharePoint Online or Microsoft 365 add-in."
+  cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
+>}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/slides/sharepoint" buyLink="https://purchase.aspose.com/pricing/slides/sharepoint/" docsLink="https://docs.aspose.com/slides/sharepoint/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/slides/sharepoint/" >}}
+| Label | Install |
+|---|---|
+| Download | Aspose.Slides.SharePoint_26.7.zip |
+| Deploy | Unpack, then run the Setup<version>.exe matching your farm (Setup2007/2010/2013/2016/2019) |
+| License | Aspose.Slides.SharePoint.License.wsp via stsadm.exe -o deploysolution |
 
-{{< blocks/products/pf/tab-content >}}
-<p>
- Aspose.Slides for SharePoint converts presentations directly from SharePoint document libraries. It supports common PowerPoint presentation, slideshow, and template formats and can export them to fixed-layout, image, and web formats without Microsoft PowerPoint automation.
-</p>
+{{< /blocks/products/pf/slides-hero >}}
 
-<p>
- Aspose.Slides for SharePoint works with Windows SharePoint Services (WSS) 3.0, Microsoft Office SharePoint Server 2007 Standard and Enterprise, and SharePoint Server 2010, 2013, and 2019.
-</p>
+{{< blocks/products/pf/slides-stat-row >}}
 
-{{< /blocks/products/pf/tab-content >}}
+| Figure | Caption |
+|---|---|
+| 5 .wsp | One solution package per SharePoint generation — Aspose.Slides.SharePoint2007.wsp, 2010.wsp, 2013.wsp, 2016.wsp and 2019.wsp — shipped in one archive alongside Setup2007.exe, Setup2010.exe, Setup2013.exe, Setup2016.exe and Setup2019.exe. You deploy the one that matches your farm. A licensed install deploys a second package, Aspose.Slides.SharePoint.License.wsp, over the top; without it the solution runs in evaluation mode. |
+| 12 | Export targets named by the shipped 26.7 assembly, whose own feature description reads: "Converts documents with Aspose.Slides. Supports converting to pdf, tiff, xps, pps, ppsx, odp, pptm, ppsm, potx, potm, html and swf formats." Its resource table also carries notes-view targets for PDF, TIFF and SWF. The 2007 package's resource file is narrower: PDF, TIFF and XPS only. |
+| WSS 3.0 to 2019 | Supported SharePoint hosts on the documented system requirements page, six of them, every one an on-premises server product. The current download page names four — WSS 3.0, MOSS 2007, SharePoint Server 2013 and SharePoint Server 2019 — while the 26.7 archive itself ships solution packages for 2007, 2010, 2013, 2016 and 2019. |
+| 0 | Microsoft PowerPoint installations on the server. Conversion runs in managed code inside the SharePoint worker process, with no Office automation anywhere in the path. |
 
-<!--Diagrams Start-->
-{{< blocks/products/pf/carousel >}}
+{{< /blocks/products/pf/slides-stat-row >}}
 
-{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.Slides for SharePoint." >}}
-<div class="diagram1 d1-sharepoint">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-refresh">
-    </i>
-    Conversion Options
-   </header>
-   <ul>
-    <li>
-     Save to subfolder
-    </li>
-    <li>
-     Overwrite files
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="SharePoint Presentation Converter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    SharePoint
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< /blocks/products/pf/carousel-item >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything below happens in the SharePoint UI, done by a person browsing a document library. Activating the feature on a site collection is what makes the command appear there, and a site collection where it has not been activated is unchanged. Conversion runs in managed code inside the SharePoint worker process; the solution has no documented API surface of its own." >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.Slides for SharePoint works with Microsoft Office SharePoint Server and Windows SharePoint Services." >}}
-<div class="diagram1 d1-sharepoint">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header style="padding-left: 0px;">
-    <i class="fa fa-cubes">
-    </i>
-    SharePoint Server
-   </header>
-   <ul>
-    <li>
-     2007 (MOSS Standard)
-    </li>
-    <li>
-     2007 (MOSS Enterprise)
-    </li>
-    <li>
-     2010
-    </li>
-    <li>
-     2013
-    </li>
-    <li>
-     2019
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header style="padding-left: 0px;">
-    <i class="fa fa-cubes">
-    </i>
-    Windows SharePoint Services
-   </header>
-   <ul>
-    <li>
-     WSS 3.0
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="SharePoint PowerPoint Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    SharePoint
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< blocks/products/pf/slides-runtime-cards
+  id="runtimes"
+  title="Runs where your code already runs"
+  lede="Where a build of this library is supported, and what each target is for."
+  footText="This is a deployed solution, not a component you program. If you need to convert presentations from your own code, Aspose ships separate libraries for .NET, Java, C++, Python and Node.js."
+  allText="All high-code APIs" allHref="/slides/family/"
+  isGrey="true"
+>}}
 
-{{< /blocks/products/pf/carousel-item >}}
+| Runtime | Note | Platforms |
+|---|---|---|
+| Windows SharePoint Services 3.0 | The oldest supported host, and one of the two the installation guide is written against. Service Pack 2 or later is recommended. Named on the current download page. | WSS 3.0 · ON-PREMISES |
+| Microsoft Office SharePoint Server 2007 | Standard and Enterprise both, and the other host the installation guide is written against. Service Pack 2 or later is recommended. Named on the current download page. | MOSS 2007 · ON-PREMISES |
+| SharePoint Server 2010 | Listed in the documented system requirements. Deployed exactly the same way: one solution package, activated per site collection. The 26.7 archive ships Aspose.Slides.SharePoint2010.wsp with Setup2010.exe. | SP2010 · FARM SOLUTION |
+| SharePoint Server 2013 | Listed both in the documented system requirements and on the current download page as a supported server. | SP2013 · FARM SOLUTION |
+| SharePoint Server 2016 | Listed in the documented system requirements; the 26.7 archive ships Aspose.Slides.SharePoint2016.wsp with Setup2016.exe. Serviced by feature packs and public updates rather than service packs, so no service pack level applies here. | SP2016 · FARM SOLUTION |
+| SharePoint Server 2019 | The newest supported host, named on the current 26.7 download page alongside WSS 3.0, MOSS 2007 and SharePoint Server 2013. Serviced by public updates rather than service packs. | SP2019 · FARM SOLUTION |
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.Slides for SharePoint can load and save common PowerPoint [file formats](https://docs.aspose.com/slides/sharepoint/supported-file-formats/) and export presentations to fixed-layout, image, and web formats." >}}
-<div class="diagram1 d2 d1-sharepoint">
- <div class="d1-row">
-  <div class="d1-col d1-left">
-   <header>
-    <i class="fa fa-arrows-v">
-    </i>
-    Input/Output
-   </header>
-   <ul>
-    <li>
-     <b>
-      Microsoft PowerPoint:
-     </b>
-     PPT, PPTX, PPS, PPSX, PPTM, PPSM, POT, POTX, POTM
-    </li>
-   </ul>
-  </div>
-  <!--/left-->
-  <div class="d1-col d1-right">
-   <header>
-    <i class="fa fa-mail-forward">
-    </i>
-    Output Only
-   </header>
-   <ul>
-    <li>
-     <b>
-      Fixed Layout:
-     </b>
-     PDF, XPS
-    </li>
-    <li>
-     <b>
-      Images:
-     </b>
-     TIFF, SVG
-    </li>
-    <li>
-     <strong>
-      Web:
-     </strong>
-     SWF, HTML
-    </li>
-   </ul>
-  </div>
-  <!--/right-->
- </div>
- <!--/row-->
- <div class="d1-logo">
-  <img width="70" height="75" alt="Presentation File Format Converter for SharePoint" src="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg"/>
-  <header>
-   Aspose.Slides
-  </header>
-  <footer>
-   <small>
-    <em>
-     for
-    </em>
-    SharePoint
-   </small>
-  </footer>
- </div>
- <!--/logo-->
-</div>
+{{< /blocks/products/pf/slides-runtime-cards >}}
 
-{{< /blocks/products/pf/carousel-item >}}
+{{< blocks/products/pf/slides-licensing-band
+  title="Start with the trial, license when you ship"
+  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/sharepoint/"
+  ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+>}}
 
-{{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+{{< blocks/products/pf/slides-resource-columns
+  barLeft="ASPOSE.SLIDES FOR SHAREPOINT · PRODUCTS.ASPOSE.COM"
+  barRight="PRESENTATION AUTOMATION WITHOUT MICROSOFT OFFICE"
+>}}
 
-<!--Feature-section Start-->
-<div class="container-fluid features-section bg-gray singleproduct">
- <a class="anchor" id="features" name="features">
- </a>
- <div class="row">
-  <div class="container">
-   <h2 class="pr-ft">
-    SharePoint Presentation Conversion App Features
-   </h2>
-   <p>
-   </p>
-   <div class="col-lg-4">
-    <em class="fa fa-file-powerpoint-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Convert PowerPoint files from SharePoint document libraries
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-text-height ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Choose the output format before conversion
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-area-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Specify the output file name
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-pie-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Select a destination folder for converted files
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-cogs ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Save converted files in the source library
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Save converted files in another document library
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-anchor ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Overwrite existing output files when required
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-line-chart ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Convert between supported PowerPoint formats
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-angle-left ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export presentations to fixed-layout formats
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-book ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export presentations to TIFF and SVG images
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-arrows ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Export presentations to HTML or SWF
-    </p>
-   </div>
-   <div class="col-lg-4">
-    <em class="fa fa-file ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Convert presentations without Microsoft PowerPoint
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Convert PowerPoint Presentations to Multiple Formats
-    </h2>
-    <p>
-     Aspose.Slides for SharePoint converts presentations from SharePoint document libraries to popular document exchange formats, including PDF, TIFF, and XPS.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Easy and Lightweight Installation
-    </h2>
-    <p>
-     Aspose.Slides for SharePoint is distributed as the <code>Aspose.Slides.SharePoint.zip</code> archive. Extract it to a local drive on the MOSS 2007 or WSS 3.0 server, and then run <code>Setup.exe</code>.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Microsoft PowerPoint Automation Is Not Needed
-    </h2>
-    <p>
-     Aspose.Slides for SharePoint is built with managed code and does not require Microsoft PowerPoint to be installed on the server.
-    </p>
-   </div>
-  </div>
- </div>
-</div>
-<!--Feature-section End-->
+## If you don't want a library
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" >}}
-{{< blocks/products/pf/agp/faq-item question="What does Aspose.Slides for SharePoint actually add?" answer="It converts presentations held in SharePoint document libraries to other formats without exporting them first and without Microsoft PowerPoint on the server." >}}
-{{< blocks/products/pf/agp/faq-item question="Which conversions are available from a document library?" answer="It loads PPT, PPTX, PPS, PPSX, PPTM, PPSM, POT, POTX and POTM, and exports to PDF, XPS, TIFF, SVG and web formats." >}}
-{{< blocks/products/pf/agp/faq-item question="Is this an API I write code against?" answer="It is a SharePoint solution rather than a library: it is deployed to the farm and used from the document library UI. For code, use [Aspose.Slides for .NET](/slides/net/) instead." >}}
-{{< blocks/products/pf/agp/faq-item question="Where do I get it?" answer="From the [SharePoint downloads page](https://releases.aspose.com/slides/sharepoint/)." >}}
-{{< /blocks/products/pf/agp/faq >}}
+Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and converting presentations.
 
-{{< /blocks/products/pf/main-container >}}
+- [cURL](https://products.aspose.cloud/slides/curl/)
+- [.NET SDK](https://products.aspose.cloud/slides/net/)
+- [Java SDK](https://products.aspose.cloud/slides/java/)
+- [All low-code APIs →](https://products.aspose.cloud/slides/family/)
 
+## No-code apps
 
-{{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/slides/sharepoint/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+- [Viewer](https://products.aspose.app/slides/viewer)
+- [Conversion](https://products.aspose.app/slides/conversion)
+- [Annotation](https://products.aspose.app/slides/annotation)
+- [All apps →](https://products.aspose.app/slides/family)
 
-{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/slides" >}}
-{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+## Resources
 
-{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.Slides for SharePoint?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
-{{< /blocks/products/pf/slr-tab >}}
+- [Documentation](https://docs.aspose.com/slides/sharepoint/)
+- [API reference](https://reference.aspose.com/slides/sharepoint/)
+- [Support forum](https://forum.aspose.com/c/slides/)
+- [Installation](https://docs.aspose.com/slides/sharepoint/installation/)
 
-{{< /blocks/products/pf/support-learning-resources >}}
+## In use
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/slides/sharepoint/" pricingInformationLink="https://purchase.aspose.com/pricing/slides/sharepoint" >}}
+The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
 
-{{< blocks/products/pf/offers-section pfName="Aspose.Slides" description="Aspose.Slides is also available for other popular development environments, as listed below:" >}}
+— BRUCE BRIEN · STRATASCOPE INC, USA
 
-    {{< blocks/products/pf/offers-section-item link="/slides/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sdkName="Python via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/python-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" sdkName="Python via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/php-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" sdkName="PHP via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-net/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" sdkName="Node.js via .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/nodejs-java/" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" sdkName="Node.js via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/slides/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" sdkName="JasperReports" >}}
-
-{{< /blocks/products/pf/offers-section >}}
+{{< /blocks/products/pf/slides-resource-columns >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
