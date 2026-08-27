@@ -1,5 +1,5 @@
 ---
-lastmod: 2022-05-12
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Aspose.Slides API για PowerPoint
 weight: 7160
@@ -11,21 +11,129 @@ description: Το Aspose.Slides είναι ένα PowerPoint API για χειρ
 {{< blocks/products/pf/i18n/upper-banner h1="Λύση μορφών PowerPoint Aspose.Slides On Premise, Cloud και App" h2="Χειριστείτε παρουσιάσεις, διαφάνειες και στοιχεία σε εφαρμογές .NET, Java, Python, Android, Xamarin και Cloud χωρίς να απαιτείται Microsoft Office." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Οικογένεια προϊόντων Aspose.Slides" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides High Code APIs Include" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/el/net" >}}
-On Premise .NET API για χειρισμό παρουσιάσεων του Microsoft PowerPoint εντός εφαρμογών που έχουν αναπτυχθεί χρησιμοποιώντας .NET Framework, .NET Core και άλλες πλατφόρμες μέσω COM Interop.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/el/net/" >}}
+PowerPoint API που στοχεύει Windows Forms, ASP.NET, WPF, WCF ή οποιονδήποτε τύπο εφαρμογής που βασίζεται σε .NET Framework 2.0 ή νεότερη έκδοση.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/el/java" >}}
-Java API για δημιουργία, φόρτωση, χειρισμό, μετατροπή ή ανάλυση παρουσιάσεων, διαφανειών και στοιχείων του Microsoft PowerPoint σε οποιαδήποτε εφαρμογή που βασίζεται σε Java SE ή EE.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/el/java/" >}}
+PowerPoint Java API για επιτραπέζιους υπολογιστές, web ή οποιαδήποτε εφαρμογή που βασίζεται σε Java SE ή EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/el/cpp" >}}
-Εγγενής βιβλιοθήκη για εφαρμογές C++ για δημιουργία, φόρτωση, χειρισμό, μετατροπή ή απόδοση αρχείων Microsoft PowerPoint.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/el/cpp/" >}}
+PowerPoint API για χειρισμό και απόδοση παρουσιάσεων και διαφανειών PowerPoint σε εφαρμογές CPP.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/el/python-net/" >}}
+PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων με σενάρια Python μέσω .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/el/python-java/" >}}
+PowerPoint API για χειρισμό και μετατροπή παρουσιάσεων με σενάρια Python μέσω Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/el/android-java/" >}}
+PowerPoint API για χειρισμό Παρουσιάσεων PowerPoint σε εφαρμογές για κινητές συσκευές Android.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/el/php-java/" >}}
+PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων με σενάρια PHP.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/el/nodejs-net/" >}}
+PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων εντός εφαρμογών Node.js μέσω .NET.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/el/nodejs-java/" >}}
+PowerPoint API για δημιουργία και χειρισμό παρουσιάσεων εντός εφαρμογών Node.js μέσω Java.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/el/sharepoint/" >}}
+PowerPoint API για μετατροπή παρουσιάσεων σε PDF στο SharePoint.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/el/reporting-services/" >}}
+PowerPoint API για την εξαγωγή αναφορών RDL στο PowerPoint από τις υπηρεσίες αναφοράς του SQL Server.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/el/jasperreports/" >}}
+PowerPoint API για εξαγωγή αναφορών στο PowerPoint από το JasperReports ή τον JasperServer.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/el/net-core/" >}}
+PowerPoint API για τη δημιουργία λύσεων πολλαπλών πλατφορμών .NET Core για την επεξεργασία παρουσιάσεων σε Windows, Linux ή macOS.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/el/xamarin/" >}}
+PowerPoint API για τη δημιουργία εφαρμογών Xamarin cross-platform και τη διαχείριση παρουσιάσεων σε Android, iOS ή Windows.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/center-button href="https://products.aspose.com/slides/el/family/" innerText="Προβολή όλων των API High Code" >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint Δείγματα Κώδικα Online Περιλαμβάνονται" >}}
+
+{{< blocks/products/pf/product pfName="" title="Σχόλιο" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/el/annotation/" >}}
+Πώς να αφαιρέσετε σχολιασμούς από την παρουσίαση με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Σύγκριση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/el/comparison/" >}}
+Πώς να συγκρίνετε έγγραφα PowerPoint μέσω του Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Μετατροπή" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/el/conversion/" >}}
+Πώς να μετατρέψετε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Διάγραμμα" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/el/chart/" >}}
+Τρόπος χρήσης γραφημάτων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Συγχώνευση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/el/merger/" >}}
+Τρόπος συγχώνευσης παρουσιάσεων χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Μεταδεδομένα" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/el/metadata/" >}}
+Τρόπος επεξεργασίας ιδιοτήτων παρουσίασης χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Αναλυτής" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/el/parser/" >}}
+Πώς να εξαγάγετε κείμενο παρουσίασης, εικόνες και ήχο χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Προστατεύω" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/el/protect/" >}}
+Τρόπος προστασίας με κωδικό πρόσβασης παρουσίαση PowerPoint με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Σύνταξη" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/el/redaction/" >}}
+Πώς να επεξεργαστείτε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Αναζήτηση" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/el/search/" >}}
+Πώς να αναζητήσετε κείμενο σε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Υπογραφή" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/el/signature/" >}}
+Πώς να υπογράψετε την παρουσίαση με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Σχίστης" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/el/splitter/" >}}
+Πώς να χωρίσετε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Ξεκλείδωμα" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/el/unlock/" >}}
+Πώς να αφαιρέσετε τον κωδικό πρόσβασης από το PowerPoint με το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Θεατής" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/el/viewer/" >}}
+Πώς να ανοίξετε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Αφανής σφραγίδα χάρτου" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/el/watermark/" >}}
+Πώς να προσθέσετε υδατογράφημα χρησιμοποιώντας το Aspose.Slides API.
+{{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

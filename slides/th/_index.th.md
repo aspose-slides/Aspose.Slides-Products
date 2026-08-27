@@ -1,5 +1,5 @@
 ---
-lastmod: 2022-05-12
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Aspose.Slides API สำหรับ PowerPoint
 weight: 7160
@@ -11,21 +11,129 @@ description: Aspose.Slides เป็น PowerPoint API เพื่อจัด�
 {{< blocks/products/pf/i18n/upper-banner h1="Aspose.Slides On Premise, Cloud และรูปแบบ PowerPoint แบบอิงแอป" h2="จัดการการนำเสนอ สไลด์ และองค์ประกอบในแอปพลิเคชัน .NET, Java, Python, Android, Xamarin และ Cloud โดยไม่ต้องใช้ Microsoft Office" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Aspose.Slides High Code API รวม" >}}
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint APIs รวมอยู่ด้วย" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/th/net" >}}
-บน Premise .NET API เพื่อจัดการงานนำเสนอ Microsoft PowerPoint ภายในแอปพลิเคชันที่พัฒนาโดยใช้ .NET Framework, .NET Core และแพลตฟอร์มอื่นๆ ผ่าน COM Interop
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/th/net/" >}}
+PowerPoint API กำหนดเป้าหมายเป็น Windows Forms, ASP.NET, WPF, WCF หรือแอปพลิเคชันประเภทใดๆ ที่ใช้ .NET Framework 2.0 หรือใหม่กว่า
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/th/java" >}}
-Java APIs เพื่อสร้าง โหลด จัดการ แปลงหรือแยกวิเคราะห์การนำเสนอ สไลด์ และองค์ประกอบใน Microsoft PowerPoint ในแอปพลิเคชันใดๆ โดยอิงจาก Java SE หรือ EE
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/th/java/" >}}
+PowerPoint Java API สำหรับเดสก์ท็อป เว็บ หรือแอปพลิเคชันใดๆ ที่ใช้ Java SE หรือ EE
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/th/cpp" >}}
-ไลบรารีเนทีฟสำหรับแอปพลิเคชัน C++ เพื่อสร้าง โหลด จัดการ แปลงหรือแสดงไฟล์ Microsoft PowerPoint
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/th/cpp/" >}}
+PowerPoint API สำหรับจัดการและเรนเดอร์งานนำเสนอ PowerPoint และสไลด์ในแอปพลิเคชัน CPP
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/th/python-net/" >}}
+PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอด้วยสคริปต์ Python ผ่าน .NET
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/th/python-java/" >}}
+PowerPoint API สำหรับจัดการและแปลงงานนำเสนอด้วยสคริปต์ Python ผ่าน Java
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/th/android-java/" >}}
+PowerPoint API สำหรับจัดการงานนำเสนอ PowerPoint ในแอปพลิเคชันมือถือ Android
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/th/php-java/" >}}
+PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอด้วยสคริปต์ PHP
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/th/nodejs-net/" >}}
+PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอภายในแอปพลิเคชัน Node.js ผ่านทาง .NET
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/th/nodejs-java/" >}}
+PowerPoint API สำหรับการสร้างและจัดการงานนำเสนอภายในแอปพลิเคชัน Node.js ผ่านทาง Java
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/th/sharepoint/" >}}
+PowerPoint API สำหรับการแปลงงานนำเสนอเป็น PDF ใน SharePoint
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/th/reporting-services/" >}}
+PowerPoint API สำหรับการส่งออกรายงาน RDL ไปยัง PowerPoint จาก SQL Server Reporting Services
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/th/jasperreports/" >}}
+PowerPoint API สำหรับการส่งออกรายงานไปยัง PowerPoint จาก JasperReports หรือ JasperServer
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/th/net-core/" >}}
+PowerPoint API สำหรับการสร้างโซลูชันข้ามแพลตฟอร์ม .NET Core สำหรับการประมวลผลงานนำเสนอบน Windows, Linux หรือ macOS
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/th/xamarin/" >}}
+PowerPoint API สำหรับการสร้างแอปพลิเคชัน Xamarin ข้ามแพลตฟอร์มและจัดการงานนำเสนอบน Android, iOS หรือ Windows
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/center-button href="https://products.aspose.com/slides/th/family/" innerText="ดู High Code API ทั้งหมด" >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides ตัวอย่างโค้ด PowerPoint ออนไลน์รวมอยู่ด้วย" >}}
+
+{{< blocks/products/pf/product pfName="" title="คำอธิบายประกอบ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/th/annotation/" >}}
+วิธีลบคำอธิบายประกอบออกจากการนำเสนอด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การเปรียบเทียบ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/th/comparison/" >}}
+วิธีเปรียบเทียบเอกสาร PowerPoint ผ่าน Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การแปลง" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/th/conversion/" >}}
+วิธีแปลงงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="แผนภูมิ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/th/chart/" >}}
+วิธีใช้แผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การควบรวมกิจการ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/th/merger/" >}}
+วิธีผสานการนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ข้อมูลเมตา" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/th/metadata/" >}}
+วิธีแก้ไขคุณสมบัติการนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="พาร์เซอร์" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/th/parser/" >}}
+วิธีแยกข้อความ รูปภาพ และเสียงของงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ปกป้อง" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/th/protect/" >}}
+วิธีการป้องกันด้วยรหัสผ่านงานนำเสนอ PowerPoint ด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="การตอบโต้" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/th/redaction/" >}}
+วิธีแก้ไขงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ค้นหา" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/th/search/" >}}
+วิธีค้นหาข้อความในงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ลายเซ็น" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/th/signature/" >}}
+วิธีลงนามการนำเสนอด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ตัวแยกสัญญาณ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/th/splitter/" >}}
+วิธีแยกงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ปลดล็อค" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/th/unlock/" >}}
+วิธีลบรหัสผ่านออกจาก PowerPoint ด้วย Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ผู้ดู" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/th/viewer/" >}}
+วิธีเปิดงานนำเสนอโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="ลายน้ำ" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/th/watermark/" >}}
+วิธีเพิ่มลายน้ำโดยใช้ Aspose.Slides API
+{{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

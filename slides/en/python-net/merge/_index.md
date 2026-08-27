@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PowerPoint, PDF, and Other Files Using Python
 url: /python-net/merge/
@@ -92,6 +92,12 @@ Learn how to merge TIFF images into one PDF document with Aspose.Slides for Pyth
 
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/slides-child-index
+  id="all"
+  title="Every merge"
+  lede="The cards above are the combinations people ask for most. This is the complete list, each with its own page and a runnable Python sample."
+>}}
 
 {{< /blocks/products/pf/main-container >}}
     

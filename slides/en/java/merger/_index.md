@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-06-18
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge PDF, PPT, PPTX and Many Other File Formats Using Java
 url: /java/merger/
@@ -86,6 +86,12 @@ Merge `TIFF` files using Aspose.Slides for Java API.
 {{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/slides-child-index
+  id="all"
+  title="Every merge"
+  lede="The cards above are the combinations people ask for most. This is the complete list, each with its own page and a runnable Java sample."
+>}}
 
 {{< /blocks/products/pf/main-container >}}
     

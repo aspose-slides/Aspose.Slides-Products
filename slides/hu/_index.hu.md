@@ -1,5 +1,5 @@
 ---
-lastmod: 2022-05-12
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Aspose.Slides API a PowerPointhoz
 weight: 7160
@@ -11,21 +11,129 @@ description: Az Aspose.Slides egy PowerPoint API a prezentációk manipulálás�
 {{< blocks/products/pf/i18n/upper-banner h1="Aspose.Slides On Premise, felhő- és alkalmazásalapú PowerPoint formátumú megoldás" h2="Manipuláljon prezentációkat, diákat és elemeket .NET, Java, Python, Android, Xamarin és Cloud alkalmazásokban anélkül, hogy Microsoft Office-ra lenne szüksége." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" imageAlt="Aspose.Slides termékcsalád" >}}
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/product-card-row title="Az Aspose.Slides High Code API-k közé tartozik" >}}
+{{< blocks/products/pf/product-card-row title="Az Aspose.Slides PowerPoint API-k tartalmazzák" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="https://products.aspose.com/slides/hu/net" >}}
-On Premise .NET API-k a Microsoft PowerPoint prezentációk manipulálására a .NET Framework, .NET Core és más platformokon a COM Interop segítségével fejlesztett alkalmazásokban.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" productLink="/slides/hu/net/" >}}
+A PowerPoint API a Windows Forms-ot, az ASP.NET-et, a WPF-et, a WCF-et vagy a .NET-keretrendszer 2.0-s vagy újabb verzióján alapuló bármilyen típusú alkalmazást célozza meg.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="https://products.aspose.com/slides/hu/java" >}}
-Java API-k Microsoft PowerPoint prezentációk, diák és elemeik létrehozására, betöltésére, manipulálására, konvertálására vagy elemzésére bármely Java SE vagy EE alapú alkalmazásban.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" productLink="/slides/hu/java/" >}}
+PowerPoint Java API asztali számítógépekhez, webhez vagy bármilyen Java SE vagy EE alapú alkalmazáshoz.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.Slides for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="https://products.aspose.com/slides/hu/cpp" >}}
-Natív könyvtár C++ alkalmazásokhoz Microsoft PowerPoint fájlok létrehozásához, betöltéséhez, manipulálásához, konvertálásához vagy rendereléséhez.
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" productLink="/slides/hu/cpp/" >}}
+PowerPoint API PowerPoint prezentációk és diák kezeléséhez és megjelenítéséhez CPP alkalmazásokban.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via .NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" productLink="/slides/hu/python-net/" >}}
+PowerPoint API prezentációk generálásához és manipulálásához Python-szkriptekkel .NET-en keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Python via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-python-via-java.svg" productLink="/slides/hu/python-java/" >}}
+PowerPoint API prezentációk manipulálásához és konvertálásához Python szkriptekkel Java-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-android-java.svg" productLink="/slides/hu/android-java/" >}}
+PowerPoint API a PowerPoint-bemutatók manipulálásához Android mobilalkalmazásokban.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="PHP via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-php-via-java.svg" productLink="/slides/hu/php-java/" >}}
+PowerPoint API prezentációk generálásához és manipulálásához PHP szkriptekkel.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via .NET" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-net.svg" productLink="/slides/hu/nodejs-net/" >}}
+PowerPoint API a Node.js alkalmazásokon belüli prezentációk létrehozásához és manipulálásához .NET-en keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Node.js via Java" imgSrc="https://products.aspose.com/slides/images/aspose_slides-for-nodejs-via-java.svg" productLink="/slides/hu/nodejs-java/" >}}
+PowerPoint API prezentációk generálásához és manipulálásához a Node.js alkalmazásokon belül Java-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-sharepoint.svg" productLink="/slides/hu/sharepoint/" >}}
+PowerPoint API prezentációk PDF formátumba konvertálásához a SharePointban.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-reporting-services.svg" productLink="/slides/hu/reporting-services/" >}}
+PowerPoint API az RDL-jelentések PowerPointba exportálásához az SQL Server Reporting Services szolgáltatásból.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-jasperreports.svg" productLink="/slides/hu/jasperreports/" >}}
+PowerPoint API jelentések PowerPointba exportálásához a JasperReportsból vagy a JasperServerből.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title=".NET Core" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net-core.svg" productLink="/slides/hu/net-core/" >}}
+PowerPoint API .NET Core keresztplatformos megoldások létrehozásához prezentációk feldolgozásához Windows, Linux vagy macOS rendszeren.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="Aspose.Slides for" title="Xamarin" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-xamarin.svg" productLink="/slides/hu/xamarin/" >}}
+PowerPoint API Xamarin többplatformos alkalmazások készítéséhez és prezentációk kezeléséhez Android, iOS vagy Windows rendszeren.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/center-button href="https://products.aspose.com/slides/hu/family/" innerText="Az összes High Code API megtekintése" >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
+{{< blocks/products/pf/product-card-row title="Aspose.Slides PowerPoint kódminták online tartalmazzák" >}}
+
+{{< blocks/products/pf/product pfName="" title="Annotáció" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_annotation-app.png" productLink="/slides/hu/annotation/" >}}
+A kommentárok eltávolítása a prezentációból az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Összehasonlítás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png" productLink="/slides/hu/comparison/" >}}
+PowerPoint-dokumentumok összehasonlítása az Aspose.Slides API-n keresztül.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Átalakítás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="/slides/hu/conversion/" >}}
+PowerPoint prezentációk konvertálása az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Diagram" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_cells-charts-app.png" productLink="/slides/hu/chart/" >}}
+Diagramok használata PowerPoint-prezentációkban az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Egyesülés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_merger-app.png" productLink="/slides/hu/merger/" >}}
+Prezentációk egyesítése az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Metaadatok" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="/slides/hu/metadata/" >}}
+A prezentáció tulajdonságainak szerkesztése az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Elemző" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png" productLink="/slides/hu/parser/" >}}
+A prezentáció szövegének, képeinek és hangjának kinyerése az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Védje" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_protect-app.png" productLink="/slides/hu/protect/" >}}
+PowerPoint prezentáció jelszavas védelme az Aspose.Slides API-val.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Szerkesztés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png" productLink="/slides/hu/redaction/" >}}
+Prezentáció szerkesztése az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Keresés" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_search-app.png" productLink="/slides/hu/search/" >}}
+Szöveg keresése egy prezentációban az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Aláírás" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png" productLink="/slides/hu/signature/" >}}
+Prezentáció aláírása az Aspose.Slides API-val.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Splitter" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_words-splitter-app.png" productLink="/slides/hu/splitter/" >}}
+PowerPoint-prezentáció felosztása az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Kinyit" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_unlock-app.png" productLink="/slides/hu/unlock/" >}}
+Jelszó eltávolítása a PowerPointból az Aspose.Slides API segítségével.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Néző" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="/slides/hu/viewer/" >}}
+Prezentáció megnyitása az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/product pfName="" title="Vízjel" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png" productLink="/slides/hu/watermark/" >}}
+Vízjel hozzáadása az Aspose.Slides API használatával.
+{{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
