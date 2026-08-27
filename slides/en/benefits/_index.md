@@ -1,14 +1,23 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-08-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Benefits of Aspose.Slides Products
 weight: 1370
 url: /benefits/
 description: Learn why Aspose.Slides products are a strong choice for creating, editing, converting, and rendering presentations across platforms.
+slidesIndexRebuild: true
+outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Benefits of Aspose.Slides Products" h2="Presentation APIs for creating, editing, converting, and rendering files across platforms." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/headers/aspose_slides-brand.svg" sourceAdditionalConversionTag="" pfName="Aspose.Slides" subTitlepfName="Family" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" >}}
+{{< blocks/products/pf/slides-hero
+  eyebrow="ASPOSE.SLIDES · WHY THIS FAMILY"
+  h1="Benefits of Aspose.Slides Products"
+  sub="Presentation APIs for creating, editing, converting, and rendering files across platforms."
+  ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/"
+  ctaSecondaryText="All products" ctaSecondaryUrl="/slides/family/"
+  jump="Questions|#faqpage"
+>}}{{< /blocks/products/pf/slides-hero >}}
 
 {{< blocks/products/pf/main-container >}}
 
