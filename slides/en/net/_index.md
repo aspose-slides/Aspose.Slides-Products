@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# .NET PowerPoint Processing API | Aspose.Slides
 weight: 1890
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/"
   note="Full API on trial · watermark on output"
   moreText="Java, Python, C++, Node.js, Android and more" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn=".NET Framework, .NET Core and later, Mono and Xamarin.Android. Callable over COM interop from PHP, VBScript, Delphi and C++ on Windows. No Office, no GDI, no display server."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/net/)."
@@ -117,6 +117,30 @@ target.Save("combined.pptx", SaveFormat.Pptx);
 ```
 
 {{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/net/conversion/ | Convert between presentation, document and image formats. | C# | conversion |
+| Merger | /slides/net/merger/ | Combine several presentations, documents or images into one file. | C# | merger |
+| Editor | /slides/net/editor/ | Open a file, change it and write it back, format by format. | C# | editor |
+| Viewer | /slides/net/viewer/ | Open a presentation and render it for viewing. | C# | viewer |
+| Parser | /slides/net/parser/ | Extract text, images, audio and video from a presentation. | C# | parser |
+| Metadata | /slides/net/metadata/ | Read and write presentation document properties. | C# | metadata |
+| Watermark | /slides/net/watermark/ | Add a text or image watermark. | C# | watermark |
+| Protect | /slides/net/protect/ | Password-protect a presentation. | C# | protect |
+| Unlock | /slides/net/unlock/ | Remove password protection. | C# | unlock |
+| Redaction | /slides/net/redaction/ | Find and replace sensitive text. | C# | redaction |
+| Search | /slides/net/search/ | Find text across the slides of a presentation. | C# | search |
+| Annotation | /slides/net/annotation/ | Remove comments and annotations. | C# | annotation |
+| Chart | /slides/net/chart/ | Create and edit charts on slides. | C# | chart |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 

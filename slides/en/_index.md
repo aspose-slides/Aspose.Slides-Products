@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-23
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides"
 weight: 7160
@@ -33,6 +33,7 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/"
   note="Full API on trial · watermark on open and save"
   moreText="C++, Android, PHP, SharePoint, JasperReports and more" moreUrl="#platforms"
+  jump="Platforms|#platforms, What it does|#solutions, Example|#example, Formats|#formats, Conversions|#tasks, Capabilities|#capabilities, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Windows, Linux and macOS, on a host or in a container, wherever the .NET, Java or Python runtime the build targets is supported. No Microsoft Office installation on the machine that runs it."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -60,9 +61,35 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 
 {{< blocks/products/pf/slides-platform-table
   title="Pick your platform"
-  lede="Same object model everywhere. The differences that matter are the runtime and what each build adds on top."
-  allHref="/slides/family/" allText="All high-code APIs"
+  lede="Same object model everywhere. The differences that matter are the runtime and what each build adds on top. The last five rows are not libraries you write code against — two are the .NET package under another name, three are integrations for an existing server product."
+  allHref="/slides/family/" allText="All products, side by side"
 >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="solutions"
+  title="What people use it for"
+  lede="Fifteen task pages. Each one states what the operation does, then shows it in every platform that supports it, so you can read the code before you install anything."
+>}}
+
+| Platform | Href | Note | Language |
+|---|---|---|---|
+| Conversion | /slides/conversion/ | Convert between PPT, PPTX, PDF, HTML, POTX, POTM and ODP. |  |
+| Merger | /slides/merger/ | Merge PowerPoint and OpenDocument presentations into one file. |  |
+| Splitter | /slides/splitter/ | Split PPT, PPTX and ODP presentations into separate files. |  |
+| Parser | /slides/parser/ | Extract text, images, audio and video from a presentation. |  |
+| Viewer | /slides/viewer/ | Open presentations and export them for viewing. |  |
+| Watermark | /slides/watermark/ | Add text and image watermarks to PPT, PPTX and ODP. |  |
+| Protect | /slides/protect/ | Password-protect PPT, PPTX and ODP presentations. |  |
+| Unlock | /slides/unlock/ | Remove password protection from PPT, PPTX and ODP. |  |
+| Redaction | /slides/redaction/ | Find and redact text in PPT, PPTX and ODP presentations. |  |
+| Comparison | /slides/comparison/ | Compare presentations in PPT, PPS, PPTX, POTX, PPSX, PPTM and ODP. |  |
+| Chart | /slides/chart/ | Create and edit charts in PPT and PPTX presentations. |  |
+| Metadata | /slides/metadata/ | View and edit presentation document properties. |  |
+| Search | /slides/search/ | Find text in PPT, PPTX and ODP presentations. |  |
+| Signature | /slides/signature/ | Add drawing, text or image signatures, and sign PPTX digitally. |  |
+| Annotation | /slides/annotation/ | Remove comments and annotations from PowerPoint files. |  |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-fact-band
   id="example"
@@ -90,6 +117,38 @@ That is the whole program: no PowerPoint, no headless Office, no template file t
 {{< /blocks/products/pf/slides-fact-band >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="tasks"
+  title="The conversions people come here for"
+  lede="Every format pair below has its own page with a runnable sample. These are the ones readers of this site open most; each platform has the full matrix on its own conversion page."
+  allHref="/slides/conversion/" allText="Every conversion"
+>}}
+
+| Platform | Href | Note | Language |
+|---|---|---|---|
+| HTML to PPTX | /slides/python-net/conversion/html-to-pptx/ | Turn an HTML report into an editable deck. | Python |
+| HTML to PPT | /slides/python-net/conversion/html-to-ppt/ | The same, written to the pre-2007 binary container. | Python |
+| PPTX to PPT | /slides/python-net/conversion/pptx-to-ppt/ | Down-convert for readers on older PowerPoint. | Python |
+| HTML to PPTX | /slides/net/conversion/html-to-pptx/ | The same conversion from a .NET service. | C# |
+| HTML to PPTX | /slides/java/conversion/html-to-pptx/ | The same conversion on the JVM. | Java |
+| HTML to PPT | /slides/net/conversion/html-to-ppt/ | Markup in, binary PPT out, from C#. | C# |
+| PPTX to PDF | /slides/python-net/conversion/pptx-to-pdf/ | Render a deck to fixed-layout PDF. | Python |
+| PPT to PPTX | /slides/python-net/conversion/ppt-to-pptx/ | Bring a legacy deck onto the current format. | Python |
+| POT to PPT | /slides/nodejs-net/conversion/pot-to-ppt/ | Turn a PowerPoint template into a presentation. | JavaScript |
+| PDF to HTML | /slides/php-java/conversion/pdf-to-html/ | Publish a PDF as a web page. | PHP |
+| PPTX to HTML | /slides/python-net/conversion/pptx-to-html/ | Publish a deck as a web page. | Python |
+| PPTX to PPT | /slides/java/conversion/pptx-to-ppt/ | The same down-conversion on the JVM. | Java |
+| Merge PPT | /slides/python-net/merge/ppt/ | Combine several PPT files into one. | Python |
+| PNG to PPTX | /slides/net/conversion/png-to-pptx/ | Build a deck from PNG images. | C# |
+| Image to JPG | /slides/php-java/conversion/image-to-jpg/ | Convert image files to JPG. | PHP |
+| PPT to PPTX | /slides/nodejs-net/conversion/ppt-to-pptx/ | Modernise a legacy deck from Node.js. | JavaScript |
+| Image to PPT | /slides/net/conversion/image-to-ppt/ | Put image files onto slides from C#. | C# |
+| PPTX to PPT | /slides/nodejs-net/conversion/pptx-to-ppt/ | The same down-conversion from Node.js. | JavaScript |
+| HTML to PPT | /slides/java/conversion/html-to-ppt/ | Markup in, binary PPT out, on the JVM. | Java |
+| PPTX to HTML | /slides/nodejs-net/conversion/pptx-to-html/ | Publish a deck as a web page from Node.js. | JavaScript |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit." >}}
 
@@ -125,6 +184,8 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 
 - [Documentation](https://docs.aspose.com/slides/)
 - [API reference](https://reference.aspose.com/slides/)
+- [Why Aspose.Slides](/slides/benefits/)
+- [Compared with python-pptx](/slides/python-net/python-pptx-comparison/)
 - [Support forum](https://forum.aspose.com/c/slides/)
 - [Case studies](https://about.aspose.com/customers/success-stories/)
 

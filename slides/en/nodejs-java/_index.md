@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Node.js via Java PowerPoint API by Aspose.Slides"
 weight: 5890
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/nodejs-java/"
   note="Full API on trial · watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Windows, Linux and macOS, wherever Node.js and a JDK both run. The package is the Java engine driven through the node-java bridge, so a JDK 8 or later must be installed and JAVA_HOME set; a JVM is loaded into your Node process rather than a native library. Installing the bridge compiles a native addon, which needs node-gyp and a C++ toolchain: Build Tools on Windows, build-essential and Python on Linux, Xcode Command Line Tools on macOS. Linux containers should also carry a font package, so text is not silently substituted. No Microsoft Office installation on the machine that runs it."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -175,6 +175,18 @@ try {
 ```
 
 {{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/nodejs-java/conversion/ | Convert between presentation, document and image formats. | JavaScript | conversion |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 

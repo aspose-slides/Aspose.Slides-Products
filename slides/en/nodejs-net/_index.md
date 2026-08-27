@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Node.js via .NET PowerPoint API by Aspose.Slides"
 weight: 5890
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/nodejs-net/"
   note="Full API on trial · watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Windows, Linux and macOS, on Node.js with a .NET 6 or later runtime installed. The package carries its own native rendering libraries, x86 and x64 on Windows, x64 on Linux, and both Intel and Apple Silicon on macOS, and pulls in the edge-js bridge as an npm dependency. No Microsoft Office, no COM automation, no display server."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -146,6 +146,18 @@ target.dispose();
 ```
 
 {{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/nodejs-net/conversion/ | Convert between presentation, document and image formats. | JavaScript | conversion |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 

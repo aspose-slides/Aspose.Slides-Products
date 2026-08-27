@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Java PowerPoint API | Aspose.Slides for Java"
 weight: 6330
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/java/"
   note="Full API on trial · watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Java 6 and later, on Windows, Linux, Unix, macOS and containers. Aspose.Slides for Java is a pure-Java JAR with no declared dependencies and no native library, so a JVM is very nearly the whole prerequisite list; the exception is rendering, where a bare Linux image also needs fontconfig and installed fonts before PDF or image output looks right. The artifact resolves only from the Aspose repository at https://releases.aspose.com/java/repo/ and is not published to Maven Central, so a bare com.aspose:aspose-slides coordinate will fail until you add that repository. No Office install, no COM automation, no X display."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -209,6 +209,30 @@ public class MergePresentations {
 ```
 
 {{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/java/conversion/ | Convert between presentation, document and image formats. | Java | conversion |
+| Merger | /slides/java/merger/ | Combine several presentations, documents or images into one file. | Java | merger |
+| Editor | /slides/java/editor/ | Open a file, change it and write it back, format by format. | Java | editor |
+| Viewer | /slides/java/viewer/ | Open a presentation and render it for viewing. | Java | viewer |
+| Parser | /slides/java/parser/ | Extract text, images, audio and video from a presentation. | Java | parser |
+| Metadata | /slides/java/metadata/ | Read and write presentation document properties. | Java | metadata |
+| Watermark | /slides/java/watermark/ | Add a text or image watermark. | Java | watermark |
+| Protect | /slides/java/protect/ | Password-protect a presentation. | Java | protect |
+| Unlock | /slides/java/unlock/ | Remove password protection. | Java | unlock |
+| Redaction | /slides/java/redaction/ | Find and replace sensitive text. | Java | redaction |
+| Search | /slides/java/search/ | Find text across the slides of a presentation. | Java | search |
+| Annotation | /slides/java/annotation/ | Remove comments and annotations. | Java | annotation |
+| Chart | /slides/java/chart/ | Create and edit charts on slides. | Java | chart |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 

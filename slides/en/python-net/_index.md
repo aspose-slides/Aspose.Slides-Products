@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Aspose.Slides for Python: PowerPoint API for PPTX and PPT"
 weight: 5860
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/python-net/"
   note="Full API on trial · watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Windows, Linux and macOS on CPython 3.5 or later. The wheel is a compiled binding rather than pure Python, and it ships the .NET runtime it needs inside the package, so there is no .NET SDK to install and no JVM in the stack. Linux and macOS additionally need libgdiplus (apt-get install libgdiplus, or brew install mono-libgdiplus), the native dependencies of the .NET Core runtime and a Python built with a shared libpython; on Windows the wheel alone is enough. Containers are fine, and a minimal image should add libgdiplus and at least one font package."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -149,6 +149,30 @@ with slides.Presentation(parts[0]) as deck:
 
 {{< /blocks/products/pf/slides-task-tabs >}}
 
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/python-net/conversion/ | Convert between presentation, document and image formats. | Python | conversion |
+| Merger | /slides/python-net/merge/ | Combine several presentations, documents or images into one file. | Python | merge |
+| Editor | /slides/python-net/editor/ | Open a file, change it and write it back, format by format. | Python | editor |
+| Viewer | /slides/python-net/viewer/ | Open a presentation and render it for viewing. | Python | viewer |
+| Parser | /slides/python-net/parser/ | Extract text, images, audio and video from a presentation. | Python | parser |
+| Metadata | /slides/python-net/metadata/ | Read and write presentation document properties. | Python | metadata |
+| Watermark | /slides/python-net/watermark/ | Add a text or image watermark. | Python | watermark |
+| Protect | /slides/python-net/protect/ | Password-protect a presentation. | Python | protect |
+| Unlock | /slides/python-net/unlock/ | Remove password protection. | Python | unlock |
+| Redaction | /slides/python-net/redaction/ | Find and replace sensitive text. | Python | redaction |
+| Search | /slides/python-net/search/ | Find text across the slides of a presentation. | Python | search |
+| Annotation | /slides/python-net/annotation/ | Remove comments and annotations. | Python | annotation |
+| Chart | /slides/python-net/chart/ | Create and edit charts on slides. | Python | chart |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
+
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
 {{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="One object model covers the whole file - slides, layouts and masters, shapes and text, tables, charts, SmartArt, animation, media, comments and speaker notes - all of it reachable as ordinary Python objects." >}}
@@ -206,6 +230,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 - [API reference](https://reference.aspose.com/slides/python-net/)
 - [Support forum](https://forum.aspose.com/c/slides/)
 - [Installation](https://docs.aspose.com/slides/python-net/installation/)
+- [Compared with python-pptx](/slides/python-net/python-pptx-comparison/)
 
 ## In use
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "PHP PowerPoint API for PPT, PPTX, and ODP Presentations"
 weight: 5890
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/php-java/"
   note="Full API on trial · watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Anywhere a Java runtime runs: Windows, Linux and macOS, 32-bit or 64-bit. You need PHP 7.0 or later with allow_url_include on, a JRE 8 or later with JAVA_HOME set, and the PHP/Java Bridge deployed as JavaBridge.war in a servlet container such as Tomcat, with the package's aspose-slides JAR copied into JavaBridge/WEB-INF/lib. PHP 8 hosts swap in the Java.inc from Java.inc.php8.zip that ships in the package. Note that files are opened and written by the JVM, not by PHP, so relative paths resolve against the servlet container's working directory - use absolute paths. Aspose's reference container is Ubuntu 20.04 with OpenJDK 8, Tomcat 9 and php-cli, and carries no Microsoft Office and no X display."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -213,6 +213,20 @@ try {
 ```
 
 {{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/php-java/conversion/ | Convert between presentation, document and image formats. | PHP | conversion |
+| Merger | /slides/php-java/merger/ | Combine several presentations, documents or images into one file. | PHP | merger |
+| Editor | /slides/php-java/editor/ | Open a file, change it and write it back, format by format. | PHP | editor |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 

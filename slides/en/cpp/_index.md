@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-26
+lastmod: 2026-08-28
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides for C++"
 weight: 6580
@@ -19,7 +19,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/cpp/"
   note="Full API on trial · watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
-  jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
+  jump="Code|#tasks, Operations|#operations, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
   runsOn="Windows with Visual Studio 2017 or later. Linux with GCC 6.1 or Clang 3.9 on glibc 2.23 or later, which covers Ubuntu 16.04, CentOS 8, Fedora 24 and anything newer. macOS Monterey 12.1 or later with Xcode 13.4. CMake 3.18 or later anywhere outside Visual Studio. Prebuilt x86_64 binaries on all three platforms, arm64 as well on macOS, and a separate package for 32-bit Windows. No .NET runtime and no JVM anywhere in the chain. On a minimal Linux or macOS image install a common font package, or rendered text falls back to whatever happens to be present and the metrics shift."
   cloudNote="Prefer not to host it yourself? The same work is available as a hosted REST API through [Aspose.Slides Cloud](https://products.aspose.cloud/slides/family/)."
@@ -249,6 +249,30 @@ int main()
 ```
 
 {{< /blocks/products/pf/slides-task-tabs >}}
+
+{{< blocks/products/pf/slides-solution-platforms
+  id="operations"
+  title="Browse by operation"
+  lede="Each operation has its own page, listing the formats it covers with a code sample for each."
+>}}
+
+| Operation | Href | Note | Language | Icon |
+|---|---|---|---|---|
+| Conversion | /slides/cpp/conversion/ | Convert between presentation, document and image formats. | C++ | conversion |
+| Merger | /slides/cpp/merger/ | Combine several presentations, documents or images into one file. | C++ | merger |
+| Editor | /slides/cpp/editor/ | Open a file, change it and write it back, format by format. | C++ | editor |
+| Viewer | /slides/cpp/viewer/ | Open a presentation and render it for viewing. | C++ | viewer |
+| Parser | /slides/cpp/parser/ | Extract text, images, audio and video from a presentation. | C++ | parser |
+| Metadata | /slides/cpp/metadata/ | Read and write presentation document properties. | C++ | metadata |
+| Watermark | /slides/cpp/watermark/ | Add a text or image watermark. | C++ | watermark |
+| Protect | /slides/cpp/protect/ | Password-protect a presentation. | C++ | protect |
+| Unlock | /slides/cpp/unlock/ | Remove password protection. | C++ | unlock |
+| Redaction | /slides/cpp/redaction/ | Find and replace sensitive text. | C++ | redaction |
+| Search | /slides/cpp/search/ | Find text across the slides of a presentation. | C++ | search |
+| Annotation | /slides/cpp/annotation/ | Remove comments and annotations. | C++ | annotation |
+| Chart | /slides/cpp/chart/ | Create and edit charts on slides. | C++ | chart |
+
+{{< /blocks/products/pf/slides-solution-platforms >}}
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
