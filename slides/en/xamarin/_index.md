@@ -204,7 +204,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 ## Resources
 
 - [Documentation](https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/)
-- [API reference](https://reference.aspose.com/slides/xamarin/)
+- [API reference](https://reference.aspose.com/slides/net/)
 - [Support forum](https://forum.aspose.com/c/slides/)
 - [Installation](https://docs.aspose.com/slides/xamarin/installation/)
 

@@ -16,7 +16,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   h1="PowerPoint files, on .NET Core."
   sub="There is no separate .NET Core product, package or download. Aspose.Slides for .NET Core is Aspose.Slides for .NET — the same Aspose.Slides.NET NuGet package, the same download, the same API — resolved against a .NET Core or .NET 6 and later target framework. The same C# creates, edits, converts and renders PowerPoint and OpenDocument presentations on Windows, Linux and macOS, inside your own process, with no Office install and no COM automation."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
-  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/display/slidesnet/Home"
+  ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/getting-started/"
   note="Same package as the .NET build · full API on trial · evaluation watermark on open and save"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
   jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
@@ -195,7 +195,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 
 ## Resources
 
-- [Documentation](https://docs.aspose.com/display/slidesnet/Home)
+- [Documentation](https://docs.aspose.com/slides/net/getting-started/)
 - [API reference](https://reference.aspose.com/slides/net-core/)
 - [Support forum](https://forum.aspose.com/c/slides/)
 - [Installation](https://docs.aspose.com/slides/net-core/installation/)
