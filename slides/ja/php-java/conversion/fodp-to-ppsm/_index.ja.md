@@ -16,11 +16,11 @@ description: FODPからPPSMへのPHP変換のサンプルコード。 FODPファ
 
 {{% blocks/products/pf/agp/content h2="PHPでFODPをPPSMに変換する" %}}
 
-プログラムでFODPファイルをPPSMに変換する必要がありますか？ [* Aspose.Slides for PHP via Java *]（https://products.aspose.com/slides/ja/php-java/）を使用すると、開発者は数行のPHPコードでFODPをPPSM形式に変換できます。 。
+プログラムでFODPファイルをPPSMに変換する必要がありますか？ [* Aspose.Slides for PHP via Java *](https://products.aspose.com/slides/ja/php-java/)を使用すると、開発者は数行のPHPコードでFODPをPPSM形式に変換できます。 。
 
-最新のプレゼンテーション処理APIとして、Aspose.SlidesforPHPはFODPからPPSMをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion）でFODPからPPSMへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、FODPファイルを多くの一般的な形式に変換できます。
+最新のプレゼンテーション処理APIとして、Aspose.SlidesforPHPはFODPからPPSMをすばやく作成します。 [ブラウザ](https://products.aspose.app/slides/conversion)でFODPからPPSMへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、FODPファイルを多くの一般的な形式に変換できます。
 
-次のコマンドを使用して、[Composer]（https://packagist.org/packages/aspose/slides）からライブラリをインストールできます。
+次のコマンドを使用して、[Composer](https://packagist.org/packages/aspose/slides)からライブラリをインストールできます。
 
 {{% blocks/products/pf/agp/code-block title="コンソール/ターミナル" offSpacer="true" %}}
 
@@ -65,7 +65,7 @@ FODPファイルは指定されたパスに保存されます
 
 1. PHP 7をインストールし、PHPへのパスをシステムの `PATH`変数に追加し、`php.ini`ファイルで`allow_url_include`を`On`に設定します。
 1.JREをインストールします。8。`JAVA_HOME`環境変数をインストールされたJREの場所へのパスとして設定します。
-1. Apache Tomcat 8.0をインストールします（[詳細]（https://docs.aspose.com/slides/php-java/installation/）を参照）。 
+1. Apache Tomcat 8.0をインストールします（[詳細](https://docs.aspose.com/slides/php-java/installation/)を参照）。 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

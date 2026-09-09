@@ -16,9 +16,9 @@ description: Windows 32ビット、Windows 64ビット、およびLinux64ビッ�
 {{% blocks/products/pf/agp/content h2="C++を使用してPPTXファイルチャートを作成する方法" %}}
 
  PPTXファイルを検索するには、
- [Aspose.Slides for C ++]（https://products.aspose.com/slides/cpp）
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)
  機能豊富で強力で使いやすいC++プラットフォーム用のドキュメント検索APIであるAPI。最新バージョンを直接ダウンロードできます。開くだけです。
- [NuGet]（https://www.nuget.org/packages/aspose.slides）
+ [NuGet](https://www.nuget.org/packages/aspose.slides)
  パッケージマネージャー、検索
  ** Aspose.Slides.Cpp **
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++でPPTXファイルチャートを作成する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C ++]（https://products.aspose.com/slides/cpp）APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C ++](https://products.aspose.com/slides/cpp)APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 プレゼンテーションクラスをインスタンス化します。
@@ -200,7 +200,7 @@ pres->Save(outputFilePath, Aspose::Slides::Export::SaveFormat::Pptx);
     {{% blocks/products/pf/agp/content h2="Aspose.Slides for C++APIについて" %}}
 
  今すぐPPTXドキュメントチャートを生成するには、
- [ライブデモのウェブサイト]（https://products.aspose.app/slides/chart）
+ [ライブデモのウェブサイト](https://products.aspose.app/slides/chart)
  。ライブデモには次の利点があります
 
 

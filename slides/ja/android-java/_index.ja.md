@@ -161,7 +161,7 @@ Oleオブジェクトのサポート
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for Android APIは、ネイティブの[PowerPoint形式]（https://docs.aspose.com/slides/java/supported-file-formats/）と多くの変換形式をサポートしています。" >}}
+{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for Android APIは、ネイティブの[PowerPoint形式](https://docs.aspose.com/slides/java/supported-file-formats/)と多くの変換形式をサポートしています。" >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">

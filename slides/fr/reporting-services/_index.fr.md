@@ -153,7 +153,7 @@ modes
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides for Reporting Services prend en charge les [formats de fichier] de présentation les plus couramment utilisés (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" description="Aspose.Slides for Reporting Services prend en charge les [formats de fichier de présentation les plus couramment utilisés](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">

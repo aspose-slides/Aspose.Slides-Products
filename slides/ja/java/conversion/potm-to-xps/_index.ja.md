@@ -16,9 +16,9 @@ description: POTM形式からXPSファイルへのサンプルJava変換コー�
 {{% blocks/products/pf/agp/content h2="Javaを使用してPOTMをXPSに変換する方法" %}}
 
  POTMをXPSにレンダリングするために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ja/java)
  機能豊富で強力で使いやすいJavaプラットフォーム用の変換APIであるAPI。最新バージョンはから直接ダウンロードできます
- [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
 
 {{% blocks/products/pf/agp/code-block title="リポジトリ" offSpacer="true" %}}
@@ -42,8 +42,8 @@ description: POTM形式からXPSファイルへのサンプルJava変換コー�
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
-    <version>version of aspose-slides API</version>
-    <classifier>jdk17</classifier>
+    <version>26.8</version>
+    <classifier>jdk16</classifier>
 </dependency>
 ```
 

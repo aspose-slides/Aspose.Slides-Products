@@ -16,9 +16,9 @@ description: Windows 32ビット、Windows 64ビット、およびLinux64ビッ�
 {{% blocks/products/pf/agp/content h2="C++を使用してPPTXファイルを解析する方法" %}}
 
  PPTXファイルを解析するために、
- [Aspose.Slides for C ++]（https://products.aspose.com/slides/ja/cpp）
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ja/cpp)
  機能が豊富で強力で使いやすいC++プラットフォーム用のドキュメント解析APIであるAPI。最新バージョンを直接ダウンロードできます。開くだけです。
- [NuGet]（https://www.nuget.org/packages/aspose.slides）
+ [NuGet](https://www.nuget.org/packages/aspose.slides)
  パッケージマネージャー、検索
  ** Aspose.Slides.Cpp **
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.Slides.Cpp
 
 {{< blocks/products/pf/agp/feature-section-col title="C++でPPTXファイルを解析する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C ++]（https://products.aspose.com/slides/ja/cpp）APIを使用した基本的なドキュメントの解析は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for C ++](https://products.aspose.com/slides/ja/cpp)APIを使用した基本的なドキュメントの解析は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 PPTXファイルをロードします。

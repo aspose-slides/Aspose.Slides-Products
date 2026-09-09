@@ -42,8 +42,8 @@ description: Java 示例代码，用于从 JSP/JSF 应用程序和桌面应用�
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
-    <version>version of aspose-slides API</version>
-    <classifier>jdk17</classifier>
+    <version>26.8</version>
+    <classifier>jdk16</classifier>
 </dependency>
 ```
 
@@ -88,7 +88,7 @@ description: Java 示例代码，用于从 JSP/JSF 应用程序和桌面应用�
 
 - 适用于 JSP/JSF 应用程序和桌面应用程序的 Microsoft Windows 或具有 Java 运行时环境的兼容操作系统。
 - 直接从 Java 获取最新版本的 Aspose.Slides
- [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）。
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)。
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

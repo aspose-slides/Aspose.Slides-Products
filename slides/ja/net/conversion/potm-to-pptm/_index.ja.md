@@ -16,9 +16,9 @@ description: POTMからPPTMへのC＃変換のサンプルコード。 VB.NET、
 {{% blocks/products/pf/agp/content h2="C＃を使用してPOTMをPPTMに変換する方法" %}}
 
  POTMをPPTMに変換するには、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net)
  機能が豊富で強力で使いやすいC＃プラットフォーム用のドキュメント操作および変換APIであるAPI。開ける
- [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  パッケージマネージャー、検索
  Aspose.Slides
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。

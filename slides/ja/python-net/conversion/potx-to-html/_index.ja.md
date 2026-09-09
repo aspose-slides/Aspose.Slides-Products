@@ -16,11 +16,11 @@ description: POTXからHTMLPythonへの変換のサンプルコード。 PowerPo
 
 {{% blocks/products/pf/agp/content h2="PythonでPOTXをHTMLに変換する" %}}
 
-プログラムでPOTXファイルをHTMLに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/ja/python-net/）を使用すると、開発者は数行のPythonコードでPOTXをHTML形式に変換できます。
+プログラムでPOTXファイルをHTMLに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *](https://products.aspose.com/slides/ja/python-net/)を使用すると、開発者は数行のPythonコードでPOTXをHTML形式に変換できます。
 
-最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPOTXからHTMLをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion）でPOTXからHTMLへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、POTXファイルを多くの一般的な形式に変換できます。
+最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPOTXからHTMLをすばやく作成します。 [ブラウザ](https://products.aspose.app/slides/conversion)でPOTXからHTMLへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、POTXファイルを多くの一般的な形式に変換できます。
 
-次のpipコマンドを使用して、[PyPI]（https://pypi.org/project/Aspose.Slides/）からライブラリをインストールできます。
+次のpipコマンドを使用して、[PyPI](https://pypi.org/project/Aspose.Slides/)からライブラリをインストールできます。
 
 {{% blocks/products/pf/agp/code-block title="コンソール/ターミナル" offSpacer="true" %}}
 
@@ -63,7 +63,7 @@ POTXファイルは指定されたパスに保存されます
 
 {{% /blocks/products/pf/agp/text %}}
 
--Microsoft WindowsまたはLinuxベースのOS（[詳細]（https://docs.aspose.com/slides/python-net/system-requirements/）を参照）。
+-Microsoft WindowsまたはLinuxベースのOS（[詳細](https://docs.aspose.com/slides/python-net/system-requirements/)を参照）。
 -Python3.5以降
 -プロジェクトで参照されているPython用のAspose.Slides。
 

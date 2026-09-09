@@ -42,8 +42,8 @@ description: Kode sampel Java untuk menggambar dan mengonversi bagan atau diagra
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
-    <version>version of aspose-slides API</version>
-    <classifier>jdk17</classifier>
+    <version>26.8</version>
+    <classifier>jdk16</classifier>
 </dependency>
 ```
 

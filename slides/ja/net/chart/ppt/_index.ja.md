@@ -16,9 +16,9 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 {{% blocks/products/pf/agp/content h2="C＃を使用してPPTチャートを作成する方法" %}}
 
  PPTチャートを作成するために、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net)
  C＃プラットフォーム用の機能豊富で強力で使いやすいドキュメント操作APIであるAPI。開ける
- [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  パッケージマネージャー、検索
  ** Aspose.Slides **
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.Slides.NET
 
 {{< blocks/products/pf/agp/feature-section-col title="C＃でPPTファイルチャートを作成する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net)APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentationクラスオブジェクトを作成します。

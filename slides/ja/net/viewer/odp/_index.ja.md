@@ -16,9 +16,9 @@ description: .NET Framework、.NET Core、Windows Azure、Mono、またはXamari
 {{% blocks/products/pf/agp/content h2="C＃を使用してODPファイルを表示する方法" %}}
 
  ODPファイルを表示するには、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net)
  APIは、機能が豊富で強力で使いやすいC＃プラットフォーム用のAPIであり、任意のビューアで使用できます。開ける
- [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  パッケージマネージャー、検索
  ** Aspose.Slides **
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。

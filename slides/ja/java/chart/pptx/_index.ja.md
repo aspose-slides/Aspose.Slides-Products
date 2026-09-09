@@ -16,9 +16,9 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 {{% blocks/products/pf/agp/content h2="Javaを使用してPPTXファイルチャートを作成する方法" %}}
 
  PPTXファイルチャートを作成するために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ja/java)
  機能豊富で強力で使いやすいJavaプラットフォーム用のチャートAPIであるAPI。最新バージョンはから直接ダウンロードできます
- [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
 
 {{% blocks/products/pf/agp/code-block title="リポジトリ" offSpacer="true" %}}
@@ -42,8 +42,8 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
-    <version>version of aspose-slides API</version>
-    <classifier>jdk17</classifier>
+    <version>26.8</version>
+    <classifier>jdk16</classifier>
 </dependency>
 ```
 
@@ -56,7 +56,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 
 {{< blocks/products/pf/agp/feature-section-col title="JavaでPPTXファイルチャートを作成する手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/ja/java)APIを使用した基本的なドキュメントのグラフ作成は、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentationクラスオブジェクトをインスタンス化します。
@@ -128,7 +128,7 @@ Presentationクラスオブジェクトをインスタンス化します。
 
 -MicrosoftWindowsまたはJSP/JSFアプリケーションおよびデスクトップアプリケーション用のJavaランタイム環境と互換性のあるOS。
 -最新バージョンのAspose.SlidesforJavaを直接入手する
- [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）。
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)。
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -233,7 +233,7 @@ pres.save("AsposeChart.pptx",SaveFormat.Pptx);
     {{% blocks/products/pf/agp/content h2="Aspose.Slides forJavaAPIについて" %}}
 
  今すぐPPTXドキュメントチャートを生成するには、
- [ライブデモのウェブサイト]（https://products.aspose.app/slides/chart）
+ [ライブデモのウェブサイト](https://products.aspose.app/slides/chart)
  。ライブデモには次の利点があります
 
 

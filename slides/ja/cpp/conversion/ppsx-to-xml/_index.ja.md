@@ -16,9 +16,9 @@ description: PPSXドキュメントからXML形式へのサンプルC++変換コ
 {{% blocks/products/pf/agp/content h2="C++を使用してPPSXをXMLに変換する方法" %}}
 
  PPSXをXMLに変換するために、
- [Aspose.Slides for C ++]（https://products.aspose.com/slides/ja/cpp）
+ [Aspose.Slides for C ++](https://products.aspose.com/slides/ja/cpp)
  機能が豊富で強力で使いやすいC++プラットフォーム用のドキュメント操作および変換APIであるAPI。最新バージョンを直接ダウンロードできます。開くだけです。
- [NuGet]（https://www.nuget.org/packages/aspose.slides）
+ [NuGet](https://www.nuget.org/packages/aspose.slides)
  パッケージマネージャー、検索
  Aspose.Slides.Cpp
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。

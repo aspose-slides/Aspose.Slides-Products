@@ -342,7 +342,7 @@ JSP/JSFアプリケーション
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for Java APIは、次の[プレゼンテーション]（https://docs.aspose.com/slides/java/supported-file-formats/）および変換形式をサポートしています。" >}}
+{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for Java APIは、次の[プレゼンテーション](https://docs.aspose.com/slides/java/supported-file-formats/)および変換形式をサポートしています。" >}}
 <div class="diagram1 d2 d1-java">
  <div class="d1-row">
   <div class="d1-col d1-left">

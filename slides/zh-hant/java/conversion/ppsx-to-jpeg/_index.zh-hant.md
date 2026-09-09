@@ -42,8 +42,8 @@ description: PPSX 格式到 JPEG 文件的示例 Java 轉換代碼。使用此�
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
-    <version>version of aspose-slides API</version>
-    <classifier>jdk17</classifier>
+    <version>26.8</version>
+    <classifier>jdk16</classifier>
 </dependency>
 ```
 

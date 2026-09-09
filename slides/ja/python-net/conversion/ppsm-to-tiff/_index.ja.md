@@ -16,11 +16,11 @@ description: PPSMからTIFFPythonへの変換のサンプルコード。 PowerPo
 
 {{% blocks/products/pf/agp/content h2="PythonでPPSMをTIFFに変換する" %}}
 
-プログラムでPPSMファイルをTIFFに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *]（https://products.aspose.com/slides/ja/python-net/）を使用すると、開発者は数行のPythonコードでPPSMをTIFF形式に変換できます。
+プログラムでPPSMファイルをTIFFに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *](https://products.aspose.com/slides/ja/python-net/)を使用すると、開発者は数行のPythonコードでPPSMをTIFF形式に変換できます。
 
-最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPPSMからTIFFをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion）でPPSMからTIFFへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、PPSMファイルを多くの一般的な形式に変換できます。
+最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPPSMからTIFFをすばやく作成します。 [ブラウザ](https://products.aspose.app/slides/conversion)でPPSMからTIFFへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、PPSMファイルを多くの一般的な形式に変換できます。
 
-次のpipコマンドを使用して、[PyPI]（https://pypi.org/project/Aspose.Slides/）からライブラリをインストールできます。
+次のpipコマンドを使用して、[PyPI](https://pypi.org/project/Aspose.Slides/)からライブラリをインストールできます。
 
 {{% blocks/products/pf/agp/code-block title="コンソール/ターミナル" offSpacer="true" %}}
 
@@ -63,7 +63,7 @@ PPSMファイルは指定されたパスに保存されます
 
 {{% /blocks/products/pf/agp/text %}}
 
--Microsoft WindowsまたはLinuxベースのOS（[詳細]（https://docs.aspose.com/slides/python-net/system-requirements/）を参照）。
+-Microsoft WindowsまたはLinuxベースのOS（[詳細](https://docs.aspose.com/slides/python-net/system-requirements/)を参照）。
 -Python3.5以降
 -プロジェクトで参照されているPython用のAspose.Slides。
 

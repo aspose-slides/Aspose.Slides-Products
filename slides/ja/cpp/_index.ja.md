@@ -448,7 +448,7 @@ ActiveXシェイプをサポート
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="プラットフォームの独立性" description="Aspose.Slides for C ++は、[システム要件]（https://docs.aspose.com/slides/cpp/system-requirements/）を使用して次のプラットフォームで開発されたC++アプリケーションをサポートします。" >}}
+{{< blocks/products/pf/carousel-item h3="プラットフォームの独立性" description="Aspose.Slides for C ++は、[システム要件](https://docs.aspose.com/slides/cpp/system-requirements/)を使用して次のプラットフォームで開発されたC++アプリケーションをサポートします。" >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -494,7 +494,7 @@ ActiveXシェイプをサポート
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for C ++ APIは、[PowerPoint形式]（https://docs.aspose.com/slides/cpp/supported-file-formats/）と多くの変換形式をサポートしています。" >}}
+{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for C ++ APIは、[PowerPoint形式](https://docs.aspose.com/slides/cpp/supported-file-formats/)と多くの変換形式をサポートしています。" >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -35,7 +35,7 @@ PM> Install-Package Aspose.Slides
 {{% blocks/products/pf/agp/text %}}
 
  を使用した基本的なドキュメント編集
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net)
  APIは、ほんの数行のコードで実行できます。
 
 {{% /blocks/products/pf/agp/text %}}

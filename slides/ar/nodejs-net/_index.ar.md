@@ -346,7 +346,7 @@ finally
         {{< blocks/products/pf/slr-element name="دعم مجاني" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="الدعم المدفوع" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="مدونة" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="ملاحظات الإصدار" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="ملاحظات الإصدار" href="https://docs.aspose.com/slides/nodejs-net/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="لماذا Aspose.Slides لـ Node.js عبر .NET؟" tabId="success-stories" >}}

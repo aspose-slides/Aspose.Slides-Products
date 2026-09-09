@@ -16,9 +16,9 @@ description: OTPからBMPC＃への変換のサンプルコード。 VB.NET、As
 {{% blocks/products/pf/agp/content h2="C＃を使用してOTPをBMPに変換する方法" %}}
 
  OTPをBMPに変換するには、
- [Aspose.Slides for .NET]（https://products.aspose.com/slides/ja/net）
+ [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net)
  機能が豊富で強力で使いやすいC＃プラットフォーム用のドキュメント操作および変換APIであるAPI。開ける
- [NuGet]（https://www.nuget.org/packages/aspose.slides.net）
+ [NuGet](https://www.nuget.org/packages/aspose.slides.net)
  パッケージマネージャー、検索
  Aspose.Slides
  とインストールします。パッケージマネージャーコンソールから次のコマンドを使用することもできます。

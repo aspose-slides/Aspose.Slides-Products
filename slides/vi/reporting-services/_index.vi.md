@@ -153,7 +153,7 @@ Phong cách
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Các định dạng tệp được hỗ trợ" description="Aspose.Slides for Reporting Services hỗ trợ hầu hết các [định dạng tệp] bản trình bày được sử dụng phổ biến nhất (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Các định dạng tệp được hỗ trợ" description="Aspose.Slides for Reporting Services hỗ trợ hầu hết các [định dạng tệp bản trình bày được sử dụng phổ biến nhất](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">

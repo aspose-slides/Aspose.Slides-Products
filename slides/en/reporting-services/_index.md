@@ -98,7 +98,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 ## Resources
 
 - [Documentation](https://docs.aspose.com/slides/reportingservices/)
-- [API reference](https://reference.aspose.com/slides/reporting-services/)
+- [API reference](https://reference.aspose.com/slides/)
 - [Support forum](https://forum.aspose.com/c/slides/)
 - [Installation](https://docs.aspose.com/slides/reporting-services/installation/)
 

@@ -16,11 +16,11 @@ description: POTMからPNGへのPHP変換のサンプルコード。 POTMファ�
 
 {{% blocks/products/pf/agp/content h2="PHPでPOTMをPNGに変換する" %}}
 
-プログラムでPOTMファイルをPNGに変換する必要がありますか？ [* Aspose.Slides for PHP via Java *]（https://products.aspose.com/slides/ja/php-java/）を使用すると、開発者は数行のPHPコードでPOTMをPNG形式に変換できます。 。
+プログラムでPOTMファイルをPNGに変換する必要がありますか？ [* Aspose.Slides for PHP via Java *](https://products.aspose.com/slides/ja/php-java/)を使用すると、開発者は数行のPHPコードでPOTMをPNG形式に変換できます。 。
 
-最新のプレゼンテーション処理APIとして、Aspose.SlidesforPHPはPOTMからPNGをすばやく作成します。 [ブラウザ]（https://products.aspose.app/slides/conversion/ppt-to-png）でPOTMからPNGへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、POTMファイルを多くの一般的な形式に変換できます。
+最新のプレゼンテーション処理APIとして、Aspose.SlidesforPHPはPOTMからPNGをすばやく作成します。 [ブラウザ](https://products.aspose.app/slides/conversion/ppt-to-png)でPOTMからPNGへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、POTMファイルを多くの一般的な形式に変換できます。
 
-次のコマンドを使用して、[Composer]（https://packagist.org/packages/aspose/slides）からライブラリをインストールできます。
+次のコマンドを使用して、[Composer](https://packagist.org/packages/aspose/slides)からライブラリをインストールできます。
 
 {{% blocks/products/pf/agp/code-block title="コンソール/ターミナル" offSpacer="true" %}}
 
@@ -65,7 +65,7 @@ POTMファイルは指定されたパスに保存されます
 
 1. PHP 7をインストールし、PHPへのパスをシステムの `PATH`変数に追加し、`php.ini`ファイルで`allow_url_include`を`On`に設定します。
 1.JREをインストールします。8。`JAVA_HOME`環境変数をインストールされたJREの場所へのパスとして設定します。
-1. Apache Tomcat 8.0をインストールします（[詳細]（https://docs.aspose.com/slides/php-java/installation/）を参照）。 
+1. Apache Tomcat 8.0をインストールします（[詳細](https://docs.aspose.com/slides/php-java/installation/)を参照）。 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

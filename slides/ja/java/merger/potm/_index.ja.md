@@ -16,9 +16,9 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 {{% blocks/products/pf/agp/content h2="Javaを使用してPOTMファイルをマージする方法" %}}
 
  POTMファイルをマージするために、
- [Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）
+ [Aspose.Slides for Java](https://products.aspose.com/slides/ja/java)
  機能豊富で強力で使いやすいJavaプラットフォーム用のマージAPIであるAPI。最新バージョンはから直接ダウンロードできます
- [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)
  次の構成をpom.xmlに追加して、Mavenベースのプロジェクトにインストールします。
 
 {{% blocks/products/pf/agp/code-block title="リポジトリ" offSpacer="true" %}}
@@ -42,8 +42,8 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
-    <version>version of aspose-slides API</version>
-    <classifier>jdk17</classifier>
+    <version>26.8</version>
+    <classifier>jdk16</classifier>
 </dependency>
 ```
 
@@ -56,7 +56,7 @@ description: JSP/JSFアプリケーションおよびデスクトップアプリ
 
 {{< blocks/products/pf/agp/feature-section-col title="JavaでPOTMファイルをマージする手順" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java]（https://products.aspose.com/slides/ja/java）APIとマージおよび連結する基本的なドキュメントは、わずか数行のコードで実行できます。" >}}
+{{< blocks/products/pf/agp/steps-block-autogen name="[Aspose.Slides for Java](https://products.aspose.com/slides/ja/java)APIとマージおよび連結する基本的なドキュメントは、わずか数行のコードで実行できます。" >}}
 
 {{< blocks/products/pf/agp/step-autogen >}}
 Presentationクラスのインスタンスを含む最初のPOTMファイルをロードします。
@@ -92,7 +92,7 @@ save（）メソッドを使用して、指定したパスに保存します
 
 -MicrosoftWindowsまたはJSP/JSFアプリケーションおよびデスクトップアプリケーション用のJavaランタイム環境と互換性のあるOS。
 -最新バージョンのAspose.SlidesforJavaを直接入手する
- [Maven]（https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides）。
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-slides)。
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

@@ -153,7 +153,7 @@ description: API PowerPoint служб Reporting Services — это Aspose.Slid
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Reporting Services поддерживает наиболее часто используемые [форматы файлов] презентаций (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Поддерживаемые форматы файлов" description="Aspose.Slides for Reporting Services поддерживает наиболее часто используемые [форматы файлов презентаций](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">

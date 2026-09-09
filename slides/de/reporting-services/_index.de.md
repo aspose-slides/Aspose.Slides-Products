@@ -153,7 +153,7 @@ Stile
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Unterstützte Dateiformate" description="Aspose.Slides for Reporting Services unterstützt die am häufigsten verwendeten [Dateiformate] für Präsentationen (https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Unterstützte Dateiformate" description="Aspose.Slides for Reporting Services unterstützt die am häufigsten verwendeten [Dateiformate für Präsentationen](https://docs.aspose.com/slides/reportingservices/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-rs">
  <div class="d1-row">
   <div class="d1-col d1-left">

@@ -346,7 +346,7 @@ finally
         {{< blocks/products/pf/slr-element name="Ücretsiz Destek" href="https://forum.aspose.com/c/slides" >}}
         {{< blocks/products/pf/slr-element name="Ücretli Destek" href="https://helpdesk.aspose.com/" >}}
         {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/slides/" >}}
-        {{< blocks/products/pf/slr-element name="Sürüm notları" href="https://docs.aspose.com/slides/nodejs-net/release-notes/" >}}
+        {{< blocks/products/pf/slr-element name="Sürüm notları" href="https://docs.aspose.com/slides/nodejs-net/" >}}
     {{< /blocks/products/pf/slr-tab >}}
 
     {{< blocks/products/pf/slr-tab tabTitle="Neden .NET aracılığıyla Node.js için Aspose.Slides?" tabId="success-stories" >}}

@@ -436,7 +436,7 @@ CentOS
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for PHP via Javaは、一般的な[プレゼンテーション形式]（https://docs.aspose.com/slides/php-java/supported-file-formats/）およびこれらのエクスポート形式をサポートしています。" >}}
+{{< blocks/products/pf/carousel-item h3="サポートされているファイル形式" description="Aspose.Slides for PHP via Javaは、一般的な[プレゼンテーション形式](https://docs.aspose.com/slides/php-java/supported-file-formats/)およびこれらのエクスポート形式をサポートしています。" >}}
 <div class="diagram1 d2 d1-php-java">
  <div class="d1-row">
   <div class="d1-col d1-left">
