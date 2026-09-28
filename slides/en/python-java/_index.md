@@ -37,8 +37,8 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 | Figure | Caption |
 |---|---|
-| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
-| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 187 / 80 | Shape types and chart types the API creates, each a real object that PowerPoint still recognises and lets a person edit. |
+| 12 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
 | 2 | Python packages pip installs: the Aspose.Slides wheel and the JPype1 bridge it pulls in with it. |
 | 1 | Java runtime you provide yourself. JRE 8 or newer, headless is fine, and no Microsoft Office anywhere. |
 
@@ -56,7 +56,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 |---|---|---|---|---|
 | Convert | One load, many output formats | PPTX -> PDF / HTML / TIFF | The rendering engine is inside the package. Nothing else to install. | https://docs.aspose.com/slides/java/converting-a-presentation/ |
 | Slide thumbnails | Images for a viewer or an index | PPTX -> PNG | getImage returns an IImage. The scale factors set the output resolution. | https://docs.aspose.com/slides/python-java/modern-api/ |
-| Charts from data | A real chart, still editable in PowerPoint | DATA -> PPTX | Chart data lives in an embedded workbook. 82 chart types. | https://docs.aspose.com/slides/java/create-chart/ |
+| Charts from data | A real chart, still editable in PowerPoint | DATA -> PPTX | Chart data lives in an embedded workbook. 80 chart types. | https://docs.aspose.com/slides/java/create-chart/ |
 | Protect | Encrypt the deck and the PDF you hand out | PPTX -> ENCRYPTED PPTX / PDF | The password applies to the deck and to the export. | https://docs.aspose.com/slides/java/password-protected-presentation/ |
 | Merge | Clone slides between decks, layouts intact | PPTX + PPTX -> PPTX | Layouts and masters travel with the cloned slide. | https://docs.aspose.com/slides/java/merge-presentation/ |
 
@@ -214,9 +214,10 @@ jpype.shutdownJVM()
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and replaces extracted text with an evaluation notice, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/python-java/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/python-java/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns

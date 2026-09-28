@@ -37,8 +37,8 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 | Figure | Caption |
 |---|---|
-| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
-| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 187 / 80 | Shape types and chart types the API creates, each a real object that PowerPoint still recognises and lets a person edit. |
+| 12 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
 | 1 | PyPI wheel, aspose-slides. It carries the compiled .NET engine inside it, so there is no .NET SDK to install and no JVM to run. |
 | 0 / 1 | Microsoft Office installs needed, and one native package on Linux and macOS: libgdiplus. On Windows the wheel alone is enough. |
 
@@ -198,9 +198,10 @@ with slides.Presentation(parts[0]) as deck:
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and replaces extracted text with an evaluation notice, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/python-net/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/python-net/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns

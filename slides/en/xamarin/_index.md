@@ -17,7 +17,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   sub="Aspose.Slides for Xamarin is not a separate product. It is Aspose.Slides for .NET referenced from a Xamarin project: the same NuGet package, Aspose.Slides.NET, the same download page, the same licence file. A Xamarin target restores and compiles against the package's netstandard2.0 asset, so the classes you call are the .NET classes. No Xamarin-specific assembly ships in the package any more — Aspose.Slides.Droid.dll last shipped in 22.10 and was gone from 22.11 — although the assembly still embeds Xamarin.Forms project templates among its XAML-export resources. What nobody has established since is how much of the library runs on an Android device: that asset depends on System.Drawing.Common, and Android has no GDI+ behind it."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/"
-  note="Full API on trial · evaluation watermark on open and save · text extraction returns only an evaluation notice"
+  note="Full API on trial · evaluation watermark on output · text read back cut to five characters"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
   jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
@@ -56,7 +56,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 | Open | Load a deck from a stream, in-process and offline. | STREAM -> PRESENTATION | The constructor does not dispose the stream — that is yours to close. By default (PresentationLockingBehavior.LoadAndRelease) it reads the source during construction and releases it, so the Presentation keeps working after you close the stream. Dispose the Presentation when you are done; until you do, the whole in-memory document stays alive. | https://reference.aspose.com/slides/net/aspose.slides/presentation/ |
 | Read text | Pull every word out of a deck without laying a slide out. | PPTX -> STRING | Unarranged is the faster of the two modes and is what the docs point at when speed matters; Arranged returns the text in on-slide order and is slower. Unlicensed, extraction returns no usable text: every slide's text comes back replaced by an evaluation notice, and the array is capped at two entries whatever the deck's length. | https://reference.aspose.com/slides/net/aspose.slides/presentationfactory/getpresentationtext/ |
 | Edit | Rewrite text in place and write the deck back out as PPTX. | PPTX -> PPTX | Setting portion.Text keeps that run's own font, size and colour. Setting textFrame.Text instead replaces every run in the frame and flattens it to the first run's look. | https://reference.aspose.com/slides/net/aspose.slides/iportion/text/ |
-| License | Apply the licence file once, at start-up. | STREAM -> LICENSE | Call it once before the first Presentation is constructed, from Application.OnCreate rather than from an activity. Unlicensed, an evaluation watermark is inserted on open and on save, and text extraction returns no usable text — every slide's text comes back replaced by an evaluation notice. It is the same .lic file the .NET build uses. | https://reference.aspose.com/slides/net/aspose.slides/license/setlicense/ |
+| License | Apply the licence file once, at start-up. | STREAM -> LICENSE | Call it once before the first Presentation is constructed, from Application.OnCreate rather than from an activity. Unlicensed, the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. It is the same .lic file the .NET build uses. | https://reference.aspose.com/slides/net/aspose.slides/license/setlicense/ |
 
 ```
 using System.IO;
@@ -175,9 +175,10 @@ public static void ApplyLicense(Stream licenseStream)
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/net/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns
@@ -206,7 +207,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 - [Documentation](https://docs.aspose.com/slides/net/aspose-slides-for-xamarin/)
 - [API reference](https://reference.aspose.com/slides/net/)
 - [Support forum](https://forum.aspose.com/c/slides/)
-- [Installation](https://docs.aspose.com/slides/xamarin/installation/)
+- [Installation](https://docs.aspose.com/slides/net/installation/)
 
 ## In use
 

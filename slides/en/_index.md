@@ -31,7 +31,7 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
   sub="Aspose.Slides creates, edits, converts and renders PowerPoint and OpenDocument presentations in .NET, Java, Python, C++, Node.js, Android and more. It runs in your process, on Windows, Linux or macOS, in a container or on a host, with no Office install."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/"
-  note="Full API on trial · watermark on open and save"
+  note="Full API on trial · watermark on output"
   moreText="C++, Android, PHP, SharePoint, JasperReports and more" moreUrl="#platforms"
   jump="Platforms|#platforms, What it does|#solutions, Example|#example, Formats|#formats, Conversions|#tasks, Capabilities|#capabilities, Licensing|#pricing"
   runsOnTitle="RUNS ON"
@@ -44,7 +44,7 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 | .NET | dotnet add package Aspose.Slides.NET |
 | Python | pip install aspose-slides |
 | Node.js | npm install aspose.slides.via.java |
-| Java | com.aspose:aspose-slides |
+| Java | mvn dependency:get -DremoteRepositories=https://releases.aspose.com/java/repo/ -Dartifact=com.aspose:aspose-slides:26.9:jar:jdk16 |
 
 {{< /blocks/products/pf/slides-hero >}}
 
@@ -52,9 +52,9 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 
 | Figure | Caption |
 |---|---|
-| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit after the file is written. |
-| 13 → 12 | Presentation formats read and written, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, plus 9 further export targets. |
-| 128 | Consecutive months with a release, on a published version stream. |
+| 187 / 80 | Shape types and chart types the API creates, each a real object that PowerPoint still recognises and lets a person edit after the file is written. |
+| 12 → 12 | Presentation formats read and written, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, plus 9 further export targets. |
+| Monthly | A new version of Aspose.Slides for .NET every month since December 2020. The [NuGet version list](https://www.nuget.org/packages/Aspose.Slides.NET#versions-body-tab) dates each one. |
 | 0 | Microsoft Office installs, GDI dependencies and X displays needed. A small Linux container is enough. |
 
 {{< /blocks/products/pf/slides-stat-row >}}
@@ -68,7 +68,7 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 {{< blocks/products/pf/slides-solution-platforms
   id="solutions"
   title="What people use it for"
-  lede="Fifteen task pages. Each one states what the operation does, then shows it in every platform that supports it, so you can read the code before you install anything."
+  lede="Fifteen jobs, one page each. Twelve of them link to per-platform pages, each leading to code samples. Splitting, comparison and signatures offer a free online app instead."
 >}}
 
 | Platform | Href | Note | Language |
@@ -121,42 +121,43 @@ That is the whole program: no PowerPoint, no headless Office, no template file t
 {{< blocks/products/pf/slides-solution-platforms
   id="tasks"
   title="The conversions people come here for"
-  lede="Every format pair below has its own page with a runnable sample. These are the ones readers of this site open most; each platform has the full matrix on its own conversion page."
-  allHref="/slides/conversion/" allText="Every conversion"
+  lede="Every row below has its own page with a runnable sample: eleven conversions and one merge, the ones readers of this site open most, with a row per language where more than one is popular. Eight platforms list every conversion they support on their own conversion page."
+  allHref="/slides/conversion/" allText="Every conversion, by platform"
 >}}
 
-| Platform | Href | Note | Language |
+| Conversion | Page | What it does | Language |
 |---|---|---|---|
 | HTML to PPTX | /slides/python-net/conversion/html-to-pptx/ | Turn an HTML report into an editable deck. | Python |
-| HTML to PPT | /slides/python-net/conversion/html-to-ppt/ | The same, written to the pre-2007 binary container. | Python |
-| PPTX to PPT | /slides/python-net/conversion/pptx-to-ppt/ | Down-convert for readers on older PowerPoint. | Python |
 | HTML to PPTX | /slides/net/conversion/html-to-pptx/ | The same conversion from a .NET service. | C# |
 | HTML to PPTX | /slides/java/conversion/html-to-pptx/ | The same conversion on the JVM. | Java |
+| HTML to PPT | /slides/python-net/conversion/html-to-ppt/ | The same, written to the pre-2007 binary container. | Python |
 | HTML to PPT | /slides/net/conversion/html-to-ppt/ | Markup in, binary PPT out, from C#. | C# |
-| PPTX to PDF | /slides/python-net/conversion/pptx-to-pdf/ | Render a deck to fixed-layout PDF. | Python |
-| PPT to PPTX | /slides/python-net/conversion/ppt-to-pptx/ | Bring a legacy deck onto the current format. | Python |
-| POT to PPT | /slides/nodejs-net/conversion/pot-to-ppt/ | Turn a PowerPoint template into a presentation. | JavaScript |
-| PDF to HTML | /slides/php-java/conversion/pdf-to-html/ | Publish a PDF as a web page. | PHP |
-| PPTX to HTML | /slides/python-net/conversion/pptx-to-html/ | Publish a deck as a web page. | Python |
-| PPTX to PPT | /slides/java/conversion/pptx-to-ppt/ | The same down-conversion on the JVM. | Java |
-| Merge PPT | /slides/python-net/merge/ppt/ | Combine several PPT files into one. | Python |
-| PNG to PPTX | /slides/net/conversion/png-to-pptx/ | Build a deck from PNG images. | C# |
-| Image to JPG | /slides/php-java/conversion/image-to-jpg/ | Convert image files to JPG. | PHP |
-| PPT to PPTX | /slides/nodejs-net/conversion/ppt-to-pptx/ | Modernise a legacy deck from Node.js. | JavaScript |
-| Image to PPT | /slides/net/conversion/image-to-ppt/ | Put image files onto slides from C#. | C# |
-| PPTX to PPT | /slides/nodejs-net/conversion/pptx-to-ppt/ | The same down-conversion from Node.js. | JavaScript |
 | HTML to PPT | /slides/java/conversion/html-to-ppt/ | Markup in, binary PPT out, on the JVM. | Java |
-| PPTX to HTML | /slides/nodejs-net/conversion/pptx-to-html/ | Publish a deck as a web page from Node.js. | JavaScript |
+| PNG to PPTX | /slides/net/conversion/png-to-pptx/ | Put one PNG image on a slide, stretched to fill it. | C# |
+| Image to PPT | /slides/net/conversion/image-to-ppt/ | The same for one image, saved as binary PPT. | C# |
+| PPTX to PPT | /slides/python-net/conversion/pptx-to-ppt/ | Down-convert for readers on older PowerPoint. | Python |
+| PPTX to PPT | /slides/java/conversion/pptx-to-ppt/ | The same down-conversion on the JVM. | Java |
+| PPTX to PPT | /slides/nodejs-java/conversion/pptx-to-ppt/ | The same down-conversion from Node.js. | JavaScript |
+| PPT to PPTX | /slides/python-net/conversion/ppt-to-pptx/ | Bring a legacy deck onto the current format. | Python |
+| PPT to PPTX | /slides/nodejs-java/conversion/ppt-to-pptx/ | Modernise a legacy deck from Node.js. | JavaScript |
+| POT to PPT | /slides/nodejs-java/conversion/pot-to-ppt/ | Turn a PowerPoint template into a presentation. | JavaScript |
+| PPTX to PDF | /slides/python-net/conversion/pptx-to-pdf/ | Render a deck to fixed-layout PDF. | Python |
+| PPTX to HTML | /slides/python-net/conversion/pptx-to-html/ | Publish a deck as a web page. | Python |
+| PPTX to HTML | /slides/nodejs-java/conversion/pptx-to-html/ | Publish a deck as a web page from Node.js. | JavaScript |
+| Merge PPT | /slides/python-net/merge/ppt/ | Combine two PPT files into one. | Python |
+| PDF to HTML | /slides/php-java/conversion/pdf-to-html/ | Publish a PDF as a web page. | PHP |
+| Image to JPG | /slides/php-java/conversion/image-to-jpg/ | For now the sample saves a slide holding the image, so the JPG is slide-sized and a larger image is cropped. | PHP |
 
 {{< /blocks/products/pf/slides-solution-platforms >}}
 
-{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit." >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit. Aspose.Slides also builds what a deck is made of, with a Python via .NET guide for each: [slide masters](https://docs.aspose.com/slides/python-net/slide-master/) and [layouts](https://docs.aspose.com/slides/python-net/slide-layout/) · [tables](https://docs.aspose.com/slides/python-net/manage-table/) · [speaker notes](https://docs.aspose.com/slides/python-net/presentation-notes/) · [SmartArt](https://docs.aspose.com/slides/python-net/manage-smartart/) · [animation](https://docs.aspose.com/slides/python-net/powerpoint-animation/)" >}}
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and replaces extracted text with an evaluation notice, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/family/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns
@@ -191,9 +192,23 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 
 ## In use
 
-The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+> There would be no hesitation in recommending Aspose.Slides (or any of the other APIs) for both small and larger technical requirements. It will save you a world of time, money and energy over building it for yourself.
 
-— BRUCE BRIEN · STRATASCOPE INC, USA
+— Matt Rowbotham · Traxart · January 2020
+
+[Traxart case study](https://library.conholdate.app/files/oLPS8MVj36/case-study-traxart.docx)
+
+> It was worth the money with regards to purchase: it would have been nowhere near as fast without these products.
+
+— Jens Gehrke, Principal Senior Consultant · Oracle Consultancy · 2011
+
+[Oracle case study](https://library.conholdate.app/files/er7czWM37G/case-study-of-oracles-use-of-aspose-cells-and-aspose-slides-in-an-on-demand-reporting-system.pdf)
+
+> The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+
+— Bruce Brien, CEO · Stratascope Inc. · January 2011
+
+[Stratascope case study](https://library.conholdate.app/files/mLRiZ6yXam/stratascope-uses-aspose-slides-for-net-to-output-custom-configured-account-plans-to-powerpoint.pdf)
 
 {{< /blocks/products/pf/slides-resource-columns >}}
 

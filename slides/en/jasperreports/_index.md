@@ -243,9 +243,10 @@ public class ApplyLicense {
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full product, so you can test it on your own reports before you talk to anyone. In evaluation mode every exported report carries an evaluation watermark at the centre of each slide or page. A temporary licence lifts it for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/jasperreport/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/jasperreports/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns

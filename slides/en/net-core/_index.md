@@ -17,7 +17,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   sub="There is no separate .NET Core product, package or download. Aspose.Slides for .NET Core is Aspose.Slides for .NET — the same Aspose.Slides.NET NuGet package, the same download, the same API — resolved against a .NET Core or .NET 6 and later target framework. The same C# creates, edits, converts and renders PowerPoint and OpenDocument presentations on Windows, Linux and macOS, inside your own process, with no Office install and no COM automation."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/getting-started/"
-  note="Same package as the .NET build · full API on trial · evaluation watermark on open and save"
+  note="Same package as the .NET build · full API on trial · evaluation watermark on output"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
   jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
@@ -58,7 +58,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 | Start on Linux | The startup lines, plus libgdiplus on the image | STARTUP → RENDERING | libgdiplus is needed on the image whichever asset you bind. The switch is required on non-Windows for the net6.0 asset, which uses System.Drawing.Common 6.0.0. It is not needed on .NET Core or .NET 5, where it does not exist. Fonts are needed by every build. | https://docs.aspose.com/slides/net/system-requirements/ |
 | Slide images | A PNG per slide, no display server | PPTX → PNG | GetImage(2f, 2f) renders at twice slide size. The parameterless overload returns a small preview instead. | https://docs.aspose.com/slides/net/convert-powerpoint-to-png/ |
 | Streams | No temp files in a web request | UPLOAD → PDF RESPONSE | Minimal API on .NET 8, where an IFormFile endpoint is antiforgery-validated unless you opt out. DisableAntiforgery is safe on an unauthenticated or bearer-token endpoint, not on a cookie-authenticated one. One Presentation instance per request, never shared across threads. | https://docs.aspose.com/slides/net/open-presentation/ |
-| License | Applied once per process | EMBEDDED LIC → FULL API | Without it an evaluation watermark is inserted on open and on save, and text extraction returns one slide only. | https://docs.aspose.com/slides/net/licensing/ |
+| License | Applied once per process | EMBEDDED LIC → FULL API | Without it the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. | https://docs.aspose.com/slides/net/licensing/ |
 
 ```
 using Aspose.Slides;
@@ -167,9 +167,10 @@ license.SetLicense(licenseStream);
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/net/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns
@@ -198,7 +199,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 - [Documentation](https://docs.aspose.com/slides/net/getting-started/)
 - [API reference](https://reference.aspose.com/slides/net/)
 - [Support forum](https://forum.aspose.com/c/slides/)
-- [Installation](https://docs.aspose.com/slides/net-core/installation/)
+- [Installation](https://docs.aspose.com/slides/net/installation/)
 
 ## In use
 

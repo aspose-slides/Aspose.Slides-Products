@@ -37,8 +37,8 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 | Figure | Caption |
 |---|---|
-| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
-| 13 → 12 | Presentation formats read and written, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, plus 9 further export targets. |
+| 187 / 80 | Shape types and chart types the API creates, each a real object that PowerPoint still recognises and lets a person edit. |
+| 12 → 12 | Presentation formats read and written, including the pre-2007 binary `.ppt` container and OpenDocument `.odp`, plus 9 further export targets. |
 | 1 | NuGet package. No native prerequisites to install alongside it. |
 | 0 | Microsoft Office installs, GDI dependencies and X displays needed. A small Linux container is enough. |
 
@@ -54,9 +54,9 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 | Task | Hint | Flow | Note | Docs |
 |---|---|---|---|---|
-| Convert | One load, many output formats | PPTX → PDF / HTML / TIFF | The rendering engine ships with the library. | https://docs.aspose.com/slides/net/convert-powerpoint-ppt-and-pptx/ |
-| Slide thumbnails | Images for a viewer or an index | PPTX → PNG | The scale factor controls output resolution. | https://docs.aspose.com/slides/net/create-slides-thumbnail-images/ |
-| Charts from data | A real chart, still editable in PowerPoint | DATA → PPTX | Chart data lives in an embedded workbook. 82 chart types. | https://docs.aspose.com/slides/net/create-chart/ |
+| Convert | One load, many output formats | PPTX → PDF / HTML / TIFF | The rendering engine ships with the library. | https://docs.aspose.com/slides/net/convert-presentation/ |
+| Slide thumbnails | Images for a viewer or an index | PPTX → PNG | The scale factor controls output resolution. | https://docs.aspose.com/slides/net/convert-powerpoint-to-png/ |
+| Charts from data | A real chart, still editable in PowerPoint | DATA → PPTX | Chart data lives in an embedded workbook. 80 chart types. | https://docs.aspose.com/slides/net/create-chart/ |
 | Protect | Encrypt the deck and the PDF you hand out | PPTX → ENCRYPTED PPTX / PDF | The password applies to the deck and to the export. | https://docs.aspose.com/slides/net/password-protected-presentation/ |
 | Merge | Clone slides between decks, layouts intact | PPTX + PPTX → PPTX | Layouts and masters travel with the cloned slide. | https://docs.aspose.com/slides/net/clone-slides/ |
 
@@ -72,6 +72,8 @@ presentation.Save("review.tiff", SaveFormat.Tiff);
 ```
 
 ```
+using Aspose.Slides;
+
 using var presentation = new Presentation("deck.pptx");
 
 foreach (var slide in presentation.Slides)
@@ -82,31 +84,44 @@ foreach (var slide in presentation.Slides)
 ```
 
 ```
+using Aspose.Slides;
 using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 
 using var presentation = new Presentation();
 var slide = presentation.Slides[0];
 
 var chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 60, 60, 620, 400);
+chart.ChartData.Series.Clear();
+chart.ChartData.Categories.Clear();
 var cells = chart.ChartData.ChartDataWorkbook;
 
 chart.ChartData.Categories.Add(cells.GetCell(0, 1, 0, "Q1"));
 chart.ChartData.Categories.Add(cells.GetCell(0, 2, 0, "Q2"));
-chart.ChartData.Series.Add(cells.GetCell(0, 0, 1, "Revenue"), chart.Type);
+var revenue = chart.ChartData.Series.Add(cells.GetCell(0, 0, 1, "Revenue"), chart.Type);
+revenue.DataPoints.AddDataPointForBarSeries(cells.GetCell(0, 1, 1, 120));
+revenue.DataPoints.AddDataPointForBarSeries(cells.GetCell(0, 2, 1, 145));
 
 presentation.Save("report.pptx", SaveFormat.Pptx);
 ```
 
 ```
+using Aspose.Slides;
+using Aspose.Slides.Export;
+
 using var presentation = new Presentation("board-deck.pptx");
 
 presentation.ProtectionManager.Encrypt("s3cret");
+presentation.Save("board-deck-protected.pptx", SaveFormat.Pptx);
 
 var options = new PdfOptions { Password = "s3cret" };
 presentation.Save("board-deck.pdf", SaveFormat.Pdf, options);
 ```
 
 ```
+using Aspose.Slides;
+using Aspose.Slides.Export;
+
 using var target = new Presentation("master.pptx");
 using var source = new Presentation("appendix.pptx");
 
@@ -167,9 +182,10 @@ target.Save("combined.pptx", SaveFormat.Pptx);
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and replaces extracted text with an evaluation notice, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/net/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns

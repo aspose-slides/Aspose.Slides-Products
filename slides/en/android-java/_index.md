@@ -17,7 +17,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   sub="Aspose.Slides for Android via Java opens, edits, converts and renders PowerPoint and OpenDocument presentations inside an Android app, with no server call and no Microsoft Office anywhere. It is its own build rather than the server JAR repackaged: the geometry types on its API surface are android.graphics PointF and RectF, sizes are com.aspose.slides.android.Size and IColorFormat.getColor() returns java.lang.Integer, rather than the java.awt ones, which is why this artifact runs on a device and the desktop one does not. You get it as a single JAR, aspose-slides-26.6-android.via.java.jar, 31 MB, whose POM declares no dependencies. It also declares 145,426 methods, so the first thing to plan for is not the download size but multidex."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/androidjava/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/"
-  note="Full API on trial · evaluation watermark on open and save · multidex required"
+  note="Full API on trial · evaluation watermark on output · multidex required"
   moreText="Other platforms, same object model" moreUrl="/slides/family/"
   jump="Code|#tasks, Formats|#formats, Capabilities|#capabilities, Runtimes|#runtimes, Licensing|#pricing"
   runsOnTitle="RUNS ON"
@@ -54,11 +54,11 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 | Task | Hint | Flow | Note | Docs |
 |---|---|---|---|---|
-| Convert | Open a deck bundled with the app and write a PDF into the app's own storage. | PPTX in assets -> PDF in getFilesDir() | The InputStream constructor is the one you want on Android, because an asset is not a file and has no path to pass. getFilesDir() keeps the result app-private and needs no storage permission, which also means nothing else on the device can open it: handing it to a viewer needs a FileProvider entry, a file_paths.xml, FileProvider.getUriForFile and ACTION_VIEW with FLAG_GRANT_READ_URI_PERMISSION. Unlicensed, an evaluation watermark is written at the top of the output. Call dispose() in a finally block, and run the whole method off the main thread. | https://docs.aspose.com/slides/androidjava/convert-presentation/ |
+| Convert | Open a deck bundled with the app and write a PDF into the app's own storage. | PPTX in assets -> PDF in getFilesDir() | The InputStream constructor is the one you want on Android, because an asset is not a file and has no path to pass. getFilesDir() keeps the result app-private and needs no storage permission, which also means nothing else on the device can open it: handing it to a viewer needs a FileProvider entry, a file_paths.xml, FileProvider.getUriForFile and ACTION_VIEW with FLAG_GRANT_READ_URI_PERMISSION. Unlicensed, the output carries an evaluation watermark. Call dispose() in a finally block, and run the whole method off the main thread. | https://docs.aspose.com/slides/androidjava/convert-presentation/ |
 | Slide thumbnails | Render any slide to a PNG at a size you choose, with no PowerPoint and no screenshot. | ISlide -> IImage -> PNG in getCacheDir() | getImage() takes com.aspose.slides.android.Size in this build, where the server JAR takes java.awt.Dimension; the docs sample for this page still shows Dimension, which does not exist here. Dispose each IImage as you go so a long deck never holds every bitmap at once, and size the thumbnails to the view rather than the slide. Unlicensed, every rendered slide carries the evaluation watermark. | https://docs.aspose.com/slides/androidjava/convert-slide/ |
 | Search a deck | Pull the text out of every slide so your app can search a file it has not opened. | PPTX -> IPresentationText -> slide numbers | Unarranged returns the text in storage order and is the right mode for an index; Arranged reorders it to match the reading order on the slide and is slower. Notes text comes back separately from body text. Unlicensed, every extracted string is replaced by an evaluation notice and only two slide entries come back however long the deck is, so a trial index finds nothing at all -- test this one under a temporary license. | https://docs.aspose.com/slides/androidjava/extract-text-from-presentation/ |
 | Charts from data | Turn arrays your app already holds into a native PowerPoint chart that survives being emailed. | double[] -> IChart -> PPTX | The chart carries a real embedded workbook, so whoever opens the deck on a desktop can pull up the data sheet and change a number. Nothing here is rendered, so it costs far less than the two conversion tasks, though it still builds a presentation and writes that workbook. Unlicensed, the saved deck carries the evaluation watermark. | https://docs.aspose.com/slides/androidjava/create-chart/ |
-| License and fonts | The two setup calls to make once, at startup, before any presentation is opened. | assets -> License and FontsLoader | setLicense() takes an InputStream, which is exactly what an Android asset gives you. Until it runs, the evaluation build watermarks documents on open and save and replaces extracted text with an evaluation notice. There is no folder inside an APK to point loadExternalFonts() at, so register bundled fonts as bytes with loadExternalFont() instead. Do both before the first render, not after. | https://docs.aspose.com/slides/androidjava/licensing/ |
+| License and fonts | The two setup calls to make once, at startup, before any presentation is opened. | assets -> License and FontsLoader | setLicense() takes an InputStream, which is exactly what an Android asset gives you. Until it runs, the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. There is no folder inside an APK to point loadExternalFonts() at, so register bundled fonts as bytes with loadExternalFont() instead. Do both before the first render, not after. | https://docs.aspose.com/slides/androidjava/licensing/ |
 
 ```
 import android.content.Context;
@@ -261,7 +261,7 @@ public final class AsposeSlidesSetup {
 
 {{< blocks/products/pf/slides-formats title="What goes in, what comes out" >}}
 
-{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything below is reached through plain Java objects and getters running inside your own app process, with no service call, no Office install, no PowerPoint and nothing that needs the device to be online. The object model is the full one: this build's own ShapeType class carries 187 preset shape types alongside the Custom and NotDefined sentinels, and its ChartType class carries 82 chart types." >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything below is reached through plain Java objects and getters running inside your own app process, with no service call, no Office install, no PowerPoint and nothing that needs the device to be online. The object model is the full one: this build's own ShapeType class carries 187 preset shape types alongside the Custom and NotDefined sentinels, and its ChartType class carries 82 members, 80 of them chart types it can create." >}}
 
 {{< blocks/products/pf/slides-runtime-cards
   id="runtimes"
@@ -284,9 +284,10 @@ public final class AsposeSlidesSetup {
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/androidjava/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/android-java/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns
@@ -315,7 +316,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 - [Documentation](https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/)
 - [API reference](https://reference.aspose.com/slides/androidjava/)
 - [Support forum](https://forum.aspose.com/c/slides/)
-- [Installation](https://docs.aspose.com/slides/android-java/installation/)
+- [Installation](https://docs.aspose.com/slides/androidjava/install-aspose-slides-for-android-via-java/)
 
 ## In use
 

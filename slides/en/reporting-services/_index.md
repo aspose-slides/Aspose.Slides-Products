@@ -69,9 +69,10 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and caps text extraction at one slide, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full product, so you can test it on your own reports before you talk to anyone. In evaluation mode every exported report carries an evaluation watermark on each slide. A temporary licence lifts it for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/reportingservices/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/reporting-services/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns
@@ -100,7 +101,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 - [Documentation](https://docs.aspose.com/slides/reportingservices/)
 - [API reference](https://reference.aspose.com/slides/)
 - [Support forum](https://forum.aspose.com/c/slides/)
-- [Installation](https://docs.aspose.com/slides/reporting-services/installation/)
+- [Installation](https://docs.aspose.com/slides/reportingservices/installation/)
 
 ## In use
 

@@ -37,8 +37,8 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 
 | Figure | Caption |
 |---|---|
-| 189 / 82 | Shape types and chart types, each a real object that PowerPoint still recognises and lets a person edit. |
-| 13 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
+| 187 / 80 | Shape types and chart types the API creates, each a real object that PowerPoint still recognises and lets a person edit. |
+| 12 -> 12 | Presentation formats read and written, including the pre-2007 binary .ppt container and OpenDocument .odp, plus 9 further export targets. |
 | 1 | Composer package, aspose/slides. It wraps the Java build rather than replacing it, so it is not the only thing you install. |
 | JRE 8+ | Java runtime with JAVA_HOME set, plus the PHP/Java Bridge in a servlet container. Still zero Microsoft Office installs and zero X displays. |
 
@@ -253,9 +253,10 @@ try {
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"
-  body="The trial is the full API. It applies an evaluation watermark when a presentation is opened or saved and replaces extracted text with an evaluation notice, so you can test the formats you actually care about before you talk to anyone. A temporary licence lifts both for 30 days."
+  body="The trial is the full API, so you can test the formats you actually care about before you talk to anyone. In evaluation mode the library reads only the first five characters of any text, followed by a notice; its text extractor returns none of the presentation's text; and saving adds an evaluation watermark to every slide. A temporary licence lifts all three for 30 days."
   ctaPrimaryText="Download" ctaPrimaryUrl="https://releases.aspose.com/slides/php-java/"
   ctaSecondaryText="Temporary license" ctaSecondaryUrl="https://purchase.aspose.com/temporary-license/"
+  ctaTertiaryText="Pricing" ctaTertiaryUrl="https://purchase.aspose.com/pricing/slides/php-java/"
 >}}
 
 {{< blocks/products/pf/slides-resource-columns
