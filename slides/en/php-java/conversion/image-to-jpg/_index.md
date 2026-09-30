@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to JPG in PHP
 url: /php-java/conversion/image-to-jpg/
@@ -10,47 +10,27 @@ description: Convert an image to JPG in PHP with Aspose.Slides for PHP via Java.
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/feature-page-wrap >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert Image to JPG in PHP" h2="Add an image to a slide and render it in JPEG format with Aspose.Slides for PHP via Java." >}}
+{{< blocks/products/pf/feature-page-header h1="Convert Image to JPG in PHP" h2="Load an image and save it in JPEG format with Aspose.Slides for PHP via Java." >}}
 
 {{% blocks/products/pf/feature-page-section h2="Convert Image to JPG in PHP" %}}
 
-[**Aspose.Slides for PHP via Java**](/slides/php-java/) can add supported raster or vector images to presentation slides and render the slides in JPEG format.
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) can load an image file and save it in JPEG format, keeping the image's width and height.
 
-The modern image API uses `Images::fromFile` to load the source image, `getImage` to render the slide, and `ImageFormat::Jpeg` to select JPEG output.
+The image API uses `Images::fromFile` to load the source image, `save` to write it, and `ImageFormat::Jpeg` to select JPEG output.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to JPG using PHP" %}}
-To convert an image to JPG, add it to a `Presentation`, place it on a slide, render the slide with `getImage`, and save the rendered image with `ImageFormat::Jpeg`.
+To convert an image to JPG, load it with `Images::fromFile`, save it with `ImageFormat::Jpeg`, and dispose of it when you are done.
 
 {{% blocks/products/pf/agp/code-block title="PHP code for converting Image into JPG" offSpacer="true" %}}
 
 ```php
-$presentation = new Presentation();
+$image = Images::fromFile("input.png");
 try {
-    $slide = $presentation->getSlides()->get_Item(0);
-
-    $sourceImage = Images::fromFile("input.png");
-    try {
-        $embeddedImage = $presentation->getImages()->addImage($sourceImage);
-    } finally {
-        $sourceImage->dispose();
-    }
-
-    $imageWidth = java_values($embeddedImage->getWidth());
-    $imageHeight = java_values($embeddedImage->getHeight());
-
-    $slide->getShapes()->addPictureFrame(
-        ShapeType::Rectangle, 0, 0, $imageWidth, $imageHeight, $embeddedImage);
-
-    $slideImage = $slide->getImage(1.0, 1.0);
-    try {
-        $slideImage->save("output.jpg", ImageFormat::Jpeg);
-    } finally {
-        $slideImage->dispose();
-    }
+    $image->save("output.jpg", ImageFormat::Jpeg);
 } finally {
-    $presentation->dispose();
+    $image->dispose();
 }
 ```
 
@@ -72,11 +52,11 @@ Configure Aspose.Slides in your PHP project.
 {{< /blocks/products/pf/agp/step-autogen >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation`, access its first slide, and load the source image with `Images::fromFile`.
+Load the source image with `Images::fromFile`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Add the image to the presentation, place it on the slide with `addPictureFrame`, render it with `getImage`, and save it with `ImageFormat::Jpeg`.
+Save the image with `save` and `ImageFormat::Jpeg`, then call `dispose` to release it.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}

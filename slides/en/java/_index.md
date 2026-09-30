@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-28
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Java PowerPoint API | Aspose.Slides for Java"
 weight: 6330
@@ -295,9 +295,11 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 
 ## In use
 
-The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+> It was worth the money with regards to purchase: it would have been nowhere near as fast without these products.
 
-— BRUCE BRIEN · STRATASCOPE INC, USA
+— Jens Gehrke, Principal Senior Consultant · Oracle Consultancy · 2011
+
+[Oracle case study](https://library.conholdate.app/files/er7czWM37G/case-study-of-oracles-use-of-aspose-cells-and-aspose-slides-in-an-on-demand-reporting-system.pdf)
 
 {{< /blocks/products/pf/slides-resource-columns >}}
 

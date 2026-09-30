@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-27
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Benefits of Aspose.Slides Products
 weight: 1370

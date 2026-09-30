@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert HTML to PPT in C#
 url: /net/conversion/html-to-ppt/
@@ -25,6 +25,7 @@ Use [Aspose.Slides for .NET](/slides/net/) to convert an HTML document to a PPT 
 {{% blocks/products/pf/agp/code-block title="C# code for converting HTML to PPT" offSpacer="true" %}}
 ```cs
 using var presentation = new Presentation();
+presentation.Slides.RemoveAt(0);
 
 using var htmlStream = File.OpenRead("page.html");
 presentation.Slides.AddFromHtml(htmlStream);

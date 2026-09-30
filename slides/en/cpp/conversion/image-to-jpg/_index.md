@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to JPG in C++
 url: /cpp/conversion/image-to-jpg/
@@ -14,33 +14,24 @@ description: Convert image to JPG in C++. Use the C++ library API to convert ima
 
 {{% blocks/products/pf/feature-page-section h2="Convert Image to JPG in C++" %}}
 
-[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import images into slides and render the result as JPG images.
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can also load image files and save them as JPG images.
 
 Aspose.Slides for C++ can convert image content to JPG images and other presentation-related formats.
 
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert Image to JPG Using C++" %}}
-To convert an image to JPG, create a new Presentation, add the image to its image collection, place it on a slide with `AddPictureFrame`, and render the slide as a JPG image.
+To convert an image to JPG, load it with `Images::FromFile` and save it with `ImageFormat::Jpeg`.
 
 {{% blocks/products/pf/agp/code-block title="C++ code for converting Image into JPG" offSpacer="true" %}}
 
 ```cpp
-auto presentation = MakeObject<Presentation>();
-auto slide = presentation->get_Slide(0);
-
-auto imageData = File::ReadAllBytes(u"image.png");
-auto presentationImage = presentation->get_Images()->AddImage(imageData);
-slide->get_Shapes()->AddPictureFrame(ShapeType::Rectangle, 10, 10, 100, 100, presentationImage);
-
-// Convert the slide to an image.
-auto slideImage = slide->GetImage(2.0f, 2.0f);
+// Load the source image.
+auto image = Images::FromFile(u"image.png");
 
 // Save the image in JPG format.
-slideImage->Save(u"slide.jpg", ImageFormat::Jpeg);
-slideImage->Dispose();
-
-presentation->Dispose();
+image->Save(u"image.jpg", ImageFormat::Jpeg);
+image->Dispose();
 ```
 
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-28
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Python PowerPoint API for PPT, PPTX, and ODP Presentations"
 weight: 5890
@@ -250,9 +250,11 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 
 ## In use
 
-The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
+> The product worked as advertised, the documentation was easy to follow, and the support forums were all the help we needed. The final solution that we deployed has exceeded our initial expectations by a great deal.
 
-— BRUCE BRIEN · STRATASCOPE INC, USA
+— Bruce Brien, CEO · Stratascope Inc. · January 2011
+
+[Stratascope case study (Aspose.Slides for .NET)](https://library.conholdate.app/files/mLRiZ6yXam/stratascope-uses-aspose-slides-for-net-to-output-custom-configured-account-plans-to-powerpoint.pdf)
 
 {{< /blocks/products/pf/slides-resource-columns >}}
 

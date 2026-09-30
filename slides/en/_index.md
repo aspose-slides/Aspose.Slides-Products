@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-28
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides"
 weight: 7160
@@ -146,11 +146,11 @@ That is the whole program: no PowerPoint, no headless Office, no template file t
 | PPTX to HTML | /slides/nodejs-java/conversion/pptx-to-html/ | Publish a deck as a web page from Node.js. | JavaScript |
 | Merge PPT | /slides/python-net/merge/ppt/ | Combine two PPT files into one. | Python |
 | PDF to HTML | /slides/php-java/conversion/pdf-to-html/ | Publish a PDF as a web page. | PHP |
-| Image to JPG | /slides/php-java/conversion/image-to-jpg/ | For now the sample saves a slide holding the image, so the JPG is slide-sized and a larger image is cropped. | PHP |
+| Image to JPG | /slides/php-java/conversion/image-to-jpg/ | Convert an image to JPG at its original size. | PHP |
 
 {{< /blocks/products/pf/slides-solution-platforms >}}
 
-{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit. Aspose.Slides also builds what a deck is made of, with a Python via .NET guide for each: [slide masters](https://docs.aspose.com/slides/python-net/slide-master/) and [layouts](https://docs.aspose.com/slides/python-net/slide-layout/) · [tables](https://docs.aspose.com/slides/python-net/manage-table/) · [speaker notes](https://docs.aspose.com/slides/python-net/presentation-notes/) · [SmartArt](https://docs.aspose.com/slides/python-net/manage-smartart/) · [animation](https://docs.aspose.com/slides/python-net/powerpoint-animation/)" >}}
+{{< blocks/products/pf/slides-capability-table title="Capabilities, one line each" lede="Everything here is supported. Where a grey note follows, the capability is delivered through a separate product or comes with a stated limit. Aspose.Slides also builds what a deck is made of, with a Python via .NET guide for each: [slide masters](https://docs.aspose.com/slides/python-net/slide-master/) and [layouts](https://docs.aspose.com/slides/python-net/slide-layout/) · [tables](https://docs.aspose.com/slides/python-net/manage-table/) · [speaker notes](https://docs.aspose.com/slides/python-net/presentation-notes/) · [SmartArt](https://docs.aspose.com/slides/python-net/manage-smartart/) · [animation](https://docs.aspose.com/slides/python-net/powerpoint-animation/)." >}}
 
 {{< blocks/products/pf/slides-licensing-band
   title="Start with the trial, license when you ship"

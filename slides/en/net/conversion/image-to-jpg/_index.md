@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-09-30
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to JPG in C#
 weight: 200
@@ -17,7 +17,7 @@ description: Convert an image to JPG in C# using Aspose.Slides for .NET.
 
 {{% blocks/products/pf/agp/content h2="Convert Image to JPG in C#" %}}
 
-Use [Aspose.Slides for .NET](/slides/net/) to place an image on a slide and export it as a JPG file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
+Use [Aspose.Slides for .NET](/slides/net/) to load an image file and save it as a JPG file. Install the package from [NuGet](https://www.nuget.org/packages/Aspose.Slides.NET/) or use the following Package Manager Console command.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -37,19 +37,11 @@ PM> Install-Package Aspose.Slides.NET
 {{< blocks/products/pf/agp/steps-block-autogen name="Developers and applications can convert an image to JPG this way:" >}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` object.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the image file bytes.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Add the image to a slide with `AddPictureFrame`.
+Load the image file with `Images.FromFile`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{% blocks/products/pf/agp/step-autogen %}}
-Render the slide with `GetImage` and save it as a JPG image.
+Save the image with `ImageFormat.Jpeg`.
 {{% /blocks/products/pf/agp/step-autogen %}}
 
 {{< /blocks/products/pf/agp/steps-block-autogen >}}
@@ -73,15 +65,7 @@ Before you run the image to JPG conversion C# code, make sure that your environm
 {{% blocks/products/pf/agp/code-block title="C# code to convert Image to JPG" offSpacer="" %}}
 
 ```cs
-using var presentation = new Presentation();
-
-var imageBytes = File.ReadAllBytes("image.png");
-var presentationImage = presentation.Images.AddImage(imageBytes);
-
-var slide = presentation.Slides[0];
-slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, presentationImage);
-
-using var image = slide.GetImage(1f, 1f);
+using var image = Images.FromFile("image.png");
 image.Save("image.jpg", ImageFormat.Jpeg);
 ```
 
