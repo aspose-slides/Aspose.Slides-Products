@@ -28,7 +28,11 @@ Using [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides
 ```python
 
 import aspose.slides as slides
-import aspose.pydrawing as drawing
+
+with open("file1.html", "rt", encoding="utf-8") as stream:
+    htmlText1 = stream.read()
+with open("file2.html", "rt", encoding="utf-8") as stream:
+    htmlText2 = stream.read()
 
 with slides.Presentation() as pres:
     pres.slides.remove_at(0)
@@ -36,8 +40,8 @@ with slides.Presentation() as pres:
     pres.slides.add_from_html(htmlText2)
 
     for sld in pres.slides:
-        bmp = sld.get_thumbnail(1, 1)
-        bmp.save("Slide_{num}.png".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.png)
+        bmp = sld.get_image(1, 1)
+        bmp.save("Slide_{num}.png".format(num=str(sld.slide_number)), slides.ImageFormat.PNG)
 ```
 {{% /blocks/products/pf/agp/code-block %}}
 

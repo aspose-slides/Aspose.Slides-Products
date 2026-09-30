@@ -25,6 +25,7 @@ Używając [**Aspose.Slides for C++**](https://products.aspose.com/slides/pl/cpp
 {{% blocks/products/pf/agp/code-block title="Kod C++ do konwersji HTML na PPTX" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

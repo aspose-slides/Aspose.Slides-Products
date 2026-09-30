@@ -28,10 +28,10 @@ description: 在 Python 中将 HTML 转换为 PDF。使用 Python 库 API 将 HT
 ```python
 
 import aspose.slides as slides
-import aspose.pydrawing as drawing
 
 with slides.Presentation() as pres:
-    with open(dataDir + "file.html", "rt") as stream:
+    pres.slides.remove_at(0)
+    with open("file.html", "rt", encoding="utf-8") as stream:
         data = stream.read()
     pres.slides.add_from_html(data)
     pres.save("index.pdf", slides.export.SaveFormat.PDF)

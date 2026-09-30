@@ -25,6 +25,7 @@ description: 在 C++ 中将 HTML 转换为 PPT。使用 C++ 库 API 将 HTML 转
 {{% blocks/products/pf/agp/code-block title="HTML转PPT的C++代码" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

@@ -26,6 +26,7 @@ description: 在 C# 中將 HTML 轉換為 PPTX。使用 .NET 庫 API 將 HTML �
 ```cs
 using (var presentation = new Presentation())
 {
+    presentation.Slides.RemoveAt(0);
     using (var htmlStream = File.OpenRead("page.html"))
     {
         presentation.Slides.AddFromHtml(htmlStream);

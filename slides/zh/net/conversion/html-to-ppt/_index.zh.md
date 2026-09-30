@@ -26,6 +26,7 @@ description: 在 C# 中将 HTML 转换为 PPT。使用 .NET 库 API 将 HTML 转
 ```cs
 using (var presentation = new Presentation())
 {
+    presentation.Slides.RemoveAt(0);
     using (var htmlStream = File.OpenRead("page.html"))
     {
         presentation.Slides.AddFromHtml(htmlStream);

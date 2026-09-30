@@ -29,7 +29,8 @@ HTML을 XML로 변환하려면 HTML 파일에서 프레젠테이션을 생성하
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     for (int index = 0; index < pres.getSlides().size(); index++)
     {

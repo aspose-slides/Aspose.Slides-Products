@@ -26,6 +26,7 @@ description: Java에서 HTML을 PPT로 변환합니다. Java 라이브러리 API
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

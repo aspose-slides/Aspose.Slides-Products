@@ -26,6 +26,7 @@ description: Преобразование HTML в PPT на Java. Использ�
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

@@ -29,7 +29,8 @@ description: 在 Java 中将 HTML 转换为 TIFF。使用 Java 库 API 将 HTML 
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     pres.save("doc.tiff", SaveFormat.Tiff);
 } finally {

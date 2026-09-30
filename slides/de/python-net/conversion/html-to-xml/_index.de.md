@@ -28,14 +28,13 @@ Um das HTML in XML zu konvertieren, müssen Sie eine Präsentation aus der HTML-
 ```python
 
 import aspose.slides as slides
-import aspose.pydrawing as drawing
 
 with slides.Presentation() as pres:
-    with open(dataDir + "file.html", "rt") as stream:
+    pres.slides.remove_at(0)
+    with open("file.html", "rt", encoding="utf-8") as stream:
         data = stream.read()
     pres.slides.add_from_html(data)
-    for index in range(pres.slides.length):
-        slide = pres.slides[index]
+    for index, slide in enumerate(pres.slides):
 
         with open("slide-{index}.xml".format(index = index), "wb") as file:
             slide.write_as_svg(file)

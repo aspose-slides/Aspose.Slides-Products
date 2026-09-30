@@ -25,6 +25,7 @@ description: Μετατροπή HTML σε PPT σε C++. Χρησιμοποιήσ
 {{% blocks/products/pf/agp/code-block title="Κώδικας C++ για μετατροπή HTML σε PPT" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

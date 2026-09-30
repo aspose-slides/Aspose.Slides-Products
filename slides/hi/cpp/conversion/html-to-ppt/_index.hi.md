@@ -25,6 +25,7 @@ description: C++ में HTML को PPT में बदलें। HTML क
 {{% blocks/products/pf/agp/code-block title="HTML को PPT में बदलने के लिए C++ कोड" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

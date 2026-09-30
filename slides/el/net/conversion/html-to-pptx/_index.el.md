@@ -26,6 +26,7 @@ description: Μετατροπή HTML σε PPTX σε C#. Χρησιμοποιήσ
 ```cs
 using (var presentation = new Presentation())
 {
+    presentation.Slides.RemoveAt(0);
     using (var htmlStream = File.OpenRead("page.html"))
     {
         presentation.Slides.AddFromHtml(htmlStream);

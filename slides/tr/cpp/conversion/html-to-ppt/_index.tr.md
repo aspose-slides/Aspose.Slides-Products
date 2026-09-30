@@ -25,6 +25,7 @@ description: C++'da HTML'yi PPT'ye dönüştürün. HTML'yi PowerPoint'e dönü�
 {{% blocks/products/pf/agp/code-block title="HTML'yi PPT'ye dönüştürmek için C++ kodu" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

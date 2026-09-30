@@ -29,7 +29,8 @@ Pour convertir le HTML en TIFF, vous devrez créer une présentation à partir d
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     pres.save("doc.tiff", SaveFormat.Tiff);
 } finally {

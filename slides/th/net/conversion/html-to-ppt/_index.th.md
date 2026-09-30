@@ -26,6 +26,7 @@ description: แปลง HTML เป็น PPT ใน C# ใช้ .NET library
 ```cs
 using (var presentation = new Presentation())
 {
+    presentation.Slides.RemoveAt(0);
     using (var htmlStream = File.OpenRead("page.html"))
     {
         presentation.Slides.AddFromHtml(htmlStream);

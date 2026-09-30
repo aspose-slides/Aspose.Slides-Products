@@ -29,7 +29,8 @@ Um das HTML in PDF zu konvertieren, müssen Sie eine Präsentation aus der HTML-
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     pres.save("index.pdf", SaveFormat.Pdf);
 } finally {

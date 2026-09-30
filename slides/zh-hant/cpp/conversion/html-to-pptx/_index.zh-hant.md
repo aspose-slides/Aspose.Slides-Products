@@ -25,6 +25,7 @@ description: 在 C++ 中將 HTML 轉換為 PPTX。使用 C++ 庫 API 將 HTML �
 {{% blocks/products/pf/agp/code-block title="用於將 HTML 轉換為 PPTX 的 C++ 代碼" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

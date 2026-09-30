@@ -25,6 +25,7 @@ En utilisant [**Aspose.Slides pour C++**](https://products.aspose.com/slides/fr/
 {{% blocks/products/pf/agp/code-block title="Code C++ pour convertir HTML en PPT" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

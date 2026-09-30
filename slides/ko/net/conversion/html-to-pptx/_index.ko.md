@@ -26,6 +26,7 @@ description: C#에서 HTML을 PPTX로 변환합니다. .NET 라이브러리 API�
 ```cs
 using (var presentation = new Presentation())
 {
+    presentation.Slides.RemoveAt(0);
     using (var htmlStream = File.OpenRead("page.html"))
     {
         presentation.Slides.AddFromHtml(htmlStream);

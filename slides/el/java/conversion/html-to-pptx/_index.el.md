@@ -26,6 +26,7 @@ description: Μετατροπή HTML σε PPTX σε Java. Χρησιμοποιή
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

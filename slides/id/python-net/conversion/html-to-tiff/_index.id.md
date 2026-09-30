@@ -28,10 +28,10 @@ Untuk mengonversi HTML ke TIFF, Anda perlu membuat Presentasi dari file HTML dan
 ```python
 
 import aspose.slides as slides
-import aspose.pydrawing as drawing
 
 with slides.Presentation() as pres:
-    with open(dataDir + "file.html", "rt") as stream:
+    pres.slides.remove_at(0)
+    with open("file.html", "rt", encoding="utf-8") as stream:
         data = stream.read()
     pres.slides.add_from_html(data)
     pres.save("doc.tiff", slides.export.SaveFormat.TIFF)

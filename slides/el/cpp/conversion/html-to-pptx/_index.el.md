@@ -25,6 +25,7 @@ description: Μετατροπή HTML σε PPTX σε C++. Χρησιμοποιή�
 {{% blocks/products/pf/agp/code-block title="Κώδικας C++ για μετατροπή HTML σε PPTX" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

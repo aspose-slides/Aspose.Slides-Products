@@ -26,6 +26,7 @@ description: Java で HTML を PPTX に変換します。 Java ライブラリ A
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

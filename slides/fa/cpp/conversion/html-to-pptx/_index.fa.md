@@ -25,6 +25,7 @@ description: HTML را در C++ به PPTX تبدیل کنید. از C++ library 
 {{% blocks/products/pf/agp/code-block title="کد C++ برای تبدیل HTML به PPTX" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

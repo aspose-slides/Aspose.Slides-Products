@@ -27,6 +27,7 @@ Utilizzando [**Aspose.Slides per Python tramite .NET**](https://products.aspose.
 import aspose.slides as slides
 
 with slides.Presentation() as pres:
+    pres.slides.remove_at(0)
     with open("page.html", "rb") as htmlStream:
         pres.slides.add_from_html(htmlStream)
 

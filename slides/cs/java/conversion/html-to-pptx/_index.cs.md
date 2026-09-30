@@ -26,6 +26,7 @@ Pomocí [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

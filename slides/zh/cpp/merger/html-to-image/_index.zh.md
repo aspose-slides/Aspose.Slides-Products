@@ -27,6 +27,8 @@ description: 在 C++ 中将 HTML 合并为图像。使用 C++ 库 API 将 HTML �
 {{% blocks/products/pf/agp/code-block title="用于将 HTML 合并到图像的 C++ 代码" offSpacer="true" %}}
 ```cpp
 
+auto htmlText1 = System::IO::File::ReadAllText(u"file1.html");
+auto htmlText2 = System::IO::File::ReadAllText(u"file2.html");
 auto pres = System::MakeObject<Presentation>();
 
 pres->get_Slides()->RemoveAt(0);
@@ -37,7 +39,7 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 {
     auto slide = pres->get_Slides()->idx_get(index);
     auto fileName = String::Format(u"slide_{0}.png", index);
-    slide->GetThumbnail()->Save(fileName, ImageFormat::get_Png());
+    slide->GetImage()->Save(fileName, ImageFormat::Png);
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}

@@ -26,6 +26,7 @@ description: แปลง HTML เป็น PPT ใน Java ใช้ Java libra
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

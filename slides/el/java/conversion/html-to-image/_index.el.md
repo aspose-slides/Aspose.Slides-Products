@@ -29,14 +29,15 @@ description: Μετατροπή HTML σε Image σε Java. Χρησιμοποι�
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     Dimension size = new Dimension(960, 720);
     for (int index = 0; index < pres.getSlides().size(); index++)
     {
         ISlide slide = pres.getSlides().get_Item(index);
-        BufferedImage bufferedImage = slide.getThumbnail(size);
-        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+        IImage image = slide.getImage(size);
+        image.save("image_java_" + index + ".png", ImageFormat.Png);
     }
 } finally {
     if (pres != null) pres.dispose();

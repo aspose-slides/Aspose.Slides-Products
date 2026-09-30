@@ -29,7 +29,8 @@ HTML को XML में बदलने के लिए, आपको HTML �
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     for (int index = 0; index < pres.getSlides().size(); index++)
     {

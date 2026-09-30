@@ -26,6 +26,7 @@ Pomocí [**Aspose.Slides for .NET**](https://products.aspose.com/slides/cs/net/)
 ```cs
 using (var presentation = new Presentation())
 {
+    presentation.Slides.RemoveAt(0);
     using (var htmlStream = File.OpenRead("page.html"))
     {
         presentation.Slides.AddFromHtml(htmlStream);

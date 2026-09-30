@@ -29,14 +29,15 @@ Using [**Aspose.Slides for Java**](https://products.aspose.com/slides/ar/java/),
 
 Presentation pres = new Presentation();
 try {
-    pres.getSlides().addFromHtml(new StreamReader("file1.html"));
-    pres.getSlides().addFromHtml(new StreamReader("file2.html"));
+    pres.getSlides().removeAt(0);
+    pres.getSlides().addFromHtml(new FileInputStream("file1.html"));
+    pres.getSlides().addFromHtml(new FileInputStream("file2.html"));
 
     for (int index = 0; index < pres.getSlides().size(); index++)
     {
         ISlide slide = pres.getSlides().get_Item(index);
-        BufferedImage bufferedImage = slide.getThumbnail();
-        ImageIO.write(bufferedImage, "PNG", new File("image_java_" + index + ".png"));
+        IImage image = slide.getImage();
+        image.save("image_java_" + index + ".png", ImageFormat.Png);
     }
 } finally {
     if (pres != null) pres.dispose();

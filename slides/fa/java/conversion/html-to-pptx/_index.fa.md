@@ -26,6 +26,7 @@ description: تبدیل HTML به PPTX در جاوا. از API کتابخانه 
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

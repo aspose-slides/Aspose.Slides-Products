@@ -29,7 +29,8 @@ A HTML formátum PDF formátumra konvertálásához létre kell hoznia egy preze
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     pres.save("index.pdf", SaveFormat.Pdf);
 } finally {

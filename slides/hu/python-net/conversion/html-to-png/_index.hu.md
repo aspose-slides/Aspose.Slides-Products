@@ -28,15 +28,15 @@ A HTML formátum PNG formátumra konvertálásához létre kell hoznia egy preze
 ```python
 
 import aspose.slides as slides
-import aspose.pydrawing as drawing
 
 with slides.Presentation() as pres:
-    with open(dataDir + "file.html", "rt") as stream:
+    pres.slides.remove_at(0)
+    with open("file.html", "rt", encoding="utf-8") as stream:
         data = stream.read()
     pres.slides.add_from_html(data)
     for sld in pres.slides:
-        bmp = sld.get_thumbnail(1, 1)
-        bmp.save("Slide_{num}.png".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.png)
+        bmp = sld.get_image(1, 1)
+        bmp.save("Slide_{num}.png".format(num=str(sld.slide_number)), slides.ImageFormat.PNG)
 
 ```
 

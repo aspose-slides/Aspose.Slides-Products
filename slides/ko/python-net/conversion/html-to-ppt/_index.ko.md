@@ -27,6 +27,7 @@ description: Python에서 HTML을 PPT로 변환합니다. Python 라이브러리
 import aspose.slides as slides
 
 with slides.Presentation() as pres:
+    pres.slides.remove_at(0)
     with open("page.html", "rb") as htmlStream:
         pres.slides.add_from_html(htmlStream)
 

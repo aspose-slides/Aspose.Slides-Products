@@ -25,6 +25,7 @@ description: C++ で HTML を PPT に変換します。 C++ ライブラリ API 
 {{% blocks/products/pf/agp/code-block title="HTML を PPT に変換するための C++ コード" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

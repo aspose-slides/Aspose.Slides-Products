@@ -29,14 +29,15 @@ Om de HTML naar JPG te converteren, moet u een presentatie maken van het HTML-be
 
 Presentation pres = new Presentation();
 try {
-    TextReader tr = new StreamReader("file.html");
+    pres.getSlides().removeAt(0);
+    FileInputStream tr = new FileInputStream("file.html");
     pres.getSlides().addFromHtml(tr);
     Dimension size = new Dimension(960, 720);
     for (int index = 0; index < pres.getSlides().size(); index++)
     {
         ISlide slide = pres.getSlides().get_Item(index);
-        BufferedImage bufferedImage = slide.getThumbnail(size);
-        ImageIO.write(bufferedImage, "jpeg", new File("image_java_" + index + ".jpg"));
+        IImage image = slide.getImage(size);
+        image.save("image_java_" + index + ".jpg", ImageFormat.Jpeg);
     }
 } finally {
     if (pres != null) pres.dispose();

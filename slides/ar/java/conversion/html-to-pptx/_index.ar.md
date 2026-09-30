@@ -26,6 +26,7 @@ description: تحويل HTML إلى PPTX في جافا. استخدم Java Librar
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

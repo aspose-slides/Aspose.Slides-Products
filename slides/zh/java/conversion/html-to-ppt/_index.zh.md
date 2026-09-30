@@ -26,6 +26,7 @@ description: 在 Java 中将 HTML 转换为 PPT。使用 Java 库 API 将 HTML �
 ```java
 Presentation presentation = new Presentation();
 try {
+    presentation.getSlides().removeAt(0);
     FileInputStream htmlStream = new FileInputStream("page.html");
     try {
         presentation.getSlides().addFromHtml(htmlStream);

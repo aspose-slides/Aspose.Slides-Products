@@ -25,6 +25,7 @@ Az [**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) segí
 {{% blocks/products/pf/agp/code-block title="C++ kód a HTML PPTX-re konvertálásához" offSpacer="true" %}}
 ```cpp
 auto presentation = System::MakeObject<Presentation>();
+presentation->get_Slides()->RemoveAt(0);
 
 {
     auto htmlStream = System::IO::File::OpenRead(u"page.html");

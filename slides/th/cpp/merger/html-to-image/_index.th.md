@@ -27,6 +27,8 @@ description: รวม HTML เข้ากับรูปภาพใน C++ �
 {{% blocks/products/pf/agp/code-block title="รหัส C++ สำหรับการรวม HTML เข้ากับรูปภาพ" offSpacer="true" %}}
 ```cpp
 
+auto htmlText1 = System::IO::File::ReadAllText(u"file1.html");
+auto htmlText2 = System::IO::File::ReadAllText(u"file2.html");
 auto pres = System::MakeObject<Presentation>();
 
 pres->get_Slides()->RemoveAt(0);
@@ -37,7 +39,7 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 {
     auto slide = pres->get_Slides()->idx_get(index);
     auto fileName = String::Format(u"slide_{0}.png", index);
-    slide->GetThumbnail()->Save(fileName, ImageFormat::get_Png());
+    slide->GetImage()->Save(fileName, ImageFormat::Png);
 }
 ```
 {{% /blocks/products/pf/agp/code-block %}}

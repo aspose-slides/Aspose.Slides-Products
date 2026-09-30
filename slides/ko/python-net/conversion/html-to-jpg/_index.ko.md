@@ -28,15 +28,15 @@ HTML을 JPG로 변환하려면 HTML 파일에서 프레젠테이션을 생성하
 ```python
 
 import aspose.slides as slides
-import aspose.pydrawing as drawing
 
 with slides.Presentation() as pres:
-    with open(dataDir + "file.html", "rt") as stream:
+    pres.slides.remove_at(0)
+    with open("file.html", "rt", encoding="utf-8") as stream:
         data = stream.read()
     pres.slides.add_from_html(data)
     for sld in pres.slides:
-        bmp = sld.get_thumbnail(1, 1)
-        bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.jpeg)
+        bmp = sld.get_image(1, 1)
+        bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), slides.ImageFormat.JPEG)
 
 ```
 
