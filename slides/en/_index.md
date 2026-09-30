@@ -97,6 +97,11 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
   lede="Most of the presentation work people automate runs *into* a deck rather than out of one: pulling HTML, images, PDF pages or database rows onto slides. Aspose.Slides reads HTML markup straight into a text frame, keeping the headings, bold runs and lists it finds."
   isGrey="true"
   split="true" codeLabelLeft="HTML → PPTX" codeLabelRight="PYTHON"
+  image="sl/sl-example-slide-26-9-0.png" imageWidth="1120" imageHeight="840"
+  imageAlt="Slide 1 of quarterly.pptx: a dark blue slide holding the heading Quarterly review and the line Revenue up 18 per cent on the quarter, with the figure in bold."
+  imageCaption="The slide this program writes, rendered by Aspose.Slides for Python via .NET 26.9.0 under a licence. The free trial writes the same file with an evaluation watermark on every slide."
+  docsText="Guide: import HTML text into paragraphs" docsUrl="https://docs.aspose.com/slides/python-net/manage-paragraph/#import-html-text-into-paragraphs"
+  leafText="Convert HTML to PPTX in Python" leafUrl="/slides/python-net/conversion/html-to-pptx/"
 >}}
 
 ```
@@ -105,10 +110,16 @@ import aspose.slides as slides
 html = "<h1>Quarterly review</h1><p>Revenue up <b>18%</b> on the quarter.</p>"
 
 with slides.Presentation() as presentation:
-    frame = presentation.slides[0].shapes.add_auto_shape(
-        slides.ShapeType.RECTANGLE, 40, 40, 640, 300).text_frame
+    shape = presentation.slides[0].shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 0, 0, 720, 540)
+    shape.fill_format.fill_type = slides.FillType.SOLID
+    shape.fill_format.solid_fill_color.scheme_color = slides.SchemeColor.TEXT2
+    shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
+    frame = shape.text_frame
     frame.paragraphs.clear()
     frame.paragraphs.add_from_html(html)
+    for paragraph in frame.paragraphs:
+        paragraph.paragraph_format.alignment = slides.TextAlignment.CENTER
     presentation.save("quarterly.pptx", slides.export.SaveFormat.PPTX)
 ```
 
