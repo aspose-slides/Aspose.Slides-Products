@@ -5,55 +5,18 @@ title: Converteer PPT naar video in Java
 url: /nl/java/conversion/ppt-to-video/
 keywords: Converteer PPT naar video, PPT naar video, PowerPoint naar video, PPT naar MP4, Java API, Java Library
 description: Converteer PPT naar video in Java. Gebruik de Java-bibliotheek-API om PowerPoint naar video te converteren
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Converteer PPT naar video in Java" h2="Krachtige cross-platform Java API voor het converteren van PowerPoint naar video met behulp van Java-code" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Converteer PPT naar video in Java" h2="Krachtige cross-platform Java API voor het converteren van PowerPoint naar video met behulp van Java-code" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Converteer PowerPoint naar video met behulp van Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converteer PowerPoint naar video in Java" variant="code" %}}
 
-[**Aspose.Slides voor Java**](https://products.aspose.com/slides/nl/java/) is een krachtige Java-bibliotheek die wordt gebruikt voor het maken, bewerken en manipuleren van presentaties en ook voor het converteren van PowerPoint-presentaties naar andere documenten en video's . In dit geval moet u **Aspose.Slides** naast **ffmpeg** gebruiken om PowerPoint naar video te converteren.
-
-Dit is hoe het conversieproces van PPT naar video werkt: Aspose.Slides wordt gebruikt om een ​​set frames te genereren (van de presentatiedia's) en vervolgens wordt FFMpegCore (ffmpeg) gebruikt om een ​​video te maken op basis van de frames.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Hoe PPT naar video te converteren" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Installeer **Aspose.Slides voor Java** door de instructies [hier](https://docs.aspose.com/slides/java/installation/) te volgen. Download **ffmpeg** [hier.](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-
-Voeg dit toe aan je POM-bestand:
-
-```
-   <afhankelijkheid>
-     <groupId>net.bramp.ffmpeg</groupId>
-     <artifactId>ffmpeg</artifactId>
-     <versie>0.7.0</versie>
-   </afhankelijkheid>
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kopieer, plak en voer de Java PowerPoint-naar-videocode uit.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Converteer PowerPoint naar video in Java" %}}
 Gebruik deze Java-code om PPT naar video te converteren:
 
-{{% blocks/products/pf/agp/code-block title="Java-code voor het converteren van PowerPoint naar video" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java-code voor het converteren van PowerPoint naar video" >}}
 ```java
 
 Presentation presentation = new Presentation();
@@ -110,23 +73,42 @@ try {
     e.printStackTrace();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde conversies" subTitle="U kunt PowerPoint ook converteren naar bestanden in andere formaten" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converteer PowerPoint naar video met behulp van Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-word/" name="PPT TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+[**Aspose.Slides voor Java**](https://products.aspose.com/slides/nl/java/) is een krachtige Java-bibliotheek die wordt gebruikt voor het maken, bewerken en manipuleren van presentaties en ook voor het converteren van PowerPoint-presentaties naar andere documenten en video's . In dit geval moet u **Aspose.Slides** naast **ffmpeg** gebruiken om PowerPoint naar video te converteren.
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+Dit is hoe het conversieproces van PPT naar video werkt: Aspose.Slides wordt gebruikt om een ​​set frames te genereren (van de presentatiedia's) en vervolgens wordt FFMpegCore (ffmpeg) gebruikt om een ​​video te maken op basis van de frames.
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hoe PPT naar video te converteren" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installeer **Aspose.Slides voor Java** door de instructies [hier](https://docs.aspose.com/slides/java/installation/) te volgen. Download **ffmpeg** [hier.](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Voeg dit toe aan je POM-bestand:
+
+```
+   <afhankelijkheid>
+     <groupId>net.bramp.ffmpeg</groupId>
+     <artifactId>ffmpeg</artifactId>
+     <versie>0.7.0</versie>
+   </afhankelijkheid>
+```{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kopieer, plak en voer de Java PowerPoint-naar-videocode uit.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde conversies" subTitle="U kunt PowerPoint ook converteren naar bestanden in andere formaten" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-word/" name="PPT TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: Converteer PNG naar JPG in PHP
 url: /nl/php-java/conversion/png-to-jpg/
 keywords: PNG naar JPG, Converteer PNG naar JPG, PHP API, PHP Library, PNG, JPG
 description: Converteer PNG naar JPG in PHP. Gebruik PowerPoint PHP API om PNG bestanden te converteren naar JPG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Converteer PNG naar JPG in PHP" h2="Krachtige PowerPoint PHP-bibliotheek die helpt bij het ontwikkelen van toepassingen met de mogelijkheid om Microsoft PowerPoint- en OpenOffice-presentatiebestanden te maken, samen te voegen, te inspecteren of te converteren zonder het gebruik van software zoals Microsoft of Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Converteer PNG naar JPG in PHP" h2="Krachtige PowerPoint PHP-bibliotheek die helpt bij het ontwikkelen van toepassingen met de mogelijkheid om Microsoft PowerPoint- en OpenOffice-presentatiebestanden te maken, samen te voegen, te inspecteren of te converteren zonder het gebruik van software zoals Microsoft of Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Converteer PNG naar JPG in PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converteer PNG naar JPG met behulp van PHP" variant="code" %}}
 
-[**Aspose.Slides voor PHP via Java**](https://products.aspose.com/slides/nl/php-java/) is een krachtige PHP-bibliotheek voor het maken en manipuleren van presentatiebestanden. Bovendien biedt het flexibele manieren om PNG naar JPG te converteren. Met behulp van **Aspose.Slides voor PHP via Java** kan elke ontwikkelaar of toepassing PNG naar JPG bestanden converteren met slechts een paar regels PHP-code.
-
-Aspose.Slides voor PHP is een moderne documentverwerkings-API en exporteert snel PNG-bestanden naar JPG-bestandsindelingen. Met de Aspose PowerPoint-bibliotheek kunt u PNG naar JPGs en vele andere bestandsindelingen converteren
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Converteer PNG naar JPG met behulp van PHP" %}}
 Om de PNG naar JPG te converteren, moet u een presentatie maken van het PNG-bestand en deze opslaan als JPG.
 
-{{% blocks/products/pf/agp/code-block title="PHP-code voor het converteren van PNG naar JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP-code voor het converteren van PNG naar JPG" >}}
 ```php
 
 <?php
@@ -60,48 +52,35 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converteer PNG naar JPG in PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides voor PHP via Java**](https://products.aspose.com/slides/nl/php-java/) is een krachtige PHP-bibliotheek voor het maken en manipuleren van presentatiebestanden. Bovendien biedt het flexibele manieren om PNG naar JPG te converteren. Met behulp van **Aspose.Slides voor PHP via Java** kan elke ontwikkelaar of toepassing PNG naar JPG bestanden converteren met slechts een paar regels PHP-code.
 
-{{< blocks/products/pf/feature-page-section  h2="Hoe PNG naar JPG te converteren met Aspose.Slides voor PHP API" >}}
+Aspose.Slides voor PHP is een moderne documentverwerkings-API en exporteert snel PNG-bestanden naar JPG-bestandsindelingen. Met de Aspose PowerPoint-bibliotheek kunt u PNG naar JPGs en vele andere bestandsindelingen converteren
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om PNG naar JPG in PHP te converteren." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installeer [**Aspose.Slides voor PHP via Java**](https://products.aspose.com/slides/nl/php-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hoe PNG naar JPG te converteren met Aspose.Slides voor PHP API" intro="Dit zijn de stappen om PNG naar JPG in PHP te converteren." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installeer [**Aspose.Slides voor PHP via Java**](https://products.aspose.com/slides/nl/php-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Voeg een bibliotheekreferentie toe (importeer de bibliotheek) aan uw PHP-project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open de bronbestanden PNG in PHP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla resultaat op als JPG bestand.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Voeg een bibliotheekreferentie toe (importeer de bibliotheek) aan uw PHP-project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Gratis online converter"
+  description="[Hoe PPT naar HTML in Python te converteren](https://products.aspose.com/slides/nl/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open de bronbestanden PNG in PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Converteer PNG naar andere ondersteunde formaten" subTitle="U kunt PNG ook converteren en opslaan in andere bestandsindelingen. Bekijk hieronder alle ondersteunde formaten" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op als JPG bestand.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Gratis online converter" sectionDescription="[Hoe PPT naar HTML in Python te converteren](https://products.aspose.com/slides/nl/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Converteer PNG naar andere ondersteunde formaten" subTitle="U kunt PNG ook converteren en opslaan in andere bestandsindelingen. Bekijk hieronder alle ondersteunde formaten" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

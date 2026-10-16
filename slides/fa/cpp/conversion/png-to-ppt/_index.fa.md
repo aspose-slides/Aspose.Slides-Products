@@ -5,24 +5,18 @@ title: تبدیل PNG به PPT در ++C
 url: /fa/cpp/conversion/png-to-ppt/
 keywords: تبدیل PNG به PPT، PNG به PPT، پاورپوینت، PNG، PPT، C++ API، کتابخانه C++
 description: تبدیل PNG به PPT در ++C. از C++ library API برای تبدیل تصاویر PNG به پاورپوینت استفاده کنید
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تبدیل PNG به PPT در ++C" h2="API چند پلتفرمی قدرتمند C++ برای تبدیل PNG به PPT با استفاده از کد C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تبدیل PNG به PPT در ++C" h2="API چند پلتفرمی قدرتمند C++ برای تبدیل PNG به PPT با استفاده از کد C++" >}}
 
-{{% blocks/products/pf/feature-page-section h2="با استفاده از Aspose.Slides، PNG را به PPT تبدیل کنید" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تبدیل PNG به PPT در ++C" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/fa/cpp/) یک کتابخانه قدرتمند ++C است که برای ایجاد، تبدیل، و دستکاری ارائه‌های پاورپوینت، فایل‌های PDF، اسناد HTML و موارد دیگر استفاده می‌شود. فایل ها. هنگامی که PNG را به PPT تبدیل می کنید، اساساً یک ارائه پاورپوینت ایجاد می کنید که حاوی اسلایدهایی بر اساس تصاویر PNG است.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="تبدیل PNG به PPT در ++C" %}}
 با استفاده از [**Aspose.Slides for C++**](https://products.aspose.com/slides/fa/cpp/)، می توانید تنها با چند خط کد، تصویر PNG را به ارائه پاورپوینت تبدیل کنید:
 
-{{% blocks/products/pf/agp/code-block title="کد C++ برای تبدیل PNG به PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد C++ برای تبدیل PNG به PPT" >}}
 ```cpp
 auto pres = System::MakeObject<Presentation>();
 
@@ -32,62 +26,36 @@ slide->get_Shapes()->AddPictureFrame(ShapeType::Rectangle, 0.0f, 0.0f, 720.0f, 5
 
 pres->Save(u"pres.pptx", SaveFormat::Pptx);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از Aspose.Slides، PNG را به PPT تبدیل کنید" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/fa/cpp/) یک کتابخانه قدرتمند ++C است که برای ایجاد، تبدیل، و دستکاری ارائه‌های پاورپوینت، فایل‌های PDF، اسناد HTML و موارد دیگر استفاده می‌شود. فایل ها. هنگامی که PNG را به PPT تبدیل می کنید، اساساً یک ارائه پاورپوینت ایجاد می کنید که حاوی اسلایدهایی بر اساس تصاویر PNG است.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه تبدیل PNG به PPT در ++C" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه تبدیل PNG به PPT در ++C" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides را برای C++** نصب کنید. [**نصب**](https://docs.aspose.com/slides/cpp/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک نمونه از کلاس Presentation ایجاد کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}تصویر PNG را که می خواهید به PPT تبدیل کنید بارگیری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل حاصل را به عنوان ارائه PPT ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="مبدل آنلاین رایگان"
+  description="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر تبدیل های پاورپوینت پشتیبانی شده" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر به پاورپوینت تبدیل کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای C++** نصب کنید. [**نصب**](https://docs.aspose.com/slides/cpp/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-یک نمونه از کلاس Presentation ایجاد کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تصویر PNG را که می خواهید به PPT تبدیل کنید بارگیری کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل حاصل را به عنوان ارائه PPT ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پاورپوینت پشتیبانی شده" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر به پاورپوینت تبدیل کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

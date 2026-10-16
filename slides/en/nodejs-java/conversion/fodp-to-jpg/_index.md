@@ -5,24 +5,18 @@ title: Convert FODP to JPG in Node.js
 url: /nodejs-java/conversion/fodp-to-jpg/
 keywords: FODP to JPG, Convert FODP to JPG, Node.js API, Node.js Library, FODP, JPG
 description: Convert FODP to JPG in Node.js. Use the Node.js API to convert FODP files to JPG images.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert FODP to JPG in Node.js" h2="Convert Flat OpenDocument Presentation files to JPG with Aspose.Slides for Node.js via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert FODP to JPG in Node.js" h2="Convert Flat OpenDocument Presentation files to JPG with Aspose.Slides for Node.js via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert FODP to JPG in Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert FODP to JPG using Node.js" variant="code" %}}
 
-[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `FODP` file with the `Presentation` class and render each slide as a `JPG` image by using the presentation API.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert FODP to JPG using Node.js" %}}
 To convert `FODP` to `JPG`, create a `Presentation` from the source file and render each slide as a separate `JPG` image.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code to convert FODP to JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Node.js code to convert FODP to JPG" >}}
 ```javascript
 const presentation = new aspose.slides.Presentation("sourceFile.fodp");
 try {
@@ -43,41 +37,23 @@ finally {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert FODP to JPG in Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load an `FODP` file with the `Presentation` class and render each slide as a `JPG` image by using the presentation API.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert FODP to JPG using Aspose.Slides for Node.js via Java API" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert FODP to JPG using Aspose.Slides for Node.js via Java, import the package, load the source file with the Presentation class, and export it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert FODP to JPG using Aspose.Slides for Node.js via Java API" intro="To convert FODP to JPG using Aspose.Slides for Node.js via Java, import the package, load the source file with the Presentation class, and export it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the `aspose.slides.via.java` package in your Node.js project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the source `FODP` file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Render each slide with `getImage` and save it with `ImageFormat.Jpeg`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert FODP to Other Supported Formats" subTitle="You can also convert FODP files to other supported presentation and export formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the `aspose.slides.via.java` package in your Node.js project.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the source `FODP` file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Render each slide with `getImage` and save it with `ImageFormat.Jpeg`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert FODP to Other Supported Formats" subTitle="You can also convert FODP files to other supported presentation and export formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: PHP में JPG को PPT में बदलें
 url: /hi/php-java/conversion/jpg-to-ppt/
 keywords: JPG से PPT, JPG को PPT में कन्वर्ट करें, PHP API, PHP लाइब्रेरी, JPG, PPT
 description: PHP में JPG को PPT में बदलें। JPG फ़ाइलों को PPT में कनवर्ट करने के लिए PowerPoint PHP API का उपयोग करें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="PHP में JPG को PPT में बदलें" h2="शक्तिशाली PowerPoint PHP लाइब्रेरी जो Microsoft या Open Office, Adobe PDF जैसे किसी सॉफ़्टवेयर के उपयोग के बिना Microsoft PowerPoint और OpenOffice प्रस्तुति फ़ाइलों को बनाने, मर्ज करने, निरीक्षण करने या परिवर्तित करने की क्षमता वाले अनुप्रयोगों को विकसित करने में मदद करती है।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PHP में JPG को PPT में बदलें" h2="शक्तिशाली PowerPoint PHP लाइब्रेरी जो Microsoft या Open Office, Adobe PDF जैसे किसी सॉफ़्टवेयर के उपयोग के बिना Microsoft PowerPoint और OpenOffice प्रस्तुति फ़ाइलों को बनाने, मर्ज करने, निरीक्षण करने या परिवर्तित करने की क्षमता वाले अनुप्रयोगों को विकसित करने में मदद करती है।" >}}
 
-{{% blocks/products/pf/feature-page-section h2="PHP में JPG को PPT में बदलें" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PHP का उपयोग करके JPG को PPT में बदलें" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/hi/php-java/) प्रस्तुति फ़ाइलों को बनाने और उनमें हेरफेर करने के लिए एक शक्तिशाली PHP लाइब्रेरी है। इसके अलावा, यह JPG को PPT में बदलने के लचीले तरीके प्रदान करता है। **Aspose.Slides for PHP via Java** का उपयोग करके, कोई भी डेवलपर या एप्लिकेशन JPG को PPT फ़ाइलों में PHP कोड की कुछ पंक्तियों के साथ परिवर्तित कर सकता है।
-
-एक आधुनिक दस्तावेज़ प्रसंस्करण एपीआई के रूप में, PHP के लिए Aspose.Slides JPG फ़ाइलों को PPT फ़ाइल स्वरूपों में तेज़ी से निर्यात करता है। Aspose PowerPoint लाइब्रेरी आपको JPG को PPT और कई अन्य फ़ाइल स्वरूपों में बदलने की अनुमति देती है
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="PHP का उपयोग करके JPG को PPT में बदलें" %}}
 JPG को PPT में बदलने के लिए, आपको JPG फ़ाइल से प्रस्तुतिकरण बनाना होगा और इसे PPT के रूप में सहेजना होगा।
 
-{{% blocks/products/pf/agp/code-block title="JPG को PPT में बदलने के लिए PHP कोड" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="JPG को PPT में बदलने के लिए PHP कोड" >}}
 ```php
 
 <?php
@@ -54,48 +46,35 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PHP में JPG को PPT में बदलें" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/hi/php-java/) प्रस्तुति फ़ाइलों को बनाने और उनमें हेरफेर करने के लिए एक शक्तिशाली PHP लाइब्रेरी है। इसके अलावा, यह JPG को PPT में बदलने के लचीले तरीके प्रदान करता है। **Aspose.Slides for PHP via Java** का उपयोग करके, कोई भी डेवलपर या एप्लिकेशन JPG को PPT फ़ाइलों में PHP कोड की कुछ पंक्तियों के साथ परिवर्तित कर सकता है।
 
-{{< blocks/products/pf/feature-page-section  h2="PHP API के लिए Aspose.Slides का उपयोग करके JPG को PPT में कैसे बदलें" >}}
+एक आधुनिक दस्तावेज़ प्रसंस्करण एपीआई के रूप में, PHP के लिए Aspose.Slides JPG फ़ाइलों को PPT फ़ाइल स्वरूपों में तेज़ी से निर्यात करता है। Aspose PowerPoint लाइब्रेरी आपको JPG को PPT और कई अन्य फ़ाइल स्वरूपों में बदलने की अनुमति देती है
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PHP में JPG को PPT में बदलने के चरण हैं।" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/hi/php-java/) इंस्टॉल करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PHP API के लिए Aspose.Slides का उपयोग करके JPG को PPT में कैसे बदलें" intro="ये PHP में JPG को PPT में बदलने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/hi/php-java/) इंस्टॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}अपने PHP प्रोजेक्ट में लाइब्रेरी संदर्भ (लाइब्रेरी आयात करें) जोड़ें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PHP में स्रोत JPG फ़ाइलें खोलें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}परिणाम को PPT फ़ाइल के रूप में सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-अपने PHP प्रोजेक्ट में लाइब्रेरी संदर्भ (लाइब्रेरी आयात करें) जोड़ें।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="मुफ्त ऑनलाइन कनवर्टर"
+  description="[पायथन में पीपीटी को एचटीएमएल में कैसे बदलें](https://products.aspose.com/slides/hi/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PHP में स्रोत JPG फ़ाइलें खोलें।
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="JPG को अन्य समर्थित प्रारूपों में बदलें" subTitle="आप JPG को भी रूपांतरित कर सकते हैं और अन्य फ़ाइल स्वरूपों में सहेज सकते हैं। नीचे सभी समर्थित प्रारूप देखें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-html/" name="JPG TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम को PPT फ़ाइल के रूप में सहेजें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="मुफ्त ऑनलाइन कनवर्टर" sectionDescription="[पायथन में पीपीटी को एचटीएमएल में कैसे बदलें](https://products.aspose.com/slides/hi/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="JPG को अन्य समर्थित प्रारूपों में बदलें" subTitle="आप JPG को भी रूपांतरित कर सकते हैं और अन्य फ़ाइल स्वरूपों में सहेज सकते हैं। नीचे सभी समर्थित प्रारूप देखें" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-html/" name="JPG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

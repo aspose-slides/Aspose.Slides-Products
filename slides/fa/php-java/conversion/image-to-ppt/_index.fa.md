@@ -5,26 +5,18 @@ title: تبدیل Image به PPT در PHP
 url: /fa/php-java/conversion/image-to-ppt/
 keywords: Image به PPT، تبدیل Image به PPT، PHP API، PHP Library، Image، PPT
 description: تبدیل Image به PPT در PHP. از PowerPoint PHP API برای تبدیل فایل‌های Image به PPT استفاده کنید.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تبدیل Image به PPT در PHP" h2="کتابخانه قدرتمند پاورپوینت PHP که به توسعه برنامه هایی با توانایی ایجاد، ادغام، بازرسی یا تبدیل فایل های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می کند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تبدیل Image به PPT در PHP" h2="کتابخانه قدرتمند پاورپوینت PHP که به توسعه برنامه هایی با توانایی ایجاد، ادغام، بازرسی یا تبدیل فایل های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می کند." >}}
 
-{{% blocks/products/pf/feature-page-section h2="تبدیل Image به PPT در PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از PHP، Image را به PPT تبدیل کنید" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل Image به PPT ارائه می‌کند. با استفاده از **Aspose.Slides برای PHP از طریق جاوا**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های Image را تنها با چند خط کد PHP به PPT تبدیل کند.
-
-Aspose.Slides برای PHP به عنوان یک API مدرن برای پردازش اسناد، فایل‌های Image را به فرمت‌های فایل PPT صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد Image را به PPT و بسیاری از فرمت های فایل دیگر تبدیل کنید.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="با استفاده از PHP، Image را به PPT تبدیل کنید" %}}
 برای تبدیل Image به PPT، باید Presentation را از فایل Image ایجاد کنید و آن را به عنوان PPT ذخیره کنید.
 
-{{% blocks/products/pf/agp/code-block title="کد PHP برای تبدیل Image به PPT" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد PHP برای تبدیل Image به PPT" >}}
 ```php
 
 <?php
@@ -54,47 +46,34 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تبدیل Image به PPT در PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل Image به PPT ارائه می‌کند. با استفاده از **Aspose.Slides برای PHP از طریق جاوا**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های Image را تنها با چند خط کد PHP به PPT تبدیل کند.
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه تبدیل Image به PPT با استفاده از Aspose.Slides for PHP API" >}}
+Aspose.Slides برای PHP به عنوان یک API مدرن برای پردازش اسناد، فایل‌های Image را به فرمت‌های فایل PPT صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد Image را به PPT و بسیاری از فرمت های فایل دیگر تبدیل کنید.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای تبدیل Image به PPT در PHP است." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides برای PHP از طریق جاوا**](https://products.aspose.com/slides/fa/php-java/) را نصب کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه تبدیل Image به PPT با استفاده از Aspose.Slides for PHP API" intro="این مراحل برای تبدیل Image به PPT در PHP است." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[**Aspose.Slides برای PHP از طریق جاوا**](https://products.aspose.com/slides/fa/php-java/) را نصب کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه PHP خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل های منبع Image را در PHP باز کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نتیجه را به عنوان فایل PPT ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه PHP خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="مبدل آنلاین رایگان"
+  description="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل های منبع Image را در PHP باز کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تبدیل Image به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید Image را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-html/" name="IMAGE TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را به عنوان فایل PPT ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تبدیل Image به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید Image را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-html/" name="IMAGE TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-pdf/" name="IMAGE TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

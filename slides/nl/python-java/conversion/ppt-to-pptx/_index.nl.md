@@ -5,26 +5,18 @@ title: Converteer PPT naar PPTX in Python
 url: /nl/python-java/conversion/ppt-to-pptx/
 keywords: Conversie van Python-presentaties, converteer presentaties naar Python, Python voor presentaties, Aspose.Slides Python, conversie van PPT naar PPTX, Python-presentatiebibliotheek
 description: Converteer PPT naar PPTX in Python. Gebruik de Python-bibliotheek-API om PPT bestanden naar PPTX te converteren
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Converteer moeiteloos PPT naar PPTX met Python: Aspose.Slides schiet te hulp!" h2="Blaas uw presentaties nieuw leven in met Python. Onze gids begeleidt u bij het converteren van bestaande PowerPoint-dia's naar boeiende Python-presentaties." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Converteer moeiteloos PPT naar PPTX met Python: Aspose.Slides schiet te hulp!" h2="Blaas uw presentaties nieuw leven in met Python. Onze gids begeleidt u bij het converteren van bestaande PowerPoint-dia's naar boeiende Python-presentaties." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Converteer PPT naar PPTX in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converteer PPT naar PPTX met Python" variant="code" %}}
 
-Ben je het worstelen met complexe presentatiesoftware beu? Zoek niet verder dan [**Aspose.Slides voor Python via Java**](https://products.aspose.com/slides/nl/python-java/)! Met deze krachtige bibliotheek kunt u eenvoudig presentaties tussen verschillende formaten maken, bewerken en converteren. Wilt u overstappen van PPT naar PPTX? Aspose.Slides maakt het een fluitje van een cent en vereist slechts een paar regels Python-code.
-
-Als geavanceerde documentverwerkings-API biedt **Aspose.Slides voor Python via Java** razendsnelle conversiesnelheden, waardoor een snelle transformatie van uw PPT-presentaties naar het PPTX-formaat wordt gegarandeerd. Overwin de beperkingen van traditionele tools - Aspose.Slides biedt u de flexibiliteit om presentaties van PPT naar niet alleen PPTX te converteren, maar ook naar een breed scala aan andere formaten, waardoor u uw presentaties feilloos aan elke situatie kunt aanpassen.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Converteer PPT naar PPTX met Python" %}}
 Om het bestand PPT naar PPTX te converteren, moet u een presentatie maken van het bestand PPT en dit opslaan als PPTX.
 
-{{% blocks/products/pf/agp/code-block title="Python-tutorial voor het converteren van PPT naar PPTX" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python-tutorial voor het converteren van PPT naar PPTX" >}}
 ```python
 
 import jpype
@@ -42,59 +34,44 @@ pres.save("output.pptx", SaveFormat.Pptx);
 
 jpype.shutdownJVM()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converteer PPT naar PPTX in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+Ben je het worstelen met complexe presentatiesoftware beu? Zoek niet verder dan [**Aspose.Slides voor Python via Java**](https://products.aspose.com/slides/nl/python-java/)! Met deze krachtige bibliotheek kunt u eenvoudig presentaties tussen verschillende formaten maken, bewerken en converteren. Wilt u overstappen van PPT naar PPTX? Aspose.Slides maakt het een fluitje van een cent en vereist slechts een paar regels Python-code.
 
-{{< blocks/products/pf/feature-page-section  h2="Python-zelfstudie. Hoe u PPT naar PPTX kunt converteren met Aspose.Slides voor Python via Java API." >}}
+Als geavanceerde documentverwerkings-API biedt **Aspose.Slides voor Python via Java** razendsnelle conversiesnelheden, waardoor een snelle transformatie van uw PPT-presentaties naar het PPTX-formaat wordt gegarandeerd. Overwin de beperkingen van traditionele tools - Aspose.Slides biedt u de flexibiliteit om presentaties van PPT naar niet alleen PPTX te converteren, maar ook naar een breed scala aan andere formaten, waardoor u uw presentaties feilloos aan elke situatie kunt aanpassen.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Om PPT naar PPTX te converteren met Aspose.Slides voor Python via Java, moet u het pakket in uw Python-script importeren en een exemplaar van de klasse Presentation maken. De klasse Presentation vertegenwoordigt een PowerPoint-document en biedt methoden om de elementen ervan te openen en te manipuleren." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installeer [**Aspose.Slides voor Python via Java**](https://products.aspose.com/slides/nl/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python-zelfstudie. Hoe u PPT naar PPTX kunt converteren met Aspose.Slides voor Python via Java API." intro="Om PPT naar PPTX te converteren met Aspose.Slides voor Python via Java, moet u het pakket in uw Python-script importeren en een exemplaar van de klasse Presentation maken. De klasse Presentation vertegenwoordigt een PowerPoint-document en biedt methoden om de elementen ervan te openen en te manipuleren." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installeer [**Aspose.Slides voor Python via Java**](https://products.aspose.com/slides/nl/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Voeg een bibliotheekreferentie toe (importeer de bibliotheek) aan uw Python-project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open de bronbestanden PPT in Python.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla het resultaat op als PPTX bestand.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Voeg een bibliotheekreferentie toe (importeer de bibliotheek) aan uw Python-project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Converteer PPT naar andere ondersteunde formaten" subTitle="U kunt PPT ook converteren en opslaan in andere bestandsindelingen. Bekijk hieronder alle ondersteunde formaten" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pot/" name="PPT TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-tiff/" name="PPT TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open de bronbestanden PPT in Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla het resultaat op als PPTX bestand.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Converteer PPT naar andere ondersteunde formaten" subTitle="U kunt PPT ook converteren en opslaan in andere bestandsindelingen. Bekijk hieronder alle ondersteunde formaten" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pot/" name="PPT TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-java/conversion/ppt-to-tiff/" name="PPT TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

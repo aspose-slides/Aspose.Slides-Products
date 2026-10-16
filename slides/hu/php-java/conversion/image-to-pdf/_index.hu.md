@@ -5,26 +5,18 @@ title: A Image konvertálása PDF formátumra PHP-ben
 url: /hu/php-java/conversion/image-to-pdf/
 keywords: Image to PDF, Image konvertálása PDF formátumba, PHP API, PHP Library, Image, PDF
 description: A Image konvertálása PDF formátumra PHP-ben. Használja a PowerPoint PHP API-t a Image fájlok konvertálásához PDF formátumba
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="A Image konvertálása PDF formátumra PHP-ben" h2="Hatékony PowerPoint PHP-könyvtár, amely segít olyan alkalmazások fejlesztésében, amelyek képesek Microsoft PowerPoint és OpenOffice prezentációs fájlok létrehozására, egyesítésére, ellenőrzésére vagy konvertálására bármilyen szoftver, például Microsoft vagy Open Office, Adobe PDF használata nélkül." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="A Image konvertálása PDF formátumra PHP-ben" h2="Hatékony PowerPoint PHP-könyvtár, amely segít olyan alkalmazások fejlesztésében, amelyek képesek Microsoft PowerPoint és OpenOffice prezentációs fájlok létrehozására, egyesítésére, ellenőrzésére vagy konvertálására bármilyen szoftver, például Microsoft vagy Open Office, Adobe PDF használata nélkül." >}}
 
-{{% blocks/products/pf/feature-page-section h2="A Image konvertálása PDF formátumra PHP-ben" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertálja a(z) Image fájlt PDF formátumra PHP segítségével" variant="code" %}}
 
-Az [**Aspose.Slides for PHP Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) egy hatékony PHP-könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a Image PDF formátumra való konvertálására. Az **Aspose.Slides for PHP Java-n keresztül** használatával bármely fejlesztő vagy alkalmazás képes konvertálni a Image fájlokat PDF fájlokra, mindössze néhány sor PHP kóddal.
-
-Modern dokumentumfeldolgozó API-ként az Aspose.Slides for PHP gyorsan exportál Image fájlokat PDF fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) Image fájl konvertálását PDF-re és sok más fájlformátumra
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertálja a(z) Image fájlt PDF formátumra PHP segítségével" %}}
 A Image formátum PDF formátumra konvertálásához létre kell hoznia egy prezentációt a Image fájlból, és el kell mentenie PDF néven.
 
-{{% blocks/products/pf/agp/code-block title="PHP kód a(z) Image PDF formátumba való konvertálásához" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP kód a(z) Image PDF formátumba való konvertálásához" >}}
 ```php
 
 <?php
@@ -54,47 +46,34 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="A Image konvertálása PDF formátumra PHP-ben" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+Az [**Aspose.Slides for PHP Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) egy hatékony PHP-könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a Image PDF formátumra való konvertálására. Az **Aspose.Slides for PHP Java-n keresztül** használatával bármely fejlesztő vagy alkalmazás képes konvertálni a Image fájlokat PDF fájlokra, mindössze néhány sor PHP kóddal.
 
-{{< blocks/products/pf/feature-page-section  h2="A Image konvertálása PDF formátumba az Aspose.Slides for PHP API segítségével" >}}
+Modern dokumentumfeldolgozó API-ként az Aspose.Slides for PHP gyorsan exportál Image fájlokat PDF fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) Image fájl konvertálását PDF-re és sok más fájlformátumra
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a Image PDF formátumra konvertálásához PHP-ben." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for PHP programot Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) alkalmazást.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="A Image konvertálása PDF formátumba az Aspose.Slides for PHP API segítségével" intro="Ezek a lépések a Image PDF formátumra konvertálásához PHP-ben." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az [**Aspose.Slides for PHP programot Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) alkalmazást.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a PHP projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a forrás Image fájljait PHP-ben.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Az eredmény mentése PDF fájlként.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a PHP projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Ingyenes online konverter"
+  description="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nyissa meg a forrás Image fájljait PHP-ben.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="A(z) Image konvertálása más támogatott formátumokká" subTitle="A Image formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-html/" name="IMAGE TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PDF fájlként.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Ingyenes online konverter" sectionDescription="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="A(z) Image konvertálása más támogatott formátumokká" subTitle="A Image formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-html/" name="IMAGE TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-ppt/" name="IMAGE TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

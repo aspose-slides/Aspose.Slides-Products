@@ -4,26 +4,18 @@ title: Convert PPTX to Word in Python
 url: /python-net/conversion/pptx-to-word/
 keywords: Convert PPTX to Word, PPTX to Word, PPTX to DOC, PowerPoint to Word, Python API, Python Library
 description: Convert PPTX presentation slides to Word documents in Python. Use Aspose.Slides and Aspose.Words to create a DOCX file from a PowerPoint presentation.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPTX to Word in Python" h2="Python APIs for converting PowerPoint presentation slides to Word documents without Microsoft Office" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPTX to Word in Python" h2="Python APIs for converting PowerPoint presentation slides to Word documents without Microsoft Office" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Word using Aspose.Slides and Aspose.Words" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PowerPoint to Word in Python" variant="code" %}}
 
-[**Aspose.Slides for Python via .NET**](/slides/python-net/) and [**Aspose.Words for Python via .NET**](/words/python-net/) let you process PowerPoint presentations and Word documents programmatically. To convert a PPTX file to Word, render each slide by using `Slide.get_image`, insert the resulting image into a document with `DocumentBuilder.insert_image`, and save the document in DOCX format.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to Word in Python" %}}
 The following example converts every slide in a PPTX presentation to a full-page image in a Word document.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PowerPoint to Word" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PowerPoint to Word" >}}
 ```python
 with slides.Presentation("presentation.pptx") as presentation:
     document = words.Document()
@@ -55,60 +47,25 @@ with slides.Presentation("presentation.pptx") as presentation:
 
     document.save("presentation.docx")
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PowerPoint to Word using Aspose.Slides and Aspose.Words" %}}
 
+[**Aspose.Slides for Python via .NET**](/slides/python-net/) and [**Aspose.Words for Python via .NET**](/words/python-net/) let you process PowerPoint presentations and Word documents programmatically. To convert a PPTX file to Word, render each slide by using `Slide.get_image`, insert the resulting image into a document with `DocumentBuilder.insert_image`, and save the document in DOCX format.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PPTX to Word" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PPTX to Word" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Python via .NET** and **Aspose.Words for Python via .NET**.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the PPTX file into a `Presentation` instance, and create `Document` and `DocumentBuilder` instances.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Match the Word page size and margins to `Presentation.slide_size`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Render each `Slide` by using `Slide.get_image`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Insert each rendered image by using `DocumentBuilder.insert_image`, adding page breaks between slides.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the resulting DOCX file by using `Document.save`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert PPTX files to other supported formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Install **Aspose.Slides for Python via .NET** and **Aspose.Words for Python via .NET**.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the PPTX file into a `Presentation` instance, and create `Document` and `DocumentBuilder` instances.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Match the Word page size and margins to `Presentation.slide_size`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Render each `Slide` by using `Slide.get_image`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Insert each rendered image by using `DocumentBuilder.insert_image`, adding page breaks between slides.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the resulting DOCX file by using `Document.save`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PPTX files to other supported formats." >}}
-
-
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

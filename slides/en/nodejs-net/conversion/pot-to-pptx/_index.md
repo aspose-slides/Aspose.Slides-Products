@@ -5,24 +5,18 @@ title: Convert POT to PPTX in Node.js
 url: /nodejs-net/conversion/pot-to-pptx/
 keywords: POT to PPTX, Convert POT to PPTX, Node.js API, JavaScript Library, POT, PPTX
 description: Convert POT to PPTX in Node.js. Use a Node.js library API to convert POT files to PPTX files.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert POT to PPTX in Node.js" h2="Convert PowerPoint template files to PPTX files with Aspose.Slides for Node.js via .NET." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert POT to PPTX in Node.js" h2="Convert PowerPoint template files to PPTX files with Aspose.Slides for Node.js via .NET." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert POT to PPTX in Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert POT to PPTX using Node.js" variant="code" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to a `PPTX` file by using the presentation API.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Convert POT to PPTX using Node.js" %}}
 To convert `POT` to `PPTX`, create a `Presentation` from the source file and export it to a `PPTX` file.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code to convert POT to PPTX" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Node.js code to convert POT to PPTX" >}}
 ```javascript
 const presentation = new asposeSlides.Presentation("sourceFile.pot");
 try {
@@ -32,41 +26,23 @@ finally {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert POT to PPTX in Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `POT` file with the `Presentation` class and export it to a `PPTX` file by using the presentation API.
 
-{{< blocks/products/pf/feature-page-section h2="How to convert POT to PPTX using Aspose.Slides for Node.js via .NET API" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert POT to PPTX using Aspose.Slides for Node.js via .NET, import the package, load the source file, and export it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert POT to PPTX using Aspose.Slides for Node.js via .NET API" intro="To convert POT to PPTX using Aspose.Slides for Node.js via .NET, import the package, load the source file, and export it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the `aspose.slides.via.net` package in your Node.js project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the source `POT` file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `save` method with the output file path and `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert POT To Other Supported Formats" subTitle="You can also convert POT and save to other file formats. See all supported formats below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the `aspose.slides.via.net` package in your Node.js project.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the source `POT` file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `save` method with the output file path and `SaveFormat.Pptx`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert POT To Other Supported Formats" subTitle="You can also convert POT and save to other file formats. See all supported formats below:" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,49 +5,18 @@ title: แปลง PPTX เป็นวิดีโอใน C#
 url: /th/net/conversion/pptx-to-video/
 keywords: แปลง PPTX เป็นวิดีโอ, PPTX เป็นวิดีโอ, PowerPoint เป็นวิดีโอ, PPTX เป็น MP4, C# API, .NET Library
 description: แปลง PPTX เป็นวิดีโอใน C# ใช้ .NET library API เพื่อแปลง PowerPoint เป็นวิดีโอ
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="แปลง PPTX เป็นวิดีโอใน C#" h2=".NET API ข้ามแพลตฟอร์มที่มีประสิทธิภาพสำหรับการแปลง PowerPoint เป็นวิดีโอโดยใช้โค้ด C# บน NET Framework, .NET Core, Windows Azure, Mono หรือ Xamarin Platforms" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="แปลง PPTX เป็นวิดีโอใน C#" h2=".NET API ข้ามแพลตฟอร์มที่มีประสิทธิภาพสำหรับการแปลง PowerPoint เป็นวิดีโอโดยใช้โค้ด C# บน NET Framework, .NET Core, Windows Azure, Mono หรือ Xamarin Platforms" >}}
 
-{{% blocks/products/pf/feature-page-section h2="แปลง PowerPoint เป็นวิดีโอโดยใช้ Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง PowerPoint เป็นวิดีโอใน C#" variant="code" %}}
 
-[**Aspose.Slides สำหรับ .NET**](https://products.aspose.com/slides/th/net/) เป็นไลบรารี .NET อันทรงพลังที่ใช้สร้าง แก้ไข และจัดการงานนำเสนอ และยังแปลงงานนำเสนอ PowerPoint เป็นเอกสารอื่นๆ และวิดีโอ ในกรณีนี้ ในการแปลง PowerPoint เป็นวิดีโอ คุณต้องใช้ **Aspose.Slides** ควบคู่ไปกับ **ffmpeg** และ **FFMpegCore** (ตัวตัด FFmpeg NET ฟรี)
-
-นี่เป็นวิธีการทำงานของกระบวนการแปลง PPTX เป็นวิดีโอ: Aspose.Slides ใช้เพื่อสร้างชุดของเฟรม (จากสไลด์การนำเสนอ) จากนั้นใช้ FFMpegCore (ffmpeg) เพื่อสร้างวิดีโอตามเฟรม
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="วิธีแปลง PPTX เป็นวิดีโอ" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ติดตั้ง **Aspose.Slides สำหรับ .NET** และ **FFMpegcore**: เรียกใช้ `dotnet add package Aspose.Slides.NET --version 22.12.0` จากนั้นเรียกใช้ `dotnet add package FFMpegCore --version 4.8.0`
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ดาวน์โหลด ffmpeg [ที่นี่](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-FFMpegCore ต้องการให้คุณระบุพาธไปยัง ffmpeg ที่ดาวน์โหลดมา (เช่น แยกเป็น “C:\tools\ffmpeg”): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-คัดลอก วาง แล้วเรียกใช้โค้ด PowerPoint เป็นวิดีโอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="แปลง PowerPoint เป็นวิดีโอใน C#" %}}
 ใช้รหัสนี้เพื่อแปลง PPTX เป็นวิดีโอ:
 
-{{% blocks/products/pf/agp/code-block title="รหัส C# สำหรับแปลง PowerPoint เป็นวิดีโอ" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="รหัส C# สำหรับแปลง PowerPoint เป็นวิดีโอ" >}}
 ```cs
 
 using System.Collections.Generic;
@@ -86,23 +55,35 @@ using (Presentation presentation = new Presentation())
 
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="การแปลงอื่น ๆ ที่รองรับ" subTitle="คุณยังสามารถแปลง PowerPoint เป็นไฟล์ในรูปแบบอื่นๆ" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง PowerPoint เป็นวิดีโอโดยใช้ Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+[**Aspose.Slides สำหรับ .NET**](https://products.aspose.com/slides/th/net/) เป็นไลบรารี .NET อันทรงพลังที่ใช้สร้าง แก้ไข และจัดการงานนำเสนอ และยังแปลงงานนำเสนอ PowerPoint เป็นเอกสารอื่นๆ และวิดีโอ ในกรณีนี้ ในการแปลง PowerPoint เป็นวิดีโอ คุณต้องใช้ **Aspose.Slides** ควบคู่ไปกับ **ffmpeg** และ **FFMpegCore** (ตัวตัด FFmpeg NET ฟรี)
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+นี่เป็นวิธีการทำงานของกระบวนการแปลง PPTX เป็นวิดีโอ: Aspose.Slides ใช้เพื่อสร้างชุดของเฟรม (จากสไลด์การนำเสนอ) จากนั้นใช้ FFMpegCore (ffmpeg) เพื่อสร้างวิดีโอตามเฟรม
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแปลง PPTX เป็นวิดีโอ" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ติดตั้ง **Aspose.Slides สำหรับ .NET** และ **FFMpegcore**: เรียกใช้ `dotnet add package Aspose.Slides.NET --version 22.12.0` จากนั้นเรียกใช้ `dotnet add package FFMpegCore --version 4.8.0`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ดาวน์โหลด ffmpeg [ที่นี่](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}FFMpegCore ต้องการให้คุณระบุพาธไปยัง ffmpeg ที่ดาวน์โหลดมา (เช่น แยกเป็น “C:\tools\ffmpeg”): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}คัดลอก วาง แล้วเรียกใช้โค้ด PowerPoint เป็นวิดีโอ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="การแปลงอื่น ๆ ที่รองรับ" subTitle="คุณยังสามารถแปลง PowerPoint เป็นไฟล์ในรูปแบบอื่นๆ" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

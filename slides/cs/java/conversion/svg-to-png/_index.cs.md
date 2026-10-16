@@ -5,26 +5,18 @@ title: Převeďte SVG do PNG v Javě
 url: /cs/java/conversion/svg-to-png/
 keywords: SVG do PNG, Převést SVG do PNG, Java API, Java Library, SVG, PNG
 description: Převeďte SVG do PNG v Javě. K převodu souborů SVG na PNG použijte rozhraní API knihovny Java
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Převeďte SVG do PNG v Javě" h2="Vysokorychlostní a multiplatformní knihovna Java, která pomáhá při vývoji aplikací se schopností vytvářet, slučovat, kontrolovat nebo převádět prezentační soubory Microsoft PowerPoint a OpenOffice bez použití jakéhokoli softwaru, jako je Microsoft nebo Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Převeďte SVG do PNG v Javě" h2="Vysokorychlostní a multiplatformní knihovna Java, která pomáhá při vývoji aplikací se schopností vytvářet, slučovat, kontrolovat nebo převádět prezentační soubory Microsoft PowerPoint a OpenOffice bez použití jakéhokoli softwaru, jako je Microsoft nebo Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Převeďte SVG do PNG v Javě" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Převeďte SVG do PNG pomocí Javy" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby převodu SVG do PNG. Pomocí **Aspose.Slides for Java** může každý vývojář nebo aplikace převést soubory SVG do PNG pomocí několika řádků kódu Java.
-
-Aspose.Slides for Java jako moderní API pro zpracování dokumentů rychle exportuje soubory SVG do formátů souborů PNG. Knihovna Aspose PowerPoint vám umožňuje převést SVG do PNGs a mnoho dalších formátů souborů
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Převeďte SVG do PNG pomocí Javy" %}}
 Chcete-li převést SVG do PNG, budete muset vytvořit prezentaci ze souboru SVG a uložit ji jako PNG.
 
-{{% blocks/products/pf/agp/code-block title="Java kód pro převod SVG do PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java kód pro převod SVG do PNG" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -45,43 +37,29 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Převeďte SVG do PNG v Javě" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby převodu SVG do PNG. Pomocí **Aspose.Slides for Java** může každý vývojář nebo aplikace převést soubory SVG do PNG pomocí několika řádků kódu Java.
 
-{{< blocks/products/pf/feature-page-section  h2="Jak převést SVG do PNG pomocí Aspose.Slides for Java API" >}}
+Aspose.Slides for Java jako moderní API pro zpracování dokumentů rychle exportuje soubory SVG do formátů souborů PNG. Knihovna Aspose PowerPoint vám umožňuje převést SVG do PNGs a mnoho dalších formátů souborů
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k převodu SVG do PNG v Javě." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak převést SVG do PNG pomocí Aspose.Slides for Java API" intro="Toto jsou kroky k převodu SVG do PNG v Javě." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nainstalujte [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Java.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otevřete zdrojové soubory SVG v Javě.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložit výsledek jako soubor PNG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Java.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Zdarma online konvertor"
+  description="[Jak převést PPT na HTML v Pythonu](https://products.aspose.com/slides/cs/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Otevřete zdrojové soubory SVG v Javě.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Převést SVG do jiných podporovaných formátů" subTitle="Můžete také převést SVG a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložit výsledek jako soubor PNG.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Zdarma online konvertor" sectionDescription="[Jak převést PPT na HTML v Pythonu](https://products.aspose.com/slides/cs/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Převést SVG do jiných podporovaných formátů" subTitle="Můžete také převést SVG a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

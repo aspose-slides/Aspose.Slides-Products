@@ -5,24 +5,18 @@ title: Преобразование PNG в PPTX в Python
 url: /ru/python-net/conversion/png-to-pptx/
 keywords: Преобразование PNG в PPTX, PNG в PPTX, PowerPoint, PNG, PPTX, Python API, Python Library
 description: Конвертируйте PNG в PPTX в Python. Используйте API библиотеки Python для преобразования изображений PNG в PowerPoint
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Преобразование PNG в PPTX в Python" h2="Мощный кроссплатформенный Python API для преобразования PNG в PPTX с использованием кода Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Преобразование PNG в PPTX в Python" h2="Мощный кроссплатформенный Python API для преобразования PNG в PPTX с использованием кода Python." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Преобразование PNG в PPTX с помощью Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Преобразование PNG в PPTX в Python" variant="code" %}}
 
-[**Aspose.Slides для Python через .NET**](https://products.aspose.com/slides/ru/python-net/) — это мощная библиотека Python, используемая для создания, преобразования и управления презентациями PowerPoint, PDF-файлами, HTML-документы и другие файлы. Когда вы конвертируете PNG в PPTX, вы, по сути, создаете презентацию PowerPoint, содержащую слайды на основе изображений PNG.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Преобразование PNG в PPTX в Python" %}}
 Используя [**Aspose.Slides для Python через .NET**](https://products.aspose.com/slides/ru/python-net/), вы можете преобразовать изображение PNG в презентацию PowerPoint всего несколькими строками кода:
 
-{{% blocks/products/pf/agp/code-block title="Код Python для преобразования PNG в PPTX" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Код Python для преобразования PNG в PPTX" >}}
 ```py
 import aspose.slides as slides
 
@@ -34,62 +28,36 @@ with slides.Presentation() as pres:
     
     pres.save("pres_with_image.pptx", slides.export.SaveFormat.PPTX)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Преобразование PNG в PPTX с помощью Aspose.Slides" %}}
 
+[**Aspose.Slides для Python через .NET**](https://products.aspose.com/slides/ru/python-net/) — это мощная библиотека Python, используемая для создания, преобразования и управления презентациями PowerPoint, PDF-файлами, HTML-документы и другие файлы. Когда вы конвертируете PNG в PPTX, вы, по сути, создаете презентацию PowerPoint, содержащую слайды на основе изображений PNG.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как преобразовать PNG в PPTX в Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как преобразовать PNG в PPTX в Python" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Добавьте библиотеку в качестве ссылки в свой проект.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Создайте экземпляр класса Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Загрузите изображение PNG, которое вы хотите преобразовать в PPTX.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните полученный файл как презентацию PPTX.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Бесплатный онлайн-конвертер"
+  description="[Как преобразовать PPT в HTML в Python](https://products.aspose.com/slides/ru/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые преобразования PowerPoint" subTitle="Вы также можете конвертировать файлы в других форматах в PowerPoint" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Добавьте библиотеку в качестве ссылки в свой проект.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Создайте экземпляр класса Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Загрузите изображение PNG, которое вы хотите преобразовать в PPTX.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохраните полученный файл как презентацию PPTX.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Бесплатный онлайн-конвертер" sectionDescription="[Как преобразовать PPT в HTML в Python](https://products.aspose.com/slides/ru/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые преобразования PowerPoint" subTitle="Вы также можете конвертировать файлы в других форматах в PowerPoint" >}} 
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

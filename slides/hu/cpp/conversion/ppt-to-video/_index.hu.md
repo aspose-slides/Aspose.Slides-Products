@@ -5,45 +5,18 @@ title: Konvertálja a PPT-t videóvá C++ nyelven
 url: /hu/cpp/conversion/ppt-to-video/
 keywords: PPT konvertálása videóvá, PPT videóvá, PowerPoint videóvá, PPT konvertálása MP4-be, C++ API, C++ Library
 description: Konvertálja a PPT-t videóvá C++ nyelven. Használja a C++ könyvtár API-t a PowerPoint videóvá alakításához
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konvertálja a PPT-t videóvá C++ nyelven" h2="Hatékony, többplatformos C++ API a PowerPoint videóvá konvertálásához C++ kóddal" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konvertálja a PPT-t videóvá C++ nyelven" h2="Hatékony, többplatformos C++ API a PowerPoint videóvá konvertálásához C++ kóddal" >}}
 
-{{% blocks/products/pf/feature-page-section h2="A PowerPoint konvertálása videóvá az Aspose.Slides segítségével" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="A PowerPoint konvertálása videóvá C++ nyelven" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) egy hatékony C++ könyvtár, amely prezentációk létrehozására, szerkesztésére és manipulálására, valamint PowerPoint-prezentációk más dokumentumokká és videókká konvertálására szolgál. . Ebben az esetben a PowerPoint videóvá alakításához az **Aspose.Slides** fájlt kell használnia az **ffmpeg** mellett.
-
-Így működik a PPT videóvá konvertálási folyamata: Az Aspose.Slides segítségével képkockák készletet generálnak (a prezentációs diákból), majd az FFMpegCore (ffmpeg) segítségével készítenek videót a képkockák alapján.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Hogyan lehet PPT-t videóvá konvertálni" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az **Aspose.Slides for C++** alkalmazást az [itt] található utasítások követésével (https://docs.aspose.com/slides/cpp/installation/). Töltse le az **ffmpeg** fájlt [innen.](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adja hozzá az „ffmpeg.exe” elérési útját a „PATH” környezeti változóhoz.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Másolja, illessze be, majd futtassa a C++ PowerPoint videókódot.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="A PowerPoint konvertálása videóvá C++ nyelven" %}}
 Használja ezt a C++ kódot a PPT videóvá alakításához:
 
-{{% blocks/products/pf/agp/code-block title="C++ kód a PowerPoint videóvá konvertálásához" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ kód a PowerPoint videóvá konvertálásához" >}}
 ```c++
 
 void OnFrameTick(System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args)
@@ -79,23 +52,34 @@ void Run()
     ffmpegProcess->WaitForExit();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott konverziók" subTitle="A PowerPointot más formátumú fájlokká is konvertálhatja" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="A PowerPoint konvertálása videóvá az Aspose.Slides segítségével" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-word/" name="PPT TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) egy hatékony C++ könyvtár, amely prezentációk létrehozására, szerkesztésére és manipulálására, valamint PowerPoint-prezentációk más dokumentumokká és videókká konvertálására szolgál. . Ebben az esetben a PowerPoint videóvá alakításához az **Aspose.Slides** fájlt kell használnia az **ffmpeg** mellett.
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+Így működik a PPT videóvá konvertálási folyamata: Az Aspose.Slides segítségével képkockák készletet generálnak (a prezentációs diákból), majd az FFMpegCore (ffmpeg) segítségével készítenek videót a képkockák alapján.
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan lehet PPT-t videóvá konvertálni" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az **Aspose.Slides for C++** alkalmazást az [itt] található utasítások követésével (https://docs.aspose.com/slides/cpp/installation/). Töltse le az **ffmpeg** fájlt [innen.](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adja hozzá az „ffmpeg.exe” elérési útját a „PATH” környezeti változóhoz.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Másolja, illessze be, majd futtassa a C++ PowerPoint videókódot.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Egyéb támogatott konverziók" subTitle="A PowerPointot más formátumú fájlokká is konvertálhatja" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-word/" name="PPT TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

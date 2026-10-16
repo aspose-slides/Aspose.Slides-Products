@@ -5,49 +5,18 @@ title: 在C#中將PPT轉換為視頻
 url: /zh-hant/net/conversion/ppt-to-video/
 keywords: 將 PPT 轉換為視頻、將 PPT 轉換為視頻、將 PowerPoint 轉換為視頻、將 PPT 轉換為 MP4、C# API、.NET 庫
 description: 在C#中將PPT轉換為視頻。使用 .NET 庫 API 將 PowerPoint 轉換為視頻
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="C#將PPT轉為視頻" h2="強大的跨平台 .NET API，用於在 NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上使用 C# 代碼將 PowerPoint 轉換為視頻" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C#將PPT轉為視頻" h2="強大的跨平台 .NET API，用於在 NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上使用 C# 代碼將 PowerPoint 轉換為視頻" >}}
 
-{{% blocks/products/pf/feature-page-section h2="使用 Aspose.Slides 將 PowerPoint 轉換為視頻" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="在 C# 中將 PowerPoint 轉換為視頻" variant="code" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/zh-hant/net/) 是一個功能強大的 .NET 庫，用於創建、編輯和操作演示文稿，並將 PowerPoint 演示文稿轉換為其他文檔和視頻。在這種情況下，要將 PowerPoint 轉換為視頻，您需要使用 **Aspose.Slides** 以及 **ffmpeg** 和 **FFMpegCore**（一個免費的 NET ffmpeg 包裝器）。
-
-這就是 PPT 到視頻轉換過程的工作原理：Aspose.Slides 用於生成一組幀（從演示幻燈片），然後 FFMpegCore (ffmpeg) 用於創建基於幀的視頻。
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="PPT轉視頻的方法" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-安裝 **Aspose.Slides for .NET** 和 **FFMpegcore**：運行“dotnet add package Aspose.Slides.NET --version 22.12.0”，然後運行“dotnet add package FFMpegCore --version 4.8.0”
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-[在此處下載 ffmpeg。](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-FFMpegCore 要求您指定下載的 ffmpeg 的路徑（例如解壓縮到“C:\tools\ffmpeg”）：`GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-複製、粘貼然後運行 PowerPoint 到視頻代碼。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="在 C# 中將 PowerPoint 轉換為視頻" %}}
 使用此代碼將 PPT 轉換為視頻：
 
-{{% blocks/products/pf/agp/code-block title="用於將 PowerPoint 轉換為視頻的 C# 代碼" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="用於將 PowerPoint 轉換為視頻的 C# 代碼" >}}
 ```cs
 
 using System.Collections.Generic;
@@ -86,24 +55,35 @@ using (Presentation presentation = new Presentation())
 
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的轉換" subTitle="您還可以將 PowerPoint 轉換為其他格式的文件" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 Aspose.Slides 將 PowerPoint 轉換為視頻" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/zh-hant/net/) 是一個功能強大的 .NET 庫，用於創建、編輯和操作演示文稿，並將 PowerPoint 演示文稿轉換為其他文檔和視頻。在這種情況下，要將 PowerPoint 轉換為視頻，您需要使用 **Aspose.Slides** 以及 **ffmpeg** 和 **FFMpegCore**（一個免費的 NET ffmpeg 包裝器）。
 
+這就是 PPT 到視頻轉換過程的工作原理：Aspose.Slides 用於生成一組幀（從演示幻燈片），然後 FFMpegCore (ffmpeg) 用於創建基於幀的視頻。
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PPT轉視頻的方法" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}安裝 **Aspose.Slides for .NET** 和 **FFMpegcore**：運行“dotnet add package Aspose.Slides.NET --version 22.12.0”，然後運行“dotnet add package FFMpegCore --version 4.8.0”{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[在此處下載 ffmpeg。](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}FFMpegCore 要求您指定下載的 ffmpeg 的路徑（例如解壓縮到“C:\tools\ffmpeg”）：`GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}複製、粘貼然後運行 PowerPoint 到視頻代碼。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持的轉換" subTitle="您還可以將 PowerPoint 轉換為其他格式的文件" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

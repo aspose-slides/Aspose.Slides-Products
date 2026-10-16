@@ -5,26 +5,18 @@ title: Μετατροπή PPTX σε Word σε C++
 url: /el/cpp/conversion/pptx-to-word/
 keywords: Μετατροπή PPTX σε Word, PPTX σε Word, PPTX σε DOC, PowerPoint σε Word, C++ API, Βιβλιοθήκη C++, CPP
 description: Μετατροπή PPTX σε Word σε C++. Χρησιμοποιήστε το API βιβλιοθήκης C++ για να μετατρέψετε το PowerPoint σε Word
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Μετατροπή PPTX σε Word σε C++" h2="Ισχυρό cross-platform C++ API για μετατροπή PowerPoint σε Word χρησιμοποιώντας κώδικα C++ χωρίς Microsoft PowerPoint ή Office" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Μετατροπή PPTX σε Word σε C++" h2="Ισχυρό cross-platform C++ API για μετατροπή PowerPoint σε Word χρησιμοποιώντας κώδικα C++ χωρίς Microsoft PowerPoint ή Office" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Μετατροπή PowerPoint σε Word χρησιμοποιώντας Aspose.Slides και Aspose.Words" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Μετατροπή PowerPoint σε Word σε C++" variant="code" %}}
 
-[**Aspose.Slides για C++**](https://products.aspose.com/slides/el/cpp/) και [**Aspose.Words για C++**](https://products.aspose.com/ words/cpp/) είναι ισχυρές βιβλιοθήκες C++ που χρησιμοποιούνται για το χειρισμό και τη μετατροπή παρουσιάσεων PowerPoint, εγγράφων του Word και άλλων αρχείων. Όταν μετατρέπετε το PowerPoint σε Word, ουσιαστικά μετακινείτε τα περιεχόμενα των διαφανειών μιας παρουσίασης σε σελίδες ενός εγγράφου του Word.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή PowerPoint σε Word σε C++" %}}
 Μπορείτε να μετατρέψετε το PPTX σε Word γρήγορα με λίγες μόνο γραμμές κώδικα
 
-{{% blocks/products/pf/agp/code-block title="Κώδικας C++ για τη μετατροπή του PowerPoint σε Word" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κώδικας C++ για τη μετατροπή του PowerPoint σε Word" >}}
 ```cpp
 auto presentation = MakeObject<Presentation>();
 auto doc = MakeObject<Aspose::Words::Document>();
@@ -49,64 +41,36 @@ for (const auto& slide : presentation->get_Slides())
     builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Μετατροπή PowerPoint σε Word χρησιμοποιώντας Aspose.Slides και Aspose.Words" %}}
 
+[**Aspose.Slides για C++**](https://products.aspose.com/slides/el/cpp/) και [**Aspose.Words για C++**](https://products.aspose.com/ words/cpp/) είναι ισχυρές βιβλιοθήκες C++ που χρησιμοποιούνται για το χειρισμό και τη μετατροπή παρουσιάσεων PowerPoint, εγγράφων του Word και άλλων αρχείων. Όταν μετατρέπετε το PowerPoint σε Word, ουσιαστικά μετακινείτε τα περιεχόμενα των διαφανειών μιας παρουσίασης σε σελίδες ενός εγγράφου του Word.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Πώς να μετατρέψετε το PPTX σε Word" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να μετατρέψετε το PPTX σε Word" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Εγκαταστήστε τα **Aspose.Slides για C++** και **Aspose.Words για C++**{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Δημιουργήστε μια παρουσία της κλάσης Presentation και της τάξης Doc.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε την παρουσίαση PPTX που θέλετε να μετατρέψετε σε Word.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Δημιουργήστε εικόνες και κείμενα με βάση το περιεχόμενο των διαφανειών.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το έγγραφο του Word που προκύπτει.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Δωρεάν Online Μετατροπέας"
+  description="[Πώς να μετατρέψετε το PPT σε HTML στην Python](https://products.aspose.com/slides/el/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το PowerPoint σε αρχεία σε άλλες μορφές" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Εγκαταστήστε τα **Aspose.Slides για C++** και **Aspose.Words για C++** 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Δημιουργήστε μια παρουσία της κλάσης Presentation και της τάξης Doc.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Φορτώστε την παρουσίαση PPTX που θέλετε να μετατρέψετε σε Word.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Δημιουργήστε εικόνες και κείμενα με βάση το περιεχόμενο των διαφανειών.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθηκεύστε το έγγραφο του Word που προκύπτει.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Δωρεάν Online Μετατροπέας" sectionDescription="[Πώς να μετατρέψετε το PPT σε HTML στην Python](https://products.aspose.com/slides/el/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το PowerPoint σε αρχεία σε άλλες μορφές" >}}
-
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

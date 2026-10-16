@@ -5,49 +5,18 @@ title: C# で PPT をビデオに変換
 url: /ja/net/conversion/ppt-to-video/
 keywords: PPT をビデオに変換、PPT をビデオに、PowerPoint をビデオに、PPT を MP4 に変換、C# API、.NET ライブラリ
 description: C# で PPT をビデオに変換します。 .NET ライブラリ API を使用して PowerPoint をビデオに変換する
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="C# で PPT をビデオに変換する" h2="NET Framework、.NET Core、Windows Azure、Mono、または Xamarin プラットフォームで C# コードを使用して PowerPoint をビデオに変換するための強力なクロスプラットフォーム .NET API" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# で PPT をビデオに変換する" h2="NET Framework、.NET Core、Windows Azure、Mono、または Xamarin プラットフォームで C# コードを使用して PowerPoint をビデオに変換するための強力なクロスプラットフォーム .NET API" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides を使用して PowerPoint をビデオに変換する" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# で PowerPoint をビデオに変換する" variant="code" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/ja/net/) は、プレゼンテーションを作成、編集、操作したり、PowerPoint プレゼンテーションを他のドキュメントに変換したりするために使用される強力な .NET ライブラリです。そしてビデオ。この場合、PowerPoint をビデオに変換するには、**ffmpeg** および **FFMpegCore** (無料の NET ffmpeg ラッパー) とともに **Aspose.Slides** を使用する必要があります。
-
-これは、PPT からビデオへの変換プロセスの仕組みです。Aspose.Slides を使用して (プレゼンテーション スライドから) 一連のフレームを生成し、次に FFMpegCore (ffmpeg) を使用してフレームに基づいてビデオを作成します。
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="PPTをビデオに変換する方法" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for .NET** および **FFMpegcore** をインストールします。「dotnet add package Aspose.Slides.NET --version 22.12.0」を実行してから、「dotnet add package FFMpegCore --version 4.8.0」を実行します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ffmpeg をダウンロード [こちら](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-FFMpegCore では、ダウンロードした ffmpeg へのパス (例: 「C:\tools\ffmpeg」に抽出) を指定する必要があります。 `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PowerPoint to video コードをコピーして貼り付け、実行します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="C# で PowerPoint をビデオに変換する" %}}
 このコードを使用して PPT をビデオに変換します。
 
-{{% blocks/products/pf/agp/code-block title="PowerPoint をビデオに変換するための C# コード" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PowerPoint をビデオに変換するための C# コード" >}}
 ```cs
 
 using System.Collections.Generic;
@@ -86,24 +55,35 @@ using (Presentation presentation = new Presentation())
 
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている変換" subTitle="PowerPoint を他の形式のファイルに変換することもできます" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides を使用して PowerPoint をビデオに変換する" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/ja/net/) は、プレゼンテーションを作成、編集、操作したり、PowerPoint プレゼンテーションを他のドキュメントに変換したりするために使用される強力な .NET ライブラリです。そしてビデオ。この場合、PowerPoint をビデオに変換するには、**ffmpeg** および **FFMpegCore** (無料の NET ffmpeg ラッパー) とともに **Aspose.Slides** を使用する必要があります。
 
+これは、PPT からビデオへの変換プロセスの仕組みです。Aspose.Slides を使用して (プレゼンテーション スライドから) 一連のフレームを生成し、次に FFMpegCore (ffmpeg) を使用してフレームに基づいてビデオを作成します。
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PPTをビデオに変換する方法" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for .NET** および **FFMpegcore** をインストールします。「dotnet add package Aspose.Slides.NET --version 22.12.0」を実行してから、「dotnet add package FFMpegCore --version 4.8.0」を実行します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ffmpeg をダウンロード [こちら](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}FFMpegCore では、ダウンロードした ffmpeg へのパス (例: 「C:\tools\ffmpeg」に抽出) を指定する必要があります。 `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PowerPoint to video コードをコピーして貼り付け、実行します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="その他のサポートされている変換" subTitle="PowerPoint を他の形式のファイルに変換することもできます" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

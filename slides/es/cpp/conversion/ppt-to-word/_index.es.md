@@ -5,26 +5,18 @@ title: Convertir PPT a Word en C++
 url: /es/cpp/conversion/ppt-to-word/
 keywords: Convertir PPT a Word, PPT a Word, PPT a DOC, PowerPoint a Word, API C++, Biblioteca C++, CPP
 description: Convierte PPT a Word en C++. Utilice la API de la biblioteca de C++ para convertir PowerPoint a Word
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convertir PPT a Word en C++" h2="Potente API C++ multiplataforma para convertir PowerPoint a Word usando código C++ sin Microsoft PowerPoint u Office" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convertir PPT a Word en C++" h2="Potente API C++ multiplataforma para convertir PowerPoint a Word usando código C++ sin Microsoft PowerPoint u Office" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convierta PowerPoint a Word usando Aspose.Slides y Aspose.Words" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convertir PowerPoint a Word en C++" variant="code" %}}
 
-[**Aspose.Slides para C++**](https://products.aspose.com/slides/es/cpp/) y [**Aspose.Words para C++**](https://products.aspose.com/ words/cpp/) son potentes bibliotecas de C++ que se utilizan para manipular y convertir presentaciones de PowerPoint, documentos de Word y otros archivos. Cuando convierte PowerPoint a Word, básicamente está moviendo el contenido de las diapositivas de una presentación a páginas en un documento de Word.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convertir PowerPoint a Word en C++" %}}
 Puede convertir PPT a Word rápidamente con solo unas pocas líneas de código
 
-{{% blocks/products/pf/agp/code-block title="Código C++ para convertir PowerPoint a Word" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Código C++ para convertir PowerPoint a Word" >}}
 ```cpp
 auto presentation = MakeObject<Presentation>();
 auto doc = MakeObject<Aspose::Words::Document>();
@@ -49,64 +41,36 @@ for (const auto& slide : presentation->get_Slides())
     builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convierta PowerPoint a Word usando Aspose.Slides y Aspose.Words" %}}
 
+[**Aspose.Slides para C++**](https://products.aspose.com/slides/es/cpp/) y [**Aspose.Words para C++**](https://products.aspose.com/ words/cpp/) son potentes bibliotecas de C++ que se utilizan para manipular y convertir presentaciones de PowerPoint, documentos de Word y otros archivos. Cuando convierte PowerPoint a Word, básicamente está moviendo el contenido de las diapositivas de una presentación a páginas en un documento de Word.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo convertir PPT a Word" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo convertir PPT a Word" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instale **Aspose.Slides para C++** y **Aspose.Words para C++**{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cree una instancia de la clase Presentation y la clase Doc.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue la presentación PPT que desea convertir a Word.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Genera imágenes y textos a partir del contenido de las diapositivas.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el documento de Word resultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Convertidor en línea gratuito"
+  description="[Cómo convertir PPT a HTML en Python](https://products.aspose.com/slides/es/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otras conversiones admitidas" subTitle="También puede convertir PowerPoint a archivos en otros formatos" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Instale **Aspose.Slides para C++** y **Aspose.Words para C++** 
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Cree una instancia de la clase Presentation y la clase Doc.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue la presentación PPT que desea convertir a Word.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Genera imágenes y textos a partir del contenido de las diapositivas.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guarde el documento de Word resultante.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Convertidor en línea gratuito" sectionDescription="[Cómo convertir PPT a HTML en Python](https://products.aspose.com/slides/es/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otras conversiones admitidas" subTitle="También puede convertir PowerPoint a archivos en otros formatos" >}}
-
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

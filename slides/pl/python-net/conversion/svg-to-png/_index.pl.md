@@ -5,26 +5,18 @@ title: Konwertuj SVG na PNG w Pythonie
 url: /pl/python-net/conversion/svg-to-png/
 keywords: SVG do PNG, Konwersja SVG do PNG, Python API, Python Library, SVG, PNG
 description: Konwertuj SVG na PNG w Pythonie. Użyj interfejsu API biblioteki Pythona, aby przekonwertować pliki SVG na pliki PNG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konwertuj SVG na PNG w Pythonie" h2="Szybka i wieloplatformowa biblioteka Pythona, która pomaga w tworzeniu aplikacji z możliwością tworzenia, scalania, sprawdzania lub konwertowania plików prezentacji Microsoft PowerPoint i OpenOffice bez użycia oprogramowania takiego jak Microsoft lub Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konwertuj SVG na PNG w Pythonie" h2="Szybka i wieloplatformowa biblioteka Pythona, która pomaga w tworzeniu aplikacji z możliwością tworzenia, scalania, sprawdzania lub konwertowania plików prezentacji Microsoft PowerPoint i OpenOffice bez użycia oprogramowania takiego jak Microsoft lub Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konwertuj SVG na PNG w Pythonie" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konwertuj SVG na PNG za pomocą Pythona" variant="code" %}}
 
-[**Aspose.Slides dla Pythona przez .NET**](https://products.aspose.com/slides/pl/python-net/) to potężna biblioteka Pythona do tworzenia i manipulowania plikami prezentacji. Ponadto zapewnia elastyczne sposoby konwersji SVG na PNG. Używając **Aspose.Slides dla Pythona przez .NET**, każdy programista lub aplikacja może konwertować pliki SVG na PNG za pomocą zaledwie kilku wierszy kodu Pythona.
-
-Jako nowoczesny interfejs API do przetwarzania dokumentów, Aspose.Slides dla Pythona szybko eksportuje pliki SVG do formatów plików PNG. Biblioteka Aspose PowerPoint umożliwia konwersję SVG do PNG i wielu innych formatów plików
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konwertuj SVG na PNG za pomocą Pythona" %}}
 Aby przekonwertować SVG na PNG, musisz utworzyć Prezentację z pliku SVG i zapisać ją jako PNG.
 
-{{% blocks/products/pf/agp/code-block title="Kod Pythona do konwersji SVG na PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kod Pythona do konwersji SVG na PNG" >}}
 ```python
 
 import aspose.slides as slides
@@ -41,43 +33,29 @@ with slides.Presentation() as pres:
         bmp.save("Slide_{num}.png".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.png)
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konwertuj SVG na PNG w Pythonie" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides dla Pythona przez .NET**](https://products.aspose.com/slides/pl/python-net/) to potężna biblioteka Pythona do tworzenia i manipulowania plikami prezentacji. Ponadto zapewnia elastyczne sposoby konwersji SVG na PNG. Używając **Aspose.Slides dla Pythona przez .NET**, każdy programista lub aplikacja może konwertować pliki SVG na PNG za pomocą zaledwie kilku wierszy kodu Pythona.
 
-{{< blocks/products/pf/feature-page-section  h2="Jak przekonwertować SVG na PNG przy użyciu Aspose.Slides dla Python API" >}}
+Jako nowoczesny interfejs API do przetwarzania dokumentów, Aspose.Slides dla Pythona szybko eksportuje pliki SVG do formatów plików PNG. Biblioteka Aspose PowerPoint umożliwia konwersję SVG do PNG i wielu innych formatów plików
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby przekonwertować SVG na PNG w Pythonie." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/pl/python-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak przekonwertować SVG na PNG przy użyciu Aspose.Slides dla Python API" intro="Oto kroki, aby przekonwertować SVG na PNG w Pythonie." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zainstaluj [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/pl/python-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj odwołanie do biblioteki (zaimportuj bibliotekę) do swojego projektu w Pythonie.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otwórz źródłowe pliki SVG w Pythonie.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz wynik jako plik PNG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj odwołanie do biblioteki (zaimportuj bibliotekę) do swojego projektu w Pythonie.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Darmowy konwerter online"
+  description="[Jak przekonwertować PPT na HTML w Pythonie](https://products.aspose.com/slides/pl/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Otwórz źródłowe pliki SVG w Pythonie.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konwertuj SVG na inne obsługiwane formaty" subTitle="Możesz także przekonwertować SVG i zapisać do innych formatów plików. Zobacz wszystkie obsługiwane formaty poniżej" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz wynik jako plik PNG.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Darmowy konwerter online" sectionDescription="[Jak przekonwertować PPT na HTML w Pythonie](https://products.aspose.com/slides/pl/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konwertuj SVG na inne obsługiwane formaty" subTitle="Możesz także przekonwertować SVG i zapisać do innych formatów plików. Zobacz wszystkie obsługiwane formaty poniżej" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

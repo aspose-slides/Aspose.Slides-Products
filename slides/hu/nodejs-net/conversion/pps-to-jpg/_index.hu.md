@@ -5,26 +5,18 @@ title: A(z) PPS konvertálása JPG formátumra JavaScriptben
 url: /hu/nodejs-net/conversion/pps-to-jpg/
 keywords: PPS to JPG, PPS konvertálása JPG formátumba, Node.js API, JavaScript Library, PPS, JPG
 description: A(z) PPS konvertálása JPG formátumra JavaScriptben. Használja a Node.js könyvtár API-t a PPS fájlok konvertálásához JPG formátumba
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="A(z) PPS konvertálása JPG formátumra JavaScriptben" h2="Az Aspose.Slides for Node.js a .NET-en keresztül egy hatékony és könnyen használható könyvtár, amely lehetővé teszi PowerPoint-prezentációk konvertálását különböző formátumokba JavaScriptben. Támogatja az összes prezentációs elemet és formátumot, és gazdag API-t biztosít ezek eléréséhez és módosításához. Azt is lehetővé teszi, hogy diákjait különféle formátumokba exportálja további feldolgozás vagy megosztás céljából." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="A(z) PPS konvertálása JPG formátumra JavaScriptben" h2="Az Aspose.Slides for Node.js a .NET-en keresztül egy hatékony és könnyen használható könyvtár, amely lehetővé teszi PowerPoint-prezentációk konvertálását különböző formátumokba JavaScriptben. Támogatja az összes prezentációs elemet és formátumot, és gazdag API-t biztosít ezek eléréséhez és módosításához. Azt is lehetővé teszi, hogy diákjait különféle formátumokba exportálja további feldolgozás vagy megosztás céljából." >}}
 
-{{% blocks/products/pf/feature-page-section h2="A(z) PPS konvertálása JPG formátumra a Node.js-ben" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="A PPS konvertálása JPG formátumra JavaScript használatával" variant="code" %}}
 
-[**Aspose.Slides for Node.js .NET-en keresztül**](https://products.aspose.com/slides/hu/nodejs-net/) egy hatékony Node.js könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a PPS JPG formátumra való konvertálására. Az **Aspose.Slides for Node.js .NET-en keresztül** használatával bármely fejlesztő vagy alkalmazás képes konvertálni a PPS fájlokat JPG fájlokra, mindössze néhány sornyi kóddal.
-
-Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Node.js .NET-en keresztül gyorsan exportál PPS fájlokat JPG fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) PPS fájl konvertálását JPG-re és sok más fájlformátumra
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="A PPS konvertálása JPG formátumra JavaScript használatával" %}}
 A PPS formátum JPG formátumra konvertálásához létre kell hoznia egy prezentációt a PPS fájlból, és el kell mentenie JPG néven.
 
-{{% blocks/products/pf/agp/code-block title="JavaScript kód a PPS JPG formátumba való konvertálásához" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="JavaScript kód a PPS JPG formátumba való konvertálásához" >}}
 ```javascript
 
 const fs = require('fs');
@@ -45,59 +37,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="A(z) PPS konvertálása JPG formátumra a Node.js-ben" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Node.js .NET-en keresztül**](https://products.aspose.com/slides/hu/nodejs-net/) egy hatékony Node.js könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a PPS JPG formátumra való konvertálására. Az **Aspose.Slides for Node.js .NET-en keresztül** használatával bármely fejlesztő vagy alkalmazás képes konvertálni a PPS fájlokat JPG fájlokra, mindössze néhány sornyi kóddal.
 
-{{< blocks/products/pf/feature-page-section  h2="A(z) PPS konvertálása JPG formátumba az Aspose.Slides for Node.js használatával .NET API-n keresztül" >}}
+Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Node.js .NET-en keresztül gyorsan exportál PPS fájlokat JPG fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) PPS fájl konvertálását JPG-re és sok más fájlformátumra
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A(z) PPS formátumra JPG konvertálásához az Aspose.Slides for Node.js használatával .NET-en keresztül, importálnia kell a csomagot a JavaScript-fájlba, és létre kell hoznia a Presentation osztály példányát. A Presentation osztály egy PowerPoint-dokumentumot képvisel, és módszereket biztosít az elemek eléréséhez és kezeléséhez." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for Node.js programot .NET-en keresztül**](https://products.aspose.com/slides/hu/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="A(z) PPS konvertálása JPG formátumba az Aspose.Slides for Node.js használatával .NET API-n keresztül" intro="A(z) PPS formátumra JPG konvertálásához az Aspose.Slides for Node.js használatával .NET-en keresztül, importálnia kell a csomagot a JavaScript-fájlba, és létre kell hoznia a Presentation osztály példányát. A Presentation osztály egy PowerPoint-dokumentumot képvisel, és módszereket biztosít az elemek eléréséhez és kezeléséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az [**Aspose.Slides for Node.js programot .NET-en keresztül**](https://products.aspose.com/slides/hu/nodejs-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Node.js projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a PPS forrásfájlokat a Node.js-ben.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Az eredmény mentése JPG fájlként.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Node.js projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="A(z) PPS konvertálása más támogatott formátumokká" subTitle="A PPS formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-html/" name="PPS TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-png/" name="PPS TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-gif/" name="PPS TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-odp/" name="PPS TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-otp/" name="PPS TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pot/" name="PPS TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-potm/" name="PPS TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-potx/" name="PPS TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-svg/" name="PPS TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nyissa meg a PPS forrásfájlokat a Node.js-ben.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése JPG fájlként.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="A(z) PPS konvertálása más támogatott formátumokká" subTitle="A PPS formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pptx/" name="PPS TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-ppt/" name="PPS TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pdf/" name="PPS TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-html/" name="PPS TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-png/" name="PPS TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-bmp/" name="PPS TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-fodp/" name="PPS TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-gif/" name="PPS TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-odp/" name="PPS TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-otp/" name="PPS TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pot/" name="PPS TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-potm/" name="PPS TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-potx/" name="PPS TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-ppsm/" name="PPS TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-ppsx/" name="PPS TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-pptm/" name="PPS TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-svg/" name="PPS TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-net/conversion/pps-to-tiff/" name="PPS TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

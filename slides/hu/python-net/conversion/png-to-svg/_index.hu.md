@@ -5,26 +5,18 @@ title: Konvertálja a(z) PNG fájlt SVG formátumra a Pythonban
 url: /hu/python-net/conversion/png-to-svg/
 keywords: PNG to SVG, PNG konvertálása SVG formátumba, Python API, Python Library, PNG, SVG
 description: Konvertálja a(z) PNG fájlt SVG formátumra a Pythonban. Használja a Python könyvtár API-t a PNG fájlok konvertálásához SVG formátumúvá
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konvertálja a(z) PNG fájlt SVG formátumra a Pythonban" h2="Nagy sebességű és többplatformos Python Library, amely segít olyan alkalmazások fejlesztésében, amelyek képesek Microsoft PowerPoint és OpenOffice prezentációs fájlok létrehozására, egyesítésére, ellenőrzésére vagy konvertálására olyan szoftverek használata nélkül, mint a Microsoft vagy az Open Office, az Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konvertálja a(z) PNG fájlt SVG formátumra a Pythonban" h2="Nagy sebességű és többplatformos Python Library, amely segít olyan alkalmazások fejlesztésében, amelyek képesek Microsoft PowerPoint és OpenOffice prezentációs fájlok létrehozására, egyesítésére, ellenőrzésére vagy konvertálására olyan szoftverek használata nélkül, mint a Microsoft vagy az Open Office, az Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konvertálja a(z) PNG fájlt SVG formátumra a Pythonban" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertálja a(z) PNG fájlt SVG formátumra Python használatával" variant="code" %}}
 
-Az [**Aspose.Slides for Python .NET-en keresztül**](https://products.aspose.com/slides/hu/python-net/) egy hatékony Python-könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a PNG SVG formátumra való konvertálására. Az **Aspose.Slides for Python .NET-en keresztül** használatával bármely fejlesztő vagy alkalmazás képes a PNG fájlokat SVG fájlokra konvertálni, mindössze néhány sor Python kóddal.
-
-Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Python gyorsan exportál PNG fájlokat SVG fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) PNG fájl konvertálását SVG-re és sok más fájlformátumra
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertálja a(z) PNG fájlt SVG formátumra Python használatával" %}}
 A PNG formátum SVG formátumra konvertálásához létre kell hoznia egy prezentációt a PNG fájlból, és el kell mentenie SVG néven.
 
-{{% blocks/products/pf/agp/code-block title="Python kód a PNG SVG formátumba való konvertálásához" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python kód a PNG SVG formátumba való konvertálásához" >}}
 ```python
 
 import aspose.slides as slides
@@ -41,45 +33,32 @@ with slides.Presentation() as pres:
             slide.write_as_svg(file)
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertálja a(z) PNG fájlt SVG formátumra a Pythonban" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+Az [**Aspose.Slides for Python .NET-en keresztül**](https://products.aspose.com/slides/hu/python-net/) egy hatékony Python-könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a PNG SVG formátumra való konvertálására. Az **Aspose.Slides for Python .NET-en keresztül** használatával bármely fejlesztő vagy alkalmazás képes a PNG fájlokat SVG fájlokra konvertálni, mindössze néhány sor Python kóddal.
 
-{{< blocks/products/pf/feature-page-section  h2="A PNG konvertálása SVG formátumba az Aspose.Slides for Python API használatával" >}}
+Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Python gyorsan exportál PNG fájlokat SVG fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) PNG fájl konvertálását SVG-re és sok más fájlformátumra
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PNG SVG formátumra való konvertálásához Pythonban." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/hu/python-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="A PNG konvertálása SVG formátumba az Aspose.Slides for Python API használatával" intro="Ezek a lépések a PNG SVG formátumra való konvertálásához Pythonban." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/hu/python-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Python-projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a PNG forrásfájlokat a Pythonban.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Az eredmény mentése SVG fájlként.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Python-projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Ingyenes online konverter"
+  description="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nyissa meg a PNG forrásfájlokat a Pythonban.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="A(z) PNG konvertálása más támogatott formátumokká" subTitle="A PNG formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-net/conversion/png-to-jpg/" name="PNG TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése SVG fájlként.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Ingyenes online konverter" sectionDescription="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="A(z) PNG konvertálása más támogatott formátumokká" subTitle="A PNG formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

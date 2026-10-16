@@ -5,26 +5,18 @@ title: Convert PDF to JPG in Python
 url: /python-net/conversion/pdf-to-jpg/
 keywords: PDF to JPG, Convert PDF to JPG, Python API, Python Library, PDF, JPG
 description: Convert PDF pages to JPG images in Python. Use the Aspose.Slides Python API to import a PDF and render each page as a JPEG file.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to JPG in Python" h2="Import PDF pages and render them as JPG images with a cross-platform Python API" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PDF to JPG in Python" h2="Import PDF pages and render them as JPG images with a cross-platform Python API" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PDF to JPG in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to JPG using Python" variant="code" %}}
 
-[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PDF pages to JPG images programmatically. The API provides `SlideCollection.add_from_pdf` for importing PDF content and `Slide.get_image` for rendering each imported page.
-
-The example below creates one JPEG file for each page in the source PDF. This workflow does not require Microsoft PowerPoint, Adobe Acrobat, or another presentation application.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PDF to JPG using Python" %}}
 Create a `Presentation`, remove its default blank slide, import the PDF pages, and render each imported `Slide` as a JPEG image.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PDF into JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PDF into JPG" >}}
 ```python
 with slides.Presentation() as presentation:
     presentation.slides.remove_at(0)
@@ -35,42 +27,25 @@ with slides.Presentation() as presentation:
         with slide.get_image() as slide_image:
             slide_image.save(file_path, slides.ImageFormat.JPEG)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to JPG in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PDF pages to JPG images programmatically. The API provides `SlideCollection.add_from_pdf` for importing PDF content and `Slide.get_image` for rendering each imported page.
 
-{{< blocks/products/pf/feature-page-section  h2="How to Convert PDF to JPG Using the Aspose.Slides Python API" >}}
+The example below creates one JPEG file for each page in the source PDF. This workflow does not require Microsoft PowerPoint, Adobe Acrobat, or another presentation application.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PDF to JPG in Python." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert PDF to JPG Using the Aspose.Slides Python API" intro="These are the steps to convert PDF to JPG in Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` and remove its default blank slide.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the source PDF by using `SlideCollection.add_from_pdf`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Render each imported `Slide` with `Slide.get_image` and save it by using `IImage.save` with `ImageFormat.JPEG`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` and remove its default blank slide.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the source PDF by using `SlideCollection.add_from_pdf`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Render each imported `Slide` with `Slide.get_image` and save it by using `IImage.save` with `ImageFormat.JPEG`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,49 +5,18 @@ title: Μετατροπή PPT σε βίντεο σε C#
 url: /el/net/conversion/ppt-to-video/
 keywords: Μετατροπή PPT σε βίντεο, PPT σε βίντεο, PowerPoint σε βίντεο, PPT σε MP4, C# API, Βιβλιοθήκη .NET
 description: Μετατροπή PPT σε βίντεο σε C#. Χρησιμοποιήστε το API βιβλιοθήκης .NET για να μετατρέψετε το PowerPoint σε βίντεο
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Μετατροπή PPT σε βίντεο σε C#" h2="Ισχυρό cross-platform .NET API για μετατροπή PowerPoint σε βίντεο με χρήση κώδικα C# σε πλατφόρμες NET Framework, .NET Core, Windows Azure, Mono ή Xamarin" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Μετατροπή PPT σε βίντεο σε C#" h2="Ισχυρό cross-platform .NET API για μετατροπή PowerPoint σε βίντεο με χρήση κώδικα C# σε πλατφόρμες NET Framework, .NET Core, Windows Azure, Mono ή Xamarin" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Μετατρέψτε το PowerPoint σε βίντεο χρησιμοποιώντας το Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Μετατροπή PowerPoint σε βίντεο σε C#" variant="code" %}}
 
-Το [**Aspose.Slides for .NET**](https://products.aspose.com/slides/el/net/) είναι μια ισχυρή βιβλιοθήκη .NET που χρησιμοποιείται για τη δημιουργία, επεξεργασία και χειρισμό παρουσιάσεων και επίσης μετατροπή παρουσιάσεων PowerPoint σε άλλα έγγραφα και βίντεο. Σε αυτήν την περίπτωση, για να μετατρέψετε το PowerPoint σε βίντεο, πρέπει να χρησιμοποιήσετε το **Aspose.Slides** μαζί με το **ffmpeg** και το **FFMpegCore** (ένα δωρεάν περιτύλιγμα NET ffmpeg).
-
-Έτσι λειτουργεί η διαδικασία μετατροπής PPT σε βίντεο: Το Aspose.Slides χρησιμοποιείται για τη δημιουργία ενός συνόλου καρέ (από τις διαφάνειες παρουσίασης) και στη συνέχεια το FFMpegCore (ffmpeg) για τη δημιουργία ενός βίντεο με βάση τα καρέ.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Πώς να μετατρέψετε το PPT σε βίντεο" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Εγκαταστήστε το **Aspose.Slides για .NET** και **FFMpegcore**: Εκτελέστε το "dotnet add package Aspose.Slides.NET --version 22.12.0" και, στη συνέχεια, εκτελέστε το "dotnet add package FFMpegCore --έκδοση 4.8.0"
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Κατεβάστε το ffmpeg [εδώ.](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Το FFMpegCore απαιτεί να καθορίσετε τη διαδρομή προς το κατεβασμένο ffmpeg (π.χ. εξαγωγή στο "C:\tools\ffmpeg"): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αντιγράψτε, επικολλήστε και, στη συνέχεια, εκτελέστε τον κώδικα του PowerPoint σε βίντεο.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Μετατροπή PowerPoint σε βίντεο σε C#" %}}
 Χρησιμοποιήστε αυτόν τον κωδικό για να μετατρέψετε το PPT σε βίντεο:
 
-{{% blocks/products/pf/agp/code-block title="Κωδικός C# για τη μετατροπή του PowerPoint σε βίντεο" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κωδικός C# για τη μετατροπή του PowerPoint σε βίντεο" >}}
 ```cs
 
 using System.Collections.Generic;
@@ -86,24 +55,35 @@ using (Presentation presentation = new Presentation())
 
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το PowerPoint σε αρχεία σε άλλες μορφές" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Μετατρέψτε το PowerPoint σε βίντεο χρησιμοποιώντας το Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+Το [**Aspose.Slides for .NET**](https://products.aspose.com/slides/el/net/) είναι μια ισχυρή βιβλιοθήκη .NET που χρησιμοποιείται για τη δημιουργία, επεξεργασία και χειρισμό παρουσιάσεων και επίσης μετατροπή παρουσιάσεων PowerPoint σε άλλα έγγραφα και βίντεο. Σε αυτήν την περίπτωση, για να μετατρέψετε το PowerPoint σε βίντεο, πρέπει να χρησιμοποιήσετε το **Aspose.Slides** μαζί με το **ffmpeg** και το **FFMpegCore** (ένα δωρεάν περιτύλιγμα NET ffmpeg).
 
+Έτσι λειτουργεί η διαδικασία μετατροπής PPT σε βίντεο: Το Aspose.Slides χρησιμοποιείται για τη δημιουργία ενός συνόλου καρέ (από τις διαφάνειες παρουσίασης) και στη συνέχεια το FFMpegCore (ffmpeg) για τη δημιουργία ενός βίντεο με βάση τα καρέ.
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να μετατρέψετε το PPT σε βίντεο" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Εγκαταστήστε το **Aspose.Slides για .NET** και **FFMpegcore**: Εκτελέστε το "dotnet add package Aspose.Slides.NET --version 22.12.0" και, στη συνέχεια, εκτελέστε το "dotnet add package FFMpegCore --έκδοση 4.8.0"{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Κατεβάστε το ffmpeg [εδώ.](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Το FFMpegCore απαιτεί να καθορίσετε τη διαδρομή προς το κατεβασμένο ffmpeg (π.χ. εξαγωγή στο "C:\tools\ffmpeg"): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αντιγράψτε, επικολλήστε και, στη συνέχεια, εκτελέστε τον κώδικα του PowerPoint σε βίντεο.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μετατροπές" subTitle="Μπορείτε επίσης να μετατρέψετε το PowerPoint σε αρχεία σε άλλες μορφές" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-word/" name="PPT TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

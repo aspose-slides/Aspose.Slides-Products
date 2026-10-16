@@ -5,26 +5,18 @@ title: Konversikan PPT ke PPTM dalam JavaScript
 url: /id/nodejs-net/conversion/ppt-to-pptm/
 keywords: PPT ke PPTM, Konversi PPT ke PPTM, API Node.js, Pustaka JavaScript, PPT, PPTM
 description: Konversikan PPT ke PPTM dalam JavaScript. Gunakan API perpustakaan Node.js untuk mengonversi file PPT ke PPTM
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konversikan PPT ke PPTM dalam JavaScript" h2="Aspose.Slides untuk Node.js melalui .NET adalah pustaka yang kuat dan mudah digunakan yang memungkinkan Anda mengonversi presentasi PowerPoint ke berbagai format dalam JavaScript. Ini mendukung semua elemen dan format presentasi dan menyediakan API yang kaya untuk mengakses dan memodifikasinya. Ini juga memungkinkan Anda mengekspor slide Anda ke berbagai format untuk diproses atau dibagikan lebih lanjut." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konversikan PPT ke PPTM dalam JavaScript" h2="Aspose.Slides untuk Node.js melalui .NET adalah pustaka yang kuat dan mudah digunakan yang memungkinkan Anda mengonversi presentasi PowerPoint ke berbagai format dalam JavaScript. Ini mendukung semua elemen dan format presentasi dan menyediakan API yang kaya untuk mengakses dan memodifikasinya. Ini juga memungkinkan Anda mengekspor slide Anda ke berbagai format untuk diproses atau dibagikan lebih lanjut." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konversikan PPT ke PPTM di Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan PPT ke PPTM menggunakan JavaScript" variant="code" %}}
 
-[**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/) adalah pustaka Node.js yang canggih untuk membuat dan memanipulasi file presentasi. Selain itu, ini menyediakan cara yang fleksibel untuk mengonversi PPT ke PPTM. Menggunakan **Aspose.Slides untuk Node.js melalui .NET**, pengembang atau aplikasi mana pun dapat mengonversi file PPT ke PPTM hanya dengan beberapa baris kode.
-
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk Node.js melalui .NET mengekspor file PPT ke format file PPTM dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi PPT ke PPTM dan banyak format file lainnya
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konversikan PPT ke PPTM menggunakan JavaScript" %}}
 Untuk mengonversi PPT ke PPTM, Anda perlu membuat Presentasi dari file PPT dan menyimpannya sebagai PPTM.
 
-{{% blocks/products/pf/agp/code-block title="Kode JavaScript untuk mengubah PPT menjadi PPTM" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode JavaScript untuk mengubah PPT menjadi PPTM" >}}
 ```javascript
 
 const fs = require('fs');
@@ -40,59 +32,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan PPT ke PPTM di Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/) adalah pustaka Node.js yang canggih untuk membuat dan memanipulasi file presentasi. Selain itu, ini menyediakan cara yang fleksibel untuk mengonversi PPT ke PPTM. Menggunakan **Aspose.Slides untuk Node.js melalui .NET**, pengembang atau aplikasi mana pun dapat mengonversi file PPT ke PPTM hanya dengan beberapa baris kode.
 
-{{< blocks/products/pf/feature-page-section  h2="Cara mengonversi PPT ke PPTM menggunakan Aspose.Slides untuk Node.js melalui .NET API" >}}
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk Node.js melalui .NET mengekspor file PPT ke format file PPTM dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi PPT ke PPTM dan banyak format file lainnya
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Untuk mengonversi PPT ke PPTM menggunakan Aspose.Slides untuk Node.js melalui .NET, Anda perlu mengimpor paket dalam file JavaScript Anda dan membuat instance kelas Presentation. Kelas Presentation mewakili dokumen PowerPoint dan menyediakan metode untuk mengakses dan memanipulasi elemen-elemennya." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal [**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara mengonversi PPT ke PPTM menggunakan Aspose.Slides untuk Node.js melalui .NET API" intro="Untuk mengonversi PPT ke PPTM menggunakan Aspose.Slides untuk Node.js melalui .NET, Anda perlu mengimpor paket dalam file JavaScript Anda dan membuat instance kelas Presentation. Kelas Presentation mewakili dokumen PowerPoint dan menyediakan metode untuk mengakses dan memanipulasi elemen-elemennya." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal [**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Node.js Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file sumber PPT di Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan hasil sebagai file PPTM.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Node.js Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversikan PPT Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi PPT dan menyimpannya ke format file lain. Lihat semua format yang didukung di bawah" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pot/" name="PPT TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Buka file sumber PPT di Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil sebagai file PPTM.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konversikan PPT Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi PPT dan menyimpannya ke format file lain. Lihat semua format yang didukung di bawah" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pot/" name="PPT TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

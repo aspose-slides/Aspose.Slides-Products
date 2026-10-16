@@ -5,24 +5,18 @@ title: Convert PDF to PPSM in Node.js
 url: /nodejs-net/conversion/pdf-to-ppsm/
 keywords: PDF to PPSM, Convert PDF to PPSM, Node.js API, JavaScript Library, PDF, PPSM
 description: Convert PDF to PPSM in Node.js. Use a Node.js library API to convert PDF files to PPSM files.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to PPSM in Node.js" h2="Convert PDF files to PPSM files with Aspose.Slides for Node.js via .NET." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PDF to PPSM in Node.js" h2="Convert PDF files to PPSM files with Aspose.Slides for Node.js via .NET." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PDF to PPSM in Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to PPSM using Node.js" variant="code" %}}
 
-[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. Create a `Presentation`, import a `PDF` file with the `addFromPdf` method, and export the presentation to a `PPSM` file.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Convert PDF to PPSM using Node.js" %}}
 To convert `PDF` to `PPSM`, create a `Presentation`, import the source file with `addFromPdf`, and export the presentation to a `PPSM` file.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code to convert PDF to PPSM" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Node.js code to convert PDF to PPSM" >}}
 ```javascript
 const presentation = new asposeSlides.Presentation();
 try {
@@ -34,40 +28,23 @@ finally {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to PPSM in Node.js" %}}
 
-{{< blocks/products/pf/feature-page-section h2="How to convert PDF to PPSM using Aspose.Slides for Node.js via .NET API" >}}
+[**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/) lets developers create, read, edit, and convert presentation files in Node.js applications. Create a `Presentation`, import a `PDF` file with the `addFromPdf` method, and export the presentation to a `PPSM` file.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PDF to PPSM using Aspose.Slides for Node.js via .NET, import the package, load the source file, and export it in the required format." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PDF to PPSM using Aspose.Slides for Node.js via .NET API" intro="To convert PDF to PPSM using Aspose.Slides for Node.js via .NET, import the package, load the source file, and export it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Node.js via .NET**](/slides/nodejs-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the `aspose.slides.via.net` package in your Node.js project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` and import the source `PDF` file with `addFromPdf`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `save` method with the output file path and `SaveFormat.Ppsm`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the `aspose.slides.via.net` package in your Node.js project.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files to other supported presentation and export formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` and import the source `PDF` file with `addFromPdf`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `save` method with the output file path and `SaveFormat.Ppsm`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files to other supported presentation and export formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

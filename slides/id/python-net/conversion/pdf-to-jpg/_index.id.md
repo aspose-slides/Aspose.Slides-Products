@@ -5,26 +5,18 @@ title: Konversikan PDF ke JPG dengan Python
 url: /id/python-net/conversion/pdf-to-jpg/
 keywords: PDF ke JPG, Konversikan PDF ke JPG, Python API, Python Library, PDF, JPG
 description: Konversikan PDF ke JPG dengan Python. Gunakan API pustaka Python untuk mengonversi file PDF ke JPG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konversikan PDF ke JPG dengan Python" h2="Pustaka Python berkecepatan tinggi dan lintas platform yang membantu dalam mengembangkan aplikasi dengan kemampuan untuk membuat, menggabungkan, memeriksa, atau mengonversi file presentasi Microsoft PowerPoint dan OpenOffice tanpa menggunakan perangkat lunak apa pun seperti Microsoft atau Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konversikan PDF ke JPG dengan Python" h2="Pustaka Python berkecepatan tinggi dan lintas platform yang membantu dalam mengembangkan aplikasi dengan kemampuan untuk membuat, menggabungkan, memeriksa, atau mengonversi file presentasi Microsoft PowerPoint dan OpenOffice tanpa menggunakan perangkat lunak apa pun seperti Microsoft atau Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konversikan PDF ke JPG dengan Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan PDF ke JPG menggunakan Python" variant="code" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/id/python-net/) adalah library Python yang andal untuk membuat dan memanipulasi file presentasi. Selain itu, ini memberikan cara yang fleksibel untuk mengonversi PDF ke JPG. Dengan menggunakan **Aspose.Slides untuk Python melalui .NET**, pengembang atau aplikasi apa pun dapat mengonversi file PDF ke JPG hanya dengan beberapa baris kode Python.
-
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk Python mengekspor file PDF ke format file JPG dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi PDF ke JPG dan banyak format file lainnya
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konversikan PDF ke JPG menggunakan Python" %}}
 Untuk mengonversi PDF ke JPG, Anda perlu membuat Presentasi dari file PDF dan menyimpannya sebagai JPG.
 
-{{% blocks/products/pf/agp/code-block title="Kode python untuk mengubah PDF menjadi JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode python untuk mengubah PDF menjadi JPG" >}}
 ```python
 
 import aspose.slides as slides
@@ -37,51 +29,38 @@ with slides.Presentation() as pres:
         bmp.save("Slide_{num}.jpg".format(num=str(sld.slide_number)), drawing.imaging.ImageFormat.jpeg)
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan PDF ke JPG dengan Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/id/python-net/) adalah library Python yang andal untuk membuat dan memanipulasi file presentasi. Selain itu, ini memberikan cara yang fleksibel untuk mengonversi PDF ke JPG. Dengan menggunakan **Aspose.Slides untuk Python melalui .NET**, pengembang atau aplikasi apa pun dapat mengonversi file PDF ke JPG hanya dengan beberapa baris kode Python.
 
-{{< blocks/products/pf/feature-page-section  h2="Cara mengonversi PDF ke JPG menggunakan Aspose.Slides untuk Python API" >}}
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk Python mengekspor file PDF ke format file JPG dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi PDF ke JPG dan banyak format file lainnya
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk mengonversi PDF ke JPG dengan Python." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/id/python-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara mengonversi PDF ke JPG menggunakan Aspose.Slides untuk Python API" intro="Ini adalah langkah-langkah untuk mengonversi PDF ke JPG dengan Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/id/python-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Python Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file sumber PDF dengan Python.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan hasilnya sebagai file JPG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Python Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Konverter Daring Gratis"
+  description="[Cara Mengonversi PPT ke HTML dengan Python](https://products.aspose.com/slides/id/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Buka file sumber PDF dengan Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversikan PDF Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi PDF dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah ini" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-html/" name="PDF TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-png/" name="PDF TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-xml/" name="PDF TO XML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasilnya sebagai file JPG.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Konverter Daring Gratis" sectionDescription="[Cara Mengonversi PPT ke HTML dengan Python](https://products.aspose.com/slides/id/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konversikan PDF Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi PDF dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah ini" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-xml/" name="PDF TO XML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

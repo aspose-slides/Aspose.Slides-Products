@@ -4,26 +4,18 @@ title: Convert HTML to Image in C++
 url: /cpp/conversion/html-to-image/
 keywords: HTML to Image, Convert HTML to Image, C++ API, C++ Library, HTML, Image
 description: Convert HTML to image in C++. Use the C++ library API to convert HTML files to images.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert HTML to Image in C++" h2="Convert HTML files to images using Aspose.Slides for C++ without Microsoft PowerPoint." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert HTML to Image in C++" h2="Convert HTML files to images using Aspose.Slides for C++ without Microsoft PowerPoint." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert HTML to Image in C++" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert HTML to Image Using C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and render slides as image files.
-
-Aspose.Slides for C++ can convert HTML content to image formats and other presentation-related formats.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert HTML to Image Using C++" %}}
 To convert HTML to an image, create a new Presentation, remove its default slide, import the HTML content with `AddFromHtml`, and save each resulting slide as an image.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for converting HTML into Image" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ code for converting HTML into Image" >}}
 ```cpp
 auto presentation = MakeObject<Presentation>();
 presentation->get_Slides()->RemoveAt(0);
@@ -44,43 +36,29 @@ for (int index = 0; index < slideCount; index++)
 
 presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert HTML to Image in C++" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for C++**](/slides/cpp/) is a presentation processing API that can import HTML content and render slides as image files.
 
-{{< blocks/products/pf/feature-page-section  h2="How to Convert HTML to Image Using Aspose.Slides for C++ API" >}}
+Aspose.Slides for C++ can convert HTML content to image formats and other presentation-related formats.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert HTML to Image in C++." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [**Aspose.Slides for C++**](/slides/cpp/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert HTML to Image Using Aspose.Slides for C++ API" intro="These are the steps to convert HTML to Image in C++." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for C++**](/slides/cpp/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add a library reference (import the library) to your C++ project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open the source HTML file in C++.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the result as an image file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add a library reference (import the library) to your C++ project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Free Online Converter"
+  description="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Open the source HTML file in C++.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert HTML to Other Supported Formats" subTitle="You can also convert HTML and save it to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the result as an image file.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert HTML to Other Supported Formats" subTitle="You can also convert HTML and save it to other file formats. See all supported formats below." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

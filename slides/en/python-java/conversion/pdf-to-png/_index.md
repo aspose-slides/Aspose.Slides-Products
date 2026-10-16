@@ -5,24 +5,18 @@ title: Convert PDF to PNG in Python
 url: /python-java/conversion/pdf-to-png/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PDF to PNG conversion, Python presentation library
 description: Convert PDF pages to PNG images in Python with Aspose.Slides for Python via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF Pages to PNG Images in Python" h2="Import a PDF document and render every page as a separate PNG image with Aspose.Slides for Python via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PDF Pages to PNG Images in Python" h2="Import a PDF document and render every page as a separate PNG image with Aspose.Slides for Python via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PDF to PNG in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to PNG using Python" variant="code" %}}
 
-[**Aspose.Slides for Python via Java**](/slides/python-java/) can import PDF pages as slides, render each slide, and save the rendered content as a PNG image. The conversion produces one image per PDF page and does not require Microsoft PowerPoint or a PDF viewer.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PDF to PNG using Python" %}}
 Create an empty `Presentation`, remove its default slide, and call `addFromPdf` to import the PDF pages. Then access each slide through a variable, call `getImage`, and save the rendered image with `ImageFormat.Png`.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PDF pages to PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PDF pages to PNG" >}}
 ```python
 presentation = Presentation()
 try:
@@ -42,41 +36,23 @@ try:
 finally:
     presentation.dispose()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to PNG in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can import PDF pages as slides, render each slide, and save the rendered content as a PNG image. The conversion produces one image per PDF page and does not require Microsoft PowerPoint or a PDF viewer.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PDF pages to PNG images in Python" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to import a PDF document and render its pages as separate PNG images." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PDF pages to PNG images in Python" intro="Follow these steps to import a PDF document and render its pages as separate PNG images." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure the package and start the Java Virtual Machine in your application.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the PDF pages by calling `addFromPdf` on the presentation's slide collection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Access each slide through a variable, call `getImage`, and save the result with `ImageFormat.Png`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure the package and start the Java Virtual Machine in your application.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the PDF pages by calling `addFromPdf` on the presentation's slide collection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Access each slide through a variable, call `getImage`, and save the result with `ImageFormat.Png`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported file formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

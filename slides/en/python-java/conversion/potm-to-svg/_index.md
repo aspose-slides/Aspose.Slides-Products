@@ -5,24 +5,18 @@ title: Convert POTM to SVG in Python
 url: /python-java/conversion/potm-to-svg/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, POTM to SVG conversion, Python presentation library
 description: Convert POTM presentation template slides to SVG images in Python with Aspose.Slides for Python via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert POTM Slides to SVG Images in Python" h2="Export every slide in a macro-enabled POTM presentation template as a separate SVG image with Aspose.Slides for Python via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert POTM Slides to SVG Images in Python" h2="Export every slide in a macro-enabled POTM presentation template as a separate SVG image with Aspose.Slides for Python via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert POTM to SVG in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert POTM to SVG using Python" variant="code" %}}
 
-[**Aspose.Slides for Python via Java**](/slides/python-java/) can load a macro-enabled PowerPoint template (`POTM`) and export each slide as a scalable `SVG` image. The conversion does not require Microsoft PowerPoint.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert POTM to SVG using Python" %}}
 Create a `Presentation` from the POTM file, access each slide through a variable, and call `writeAsSvgToBytes` to create the SVG data.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting POTM slides to SVG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting POTM slides to SVG" >}}
 ```python
 presentation = Presentation("presentation.potm")
 try:
@@ -38,41 +32,23 @@ try:
 finally:
     presentation.dispose()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert POTM to SVG in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can load a macro-enabled PowerPoint template (`POTM`) and export each slide as a scalable `SVG` image. The conversion does not require Microsoft PowerPoint.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert POTM slides to SVG in Python" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to export the slides in a macro-enabled PowerPoint presentation template as separate SVG images." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert POTM slides to SVG in Python" intro="Follow these steps to export the slides in a macro-enabled PowerPoint presentation template as separate SVG images." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure the package and start the Java Virtual Machine in your application.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open the source POTM file with `Presentation` and access each slide through a variable.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `writeAsSvgToBytes` for each slide and write the returned data to an SVG file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert POTM to Other Supported Formats" subTitle="You can also convert POTM presentation templates to other supported file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure the package and start the Java Virtual Machine in your application.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Open the source POTM file with `Presentation` and access each slide through a variable.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `writeAsSvgToBytes` for each slide and write the returned data to an SVG file.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert POTM to Other Supported Formats" subTitle="You can also convert POTM presentation templates to other supported file formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

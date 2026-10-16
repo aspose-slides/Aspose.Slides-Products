@@ -5,26 +5,18 @@ title: تبدیل HTML به TIFF در PHP
 url: /fa/php-java/conversion/html-to-tiff/
 keywords: HTML به TIFF، تبدیل HTML به TIFF، PHP API، PHP Library، HTML، TIFF
 description: تبدیل HTML به TIFF در PHP. از PowerPoint PHP API برای تبدیل فایل‌های HTML به TIFF استفاده کنید.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تبدیل HTML به TIFF در PHP" h2="کتابخانه قدرتمند پاورپوینت PHP که به توسعه برنامه هایی با توانایی ایجاد، ادغام، بازرسی یا تبدیل فایل های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می کند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تبدیل HTML به TIFF در PHP" h2="کتابخانه قدرتمند پاورپوینت PHP که به توسعه برنامه هایی با توانایی ایجاد، ادغام، بازرسی یا تبدیل فایل های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می کند." >}}
 
-{{% blocks/products/pf/feature-page-section h2="تبدیل HTML به TIFF در PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از PHP، HTML را به TIFF تبدیل کنید" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل HTML به TIFF ارائه می‌کند. با استفاده از **Aspose.Slides برای PHP از طریق جاوا**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های HTML را تنها با چند خط کد PHP به TIFF تبدیل کند.
-
-Aspose.Slides برای PHP به عنوان یک API مدرن برای پردازش اسناد، فایل‌های HTML را به فرمت‌های فایل TIFF صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد HTML را به TIFF و بسیاری از فرمت های فایل دیگر تبدیل کنید.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="با استفاده از PHP، HTML را به TIFF تبدیل کنید" %}}
 برای تبدیل HTML به TIFF، باید Presentation را از فایل HTML ایجاد کنید و آن را به عنوان TIFF ذخیره کنید.
 
-{{% blocks/products/pf/agp/code-block title="کد PHP برای تبدیل HTML به TIFF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد PHP برای تبدیل HTML به TIFF" >}}
 ```php
 
 <?php
@@ -52,50 +44,37 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تبدیل HTML به TIFF در PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل HTML به TIFF ارائه می‌کند. با استفاده از **Aspose.Slides برای PHP از طریق جاوا**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های HTML را تنها با چند خط کد PHP به TIFF تبدیل کند.
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه تبدیل HTML به TIFF با استفاده از Aspose.Slides for PHP API" >}}
+Aspose.Slides برای PHP به عنوان یک API مدرن برای پردازش اسناد، فایل‌های HTML را به فرمت‌های فایل TIFF صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد HTML را به TIFF و بسیاری از فرمت های فایل دیگر تبدیل کنید.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای تبدیل HTML به TIFF در PHP است." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides برای PHP از طریق جاوا**](https://products.aspose.com/slides/fa/php-java/) را نصب کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه تبدیل HTML به TIFF با استفاده از Aspose.Slides for PHP API" intro="این مراحل برای تبدیل HTML به TIFF در PHP است." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[**Aspose.Slides برای PHP از طریق جاوا**](https://products.aspose.com/slides/fa/php-java/) را نصب کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه PHP خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل های منبع HTML را در PHP باز کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نتیجه را به عنوان فایل TIFF ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه PHP خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="مبدل آنلاین رایگان"
+  description="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل های منبع HTML را در PHP باز کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تبدیل HTML به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید HTML را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-png/" name="HTML TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-xml/" name="HTML TO XML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را به عنوان فایل TIFF ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تبدیل HTML به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید HTML را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-png/" name="HTML TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/html-to-xml/" name="HTML TO XML" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

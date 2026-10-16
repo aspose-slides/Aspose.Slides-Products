@@ -5,26 +5,18 @@ title: Convert PPT to PNG in Python
 url: /python-java/conversion/ppt-to-png/
 keywords: Python PPT conversion, PPT to PNG, PowerPoint to PNG, presentation slide to image, Aspose.Slides for Python via Java
 description: Convert PPT presentation slides to PNG images in Python with Aspose.Slides for Python via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPT Slides to PNG Images in Python" h2="Render every slide in a legacy PowerPoint presentation as a PNG image with Aspose.Slides for Python via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPT Slides to PNG Images in Python" h2="Render every slide in a legacy PowerPoint presentation as a PNG image with Aspose.Slides for Python via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PPT to PNG in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PPT to PNG using Python" variant="code" %}}
 
-[**Aspose.Slides for Python via Java**](/slides/python-java/) can render slides from a legacy PowerPoint presentation (`.ppt`) as PNG images without Microsoft PowerPoint. Because a PNG file stores one image, the conversion creates a separate output file for each slide.
-
-Access each slide through a variable, call `getImage`, and save the returned image with `ImageFormat.Png`. The scaling values passed to `getImage` control the output dimensions relative to the original slide size.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PPT to PNG using Python" %}}
 Load the PPT file into a `Presentation`, render each slide with `getImage`, and save each result in PNG format.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PPT slides to PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PPT slides to PNG" >}}
 ```python
 presentation = Presentation("presentation.ppt")
 try:
@@ -42,41 +34,25 @@ try:
 finally:
     presentation.dispose()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PPT to PNG in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can render slides from a legacy PowerPoint presentation (`.ppt`) as PNG images without Microsoft PowerPoint. Because a PNG file stores one image, the conversion creates a separate output file for each slide.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PPT slides to PNG in Python" >}}
+Access each slide through a variable, call `getImage`, and save the returned image with `ImageFormat.Png`. The scaling values passed to `getImage` control the output dimensions relative to the original slide size.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to render the slides in a PowerPoint PPT presentation as separate PNG images." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Python via Java**](/slides/python-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PPT slides to PNG in Python" intro="Follow these steps to render the slides in a PowerPoint PPT presentation as separate PNG images." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Python via Java**](/slides/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure the package and start the Java Virtual Machine in your application.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open the source PPT file with `Presentation` and determine the slide count.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Access each slide through a variable, call `getImage`, and save the result with `ImageFormat.Png`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure the package and start the Java Virtual Machine in your application.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PPT to Other Supported Formats" subTitle="You can also convert PPT presentations to other supported file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Open the source PPT file with `Presentation` and determine the slide count.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Access each slide through a variable, call `getImage`, and save the result with `ImageFormat.Png`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPT to Other Supported Formats" subTitle="You can also convert PPT presentations to other supported file formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

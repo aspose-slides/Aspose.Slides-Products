@@ -5,49 +5,18 @@ title: Converter PPTX para Vídeo em C#
 url: /pt/net/conversion/pptx-to-video/
 keywords: Converta PPTX para vídeo, PPTX para vídeo, PowerPoint para vídeo, PPTX para MP4, C# API, Biblioteca .NET
 description: Converta PPTX para vídeo em C#. Use a API da biblioteca .NET para converter PowerPoint em vídeo
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Converter PPTX para vídeo em C#" h2="Poderosa API .NET multiplataforma para converter PowerPoint em vídeo usando código C# em plataformas NET Framework, .NET Core, Windows Azure, Mono ou Xamarin" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Converter PPTX para vídeo em C#" h2="Poderosa API .NET multiplataforma para converter PowerPoint em vídeo usando código C# em plataformas NET Framework, .NET Core, Windows Azure, Mono ou Xamarin" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Converter PowerPoint para vídeo usando Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converter PowerPoint para vídeo em C#" variant="code" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/pt/net/) é uma poderosa biblioteca .NET usada para criar, editar e manipular apresentações e também converter apresentações do PowerPoint em outros documentos e vídeos. Nesse caso, para converter PowerPoint em vídeo, você precisa usar **Aspose.Slides** juntamente com **ffmpeg** e **FFMpegCore** (um NET ffmpeg wrapper gratuito).
-
-É assim que funciona o processo de conversão de PPTX para vídeo: Aspose.Slides é usado para gerar um conjunto de quadros (a partir dos slides da apresentação) e então FFMpegCore (ffmpeg) é usado para criar um vídeo baseado nos quadros.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Como converter PPTX para vídeo" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Instale **Aspose.Slides para .NET** e **FFMpegcore**: Execute `dotnet add package Aspose.Slides.NET --version 22.12.0` e então execute `dotnet add package FFMpegCore --version 4.8.0`
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Baixe o ffmpeg [aqui.](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-FFMpegCore requer que você especifique o caminho para o ffmpeg baixado (por exemplo, extraído para “C:\tools\ffmpeg”): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Copie, cole e execute o PowerPoint para código de vídeo.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Converter PowerPoint para vídeo em C#" %}}
 Use este código para converter PPTX em vídeo:
 
-{{% blocks/products/pf/agp/code-block title="Código C# para converter PowerPoint em vídeo" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Código C# para converter PowerPoint em vídeo" >}}
 ```cs
 
 using System.Collections.Generic;
@@ -86,23 +55,35 @@ using (Presentation presentation = new Presentation())
 
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Outras conversões compatíveis" subTitle="Você também pode converter PowerPoint para arquivos em outros formatos" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converter PowerPoint para vídeo usando Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/pt/net/) é uma poderosa biblioteca .NET usada para criar, editar e manipular apresentações e também converter apresentações do PowerPoint em outros documentos e vídeos. Nesse caso, para converter PowerPoint em vídeo, você precisa usar **Aspose.Slides** juntamente com **ffmpeg** e **FFMpegCore** (um NET ffmpeg wrapper gratuito).
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+É assim que funciona o processo de conversão de PPTX para vídeo: Aspose.Slides é usado para gerar um conjunto de quadros (a partir dos slides da apresentação) e então FFMpegCore (ffmpeg) é usado para criar um vídeo baseado nos quadros.
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como converter PPTX para vídeo" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instale **Aspose.Slides para .NET** e **FFMpegcore**: Execute `dotnet add package Aspose.Slides.NET --version 22.12.0` e então execute `dotnet add package FFMpegCore --version 4.8.0`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Baixe o ffmpeg [aqui.](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}FFMpegCore requer que você especifique o caminho para o ffmpeg baixado (por exemplo, extraído para “C:\tools\ffmpeg”): `GlobalFFOptions.Configure(new FFOptions { BinaryFolder = @"c:\tools\ffmpeg\bin",} ); `{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Copie, cole e execute o PowerPoint para código de vídeo.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outras conversões compatíveis" subTitle="Você também pode converter PowerPoint para arquivos em outros formatos" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/net/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

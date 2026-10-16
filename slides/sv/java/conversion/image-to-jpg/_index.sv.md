@@ -5,26 +5,18 @@ title: Konvertera Image till JPG i Java
 url: /sv/java/conversion/image-to-jpg/
 keywords: Image till JPG, Konvertera Image till JPG, Java API, Java Library, Image, JPG
 description: Konvertera Image till JPG i Java. Använd Java-bibliotekets API för att konvertera Image-filer till JPGs
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konvertera Image till JPG i Java" h2="Höghastighets- och plattformsoberoende Java-bibliotek som hjälper till att utveckla applikationer med möjligheten att skapa, slå samman, inspektera eller konvertera Microsoft PowerPoint- och OpenOffice-presentationsfiler utan användning av någon programvara som Microsoft eller Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konvertera Image till JPG i Java" h2="Höghastighets- och plattformsoberoende Java-bibliotek som hjälper till att utveckla applikationer med möjligheten att skapa, slå samman, inspektera eller konvertera Microsoft PowerPoint- och OpenOffice-presentationsfiler utan användning av någon programvara som Microsoft eller Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konvertera Image till JPG i Java" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertera Image till JPG med Java" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/) är ett kraftfullt Java-bibliotek för att skapa och manipulera presentationsfiler. Dessutom ger det flexibla sätt att konvertera Image till JPG. Genom att använda **Aspose.Slides för Java** kan alla utvecklare eller applikationer konvertera Image till JPG-filer med bara några rader Java-kod.
-
-Som ett modernt dokumentbearbetnings-API exporterar Aspose.Slides för Java snabbt Image-filer till JPG-filformat. Aspose PowerPoint-bibliotek låter dig konvertera Image till JPG och många andra filformat
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertera Image till JPG med Java" %}}
 För att konvertera Image till JPG måste du skapa en presentation från filen Image och spara den som JPG.
 
-{{% blocks/products/pf/agp/code-block title="Java-kod för att konvertera Image till JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java-kod för att konvertera Image till JPG" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -43,44 +35,31 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertera Image till JPG i Java" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/) är ett kraftfullt Java-bibliotek för att skapa och manipulera presentationsfiler. Dessutom ger det flexibla sätt att konvertera Image till JPG. Genom att använda **Aspose.Slides för Java** kan alla utvecklare eller applikationer konvertera Image till JPG-filer med bara några rader Java-kod.
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man konverterar Image till JPG med Aspose.Slides för Java API" >}}
+Som ett modernt dokumentbearbetnings-API exporterar Aspose.Slides för Java snabbt Image-filer till JPG-filformat. Aspose PowerPoint-bibliotek låter dig konvertera Image till JPG och många andra filformat
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att konvertera Image till JPG i Java." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installera [**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hur man konverterar Image till JPG med Aspose.Slides för Java API" intro="Det här är stegen för att konvertera Image till JPG i Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installera [**Aspose.Slides for Java**](https://products.aspose.com/slides/sv/java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lägg till en biblioteksreferens (importera biblioteket) till ditt Java-projekt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Öppna källfilerna Image i Java.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara resultatet som JPG-fil.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till en biblioteksreferens (importera biblioteket) till ditt Java-projekt.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Gratis onlinekonverterare"
+  description="[Hur man konverterar PPT till HTML i Python](https://products.aspose.com/slides/sv/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Öppna källfilerna Image i Java.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konvertera Image till andra format som stöds" subTitle="Du kan också konvertera Image och spara till andra filformat. Se alla format som stöds nedan" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/java/conversion/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet som JPG-fil.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Gratis onlinekonverterare" sectionDescription="[Hur man konverterar PPT till HTML i Python](https://products.aspose.com/slides/sv/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konvertera Image till andra format som stöds" subTitle="Du kan också konvertera Image och spara till andra filformat. Se alla format som stöds nedan" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/conversion/image-to-pdf/" name="IMAGE TO PDF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

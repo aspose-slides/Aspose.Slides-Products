@@ -5,45 +5,18 @@ title: 在 C++ 中将 PPTX 转换为视频
 url: /zh/cpp/conversion/pptx-to-video/
 keywords: 将 PPTX 转换为视频、将 PPTX 转换为视频、将 PowerPoint 转换为视频、将 PPTX 转换为 MP4、C++ API、C++ 库
 description: 在 C++ 中将 PPTX 转换为视频。使用 C++ 库 API 将 PowerPoint 转换为视频
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="在 C++ 中将 PPTX 转换为视频" h2="强大的跨平台 C++ API，用于使用 C++ 代码将 PowerPoint 转换为视频" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="在 C++ 中将 PPTX 转换为视频" h2="强大的跨平台 C++ API，用于使用 C++ 代码将 PowerPoint 转换为视频" >}}
 
-{{% blocks/products/pf/feature-page-section h2="使用 Aspose.Slides 将 PowerPoint 转换为视频" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="在 C++ 中将 PowerPoint 转换为视频" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/zh/cpp/) 是一个功能强大的 C++ 库，用于创建、编辑和操作演示文稿，并将 PowerPoint 演示文稿转换为其他文档和视频.在这种情况下，要将 PowerPoint 转换为视频，您需要使用 **Aspose.Slides** 和 **ffmpeg**。
-
-这就是 PPTX 到视频转换过程的工作原理：Aspose.Slides 用于生成一组帧（从演示幻灯片），然后 FFMpegCore (ffmpeg) 用于创建基于帧的视频。
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="如何将 PPTX 转换为视频" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-按照 [此处](https://docs.aspose.com/slides/cpp/installation/) 的说明安装 **Aspose.Slides for C++**。下载 **ffmpeg** [此处。](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-将 ffmpeg.exe 的路径添加到环境变量 PATH 中。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-复制、粘贴，然后运行 ​​C++ PowerPoint 视频代码。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="在 C++ 中将 PowerPoint 转换为视频" %}}
 使用此 C++ 代码将 PPTX 转换为视频：
 
-{{% blocks/products/pf/agp/code-block title="用于将 PowerPoint 转换为视频的 C++ 代码" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="用于将 PowerPoint 转换为视频的 C++ 代码" >}}
 ```c++
 
 void OnFrameTick(System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args)
@@ -79,23 +52,34 @@ void Run()
     ffmpegProcess->WaitForExit();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的转换" subTitle="您还可以将 PowerPoint 转换为其他格式的文件" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 Aspose.Slides 将 PowerPoint 转换为视频" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/zh/cpp/) 是一个功能强大的 C++ 库，用于创建、编辑和操作演示文稿，并将 PowerPoint 演示文稿转换为其他文档和视频.在这种情况下，要将 PowerPoint 转换为视频，您需要使用 **Aspose.Slides** 和 **ffmpeg**。
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+这就是 PPTX 到视频转换过程的工作原理：Aspose.Slides 用于生成一组帧（从演示幻灯片），然后 FFMpegCore (ffmpeg) 用于创建基于帧的视频。
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何将 PPTX 转换为视频" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}按照 [此处](https://docs.aspose.com/slides/cpp/installation/) 的说明安装 **Aspose.Slides for C++**。下载 **ffmpeg** [此处。](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}将 ffmpeg.exe 的路径添加到环境变量 PATH 中。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}复制、粘贴，然后运行 ​​C++ PowerPoint 视频代码。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持的转换" subTitle="您还可以将 PowerPoint 转换为其他格式的文件" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/cpp/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

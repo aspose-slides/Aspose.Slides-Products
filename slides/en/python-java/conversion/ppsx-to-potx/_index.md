@@ -5,26 +5,18 @@ title: Convert PPSX to POTX in Python
 url: /python-java/conversion/ppsx-to-potx/
 keywords: Python PPSX conversion, PPSX to POTX, PowerPoint template conversion, Open XML PowerPoint template, Aspose.Slides for Python via Java
 description: Convert PPSX slide shows to POTX presentation template files in Python with Aspose.Slides for Python via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPSX to POTX in Python" h2="Save a PowerPoint slide show as a reusable Open XML presentation template." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPSX to POTX in Python" h2="Save a PowerPoint slide show as a reusable Open XML presentation template." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PPSX to POTX in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="How to Convert PPSX to POTX in Python" variant="code" %}}
 
-[Aspose.Slides for Python via Java](/slides/python-java/) can load a PowerPoint Slide Show (`.ppsx`) and save it as a PowerPoint Open XML Presentation Template (`.potx`) without Microsoft PowerPoint. POTX files are designed to provide reusable themes, layouts, and formatting and do not store VBA macros.
-
-The conversion retains presentation content such as slides, layouts, themes, and supported multimedia. Load the source file with `Presentation`, then call `save` with `SaveFormat.Potx`.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="How to Convert PPSX to POTX in Python" %}}
 Load the source PPSX file into a `Presentation`, then save it with `SaveFormat.Potx`.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PPSX to POTX" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PPSX to POTX" >}}
 ```python
 presentation = Presentation("presentation.ppsx")
 try:
@@ -32,41 +24,25 @@ try:
 finally:
     presentation.dispose()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PPSX to POTX in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[Aspose.Slides for Python via Java](/slides/python-java/) can load a PowerPoint Slide Show (`.ppsx`) and save it as a PowerPoint Open XML Presentation Template (`.potx`) without Microsoft PowerPoint. POTX files are designed to provide reusable themes, layouts, and formatting and do not store VBA macros.
 
-{{< blocks/products/pf/feature-page-section  h2="Steps to Convert PPSX to POTX in Python" >}}
+The conversion retains presentation content such as slides, layouts, themes, and supported multimedia. Load the source file with `Presentation`, then call `save` with `SaveFormat.Potx`.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="The conversion loads the PowerPoint slide show and writes its content in the Open XML POTX template format." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [Aspose.Slides for Python via Java](/slides/python-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Steps to Convert PPSX to POTX in Python" intro="The conversion loads the PowerPoint slide show and writes its content in the Open XML POTX template format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [Aspose.Slides for Python via Java](/slides/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure JPype and make the Aspose.Slides package available to your Python project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` from the source `.ppsx` file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `save` with `SaveFormat.Potx` and a `.potx` output path.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure JPype and make the Aspose.Slides package available to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PPSX to Other Supported Formats" subTitle="You can also convert PPSX presentations to other supported file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` from the source `.ppsx` file.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `save` with `SaveFormat.Potx` and a `.potx` output path.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPSX to Other Supported Formats" subTitle="You can also convert PPSX presentations to other supported file formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

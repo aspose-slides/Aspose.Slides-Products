@@ -5,26 +5,18 @@ title: Convert JPG to PDF in PHP
 url: /php-java/conversion/jpg-to-pdf/
 keywords: JPG to PDF, Convert JPG to PDF, PHP API, PHP Library, JPG, PDF
 description: Convert a JPG image to PDF in PHP with Aspose.Slides for PHP via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert JPG to PDF in PHP" h2="Place a JPG image on a presentation slide and export the result as PDF with Aspose.Slides for PHP via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert JPG to PDF in PHP" h2="Place a JPG image on a presentation slide and export the result as PDF with Aspose.Slides for PHP via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert JPG to PDF in PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert JPG to PDF using PHP" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](/slides/php-java/) lets you place a JPG image on a presentation slide at its original dimensions and export the result as a PDF document.
-
-Aspose.Slides can export JPG-based slides to PDF, PowerPoint, HTML, and other supported formats.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert JPG to PDF using PHP" %}}
 To convert JPG to PDF, create a `Presentation`, add the image with `addPictureFrame`, and call `save` with `SaveFormat::Pdf`.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for converting JPG into PDF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP code for converting JPG into PDF" >}}
 ```php
 $presentation = new Presentation();
 try {
@@ -48,43 +40,29 @@ try {
     $presentation->dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert JPG to PDF in PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) lets you place a JPG image on a presentation slide at its original dimensions and export the result as a PDF document.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert JPG to PDF using Aspose.Slides for PHP API" >}}
+Aspose.Slides can export JPG-based slides to PDF, PowerPoint, HTML, and other supported formats.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert JPG to PDF in PHP." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for PHP via Java**](/slides/php-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert JPG to PDF using Aspose.Slides for PHP API" intro="These are the steps to convert JPG to PDF in PHP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for PHP via Java**](/slides/php-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure Aspose.Slides in your PHP project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation`, access its first slide, and load the JPG file with `Images::fromFile`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the JPG image with `addPictureFrame`, then save the presentation with `SaveFormat::Pdf`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure Aspose.Slides in your PHP project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Free Online Converter"
+  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation`, access its first slide, and load the JPG file with `Images::fromFile`.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG and save to other file formats. See all supported formats below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Add the JPG image with `addPictureFrame`, then save the presentation with `SaveFormat::Pdf`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG and save to other file formats. See all supported formats below:" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

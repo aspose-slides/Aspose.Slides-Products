@@ -5,26 +5,18 @@ title: Converter PDF para PNG em PHP
 url: /pt/php-java/conversion/pdf-to-png/
 keywords: PDF para PNG, Converter PDF para PNG, API PHP, Biblioteca PHP, PDF, PNG
 description: Converter PDF para PNG em PHP. Use a API PHP do PowerPoint para converter arquivos PDF em PNG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Converter PDF para PNG em PHP" h2="Poderosa biblioteca PowerPoint PHP que ajuda no desenvolvimento de aplicativos com a capacidade de criar, mesclar, inspecionar ou converter arquivos de apresentação do Microsoft PowerPoint e OpenOffice sem o uso de qualquer software como Microsoft ou Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Converter PDF para PNG em PHP" h2="Poderosa biblioteca PowerPoint PHP que ajuda no desenvolvimento de aplicativos com a capacidade de criar, mesclar, inspecionar ou converter arquivos de apresentação do Microsoft PowerPoint e OpenOffice sem o uso de qualquer software como Microsoft ou Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Converter PDF para PNG em PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converter PDF para PNG usando PHP" variant="code" %}}
 
-[**Aspose.Slides para PHP via Java**](https://products.aspose.com/slides/pt/php-java/) é uma poderosa biblioteca PHP para criar e manipular arquivos de apresentação. Além disso, oferece maneiras flexíveis de converter PDF em PNG. Usando **Aspose.Slides para PHP via Java**, qualquer desenvolvedor ou aplicativo pode converter arquivos PDF em PNG com apenas algumas linhas de código PHP.
-
-Como uma API moderna de processamento de documentos, o Aspose.Slides for PHP exporta arquivos PDF para formatos de arquivo PNG rapidamente. A biblioteca Aspose PowerPoint permite converter PDF para PNGs e muitos outros formatos de arquivo
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Converter PDF para PNG usando PHP" %}}
 Para converter o PDF para PNG, você precisará criar a apresentação do arquivo PDF e salvá-lo como PNG.
 
-{{% blocks/products/pf/agp/code-block title="Código PHP para converter PDF em PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Código PHP para converter PDF em PNG" >}}
 ```php
 
 <?php
@@ -53,46 +45,33 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converter PDF para PNG em PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides para PHP via Java**](https://products.aspose.com/slides/pt/php-java/) é uma poderosa biblioteca PHP para criar e manipular arquivos de apresentação. Além disso, oferece maneiras flexíveis de converter PDF em PNG. Usando **Aspose.Slides para PHP via Java**, qualquer desenvolvedor ou aplicativo pode converter arquivos PDF em PNG com apenas algumas linhas de código PHP.
 
-{{< blocks/products/pf/feature-page-section  h2="Como converter PDF para PNG usando Aspose.Slides para PHP API" >}}
+Como uma API moderna de processamento de documentos, o Aspose.Slides for PHP exporta arquivos PDF para formatos de arquivo PNG rapidamente. A biblioteca Aspose PowerPoint permite converter PDF para PNGs e muitos outros formatos de arquivo
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estas são as etapas para converter PDF para PNG em PHP." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instale [**Aspose.Slides para PHP via Java**](https://products.aspose.com/slides/pt/php-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como converter PDF para PNG usando Aspose.Slides para PHP API" intro="Estas são as etapas para converter PDF para PNG em PHP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instale [**Aspose.Slides para PHP via Java**](https://products.aspose.com/slides/pt/php-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adicione uma referência de biblioteca (importe a biblioteca) ao seu projeto PHP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Abra os arquivos de origem PDF em PHP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salve o resultado como arquivo PNG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adicione uma referência de biblioteca (importe a biblioteca) ao seu projeto PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Conversor Online Gratuito"
+  description="[Como converter PPT para HTML em Python](https://products.aspose.com/slides/pt/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Abra os arquivos de origem PDF em PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Converter PDF para outros formatos suportados" subTitle="Você também pode converter PDF e salvar em outros formatos de arquivo. Veja todos os formatos suportados abaixo" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/php-java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/php-java/conversion/pdf-to-xml/" name="PDF TO XML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Salve o resultado como arquivo PNG.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Conversor Online Gratuito" sectionDescription="[Como converter PPT para HTML em Python](https://products.aspose.com/slides/pt/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Converter PDF para outros formatos suportados" subTitle="Você também pode converter PDF e salvar em outros formatos de arquivo. Veja todos os formatos suportados abaixo" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/php-java/conversion/pdf-to-image/" name="PDF TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/php-java/conversion/pdf-to-xml/" name="PDF TO XML" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

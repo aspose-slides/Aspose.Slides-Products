@@ -5,26 +5,18 @@ title: Convert PPT to Word in C#
 url: /net/conversion/ppt-to-word/
 keywords: Convert PPT to Word, PPT to Word, PPT to DOC, PowerPoint to Word, C# API, .NET Library
 description: Convert PPT to Word in C#. Use Aspose.Slides for .NET and Aspose.Words for .NET to render PowerPoint slides as images in a DOCX document.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPT to Word in C#" h2="Render PowerPoint slides as images in Word using Aspose.Slides for .NET and Aspose.Words for .NET." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPT to Word in C#" h2="Render PowerPoint slides as images in Word using Aspose.Slides for .NET and Aspose.Words for .NET." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Word Using Aspose.Slides and Aspose.Words" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PowerPoint to Word in C#" variant="code" %}}
 
-[Aspose.Slides for .NET](/slides/net/) can render presentation slides as images, while [Aspose.Words for .NET](https://products.aspose.com/words/net/) can insert those images into a Word document and save it in DOCX format.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PowerPoint to Word in C#" %}}
 You can convert PPT to Word with the following C# code:
 
-{{% blocks/products/pf/agp/code-block title="C# code for converting PowerPoint to Word" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# code for converting PowerPoint to Word" >}}
 ```cs
 using Aspose.Slides;
 using Aspose.Words;
@@ -47,56 +39,28 @@ foreach (var slide in presentation.Slides)
 
 wordDocument.Save("document.docx");
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PowerPoint to Word Using Aspose.Slides and Aspose.Words" %}}
 
+[Aspose.Slides for .NET](/slides/net/) can render presentation slides as images, while [Aspose.Words for .NET](https://products.aspose.com/words/net/) can insert those images into a Word document and save it in DOCX format.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Convert PPT to Word" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert PPT to Word" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install `Aspose.Slides for .NET` and `Aspose.Words for .NET`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the PPT file with a `Presentation` object.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a Word `Document` and `DocumentBuilder`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Render slide images with `GetImage` and insert them with `DocumentBuilder`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the Word document as DOCX.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="ppt-to-word"
+  title="Free Online Converter"
+  description="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Install `Aspose.Slides for .NET` and `Aspose.Words for .NET`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the PPT file with a `Presentation` object.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a Word `Document` and `DocumentBuilder`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Render slide images with `GetImage` and insert them with `DocumentBuilder`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the Word document as DOCX.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="ppt-to-word" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats." >}}
-
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

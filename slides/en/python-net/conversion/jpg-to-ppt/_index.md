@@ -5,26 +5,18 @@ title: Convert JPG to PPT in Python
 url: /python-net/conversion/jpg-to-ppt/
 keywords: Convert JPG to PPT, JPG to PPT, PowerPoint, JPG, PPT, Python API, Python Library
 description: Convert JPG images to PPT in Python. Use the Aspose.Slides Python API to place a JPG image on a slide and save it as a PowerPoint 97-2003 presentation.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert JPG to PPT in Python" h2="Create a PowerPoint 97-2003 presentation from a JPG image with a cross-platform Python API" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert JPG to PPT in Python" h2="Create a PowerPoint 97-2003 presentation from a JPG image with a cross-platform Python API" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert JPG to PPT Using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert JPG to PPT in Python" variant="code" %}}
 
-[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you create a PowerPoint presentation from a JPG image. Add the image to `Presentation.images`, place it on a slide with `ShapeCollection.add_picture_frame`, and call `Presentation.save` with `SaveFormat.PPT`.
-
-The resulting PPT file contains one slide whose size matches the source image. This workflow preserves the image's aspect ratio and does not require Microsoft PowerPoint or another presentation application.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convert JPG to PPT in Python" %}}
 Create a `Presentation`, add the source JPG image to its first `Slide`, and save the result in the PowerPoint 97-2003 format.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting JPG to PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting JPG to PPT" >}}
 ```python
 with slides.Presentation() as presentation:
     slide = presentation.slides[0]
@@ -48,54 +40,26 @@ with slides.Presentation() as presentation:
     )
     presentation.save("image.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert JPG to PPT Using Aspose.Slides" %}}
 
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you create a PowerPoint presentation from a JPG image. Add the image to `Presentation.images`, place it on a slide with `ShapeCollection.add_picture_frame`, and call `Presentation.save` with `SaveFormat.PPT`.
 
+The resulting PPT file contains one slide whose size matches the source image. This workflow preserves the image's aspect ratio and does not require Microsoft PowerPoint or another presentation application.
 
-{{< blocks/products/pf/feature-page-section  h2="How to Convert JPG to PPT in Python" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert JPG to PPT in Python" intro="Follow these steps to convert JPG to PPT in Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` and access its first `Slide`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the JPG image with `Images.from_file` and add it to `Presentation.images`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Match the slide size to the image and add a picture frame with `ShapeCollection.add_picture_frame`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `Presentation.save` with the output file path and `SaveFormat.PPT`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to convert JPG to PPT in Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [*Aspose.Slides for Python via .NET*](/slides/python-net/).
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` and access its first `Slide`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the JPG image with `Images.from_file` and add it to `Presentation.images`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Match the slide size to the image and add a picture frame with `ShapeCollection.add_picture_frame`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `Presentation.save` with the output file path and `SaveFormat.PPT`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

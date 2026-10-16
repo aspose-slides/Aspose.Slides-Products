@@ -5,45 +5,18 @@ title: Konwertuj PPTX na wideo w C++
 url: /pl/cpp/conversion/pptx-to-video/
 keywords: Konwertuj PPTX na wideo, PPTX na wideo, PowerPoint na wideo, PPTX na MP4, C++ API, C++ Library
 description: Konwertuj PPTX na wideo w C++. Użyj API biblioteki C++, aby przekonwertować PowerPoint na wideo
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konwertuj PPTX na wideo w C++" h2="Potężny, wieloplatformowy interfejs API C++ do konwersji programu PowerPoint na wideo przy użyciu kodu C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konwertuj PPTX na wideo w C++" h2="Potężny, wieloplatformowy interfejs API C++ do konwersji programu PowerPoint na wideo przy użyciu kodu C++" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konwertuj PowerPoint na wideo za pomocą Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konwertuj PowerPoint na wideo w C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/pl/cpp/) to potężna biblioteka C++ używana do tworzenia, edytowania i manipulowania prezentacjami, a także konwertowania prezentacji PowerPoint na inne dokumenty i filmy . W takim przypadku, aby przekonwertować PowerPoint na wideo, musisz użyć **Aspose.Slides** wraz z **ffmpeg**.
-
-Oto jak działa proces konwersji PPTX na wideo: Aspose.Slides służy do generowania zestawu klatek (ze slajdów prezentacji), a następnie FFMpegCore (ffmpeg) jest używany do tworzenia wideo na podstawie klatek.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="Jak przekonwertować PPTX na wideo" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj **Aspose.Slides dla C++**, postępując zgodnie z instrukcjami [tutaj](https://docs.aspose.com/slides/cpp/installation/). Pobierz **ffmpeg** [tutaj.](https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj ścieżkę do `ffmpeg.exe` do zmiennej środowiskowej `PATH`.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Skopiuj, wklej, a następnie uruchom C++ PowerPoint do kodu wideo.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konwertuj PowerPoint na wideo w C++" %}}
 Użyj tego kodu C++, aby przekonwertować PPTX na wideo:
 
-{{% blocks/products/pf/agp/code-block title="Kod C++ do konwersji programu PowerPoint na wideo" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kod C++ do konwersji programu PowerPoint na wideo" >}}
 ```c++
 
 void OnFrameTick(System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args)
@@ -79,23 +52,34 @@ void Run()
     ffmpegProcess->WaitForExit();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane konwersje" subTitle="Możesz także konwertować PowerPoint do plików w innych formatach" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konwertuj PowerPoint na wideo za pomocą Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/pl/cpp/) to potężna biblioteka C++ używana do tworzenia, edytowania i manipulowania prezentacjami, a także konwertowania prezentacji PowerPoint na inne dokumenty i filmy . W takim przypadku, aby przekonwertować PowerPoint na wideo, musisz użyć **Aspose.Slides** wraz z **ffmpeg**.
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+Oto jak działa proces konwersji PPTX na wideo: Aspose.Slides służy do generowania zestawu klatek (ze slajdów prezentacji), a następnie FFMpegCore (ffmpeg) jest używany do tworzenia wideo na podstawie klatek.
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak przekonwertować PPTX na wideo" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zainstaluj **Aspose.Slides dla C++**, postępując zgodnie z instrukcjami [tutaj](https://docs.aspose.com/slides/cpp/installation/). Pobierz **ffmpeg** [tutaj.](https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj ścieżkę do `ffmpeg.exe` do zmiennej środowiskowej `PATH`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Skopiuj, wklej, a następnie uruchom C++ PowerPoint do kodu wideo.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane konwersje" subTitle="Możesz także konwertować PowerPoint do plików w innych formatach" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: A(z) POTM konvertálása TIFF formátumra a Node.js-ben
 url: /hu/nodejs-java/conversion/potm-to-tiff/
 keywords: POTM to TIFF, POTM konvertálása TIFF formátumba, Node.js API, Node.js Library, POTM, TIFF
 description: A(z) POTM konvertálása TIFF formátumra a Node.js-ben. Használja a Node.js könyvtár API-t a POTM fájlok konvertálásához TIFF formátumúvá
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="A(z) POTM konvertálása TIFF formátumra a Node.js-ben" h2="Az Aspose.Slides for Node.js a Java-n keresztül egy hatékony és könnyen használható könyvtár, amely lehetővé teszi PowerPoint-prezentációk különböző formátumokra való konvertálását a Node.js-ben. Támogatja az összes prezentációs elemet és formátumot, és gazdag API-t biztosít ezek eléréséhez és módosításához. Azt is lehetővé teszi, hogy diákjait különféle formátumokba exportálja további feldolgozás vagy megosztás céljából." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="A(z) POTM konvertálása TIFF formátumra a Node.js-ben" h2="Az Aspose.Slides for Node.js a Java-n keresztül egy hatékony és könnyen használható könyvtár, amely lehetővé teszi PowerPoint-prezentációk különböző formátumokra való konvertálását a Node.js-ben. Támogatja az összes prezentációs elemet és formátumot, és gazdag API-t biztosít ezek eléréséhez és módosításához. Azt is lehetővé teszi, hogy diákjait különféle formátumokba exportálja további feldolgozás vagy megosztás céljából." >}}
 
-{{% blocks/products/pf/feature-page-section h2="A(z) POTM konvertálása TIFF formátumra a Node.js-ben" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertálja a(z) POTM fájlt TIFF formátumra a Node.js használatával" variant="code" %}}
 
-[**Aspose.Slides for Node.js Java-n keresztül**](https://products.aspose.com/slides/hu/nodejs-java/) egy hatékony Node.js könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a POTM TIFF formátumra való konvertálására. Az **Aspose.Slides for Node.js Java-n keresztül történő használatával** bármely fejlesztő vagy alkalmazás képes konvertálni a POTM fájlokat TIFF fájlokra, mindössze néhány sornyi kóddal.
-
-Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Node.js gyorsan exportál POTM fájlokat TIFF fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) POTM fájl konvertálását TIFF-re és sok más fájlformátumra
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertálja a(z) POTM fájlt TIFF formátumra a Node.js használatával" %}}
 A POTM formátum TIFF formátumra konvertálásához létre kell hoznia egy prezentációt a POTM fájlból, és el kell mentenie TIFF néven.
 
-{{% blocks/products/pf/agp/code-block title="Node.js kód a POTM TIFF formátumba való konvertálásához" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Node.js kód a POTM TIFF formátumba való konvertálásához" >}}
 ```javascript
 
 var aspose = aspose || {};
@@ -41,59 +33,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="A(z) POTM konvertálása TIFF formátumra a Node.js-ben" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Node.js Java-n keresztül**](https://products.aspose.com/slides/hu/nodejs-java/) egy hatékony Node.js könyvtár prezentációs fájlok létrehozásához és kezeléséhez. Ezenkívül rugalmas módokat biztosít a POTM TIFF formátumra való konvertálására. Az **Aspose.Slides for Node.js Java-n keresztül történő használatával** bármely fejlesztő vagy alkalmazás képes konvertálni a POTM fájlokat TIFF fájlokra, mindössze néhány sornyi kóddal.
 
-{{< blocks/products/pf/feature-page-section  h2="A POTM konvertálása TIFF-re az Aspose.Slides for Node.js használatával Java API-n keresztül" >}}
+Modern dokumentumfeldolgozó API-ként az Aspose.Slides for Node.js gyorsan exportál POTM fájlokat TIFF fájlformátumokba. Az Aspose PowerPoint könyvtár lehetővé teszi a(z) POTM fájl konvertálását TIFF-re és sok más fájlformátumra
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A POTM TIFF formátumra való konvertálásához az Aspose.Slides for Node.js használatával Java-n keresztül, importálnia kell a csomagot a JavaScript-fájlba, és létre kell hoznia egy példányt a Presentation osztályból. A Presentation osztály egy PowerPoint-dokumentumot képvisel, és módszereket biztosít az elemek eléréséhez és kezeléséhez." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for Node.js programot Java-n keresztül**](https://products.aspose.com/slides/hu/nodejs-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="A POTM konvertálása TIFF-re az Aspose.Slides for Node.js használatával Java API-n keresztül" intro="A POTM TIFF formátumra való konvertálásához az Aspose.Slides for Node.js használatával Java-n keresztül, importálnia kell a csomagot a JavaScript-fájlba, és létre kell hoznia egy példányt a Presentation osztályból. A Presentation osztály egy PowerPoint-dokumentumot képvisel, és módszereket biztosít az elemek eléréséhez és kezeléséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az [**Aspose.Slides for Node.js programot Java-n keresztül**](https://products.aspose.com/slides/hu/nodejs-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Node.js projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a POTM forrásfájlokat a Node.js-ben.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Az eredmény mentése TIFF fájlként.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Node.js projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="A(z) POTM konvertálása más támogatott formátumokká" subTitle="A POTM formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pptx/" name="POTM TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-ppt/" name="POTM TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pdf/" name="POTM TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-html/" name="POTM TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-png/" name="POTM TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-bmp/" name="POTM TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-jpg/" name="POTM TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-fodp/" name="POTM TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-gif/" name="POTM TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-odp/" name="POTM TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-otp/" name="POTM TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pot/" name="POTM TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-potx/" name="POTM TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pps/" name="POTM TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-ppsm/" name="POTM TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-ppsx/" name="POTM TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pptm/" name="POTM TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-svg/" name="POTM TO SVG" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nyissa meg a POTM forrásfájlokat a Node.js-ben.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése TIFF fájlként.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="A(z) POTM konvertálása más támogatott formátumokká" subTitle="A POTM formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pptx/" name="POTM TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-ppt/" name="POTM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pdf/" name="POTM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-html/" name="POTM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-png/" name="POTM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-bmp/" name="POTM TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-jpg/" name="POTM TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-fodp/" name="POTM TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-gif/" name="POTM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-odp/" name="POTM TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-otp/" name="POTM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pot/" name="POTM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-potx/" name="POTM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pps/" name="POTM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-ppsm/" name="POTM TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-ppsx/" name="POTM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-pptm/" name="POTM TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/nodejs-java/conversion/potm-to-svg/" name="POTM TO SVG" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,45 +5,18 @@ title: Convert PPT to Video in C++
 url: /cpp/conversion/ppt-to-video/
 keywords: Convert PPT to video, PPT to video, PowerPoint to video, PPT to MP4, C++ API, C++ Library
 description: Convert PPT to video in C++. Use Aspose.Slides for C++ with ffmpeg to render PowerPoint slides to video frames and create a video file.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPT to Video in C++" h2="Create video from PowerPoint slides using Aspose.Slides for C++ and ffmpeg." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPT to Video in C++" h2="Create video from PowerPoint slides using Aspose.Slides for C++ and ffmpeg." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Video Using Aspose.Slides" %}}
-
-[Aspose.Slides for C++](/slides/cpp/) can render PowerPoint presentations to image frames. To create a video, render frames with `PresentationAnimationsGenerator` and `PresentationPlayer`, then pass those frames to `ffmpeg`.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section h2="How to Convert PPT to Video" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Install `Aspose.Slides for C++` from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or the [releases page](https://releases.aspose.com/slides/cpp/), and install `ffmpeg` from the [ffmpeg download page](https://ffmpeg.org/download.html).
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Add `ffmpeg.exe` to the `PATH` environment variable.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Run the C++ code to render PPT frames and create an MP4 video.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section h2="Convert PowerPoint to Video in C++" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PowerPoint to Video in C++" variant="code" %}}
 
 Use this C++ code to convert PPT to video:
 
-{{% blocks/products/pf/agp/code-block title="PPT to Video C++ Conversion Source Code" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT to Video C++ Conversion Source Code" >}}
 ```cpp
 void SaveFrame(System::SharedPtr<PresentationPlayer> presentationPlayer, System::SharedPtr<FrameTickEventArgs> eventArguments)
 {
@@ -71,15 +44,22 @@ void Run()
     presentation->Dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PowerPoint to Video Using Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats." >}}
+[Aspose.Slides for C++](/slides/cpp/) can render PowerPoint presentations to image frames. To create a video, render frames with `PresentationAnimationsGenerator` and `PresentationPlayer`, then pass those frames to `ffmpeg`.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert PPT to Video" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install `Aspose.Slides for C++` from [NuGet](https://www.nuget.org/packages/Aspose.Slides.Cpp/) or the [releases page](https://releases.aspose.com/slides/cpp/), and install `ffmpeg` from the [ffmpeg download page](https://ffmpeg.org/download.html).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add `ffmpeg.exe` to the `PATH` environment variable.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Run the C++ code to render PPT frames and create an MP4 video.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert PowerPoint to files in other formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

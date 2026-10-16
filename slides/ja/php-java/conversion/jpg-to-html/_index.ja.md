@@ -5,26 +5,18 @@ title: PHP で JPG を HTML に変換する
 url: /ja/php-java/conversion/jpg-to-html/
 keywords: JPG から HTML へ、JPG から HTML への変換、PHP API、PHP ライブラリ、JPG、HTML
 description: PHP で JPG を HTML に変換します。 PowerPoint PHP API を使用して JPG ファイルを HTML に変換します
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="PHP で JPG を HTML に変換する" h2="MicrosoftやOpen Office、Adobe PDFなどのソフトウェアを使用せずに、Microsoft PowerPointおよびOpenOfficeプレゼンテーションファイルを作成、マージ、検査、または変換する機能を備えたアプリケーションの開発に役立つ強力なPowerPoint PHPライブラリ。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PHP で JPG を HTML に変換する" h2="MicrosoftやOpen Office、Adobe PDFなどのソフトウェアを使用せずに、Microsoft PowerPointおよびOpenOfficeプレゼンテーションファイルを作成、マージ、検査、または変換する機能を備えたアプリケーションの開発に役立つ強力なPowerPoint PHPライブラリ。" >}}
 
-{{% blocks/products/pf/feature-page-section h2="PHP で JPG を HTML に変換する" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PHP を使用して JPG を HTML に変換します" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ja/php-java/) は、プレゼンテーション ファイルを作成および操作するための強力な PHP ライブラリです。さらに、JPG を HTML に柔軟に変換する方法を提供します。 **Aspose.Slides for PHP via Java** を使用すると、開発者やアプリケーションはわずか数行の PHP コードで JPG ファイルを HTML ファイルに変換できます。
-
-最新のドキュメント処理 API である Aspose.Slides for PHP は、JPG ファイルを HTML ファイル フォーマットにすばやくエクスポートします。 Aspose PowerPoint ライブラリを使用すると、JPG を HTML やその他の多くのファイル形式に変換できます
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="PHP を使用して JPG を HTML に変換します" %}}
 JPG を HTML に変換するには、JPG ファイルからプレゼンテーションを作成し、HTML として保存する必要があります。
 
-{{% blocks/products/pf/agp/code-block title="JPG を HTML に変換するための PHP コード" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="JPG を HTML に変換するための PHP コード" >}}
 ```php
 
 <?php
@@ -54,48 +46,35 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PHP で JPG を HTML に変換する" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ja/php-java/) は、プレゼンテーション ファイルを作成および操作するための強力な PHP ライブラリです。さらに、JPG を HTML に柔軟に変換する方法を提供します。 **Aspose.Slides for PHP via Java** を使用すると、開発者やアプリケーションはわずか数行の PHP コードで JPG ファイルを HTML ファイルに変換できます。
 
-{{< blocks/products/pf/feature-page-section  h2="Aspose.Slides for PHP API を使用して JPG を HTML に変換する方法" >}}
+最新のドキュメント処理 API である Aspose.Slides for PHP は、JPG ファイルを HTML ファイル フォーマットにすばやくエクスポートします。 Aspose PowerPoint ライブラリを使用すると、JPG を HTML やその他の多くのファイル形式に変換できます
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、PHP で JPG を HTML に変換する手順です。" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ja/php-java/) をインストールします。
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Aspose.Slides for PHP API を使用して JPG を HTML に変換する方法" intro="これらは、PHP で JPG を HTML に変換する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/ja/php-java/) をインストールします。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PHP プロジェクトにライブラリ参照を追加 (ライブラリをインポート) します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ソース JPG ファイルを PHP で開きます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}結果を HTML ファイルとして保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PHP プロジェクトにライブラリ参照を追加 (ライブラリをインポート) します。
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="無料のオンラインコンバーター"
+  description="[Python で PPT を HTML に変換する方法](https://products.aspose.com/slides/ja/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ソース JPG ファイルを PHP で開きます。
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="JPG を他のサポートされている形式に変換する" subTitle="JPG を変換して、他のファイル形式に保存することもできます。以下のサポートされているすべての形式を参照してください" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-結果を HTML ファイルとして保存します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="無料のオンラインコンバーター" sectionDescription="[Python で PPT を HTML に変換する方法](https://products.aspose.com/slides/ja/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="JPG を他のサポートされている形式に変換する" subTitle="JPG を変換して、他のファイル形式に保存することもできます。以下のサポートされているすべての形式を参照してください" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-image/" name="JPG TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

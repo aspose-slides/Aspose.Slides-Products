@@ -5,26 +5,18 @@ title: در پایتون HTML را به PNG تبدیل کنید
 url: /fa/python-net/conversion/html-to-png/
 keywords: HTML به PNG، تبدیل HTML به PNG، Python API، Python Library، HTML، PNG
 description: در پایتون HTML را به PNG تبدیل کنید. از API کتابخانه پایتون برای تبدیل فایل‌های HTML به PNG استفاده کنید
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="در پایتون HTML را به PNG تبدیل کنید" h2="کتابخانه Python با سرعت بالا و چند پلتفرمی که به توسعه برنامه‌هایی با قابلیت ایجاد، ادغام، بازرسی یا تبدیل فایل‌های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم‌افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می‌کند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="در پایتون HTML را به PNG تبدیل کنید" h2="کتابخانه Python با سرعت بالا و چند پلتفرمی که به توسعه برنامه‌هایی با قابلیت ایجاد، ادغام، بازرسی یا تبدیل فایل‌های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم‌افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می‌کند." >}}
 
-{{% blocks/products/pf/feature-page-section h2="در پایتون HTML را به PNG تبدیل کنید" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از پایتون، HTML را به PNG تبدیل کنید" variant="code" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/fa/python-net/) یک کتابخانه قدرتمند پایتون برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل HTML به PNG ارائه می‌کند. با استفاده از **Aspose.Slides برای پایتون از طریق دات نت**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های HTML را تنها با چند خط کد پایتون به PNG تبدیل کند.
-
-Aspose.Slides برای Python به عنوان یک API مدرن برای پردازش اسناد، فایل‌های HTML را به فرمت‌های فایل PNG صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد HTML را به PNG و بسیاری از فرمت های فایل دیگر تبدیل کنید.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="با استفاده از پایتون، HTML را به PNG تبدیل کنید" %}}
 برای تبدیل HTML به PNG، باید Presentation را از فایل HTML ایجاد کنید و آن را به عنوان PNG ذخیره کنید.
 
-{{% blocks/products/pf/agp/code-block title="کد پایتون برای تبدیل HTML به PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد پایتون برای تبدیل HTML به PNG" >}}
 ```python
 
 import aspose.slides as slides
@@ -39,48 +31,35 @@ with slides.Presentation() as pres:
         bmp.save("Slide_{num}.png".format(num=str(sld.slide_number)), slides.ImageFormat.PNG)
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="در پایتون HTML را به PNG تبدیل کنید" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/fa/python-net/) یک کتابخانه قدرتمند پایتون برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل HTML به PNG ارائه می‌کند. با استفاده از **Aspose.Slides برای پایتون از طریق دات نت**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های HTML را تنها با چند خط کد پایتون به PNG تبدیل کند.
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه تبدیل HTML به PNG با استفاده از Aspose.Slides for Python API" >}}
+Aspose.Slides برای Python به عنوان یک API مدرن برای پردازش اسناد، فایل‌های HTML را به فرمت‌های فایل PNG صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد HTML را به PNG و بسیاری از فرمت های فایل دیگر تبدیل کنید.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای تبدیل HTML به PNG در پایتون است." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/fa/python-net/) را نصب کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه تبدیل HTML به PNG با استفاده از Aspose.Slides for Python API" intro="این مراحل برای تبدیل HTML به PNG در پایتون است." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/fa/python-net/) را نصب کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه پایتون خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل های منبع HTML را در پایتون باز کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نتیجه را به عنوان فایل PNG ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه پایتون خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="مبدل آنلاین رایگان"
+  description="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل های منبع HTML را در پایتون باز کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تبدیل HTML به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید HTML را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-jpg/" name="HTML TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-pdf/" name="HTML TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-xml/" name="HTML TO XML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را به عنوان فایل PNG ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تبدیل HTML به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید HTML را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/conversion/html-to-xml/" name="HTML TO XML" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

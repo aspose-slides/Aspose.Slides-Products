@@ -5,24 +5,18 @@ title: Convert PPTM to ODP in Node.js
 url: /nodejs-java/conversion/pptm-to-odp/
 keywords: PPTM to ODP, Convert PPTM to ODP, Node.js API, Node.js Library, PPTM, ODP
 description: Convert PPTM to ODP in Node.js. Use a Node.js library API to convert PPTM files to ODP files.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPTM to ODP in Node.js" h2="Convert PowerPoint macro-enabled presentation files to ODP files with Aspose.Slides for Node.js via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPTM to ODP in Node.js" h2="Convert PowerPoint macro-enabled presentation files to ODP files with Aspose.Slides for Node.js via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PPTM to ODP in Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PPTM to ODP using Node.js" variant="code" %}}
 
-[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPTM` file with the `Presentation` class and export it to an `ODP` file by using the presentation API.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section h2="Convert PPTM to ODP using Node.js" %}}
 To convert `PPTM` to `ODP`, create a `Presentation` from the source file and export it to an `ODP` file.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code to convert PPTM to ODP" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Node.js code to convert PPTM to ODP" >}}
 ```javascript
 const presentation = new aspose.slides.Presentation("sourceFile.pptm");
 try {
@@ -32,39 +26,23 @@ finally {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PPTM to ODP in Node.js" %}}
 
-{{< blocks/products/pf/feature-page-section h2="How to convert PPTM to ODP using Aspose.Slides for Node.js via Java API" >}}
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets developers create, read, edit, and convert presentation files in Node.js applications. You can load a `PPTM` file with the `Presentation` class and export it to an `ODP` file by using the presentation API.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PPTM to ODP using Aspose.Slides for Node.js via Java, import the package, load the source file, and export it in the required format." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PPTM to ODP using Aspose.Slides for Node.js via Java API" intro="To convert PPTM to ODP using Aspose.Slides for Node.js via Java, import the package, load the source file, and export it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the `aspose.slides.via.java` package in your Node.js project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the source `PPTM` file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `save` method with the output file path and `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the `aspose.slides.via.java` package in your Node.js project.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PPTM to Other Supported Formats" subTitle="You can also convert PPTM files to other supported presentation and export formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the source `PPTM` file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `save` method with the output file path and `SaveFormat.Odp`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPTM to Other Supported Formats" subTitle="You can also convert PPTM files to other supported presentation and export formats." >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

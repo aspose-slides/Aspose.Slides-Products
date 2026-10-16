@@ -5,26 +5,18 @@ title: Convert PPSM to JPG in Python
 url: /python-java/conversion/ppsm-to-jpg/
 keywords: Python PPSM conversion, PPSM to JPG, PowerPoint to JPG, macro-enabled slide show to JPEG, Aspose.Slides for Python via Java
 description: Convert PPSM presentation slides to JPG images in Python with Aspose.Slides for Python via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PPSM Slides to JPG Images in Python" h2="Render every slide in a macro-enabled PowerPoint slide show as a JPEG image with Aspose.Slides for Python via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PPSM Slides to JPG Images in Python" h2="Render every slide in a macro-enabled PowerPoint slide show as a JPEG image with Aspose.Slides for Python via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PPSM to JPG in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="How to Convert PPSM to JPG in Python" variant="code" %}}
 
-[Aspose.Slides for Python via Java](/slides/python-java/) can render slides from a macro-enabled PowerPoint slide show (`.ppsm`) as JPG images without Microsoft PowerPoint. Because a JPG file stores a single image, the conversion creates a separate output file for each slide. Macros and interactive behavior are not included in the images.
-
-Use `Presentation.getSlides` to iterate through the source slides. For each `Slide`, call `getImage` and save the returned image with `ImageFormat.Jpeg`. The scaling values passed to `getImage` control the output dimensions relative to the original slide size.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="How to Convert PPSM to JPG in Python" %}}
 Load the PPSM file into a `Presentation`, render each slide with `getImage`, and save each result in JPEG format.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PPSM slides to JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PPSM slides to JPG" >}}
 ```python
 presentation = Presentation("presentation.ppsm")
 try:
@@ -42,41 +34,25 @@ try:
 finally:
     presentation.dispose()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PPSM to JPG in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[Aspose.Slides for Python via Java](/slides/python-java/) can render slides from a macro-enabled PowerPoint slide show (`.ppsm`) as JPG images without Microsoft PowerPoint. Because a JPG file stores a single image, the conversion creates a separate output file for each slide. Macros and interactive behavior are not included in the images.
 
-{{< blocks/products/pf/feature-page-section  h2="Steps to Convert PPSM to JPG in Python" >}}
+Use `Presentation.getSlides` to iterate through the source slides. For each `Slide`, call `getImage` and save the returned image with `ImageFormat.Jpeg`. The scaling values passed to `getImage` control the output dimensions relative to the original slide size.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="The conversion renders each slide in the PPSM presentation to a separate JPEG image." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [Aspose.Slides for Python via Java](/slides/python-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Steps to Convert PPSM to JPG in Python" intro="The conversion renders each slide in the PPSM presentation to a separate JPEG image." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [Aspose.Slides for Python via Java](/slides/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure JPype and make the Aspose.Slides package available to your Python project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` from the source `.ppsm` file and determine the slide count.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Access each `Slide`, call `getImage`, and save the result with `ImageFormat.Jpeg`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure JPype and make the Aspose.Slides package available to your Python project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PPSM to Other Supported Formats" subTitle="You can also convert PPSM presentations to other supported file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` from the source `.ppsm` file and determine the slide count.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Access each `Slide`, call `getImage`, and save the result with `ImageFormat.Jpeg`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PPSM to Other Supported Formats" subTitle="You can also convert PPSM presentations to other supported file formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

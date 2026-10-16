@@ -5,26 +5,18 @@ title: Преобразование POT в BMP в Python
 url: /ru/python-java/conversion/pot-to-bmp/
 keywords: Преобразование презентаций Python, преобразование презентаций в Python, Python для презентаций, Aspose.Slides Python, преобразование POT в BMP, библиотека презентаций Python
 description: Преобразуйте POT в BMP в Python. Используйте API библиотеки Python для преобразования файлов POT в BMP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Легко конвертируйте POT в BMP с помощью Python: Aspose.Slides спешит на помощь!" h2="Вдохните новую жизнь в свои презентации с помощью Python. Наше руководство поможет вам преобразовать существующие слайды PowerPoint в интересные презентации Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Легко конвертируйте POT в BMP с помощью Python: Aspose.Slides спешит на помощь!" h2="Вдохните новую жизнь в свои презентации с помощью Python. Наше руководство поможет вам преобразовать существующие слайды PowerPoint в интересные презентации Python." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Преобразование POT в BMP в Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Преобразование POT в BMP с помощью Python" variant="code" %}}
 
-Устали бороться со сложным программным обеспечением для презентаций? Не ищите ничего, кроме [**Aspose.Slides для Python через Java**](https://products.aspose.com/slides/ru/python-java/)! Эта мощная библиотека позволяет вам с легкостью создавать, редактировать и конвертировать презентации в различные форматы. Хотите переключиться с POT на BMP? Aspose.Slides упрощает задачу, требуя всего лишь нескольких строк кода Python.
-
-Являясь передовым API обработки документов, **Aspose.Slides for Python через Java** может похвастаться молниеносной скоростью преобразования, гарантируя быстрое преобразование ваших презентаций POT в формат BMP. Откажитесь от ограничений традиционных инструментов — Aspose.Slides предоставляет вам возможность конвертировать презентации из POT не только в BMP, но и в широкий спектр других форматов, позволяя вам безупречно адаптировать свои презентации к любой ситуации.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Преобразование POT в BMP с помощью Python" %}}
 Чтобы преобразовать POT в BMP, вам нужно будет создать презентацию из файла POT и сохранить ее как BMP.
 
-{{% blocks/products/pf/agp/code-block title="Учебник по Python для преобразования POT в BMP" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Учебник по Python для преобразования POT в BMP" >}}
 ```python
 
 import jpype
@@ -44,59 +36,44 @@ for i in range(pres.getSlides().size()):
 
 jpype.shutdownJVM()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Преобразование POT в BMP в Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+Устали бороться со сложным программным обеспечением для презентаций? Не ищите ничего, кроме [**Aspose.Slides для Python через Java**](https://products.aspose.com/slides/ru/python-java/)! Эта мощная библиотека позволяет вам с легкостью создавать, редактировать и конвертировать презентации в различные форматы. Хотите переключиться с POT на BMP? Aspose.Slides упрощает задачу, требуя всего лишь нескольких строк кода Python.
 
-{{< blocks/products/pf/feature-page-section  h2="Учебник по Python. Как преобразовать POT в BMP с помощью Aspose.Slides для Python через Java API." >}}
+Являясь передовым API обработки документов, **Aspose.Slides for Python через Java** может похвастаться молниеносной скоростью преобразования, гарантируя быстрое преобразование ваших презентаций POT в формат BMP. Откажитесь от ограничений традиционных инструментов — Aspose.Slides предоставляет вам возможность конвертировать презентации из POT не только в BMP, но и в широкий спектр других форматов, позволяя вам безупречно адаптировать свои презентации к любой ситуации.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Чтобы преобразовать POT в BMP с помощью Aspose.Slides for Python через Java, вам необходимо импортировать пакет в ваш скрипт Python и создать экземпляр класса Presentation. Класс Presentation представляет документ PowerPoint и предоставляет методы для доступа к его элементам и управления ими." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Установите [**Aspose.Slides for Python через Java**](https://products.aspose.com/slides/ru/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Учебник по Python. Как преобразовать POT в BMP с помощью Aspose.Slides для Python через Java API." intro="Чтобы преобразовать POT в BMP с помощью Aspose.Slides for Python через Java, вам необходимо импортировать пакет в ваш скрипт Python и создать экземпляр класса Presentation. Класс Presentation представляет документ PowerPoint и предоставляет методы для доступа к его элементам и управления ими." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Установите [**Aspose.Slides for Python через Java**](https://products.aspose.com/slides/ru/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Добавьте ссылку на библиотеку (импортируйте библиотеку) в свой проект Python.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Откройте исходные файлы POT в Python.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохранить результат как файл BMP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Добавьте ссылку на библиотеку (импортируйте библиотеку) в свой проект Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Преобразование POT в другие поддерживаемые форматы" subTitle="Вы также можете конвертировать POT и сохранять в другие форматы файлов. Все поддерживаемые форматы см. ниже." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pptx/" name="POT TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-ppt/" name="POT TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pdf/" name="POT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-html/" name="POT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-png/" name="POT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-jpg/" name="POT TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-fodp/" name="POT TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-gif/" name="POT TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-odp/" name="POT TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-otp/" name="POT TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-potm/" name="POT TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-potx/" name="POT TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pps/" name="POT TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-ppsm/" name="POT TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-ppsx/" name="POT TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pptm/" name="POT TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-svg/" name="POT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-tiff/" name="POT TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Откройте исходные файлы POT в Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохранить результат как файл BMP.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Преобразование POT в другие поддерживаемые форматы" subTitle="Вы также можете конвертировать POT и сохранять в другие форматы файлов. Все поддерживаемые форматы см. ниже." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pptx/" name="POT TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-ppt/" name="POT TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pdf/" name="POT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-html/" name="POT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-png/" name="POT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-jpg/" name="POT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-fodp/" name="POT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-gif/" name="POT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-odp/" name="POT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-otp/" name="POT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-potm/" name="POT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-potx/" name="POT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pps/" name="POT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-ppsm/" name="POT TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-ppsx/" name="POT TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-pptm/" name="POT TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-svg/" name="POT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-java/conversion/pot-to-tiff/" name="POT TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

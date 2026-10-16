@@ -5,26 +5,18 @@ title: แปลง PPTM เป็น PPSM ใน JavaScript
 url: /th/nodejs-net/conversion/pptm-to-ppsm/
 keywords: PPTM เป็น PPSM, แปลง PPTM เป็น PPSM, Node.js API, ไลบรารี JavaScript, PPTM, PPSM
 description: แปลง PPTM เป็น PPSM ใน JavaScript ใช้ API ไลบรารี Node.js เพื่อแปลงไฟล์ PPTM เป็น PPSM
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="แปลง PPTM เป็น PPSM ใน JavaScript" h2="Aspose.Slides สำหรับ Node.js ผ่าน .NET เป็นไลบรารีที่ทรงพลังและใช้งานง่ายที่ให้คุณแปลงงานนำเสนอ PowerPoint เป็นรูปแบบต่างๆ ใน ​​JavaScript รองรับองค์ประกอบและรูปแบบการนำเสนอทั้งหมด และมี API ที่หลากหลายเพื่อเข้าถึงและแก้ไข นอกจากนี้ยังช่วยให้คุณสามารถส่งออกสไลด์ของคุณไปยังรูปแบบต่างๆ เพื่อการประมวลผลหรือการแชร์เพิ่มเติม" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="แปลง PPTM เป็น PPSM ใน JavaScript" h2="Aspose.Slides สำหรับ Node.js ผ่าน .NET เป็นไลบรารีที่ทรงพลังและใช้งานง่ายที่ให้คุณแปลงงานนำเสนอ PowerPoint เป็นรูปแบบต่างๆ ใน ​​JavaScript รองรับองค์ประกอบและรูปแบบการนำเสนอทั้งหมด และมี API ที่หลากหลายเพื่อเข้าถึงและแก้ไข นอกจากนี้ยังช่วยให้คุณสามารถส่งออกสไลด์ของคุณไปยังรูปแบบต่างๆ เพื่อการประมวลผลหรือการแชร์เพิ่มเติม" >}}
 
-{{% blocks/products/pf/feature-page-section h2="แปลง PPTM เป็น PPSM ใน Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง PPTM เป็น PPSM โดยใช้ JavaScript" variant="code" %}}
 
-[**Aspose.Slides สำหรับ Node.js ผ่าน .NET**](https://products.aspose.com/slides/th/nodejs-net/) เป็นไลบรารี Node.js อันทรงพลังสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ยังมีวิธีที่ยืดหยุ่นในการแปลง PPTM เป็น PPSM เมื่อใช้ **Aspose.Slides สำหรับ Node.js ผ่าน .NET** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ PPTM เป็น PPSM ได้โดยใช้โค้ดเพียงไม่กี่บรรทัด
-
-ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Node.js ผ่าน .NET จะส่งออกไฟล์ PPTM ไปเป็นรูปแบบไฟล์ PPSM อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณสามารถแปลง PPTM เป็น PPSM และรูปแบบไฟล์อื่นๆ อีกมากมาย
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="แปลง PPTM เป็น PPSM โดยใช้ JavaScript" %}}
 หากต้องการแปลง PPTM เป็น PPSM คุณจะต้องสร้างงานนำเสนอจากไฟล์ PPTM และบันทึกเป็น PPSM
 
-{{% blocks/products/pf/agp/code-block title="โค้ด JavaScript สำหรับแปลง PPTM เป็น PPSM" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="โค้ด JavaScript สำหรับแปลง PPTM เป็น PPSM" >}}
 ```javascript
 
 const fs = require('fs');
@@ -40,59 +32,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง PPTM เป็น PPSM ใน Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides สำหรับ Node.js ผ่าน .NET**](https://products.aspose.com/slides/th/nodejs-net/) เป็นไลบรารี Node.js อันทรงพลังสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ยังมีวิธีที่ยืดหยุ่นในการแปลง PPTM เป็น PPSM เมื่อใช้ **Aspose.Slides สำหรับ Node.js ผ่าน .NET** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ PPTM เป็น PPSM ได้โดยใช้โค้ดเพียงไม่กี่บรรทัด
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีแปลง PPTM เป็น PPSM โดยใช้ Aspose.Slides สำหรับ Node.js ผ่าน .NET API" >}}
+ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Node.js ผ่าน .NET จะส่งออกไฟล์ PPTM ไปเป็นรูปแบบไฟล์ PPSM อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณสามารถแปลง PPTM เป็น PPSM และรูปแบบไฟล์อื่นๆ อีกมากมาย
 
-{{< blocks/products/pf/agp/steps-block-autogen name="หากต้องการแปลง PPTM เป็น PPSM โดยใช้ Aspose.Slides สำหรับ Node.js ผ่าน .NET คุณจะต้องนำเข้าแพ็กเกจในไฟล์ JavaScript ของคุณและสร้างอินสแตนซ์ของคลาส Presentation คลาสการนำเสนอแสดงถึงเอกสาร PowerPoint และจัดเตรียมวิธีการเข้าถึงและจัดการองค์ประกอบต่างๆ" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ติดตั้ง [**Aspose.Slides สำหรับ Node.js ผ่าน .NET**](https://products.aspose.com/slides/th/nodejs-net/)
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแปลง PPTM เป็น PPSM โดยใช้ Aspose.Slides สำหรับ Node.js ผ่าน .NET API" intro="หากต้องการแปลง PPTM เป็น PPSM โดยใช้ Aspose.Slides สำหรับ Node.js ผ่าน .NET คุณจะต้องนำเข้าแพ็กเกจในไฟล์ JavaScript ของคุณและสร้างอินสแตนซ์ของคลาส Presentation คลาสการนำเสนอแสดงถึงเอกสาร PowerPoint และจัดเตรียมวิธีการเข้าถึงและจัดการองค์ประกอบต่างๆ" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ติดตั้ง [**Aspose.Slides สำหรับ Node.js ผ่าน .NET**](https://products.aspose.com/slides/th/nodejs-net/){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ให้กับโปรเจ็กต์ Node.js ของคุณ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์ต้นฉบับ PPTM ใน Node.js{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกผลลัพธ์เป็นไฟล์ PPSM{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ให้กับโปรเจ็กต์ Node.js ของคุณ
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="แปลง PPTM เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง PPTM และบันทึกเป็นรูปแบบไฟล์อื่นๆ ได้ด้วย ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-ppt/" name="PPTM TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pdf/" name="PPTM TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-html/" name="PPTM TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-png/" name="PPTM TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-jpg/" name="PPTM TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-fodp/" name="PPTM TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-gif/" name="PPTM TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-odp/" name="PPTM TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-otp/" name="PPTM TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pot/" name="PPTM TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-potm/" name="PPTM TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-potx/" name="PPTM TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pps/" name="PPTM TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-svg/" name="PPTM TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เปิดไฟล์ต้นฉบับ PPTM ใน Node.js
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์เป็นไฟล์ PPSM
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="แปลง PPTM เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง PPTM และบันทึกเป็นรูปแบบไฟล์อื่นๆ ได้ด้วย ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pptx/" name="PPTM TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-ppt/" name="PPTM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pdf/" name="PPTM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-html/" name="PPTM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-png/" name="PPTM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-jpg/" name="PPTM TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-fodp/" name="PPTM TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-gif/" name="PPTM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-odp/" name="PPTM TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-otp/" name="PPTM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pot/" name="PPTM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-potm/" name="PPTM TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-potx/" name="PPTM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-pps/" name="PPTM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-svg/" name="PPTM TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/nodejs-net/conversion/pptm-to-tiff/" name="PPTM TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

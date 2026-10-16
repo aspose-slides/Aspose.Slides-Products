@@ -5,26 +5,18 @@ title: แปลง HTML เป็น PNG ใน PHP
 url: /th/php-java/conversion/html-to-png/
 keywords: HTML เป็น PNG, แปลง HTML เป็น PNG, PHP API, PHP Library, HTML, PNG
 description: แปลง HTML เป็น PNG ใน PHP ใช้ PowerPoint PHP API เพื่อแปลงไฟล์ HTML เป็น PNG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="แปลง HTML เป็น PNG ใน PHP" h2="ไลบรารี PowerPoint PHP อันทรงพลังที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="แปลง HTML เป็น PNG ใน PHP" h2="ไลบรารี PowerPoint PHP อันทรงพลังที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="แปลง HTML เป็น PNG ใน PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง HTML เป็น PNG โดยใช้ PHP" variant="code" %}}
 
-[**Aspose.Slides สำหรับ PHP ผ่าน Java**](https://products.aspose.com/slides/th/php-java/) เป็นไลบรารี PHP ที่มีประสิทธิภาพสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ ยังมีวิธีที่ยืดหยุ่นในการแปลง HTML เป็น PNG เมื่อใช้ **Aspose.Slides สำหรับ PHP ผ่าน Java** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ HTML เป็น PNG ด้วยโค้ด PHP เพียงไม่กี่บรรทัด
-
-ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ PHP จะส่งออกไฟล์ HTML เป็นรูปแบบไฟล์ PNG ได้อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลง HTML เป็น PNG และรูปแบบไฟล์อื่นๆ อีกมากมาย
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="แปลง HTML เป็น PNG โดยใช้ PHP" %}}
 หากต้องการแปลง HTML เป็น PNG คุณจะต้องสร้างงานนำเสนอจากไฟล์ HTML และบันทึกเป็น PNG
 
-{{% blocks/products/pf/agp/code-block title="โค้ด PHP สำหรับแปลง HTML เป็น PNG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="โค้ด PHP สำหรับแปลง HTML เป็น PNG" >}}
 ```php
 
 <?php
@@ -58,50 +50,37 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง HTML เป็น PNG ใน PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides สำหรับ PHP ผ่าน Java**](https://products.aspose.com/slides/th/php-java/) เป็นไลบรารี PHP ที่มีประสิทธิภาพสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ ยังมีวิธีที่ยืดหยุ่นในการแปลง HTML เป็น PNG เมื่อใช้ **Aspose.Slides สำหรับ PHP ผ่าน Java** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ HTML เป็น PNG ด้วยโค้ด PHP เพียงไม่กี่บรรทัด
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีแปลง HTML เป็น PNG โดยใช้ Aspose.Slides สำหรับ PHP API" >}}
+ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ PHP จะส่งออกไฟล์ HTML เป็นรูปแบบไฟล์ PNG ได้อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลง HTML เป็น PNG และรูปแบบไฟล์อื่นๆ อีกมากมาย
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแปลง HTML เป็น PNG ใน PHP" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ติดตั้ง [**Aspose.Slides สำหรับ PHP ผ่าน Java**](https://products.aspose.com/slides/th/php-java/)
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแปลง HTML เป็น PNG โดยใช้ Aspose.Slides สำหรับ PHP API" intro="นี่คือขั้นตอนในการแปลง HTML เป็น PNG ใน PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ติดตั้ง [**Aspose.Slides สำหรับ PHP ผ่าน Java**](https://products.aspose.com/slides/th/php-java/){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ในโครงการ PHP ของคุณ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์ต้นฉบับ HTML ใน PHP{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกผลลัพธ์เป็นไฟล์ PNG{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ในโครงการ PHP ของคุณ
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="ตัวแปลงออนไลน์ฟรี"
+  description="[วิธีแปลง PPT เป็น HTML ใน Python](https://products.aspose.com/slides/th/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เปิดไฟล์ต้นฉบับ HTML ใน PHP
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="แปลง HTML เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง HTML และบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/php-java/conversion/html-to-xml/" name="HTML TO XML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์เป็นไฟล์ PNG
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="ตัวแปลงออนไลน์ฟรี" sectionDescription="[วิธีแปลง PPT เป็น HTML ใน Python](https://products.aspose.com/slides/th/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="แปลง HTML เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง HTML และบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/php-java/conversion/html-to-xml/" name="HTML TO XML" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

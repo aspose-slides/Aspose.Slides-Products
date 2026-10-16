@@ -5,26 +5,18 @@ title: 在 PHP 中將 PNG 轉換為 HTML
 url: /zh-hant/php-java/conversion/png-to-html/
 keywords: PNG 到 HTML，將 PNG 轉換為 HTML，PHP API，PHP 庫，PNG，HTML
 description: 在 PHP 中將 PNG 轉換為 HTML。使用 PowerPoint PHP API 將 PNG 文件轉換為 HTML
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="在 PHP 中將 PNG 轉換為 HTML" h2="強大的 PowerPoint PHP 庫有助於開發應用程序，無需使用 Microsoft 或 Open Office、Adobe PDF 等任何軟件即可創建、合併、檢查或轉換 Microsoft PowerPoint 和 OpenOffice 演示文稿文件。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="在 PHP 中將 PNG 轉換為 HTML" h2="強大的 PowerPoint PHP 庫有助於開發應用程序，無需使用 Microsoft 或 Open Office、Adobe PDF 等任何軟件即可創建、合併、檢查或轉換 Microsoft PowerPoint 和 OpenOffice 演示文稿文件。" >}}
 
-{{% blocks/products/pf/feature-page-section h2="在 PHP 中將 PNG 轉換為 HTML" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 PHP 將 PNG 轉換為 HTML" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh-hant/php-java/) 是一個強大的 PHP 庫，用於創建和操作演示文稿文件。此外，它提供了將 PNG 轉換為 HTML 的靈活方法。使用**Aspose.Slides for PHP via Java**，任何開發人員或應用程序只需幾行 PHP 代碼即可將 PNG 轉換為 HTML 文件。
-
-作為現代文檔處理 API，Aspose.Slides for PHP 可快速將 PNG 文件導出為 HTML 文件格式。 Aspose PowerPoint 庫允許您將 PNG 轉換為 HTML 和許多其他文件格式
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="使用 PHP 將 PNG 轉換為 HTML" %}}
 要將 PNG 轉換為 HTML，您需要從 PNG 文件創建演示文稿並將其另存為 HTML。
 
-{{% blocks/products/pf/agp/code-block title="將 PNG 轉換為 HTML 的 PHP 代碼" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="將 PNG 轉換為 HTML 的 PHP 代碼" >}}
 ```php
 
 <?php
@@ -54,48 +46,35 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="在 PHP 中將 PNG 轉換為 HTML" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh-hant/php-java/) 是一個強大的 PHP 庫，用於創建和操作演示文稿文件。此外，它提供了將 PNG 轉換為 HTML 的靈活方法。使用**Aspose.Slides for PHP via Java**，任何開發人員或應用程序只需幾行 PHP 代碼即可將 PNG 轉換為 HTML 文件。
 
-{{< blocks/products/pf/feature-page-section  h2="如何使用 Aspose.Slides for PHP API 將 PNG 轉換為 HTML" >}}
+作為現代文檔處理 API，Aspose.Slides for PHP 可快速將 PNG 文件導出為 HTML 文件格式。 Aspose PowerPoint 庫允許您將 PNG 轉換為 HTML 和許多其他文件格式
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是在 PHP 中將 PNG 轉換為 HTML 的步驟。" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-安裝 [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh-hant/php-java/)。
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 Aspose.Slides for PHP API 將 PNG 轉換為 HTML" intro="這些是在 PHP 中將 PNG 轉換為 HTML 的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}安裝 [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/zh-hant/php-java/)。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}將庫引用（導入庫）添加到您的 PHP 項目。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}在 PHP 中打開源 PNG 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}將結果保存為 HTML 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-將庫引用（導入庫）添加到您的 PHP 項目。
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="免費在線轉換器"
+  description="[如何在 Python 中將 PPT 轉換為 HTML](https://products.aspose.com/slides/zh-hant/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-在 PHP 中打開源 PNG 文件。
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="將 PNG 轉換為其他支持的格式" subTitle="您還可以轉換 PNG 並保存為其他文件格式。查看下面所有支持的格式" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-將結果保存為 HTML 文件。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="免費在線轉換器" sectionDescription="[如何在 Python 中將 PPT 轉換為 HTML](https://products.aspose.com/slides/zh-hant/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="將 PNG 轉換為其他支持的格式" subTitle="您還可以轉換 PNG 並保存為其他文件格式。查看下面所有支持的格式" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-svg/" name="PNG TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

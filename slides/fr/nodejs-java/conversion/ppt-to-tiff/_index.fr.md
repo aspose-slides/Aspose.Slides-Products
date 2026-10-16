@@ -5,26 +5,18 @@ title: Convertir PPT en TIFF dans Node.js
 url: /fr/nodejs-java/conversion/ppt-to-tiff/
 keywords: PPT en TIFF, Convertir PPT en TIFF, API Node.js, Bibliothèque Node.js, PPT, TIFF
 description: Convertissez PPT en TIFF dans Node.js. Utilisez l'API de la bibliothèque Node.js pour convertir les fichiers PPT en TIFF
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convertir PPT en TIFF dans Node.js" h2="Aspose.Slides pour Node.js via Java est une bibliothèque puissante et facile à utiliser qui vous permet de convertir des présentations PowerPoint en différents formats dans Node.js. Il prend en charge tous les éléments et formats de présentation et fournit une API riche pour y accéder et les modifier. Il vous permet également d'exporter vos diapositives vers différents formats pour un traitement ou un partage ultérieur." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convertir PPT en TIFF dans Node.js" h2="Aspose.Slides pour Node.js via Java est une bibliothèque puissante et facile à utiliser qui vous permet de convertir des présentations PowerPoint en différents formats dans Node.js. Il prend en charge tous les éléments et formats de présentation et fournit une API riche pour y accéder et les modifier. Il vous permet également d'exporter vos diapositives vers différents formats pour un traitement ou un partage ultérieur." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convertir PPT en TIFF dans Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convertir PPT en TIFF à l'aide de Node.js" variant="code" %}}
 
-[**Aspose.Slides pour Node.js via Java**](https://products.aspose.com/slides/fr/nodejs-java/) est une puissante bibliothèque Node.js permettant de créer et de manipuler des fichiers de présentation. De plus, il offre des moyens flexibles de convertir PPT en TIFF. En utilisant **Aspose.Slides pour Node.js via Java**, tout développeur ou application peut convertir des fichiers PPT en TIFF avec seulement quelques lignes de code.
-
-En tant qu'API moderne de traitement de documents, Aspose.Slides pour Node.js exporte rapidement les fichiers PPT vers les formats de fichiers TIFF. La bibliothèque Aspose PowerPoint vous permet de convertir PPT en TIFF et de nombreux autres formats de fichiers
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convertir PPT en TIFF à l'aide de Node.js" %}}
 Pour convertir le PPT en TIFF, vous devrez créer une présentation à partir du fichier PPT et l'enregistrer sous TIFF.
 
-{{% blocks/products/pf/agp/code-block title="Code Node.js pour convertir PPT en TIFF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Code Node.js pour convertir PPT en TIFF" >}}
 ```javascript
 
 var aspose = aspose || {};
@@ -41,59 +33,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convertir PPT en TIFF dans Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides pour Node.js via Java**](https://products.aspose.com/slides/fr/nodejs-java/) est une puissante bibliothèque Node.js permettant de créer et de manipuler des fichiers de présentation. De plus, il offre des moyens flexibles de convertir PPT en TIFF. En utilisant **Aspose.Slides pour Node.js via Java**, tout développeur ou application peut convertir des fichiers PPT en TIFF avec seulement quelques lignes de code.
 
-{{< blocks/products/pf/feature-page-section  h2="Comment convertir PPT en TIFF à l'aide d'Aspose.Slides pour Node.js via l'API Java" >}}
+En tant qu'API moderne de traitement de documents, Aspose.Slides pour Node.js exporte rapidement les fichiers PPT vers les formats de fichiers TIFF. La bibliothèque Aspose PowerPoint vous permet de convertir PPT en TIFF et de nombreux autres formats de fichiers
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pour convertir PPT en TIFF à l'aide d'Aspose.Slides pour Node.js via Java, vous devez importer le package dans votre fichier JavaScript et créer une instance de la classe Présentation. La classe Présentation représente un document PowerPoint et fournit des méthodes pour accéder et manipuler ses éléments." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installez [**Aspose.Slides pour Node.js via Java**](https://products.aspose.com/slides/fr/nodejs-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment convertir PPT en TIFF à l'aide d'Aspose.Slides pour Node.js via l'API Java" intro="Pour convertir PPT en TIFF à l'aide d'Aspose.Slides pour Node.js via Java, vous devez importer le package dans votre fichier JavaScript et créer une instance de la classe Présentation. La classe Présentation représente un document PowerPoint et fournit des méthodes pour accéder et manipuler ses éléments." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installez [**Aspose.Slides pour Node.js via Java**](https://products.aspose.com/slides/fr/nodejs-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez une référence de bibliothèque (importez la bibliothèque) à votre projet Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ouvrez les fichiers sources PPT dans Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le résultat dans un fichier TIFF.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez une référence de bibliothèque (importez la bibliothèque) à votre projet Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convertir PPT en d'autres formats pris en charge" subTitle="Vous pouvez également convertir PPT et enregistrer dans d'autres formats de fichiers. Voir tous les formats pris en charge ci-dessous" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pot/" name="PPT TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ouvrez les fichiers sources PPT dans Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrez le résultat dans un fichier TIFF.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convertir PPT en d'autres formats pris en charge" subTitle="Vous pouvez également convertir PPT et enregistrer dans d'autres formats de fichiers. Voir tous les formats pris en charge ci-dessous" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pot/" name="PPT TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-ppsm/" name="PPT TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/nodejs-java/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

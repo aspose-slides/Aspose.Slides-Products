@@ -5,26 +5,18 @@ title: تبدیل PNG به SVG در PHP
 url: /fa/php-java/conversion/png-to-svg/
 keywords: PNG به SVG، تبدیل PNG به SVG، PHP API، PHP Library، PNG، SVG
 description: تبدیل PNG به SVG در PHP. از PowerPoint PHP API برای تبدیل فایل‌های PNG به SVG استفاده کنید.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تبدیل PNG به SVG در PHP" h2="کتابخانه قدرتمند پاورپوینت PHP که به توسعه برنامه هایی با توانایی ایجاد، ادغام، بازرسی یا تبدیل فایل های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می کند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تبدیل PNG به SVG در PHP" h2="کتابخانه قدرتمند پاورپوینت PHP که به توسعه برنامه هایی با توانایی ایجاد، ادغام، بازرسی یا تبدیل فایل های ارائه Microsoft PowerPoint و OpenOffice بدون استفاده از هیچ نرم افزاری مانند Microsoft یا Open Office، Adobe PDF کمک می کند." >}}
 
-{{% blocks/products/pf/feature-page-section h2="تبدیل PNG به SVG در PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از PHP، PNG را به SVG تبدیل کنید" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل PNG به SVG ارائه می‌کند. با استفاده از **Aspose.Slides برای PHP از طریق جاوا**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های PNG را تنها با چند خط کد PHP به SVG تبدیل کند.
-
-Aspose.Slides برای PHP به عنوان یک API مدرن برای پردازش اسناد، فایل‌های PNG را به فرمت‌های فایل SVG صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد PNG را به SVG و بسیاری از فرمت های فایل دیگر تبدیل کنید.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="با استفاده از PHP، PNG را به SVG تبدیل کنید" %}}
 برای تبدیل PNG به SVG، باید Presentation را از فایل PNG ایجاد کنید و آن را به عنوان SVG ذخیره کنید.
 
-{{% blocks/products/pf/agp/code-block title="کد PHP برای تبدیل PNG به SVG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد PHP برای تبدیل PNG به SVG" >}}
 ```php
 
 <?php
@@ -59,48 +51,35 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تبدیل PNG به SVG در PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ایجاد و دستکاری فایل های ارائه است. علاوه بر این، راه‌های انعطاف‌پذیری برای تبدیل PNG به SVG ارائه می‌کند. با استفاده از **Aspose.Slides برای PHP از طریق جاوا**، هر برنامه‌نویس یا برنامه‌ای می‌تواند فایل‌های PNG را تنها با چند خط کد PHP به SVG تبدیل کند.
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه تبدیل PNG به SVG با استفاده از Aspose.Slides for PHP API" >}}
+Aspose.Slides برای PHP به عنوان یک API مدرن برای پردازش اسناد، فایل‌های PNG را به فرمت‌های فایل SVG صادر می‌کند. کتابخانه پاورپوینت Aspose به شما امکان می دهد PNG را به SVG و بسیاری از فرمت های فایل دیگر تبدیل کنید.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای تبدیل PNG به SVG در PHP است." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-[**Aspose.Slides برای PHP از طریق جاوا**](https://products.aspose.com/slides/fa/php-java/) را نصب کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه تبدیل PNG به SVG با استفاده از Aspose.Slides for PHP API" intro="این مراحل برای تبدیل PNG به SVG در PHP است." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[**Aspose.Slides برای PHP از طریق جاوا**](https://products.aspose.com/slides/fa/php-java/) را نصب کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه PHP خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل های منبع PNG را در PHP باز کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نتیجه را به عنوان فایل SVG ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-یک مرجع کتابخانه (وارد کردن کتابخانه) به پروژه PHP خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="مبدل آنلاین رایگان"
+  description="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل های منبع PNG را در PHP باز کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تبدیل PNG به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید PNG را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را به عنوان فایل SVG ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="مبدل آنلاین رایگان" sectionDescription="[نحوه تبدیل PPT به HTML در پایتون](https://products.aspose.com/slides/fa/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تبدیل PNG به فرمت های دیگر پشتیبانی شده" subTitle="همچنین می‌توانید PNG را تبدیل کنید و در قالب‌های دیگر ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-html/" name="PNG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-jpg/" name="PNG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

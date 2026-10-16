@@ -5,24 +5,18 @@ title: Convert PDF to PPS in Python
 url: /python-java/conversion/pdf-to-pps/
 keywords: Python presentation conversion, convert presentations to Python, Python for presentations, Aspose.Slides Python, PDF to PPS conversion, Python presentation library
 description: Convert PDF documents to PowerPoint 97-2003 PPS slide shows in Python with Aspose.Slides for Python via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to PPS in Python" h2="Import PDF pages and save them in the binary PowerPoint 97-2003 Show format with Aspose.Slides for Python via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PDF to PPS in Python" h2="Import PDF pages and save them in the binary PowerPoint 97-2003 Show format with Aspose.Slides for Python via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PDF to PPS in Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to PPS using Python" variant="code" %}}
 
-[**Aspose.Slides for Python via Java**](/slides/python-java/) can import PDF pages as slides and save the resulting presentation as a PPS file. PPS is the binary PowerPoint 97-2003 Show format and is intended to open directly in slide show mode in compatible applications. The conversion does not require Microsoft PowerPoint or a PDF viewer.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PDF to PPS using Python" %}}
 Create an empty `Presentation`, remove its default slide, and call `addFromPdf` to import the PDF pages. Then call `save` with `SaveFormat.Pps` to create the PPS slide show.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PDF to PPS" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PDF to PPS" >}}
 ```python
 presentation = Presentation()
 try:
@@ -32,41 +26,23 @@ try:
 finally:
     presentation.dispose()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to PPS in Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Python via Java**](/slides/python-java/) can import PDF pages as slides and save the resulting presentation as a PPS file. PPS is the binary PowerPoint 97-2003 Show format and is intended to open directly in slide show mode in compatible applications. The conversion does not require Microsoft PowerPoint or a PDF viewer.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PDF to PPS in Python" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to import a PDF document and save its pages as a PowerPoint 97-2003 PPS slide show." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PDF to PPS in Python" intro="Follow these steps to import a PDF document and save its pages as a PowerPoint 97-2003 PPS slide show." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Configure the package and start the Java Virtual Machine in your application.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the PDF pages by calling `addFromPdf` on the presentation's slide collection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `save` with `SaveFormat.Pps` to create the PPS slide show.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Python via Java**](https://docs.aspose.com/slides/python-java/installation/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Configure the package and start the Java Virtual Machine in your application.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the PDF pages by calling `addFromPdf` on the presentation's slide collection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `save` with `SaveFormat.Pps` to create the PPS slide show.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF documents to other supported file formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

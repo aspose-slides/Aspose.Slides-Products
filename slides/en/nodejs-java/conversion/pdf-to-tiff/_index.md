@@ -5,24 +5,18 @@ title: Convert PDF to TIFF in Node.js
 url: /nodejs-java/conversion/pdf-to-tiff/
 keywords: PDF to TIFF, Convert PDF to TIFF, Node.js API, Node.js Library, PDF, TIFF
 description: Convert PDF to TIFF in Node.js. Use the Node.js API to convert PDF files to TIFF files.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PDF to TIFF in Node.js" h2="Convert PDF files to TIFF with Aspose.Slides for Node.js via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PDF to TIFF in Node.js" h2="Convert PDF files to TIFF with Aspose.Slides for Node.js via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PDF to TIFF in Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to TIFF using Node.js" variant="code" %}}
 
-[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets you import `PDF` files into a presentation and save the result as `TIFF` files. With this Node.js API, you can convert `PDF` content without Adobe Acrobat.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PDF to TIFF using Node.js" %}}
 To convert `PDF` to `TIFF`, create a `Presentation`, import the source file with `addFromPdf`, and save the presentation with `SaveFormat.Tiff`.
 
-{{% blocks/products/pf/agp/code-block title="Node.js code to convert PDF to TIFF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Node.js code to convert PDF to TIFF" >}}
 ```javascript
 const presentation = new aspose.slides.Presentation();
 try {
@@ -35,41 +29,23 @@ finally {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PDF to TIFF in Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/) lets you import `PDF` files into a presentation and save the result as `TIFF` files. With this Node.js API, you can convert `PDF` content without Adobe Acrobat.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PDF to TIFF using Aspose.Slides for Node.js via Java API" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="To convert PDF to TIFF using Aspose.Slides for Node.js via Java, import the package, import the source file into a presentation, and save it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PDF to TIFF using Aspose.Slides for Node.js via Java API" intro="To convert PDF to TIFF using Aspose.Slides for Node.js via Java, import the package, import the source file into a presentation, and save it in the required format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the `aspose.slides.via.java` package in your Node.js project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Import the source `PDF` file with `addFromPdf`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `save` method with the output file path and `SaveFormat.Tiff`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Node.js via Java**](/slides/nodejs-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files to other supported presentation and export formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the `aspose.slides.via.java` package in your Node.js project.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Import the source `PDF` file with `addFromPdf`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `save` method with the output file path and `SaveFormat.Tiff`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files to other supported presentation and export formats." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

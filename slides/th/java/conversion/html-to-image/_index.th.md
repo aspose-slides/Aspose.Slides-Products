@@ -5,26 +5,18 @@ title: แปลง HTML เป็น Image ใน Java
 url: /th/java/conversion/html-to-image/
 keywords: HTML เป็น Image, แปลง HTML เป็น Image, Java API, Java Library, HTML, Image
 description: แปลง HTML เป็น Image ใน Java ใช้ Java library API เพื่อแปลงไฟล์ HTML เป็น Image
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="แปลง HTML เป็น Image ใน Java" h2="Java Library ความเร็วสูงและข้ามแพลตฟอร์มที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="แปลง HTML เป็น Image ใน Java" h2="Java Library ความเร็วสูงและข้ามแพลตฟอร์มที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="แปลง HTML เป็น Image ใน Java" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง HTML เป็น Image โดยใช้ Java" variant="code" %}}
 
-[**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/) เป็นไลบรารี Java ที่ทรงพลังสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ ยังมีวิธีที่ยืดหยุ่นในการแปลง HTML เป็น Image เมื่อใช้ **Aspose.Slides สำหรับ Java** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ HTML เป็น Image ด้วยโค้ด Java เพียงไม่กี่บรรทัด
-
-ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Java จะส่งออกไฟล์ HTML เป็นรูปแบบไฟล์ Image ได้อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลง HTML เป็น Image และรูปแบบไฟล์อื่นๆ อีกมากมาย
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="แปลง HTML เป็น Image โดยใช้ Java" %}}
 หากต้องการแปลง HTML เป็น Image คุณจะต้องสร้างงานนำเสนอจากไฟล์ HTML และบันทึกเป็น Image
 
-{{% blocks/products/pf/agp/code-block title="โค้ด Java สำหรับแปลง HTML เป็น Image" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="โค้ด Java สำหรับแปลง HTML เป็น Image" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -43,48 +35,35 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลง HTML เป็น Image ใน Java" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/) เป็นไลบรารี Java ที่ทรงพลังสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ ยังมีวิธีที่ยืดหยุ่นในการแปลง HTML เป็น Image เมื่อใช้ **Aspose.Slides สำหรับ Java** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ HTML เป็น Image ด้วยโค้ด Java เพียงไม่กี่บรรทัด
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีแปลง HTML เป็น Image โดยใช้ Aspose.Slides สำหรับ Java API" >}}
+ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Java จะส่งออกไฟล์ HTML เป็นรูปแบบไฟล์ Image ได้อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลง HTML เป็น Image และรูปแบบไฟล์อื่นๆ อีกมากมาย
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแปลง HTML เป็น Image ใน Java" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ติดตั้ง [**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/)
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแปลง HTML เป็น Image โดยใช้ Aspose.Slides สำหรับ Java API" intro="นี่คือขั้นตอนในการแปลง HTML เป็น Image ใน Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ติดตั้ง [**Aspose.Slides สำหรับ Java**](https://products.aspose.com/slides/th/java/){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ไปยังโปรเจ็กต์ Java ของคุณ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดซอร์สไฟล์ HTML ใน Java{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกผลลัพธ์เป็นไฟล์ Image{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ไปยังโปรเจ็กต์ Java ของคุณ
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="ตัวแปลงออนไลน์ฟรี"
+  description="[วิธีแปลง PPT เป็น HTML ใน Python](https://products.aspose.com/slides/th/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เปิดซอร์สไฟล์ HTML ใน Java
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="แปลง HTML เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง HTML และบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/java/conversion/html-to-png/" name="HTML TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/java/conversion/html-to-xml/" name="HTML TO XML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์เป็นไฟล์ Image
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="ตัวแปลงออนไลน์ฟรี" sectionDescription="[วิธีแปลง PPT เป็น HTML ใน Python](https://products.aspose.com/slides/th/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="แปลง HTML เป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลง HTML และบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/conversion/html-to-jpg/" name="HTML TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/conversion/html-to-png/" name="HTML TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/conversion/html-to-xml/" name="HTML TO XML" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

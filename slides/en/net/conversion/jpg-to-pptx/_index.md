@@ -5,24 +5,18 @@ title: Convert JPG to PPTX in C#
 url: /net/conversion/jpg-to-pptx/
 keywords: Convert JPG to PPTX, JPG to PPTX, JPG, PPTX, C# API, .NET Library
 description: Convert JPG to PPTX in C# using Aspose.Slides for .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert JPG to PPTX in C#" h2="Convert JPG images to PPTX presentations in C# using server-side Aspose.Slides APIs." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert JPG to PPTX in C#" h2="Convert JPG images to PPTX presentations in C# using server-side Aspose.Slides APIs." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert JPG to PPTX using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert JPG to PPTX in C#" variant="code" %}}
 
-[Aspose.Slides for .NET](/slides/net/) lets you create a PPTX presentation from JPG images. The API adds the JPG image to a slide and saves the result as a PowerPoint presentation.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convert JPG to PPTX in C#" %}}
 Using [**Aspose.Slides for .NET**](/slides/net/), you can convert JPG image to presentation with just a few lines of code:
 
-{{% blocks/products/pf/agp/code-block title="C# code for converting JPG to PPTX" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# code for converting JPG to PPTX" >}}
 ```cs
 using var presentation = new Presentation();
 
@@ -34,55 +28,28 @@ slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 720, 540, presentationIm
 
 presentation.Save("Presentation.pptx", SaveFormat.Pptx);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert JPG to PPTX using Aspose.Slides" %}}
 
+[Aspose.Slides for .NET](/slides/net/) lets you create a PPTX presentation from JPG images. The API adds the JPG image to a slide and saves the result as a PowerPoint presentation.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Convert JPG to PPTX in C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert JPG to PPTX in C#" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for .NET**. See [**Installation**](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the library as a reference in your project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` object.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the JPG image file bytes.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `Save` method with `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Free Online Converter"
+  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for .NET**. See [**Installation**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` object.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Load the JPG image file bytes.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `Save` method with `SaveFormat.Pptx`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

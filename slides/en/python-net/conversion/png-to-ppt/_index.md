@@ -5,24 +5,18 @@ title: Convert PNG to PPT in Python
 url: /python-net/conversion/png-to-ppt/
 keywords: Convert PNG to PPT, PNG to PPT, PowerPoint, PNG, PPT, Python API, Python Library
 description: Convert PNG to PPT in Python. Use the Aspose.Slides Python API to place a PNG image on a slide and save it as a PowerPoint presentation.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PNG to PPT in Python" h2="Place a PNG image on a slide and save it as PPT with a cross-platform Python API" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PNG to PPT in Python" h2="Place a PNG image on a slide and save it as PPT with a cross-platform Python API" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PNG to PPT using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PNG to PPT in Python" variant="code" %}}
 
-[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you create a PowerPoint presentation from a PNG image. Add the image to `Presentation.images`, place it on a `Slide` with `ShapeCollection.add_picture_frame`, and save the presentation by using `SaveFormat.PPT`.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PNG to PPT in Python" %}}
 Create a `Presentation`, add the source PNG image to its first `Slide`, and save the result in the PowerPoint 97-2003 presentation format.
 
-{{% blocks/products/pf/agp/code-block title="Python code for converting PNG to PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python code for converting PNG to PPT" >}}
 ```python
 with slides.Presentation() as presentation:
     slide = presentation.slides[0]
@@ -46,54 +40,24 @@ with slides.Presentation() as presentation:
     )
     presentation.save("image.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PNG to PPT using Aspose.Slides" %}}
 
+[*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you create a PowerPoint presentation from a PNG image. Add the image to `Presentation.images`, place it on a `Slide` with `ShapeCollection.add_picture_frame`, and save the presentation by using `SaveFormat.PPT`.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Convert PNG to PPT Using the Aspose.Slides Python API" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Convert PNG to PPT Using the Aspose.Slides Python API" intro="Follow these steps to convert PNG to PPT in Python." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [*Aspose.Slides for Python via .NET*](/slides/python-net/). See the [installation guide](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` and access its first `Slide`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the PNG image with `Images.from_file` and add it to `Presentation.images`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Match the slide size to the image and add a picture frame with `ShapeCollection.add_picture_frame`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `Presentation.save` with the output file path and `SaveFormat.PPT`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported PowerPoint Conversions" subTitle="You can also convert other supported formats to PowerPoint presentations." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to convert PNG to PPT in Python." >}}
-
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [*Aspose.Slides for Python via .NET*](/slides/python-net/). See the [installation guide](https://docs.aspose.com/slides/python-net/installation/).
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` and access its first `Slide`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the PNG image with `Images.from_file` and add it to `Presentation.images`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Match the slide size to the image and add a picture frame with `ShapeCollection.add_picture_frame`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `Presentation.save` with the output file path and `SaveFormat.PPT`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert other supported formats to PowerPoint presentations." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

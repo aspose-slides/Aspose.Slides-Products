@@ -5,26 +5,18 @@ title: Konwertuj PNG na JPG w C++
 url: /pl/cpp/conversion/png-to-jpg/
 keywords: PNG do JPG, Konwersja PNG do JPG, API C++, Biblioteka C++, PNG, JPG
 description: Konwertuj PNG na JPG w C++. Użyj interfejsu API biblioteki C++, aby przekonwertować pliki PNG na pliki JPG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konwertuj PNG na JPG w C++" h2="Szybka i wieloplatformowa biblioteka C++, która pomaga w tworzeniu aplikacji z możliwością tworzenia, scalania, sprawdzania lub konwertowania plików prezentacji Microsoft PowerPoint i OpenOffice bez użycia oprogramowania takiego jak Microsoft lub Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konwertuj PNG na JPG w C++" h2="Szybka i wieloplatformowa biblioteka C++, która pomaga w tworzeniu aplikacji z możliwością tworzenia, scalania, sprawdzania lub konwertowania plików prezentacji Microsoft PowerPoint i OpenOffice bez użycia oprogramowania takiego jak Microsoft lub Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konwertuj PNG na JPG w C++" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konwertuj PNG na JPG przy użyciu C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/pl/cpp/) to potężna biblioteka C++ do tworzenia i manipulowania plikami prezentacji. Ponadto zapewnia elastyczne sposoby konwersji PNG na JPG. Korzystając z **Aspose.Slides dla C++**, każdy programista lub aplikacja może konwertować pliki PNG na JPG za pomocą zaledwie kilku wierszy kodu C++.
-
-Jako nowoczesny interfejs API do przetwarzania dokumentów, Aspose.Slides dla C++ szybko eksportuje pliki PNG do formatów plików JPG. Biblioteka Aspose PowerPoint umożliwia konwersję PNG do JPG i wielu innych formatów plików
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konwertuj PNG na JPG przy użyciu C++" %}}
 Aby przekonwertować PNG na JPG, musisz utworzyć Prezentację z pliku PNG i zapisać ją jako JPG.
 
-{{% blocks/products/pf/agp/code-block title="Kod C++ do konwersji PNG na JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kod C++ do konwersji PNG na JPG" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -50,45 +42,32 @@ for (int32_t i = 0; i < pres->get_Slides()->get_Count(); i++)
 }
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konwertuj PNG na JPG w C++" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/pl/cpp/) to potężna biblioteka C++ do tworzenia i manipulowania plikami prezentacji. Ponadto zapewnia elastyczne sposoby konwersji PNG na JPG. Korzystając z **Aspose.Slides dla C++**, każdy programista lub aplikacja może konwertować pliki PNG na JPG za pomocą zaledwie kilku wierszy kodu C++.
 
-{{< blocks/products/pf/feature-page-section  h2="Jak przekonwertować PNG na JPG przy użyciu Aspose.Slides dla C++ API" >}}
+Jako nowoczesny interfejs API do przetwarzania dokumentów, Aspose.Slides dla C++ szybko eksportuje pliki PNG do formatów plików JPG. Biblioteka Aspose PowerPoint umożliwia konwersję PNG do JPG i wielu innych formatów plików
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby przekonwertować PNG na JPG w C++." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj [**Aspose.Slides dla C++**](https://products.aspose.com/slides/pl/cpp/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak przekonwertować PNG na JPG przy użyciu Aspose.Slides dla C++ API" intro="Oto kroki, aby przekonwertować PNG na JPG w C++." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zainstaluj [**Aspose.Slides dla C++**](https://products.aspose.com/slides/pl/cpp/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj odwołanie do biblioteki (zaimportuj bibliotekę) do projektu C++.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otwórz źródłowe pliki PNG w języku C++.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz wynik jako plik JPG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj odwołanie do biblioteki (zaimportuj bibliotekę) do projektu C++.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Darmowy konwerter online"
+  description="[Jak przekonwertować PPT na HTML w Pythonie](https://products.aspose.com/slides/pl/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Otwórz źródłowe pliki PNG w języku C++.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konwertuj PNG na inne obsługiwane formaty" subTitle="Możesz także przekonwertować PNG i zapisać do innych formatów plików. Zobacz wszystkie obsługiwane formaty poniżej" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/cpp/conversion/png-to-svg/" name="PNG TO SVG" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz wynik jako plik JPG.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Darmowy konwerter online" sectionDescription="[Jak przekonwertować PPT na HTML w Pythonie](https://products.aspose.com/slides/pl/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konwertuj PNG na inne obsługiwane formaty" subTitle="Możesz także przekonwertować PNG i zapisać do innych formatów plików. Zobacz wszystkie obsługiwane formaty poniżej" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/conversion/png-to-svg/" name="PNG TO SVG" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

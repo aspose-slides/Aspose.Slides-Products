@@ -5,56 +5,18 @@ title: تبدیل PPTX به ویدیو در جاوا
 url: /fa/java/conversion/pptx-to-video/
 keywords: تبدیل PPTX به ویدئو، PPTX به ویدئو، پاورپوینت به ویدئو، PPT به MP4، Java API، کتابخانه جاوا
 description: تبدیل PPTX به ویدیو در جاوا. برای تبدیل پاورپوینت به ویدیو از API کتابخانه جاوا استفاده کنید
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تبدیل PPTX به ویدیو در جاوا" h2="بین پلتفرم قدرتمند Java API برای تبدیل پاورپوینت به ویدیو با استفاده از کد جاوا" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تبدیل PPTX به ویدیو در جاوا" h2="بین پلتفرم قدرتمند Java API برای تبدیل پاورپوینت به ویدیو با استفاده از کد جاوا" >}}
 
-{{% blocks/products/pf/feature-page-section h2="با استفاده از Aspose.Slides پاورپوینت را به ویدیو تبدیل کنید" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تبدیل پاورپوینت به ویدیو در جاوا" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/) یک کتابخانه قدرتمند جاوا است که برای ایجاد، ویرایش و دستکاری ارائه ها و همچنین تبدیل ارائه های پاورپوینت به اسناد و ویدیوهای دیگر استفاده می شود. . در این حالت برای تبدیل پاورپوینت به ویدیو باید از **Aspose.Slides** در کنار **ffmpeg** استفاده کنید.
-
-فرآیند تبدیل PPTX به ویدیو به این صورت است: Aspose.Slides برای تولید مجموعه ای از فریم ها (از اسلایدهای ارائه) و سپس FFMpegCore (ffmpeg) برای ایجاد یک ویدیو بر اساس فریم ها استفاده می شود.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="نحوه تبدیل PPTX به ویدیو" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-با دنبال کردن دستورالعمل‌ها [اینجا](https://docs.aspose.com/slides/java/installation/) **Aspose.Slides را برای جاوا** نصب کنید. **ffmpeg** را از اینجا دانلود کنید (https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-
-این را به فایل POM خود اضافه کنید:
-
-```
-   <وابستگی>
-     <groupId>net.bramp.ffmpeg</groupId>
-     <artifactId>ffmpeg</artifactId>
-     <version>0.7.0</version>
-   </dependency>
-```
-
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-پاورپوینت جاوا را کپی، پیست و سپس در کد ویدیو اجرا کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="تبدیل پاورپوینت به ویدیو در جاوا" %}}
 از این کد جاوا برای تبدیل PPTX به ویدیو استفاده کنید:
 
-{{% blocks/products/pf/agp/code-block title="کد جاوا برای تبدیل پاورپوینت به ویدیو" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد جاوا برای تبدیل پاورپوینت به ویدیو" >}}
 ```java
 
 Presentation presentation = new Presentation();
@@ -111,23 +73,42 @@ try {
     e.printStackTrace();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می توانید پاورپوینت را به فایل هایی با فرمت های دیگر تبدیل کنید" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از Aspose.Slides پاورپوینت را به ویدیو تبدیل کنید" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/) یک کتابخانه قدرتمند جاوا است که برای ایجاد، ویرایش و دستکاری ارائه ها و همچنین تبدیل ارائه های پاورپوینت به اسناد و ویدیوهای دیگر استفاده می شود. . در این حالت برای تبدیل پاورپوینت به ویدیو باید از **Aspose.Slides** در کنار **ffmpeg** استفاده کنید.
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+فرآیند تبدیل PPTX به ویدیو به این صورت است: Aspose.Slides برای تولید مجموعه ای از فریم ها (از اسلایدهای ارائه) و سپس FFMpegCore (ffmpeg) برای ایجاد یک ویدیو بر اساس فریم ها استفاده می شود.
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه تبدیل PPTX به ویدیو" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}با دنبال کردن دستورالعمل‌ها [اینجا](https://docs.aspose.com/slides/java/installation/) **Aspose.Slides را برای جاوا** نصب کنید. **ffmpeg** را از اینجا دانلود کنید (https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}این را به فایل POM خود اضافه کنید:
+
+```
+   <وابستگی>
+     <groupId>net.bramp.ffmpeg</groupId>
+     <artifactId>ffmpeg</artifactId>
+     <version>0.7.0</version>
+   </dependency>
+```{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}پاورپوینت جاوا را کپی، پیست و سپس در کد ویدیو اجرا کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می توانید پاورپوینت را به فایل هایی با فرمت های دیگر تبدیل کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-pdf/" name="PPTX TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-word/" name="PPTX TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-html/" name="PPTX TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-jpeg/" name="PPTX TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-png/" name="PPTX TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-svg/" name="PPTX TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-bmp/" name="PPTX TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-emf/" name="PPTX TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/conversion/pptx-to-gif/" name="PPTX TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

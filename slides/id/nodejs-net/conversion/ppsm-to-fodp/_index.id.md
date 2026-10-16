@@ -5,26 +5,18 @@ title: Konversikan PPSM ke FODP dalam JavaScript
 url: /id/nodejs-net/conversion/ppsm-to-fodp/
 keywords: PPSM ke FODP, Konversi PPSM ke FODP, API Node.js, Pustaka JavaScript, PPSM, FODP
 description: Konversikan PPSM ke FODP dalam JavaScript. Gunakan API perpustakaan Node.js untuk mengonversi file PPSM ke FODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konversikan PPSM ke FODP dalam JavaScript" h2="Aspose.Slides untuk Node.js melalui .NET adalah pustaka yang kuat dan mudah digunakan yang memungkinkan Anda mengonversi presentasi PowerPoint ke berbagai format dalam JavaScript. Ini mendukung semua elemen dan format presentasi dan menyediakan API yang kaya untuk mengakses dan memodifikasinya. Ini juga memungkinkan Anda mengekspor slide Anda ke berbagai format untuk diproses atau dibagikan lebih lanjut." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konversikan PPSM ke FODP dalam JavaScript" h2="Aspose.Slides untuk Node.js melalui .NET adalah pustaka yang kuat dan mudah digunakan yang memungkinkan Anda mengonversi presentasi PowerPoint ke berbagai format dalam JavaScript. Ini mendukung semua elemen dan format presentasi dan menyediakan API yang kaya untuk mengakses dan memodifikasinya. Ini juga memungkinkan Anda mengekspor slide Anda ke berbagai format untuk diproses atau dibagikan lebih lanjut." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konversikan PPSM ke FODP di Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan PPSM ke FODP menggunakan JavaScript" variant="code" %}}
 
-[**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/) adalah pustaka Node.js yang canggih untuk membuat dan memanipulasi file presentasi. Selain itu, ini menyediakan cara yang fleksibel untuk mengonversi PPSM ke FODP. Menggunakan **Aspose.Slides untuk Node.js melalui .NET**, pengembang atau aplikasi mana pun dapat mengonversi file PPSM ke FODP hanya dengan beberapa baris kode.
-
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk Node.js melalui .NET mengekspor file PPSM ke format file FODP dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi PPSM ke FODP dan banyak format file lainnya
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konversikan PPSM ke FODP menggunakan JavaScript" %}}
 Untuk mengonversi PPSM ke FODP, Anda perlu membuat Presentasi dari file PPSM dan menyimpannya sebagai FODP.
 
-{{% blocks/products/pf/agp/code-block title="Kode JavaScript untuk mengubah PPSM menjadi FODP" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode JavaScript untuk mengubah PPSM menjadi FODP" >}}
 ```javascript
 
 const fs = require('fs');
@@ -40,59 +32,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan PPSM ke FODP di Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/) adalah pustaka Node.js yang canggih untuk membuat dan memanipulasi file presentasi. Selain itu, ini menyediakan cara yang fleksibel untuk mengonversi PPSM ke FODP. Menggunakan **Aspose.Slides untuk Node.js melalui .NET**, pengembang atau aplikasi mana pun dapat mengonversi file PPSM ke FODP hanya dengan beberapa baris kode.
 
-{{< blocks/products/pf/feature-page-section  h2="Cara mengonversi PPSM ke FODP menggunakan Aspose.Slides untuk Node.js melalui .NET API" >}}
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk Node.js melalui .NET mengekspor file PPSM ke format file FODP dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi PPSM ke FODP dan banyak format file lainnya
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Untuk mengonversi PPSM ke FODP menggunakan Aspose.Slides untuk Node.js melalui .NET, Anda perlu mengimpor paket dalam file JavaScript Anda dan membuat instance kelas Presentation. Kelas Presentation mewakili dokumen PowerPoint dan menyediakan metode untuk mengakses dan memanipulasi elemen-elemennya." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal [**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara mengonversi PPSM ke FODP menggunakan Aspose.Slides untuk Node.js melalui .NET API" intro="Untuk mengonversi PPSM ke FODP menggunakan Aspose.Slides untuk Node.js melalui .NET, Anda perlu mengimpor paket dalam file JavaScript Anda dan membuat instance kelas Presentation. Kelas Presentation mewakili dokumen PowerPoint dan menyediakan metode untuk mengakses dan memanipulasi elemen-elemennya." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal [**Aspose.Slides untuk Node.js melalui .NET**](https://products.aspose.com/slides/id/nodejs-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Node.js Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file sumber PPSM di Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan hasil sebagai file FODP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek Node.js Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversikan PPSM Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi PPSM dan menyimpannya ke format file lain. Lihat semua format yang didukung di bawah" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-html/" name="PPSM TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-png/" name="PPSM TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pot/" name="PPSM TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Buka file sumber PPSM di Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil sebagai file FODP.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konversikan PPSM Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi PPSM dan menyimpannya ke format file lain. Lihat semua format yang didukung di bawah" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pptx/" name="PPSM TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-ppt/" name="PPSM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pdf/" name="PPSM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-html/" name="PPSM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-png/" name="PPSM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-jpg/" name="PPSM TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-gif/" name="PPSM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-odp/" name="PPSM TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-otp/" name="PPSM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pot/" name="PPSM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-potm/" name="PPSM TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-potx/" name="PPSM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pps/" name="PPSM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-ppsx/" name="PPSM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-pptm/" name="PPSM TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-svg/" name="PPSM TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/nodejs-net/conversion/ppsm-to-tiff/" name="PPSM TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

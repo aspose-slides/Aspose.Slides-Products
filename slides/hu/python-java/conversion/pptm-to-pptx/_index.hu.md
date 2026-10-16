@@ -5,26 +5,18 @@ title: Konvertálja a(z) PPTM fájlt PPTX formátumra a Pythonban
 url: /hu/python-java/conversion/pptm-to-pptx/
 keywords: Python prezentáció konvertálás, prezentációk konvertálása Python formátumba, Python prezentációkhoz, Aspose.Slides Python, PPTM konvertálása PPTX formátumba, Python prezentációs könyvtár
 description: Konvertálja a(z) PPTM fájlt PPTX formátumra a Pythonban. Használja a Python könyvtár API-t a PPTM fájlok konvertálásához PPTX formátumba
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Könnyedén konvertálja a PPTM formátumot PPTX formátumba a Python segítségével: Aspose.Slides to the Rescue!" h2="Lélegezzen új életet prezentációiba a Python segítségével. Útmutatónk végigvezeti Önt a meglévő PowerPoint-diák vonzó Python-prezentációkká alakításán." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Könnyedén konvertálja a PPTM formátumot PPTX formátumba a Python segítségével: Aspose.Slides to the Rescue!" h2="Lélegezzen új életet prezentációiba a Python segítségével. Útmutatónk végigvezeti Önt a meglévő PowerPoint-diák vonzó Python-prezentációkká alakításán." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konvertálja a(z) PPTM fájlt PPTX formátumra a Pythonban" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertálja a(z) PPTM formátumot PPTX formátumra Python használatával" variant="code" %}}
 
-Belefáradt a bonyolult prezentációs szoftverekkel való birkózásba? Ne keressen tovább, mint [**Aspose.Slides for Python Java-n keresztül**](https://products.aspose.com/slides/hu/python-java/)! Ez a hatékony könyvtár lehetővé teszi a prezentációk egyszerű létrehozását, szerkesztését és konvertálását a különböző formátumok között. Váltson PPTM-ról PPTX-re? Az Aspose.Slides gyerekjáték, mindössze néhány sor Python kódot igényel.
-
-A legmodernebb dokumentumfeldolgozó API-ként az **Aspose.Slides for Python via Java** villámgyors konverziós sebességgel büszkélkedhet, amely biztosítja a PPTM prezentációk gyors átalakítását PPTX formátumba. Kerülje el a hagyományos eszközök korlátait – Az Aspose.Slides rugalmasságot biztosít a prezentációk PPTM-ról nem csak PPTX-re konvertálására, hanem számos más formátumra is, így lehetővé teszi, hogy prezentációit bármilyen helyzethez hibátlanul igazítsa.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konvertálja a(z) PPTM formátumot PPTX formátumra Python használatával" %}}
 A PPTM formátum PPTX formátumra konvertálásához létre kell hoznia egy prezentációt a PPTM fájlból, és el kell mentenie PPTX néven.
 
-{{% blocks/products/pf/agp/code-block title="Python oktatóanyag a PPTM PPTX formátumba való konvertálásához" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python oktatóanyag a PPTM PPTX formátumba való konvertálásához" >}}
 ```python
 
 import jpype
@@ -42,59 +34,44 @@ pres.save("output.pptx", SaveFormat.Pptx);
 
 jpype.shutdownJVM()
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konvertálja a(z) PPTM fájlt PPTX formátumra a Pythonban" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+Belefáradt a bonyolult prezentációs szoftverekkel való birkózásba? Ne keressen tovább, mint [**Aspose.Slides for Python Java-n keresztül**](https://products.aspose.com/slides/hu/python-java/)! Ez a hatékony könyvtár lehetővé teszi a prezentációk egyszerű létrehozását, szerkesztését és konvertálását a különböző formátumok között. Váltson PPTM-ról PPTX-re? Az Aspose.Slides gyerekjáték, mindössze néhány sor Python kódot igényel.
 
-{{< blocks/products/pf/feature-page-section  h2="Python oktatóanyag. A(z) PPTM konvertálása PPTX formátumba az Aspose.Slides for Python használatával Java API-n keresztül." >}}
+A legmodernebb dokumentumfeldolgozó API-ként az **Aspose.Slides for Python via Java** villámgyors konverziós sebességgel büszkélkedhet, amely biztosítja a PPTM prezentációk gyors átalakítását PPTX formátumba. Kerülje el a hagyományos eszközök korlátait – Az Aspose.Slides rugalmasságot biztosít a prezentációk PPTM-ról nem csak PPTX-re konvertálására, hanem számos más formátumra is, így lehetővé teszi, hogy prezentációit bármilyen helyzethez hibátlanul igazítsa.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="A {from_formátum} PPTX formátumra való konvertálásához az Aspose.Slides for Python segítségével Java segítségével, importálnia kell a csomagot a Python-szkriptbe, és létre kell hoznia egy példányt a Presentation osztályból. A Presentation osztály egy PowerPoint-dokumentumot képvisel, és módszereket biztosít az elemek eléréséhez és kezeléséhez." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az [**Aspose.Slides for Python programot Java-n keresztül**](https://products.aspose.com/slides/hu/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python oktatóanyag. A(z) PPTM konvertálása PPTX formátumba az Aspose.Slides for Python használatával Java API-n keresztül." intro="A {from_formátum} PPTX formátumra való konvertálásához az Aspose.Slides for Python segítségével Java segítségével, importálnia kell a csomagot a Python-szkriptbe, és létre kell hoznia egy példányt a Presentation osztályból. A Presentation osztály egy PowerPoint-dokumentumot képvisel, és módszereket biztosít az elemek eléréséhez és kezeléséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az [**Aspose.Slides for Python programot Java-n keresztül**](https://products.aspose.com/slides/hu/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Python-projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a PPTM forrásfájlokat a Pythonban.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Az eredmény mentése PPTX fájlként.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy könyvtári hivatkozást (importálja a könyvtárat) a Python-projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="A(z) PPTM konvertálása más támogatott formátumokká" subTitle="A PPTM formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-ppt/" name="PPTM TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-pdf/" name="PPTM TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-html/" name="PPTM TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-png/" name="PPTM TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-bmp/" name="PPTM TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-jpg/" name="PPTM TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-fodp/" name="PPTM TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-gif/" name="PPTM TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-odp/" name="PPTM TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-otp/" name="PPTM TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-pot/" name="PPTM TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-potm/" name="PPTM TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-potx/" name="PPTM TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-pps/" name="PPTM TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-svg/" name="PPTM TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nyissa meg a PPTM forrásfájlokat a Pythonban.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPTX fájlként.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="A(z) PPTM konvertálása más támogatott formátumokká" subTitle="A PPTM formátumot konvertálhatja, és más fájlformátumba mentheti. Tekintse meg alább az összes támogatott formátumot" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-ppt/" name="PPTM TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-pdf/" name="PPTM TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-html/" name="PPTM TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-png/" name="PPTM TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-bmp/" name="PPTM TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-jpg/" name="PPTM TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-fodp/" name="PPTM TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-gif/" name="PPTM TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-odp/" name="PPTM TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-otp/" name="PPTM TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-pot/" name="PPTM TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-potm/" name="PPTM TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-potx/" name="PPTM TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-pps/" name="PPTM TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-ppsm/" name="PPTM TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-ppsx/" name="PPTM TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-svg/" name="PPTM TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-java/conversion/pptm-to-tiff/" name="PPTM TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

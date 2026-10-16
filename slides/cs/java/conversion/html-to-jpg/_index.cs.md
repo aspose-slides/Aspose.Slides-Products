@@ -5,26 +5,18 @@ title: Převeďte HTML do JPG v Javě
 url: /cs/java/conversion/html-to-jpg/
 keywords: HTML do JPG, Převést HTML do JPG, Java API, Java Library, HTML, JPG
 description: Převeďte HTML do JPG v Javě. K převodu souborů HTML na JPG použijte rozhraní API knihovny Java
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Převeďte HTML do JPG v Javě" h2="Vysokorychlostní a multiplatformní knihovna Java, která pomáhá při vývoji aplikací se schopností vytvářet, slučovat, kontrolovat nebo převádět prezentační soubory Microsoft PowerPoint a OpenOffice bez použití jakéhokoli softwaru, jako je Microsoft nebo Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Převeďte HTML do JPG v Javě" h2="Vysokorychlostní a multiplatformní knihovna Java, která pomáhá při vývoji aplikací se schopností vytvářet, slučovat, kontrolovat nebo převádět prezentační soubory Microsoft PowerPoint a OpenOffice bez použití jakéhokoli softwaru, jako je Microsoft nebo Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Převeďte HTML do JPG v Javě" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Převeďte HTML do JPG pomocí Javy" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby převodu HTML do JPG. Pomocí **Aspose.Slides for Java** může každý vývojář nebo aplikace převést soubory HTML do JPG pomocí několika řádků kódu Java.
-
-Aspose.Slides for Java jako moderní API pro zpracování dokumentů rychle exportuje soubory HTML do formátů souborů JPG. Knihovna Aspose PowerPoint vám umožňuje převést HTML do JPGs a mnoho dalších formátů souborů
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Převeďte HTML do JPG pomocí Javy" %}}
 Chcete-li převést HTML do JPG, budete muset vytvořit prezentaci ze souboru HTML a uložit ji jako JPG.
 
-{{% blocks/products/pf/agp/code-block title="Java kód pro převod HTML do JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java kód pro převod HTML do JPG" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -43,48 +35,35 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Převeďte HTML do JPG v Javě" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby převodu HTML do JPG. Pomocí **Aspose.Slides for Java** může každý vývojář nebo aplikace převést soubory HTML do JPG pomocí několika řádků kódu Java.
 
-{{< blocks/products/pf/feature-page-section  h2="Jak převést HTML do JPG pomocí Aspose.Slides for Java API" >}}
+Aspose.Slides for Java jako moderní API pro zpracování dokumentů rychle exportuje soubory HTML do formátů souborů JPG. Knihovna Aspose PowerPoint vám umožňuje převést HTML do JPGs a mnoho dalších formátů souborů
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k převodu HTML do JPG v Javě." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak převést HTML do JPG pomocí Aspose.Slides for Java API" intro="Toto jsou kroky k převodu HTML do JPG v Javě." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nainstalujte [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Java.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otevřete zdrojové soubory HTML v Javě.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložit výsledek jako soubor JPG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Java.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Zdarma online konvertor"
+  description="[Jak převést PPT na HTML v Pythonu](https://products.aspose.com/slides/cs/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Otevřete zdrojové soubory HTML v Javě.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Převést HTML do jiných podporovaných formátů" subTitle="Můžete také převést HTML a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/conversion/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/conversion/html-to-png/" name="HTML TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/conversion/html-to-xml/" name="HTML TO XML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložit výsledek jako soubor JPG.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Zdarma online konvertor" sectionDescription="[Jak převést PPT na HTML v Pythonu](https://products.aspose.com/slides/cs/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Převést HTML do jiných podporovaných formátů" subTitle="Můžete také převést HTML a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/conversion/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/conversion/html-to-pdf/" name="HTML TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/conversion/html-to-png/" name="HTML TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/conversion/html-to-tiff/" name="HTML TO TIFF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/conversion/html-to-xml/" name="HTML TO XML" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

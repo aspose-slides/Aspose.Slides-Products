@@ -5,26 +5,18 @@ title: تحويل PPT إلى PPSM في JavaScript
 url: /ar/nodejs-net/conversion/ppt-to-ppsm/
 keywords: PPT إلى PPSM، تحويل PPT إلى PPSM، Node.js API، مكتبة JavaScript، PPT، PPSM
 description: تحويل PPT إلى PPSM في JavaScript. استخدم واجهة برمجة تطبيقات مكتبة Node.js لتحويل ملفات PPT إلى PPSM
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تحويل PPT إلى PPSM في JavaScript" h2="Aspose.Slides for Node.js via .NET هي مكتبة قوية وسهلة الاستخدام تسمح لك بتحويل عروض PowerPoint التقديمية إلى تنسيقات مختلفة في JavaScript. وهو يدعم جميع عناصر وتنسيقات العرض التقديمي ويوفر واجهة برمجة تطبيقات غنية للوصول إليها وتعديلها. كما يسمح لك بتصدير الشرائح الخاصة بك إلى تنسيقات مختلفة لمزيد من المعالجة أو المشاركة." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تحويل PPT إلى PPSM في JavaScript" h2="Aspose.Slides for Node.js via .NET هي مكتبة قوية وسهلة الاستخدام تسمح لك بتحويل عروض PowerPoint التقديمية إلى تنسيقات مختلفة في JavaScript. وهو يدعم جميع عناصر وتنسيقات العرض التقديمي ويوفر واجهة برمجة تطبيقات غنية للوصول إليها وتعديلها. كما يسمح لك بتصدير الشرائح الخاصة بك إلى تنسيقات مختلفة لمزيد من المعالجة أو المشاركة." >}}
 
-{{% blocks/products/pf/feature-page-section h2="تحويل PPT إلى PPSM في Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تحويل PPT إلى PPSM باستخدام JavaScript" variant="code" %}}
 
-[**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/ar/nodejs-net/) هي مكتبة Node.js قوية لإنشاء ملفات العرض التقديمي ومعالجتها. علاوة على ذلك، فإنه يوفر طرقًا مرنة لتحويل PPT إلى PPSM. باستخدام **Aspose.Slides for Node.js عبر .NET**، يمكن لأي مطور أو تطبيق تحويل ملفات PPT إلى ملفات PPSM باستخدام بضعة أسطر فقط من التعليمات البرمجية.
-
-باعتباره واجهة برمجة تطبيقات حديثة لمعالجة المستندات، يقوم Aspose.Slides for Node.js عبر .NET بتصدير ملفات PPT إلى تنسيقات ملفات PPSM بسرعة. تتيح لك مكتبة Aspose PowerPoint تحويل PPT إلى PPSM والعديد من تنسيقات الملفات الأخرى
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="تحويل PPT إلى PPSM باستخدام JavaScript" %}}
 لتحويل PPT إلى PPSM، ستحتاج إلى إنشاء عرض تقديمي من ملف PPT وحفظه باسم PPSM.
 
-{{% blocks/products/pf/agp/code-block title="كود جافا سكريبت لتحويل PPT إلى PPSM" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="كود جافا سكريبت لتحويل PPT إلى PPSM" >}}
 ```javascript
 
 const fs = require('fs');
@@ -40,59 +32,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تحويل PPT إلى PPSM في Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for Node.js via .NET**](https://products.aspose.com/slides/ar/nodejs-net/) هي مكتبة Node.js قوية لإنشاء ملفات العرض التقديمي ومعالجتها. علاوة على ذلك، فإنه يوفر طرقًا مرنة لتحويل PPT إلى PPSM. باستخدام **Aspose.Slides for Node.js عبر .NET**، يمكن لأي مطور أو تطبيق تحويل ملفات PPT إلى ملفات PPSM باستخدام بضعة أسطر فقط من التعليمات البرمجية.
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية تحويل PPT إلى PPSM باستخدام Aspose.Slides لـ Node.js عبر .NET API" >}}
+باعتباره واجهة برمجة تطبيقات حديثة لمعالجة المستندات، يقوم Aspose.Slides for Node.js عبر .NET بتصدير ملفات PPT إلى تنسيقات ملفات PPSM بسرعة. تتيح لك مكتبة Aspose PowerPoint تحويل PPT إلى PPSM والعديد من تنسيقات الملفات الأخرى
 
-{{< blocks/products/pf/agp/steps-block-autogen name="لتحويل PPT إلى PPSM باستخدام Aspose.Slides لـ Node.js عبر .NET، تحتاج إلى استيراد الحزمة في ملف JavaScript الخاص بك وإنشاء مثيل لفئة العرض التقديمي. تمثل فئة العرض التقديمي مستند PowerPoint وتوفر طرقًا للوصول إلى عناصره ومعالجتها." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بتثبيت [**Aspose.Slides for Node.js عبر .NET**](https://products.aspose.com/slides/ar/nodejs-net/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية تحويل PPT إلى PPSM باستخدام Aspose.Slides لـ Node.js عبر .NET API" intro="لتحويل PPT إلى PPSM باستخدام Aspose.Slides لـ Node.js عبر .NET، تحتاج إلى استيراد الحزمة في ملف JavaScript الخاص بك وإنشاء مثيل لفئة العرض التقديمي. تمثل فئة العرض التقديمي مستند PowerPoint وتوفر طرقًا للوصول إلى عناصره ومعالجتها." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}قم بتثبيت [**Aspose.Slides for Node.js عبر .NET**](https://products.aspose.com/slides/ar/nodejs-net/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}أضف مرجع مكتبة (قم باستيراد المكتبة) إلى مشروع Node.js الخاص بك.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}افتح ملفات المصدر PPT في Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حفظ النتيجة كملف PPSM.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-أضف مرجع مكتبة (قم باستيراد المكتبة) إلى مشروع Node.js الخاص بك.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تحويل PPT إلى التنسيقات المدعومة الأخرى" subTitle="يمكنك أيضًا تحويل PPT وحفظه بتنسيقات ملفات أخرى. شاهد جميع التنسيقات المدعومة أدناه" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pot/" name="PPT TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-افتح ملفات المصدر PPT في Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-حفظ النتيجة كملف PPSM.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تحويل PPT إلى التنسيقات المدعومة الأخرى" subTitle="يمكنك أيضًا تحويل PPT وحفظه بتنسيقات ملفات أخرى. شاهد جميع التنسيقات المدعومة أدناه" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pptx/" name="PPT TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-jpg/" name="PPT TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-fodp/" name="PPT TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-odp/" name="PPT TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-otp/" name="PPT TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pot/" name="PPT TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-potm/" name="PPT TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-potx/" name="PPT TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pps/" name="PPT TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-ppsx/" name="PPT TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-pptm/" name="PPT TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/nodejs-net/conversion/ppt-to-tiff/" name="PPT TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

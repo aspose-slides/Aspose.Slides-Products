@@ -5,26 +5,18 @@ title: Convertir PDF en GIF en Python
 url: /fr/python-java/conversion/pdf-to-gif/
 keywords: Conversion de présentation Python, conversion de présentations en Python, Python pour les présentations, Aspose.Slides Python, conversion PDF en GIF, bibliothèque de présentations Python
 description: Convertissez PDF en GIF en Python. Utilisez l'API de la bibliothèque Python pour convertir les fichiers PDF en GIF
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convertissez sans effort PDF en GIF avec Python : Aspose.Slides à la rescousse !" h2="Donnez une nouvelle vie à vos présentations avec Python. Notre guide vous guide dans la conversion de diapositives PowerPoint existantes en présentations Python attrayantes." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convertissez sans effort PDF en GIF avec Python : Aspose.Slides à la rescousse !" h2="Donnez une nouvelle vie à vos présentations avec Python. Notre guide vous guide dans la conversion de diapositives PowerPoint existantes en présentations Python attrayantes." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convertir PDF en GIF en Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convertir PDF en GIF à l'aide de Python" variant="code" %}}
 
-Fatigué de lutter avec des logiciels de présentation complexes ? Ne cherchez pas plus loin que [**Aspose.Slides pour Python via Java**](https://products.aspose.com/slides/fr/python-java/) ! Cette puissante bibliothèque vous permet de créer, modifier et convertir facilement des présentations entre différents formats. Besoin de passer de PDF à GIF ? Aspose.Slides facilite la tâche, ne nécessitant que quelques lignes de code Python.
-
-En tant qu'API de traitement de documents de pointe, **Aspose.Slides pour Python via Java** offre des vitesses de conversion ultra-rapides, garantissant une transformation rapide de vos présentations PDF au format GIF. Abandonnez les limitations des outils traditionnels - Aspose.Slides vous offre la flexibilité de convertir des présentations de PDF non seulement vers GIF mais également dans un large éventail d'autres formats, vous permettant d'adapter parfaitement vos présentations à n'importe quelle situation.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convertir PDF en GIF à l'aide de Python" %}}
 Pour convertir le PDF en GIF, vous devrez créer une présentation à partir du fichier PDF et l'enregistrer sous GIF.
 
-{{% blocks/products/pf/agp/code-block title="Tutoriel Python pour convertir PDF en GIF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tutoriel Python pour convertir PDF en GIF" >}}
 ```python
 
 import jpype
@@ -46,59 +38,44 @@ pres.save("output.gif", SaveFormat.Gif);
 jpype.shutdownJVM()
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convertir PDF en GIF en Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+Fatigué de lutter avec des logiciels de présentation complexes ? Ne cherchez pas plus loin que [**Aspose.Slides pour Python via Java**](https://products.aspose.com/slides/fr/python-java/) ! Cette puissante bibliothèque vous permet de créer, modifier et convertir facilement des présentations entre différents formats. Besoin de passer de PDF à GIF ? Aspose.Slides facilite la tâche, ne nécessitant que quelques lignes de code Python.
 
-{{< blocks/products/pf/feature-page-section  h2="Tutoriel Python. Comment convertir PDF en GIF à l'aide d'Aspose.Slides pour Python via l'API Java." >}}
+En tant qu'API de traitement de documents de pointe, **Aspose.Slides pour Python via Java** offre des vitesses de conversion ultra-rapides, garantissant une transformation rapide de vos présentations PDF au format GIF. Abandonnez les limitations des outils traditionnels - Aspose.Slides vous offre la flexibilité de convertir des présentations de PDF non seulement vers GIF mais également dans un large éventail d'autres formats, vous permettant d'adapter parfaitement vos présentations à n'importe quelle situation.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Pour convertir PDF en GIF à l'aide d'Aspose.Slides pour Python via Java, vous devez importer le package dans votre script Python et créer une instance de la classe Présentation. La classe Présentation représente un document PowerPoint et fournit des méthodes pour accéder et manipuler ses éléments." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installez [**Aspose.Slides pour Python via Java**](https://products.aspose.com/slides/fr/python-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Tutoriel Python. Comment convertir PDF en GIF à l'aide d'Aspose.Slides pour Python via l'API Java." intro="Pour convertir PDF en GIF à l'aide d'Aspose.Slides pour Python via Java, vous devez importer le package dans votre script Python et créer une instance de la classe Présentation. La classe Présentation représente un document PowerPoint et fournit des méthodes pour accéder et manipuler ses éléments." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installez [**Aspose.Slides pour Python via Java**](https://products.aspose.com/slides/fr/python-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez une référence de bibliothèque (importez la bibliothèque) à votre projet Python.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ouvrez les fichiers sources PDF en Python.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le résultat dans un fichier GIF.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez une référence de bibliothèque (importez la bibliothèque) à votre projet Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convertir PDF en d'autres formats pris en charge" subTitle="Vous pouvez également convertir PDF et enregistrer dans d'autres formats de fichiers. Voir tous les formats pris en charge ci-dessous" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-bmp/" name="PDF TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-fodp/" name="PDF TO FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-odp/" name="PDF TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-otp/" name="PDF TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pot/" name="PDF TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-potm/" name="PDF TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-potx/" name="PDF TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pps/" name="PDF TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-ppsm/" name="PDF TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-ppsx/" name="PDF TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pptm/" name="PDF TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ouvrez les fichiers sources PDF en Python.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrez le résultat dans un fichier GIF.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convertir PDF en d'autres formats pris en charge" subTitle="Vous pouvez également convertir PDF et enregistrer dans d'autres formats de fichiers. Voir tous les formats pris en charge ci-dessous" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-html/" name="PDF TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-png/" name="PDF TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-bmp/" name="PDF TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-fodp/" name="PDF TO FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-odp/" name="PDF TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-otp/" name="PDF TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pot/" name="PDF TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-potm/" name="PDF TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-potx/" name="PDF TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pps/" name="PDF TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-ppsm/" name="PDF TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-ppsx/" name="PDF TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-pptm/" name="PDF TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-svg/" name="PDF TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-java/conversion/pdf-to-tiff/" name="PDF TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

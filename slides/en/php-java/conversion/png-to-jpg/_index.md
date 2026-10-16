@@ -5,26 +5,18 @@ title: Convert PNG to JPG in PHP
 url: /php-java/conversion/png-to-jpg/
 keywords: PNG to JPG, Convert PNG to JPG, PHP API, PHP Library, PNG, JPG
 description: Place a PNG image on a slide and render it as JPEG in PHP with Aspose.Slides for PHP via Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert PNG to JPG in PHP" h2="Place a PNG image on a slide and render the slide in JPEG format with Aspose.Slides for PHP via Java." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert PNG to JPG in PHP" h2="Place a PNG image on a slide and render the slide in JPEG format with Aspose.Slides for PHP via Java." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert PNG to JPG in PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PNG to JPG using PHP" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](/slides/php-java/) can place a PNG image on a presentation slide and render the slide as a JPEG image.
-
-Load the PNG with `Images::fromFile`, resize the slide with `setSize`, add the image with `addPictureFrame`, and render the slide with `getImage`. Because JPEG does not support transparency, transparent PNG areas are rendered against the slide background.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Convert PNG to JPG using PHP" %}}
 Create a `Presentation`, match the slide size to the PNG, place the image on the slide, call `getImage`, and save the rendered image with `ImageFormat::Jpeg`.
 
-{{% blocks/products/pf/agp/code-block title="PHP code for converting PNG into JPG" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP code for converting PNG into JPG" >}}
 ```php
 $presentation = new Presentation();
 try {
@@ -56,43 +48,29 @@ try {
     $presentation->dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert PNG to JPG in PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](/slides/php-java/) can place a PNG image on a presentation slide and render the slide as a JPEG image.
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert PNG to JPG using Aspose.Slides for PHP API" >}}
+Load the PNG with `Images::fromFile`, resize the slide with `setSize`, add the image with `addPictureFrame`, and render the slide with `getImage`. Because JPEG does not support transparency, transparent PNG areas are rendered against the slide background.
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to convert PNG to JPG in PHP." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for PHP via Java**](/slides/php-java/).
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert PNG to JPG using Aspose.Slides for PHP API" intro="These are the steps to convert PNG to JPG in PHP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [**Aspose.Slides for PHP via Java**](/slides/php-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation`, access its first slide, and load the PNG with `Images::fromFile`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Set the slide dimensions with `setSize`, then place the image on the slide with `addPictureFrame`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Render the slide with `getImage` and save it with `ImageFormat::Jpeg`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation`, access its first slide, and load the PNG with `Images::fromFile`.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Free Online Converter"
+  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Set the slide dimensions with `setSize`, then place the image on the slide with `addPictureFrame`.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Render the slide with `getImage` and save it with `ImageFormat::Jpeg`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Convert PNG To Other Supported Formats" subTitle="You can also convert PNG and save to other file formats. See all supported formats below:" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

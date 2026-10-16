@@ -5,26 +5,18 @@ title: แปลงรูปภาพเป็น PPT ใน Python
 url: /th/python-net/conversion/image-to-ppt/
 keywords: รูปภาพเป็น PPT, แปลงรูปภาพเป็น PPT, Python API, Python Library, รูปภาพ, PPT
 description: แปลงรูปภาพเป็น PPT ใน Python ใช้ Python library API เพื่อแปลงไฟล์รูปภาพเป็น PDF
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="แปลงรูปภาพเป็น PPT ใน Python" h2="Python Library ความเร็วสูงและข้ามแพลตฟอร์มที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="แปลงรูปภาพเป็น PPT ใน Python" h2="Python Library ความเร็วสูงและข้ามแพลตฟอร์มที่ช่วยในการพัฒนาแอปพลิเคชันด้วยความสามารถในการสร้าง รวม ตรวจสอบ หรือแปลงไฟล์งานนำเสนอ Microsoft PowerPoint และ OpenOffice โดยไม่ต้องใช้ซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office, Adobe PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="แปลงรูปภาพเป็น PPT ใน Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลงรูปภาพเป็น PPT โดยใช้ Python" variant="code" %}}
 
-[**Aspose.Slides สำหรับ Python ผ่าน .NET**](https://products.aspose.com/slides/th/python-net/) เป็นไลบรารี Python ที่มีประสิทธิภาพสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ยังมีวิธีที่ยืดหยุ่นในการแปลง Image เป็น PPT เมื่อใช้ **Aposose.Slides สำหรับ Python ผ่าน .NET** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ Image เป็น PPT ด้วยโค้ด Python เพียงไม่กี่บรรทัด
-
-ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Python จะส่งออกไฟล์รูปภาพเป็นรูปแบบไฟล์ PPT อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลงรูปภาพเป็น PDF และรูปแบบไฟล์อื่นๆ อีกมากมาย
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="แปลงรูปภาพเป็น PPT โดยใช้ Python" %}}
 ในการแปลงรูปภาพเป็น PPT คุณจะต้องสร้างงานนำเสนอจากไฟล์รูปภาพและบันทึกเป็น PPT
 
-{{% blocks/products/pf/agp/code-block title="รหัส Python สำหรับแปลง Image เป็น PPT" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="รหัส Python สำหรับแปลง Image เป็น PPT" >}}
 ```python
 
 import aspose.slides as slides
@@ -37,52 +29,39 @@ with slides.Presentation() as pres:
     pres.save("index.ppt", slides.export.SaveFormat.PPT)
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แปลงรูปภาพเป็น PPT ใน Python" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides สำหรับ Python ผ่าน .NET**](https://products.aspose.com/slides/th/python-net/) เป็นไลบรารี Python ที่มีประสิทธิภาพสำหรับการสร้างและจัดการไฟล์งานนำเสนอ นอกจากนี้ยังมีวิธีที่ยืดหยุ่นในการแปลง Image เป็น PPT เมื่อใช้ **Aposose.Slides สำหรับ Python ผ่าน .NET** นักพัฒนาหรือแอปพลิเคชันใดๆ ก็สามารถแปลงไฟล์ Image เป็น PPT ด้วยโค้ด Python เพียงไม่กี่บรรทัด
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีแปลง Image เป็น PPT โดยใช้ Aspose.Slides สำหรับ Python API" >}}
+ในฐานะ API การประมวลผลเอกสารสมัยใหม่ Aspose.Slides สำหรับ Python จะส่งออกไฟล์รูปภาพเป็นรูปแบบไฟล์ PPT อย่างรวดเร็ว ไลบรารี Aspose PowerPoint ช่วยให้คุณแปลงรูปภาพเป็น PDF และรูปแบบไฟล์อื่นๆ อีกมากมาย
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแปลง Image เป็น PPT ใน Python" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ติดตั้ง [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/th/python-net/)
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแปลง Image เป็น PPT โดยใช้ Aspose.Slides สำหรับ Python API" intro="นี่คือขั้นตอนในการแปลง Image เป็น PPT ใน Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ติดตั้ง [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/th/python-net/){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ไปยังโครงการ Python ของคุณ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์รูปภาพต้นฉบับใน Python{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกผลลัพธ์เป็นไฟล์ PPT{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มการอ้างอิงไลบรารี (นำเข้าไลบรารี) ไปยังโครงการ Python ของคุณ
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="ตัวแปลงออนไลน์ฟรี"
+  description="[วิธีแปลง PPT เป็น HTML ใน Python](https://products.aspose.com/slides/th/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-เปิดไฟล์รูปภาพต้นฉบับใน Python
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="แปลงรูปภาพเป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลงรูปภาพและบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/png-to-ppt/" name="PNG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์เป็นไฟล์ PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="ตัวแปลงออนไลน์ฟรี" sectionDescription="[วิธีแปลง PPT เป็น HTML ใน Python](https://products.aspose.com/slides/th/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="แปลงรูปภาพเป็นรูปแบบอื่นที่รองรับ" subTitle="คุณยังสามารถแปลงรูปภาพและบันทึกเป็นรูปแบบไฟล์อื่นๆ ดูรูปแบบที่รองรับทั้งหมดด้านล่าง" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/image-to-pptx/" name="IMAGE TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/png-to-ppt/" name="PNG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/png-to-pptx/" name="PNG TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/pdf-to-ppt/" name="PDF TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/pdf-to-pptx/" name="PDF TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/html-to-ppt/" name="HTML TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/conversion/html-to-pptx/" name="HTML TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

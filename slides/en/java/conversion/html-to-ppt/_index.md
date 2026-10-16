@@ -5,24 +5,18 @@ title: Convert HTML to PPT in Java
 url: /java/conversion/html-to-ppt/
 keywords: Convert HTML to PPT, HTML to PPT, PowerPoint, HTML, PPT, Java API, Java Library
 description: Convert HTML to PPT in Java. Use the Java library API to convert HTML files to PowerPoint presentations.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Convert HTML to PPT in Java" h2="Convert HTML files to PPT presentations using Aspose.Slides for Java without Microsoft PowerPoint." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Convert HTML to PPT in Java" h2="Convert HTML files to PPT presentations using Aspose.Slides for Java without Microsoft PowerPoint." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Convert HTML to PPT using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert HTML to PPT in Java" variant="code" %}}
 
-[**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and save it as a PowerPoint presentation.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-{{% blocks/products/pf/feature-page-section  h2="Convert HTML to PPT in Java" %}}
 Using [**Aspose.Slides for Java**](/slides/java/), you can convert an `HTML` file to a `PPT` presentation with just a few lines of code:
 
-{{% blocks/products/pf/agp/code-block title="Java code for converting HTML to PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java code for converting HTML to PPT" >}}
 ```java
 Presentation presentation = new Presentation();
 try {
@@ -36,55 +30,28 @@ try {
     presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Convert HTML to PPT using Aspose.Slides" %}}
 
+[**Aspose.Slides for Java**](/slides/java/) is a presentation processing API that can import `HTML` content and save it as a PowerPoint presentation.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to convert HTML to PPT in Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to convert HTML to PPT in Java" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the library as a reference in your project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create an instance of the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the `HTML` file you want to convert to `PPT`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the resulting file as a `PPT` presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Free Online Converter"
+  description="Convert presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create an instance of the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the `HTML` file you want to convert to `PPT`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the resulting file as a `PPT` presentation.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Free Online Converter" sectionDescription="Convert presentations and slides online." >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint." >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

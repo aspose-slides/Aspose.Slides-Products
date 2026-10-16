@@ -5,45 +5,18 @@ title: C++ ile PPT'yi Videoya Dönüştür
 url: /tr/cpp/conversion/ppt-to-video/
 keywords: PPT'yi videoya, PPT'yi videoya, PowerPoint'i videoya, PPT'yi MP4'e, C++ API'ye, C++ Kitaplığına dönüştürün
 description: PPT'yi C++ ile videoya dönüştürün. PowerPoint'i videoya dönüştürmek için C++ kitaplık API'sini kullanın
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="PPT'yi C++ ile videoya dönüştürün" h2="C++ kodunu kullanarak PowerPoint'i videoya dönüştürmek için güçlü platformlar arası C++ API'si" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPT'yi C++ ile videoya dönüştürün" h2="C++ kodunu kullanarak PowerPoint'i videoya dönüştürmek için güçlü platformlar arası C++ API'si" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides kullanarak PowerPoint'i videoya dönüştürün" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ ile PowerPoint'i videoya dönüştürün" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumlar oluşturmak, düzenlemek ve değiştirmek ve ayrıca PowerPoint sunumlarını diğer belgelere ve videolara dönüştürmek için kullanılan güçlü bir C++ kitaplığıdır. . Bu durumda, PowerPoint'i videoya dönüştürmek için **ffmpeg** ile birlikte **Aspose.Slides** kullanmanız gerekir.
-
-PPT'den videoya dönüştürme işlemi şu şekilde çalışır: Aspose.Slides, bir dizi kare (sunum slaytlarından) oluşturmak için kullanılır ve ardından FFMpegCore (ffmpeg), karelere dayalı bir video oluşturmak için kullanılır.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{< blocks/products/pf/feature-page-section  h2="PPT'i videoya dönüştürme" >}}
-
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++**'ı [buradaki](https://docs.aspose.com/slides/cpp/installation/) yönergeleri izleyerek kurun. **ffmpeg**'i [buradan] indirin(https://ffmpeg.org/download.html)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-"PATH" ortam değişkenine "ffmpeg.exe" yolunu ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-C++ PowerPoint to video kodunu kopyalayın, yapıştırın ve çalıştırın.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{% blocks/products/pf/feature-page-section  h2="C++ ile PowerPoint'i videoya dönüştürün" %}}
 PPT'yi videoya dönüştürmek için bu C++ kodunu kullanın:
 
-{{% blocks/products/pf/agp/code-block title="PowerPoint'i videoya dönüştürmek için C++ kodu" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PowerPoint'i videoya dönüştürmek için C++ kodu" >}}
 ```c++
 
 void OnFrameTick(System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args)
@@ -79,23 +52,34 @@ void Run()
     ffmpegProcess->WaitForExit();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/other-supported-section title="Desteklenen Diğer Dönüşümler" subTitle="PowerPoint'i başka biçimlerdeki dosyalara da dönüştürebilirsiniz." >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides kullanarak PowerPoint'i videoya dönüştürün" %}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-word/" name="PPT TO WORD" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumlar oluşturmak, düzenlemek ve değiştirmek ve ayrıca PowerPoint sunumlarını diğer belgelere ve videolara dönüştürmek için kullanılan güçlü bir C++ kitaplığıdır. . Bu durumda, PowerPoint'i videoya dönüştürmek için **ffmpeg** ile birlikte **Aspose.Slides** kullanmanız gerekir.
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
+PPT'den videoya dönüştürme işlemi şu şekilde çalışır: Aspose.Slides, bir dizi kare (sunum slaytlarından) oluşturmak için kullanılır ve ardından FFMpegCore (ffmpeg), karelere dayalı bir video oluşturmak için kullanılır.
 
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PPT'i videoya dönüştürme" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for C++**'ı [buradaki](https://docs.aspose.com/slides/cpp/installation/) yönergeleri izleyerek kurun. **ffmpeg**'i [buradan] indirin(https://ffmpeg.org/download.html){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}"PATH" ortam değişkenine "ffmpeg.exe" yolunu ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}C++ PowerPoint to video kodunu kopyalayın, yapıştırın ve çalıştırın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
+
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Desteklenen Diğer Dönüşümler" subTitle="PowerPoint'i başka biçimlerdeki dosyalara da dönüştürebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-pdf/" name="PPT TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-word/" name="PPT TO WORD" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-jpeg/" name="PPT TO JPEG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-png/" name="PPT TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-svg/" name="PPT TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-bmp/" name="PPT TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/conversion/ppt-to-gif/" name="PPT TO GIF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
+
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: Převeďte FODP na PDF v Node.js
 url: /cs/nodejs-java/conversion/fodp-to-pdf/
 keywords: FODP do PDF, Převést FODP do PDF, Node.js API, Node.js Library, FODP, PDF
 description: Převeďte FODP na PDF v Node.js. K převodu souborů FODP na PDF použijte rozhraní API knihovny Node.js
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Převeďte FODP na PDF v Node.js" h2="Aspose.Slides for Node.js přes Javu je výkonná a snadno použitelná knihovna, která vám umožňuje převádět PowerPointové prezentace do různých formátů v Node.js. Podporuje všechny prezentační prvky a formáty a poskytuje bohaté API pro přístup a úpravu. Umožňuje také exportovat snímky do různých formátů pro další zpracování nebo sdílení." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Převeďte FODP na PDF v Node.js" h2="Aspose.Slides for Node.js přes Javu je výkonná a snadno použitelná knihovna, která vám umožňuje převádět PowerPointové prezentace do různých formátů v Node.js. Podporuje všechny prezentační prvky a formáty a poskytuje bohaté API pro přístup a úpravu. Umožňuje také exportovat snímky do různých formátů pro další zpracování nebo sdílení." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Převeďte FODP na PDF v Node.js" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Převeďte FODP na PDF pomocí Node.js" variant="code" %}}
 
-[**Aspose.Slides pro Node.js přes Javu**](https://products.aspose.com/slides/cs/nodejs-java/) je výkonná knihovna Node.js pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby převodu FODP do PDF. Pomocí **Aspose.Slides for Node.js přes Java** může každý vývojář nebo aplikace převést soubory FODP do PDF pomocí několika řádků kódu.
-
-Aspose.Slides for Node.js jako moderní API pro zpracování dokumentů rychle exportuje soubory FODP do formátů souborů PDF. Knihovna Aspose PowerPoint vám umožňuje převést FODP do PDFs a mnoho dalších formátů souborů
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Převeďte FODP na PDF pomocí Node.js" %}}
 Chcete-li převést FODP do PDF, budete muset vytvořit prezentaci ze souboru FODP a uložit ji jako PDF.
 
-{{% blocks/products/pf/agp/code-block title="Kód Node.js pro převod FODP do PDF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kód Node.js pro převod FODP do PDF" >}}
 ```javascript
 
 var aspose = aspose || {};
@@ -41,59 +33,44 @@ finally
     if (pres != null) pres.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Převeďte FODP na PDF v Node.js" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides pro Node.js přes Javu**](https://products.aspose.com/slides/cs/nodejs-java/) je výkonná knihovna Node.js pro vytváření a manipulaci s prezentačními soubory. Navíc poskytuje flexibilní způsoby převodu FODP do PDF. Pomocí **Aspose.Slides for Node.js přes Java** může každý vývojář nebo aplikace převést soubory FODP do PDF pomocí několika řádků kódu.
 
-{{< blocks/products/pf/feature-page-section  h2="Jak převést FODP na PDF pomocí Aspose.Slides pro Node.js přes Java API" >}}
+Aspose.Slides for Node.js jako moderní API pro zpracování dokumentů rychle exportuje soubory FODP do formátů souborů PDF. Knihovna Aspose PowerPoint vám umožňuje převést FODP do PDFs a mnoho dalších formátů souborů
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Chcete-li převést FODP na PDF pomocí Aspose.Slides for Node.js přes Java, musíte importovat balíček do souboru JavaScript a vytvořit instanci třídy Presentation. Třída Prezentace představuje dokument PowerPoint a poskytuje metody pro přístup a manipulaci s jeho prvky." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte [**Aspose.Slides pro Node.js přes Java**](https://products.aspose.com/slides/cs/nodejs-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak převést FODP na PDF pomocí Aspose.Slides pro Node.js přes Java API" intro="Chcete-li převést FODP na PDF pomocí Aspose.Slides for Node.js přes Java, musíte importovat balíček do souboru JavaScript a vytvořit instanci třídy Presentation. Třída Prezentace představuje dokument PowerPoint a poskytuje metody pro přístup a manipulaci s jeho prvky." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nainstalujte [**Aspose.Slides pro Node.js přes Java**](https://products.aspose.com/slides/cs/nodejs-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otevřete zdrojové soubory FODP v Node.js.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložit výsledek jako soubor PDF.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte odkaz na knihovnu (importujte knihovnu) do svého projektu Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Převést FODP do jiných podporovaných formátů" subTitle="Můžete také převést FODP a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pptx/" name="FODP TO PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-ppt/" name="FODP TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-html/" name="FODP TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-png/" name="FODP TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-bmp/" name="FODP TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-jpg/" name="FODP TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-gif/" name="FODP TO GIF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-odp/" name="FODP TO ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-otp/" name="FODP TO OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pot/" name="FODP TO POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-potm/" name="FODP TO POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-potx/" name="FODP TO POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pps/" name="FODP TO PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-ppsm/" name="FODP TO PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-ppsx/" name="FODP TO PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pptm/" name="FODP TO PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-svg/" name="FODP TO SVG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-tiff/" name="FODP TO TIFF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Otevřete zdrojové soubory FODP v Node.js.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložit výsledek jako soubor PDF.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Převést FODP do jiných podporovaných formátů" subTitle="Můžete také převést FODP a uložit do jiných formátů souborů. Všechny podporované formáty naleznete níže" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pptx/" name="FODP TO PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-ppt/" name="FODP TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-html/" name="FODP TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-png/" name="FODP TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-bmp/" name="FODP TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-jpg/" name="FODP TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-gif/" name="FODP TO GIF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-odp/" name="FODP TO ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-otp/" name="FODP TO OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pot/" name="FODP TO POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-potm/" name="FODP TO POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-potx/" name="FODP TO POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pps/" name="FODP TO PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-ppsm/" name="FODP TO PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-ppsx/" name="FODP TO PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-pptm/" name="FODP TO PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-svg/" name="FODP TO SVG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/nodejs-java/conversion/fodp-to-tiff/" name="FODP TO TIFF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

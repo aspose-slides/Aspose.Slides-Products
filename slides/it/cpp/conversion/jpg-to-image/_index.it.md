@@ -5,26 +5,18 @@ title: Converti JPG in Image in C++
 url: /it/cpp/conversion/jpg-to-image/
 keywords: JPG in Image, conversione di JPG in Image, API C++, libreria C++, JPG, Image
 description: Converti JPG in Image in C++. Utilizza l'API della libreria C++ per convertire i file JPG in Image
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Converti JPG in Image in C++" h2="Libreria C++ ad alta velocità e multipiattaforma che aiuta nello sviluppo di applicazioni con la possibilità di creare, unire, ispezionare o convertire file di presentazione Microsoft PowerPoint e OpenOffice senza l'uso di software come Microsoft o Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Converti JPG in Image in C++" h2="Libreria C++ ad alta velocità e multipiattaforma che aiuta nello sviluppo di applicazioni con la possibilità di creare, unire, ispezionare o convertire file di presentazione Microsoft PowerPoint e OpenOffice senza l'uso di software come Microsoft o Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Converti JPG in Image in C++" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converti JPG in Image utilizzando C++" variant="code" %}}
 
-[**Aspose.Slides per C++**](https://products.aspose.com/slides/it/cpp/) è una potente libreria C++ per la creazione e la manipolazione di file di presentazione. Inoltre, fornisce modi flessibili per convertire JPG in Image. Utilizzando **Aspose.Slides per C++**, qualsiasi sviluppatore o applicazione può convertire i file JPG in Image con poche righe di codice C++.
-
-Come moderna API per l'elaborazione dei documenti, Aspose.Slides per C++ esporta rapidamente file JPG in formati di file Image. La libreria Aspose PowerPoint ti consente di convertire JPG in Image se molti altri formati di file
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Converti JPG in Image utilizzando C++" %}}
 Per convertire JPG in Image, dovrai creare una presentazione dal file JPG e salvarla come Image.
 
-{{% blocks/products/pf/agp/code-block title="Codice C++ per convertire JPG in Image" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Codice C++ per convertire JPG in Image" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -50,45 +42,32 @@ for (int32_t i = 0; i < pres->get_Slides()->get_Count(); i++)
 }
 
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Converti JPG in Image in C++" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides per C++**](https://products.aspose.com/slides/it/cpp/) è una potente libreria C++ per la creazione e la manipolazione di file di presentazione. Inoltre, fornisce modi flessibili per convertire JPG in Image. Utilizzando **Aspose.Slides per C++**, qualsiasi sviluppatore o applicazione può convertire i file JPG in Image con poche righe di codice C++.
 
-{{< blocks/products/pf/feature-page-section  h2="Come convertire JPG in Image utilizzando Aspose.Slides per l'API C++" >}}
+Come moderna API per l'elaborazione dei documenti, Aspose.Slides per C++ esporta rapidamente file JPG in formati di file Image. La libreria Aspose PowerPoint ti consente di convertire JPG in Image se molti altri formati di file
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per convertire JPG in Image in C++." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installa [**Aspose.Slides per C++**](https://products.aspose.com/slides/it/cpp/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come convertire JPG in Image utilizzando Aspose.Slides per l'API C++" intro="Questi sono i passaggi per convertire JPG in Image in C++." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installa [**Aspose.Slides per C++**](https://products.aspose.com/slides/it/cpp/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aggiungi un riferimento alla libreria (importa la libreria) al tuo progetto C++.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Apri i file di origine JPG in C++.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il risultato come file Image.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Aggiungi un riferimento alla libreria (importa la libreria) al tuo progetto C++.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Convertitore online gratuito"
+  description="[Come convertire PPT in HTML in Python](https://products.aspose.com/slides/it/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Apri i file di origine JPG in C++.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Converti JPG in altri formati supportati" subTitle="Puoi anche convertire JPG e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/cpp/conversion/jpg-to-png/" name="JPG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/cpp/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il risultato come file Image.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Convertitore online gratuito" sectionDescription="[Come convertire PPT in HTML in Python](https://products.aspose.com/slides/it/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Converti JPG in altri formati supportati" subTitle="Puoi anche convertire JPG e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/cpp/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/cpp/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

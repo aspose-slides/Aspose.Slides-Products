@@ -5,26 +5,18 @@ title: Konversikan JPG ke Image di PHP
 url: /id/php-java/conversion/jpg-to-image/
 keywords: JPG ke Image, Konversikan JPG ke Image, PHP API, Perpustakaan PHP, JPG, Image
 description: Konversikan JPG ke Image di PHP. Gunakan PowerPoint PHP API untuk mengonversi file JPG ke Image
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Konversikan JPG ke Image di PHP" h2="Pustaka PHP PowerPoint yang kuat yang membantu dalam mengembangkan aplikasi dengan kemampuan untuk membuat, menggabungkan, memeriksa, atau mengonversi file presentasi Microsoft PowerPoint dan OpenOffice tanpa menggunakan perangkat lunak apa pun seperti Microsoft atau Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Konversikan JPG ke Image di PHP" h2="Pustaka PHP PowerPoint yang kuat yang membantu dalam mengembangkan aplikasi dengan kemampuan untuk membuat, menggabungkan, memeriksa, atau mengonversi file presentasi Microsoft PowerPoint dan OpenOffice tanpa menggunakan perangkat lunak apa pun seperti Microsoft atau Open Office, Adobe PDF." >}}
 
-{{% blocks/products/pf/feature-page-section h2="Konversikan JPG ke Image di PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan JPG ke Image menggunakan PHP" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/) adalah library PHP yang andal untuk membuat dan memanipulasi file presentasi. Selain itu, ini memberikan cara yang fleksibel untuk mengonversi JPG ke Image. Menggunakan **Aspose.Slides untuk PHP melalui Java**, pengembang atau aplikasi apa pun dapat mengonversi file JPG ke Image hanya dengan beberapa baris kode PHP.
-
-Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk PHP mengekspor file JPG ke format file Image dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi JPG ke Image dan banyak format file lainnya
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Konversikan JPG ke Image menggunakan PHP" %}}
 Untuk mengonversi JPG ke Image, Anda perlu membuat Presentasi dari file JPG dan menyimpannya sebagai Image.
 
-{{% blocks/products/pf/agp/code-block title="Kode PHP untuk mengubah JPG menjadi Image" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode PHP untuk mengubah JPG menjadi Image" >}}
 ```php
 
 <?php
@@ -60,48 +52,35 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Konversikan JPG ke Image di PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/) adalah library PHP yang andal untuk membuat dan memanipulasi file presentasi. Selain itu, ini memberikan cara yang fleksibel untuk mengonversi JPG ke Image. Menggunakan **Aspose.Slides untuk PHP melalui Java**, pengembang atau aplikasi apa pun dapat mengonversi file JPG ke Image hanya dengan beberapa baris kode PHP.
 
-{{< blocks/products/pf/feature-page-section  h2="Cara mengonversi JPG ke Image menggunakan Aspose.Slides untuk PHP API" >}}
+Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk PHP mengekspor file JPG ke format file Image dengan cepat. Pustaka Aspose PowerPoint memungkinkan Anda mengonversi JPG ke Image dan banyak format file lainnya
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk mengonversi JPG ke Image di PHP." >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara mengonversi JPG ke Image menggunakan Aspose.Slides untuk PHP API" intro="Ini adalah langkah-langkah untuk mengonversi JPG ke Image di PHP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek PHP Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file sumber JPG di PHP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan hasilnya sebagai file Image.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan referensi perpustakaan (impor perpustakaan) ke proyek PHP Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
+  title="Konverter Daring Gratis"
+  description="[Cara Mengonversi PPT ke HTML dengan Python](https://products.aspose.com/slides/id/python-net/conversion/ppt-to-html/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Buka file sumber JPG di PHP.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversikan JPG Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi JPG dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah ini" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-html/" name="JPG TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasilnya sebagai file Image.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="conversion" extension="" sectionTitle="Konverter Daring Gratis" sectionDescription="[Cara Mengonversi PPT ke HTML dengan Python](https://products.aspose.com/slides/id/python-net/conversion/ppt-to-html/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Konversikan JPG Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi JPG dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah ini" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-html/" name="JPG TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-png/" name="JPG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-pdf/" name="JPG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
