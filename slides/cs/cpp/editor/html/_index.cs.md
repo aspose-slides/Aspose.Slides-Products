@@ -5,26 +5,18 @@ title: Upravte HTML v C++
 url: /cs/cpp/editor/html/
 keywords: Upravit HTML, HTML, C++ API, C++ knihovnu
 description: Upravte HTML v C++. K úpravě souboru HTML použijte API knihovny C++
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Upravte HTML v C++" h2="Vysokorychlostní a multiplatformní knihovna C++ pro úpravu HTML pomocí kódu C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Upravte HTML v C++" h2="Vysokorychlostní a multiplatformní knihovna C++ pro úpravu HTML pomocí kódu C++" related="PPT,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Upravte HTML pomocí Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Upravte HTML v C++" variant="code" %}}
 
-[**Aspose.Slides pro C++**](https://products.aspose.com/slides/cs/cpp/) je výkonná knihovna C++ používaná k manipulaci a úpravám prezentací, dokumentů HTML a dalších souborů. Dokument HTML můžete upravit přidáním nového řádku textu. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Upravte HTML v C++" %}}
 Pomocí [**Aspose.Slides for C++**](https://products.aspose.com/slides/cs/cpp/) můžete do dokumentu HTML přidat nový řádek textu pomocí pouhých několika řádků kódu.
 
-{{% blocks/products/pf/agp/code-block title="C++ kód pro úpravu HTML" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ kód pro úpravu HTML" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -38,60 +30,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"page.html", SaveFormat::Html5);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Upravte HTML pomocí Aspose.Slides" %}}
 
+[**Aspose.Slides pro C++**](https://products.aspose.com/slides/cs/cpp/) je výkonná knihovna C++ používaná k manipulaci a úpravám prezentací, dokumentů HTML a dalších souborů. Dokument HTML můžete upravit přidáním nového řádku textu.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak upravit HTML v C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak upravit HTML v C++" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nainstalujte **Aspose.Slides pro C++**. Viz [**Instalace**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte knihovnu jako referenci do svého projektu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Vytvořte instanci třídy Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte dokument HTML, který chcete upravit.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte nový řádek textu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte změněný soubor HTML.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Upravte další soubory" subTitle="Můžete také upravovat soubory v jiných formátech" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/cpp/editor/pdf/" name="Edit PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte **Aspose.Slides pro C++**. Viz [**Instalace**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte knihovnu jako referenci do svého projektu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Vytvořte instanci třídy Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte dokument HTML, který chcete upravit.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte nový řádek textu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte změněný soubor HTML.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Upravte další soubory" subTitle="Můžete také upravovat soubory v jiných formátech" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/editor/pdf/" name="Edit PDF" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

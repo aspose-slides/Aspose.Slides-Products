@@ -5,26 +5,18 @@ title: Redigera HTML i C++
 url: /sv/cpp/editor/html/
 keywords: Redigera HTML, HTML, C++ API, C++ Library
 description: Redigera HTML i C++. Använd C++ biblioteks-API för att redigera HTML-fil
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Redigera HTML i C++" h2="Höghastighets- och plattformsoberoende C++-bibliotek för redigering av HTML med C++-kod" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Redigera HTML i C++" h2="Höghastighets- och plattformsoberoende C++-bibliotek för redigering av HTML med C++-kod" related="PPT,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Redigera HTML med Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Redigera HTML i C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/sv/cpp/) är ett kraftfullt C++-bibliotek som används för att manipulera och redigera presentationer, HTML-dokument och andra filer. Du kan redigera ett HTML-dokument genom att lägga till en ny textrad till det. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Redigera HTML i C++" %}}
 Med hjälp av [**Aspose.Slides for C++**](https://products.aspose.com/slides/sv/cpp/) kan du lägga till en ny textrad i ett HTML-dokument med bara några rader kod.
 
-{{% blocks/products/pf/agp/code-block title="C++-kod för redigering av HTML" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++-kod för redigering av HTML" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -38,60 +30,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"page.html", SaveFormat::Html5);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Redigera HTML med Aspose.Slides" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/sv/cpp/) är ett kraftfullt C++-bibliotek som används för att manipulera och redigera presentationer, HTML-dokument och andra filer. Du kan redigera ett HTML-dokument genom att lägga till en ny textrad till det.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man redigerar HTML i C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hur man redigerar HTML i C++" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installera **Aspose.Slides för C++**. Se [**Installation**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lägg till biblioteket som referens i ditt projekt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Skapa en instans av klassen Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ladda HTML-dokumentet du vill redigera.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lägg till en ny textrad.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den ändrade HTML-filen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Redigera andra filer" subTitle="Du kan även redigera filer i andra format" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/cpp/editor/pdf/" name="Edit PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Installera **Aspose.Slides för C++**. Se [**Installation**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till biblioteket som referens i ditt projekt.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Skapa en instans av klassen Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda HTML-dokumentet du vill redigera.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till en ny textrad.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara den ändrade HTML-filen.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Redigera andra filer" subTitle="Du kan även redigera filer i andra format" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/editor/pdf/" name="Edit PDF" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

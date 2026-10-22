@@ -5,26 +5,18 @@ title: Szerkessze a PPT-t Pythonban
 url: /hu/python-net/editor/ppt/
 keywords: PPT szerkesztése, PowerPoint szerkesztése, PPT, PowerPoint, Python API, Python Library
 description: Szerkessze a PPT-t Pythonban. Használja Python könyvtár API-t a PowerPoint prezentáció szerkesztéséhez
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Szerkessze a PPT-t Pythonban" h2="Nagy sebességű és többplatformos Python-könyvtár a PPT Python-kóddal történő szerkesztéséhez" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Szerkessze a PPT-t Pythonban" h2="Nagy sebességű és többplatformos Python-könyvtár a PPT Python-kóddal történő szerkesztéséhez" related="PDF,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Szerkessze a PPT-t az Aspose.Slides segítségével" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szerkessze a PPT-t Pythonban" variant="code" %}}
 
-Az [**Aspose.Slides for Python .NET-en keresztül**](https://products.aspose.com/slides/hu/python-net/) egy hatékony Python-könyvtár, amelyet prezentációk kezelésére és szerkesztésére használnak. A PPT prezentációt úgy szerkesztheti, hogy új szövegsort ad hozzá. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Szerkessze a PPT-t Pythonban" %}}
 Az [**Aspose.Slides for Python .NET-en keresztül**](https://products.aspose.com/slides/hu/python-net/) használatával új szövegsort adhat hozzá egy PPT-dokumentumhoz, mindössze néhány sorral. kódsorok.
 
-{{% blocks/products/pf/agp/code-block title="Python kód a PPT szerkesztéséhez" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python kód a PPT szerkesztéséhez" >}}
 ```python
 
 import aspose.slides as slides
@@ -35,60 +27,30 @@ with slides.Presentation("pres.ppt") as pres:
 
     pres.save("pres.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szerkessze a PPT-t az Aspose.Slides segítségével" %}}
 
+Az [**Aspose.Slides for Python .NET-en keresztül**](https://products.aspose.com/slides/hu/python-net/) egy hatékony Python-könyvtár, amelyet prezentációk kezelésére és szerkesztésére használnak. A PPT prezentációt úgy szerkesztheti, hogy új szövegsort ad hozzá.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hogyan lehet szerkeszteni a PPT-t Pythonban" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan lehet szerkeszteni a PPT-t Pythonban" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az **Aspose.Slides for Python programot .NET-en keresztül**. Lásd: [**Telepítés**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adja hozzá a könyvtárat referenciaként a projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hozzon létre egy példányt a Prezentáció osztályból.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a szerkeszteni kívánt PPT-prezentációt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy új szövegsort.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse el a módosított PowerPoint fájlt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-net/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-net/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az **Aspose.Slides for Python programot .NET-en keresztül**. Lásd: [**Telepítés**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adja hozzá a könyvtárat referenciaként a projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hozzon létre egy példányt a Prezentáció osztályból.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Töltse be a szerkeszteni kívánt PPT-prezentációt.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy új szövegsort.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Mentse el a módosított PowerPoint fájlt.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

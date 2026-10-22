@@ -5,26 +5,18 @@ title: PDF szerkesztése C++-ban
 url: /hu/cpp/editor/pdf/
 keywords: PDF, PDF, C++ API, C++ Library szerkesztése
 description: PDF szerkesztése C++-ban. PDF-dokumentum szerkesztéséhez használja a C++ könyvtár API-t
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="PDF szerkesztése C++-ban" h2="Nagy sebességű és többplatformos C++ könyvtár PDF szerkesztéséhez C++ kóddal" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PDF szerkesztése C++-ban" h2="Nagy sebességű és többplatformos C++ könyvtár PDF szerkesztéséhez C++ kóddal" related="PPT,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="PDF szerkesztése az Aspose.Slides segítségével" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PDF szerkesztése C++-ban" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) egy hatékony C++-könyvtár, amely prezentációk, PDF-dokumentumok és egyéb fájlok kezelésére és szerkesztésére szolgál. A PDF-dokumentumot úgy szerkesztheti, hogy új szövegsort ad hozzá. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="PDF szerkesztése C++-ban" %}}
 Az [**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) használatával mindössze néhány sornyi kóddal új szövegsort adhat egy PDF-dokumentumhoz.
 
-{{% blocks/products/pf/agp/code-block title="C++ kód a PDF szerkesztéséhez" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ kód a PDF szerkesztéséhez" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -38,60 +30,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"document.pdf", SaveFormat::Pdf);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PDF szerkesztése az Aspose.Slides segítségével" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/hu/cpp/) egy hatékony C++-könyvtár, amely prezentációk, PDF-dokumentumok és egyéb fájlok kezelésére és szerkesztésére szolgál. A PDF-dokumentumot úgy szerkesztheti, hogy új szövegsort ad hozzá.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="PDF szerkesztése C++-ban" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PDF szerkesztése C++-ban" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az **Aspose.Slides for C++** alkalmazást. Lásd: [**Telepítés**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adja hozzá a könyvtárat referenciaként a projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hozzon létre egy példányt a Prezentáció osztályból.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a szerkeszteni kívánt PDF dokumentumot.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy új szövegsort.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse el a módosított PDF fájlt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az **Aspose.Slides for C++** alkalmazást. Lásd: [**Telepítés**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adja hozzá a könyvtárat referenciaként a projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hozzon létre egy példányt a Prezentáció osztályból.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Töltse be a szerkeszteni kívánt PDF dokumentumot.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy új szövegsort.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Mentse el a módosított PDF fájlt.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

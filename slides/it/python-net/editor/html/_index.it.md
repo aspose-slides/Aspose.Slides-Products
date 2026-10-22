@@ -5,26 +5,18 @@ title: Modifica HTML in Python
 url: /it/python-net/editor/html/
 keywords: Modifica HTML, HTML, API Python, Libreria Python
 description: Modifica HTML in Python. Usa l'API della libreria Python per modificare il file HTML
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Modifica HTML in Python" h2="Libreria Python ad alta velocità e multipiattaforma per la modifica di HTML utilizzando il codice Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Modifica HTML in Python" h2="Libreria Python ad alta velocità e multipiattaforma per la modifica di HTML utilizzando il codice Python" related="PPT,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Modifica HTML utilizzando Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifica HTML in Python" variant="code" %}}
 
-[**Aspose.Slides per Python tramite .NET**](https://products.aspose.com/slides/it/python-net/) è una potente libreria Python utilizzata per manipolare e modificare presentazioni, documenti HTML e altri file . Puoi modificare un documento HTML aggiungendovi una nuova riga di testo. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Modifica HTML in Python" %}}
 Usando [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/it/python-net/), puoi aggiungere una nuova riga di testo a un documento HTML con pochi righe di codice.
 
-{{% blocks/products/pf/agp/code-block title="Codice Python per la modifica dell'HTML" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Codice Python per la modifica dell'HTML" >}}
 ```python
 
 import aspose.slides as slides
@@ -40,60 +32,30 @@ with slides.Presentation() as pres:
 
     pres.save("page.html", slides.export.SaveFormat.HTML5)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifica HTML utilizzando Aspose.Slides" %}}
 
+[**Aspose.Slides per Python tramite .NET**](https://products.aspose.com/slides/it/python-net/) è una potente libreria Python utilizzata per manipolare e modificare presentazioni, documenti HTML e altri file . Puoi modificare un documento HTML aggiungendovi una nuova riga di testo.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come modificare l'HTML in Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come modificare l'HTML in Python" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aggiungi la libreria come riferimento nel tuo progetto.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Crea un'istanza della classe Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carica il documento HTML che desideri modificare.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aggiungi una nuova riga di testo.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il file HTML modificato.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Modifica altri file" subTitle="Puoi anche modificare i file in altri formati" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/python-net/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/python-net/editor/pdf/" name="Edit PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Aggiungi la libreria come riferimento nel tuo progetto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Crea un'istanza della classe Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica il documento HTML che desideri modificare.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Aggiungi una nuova riga di testo.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il file HTML modificato.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Modifica altri file" subTitle="Puoi anche modificare i file in altri formati" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/editor/pdf/" name="Edit PDF" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

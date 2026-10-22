@@ -5,26 +5,18 @@ title: Edytuj kod HTML w Javie
 url: /pl/java/editor/html/
 keywords: Edytuj HTML, HTML, Java API, Java Library
 description: Edytuj kod HTML w Javie. Użyj API biblioteki Java do edycji pliku HTML
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edytuj kod HTML w Javie" h2="Szybka i wieloplatformowa biblioteka Java do edycji HTML przy użyciu kodu Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edytuj kod HTML w Javie" h2="Szybka i wieloplatformowa biblioteka Java do edycji HTML przy użyciu kodu Java" related="PPT,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Edytuj HTML za pomocą Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Edytuj kod HTML w Javie" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/pl/java/) to potężna biblioteka Java używana do manipulowania i edytowania prezentacji, dokumentów HTML i innych plików. Możesz edytować dokument HTML, dodając do niego nowy wiersz tekstu. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Edytuj kod HTML w Javie" %}}
 Korzystając z [**Aspose.Slides for Java**](https://products.aspose.com/slides/pl/java/), możesz dodać nowy wiersz tekstu do dokumentu HTML za pomocą zaledwie kilku wierszy kodu.
 
-{{% blocks/products/pf/agp/code-block title="Kod Java do edycji HTML" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kod Java do edycji HTML" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -47,60 +39,30 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Edytuj HTML za pomocą Aspose.Slides" %}}
 
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/pl/java/) to potężna biblioteka Java używana do manipulowania i edytowania prezentacji, dokumentów HTML i innych plików. Możesz edytować dokument HTML, dodając do niego nowy wiersz tekstu.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak edytować kod HTML w Javie" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak edytować kod HTML w Javie" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zainstaluj **Aspose.Slides dla Javy**. Zobacz [**Instalacja**](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj bibliotekę jako odniesienie w swoim projekcie.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Utwórz wystąpienie klasy Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Załaduj dokument HTML, który chcesz edytować.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj nowy wiersz tekstu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz zmieniony plik HTML.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Edytuj inne pliki" subTitle="Możesz także edytować pliki w innych formatach" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/editor/pdf/" name="Edit PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj **Aspose.Slides dla Javy**. Zobacz [**Instalacja**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj bibliotekę jako odniesienie w swoim projekcie.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Utwórz wystąpienie klasy Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Załaduj dokument HTML, który chcesz edytować.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj nowy wiersz tekstu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz zmieniony plik HTML.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Edytuj inne pliki" subTitle="Możesz także edytować pliki w innych formatach" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/editor/pdf/" name="Edit PDF" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: ویرایش PPT در جاوا
 url: /fa/java/editor/ppt/
 keywords: ویرایش PPT، ویرایش پاورپوینت، PPT، پاورپوینت، Java API، کتابخانه جاوا
 description: ویرایش PPT در جاوا از Java library API برای ویرایش ارائه پاورپوینت استفاده کنید
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="ویرایش PPT در جاوا" h2="کتابخانه جاوا با سرعت بالا و کراس پلتفرم برای ویرایش PPT با استفاده از کد جاوا" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ویرایش PPT در جاوا" h2="کتابخانه جاوا با سرعت بالا و کراس پلتفرم برای ویرایش PPT با استفاده از کد جاوا" related="PDF,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="PPT را با استفاده از Aspose.Slides ویرایش کنید" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ویرایش PPT در جاوا" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/) یک کتابخانه قدرتمند جاوا است که برای دستکاری و ویرایش ارائه ها استفاده می شود. شما می توانید یک ارائه PPT را با افزودن یک خط متن جدید به آن ویرایش کنید. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="ویرایش PPT در جاوا" %}}
 با استفاده از [**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/)، می توانید تنها با چند خط کد، یک خط متن جدید به سند PPT اضافه کنید.
 
-{{% blocks/products/pf/agp/code-block title="کد جاوا برای ویرایش PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد جاوا برای ویرایش PPT" >}}
 ```java
 
 Presentation pres = new Presentation("pres.ppt");
@@ -38,60 +30,30 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PPT را با استفاده از Aspose.Slides ویرایش کنید" %}}
 
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/fa/java/) یک کتابخانه قدرتمند جاوا است که برای دستکاری و ویرایش ارائه ها استفاده می شود. شما می توانید یک ارائه PPT را با افزودن یک خط متن جدید به آن ویرایش کنید.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه ویرایش PPT در جاوا" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه ویرایش PPT در جاوا" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides را برای جاوا** نصب کنید. [**نصب**](https://docs.aspose.com/slides/java/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک نمونه از کلاس Presentation ایجاد کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ارائه PPT را که می خواهید ویرایش کنید بارگیری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک خط جدید از متن اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل پاورپوینت تغییر یافته را ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="فایل های دیگر را ویرایش کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ویرایش کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/java/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای جاوا** نصب کنید. [**نصب**](https://docs.aspose.com/slides/java/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-یک نمونه از کلاس Presentation ایجاد کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ارائه PPT را که می خواهید ویرایش کنید بارگیری کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-یک خط جدید از متن اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل پاورپوینت تغییر یافته را ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="فایل های دیگر را ویرایش کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ویرایش کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: PDF'yi C++ ile düzenleyin
 url: /tr/cpp/editor/pdf/
 keywords: PDF, PDF, C++ API, C++ Kitaplığını Düzenle
 description: PDF'yi C++ ile düzenleyin. PDF belgesini düzenlemek için C++ kitaplık API'sini kullanın
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="PDF'yi C++ ile düzenleyin" h2="C++ kodunu kullanarak PDF düzenlemek için yüksek hızlı ve platformlar arası C++ kitaplığı" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PDF'yi C++ ile düzenleyin" h2="C++ kodunu kullanarak PDF düzenlemek için yüksek hızlı ve platformlar arası C++ kitaplığı" related="PPT,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides kullanarak PDF'yi düzenleyin" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PDF'yi C++ ile düzenleyin" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumları, PDF belgelerini ve diğer dosyaları işlemek ve düzenlemek için kullanılan güçlü bir C++ kitaplığıdır. Yeni bir metin satırı ekleyerek bir PDF belgesini düzenleyebilirsiniz. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="PDF'yi C++ ile düzenleyin" %}}
 [**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/) kullanarak, yalnızca birkaç satır kodla bir PDF belgesine yeni bir metin satırı ekleyebilirsiniz.
 
-{{% blocks/products/pf/agp/code-block title="PDF'yi düzenlemek için C++ kodu" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PDF'yi düzenlemek için C++ kodu" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -38,60 +30,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"document.pdf", SaveFormat::Pdf);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides kullanarak PDF'yi düzenleyin" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumları, PDF belgelerini ve diğer dosyaları işlemek ve düzenlemek için kullanılan güçlü bir C++ kitaplığıdır. Yeni bir metin satırı ekleyerek bir PDF belgesini düzenleyebilirsiniz.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++'da PDF nasıl düzenlenir" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++'da PDF nasıl düzenlenir" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kütüphaneyi projenize referans olarak ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Presentation sınıfının bir örneğini oluşturun.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Düzenlemek istediğiniz PDF belgesini yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Yeni bir metin satırı ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Değiştirilen PDF dosyasını kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kütüphaneyi projenize referans olarak ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Presentation sınıfının bir örneğini oluşturun.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Düzenlemek istediğiniz PDF belgesini yükleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Yeni bir metin satırı ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Değiştirilen PDF dosyasını kaydedin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

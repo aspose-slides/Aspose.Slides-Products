@@ -5,25 +5,18 @@ title: Επεξεργασία ODP σε PHP
 url: /el/php-java/editor/odp/
 keywords: Επεξεργασία ODP, Επεξεργασία PowerPoint, ODP, PowerPoint, PHP API, Βιβλιοθήκη PHP
 description: Επεξεργασία ODP σε PHP. Χρησιμοποιήστε το API βιβλιοθήκης PHP για να επεξεργαστείτε αρχεία ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Επεξεργασία ODP σε PHP" h2="Βιβλιοθήκη PHP υψηλής ταχύτητας και πολλαπλών πλατφορμών για επεξεργασία ODP με χρήση κώδικα PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Επεξεργασία ODP σε PHP" h2="Βιβλιοθήκη PHP υψηλής ταχύτητας και πολλαπλών πλατφορμών για επεξεργασία ODP με χρήση κώδικα PHP" related="FODP,HTML,OTP,PDF,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Επεξεργαστείτε το ODP χρησιμοποιώντας το Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Επεξεργασία ODP σε PHP" variant="code" %}}
 
-Το [**Aspose.Slides για PHP μέσω Java**](https://products.aspose.com/slides/el/php-java/) είναι μια ισχυρή βιβλιοθήκη PHP για γρήγορη και εύκολη επεξεργασία παρουσιάσεων. Παρέχει στους χρήστες μια εκτεταμένη γκάμα λειτουργιών για να τους βοηθήσει να δημιουργήσουν διαφάνειες με επαγγελματική εμφάνιση σε ελάχιστο χρόνο. Με το Aspose, οι χρήστες μπορούν να επεξεργάζονται κείμενο, να προσθέτουν εικόνες, κινούμενα σχέδια και μεταβάσεις στην παρουσίασή τους, καθώς και να εφαρμόζουν διάφορες επιλογές μορφοποίησης, όπως τύπο γραμματοσειράς και επιλογή χρώματος. Επιπλέον, η βιβλιοθήκη προσφέρει υποστήριξη τόσο για αρχεία PowerPoint (PPT) όσο και για μορφές OpenOffice Presentation (ODP), γεγονός που καθιστά ευκολότερη από ποτέ την κοινή χρήση παρουσιάσεων σε διαφορετικές πλατφόρμες χωρίς να προκύπτουν προβλήματα συμβατότητας. Αξιοποιώντας τη δύναμη της βιβλιοθήκης του Aspose κατά τη δημιουργία ή την επεξεργασία της επόμενης παρουσίασής σας, θα είστε σίγουροι ότι οι διαφάνειές σας φαίνονται υπέροχες κάθε φορά!
-Μπορείτε να επεξεργαστείτε ένα αρχείο ODP προσθέτοντας μια νέα γραμμή κειμένου σε αυτό. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Επεξεργασία ODP σε PHP" %}}
 Χρησιμοποιώντας το [**Aspose.Slides για PHP μέσω Java**](https://products.aspose.com/slides/el/php-java/), μπορείτε να προσθέσετε μια νέα γραμμή κειμένου στο έγγραφο ODP με ένα λίγες γραμμές κώδικα.
 
-{{% blocks/products/pf/agp/code-block title="Κώδικας PHP για επεξεργασία ODP" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κώδικας PHP για επεξεργασία ODP" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Πώς να επεξεργαστείτε το ODP σε PHP" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Επεξεργαστείτε το ODP χρησιμοποιώντας το Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+Το [**Aspose.Slides για PHP μέσω Java**](https://products.aspose.com/slides/el/php-java/) είναι μια ισχυρή βιβλιοθήκη PHP για γρήγορη και εύκολη επεξεργασία παρουσιάσεων. Παρέχει στους χρήστες μια εκτεταμένη γκάμα λειτουργιών για να τους βοηθήσει να δημιουργήσουν διαφάνειες με επαγγελματική εμφάνιση σε ελάχιστο χρόνο. Με το Aspose, οι χρήστες μπορούν να επεξεργάζονται κείμενο, να προσθέτουν εικόνες, κινούμενα σχέδια και μεταβάσεις στην παρουσίασή τους, καθώς και να εφαρμόζουν διάφορες επιλογές μορφοποίησης, όπως τύπο γραμματοσειράς και επιλογή χρώματος. Επιπλέον, η βιβλιοθήκη προσφέρει υποστήριξη τόσο για αρχεία PowerPoint (PPT) όσο και για μορφές OpenOffice Presentation (ODP), γεγονός που καθιστά ευκολότερη από ποτέ την κοινή χρήση παρουσιάσεων σε διαφορετικές πλατφόρμες χωρίς να προκύπτουν προβλήματα συμβατότητας. Αξιοποιώντας τη δύναμη της βιβλιοθήκης του Aspose κατά τη δημιουργία ή την επεξεργασία της επόμενης παρουσίασής σας, θα είστε σίγουροι ότι οι διαφάνειές σας φαίνονται υπέροχες κάθε φορά!
+Μπορείτε να επεξεργαστείτε ένα αρχείο ODP προσθέτοντας μια νέα γραμμή κειμένου σε αυτό.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Εγκαταστήστε το **Aspose.Slides για PHP μέσω Java**. Δείτε [**Εγκατάσταση**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να επεξεργαστείτε το ODP σε PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Εγκαταστήστε το **Aspose.Slides για PHP μέσω Java**. Δείτε [**Εγκατάσταση**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Προσθέστε τη βιβλιοθήκη ως αναφορά στο έργο σας.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Δημιουργήστε ένα στιγμιότυπο της κλάσης Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε την παρουσίαση ODP που θέλετε να επεξεργαστείτε.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Προσθέστε μια νέα γραμμή κειμένου.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το αλλαγμένο αρχείο.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε τη βιβλιοθήκη ως αναφορά στο έργο σας.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Δημιουργήστε ένα στιγμιότυπο της κλάσης Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φορτώστε την παρουσίαση ODP που θέλετε να επεξεργαστείτε.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε μια νέα γραμμή κειμένου.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθηκεύστε το αλλαγμένο αρχείο.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

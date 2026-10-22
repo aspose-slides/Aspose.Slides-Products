@@ -5,26 +5,18 @@ title: Modifier PPT en Python
 url: /fr/python-net/editor/ppt/
 keywords: Modifier PPT, Modifier PowerPoint, PPT, PowerPoint, API Python, Bibliothèque Python
 description: Modifier PPT en Python. Utiliser l'API de la bibliothèque Python pour modifier la présentation PowerPoint
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Modifier PPT en Python" h2="Bibliothèque Python haute vitesse et multiplateforme pour l'édition de PPT à l'aide de code Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Modifier PPT en Python" h2="Bibliothèque Python haute vitesse et multiplateforme pour l'édition de PPT à l'aide de code Python" related="PDF,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Modifier le PPT à l'aide d'Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier PPT en Python" variant="code" %}}
 
-[**Aspose.Slides pour Python via .NET**](https://products.aspose.com/slides/fr/python-net/) est une puissante bibliothèque Python utilisée pour manipuler et modifier des présentations. Vous pouvez modifier une présentation PPT en y ajoutant une nouvelle ligne de texte. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Modifier PPT en Python" %}}
 En utilisant [**Aspose.Slides pour Python via .NET**](https://products.aspose.com/slides/fr/python-net/), vous pouvez ajouter une nouvelle ligne de texte à un document PPT avec seulement quelques lignes de code.
 
-{{% blocks/products/pf/agp/code-block title="Code Python pour l'édition de PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Code Python pour l'édition de PPT" >}}
 ```python
 
 import aspose.slides as slides
@@ -35,60 +27,30 @@ with slides.Presentation("pres.ppt") as pres:
 
     pres.save("pres.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier le PPT à l'aide d'Aspose.Slides" %}}
 
+[**Aspose.Slides pour Python via .NET**](https://products.aspose.com/slides/fr/python-net/) est une puissante bibliothèque Python utilisée pour manipuler et modifier des présentations. Vous pouvez modifier une présentation PPT en y ajoutant une nouvelle ligne de texte.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment éditer PPT en Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment éditer PPT en Python" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez la bibliothèque comme référence dans votre projet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Créez une instance de la classe Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez la présentation PPT que vous souhaitez modifier.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez une nouvelle ligne de texte.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier PowerPoint modifié.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-net/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-net/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez la bibliothèque comme référence dans votre projet.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Créez une instance de la classe Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Chargez la présentation PPT que vous souhaitez modifier.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez une nouvelle ligne de texte.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrez le fichier PowerPoint modifié.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

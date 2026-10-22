@@ -5,25 +5,18 @@ title: Bearbeiten Sie FODP in PHP
 url: /de/php-java/editor/fodp/
 keywords: FODP bearbeiten, PowerPoint bearbeiten, FODP, PowerPoint, PHP-API, PHP-Bibliothek
 description: Bearbeiten Sie FODP in PHP. Verwenden Sie die PHP-Bibliotheks-API, um FODP-Dateien zu bearbeiten
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Bearbeiten Sie FODP in PHP" h2="Hochgeschwindigkeits- und plattformübergreifende PHP-Bibliothek zum Bearbeiten von FODP mithilfe von PHP-Code" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Bearbeiten Sie FODP in PHP" h2="Hochgeschwindigkeits- und plattformübergreifende PHP-Bibliothek zum Bearbeiten von FODP mithilfe von PHP-Code" related="HTML,ODP,OTP,PDF,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Bearbeiten Sie FODP mit Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Bearbeiten Sie FODP in PHP" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/de/php-java/) ist eine leistungsstarke PHP-Bibliothek zum schnellen und einfachen Bearbeiten von Präsentationen. Es bietet Benutzern eine umfangreiche Palette von Funktionen, mit denen sie im Handumdrehen professionell aussehende Folien erstellen können. Mit Aspose können Benutzer Texte bearbeiten, Bilder, Animationen und Übergänge zu ihrer Präsentation hinzufügen sowie verschiedene Formatierungsoptionen wie Schriftart und Farbauswahl anwenden. Darüber hinaus bietet die Bibliothek Unterstützung sowohl für PowerPoint-Dateien (PPT) als auch für OpenOffice-Präsentationsformate (ODP), was es einfacher denn je macht, Präsentationen über verschiedene Plattformen hinweg zu teilen, ohne dass Kompatibilitätsprobleme auftreten. Indem Sie beim Erstellen oder Bearbeiten Ihrer nächsten Präsentation die Leistungsfähigkeit der Aspose-Bibliothek nutzen, können Sie sicher sein, dass Ihre Folien jedes Mal großartig aussehen!
-Sie können eine FODP-Datei bearbeiten, indem Sie ihr eine neue Textzeile hinzufügen. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Bearbeiten Sie FODP in PHP" %}}
 Mit [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/de/php-java/) können Sie dem FODP-Dokument mit nur einem eine neue Textzeile hinzufügen paar Zeilen Code.
 
-{{% blocks/products/pf/agp/code-block title="PHP-Code zum Bearbeiten von FODP" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP-Code zum Bearbeiten von FODP" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="So bearbeiten Sie FODP in PHP" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Bearbeiten Sie FODP mit Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/de/php-java/) ist eine leistungsstarke PHP-Bibliothek zum schnellen und einfachen Bearbeiten von Präsentationen. Es bietet Benutzern eine umfangreiche Palette von Funktionen, mit denen sie im Handumdrehen professionell aussehende Folien erstellen können. Mit Aspose können Benutzer Texte bearbeiten, Bilder, Animationen und Übergänge zu ihrer Präsentation hinzufügen sowie verschiedene Formatierungsoptionen wie Schriftart und Farbauswahl anwenden. Darüber hinaus bietet die Bibliothek Unterstützung sowohl für PowerPoint-Dateien (PPT) als auch für OpenOffice-Präsentationsformate (ODP), was es einfacher denn je macht, Präsentationen über verschiedene Plattformen hinweg zu teilen, ohne dass Kompatibilitätsprobleme auftreten. Indem Sie beim Erstellen oder Bearbeiten Ihrer nächsten Präsentation die Leistungsfähigkeit der Aspose-Bibliothek nutzen, können Sie sicher sein, dass Ihre Folien jedes Mal großartig aussehen!
+Sie können eine FODP-Datei bearbeiten, indem Sie ihr eine neue Textzeile hinzufügen.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installieren Sie **Aspose.Slides für PHP über Java**. Siehe [**Installation**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So bearbeiten Sie FODP in PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installieren Sie **Aspose.Slides für PHP über Java**. Siehe [**Installation**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Fügen Sie die Bibliothek als Referenz in Ihrem Projekt hinzu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Erstellen Sie eine Instanz der Presentation-Klasse.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die FODP-Präsentation, die Sie bearbeiten möchten.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Fügen Sie eine neue Textzeile hinzu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die geänderte Datei.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie die Bibliothek als Referenz in Ihrem Projekt hinzu.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Erstellen Sie eine Instanz der Presentation-Klasse.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Bearbeiten Sie andere Dateien" subTitle="Sie können auch Dateien in anderen Formaten bearbeiten" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie die FODP-Präsentation, die Sie bearbeiten möchten.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie eine neue Textzeile hinzu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Speichern Sie die geänderte Datei.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Bearbeiten Sie andere Dateien" subTitle="Sie können auch Dateien in anderen Formaten bearbeiten" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

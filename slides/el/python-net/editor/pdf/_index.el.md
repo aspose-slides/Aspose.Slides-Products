@@ -5,26 +5,18 @@ title: Επεξεργασία PDF σε Python
 url: /el/python-net/editor/pdf/
 keywords: Επεξεργασία PDF, PDF, Python API, Python Library
 description: Επεξεργασία PDF σε Python. Χρησιμοποιήστε το API βιβλιοθήκης Python για να επεξεργαστείτε έγγραφο PDF
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Επεξεργασία PDF σε Python" h2="Βιβλιοθήκη Python υψηλής ταχύτητας και πολλαπλών πλατφορμών για επεξεργασία PDF με χρήση κώδικα Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Επεξεργασία PDF σε Python" h2="Βιβλιοθήκη Python υψηλής ταχύτητας και πολλαπλών πλατφορμών για επεξεργασία PDF με χρήση κώδικα Python" related="PPT,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Επεξεργαστείτε το PDF χρησιμοποιώντας το Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Επεξεργασία PDF σε Python" variant="code" %}}
 
-Η [**Aspose.Slides for Python μέσω .NET**](https://products.aspose.com/slides/el/python-net/) είναι μια ισχυρή βιβλιοθήκη Python που χρησιμοποιείται για το χειρισμό και την επεξεργασία παρουσιάσεων, εγγράφων PDF και άλλων αρχείων . Μπορείτε να επεξεργαστείτε ένα έγγραφο PDF προσθέτοντας μια νέα γραμμή κειμένου σε αυτό. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Επεξεργασία PDF σε Python" %}}
 Χρησιμοποιώντας το [**Aspose.Slides for Python μέσω .NET**](https://products.aspose.com/slides/el/python-net/), μπορείτε να προσθέσετε μια νέα γραμμή κειμένου σε ένα έγγραφο PDF με λίγα μόνο γραμμές κώδικα.
 
-{{% blocks/products/pf/agp/code-block title="Κώδικας Python για επεξεργασία PDF" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κώδικας Python για επεξεργασία PDF" >}}
 ```python
 
 import aspose.slides as slides
@@ -38,60 +30,30 @@ with slides.Presentation() as pres:
 
     pres.save("document.pdf", slides.export.SaveFormat.PDF)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Επεξεργαστείτε το PDF χρησιμοποιώντας το Aspose.Slides" %}}
 
+Η [**Aspose.Slides for Python μέσω .NET**](https://products.aspose.com/slides/el/python-net/) είναι μια ισχυρή βιβλιοθήκη Python που χρησιμοποιείται για το χειρισμό και την επεξεργασία παρουσιάσεων, εγγράφων PDF και άλλων αρχείων . Μπορείτε να επεξεργαστείτε ένα έγγραφο PDF προσθέτοντας μια νέα γραμμή κειμένου σε αυτό.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Πώς να επεξεργαστείτε το PDF στην Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να επεξεργαστείτε το PDF στην Python" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Εγκαταστήστε το **Aspose.Slides για Python μέσω .NET**. Δείτε [**Εγκατάσταση**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Προσθέστε τη βιβλιοθήκη ως αναφορά στο έργο σας.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Δημιουργήστε ένα στιγμιότυπο της κλάσης Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε το έγγραφο PDF που θέλετε να επεξεργαστείτε.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Προσθέστε μια νέα γραμμή κειμένου.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το αλλαγμένο αρχείο PDF.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/python-net/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/python-net/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Εγκαταστήστε το **Aspose.Slides για Python μέσω .NET**. Δείτε [**Εγκατάσταση**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε τη βιβλιοθήκη ως αναφορά στο έργο σας.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Δημιουργήστε ένα στιγμιότυπο της κλάσης Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Φορτώστε το έγγραφο PDF που θέλετε να επεξεργαστείτε.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε μια νέα γραμμή κειμένου.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθηκεύστε το αλλαγμένο αρχείο PDF.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

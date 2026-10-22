@@ -5,26 +5,18 @@ title: HTML'yi C++ ile düzenleyin
 url: /tr/cpp/editor/html/
 keywords: HTML, HTML, C++ API, C++ Kitaplığını Düzenle
 description: HTML'yi C++ ile düzenleyin. HTML dosyasını düzenlemek için C++ kitaplık API'sini kullanın
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="HTML'yi C++ ile düzenleyin" h2="C++ kodunu kullanarak HTML'yi düzenlemek için yüksek hızlı ve platformlar arası C++ kitaplığı" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="HTML'yi C++ ile düzenleyin" h2="C++ kodunu kullanarak HTML'yi düzenlemek için yüksek hızlı ve platformlar arası C++ kitaplığı" related="PPT,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides kullanarak HTML'yi düzenleyin" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="HTML'yi C++ ile düzenleyin" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumları, HTML belgelerini ve diğer dosyaları işlemek ve düzenlemek için kullanılan güçlü bir C++ kitaplığıdır. Yeni bir metin satırı ekleyerek bir HTML belgesini düzenleyebilirsiniz. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="HTML'yi C++ ile düzenleyin" %}}
 [**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/) kullanarak, yalnızca birkaç satır kodla bir HTML belgesine yeni bir metin satırı ekleyebilirsiniz.
 
-{{% blocks/products/pf/agp/code-block title="HTML'yi düzenlemek için C++ kodu" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="HTML'yi düzenlemek için C++ kodu" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -38,60 +30,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"page.html", SaveFormat::Html5);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides kullanarak HTML'yi düzenleyin" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumları, HTML belgelerini ve diğer dosyaları işlemek ve düzenlemek için kullanılan güçlü bir C++ kitaplığıdır. Yeni bir metin satırı ekleyerek bir HTML belgesini düzenleyebilirsiniz.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++'da HTML nasıl düzenlenir?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++'da HTML nasıl düzenlenir?" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kütüphaneyi projenize referans olarak ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Presentation sınıfının bir örneğini oluşturun.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Düzenlemek istediğiniz HTML belgesini yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Yeni bir metin satırı ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Değiştirilen HTML dosyasını kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/editor/pdf/" name="Edit PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kütüphaneyi projenize referans olarak ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Presentation sınıfının bir örneğini oluşturun.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Düzenlemek istediğiniz HTML belgesini yükleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Yeni bir metin satırı ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Değiştirilen HTML dosyasını kaydedin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/editor/pdf/" name="Edit PDF" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

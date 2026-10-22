@@ -5,25 +5,18 @@ title: Szerkessze a OTP fájlt PHP-ben
 url: /hu/php-java/editor/otp/
 keywords: Szerkesztés OTP, PowerPoint szerkesztése, OTP, PowerPoint, PHP API, PHP Library
 description: Szerkessze a OTP fájlt PHP-ben. Használja a PHP könyvtár API-t a OTP fájlok szerkesztéséhez
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Szerkessze a OTP fájlt PHP-ben" h2="Nagy sebességű és platformok közötti PHP-könyvtár a OTP szerkesztéséhez PHP-kóddal" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Szerkessze a OTP fájlt PHP-ben" h2="Nagy sebességű és platformok közötti PHP-könyvtár a OTP szerkesztéséhez PHP-kóddal" related="FODP,HTML,ODP,PDF,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Szerkessze a OTP fájlt az Aspose.Slides használatával" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szerkessze a OTP fájlt PHP-ben" variant="code" %}}
 
-Az [**Aspose.Slides for PHP Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) egy hatékony PHP-könyvtár a prezentációk gyors és egyszerű szerkesztéséhez. A funkciók széles skáláját kínálja a felhasználóknak, amelyek segítségével pillanatok alatt professzionális megjelenésű diákat hozhatnak létre. Az Aspose segítségével a felhasználók szöveget szerkeszthetnek, képeket, animációkat és átmeneteket adhatnak prezentációjukhoz, valamint különféle formázási beállításokat alkalmazhatnak, például betűtípust és színválasztást. Ezenkívül a könyvtár támogatja a PowerPoint (PPT) fájlokat és az OpenOffice Presentation (ODP) formátumokat is, ami minden eddiginél egyszerűbbé teszi a prezentációk megosztását különböző platformokon, kompatibilitási problémák nélkül. Ha kihasználja az Aspose könyvtárának erejét a következő prezentáció létrehozásakor vagy szerkesztésekor, biztos lehet benne, hogy diákjai minden alkalommal nagyszerűen fognak kinézni!
-Szerkeszthet egy OTP fájlt, ha új szövegsort ad hozzá. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Szerkessze a OTP fájlt PHP-ben" %}}
 Az [**Aspose.Slides for PHP Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) használatával új szövegsort adhat a OTP dokumentumhoz, mindössze egy néhány sor kódot.
 
-{{% blocks/products/pf/agp/code-block title="PHP kód a OTP szerkesztéséhez" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP kód a OTP szerkesztéséhez" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="A OTP szerkesztése PHP-ben" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szerkessze a OTP fájlt az Aspose.Slides használatával" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+Az [**Aspose.Slides for PHP Java-n keresztül**](https://products.aspose.com/slides/hu/php-java/) egy hatékony PHP-könyvtár a prezentációk gyors és egyszerű szerkesztéséhez. A funkciók széles skáláját kínálja a felhasználóknak, amelyek segítségével pillanatok alatt professzionális megjelenésű diákat hozhatnak létre. Az Aspose segítségével a felhasználók szöveget szerkeszthetnek, képeket, animációkat és átmeneteket adhatnak prezentációjukhoz, valamint különféle formázási beállításokat alkalmazhatnak, például betűtípust és színválasztást. Ezenkívül a könyvtár támogatja a PowerPoint (PPT) fájlokat és az OpenOffice Presentation (ODP) formátumokat is, ami minden eddiginél egyszerűbbé teszi a prezentációk megosztását különböző platformokon, kompatibilitási problémák nélkül. Ha kihasználja az Aspose könyvtárának erejét a következő prezentáció létrehozásakor vagy szerkesztésekor, biztos lehet benne, hogy diákjai minden alkalommal nagyszerűen fognak kinézni!
+Szerkeszthet egy OTP fájlt, ha új szövegsort ad hozzá.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az **Aspose.Slides for PHP-t Java-n keresztül**. Lásd: [**Telepítés**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="A OTP szerkesztése PHP-ben" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az **Aspose.Slides for PHP-t Java-n keresztül**. Lásd: [**Telepítés**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adja hozzá a könyvtárat referenciaként a projekthez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hozzon létre egy példányt a Prezentáció osztályból.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a szerkeszteni kívánt OTP prezentációt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá egy új szövegsort.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse el a módosított fájlt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Adja hozzá a könyvtárat referenciaként a projekthez.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Hozzon létre egy példányt a Prezentáció osztályból.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Töltse be a szerkeszteni kívánt OTP prezentációt.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá egy új szövegsort.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Mentse el a módosított fájlt.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

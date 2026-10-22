@@ -5,26 +5,18 @@ title: C++ で HTML を編集する
 url: /ja/cpp/editor/html/
 keywords: HTML、HTML、C++ API、C++ ライブラリの編集
 description: C++ で HTML を編集します。 C++ ライブラリ API を使用して HTML ファイルを編集する
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="C++ で HTML を編集する" h2="C++ コードを使用して HTML を編集するための高速でクロスプラットフォームの C++ ライブラリ" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ で HTML を編集する" h2="C++ コードを使用して HTML を編集するための高速でクロスプラットフォームの C++ ライブラリ" related="PPT,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides を使用して HTML を編集する" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ で HTML を編集する" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/ja/cpp/) は、プレゼンテーション、HTML ドキュメント、およびその他のファイルの操作と編集に使用される強力な C++ ライブラリです。新しいテキスト行を追加することで、HTML ドキュメントを編集できます。 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="C++ で HTML を編集する" %}}
 [**Aspose.Slides for C++**](https://products.aspose.com/slides/ja/cpp/) を使用すると、わずか数行のコードで HTML ドキュメントに新しいテキスト行を追加できます。
 
-{{% blocks/products/pf/agp/code-block title="HTML を編集するための C++ コード" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="HTML を編集するための C++ コード" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -38,60 +30,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"page.html", SaveFormat::Html5);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides を使用して HTML を編集する" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/ja/cpp/) は、プレゼンテーション、HTML ドキュメント、およびその他のファイルの操作と編集に使用される強力な C++ ライブラリです。新しいテキスト行を追加することで、HTML ドキュメントを編集できます。
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ で HTML を編集する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ で HTML を編集する方法" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for C++** をインストールします。 [**インストール**](https://docs.aspose.com/slides/cpp/installation/) を参照してください。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ライブラリを参照としてプロジェクトに追加します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}プレゼンテーション クラスのインスタンスを作成します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}編集する HTML ドキュメントを読み込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}新しいテキスト行を追加します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}変更した HTML ファイルを保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="他のファイルを編集する" subTitle="他の形式のファイルを編集することもできます" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/cpp/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/cpp/editor/pdf/" name="Edit PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++** をインストールします。 [**インストール**](https://docs.aspose.com/slides/cpp/installation/) を参照してください。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ライブラリを参照としてプロジェクトに追加します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーション クラスのインスタンスを作成します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-編集する HTML ドキュメントを読み込みます。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-新しいテキスト行を追加します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-変更した HTML ファイルを保存します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="他のファイルを編集する" subTitle="他の形式のファイルを編集することもできます" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/editor/pdf/" name="Edit PDF" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

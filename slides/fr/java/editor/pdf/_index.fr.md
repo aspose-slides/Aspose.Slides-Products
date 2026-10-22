@@ -5,26 +5,18 @@ title: Modifier un PDF en Java
 url: /fr/java/editor/pdf/
 keywords: Modifier PDF, PDF, API Java, bibliothèque Java
 description: Modifier le PDF en Java. Utiliser l'API de la bibliothèque Java pour modifier un document PDF
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Modifier un PDF en Java" h2="Bibliothèque Java haute vitesse et multiplateforme pour l'édition de PDF à l'aide de code Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Modifier un PDF en Java" h2="Bibliothèque Java haute vitesse et multiplateforme pour l'édition de PDF à l'aide de code Java" related="PPT,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Modifier un PDF à l'aide d'Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier un PDF en Java" variant="code" %}}
 
-[**Aspose.Slides pour Java**](https://products.aspose.com/slides/fr/java/) est une puissante bibliothèque Java utilisée pour manipuler et modifier des présentations, des documents PDF et d'autres fichiers. Vous pouvez modifier un document PDF en y ajoutant une nouvelle ligne de texte. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Modifier un PDF en Java" %}}
 En utilisant [**Aspose.Slides pour Java**](https://products.aspose.com/slides/fr/java/), vous pouvez ajouter une nouvelle ligne de texte à un document PDF avec seulement quelques lignes de code.
 
-{{% blocks/products/pf/agp/code-block title="Code Java pour l'édition de PDF" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Code Java pour l'édition de PDF" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -41,60 +33,30 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier un PDF à l'aide d'Aspose.Slides" %}}
 
+[**Aspose.Slides pour Java**](https://products.aspose.com/slides/fr/java/) est une puissante bibliothèque Java utilisée pour manipuler et modifier des présentations, des documents PDF et d'autres fichiers. Vous pouvez modifier un document PDF en y ajoutant une nouvelle ligne de texte.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment éditer un PDF en Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment éditer un PDF en Java" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installez **Aspose.Slides pour Java**. Voir [**Installation**](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez la bibliothèque comme référence dans votre projet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Créez une instance de la classe Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le document PDF que vous souhaitez modifier.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez une nouvelle ligne de texte.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier PDF modifié.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/java/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/java/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Installez **Aspose.Slides pour Java**. Voir [**Installation**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez la bibliothèque comme référence dans votre projet.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Créez une instance de la classe Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Chargez le document PDF que vous souhaitez modifier.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez une nouvelle ligne de texte.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrez le fichier PDF modifié.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

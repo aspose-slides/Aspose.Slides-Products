@@ -5,26 +5,18 @@ title: Upravit PDF v Javě
 url: /cs/java/editor/pdf/
 keywords: Úpravy PDF, PDF, Java API, Java Library
 description: Upravit PDF v Javě. K úpravě dokumentu PDF použijte API knihovny Java
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Upravit PDF v Javě" h2="Vysokorychlostní a multiplatformní knihovna Java pro úpravu PDF pomocí kódu Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Upravit PDF v Javě" h2="Vysokorychlostní a multiplatformní knihovna Java pro úpravu PDF pomocí kódu Java" related="PPT,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Upravte PDF pomocí Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Upravit PDF v Javě" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna, která se používá k manipulaci a úpravám prezentací, dokumentů PDF a dalších souborů. Dokument PDF můžete upravit přidáním nového řádku textu. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Upravit PDF v Javě" %}}
 Pomocí [**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) můžete do dokumentu PDF přidat nový řádek textu pomocí pouhých několika řádků kódu.
 
-{{% blocks/products/pf/agp/code-block title="Java kód pro úpravu PDF" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java kód pro úpravu PDF" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -41,60 +33,30 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Upravte PDF pomocí Aspose.Slides" %}}
 
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/cs/java/) je výkonná Java knihovna, která se používá k manipulaci a úpravám prezentací, dokumentů PDF a dalších souborů. Dokument PDF můžete upravit přidáním nového řádku textu.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak upravit PDF v Javě" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak upravit PDF v Javě" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nainstalujte **Aspose.Slides for Java**. Viz [**Instalace**](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte knihovnu jako referenci do svého projektu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Vytvořte instanci třídy Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte dokument PDF, který chcete upravit.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přidejte nový řádek textu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte změněný soubor PDF.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Upravte další soubory" subTitle="Můžete také upravovat soubory v jiných formátech" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/java/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte **Aspose.Slides for Java**. Viz [**Instalace**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte knihovnu jako referenci do svého projektu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Vytvořte instanci třídy Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte dokument PDF, který chcete upravit.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte nový řádek textu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte změněný soubor PDF.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Upravte další soubory" subTitle="Můžete také upravovat soubory v jiných formátech" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

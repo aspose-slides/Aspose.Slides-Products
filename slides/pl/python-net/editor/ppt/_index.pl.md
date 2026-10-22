@@ -5,26 +5,18 @@ title: Edytuj PPT w Pythonie
 url: /pl/python-net/editor/ppt/
 keywords: Edytuj PPT, Edytuj PowerPoint, PPT, PowerPoint, Python API, Python Library
 description: Edytuj PPT w Pythonie. Użyj API biblioteki Pythona, aby edytować prezentację PowerPoint
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edytuj PPT w Pythonie" h2="Szybka i wieloplatformowa biblioteka Pythona do edycji PPT przy użyciu kodu Pythona" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edytuj PPT w Pythonie" h2="Szybka i wieloplatformowa biblioteka Pythona do edycji PPT przy użyciu kodu Pythona" related="PDF,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Edytuj PPT za pomocą Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Edytuj PPT w Pythonie" variant="code" %}}
 
-[**Aspose.Slides dla Pythona przez .NET**](https://products.aspose.com/slides/pl/python-net/) to potężna biblioteka Pythona używana do manipulowania i edytowania prezentacji. Możesz edytować prezentację PPT, dodając do niej nowy wiersz tekstu. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Edytuj PPT w Pythonie" %}}
 Używając [**Aspose.Slides for Python przez .NET**](https://products.aspose.com/slides/pl/python-net/), możesz dodać nowy wiersz tekstu do dokumentu PPT za pomocą zaledwie kilku linie kodu.
 
-{{% blocks/products/pf/agp/code-block title="Kod Pythona do edycji PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kod Pythona do edycji PPT" >}}
 ```python
 
 import aspose.slides as slides
@@ -35,60 +27,30 @@ with slides.Presentation("pres.ppt") as pres:
 
     pres.save("pres.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Edytuj PPT za pomocą Aspose.Slides" %}}
 
+[**Aspose.Slides dla Pythona przez .NET**](https://products.aspose.com/slides/pl/python-net/) to potężna biblioteka Pythona używana do manipulowania i edytowania prezentacji. Możesz edytować prezentację PPT, dodając do niej nowy wiersz tekstu.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak edytować PPT w Pythonie" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak edytować PPT w Pythonie" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj bibliotekę jako odniesienie w swoim projekcie.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Utwórz wystąpienie klasy Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Załaduj prezentację PPT, którą chcesz edytować.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj nowy wiersz tekstu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz zmieniony plik programu PowerPoint.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Edytuj inne pliki" subTitle="Możesz także edytować pliki w innych formatach" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/python-net/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/python-net/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj bibliotekę jako odniesienie w swoim projekcie.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Utwórz wystąpienie klasy Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Załaduj prezentację PPT, którą chcesz edytować.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj nowy wiersz tekstu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz zmieniony plik programu PowerPoint.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Edytuj inne pliki" subTitle="Możesz także edytować pliki w innych formatach" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,25 +5,18 @@ title: PPSM dosyasını PHP'de düzenleyin
 url: /tr/php-java/editor/ppsm/
 keywords: PPSM Düzenle, PowerPoint'i Düzenle, PPSM, PowerPoint, PHP API, PHP Kitaplığı
 description: PPSM dosyasını PHP'de düzenleyin. PPSM dosyalarını düzenlemek için PHP kitaplık API'sini kullanın
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="PPSM dosyasını PHP'de düzenleyin" h2="PHP kodunu kullanarak PPSM düzenlemek için yüksek hızlı ve platformlar arası PHP kitaplığı" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPSM dosyasını PHP'de düzenleyin" h2="PHP kodunu kullanarak PPSM düzenlemek için yüksek hızlı ve platformlar arası PHP kitaplığı" related="FODP,HTML,ODP,OTP,PDF,POT,POTM,POTX,PPS,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides kullanarak PPSM dosyasını düzenleyin" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PPSM dosyasını PHP'de düzenleyin" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/tr/php-java/), sunumları hızlı ve kolay bir şekilde düzenlemek için güçlü bir PHP kitaplığıdır. Kullanıcılara, kısa sürede profesyonel görünümlü slaytlar oluşturmalarına yardımcı olacak çok çeşitli özellikler sunar. Aspose ile kullanıcılar sunumlarına metin düzenleyebilir, resimler, animasyonlar ve geçişler ekleyebilir, ayrıca yazı tipi ve renk seçimi gibi çeşitli biçimlendirme seçeneklerini uygulayabilir. Ek olarak, kitaplık hem PowerPoint (PPT) dosyaları hem de OpenOffice Presentation (ODP) formatları için destek sunarak sunumları herhangi bir uyumluluk sorunu ortaya çıkmadan farklı platformlarda paylaşmayı her zamankinden daha kolay hale getirir. Bir sonraki sunumunuzu oluştururken veya düzenlerken Aspose'un kütüphanesinin gücünden yararlanarak, slaytlarınızın her seferinde harika göründüğünden emin olacaksınız!
-Bir PPSM dosyasını, ona yeni bir metin satırı ekleyerek düzenleyebilirsiniz. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="PPSM dosyasını PHP'de düzenleyin" %}}
 [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/tr/php-java/) kullanarak, PPSM belgesine yalnızca bir metin satırıyla yeni bir metin satırı ekleyebilirsiniz. birkaç kod satırı.
 
-{{% blocks/products/pf/agp/code-block title="PPSM düzenlemesi için PHP kodu" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPSM düzenlemesi için PHP kodu" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="PHP'de PPSM nasıl düzenlenir" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides kullanarak PPSM dosyasını düzenleyin" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/tr/php-java/), sunumları hızlı ve kolay bir şekilde düzenlemek için güçlü bir PHP kitaplığıdır. Kullanıcılara, kısa sürede profesyonel görünümlü slaytlar oluşturmalarına yardımcı olacak çok çeşitli özellikler sunar. Aspose ile kullanıcılar sunumlarına metin düzenleyebilir, resimler, animasyonlar ve geçişler ekleyebilir, ayrıca yazı tipi ve renk seçimi gibi çeşitli biçimlendirme seçeneklerini uygulayabilir. Ek olarak, kitaplık hem PowerPoint (PPT) dosyaları hem de OpenOffice Presentation (ODP) formatları için destek sunarak sunumları herhangi bir uyumluluk sorunu ortaya çıkmadan farklı platformlarda paylaşmayı her zamankinden daha kolay hale getirir. Bir sonraki sunumunuzu oluştururken veya düzenlerken Aspose'un kütüphanesinin gücünden yararlanarak, slaytlarınızın her seferinde harika göründüğünden emin olacaksınız!
+Bir PPSM dosyasını, ona yeni bir metin satırı ekleyerek düzenleyebilirsiniz.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for PHP'yi Java aracılığıyla** kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PHP'de PPSM nasıl düzenlenir" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for PHP'yi Java aracılığıyla** kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kütüphaneyi projenize referans olarak ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Presentation sınıfının bir örneğini oluşturun.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Düzenlemek istediğiniz PPSM sunumunu yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Yeni bir metin satırı ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Değiştirilen dosyayı kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Kütüphaneyi projenize referans olarak ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Presentation sınıfının bir örneğini oluşturun.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Düzenlemek istediğiniz PPSM sunumunu yükleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Yeni bir metin satırı ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Değiştirilen dosyayı kaydedin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

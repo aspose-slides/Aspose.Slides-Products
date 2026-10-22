@@ -5,25 +5,18 @@ title: Modifier PPTX en PHP
 url: /fr/php-java/editor/pptx/
 keywords: Modifier PPTX, Modifier PowerPoint, PPTX, PowerPoint, API PHP, Bibliothèque PHP
 description: Modifiez PPTX en PHP. Utilisez l'API de la bibliothèque PHP pour modifier les fichiers PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Modifier PPTX en PHP" h2="Bibliothèque PHP haute vitesse et multiplateforme pour l'édition de PPTX à l'aide de code PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Modifier PPTX en PHP" h2="Bibliothèque PHP haute vitesse et multiplateforme pour l'édition de PPTX à l'aide de code PHP" related="FODP,HTML,ODP,OTP,PDF,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Modifier PPTX à l'aide d'Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier PPTX en PHP" variant="code" %}}
 
-[**Aspose.Slides pour PHP via Java**](https://products.aspose.com/slides/fr/php-java/) est une puissante bibliothèque PHP pour éditer des présentations rapidement et facilement. Il offre aux utilisateurs une vaste gamme de fonctionnalités pour les aider à créer des diapositives d'aspect professionnel en un rien de temps. Avec Aspose, les utilisateurs peuvent modifier du texte, ajouter des images, des animations et des transitions à leur présentation, ainsi qu'appliquer diverses options de formatage telles que le type de police et la sélection des couleurs. De plus, la bibliothèque prend en charge les fichiers PowerPoint (PPT) et les formats de présentation OpenOffice (ODP), ce qui facilite plus que jamais le partage de présentations sur différentes plates-formes sans aucun problème de compatibilité. En tirant parti de la puissance de la bibliothèque d'Aspose lors de la création ou de la modification de votre prochaine présentation, vous serez sûr que vos diapositives seront superbes à chaque fois !
-Vous pouvez modifier un fichier PPTX en y ajoutant une nouvelle ligne de texte. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Modifier PPTX en PHP" %}}
 En utilisant [**Aspose.Slides pour PHP via Java**](https://products.aspose.com/slides/fr/php-java/), vous pouvez ajouter une nouvelle ligne de texte au document PPTX avec juste un quelques lignes de code.
 
-{{% blocks/products/pf/agp/code-block title="Code PHP pour l'édition de PPTX" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Code PHP pour l'édition de PPTX" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment modifier PPTX en PHP" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier PPTX à l'aide d'Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[**Aspose.Slides pour PHP via Java**](https://products.aspose.com/slides/fr/php-java/) est une puissante bibliothèque PHP pour éditer des présentations rapidement et facilement. Il offre aux utilisateurs une vaste gamme de fonctionnalités pour les aider à créer des diapositives d'aspect professionnel en un rien de temps. Avec Aspose, les utilisateurs peuvent modifier du texte, ajouter des images, des animations et des transitions à leur présentation, ainsi qu'appliquer diverses options de formatage telles que le type de police et la sélection des couleurs. De plus, la bibliothèque prend en charge les fichiers PowerPoint (PPT) et les formats de présentation OpenOffice (ODP), ce qui facilite plus que jamais le partage de présentations sur différentes plates-formes sans aucun problème de compatibilité. En tirant parti de la puissance de la bibliothèque d'Aspose lors de la création ou de la modification de votre prochaine présentation, vous serez sûr que vos diapositives seront superbes à chaque fois !
+Vous pouvez modifier un fichier PPTX en y ajoutant une nouvelle ligne de texte.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installez **Aspose.Slides pour PHP via Java**. Voir [**Installation**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment modifier PPTX en PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installez **Aspose.Slides pour PHP via Java**. Voir [**Installation**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez la bibliothèque comme référence dans votre projet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Créez une instance de la classe Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez la présentation PPTX que vous souhaitez modifier.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez une nouvelle ligne de texte.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier modifié.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez la bibliothèque comme référence dans votre projet.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Créez une instance de la classe Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/pptm/" name="PPTM" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Chargez la présentation PPTX que vous souhaitez modifier.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajoutez une nouvelle ligne de texte.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrez le fichier modifié.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/php-java/editor/pptm/" name="PPTM" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

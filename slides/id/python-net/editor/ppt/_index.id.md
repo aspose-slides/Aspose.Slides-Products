@@ -5,26 +5,18 @@ title: Edit PPT dengan Python
 url: /id/python-net/editor/ppt/
 keywords: Edit PPT, Edit PowerPoint, PPT, PowerPoint, Python API, Perpustakaan Python
 description: Edit PPT dengan Python. Gunakan Python library API untuk mengedit presentasi PowerPoint
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Edit PPT dengan Python" h2="Pustaka Python berkecepatan tinggi dan lintas platform untuk mengedit PPT menggunakan kode Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edit PPT dengan Python" h2="Pustaka Python berkecepatan tinggi dan lintas platform untuk mengedit PPT menggunakan kode Python" related="PDF,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Edit PPT menggunakan Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Edit PPT dengan Python" variant="code" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/id/python-net/) adalah library Python andal yang digunakan untuk memanipulasi dan mengedit presentasi. Anda dapat mengedit presentasi PPT dengan menambahkan baris teks baru ke dalamnya. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Edit PPT dengan Python" %}}
 Menggunakan [**Aspose.Slides untuk Python via .NET**](https://products.aspose.com/slides/id/python-net/), Anda dapat menambahkan baris teks baru ke dokumen PPT hanya dengan beberapa baris kode.
 
-{{% blocks/products/pf/agp/code-block title="Kode python untuk mengedit PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode python untuk mengedit PPT" >}}
 ```python
 
 import aspose.slides as slides
@@ -35,60 +27,30 @@ with slides.Presentation("pres.ppt") as pres:
 
     pres.save("pres.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Edit PPT menggunakan Aspose.Slides" %}}
 
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/id/python-net/) adalah library Python andal yang digunakan untuk memanipulasi dan mengedit presentasi. Anda dapat mengedit presentasi PPT dengan menambahkan baris teks baru ke dalamnya.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara mengedit PPT dengan Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara mengedit PPT dengan Python" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal **Aspose.Slides untuk Python melalui .NET**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan perpustakaan sebagai referensi dalam proyek Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buat sebuah instance dari kelas Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat presentasi PPT yang ingin Anda edit.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan baris teks baru.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan file PowerPoint yang diubah.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Mengedit file lain" subTitle="Anda juga dapat mengedit file dalam format lain" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk Python melalui .NET**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan perpustakaan sebagai referensi dalam proyek Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Buat sebuah instance dari kelas Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat presentasi PPT yang ingin Anda edit.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan baris teks baru.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan file PowerPoint yang diubah.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Mengedit file lain" subTitle="Anda juga dapat mengedit file dalam format lain" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

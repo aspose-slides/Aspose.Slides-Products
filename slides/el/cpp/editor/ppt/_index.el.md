@@ -5,26 +5,18 @@ title: Επεξεργαστείτε το PPT σε C++
 url: /el/cpp/editor/ppt/
 keywords: Επεξεργασία PPT, Επεξεργασία PowerPoint, PPT, PowerPoint, C++ API, Βιβλιοθήκη C++
 description: Επεξεργαστείτε το PPT σε C++. Χρησιμοποιήστε το API βιβλιοθήκης C++ για να επεξεργαστείτε την παρουσίαση του PowerPoint
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Επεξεργαστείτε το PPT σε C++" h2="Βιβλιοθήκη C++ υψηλής ταχύτητας και πολλαπλών πλατφορμών για επεξεργασία PPT με χρήση κώδικα C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Επεξεργαστείτε το PPT σε C++" h2="Βιβλιοθήκη C++ υψηλής ταχύτητας και πολλαπλών πλατφορμών για επεξεργασία PPT με χρήση κώδικα C++" related="PDF,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Επεξεργαστείτε το PPT χρησιμοποιώντας το Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Επεξεργαστείτε το PPT σε C++" variant="code" %}}
 
-Το [**Aspose.Slides for C++**](https://products.aspose.com/slides/el/cpp/) είναι μια ισχυρή βιβλιοθήκη C++ που χρησιμοποιείται για το χειρισμό και την επεξεργασία παρουσιάσεων. Μπορείτε να επεξεργαστείτε μια παρουσίαση PPT προσθέτοντας μια νέα γραμμή κειμένου σε αυτήν. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Επεξεργαστείτε το PPT σε C++" %}}
 Χρησιμοποιώντας το [**Aspose.Slides για C++**](https://products.aspose.com/slides/el/cpp/), μπορείτε να προσθέσετε μια νέα γραμμή κειμένου σε ένα έγγραφο PPT με λίγες μόνο γραμμές κώδικα.
 
-{{% blocks/products/pf/agp/code-block title="Κωδικός C++ για επεξεργασία PPT" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κωδικός C++ για επεξεργασία PPT" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>(u"pres.ppt");
@@ -35,60 +27,30 @@ shape->get_TextFrame()->set_Text(u"New text");
 
 pres->Save(u"pres.pdf", SaveFormat::Ppt);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Επεξεργαστείτε το PPT χρησιμοποιώντας το Aspose.Slides" %}}
 
+Το [**Aspose.Slides for C++**](https://products.aspose.com/slides/el/cpp/) είναι μια ισχυρή βιβλιοθήκη C++ που χρησιμοποιείται για το χειρισμό και την επεξεργασία παρουσιάσεων. Μπορείτε να επεξεργαστείτε μια παρουσίαση PPT προσθέτοντας μια νέα γραμμή κειμένου σε αυτήν.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Πώς να επεξεργαστείτε το PPT σε C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να επεξεργαστείτε το PPT σε C++" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Εγκαταστήστε το **Aspose.Slides για C++**. Δείτε [**Εγκατάσταση**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Προσθέστε τη βιβλιοθήκη ως αναφορά στο έργο σας.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Δημιουργήστε ένα στιγμιότυπο της κλάσης Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε την παρουσίαση PPT που θέλετε να επεξεργαστείτε.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Προσθέστε μια νέα γραμμή κειμένου.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το αλλαγμένο αρχείο PowerPoint.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/editor/pdf/" name="Edit PDF" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Εγκαταστήστε το **Aspose.Slides για C++**. Δείτε [**Εγκατάσταση**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε τη βιβλιοθήκη ως αναφορά στο έργο σας.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Δημιουργήστε ένα στιγμιότυπο της κλάσης Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Φορτώστε την παρουσίαση PPT που θέλετε να επεξεργαστείτε.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε μια νέα γραμμή κειμένου.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθηκεύστε το αλλαγμένο αρχείο PowerPoint.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/editor/pdf/" name="Edit PDF" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/cpp/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

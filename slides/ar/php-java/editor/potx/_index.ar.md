@@ -5,25 +5,18 @@ title: تحرير POTX في PHP
 url: /ar/php-java/editor/potx/
 keywords: تحرير POTX ، تحرير PowerPoint ، POTX ، PowerPoint ، PHP API ، مكتبة PHP
 description: تحرير POTX في PHP. استخدم PHP Library API لتحرير ملفات POTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="تحرير POTX في PHP" h2="مكتبة PHP عالية السرعة ومتعددة الأنظمة للتحرير POTX باستخدام كود PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تحرير POTX في PHP" h2="مكتبة PHP عالية السرعة ومتعددة الأنظمة للتحرير POTX باستخدام كود PHP" related="FODP,HTML,ODP,OTP,PDF,POT,POTM,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="تحرير POTX باستخدام Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تحرير POTX في PHP" variant="code" %}}
 
-[** Aspose.Slides for PHP via Java **](https://products.aspose.com/slides/ar/php-java/) هي مكتبة PHP قوية لتحرير العروض التقديمية بسرعة وسهولة. يوفر للمستخدمين مجموعة واسعة من الميزات لمساعدتهم على إنشاء شرائح ذات مظهر احترافي في أي وقت من الأوقات على الإطلاق. باستخدام Aspose ، يمكن للمستخدمين تحرير النص وإضافة الصور والرسوم المتحركة والانتقالات إلى عرضهم التقديمي بالإضافة إلى تطبيق خيارات تنسيق مختلفة مثل نوع الخط واختيار اللون. بالإضافة إلى ذلك ، تقدم المكتبة الدعم لكل من ملفات PowerPoint (PPT) وتنسيقات OpenOffice Presentation (ODP) مما يجعل مشاركة العروض التقديمية عبر منصات مختلفة أسهل من أي وقت مضى دون ظهور أي مشاكل في التوافق. من خلال الاستفادة من قوة مكتبة Aspose عند إنشاء أو تعديل عرضك التقديمي التالي ، ستكون على يقين من أن شرائحك تبدو رائعة في كل مرة!
-يمكنك تحرير ملف POTX عن طريق إضافة سطر جديد من النص إليه. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="تحرير POTX في PHP" %}}
 باستخدام [** Aspose.Slides for PHP via Java **](https://products.aspose.com/slides/ar/php-java/) ، يمكنك إضافة سطر جديد من النص إلى مستند POTX بمجرد بضعة أسطر من التعليمات البرمجية.
 
-{{% blocks/products/pf/agp/code-block title="كود PHP لتحرير POTX" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="كود PHP لتحرير POTX" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية تحرير POTX في PHP" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تحرير POTX باستخدام Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[** Aspose.Slides for PHP via Java **](https://products.aspose.com/slides/ar/php-java/) هي مكتبة PHP قوية لتحرير العروض التقديمية بسرعة وسهولة. يوفر للمستخدمين مجموعة واسعة من الميزات لمساعدتهم على إنشاء شرائح ذات مظهر احترافي في أي وقت من الأوقات على الإطلاق. باستخدام Aspose ، يمكن للمستخدمين تحرير النص وإضافة الصور والرسوم المتحركة والانتقالات إلى عرضهم التقديمي بالإضافة إلى تطبيق خيارات تنسيق مختلفة مثل نوع الخط واختيار اللون. بالإضافة إلى ذلك ، تقدم المكتبة الدعم لكل من ملفات PowerPoint (PPT) وتنسيقات OpenOffice Presentation (ODP) مما يجعل مشاركة العروض التقديمية عبر منصات مختلفة أسهل من أي وقت مضى دون ظهور أي مشاكل في التوافق. من خلال الاستفادة من قوة مكتبة Aspose عند إنشاء أو تعديل عرضك التقديمي التالي ، ستكون على يقين من أن شرائحك تبدو رائعة في كل مرة!
+يمكنك تحرير ملف POTX عن طريق إضافة سطر جديد من النص إليه.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تثبيت ** Aspose.Slides for PHP عبر Java **. راجع [** التثبيت **](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية تحرير POTX في PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}تثبيت ** Aspose.Slides for PHP عبر Java **. راجع [** التثبيت **](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}أضف المكتبة كمرجع في مشروعك.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}قم بإنشاء مثيل لفئة العرض التقديمي.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}قم بتحميل العرض التقديمي POTX الذي تريد تحريره.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}أضف سطرًا جديدًا من النص.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ الملف الذي تم تغييره.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-أضف المكتبة كمرجع في مشروعك.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بإنشاء مثيل لفئة العرض التقديمي.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="قم بتحرير الملفات الأخرى" subTitle="يمكنك أيضًا تحرير الملفات بتنسيقات أخرى" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بتحميل العرض التقديمي POTX الذي تريد تحريره.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-أضف سطرًا جديدًا من النص.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ الملف الذي تم تغييره.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="قم بتحرير الملفات الأخرى" subTitle="يمكنك أيضًا تحرير الملفات بتنسيقات أخرى" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: Python'da PDF'yi düzenleyin
 url: /tr/python-net/editor/pdf/
 keywords: PDF, PDF, Python API, Python Kitaplığını Düzenle
 description: Python'da PDF'yi düzenleyin. PDF belgesini düzenlemek için Python kitaplığı API'sini kullanın
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Python'da PDF'yi düzenleyin" h2="Python kodunu kullanarak PDF düzenlemek için yüksek hızlı ve platformlar arası Python kitaplığı" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python'da PDF'yi düzenleyin" h2="Python kodunu kullanarak PDF düzenlemek için yüksek hızlı ve platformlar arası Python kitaplığı" related="PPT,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides kullanarak PDF'yi düzenleyin" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python'da PDF'yi düzenleyin" variant="code" %}}
 
-[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/tr/python-net/), sunumları, PDF belgelerini ve diğer dosyaları işlemek ve düzenlemek için kullanılan güçlü bir Python kitaplığıdır . Yeni bir metin satırı ekleyerek bir PDF belgesini düzenleyebilirsiniz. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Python'da PDF'yi düzenleyin" %}}
 [**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/tr/python-net/) kullanarak, bir PDF belgesine yalnızca birkaç satırla yeni bir metin satırı ekleyebilirsiniz. Kod satırları.
 
-{{% blocks/products/pf/agp/code-block title="PDF'yi düzenlemek için Python kodu" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PDF'yi düzenlemek için Python kodu" >}}
 ```python
 
 import aspose.slides as slides
@@ -38,60 +30,30 @@ with slides.Presentation() as pres:
 
     pres.save("document.pdf", slides.export.SaveFormat.PDF)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides kullanarak PDF'yi düzenleyin" %}}
 
+[**Aspose.Slides for Python via .NET**](https://products.aspose.com/slides/tr/python-net/), sunumları, PDF belgelerini ve diğer dosyaları işlemek ve düzenlemek için kullanılan güçlü bir Python kitaplığıdır . Yeni bir metin satırı ekleyerek bir PDF belgesini düzenleyebilirsiniz.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python'da PDF nasıl düzenlenir" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python'da PDF nasıl düzenlenir" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for Python'u .NET üzerinden** kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kütüphaneyi projenize referans olarak ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Presentation sınıfının bir örneğini oluşturun.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Düzenlemek istediğiniz PDF belgesini yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Yeni bir metin satırı ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Değiştirilen PDF dosyasını kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/python-net/editor/ppt/" name="Edit PPT" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/python-net/editor/html/" name="Edit HTML" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for Python'u .NET üzerinden** kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kütüphaneyi projenize referans olarak ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Presentation sınıfının bir örneğini oluşturun.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Düzenlemek istediğiniz PDF belgesini yükleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Yeni bir metin satırı ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Değiştirilen PDF dosyasını kaydedin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer dosyaları düzenle" subTitle="Diğer formatlardaki dosyaları da düzenleyebilirsiniz." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/editor/ppt/" name="Edit PPT" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/editor/html/" name="Edit HTML" >}}  
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

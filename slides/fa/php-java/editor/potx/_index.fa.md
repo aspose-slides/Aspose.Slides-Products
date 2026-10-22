@@ -5,25 +5,18 @@ title: POTX را در PHP ویرایش کنید
 url: /fa/php-java/editor/potx/
 keywords: ویرایش POTX، ویرایش پاورپوینت، POTX، پاورپوینت، PHP API، کتابخانه PHP
 description: POTX را در PHP ویرایش کنید. از API کتابخانه PHP برای ویرایش فایل‌های POTX استفاده کنید
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="POTX را در PHP ویرایش کنید" h2="کتابخانه PHP پرسرعت و چند پلتفرمی برای ویرایش POTX با استفاده از کد PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="POTX را در PHP ویرایش کنید" h2="کتابخانه PHP پرسرعت و چند پلتفرمی برای ویرایش POTX با استفاده از کد PHP" related="FODP,HTML,ODP,OTP,PDF,POT,POTM,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="با استفاده از Aspose.Slides، POTX را ویرایش کنید" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="POTX را در PHP ویرایش کنید" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ویرایش سریع و آسان ارائه ها است. طیف گسترده ای از ویژگی ها را در اختیار کاربران قرار می دهد تا به آنها کمک کند اسلایدهایی با ظاهری حرفه ای در کمترین زمان ایجاد کنند. با Aspose، کاربران می توانند متن را ویرایش کنند، تصاویر، انیمیشن ها و انتقال ها را به ارائه خود اضافه کنند و همچنین گزینه های قالب بندی مختلف مانند نوع فونت و انتخاب رنگ را اعمال کنند. علاوه بر این، این کتابخانه هم از فایل‌های پاورپوینت (PPT) و هم از فرمت‌های OpenOffice Presentation (ODP) پشتیبانی می‌کند که اشتراک‌گذاری ارائه‌ها را در پلتفرم‌های مختلف بدون بروز هرگونه مشکل سازگاری آسان‌تر از همیشه می‌کند. با استفاده از قدرت کتابخانه Aspose هنگام ایجاد یا ویرایش ارائه بعدی، مطمئن خواهید بود که اسلایدهای شما هر بار عالی به نظر می رسند!
-می توانید یک فایل POTX را با افزودن یک خط متن جدید به آن ویرایش کنید. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="POTX را در PHP ویرایش کنید" %}}
 با استفاده از [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/)، می توانید تنها با یک خط متنی جدید به سند POTX اضافه کنید. چند خط کد
 
-{{% blocks/products/pf/agp/code-block title="کد PHP برای ویرایش POTX" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد PHP برای ویرایش POTX" >}}
 ```php
 
 <?php
@@ -48,62 +41,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه ویرایش POTX در PHP" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="با استفاده از Aspose.Slides، POTX را ویرایش کنید" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/fa/php-java/) یک کتابخانه قدرتمند PHP برای ویرایش سریع و آسان ارائه ها است. طیف گسترده ای از ویژگی ها را در اختیار کاربران قرار می دهد تا به آنها کمک کند اسلایدهایی با ظاهری حرفه ای در کمترین زمان ایجاد کنند. با Aspose، کاربران می توانند متن را ویرایش کنند، تصاویر، انیمیشن ها و انتقال ها را به ارائه خود اضافه کنند و همچنین گزینه های قالب بندی مختلف مانند نوع فونت و انتخاب رنگ را اعمال کنند. علاوه بر این، این کتابخانه هم از فایل‌های پاورپوینت (PPT) و هم از فرمت‌های OpenOffice Presentation (ODP) پشتیبانی می‌کند که اشتراک‌گذاری ارائه‌ها را در پلتفرم‌های مختلف بدون بروز هرگونه مشکل سازگاری آسان‌تر از همیشه می‌کند. با استفاده از قدرت کتابخانه Aspose هنگام ایجاد یا ویرایش ارائه بعدی، مطمئن خواهید بود که اسلایدهای شما هر بار عالی به نظر می رسند!
+می توانید یک فایل POTX را با افزودن یک خط متن جدید به آن ویرایش کنید.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای PHP از طریق جاوا** نصب کنید. [**نصب**](https://docs.aspose.com/slides/php-java/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه ویرایش POTX در PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides را برای PHP از طریق جاوا** نصب کنید. [**نصب**](https://docs.aspose.com/slides/php-java/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک نمونه از کلاس Presentation ایجاد کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ارائه POTX را که می خواهید ویرایش کنید بارگیری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک خط جدید از متن اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل تغییر یافته را ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-یک نمونه از کلاس Presentation ایجاد کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="فایل های دیگر را ویرایش کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ویرایش کنید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/pdf/" name="PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ارائه POTX را که می خواهید ویرایش کنید بارگیری کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-یک خط جدید از متن اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل تغییر یافته را ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="فایل های دیگر را ویرایش کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ویرایش کنید" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/pdf/" name="PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

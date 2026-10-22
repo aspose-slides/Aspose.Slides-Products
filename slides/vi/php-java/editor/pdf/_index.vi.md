@@ -5,25 +5,18 @@ title: Chỉnh sửa PDF trong PHP
 url: /vi/php-java/editor/pdf/
 keywords: Chỉnh sửa PDF, Chỉnh sửa PowerPoint, PDF, PowerPoint, API PHP, Thư viện PHP
 description: Chỉnh sửa PDF trong PHP. Sử dụng API thư viện PHP để chỉnh sửa tệp PDF
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Chỉnh sửa PDF trong PHP" h2="Thư viện PHP đa nền tảng và tốc độ cao để chỉnh sửa PDF bằng mã PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Chỉnh sửa PDF trong PHP" h2="Thư viện PHP đa nền tảng và tốc độ cao để chỉnh sửa PDF bằng mã PHP" related="FODP,HTML,ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Chỉnh sửa PDF bằng Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Chỉnh sửa PDF trong PHP" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/vi/php-java/) là một thư viện PHP mạnh mẽ để chỉnh sửa bản trình bày một cách nhanh chóng và dễ dàng. Nó cung cấp cho người dùng một loạt các tính năng để giúp họ tạo các trang trình bày chuyên nghiệp một cách nhanh chóng. Với Aspose, người dùng có thể chỉnh sửa văn bản, thêm hình ảnh, hoạt ảnh và chuyển tiếp vào bản trình bày của họ cũng như áp dụng các tùy chọn định dạng khác nhau như loại phông chữ và lựa chọn màu sắc. Ngoài ra, thư viện cung cấp hỗ trợ cho cả tệp PowerPoint (PPT) và định dạng Bản trình bày OpenOffice (ODP), giúp chia sẻ bản trình bày trên các nền tảng khác nhau dễ dàng hơn bao giờ hết mà không phát sinh bất kỳ sự cố tương thích nào. Bằng cách tận dụng sức mạnh của thư viện Aspose khi tạo hoặc chỉnh sửa bản trình bày tiếp theo của bạn, bạn sẽ chắc chắn rằng các trang trình bày của mình luôn trông tuyệt vời!
-Bạn có thể chỉnh sửa tệp PDF bằng cách thêm một dòng văn bản mới vào tệp đó. 
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Chỉnh sửa PDF trong PHP" %}}
 Sử dụng [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/vi/php-java/), bạn có thể thêm một dòng văn bản mới vào tài liệu PDF chỉ bằng một vài dòng mã.
 
-{{% blocks/products/pf/agp/code-block title="Mã PHP để chỉnh sửa PDF" offSpacer="true" %}}
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mã PHP để chỉnh sửa PDF" >}}
 ```php
 
 <?php
@@ -51,62 +44,42 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách chỉnh sửa PDF trong PHP" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Chỉnh sửa PDF bằng Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/vi/php-java/) là một thư viện PHP mạnh mẽ để chỉnh sửa bản trình bày một cách nhanh chóng và dễ dàng. Nó cung cấp cho người dùng một loạt các tính năng để giúp họ tạo các trang trình bày chuyên nghiệp một cách nhanh chóng. Với Aspose, người dùng có thể chỉnh sửa văn bản, thêm hình ảnh, hoạt ảnh và chuyển tiếp vào bản trình bày của họ cũng như áp dụng các tùy chọn định dạng khác nhau như loại phông chữ và lựa chọn màu sắc. Ngoài ra, thư viện cung cấp hỗ trợ cho cả tệp PowerPoint (PPT) và định dạng Bản trình bày OpenOffice (ODP), giúp chia sẻ bản trình bày trên các nền tảng khác nhau dễ dàng hơn bao giờ hết mà không phát sinh bất kỳ sự cố tương thích nào. Bằng cách tận dụng sức mạnh của thư viện Aspose khi tạo hoặc chỉnh sửa bản trình bày tiếp theo của bạn, bạn sẽ chắc chắn rằng các trang trình bày của mình luôn trông tuyệt vời!
+Bạn có thể chỉnh sửa tệp PDF bằng cách thêm một dòng văn bản mới vào tệp đó.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cài đặt **Aspose.Slides cho PHP qua Java**. Xem [**Cài đặt**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách chỉnh sửa PDF trong PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cài đặt **Aspose.Slides cho PHP qua Java**. Xem [**Cài đặt**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Thêm thư viện làm tài liệu tham khảo trong dự án của bạn.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tạo một thể hiện của lớp Trình bày.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải bản trình bày PDF mà bạn muốn chỉnh sửa.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Thêm một dòng văn bản mới.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu tệp đã thay đổi.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Thêm thư viện làm tài liệu tham khảo trong dự án của bạn.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tạo một thể hiện của lớp Trình bày.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Chỉnh sửa các tệp khác" subTitle="Bạn cũng có thể chỉnh sửa tệp ở các định dạng khác" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/html/" name="HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải bản trình bày PDF mà bạn muốn chỉnh sửa.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Thêm một dòng văn bản mới.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu tệp đã thay đổi.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Chỉnh sửa các tệp khác" subTitle="Bạn cũng có thể chỉnh sửa tệp ở các định dạng khác" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/html/" name="HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/php-java/editor/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
