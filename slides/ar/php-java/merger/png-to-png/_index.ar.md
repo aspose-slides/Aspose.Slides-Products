@@ -5,26 +5,18 @@ title: دمج صور PNG في PHP
 url: /ar/php-java/merger/png-to-png/
 keywords: دمج PNG و PNG و PNG وضم PNG ودمج PNG و PHP API و PHP Library
 description: دمج PNG في PNG في PHP. استخدم مكتبة PHP API لدمج ملفات PNG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="دمج PNG في PHP" h2="مكتبة PHP عالية السرعة ومتعددة الأنظمة لدمج صور PNG باستخدام كود PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="دمج PNG في PHP" h2="مكتبة PHP عالية السرعة ومتعددة الأنظمة لدمج صور PNG باستخدام كود PHP" related="JPG,HTML,IMAGE,PDF,PNG,SVG,BMP" >}}
 
-{{% blocks/products/pf/feature-page-section h2="ادمج PNG في PNG باستخدام Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="دمج PNG في PNG في PHP" variant="code" %}}
 
-[** Aspose.Slides for PHP عبر Java **](https://products.aspose.com/slides/ar/php-java/) هي مكتبة PHP قوية تُستخدم لدمج ومعالجة العروض التقديمية والصور والملفات الأخرى. عندما تقوم بدمج PNG إلى PNG ، فأنت تقوم بجمع صورتين بشكل فعال للحصول على صورة واحدة.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="دمج PNG في PNG في PHP" %}}
 باستخدام [** Aspose.Slides for PHP عبر Java **](https://products.aspose.com/slides/ar/php-java/) ، يمكنك دمج ملفات PNG بسرعة ببضعة سطور من التعليمات البرمجية
 
-{{% blocks/products/pf/agp/code-block title="كود PHP لدمج PNG في PNG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="كود PHP لدمج PNG في PNG" >}}
 ```php
 
 <?php
@@ -67,65 +59,38 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ادمج PNG في PNG باستخدام Aspose.Slides" %}}
 
+[** Aspose.Slides for PHP عبر Java **](https://products.aspose.com/slides/ar/php-java/) هي مكتبة PHP قوية تُستخدم لدمج ومعالجة العروض التقديمية والصور والملفات الأخرى. عندما تقوم بدمج PNG إلى PNG ، فأنت تقوم بجمع صورتين بشكل فعال للحصول على صورة واحدة.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية دمج PNG في PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية دمج PNG في PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}تثبيت ** Aspose.Slides for PHP عبر Java **. راجع [** التثبيت **](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}أضف المكتبة كمرجع في مشروعك.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}قم بإنشاء مثيل لفئة العرض التقديمي.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}قم بتحميل ملفات PNG التي تريد دمجها كإطارات صور.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ صورة PNG الناتجة.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="دمج ملفات PDF على الإنترنت"
+  description="[كيفية دمج ملفات PDF في بايثون](https://products.aspose.com/slides/ar/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="دمج الملفات الأخرى" subTitle="يمكنك أيضًا دمج الملفات بتنسيقات أخرى للحصول على ملف واحد" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/svg-to-png/" name="SVG TO PNG" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/php-java/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تثبيت ** Aspose.Slides for PHP عبر Java **. راجع [** التثبيت **](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-أضف المكتبة كمرجع في مشروعك.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بإنشاء مثيل لفئة العرض التقديمي.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بتحميل ملفات PNG التي تريد دمجها كإطارات صور.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ صورة PNG الناتجة.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="دمج ملفات PDF على الإنترنت" sectionDescription="[كيفية دمج ملفات PDF في بايثون](https://products.aspose.com/slides/ar/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="دمج الملفات الأخرى" subTitle="يمكنك أيضًا دمج الملفات بتنسيقات أخرى للحصول على ملف واحد" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/php-java/merger/html-to-image/" name="HTML TO IMAGE" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

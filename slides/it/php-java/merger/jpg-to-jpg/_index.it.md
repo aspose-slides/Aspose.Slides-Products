@@ -5,26 +5,18 @@ title: Unisci immagini JPG in PHP
 url: /it/php-java/merger/jpg-to-jpg/
 keywords: Unisci JPG, JPEG in JPG, Unisci JPG, Combina JPG, API PHP, Libreria PHP
 description: Unisci JPG a JPG in PHP. Utilizza l'API della libreria PHP per combinare i file JPG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Unisci JPG in PHP" h2="Libreria PHP ad alta velocità e multipiattaforma per l'unione di immagini JPG utilizzando il codice PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Unisci JPG in PHP" h2="Libreria PHP ad alta velocità e multipiattaforma per l'unione di immagini JPG utilizzando il codice PHP" related="PNG,HTML,IMAGE,JPG,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Unisci JPG a JPG usando Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Unisci JPG a JPG in PHP" variant="code" %}}
 
-[**Aspose.Slides per PHP via Java**](https://products.aspose.com/slides/it/php-java/) è una potente libreria PHP utilizzata per unire e manipolare presentazioni, immagini e altri file. Quando unisci JPG a JPG, stai effettivamente combinando due immagini per ottenere un'unica immagine.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Unisci JPG a JPG in PHP" %}}
 Utilizzando [**Aspose.Slides per PHP via Java**](https://products.aspose.com/slides/it/php-java/), puoi unire file JPG rapidamente con poche righe di codice
 
-{{% blocks/products/pf/agp/code-block title="Codice PHP per unire JPG a JPG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Codice PHP per unire JPG a JPG" >}}
 ```php
 
 <?php
@@ -67,62 +59,35 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Unisci JPG a JPG usando Aspose.Slides" %}}
 
+[**Aspose.Slides per PHP via Java**](https://products.aspose.com/slides/it/php-java/) è una potente libreria PHP utilizzata per unire e manipolare presentazioni, immagini e altri file. Quando unisci JPG a JPG, stai effettivamente combinando due immagini per ottenere un'unica immagine.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come unire JPG in PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come unire JPG in PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installa **Aspose.Slides per PHP tramite Java**. Vedi [**Installazione**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aggiungi la libreria come riferimento nel tuo progetto.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Crea un'istanza della classe Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carica i file JPG che vuoi unire come cornici.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva l'immagine JPG risultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Unisci file PDF online"
+  description="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Unisci altri file" subTitle="Puoi anche combinare file in altri formati per ottenere un unico file" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Installa **Aspose.Slides per PHP tramite Java**. Vedi [**Installazione**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Aggiungi la libreria come riferimento nel tuo progetto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Crea un'istanza della classe Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica i file JPG che vuoi unire come cornici.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva l'immagine JPG risultante.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Unisci file PDF online" sectionDescription="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Unisci altri file" subTitle="Puoi anche combinare file in altri formati per ottenere un unico file" >}}
-  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

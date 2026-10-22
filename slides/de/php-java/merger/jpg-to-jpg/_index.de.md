@@ -5,26 +5,18 @@ title: JPG-Bilder in PHP zusammenführen
 url: /de/php-java/merger/jpg-to-jpg/
 keywords: JPG, JPEG zu JPG zusammenführen, JPG verbinden, JPG kombinieren, PHP-API, PHP-Bibliothek
 description: JPG mit JPG in PHP zusammenführen. Verwenden Sie die API der PHP-Bibliothek, um JPG-Dateien zu kombinieren
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="JPG in PHP zusammenführen" h2="Hochgeschwindigkeits- und plattformübergreifende PHP-Bibliothek zum Zusammenführen von JPG-Bildern mit PHP-Code" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="JPG in PHP zusammenführen" h2="Hochgeschwindigkeits- und plattformübergreifende PHP-Bibliothek zum Zusammenführen von JPG-Bildern mit PHP-Code" related="PNG,HTML,IMAGE,JPG,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="JPG mit Aspose.Slides zu JPG zusammenführen" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="JPG mit JPG in PHP zusammenführen" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/de/php-java/) ist eine leistungsstarke PHP-Bibliothek zum Zusammenführen und Bearbeiten von Präsentationen, Bildern und anderen Dateien. Wenn Sie JPG mit JPG zusammenführen, kombinieren Sie effektiv zwei Bilder, um ein Bild zu erhalten.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="JPG mit JPG in PHP zusammenführen" %}}
 Mit [**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/de/php-java/) können Sie JPG-Dateien schnell mit nur wenigen Codezeilen zusammenführen
 
-{{% blocks/products/pf/agp/code-block title="PHP-Code zum Zusammenführen von JPG zu JPG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PHP-Code zum Zusammenführen von JPG zu JPG" >}}
 ```php
 
 <?php
@@ -67,62 +59,35 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="JPG mit Aspose.Slides zu JPG zusammenführen" %}}
 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/de/php-java/) ist eine leistungsstarke PHP-Bibliothek zum Zusammenführen und Bearbeiten von Präsentationen, Bildern und anderen Dateien. Wenn Sie JPG mit JPG zusammenführen, kombinieren Sie effektiv zwei Bilder, um ein Bild zu erhalten.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Wie man JPG in PHP zusammenführt" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Wie man JPG in PHP zusammenführt" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installieren Sie **Aspose.Slides für PHP über Java**. Siehe [**Installation**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Fügen Sie die Bibliothek als Referenz in Ihrem Projekt hinzu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Erstellen Sie eine Instanz der Presentation-Klasse.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die JPG-Dateien, die Sie als Bilderrahmen zusammenführen möchten.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie das resultierende JPG-Bild.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="PDF-Dateien online zusammenführen"
+  description="[Wie man PDF in Python zusammenführt](https://products.aspose.com/slides/de/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere Dateien zusammenführen" subTitle="Sie können auch Dateien in anderen Formaten kombinieren, um eine einzige Datei zu erhalten" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Installieren Sie **Aspose.Slides für PHP über Java**. Siehe [**Installation**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie die Bibliothek als Referenz in Ihrem Projekt hinzu.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Erstellen Sie eine Instanz der Presentation-Klasse.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie die JPG-Dateien, die Sie als Bilderrahmen zusammenführen möchten.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Speichern Sie das resultierende JPG-Bild.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF-Dateien online zusammenführen" sectionDescription="[Wie man PDF in Python zusammenführt](https://products.aspose.com/slides/de/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere Dateien zusammenführen" subTitle="Sie können auch Dateien in anderen Formaten kombinieren, um eine einzige Datei zu erhalten" >}}
-  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

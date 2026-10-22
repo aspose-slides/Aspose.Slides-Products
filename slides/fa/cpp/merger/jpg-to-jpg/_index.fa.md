@@ -5,26 +5,18 @@ title: ادغام تصاویر JPG در C++
 url: /fa/cpp/merger/jpg-to-jpg/
 keywords: ادغام JPG، JPEG به JPG، پیوستن به JPG، ترکیب JPG، C++ API، کتابخانه C++
 description: ادغام JPG به JPG در C++. از C++ library API برای ترکیب فایل های JPG استفاده کنید
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="JPG را در C++ ادغام کنید" h2="کتابخانه C++ پرسرعت و کراس پلتفرم برای ادغام تصاویر JPG با استفاده از کد C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="JPG را در C++ ادغام کنید" h2="کتابخانه C++ پرسرعت و کراس پلتفرم برای ادغام تصاویر JPG با استفاده از کد C++" related="PNG,HTML,IMAGE,JPG,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="ادغام JPG به JPG با استفاده از Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ادغام JPG به JPEG در C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/fa/cpp/) یک کتابخانه قدرتمند C++ است که برای ادغام و دستکاری ارائه‌ها، تصاویر و فایل‌های دیگر استفاده می‌شود. هنگامی که JPG را با JPG ادغام می کنید، به طور موثر دو تصویر را برای دریافت یک تصویر ترکیب می کنید.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="ادغام JPG به JPEG در C++" %}}
 با استفاده از [**Aspose.Slides for C++**](https://products.aspose.com/slides/fa/cpp/)، می توانید فایل های JPG را تنها با چند خط کد به سرعت ادغام کنید.
 
-{{% blocks/products/pf/agp/code-block title="کد C++ برای ادغام JPG به JPG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="کد C++ برای ادغام JPG به JPG" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -41,62 +33,35 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
     slide->GetThumbnail()->Save(fileName, ImageFormat::get_Jpeg());
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ادغام JPG به JPG با استفاده از Aspose.Slides" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/fa/cpp/) یک کتابخانه قدرتمند C++ است که برای ادغام و دستکاری ارائه‌ها، تصاویر و فایل‌های دیگر استفاده می‌شود. هنگامی که JPG را با JPG ادغام می کنید، به طور موثر دو تصویر را برای دریافت یک تصویر ترکیب می کنید.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه ادغام JPG در C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه ادغام JPG در C++" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides را برای C++** نصب کنید. [**نصب**](https://docs.aspose.com/slides/cpp/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک نمونه از کلاس Presentation ایجاد کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل های JPG را که می خواهید به عنوان قاب عکس ادغام کنید بارگیری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}تصویر JPG حاصل را ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="ادغام فایل های PDF به صورت آنلاین"
+  description="[نحوه ادغام PDF در پایتون](https://products.aspose.com/slides/fa/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="فایل های دیگر را ادغام کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ترکیب کنید تا یک فایل واحد بدست آورید" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای C++** نصب کنید. [**نصب**](https://docs.aspose.com/slides/cpp/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-کتابخانه را به عنوان مرجع در پروژه خود اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-یک نمونه از کلاس Presentation ایجاد کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-فایل های JPG را که می خواهید به عنوان قاب عکس ادغام کنید بارگیری کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تصویر JPG حاصل را ذخیره کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="ادغام فایل های PDF به صورت آنلاین" sectionDescription="[نحوه ادغام PDF در پایتون](https://products.aspose.com/slides/fa/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="فایل های دیگر را ادغام کنید" subTitle="همچنین می توانید فایل ها را با فرمت های دیگر ترکیب کنید تا یک فایل واحد بدست آورید" >}}
-  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,26 +5,18 @@ title: Menggabungkan File HTML di PHP
 url: /id/php-java/merger/html-to-html/
 keywords: Gabungkan HTML, HTML ke HTML, Gabung HTML, Gabungkan HTML, API PHP, Perpustakaan PHP
 description: Menggabungkan HTML ke HTML di PHP. Gunakan PHP library API untuk menggabungkan file HTML
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Menggabungkan HTML dalam PHP" h2="Pustaka PHP berkecepatan tinggi dan lintas platform untuk menggabungkan file HTML menggunakan kode PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Menggabungkan HTML dalam PHP" h2="Pustaka PHP berkecepatan tinggi dan lintas platform untuk menggabungkan file HTML menggunakan kode PHP" related="JPG,PNG,PDF,IMAGE,SVG,BMP,HTML" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Menggabungkan HTML ke HTML menggunakan Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menggabungkan HTML ke HTML di PHP" variant="code" %}}
 
-[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/) adalah library PHP canggih yang digunakan untuk membuat, mengonversi, menggabungkan, dan memanipulasi presentasi, file HTML , dan dokumen lainnya. Saat Anda menggabungkan HTML ke HTML, Anda secara efektif menggabungkan konten dari 2 dokumen untuk mendapatkan satu file HTML. Aspose.Slides memungkinkan Anda menggabungkan dokumen HTML dengan berbagai cara. Anda dapat menggabungkan HTML dengan semua teks, pemformatan, gaya, dll.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Menggabungkan HTML ke HTML di PHP" %}}
 Menggunakan [**Aspose.Slides untuk PHP melalui Java**](https://products.aspose.com/slides/id/php-java/), Anda dapat menggabungkan file HTML dengan cepat hanya dengan beberapa baris kode
 
-{{% blocks/products/pf/agp/code-block title="Kode PHP untuk menggabungkan HTML ke HTML" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode PHP untuk menggabungkan HTML ke HTML" >}}
 ```php
 
 <?php
@@ -62,66 +54,39 @@ finally
 }
 ?>
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menggabungkan HTML ke HTML menggunakan Aspose.Slides" %}}
 
+[**Aspose.Slides for PHP via Java**](https://products.aspose.com/slides/id/php-java/) adalah library PHP canggih yang digunakan untuk membuat, mengonversi, menggabungkan, dan memanipulasi presentasi, file HTML , dan dokumen lainnya. Saat Anda menggabungkan HTML ke HTML, Anda secara efektif menggabungkan konten dari 2 dokumen untuk mendapatkan satu file HTML. Aspose.Slides memungkinkan Anda menggabungkan dokumen HTML dengan berbagai cara. Anda dapat menggabungkan HTML dengan semua teks, pemformatan, gaya, dll.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara menggabungkan HTML di PHP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara menggabungkan HTML di PHP" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal **Aspose.Slides untuk PHP melalui Java**. Lihat [**Instalasi**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan perpustakaan sebagai referensi dalam proyek Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buat sebuah instance dari kelas Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file HTML yang ingin Anda gabungkan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan dokumen HTML yang dihasilkan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Menggabungkan File PDF Online"
+  description="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Menggabungkan file lain" subTitle="Anda juga dapat menggabungkan file dalam format lain untuk mendapatkan satu file" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/svg-to-png/" name="SVG TO PNG" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk PHP melalui Java**. Lihat [**Instalasi**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan perpustakaan sebagai referensi dalam proyek Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Buat sebuah instance dari kelas Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat file HTML yang ingin Anda gabungkan.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan dokumen HTML yang dihasilkan.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Menggabungkan File PDF Online" sectionDescription="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Menggabungkan file lain" subTitle="Anda juga dapat menggabungkan file dalam format lain untuk mendapatkan satu file" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/png-to-pdf/" name="PNG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/php-java/merger/html-to-image/" name="HTML TO IMAGE" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

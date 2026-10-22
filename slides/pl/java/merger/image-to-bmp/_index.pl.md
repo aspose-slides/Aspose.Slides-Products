@@ -5,26 +5,18 @@ title: Scal obraz do BMP w Javie
 url: /pl/java/merger/image-to-bmp/
 keywords: Obraz do BMP, Scal obraz do BMP, Dołącz obraz do BMP, Połącz obrazy, Obraz, BMP, Java API, Biblioteka Java
 description: Scal obraz do BMP w Javie. Użyj API biblioteki Java do łączenia obrazów
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Scal obraz do BMP w Javie" h2="Szybka i wieloplatformowa biblioteka Java do łączenia obrazów z plikami BMP przy użyciu kodu Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Scal obraz do BMP w Javie" h2="Szybka i wieloplatformowa biblioteka Java do łączenia obrazów z plikami BMP przy użyciu kodu Java" related="JPG,PNG,HTML,IMAGE,PDF,SVG" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Scal obraz do BMP za pomocą Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Scal obraz do BMP w Javie" variant="code" %}}
 
-[**Aspose.Slides for Java**](https://products.aspose.com/slides/pl/java/) to potężna biblioteka Java służąca do tworzenia, konwertowania, scalania i manipulowania prezentacjami, plikami PDF, obrazami i innymi akta. Kiedy scalasz obraz do BMP, skutecznie łączysz obrazy, aby uzyskać pojedynczy plik BMP.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Scal obraz do BMP w Javie" %}}
 Używając [**Aspose.Slides for Java**](https://products.aspose.com/slides/pl/java/), możesz szybko scalić obraz do BMP za pomocą zaledwie kilku linijek kodu
 
-{{% blocks/products/pf/agp/code-block title="Kod Java do łączenia obrazu z BMP" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kod Java do łączenia obrazu z BMP" >}}
 ```java
 
 Presentation pres = new Presentation();
@@ -45,65 +37,38 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Scal obraz do BMP za pomocą Aspose.Slides" %}}
 
+[**Aspose.Slides for Java**](https://products.aspose.com/slides/pl/java/) to potężna biblioteka Java służąca do tworzenia, konwertowania, scalania i manipulowania prezentacjami, plikami PDF, obrazami i innymi akta. Kiedy scalasz obraz do BMP, skutecznie łączysz obrazy, aby uzyskać pojedynczy plik BMP.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak scalić obraz do BMP w Javie" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak scalić obraz do BMP w Javie" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zainstaluj **Aspose.Slides dla Javy**. Zobacz [**Instalacja**](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dodaj bibliotekę jako odniesienie w swoim projekcie.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Utwórz wystąpienie klasy Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Załaduj obrazy, które chcesz scalić, jako ramki do zdjęć.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz wynikowy plik BMP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Scal pliki PDF online"
+  description="[Jak scalić PDF w Pythonie](https://products.aspose.com/slides/pl/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Scal inne pliki" subTitle="Możesz także łączyć pliki w innych formatach, aby uzyskać jeden plik" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/svg-to-png/" name="SVG TO PNG" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj **Aspose.Slides dla Javy**. Zobacz [**Instalacja**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dodaj bibliotekę jako odniesienie w swoim projekcie.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Utwórz wystąpienie klasy Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Załaduj obrazy, które chcesz scalić, jako ramki do zdjęć.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz wynikowy plik BMP.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Scal pliki PDF online" sectionDescription="[Jak scalić PDF w Pythonie](https://products.aspose.com/slides/pl/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Scal inne pliki" subTitle="Możesz także łączyć pliki w innych formatach, aby uzyskać jeden plik" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/merger/html-to-image/" name="HTML TO IMAGE" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

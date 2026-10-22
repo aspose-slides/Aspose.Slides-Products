@@ -5,26 +5,18 @@ title: Menggabungkan Gambar PNG dalam C#
 url: /id/net/merger/png-to-png/
 keywords: Gabungkan PNG, PNG ke PNG, Gabung PNG, Gabungkan PNG, C# API, .NET Library
 description: Menggabungkan PNG ke PNG dalam C#. Gunakan .NET library API untuk menggabungkan file PNG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Gabungkan PNG dalam C#" h2=".NET API lintas platform yang kuat untuk menggabungkan gambar PNG menggunakan kode C# pada Platform NET Framework, .NET Core, Windows Azure, Mono atau Xamarin" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Gabungkan PNG dalam C#" h2=".NET API lintas platform yang kuat untuk menggabungkan gambar PNG menggunakan kode C# pada Platform NET Framework, .NET Core, Windows Azure, Mono atau Xamarin" related="JPG,HTML,IMAGE,PDF,PNG,SVG,BMP" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Menggabungkan PNG ke PNG menggunakan Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menggabungkan PNG ke PNG dalam C#" variant="code" %}}
 
-[**Aspose.Slides for .NET**](https://products.aspose.com/slides/id/net/) adalah pustaka .NET andal yang digunakan untuk menggabungkan dan memanipulasi presentasi, gambar, dan file lainnya. Saat Anda menggabungkan PNG ke PNG, Anda menggabungkan dua gambar secara efektif untuk mendapatkan satu gambar.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Menggabungkan PNG ke PNG dalam C#" %}}
 Menggunakan [**Aspose.Slides untuk .NET**](https://products.aspose.com/slides/id/net/), Anda dapat menggabungkan file PNG dengan cepat hanya dengan beberapa baris kode
 
-{{% blocks/products/pf/agp/code-block title="Kode C# untuk menggabungkan PNG ke PNG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode C# untuk menggabungkan PNG ke PNG" >}}
 ```cs
 using (Presentation pres = new Presentation())
 {
@@ -37,65 +29,38 @@ using (Presentation pres = new Presentation())
     pres.Slides[0].GetThumbnail(new Size(960, 720)).Save($"merged-image.png", ImageFormat.Png);
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menggabungkan PNG ke PNG menggunakan Aspose.Slides" %}}
 
+[**Aspose.Slides for .NET**](https://products.aspose.com/slides/id/net/) adalah pustaka .NET andal yang digunakan untuk menggabungkan dan memanipulasi presentasi, gambar, dan file lainnya. Saat Anda menggabungkan PNG ke PNG, Anda menggabungkan dua gambar secara efektif untuk mendapatkan satu gambar.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara menggabungkan PNG di C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara menggabungkan PNG di C#" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal **Aspose.Slides untuk .NET**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan perpustakaan sebagai referensi dalam proyek Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buat sebuah instance dari kelas Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file PNG yang ingin Anda gabungkan sebagai bingkai foto.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan gambar PNG yang dihasilkan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Menggabungkan File PDF Online"
+  description="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Menggabungkan file lain" subTitle="Anda juga dapat menggabungkan file dalam format lain untuk mendapatkan satu file" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/png-to-pdf/" name="PNG TO PDF" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/svg-to-png/" name="SVG TO PNG" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/net/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk .NET**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan perpustakaan sebagai referensi dalam proyek Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Buat sebuah instance dari kelas Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat file PNG yang ingin Anda gabungkan sebagai bingkai foto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan gambar PNG yang dihasilkan.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Menggabungkan File PDF Online" sectionDescription="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Menggabungkan file lain" subTitle="Anda juga dapat menggabungkan file dalam format lain untuk mendapatkan satu file" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/png-to-pdf/" name="PNG TO PDF" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/svg-to-png/" name="SVG TO PNG" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/image-to-bmp/" name="IMAGE TO BMP" >}} 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/merger/html-to-image/" name="HTML TO IMAGE" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

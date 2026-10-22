@@ -5,26 +5,18 @@ title: Menggabungkan Gambar JPG dalam C++
 url: /id/cpp/merger/jpg-to-jpg/
 keywords: Gabungkan JPG, JPEG ke JPG, Gabung JPG, Gabungkan JPG, C++ API, Perpustakaan C++
 description: Menggabungkan JPG ke JPG dalam C++. Gunakan C++ library API untuk menggabungkan file JPG
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Menggabungkan JPG dalam C++" h2="Pustaka C++ berkecepatan tinggi dan lintas platform untuk menggabungkan gambar JPG menggunakan kode C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Menggabungkan JPG dalam C++" h2="Pustaka C++ berkecepatan tinggi dan lintas platform untuk menggabungkan gambar JPG menggunakan kode C++" related="PNG,HTML,IMAGE,JPG,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Menggabungkan JPG ke JPG menggunakan Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menggabungkan JPG ke JPEG dalam C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/id/cpp/) adalah library C++ andal yang digunakan untuk menggabungkan dan memanipulasi presentasi, gambar, dan file lainnya. Saat Anda menggabungkan JPG ke JPG, Anda menggabungkan dua gambar secara efektif untuk mendapatkan satu gambar.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Menggabungkan JPG ke JPEG dalam C++" %}}
 Menggunakan [**Aspose.Slides untuk C++**](https://products.aspose.com/slides/id/cpp/), Anda dapat menggabungkan file JPG dengan cepat hanya dengan beberapa baris kode
 
-{{% blocks/products/pf/agp/code-block title="Kode C++ untuk menggabungkan JPG ke JPG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kode C++ untuk menggabungkan JPG ke JPG" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -41,62 +33,35 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
     slide->GetThumbnail()->Save(fileName, ImageFormat::get_Jpeg());
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menggabungkan JPG ke JPG menggunakan Aspose.Slides" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/id/cpp/) adalah library C++ andal yang digunakan untuk menggabungkan dan memanipulasi presentasi, gambar, dan file lainnya. Saat Anda menggabungkan JPG ke JPG, Anda menggabungkan dua gambar secara efektif untuk mendapatkan satu gambar.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara menggabungkan JPG di C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara menggabungkan JPG di C++" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal **Aspose.Slides untuk C++**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tambahkan perpustakaan sebagai referensi dalam proyek Anda.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buat sebuah instance dari kelas Presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file JPG yang ingin Anda gabungkan sebagai bingkai foto.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan gambar JPG yang dihasilkan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Menggabungkan File PDF Online"
+  description="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Menggabungkan file lain" subTitle="Anda juga dapat menggabungkan file dalam format lain untuk mendapatkan satu file" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk C++**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Tambahkan perpustakaan sebagai referensi dalam proyek Anda.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Buat sebuah instance dari kelas Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat file JPG yang ingin Anda gabungkan sebagai bingkai foto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan gambar JPG yang dihasilkan.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Menggabungkan File PDF Online" sectionDescription="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Menggabungkan file lain" subTitle="Anda juga dapat menggabungkan file dalam format lain untuk mendapatkan satu file" >}}
-  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

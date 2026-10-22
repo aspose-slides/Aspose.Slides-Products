@@ -5,23 +5,18 @@ title: Merge SVG to PNG in C++
 url: /cpp/merger/svg-to-png/
 keywords: Merge SVG to PNG, SVG to PNG, Join SVG to PNG, Combine SVG to PNG, C++ API, C++ Library
 description: Merge SVG files into a PNG image in C++. Use Aspose.Slides for C++ to place SVG images on a slide and render the result as PNG.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge SVG to PNG in C++" h2="Use Aspose.Slides for C++ to combine SVG images and save the result as PNG." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Merge SVG to PNG in C++" h2="Use Aspose.Slides for C++ to combine SVG images and save the result as PNG." related="JPG,PNG,HTML,IMAGE,PDF,BMP" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge SVG to PNG using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Merge SVG to PNG in C++" variant="code" %}}
 
-[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations and image content. You can read `SVG` files, add them to a slide as picture frames, and render the slide as a `PNG` image.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Merge SVG to PNG in C++" %}}
 Using [**Aspose.Slides for C++**](/slides/cpp/), you can merge `SVG` files by creating `SvgImage` objects, adding them with `AddImage` and `AddPictureFrame`, rendering the slide with `GetImage`, and saving it with `ImageFormat::Png`.
 
-{{% blocks/products/pf/agp/code-block title="C++ code for merging SVG to PNG" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ code for merging SVG to PNG" >}}
 ```cpp
 auto presentation = MakeObject<Presentation>();
 auto slide = presentation->get_Slide(0);
@@ -42,53 +37,38 @@ image->Dispose();
 
 presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge SVG to PNG in C++" >}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Merge SVG to PNG using Aspose.Slides" %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+[**Aspose.Slides for C++**](/slides/cpp/) is a C++ API for working with presentations and image content. You can read `SVG` files, add them to a slide as picture frames, and render the slide as a `PNG` image.
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for C++**. See [**Installation**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to merge SVG to PNG in C++" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for C++**. See [**Installation**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the library as a reference in your project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` instance and access the slide.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Read the source `SVG` files and place them with `AddPictureFrame`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Render the slide with `GetImage` and save it with `ImageFormat::Png`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` instance and access the slide.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Merge Files Online"
+  description="Merge presentations, documents, and images online." >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Read the source `SVG` files and place them with `AddPictureFrame`.
-{{% /blocks/products/pf/agp/step-autogen %}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Merge other files" subTitle="You can also combine files in other formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Render the slide with `GetImage` and save it with `ImageFormat::Png`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget appName="merger" extension="" sectionTitle="Merge Files Online" sectionDescription="Merge presentations, documents, and images online." >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats." >}}
-  
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/png-to-png/" name="PNG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/html-to-html/" name="HTML TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/merger/html-to-image/" name="HTML TO IMAGE" >}}
-  
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

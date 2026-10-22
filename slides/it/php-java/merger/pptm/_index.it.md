@@ -5,25 +5,18 @@ title: Unisci i file PPTM utilizzando PHP
 url: /it/php-java/merger/pptm/
 keywords: Unisci PPTM, Unisci PPTM, Combina PPTM, PowerPoint, Presentazione, PHP, Aspose
 description: Unisci più file PPTM in PHP.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Unisci i file PPTM insieme in PHP" h2="API PHP ad alta velocità e multipiattaforma che aiuta nello sviluppo di applicazioni con la possibilità di creare, unire, ispezionare o convertire file di presentazione Microsoft PowerPoint e OpenOffice senza l'uso di software come Microsoft o Open Office, Adobe PDF." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Unisci i file PPTM insieme in PHP" h2="API PHP ad alta velocità e multipiattaforma che aiuta nello sviluppo di applicazioni con la possibilità di creare, unire, ispezionare o convertire file di presentazione Microsoft PowerPoint e OpenOffice senza l'uso di software come Microsoft o Open Office, Adobe PDF." related="PPT,PPTX,ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,FODP" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Unisci PPTM in PHP" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Unisci i file PPTM utilizzando PHP" variant="code" %}}
 
-[**Aspose.Slides per PHP via Java**](https://products.aspose.com/slides/it/php-java/) è una potente libreria PHP per creare e manipolare file di presentazione. Inoltre, fornisce modi flessibili per combinare più presentazioni PPTM. Quando unisci una presentazione a un'altra, stai effettivamente combinando le loro diapositive in un'unica presentazione per ottenere un file. Aspose.Slides ti consente di unire due presentazioni in modi diversi. Puoi unire le presentazioni con tutte le loro forme, stili, testi, formattazione, commenti, animazioni, ecc. senza doversi preoccupare della perdita di qualità o dati.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-{{% blocks/products/pf/feature-page-section  h2="Unisci i file PPTM utilizzando PHP" %}}
 Per unire le presentazioni PowerPoint, dovrai clonare le diapositive da una presentazione all'altra.
 
-{{% blocks/products/pf/agp/code-block title="Codice PHP per unire più PPTM in un singolo file" offSpacer="true" %}}
-
-
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Codice PHP per unire più PPTM in un singolo file" >}}
 ```php
 
 <?php
@@ -51,54 +44,39 @@ finally
 }
 ?>
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Unisci PPTM in PHP" %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+[**Aspose.Slides per PHP via Java**](https://products.aspose.com/slides/it/php-java/) è una potente libreria PHP per creare e manipolare file di presentazione. Inoltre, fornisce modi flessibili per combinare più presentazioni PPTM. Quando unisci una presentazione a un'altra, stai effettivamente combinando le loro diapositive in un'unica presentazione per ottenere un file. Aspose.Slides ti consente di unire due presentazioni in modi diversi. Puoi unire le presentazioni con tutte le loro forme, stili, testi, formattazione, commenti, animazioni, ecc. senza doversi preoccupare della perdita di qualità o dati.
 
-{{< blocks/products/pf/feature-page-section  h2="Come unire PPTM utilizzando Aspose.Slides per l'API PHP" >}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per unire due file PPTM e salvare il risultato come PPTM in PHP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come unire PPTM utilizzando Aspose.Slides per l'API PHP" intro="Questi sono i passaggi per unire due file PPTM e salvare il risultato come PPTM in PHP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installa **Aspose.Slides per PHP tramite Java**. Vedi [**Installazione**](https://docs.aspose.com/slides/php-java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aggiungi la libreria come riferimento nel tuo progetto.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carica i file PPTM che desideri unire.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il documento PPTM risultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installa **Aspose.Slides per PHP tramite Java**. Vedi [**Installazione**](https://docs.aspose.com/slides/php-java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="Unisci file PDF online"
+  description="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Aggiungi la libreria come riferimento nel tuo progetto.
-{{< /blocks/products/pf/agp/step-autogen >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Esporta PPTM in altri formati supportati" subTitle="Puoi anche combinare PPTM e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/fodp/" name="FODP" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica i file PPTM che desideri unire.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il documento PPTM risultante.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="Unisci file PDF online" sectionDescription="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Esporta PPTM in altri formati supportati" subTitle="Puoi anche combinare PPTM e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/php-java/merger/fodp/" name="FODP" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

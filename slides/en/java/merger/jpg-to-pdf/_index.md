@@ -5,26 +5,18 @@ title: Merge JPG to PDF in Java
 url: /java/merger/jpg-to-pdf/
 keywords: JPG to PDF, Merge JPG to PDF, Join JPG to PDF, PDF, JPG, Java API, Java Library
 description: Merge JPG images to PDF in Java. Use Aspose.Slides for Java to combine JPG images and save the result as a PDF file.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="Merge JPG to PDF in Java" h2="Use Aspose.Slides for Java to merge JPG images in Java applications." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Merge JPG to PDF in Java" h2="Use Aspose.Slides for Java to merge JPG images in Java applications." related="HTML,IMAGE,BMP,PDF,JPG,PNG,SVG,TIFF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Merge JPG to PDF using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Merge JPG to PDF in Java" variant="code" %}}
 
-[Aspose.Slides for Java](/slides/java/) is a Java API for creating, editing, converting, and merging presentation content. You can place `JPG` images into a `Presentation` and save the combined slide as a `PDF` file.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="Merge JPG to PDF in Java" %}}
 Using [Aspose.Slides for Java](/slides/java/), you can merge JPG images and create a `PDF` result with a few lines of Java code.
 
-{{% blocks/products/pf/agp/code-block title="Java code for merging JPG to PDF" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java code for merging JPG to PDF" >}}
 ```java
 Presentation presentation = new Presentation();
 try {
@@ -43,67 +35,40 @@ try {
     presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Merge JPG to PDF using Aspose.Slides" %}}
 
+[Aspose.Slides for Java](/slides/java/) is a Java API for creating, editing, converting, and merging presentation content. You can place `JPG` images into a `Presentation` and save the combined slide as a `PDF` file.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to merge JPG images in Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to merge JPG images in Java" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the library as a reference in your project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` instance.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the source `JPG` images with `Files.readAllBytes` and `Paths.get`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the presentation with `SaveFormat.Pdf`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension="jpg-to-pdf"
+  title="Merge Files Online"
+  description="Merge presentations and slides online." >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Merge other files" subTitle="You can also combine files in other formats to get a single file." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/html-to-html/" name="HTML TO HTML" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/html-to-image/" name="HTML TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/png-to-png/" name="PNG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/svg-to-png/" name="SVG TO PNG" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/tiff-to-pdf/" name="TIFF TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install [Aspose.Slides for Java](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` instance.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the source `JPG` images with `Files.readAllBytes` and `Paths.get`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the presentation with `SaveFormat.Pdf`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="jpg-to-pdf" sectionTitle="Merge Files Online" sectionDescription="Merge presentations and slides online." >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Merge other files" subTitle="You can also combine files in other formats to get a single file." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/html-to-html/" name="HTML TO HTML" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/html-to-image/" name="HTML TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-bmp/" name="IMAGE TO BMP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-image/" name="IMAGE TO IMAGE" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/image-to-pdf/" name="IMAGE TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/pdf-to-pdf/" name="PDF TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/png-to-pdf/" name="PNG TO PDF" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/png-to-png/" name="PNG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/svg-to-png/" name="SVG TO PNG" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/merger/tiff-to-pdf/" name="TIFF TO PDF" >}}
-
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

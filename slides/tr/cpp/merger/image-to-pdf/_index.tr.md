@@ -5,26 +5,18 @@ title: C++'da Görüntüyü PDF'ye Birleştirme
 url: /tr/cpp/merger/image-to-pdf/
 keywords: Görüntüyü PDF'ye Dönüştürme, Görüntüyü PDF'ye Birleştirme, Görüntüyü PDF'ye Birleştirme, PDF, Görüntü, C++ API, C++ Kitaplığı
 description: C++'da Görüntüyü PDF'ye Birleştirme. Görüntü ve PDF'yi birleştirmek için C++ kitaplık API'sini kullanın
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="C++'da Görüntüyü PDF'ye Birleştirme" h2="C++ kodunu kullanarak Görüntüyü PDF dosyalarıyla birleştirmek için yüksek hızlı ve platformlar arası C++ kitaplığı" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++'da Görüntüyü PDF'ye Birleştirme" h2="C++ kodunu kullanarak Görüntüyü PDF dosyalarıyla birleştirmek için yüksek hızlı ve platformlar arası C++ kitaplığı" related="JPG,PNG,HTML,IMAGE,PDF" >}}
 
-{{% blocks/products/pf/feature-page-section h2="Aspose.Slides kullanarak Görüntüyü PDF'ye Birleştirme" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++'da Görüntüyü PDF'ye Birleştirme" variant="code" %}}
 
-[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumlar, PDF'ler, görüntüler ve diğerlerini oluşturmak, dönüştürmek, birleştirmek ve değiştirmek için kullanılan güçlü bir C++ kitaplığıdır. Dosyalar. Görüntüyü PDF'de birleştirdiğinizde, tek bir PDF dosyası elde etmek için görüntüleri etkili bir şekilde birleştirmiş olursunuz.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="C++'da Görüntüyü PDF'ye Birleştirme" %}}
 [**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/) kullanarak, yalnızca birkaç satır kodla görüntüyü PDF'de hızla birleştirebilirsiniz
 
-{{% blocks/products/pf/agp/code-block title="Görüntüyü PDF'ye birleştirmek için C++ kodu" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Görüntüyü PDF'ye birleştirmek için C++ kodu" >}}
 ```cpp
 
 auto pres = System::MakeObject<Presentation>();
@@ -36,63 +28,36 @@ pres->get_Slides()->idx_get(0)->get_Shapes()->AddPictureFrame(ShapeType::Rectang
 
 pres->Save(u"pres.pdf", SaveFormat::Pdf);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Aspose.Slides kullanarak Görüntüyü PDF'ye Birleştirme" %}}
 
+[**Aspose.Slides for C++**](https://products.aspose.com/slides/tr/cpp/), sunumlar, PDF'ler, görüntüler ve diğerlerini oluşturmak, dönüştürmek, birleştirmek ve değiştirmek için kullanılan güçlü bir C++ kitaplığıdır. Dosyalar. Görüntüyü PDF'de birleştirdiğinizde, tek bir PDF dosyası elde etmek için görüntüleri etkili bir şekilde birleştirmiş olursunuz.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++'da Görüntü ile PDF'yi birleştirme" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++'da Görüntü ile PDF'yi birleştirme" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kütüphaneyi projenize referans olarak ekleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Presentation sınıfının bir örneğini oluşturun.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Birleştirmek istediğiniz görüntüleri resim çerçeveleri olarak yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ortaya çıkan PDF'yi kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
+  title="PDF Dosyalarını Çevrimiçi Birleştirme"
+  description="[Python'da PDF Nasıl Birleştirilir](https://products.aspose.com/slides/tr/python-net/merge/pdf/)" >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Diğer dosyaları birleştir" subTitle="Tek bir dosya elde etmek için diğer formatlardaki dosyaları da birleştirebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/jpg-to-jpg/" name="JPG to JPG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Kütüphaneyi projenize referans olarak ekleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Presentation sınıfının bir örneğini oluşturun.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Birleştirmek istediğiniz görüntüleri resim çerçeveleri olarak yükleyin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ortaya çıkan PDF'yi kaydedin.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-{{< blocks/slides-app-widget  appName="merger" extension="" sectionTitle="PDF Dosyalarını Çevrimiçi Birleştirme" sectionDescription="[Python'da PDF Nasıl Birleştirilir](https://products.aspose.com/slides/tr/python-net/merge/pdf/)" >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer dosyaları birleştir" subTitle="Tek bir dosya elde etmek için diğer formatlardaki dosyaları da birleştirebilirsiniz." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/jpg-to-jpg/" name="JPG to JPG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/html-to-html/" name="HTML TO HTML" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/image-to-image/" name="IMAGE TO IMAGE" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/pdf-to-pdf/" name="PDF TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/jpg-to-pdf/" name="JPG TO PDF" >}}  
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/merger/png-to-pdf/" name="PNG TO PDF" >}}  
-  
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
