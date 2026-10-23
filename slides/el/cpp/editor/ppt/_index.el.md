@@ -46,7 +46,12 @@ pres->Save(u"pres.pdf", SaveFormat::Ppt);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το αλλαγμένο αρχείο PowerPoint.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Δημιουργήθηκε με το Aspose.Slides" title="Επεξεργασία αρχείων PPTX online" description="Η δωρεάν εφαρμογή Aspose.Slides Editor έχει δημιουργηθεί με το [Aspose.Slides for C++](https://products.aspose.com/slides/el/cpp/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία PPTX." button="Άνοιγμα Aspose.Slides Editor" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς χειρίζεται το Aspose.Slides τα αρχεία σας πριν γράψετε κώδικα.
+- Ανεβάστε τα αρχεία PPTX και επεξεργαστείτε τα αμέσως.
+- Αποθηκεύστε και κατεβάστε το επεξεργασμένο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Επεξεργαστείτε άλλα αρχεία" subTitle="Μπορείτε επίσης να επεξεργαστείτε αρχεία σε άλλες μορφές" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/editor/pdf/" name="Edit PDF" >}}    

@@ -48,7 +48,12 @@ using (Presentation pres = new Presentation())
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}変更した HTML ファイルを保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Aspose.Slides で構築" title="PPTX ファイルをオンラインで編集" description="無料の Aspose.Slides Editor アプリは、上記のコードと同じ API である [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net/) で構築されています。アプリを開いて、ご自身の PPTX ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Editor を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がファイルをどう処理するかを確認できます。
+- PPTX ファイルをアップロードして、すぐに編集できます。
+- 編集したファイルを保存してダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="他のファイルを編集する" subTitle="他の形式のファイルを編集することもできます" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/editor/ppt/" name="Edit PPT" >}}    

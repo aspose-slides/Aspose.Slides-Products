@@ -61,7 +61,12 @@ Szerkeszthet egy FODP fájlt, ha új szövegsort ad hozzá.
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse el a módosított fájlt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Az Aspose.Slides segítségével készült" title="PPTX fájlok szerkesztése online" description="Az ingyenes Aspose.Slides Editor alkalmazás az [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/hu/php-java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Editor megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan kezeli az Aspose.Slides a fájljait, mielőtt kódot írna.
+- Töltse fel PPTX fájljait, és szerkessze őket azonnal.
+- Mentse és töltse le a szerkesztett fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Más fájlok szerkesztése" subTitle="Más formátumú fájlokat is szerkeszthet" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/editor/html/" name="HTML" >}}

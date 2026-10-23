@@ -68,7 +68,12 @@ presentation.Save("document.pot", SaveFormat.Pot);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Realizzato con Aspose.Slides" title="Modifica file PPTX online" description="L'app gratuita Aspose.Slides Editor è realizzata con [Aspose.Slides for .NET](https://products.aspose.com/slides/it/net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPTX." button="Apri Aspose.Slides Editor" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides gestisce i tuoi file prima di scrivere codice.
+- Carica i tuoi file PPTX e modificali all'istante.
+- Salva e scarica il file modificato.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 

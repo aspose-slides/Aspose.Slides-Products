@@ -68,7 +68,12 @@ presentation.Save("document.potx", SaveFormat.Potx);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Az Aspose.Slides segítségével készült" title="PPTX fájlok szerkesztése online" description="Az ingyenes Aspose.Slides Editor alkalmazás az [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Editor megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan kezeli az Aspose.Slides a fájljait, mielőtt kódot írna.
+- Töltse fel PPTX fájljait, és szerkessze őket azonnal.
+- Mentse és töltse le a szerkesztett fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 

@@ -49,7 +49,12 @@ pres->Save(u"document.pdf", SaveFormat::Pdf);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den ändrade PDF-filen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Byggd med Aspose.Slides" title="Redigera PPTX-filer online" description="Den kostnadsfria appen Aspose.Slides Editor är byggd med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPTX-filer." button="Öppna Aspose.Slides Editor" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides hanterar dina filer innan du skriver kod.
+- Ladda upp dina PPTX-filer och redigera dem direkt.
+- Spara och ladda ner den redigerade filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Redigera andra filer" subTitle="Du kan även redigera filer i andra format" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/cpp/editor/ppt/" name="Edit PPT" >}}    

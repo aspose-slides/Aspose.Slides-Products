@@ -52,7 +52,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla het gewijzigde PDF-bestand op.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Gebouwd met Aspose.Slides" title="PPTX-bestanden online bewerken" description="De gratis app Aspose.Slides Editor is gebouwd met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPTX-bestanden." button="Aspose.Slides Editor openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Zie hoe Aspose.Slides uw bestanden verwerkt voordat u code schrijft.
+- Upload uw PPTX-bestanden en bewerk ze direct.
+- Sla het bewerkte bestand op en download het.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Bewerk andere bestanden" subTitle="U kunt ook bestanden in andere indelingen bewerken" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/java/editor/ppt/" name="Edit PPT" >}}    

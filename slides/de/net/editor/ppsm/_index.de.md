@@ -68,7 +68,12 @@ presentation.Save("document.ppsm", SaveFormat.Ppsm);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Entwickelt mit Aspose.Slides" title="PPTX-Dateien online bearbeiten" description="Die kostenlose App Aspose.Slides Editor basiert auf [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPTX-Dateien leisten kann." button="Aspose.Slides Editor öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Ihre Dateien verarbeitet, bevor Sie Code schreiben.
+- Laden Sie Ihre PPTX-Dateien hoch und bearbeiten Sie sie sofort.
+- Speichern Sie die bearbeitete Datei und laden Sie sie herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" %}}
 

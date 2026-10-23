@@ -49,7 +49,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ ملف PowerPoint الذي تم تغييره.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="مبني باستخدام Aspose.Slides" title="تحرير ملفات PPTX عبر الإنترنت" description="تطبيق Aspose.Slides Editor المجاني مبني باستخدام [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Editor" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يتعامل Aspose.Slides مع ملفاتك قبل كتابة الكود.
+- ارفع ملفات PPTX وحررها فورًا.
+- احفظ الملف المحرر وقم بتنزيله.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="قم بتحرير الملفات الأخرى" subTitle="يمكنك أيضًا تحرير الملفات بتنسيقات أخرى" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/java/editor/pdf/" name="Edit PDF" >}}    

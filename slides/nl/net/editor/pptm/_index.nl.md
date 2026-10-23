@@ -68,7 +68,12 @@ presentation.Save("document.pptm", SaveFormat.Pptm);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Gebouwd met Aspose.Slides" title="PPTX-bestanden online bewerken" description="De gratis app Aspose.Slides Editor is gebouwd met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPTX-bestanden." button="Aspose.Slides Editor openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Zie hoe Aspose.Slides uw bestanden verwerkt voordat u code schrijft.
+- Upload uw PPTX-bestanden en bewerk ze direct.
+- Sla het bewerkte bestand op en download het.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 

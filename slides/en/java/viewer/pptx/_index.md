@@ -4,26 +4,18 @@ title: View PPTX in Java
 url: /java/viewer/pptx/
 keywords: View PPTX, Open PPTX, PPTX Viewer, PPTX, Java API, Java Library
 description: View PPTX files in Java. Use Aspose.Slides for Java to open PowerPoint presentation files and save them as HTML.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/feature-page-wrap >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/feature-page-header h1="View PPTX in Java" h2="Java API for opening PPTX files and saving them as HTML." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="View PPTX in Java" h2="Java API for opening PPTX files and saving them as HTML." related="ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM" >}}
 
-{{% blocks/products/pf/feature-page-section h2="View PPTX using Aspose.Slides" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="View PPTX in Java" variant="code" %}}
 
-[**Aspose.Slides for Java**](/slides/java/) is a Java library for opening, viewing, editing, and converting presentation files. You can load PPTX files and save them as HTML for viewing in a browser.
-
-{{% /blocks/products/pf/feature-page-section %}}
-
-
-
-
-{{% blocks/products/pf/feature-page-section  h2="View PPTX in Java" %}}
 Using [**Aspose.Slides for Java**](/slides/java/), you can load a PPTX presentation and save it as responsive HTML with a few lines of code.
 
-{{% blocks/products/pf/agp/code-block title="Java code for viewing PPTX" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java code for viewing PPTX" >}}
 ```java
 Presentation presentation = new Presentation("presentation.pptx");
 try {
@@ -36,69 +28,38 @@ try {
     presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="View PPTX using Aspose.Slides" %}}
 
+[**Aspose.Slides for Java**](/slides/java/) is a Java library for opening, viewing, editing, and converting presentation files. You can load PPTX files and save them as HTML for viewing in a browser.
 
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to view PPTX in Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to view PPTX in Java" intro="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the library as a reference in your project.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the `PPTX` file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `ResponsiveHtmlController` object for responsive HTML output.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create an `HtmlOptions` object and set the `HtmlFormatter` property.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the PPTX presentation as HTML with `SaveFormat.Html`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/viewer-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="View other files" subTitle="You can also open and view presentations in other formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/odp/" name="View ODP Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/otp/" name="View OTP Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/pot/" name="View POT Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/potm/" name="View POTM Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/potx/" name="View POTX Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/pps/" name="View PPS Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/ppsm/" name="View PPSM Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/ppsx/" name="View PPSX Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/ppt/" name="View PPT Presentation" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/viewer/pptm/" name="View PPTM Presentation" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Java**. See [**Installation**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add the library as a reference in your project.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the `PPTX` file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `ResponsiveHtmlController` object for responsive HTML output.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Create an `HtmlOptions` object and set the `HtmlFormatter` property.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the PPTX presentation as HTML with `SaveFormat.Html`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-
-
-
-
-
-{{< blocks/products/pf/agp/other-supported-section title="View other files" subTitle="You can also open and view presentations in other formats." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/odp/" name="View ODP Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/otp/" name="View OTP Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/pot/" name="View POT Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/potm/" name="View POTM Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/potx/" name="View POTX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/pps/" name="View PPS Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/ppsm/" name="View PPSM Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/ppsx/" name="View PPSX Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/ppt/" name="View PPT Presentation" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/viewer/pptm/" name="View PPTM Presentation" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/feature-page-wrap >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

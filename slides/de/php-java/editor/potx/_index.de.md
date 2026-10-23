@@ -61,7 +61,12 @@ Sie können eine POTX-Datei bearbeiten, indem Sie ihr eine neue Textzeile hinzuf
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die geänderte Datei.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Entwickelt mit Aspose.Slides" title="PPTX-Dateien online bearbeiten" description="Die kostenlose App Aspose.Slides Editor basiert auf [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/de/php-java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPTX-Dateien leisten kann." button="Aspose.Slides Editor öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Ihre Dateien verarbeitet, bevor Sie Code schreiben.
+- Laden Sie Ihre PPTX-Dateien hoch und bearbeiten Sie sie sofort.
+- Speichern Sie die bearbeitete Datei und laden Sie sie herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Bearbeiten Sie andere Dateien" subTitle="Sie können auch Dateien in anderen Formaten bearbeiten" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/editor/fodp/" name="FODP" >}}

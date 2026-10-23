@@ -61,7 +61,12 @@ Bạn có thể chỉnh sửa tệp PPTX bằng cách thêm một dòng văn b�
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu tệp đã thay đổi.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Được xây dựng bằng Aspose.Slides" title="Chỉnh sửa tệp PPTX trực tuyến" description="Ứng dụng Aspose.Slides Editor miễn phí được xây dựng bằng [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/vi/php-java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPTX của riêng bạn." button="Mở Aspose.Slides Editor" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem Aspose.Slides xử lý tệp của bạn như thế nào trước khi viết mã.
+- Tải lên tệp PPTX và chỉnh sửa ngay lập tức.
+- Lưu và tải xuống tệp đã chỉnh sửa.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Chỉnh sửa các tệp khác" subTitle="Bạn cũng có thể chỉnh sửa tệp ở các định dạng khác" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/editor/fodp/" name="FODP" >}}

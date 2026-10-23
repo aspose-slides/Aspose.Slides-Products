@@ -68,7 +68,12 @@ presentation.Save("document.potx", SaveFormat.Potx);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Δημιουργήθηκε με το Aspose.Slides" title="Επεξεργασία αρχείων PPTX online" description="Η δωρεάν εφαρμογή Aspose.Slides Editor έχει δημιουργηθεί με το [Aspose.Slides for .NET](https://products.aspose.com/slides/el/net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία PPTX." button="Άνοιγμα Aspose.Slides Editor" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς χειρίζεται το Aspose.Slides τα αρχεία σας πριν γράψετε κώδικα.
+- Ανεβάστε τα αρχεία PPTX και επεξεργαστείτε τα αμέσως.
+- Αποθηκεύστε και κατεβάστε το επεξεργασμένο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 

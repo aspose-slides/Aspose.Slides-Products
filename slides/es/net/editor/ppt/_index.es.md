@@ -44,7 +44,12 @@ using (Presentation presentation = new Presentation("pres.ppt"))
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el archivo de PowerPoint modificado.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Creado con Aspose.Slides" title="Edite archivos PPTX en línea" description="La aplicación gratuita Aspose.Slides Editor está creada con [Aspose.Slides for .NET](https://products.aspose.com/slides/es/net/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPTX." button="Abrir Aspose.Slides Editor" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides procesa sus archivos antes de escribir código.
+- Cargue sus archivos PPTX y edítelos al instante.
+- Guarde y descargue el archivo editado.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Editar otros archivos" subTitle="También puedes editar archivos en otros formatos" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/net/editor/pdf/" name="Edit PDF" >}}    

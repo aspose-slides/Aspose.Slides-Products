@@ -52,7 +52,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Salve o arquivo PDF alterado.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Criado com Aspose.Slides" title="Edite arquivos PPTX online" description="O aplicativo gratuito Aspose.Slides Editor é criado com [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPTX." button="Abrir Aspose.Slides Editor" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides lida com seus arquivos antes de escrever código.
+- Carregue seus arquivos PPTX e edite-os instantaneamente.
+- Salve e baixe o arquivo editado.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Editar outros arquivos" subTitle="Você também pode editar arquivos em outros formatos" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/java/editor/ppt/" name="Edit PPT" >}}    

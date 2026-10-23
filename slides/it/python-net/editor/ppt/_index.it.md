@@ -46,7 +46,12 @@ with slides.Presentation("pres.ppt") as pres:
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il file PowerPoint modificato.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Realizzato con Aspose.Slides" title="Modifica file PPTX online" description="L'app gratuita Aspose.Slides Editor è realizzata con [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/it/python-net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPTX." button="Apri Aspose.Slides Editor" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides gestisce i tuoi file prima di scrivere codice.
+- Carica i tuoi file PPTX e modificali all'istante.
+- Salva e scarica il file modificato.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Modifica altri file" subTitle="Puoi anche modificare i file in altri formati" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/python-net/editor/pdf/" name="Edit PDF" >}}    

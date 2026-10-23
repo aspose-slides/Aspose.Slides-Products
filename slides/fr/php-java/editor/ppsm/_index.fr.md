@@ -61,7 +61,12 @@ Vous pouvez modifier un fichier PPSM en y ajoutant une nouvelle ligne de texte.
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier modifié.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Conçu avec Aspose.Slides" title="Modifiez des fichiers PPTX en ligne" description="L'application gratuite Aspose.Slides Editor est conçue avec [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/fr/php-java/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPTX." button="Ouvrir Aspose.Slides Editor" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides traite vos fichiers avant d'écrire du code.
+- Chargez vos fichiers PPTX et modifiez-les instantanément.
+- Enregistrez et téléchargez le fichier modifié.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Modifier d'autres fichiers" subTitle="Vous pouvez également modifier des fichiers dans d'autres formats" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/editor/fodp/" name="FODP" >}}

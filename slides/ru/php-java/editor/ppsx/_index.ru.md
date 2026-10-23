@@ -61,7 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните измененный файл.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Создано на основе Aspose.Slides" title="Редактируйте файлы PPTX онлайн" description="Бесплатное приложение Aspose.Slides Editor создано на основе [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/ru/php-java/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPTX." button="Открыть Aspose.Slides Editor" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides обрабатывает ваши файлы, ещё до написания кода.
+- Загрузите файлы PPTX и сразу редактируйте их.
+- Сохраните и скачайте отредактированный файл.
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Редактировать другие файлы" subTitle="Вы также можете редактировать файлы в других форматах" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/php-java/editor/fodp/" name="FODP" >}}

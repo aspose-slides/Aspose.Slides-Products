@@ -58,7 +58,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}परिवर्तित HTML फ़ाइल सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/editor-app />}}
+{{< blocks/products/pf/slides-design-update-10-2026/editor-app label="Aspose.Slides से निर्मित" title="PPTX फ़ाइलें ऑनलाइन संपादित करें" description="मुफ़्त Aspose.Slides Editor ऐप [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Editor खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides आपकी फ़ाइलों को कैसे संभालता है।
+- अपनी PPTX फ़ाइलें अपलोड करें और तुरंत संपादित करें।
+- संपादित फ़ाइल को सहेजें और डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/editor-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य फाइलों को संपादित करें" subTitle="आप फ़ाइलों को अन्य स्वरूपों में भी संपादित कर सकते हैं" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/java/editor/ppt/" name="Edit PPT" >}}    
