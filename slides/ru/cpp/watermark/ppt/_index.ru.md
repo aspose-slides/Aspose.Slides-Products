@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Добавьте водяной знак в файлы презентаций PPT с помощью C++
+title: Добавление водяного знака в презентации PPT на C++
 url: /ru/cpp/watermark/ppt/
-keywords: Добавить водяной знак PPT, Добавить текстовый водяной знак PPT, Добавить водяной знак изображения PPT
-description: Исходный код C++ для добавления водяного знака в презентацию PPT.
+description: Добавляйте текстовые или графические водяные знаки в презентации PPT на C++. С помощью Aspose.Slides for C++ можно размещать водяные знаки на слайдах.
+keywords: добавить водяной знак в PPT, добавить текстовый водяной знак в PPT, добавить графический водяной знак в PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Добавьте водяной знак в презентацию PPT, используя C++" h2="Создавайте собственные приложения C++, чтобы вставлять текстовые или графические водяные знаки в презентации PPT, PPTX или ODP с помощью серверных API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Добавление водяного знака в презентацию PPT на C++" h2="Добавляйте текстовые или графические водяные знаки в файлы презентаций без Microsoft PowerPoint с помощью Aspose.Slides for C++." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Добавить водяной знак в презентацию PPT через C++" %}}
-Используя Aspose.Slides for C++, вы можете добавить водяной знак в презентацию PPT. Водяные знаки являются неотъемлемой частью любой презентации. Они используются для защиты содержимого презентации от копирования или использования без разрешения. Водяной знак — это видимое или невидимое изображение или текст, которые размещаются поверх презентации. Его можно использовать для идентификации владельца презентации и предотвращения несанкционированного использования. Водяные знаки также можно использовать, чтобы придать презентации профессиональный вид и сделать ее более изысканной. 
-{{% blocks/products/pf/agp/code-block title="Добавьте текстовый водяной знак в PPT, используя C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Добавление водяного знака в презентацию PPT с помощью C++" variant="code" %}}
 
+Aspose.Slides for C++ позволяет добавлять текстовые или графические водяные знаки в презентации PPT. Добавьте фигуру водяного знака на образец слайдов с помощью `AddAutoShape`, добавьте текст с помощью `AddTextFrame` или заполните фигуру изображением, загруженным через `File::ReadAllBytes` и `AddImage`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Добавление текстового водяного знака в PPT на C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.ppt", SaveFormat::Ppt);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Добавьте водяной знак изображения в презентацию PPT, используя C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Добавление графического водяного знака в презентацию PPT на C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.ppt", SaveFormat::Ppt);
+presentation->Save(u"image-watermarked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как добавить водяной знак в PPT на C++" intro="Выполните следующие шаги, чтобы добавить текстовый или графический водяной знак в файлы PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Загрузите файл PPT с помощью класса `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Выберите образец слайдов из коллекции `Presentation::get_Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Добавьте фигуру водяного знака с помощью метода `AddAutoShape`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Добавьте текст водяного знака с помощью метода `AddTextFrame` или задайте заливку рисунком с помощью `AddImage`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните файл с водяным знаком с помощью `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как добавить водяной знак в PPT через C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Создано на основе Aspose.Slides" title="Добавляйте водяные знаки в файлы PPT онлайн" description="Бесплатное приложение Aspose.Slides Watermark создано на основе [Aspose.Slides for C++](https://products.aspose.com/slides/ru/cpp/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPT." button="Открыть Aspose.Slides Watermark" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides добавляет водяные знаки, ещё до написания кода.
+- Добавьте текстовый или графический водяной знак в файл PPT.
+- Скачайте файл с водяным знаком.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для добавления текстового водяного знака в файлы PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие форматы с поддержкой водяных знаков" subTitle="С помощью C++ можно также добавлять водяные знаки в следующие форматы." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Загрузите PPT с экземпляром Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Выберите основную презентацию
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Добавьте тип фигуры с помощью метода AddAutoShape.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Добавьте текст водяного знака, используя метод AddTextFrame.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохранить результат в формате PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы" subTitle="Используя C++, вы также можете добавить водяной знак в следующие форматы:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

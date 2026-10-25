@@ -1,99 +1,76 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: เพิ่มลายน้ำให้กับไฟล์นำเสนอ ODP โดยใช้ Java
+title: เพิ่มลายน้ำในไฟล์งานนำเสนอ ODP ด้วย Java
 url: /th/java/watermark/odp/
-keywords: เพิ่มลายน้ำ ODP, เพิ่มลายน้ำข้อความ ODP, เพิ่มลายน้ำรูปภาพ ODP
-description: ซอร์สโค้ด Java สำหรับเพิ่มลายน้ำในงานนำเสนอ ODP
+description: เพิ่มลายน้ำข้อความและรูปภาพในงานนำเสนอ ODP ใน Java โดยใช้ Aspose.Slides for Java
+keywords: เพิ่มลายน้ำใน ODP, เพิ่มลายน้ำข้อความใน ODP, เพิ่มลายน้ำรูปภาพใน ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="เพิ่มลายน้ำในงานนำเสนอ ODP โดยใช้ Java" h2="สร้างแอป Java ของคุณเองเพื่อแทรกลายน้ำข้อความหรือรูปภาพลงในงานนำเสนอ PPT, PPTX หรือ ODP โดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="เพิ่มลายน้ำในงานนำเสนอ ODP ด้วย Java" h2="สร้างแอป Java ที่แทรกลายน้ำข้อความหรือรูปภาพลงในไฟล์งานนำเสนอด้วย API ฝั่งเซิร์ฟเวอร์" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="เพิ่มลายน้ำในงานนำเสนอ ODP ผ่าน Java" %}}
-เมื่อใช้ Aspose.Slides for Java คุณสามารถเพิ่มลายน้ำให้กับงานนำเสนอ ODP ลายน้ำเป็นส่วนสำคัญของงานนำเสนอ ใช้เพื่อป้องกันเนื้อหาของงานนำเสนอจากการคัดลอกหรือนำไปใช้โดยไม่ได้รับอนุญาต ลายน้ำคือรูปภาพหรือข้อความที่มองเห็นหรือมองไม่เห็นที่วางอยู่ด้านบนของงานนำเสนอ สามารถใช้เพื่อระบุเจ้าของงานนำเสนอและเพื่อป้องกันการใช้งานโดยไม่ได้รับอนุญาต ลายน้ำสามารถใช้เพื่อเพิ่มความเป็นมืออาชีพให้กับงานนำเสนอและทำให้ดูสวยงามยิ่งขึ้น 
-{{% blocks/products/pf/agp/code-block title="เพิ่มลายน้ำข้อความใน ODP โดยใช้ Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="เพิ่มลายน้ำในงานนำเสนอ ODP ผ่าน Java" variant="code" %}}
 
+ด้วย [Aspose.Slides for Java](/slides/th/java/) คุณสามารถเพิ่มลายน้ำข้อความและรูปภาพในงานนำเสนอ ODP ได้ เพิ่มรูปร่างลายน้ำลงในสไลด์ต้นแบบเพื่อให้ลายน้ำปรากฏบนสไลด์ที่ใช้ต้นแบบนั้น
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มลายน้ำข้อความใน ODP ด้วย Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    IMasterSlide master = pres.getMasters().get_Item(0);
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
     ITextFrame watermarkTextFrame = watermarkShape.addTextFrame("Watermark");
+    watermarkTextFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(48);
 
-    pres.save("watermark.odp", SaveFormat.Odp);
+    presentation.save("watermark.odp", SaveFormat.Odp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="เพิ่มลายน้ำรูปภาพในงานนำเสนอ ODP โดยใช้ Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มลายน้ำรูปภาพในงานนำเสนอ ODP ด้วย Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("watermark.png")));
-
-    IMasterSlide master = pres.getMasters().get_Item(0);
-
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 100, 100);
+    byte[] imageData = Files.readAllBytes(Paths.get("watermark.png"));
+    IPPImage watermarkImage = presentation.getImages().addImage(imageData);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
     watermarkShape.getFillFormat().setFillType(FillType.Picture);
-    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(watermarkImage);
     watermarkShape.getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 
-    pres.save("watermark2.odp", SaveFormat.Odp);
+    presentation.save("image-watermark.odp", SaveFormat.Odp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีเพิ่มลายน้ำใน ODP ด้วย Java" intro="ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มลายน้ำข้อความหรือรูปภาพในไฟล์ ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}โหลดไฟล์ `ODP` ด้วยคลาส `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เลือกสไลด์ต้นแบบผ่านเมธอด `getMasters`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียกเมธอด `addAutoShape` เพื่อเพิ่มรูปร่างลายน้ำ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียกเมธอด `addTextFrame` เพื่อเพิ่มข้อความลายน้ำ หรือใช้ `addImage` สำหรับลายน้ำรูปภาพ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกงานนำเสนอที่มีลายน้ำในรูปแบบ ODP{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีเพิ่มลายน้ำใน ODP ผ่าน Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="สร้างด้วย Aspose.Slides" title="เพิ่มลายน้ำในไฟล์ ODP ออนไลน์" description="แอป Aspose.Slides Watermark ฟรีนี้สร้างด้วย [Aspose.Slides for Java](https://products.aspose.com/slides/th/java/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ ODP ของคุณเอง" button="เปิด Aspose.Slides Watermark" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides เพิ่มลายน้ำอย่างไรก่อนเขียนโค้ด
+- เพิ่มลายน้ำข้อความหรือรูปภาพในไฟล์ ODP ของคุณ
+- ดาวน์โหลดไฟล์ที่มีลายน้ำ
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการเพิ่มลายน้ำข้อความในไฟล์ ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับลายน้ำ" subTitle="ด้วย Java คุณยังสามารถเพิ่มลายน้ำในรูปแบบต่อไปนี้ได้" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/java/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/java/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด ODP ด้วยอินสแตนซ์ของงานนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เลือกงานนำเสนอหลัก
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มประเภทรูปร่างโดยใช้วิธี AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มข้อความลายน้ำโดยใช้วิธี AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์ในรูปแบบ ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ Java คุณยังสามารถเพิ่มลายน้ำในรูปแบบต่อไปนี้:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

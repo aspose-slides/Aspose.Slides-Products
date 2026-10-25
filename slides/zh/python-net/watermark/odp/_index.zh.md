@@ -1,113 +1,82 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Python 将水印添加到 ODP 演示文件
+title: 使用 Python 为 ODP 演示文稿添加水印
 url: /zh/python-net/watermark/odp/
-keywords: 添加水印 ODP，添加文字水印 ODP，添加图片水印 ODP
-description: Python 源代码，用于将水印添加到 ODP 演示文稿。
+description: 使用 Python 和 Aspose.Slides 为 ODP 演示文稿添加文本和图片水印。
+keywords: 为 ODP 添加水印, 为 ODP 添加文本水印, 为 ODP 添加图片水印
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Python 将水印添加到 ODP 演示文稿" h2="构建您自己的 Python 应用程序，使用服务器端 API 将文本或图像水印插入到 PPT、PPTX 或 ODP 演示文稿中。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Python 为 ODP 演示文稿添加水印" h2="构建使用 Aspose.Slides 为 ODP 演示文稿添加文本或图片水印的 Python 应用程序。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通过 Python 为 ODP 演示文稿添加水印" %}}
-使用 Aspose.Slides for Python via .NET，您可以为 ODP 演示文稿添加水印。水印是任何演示文稿的重要组成部分。它们用于保护演示文稿的内容不被复制或未经许可使用。水印是放置在演示文稿顶部的可见或不可见的图像或文本。它可用于识别演示文稿的所有者并防止未经授权的使用。水印也可用于为演示文稿增添专业气息并使其看起来更加精美。 
-{{% blocks/products/pf/agp/code-block title="使用 Python 将文本水印添加到 ODP" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 Python 为 ODP 演示文稿添加水印的示例" variant="code" %}}
 
-```py
+借助 [Aspose.Slides for Python via .NET](/slides/zh/python-net/)，无需使用 OpenOffice 即可为 ODP 演示文稿添加文本或图片水印。水印可以标明所有权、将演示文稿标记为机密或草稿，或提供一致的品牌形象。以下示例将水印放在第一个母版幻灯片上，因此水印会显示在使用该母版的幻灯片上。
 
-import aspose.slides as slides
-import aspose.pydrawing as draw
+{{< blocks/products/pf/slides-design-update-10-2026/code title="为 ODP 演示文稿添加文本水印 - Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 100, 100, 400, 50)
+    watermark_text_frame = watermark_shape.add_text_frame("CONFIDENTIAL")
 
-with slides.Presentation() as pres:
-    master = pres.masters[0]
+    watermark_shape.fill_format.fill_type = slides.FillType.NO_FILL
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, 100, 100)
-    watermarkTextFrame = watermarkShape.add_text_frame("Watermark")
+    watermark_portion = watermark_text_frame.paragraphs[0].portions[0]
+    watermark_portion.portion_format.font_height = 32
 
-    # Lock Watermark from Editing
-    watermarkShape.shape_lock.select_locked = True
-    watermarkShape.shape_lock.size_locked = True
-    watermarkShape.shape_lock.text_locked = True
-    watermarkShape.shape_lock.position_locked = True
-    watermarkShape.shape_lock.grouping_locked = True
-    
-    # Set Text Watermark Transparency
-    watermarkPortion = watermarkTextFrame.paragraphs[0].portions[0]
-    watermarkPortion.portion_format.fill_format.fill_type = slides.FillType.SOLID
-    watermarkPortion.portion_format.fill_format.solid_fill_color.color = draw.Color.from_argb(150, 200, 200, 200)
-    
-    # Set Font Size of Text Watermark
-    watermarkPortion.portion_format.font_height = 16
+    watermark_shape.auto_shape_lock.select_locked = True
+    watermark_shape.auto_shape_lock.size_locked = True
+    watermark_shape.auto_shape_lock.text_locked = True
+    watermark_shape.auto_shape_lock.position_locked = True
+    watermark_shape.auto_shape_lock.grouping_locked = True
 
-    pres.save("watermark.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="为 ODP 演示文稿添加图片水印 - Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    with open("watermark.png", "rb") as image_stream:
+        watermark_image = presentation.images.add_image(image_stream.read())
 
-{{% /blocks/products/pf/agp/code-block %}}
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 100, 100, watermark_image.width, watermark_image.height)
 
-{{% blocks/products/pf/agp/code-block title="使用 Python 将图像水印添加到 ODP 演示文稿" offSpacer="true" %}}
+    watermark_shape.fill_format.fill_type = slides.FillType.PICTURE
+    watermark_shape.fill_format.picture_fill_format.picture.image = watermark_image
+    watermark_shape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation() as presentation:
-    with open("image1.png", "rb") as fs:
-        data = fs.read()
-    image = presentation.images.add_image(data)
-
-    master = presentation.masters[0]
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, image.width, image.height)
-    
-    watermarkShape.fill_format.fill_type = slides.FillType.PICTURE
-    watermarkShape.fill_format.picture_fill_format.picture.image = image
-    watermarkShape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
-
-    presentation.save("watermark2.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 Python 为 ODP 添加水印" intro="按照以下步骤为 ODP 演示文稿添加文本水印。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 打开 ODP 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}从 `masters` 集合中获取第一个母版幻灯片。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}调用 `add_auto_shape` 在母版幻灯片上添加矩形。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}调用 `add_text_frame` 添加水印文本，然后设置形状格式并锁定形状。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.ODP` 调用 `save`，保存带水印的演示文稿。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通过 Python 为 ODP 添加水印" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="基于 Aspose.Slides 构建" title="在线为 ODP 文件添加水印" description="免费的 Aspose.Slides Watermark 应用基于 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh/python-net/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 ODP 文件。" button="打开 Aspose.Slides Watermark" note="[所有免费应用](https://products.aspose.app/slides/family)" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先看看 Aspose.Slides 如何添加水印。
+- 为 ODP 文件添加文本或图片水印。
+- 下载带水印的文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="这些是将文本水印添加到 ODP 文件的步骤。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持水印的格式" subTitle="使用 Python，还可以为其他受支持的演示文稿格式添加水印。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/python-net/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/python-net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 实例加载 ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-选择主演示文稿
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 AddAutoShape 方法添加形状类型
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 AddTextFrame 方法添加水印文本
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 ODP 格式保存结果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用Python，您还可以为以下格式添加水印：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

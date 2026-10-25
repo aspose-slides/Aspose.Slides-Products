@@ -1,99 +1,76 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Java 將水印添加到 ODP 演示文件
+title: 使用 Java 為 ODP 簡報檔案新增浮水印
 url: /zh-hant/java/watermark/odp/
-keywords: 添加水印 ODP，添加文字水印 ODP，添加圖片水印 ODP
-description: Java 源代碼，用於將水印添加到 ODP 演示文稿。
+description: 使用 Aspose.Slides for Java 在 Java 中為 ODP 簡報新增文字與圖片浮水印。
+keywords: 為 ODP 新增浮水印, 為 ODP 新增文字浮水印, 為 ODP 新增圖片浮水印
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Java 將水印添加到 ODP 演示文稿" h2="構建您自己的 Java 應用程序，以使用服務器端 API 將文本或圖像水印插入到 PPT、PPTX 或 ODP 演示文稿中。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Java 為 ODP 簡報新增浮水印" h2="建置使用伺服器端 API 在簡報檔案中插入文字或圖片浮水印的 Java 應用程式。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 Java 為 ODP 演示文稿添加水印" %}}
-使用 Aspose.Slides for Java，您可以為 ODP 演示文稿添加水印。水印是任何演示文稿的重要組成部分。它們用於保護演示文稿的內容不被複製或未經許可使用。水印是放置在演示文稿頂部的可見或不可見的圖像或文本。它可用於識別演示文稿的所有者並防止未經授權的使用。水印也可用於為演示文稿增添專業氣息並使其看起來更加精美。 
-{{% blocks/products/pf/agp/code-block title="使用 Java 將文本水印添加到 ODP" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 Java 為 ODP 簡報新增浮水印" variant="code" %}}
 
+透過 [Aspose.Slides for Java](/slides/zh-hant/java/)，可以為 ODP 簡報新增文字與圖片浮水印。將浮水印圖形新增到投影片母片，浮水印就會顯示在使用該母片的投影片上。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 Java 為 ODP 新增文字浮水印" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    IMasterSlide master = pres.getMasters().get_Item(0);
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
     ITextFrame watermarkTextFrame = watermarkShape.addTextFrame("Watermark");
+    watermarkTextFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(48);
 
-    pres.save("watermark.odp", SaveFormat.Odp);
+    presentation.save("watermark.odp", SaveFormat.Odp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="使用 Java 將圖像水印添加到 ODP 演示文稿" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 Java 為 ODP 簡報新增圖片浮水印" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("watermark.png")));
-
-    IMasterSlide master = pres.getMasters().get_Item(0);
-
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 100, 100);
+    byte[] imageData = Files.readAllBytes(Paths.get("watermark.png"));
+    IPPImage watermarkImage = presentation.getImages().addImage(imageData);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
     watermarkShape.getFillFormat().setFillType(FillType.Picture);
-    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(watermarkImage);
     watermarkShape.getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 
-    pres.save("watermark2.odp", SaveFormat.Odp);
+    presentation.save("image-watermark.odp", SaveFormat.Odp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 Java 為 ODP 新增浮水印" intro="依照下列步驟為 ODP 檔案新增文字或圖片浮水印。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 類別載入 `ODP` 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `getMasters` 方法選取投影片母片。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}呼叫 `addAutoShape` 方法新增浮水印圖形。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}呼叫 `addTextFrame` 方法新增浮水印文字，或使用 `addImage` 新增圖片浮水印。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}將加上浮水印的簡報儲存為 ODP 格式。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 Java 為 ODP 添加水印" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="以 Aspose.Slides 建置" title="線上為 ODP 檔案新增浮水印" description="免費的 Aspose.Slides Watermark 應用程式以 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 ODP 檔案。" button="開啟 Aspose.Slides Watermark" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先看看 Aspose.Slides 如何新增浮水印。
+- 為 ODP 檔案新增文字或圖片浮水印。
+- 下載加上浮水印的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是將文本水印添加到 ODP 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援浮水印的格式" subTitle="使用 Java，也可以為下列格式新增浮水印。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/java/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/java/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-選擇主演示文稿
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 AddAutoShape 方法添加形狀類型
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 AddTextFrame 方法添加水印文本
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 ODP 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用Java，您還可以為以下格式添加水印：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

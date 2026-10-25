@@ -1,99 +1,76 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Thêm Hình mờ vào Tệp Bản trình bày ODP bằng Java
+title: Thêm hình mờ vào tệp bản trình bày ODP bằng Java
 url: /vi/java/watermark/odp/
-keywords: Thêm Hình mờ ODP, Thêm Hình mờ Văn bản ODP, Thêm Hình mờ Hình ảnh ODP
-description: Mã nguồn Java để thêm Hình mờ vào Bản trình bày ODP.
+description: Thêm hình mờ văn bản và hình ảnh vào bản trình bày ODP trong Java bằng Aspose.Slides for Java.
+keywords: thêm hình mờ vào ODP, thêm hình mờ văn bản vào ODP, thêm hình mờ hình ảnh vào ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Thêm Hình mờ vào Bản trình bày ODP bằng Java" h2="Xây dựng các ứng dụng Java của riêng bạn để chèn hình mờ văn bản hoặc hình ảnh vào bản trình bày PPT, PPTX hoặc ODP bằng API phía máy chủ." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Thêm hình mờ vào bản trình bày ODP bằng Java" h2="Xây dựng ứng dụng Java chèn hình mờ văn bản hoặc hình ảnh vào tệp bản trình bày bằng API phía máy chủ." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Thêm Hình mờ vào Bản trình bày ODP qua Java" %}}
-Sử dụng Aspose.Slides for Java, bạn có thể thêm hình mờ vào bản trình bày ODP. Hình mờ là một phần thiết yếu của bất kỳ bài thuyết trình nào. Chúng được sử dụng để bảo vệ nội dung của bài thuyết trình không bị sao chép hoặc sử dụng trái phép. Hình mờ là một hình ảnh hoặc văn bản hiển thị hoặc không nhìn thấy được đặt ở trên cùng của bản trình bày. Nó có thể được sử dụng để xác định chủ sở hữu của bài thuyết trình và để ngăn chặn việc sử dụng trái phép. Hình nền mờ cũng có thể được sử dụng để thêm nét chuyên nghiệp cho bản trình bày và làm cho bản trình bày trông bóng bẩy hơn. 
-{{% blocks/products/pf/agp/code-block title="Thêm Hình mờ văn bản vào ODP bằng Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Thêm hình mờ vào bản trình bày ODP qua Java" variant="code" %}}
 
+Với [Aspose.Slides for Java](/slides/vi/java/), bạn có thể thêm hình mờ văn bản và hình ảnh vào bản trình bày ODP. Thêm hình dạng hình mờ vào trang chiếu cái để hình mờ xuất hiện trên các trang chiếu dùng trang chiếu cái đó.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Thêm hình mờ văn bản vào ODP bằng Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    IMasterSlide master = pres.getMasters().get_Item(0);
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
     ITextFrame watermarkTextFrame = watermarkShape.addTextFrame("Watermark");
+    watermarkTextFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(48);
 
-    pres.save("watermark.odp", SaveFormat.Odp);
+    presentation.save("watermark.odp", SaveFormat.Odp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Thêm hình mờ vào bản trình bày ODP bằng Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Thêm hình mờ hình ảnh vào bản trình bày ODP bằng Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("watermark.png")));
-
-    IMasterSlide master = pres.getMasters().get_Item(0);
-
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 100, 100);
+    byte[] imageData = Files.readAllBytes(Paths.get("watermark.png"));
+    IPPImage watermarkImage = presentation.getImages().addImage(imageData);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
     watermarkShape.getFillFormat().setFillType(FillType.Picture);
-    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(watermarkImage);
     watermarkShape.getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 
-    pres.save("watermark2.odp", SaveFormat.Odp);
+    presentation.save("image-watermark.odp", SaveFormat.Odp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách thêm hình mờ vào ODP bằng Java" intro="Làm theo các bước sau để thêm hình mờ văn bản hoặc hình ảnh vào tệp ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp `ODP` bằng lớp `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chọn một trang chiếu cái bằng phương thức `getMasters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gọi phương thức `addAutoShape` để thêm hình dạng hình mờ.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gọi phương thức `addTextFrame` để thêm văn bản hình mờ hoặc dùng `addImage` cho hình mờ hình ảnh.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu bản trình bày có hình mờ ở định dạng ODP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách thêm Hình mờ vào ODP qua Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Được xây dựng bằng Aspose.Slides" title="Thêm hình mờ vào tệp ODP trực tuyến" description="Ứng dụng Aspose.Slides Watermark miễn phí được xây dựng bằng [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp ODP của riêng bạn." button="Mở Aspose.Slides Watermark" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem Aspose.Slides thêm hình mờ như thế nào trước khi viết mã.
+- Thêm hình mờ văn bản hoặc hình ảnh vào tệp ODP của bạn.
+- Tải xuống tệp có hình mờ.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để thêm hình mờ văn bản vào tệp ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng khác hỗ trợ hình mờ" subTitle="Với Java, bạn cũng có thể thêm hình mờ vào các định dạng sau." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải ODP với phiên bản Trình bày
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Chọn bản trình bày chính
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Thêm loại hình bằng phương pháp AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Thêm văn bản hình mờ bằng phương pháp AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng được hỗ trợ khác" subTitle="Sử dụng Java, Bạn cũng có thể thêm Hình mờ vào các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

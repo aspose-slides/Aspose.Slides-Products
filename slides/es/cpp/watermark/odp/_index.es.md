@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Agregar marca de agua a ODP archivos de presentación usando C++
+title: Agregar una marca de agua a presentaciones ODP con C++
 url: /es/cpp/watermark/odp/
-keywords: Añadir marca de agua ODP, Añadir marca de agua de texto ODP, Añadir marca de agua de imagen ODP
-description: Código fuente de C++ para agregar marca de agua a la presentación ODP.
+description: Agregue marcas de agua de texto o imagen a presentaciones ODP en C++. Use Aspose.Slides for C++ para colocar marcas de agua en las diapositivas.
+keywords: agregar marca de agua a ODP, agregar marca de agua de texto a ODP, agregar marca de agua de imagen a ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Agregar marca de agua a la presentación ODP usando C++" h2="Cree sus propias aplicaciones C++ para insertar texto o marca de agua de imagen en presentaciones PPT, PPTX u ODP utilizando las API del lado del servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Agregar una marca de agua a una presentación ODP con C++" h2="Use Aspose.Slides for C++ para agregar marcas de agua de texto o imagen a archivos de presentación sin Microsoft PowerPoint." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Agregar marca de agua a la presentación ODP a través de C++" %}}
-Usando Aspose.Slides for C++, puede agregar una marca de agua a la presentación ODP. Las marcas de agua son una parte esencial de cualquier presentación. Se utilizan para proteger el contenido de la presentación de ser copiado o utilizado sin permiso. Una marca de agua es una imagen o texto visible o invisible que se coloca encima de la presentación. Se puede utilizar para identificar al propietario de la presentación y para evitar el uso no autorizado. Las marcas de agua también se pueden usar para agregar un toque profesional a la presentación y hacer que se vea más pulida. 
-{{% blocks/products/pf/agp/code-block title="Agregar marca de agua de texto a ODP usando C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Agregar una marca de agua a una presentación ODP mediante C++" variant="code" %}}
 
+Aspose.Slides for C++ permite agregar marcas de agua de texto o imagen a presentaciones ODP. Agregue una forma de marca de agua al patrón de diapositivas con `AddAutoShape`, agregue texto con `AddTextFrame` o rellene la forma con una imagen cargada mediante `File::ReadAllBytes` y `AddImage`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Agregar una marca de agua de texto a ODP con C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.odp", SaveFormat::Odp);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Agregue una marca de agua de imagen a la presentación ODP usando C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Agregar una marca de agua de imagen a una presentación ODP con C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.odp", SaveFormat::Odp);
+presentation->Save(u"image-watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo agregar una marca de agua a ODP con C++" intro="Siga estos pasos para agregar una marca de agua de texto o imagen a archivos ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue el archivo ODP con la clase `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Seleccione el patrón de diapositivas de la colección `Presentation::get_Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Agregue una forma de marca de agua con el método `AddAutoShape`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Agregue el texto de la marca de agua con el método `AddTextFrame` o defina un relleno de imagen con `AddImage`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el archivo con marca de agua con `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo agregar una marca de agua a ODP a través de C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Creado con Aspose.Slides" title="Agregue marcas de agua a archivos ODP en línea" description="La aplicación gratuita Aspose.Slides Watermark está creada con [Aspose.Slides for C++](https://products.aspose.com/slides/es/cpp/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos ODP." button="Abrir Aspose.Slides Watermark" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides agrega marcas de agua antes de escribir código.
+- Agregue una marca de agua de texto o imagen a su archivo ODP.
+- Descargue el archivo con marca de agua.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estos son los pasos para agregar una marca de agua de texto a los archivos ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otros formatos compatibles con marcas de agua" subTitle="Con C++, también puede agregar marcas de agua a los siguientes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/cpp/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue ODP con una instancia de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Seleccione la presentación maestra
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Agregar tipo de forma usando el método AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Agregue texto de marca de agua usando el método AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guardar resultado en formato ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos compatibles" subTitle="Con C++, también puede agregar una marca de agua a los siguientes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

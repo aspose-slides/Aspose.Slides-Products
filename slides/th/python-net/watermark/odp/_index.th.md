@@ -1,113 +1,82 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: เพิ่มลายน้ำให้กับไฟล์นำเสนอ ODP โดยใช้ Python
+title: เพิ่มลายน้ำในงานนำเสนอ ODP ด้วย Python
 url: /th/python-net/watermark/odp/
-keywords: เพิ่มลายน้ำ ODP, เพิ่มลายน้ำข้อความ ODP, เพิ่มลายน้ำรูปภาพ ODP
-description: ซอร์สโค้ด Python สำหรับเพิ่มลายน้ำในงานนำเสนอ ODP
+description: เพิ่มลายน้ำข้อความและรูปภาพในงานนำเสนอ ODP ด้วย Python และ Aspose.Slides
+keywords: เพิ่มลายน้ำใน ODP, เพิ่มลายน้ำข้อความใน ODP, เพิ่มลายน้ำรูปภาพใน ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="เพิ่มลายน้ำในงานนำเสนอ ODP โดยใช้ Python" h2="สร้างแอป Python ของคุณเองเพื่อแทรกลายน้ำข้อความหรือรูปภาพลงในงานนำเสนอ PPT, PPTX หรือ ODP โดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="เพิ่มลายน้ำในงานนำเสนอ ODP ด้วย Python" h2="สร้างแอป Python ที่เพิ่มลายน้ำข้อความหรือรูปภาพในงานนำเสนอ ODP ด้วย Aspose.Slides" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="เพิ่มลายน้ำในงานนำเสนอ ODP ผ่าน Python" %}}
-เมื่อใช้ Aspose.Slides for Python via .NET คุณสามารถเพิ่มลายน้ำให้กับงานนำเสนอ ODP ลายน้ำเป็นส่วนสำคัญของงานนำเสนอ ใช้เพื่อป้องกันเนื้อหาของงานนำเสนอจากการคัดลอกหรือนำไปใช้โดยไม่ได้รับอนุญาต ลายน้ำคือรูปภาพหรือข้อความที่มองเห็นหรือมองไม่เห็นที่วางอยู่ด้านบนของงานนำเสนอ สามารถใช้เพื่อระบุเจ้าของงานนำเสนอและเพื่อป้องกันการใช้งานโดยไม่ได้รับอนุญาต ลายน้ำสามารถใช้เพื่อเพิ่มความเป็นมืออาชีพให้กับงานนำเสนอและทำให้ดูสวยงามยิ่งขึ้น 
-{{% blocks/products/pf/agp/code-block title="เพิ่มลายน้ำข้อความใน ODP โดยใช้ Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="เพิ่มลายน้ำในงานนำเสนอ ODP ด้วย Python – ตัวอย่าง" variant="code" %}}
 
-```py
+ด้วย [Aspose.Slides for Python via .NET](/slides/th/python-net/) คุณสามารถเพิ่มลายน้ำข้อความหรือรูปภาพในงานนำเสนอ ODP ได้โดยไม่ต้องใช้ OpenOffice ลายน้ำช่วยระบุความเป็นเจ้าของ ทำเครื่องหมายว่างานนำเสนอเป็นความลับหรือฉบับร่าง หรือสร้างแบรนด์ที่สอดคล้องกัน ตัวอย่างด้านล่างวางลายน้ำบนสไลด์ต้นแบบแรก เพื่อให้ลายน้ำปรากฏบนสไลด์ที่ใช้ต้นแบบนั้น
 
-import aspose.slides as slides
-import aspose.pydrawing as draw
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มลายน้ำข้อความในงานนำเสนอ ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 100, 100, 400, 50)
+    watermark_text_frame = watermark_shape.add_text_frame("CONFIDENTIAL")
 
-with slides.Presentation() as pres:
-    master = pres.masters[0]
+    watermark_shape.fill_format.fill_type = slides.FillType.NO_FILL
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, 100, 100)
-    watermarkTextFrame = watermarkShape.add_text_frame("Watermark")
+    watermark_portion = watermark_text_frame.paragraphs[0].portions[0]
+    watermark_portion.portion_format.font_height = 32
 
-    # Lock Watermark from Editing
-    watermarkShape.shape_lock.select_locked = True
-    watermarkShape.shape_lock.size_locked = True
-    watermarkShape.shape_lock.text_locked = True
-    watermarkShape.shape_lock.position_locked = True
-    watermarkShape.shape_lock.grouping_locked = True
-    
-    # Set Text Watermark Transparency
-    watermarkPortion = watermarkTextFrame.paragraphs[0].portions[0]
-    watermarkPortion.portion_format.fill_format.fill_type = slides.FillType.SOLID
-    watermarkPortion.portion_format.fill_format.solid_fill_color.color = draw.Color.from_argb(150, 200, 200, 200)
-    
-    # Set Font Size of Text Watermark
-    watermarkPortion.portion_format.font_height = 16
+    watermark_shape.auto_shape_lock.select_locked = True
+    watermark_shape.auto_shape_lock.size_locked = True
+    watermark_shape.auto_shape_lock.text_locked = True
+    watermark_shape.auto_shape_lock.position_locked = True
+    watermark_shape.auto_shape_lock.grouping_locked = True
 
-    pres.save("watermark.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มลายน้ำรูปภาพในงานนำเสนอ ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    with open("watermark.png", "rb") as image_stream:
+        watermark_image = presentation.images.add_image(image_stream.read())
 
-{{% /blocks/products/pf/agp/code-block %}}
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 100, 100, watermark_image.width, watermark_image.height)
 
-{{% blocks/products/pf/agp/code-block title="เพิ่มลายน้ำรูปภาพในงานนำเสนอ ODP โดยใช้ Python" offSpacer="true" %}}
+    watermark_shape.fill_format.fill_type = slides.FillType.PICTURE
+    watermark_shape.fill_format.picture_fill_format.picture.image = watermark_image
+    watermark_shape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation() as presentation:
-    with open("image1.png", "rb") as fs:
-        data = fs.read()
-    image = presentation.images.add_image(data)
-
-    master = presentation.masters[0]
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, image.width, image.height)
-    
-    watermarkShape.fill_format.fill_type = slides.FillType.PICTURE
-    watermarkShape.fill_format.picture_fill_format.picture.image = image
-    watermarkShape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
-
-    presentation.save("watermark2.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีเพิ่มลายน้ำใน ODP ด้วย Python" intro="ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มลายน้ำข้อความในงานนำเสนอ ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์ ODP ด้วย `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ดึงสไลด์ต้นแบบแรกจากคอลเลกชัน `masters`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียก `add_auto_shape` เพื่อเพิ่มสี่เหลี่ยมผืนผ้าลงในสไลด์ต้นแบบ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียก `add_text_frame` เพื่อเพิ่มข้อความลายน้ำ จากนั้นจัดรูปแบบและล็อกรูปร่าง{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียก `save` พร้อม `SaveFormat.ODP` เพื่อบันทึกงานนำเสนอที่มีลายน้ำ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีเพิ่มลายน้ำใน ODP ผ่าน Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="สร้างด้วย Aspose.Slides" title="เพิ่มลายน้ำในไฟล์ ODP ออนไลน์" description="แอป Aspose.Slides Watermark ฟรีนี้สร้างด้วย [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/th/python-net/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ ODP ของคุณเอง" button="เปิด Aspose.Slides Watermark" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides เพิ่มลายน้ำอย่างไรก่อนเขียนโค้ด
+- เพิ่มลายน้ำข้อความหรือรูปภาพในไฟล์ ODP ของคุณ
+- ดาวน์โหลดไฟล์ที่มีลายน้ำ
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการเพิ่มลายน้ำข้อความในไฟล์ ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับลายน้ำ" subTitle="ด้วย Python คุณยังสามารถเพิ่มลายน้ำในรูปแบบงานนำเสนออื่นที่รองรับได้" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด ODP ด้วยอินสแตนซ์ของงานนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เลือกงานนำเสนอหลัก
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มประเภทรูปร่างโดยใช้วิธี AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มข้อความลายน้ำโดยใช้วิธี AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์ในรูปแบบ ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ Python คุณยังสามารถเพิ่มลายน้ำในรูปแบบต่อไปนี้:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Watermerk toevoegen aan ODP presentatiebestanden met C++
+title: Watermerk toevoegen aan ODP-presentaties met C++
 url: /nl/cpp/watermark/odp/
-keywords: Watermerk toevoegen ODP, Tekstwatermerk toevoegen ODP, Afbeeldingswatermerk toevoegen ODP
-description: C++ broncode voor het toevoegen van watermerk aan ODP presentatie.
+description: Voeg tekst- of afbeeldingswatermerken toe aan ODP-presentaties in C++. Gebruik Aspose.Slides for C++ om watermerken op dia's te plaatsen.
+keywords: watermerk toevoegen aan ODP, tekstwatermerk toevoegen aan ODP, afbeeldingswatermerk toevoegen aan ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Watermerk toevoegen aan presentatie ODP met behulp van C++" h2="Bouw uw eigen C++-apps om tekst- of afbeeldingswatermerken in PPT-, PPTX- of ODP-presentaties in te voegen met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Watermerk toevoegen aan een ODP-presentatie met C++" h2="Gebruik Aspose.Slides for C++ om tekst- of afbeeldingswatermerken toe te voegen aan presentatiebestanden zonder Microsoft PowerPoint." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Watermerk toevoegen aan presentatie ODP via C++" %}}
-Met Aspose.Slides for C++ kunt u een watermerk toevoegen aan de ODP-presentatie. Watermerken zijn een essentieel onderdeel van elke presentatie. Ze worden gebruikt om te voorkomen dat de inhoud van de presentatie zonder toestemming wordt gekopieerd of gebruikt. Een watermerk is een zichtbare of onzichtbare afbeelding of tekst die bovenop de presentatie wordt geplaatst. Het kan worden gebruikt om de eigenaar van de presentatie te identificeren en ongeoorloofd gebruik te voorkomen. Watermerken kunnen ook worden gebruikt om een ​​professionele toets aan de presentatie te geven en deze er verzorgder uit te laten zien. 
-{{% blocks/products/pf/agp/code-block title="Voeg tekstwatermerk toe aan ODP met C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Watermerk toevoegen aan een ODP-presentatie via C++" variant="code" %}}
 
+Met Aspose.Slides for C++ voegt u tekst- of afbeeldingswatermerken toe aan ODP-presentaties. Voeg met `AddAutoShape` een watermerkvorm toe aan de modeldia, voeg tekst toe met `AddTextFrame` of vul de vorm met een afbeelding die via `File::ReadAllBytes` en `AddImage` wordt geladen.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tekstwatermerk toevoegen aan ODP met C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.odp", SaveFormat::Odp);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Afbeeldingswatermerk toevoegen aan presentatie ODP met behulp van C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Afbeeldingswatermerk toevoegen aan een ODP-presentatie met C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.odp", SaveFormat::Odp);
+presentation->Save(u"image-watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Een watermerk toevoegen aan ODP met C++" intro="Volg deze stappen om een tekst- of afbeeldingswatermerk toe te voegen aan ODP-bestanden." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het ODP-bestand met de klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Selecteer de modeldia uit de verzameling `Presentation::get_Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Voeg een watermerkvorm toe met de methode `AddAutoShape`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Voeg watermerktekst toe met de methode `AddTextFrame` of stel een afbeeldingsvulling in met `AddImage`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla het bestand met watermerk op met `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Watermerk toevoegen aan ODP via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Gebouwd met Aspose.Slides" title="Watermerken toevoegen aan ODP-bestanden online" description="De gratis app Aspose.Slides Watermark is gebouwd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen ODP-bestanden." button="Aspose.Slides Watermark openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Zie hoe Aspose.Slides watermerken toevoegt voordat u code schrijft.
+- Voeg een tekst- of afbeeldingswatermerk toe aan uw ODP-bestand.
+- Download het bestand met watermerk.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om een ​​tekstwatermerk toe te voegen aan ODP-bestanden." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor watermerken" subTitle="Met C++ kunt u ook watermerken toevoegen aan de volgende formaten." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/cpp/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad ODP met een instantie van Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Selecteer de masterpresentatie
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Vormtype toevoegen met de methode AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Voeg watermerktekst toe met de methode AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op in ODP formaat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde formaten" subTitle="Met C++ kunt u ook een watermerk toevoegen aan de volgende indelingen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

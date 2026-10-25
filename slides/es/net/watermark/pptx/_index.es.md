@@ -1,94 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Agregar marca de agua a PPTX archivos de presentación usando .NET
+title: Agregar una marca de agua a presentaciones PPTX con C#
 url: /es/net/watermark/pptx/
-keywords: Añadir marca de agua PPTX, Añadir marca de agua de texto PPTX, Añadir marca de agua de imagen PPTX
-description: Código fuente de C# para agregar marca de agua a la presentación PPTX.
+description: Agregue marcas de agua de texto e imagen a presentaciones PPTX en C# con Aspose.Slides for .NET.
+keywords: agregar marca de agua a PPTX, agregar marca de agua de texto a PPTX, agregar marca de agua de imagen a PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Agregar marca de agua a la presentación PPTX usando C#" h2="Cree sus propias aplicaciones .NET para insertar texto o marca de agua de imagen en presentaciones PPT, PPTX u ODP utilizando las API del lado del servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Agregar una marca de agua a una presentación PPTX con C#" h2="Cree aplicaciones .NET que inserten marcas de agua de texto o imagen en archivos de presentación." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Agregar marca de agua a la presentación PPTX a través de C#" %}}
-Usando Aspose.Slides for .NET, puede agregar una marca de agua a la presentación PPTX. Las marcas de agua son una parte esencial de cualquier presentación. Se utilizan para proteger el contenido de la presentación de ser copiado o utilizado sin permiso. Una marca de agua es una imagen o texto visible o invisible que se coloca encima de la presentación. Se puede utilizar para identificar al propietario de la presentación y para evitar el uso no autorizado. Las marcas de agua también se pueden usar para agregar un toque profesional a la presentación y hacer que se vea más pulida. 
-{{% blocks/products/pf/agp/code-block title="Agregar marca de agua de texto a PPTX usando C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Agregar una marca de agua a una presentación PPTX mediante C#" variant="code" %}}
 
+Con [Aspose.Slides for .NET](/slides/es/net/), puede agregar marcas de agua de texto e imagen a presentaciones PPTX. Agregue una forma de marca de agua a un patrón de diapositivas para que aparezca en las diapositivas que usan ese patrón.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Agregar una marca de agua de texto a PPTX con C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.pptx");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
-    ITextFrame watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
+var watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+watermarkTextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 48;
 
-    presentation.Save("watermark.pptx", SaveFormat.Pptx);
-}
+presentation.Save("watermarked-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Agregue una marca de agua de imagen a la presentación PPTX usando C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Agregar una marca de agua de imagen a una presentación PPTX con C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.pptx");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+var imageData = File.ReadAllBytes("watermark.png");
+var watermarkImage = presentation.Images.AddImage(imageData);
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
-    IPPImage image = presentation.Images.AddImage(File.ReadAllBytes("watermark.png"));
+watermarkShape.FillFormat.FillType = FillType.Picture;
+watermarkShape.FillFormat.PictureFillFormat.Picture.Image = watermarkImage;
+watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 
-    watermarkShape.FillFormat.FillType = FillType.Picture;
-    watermarkShape.FillFormat.PictureFillFormat.Picture.Image = image;
-    watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
-
-    presentation.Save("watermark2.pptx", SaveFormat.Pptx);
-}
+presentation.Save("image-watermarked-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo agregar una marca de agua a PPTX con C#" intro="Siga estos pasos para agregar una marca de agua de texto o imagen a archivos PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue el archivo `PPTX` con la clase `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Seleccione un patrón de diapositivas de la colección `Presentation.Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Llame al método `AddAutoShape` para agregar una forma de marca de agua.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Llame al método `AddTextFrame` para agregar el texto de la marca de agua o use `AddImage` para una marca de agua de imagen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el archivo con marca de agua con `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo agregar una marca de agua a PPTX a través de C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Creado con Aspose.Slides" title="Agregue marcas de agua a archivos PPTX en línea" description="La aplicación gratuita Aspose.Slides Watermark está creada con [Aspose.Slides for .NET](https://products.aspose.com/slides/es/net/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPTX." button="Abrir Aspose.Slides Watermark" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides agrega marcas de agua antes de escribir código.
+- Agregue una marca de agua de texto o imagen a su archivo PPTX.
+- Descargue el archivo con marca de agua.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estos son los pasos para agregar una marca de agua de texto a los archivos PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otros formatos compatibles con marcas de agua" subTitle="Con C#, también puede agregar marcas de agua a los siguientes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/net/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/net/watermark/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue PPTX con una instancia de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Seleccione la presentación maestra
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Agregar tipo de forma usando el método AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Agregue texto de marca de agua usando el método AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guardar resultado en formato PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos compatibles" subTitle="Con C#, también puede agregar una marca de agua a los siguientes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/watermark/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

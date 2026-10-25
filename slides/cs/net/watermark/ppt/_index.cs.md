@@ -1,94 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Přidat vodoznak do prezentačních souborů PPT pomocí .NET
+title: Přidání vodoznaku do prezentací PPT v C#
 url: /cs/net/watermark/ppt/
-keywords: Přidat vodoznak PPT, Přidat textový vodoznak PPT, Přidat vodoznak obrázku PPT
-description: Zdrojový kód C# pro přidání vodoznaku do prezentace PPT.
+description: Přidávejte textové a obrázkové vodoznaky do prezentací PPT v C# pomocí Aspose.Slides for .NET.
+keywords: přidat vodoznak do PPT, přidat textový vodoznak do PPT, přidat obrázkový vodoznak do PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Přidat vodoznak do prezentace PPT pomocí C#" h2="Vytvořte si své vlastní aplikace pro .NET a vkládejte textový nebo obrázkový vodoznak do prezentace PPT, PPTX nebo ODP pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Přidání vodoznaku do prezentace PPT v C#" h2="Vytvářejte aplikace .NET, které vkládají textové nebo obrázkové vodoznaky do souborů prezentací." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Přidat vodoznak do prezentace PPT prostřednictvím C#" %}}
-Pomocí Aspose.Slides for .NET můžete přidat vodoznak do prezentace PPT. Vodoznaky jsou nezbytnou součástí každé prezentace. Používají se k ochraně obsahu prezentace před kopírováním nebo používáním bez povolení. Vodoznak je viditelný nebo neviditelný obrázek nebo text, který je umístěn v horní části prezentace. Lze jej použít k identifikaci vlastníka prezentace a k zabránění neoprávněnému použití. Vodoznaky lze také použít, aby prezentaci dodaly profesionální nádech a aby vypadala uhlazeněji. 
-{{% blocks/products/pf/agp/code-block title="Přidejte textový vodoznak do PPT pomocí C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Přidání vodoznaku do prezentace PPT pomocí C#" variant="code" %}}
 
+Pomocí [Aspose.Slides for .NET](/slides/cs/net/) můžete do prezentací PPT přidávat textové a obrázkové vodoznaky. Přidejte tvar vodoznaku na předlohu snímků, aby se vodoznak zobrazil na snímcích, které tuto předlohu používají.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Přidání textového vodoznaku do PPT v C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
-    ITextFrame watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
+var watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+watermarkTextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 48;
 
-    presentation.Save("watermark.ppt", SaveFormat.Ppt);
-}
+presentation.Save("watermarked-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Přidat vodoznak obrázku do prezentace PPT pomocí C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Přidání obrázkového vodoznaku do prezentace PPT v C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+var imageData = File.ReadAllBytes("watermark.png");
+var watermarkImage = presentation.Images.AddImage(imageData);
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
-    IPPImage image = presentation.Images.AddImage(File.ReadAllBytes("watermark.png"));
+watermarkShape.FillFormat.FillType = FillType.Picture;
+watermarkShape.FillFormat.PictureFillFormat.Picture.Image = watermarkImage;
+watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 
-    watermarkShape.FillFormat.FillType = FillType.Picture;
-    watermarkShape.FillFormat.PictureFillFormat.Picture.Image = image;
-    watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
-
-    presentation.Save("watermark2.ppt", SaveFormat.Ppt);
-}
+presentation.Save("image-watermarked-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak přidat vodoznak do PPT v C#" intro="Pomocí těchto kroků přidáte do souborů PPT textový nebo obrázkový vodoznak." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor `PPT` pomocí třídy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Vyberte předlohu snímků z kolekce `Presentation.Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zavolejte metodu `AddAutoShape` a přidejte tvar vodoznaku.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zavolejte metodu `AddTextFrame` a přidejte text vodoznaku, nebo pro obrázkový vodoznak použijte `AddImage`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte soubor s vodoznakem pomocí `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak přidat vodoznak do PPT prostřednictvím C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Vytvořeno pomocí Aspose.Slides" title="Přidávejte vodoznaky do souborů PPT online" description="Bezplatná aplikace Aspose.Slides Watermark je vytvořena pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory PPT." button="Otevřít Aspose.Slides Watermark" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides přidává vodoznaky, ještě než napíšete kód.
+- Přidejte do svého souboru PPT textový nebo obrázkový vodoznak.
+- Stáhněte soubor s vodoznakem.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k přidání textového vodoznaku do souborů PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další formáty podporující vodoznaky" subTitle="V C# můžete přidávat vodoznaky také do následujících formátů." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte PPT s instancí Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Vyberte hlavní prezentaci
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte typ tvaru pomocí metody AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přidejte text vodoznaku pomocí metody AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte výsledek ve formátu PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty" subTitle="Pomocí C# můžete také přidat vodoznak do následujících formátů:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

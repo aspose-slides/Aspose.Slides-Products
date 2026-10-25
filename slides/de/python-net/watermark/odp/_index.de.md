@@ -1,113 +1,82 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Wasserzeichen zu ODP-Präsentationsdateien mit Python hinzufügen
+title: Wasserzeichen zu ODP-Präsentationen mit Python hinzufügen
 url: /de/python-net/watermark/odp/
-keywords: Wasserzeichen hinzufügen ODP, Textwasserzeichen hinzufügen ODP, Bildwasserzeichen hinzufügen ODP
-description: Python-Quellcode zum Hinzufügen eines Wasserzeichens zur ODP-Präsentation.
+description: Fügen Sie ODP-Präsentationen mit Python und Aspose.Slides Text- und Bildwasserzeichen hinzu.
+keywords: Wasserzeichen zu ODP hinzufügen, Textwasserzeichen zu ODP hinzufügen, Bildwasserzeichen zu ODP hinzufügen
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Wasserzeichen zur ODP-Präsentation mit Python hinzufügen" h2="Erstellen Sie Ihre eigenen Python-Apps, um mithilfe serverseitiger APIs Text- oder Bildwasserzeichen in PPT-, PPTX- oder ODP-Präsentationen einzufügen." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Wasserzeichen zu ODP-Präsentationen mit Python hinzufügen" h2="Entwickeln Sie Python-Anwendungen, die ODP-Präsentationen mit Aspose.Slides Text- oder Bildwasserzeichen hinzufügen." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Wasserzeichen zur ODP-Präsentation über Python hinzufügen" %}}
-Mit Aspose.Slides for Python via .NET können Sie der Präsentation von ODP ein Wasserzeichen hinzufügen. Wasserzeichen sind ein wesentlicher Bestandteil jeder Präsentation. Sie dienen dazu, den Inhalt der Präsentation vor der Vervielfältigung oder unerlaubten Verwendung zu schützen. Ein Wasserzeichen ist ein sichtbares oder unsichtbares Bild oder Text, das über der Präsentation platziert wird. Es kann verwendet werden, um den Eigentümer der Präsentation zu identifizieren und eine unbefugte Nutzung zu verhindern. Wasserzeichen können auch verwendet werden, um der Präsentation eine professionelle Note zu verleihen und sie eleganter aussehen zu lassen. 
-{{% blocks/products/pf/agp/code-block title="Textwasserzeichen zu ODP mit Python hinzufügen" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Einer ODP-Präsentation mit Python ein Wasserzeichen hinzufügen" variant="code" %}}
 
-```py
+Mit [Aspose.Slides for Python via .NET](/slides/de/python-net/) fügen Sie einer ODP-Präsentation ein Text- oder Bildwasserzeichen hinzu, ohne OpenOffice zu verwenden. Ein Wasserzeichen kennzeichnet den Eigentümer, markiert eine Präsentation als vertraulich oder als Entwurf oder sorgt für ein einheitliches Branding. Die folgenden Beispiele platzieren das Wasserzeichen auf der ersten Masterfolie, sodass es auf allen Folien erscheint, die diesen Master verwenden.
 
-import aspose.slides as slides
-import aspose.pydrawing as draw
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Einer ODP-Präsentation ein Textwasserzeichen hinzufügen – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 100, 100, 400, 50)
+    watermark_text_frame = watermark_shape.add_text_frame("CONFIDENTIAL")
 
-with slides.Presentation() as pres:
-    master = pres.masters[0]
+    watermark_shape.fill_format.fill_type = slides.FillType.NO_FILL
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, 100, 100)
-    watermarkTextFrame = watermarkShape.add_text_frame("Watermark")
+    watermark_portion = watermark_text_frame.paragraphs[0].portions[0]
+    watermark_portion.portion_format.font_height = 32
 
-    # Lock Watermark from Editing
-    watermarkShape.shape_lock.select_locked = True
-    watermarkShape.shape_lock.size_locked = True
-    watermarkShape.shape_lock.text_locked = True
-    watermarkShape.shape_lock.position_locked = True
-    watermarkShape.shape_lock.grouping_locked = True
-    
-    # Set Text Watermark Transparency
-    watermarkPortion = watermarkTextFrame.paragraphs[0].portions[0]
-    watermarkPortion.portion_format.fill_format.fill_type = slides.FillType.SOLID
-    watermarkPortion.portion_format.fill_format.solid_fill_color.color = draw.Color.from_argb(150, 200, 200, 200)
-    
-    # Set Font Size of Text Watermark
-    watermarkPortion.portion_format.font_height = 16
+    watermark_shape.auto_shape_lock.select_locked = True
+    watermark_shape.auto_shape_lock.size_locked = True
+    watermark_shape.auto_shape_lock.text_locked = True
+    watermark_shape.auto_shape_lock.position_locked = True
+    watermark_shape.auto_shape_lock.grouping_locked = True
 
-    pres.save("watermark.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Einer ODP-Präsentation ein Bildwasserzeichen hinzufügen – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    with open("watermark.png", "rb") as image_stream:
+        watermark_image = presentation.images.add_image(image_stream.read())
 
-{{% /blocks/products/pf/agp/code-block %}}
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 100, 100, watermark_image.width, watermark_image.height)
 
-{{% blocks/products/pf/agp/code-block title="Bildwasserzeichen zur ODP-Präsentation mit Python hinzufügen" offSpacer="true" %}}
+    watermark_shape.fill_format.fill_type = slides.FillType.PICTURE
+    watermark_shape.fill_format.picture_fill_format.picture.image = watermark_image
+    watermark_shape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation() as presentation:
-    with open("image1.png", "rb") as fs:
-        data = fs.read()
-    image = presentation.images.add_image(data)
-
-    master = presentation.masters[0]
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, image.width, image.height)
-    
-    watermarkShape.fill_format.fill_type = slides.FillType.PICTURE
-    watermarkShape.fill_format.picture_fill_format.picture.image = image
-    watermarkShape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
-
-    presentation.save("watermark2.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So fügen Sie ODP mit Python ein Wasserzeichen hinzu" intro="Gehen Sie wie folgt vor, um einer ODP-Präsentation ein Textwasserzeichen hinzuzufügen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Öffnen Sie die ODP-Datei mit `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie die erste Masterfolie aus der Sammlung `masters` ab.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie `add_auto_shape` auf, um der Masterfolie ein Rechteck hinzuzufügen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie `add_text_frame` auf, um den Wasserzeichentext hinzuzufügen, und formatieren und sperren Sie anschließend die Form.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie `save` mit `SaveFormat.ODP` auf, um die Präsentation mit Wasserzeichen zu speichern.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So fügen Sie über Python ein Wasserzeichen zu ODP hinzu" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Entwickelt mit Aspose.Slides" title="ODP-Dateien online mit Wasserzeichen versehen" description="Die kostenlose App Aspose.Slides Watermark basiert auf [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/de/python-net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen ODP-Dateien leisten kann." button="Aspose.Slides Watermark öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Wasserzeichen hinzufügt, bevor Sie Code schreiben.
+- Fügen Sie Ihrer ODP-Datei ein Text- oder Bildwasserzeichen hinzu.
+- Laden Sie die Datei mit Wasserzeichen herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Hinzufügen von Textwasserzeichen zu ODP-Dateien." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für Wasserzeichen" subTitle="Mit Python können Sie auch anderen unterstützten Präsentationsformaten Wasserzeichen hinzufügen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/python-net/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/python-net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie ODP mit einer Präsentationsinstanz
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Wählen Sie die Masterpräsentation aus
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie einen Formtyp mit der AddAutoShape-Methode hinzu
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie Wasserzeichentext mit der AddTextFrame-Methode hinzu
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ergebnis im Format ODP speichern
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Formate" subTitle="Mit Python können Sie Wasserzeichen auch zu den folgenden Formaten hinzufügen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

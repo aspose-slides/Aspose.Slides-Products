@@ -1,113 +1,82 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python을(를) 사용하여 PPTX 프레젠테이션 파일에 워터마크 추가
+title: Python으로 PPTX 프레젠테이션에 워터마크 추가
 url: /ko/python-net/watermark/pptx/
-keywords: 워터마크 추가 PPTX, 텍스트 워터마크 추가 PPTX, 이미지 워터마크 추가 PPTX
-description: PPTX 프레젠테이션에 워터마크를 추가하기 위한 Python 소스 코드입니다.
+description: Python과 Aspose.Slides로 PPTX 프레젠테이션에 텍스트 및 이미지 워터마크를 추가하세요.
+keywords: PPTX에 워터마크 추가, PPTX에 텍스트 워터마크 추가, PPTX에 이미지 워터마크 추가
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python을(를) 사용하여 PPTX 프레젠테이션에 워터마크 추가" h2="서버 측 API를 사용하여 텍스트 또는 이미지 워터마크를 PPT, PPTX 또는 ODP 프레젠테이션에 삽입하는 나만의 Python 앱을 구축하세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python으로 PPTX 프레젠테이션에 워터마크 추가" h2="Aspose.Slides로 PPTX 프레젠테이션에 텍스트 또는 이미지 워터마크를 추가하는 Python 애플리케이션을 구축하세요." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python을(를) 통해 PPTX 프레젠테이션에 워터마크 추가" %}}
-Aspose.Slides for Python via .NET을(를) 사용하여 PPTX 프레젠테이션에 워터마크를 추가할 수 있습니다. 워터마크는 프레젠테이션의 필수 요소입니다. 프리젠테이션 내용을 허가 없이 복사하거나 사용하지 못하도록 보호하는 데 사용됩니다. 워터마크는 프리젠테이션 위에 표시되는 보이거나 보이지 않는 이미지 또는 텍스트입니다. 프레젠테이션의 소유자를 식별하고 무단 사용을 방지하는 데 사용할 수 있습니다. 워터마크를 사용하여 프레젠테이션에 전문적인 느낌을 더하고 더욱 세련되게 보이게 할 수 있습니다. 
-{{% blocks/products/pf/agp/code-block title="Python을 사용하여 PPTX에 텍스트 워터마크 추가" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python으로 PPTX 프레젠테이션에 워터마크 추가하기" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/ko/python-net/)을 사용하면 Microsoft PowerPoint 없이 PPTX 프레젠테이션에 텍스트 또는 이미지 워터마크를 추가할 수 있습니다. 워터마크는 소유권을 표시하거나, 프레젠테이션을 기밀 또는 초안으로 표시하거나, 일관된 브랜딩을 제공할 수 있습니다. 아래 예제는 첫 번째 슬라이드 마스터에 워터마크를 배치하므로 해당 마스터를 사용하는 슬라이드에 워터마크가 표시됩니다.
 
-import aspose.slides as slides
-import aspose.pydrawing as draw
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX 프레젠테이션에 텍스트 워터마크 추가 - Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 100, 100, 400, 50)
+    watermark_text_frame = watermark_shape.add_text_frame("CONFIDENTIAL")
 
-with slides.Presentation() as pres:
-    master = pres.masters[0]
+    watermark_shape.fill_format.fill_type = slides.FillType.NO_FILL
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, 100, 100)
-    watermarkTextFrame = watermarkShape.add_text_frame("Watermark")
+    watermark_portion = watermark_text_frame.paragraphs[0].portions[0]
+    watermark_portion.portion_format.font_height = 32
 
-    # Lock Watermark from Editing
-    watermarkShape.shape_lock.select_locked = True
-    watermarkShape.shape_lock.size_locked = True
-    watermarkShape.shape_lock.text_locked = True
-    watermarkShape.shape_lock.position_locked = True
-    watermarkShape.shape_lock.grouping_locked = True
-    
-    # Set Text Watermark Transparency
-    watermarkPortion = watermarkTextFrame.paragraphs[0].portions[0]
-    watermarkPortion.portion_format.fill_format.fill_type = slides.FillType.SOLID
-    watermarkPortion.portion_format.fill_format.solid_fill_color.color = draw.Color.from_argb(150, 200, 200, 200)
-    
-    # Set Font Size of Text Watermark
-    watermarkPortion.portion_format.font_height = 16
+    watermark_shape.auto_shape_lock.select_locked = True
+    watermark_shape.auto_shape_lock.size_locked = True
+    watermark_shape.auto_shape_lock.text_locked = True
+    watermark_shape.auto_shape_lock.position_locked = True
+    watermark_shape.auto_shape_lock.grouping_locked = True
 
-    pres.save("watermark.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("watermarked.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX 프레젠테이션에 이미지 워터마크 추가 - Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    with open("watermark.png", "rb") as image_stream:
+        watermark_image = presentation.images.add_image(image_stream.read())
 
-{{% /blocks/products/pf/agp/code-block %}}
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 100, 100, watermark_image.width, watermark_image.height)
 
-{{% blocks/products/pf/agp/code-block title="Python을(를) 사용하여 PPTX 프레젠테이션에 이미지 워터마크 추가" offSpacer="true" %}}
+    watermark_shape.fill_format.fill_type = slides.FillType.PICTURE
+    watermark_shape.fill_format.picture_fill_format.picture.image = watermark_image
+    watermark_shape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation() as presentation:
-    with open("image1.png", "rb") as fs:
-        data = fs.read()
-    image = presentation.images.add_image(data)
-
-    master = presentation.masters[0]
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, image.width, image.height)
-    
-    watermarkShape.fill_format.fill_type = slides.FillType.PICTURE
-    watermarkShape.fill_format.picture_fill_format.picture.image = image
-    watermarkShape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
-
-    presentation.save("watermark2.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("watermarked.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python으로 PPTX에 워터마크를 추가하는 방법" intro="다음 단계에 따라 PPTX 프레젠테이션에 텍스트 워터마크를 추가하세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation`으로 PPTX 파일을 엽니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`masters` 컬렉션에서 첫 번째 슬라이드 마스터를 가져옵니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`add_auto_shape`를 호출하여 슬라이드 마스터에 사각형을 추가합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`add_text_frame`을 호출하여 워터마크 텍스트를 추가한 다음 도형의 서식을 지정하고 잠급니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.PPTX`와 함께 `save`를 호출하여 워터마크가 적용된 프레젠테이션을 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python을(를) 통해 PPTX에 워터마크를 추가하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Aspose.Slides로 구축" title="온라인에서 PPTX 파일에 워터마크 추가" description="무료 Aspose.Slides Watermark 앱은 위 코드와 동일한 API인 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)로 구축되었습니다. 앱을 열고 내 PPTX 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Watermark 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 워터마크를 어떻게 추가하는지 확인하세요.
+- PPTX 파일에 텍스트 또는 이미지 워터마크를 추가하세요.
+- 워터마크가 적용된 파일을 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="PPTX 파일에 텍스트 워터마크를 추가하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="워터마크를 지원하는 기타 형식" subTitle="Python으로 지원되는 다른 프레젠테이션 형식에도 워터마크를 추가할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/watermark/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 인스턴스로 PPTX 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-마스터 프레젠테이션 선택
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddAutoShape 메서드를 사용하여 도형 유형 추가
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddTextFrame 메서드를 사용하여 워터마크 텍스트 추가
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-결과를 PPTX 형식으로 저장
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 형식" subTitle="Python을(를) 사용하여 다음 형식에 워터마크를 추가할 수도 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/watermark/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

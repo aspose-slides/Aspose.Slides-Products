@@ -1,99 +1,76 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wasserzeichen zu PPTX-Präsentationsdateien mit Java hinzufügen
 url: /de/java/watermark/pptx/
-keywords: Wasserzeichen hinzufügen PPTX, Textwasserzeichen hinzufügen PPTX, Bildwasserzeichen hinzufügen PPTX
-description: Java-Quellcode zum Hinzufügen eines Wasserzeichens zur PPTX-Präsentation.
+description: Fügen Sie PPTX-Präsentationen in Java mit Aspose.Slides for Java Text- und Bildwasserzeichen hinzu.
+keywords: Wasserzeichen zu PPTX hinzufügen, Textwasserzeichen zu PPTX hinzufügen, Bildwasserzeichen zu PPTX hinzufügen
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Wasserzeichen zur PPTX-Präsentation mit Java hinzufügen" h2="Erstellen Sie Ihre eigenen Java-Apps, um mithilfe serverseitiger APIs Text- oder Bildwasserzeichen in PPT-, PPTX- oder ODP-Präsentationen einzufügen." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Wasserzeichen zu einer PPTX-Präsentation mit Java hinzufügen" h2="Entwickeln Sie Java-Anwendungen, die mit serverseitigen APIs Text- oder Bildwasserzeichen in Präsentationsdateien einfügen." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Wasserzeichen zur PPTX-Präsentation über Java hinzufügen" %}}
-Mit Aspose.Slides for Java können Sie der Präsentation von PPTX ein Wasserzeichen hinzufügen. Wasserzeichen sind ein wesentlicher Bestandteil jeder Präsentation. Sie dienen dazu, den Inhalt der Präsentation vor der Vervielfältigung oder unerlaubten Verwendung zu schützen. Ein Wasserzeichen ist ein sichtbares oder unsichtbares Bild oder Text, das über der Präsentation platziert wird. Es kann verwendet werden, um den Eigentümer der Präsentation zu identifizieren und eine unbefugte Nutzung zu verhindern. Wasserzeichen können auch verwendet werden, um der Präsentation eine professionelle Note zu verleihen und sie eleganter aussehen zu lassen. 
-{{% blocks/products/pf/agp/code-block title="Textwasserzeichen zu PPTX mit Java hinzufügen" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Wasserzeichen zu einer PPTX-Präsentation mit Java hinzufügen – so geht's" variant="code" %}}
 
+Mit [Aspose.Slides for Java](/slides/de/java/) fügen Sie PPTX-Präsentationen Text- und Bildwasserzeichen hinzu. Platzieren Sie eine Wasserzeichenform auf einer Masterfolie, damit das Wasserzeichen auf allen Folien erscheint, die diesen Master verwenden.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Textwasserzeichen zu PPTX mit Java hinzufügen" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    IMasterSlide master = pres.getMasters().get_Item(0);
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
     ITextFrame watermarkTextFrame = watermarkShape.addTextFrame("Watermark");
+    watermarkTextFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(48);
 
-    pres.save("watermark.pptx", SaveFormat.Pptx);
+    presentation.save("watermark.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Bildwasserzeichen zur PPTX-Präsentation mit Java hinzufügen" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Bildwasserzeichen zu einer PPTX-Präsentation mit Java hinzufügen" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("watermark.png")));
-
-    IMasterSlide master = pres.getMasters().get_Item(0);
-
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 100, 100);
+    byte[] imageData = Files.readAllBytes(Paths.get("watermark.png"));
+    IPPImage watermarkImage = presentation.getImages().addImage(imageData);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
     watermarkShape.getFillFormat().setFillType(FillType.Picture);
-    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(watermarkImage);
     watermarkShape.getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 
-    pres.save("watermark2.pptx", SaveFormat.Pptx);
+    presentation.save("image-watermark.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So fügen Sie PPTX mit Java ein Wasserzeichen hinzu" intro="Gehen Sie wie folgt vor, um PPTX-Dateien ein Text- oder Bildwasserzeichen hinzuzufügen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die `PPTX`-Datei mit der Klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wählen Sie über die Methode `getMasters` eine Masterfolie aus.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie die Methode `addAutoShape` auf, um eine Wasserzeichenform hinzuzufügen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie die Methode `addTextFrame` auf, um Wasserzeichentext hinzuzufügen, oder verwenden Sie `addImage` für ein Bildwasserzeichen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die Präsentation mit Wasserzeichen im PPTX-Format.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So fügen Sie über Java ein Wasserzeichen zu PPTX hinzu" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Entwickelt mit Aspose.Slides" title="PPTX-Dateien online mit Wasserzeichen versehen" description="Die kostenlose App Aspose.Slides Watermark basiert auf [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPTX-Dateien leisten kann." button="Aspose.Slides Watermark öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Wasserzeichen hinzufügt, bevor Sie Code schreiben.
+- Fügen Sie Ihrer PPTX-Datei ein Text- oder Bildwasserzeichen hinzu.
+- Laden Sie die Datei mit Wasserzeichen herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Hinzufügen von Textwasserzeichen zu PPTX-Dateien." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für Wasserzeichen" subTitle="Mit Java können Sie auch den folgenden Formaten Wasserzeichen hinzufügen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/java/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/java/watermark/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie PPTX mit einer Präsentationsinstanz
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Wählen Sie die Masterpräsentation aus
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie einen Formtyp mit der AddAutoShape-Methode hinzu
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Fügen Sie Wasserzeichentext mit der AddTextFrame-Methode hinzu
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ergebnis im Format PPTX speichern
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Formate" subTitle="Mit Java können Sie Wasserzeichen auch zu den folgenden Formaten hinzufügen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/watermark/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

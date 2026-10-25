@@ -1,99 +1,76 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java を使用して、PPTX プレゼンテーション ファイルにウォーターマークを追加します
+title: Java で PPTX プレゼンテーション ファイルに透かしを追加
 url: /ja/java/watermark/pptx/
-keywords: ウォーターマークの追加 PPTX、テキストのウォーターマークの追加 PPTX、画像のウォーターマークの追加 PPTX
-description: PPTX プレゼンテーションにウォーターマークを追加するための Java ソース コード。
+description: Aspose.Slides for Java を使用して、Java で PPTX プレゼンテーションにテキストと画像の透かしを追加します。
+keywords: PPTX に透かしを追加, PPTX にテキストの透かしを追加, PPTX に画像の透かしを追加
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java を使用して PPTX プレゼンテーションにウォーターマークを追加します" h2="独自の Java アプリを構築し、サーバー側 API を使用してテキストまたは画像の透かしを PPT、PPTX、または ODP プレゼンテーションに挿入します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java で PPTX プレゼンテーションに透かしを追加する" h2="サーバー側 API を使用して、プレゼンテーション ファイルにテキストまたは画像の透かしを挿入する Java アプリケーションを構築します。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Java 経由で PPTX プレゼンテーションにウォーターマークを追加します" %}}
-Aspose.Slides for Java を使用すると、PPTX プレゼンテーションにウォーターマークを追加できます。ウォーターマークはプレゼンテーションに不可欠な部分です。これらは、プレゼンテーションのコンテンツが許可なくコピーまたは使用されないように保護するために使用されます。ウォーターマークは、プレゼンテーションの上に配置される、表示または非表示の画像またはテキストです。プレゼンテーションの所有者を特定し、不正使用を防ぐために使用できます。透かしを使用すると、プレゼンテーションにプロフェッショナルな雰囲気を加え、より洗練された外観にすることもできます。 
-{{% blocks/products/pf/agp/code-block title="Java を使用してテキスト透かしを PPTX に追加します" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java による PPTX プレゼンテーションへの透かしの追加" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/ja/java/) を使用すると、PPTX プレゼンテーションにテキストと画像の透かしを追加できます。透かしの図形をスライド マスターに追加すると、そのマスターを使用するスライドに透かしが表示されます。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java で PPTX にテキストの透かしを追加" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    IMasterSlide master = pres.getMasters().get_Item(0);
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
     ITextFrame watermarkTextFrame = watermarkShape.addTextFrame("Watermark");
+    watermarkTextFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(48);
 
-    pres.save("watermark.pptx", SaveFormat.Pptx);
+    presentation.save("watermark.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Java を使用して画像ウォーターマークを PPTX プレゼンテーションに追加します" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java で PPTX プレゼンテーションに画像の透かしを追加" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("watermark.png")));
-
-    IMasterSlide master = pres.getMasters().get_Item(0);
-
-    IAutoShape watermarkShape = master.getShapes().addAutoShape(ShapeType.Triangle, 0, 0, 100, 100);
+    byte[] imageData = Files.readAllBytes(Paths.get("watermark.png"));
+    IPPImage watermarkImage = presentation.getImages().addImage(imageData);
+    IMasterSlide masterSlide = presentation.getMasters().get_Item(0);
+    IAutoShape watermarkShape = masterSlide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
     watermarkShape.getFillFormat().setFillType(FillType.Picture);
-    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(image);
+    watermarkShape.getFillFormat().getPictureFillFormat().getPicture().setImage(watermarkImage);
     watermarkShape.getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 
-    pres.save("watermark2.pptx", SaveFormat.Pptx);
+    presentation.save("image-watermark.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java で PPTX に透かしを追加する方法" intro="次の手順に従って、PPTX ファイルにテキストまたは画像の透かしを追加します。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` クラスで `PPTX` ファイルを読み込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`getMasters` メソッドでスライド マスターを選択します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`addAutoShape` メソッドを呼び出して透かしの図形を追加します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`addTextFrame` メソッドを呼び出して透かしのテキストを追加するか、画像の透かしには `addImage` を使用します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}透かし入りのプレゼンテーションを PPTX 形式で保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java 経由で PPTX にウォーターマークを追加する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Aspose.Slides で構築" title="PPTX ファイルにオンラインで透かしを追加" description="無料の Aspose.Slides Watermark アプリは、上記のコードと同じ API である [Aspose.Slides for Java](https://products.aspose.com/slides/ja/java/) で構築されています。アプリを開いて、ご自身の PPTX ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Watermark を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides が透かしをどう追加するかを確認できます。
+- PPTX ファイルにテキストまたは画像の透かしを追加できます。
+- 透かし入りのファイルをダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、PPTX ファイルにテキストの透かしを追加する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="透かしに対応したその他の形式" subTitle="Java では次の形式にも透かしを追加できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/java/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/java/watermark/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションのインスタンスで PPTX を読み込みます
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-マスタープレゼンテーションを選択してください
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddAutoShape メソッドを使用して形状タイプを追加する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddTextFrame メソッドを使用して透かしテキストを追加する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-結果を PPTX 形式で保存
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている形式" subTitle="Java を使用すると、次の形式にウォーターマークを追加することもできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/watermark/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

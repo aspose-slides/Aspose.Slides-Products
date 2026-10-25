@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Ajouter un filigrane aux fichiers de présentation PPT à l'aide de C++
+title: Ajouter un filigrane à des présentations PPT en C++
 url: /fr/cpp/watermark/ppt/
-keywords: Ajouter un filigrane PPT, Ajouter un filigrane de texte PPT, Ajouter un filigrane d'image PPT
-description: Code source C++ pour ajouter un filigrane à la présentation PPT.
+description: Ajoutez des filigranes texte ou image à des présentations PPT en C++. Utilisez Aspose.Slides for C++ pour placer des filigranes sur les diapositives.
+keywords: ajouter un filigrane à PPT, ajouter un filigrane texte à PPT, ajouter un filigrane image à PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Ajouter un filigrane à la présentation PPT en utilisant C++" h2="Créez vos propres applications C++ pour insérer un filigrane de texte ou d'image dans une présentation PPT, PPTX ou ODP à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Ajouter un filigrane à une présentation PPT en C++" h2="Utilisez Aspose.Slides for C++ pour ajouter des filigranes texte ou image à des fichiers de présentation sans Microsoft PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ajouter un filigrane à la présentation PPT via C++" %}}
-À l'aide de Aspose.Slides for C++, vous pouvez ajouter un filigrane à la présentation PPT. Les filigranes sont une partie essentielle de toute présentation. Ils sont utilisés pour protéger le contenu de la présentation contre toute copie ou utilisation sans autorisation. Un filigrane est une image ou un texte visible ou invisible placé au-dessus de la présentation. Il peut être utilisé pour identifier le propriétaire de la présentation et empêcher toute utilisation non autorisée. Les filigranes peuvent également être utilisés pour ajouter une touche professionnelle à la présentation et lui donner un aspect plus soigné. 
-{{% blocks/products/pf/agp/code-block title="Ajouter un filigrane de texte à PPT en utilisant C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ajouter un filigrane à une présentation PPT via C++" variant="code" %}}
 
+Aspose.Slides for C++ permet d'ajouter des filigranes texte ou image à des présentations PPT. Ajoutez une forme de filigrane au masque de diapositive avec `AddAutoShape`, ajoutez du texte avec `AddTextFrame` ou remplissez la forme avec une image chargée via `File::ReadAllBytes` et `AddImage`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ajouter un filigrane texte à PPT en C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.ppt", SaveFormat::Ppt);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ajouter un filigrane d'image à la présentation PPT à l'aide de C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ajouter un filigrane image à une présentation PPT en C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.ppt", SaveFormat::Ppt);
+presentation->Save(u"image-watermarked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment ajouter un filigrane à PPT en C++" intro="Suivez ces étapes pour ajouter un filigrane texte ou image à des fichiers PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le fichier PPT avec la classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sélectionnez le masque de diapositive dans la collection `Presentation::get_Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez une forme de filigrane avec la méthode `AddAutoShape`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez le texte du filigrane avec la méthode `AddTextFrame` ou définissez un remplissage d'image avec `AddImage`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier filigrané avec `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment ajouter un filigrane à PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Conçu avec Aspose.Slides" title="Ajouter des filigranes à des fichiers PPT en ligne" description="L'application gratuite Aspose.Slides Watermark est conçue avec [Aspose.Slides for C++](https://products.aspose.com/slides/fr/cpp/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Watermark" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides ajoute des filigranes avant d'écrire du code.
+- Ajoutez un filigrane texte ou image à votre fichier PPT.
+- Téléchargez le fichier filigrané.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour ajouter un filigrane de texte aux fichiers PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats pris en charge pour les filigranes" subTitle="En C++, vous pouvez aussi ajouter des filigranes aux formats suivants." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger PPT avec une instance de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sélectionnez la présentation principale
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajouter un type de forme à l'aide de la méthode AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ajouter du texte en filigrane à l'aide de la méthode AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrer le résultat au format PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats pris en charge" subTitle="À l'aide de C++, vous pouvez également ajouter un filigrane aux formats suivants :" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

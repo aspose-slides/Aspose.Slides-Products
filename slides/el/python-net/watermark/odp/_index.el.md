@@ -1,113 +1,82 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Προσθήκη υδατογραφήματος σε αρχεία παρουσίασης ODP χρησιμοποιώντας Python
+title: Προσθήκη υδατογραφημάτων σε παρουσιάσεις ODP με Python
 url: /el/python-net/watermark/odp/
-keywords: Προσθήκη υδατογραφήματος ODP, προσθήκη υδατογραφήματος κειμένου ODP, προσθήκη υδατογραφήματος εικόνας ODP
-description: Πηγαίος κώδικας Python για την προσθήκη υδατογραφήματος στην παρουσίαση ODP.
+description: Προσθέστε υδατογραφήματα κειμένου και εικόνας σε παρουσιάσεις ODP με Python και Aspose.Slides.
+keywords: προσθήκη υδατογραφήματος σε ODP, προσθήκη υδατογραφήματος κειμένου σε ODP, προσθήκη υδατογραφήματος εικόνας σε ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Προσθήκη υδατογραφήματος στην παρουσίαση ODP χρησιμοποιώντας Python" h2="Δημιουργήστε τις δικές σας εφαρμογές Python για να εισαγάγετε υδατογράφημα κειμένου ή εικόνας σε παρουσίαση PPT, PPTX ή ODP χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Προσθήκη υδατογραφημάτων σε παρουσιάσεις ODP με Python" h2="Δημιουργήστε εφαρμογές Python που προσθέτουν υδατογραφήματα κειμένου ή εικόνας σε παρουσιάσεις ODP με το Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Προσθήκη υδατογραφήματος στην παρουσίαση ODP μέσω Python" %}}
-Χρησιμοποιώντας το Aspose.Slides for Python via .NET, μπορείτε να προσθέσετε υδατογράφημα στην παρουσίαση ODP. Τα υδατογραφήματα αποτελούν ουσιαστικό μέρος κάθε παρουσίασης. Χρησιμοποιούνται για την προστασία του περιεχομένου της παρουσίασης από αντιγραφή ή χρήση χωρίς άδεια. Το υδατογράφημα είναι μια ορατή ή αόρατη εικόνα ή κείμενο που τοποθετείται στην κορυφή της παρουσίασης. Μπορεί να χρησιμοποιηθεί για την αναγνώριση του κατόχου της παρουσίασης και για την αποτροπή μη εξουσιοδοτημένης χρήσης. Τα υδατογραφήματα μπορούν επίσης να χρησιμοποιηθούν για να προσθέσουν μια επαγγελματική πινελιά στην παρουσίαση και να την κάνουν να φαίνεται πιο εκλεπτυσμένη. 
-{{% blocks/products/pf/agp/code-block title="Προσθήκη υδατογραφήματος κειμένου στο ODP χρησιμοποιώντας το Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Προσθήκη υδατογραφήματος σε παρουσίαση ODP με Python" variant="code" %}}
 
-```py
+Με το [Aspose.Slides for Python via .NET](/slides/el/python-net/) μπορείτε να προσθέσετε υδατογράφημα κειμένου ή εικόνας σε μια παρουσίαση ODP χωρίς το OpenOffice. Ένα υδατογράφημα μπορεί να δηλώνει τον κάτοχο, να επισημαίνει μια παρουσίαση ως εμπιστευτική ή ως πρόχειρη ή να εξασφαλίζει ενιαία εταιρική ταυτότητα. Τα παρακάτω παραδείγματα τοποθετούν το υδατογράφημα στην πρώτη κύρια διαφάνεια, ώστε να εμφανίζεται στις διαφάνειες που τη χρησιμοποιούν.
 
-import aspose.slides as slides
-import aspose.pydrawing as draw
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Προσθήκη υδατογραφήματος κειμένου σε παρουσίαση ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 100, 100, 400, 50)
+    watermark_text_frame = watermark_shape.add_text_frame("CONFIDENTIAL")
 
-with slides.Presentation() as pres:
-    master = pres.masters[0]
+    watermark_shape.fill_format.fill_type = slides.FillType.NO_FILL
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, 100, 100)
-    watermarkTextFrame = watermarkShape.add_text_frame("Watermark")
+    watermark_portion = watermark_text_frame.paragraphs[0].portions[0]
+    watermark_portion.portion_format.font_height = 32
 
-    # Lock Watermark from Editing
-    watermarkShape.shape_lock.select_locked = True
-    watermarkShape.shape_lock.size_locked = True
-    watermarkShape.shape_lock.text_locked = True
-    watermarkShape.shape_lock.position_locked = True
-    watermarkShape.shape_lock.grouping_locked = True
-    
-    # Set Text Watermark Transparency
-    watermarkPortion = watermarkTextFrame.paragraphs[0].portions[0]
-    watermarkPortion.portion_format.fill_format.fill_type = slides.FillType.SOLID
-    watermarkPortion.portion_format.fill_format.solid_fill_color.color = draw.Color.from_argb(150, 200, 200, 200)
-    
-    # Set Font Size of Text Watermark
-    watermarkPortion.portion_format.font_height = 16
+    watermark_shape.auto_shape_lock.select_locked = True
+    watermark_shape.auto_shape_lock.size_locked = True
+    watermark_shape.auto_shape_lock.text_locked = True
+    watermark_shape.auto_shape_lock.position_locked = True
+    watermark_shape.auto_shape_lock.grouping_locked = True
 
-    pres.save("watermark.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Προσθήκη υδατογραφήματος εικόνας σε παρουσίαση ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    with open("watermark.png", "rb") as image_stream:
+        watermark_image = presentation.images.add_image(image_stream.read())
 
-{{% /blocks/products/pf/agp/code-block %}}
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 100, 100, watermark_image.width, watermark_image.height)
 
-{{% blocks/products/pf/agp/code-block title="Προσθήκη υδατογραφήματος εικόνας στην παρουσίαση ODP χρησιμοποιώντας Python" offSpacer="true" %}}
+    watermark_shape.fill_format.fill_type = slides.FillType.PICTURE
+    watermark_shape.fill_format.picture_fill_format.picture.image = watermark_image
+    watermark_shape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation() as presentation:
-    with open("image1.png", "rb") as fs:
-        data = fs.read()
-    image = presentation.images.add_image(data)
-
-    master = presentation.masters[0]
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, image.width, image.height)
-    
-    watermarkShape.fill_format.fill_type = slides.FillType.PICTURE
-    watermarkShape.fill_format.picture_fill_format.picture.image = image
-    watermarkShape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
-
-    presentation.save("watermark2.odp", slides.export.SaveFormat.ODP)
+    presentation.save("watermarked.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να προσθέσετε υδατογράφημα σε ODP με Python" intro="Ακολουθήστε αυτά τα βήματα για να προσθέσετε υδατογράφημα κειμένου σε παρουσίαση ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ανοίξτε το αρχείο ODP με την `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Λάβετε την πρώτη κύρια διαφάνεια από τη συλλογή `masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε την `add_auto_shape` για να προσθέσετε ένα ορθογώνιο στην κύρια διαφάνεια.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε την `add_text_frame` για να προσθέσετε το κείμενο του υδατογραφήματος και, στη συνέχεια, μορφοποιήστε και κλειδώστε το σχήμα.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε την `save` με `SaveFormat.ODP` για να αποθηκεύσετε την παρουσίαση με το υδατογράφημα.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος προσθήκης υδατογραφήματος στο ODP μέσω του Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Δημιουργήθηκε με το Aspose.Slides" title="Προσθήκη υδατογραφημάτων σε αρχεία ODP online" description="Η δωρεάν εφαρμογή Aspose.Slides Watermark έχει δημιουργηθεί με το [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/el/python-net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Watermark" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς προσθέτει υδατογραφήματα το Aspose.Slides πριν γράψετε κώδικα.
+- Προσθέστε υδατογράφημα κειμένου ή εικόνας στο αρχείο ODP.
+- Κατεβάστε το αρχείο με το υδατογράφημα.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την προσθήκη υδατογραφήματος κειμένου σε αρχεία ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες μορφές που υποστηρίζουν υδατογραφήματα" subTitle="Με Python μπορείτε επίσης να προσθέσετε υδατογραφήματα σε άλλες υποστηριζόμενες μορφές παρουσιάσεων." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του ODP με μια παρουσία παρουσίασης
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Επιλέξτε την κύρια παρουσίαση
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε τύπο σχήματος χρησιμοποιώντας τη μέθοδο AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε κείμενο υδατογραφήματος χρησιμοποιώντας τη μέθοδο AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να προσθέσετε υδατογράφημα στις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

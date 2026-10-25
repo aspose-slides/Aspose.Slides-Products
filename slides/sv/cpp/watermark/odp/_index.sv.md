@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lägg till vattenstämpel i ODP presentationsfiler med C++
+title: Lägg till vattenstämpel i ODP-presentationer med C++
 url: /sv/cpp/watermark/odp/
-keywords: Lägg till vattenstämpel ODP, Lägg till textvattenstämpel ODP, Lägg till bildvattenstämpel ODP
-description: Källkod för C++ för att lägga till vattenstämpel i presentationen ODP.
+description: Lägg till text- eller bildvattenstämplar i ODP-presentationer i C++. Använd Aspose.Slides for C++ för att placera vattenstämplar på bilder.
+keywords: lägg till vattenstämpel i ODP, lägg till textvattenstämpel i ODP, lägg till bildvattenstämpel i ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lägg till vattenstämpel i presentationen ODP med C++" h2="Bygg dina egna C++-appar för att infoga text- eller bildvattenstämplar i PPT-, PPTX- eller ODP-presentationer med hjälp av API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Lägg till vattenstämpel i en ODP-presentation med C++" h2="Använd Aspose.Slides for C++ för att lägga till text- eller bildvattenstämplar i presentationsfiler utan Microsoft PowerPoint." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Lägg till vattenstämpel i presentationen ODP via C++" %}}
-Med Aspose.Slides for C++ kan du lägga till vattenstämpel i presentationen av ODP. Vattenstämplar är en viktig del av alla presentationer. De används för att skydda innehållet i presentationen från att kopieras eller användas utan tillstånd. En vattenstämpel är en synlig eller osynlig bild eller text som placeras ovanpå presentationen. Den kan användas för att identifiera ägaren till presentationen och för att förhindra obehörig användning. Vattenstämplar kan också användas för att sätta en professionell touch till presentationen och få den att se mer polerad ut. 
-{{% blocks/products/pf/agp/code-block title="Lägg till textvattenstämpel i ODP med C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Lägg till vattenstämpel i en ODP-presentation via C++" variant="code" %}}
 
+Med Aspose.Slides for C++ kan du lägga till text- eller bildvattenstämplar i ODP-presentationer. Lägg till en vattenstämpelform på bildbakgrunden med `AddAutoShape`, lägg till text med `AddTextFrame` eller fyll formen med en bild som läses in via `File::ReadAllBytes` och `AddImage`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Lägg till textvattenstämpel i ODP med C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.odp", SaveFormat::Odp);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Lägg till bildvattenstämpel i ODP presentation med C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Lägg till bildvattenstämpel i en ODP-presentation med C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.odp", SaveFormat::Odp);
+presentation->Save(u"image-watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så lägger du till en vattenstämpel i ODP med C++" intro="Följ de här stegen för att lägga till en text- eller bildvattenstämpel i ODP-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs in ODP-filen med klassen `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Välj bildbakgrunden i samlingen `Presentation::get_Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lägg till en vattenstämpelform med metoden `AddAutoShape`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lägg till vattenstämpeltext med metoden `AddTextFrame` eller ange en bildfyllning med `AddImage`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara filen med vattenstämpel med `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Så här lägger du till vattenstämpel i ODP via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Byggd med Aspose.Slides" title="Lägg till vattenstämplar i ODP-filer online" description="Den kostnadsfria appen Aspose.Slides Watermark är byggd med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna ODP-filer." button="Öppna Aspose.Slides Watermark" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides lägger till vattenstämplar innan du skriver kod.
+- Lägg till en text- eller bildvattenstämpel i din ODP-fil.
+- Ladda ner filen med vattenstämpel.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att lägga till textvattenstämpel i ODP-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöder vattenstämplar" subTitle="Med C++ kan du även lägga till vattenstämplar i följande format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/cpp/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda ODP med en instans av Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Välj huvudpresentationen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till formtyp med metoden AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till vattenstämpeltext med AddTextFrame-metoden
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet i formatet ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds" subTitle="Med C++ kan du också lägga till vattenstämpel i följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,94 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: เพิ่มลายน้ำให้กับไฟล์นำเสนอ PPTX โดยใช้ .NET
+title: เพิ่มลายน้ำในงานนำเสนอ PPTX ด้วย C#
 url: /th/net/watermark/pptx/
-keywords: เพิ่มลายน้ำ PPTX, เพิ่มลายน้ำข้อความ PPTX, เพิ่มลายน้ำรูปภาพ PPTX
-description: ซอร์สโค้ด C# สำหรับเพิ่มลายน้ำในงานนำเสนอ PPTX
+description: เพิ่มลายน้ำข้อความและรูปภาพในงานนำเสนอ PPTX ด้วย C# โดยใช้ Aspose.Slides for .NET
+keywords: เพิ่มลายน้ำใน PPTX, เพิ่มลายน้ำข้อความใน PPTX, เพิ่มลายน้ำรูปภาพใน PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="เพิ่มลายน้ำในงานนำเสนอ PPTX โดยใช้ C#" h2="สร้างแอป .NET ของคุณเองเพื่อแทรกลายน้ำข้อความหรือรูปภาพลงในงานนำเสนอ PPT, PPTX หรือ ODP โดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="เพิ่มลายน้ำในงานนำเสนอ PPTX ด้วย C#" h2="สร้างแอป .NET ที่แทรกลายน้ำข้อความหรือรูปภาพลงในไฟล์งานนำเสนอ" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="เพิ่มลายน้ำในงานนำเสนอ PPTX ผ่าน C#" %}}
-เมื่อใช้ Aspose.Slides for .NET คุณสามารถเพิ่มลายน้ำให้กับงานนำเสนอ PPTX ลายน้ำเป็นส่วนสำคัญของงานนำเสนอ ใช้เพื่อป้องกันเนื้อหาของงานนำเสนอจากการคัดลอกหรือนำไปใช้โดยไม่ได้รับอนุญาต ลายน้ำคือรูปภาพหรือข้อความที่มองเห็นหรือมองไม่เห็นที่วางอยู่ด้านบนของงานนำเสนอ สามารถใช้เพื่อระบุเจ้าของงานนำเสนอและเพื่อป้องกันการใช้งานโดยไม่ได้รับอนุญาต ลายน้ำสามารถใช้เพื่อเพิ่มความเป็นมืออาชีพให้กับงานนำเสนอและทำให้ดูสวยงามยิ่งขึ้น 
-{{% blocks/products/pf/agp/code-block title="เพิ่มลายน้ำข้อความใน PPTX โดยใช้ C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="เพิ่มลายน้ำในงานนำเสนอ PPTX ผ่าน C#" variant="code" %}}
 
+ด้วย [Aspose.Slides for .NET](/slides/th/net/) คุณสามารถเพิ่มลายน้ำข้อความและรูปภาพในงานนำเสนอ PPTX ได้ เพิ่มรูปร่างลายน้ำลงในสไลด์ต้นแบบเพื่อให้ลายน้ำปรากฏบนสไลด์ที่ใช้ต้นแบบนั้น
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มลายน้ำข้อความใน PPTX ด้วย C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.pptx");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
-    ITextFrame watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
+var watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+watermarkTextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 48;
 
-    presentation.Save("watermark.pptx", SaveFormat.Pptx);
-}
+presentation.Save("watermarked-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="เพิ่มลายน้ำรูปภาพในงานนำเสนอ PPTX โดยใช้ C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มลายน้ำรูปภาพในงานนำเสนอ PPTX ด้วย C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.pptx");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+var imageData = File.ReadAllBytes("watermark.png");
+var watermarkImage = presentation.Images.AddImage(imageData);
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
-    IPPImage image = presentation.Images.AddImage(File.ReadAllBytes("watermark.png"));
+watermarkShape.FillFormat.FillType = FillType.Picture;
+watermarkShape.FillFormat.PictureFillFormat.Picture.Image = watermarkImage;
+watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 
-    watermarkShape.FillFormat.FillType = FillType.Picture;
-    watermarkShape.FillFormat.PictureFillFormat.Picture.Image = image;
-    watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
-
-    presentation.Save("watermark2.pptx", SaveFormat.Pptx);
-}
+presentation.Save("image-watermarked-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีเพิ่มลายน้ำใน PPTX ด้วย C#" intro="ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มลายน้ำข้อความหรือรูปภาพในไฟล์ PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}โหลดไฟล์ `PPTX` ด้วยคลาส `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เลือกสไลด์ต้นแบบจากคอลเลกชัน `Presentation.Masters`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียกเมธอด `AddAutoShape` เพื่อเพิ่มรูปร่างลายน้ำ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียกเมธอด `AddTextFrame` เพื่อเพิ่มข้อความลายน้ำ หรือใช้ `AddImage` สำหรับลายน้ำรูปภาพ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกไฟล์ที่มีลายน้ำด้วย `SaveFormat.Pptx`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีเพิ่มลายน้ำใน PPTX ผ่าน C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="สร้างด้วย Aspose.Slides" title="เพิ่มลายน้ำในไฟล์ PPTX ออนไลน์" description="แอป Aspose.Slides Watermark ฟรีนี้สร้างด้วย [Aspose.Slides for .NET](https://products.aspose.com/slides/th/net/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ PPTX ของคุณเอง" button="เปิด Aspose.Slides Watermark" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides เพิ่มลายน้ำอย่างไรก่อนเขียนโค้ด
+- เพิ่มลายน้ำข้อความหรือรูปภาพในไฟล์ PPTX ของคุณ
+- ดาวน์โหลดไฟล์ที่มีลายน้ำ
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการเพิ่มลายน้ำข้อความในไฟล์ PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับลายน้ำ" subTitle="ด้วย C# คุณยังสามารถเพิ่มลายน้ำในรูปแบบต่อไปนี้ได้" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/net/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/net/watermark/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด PPTX ด้วยอินสแตนซ์ของงานนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เลือกงานนำเสนอหลัก
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มประเภทรูปร่างโดยใช้วิธี AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เพิ่มข้อความลายน้ำโดยใช้วิธี AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์ในรูปแบบ PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ C# คุณยังสามารถเพิ่มลายน้ำในรูปแบบต่อไปนี้:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/net/watermark/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

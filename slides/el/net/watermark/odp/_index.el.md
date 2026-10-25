@@ -1,94 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Προσθήκη υδατογραφήματος σε αρχεία παρουσίασης ODP χρησιμοποιώντας .NET
+title: Προσθήκη υδατογραφήματος σε παρουσιάσεις ODP με C#
 url: /el/net/watermark/odp/
-keywords: Προσθήκη υδατογραφήματος ODP, προσθήκη υδατογραφήματος κειμένου ODP, προσθήκη υδατογραφήματος εικόνας ODP
-description: Πηγαίος κώδικας C# για την προσθήκη υδατογραφήματος στην παρουσίαση ODP.
+description: Προσθέστε υδατογραφήματα κειμένου και εικόνας σε παρουσιάσεις ODP σε C# με το Aspose.Slides for .NET.
+keywords: προσθήκη υδατογραφήματος σε ODP, προσθήκη υδατογραφήματος κειμένου σε ODP, προσθήκη υδατογραφήματος εικόνας σε ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Προσθήκη υδατογραφήματος στην παρουσίαση ODP χρησιμοποιώντας C#" h2="Δημιουργήστε τις δικές σας εφαρμογές .NET για να εισαγάγετε υδατογράφημα κειμένου ή εικόνας σε παρουσίαση PPT, PPTX ή ODP χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Προσθήκη υδατογραφήματος σε παρουσίαση ODP με C#" h2="Δημιουργήστε εφαρμογές .NET που εισάγουν υδατογραφήματα κειμένου ή εικόνας σε αρχεία παρουσιάσεων." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Προσθήκη υδατογραφήματος στην παρουσίαση ODP μέσω C#" %}}
-Χρησιμοποιώντας το Aspose.Slides for .NET, μπορείτε να προσθέσετε υδατογράφημα στην παρουσίαση ODP. Τα υδατογραφήματα αποτελούν ουσιαστικό μέρος κάθε παρουσίασης. Χρησιμοποιούνται για την προστασία του περιεχομένου της παρουσίασης από αντιγραφή ή χρήση χωρίς άδεια. Το υδατογράφημα είναι μια ορατή ή αόρατη εικόνα ή κείμενο που τοποθετείται στην κορυφή της παρουσίασης. Μπορεί να χρησιμοποιηθεί για την αναγνώριση του κατόχου της παρουσίασης και για την αποτροπή μη εξουσιοδοτημένης χρήσης. Τα υδατογραφήματα μπορούν επίσης να χρησιμοποιηθούν για να προσθέσουν μια επαγγελματική πινελιά στην παρουσίαση και να την κάνουν να φαίνεται πιο εκλεπτυσμένη. 
-{{% blocks/products/pf/agp/code-block title="Προσθήκη υδατογραφήματος κειμένου στο ODP χρησιμοποιώντας το C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Προσθήκη υδατογραφήματος σε παρουσίαση ODP μέσω C#" variant="code" %}}
 
+Με το [Aspose.Slides for .NET](/slides/el/net/) μπορείτε να προσθέσετε υδατογραφήματα κειμένου και εικόνας σε παρουσιάσεις ODP. Προσθέστε ένα σχήμα υδατογραφήματος σε μια κύρια διαφάνεια, ώστε το υδατογράφημα να εμφανίζεται στις διαφάνειες που τη χρησιμοποιούν.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Προσθήκη υδατογραφήματος κειμένου σε ODP με C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.odp");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
-    ITextFrame watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
+var watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+watermarkTextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 48;
 
-    presentation.Save("watermark.odp", SaveFormat.Odp);
-}
+presentation.Save("watermarked-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Προσθήκη υδατογραφήματος εικόνας στην παρουσίαση ODP χρησιμοποιώντας C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Προσθήκη υδατογραφήματος εικόνας σε παρουσίαση ODP με C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.odp");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+var imageData = File.ReadAllBytes("watermark.png");
+var watermarkImage = presentation.Images.AddImage(imageData);
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
-    IPPImage image = presentation.Images.AddImage(File.ReadAllBytes("watermark.png"));
+watermarkShape.FillFormat.FillType = FillType.Picture;
+watermarkShape.FillFormat.PictureFillFormat.Picture.Image = watermarkImage;
+watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 
-    watermarkShape.FillFormat.FillType = FillType.Picture;
-    watermarkShape.FillFormat.PictureFillFormat.Picture.Image = image;
-    watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
-
-    presentation.Save("watermark2.odp", SaveFormat.Odp);
-}
+presentation.Save("image-watermarked-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να προσθέσετε υδατογράφημα σε ODP με C#" intro="Ακολουθήστε αυτά τα βήματα για να προσθέσετε υδατογράφημα κειμένου ή εικόνας σε αρχεία ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε το αρχείο `ODP` με την κλάση `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Επιλέξτε μια κύρια διαφάνεια από τη συλλογή `Presentation.Masters`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε τη μέθοδο `AddAutoShape` για να προσθέσετε ένα σχήμα υδατογραφήματος.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε τη μέθοδο `AddTextFrame` για να προσθέσετε κείμενο υδατογραφήματος ή χρησιμοποιήστε την `AddImage` για υδατογράφημα εικόνας.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το αρχείο με το υδατογράφημα με `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος προσθήκης υδατογραφήματος στο ODP μέσω του C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Δημιουργήθηκε με το Aspose.Slides" title="Προσθήκη υδατογραφημάτων σε αρχεία ODP online" description="Η δωρεάν εφαρμογή Aspose.Slides Watermark έχει δημιουργηθεί με το [Aspose.Slides for .NET](https://products.aspose.com/slides/el/net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Watermark" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς προσθέτει υδατογραφήματα το Aspose.Slides πριν γράψετε κώδικα.
+- Προσθέστε υδατογράφημα κειμένου ή εικόνας στο αρχείο ODP.
+- Κατεβάστε το αρχείο με το υδατογράφημα.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την προσθήκη υδατογραφήματος κειμένου σε αρχεία ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες μορφές που υποστηρίζουν υδατογραφήματα" subTitle="Με C# μπορείτε επίσης να προσθέσετε υδατογραφήματα στις παρακάτω μορφές." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/net/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του ODP με μια παρουσία παρουσίασης
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Επιλέξτε την κύρια παρουσίαση
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε τύπο σχήματος χρησιμοποιώντας τη μέθοδο AddAutoShape
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προσθέστε κείμενο υδατογραφήματος χρησιμοποιώντας τη μέθοδο AddTextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές" subTitle="Χρησιμοποιώντας το C#, μπορείτε επίσης να προσθέσετε υδατογράφημα στις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

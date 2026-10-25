@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Vízjel hozzáadása a PPT prezentációs fájlokhoz a C++ használatával
+title: Vízjel hozzáadása PPT bemutatókhoz C++-ban
 url: /hu/cpp/watermark/ppt/
-keywords: Vízjel hozzáadása PPT, Szöveg vízjel hozzáadása PPT, Kép vízjel hozzáadása PPT
-description: C++ forráskód vízjel hozzáadásához a PPT prezentációhoz.
+description: Adjon szöveges vagy képes vízjelet PPT bemutatókhoz C++-ban. Az Aspose.Slides for C++ segítségével vízjelet helyezhet el a bemutató diáin.
+keywords: vízjel hozzáadása PPT fájlhoz, szöveges vízjel PPT, képes vízjel PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Vízjel hozzáadása a PPT prezentációhoz a C++ használatával" h2="Készítse el saját C++ alkalmazásait, amellyel szöveget vagy képet illeszthet be PPT-, PPTX- vagy ODP-prezentációba szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Vízjel hozzáadása PPT bemutatóhoz C++-ban" h2="Az Aspose.Slides for C++ segítségével Microsoft PowerPoint nélkül adhat szöveges vagy képes vízjelet bemutatófájlokhoz." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Vízjel hozzáadása a PPT prezentációhoz a C++ segítségével" %}}
-A Aspose.Slides for C++ használatával vízjelet adhat a PPT prezentációhoz. A vízjelek minden prezentáció elengedhetetlen részét képezik. Arra szolgálnak, hogy megvédjék a prezentáció tartalmát az engedély nélküli másolástól vagy felhasználástól. A vízjel egy látható vagy láthatatlan kép vagy szöveg, amely a prezentáció tetejére kerül. Segítségével azonosítható a prezentáció tulajdonosa, és megakadályozható a jogosulatlan használat. A vízjelek arra is használhatók, hogy professzionális hatást keltsenek a prezentációban, és még csiszoltabbnak tűnjenek. 
-{{% blocks/products/pf/agp/code-block title="Szöveges vízjel hozzáadása a PPT fájlhoz a C++ használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Vízjel hozzáadása PPT bemutatóhoz C++ segítségével" variant="code" %}}
 
+Az Aspose.Slides for C++ segítségével szöveges vagy képes vízjelet adhat PPT bemutatókhoz. Adjon vízjel-alakzatot a diamintához az `AddAutoShape` metódussal, adjon hozzá szöveget az `AddTextFrame` metódussal, vagy töltse ki az alakzatot a `File::ReadAllBytes` és az `AddImage` segítségével betöltött képpel.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Szöveges vízjel hozzáadása PPT fájlhoz C++-ban" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.ppt", SaveFormat::Ppt);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Kép vízjel hozzáadása a PPT prezentációhoz a C++ használatával" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Képes vízjel hozzáadása PPT bemutatóhoz C++-ban" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.ppt", SaveFormat::Ppt);
+presentation->Save(u"image-watermarked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Vízjel hozzáadása PPT fájlhoz C++-ban lépésről lépésre" intro="Kövesse az alábbi lépéseket szöveges vagy képes vízjel hozzáadásához PPT fájlokhoz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a PPT fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Válassza ki a diamintát a `Presentation::get_Masters` gyűjteményből.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adjon hozzá vízjel-alakzatot az `AddAutoShape` metódussal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adja hozzá a vízjel szövegét az `AddTextFrame` metódussal, vagy állítson be képkitöltést az `AddImage` segítségével.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a vízjeles fájlt a `SaveFormat::Ppt` használatával.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Vízjel hozzáadása a PPT fájlhoz a C++ segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Az Aspose.Slides segítségével készült" title="Vízjel hozzáadása PPT fájlokhoz online" description="Az ingyenes Aspose.Slides Watermark alkalmazás az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPT fájljaival." button="Aspose.Slides Watermark megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan adja hozzá az Aspose.Slides a vízjeleket, mielőtt kódot írna.
+- Adjon szöveges vagy képes vízjelet PPT fájljához.
+- Töltse le a vízjeles fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a szöveges vízjel hozzáadásához a PPT fájlokhoz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További vízjelet támogató formátumok" subTitle="C++-ban a következő formátumokhoz is adhat vízjelet." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPT betöltése a Presentation egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Válassza ki a fő bemutatót
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá alaktípust az AddAutoShape módszerrel
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Adjon hozzá vízjelszöveget az AddTextFrame módszerrel
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPT formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott formátumok" subTitle="A C++ használatával a következő formátumokhoz is hozzáadhat vízjelet:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

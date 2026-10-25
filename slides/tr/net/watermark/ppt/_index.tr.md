@@ -1,94 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET kullanarak PPT Sunum Dosyalarına Filigran ekleyin
+title: C# ile PPT sunularına filigran ekleme
 url: /tr/net/watermark/ppt/
-keywords: Filigran Ekle PPT, Metin Filigranı Ekle PPT, Görüntü Filigranı Ekle PPT
-description: PPT Sunumuna Filigran eklemek için C# kaynak kodu.
+description: Aspose.Slides for .NET ile C# kullanarak PPT sunularına metin ve görüntü filigranları ekleyin.
+keywords: PPT dosyasına filigran ekle, PPT dosyasına metin filigranı ekle, PPT dosyasına görüntü filigranı ekle
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# kullanarak PPT Sunumuna Filigran ekleyin" h2="Sunucu tarafı API'lerini kullanarak PPT, PPTX veya ODP sunumuna metin veya resim filigranı eklemek için kendi .NET uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# ile PPT sunusuna filigran ekleme" h2="Sunu dosyalarına metin veya görüntü filigranı ekleyen .NET uygulamaları geliştirin." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# Aracılığıyla PPT Sunumuna Filigran Ekleyin" %}}
-Aspose.Slides for .NET kullanarak, PPT sunumuna filigran ekleyebilirsiniz. Filigranlar, herhangi bir sunumun önemli bir parçasıdır. Sunum içeriğinin kopyalanmasını veya izinsiz kullanılmasını önlemek için kullanılırlar. Filigran, sunumun üstüne yerleştirilen görünür veya görünmez bir resim veya metindir. Sunum sahibinin kimliğini tespit etmek ve izinsiz kullanımı önlemek için kullanılabilir. Sunuma profesyonel bir dokunuş eklemek ve daha gösterişli görünmesini sağlamak için filigranlar da kullanılabilir. 
-{{% blocks/products/pf/agp/code-block title="C# kullanarak PPT için Metin Filigranı ekleyin" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# aracılığıyla PPT sunusuna filigran ekleme" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/tr/net/) ile PPT sunularına metin ve görüntü filigranları ekleyebilirsiniz. Filigranın o asıl slaydı kullanan tüm slaytlarda görünmesi için bir asıl slayda filigran şekli ekleyin.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile PPT dosyasına metin filigranı ekleme" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
-    ITextFrame watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 400, 120);
+var watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
+watermarkTextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 48;
 
-    presentation.Save("watermark.ppt", SaveFormat.Ppt);
-}
+presentation.Save("watermarked-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C# kullanarak PPT Sunumuna Resim Filigranı ekleyin" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile PPT sunusuna görüntü filigranı ekleme" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (var presentation = new Presentation())
-{
-    ISlide slide = presentation.Slides[0];
-    IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+var imageData = File.ReadAllBytes("watermark.png");
+var watermarkImage = presentation.Images.AddImage(imageData);
+var masterSlide = presentation.Masters[0];
+var watermarkShape = masterSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 200);
 
-    IPPImage image = presentation.Images.AddImage(File.ReadAllBytes("watermark.png"));
+watermarkShape.FillFormat.FillType = FillType.Picture;
+watermarkShape.FillFormat.PictureFillFormat.Picture.Image = watermarkImage;
+watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 
-    watermarkShape.FillFormat.FillType = FillType.Picture;
-    watermarkShape.FillFormat.PictureFillFormat.Picture.Image = image;
-    watermarkShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
-
-    presentation.Save("watermark2.ppt", SaveFormat.Ppt);
-}
+presentation.Save("image-watermarked-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# ile PPT dosyasına filigran nasıl eklenir" intro="PPT dosyalarına metin veya görüntü filigranı eklemek için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`PPT` dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation.Masters` koleksiyonundan bir asıl slayt seçin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Bir filigran şekli eklemek için `AddAutoShape` yöntemini çağırın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Filigran metni eklemek için `AddTextFrame` yöntemini çağırın veya görüntü filigranı için `AddImage` kullanın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Filigranlı dosyayı `SaveFormat.Ppt` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# Aracılığıyla PPT İçin Filigran Nasıl Eklenir?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Aspose.Slides ile geliştirildi" title="PPT dosyalarına çevrimiçi filigran ekleyin" description="Ücretsiz Aspose.Slides Watermark uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPT dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Watermark uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın filigranları nasıl eklediğini görün.
+- PPT dosyanıza metin veya görüntü filigranı ekleyin.
+- Filigranlı dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPT dosyalarına metin filigranı ekleme adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Filigranı destekleyen diğer biçimler" subTitle="C# ile aşağıdaki biçimlere de filigran ekleyebilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ana sunumu seçin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddAutoShape yöntemini kullanarak şekil türü ekleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddTextFrame yöntemini kullanarak filigran metni ekleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPT biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Formatlar" subTitle="C# kullanarak, Filigranı aşağıdaki biçimlere de ekleyebilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

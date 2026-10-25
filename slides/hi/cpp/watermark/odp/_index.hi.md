@@ -1,92 +1,70 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ का उपयोग करके ODP प्रस्तुतिकरण फ़ाइलों में वॉटरमार्क जोड़ें
+title: C++ से ODP प्रेज़ेंटेशन में वॉटरमार्क जोड़ें
 url: /hi/cpp/watermark/odp/
-keywords: वॉटरमार्क जोड़ें ODP, टेक्स्ट वॉटरमार्क जोड़ें ODP, छवि वॉटरमार्क जोड़ें ODP
-description: वॉटरमार्क को ODP प्रस्तुतिकरण में जोड़ने के लिए C++ स्रोत कोड.
+description: C++ में ODP प्रेज़ेंटेशन में टेक्स्ट या इमेज वॉटरमार्क जोड़ें। प्रेज़ेंटेशन स्लाइड पर वॉटरमार्क लगाने के लिए Aspose.Slides for C++ का उपयोग करें।
+keywords: ODP में वॉटरमार्क जोड़ें, ODP में टेक्स्ट वॉटरमार्क जोड़ें, ODP में इमेज वॉटरमार्क जोड़ें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++ का उपयोग करके ODP प्रस्तुतिकरण में वॉटरमार्क जोड़ें" h2="सर्वर-साइड API का उपयोग करके PPT, PPTX, या ODP प्रस्तुति में टेक्स्ट या इमेज वॉटरमार्क डालने के लिए अपना खुद का C++ ऐप्लिकेशन बनाएं." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ से ODP प्रेज़ेंटेशन में वॉटरमार्क जोड़ें – उदाहरण" h2="Microsoft PowerPoint के बिना प्रेज़ेंटेशन फ़ाइलों में टेक्स्ट या इमेज वॉटरमार्क जोड़ने के लिए Aspose.Slides for C++ का उपयोग करें।" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++ द्वारा ODP प्रस्तुतिकरण में वॉटरमार्क जोड़ें" %}}
-{Product_name} का उपयोग करके, आप वॉटरमार्क को ODP प्रस्तुतिकरण में जोड़ सकते हैं। वॉटरमार्क किसी भी प्रस्तुति का एक अनिवार्य हिस्सा हैं। इनका उपयोग प्रस्तुति की सामग्री को कॉपी किए जाने या अनुमति के बिना उपयोग किए जाने से बचाने के लिए किया जाता है। वॉटरमार्क एक दृश्य या अदृश्य छवि या पाठ है जिसे प्रस्तुति के शीर्ष पर रखा जाता है। इसका उपयोग प्रस्तुति के स्वामी की पहचान करने और अनधिकृत उपयोग को रोकने के लिए किया जा सकता है। वॉटरमार्क का उपयोग प्रस्तुति में एक पेशेवर स्पर्श जोड़ने और इसे और अधिक परिष्कृत दिखाने के लिए भी किया जा सकता है। 
-{{% blocks/products/pf/agp/code-block title="C++ का उपयोग करके ODP में टेक्स्ट वॉटरमार्क जोड़ें" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ के ज़रिए ODP प्रेज़ेंटेशन में वॉटरमार्क जोड़ें" variant="code" %}}
 
+Aspose.Slides for C++ से आप ODP प्रेज़ेंटेशन में टेक्स्ट या इमेज वॉटरमार्क जोड़ सकते हैं। `AddAutoShape` से मास्टर स्लाइड पर वॉटरमार्क शेप जोड़ें, `AddTextFrame` से टेक्स्ट जोड़ें या `File::ReadAllBytes` और `AddImage` से लोड की गई इमेज से शेप भरें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ से ODP में टेक्स्ट वॉटरमार्क जोड़ें" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 80);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto watermarkTextFrame = watermarkShape->AddTextFrame(u"Watermark");
-presentation->Save(u"watermark.odp", SaveFormat::Odp);
+watermarkShape->AddTextFrame(u"Watermark");
+presentation->Save(u"watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C++ का उपयोग करके ODP प्रस्तुतिकरण में इमेज वॉटरमार्क जोड़ें" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ से ODP प्रेज़ेंटेशन में इमेज वॉटरमार्क जोड़ें" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
+auto masterSlide = presentation->get_Master(0);
+auto watermarkShape = masterSlide->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 100, 100, 400, 200);
 
-auto presentation = System::MakeObject<Presentation>();
-auto slide = presentation->get_Slides()->idx_get(0);
-auto master = presentation->get_Masters()->idx_get(0);
-auto watermarkShape = slide->get_Shapes()->AddAutoShape(ShapeType::Triangle, 0.0f, 0.0f, 0.0f, 0.0f);
-
-auto image = presentation->get_Images()->AddImage(:File::ReadAllBytes(u"watermark.png"));
+auto imageData = File::ReadAllBytes(u"watermark.png");
+auto watermarkImage = presentation->get_Images()->AddImage(imageData);
 
 watermarkShape->get_FillFormat()->set_FillType(FillType::Picture);
-watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(image);
+watermarkShape->get_FillFormat()->get_PictureFillFormat()->get_Picture()->set_Image(watermarkImage);
 watermarkShape->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 
-presentation->Save(u"watermark2.odp", SaveFormat::Odp);
+presentation->Save(u"image-watermarked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ से ODP में वॉटरमार्क कैसे जोड़ें" intro="ODP फ़ाइलों में टेक्स्ट या इमेज वॉटरमार्क जोड़ने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` क्लास से ODP फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation::get_Masters` कलेक्शन से मास्टर स्लाइड चुनें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`AddAutoShape` मेथड से वॉटरमार्क शेप जोड़ें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`AddTextFrame` मेथड से वॉटरमार्क टेक्स्ट जोड़ें या `AddImage` से पिक्चर फ़िल सेट करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat::Odp` से वॉटरमार्क वाली फ़ाइल सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ के द्वारा ODP में वॉटरमार्क कैसे जोड़ें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Aspose.Slides से निर्मित" title="ODP फ़ाइलों में ऑनलाइन वॉटरमार्क जोड़ें" description="मुफ़्त Aspose.Slides Watermark ऐप [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी ODP फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Watermark खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides वॉटरमार्क कैसे जोड़ता है।
+- अपनी ODP फ़ाइल में टेक्स्ट या इमेज वॉटरमार्क जोड़ें।
+- वॉटरमार्क वाली फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये ODP फ़ाइलों में टेक्स्ट वॉटरमार्क जोड़ने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="वॉटरमार्क के लिए अन्य समर्थित फ़ॉर्मैट" subTitle="C++ से आप निम्नलिखित फ़ॉर्मैट में भी वॉटरमार्क जोड़ सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/watermark/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ ODP लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-मास्टर प्रस्तुति का चयन करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddAutoShape पद्धति का उपयोग करके आकृति प्रकार जोड़ें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddTextFrame पद्धति का उपयोग करके वॉटरमार्क टेक्स्ट जोड़ें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम ODP प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित प्रारूप" subTitle="C++ का उपयोग करके, आप निम्न स्वरूपों में वॉटरमार्क भी जोड़ सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/watermark/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

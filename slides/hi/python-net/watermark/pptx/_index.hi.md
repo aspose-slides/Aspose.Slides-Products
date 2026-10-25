@@ -1,113 +1,82 @@
 ---
-lastmod: 2023-06-14
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python का उपयोग करके PPTX प्रस्तुतिकरण फ़ाइलों में वॉटरमार्क जोड़ें
+title: Python से PPTX प्रेज़ेंटेशन में वॉटरमार्क जोड़ें
 url: /hi/python-net/watermark/pptx/
-keywords: वॉटरमार्क जोड़ें PPTX, टेक्स्ट वॉटरमार्क जोड़ें PPTX, छवि वॉटरमार्क जोड़ें PPTX
-description: वॉटरमार्क को PPTX प्रस्तुतिकरण में जोड़ने के लिए Python स्रोत कोड.
+description: Python और Aspose.Slides से PPTX प्रेज़ेंटेशन में टेक्स्ट और इमेज वॉटरमार्क जोड़ें।
+keywords: PPTX में वॉटरमार्क जोड़ें, PPTX में टेक्स्ट वॉटरमार्क जोड़ें, PPTX में इमेज वॉटरमार्क जोड़ें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python का उपयोग करके PPTX प्रस्तुतिकरण में वॉटरमार्क जोड़ें" h2="सर्वर-साइड API का उपयोग करके PPT, PPTX, या ODP प्रस्तुति में टेक्स्ट या इमेज वॉटरमार्क डालने के लिए अपना खुद का Python ऐप्लिकेशन बनाएं." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python से PPTX प्रेज़ेंटेशन में वॉटरमार्क जोड़ें" h2="ऐसे Python ऐप्लिकेशन बनाएँ जो Aspose.Slides से PPTX प्रेज़ेंटेशन में टेक्स्ट या इमेज वॉटरमार्क जोड़ें।" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python द्वारा PPTX प्रस्तुतिकरण में वॉटरमार्क जोड़ें" %}}
-{Product_name} का उपयोग करके, आप वॉटरमार्क को PPTX प्रस्तुतिकरण में जोड़ सकते हैं। वॉटरमार्क किसी भी प्रस्तुति का एक अनिवार्य हिस्सा हैं। इनका उपयोग प्रस्तुति की सामग्री को कॉपी किए जाने या अनुमति के बिना उपयोग किए जाने से बचाने के लिए किया जाता है। वॉटरमार्क एक दृश्य या अदृश्य छवि या पाठ है जिसे प्रस्तुति के शीर्ष पर रखा जाता है। इसका उपयोग प्रस्तुति के स्वामी की पहचान करने और अनधिकृत उपयोग को रोकने के लिए किया जा सकता है। वॉटरमार्क का उपयोग प्रस्तुति में एक पेशेवर स्पर्श जोड़ने और इसे और अधिक परिष्कृत दिखाने के लिए भी किया जा सकता है। 
-{{% blocks/products/pf/agp/code-block title="Python का उपयोग करके PPTX में टेक्स्ट वॉटरमार्क जोड़ें" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python से PPTX प्रेज़ेंटेशन में वॉटरमार्क जोड़ने का उदाहरण" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/hi/python-net/) से आप Microsoft PowerPoint के बिना PPTX प्रेज़ेंटेशन में टेक्स्ट या इमेज वॉटरमार्क जोड़ सकते हैं। वॉटरमार्क स्वामित्व दिखा सकता है, प्रेज़ेंटेशन को गोपनीय या ड्राफ़्ट के रूप में चिह्नित कर सकता है, या एक जैसी ब्रांडिंग दे सकता है। नीचे दिए गए उदाहरण वॉटरमार्क को पहली मास्टर स्लाइड पर रखते हैं, ताकि वह उस मास्टर का उपयोग करने वाली स्लाइड पर दिखे।
 
-import aspose.slides as slides
-import aspose.pydrawing as draw
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX प्रेज़ेंटेशन में टेक्स्ट वॉटरमार्क जोड़ें – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 100, 100, 400, 50)
+    watermark_text_frame = watermark_shape.add_text_frame("CONFIDENTIAL")
 
-with slides.Presentation() as pres:
-    master = pres.masters[0]
+    watermark_shape.fill_format.fill_type = slides.FillType.NO_FILL
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, 100, 100)
-    watermarkTextFrame = watermarkShape.add_text_frame("Watermark")
+    watermark_portion = watermark_text_frame.paragraphs[0].portions[0]
+    watermark_portion.portion_format.font_height = 32
 
-    # Lock Watermark from Editing
-    watermarkShape.shape_lock.select_locked = True
-    watermarkShape.shape_lock.size_locked = True
-    watermarkShape.shape_lock.text_locked = True
-    watermarkShape.shape_lock.position_locked = True
-    watermarkShape.shape_lock.grouping_locked = True
-    
-    # Set Text Watermark Transparency
-    watermarkPortion = watermarkTextFrame.paragraphs[0].portions[0]
-    watermarkPortion.portion_format.fill_format.fill_type = slides.FillType.SOLID
-    watermarkPortion.portion_format.fill_format.solid_fill_color.color = draw.Color.from_argb(150, 200, 200, 200)
-    
-    # Set Font Size of Text Watermark
-    watermarkPortion.portion_format.font_height = 16
+    watermark_shape.auto_shape_lock.select_locked = True
+    watermark_shape.auto_shape_lock.size_locked = True
+    watermark_shape.auto_shape_lock.text_locked = True
+    watermark_shape.auto_shape_lock.position_locked = True
+    watermark_shape.auto_shape_lock.grouping_locked = True
 
-    pres.save("watermark.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("watermarked.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX प्रेज़ेंटेशन में इमेज वॉटरमार्क जोड़ें – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    with open("watermark.png", "rb") as image_stream:
+        watermark_image = presentation.images.add_image(image_stream.read())
 
-{{% /blocks/products/pf/agp/code-block %}}
+    master_slide = presentation.masters[0]
+    watermark_shape = master_slide.shapes.add_auto_shape(
+        slides.ShapeType.RECTANGLE, 100, 100, watermark_image.width, watermark_image.height)
 
-{{% blocks/products/pf/agp/code-block title="Python का उपयोग करके PPTX प्रस्तुतिकरण में इमेज वॉटरमार्क जोड़ें" offSpacer="true" %}}
+    watermark_shape.fill_format.fill_type = slides.FillType.PICTURE
+    watermark_shape.fill_format.picture_fill_format.picture.image = watermark_image
+    watermark_shape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
+    watermark_shape.line_format.fill_format.fill_type = slides.FillType.NO_FILL
 
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation() as presentation:
-    with open("image1.png", "rb") as fs:
-        data = fs.read()
-    image = presentation.images.add_image(data)
-
-    master = presentation.masters[0]
-    watermarkShape = master.shapes.add_auto_shape(slides.ShapeType.RECTANGLE, 0, 0, image.width, image.height)
-    
-    watermarkShape.fill_format.fill_type = slides.FillType.PICTURE
-    watermarkShape.fill_format.picture_fill_format.picture.image = image
-    watermarkShape.fill_format.picture_fill_format.picture_fill_mode = slides.PictureFillMode.STRETCH
-
-    presentation.save("watermark2.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("watermarked.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python से PPTX में वॉटरमार्क कैसे जोड़ें" intro="PPTX प्रेज़ेंटेशन में टेक्स्ट वॉटरमार्क जोड़ने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` से PPTX फ़ाइल खोलें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`masters` कलेक्शन से पहली मास्टर स्लाइड प्राप्त करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}मास्टर स्लाइड पर आयत जोड़ने के लिए `add_auto_shape` कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}वॉटरमार्क टेक्स्ट जोड़ने के लिए `add_text_frame` कॉल करें, फिर शेप को फ़ॉर्मैट और लॉक करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}वॉटरमार्क वाली प्रेज़ेंटेशन सहेजने के लिए `SaveFormat.PPTX` के साथ `save` कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python के द्वारा PPTX में वॉटरमार्क कैसे जोड़ें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app label="Aspose.Slides से निर्मित" title="PPTX फ़ाइलों में ऑनलाइन वॉटरमार्क जोड़ें" description="मुफ़्त Aspose.Slides Watermark ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Watermark खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides वॉटरमार्क कैसे जोड़ता है।
+- अपनी PPTX फ़ाइल में टेक्स्ट या इमेज वॉटरमार्क जोड़ें।
+- वॉटरमार्क वाली फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/watermark-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPTX फ़ाइलों में टेक्स्ट वॉटरमार्क जोड़ने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="वॉटरमार्क के लिए अन्य समर्थित फ़ॉर्मैट" subTitle="Python से आप अन्य समर्थित प्रेज़ेंटेशन फ़ॉर्मैट में भी वॉटरमार्क जोड़ सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/watermark/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPTX लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-मास्टर प्रस्तुति का चयन करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddAutoShape पद्धति का उपयोग करके आकृति प्रकार जोड़ें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-AddTextFrame पद्धति का उपयोग करके वॉटरमार्क टेक्स्ट जोड़ें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPTX प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित प्रारूप" subTitle="Python का उपयोग करके, आप निम्न स्वरूपों में वॉटरमार्क भी जोड़ सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/watermark/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

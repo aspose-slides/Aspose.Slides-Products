@@ -1,21 +1,22 @@
 ---
-lastmod: 2026-07-09
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Add Watermark to PPT Presentation Files using Java
 url: /java/watermark/ppt/
 keywords: Add Watermark PPT, Add Text Watermark PPT, Add Image Watermark PPT
 description: Add text and image watermarks to PPT presentations in Java using Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Add Watermark to PPT Presentation using Java" h2="Build Java applications that insert text or image watermarks into presentation files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Add Watermark to PPT Presentation using Java" h2="Build Java applications that insert text or image watermarks into presentation files using server-side APIs." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Add Watermark to PPT Presentation via Java" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Add Watermark to PPT Presentation via Java" variant="code" %}}
+
 Using [Aspose.Slides for Java](/slides/java/), you can add text and image watermarks to PPT presentations. Add a watermark shape to a master slide so the watermark appears on slides that use that master.
-{{% blocks/products/pf/agp/code-block title="Add Text Watermark to PPT using Java" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Add Text Watermark to PPT using Java" >}}
 ```java
 Presentation presentation = new Presentation("presentation.ppt");
 try {
@@ -29,11 +30,8 @@ try {
     presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Add Image Watermark to PPT Presentation using Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Add Image Watermark to PPT Presentation using Java" >}}
 ```java
 Presentation presentation = new Presentation("presentation.ppt");
 try {
@@ -51,47 +49,23 @@ try {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Add Watermark to PPT via Java" intro="Follow these steps to add a text or image watermark to PPT files." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the `PPT` file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Select a master slide through the `getMasters` method.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `addAutoShape` method to add a watermark shape.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `addTextFrame` method to add watermark text or use `addImage` for an image watermark.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the watermarked presentation in PPT format.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Add Watermark to PPT via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/watermark-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to add a text watermark to PPT files." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Watermark Formats" subTitle="Using Java, you can also add watermarks to the following formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/watermark/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/watermark/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the `PPT` file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Select a master slide through the `getMasters` method.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `addAutoShape` method to add a watermark shape.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `addTextFrame` method to add watermark text.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Save the watermarked presentation in PPT format.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Formats" subTitle="Using Java, you can also add watermarks to the following formats:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/watermark/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/watermark/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
