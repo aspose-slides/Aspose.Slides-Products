@@ -1,112 +1,79 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET का उपयोग करके PPS फ़ाइलें मेटाडेटा देखें या संपादित करें
+title: .NET से PPS फ़ाइल मेटाडेटा देखें या संपादित करें
 url: /hi/net/metadata/pps/
-keywords: PPS मेटाडेटा संपादित करें, PPS मेटाडेटा देखें, PPS गुण संपादित करें, PPS गुण देखें
-description: संपादित करने या PPS प्रारूप मेटाडेटा देखने के लिए C# स्रोत कोड.
+description: PPS मेटाडेटा देखने या संपादित करने के लिए C# सोर्स कोड।
+keywords: PPS मेटाडेटा संपादित करें, PPS मेटाडेटा देखें, PPS प्रॉपर्टी संपादित करें, PPS प्रॉपर्टी देखें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# का इस्तेमाल करके PPS प्रॉपर्टी में बदलाव करें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में अंतर्निहित और कस्टम गुणों को संशोधित करने के लिए अपने स्वयं के .NET ऐप्स बनाएं." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPS" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# से PPS प्रॉपर्टी संपादित करें" h2="ऐसे .NET ऐप्लिकेशन बनाएँ जो सर्वर-साइड API से प्रेज़ेंटेशन की बिल्ट-इन और कस्टम प्रॉपर्टी पढ़ें और बदलें।" related="FODP,ODP,OTP,POT,POTM,POTX,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="PPS प्रॉपर्टी को C# के ज़रिए बदलें" %}}
-{Product_name} का इस्तेमाल करके, डेवलपर बिल्ट-इन प्रॉपर्टी के साथ-साथ कस्टम प्रॉपर्टी के मानों को एक्सेस और संशोधित कर सकते हैं. प्रस्तुतिकरण फ़ाइल के दस्तावेज़ गुणों तक पहुँचने के लिए डेवलपर प्रस्तुति वस्तु द्वारा प्रदर्शित [DocumentProperties](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) संपत्ति का उपयोग कर सकते हैं।
-{{% blocks/products/pf/agp/code-block title="PPS अंतर्निहित गुणों को संशोधित करें - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# से PPS प्रॉपर्टी बदलें" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/hi/net/) से डेवलपर प्रेज़ेंटेशन की बिल्ट-इन और कस्टम प्रॉपर्टी तक पहुँच सकते हैं और उन्हें बदल सकते हैं। PPS मेटाडेटा पढ़ने और अपडेट करने के लिए `Presentation` ऑब्जेक्ट की [`DocumentProperties`](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) प्रॉपर्टी का उपयोग करें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPS की बिल्ट-इन प्रॉपर्टी बदलें – C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.pps");
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class that represents the Presentation
-Presentation presentation = new Presentation("presentation.pps");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Set the builtin properties
 documentProperties.Author = "Aspose.Slides for .NET";
 documentProperties.Title = "Modifying Presentation Properties";
 documentProperties.Subject = "Aspose Subject";
 documentProperties.Comments = "Aspose Description";
 documentProperties.Manager = "Aspose Manager";
 
-// Save your presentation to a file
 presentation.Save("DocumentProperties_out.pps", SaveFormat.Pps);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="PPS - C# में कस्टम गुण जोड़ें" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPS में कस्टम प्रॉपर्टी जोड़ें – C#" >}}
 ```cs
+using var presentation = new Presentation();
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class
-Presentation presentation = new Presentation();
-
-// Getting Document Properties
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Adding Custom properties
 documentProperties["New Custom"] = 12;
 documentProperties["My Name"] = "Aspose Metadata Editor";
 documentProperties["Custom"] = 124;
 
-// Getting property name at particular index
-String getPropertyName = documentProperties.GetCustomPropertyName(2);
+var propertyName = documentProperties.GetCustomPropertyName(2);
+documentProperties.RemoveCustomProperty(propertyName);
 
-// Removing selected property
-documentProperties.RemoveCustomProperty(getPropertyName);
-
-// Save your presentation to a file
 presentation.Save("CustomDocumentProperties_out.pps", SaveFormat.Pps);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# में PPS मेटाडेटा कैसे देखें या संपादित करें" intro="PPS मेटाडेटा देखने या संपादित करने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` से PPS फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}प्रेज़ेंटेशन से `DocumentProperties` ऑब्जेक्ट प्राप्त करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Author`, `Title` और `Subject` जैसी बिल्ट-इन प्रॉपर्टी पढ़ें या अपडेट करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`DocumentProperties` से कस्टम प्रॉपर्टी तक पहुँचें और उन्हें बदलें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# के द्वारा PPS का मेटाडेटा कैसे निकालें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Aspose.Slides से निर्मित" title="PPS मेटाडेटा ऑनलाइन देखें और संपादित करें" description="मुफ़्त Aspose.Slides Metadata ऐप [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPS फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Metadata खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides प्रॉपर्टी कैसे पढ़ता और लिखता है।
+- अपनी PPS फ़ाइल की बिल्ट-इन और कस्टम प्रॉपर्टी देखें और संपादित करें।
+- अपडेट की गई फ़ाइल सहेजें और डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPS फ़ाइलों से मेटाडेटा निकालने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य समर्थित मेटाडेटा फ़ॉर्मैट" subTitle="C# से आप निम्नलिखित फ़ॉर्मैट का मेटाडेटा भी प्रबंधित कर सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPS फ़ाइल के पाथ के साथ प्रेजेंटेशन क्लास को इंस्टेंट करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रेजेंटेशन से जुड़े डॉक्यूमेंटप्रॉपर्टीज ऑब्जेक्ट प्राप्त करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-DocumentProperties ऑब्जेक्ट में आइटम्स पर लूप करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-कस्टम गुणों तक पहुंचें और संशोधित करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित मेटाडेटा प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप सहित कई अन्य प्रारूपों के मेटाडेटा में हेरफेर भी कर सकते हैं।" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

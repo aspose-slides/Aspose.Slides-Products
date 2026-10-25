@@ -1,109 +1,78 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Просмотр или редактирование метаданных файлов FODP с помощью C++
+title: Просмотр и изменение метаданных FODP на C++
 url: /ru/cpp/metadata/fodp/
-keywords: Изменить метаданные FODP, просмотреть метаданные FODP, изменить свойства FODP, просмотреть свойства FODP
-description: Исходный код C++ для редактирования или просмотра метаданных формата FODP.
+description: Просматривайте и изменяйте метаданные FODP на C++. Обновляйте встроенные и пользовательские свойства презентаций с помощью Aspose.Slides for C++.
+keywords: изменение метаданных FODP, просмотр метаданных FODP, изменение свойств FODP, просмотр свойств FODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Измените свойства FODP, используя C++" h2="Создавайте собственные приложения C++ для изменения встроенных и настраиваемых свойств в файлах презентаций с помощью серверных API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="FODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Изменение метаданных FODP на C++" h2="Просматривайте и обновляйте встроенные и пользовательские свойства файлов презентаций с помощью Aspose.Slides for C++." related="ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Измените свойства FODP через C++" %}}
-Используя Aspose.Slides for C++, разработчики могут получать доступ и изменять значения как встроенных, так и пользовательских свойств. Разработчики могут использовать свойство [DocumentProperties](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/), предоставляемое объектом Presentation, для доступа к свойствам документа файла презентации.
-{{% blocks/products/pf/agp/code-block title="Изменить встроенные свойства FODP – C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Изменение свойств FODP на C++" variant="code" %}}
 
+Aspose.Slides for C++ позволяет читать и обновлять метаданные файлов FODP без Microsoft PowerPoint. Используйте объект [`DocumentProperties`](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/), который возвращает `Presentation::get_DocumentProperties`, чтобы изменять встроенные свойства, например `Author` и `Title`, или управлять пользовательскими свойствами с помощью `idx_set`, `GetCustomPropertyName` и `RemoveCustomProperty`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Изменение встроенных свойств FODP — C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.fodp");
+auto documentProperties = presentation->get_DocumentProperties();
 
-// Instantiate the Presentation class that represents the Presentation
-System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"presentation.fodp");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-System::SharedPtr<IDocumentProperties> documentProperties = presentation->get_DocumentProperties();
-
-// Set the builtin properties
 documentProperties->set_Author(u"New Author");
 documentProperties->set_Title(u"New Title");
 
-// Save your presentation to a file
-presentation->Save(u"DocumentProperties_out.fodp", SaveFormat::Fodp);
+presentation->Save(u"updated-presentation.fodp", SaveFormat::Fodp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Добавить пользовательские свойства в FODP – C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Добавление пользовательских свойств в FODP — C++" >}}
 ```cpp
-
-// Instantiate the Presentation class
-auto presentation = System::MakeObject<Presentation>();
-
-// Getting Document Properties
+auto presentation = MakeObject<Presentation>(u"presentation.fodp");
 auto documentProperties = presentation->get_DocumentProperties();
 
-// Adding Custom properties
-documentProperties->idx_set(u"New Custom", ObjectExt::Box<int32_t>(12));
-documentProperties->idx_set(u"My Name", ObjectExt::Box<String>(u"Aspose Metadata Editor"));
-documentProperties->idx_set(u"Custom", ObjectExt::Box<int32_t>(124));
+documentProperties->idx_set(u"Department", ObjectExt::Box<String>(u"Sales"));
+documentProperties->idx_set(u"Project", ObjectExt::Box<String>(u"Metadata Update"));
+documentProperties->idx_set(u"Revision", ObjectExt::Box<int32_t>(3));
 
-// Getting property name at particular index
-String getPropertyName = documentProperties->GetCustomPropertyName(2);
+auto customPropertyName = documentProperties->GetCustomPropertyName(2);
+documentProperties->RemoveCustomProperty(customPropertyName);
 
-// Removing selected property
-documentProperties->RemoveCustomProperty(getPropertyName);
-
-// Saving presentation
-presentation->Save(u"CustomDocumentProperties_out.fodp", SaveFormat::Fodp);
+presentation->Save(u"updated-custom-properties.fodp", SaveFormat::Fodp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как просмотреть или изменить метаданные FODP на C++" intro="Выполните следующие шаги, чтобы просмотреть или изменить метаданные FODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Загрузите файл FODP с помощью класса `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Получите объект `DocumentProperties` с помощью `get_DocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Прочитайте или обновите встроенные свойства, например `Author` и `Title`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Добавляйте, читайте и удаляйте пользовательские свойства с помощью `idx_set`, `GetCustomPropertyName` и `RemoveCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как извлечь метаданные FODP через C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Создано на основе Aspose.Slides" title="Просматривайте и изменяйте метаданные FODP онлайн" description="Бесплатное приложение Aspose.Slides Metadata создано на основе [Aspose.Slides for C++](https://products.aspose.com/slides/ru/cpp/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами FODP." button="Открыть Aspose.Slides Metadata" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides читает и записывает свойства, ещё до написания кода.
+- Просматривайте и изменяйте встроенные и пользовательские свойства файла FODP.
+- Сохраните и скачайте обновлённый файл.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для извлечения метаданных из файлов FODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые форматы метаданных" subTitle="С помощью C++ можно также управлять метаданными следующих форматов." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Создайте экземпляр класса Presentation с путем к файлу FODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Получить объект DocumentProperties, связанный с презентацией
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Перебрать элементы в объекте DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Доступ и изменение пользовательских свойств
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы метаданных" subTitle="Используя C++, вы также можете управлять метаданными многих других форматов, в том числе." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

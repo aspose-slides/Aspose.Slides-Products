@@ -1,114 +1,75 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Bekijk of bewerk metadata van PPS bestanden met behulp van Python
+title: PPS-metadata bekijken of bewerken met Python
 url: /nl/python-net/metadata/pps/
-keywords: Bewerk PPS metadata, bekijk PPS metadata, bewerk PPS eigenschappen, bekijk PPS eigenschappen
-description: Python broncode om metadata in PPS-indeling te bewerken of te bekijken.
+description: Bekijk en bewerk ingebouwde en aangepaste metadata-eigenschappen in PPS-bestanden met Python.
+keywords: PPS-metadata bewerken, PPS-metadata bekijken, PPS-eigenschappen bewerken, PPS-eigenschappen bekijken
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Bewerk PPS eigenschappen met Python" h2="Bouw uw eigen Python-apps om ingebouwde en aangepaste eigenschappen in presentatiebestanden aan te passen met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPS" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPS-metadata bekijken en bewerken met Python" h2="Bouw Python-toepassingen die met Aspose.Slides ingebouwde en aangepaste presentatie-eigenschappen lezen en wijzigen." related="FODP,ODP,OTP,POT,POTM,POTX,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Wijzig PPS eigenschappen via Python" %}}
-Met Aspose.Slides for Python via .NET kunnen ontwikkelaars de waarden van zowel ingebouwde als aangepaste eigenschappen openen en wijzigen. Ontwikkelaars kunnen de eigenschap [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) die door het presentatieobject wordt weergegeven, gebruiken om toegang te krijgen tot de documenteigenschappen van het presentatiebestand.
-{{% blocks/products/pf/agp/code-block title="Wijzig PPS ingebouwde eigenschappen - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PPS-metadata bekijken en wijzigen met Python" variant="code" %}}
 
-```py
+Met [**Aspose.Slides for Python via .NET**](/slides/nl/python-net/) leest en wijzigt u ingebouwde metadata en voegt u aangepaste documenteigenschappen in PPS-presentaties toe, wijzigt u ze of verwijdert u ze. Open een [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/)-object via `Presentation.document_properties`, wijzig het en sla de presentatie op in PPS-formaat.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ingebouwde PPS-eigenschappen bijwerken – Python" >}}
+```python
+with slides.Presentation("presentation.pps") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.pps") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.pps", slides.export.SaveFormat.PPS)
+    presentation.save("presentation_with_updated_metadata.pps", slides.export.SaveFormat.PPS)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Aangepaste PPS-eigenschappen toevoegen en verwijderen – Python" >}}
+```python
+with slides.Presentation("presentation.pps") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Aangepaste eigenschappen toevoegen aan PPS - Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.pps", slides.export.SaveFormat.PPS)
+    presentation.save("presentation_with_custom_metadata.pps", slides.export.SaveFormat.PPS)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PPS-metadata bewerken met Python" intro="Volg deze stappen om de metadata van een PPS-bestand te bewerken." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open het PPS-bestand met `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open het `IDocumentProperties`-object via `Presentation.document_properties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Werk ingebouwde eigenschappen bij of gebruik `set_custom_property_value` en `remove_custom_property` voor aangepaste eigenschappen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla de presentatie op met `Presentation.save` en `SaveFormat.PPS`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Metadata van PPS extraheren via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Gebouwd met Aspose.Slides" title="PPS-metadata online bekijken en bewerken" description="De gratis app Aspose.Slides Metadata is gebouwd met [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/nl/python-net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPS-bestanden." button="Aspose.Slides Metadata openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Zie hoe Aspose.Slides eigenschappen leest en schrijft voordat u code schrijft.
+- Bekijk en bewerk de ingebouwde en aangepaste eigenschappen van uw PPS-bestand.
+- Sla het bijgewerkte bestand op en download het.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om metadata te extraheren uit PPS-bestanden." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde metadataformaten" subTitle="Met Python kunt u ook de metadata van andere ondersteunde presentatieformaten beheren." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Maak een instantie van de Presentation-klasse met het pad naar het PPS-bestand
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Haal het DocumentProperties-object op dat is gekoppeld aan Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Loop over de items in het DocumentProperties-object
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Open en wijzig aangepaste eigenschappen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde metadataformaten" subTitle="Met Python kunt u ook metadata van vele andere indelingen manipuleren, waaronder." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

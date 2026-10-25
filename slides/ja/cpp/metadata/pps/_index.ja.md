@@ -1,109 +1,78 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ を使用して PPS ファイルのメタデータを表示または編集する
+title: C++ で PPS のメタデータを表示または編集
 url: /ja/cpp/metadata/pps/
-keywords: PPS メタデータの編集、PPS メタデータの表示、PPS プロパティの編集、PPS プロパティの表示
-description: C++ ソース コードで、PPS 形式のメタデータを編集または表示できます。
+description: C++ で PPS のメタデータを表示、編集します。Aspose.Slides for C++ を使用して、プレゼンテーションの組み込みプロパティとカスタム プロパティを更新します。
+keywords: PPS メタデータの編集, PPS メタデータの表示, PPS プロパティの編集, PPS プロパティの表示
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++ を使用して PPS プロパティを編集します" h2="独自の C++ アプリを構築して、サーバー側 API を使用してプレゼンテーション ファイルの組み込みおよびカスタム プロパティを変更します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPS" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ で PPS のメタデータを編集" h2="Aspose.Slides for C++ を使用して、プレゼンテーション ファイルの組み込みプロパティとカスタム プロパティを表示、更新します。" related="FODP,ODP,OTP,POT,POTM,POTX,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++ 経由で PPS プロパティを変更します" %}}
-Aspose.Slides for C++ を使用すると、開発者は組み込みプロパティとカスタム プロパティの値にアクセスして変更できます。開発者は、プレゼンテーション オブジェクトによって公開される [DocumentProperties](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) プロパティを使用して、プレゼンテーション ファイルのドキュメント プロパティにアクセスできます。
-{{% blocks/products/pf/agp/code-block title="PPS 組み込みプロパティの変更 - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ で PPS のプロパティを変更" variant="code" %}}
 
+Aspose.Slides for C++ を使用すると、Microsoft PowerPoint なしで PPS ファイルのメタデータを読み取り、更新できます。`Presentation::get_DocumentProperties` が返す [`DocumentProperties`](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) オブジェクトを使用して、`Author` や `Title` などの組み込みプロパティを変更したり、`idx_set`、`GetCustomPropertyName`、`RemoveCustomProperty` でカスタム プロパティを管理したりできます。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPS の組み込みプロパティの変更 - C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pps");
+auto documentProperties = presentation->get_DocumentProperties();
 
-// Instantiate the Presentation class that represents the Presentation
-System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"presentation.pps");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-System::SharedPtr<IDocumentProperties> documentProperties = presentation->get_DocumentProperties();
-
-// Set the builtin properties
 documentProperties->set_Author(u"New Author");
 documentProperties->set_Title(u"New Title");
 
-// Save your presentation to a file
-presentation->Save(u"DocumentProperties_out.pps", SaveFormat::Pps);
+presentation->Save(u"updated-presentation.pps", SaveFormat::Pps);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="カスタム プロパティを PPS - C++ に追加" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPS へのカスタム プロパティの追加 - C++" >}}
 ```cpp
-
-// Instantiate the Presentation class
-auto presentation = System::MakeObject<Presentation>();
-
-// Getting Document Properties
+auto presentation = MakeObject<Presentation>(u"presentation.pps");
 auto documentProperties = presentation->get_DocumentProperties();
 
-// Adding Custom properties
-documentProperties->idx_set(u"New Custom", ObjectExt::Box<int32_t>(12));
-documentProperties->idx_set(u"My Name", ObjectExt::Box<String>(u"Aspose Metadata Editor"));
-documentProperties->idx_set(u"Custom", ObjectExt::Box<int32_t>(124));
+documentProperties->idx_set(u"Department", ObjectExt::Box<String>(u"Sales"));
+documentProperties->idx_set(u"Project", ObjectExt::Box<String>(u"Metadata Update"));
+documentProperties->idx_set(u"Revision", ObjectExt::Box<int32_t>(3));
 
-// Getting property name at particular index
-String getPropertyName = documentProperties->GetCustomPropertyName(2);
+auto customPropertyName = documentProperties->GetCustomPropertyName(2);
+documentProperties->RemoveCustomProperty(customPropertyName);
 
-// Removing selected property
-documentProperties->RemoveCustomProperty(getPropertyName);
-
-// Saving presentation
-presentation->Save(u"CustomDocumentProperties_out.pps", SaveFormat::Pps);
+presentation->Save(u"updated-custom-properties.pps", SaveFormat::Pps);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ で PPS のメタデータを表示または編集する方法" intro="次の手順に従って、PPS のメタデータを表示または編集します。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` クラスで PPS ファイルを読み込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`get_DocumentProperties` で `DocumentProperties` オブジェクトを取得します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Author` や `Title` などの組み込みプロパティを読み取るか更新します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`idx_set`、`GetCustomPropertyName`、`RemoveCustomProperty` でカスタム プロパティを追加、読み取り、削除します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ 経由で PPS のメタデータを抽出する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Aspose.Slides で構築" title="PPS のメタデータをオンラインで表示、編集" description="無料の Aspose.Slides Metadata アプリは、上記のコードと同じ API である [Aspose.Slides for C++](https://products.aspose.com/slides/ja/cpp/) で構築されています。アプリを開いて、ご自身の PPS ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Metadata を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がプロパティをどう読み書きするかを確認できます。
+- PPS ファイルの組み込みプロパティとカスタム プロパティを表示、編集できます。
+- 更新したファイルを保存してダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、PPS ファイルからメタデータを抽出する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="その他のサポートされているメタデータ形式" subTitle="C++ では次の形式のメタデータも管理できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/cpp/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPS ファイルへのパスを使用してプレゼンテーション クラスをインスタンス化する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションに関連付けられた DocumentProperties オブジェクトを取得する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-DocumentProperties オブジェクト内のアイテムをループする
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-カスタム プロパティへのアクセスと変更
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="サポートされているその他のメタデータ形式" subTitle="C++ を使用すると、他の多くの形式のメタデータを操作することもできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/cpp/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

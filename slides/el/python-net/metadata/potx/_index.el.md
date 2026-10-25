@@ -1,114 +1,75 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Προβολή ή επεξεργασία μεταδεδομένων αρχείων POTX χρησιμοποιώντας Python
+title: Προβολή ή επεξεργασία μεταδεδομένων POTX με Python
 url: /el/python-net/metadata/potx/
-keywords: Επεξεργασία μεταδεδομένων POTX, Προβολή μεταδεδομένων POTX, Επεξεργασία ιδιοτήτων POTX, Προβολή ιδιοτήτων POTX
-description: Πηγαίος κώδικας Python για επεξεργασία ή προβολή μεταδεδομένων μορφής POTX.
+description: Προβάλετε και επεξεργαστείτε ενσωματωμένες και προσαρμοσμένες ιδιότητες μεταδεδομένων σε αρχεία POTX με Python.
+keywords: επεξεργασία μεταδεδομένων POTX, προβολή μεταδεδομένων POTX, επεξεργασία ιδιοτήτων POTX, προβολή ιδιοτήτων POTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Επεξεργασία ιδιοτήτων POTX χρησιμοποιώντας Python" h2="Δημιουργήστε τις δικές σας εφαρμογές Python για να τροποποιήσετε τις Ενσωματωμένες και Προσαρμοσμένες ιδιότητες σε αρχεία παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="POTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Προβολή και επεξεργασία μεταδεδομένων POTX με Python" h2="Δημιουργήστε εφαρμογές Python που διαβάζουν και τροποποιούν ενσωματωμένες και προσαρμοσμένες ιδιότητες παρουσιάσεων με το Aspose.Slides." related="FODP,ODP,OTP,POT,POTM,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Τροποποίηση ιδιοτήτων POTX μέσω Python" %}}
-Χρησιμοποιώντας το Aspose.Slides for Python via .NET, οι προγραμματιστές μπορούν να έχουν πρόσβαση και να τροποποιούν τις τιμές των ενσωματωμένων ιδιοτήτων καθώς και των προσαρμοσμένων ιδιοτήτων. Οι προγραμματιστές μπορούν να χρησιμοποιήσουν την ιδιότητα [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) που εκτίθεται από το αντικείμενο Παρουσίασης για να αποκτήσουν πρόσβαση στις ιδιότητες του εγγράφου του αρχείου παρουσίασης.
-{{% blocks/products/pf/agp/code-block title="Τροποποίηση ενσωματωμένων ιδιοτήτων POTX - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Προβολή και τροποποίηση μεταδεδομένων POTX με Python" variant="code" %}}
 
-```py
+Το [**Aspose.Slides for Python via .NET**](/slides/el/python-net/) σας επιτρέπει να διαβάζετε και να ενημερώνετε ενσωματωμένα μεταδεδομένα και να προσθέτετε, να ενημερώνετε ή να αφαιρείτε προσαρμοσμένες ιδιότητες εγγράφου σε παρουσιάσεις POTX. Αποκτήστε πρόσβαση σε ένα αντικείμενο [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) μέσω της `Presentation.document_properties`, τροποποιήστε το και αποθηκεύστε την παρουσίαση σε μορφή POTX.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ενημέρωση ενσωματωμένων ιδιοτήτων POTX – Python" >}}
+```python
+with slides.Presentation("presentation.potx") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.potx") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.potx", slides.export.SaveFormat.POTX)
+    presentation.save("presentation_with_updated_metadata.potx", slides.export.SaveFormat.POTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Προσθήκη και αφαίρεση προσαρμοσμένων ιδιοτήτων POTX – Python" >}}
+```python
+with slides.Presentation("presentation.potx") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Προσθήκη προσαρμοσμένων ιδιοτήτων στο POTX - Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.potx", slides.export.SaveFormat.POTX)
+    presentation.save("presentation_with_custom_metadata.potx", slides.export.SaveFormat.POTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να επεξεργαστείτε μεταδεδομένα POTX με Python" intro="Ακολουθήστε αυτά τα βήματα για να επεξεργαστείτε τα μεταδεδομένα ενός αρχείου POTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ανοίξτε το αρχείο POTX με την `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποκτήστε πρόσβαση στο αντικείμενο `IDocumentProperties` μέσω της `Presentation.document_properties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ενημερώστε ενσωματωμένες ιδιότητες ή χρησιμοποιήστε τις `set_custom_property_value` και `remove_custom_property` για προσαρμοσμένες ιδιότητες.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε την παρουσίαση με `Presentation.save` και `SaveFormat.POTX`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος εξαγωγής μεταδεδομένων του POTX μέσω του Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Δημιουργήθηκε με το Aspose.Slides" title="Προβολή και επεξεργασία μεταδεδομένων POTX online" description="Η δωρεάν εφαρμογή Aspose.Slides Metadata έχει δημιουργηθεί με το [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/el/python-net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία POTX." button="Άνοιγμα Aspose.Slides Metadata" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς διαβάζει και γράφει ιδιότητες το Aspose.Slides πριν γράψετε κώδικα.
+- Προβάλετε και επεξεργαστείτε ενσωματωμένες και προσαρμοσμένες ιδιότητες του αρχείου POTX.
+- Αποθηκεύστε και κατεβάστε το ενημερωμένο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την εξαγωγή μεταδεδομένων από αρχεία POTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές μεταδεδομένων" subTitle="Με Python μπορείτε επίσης να διαχειριστείτε τα μεταδεδομένα άλλων υποστηριζόμενων μορφών παρουσιάσεων." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Δημιουργήστε την κλάση Presentation με διαδρομή προς το αρχείο POTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Λήψη αντικειμένου DocumentProperties που σχετίζεται με την Παρουσίαση
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Κάντε βρόχο πάνω από τα στοιχεία στο αντικείμενο DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Πρόσβαση και τροποποίηση προσαρμοσμένων ιδιοτήτων
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές μεταδεδομένων" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να χειριστείτε μεταδεδομένα πολλών άλλων μορφών, συμπεριλαμβανομένων." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

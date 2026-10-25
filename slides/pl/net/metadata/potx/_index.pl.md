@@ -1,112 +1,79 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Wyświetl lub edytuj metadane plików POTX za pomocą .NET
+title: Wyświetlanie i edycja metadanych plików POTX w .NET
 url: /pl/net/metadata/potx/
-keywords: Edytuj metadane POTX, Wyświetl metadane POTX, Edytuj właściwości POTX, Wyświetl właściwości POTX
-description: Kod źródłowy C#, aby edytować lub przeglądać metadane formatu POTX.
+description: Kod źródłowy C# do wyświetlania i edycji metadanych POTX.
+keywords: edycja metadanych POTX, wyświetlanie metadanych POTX, edycja właściwości POTX, wyświetlanie właściwości POTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edytuj właściwości POTX za pomocą C#" h2="Twórz własne aplikacje .NET, aby modyfikować wbudowane i niestandardowe właściwości w plikach prezentacji za pomocą interfejsów API po stronie serwera." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="POTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edycja właściwości POTX w C#" h2="Twórz aplikacje .NET, które odczytują i modyfikują wbudowane i niestandardowe właściwości prezentacji za pomocą serwerowych API." related="FODP,ODP,OTP,POT,POTM,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Zmodyfikuj właściwości POTX za pomocą C#" %}}
-Korzystając z Aspose.Slides for .NET, programiści mogą uzyskiwać dostęp i modyfikować wartości właściwości wbudowanych oraz właściwości niestandardowych. Deweloperzy mogą użyć właściwości [DocumentProperties](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) udostępnionej przez obiekt prezentacji, aby uzyskać dostęp do właściwości dokumentu w pliku prezentacji.
-{{% blocks/products/pf/agp/code-block title="Zmodyfikuj wbudowane właściwości POTX – C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modyfikacja właściwości POTX w C#" variant="code" %}}
 
+Dzięki [Aspose.Slides for .NET](/slides/pl/net/) programiści mogą odczytywać i modyfikować wbudowane i niestandardowe właściwości prezentacji. Użyj właściwości [`DocumentProperties`](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) obiektu `Presentation`, aby odczytać i zaktualizować metadane POTX.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Modyfikacja wbudowanych właściwości POTX – C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.potx");
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class that represents the Presentation
-Presentation presentation = new Presentation("presentation.potx");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Set the builtin properties
 documentProperties.Author = "Aspose.Slides for .NET";
 documentProperties.Title = "Modifying Presentation Properties";
 documentProperties.Subject = "Aspose Subject";
 documentProperties.Comments = "Aspose Description";
 documentProperties.Manager = "Aspose Manager";
 
-// Save your presentation to a file
 presentation.Save("DocumentProperties_out.potx", SaveFormat.Potx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Dodaj niestandardowe właściwości do POTX – C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Dodawanie niestandardowych właściwości do POTX – C#" >}}
 ```cs
+using var presentation = new Presentation();
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class
-Presentation presentation = new Presentation();
-
-// Getting Document Properties
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Adding Custom properties
 documentProperties["New Custom"] = 12;
 documentProperties["My Name"] = "Aspose Metadata Editor";
 documentProperties["Custom"] = 124;
 
-// Getting property name at particular index
-String getPropertyName = documentProperties.GetCustomPropertyName(2);
+var propertyName = documentProperties.GetCustomPropertyName(2);
+documentProperties.RemoveCustomProperty(propertyName);
 
-// Removing selected property
-documentProperties.RemoveCustomProperty(getPropertyName);
-
-// Save your presentation to a file
 presentation.Save("CustomDocumentProperties_out.potx", SaveFormat.Potx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak wyświetlić lub edytować metadane POTX w C#" intro="Wykonaj poniższe kroki, aby wyświetlić lub edytować metadane POTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wczytaj plik POTX za pomocą `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Pobierz obiekt `DocumentProperties` z prezentacji.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Odczytaj lub zaktualizuj wbudowane właściwości, takie jak `Author`, `Title` i `Subject`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Odczytuj i modyfikuj właściwości niestandardowe za pomocą `DocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak wyodrębnić metadane POTX przez C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Zbudowano z Aspose.Slides" title="Wyświetlaj i edytuj metadane POTX online" description="Bezpłatna aplikacja Aspose.Slides Metadata została zbudowana z użyciem [Aspose.Slides for .NET](https://products.aspose.com/slides/pl/net/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami POTX." button="Otwórz Aspose.Slides Metadata" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides odczytuje i zapisuje właściwości, zanim napiszesz kod.
+- Wyświetlaj i edytuj wbudowane i niestandardowe właściwości pliku POTX.
+- Zapisz i pobierz zaktualizowany plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby wyodrębnić metadane z plików POTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane formaty metadanych" subTitle="W C# możesz też zarządzać metadanymi następujących formatów." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Utwórz instancję klasy Presentation ze ścieżką do pliku POTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Pobierz obiekt DocumentProperties powiązany z prezentacją
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapętl elementy w obiekcie DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uzyskaj dostęp do właściwości niestandardowych i modyfikuj je
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty metadanych" subTitle="Korzystając z C#, możesz także manipulować metadanymi wielu innych formatów, w tym." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

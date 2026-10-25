@@ -1,112 +1,79 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Zobrazení nebo úprava metadat souborů PPT pomocí .NET
+title: Zobrazení a úprava metadat souborů PPT pomocí .NET
 url: /cs/net/metadata/ppt/
-keywords: Upravit metadata PPT, zobrazit metadata PPT, upravit vlastnosti PPT, zobrazit vlastnosti PPT
-description: Zdrojový kód C# pro úpravu nebo zobrazení metadat formátu PPT.
+description: Zdrojový kód C# pro zobrazení a úpravu metadat PPT.
+keywords: úprava metadat PPT, zobrazení metadat PPT, úprava vlastností PPT, zobrazení vlastností PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Upravit vlastnosti PPT pomocí C#" h2="Vytvořte si vlastní aplikace .NET a upravte vestavěné a vlastní vlastnosti v souborech prezentace pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Úprava vlastností PPT v C#" h2="Vytvářejte aplikace .NET, které čtou a mění vestavěné i vlastní vlastnosti prezentací pomocí serverových API." related="FODP,ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Upravit vlastnosti PPT prostřednictvím C#" %}}
-Pomocí Aspose.Slides for .NET mohou vývojáři přistupovat k hodnotám vestavěných i vlastních vlastností a upravovat je. Vývojáři mohou použít vlastnost [DocumentProperties](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) vystavenou objektem Presentation pro přístup k vlastnostem dokumentu souboru prezentace.
-{{% blocks/products/pf/agp/code-block title="Upravit PPT vestavěné vlastnosti – C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Změna vlastností PPT v C#" variant="code" %}}
 
+Pomocí [Aspose.Slides for .NET](/slides/cs/net/) mohou vývojáři číst a měnit vestavěné i vlastní vlastnosti prezentací. Ke čtení a aktualizaci metadat PPT použijte vlastnost [`DocumentProperties`](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) objektu `Presentation`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Změna vestavěných vlastností PPT – C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class that represents the Presentation
-Presentation presentation = new Presentation("presentation.ppt");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Set the builtin properties
 documentProperties.Author = "Aspose.Slides for .NET";
 documentProperties.Title = "Modifying Presentation Properties";
 documentProperties.Subject = "Aspose Subject";
 documentProperties.Comments = "Aspose Description";
 documentProperties.Manager = "Aspose Manager";
 
-// Save your presentation to a file
 presentation.Save("DocumentProperties_out.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Přidat uživatelské vlastnosti do PPT – C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Přidání vlastních vlastností do PPT – C#" >}}
 ```cs
+using var presentation = new Presentation();
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class
-Presentation presentation = new Presentation();
-
-// Getting Document Properties
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Adding Custom properties
 documentProperties["New Custom"] = 12;
 documentProperties["My Name"] = "Aspose Metadata Editor";
 documentProperties["Custom"] = 124;
 
-// Getting property name at particular index
-String getPropertyName = documentProperties.GetCustomPropertyName(2);
+var propertyName = documentProperties.GetCustomPropertyName(2);
+documentProperties.RemoveCustomProperty(propertyName);
 
-// Removing selected property
-documentProperties.RemoveCustomProperty(getPropertyName);
-
-// Save your presentation to a file
 presentation.Save("CustomDocumentProperties_out.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak zobrazit nebo upravit metadata PPT v C#" intro="Pomocí těchto kroků zobrazíte nebo upravíte metadata PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor PPT pomocí `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Získejte objekt `DocumentProperties` prezentace.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Čtěte nebo aktualizujte vestavěné vlastnosti, jako jsou `Author`, `Title` a `Subject`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přistupujte k vlastním vlastnostem a měňte je pomocí `DocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak extrahovat metadata PPT přes C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Vytvořeno pomocí Aspose.Slides" title="Zobrazení a úprava metadat PPT online" description="Bezplatná aplikace Aspose.Slides Metadata je vytvořena pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory PPT." button="Otevřít Aspose.Slides Metadata" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides čte a zapisuje vlastnosti, ještě než napíšete kód.
+- Zobrazte a upravte vestavěné i vlastní vlastnosti svého souboru PPT.
+- Uložte a stáhněte aktualizovaný soubor.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k extrahování metadat ze souborů PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty metadat" subTitle="V C# můžete spravovat také metadata následujících formátů." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Vytvořte instanci třídy Presentation s cestou k souboru PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Získat objekt DocumentProperties spojený s Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Opakujte položky v objektu DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Přístup a úpravy uživatelských vlastností
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty metadat" subTitle="Pomocí C# můžete také manipulovat s metadaty mnoha dalších formátů, včetně." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

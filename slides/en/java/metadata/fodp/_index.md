@@ -1,21 +1,22 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: View or Edit FODP File Metadata Using Java
 url: /java/metadata/fodp/
 keywords: Edit FODP Metadata, View FODP Metadata, Edit FODP properties, View FODP properties
 description: View and edit FODP metadata in Java. Use Aspose.Slides for Java to update built-in and custom presentation properties.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edit FODP properties using Java" h2="Build Java applications that modify built-in and custom properties in presentation files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="FODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edit FODP Properties using Java" h2="Build Java applications that modify built-in and custom properties in presentation files using server-side APIs." related="ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Modify FODP Properties via Java" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modify FODP Properties via Java" variant="code" %}}
+
 Using [Aspose.Slides for Java](/slides/java/), developers can access and modify built-in and custom presentation properties. Use the `getDocumentProperties` method on a `Presentation` object to access the `IDocumentProperties` object for the presentation file.
-{{% blocks/products/pf/agp/code-block title="Modify FODP Built-in Properties - Java" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Modify FODP Built-in Properties - Java" >}}
 ```java
 Presentation presentation = new Presentation("Presentation.fodp");
 try {
@@ -32,11 +33,8 @@ try {
     presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Add Custom Properties to FODP - Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Add Custom Properties to FODP - Java" >}}
 ```java
 Presentation presentation = new Presentation();
 try {
@@ -54,52 +52,31 @@ try {
     presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to View or Edit FODP Metadata using Java" intro="Follow these steps to view or edit FODP metadata." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the `FODP` file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `getDocumentProperties` method to get the `IDocumentProperties` object.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Read or update built-in properties such as `Author`, `Title`, `Subject`, and `Comments`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Access and modify custom properties with `set_Item`, `getCustomPropertyName`, and `removeCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Extract Metadata of FODP via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to extract metadata from FODP files." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Metadata Formats" subTitle="Using Java, you can also manage metadata in the following formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the `FODP` file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call the `getDocumentProperties` method to get the `IDocumentProperties` object.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Read or update built-in properties such as `Author`, `Title`, `Subject`, and `Comments`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Access and modify custom properties with `set_Item`, `getCustomPropertyName`, and `removeCustomProperty`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Metadata Formats" subTitle="Using Java, you can also manipulate metadata of many other formats including the ones listed below." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/java/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

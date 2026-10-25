@@ -1,114 +1,75 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Wyświetl lub edytuj metadane plików ODP za pomocą Python
+title: Wyświetlanie i edycja metadanych ODP w Pythonie
 url: /pl/python-net/metadata/odp/
-keywords: Edytuj metadane ODP, Wyświetl metadane ODP, Edytuj właściwości ODP, Wyświetl właściwości ODP
-description: Kod źródłowy Python, aby edytować lub przeglądać metadane formatu ODP.
+description: Wyświetlaj i edytuj wbudowane i niestandardowe właściwości metadanych w plikach ODP w Pythonie.
+keywords: edycja metadanych ODP, wyświetlanie metadanych ODP, edycja właściwości ODP, wyświetlanie właściwości ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edytuj właściwości ODP za pomocą Python" h2="Twórz własne aplikacje Python, aby modyfikować wbudowane i niestandardowe właściwości w plikach prezentacji za pomocą interfejsów API po stronie serwera." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Wyświetlanie i edycja metadanych ODP w Pythonie – przykład" h2="Twórz aplikacje w Pythonie, które za pomocą Aspose.Slides odczytują i modyfikują wbudowane i niestandardowe właściwości prezentacji." related="FODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Zmodyfikuj właściwości ODP za pomocą Python" %}}
-Korzystając z Aspose.Slides for Python via .NET, programiści mogą uzyskiwać dostęp i modyfikować wartości właściwości wbudowanych oraz właściwości niestandardowych. Deweloperzy mogą użyć właściwości [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) udostępnionej przez obiekt prezentacji, aby uzyskać dostęp do właściwości dokumentu w pliku prezentacji.
-{{% blocks/products/pf/agp/code-block title="Zmodyfikuj wbudowane właściwości ODP – Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Wyświetlanie i modyfikacja metadanych ODP w Pythonie" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/pl/python-net/) pozwala odczytywać i aktualizować wbudowane metadane oraz dodawać, aktualizować i usuwać niestandardowe właściwości dokumentu w prezentacjach ODP. Uzyskaj dostęp do obiektu [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) przez `Presentation.document_properties`, zmodyfikuj go i zapisz prezentację w formacie ODP.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Aktualizacja wbudowanych właściwości ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.odp") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.odp", slides.export.SaveFormat.ODP)
+    presentation.save("presentation_with_updated_metadata.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Dodawanie i usuwanie niestandardowych właściwości ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Dodaj niestandardowe właściwości do ODP – Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.odp", slides.export.SaveFormat.ODP)
+    presentation.save("presentation_with_custom_metadata.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak edytować metadane ODP w Pythonie" intro="Wykonaj poniższe kroki, aby edytować metadane pliku ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otwórz plik ODP za pomocą `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uzyskaj dostęp do obiektu `IDocumentProperties` przez `Presentation.document_properties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zaktualizuj wbudowane właściwości lub użyj `set_custom_property_value` i `remove_custom_property` dla właściwości niestandardowych.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz prezentację za pomocą `Presentation.save` i `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak wyodrębnić metadane ODP przez Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Zbudowano z Aspose.Slides" title="Wyświetlaj i edytuj metadane ODP online" description="Bezpłatna aplikacja Aspose.Slides Metadata została zbudowana z użyciem [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/pl/python-net/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami ODP." button="Otwórz Aspose.Slides Metadata" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides odczytuje i zapisuje właściwości, zanim napiszesz kod.
+- Wyświetlaj i edytuj wbudowane i niestandardowe właściwości pliku ODP.
+- Zapisz i pobierz zaktualizowany plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby wyodrębnić metadane z plików ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane formaty metadanych" subTitle="W Pythonie możesz też zarządzać metadanymi innych obsługiwanych formatów prezentacji." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Utwórz instancję klasy Presentation ze ścieżką do pliku ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Pobierz obiekt DocumentProperties powiązany z prezentacją
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapętl elementy w obiekcie DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uzyskaj dostęp do właściwości niestandardowych i modyfikuj je
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty metadanych" subTitle="Korzystając z Python, możesz także manipulować metadanymi wielu innych formatów, w tym." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,116 +1,87 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Wyświetl lub edytuj metadane plików PPS za pomocą Java
+title: Wyświetlanie i edycja metadanych plików PPS w Javie
 url: /pl/java/metadata/pps/
-keywords: Edytuj metadane PPS, Wyświetl metadane PPS, Edytuj właściwości PPS, Wyświetl właściwości PPS
-description: Kod źródłowy Java, aby edytować lub przeglądać metadane formatu PPS.
+description: Wyświetlaj i edytuj metadane PPS w Javie. Użyj Aspose.Slides for Java, aby aktualizować wbudowane i niestandardowe właściwości prezentacji.
+keywords: edycja metadanych PPS, wyświetlanie metadanych PPS, edycja właściwości PPS, wyświetlanie właściwości PPS
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edytuj właściwości PPS za pomocą Java" h2="Twórz własne aplikacje Java, aby modyfikować wbudowane i niestandardowe właściwości w plikach prezentacji za pomocą interfejsów API po stronie serwera." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPS" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edycja właściwości PPS w Javie" h2="Twórz aplikacje Java, które modyfikują wbudowane i niestandardowe właściwości plików prezentacji za pomocą serwerowych API." related="FODP,ODP,OTP,POT,POTM,POTX,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Zmodyfikuj właściwości PPS za pomocą Java" %}}
-Korzystając z Aspose.Slides for Java, programiści mogą uzyskiwać dostęp i modyfikować wartości właściwości wbudowanych oraz właściwości niestandardowych. Deweloperzy mogą użyć właściwości [DocumentProperties](https://reference.aspose.com/slides/java/com.aspose.slides/documentproperties/) udostępnionej przez obiekt prezentacji, aby uzyskać dostęp do właściwości dokumentu w pliku prezentacji.
-{{% blocks/products/pf/agp/code-block title="Zmodyfikuj wbudowane właściwości PPS – Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modyfikacja właściwości PPS w Javie" variant="code" %}}
 
+Dzięki [Aspose.Slides for Java](/slides/pl/java/) programiści mogą odczytywać i modyfikować wbudowane i niestandardowe właściwości prezentacji. Użyj metody `getDocumentProperties` obiektu `Presentation`, aby uzyskać obiekt `IDocumentProperties` pliku prezentacji.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Modyfikacja wbudowanych właściwości PPS – Java" >}}
 ```java
-
-Presentation pres = new Presentation("Presentation.pps");
+Presentation presentation = new Presentation("Presentation.pps");
 try {
-    // Create a reference to IDocumentProperties object associated with Presentation
-    IDocumentProperties dp = pres.getDocumentProperties();
-    
-    // Set the built-in properties
-    dp.setAuthor("Aspose.Slides for Java");
-    dp.setTitle("Modifying Presentation Properties");
-    dp.setSubject("Aspose Subject");
-    dp.setComments("Aspose Description");
-    dp.setManager("Aspose Manager");
-    
-    // Save your presentation to a file
-    pres.save("DocProps.pps", SaveFormat.Pps);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.setAuthor("Aspose.Slides for Java");
+    documentProperties.setTitle("Modifying Presentation Properties");
+    documentProperties.setSubject("Aspose Subject");
+    documentProperties.setComments("Aspose Description");
+    documentProperties.setManager("Aspose Manager");
+
+    presentation.save("DocProps.pps", SaveFormat.Pps);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Dodaj niestandardowe właściwości do PPS – Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Dodawanie niestandardowych właściwości do PPS – Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    // Getting Document Properties
-    IDocumentProperties dProps = pres.getDocumentProperties();
-    
-    // Adding Custom properties
-    dProps.set_Item("New Custom", 12);
-    dProps.set_Item("My Name", "Aspose Metadata Editor");
-    dProps.set_Item("Custom", 124);
-    
-    // Getting property name at particular index
-    String getPropertyName = dProps.getCustomPropertyName(2);
-    
-    // Removing selected property
-    dProps.removeCustomProperty(getPropertyName);
-    
-    // Saving presentation
-    pres.save("CustomDemo.pps", SaveFormat.Pps);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.set_Item("New Custom", 12);
+    documentProperties.set_Item("My Name", "Aspose Metadata Editor");
+    documentProperties.set_Item("Custom", 124);
+
+    String customPropertyName = documentProperties.getCustomPropertyName(2);
+    documentProperties.removeCustomProperty(customPropertyName);
+
+    presentation.save("CustomDemo.pps", SaveFormat.Pps);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak wyświetlić lub edytować metadane PPS w Javie" intro="Wykonaj poniższe kroki, aby wyświetlić lub edytować metadane PPS." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wczytaj plik `PPS` za pomocą klasy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wywołaj metodę `getDocumentProperties`, aby pobrać obiekt `IDocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Odczytaj lub zaktualizuj wbudowane właściwości, takie jak `Author`, `Title`, `Subject` i `Comments`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Odczytuj i modyfikuj właściwości niestandardowe za pomocą `set_Item`, `getCustomPropertyName` i `removeCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak wyodrębnić metadane PPS przez Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Zbudowano z Aspose.Slides" title="Wyświetlaj i edytuj metadane PPS online" description="Bezpłatna aplikacja Aspose.Slides Metadata została zbudowana z użyciem [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami PPS." button="Otwórz Aspose.Slides Metadata" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides odczytuje i zapisuje właściwości, zanim napiszesz kod.
+- Wyświetlaj i edytuj wbudowane i niestandardowe właściwości pliku PPS.
+- Zapisz i pobierz zaktualizowany plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, aby wyodrębnić metadane z plików PPS." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane formaty metadanych" subTitle="W Javie możesz też zarządzać metadanymi następujących formatów." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Utwórz instancję klasy Presentation ze ścieżką do pliku PPS
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Pobierz obiekt DocumentProperties powiązany z prezentacją
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapętl elementy w obiekcie DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uzyskaj dostęp do właściwości niestandardowych i modyfikuj je
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty metadanych" subTitle="Korzystając z Java, możesz także manipulować metadanymi wielu innych formatów, w tym." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

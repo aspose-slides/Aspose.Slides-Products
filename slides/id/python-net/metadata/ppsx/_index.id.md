@@ -1,114 +1,75 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lihat atau Edit Metadata File PPSX menggunakan Python
+title: Lihat atau Edit Metadata PPSX dengan Python
 url: /id/python-net/metadata/ppsx/
-keywords: Edit Metadata PPSX, Lihat Metadata PPSX, Edit properti PPSX, Lihat properti PPSX
-description: kode sumber Python untuk mengedit atau melihat metadata format PPSX.
+description: Lihat dan edit properti metadata bawaan dan kustom dalam file PPSX dengan Python.
+keywords: edit metadata PPSX, lihat metadata PPSX, edit properti PPSX, lihat properti PPSX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edit properti PPSX menggunakan Python" h2="Bangun aplikasi Python Anda sendiri untuk mengubah properti Bawaan dan Kustom dalam file presentasi menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPSX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Lihat dan Edit Metadata PPSX dengan Python" h2="Bangun aplikasi Python yang membaca dan mengubah properti bawaan dan kustom presentasi dengan Aspose.Slides." related="FODP,ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ubah Properti PPSX melalui Python" %}}
-Dengan menggunakan Aspose.Slides for Python via .NET, developer dapat mengakses dan mengubah nilai properti bawaan serta properti kustom. Pengembang dapat menggunakan properti [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) yang diekspos oleh objek Presentasi untuk mengakses properti dokumen dari file presentasi.
-{{% blocks/products/pf/agp/code-block title="Modifikasi PPSX Properti Bawaan - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Lihat dan Ubah Metadata PPSX dengan Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/id/python-net/) memungkinkan Anda membaca dan memperbarui metadata bawaan, serta menambahkan, memperbarui, atau menghapus properti dokumen kustom dalam presentasi PPSX. Akses objek [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) melalui `Presentation.document_properties`, ubah, lalu simpan presentasi dalam format PPSX.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Perbarui Properti Bawaan PPSX – Python" >}}
+```python
+with slides.Presentation("presentation.ppsx") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.ppsx") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.ppsx", slides.export.SaveFormat.PPSX)
+    presentation.save("presentation_with_updated_metadata.ppsx", slides.export.SaveFormat.PPSX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tambah dan Hapus Properti Kustom PPSX – Python" >}}
+```python
+with slides.Presentation("presentation.ppsx") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Tambahkan Properti Kustom ke PPSX - Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.ppsx", slides.export.SaveFormat.PPSX)
+    presentation.save("presentation_with_custom_metadata.ppsx", slides.export.SaveFormat.PPSX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Mengedit Metadata PPSX dengan Python" intro="Ikuti langkah-langkah berikut untuk mengedit metadata dalam file PPSX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file PPSX dengan `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Akses objek `IDocumentProperties` melalui `Presentation.document_properties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Perbarui properti bawaan atau gunakan `set_custom_property_value` dan `remove_custom_property` untuk properti kustom.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan presentasi dengan `Presentation.save` dan `SaveFormat.PPSX`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Mengekstrak Metadata PPSX melalui Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Dibuat dengan Aspose.Slides" title="Lihat dan Edit Metadata PPSX Secara Online" description="Aplikasi Aspose.Slides Metadata gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file PPSX Anda sendiri." button="Buka Aspose.Slides Metadata" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides membaca dan menulis properti sebelum menulis kode.
+- Lihat dan edit properti bawaan dan kustom file PPSX Anda.
+- Simpan dan unduh file yang diperbarui.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk Mengekstrak Metadata dari file PPSX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Metadata Lain yang Didukung" subTitle="Dengan Python, Anda juga dapat mengelola metadata format presentasi lain yang didukung." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Buat instance kelas Presentasi dengan jalur ke file PPSX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dapatkan objek DocumentProperties yang terkait dengan Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi item dalam objek DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Akses dan ubah properti khusus
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Metadata Lain yang Didukung" subTitle="Menggunakan Python, Anda juga dapat memanipulasi metadata dari banyak format lain termasuk." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

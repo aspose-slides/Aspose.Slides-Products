@@ -5,17 +5,18 @@ title: View or Edit FODP Metadata with Python
 url: /python-net/metadata/fodp/
 keywords: Edit FODP Metadata, View FODP Metadata, Edit FODP Properties, View FODP Properties
 description: View and edit built-in and custom metadata properties in FODP files with Python.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="View and Edit FODP Metadata with Python" h2="Build Python applications that read and modify built-in and custom presentation properties with Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="FODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="View and Edit FODP Metadata with Python" h2="Build Python applications that read and modify built-in and custom presentation properties with Aspose.Slides." related="ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="View and Modify FODP Metadata with Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="View and Modify FODP Metadata with Python" variant="code" %}}
+
 [**Aspose.Slides for Python via .NET**](/slides/python-net/) lets you read and update built-in metadata and add, update, or remove custom document properties in FODP presentations. Access an [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) object through `Presentation.document_properties`, modify it, and save the presentation in FODP format.
-{{% blocks/products/pf/agp/code-block title="Update Built-in FODP Properties - Python" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Update Built-in FODP Properties - Python" >}}
 ```python
 with slides.Presentation("presentation.fodp") as presentation:
     document_properties = presentation.document_properties
@@ -27,11 +28,8 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     presentation.save("presentation_with_updated_metadata.fodp", slides.export.SaveFormat.FODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Add and Remove Custom FODP Properties - Python" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Add and Remove Custom FODP Properties - Python" >}}
 ```python
 with slides.Presentation("presentation.fodp") as presentation:
     document_properties = presentation.document_properties
@@ -42,52 +40,31 @@ with slides.Presentation("presentation.fodp") as presentation:
 
     presentation.save("presentation_with_custom_metadata.fodp", slides.export.SaveFormat.FODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Edit FODP Metadata with Python" intro="Follow these steps to edit metadata in an FODP file." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open the FODP file with `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Access its `IDocumentProperties` object through `Presentation.document_properties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Update built-in properties or use `set_custom_property_value` and `remove_custom_property` for custom properties.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the presentation with `Presentation.save` and `SaveFormat.FODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Edit FODP Metadata with Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to edit metadata in an FODP file." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Metadata Formats" subTitle="Use Python to manipulate metadata in other supported presentation formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Open the FODP file with `Presentation`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Access its `IDocumentProperties` object through `Presentation.document_properties`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Update built-in properties or use `set_custom_property_value` and `remove_custom_property` for custom properties.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the presentation with `Presentation.save` and `SaveFormat.FODP`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Metadata Formats" subTitle="Use Python to manipulate metadata in other supported presentation formats." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

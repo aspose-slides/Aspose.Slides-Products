@@ -1,112 +1,79 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET を使用して ODP ファイルのメタデータを表示または編集する
+title: .NET で ODP ファイルのメタデータを表示または編集
 url: /ja/net/metadata/odp/
-keywords: ODP メタデータの編集、ODP メタデータの表示、ODP プロパティの編集、ODP プロパティの表示
-description: C# ソース コードで、ODP 形式のメタデータを編集または表示できます。
+description: ODP のメタデータを表示または編集する C# ソース コード。
+keywords: ODP メタデータの編集, ODP メタデータの表示, ODP プロパティの編集, ODP プロパティの表示
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# を使用して ODP プロパティを編集します" h2="独自の .NET アプリを構築して、サーバー側 API を使用してプレゼンテーション ファイルの組み込みおよびカスタム プロパティを変更します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# で ODP のプロパティを編集" h2="サーバー側 API を使用して、プレゼンテーションの組み込みプロパティとカスタム プロパティを読み取り、変更する .NET アプリを構築します。" related="FODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# 経由で ODP プロパティを変更します" %}}
-Aspose.Slides for .NET を使用すると、開発者は組み込みプロパティとカスタム プロパティの値にアクセスして変更できます。開発者は、プレゼンテーション オブジェクトによって公開される [DocumentProperties](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) プロパティを使用して、プレゼンテーション ファイルのドキュメント プロパティにアクセスできます。
-{{% blocks/products/pf/agp/code-block title="ODP 組み込みプロパティの変更 - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# で ODP のプロパティを変更" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/ja/net/) を使用すると、開発者はプレゼンテーションの組み込みプロパティとカスタム プロパティにアクセスして変更できます。`Presentation` オブジェクトの [`DocumentProperties`](https://reference.aspose.com/slides/net/aspose.slides/documentproperties/) プロパティを使用して、ODP のメタデータを読み取り、更新します。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ODP の組み込みプロパティの変更 - C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.odp");
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class that represents the Presentation
-Presentation presentation = new Presentation("presentation.odp");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Set the builtin properties
 documentProperties.Author = "Aspose.Slides for .NET";
 documentProperties.Title = "Modifying Presentation Properties";
 documentProperties.Subject = "Aspose Subject";
 documentProperties.Comments = "Aspose Description";
 documentProperties.Manager = "Aspose Manager";
 
-// Save your presentation to a file
 presentation.Save("DocumentProperties_out.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="カスタム プロパティを ODP - C# に追加" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ODP へのカスタム プロパティの追加 - C#" >}}
 ```cs
+using var presentation = new Presentation();
+var documentProperties = presentation.DocumentProperties;
 
-// Instantiate the Presentation class
-Presentation presentation = new Presentation();
-
-// Getting Document Properties
-IDocumentProperties documentProperties = presentation.DocumentProperties;
-
-// Adding Custom properties
 documentProperties["New Custom"] = 12;
 documentProperties["My Name"] = "Aspose Metadata Editor";
 documentProperties["Custom"] = 124;
 
-// Getting property name at particular index
-String getPropertyName = documentProperties.GetCustomPropertyName(2);
+var propertyName = documentProperties.GetCustomPropertyName(2);
+documentProperties.RemoveCustomProperty(propertyName);
 
-// Removing selected property
-documentProperties.RemoveCustomProperty(getPropertyName);
-
-// Save your presentation to a file
 presentation.Save("CustomDocumentProperties_out.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# で ODP のメタデータを表示または編集する方法" intro="次の手順に従って、ODP のメタデータを表示または編集します。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` で ODP ファイルを読み込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}プレゼンテーションから `DocumentProperties` オブジェクトを取得します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Author`、`Title`、`Subject` などの組み込みプロパティを読み取るか更新します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`DocumentProperties` でカスタム プロパティにアクセスして変更します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# 経由で ODP のメタデータを抽出する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Aspose.Slides で構築" title="ODP のメタデータをオンラインで表示、編集" description="無料の Aspose.Slides Metadata アプリは、上記のコードと同じ API である [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net/) で構築されています。アプリを開いて、ご自身の ODP ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Metadata を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がプロパティをどう読み書きするかを確認できます。
+- ODP ファイルの組み込みプロパティとカスタム プロパティを表示、編集できます。
+- 更新したファイルを保存してダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、ODP ファイルからメタデータを抽出する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="その他のサポートされているメタデータ形式" subTitle="C# では次の形式のメタデータも管理できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP ファイルへのパスを使用してプレゼンテーション クラスをインスタンス化する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションに関連付けられた DocumentProperties オブジェクトを取得する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-DocumentProperties オブジェクト内のアイテムをループする
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-カスタム プロパティへのアクセスと変更
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="サポートされているその他のメタデータ形式" subTitle="C# を使用すると、他の多くの形式のメタデータを操作することもできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

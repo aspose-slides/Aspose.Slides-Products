@@ -1,116 +1,87 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Visa eller redigera metadata för POTM filer med Java
+title: Visa eller redigera metadata i POTM-filer med Java
 url: /sv/java/metadata/potm/
-keywords: Redigera POTM-metadata, visa POTM-metadata, redigera POTM-egenskaper, visa POTM-egenskaper
-description: Källkod för Java för att redigera eller visa metadata i formatet POTM.
+description: Visa och redigera POTM-metadata i Java. Använd Aspose.Slides for Java för att uppdatera inbyggda och anpassade presentationsegenskaper.
+keywords: redigera POTM-metadata, visa POTM-metadata, redigera POTM-egenskaper, visa POTM-egenskaper
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Redigera egenskaper för POTM med Java" h2="Bygg dina egna Java-appar för att ändra inbyggda och anpassade egenskaper i presentationsfiler med hjälp av API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="POTM" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Redigera POTM-egenskaper med Java" h2="Bygg Java-program som ändrar inbyggda och anpassade egenskaper i presentationsfiler med API:er på serversidan." related="FODP,ODP,OTP,POT,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ändra POTM-egenskaper via Java" %}}
-Med hjälp av Aspose.Slides for Java kan utvecklare komma åt och ändra värdena för inbyggda egenskaper såväl som anpassade egenskaper. Utvecklare kan använda egenskapen [DocumentProperties](https://reference.aspose.com/slides/java/com.aspose.slides/documentproperties/) som exponeras av Presentation-objektet för att komma åt presentationsfilens dokumentegenskaper.
-{{% blocks/products/pf/agp/code-block title="Ändra POTM inbyggda egenskaper - Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ändra POTM-egenskaper med Java" variant="code" %}}
 
+Med [Aspose.Slides for Java](/slides/sv/java/) kan utvecklare läsa och ändra inbyggda och anpassade presentationsegenskaper. Använd metoden `getDocumentProperties` i ett `Presentation`-objekt för att komma åt presentationsfilens `IDocumentProperties`-objekt.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ändra inbyggda POTM-egenskaper – Java" >}}
 ```java
-
-Presentation pres = new Presentation("Presentation.potm");
+Presentation presentation = new Presentation("Presentation.potm");
 try {
-    // Create a reference to IDocumentProperties object associated with Presentation
-    IDocumentProperties dp = pres.getDocumentProperties();
-    
-    // Set the built-in properties
-    dp.setAuthor("Aspose.Slides for Java");
-    dp.setTitle("Modifying Presentation Properties");
-    dp.setSubject("Aspose Subject");
-    dp.setComments("Aspose Description");
-    dp.setManager("Aspose Manager");
-    
-    // Save your presentation to a file
-    pres.save("DocProps.potm", SaveFormat.Potm);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.setAuthor("Aspose.Slides for Java");
+    documentProperties.setTitle("Modifying Presentation Properties");
+    documentProperties.setSubject("Aspose Subject");
+    documentProperties.setComments("Aspose Description");
+    documentProperties.setManager("Aspose Manager");
+
+    presentation.save("DocProps.potm", SaveFormat.Potm);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Lägg till anpassade egenskaper i POTM - Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Lägg till anpassade egenskaper i POTM – Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    // Getting Document Properties
-    IDocumentProperties dProps = pres.getDocumentProperties();
-    
-    // Adding Custom properties
-    dProps.set_Item("New Custom", 12);
-    dProps.set_Item("My Name", "Aspose Metadata Editor");
-    dProps.set_Item("Custom", 124);
-    
-    // Getting property name at particular index
-    String getPropertyName = dProps.getCustomPropertyName(2);
-    
-    // Removing selected property
-    dProps.removeCustomProperty(getPropertyName);
-    
-    // Saving presentation
-    pres.save("CustomDemo.potm", SaveFormat.Potm);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.set_Item("New Custom", 12);
+    documentProperties.set_Item("My Name", "Aspose Metadata Editor");
+    documentProperties.set_Item("Custom", 124);
+
+    String customPropertyName = documentProperties.getCustomPropertyName(2);
+    documentProperties.removeCustomProperty(customPropertyName);
+
+    presentation.save("CustomDemo.potm", SaveFormat.Potm);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så visar eller redigerar du POTM-metadata i Java" intro="Följ de här stegen för att visa eller redigera POTM-metadata." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs in `POTM`-filen med klassen `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa metoden `getDocumentProperties` för att hämta `IDocumentProperties`-objektet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs eller uppdatera inbyggda egenskaper som `Author`, `Title`, `Subject` och `Comments`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs och ändra anpassade egenskaper med `set_Item`, `getCustomPropertyName` och `removeCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man extraherar metadata för POTM via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Byggd med Aspose.Slides" title="Visa och redigera POTM-metadata online" description="Den kostnadsfria appen Aspose.Slides Metadata är byggd med [Aspose.Slides for Java](https://products.aspose.com/slides/sv/java/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna POTM-filer." button="Öppna Aspose.Slides Metadata" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides läser och skriver egenskaper innan du skriver kod.
+- Visa och redigera inbyggda och anpassade egenskaper i din POTM-fil.
+- Spara och ladda ner den uppdaterade filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att extrahera metadata från POTM-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra metadataformat som stöds" subTitle="Med Java kan du även hantera metadata i följande format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instantiera presentationsklassen med sökvägen till filen POTM
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hämta DocumentProperties-objekt kopplat till Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Slinga över objekten i DocumentProperties-objektet
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Få tillgång till och ändra anpassade egenskaper
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra metadataformat som stöds" subTitle="Med hjälp av Java kan du också manipulera metadata i många andra format, inklusive." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

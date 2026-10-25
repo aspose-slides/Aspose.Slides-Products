@@ -1,109 +1,78 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Afficher ou modifier les métadonnées des fichiers PPT à l'aide de C++
+title: Afficher ou modifier les métadonnées PPT avec C++
 url: /fr/cpp/metadata/ppt/
-keywords: Modifier les métadonnées PPT, Afficher les métadonnées PPT, Modifier les propriétés PPT, Afficher les propriétés PPT
-description: Code source C++ pour modifier ou afficher les métadonnées du format PPT.
+description: Affichez et modifiez les métadonnées PPT en C++. Utilisez Aspose.Slides for C++ pour mettre à jour les propriétés intégrées et personnalisées des présentations.
+keywords: Modifier les métadonnées PPT, afficher les métadonnées PPT, modifier les propriétés PPT, afficher les propriétés PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Modifier les propriétés PPT à l'aide de C++" h2="Créez vos propres applications C++ pour modifier les propriétés intégrées et personnalisées dans les fichiers de présentation à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Modifier les métadonnées PPT en C++" h2="Utilisez Aspose.Slides for C++ pour afficher et mettre à jour les propriétés intégrées et personnalisées des fichiers de présentation." related="FODP,ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Modifier les propriétés PPT via C++" %}}
-À l'aide de Aspose.Slides for C++, les développeurs peuvent accéder et modifier les valeurs des propriétés intégrées ainsi que des propriétés personnalisées. Les développeurs peuvent utiliser la propriété [DocumentProperties](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) exposée par l'objet Presentation pour accéder aux propriétés de document du fichier de présentation.
-{{% blocks/products/pf/agp/code-block title="Modifier les propriétés intégrées de PPT - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modifier les propriétés PPT via C++" variant="code" %}}
 
+Aspose.Slides for C++ permet de lire et de mettre à jour les métadonnées des fichiers PPT sans Microsoft PowerPoint. Utilisez l'objet [`DocumentProperties`](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) fourni par `Presentation::get_DocumentProperties` pour modifier des propriétés intégrées comme `Author` et `Title`, ou pour gérer des propriétés personnalisées avec `idx_set`, `GetCustomPropertyName` et `RemoveCustomProperty`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Modifier les propriétés intégrées PPT – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
+auto documentProperties = presentation->get_DocumentProperties();
 
-// Instantiate the Presentation class that represents the Presentation
-System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"presentation.ppt");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-System::SharedPtr<IDocumentProperties> documentProperties = presentation->get_DocumentProperties();
-
-// Set the builtin properties
 documentProperties->set_Author(u"New Author");
 documentProperties->set_Title(u"New Title");
 
-// Save your presentation to a file
-presentation->Save(u"DocumentProperties_out.ppt", SaveFormat::Ppt);
+presentation->Save(u"updated-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ajouter des propriétés personnalisées à PPT - C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ajouter des propriétés personnalisées à PPT – C++" >}}
 ```cpp
-
-// Instantiate the Presentation class
-auto presentation = System::MakeObject<Presentation>();
-
-// Getting Document Properties
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 auto documentProperties = presentation->get_DocumentProperties();
 
-// Adding Custom properties
-documentProperties->idx_set(u"New Custom", ObjectExt::Box<int32_t>(12));
-documentProperties->idx_set(u"My Name", ObjectExt::Box<String>(u"Aspose Metadata Editor"));
-documentProperties->idx_set(u"Custom", ObjectExt::Box<int32_t>(124));
+documentProperties->idx_set(u"Department", ObjectExt::Box<String>(u"Sales"));
+documentProperties->idx_set(u"Project", ObjectExt::Box<String>(u"Metadata Update"));
+documentProperties->idx_set(u"Revision", ObjectExt::Box<int32_t>(3));
 
-// Getting property name at particular index
-String getPropertyName = documentProperties->GetCustomPropertyName(2);
+auto customPropertyName = documentProperties->GetCustomPropertyName(2);
+documentProperties->RemoveCustomProperty(customPropertyName);
 
-// Removing selected property
-documentProperties->RemoveCustomProperty(getPropertyName);
-
-// Saving presentation
-presentation->Save(u"CustomDocumentProperties_out.ppt", SaveFormat::Ppt);
+presentation->Save(u"updated-custom-properties.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment afficher ou modifier les métadonnées PPT en C++" intro="Suivez ces étapes pour afficher ou modifier les métadonnées PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le fichier PPT avec la classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Obtenez l'objet `DocumentProperties` avec `get_DocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lisez ou mettez à jour des propriétés intégrées comme `Author` et `Title`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ajoutez, lisez ou supprimez des propriétés personnalisées avec `idx_set`, `GetCustomPropertyName` et `RemoveCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment extraire les métadonnées de PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Conçu avec Aspose.Slides" title="Afficher et modifier les métadonnées PPT en ligne" description="L'application gratuite Aspose.Slides Metadata est conçue avec [Aspose.Slides for C++](https://products.aspose.com/slides/fr/cpp/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Metadata" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides lit et écrit les propriétés avant d'écrire du code.
+- Affichez et modifiez les propriétés intégrées et personnalisées de votre fichier PPT.
+- Enregistrez et téléchargez le fichier mis à jour.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour extraire les métadonnées des fichiers PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats de métadonnées pris en charge" subTitle="En C++, vous pouvez aussi gérer les métadonnées des formats suivants." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instanciez la classe Presentation avec le chemin vers le fichier PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Obtenir l'objet DocumentProperties associé à la présentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Boucle sur les éléments de l'objet DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Accéder et modifier les propriétés personnalisées
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de métadonnées pris en charge" subTitle="En utilisant C++, vous pouvez également manipuler les métadonnées de nombreux autres formats, y compris." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

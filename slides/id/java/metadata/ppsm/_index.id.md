@@ -1,116 +1,87 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lihat atau Edit Metadata File PPSM menggunakan Java
 url: /id/java/metadata/ppsm/
-keywords: Edit Metadata PPSM, Lihat Metadata PPSM, Edit properti PPSM, Lihat properti PPSM
-description: kode sumber Java untuk mengedit atau melihat metadata format PPSM.
+description: Lihat dan edit metadata PPSM di Java. Gunakan Aspose.Slides for Java untuk memperbarui properti bawaan dan kustom presentasi.
+keywords: edit metadata PPSM, lihat metadata PPSM, edit properti PPSM, lihat properti PPSM
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edit properti PPSM menggunakan Java" h2="Bangun aplikasi Java Anda sendiri untuk mengubah properti Bawaan dan Kustom dalam file presentasi menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPSM" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Edit Properti PPSM menggunakan Java" h2="Bangun aplikasi Java yang mengubah properti bawaan dan kustom dalam file presentasi dengan API sisi server." related="FODP,ODP,OTP,POT,POTM,POTX,PPS,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ubah Properti PPSM melalui Java" %}}
-Dengan menggunakan Aspose.Slides for Java, developer dapat mengakses dan mengubah nilai properti bawaan serta properti kustom. Pengembang dapat menggunakan properti [DocumentProperties](https://reference.aspose.com/slides/java/com.aspose.slides/documentproperties/) yang diekspos oleh objek Presentasi untuk mengakses properti dokumen dari file presentasi.
-{{% blocks/products/pf/agp/code-block title="Modifikasi PPSM Properti Bawaan - Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ubah Properti PPSM melalui Java" variant="code" %}}
 
+Dengan [Aspose.Slides for Java](/slides/id/java/), pengembang dapat mengakses dan mengubah properti bawaan dan kustom presentasi. Gunakan metode `getDocumentProperties` pada objek `Presentation` untuk mengakses objek `IDocumentProperties` dari file presentasi.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ubah Properti Bawaan PPSM – Java" >}}
 ```java
-
-Presentation pres = new Presentation("Presentation.ppsm");
+Presentation presentation = new Presentation("Presentation.ppsm");
 try {
-    // Create a reference to IDocumentProperties object associated with Presentation
-    IDocumentProperties dp = pres.getDocumentProperties();
-    
-    // Set the built-in properties
-    dp.setAuthor("Aspose.Slides for Java");
-    dp.setTitle("Modifying Presentation Properties");
-    dp.setSubject("Aspose Subject");
-    dp.setComments("Aspose Description");
-    dp.setManager("Aspose Manager");
-    
-    // Save your presentation to a file
-    pres.save("DocProps.ppsm", SaveFormat.Ppsm);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.setAuthor("Aspose.Slides for Java");
+    documentProperties.setTitle("Modifying Presentation Properties");
+    documentProperties.setSubject("Aspose Subject");
+    documentProperties.setComments("Aspose Description");
+    documentProperties.setManager("Aspose Manager");
+
+    presentation.save("DocProps.ppsm", SaveFormat.Ppsm);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Tambahkan Properti Kustom ke PPSM - Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tambahkan Properti Kustom ke PPSM – Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    // Getting Document Properties
-    IDocumentProperties dProps = pres.getDocumentProperties();
-    
-    // Adding Custom properties
-    dProps.set_Item("New Custom", 12);
-    dProps.set_Item("My Name", "Aspose Metadata Editor");
-    dProps.set_Item("Custom", 124);
-    
-    // Getting property name at particular index
-    String getPropertyName = dProps.getCustomPropertyName(2);
-    
-    // Removing selected property
-    dProps.removeCustomProperty(getPropertyName);
-    
-    // Saving presentation
-    pres.save("CustomDemo.ppsm", SaveFormat.Ppsm);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.set_Item("New Custom", 12);
+    documentProperties.set_Item("My Name", "Aspose Metadata Editor");
+    documentProperties.set_Item("Custom", 124);
+
+    String customPropertyName = documentProperties.getCustomPropertyName(2);
+    documentProperties.removeCustomProperty(customPropertyName);
+
+    presentation.save("CustomDemo.ppsm", SaveFormat.Ppsm);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Melihat atau Mengedit Metadata PPSM di Java" intro="Ikuti langkah-langkah berikut untuk melihat atau mengedit metadata PPSM." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file `PPSM` dengan kelas `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Panggil metode `getDocumentProperties` untuk mendapatkan objek `IDocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Baca atau perbarui properti bawaan seperti `Author`, `Title`, `Subject`, dan `Comments`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Akses dan ubah properti kustom dengan `set_Item`, `getCustomPropertyName`, dan `removeCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Mengekstrak Metadata PPSM melalui Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Dibuat dengan Aspose.Slides" title="Lihat dan Edit Metadata PPSM Secara Online" description="Aplikasi Aspose.Slides Metadata gratis dibuat dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file PPSM Anda sendiri." button="Buka Aspose.Slides Metadata" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides membaca dan menulis properti sebelum menulis kode.
+- Lihat dan edit properti bawaan dan kustom file PPSM Anda.
+- Simpan dan unduh file yang diperbarui.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk Mengekstrak Metadata dari file PPSM." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Metadata Lain yang Didukung" subTitle="Dengan Java, Anda juga dapat mengelola metadata format berikut." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Buat instance kelas Presentasi dengan jalur ke file PPSM
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dapatkan objek DocumentProperties yang terkait dengan Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi item dalam objek DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Akses dan ubah properti khusus
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Metadata Lain yang Didukung" subTitle="Menggunakan Java, Anda juga dapat memanipulasi metadata dari banyak format lain termasuk." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

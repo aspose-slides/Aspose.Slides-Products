@@ -1,116 +1,87 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: A FODP fájlok metaadatainak megtekintése vagy szerkesztése a Java használatával
+title: FODP fájlok metaadatainak megtekintése és szerkesztése Java nyelven
 url: /hu/java/metadata/fodp/
+description: FODP metaadatok megtekintése és szerkesztése Java nyelven. Az Aspose.Slides for Java segítségével frissítheti a bemutatók beépített és egyéni tulajdonságait.
 keywords: FODP metaadatok szerkesztése, FODP metaadatok megtekintése, FODP tulajdonságok szerkesztése, FODP tulajdonságok megtekintése
-description: Java forráskód a FODP formátumú metaadatok szerkesztéséhez vagy megtekintéséhez.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Szerkessze a FODP tulajdonságokat a Java használatával" h2="Készítse el saját Java alkalmazásait a prezentációs fájlok beépített és egyéni tulajdonságainak kiszolgálóoldali API-k segítségével történő módosításához." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="FODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="FODP tulajdonságok szerkesztése Java nyelven" h2="Készítsen Java-alkalmazásokat, amelyek kiszolgálóoldali API-kkal módosítják a bemutatófájlok beépített és egyéni tulajdonságait." related="ODP,OTP,POT,POTM,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="A FODP tulajdonságok módosítása a Java segítségével" %}}
-A Aspose.Slides for Java használatával a fejlesztők hozzáférhetnek és módosíthatják a beépített tulajdonságok, valamint az egyéni tulajdonságok értékeit. A fejlesztők a Presentation objektum által közzétett [DocumentProperties](https://reference.aspose.com/slides/java/com.aspose.slides/documentproperties/) tulajdonságot használhatják a prezentációs fájl dokumentum tulajdonságainak eléréséhez.
-{{% blocks/products/pf/agp/code-block title="A FODP beépített tulajdonságainak módosítása – Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="FODP tulajdonságok módosítása Java nyelven" variant="code" %}}
 
+Az [Aspose.Slides for Java](/slides/hu/java/) segítségével a fejlesztők elérhetik és módosíthatják a bemutatók beépített és egyéni tulajdonságait. A `Presentation` objektum `getDocumentProperties` metódusával érheti el a bemutatófájl `IDocumentProperties` objektumát.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="FODP beépített tulajdonságainak módosítása – Java" >}}
 ```java
-
-Presentation pres = new Presentation("Presentation.fodp");
+Presentation presentation = new Presentation("Presentation.fodp");
 try {
-    // Create a reference to IDocumentProperties object associated with Presentation
-    IDocumentProperties dp = pres.getDocumentProperties();
-    
-    // Set the built-in properties
-    dp.setAuthor("Aspose.Slides for Java");
-    dp.setTitle("Modifying Presentation Properties");
-    dp.setSubject("Aspose Subject");
-    dp.setComments("Aspose Description");
-    dp.setManager("Aspose Manager");
-    
-    // Save your presentation to a file
-    pres.save("DocProps.fodp", SaveFormat.Fodp);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.setAuthor("Aspose.Slides for Java");
+    documentProperties.setTitle("Modifying Presentation Properties");
+    documentProperties.setSubject("Aspose Subject");
+    documentProperties.setComments("Aspose Description");
+    documentProperties.setManager("Aspose Manager");
+
+    presentation.save("DocProps.fodp", SaveFormat.Fodp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Egyéni tulajdonságok hozzáadása a következőhöz: FODP – Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Egyéni tulajdonságok hozzáadása FODP fájlhoz – Java" >}}
 ```java
-
-Presentation pres = new Presentation();
+Presentation presentation = new Presentation();
 try {
-    // Getting Document Properties
-    IDocumentProperties dProps = pres.getDocumentProperties();
-    
-    // Adding Custom properties
-    dProps.set_Item("New Custom", 12);
-    dProps.set_Item("My Name", "Aspose Metadata Editor");
-    dProps.set_Item("Custom", 124);
-    
-    // Getting property name at particular index
-    String getPropertyName = dProps.getCustomPropertyName(2);
-    
-    // Removing selected property
-    dProps.removeCustomProperty(getPropertyName);
-    
-    // Saving presentation
-    pres.save("CustomDemo.fodp", SaveFormat.Fodp);
+    IDocumentProperties documentProperties = presentation.getDocumentProperties();
+
+    documentProperties.set_Item("New Custom", 12);
+    documentProperties.set_Item("My Name", "Aspose Metadata Editor");
+    documentProperties.set_Item("Custom", 124);
+
+    String customPropertyName = documentProperties.getCustomPropertyName(2);
+    documentProperties.removeCustomProperty(customPropertyName);
+
+    presentation.save("CustomDemo.fodp", SaveFormat.Fodp);
 } finally {
-    if (pres != null) pres.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="FODP metaadatok megtekintése és szerkesztése Java nyelven lépésről lépésre" intro="Kövesse az alábbi lépéseket a FODP metaadatok megtekintéséhez vagy szerkesztéséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a `FODP` fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hívja meg a `getDocumentProperties` metódust az `IDocumentProperties` objektum lekéréséhez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Olvassa ki vagy frissítse a beépített tulajdonságokat, például `Author`, `Title`, `Subject` és `Comments`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Érje el és módosítsa az egyéni tulajdonságokat a `set_Item`, `getCustomPropertyName` és `removeCustomProperty` segítségével.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="A FODP metaadatainak kinyerése a Java segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Az Aspose.Slides segítségével készült" title="FODP metaadatok megtekintése és szerkesztése online" description="Az ingyenes Aspose.Slides Metadata alkalmazás az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját FODP fájljaival." button="Aspose.Slides Metadata megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan olvassa és írja az Aspose.Slides a tulajdonságokat, mielőtt kódot írna.
+- Tekintse meg és szerkessze FODP fájlja beépített és egyéni tulajdonságait.
+- Mentse és töltse le a frissített fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a metaadatok kibontásához a FODP fájlokból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott metaadatformátumok" subTitle="Java nyelven a következő formátumok metaadatait is kezelheti." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Példányosítsa a Presentation osztályt a FODP fájl elérési útjával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A bemutatóhoz társított DocumentProperties objektum lekérése
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hurok át a DocumentProperties objektum elemei között
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Egyéni tulajdonságok elérése és módosítása
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott metaadat-formátumok" subTitle="A Java használatával számos más formátum metaadatait is kezelheti, beleértve a." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

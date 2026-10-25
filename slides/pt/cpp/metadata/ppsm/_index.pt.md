@@ -1,109 +1,78 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Visualize ou edite metadados de arquivos PPSM usando C++
+title: Visualizar ou editar metadados de PPSM com C++
 url: /pt/cpp/metadata/ppsm/
-keywords: Editar metadados PPSM, visualizar metadados PPSM, editar propriedades PPSM, visualizar propriedades PPSM
-description: Código-fonte C++ para editar ou visualizar metadados do formato PPSM.
+description: Visualize e edite metadados de PPSM em C++. Use o Aspose.Slides for C++ para atualizar propriedades internas e personalizadas de apresentações.
+keywords: Editar metadados de PPSM, visualizar metadados de PPSM, editar propriedades de PPSM, visualizar propriedades de PPSM
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Edite propriedades PPSM usando C++" h2="Crie seus próprios aplicativos C++ para modificar propriedades integradas e personalizadas em arquivos de apresentação usando APIs do lado do servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPSM" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Editar metadados de PPSM com C++" h2="Use o Aspose.Slides for C++ para visualizar e atualizar propriedades internas e personalizadas em arquivos de apresentação." related="FODP,ODP,OTP,POT,POTM,POTX,PPS,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Modifique as propriedades de PPSM por meio de C++" %}}
-Usando Aspose.Slides for C++, os desenvolvedores podem acessar e modificar os valores de propriedades integradas, bem como propriedades personalizadas. Os desenvolvedores podem usar a propriedade [DocumentProperties](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) exposta pelo objeto Presentation para acessar as propriedades do documento do arquivo de apresentação.
-{{% blocks/products/pf/agp/code-block title="Modificar propriedades integradas PPSM - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Modificar propriedades de PPSM com C++" variant="code" %}}
 
+O Aspose.Slides for C++ permite ler e atualizar metadados em arquivos PPSM sem o Microsoft PowerPoint. Use o objeto [`DocumentProperties`](https://reference.aspose.com/slides/cpp/aspose.slides/documentproperties/) exposto por `Presentation::get_DocumentProperties` para alterar propriedades internas como `Author` e `Title` ou gerenciar propriedades personalizadas com `idx_set`, `GetCustomPropertyName` e `RemoveCustomProperty`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Modificar propriedades internas de PPSM – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppsm");
+auto documentProperties = presentation->get_DocumentProperties();
 
-// Instantiate the Presentation class that represents the Presentation
-System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"presentation.ppsm");
-
-// Create a reference to IDocumentProperties object associated with Presentation
-System::SharedPtr<IDocumentProperties> documentProperties = presentation->get_DocumentProperties();
-
-// Set the builtin properties
 documentProperties->set_Author(u"New Author");
 documentProperties->set_Title(u"New Title");
 
-// Save your presentation to a file
-presentation->Save(u"DocumentProperties_out.ppsm", SaveFormat::Ppsm);
+presentation->Save(u"updated-presentation.ppsm", SaveFormat::Ppsm);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Adicionar propriedades personalizadas a PPSM - C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Adicionar propriedades personalizadas a PPSM – C++" >}}
 ```cpp
-
-// Instantiate the Presentation class
-auto presentation = System::MakeObject<Presentation>();
-
-// Getting Document Properties
+auto presentation = MakeObject<Presentation>(u"presentation.ppsm");
 auto documentProperties = presentation->get_DocumentProperties();
 
-// Adding Custom properties
-documentProperties->idx_set(u"New Custom", ObjectExt::Box<int32_t>(12));
-documentProperties->idx_set(u"My Name", ObjectExt::Box<String>(u"Aspose Metadata Editor"));
-documentProperties->idx_set(u"Custom", ObjectExt::Box<int32_t>(124));
+documentProperties->idx_set(u"Department", ObjectExt::Box<String>(u"Sales"));
+documentProperties->idx_set(u"Project", ObjectExt::Box<String>(u"Metadata Update"));
+documentProperties->idx_set(u"Revision", ObjectExt::Box<int32_t>(3));
 
-// Getting property name at particular index
-String getPropertyName = documentProperties->GetCustomPropertyName(2);
+auto customPropertyName = documentProperties->GetCustomPropertyName(2);
+documentProperties->RemoveCustomProperty(customPropertyName);
 
-// Removing selected property
-documentProperties->RemoveCustomProperty(getPropertyName);
-
-// Saving presentation
-presentation->Save(u"CustomDocumentProperties_out.ppsm", SaveFormat::Ppsm);
+presentation->Save(u"updated-custom-properties.ppsm", SaveFormat::Ppsm);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como visualizar ou editar metadados de PPSM em C++" intro="Siga estas etapas para visualizar ou editar metadados de PPSM." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carregue o arquivo PPSM com a classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Obtenha o objeto `DocumentProperties` com `get_DocumentProperties`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leia ou atualize propriedades internas como `Author` e `Title`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Adicione, leia ou remova propriedades personalizadas com `idx_set`, `GetCustomPropertyName` e `RemoveCustomProperty`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Como extrair metadados de PPSM via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Criado com Aspose.Slides" title="Visualize e edite metadados de PPSM online" description="O aplicativo gratuito Aspose.Slides Metadata é criado com [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPSM." button="Abrir Aspose.Slides Metadata" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides lê e grava propriedades antes de escrever código.
+- Visualize e edite as propriedades internas e personalizadas do seu arquivo PPSM.
+- Salve e baixe o arquivo atualizado.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estas são as etapas para extrair metadados de arquivos PPSM." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outros formatos de metadados compatíveis" subTitle="Com C++, você também pode gerenciar os metadados dos seguintes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instanciar a classe de apresentação com o caminho para o arquivo PPSM
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Obtenha o objeto DocumentProperties associado à apresentação
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Faça um loop sobre os itens no objeto DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Acessar e modificar propriedades personalizadas
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Outros formatos de metadados suportados" subTitle="Usando C++, você também pode manipular metadados de muitos outros formatos, incluindo." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

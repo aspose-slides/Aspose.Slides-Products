@@ -1,114 +1,75 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: ดูหรือแก้ไขข้อมูลเมตาของไฟล์ POTM โดยใช้ Python
+title: ดูหรือแก้ไขข้อมูลเมตา POTM ด้วย Python
 url: /th/python-net/metadata/potm/
-keywords: แก้ไขข้อมูลเมตา POTM ดูข้อมูลเมตา POTM แก้ไขคุณสมบัติ POTM ดูคุณสมบัติ POTM
-description: ซอร์สโค้ด Python เพื่อแก้ไขหรือดูข้อมูลเมตาของรูปแบบ POTM
+description: ดูและแก้ไขคุณสมบัติข้อมูลเมตาในตัวและกำหนดเองในไฟล์ POTM ด้วย Python
+keywords: แก้ไขข้อมูลเมตา POTM, ดูข้อมูลเมตา POTM, แก้ไขคุณสมบัติ POTM, ดูคุณสมบัติ POTM
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="แก้ไขคุณสมบัติ POTM โดยใช้ Python" h2="สร้างแอป Python ของคุณเองเพื่อแก้ไขคุณสมบัติในตัวและคุณสมบัติกำหนดเองในไฟล์งานนำเสนอโดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="POTM" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ดูและแก้ไขข้อมูลเมตา POTM ด้วย Python" h2="สร้างแอป Python ที่อ่านและแก้ไขคุณสมบัติในตัวและคุณสมบัติกำหนดเองของงานนำเสนอด้วย Aspose.Slides" related="FODP,ODP,OTP,POT,POTX,PPS,PPSM,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="แก้ไขคุณสมบัติ POTM ผ่าน Python" %}}
-เมื่อใช้ Aspose.Slides for Python via .NET นักพัฒนาสามารถเข้าถึงและแก้ไขค่าของคุณสมบัติในตัวรวมถึงคุณสมบัติที่กำหนดเอง นักพัฒนาสามารถใช้คุณสมบัติ [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) ที่เปิดเผยโดยออบเจกต์การนำเสนอเพื่อเข้าถึงคุณสมบัติเอกสารของไฟล์การนำเสนอ
-{{% blocks/products/pf/agp/code-block title="แก้ไข POTM คุณสมบัติในตัว - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ดูและปรับเปลี่ยนข้อมูลเมตา POTM ด้วย Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/th/python-net/) ช่วยให้คุณอ่านและอัปเดตข้อมูลเมตาในตัว รวมถึงเพิ่ม อัปเดต หรือลบคุณสมบัติเอกสารกำหนดเองในงานนำเสนอ POTM เข้าถึงออบเจ็กต์ [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) ผ่าน `Presentation.document_properties` แก้ไข แล้วบันทึกงานนำเสนอในรูปแบบ POTM
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="อัปเดตคุณสมบัติในตัวของ POTM – Python" >}}
+```python
+with slides.Presentation("presentation.potm") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.potm") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.potm", slides.export.SaveFormat.POTM)
+    presentation.save("presentation_with_updated_metadata.potm", slides.export.SaveFormat.POTM)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เพิ่มและลบคุณสมบัติกำหนดเองของ POTM – Python" >}}
+```python
+with slides.Presentation("presentation.potm") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="เพิ่มคุณสมบัติที่กำหนดเองใน POTM - Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.potm", slides.export.SaveFormat.POTM)
+    presentation.save("presentation_with_custom_metadata.potm", slides.export.SaveFormat.POTM)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแก้ไขข้อมูลเมตา POTM ด้วย Python" intro="ทำตามขั้นตอนเหล่านี้เพื่อแก้ไขข้อมูลเมตาในไฟล์ POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์ POTM ด้วย `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เข้าถึงออบเจ็กต์ `IDocumentProperties` ผ่าน `Presentation.document_properties`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}อัปเดตคุณสมบัติในตัว หรือใช้ `set_custom_property_value` และ `remove_custom_property` สำหรับคุณสมบัติกำหนดเอง{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกงานนำเสนอด้วย `Presentation.save` และ `SaveFormat.POTM`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีดึงข้อมูลเมตาของ POTM ผ่าน Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="สร้างด้วย Aspose.Slides" title="ดูและแก้ไขข้อมูลเมตา POTM ออนไลน์" description="แอป Aspose.Slides Metadata ฟรีนี้สร้างด้วย [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/th/python-net/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ POTM ของคุณเอง" button="เปิด Aspose.Slides Metadata" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides อ่านและเขียนคุณสมบัติอย่างไรก่อนเขียนโค้ด
+- ดูและแก้ไขคุณสมบัติในตัวและคุณสมบัติกำหนดเองของไฟล์ POTM
+- บันทึกและดาวน์โหลดไฟล์ที่อัปเดตแล้ว
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการดึงข้อมูลเมตาจากไฟล์ POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบข้อมูลเมตาอื่นที่รองรับ" subTitle="ด้วย Python คุณยังสามารถจัดการข้อมูลเมตาของรูปแบบงานนำเสนออื่นที่รองรับได้" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/ppsm/" name="PPSM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-สร้างอินสแตนซ์ของคลาสงานนำเสนอด้วยพาธไปยังไฟล์ POTM
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-รับวัตถุ DocumentProperties ที่เกี่ยวข้องกับการนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-วนซ้ำรายการในวัตถุ DocumentProperties
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-เข้าถึงและแก้ไขคุณสมบัติแบบกำหนดเอง
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบ Metadata อื่นๆ ที่รองรับ" subTitle="เมื่อใช้ Python คุณยังสามารถจัดการข้อมูลเมตาของรูปแบบอื่นๆ ได้อีกมากมาย เช่น" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/ppsm/" name="PPSM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

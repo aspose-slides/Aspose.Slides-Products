@@ -1,114 +1,75 @@
 ---
-lastmod: 2023-04-25
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python을(를) 사용하여 PPSM 파일 메타데이터 보기 또는 편집
+title: Python으로 PPSM 메타데이터 보기 또는 편집
 url: /ko/python-net/metadata/ppsm/
-keywords: PPSM 메타데이터 수정, PPSM 메타데이터 보기, PPSM 속성 수정, PPSM 속성 보기
-description: PPSM 형식 메타데이터를 편집하거나 보기 위한 Python 소스 코드.
+description: Python으로 PPSM 파일의 기본 제공 메타데이터 속성과 사용자 지정 메타데이터 속성을 보고 편집하세요.
+keywords: PPSM 메타데이터 편집, PPSM 메타데이터 보기, PPSM 속성 편집, PPSM 속성 보기
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python을(를) 사용하여 PPSM 속성 편집" h2="서버 측 API를 사용하여 프리젠테이션 파일의 기본 제공 속성과 사용자 정의 속성을 수정하려면 자신만의 Python 앱을 빌드하세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPSM" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python으로 PPSM 메타데이터 보기 및 편집" h2="Aspose.Slides로 프레젠테이션의 기본 제공 속성과 사용자 지정 속성을 읽고 수정하는 Python 앱을 구축하세요." related="FODP,ODP,OTP,POT,POTM,POTX,PPS,PPSX,PPT,PPTM,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python을 통해 PPSM 속성 수정" %}}
-개발자는 Aspose.Slides for Python via .NET을(를) 사용하여 기본 제공 속성 및 사용자 지정 속성의 값에 액세스하고 수정할 수 있습니다. 개발자는 프레젠테이션 파일의 문서 속성에 액세스하기 위해 Presentation 개체에 의해 노출된 [DocumentProperties](https://reference.aspose.com/slides/python-net/aspose.slides/documentproperties/) 속성을 사용할 수 있습니다.
-{{% blocks/products/pf/agp/code-block title="PPSM 내장 속성 수정 - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python으로 PPSM 메타데이터 보기 및 수정" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/ko/python-net/)을 사용하면 PPSM 프레젠테이션의 기본 제공 메타데이터를 읽고 업데이트하며, 사용자 지정 문서 속성을 추가, 업데이트 또는 제거할 수 있습니다. `Presentation.document_properties`로 [`IDocumentProperties`](https://reference.aspose.com/slides/python-net/aspose.slides/idocumentproperties/) 객체에 액세스하여 수정한 다음 프레젠테이션을 PPSM 형식으로 저장하세요.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPSM 기본 제공 속성 업데이트 - Python" >}}
+```python
+with slides.Presentation("presentation.ppsm") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.author = "Aspose.Slides for Python"
+    document_properties.title = "Quarterly Review"
+    document_properties.subject = "Presentation Metadata"
+    document_properties.comments = "Built-in properties updated with Aspose.Slides."
+    document_properties.manager = "Project Manager"
 
-# Instantiate the Presentation class that represents the Presentation
-with slides.Presentation(path + "ModifyBuiltinProperties.ppsm") as presentation:
-    # Create a reference to object associated with Presentation
-    documentProperties = presentation.document_properties
-
-    # Set the builtin properties
-    documentProperties.author = "Aspose.Slides for Python"
-    documentProperties.title = "Modifying Presentation Properties"
-    documentProperties.subject = "Aspose Subject"
-    documentProperties.comments = "Aspose Description"
-    documentProperties.manager = "Aspose Manager"
-
-    # save your presentation to a file
-    presentation.save("DocumentProperties_out.ppsm", slides.export.SaveFormat.PPSM)
+    presentation.save("presentation_with_updated_metadata.ppsm", slides.export.SaveFormat.PPSM)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPSM 사용자 지정 속성 추가 및 제거 - Python" >}}
+```python
+with slides.Presentation("presentation.ppsm") as presentation:
+    document_properties = presentation.document_properties
+    document_properties.set_custom_property_value("Department", "Engineering")
+    document_properties.set_custom_property_value("Review Count", 3)
+    document_properties.set_custom_property_value("Obsolete Status", "Draft")
+    document_properties.remove_custom_property("Obsolete Status")
 
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="PPSM에 맞춤 속성 추가 - Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-# Instantiate the Presentation class
-with slides.Presentation() as presentation:
-    # Getting Document Properties
-    documentProperties = presentation.document_properties
-
-    # Adding Custom properties
-    documentProperties.set_custom_property_value("New Custom", 12)
-    documentProperties.set_custom_property_value("My Nam", "Aspose Metadata Editor")
-    documentProperties.set_custom_property_value("Custom", 124)
-
-    # Getting property name at particular index
-    getPropertyName = documentProperties.get_custom_property_name(2)
-
-    # Removing selected property
-    documentProperties.remove_custom_property(getPropertyName)
-
-    # Saving presentation
-    presentation.save("CustomDocumentProperties_out.ppsm", slides.export.SaveFormat.PPSM)
+    presentation.save("presentation_with_custom_metadata.ppsm", slides.export.SaveFormat.PPSM)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python으로 PPSM 메타데이터를 편집하는 방법" intro="다음 단계에 따라 PPSM 파일의 메타데이터를 편집하세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation`으로 PPSM 파일을 엽니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation.document_properties`로 `IDocumentProperties` 객체에 액세스합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}기본 제공 속성을 업데이트하거나 사용자 지정 속성에는 `set_custom_property_value`와 `remove_custom_property`를 사용합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation.save`와 `SaveFormat.PPSM`로 프레젠테이션을 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python을 통해 PPSM의 메타데이터를 추출하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/metadata-app label="Aspose.Slides로 구축" title="온라인에서 PPSM 메타데이터 보기 및 편집" description="무료 Aspose.Slides Metadata 앱은 위 코드와 동일한 API인 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)로 구축되었습니다. 앱을 열고 내 PPSM 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Metadata 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 속성을 어떻게 읽고 쓰는지 확인하세요.
+- PPSM 파일의 기본 제공 속성과 사용자 지정 속성을 보고 편집하세요.
+- 업데이트된 파일을 저장하고 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/metadata-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="다음은 PPSM 파일에서 메타데이터를 추출하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="기타 지원되는 메타데이터 형식" subTitle="Python으로 지원되는 다른 프레젠테이션 형식의 메타데이터도 관리할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/fodp/" name="FODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/otp/" name="OTP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/pot/" name="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/potm/" name="POTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/potx/" name="POTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/pps/" name="PPS" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/ppsx/" name="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/pptm/" name="PPTM" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/metadata/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPSM 파일에 대한 경로를 사용하여 프레젠테이션 클래스를 인스턴스화합니다.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션과 연결된 DocumentProperties 개체 가져오기
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-DocumentProperties 개체의 항목을 반복합니다.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-사용자 지정 속성 액세스 및 수정
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 메타데이터 형식" subTitle="Python을(를) 사용하여 다음을 비롯한 다양한 형식의 메타데이터를 조작할 수도 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/fodp/" name="FODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/otp/" name="OTP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/pot/" name="POT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/potm/" name="POTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/potx/" name="POTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/pps/" name="PPS" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/ppsx/" name="PPSX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/pptm/" name="PPTM" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/metadata/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
