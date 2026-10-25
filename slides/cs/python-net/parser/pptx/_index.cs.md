@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Extrahujte text a obrázky ze souborů PPTX pomocí Python
+title: Extrakce textu ze souborů PPTX v Pythonu
 url: /cs/python-net/parser/pptx/
-keywords: analyzovat PPTX pomocí Python, PPTX analyzátor Python, extrahovat data z PPTX v Python, extrahovat text z PPTX pomocí Python, extrahovat obrázky z PPTX pomocí Python
-description: Zdrojový kód Python k analýze prezentace PPTX.
+description: Extrahujte text a podrobnosti o formátování textu z prezentací PPTX v Pythonu.
+keywords: parsování PPTX v Pythonu, parser PPTX Python, extrakce dat z PPTX v Pythonu, extrakce textu z PPTX v Pythonu
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Extrahujte text a obrázky z prezentace PPTX pomocí Python" h2="Vytvořte si vlastní aplikace pro Python pro extrahování textových, obrazových, video a zvukových souborů z PowerPointu pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Extrakce textu z prezentací PPTX v Pythonu" h2="Vytvářejte aplikace v Pythonu, které pomocí Aspose.Slides extrahují text a podrobnosti o formátování z prezentací PowerPoint." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Extrahujte text z prezentace PPTX prostřednictvím Python" %}}
-Chcete-li naskenovat text z celé prezentace, použijte statickou metodu [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) vystavenou třídou SlideUtil. Níže uvedený kód naskenuje text a informace o formátování z prezentace, včetně hlavních snímků.
-{{% blocks/products/pf/agp/code-block title="Extrahování textu z prezentace PPTX pomocí Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Extrakce textu z prezentace PPTX v Pythonu" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/cs/python-net/) nabízí statickou metodu [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) třídy `SlideUtil`. Vrací objekty `TextFrame` z celé prezentace a může zahrnout i text z předloh snímků. Následující příklad extrahuje text a související údaje o písmu z prezentace PPTX.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Extrakce textu z prezentace PPTX – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPTX file
-with slides.Presentation("pres.pptx") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPTX
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.pptx") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak extrahovat text z PPTX v Pythonu" intro="Pomocí těchto kroků extrahujete text ze souboru PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Otevřete soubor PPTX pomocí `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zavolejte `SlideUtil.get_all_text_frames` a určete, zda zahrnout předlohy snímků.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Projděte vrácené objekty `TextFrame`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Projděte kolekci `paragraphs` každého textového rámce.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Projděte kolekci `portions` každého odstavce.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Přečtěte `text` a vlastnosti formátování aktuální části textu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak extrahovat text z PPTX přes Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Vytvořeno pomocí Aspose.Slides" title="Extrakce textu a obrázků online" description="Bezplatná aplikace Aspose.Slides Parser je vytvořena pomocí [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/cs/python-net/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory PPTX." button="Otevřít Aspose.Slides Parser" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides čte vaše soubory, ještě než napíšete kód.
+- Nahrajte soubor PPTX a získejte jeho text a obrázky.
+- Stáhněte vše jako jeden archiv ZIP.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k analýze souborů PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty pro parsování" subTitle="V Pythonu můžete extrahovat text i z dalších podporovaných formátů prezentací." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/python-net/parser/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte PPTX s instancí Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Získejte pole objektů TextFrame ze všech snímků ve PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Procházejte polem TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Procházet odstavce v aktuálním TextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Procházejte části v aktuálním odstavci
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Získejte text v aktuální části
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty analýzy" subTitle="Pomocí Python můžete také skenovat následující formáty:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/python-net/parser/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

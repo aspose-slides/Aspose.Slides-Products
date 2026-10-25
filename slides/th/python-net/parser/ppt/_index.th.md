@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: แยกข้อความและรูปภาพจากไฟล์ PPT โดยใช้ Python
+title: แยกข้อความจากไฟล์ PPT ด้วย Python
 url: /th/python-net/parser/ppt/
-keywords: แยก PPT โดยใช้ Python, PPT แยกวิเคราะห์ Python, แยกข้อมูลจาก PPT ใน Python, แยกข้อความจาก PPT โดยใช้ Python, แยกรูปภาพจาก PPT โดยใช้ Python
-description: ซอร์สโค้ด Python เพื่อแยกวิเคราะห์การนำเสนอ PPT
+description: แยกข้อความและรายละเอียดการจัดรูปแบบข้อความจากงานนำเสนอ PPT ด้วย Python
+keywords: แยกวิเคราะห์ PPT ด้วย Python, ตัวแยกวิเคราะห์ PPT Python, แยกข้อมูลจาก PPT ใน Python, แยกข้อความจาก PPT ด้วย Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="แยกข้อความและรูปภาพจากงานนำเสนอ PPT โดยใช้ Python" h2="สร้างแอป Python ของคุณเองเพื่อแยกข้อความ รูปภาพ วิดีโอ และไฟล์เสียงจาก PowerPoint โดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="แยกข้อความจากงานนำเสนอ PPT ด้วย Python" h2="สร้างแอปพลิเคชัน Python ที่แยกข้อความและรายละเอียดการจัดรูปแบบจากงานนำเสนอ PowerPoint ด้วย Aspose.Slides" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="แยกข้อความจากการนำเสนอ PPT ผ่าน Python" %}}
-หากต้องการสแกนข้อความจากงานนำเสนอทั้งหมด ให้ใช้เมธอดแบบสแตติก [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) ที่เปิดเผยโดยคลาส SlideUtil โค้ดด้านล่างจะสแกนข้อความและข้อมูลการจัดรูปแบบจากงานนำเสนอ รวมถึงสไลด์ต้นแบบ
-{{% blocks/products/pf/agp/code-block title="แยกข้อความจากงานนำเสนอ PPT โดยใช้ Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="แยกข้อความจากงานนำเสนอ PPT ด้วย Python – ตัวอย่าง" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/th/python-net/) มีเมธอดแบบสแตติก [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) ใน `SlideUtil` ซึ่งส่งคืนออบเจ็กต์ `TextFrame` จากทั้งงานนำเสนอ และสามารถรวมข้อความจากสไลด์ต้นแบบได้ ตัวอย่างต่อไปนี้แยกข้อความและรายละเอียดฟอนต์ที่เกี่ยวข้องจากงานนำเสนอ PPT
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="แยกข้อความจากงานนำเสนอ PPT – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีแยกข้อความจาก PPT ด้วย Python" intro="ทำตามขั้นตอนเหล่านี้เพื่อแยกข้อความจากไฟล์ PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์ PPT ด้วย `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียก `SlideUtil.get_all_text_frames` และระบุว่าจะรวมสไลด์ต้นแบบหรือไม่{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}วนผ่านออบเจ็กต์ `TextFrame` ที่ส่งคืน{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}วนผ่านคอลเลกชัน `paragraphs` ของแต่ละกรอบข้อความ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}วนผ่านคอลเลกชัน `portions` ของแต่ละย่อหน้า{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}อ่าน `text` และพร็อพเพอร์ตีการจัดรูปแบบของส่วนข้อความปัจจุบัน{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีแยกข้อความจาก PPT ผ่าน Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="สร้างด้วย Aspose.Slides" title="แยกข้อความและรูปภาพออนไลน์" description="แอป Aspose.Slides Parser ฟรีนี้สร้างด้วย [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/th/python-net/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ PPT ของคุณเอง" button="เปิด Aspose.Slides Parser" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides อ่านไฟล์ของคุณอย่างไรก่อนเขียนโค้ด
+- อัปโหลดไฟล์ PPT แล้วรับข้อความและรูปภาพ
+- ดาวน์โหลดทั้งหมดเป็นไฟล์ ZIP เดียว
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแยกวิเคราะห์ไฟล์ PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับการแยกวิเคราะห์" subTitle="ด้วย Python คุณยังสามารถแยกข้อความจากรูปแบบงานนำเสนออื่นที่รองรับได้" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด PPT ด้วยอินสแตนซ์ของงานนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-รับวัตถุ Array of TextFrame จากสไลด์ทั้งหมดใน PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-วนซ้ำ Array ของ TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-วนซ้ำย่อหน้าใน TextFrame ปัจจุบัน
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-วนซ้ำส่วนต่างๆ ในย่อหน้าปัจจุบัน
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-รับข้อความในส่วนปัจจุบัน
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบการแยกวิเคราะห์อื่น ๆ ที่รองรับ" subTitle="เมื่อใช้ Python คุณยังสามารถสแกนรูปแบบต่อไปนี้:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

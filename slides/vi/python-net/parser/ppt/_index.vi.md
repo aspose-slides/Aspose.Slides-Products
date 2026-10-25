@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Trích xuất Văn bản và Hình ảnh từ Tệp PPT bằng Python
+title: Trích xuất văn bản từ tệp PPT bằng Python
 url: /vi/python-net/parser/ppt/
-keywords: phân tích cú pháp PPT bằng Python, trình phân tích cú pháp PPT Python, trích xuất dữ liệu từ PPT trong Python, trích xuất văn bản từ PPT bằng Python, trích xuất hình ảnh từ PPT bằng Python
-description: Mã nguồn Python để phân tích bản trình bày PPT.
+description: Trích xuất văn bản và chi tiết định dạng văn bản từ bản trình bày PPT bằng Python.
+keywords: phân tích PPT bằng Python, trình phân tích PPT Python, trích xuất dữ liệu từ PPT trong Python, trích xuất văn bản từ PPT bằng Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Trích xuất văn bản và hình ảnh từ bản trình bày PPT bằng Python" h2="Xây dựng các ứng dụng Python của riêng bạn để trích xuất các tệp văn bản, hình ảnh, video và âm thanh từ PowerPoint bằng API phía máy chủ." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Trích xuất văn bản từ bản trình bày PPT bằng Python" h2="Xây dựng ứng dụng Python trích xuất văn bản và chi tiết định dạng từ bản trình bày PowerPoint bằng Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Trích xuất văn bản từ bản trình bày PPT qua Python" %}}
-Để quét văn bản từ toàn bộ bản trình bày, hãy sử dụng phương thức tĩnh [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) do lớp SlideUtil đưa ra. Mã bên dưới quét văn bản và thông tin định dạng từ bản trình bày, bao gồm các trang chiếu chính.
-{{% blocks/products/pf/agp/code-block title="Trích xuất Văn bản từ Bản trình bày PPT bằng Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Trích xuất văn bản từ một bản trình bày PPT bằng Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/vi/python-net/) cung cấp phương thức tĩnh [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) trên `SlideUtil`. Phương thức này trả về các đối tượng `TextFrame` của toàn bộ bản trình bày và có thể bao gồm văn bản từ trang chiếu cái. Ví dụ sau trích xuất văn bản và chi tiết phông chữ liên quan từ bản trình bày PPT.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Trích xuất văn bản từ bản trình bày PPT – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách trích xuất văn bản từ PPT bằng Python" intro="Làm theo các bước sau để trích xuất văn bản từ tệp PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mở tệp PPT bằng `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gọi `SlideUtil.get_all_text_frames` và chỉ định có bao gồm trang chiếu cái hay không.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Duyệt qua các đối tượng `TextFrame` được trả về.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Duyệt qua tập hợp `paragraphs` của mỗi khung văn bản.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Duyệt qua tập hợp `portions` của mỗi đoạn văn.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Đọc `text` và các thuộc tính định dạng của phần văn bản hiện tại.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách trích xuất văn bản từ PPT qua Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Được xây dựng bằng Aspose.Slides" title="Trích xuất văn bản và hình ảnh trực tuyến" description="Ứng dụng Aspose.Slides Parser miễn phí được xây dựng bằng [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/vi/python-net/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPT của riêng bạn." button="Mở Aspose.Slides Parser" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem Aspose.Slides đọc tệp của bạn như thế nào trước khi viết mã.
+- Tải lên tệp PPT và nhận văn bản cùng hình ảnh của tệp.
+- Tải xuống tất cả dưới dạng một tệp ZIP.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để Phân tích tệp PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng phân tích khác được hỗ trợ" subTitle="Với Python, bạn cũng có thể trích xuất văn bản từ các định dạng bản trình bày khác được hỗ trợ." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải PPT với phiên bản Trình bày
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Nhận một mảng các đối tượng TextFrame từ tất cả các trang chiếu trong PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lặp qua Mảng TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lặp qua các đoạn trong TextFrame hiện tại
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lặp qua các phần trong Đoạn văn hiện tại
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Nhận văn bản trong phần hiện tại
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng phân tích cú pháp được hỗ trợ khác" subTitle="Sử dụng Python, Bạn cũng có thể quét các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

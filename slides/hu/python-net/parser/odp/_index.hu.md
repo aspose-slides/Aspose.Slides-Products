@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Szöveg és képek kibontása a ODP fájlokból a Python használatával
+title: Szöveg kinyerése ODP fájlokból Pythonnal
 url: /hu/python-net/parser/odp/
-keywords: elemezze a ODP elemet a Python használatával, a ODP elemzőt a Python használatával, kinyerje ki az adatokat a ODP elemből a Python nyelven, bontsa ki a szöveget a ODP-ből a Python használatával, bontsa ki a képeket a ODP-ból a Python használatával
-description: Python forráskód a ODP prezentáció elemzéséhez.
+description: Szöveg és szövegformázási részletek kinyerése ODP bemutatókból Pythonnal.
+keywords: ODP elemzése Pythonnal, ODP elemző Python, adatok kinyerése ODP fájlból Pythonban, szöveg kinyerése ODP fájlból Pythonnal
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Szöveg és képek kibontása a ODP prezentációból a Python használatával" h2="Készítse el saját Python-alkalmazásait a szöveg-, kép-, video- és hangfájlok PowerPointból való kinyeréséhez szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Szöveg kinyerése ODP bemutatókból Pythonnal" h2="Készítsen Python-alkalmazásokat, amelyek az Aspose.Slides segítségével szöveget és formázási részleteket nyernek ki OpenDocument-bemutatókból." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Szöveg kibontása a ODP prezentációból a Python segítségével" %}}
-A teljes prezentáció szövegének beolvasásához használja a [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) statikus metódust, amelyet a SlideUtil osztály tesz közzé. Az alábbi kód beolvassa a szöveget és a formázási információkat egy prezentációból, beleértve a fődiákat is.
-{{% blocks/products/pf/agp/code-block title="Szöveg kinyerése a ODP prezentációból a Python használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szöveg kinyerése egy ODP bemutatóból Pythonnal" variant="code" %}}
 
-```py
+Az [**Aspose.Slides for Python via .NET**](/slides/hu/python-net/) a `SlideUtil` osztály statikus [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) metódusát kínálja. Ez a teljes bemutató `TextFrame` objektumait adja vissza, és a mintadiák szövegét is tartalmazhatja. Az alábbi példa szöveget és a kapcsolódó betűtípus-adatokat nyeri ki egy ODP bemutatóból.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Szöveg kinyerése egy ODP bemutatóból – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a ODP file
-with slides.Presentation("pres.odp") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the ODP
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.odp") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Szöveg kinyerése ODP fájlból Pythonnal lépésről lépésre" intro="Kövesse az alábbi lépéseket a szöveg kinyeréséhez egy ODP fájlból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a ODP fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hívja meg a `SlideUtil.get_all_text_frames` metódust, és adja meg, hogy a mintadiák is szerepeljenek-e.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Járja be a visszaadott `TextFrame` objektumokat.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Járja be minden szövegkeret `paragraphs` gyűjteményét.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Járja be minden bekezdés `portions` gyűjteményét.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Olvassa ki az aktuális szövegrész `text` értékét és formázási tulajdonságait.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Szöveg kinyerése a ODP formátumból a Python segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Az Aspose.Slides segítségével készült" title="Szöveg és képek kinyerése online" description="Az ingyenes Aspose.Slides Parser alkalmazás az [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hu/python-net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját ODP fájljaival." button="Aspose.Slides Parser megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan olvassa az Aspose.Slides a fájljait, mielőtt kódot írna.
+- Töltsön fel egy ODP fájlt, és kapja meg a szövegét és a képeit.
+- Töltsön le mindent egyetlen ZIP-archívumban.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a ODP fájlok elemzéséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott elemzési formátumok" subTitle="Pythonnal más támogatott bemutatóformátumokból is kinyerhet szöveget." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/parser/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A ODP betöltése a Presentation egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Szerezzen le egy TextFrame objektumtömböt a ODP összes diájáról
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lapozzon át a TextFrames tömbön
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lapozás a bekezdések között az aktuális szövegkeretben
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lapozzon át a részeken az aktuális bekezdésben
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Szöveg lekérése az aktuális részben
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott elemzési formátumok" subTitle="A Python használatával a következő formátumokat is beolvashatja:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/parser/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

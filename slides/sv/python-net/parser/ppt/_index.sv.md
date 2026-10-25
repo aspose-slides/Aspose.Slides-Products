@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Extrahera text och bilder från PPT-filer med Python
+title: Extrahera text från PPT-filer med Python
 url: /sv/python-net/parser/ppt/
-keywords: analysera PPT med Python, PPT parser Python, extrahera data från PPT i Python, extrahera text från PPT med Python, extrahera bilder från PPT med Python
-description: Python källkod för att analysera PPT Presentation.
+description: Extrahera text och detaljer om textformatering från PPT-presentationer med Python.
+keywords: tolka PPT med Python, PPT-tolk Python, extrahera data från PPT i Python, extrahera text från PPT med Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Extrahera text och bilder från presentationen PPT med Python" h2="Bygg dina egna Python-appar för att extrahera text-, bild-, video- och ljudfiler från PowerPoint med API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Extrahera text från PPT-presentationer med Python" h2="Bygg Python-program som extraherar text och formateringsdetaljer från PowerPoint-presentationer med Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Extrahera text från PPT presentation via Python" %}}
-För att skanna texten från hela presentationen, använd den statiska metoden [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) som exponeras av SlideUtil-klassen. Koden nedan skannar text- och formateringsinformation från en presentation, inklusive huvudbilderna.
-{{% blocks/products/pf/agp/code-block title="Extrahera text från PPT presentation med Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Extrahera text från en PPT-presentation med Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/sv/python-net/) tillhandahåller den statiska metoden [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) i `SlideUtil`. Den returnerar `TextFrame`-objekten från hela presentationen och kan även inkludera text från bildbakgrunder. I följande exempel extraheras text och tillhörande teckensnittsdetaljer från en PPT-presentation.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Extrahera text från en PPT-presentation – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så extraherar du text från PPT med Python" intro="Följ de här stegen för att extrahera text från en PPT-fil." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Öppna PPT-filen med `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa `SlideUtil.get_all_text_frames` och ange om bildbakgrunder ska inkluderas.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gå igenom de returnerade `TextFrame`-objekten.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gå igenom samlingen `paragraphs` i varje textram.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gå igenom samlingen `portions` i varje stycke.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs `text` och formateringsegenskaperna för den aktuella textdelen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Så här extraherar du text från PPT via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Byggd med Aspose.Slides" title="Extrahera text och bilder online" description="Den kostnadsfria appen Aspose.Slides Parser är byggd med [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/sv/python-net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPT-filer." button="Öppna Aspose.Slides Parser" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides läser dina filer innan du skriver kod.
+- Ladda upp en PPT-fil och få dess text och bilder.
+- Ladda ner allt som ett enda ZIP-arkiv.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att analysera PPT-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som kan tolkas" subTitle="Med Python kan du även extrahera text från andra presentationsformat som stöds." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda PPT med en instans av Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Få en uppsättning TextFrame-objekt från alla bilder i PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gå igenom arrayen av textramar
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gå igenom stycken i nuvarande TextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gå igenom delar i det aktuella stycket
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hämta text i den aktuella delen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra parseformat som stöds" subTitle="Med Python kan du även skanna följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

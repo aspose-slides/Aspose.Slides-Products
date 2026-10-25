@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Ekstrak Teks dan Gambar dari File PPT menggunakan Python
+title: Ekstrak Teks dari File PPT dengan Python
 url: /id/python-net/parser/ppt/
-keywords: parse PPT menggunakan Python, PPT parser Python, ekstrak data dari PPT dalam Python, ekstrak teks dari PPT menggunakan Python, ekstrak gambar dari PPT menggunakan Python
-description: Kode sumber Python untuk mengurai Presentasi PPT.
+description: Ekstrak teks dan detail format teks dari presentasi PPT dengan Python.
+keywords: parsing PPT dengan Python, parser PPT Python, ekstrak data dari PPT di Python, ekstrak teks dari PPT dengan Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Ekstrak Teks dan Gambar dari presentasi PPT menggunakan Python" h2="Bangun aplikasi Python Anda sendiri untuk mengekstrak file teks, gambar, video, dan audio dari PowerPoint menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Ekstrak Teks dari Presentasi PPT dengan Python" h2="Bangun aplikasi Python yang mengekstrak teks dan detail format teks dari presentasi PowerPoint dengan Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ekstrak Teks dari Presentasi PPT melalui Python" %}}
-Untuk memindai teks dari seluruh presentasi, gunakan metode statis [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) yang diekspos oleh kelas SlideUtil. Kode di bawah memindai teks dan memformat informasi dari presentasi, termasuk slide master.
-{{% blocks/products/pf/agp/code-block title="Mengekstrak Teks dari Presentasi PPT menggunakan Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ekstrak Teks dari Presentasi PPT dengan Python – Contoh" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/id/python-net/) menyediakan metode statis [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) pada `SlideUtil`. Metode ini mengembalikan objek `TextFrame` dari seluruh presentasi dan dapat menyertakan teks dari slide master. Contoh berikut mengekstrak teks dan detail font terkait dari presentasi PPT.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ekstrak Teks dari Presentasi PPT – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Mengekstrak Teks dari PPT dengan Python" intro="Ikuti langkah-langkah berikut untuk mengekstrak teks dari file PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file PPT dengan `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Panggil `SlideUtil.get_all_text_frames` dan tentukan apakah slide master disertakan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telusuri objek `TextFrame` yang dikembalikan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telusuri koleksi `paragraphs` pada setiap bingkai teks.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telusuri koleksi `portions` pada setiap paragraf.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Baca `text` dan properti format dari bagian teks saat ini.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Mengekstrak Teks dari PPT melalui Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Dibuat dengan Aspose.Slides" title="Ekstrak Teks dan Gambar Secara Online" description="Aplikasi Aspose.Slides Parser gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file PPT Anda sendiri." button="Buka Aspose.Slides Parser" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides membaca file Anda sebelum menulis kode.
+- Unggah file PPT dan dapatkan teks serta gambarnya.
+- Unduh semuanya sebagai satu arsip ZIP.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk mengurai file PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Parsing Lain yang Didukung" subTitle="Dengan Python, Anda juga dapat mengekstrak teks dari format presentasi lain yang didukung." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat PPT dengan contoh Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dapatkan Array objek TextFrame dari semua slide di PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi Array dari TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi paragraf dalam TextFrame saat ini
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi bagian-bagian dalam Paragraf saat ini
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Dapatkan teks di bagian saat ini
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Parse Lain yang Didukung" subTitle="Menggunakan Python, Anda juga dapat memindai format berikut:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

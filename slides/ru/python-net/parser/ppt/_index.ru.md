@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Извлечение текста и изображений из файлов PPT с помощью Python
+title: Извлечение текста из файлов PPT на Python
 url: /ru/python-net/parser/ppt/
-keywords: анализировать PPT с помощью Python, синтаксический анализатор PPT Python, извлекать данные из PPT в Python, извлекать текст из PPT с помощью Python, извлекать изображения из PPT с помощью Python
-description: Исходный код Python для анализа презентации PPT.
+description: Извлекайте текст и сведения о форматировании текста из презентаций PPT на Python.
+keywords: разбор PPT на Python, парсер PPT Python, извлечение данных из PPT на Python, извлечение текста из PPT на Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Извлечение текста и изображений из презентации PPT с помощью Python" h2="Создавайте собственные приложения Python для извлечения текста, изображений, видео- и аудиофайлов из PowerPoint с помощью серверных API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Извлечение текста из презентаций PPT на Python" h2="Создавайте приложения на Python, которые с помощью Aspose.Slides извлекают текст и сведения о форматировании из презентаций PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Извлечь текст из презентации PPT через Python" %}}
-Чтобы просмотреть текст всей презентации, используйте статический метод [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/), предоставляемый классом SlideUtil. Приведенный ниже код сканирует текст и информацию о форматировании из презентации, включая мастер-слайды.
-{{% blocks/products/pf/agp/code-block title="Извлечение текста из презентации PPT с использованием Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Извлечение текста из презентации PPT на Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/ru/python-net/) предоставляет статический метод [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) класса `SlideUtil`. Он возвращает объекты `TextFrame` всей презентации и может включать текст из образцов слайдов. Следующий пример извлекает текст и связанные сведения о шрифте из презентации PPT.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Извлечение текста из презентации PPT — Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как извлечь текст из PPT на Python" intro="Выполните следующие шаги, чтобы извлечь текст из файла PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Откройте файл PPT с помощью `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Вызовите `SlideUtil.get_all_text_frames` и укажите, нужно ли включать образцы слайдов.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Переберите возвращённые объекты `TextFrame`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Переберите коллекцию `paragraphs` каждой текстовой рамки.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Переберите коллекцию `portions` каждого абзаца.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Прочитайте `text` и свойства форматирования текущего фрагмента.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как извлечь текст из PPT через Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Создано на основе Aspose.Slides" title="Извлекайте текст и изображения онлайн" description="Бесплатное приложение Aspose.Slides Parser создано на основе [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ru/python-net/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPT." button="Открыть Aspose.Slides Parser" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides читает ваши файлы, ещё до написания кода.
+- Загрузите файл PPT и получите его текст и изображения.
+- Скачайте всё одним ZIP-архивом.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для разбора файлов PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые форматы для разбора" subTitle="С помощью Python можно также извлекать текст из других поддерживаемых форматов презентаций." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Загрузите PPT с экземпляром Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Получите массив объектов TextFrame со всех слайдов в PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Перебрать массив TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Перебирать абзацы в текущем TextFrame
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Перебирать части в текущем абзаце
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Получить текст в текущей части
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы разбора" subTitle="Используя Python, Вы также можете сканировать следующие форматы:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

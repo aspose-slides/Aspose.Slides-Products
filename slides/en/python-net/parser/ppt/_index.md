@@ -5,17 +5,18 @@ title: Extract Text from PPT Files with Python
 url: /python-net/parser/ppt/
 keywords: parse PPT with Python, PPT parser Python, extract data from PPT in Python, extract text from PPT with Python
 description: Extract text and text formatting details from PPT presentations with Python.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Extract Text from PPT Presentations with Python" h2="Build Python applications that extract text and text formatting details from PowerPoint presentations with Aspose.Slides." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Extract Text from PPT Presentations with Python" h2="Build Python applications that extract text and text formatting details from PowerPoint presentations with Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Extract Text from a PPT Presentation with Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Extract Text from a PPT Presentation with Python" variant="code" %}}
+
 [**Aspose.Slides for Python via .NET**](/slides/python-net/) provides the [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) static method on `SlideUtil`. It returns the `TextFrame` objects from an entire presentation and can include text from master slides. The following example extracts text and related font details from a PPT presentation.
-{{% blocks/products/pf/agp/code-block title="Extract Text from a PPT Presentation - Python" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Extract Text from a PPT Presentation - Python" >}}
 ```python
 include_master_slides = True
 
@@ -34,51 +35,24 @@ with slides.Presentation("presentation.ppt") as presentation:
                 if latin_font is not None:
                     print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Extract Text from PPT with Python" intro="Follow these steps to extract text from a PPT file." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open the PPT file with `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `SlideUtil.get_all_text_frames` and specify whether to include master slides.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterate through the returned `TextFrame` objects.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterate through each text frame's `paragraphs` collection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterate through each paragraph's `portions` collection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Read the current portion's `text` and formatting properties.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Extract Text from PPT with Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to extract text from a PPT file." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Parsing Formats" subTitle="Use Python to extract text from other supported presentation formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Open the PPT file with `Presentation`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `SlideUtil.get_all_text_frames` and specify whether to include master slides.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Iterate through the returned `TextFrame` objects.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Iterate through each text frame's `paragraphs` collection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Iterate through each paragraph's `portions` collection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Read the current portion's `text` and formatting properties.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Parsing Formats" subTitle="Use Python to extract text from other supported presentation formats." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

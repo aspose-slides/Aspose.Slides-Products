@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: استخراج متن و تصاویر از فایل‌های PPTX با استفاده از Python
+title: استخراج متن از فایل‌های PPTX با Python
 url: /fa/python-net/parser/pptx/
-keywords: تجزیه PPTX با استفاده از Python، PPTX تجزیه کننده Python، استخراج داده ها از PPTX در Python، استخراج متن از PPTX با استفاده از Python، استخراج تصاویر از PPTX با استفاده از Python
-description: کد منبع Python برای تجزیه PPTX ارائه.
+description: متن و جزئیات قالب‌بندی متن را با Python از ارائه‌های PPTX استخراج کنید.
+keywords: تجزیه PPTX با Python، تجزیه‌گر PPTX Python، استخراج داده از PPTX در Python، استخراج متن از PPTX با Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="استخراج متن و تصاویر از ارائه PPTX با استفاده از Python" h2="برنامه های Python خود را برای استخراج متن، تصویر، ویدیو و فایل های صوتی از پاورپوینت با استفاده از API های سمت سرور بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="استخراج متن از ارائه‌های PPTX با Python" h2="برنامه‌های Python بسازید که با Aspose.Slides متن و جزئیات قالب‌بندی را از ارائه‌های PowerPoint استخراج می‌کنند." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="استخراج متن از ارائه PPTX از طریق Python" %}}
-برای اسکن متن از کل ارائه، از روش ثابت [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) استفاده کنید که توسط کلاس SlideUtil در معرض دید قرار گرفته است. کد زیر متن و اطلاعات قالب‌بندی ارائه، از جمله اسلایدهای اصلی را اسکن می‌کند.
-{{% blocks/products/pf/agp/code-block title="استخراج متن از ارائه PPTX با استفاده از Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="استخراج متن از یک ارائه PPTX با Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/fa/python-net/) متد ایستای [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) را در `SlideUtil` ارائه می‌کند. این متد اشیای `TextFrame` کل ارائه را برمی‌گرداند و می‌تواند متن اسلایدهای اصلی را نیز شامل شود. مثال زیر متن و جزئیات قلم مرتبط را از یک ارائه PPTX استخراج می‌کند.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="استخراج متن از یک ارائه PPTX – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPTX file
-with slides.Presentation("pres.pptx") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPTX
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.pptx") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه استخراج متن از PPTX با Python" intro="برای استخراج متن از یک فایل PPTX این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل PPTX را با `Presentation` باز کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SlideUtil.get_all_text_frames` را فراخوانی کنید و مشخص کنید اسلایدهای اصلی شامل شوند یا نه.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}روی اشیای `TextFrame` برگشتی پیمایش کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}روی مجموعه `paragraphs` هر قاب متن پیمایش کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}روی مجموعه `portions` هر پاراگراف پیمایش کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`text` و ویژگی‌های قالب‌بندی بخش فعلی را بخوانید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه استخراج متن از PPTX از طریق Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="ساخته شده با Aspose.Slides" title="استخراج آنلاین متن و تصاویر" description="برنامه رایگان Aspose.Slides Parser با [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fa/python-net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPTX شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Parser" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides فایل‌های شما را چگونه می‌خواند.
+- یک فایل PPTX بارگذاری کنید و متن و تصاویر آن را دریافت کنید.
+- همه را در یک بایگانی ZIP دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای تجزیه فایل‌های PPTX هستند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر قالب‌های پشتیبانی‌شده برای تجزیه" subTitle="با Python می‌توانید متن را از سایر قالب‌های ارائه پشتیبانی‌شده نیز استخراج کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/python-net/parser/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX را با یک نمونه از Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-آرایه ای از اشیاء TextFrame را از همه اسلایدها در PPTX دریافت کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-از طریق آرایه TextFrames حلقه بزنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-از میان پاراگراف ها در TextFrame فعلی حلقه بزنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-بخش‌های پاراگراف فعلی را حلقه بزنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-دریافت متن در بخش فعلی
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های تجزیه پشتیبانی شده" subTitle="با استفاده از Python، می‌توانید قالب‌های زیر را نیز اسکن کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/parser/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

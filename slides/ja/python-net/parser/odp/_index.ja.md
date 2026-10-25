@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python を使用して ODP ファイルからテキストと画像を抽出する
+title: Python で ODP ファイルからテキストを抽出
 url: /ja/python-net/parser/odp/
-keywords: Python を使用して ODP を解析、ODP パーサー Python、Python の ODP からデータを抽出、Python を使用して ODP からテキストを抽出、Python を使用して ODP から画像を抽出
-description: Python ソース コードを解析して ODP プレゼンテーション。
+description: Python で ODP プレゼンテーションからテキストとテキスト書式の詳細を抽出します。
+keywords: Python で ODP を解析, ODP パーサー Python, Python で ODP からデータを抽出, Python で ODP からテキストを抽出
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python を使用して ODP プレゼンテーションからテキストと画像を抽出する" h2="サーバー側 API を使用して、PowerPoint からテキスト、画像、ビデオ、およびオーディオ ファイルを抽出する独自の Python アプリを構築します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python で ODP プレゼンテーションからテキストを抽出" h2="Aspose.Slides を使用して OpenDocument プレゼンテーションからテキストと書式の詳細を抽出する Python アプリケーションを構築します。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python 経由で ODP プレゼンテーションからテキストを抽出" %}}
-プレゼンテーション全体からテキストをスキャンするには、SlideUtil クラスによって公開される [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) 静的メソッドを使用します。以下のコードは、マスター スライドを含むプレゼンテーションからテキストと書式設定情報をスキャンします。
-{{% blocks/products/pf/agp/code-block title="Python を使用して ODP プレゼンテーションからテキストを抽出しています" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python で ODP プレゼンテーションからテキストを抽出する例" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/ja/python-net/) は、`SlideUtil` の静的メソッド [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) を提供します。このメソッドはプレゼンテーション全体の `TextFrame` オブジェクトを返し、マスター スライドのテキストも含めることができます。次の例では、ODP プレゼンテーションからテキストと関連するフォントの詳細を抽出します。
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ODP プレゼンテーションからのテキスト抽出 - Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a ODP file
-with slides.Presentation("pres.odp") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the ODP
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.odp") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python で ODP からテキストを抽出する方法" intro="次の手順に従って、ODP ファイルからテキストを抽出します。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` で ODP ファイルを開きます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SlideUtil.get_all_text_frames` を呼び出し、マスター スライドを含めるかどうかを指定します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}返された `TextFrame` オブジェクトを順に処理します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}各テキスト フレームの `paragraphs` コレクションを順に処理します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}各段落の `portions` コレクションを順に処理します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}現在の部分の `text` と書式プロパティを読み取ります。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python 経由で ODP からテキストを抽出する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Aspose.Slides で構築" title="テキストと画像をオンラインで抽出" description="無料の Aspose.Slides Parser アプリは、上記のコードと同じ API である [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ja/python-net/) で構築されています。アプリを開いて、ご自身の ODP ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Parser を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がファイルをどう読み取るかを確認できます。
+- ODP ファイルをアップロードして、テキストと画像を取得できます。
+- すべてを 1 つの ZIP アーカイブでダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ODP ファイルを解析する手順は次のとおりです。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="その他の解析可能な形式" subTitle="Python では、サポートされている他のプレゼンテーション形式からもテキストを抽出できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/parser/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションのインスタンスで ODP を読み込みます
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP 内のすべてのスライドから TextFrame オブジェクトの配列を取得します
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-TextFrames の配列をループする
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-現在の TextFrame の段落をループします
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-現在の段落の部分をループする
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-現在の部分のテキストを取得する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="サポートされているその他の解析形式" subTitle="Python を使用すると、次の形式もスキャンできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/parser/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

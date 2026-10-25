@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python का इस्तेमाल करके ODP फ़ाइलों से टेक्स्ट और इमेज निकालें
+title: Python से ODP फ़ाइलों से टेक्स्ट निकालें
 url: /hi/python-net/parser/odp/
-keywords: Python का उपयोग करके ODP को पार्स करें, ODP पार्सर Python, Python में ODP से डेटा निकालें, Python का उपयोग करके ODP से टेक्स्ट निकालें, Python का उपयोग करके ODP से चित्र निकालें
-description: ODP प्रस्तुति को पार्स करने के लिए Python स्रोत कोड.
+description: Python से ODP प्रेज़ेंटेशन से टेक्स्ट और टेक्स्ट फ़ॉर्मैटिंग का विवरण निकालें।
+keywords: Python से ODP पार्स करें, ODP पार्सर Python, Python में ODP से डेटा निकालें, Python से ODP से टेक्स्ट निकालें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python का उपयोग करके ODP प्रस्तुतिकरण से पाठ और छवियां निकालें" h2="सर्वर-साइड API का उपयोग करके PowerPoint से पाठ, छवि, वीडियो और ऑडियो फ़ाइलें निकालने के लिए अपना स्वयं का Python एप्लिकेशन बनाएं." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python से ODP प्रेज़ेंटेशन से टेक्स्ट निकालें" h2="ऐसे Python ऐप्लिकेशन बनाएँ जो Aspose.Slides से OpenDocument प्रेज़ेंटेशन से टेक्स्ट और फ़ॉर्मैटिंग का विवरण निकालें।" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python के माध्यम से ODP प्रस्तुतिकरण से पाठ निकालें" %}}
-संपूर्ण प्रस्तुति से पाठ को स्कैन करने के लिए, [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) स्थिर विधि का उपयोग करें, जिसे SlideUtil वर्ग द्वारा प्रदर्शित किया गया है। नीचे दिया गया कोड मास्टर स्लाइड सहित प्रस्तुति से पाठ और स्वरूपण जानकारी को स्कैन करता है।
-{{% blocks/products/pf/agp/code-block title="Python का उपयोग करके ODP प्रस्तुतिकरण से टेक्स्ट निकाला जा रहा है" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python से ODP प्रेज़ेंटेशन से टेक्स्ट निकालने का उदाहरण" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/hi/python-net/) `SlideUtil` पर स्टैटिक मेथड [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) देता है। यह पूरे प्रेज़ेंटेशन के `TextFrame` ऑब्जेक्ट लौटाता है और मास्टर स्लाइड का टेक्स्ट भी शामिल कर सकता है। नीचे दिया गया उदाहरण ODP प्रेज़ेंटेशन से टेक्स्ट और संबंधित फ़ॉन्ट विवरण निकालता है।
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ODP प्रेज़ेंटेशन से टेक्स्ट निकालें – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a ODP file
-with slides.Presentation("pres.odp") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the ODP
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.odp") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python से ODP से टेक्स्ट कैसे निकालें" intro="ODP फ़ाइल से टेक्स्ट निकालने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` से ODP फ़ाइल खोलें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SlideUtil.get_all_text_frames` कॉल करें और बताएँ कि मास्टर स्लाइड शामिल करनी हैं या नहीं।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}लौटाए गए `TextFrame` ऑब्जेक्ट पर लूप चलाएँ।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}हर टेक्स्ट फ़्रेम के `paragraphs` कलेक्शन पर लूप चलाएँ।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}हर पैराग्राफ़ के `portions` कलेक्शन पर लूप चलाएँ।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}मौजूदा हिस्से का `text` और फ़ॉर्मैटिंग प्रॉपर्टी पढ़ें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="ODP से Python के ज़रिए टेक्स्ट कैसे निकालें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Aspose.Slides से निर्मित" title="टेक्स्ट और इमेज ऑनलाइन निकालें" description="मुफ़्त Aspose.Slides Parser ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी ODP फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Parser खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides आपकी फ़ाइलें कैसे पढ़ता है।
+- एक ODP फ़ाइल अपलोड करें और उसका टेक्स्ट और इमेज पाएँ।
+- सब कुछ एक ZIP आर्काइव के रूप में डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये ODP फ़ाइलों को पार्स करने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="पार्सिंग के लिए अन्य समर्थित फ़ॉर्मैट" subTitle="Python से आप अन्य समर्थित प्रेज़ेंटेशन फ़ॉर्मैट से भी टेक्स्ट निकाल सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/parser/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ ODP लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP में सभी स्लाइड्स से टेक्स्टफ्रेम ऑब्जेक्ट्स की एक सरणी प्राप्त करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-TextFrames की सरणी के माध्यम से लूप करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-वर्तमान टेक्स्टफ्रेम में अनुच्छेदों के माध्यम से लूप करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-वर्तमान अनुच्छेद में भागों के माध्यम से लूप करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-वर्तमान भाग में पाठ प्राप्त करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित पार्स प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप निम्न स्वरूपों को भी स्कैन कर सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/parser/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

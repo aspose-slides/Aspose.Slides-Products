@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Extrayez du texte et des images à partir de fichiers ODP à l'aide de Python
+title: Extraire le texte de fichiers ODP avec Python
 url: /fr/python-net/parser/odp/
-keywords: analysez ODP en utilisant Python, analysez ODP Python, extrayez des données de ODP en Python, extrayez du texte de ODP en utilisant Python, extrayez des images de ODP en utilisant Python
-description: Code source Python pour analyser la présentation ODP.
+description: Extrayez le texte et les détails de mise en forme de présentations ODP avec Python.
+keywords: analyser ODP avec Python, analyseur ODP Python, extraire des données de ODP en Python, extraire le texte de ODP avec Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Extraire le texte et les images de la présentation ODP à l'aide de Python" h2="Créez vos propres applications Python pour extraire des fichiers texte, image, vidéo et audio de PowerPoint à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Extraire le texte de présentations ODP avec Python" h2="Créez des applications Python qui extraient le texte et les détails de mise en forme de présentations OpenDocument avec Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Extraire le texte de la présentation ODP via Python" %}}
-Pour analyser le texte de toute la présentation, utilisez la méthode statique [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) exposée par la classe SlideUtil. Le code ci-dessous analyse le texte et les informations de mise en forme d'une présentation, y compris les diapositives principales.
-{{% blocks/products/pf/agp/code-block title="Extraction de texte de la présentation ODP à l'aide de Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Extraire le texte d'une présentation ODP avec Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/fr/python-net/) fournit la méthode statique [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) de `SlideUtil`. Elle renvoie les objets `TextFrame` de toute la présentation et peut inclure le texte des diapositives maîtres. L'exemple suivant extrait le texte et les détails de police associés d'une présentation ODP.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Extraire le texte d'une présentation ODP – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a ODP file
-with slides.Presentation("pres.odp") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the ODP
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.odp") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment extraire le texte d'un fichier ODP avec Python" intro="Suivez ces étapes pour extraire le texte d'un fichier ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ouvrez le fichier ODP avec `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Appelez `SlideUtil.get_all_text_frames` en indiquant s'il faut inclure les diapositives maîtres.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Parcourez les objets `TextFrame` renvoyés.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Parcourez la collection `paragraphs` de chaque cadre de texte.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Parcourez la collection `portions` de chaque paragraphe.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lisez `text` et les propriétés de mise en forme de la portion courante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment extraire du texte de ODP via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Conçu avec Aspose.Slides" title="Extraire le texte et les images en ligne" description="L'application gratuite Aspose.Slides Parser est conçue avec [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fr/python-net/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers ODP." button="Ouvrir Aspose.Slides Parser" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides lit vos fichiers avant d'écrire du code.
+- Chargez un fichier ODP et récupérez son texte et ses images.
+- Téléchargez le tout dans une seule archive ZIP.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour analyser les fichiers ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats d'analyse pris en charge" subTitle="Avec Python, vous pouvez aussi extraire le texte d'autres formats de présentation pris en charge." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/python-net/parser/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger ODP avec une instance de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Obtenez un tableau d'objets TextFrame de toutes les diapositives dans le ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Boucle à travers le tableau de TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Boucle à travers les paragraphes dans le TextFrame actuel
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Boucle sur des parties du paragraphe actuel
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Obtenir du texte dans la partie actuelle
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats d'analyse pris en charge" subTitle="À l'aide de Python, vous pouvez également numériser les formats suivants :" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/parser/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

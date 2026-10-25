@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python을 사용하여 PPT 파일에서 텍스트 및 이미지 추출
+title: Python으로 PPT 파일에서 텍스트 추출
 url: /ko/python-net/parser/ppt/
-keywords: Python을 사용하여 PPT 구문 분석, PPT 구문 분석기 Python, Python의 PPT에서 데이터 추출, Python을 사용하여 PPT에서 텍스트 추출, Python을 사용하여 PPT에서 이미지 추출
-description: PPT 프레젠테이션을 구문 분석하기 위한 Python 소스 코드입니다.
+description: Python으로 PPT 프레젠테이션에서 텍스트와 텍스트 서식 정보를 추출하세요.
+keywords: Python으로 PPT 구문 분석, PPT 파서 Python, Python에서 PPT 데이터 추출, Python으로 PPT 텍스트 추출
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python을 사용하여 PPT 프레젠테이션에서 텍스트 및 이미지 추출" h2="서버 측 API를 사용하여 PowerPoint에서 텍스트, 이미지, 비디오 및 오디오 파일을 추출하기 위한 고유한 Python 앱을 빌드하세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python으로 PPT 프레젠테이션에서 텍스트 추출하기" h2="Aspose.Slides로 PowerPoint 프레젠테이션에서 텍스트와 서식 정보를 추출하는 Python 애플리케이션을 구축하세요." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python을 통해 PPT 프레젠테이션에서 텍스트 추출" %}}
-전체 프레젠테이션에서 텍스트를 스캔하려면 SlideUtil 클래스에 의해 노출된 [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) 정적 메서드를 사용합니다. 아래 코드는 마스터 슬라이드를 포함하여 프레젠테이션의 텍스트 및 서식 정보를 스캔합니다.
-{{% blocks/products/pf/agp/code-block title="Python을 사용하여 PPT 프레젠테이션에서 텍스트 추출" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python으로 PPT 프레젠테이션의 텍스트 추출 예제" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/ko/python-net/)은 `SlideUtil`의 정적 메서드 [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/)를 제공합니다. 이 메서드는 전체 프레젠테이션의 `TextFrame` 객체를 반환하며 마스터 슬라이드의 텍스트도 포함할 수 있습니다. 다음 예제는 PPT 프레젠테이션에서 텍스트와 관련 글꼴 정보를 추출합니다.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT 프레젠테이션에서 텍스트 추출 - Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python으로 PPT에서 텍스트를 추출하는 방법" intro="다음 단계에 따라 PPT 파일에서 텍스트를 추출하세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation`으로 PPT 파일을 엽니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SlideUtil.get_all_text_frames`를 호출하고 마스터 슬라이드 포함 여부를 지정합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}반환된 `TextFrame` 객체를 순회합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}각 텍스트 프레임의 `paragraphs` 컬렉션을 순회합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}각 단락의 `portions` 컬렉션을 순회합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}현재 부분의 `text`와 서식 속성을 읽습니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python을 통해 PPT에서 텍스트를 추출하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Aspose.Slides로 구축" title="온라인에서 텍스트와 이미지 추출" description="무료 Aspose.Slides Parser 앱은 위 코드와 동일한 API인 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)로 구축되었습니다. 앱을 열고 내 PPT 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Parser 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 파일을 어떻게 읽는지 확인하세요.
+- PPT 파일을 업로드하고 텍스트와 이미지를 받으세요.
+- 모든 결과를 하나의 ZIP 아카이브로 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="다음은 PPT 파일을 구문 분석하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="기타 지원되는 구문 분석 형식" subTitle="Python으로 지원되는 다른 프레젠테이션 형식에서도 텍스트를 추출할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 인스턴스로 PPT 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT의 모든 슬라이드에서 TextFrame 개체의 배열을 가져옵니다.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-TextFrame 배열을 통해 반복
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-현재 TextFrame에서 단락 반복
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-현재 단락의 부분을 반복합니다.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-현재 부분에서 텍스트 가져오기
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 구문 분석 형식" subTitle="Python을(를) 사용하여 다음 형식도 스캔할 수 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

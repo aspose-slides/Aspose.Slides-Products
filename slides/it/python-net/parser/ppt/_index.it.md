@@ -1,91 +1,63 @@
 ---
-lastmod: 2023-05-01
+lastmod: 2026-10-25
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Estrai testo e immagini da file PPT utilizzando Python
+title: Estrarre testo da file PPT con Python
 url: /it/python-net/parser/ppt/
-keywords: analizza PPT utilizzando Python, PPT parser Python, estrai dati da PPT in Python, estrai testo da PPT utilizzando Python, estrai immagini da PPT utilizzando Python
-description: Python codice sorgente per analizzare la presentazione PPT.
+description: Estrai testo e dettagli di formattazione del testo da presentazioni PPT con Python.
+keywords: analizzare PPT con Python, parser PPT Python, estrarre dati da PPT in Python, estrarre testo da PPT con Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Estrai testo e immagini dalla presentazione in PPT utilizzando Python" h2="Crea le tue app Python per estrarre file di testo, immagini, video e audio da PowerPoint utilizzando le API lato server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Estrarre testo da presentazioni PPT con Python" h2="Crea applicazioni Python che estraggono testo e dettagli di formattazione da presentazioni PowerPoint con Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Estrai il testo dalla presentazione in PPT tramite Python" %}}
-Per eseguire la scansione del testo dell'intera presentazione, utilizza il metodo statico [GetAllTextFrames](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) esposto dalla classe SlideUtil. Il codice seguente esegue la scansione del testo e delle informazioni di formattazione da una presentazione, incluse le diapositive master.
-{{% blocks/products/pf/agp/code-block title="Estrazione del testo dalla presentazione PPT utilizzando Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Estrarre testo da una presentazione PPT con Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/it/python-net/) fornisce il metodo statico [`get_all_text_frames`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/) di `SlideUtil`. Restituisce gli oggetti `TextFrame` dell'intera presentazione e può includere il testo delle diapositive master. L'esempio seguente estrae il testo e i relativi dettagli del carattere da una presentazione PPT.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Estrarre testo da una presentazione PPT – Python" >}}
+```python
+include_master_slides = True
 
-#Instatiate Presentation class that represents a PPT file
-with slides.Presentation("pres.ppt") as pptxPresentation:
-    # Get an Array of ITextFrame objects from all slides in the PPT
-    textFramesPPTX = slides.util.SlideUtil.get_all_text_frames(pptxPresentation, True)
-    
-    # Loop through the Array of TextFrames
-    for i in range(len(textFramesPPTX)):
-	    # Loop through paragraphs in current ITextFrame
-        for para in textFramesPPTX[i].paragraphs:
-            # Loop through portions in the current IParagraph
-            for port in para.portions:
-			    # Display text in the current portion
-                print(port.text)
+with slides.Presentation("presentation.ppt") as presentation:
+    text_frames = slides.util.SlideUtil.get_all_text_frames(presentation, include_master_slides)
 
-    			# Display font height of the text
-                print(port.portion_format.font_height)
+    for text_frame in text_frames:
+        for paragraph in text_frame.paragraphs:
+            for portion in paragraph.portions:
+                print(portion.text)
 
-			    # Display font name of the text
-                if port.portion_format.latin_font != None:
-                    print(port.portion_format.latin_font.font_name)
+                font_height = portion.portion_format.font_height
+                print(font_height)
+
+                latin_font = portion.portion_format.latin_font
+                if latin_font is not None:
+                    print(latin_font.font_name)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come estrarre testo da PPT con Python" intro="Segui questi passaggi per estrarre testo da un file PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Apri il file PPT con `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chiama `SlideUtil.get_all_text_frames` e specifica se includere le diapositive master.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Scorri gli oggetti `TextFrame` restituiti.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Scorri la raccolta `paragraphs` di ogni cornice di testo.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Scorri la raccolta `portions` di ogni paragrafo.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leggi `text` e le proprietà di formattazione della porzione corrente.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come estrarre il testo da PPT tramite Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/parser-app label="Realizzato con Aspose.Slides" title="Estrarre testo e immagini online" description="L'app gratuita Aspose.Slides Parser è realizzata con [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/it/python-net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPT." button="Apri Aspose.Slides Parser" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides legge i tuoi file prima di scrivere codice.
+- Carica un file PPT e ottieni il suo testo e le sue immagini.
+- Scarica tutto in un unico archivio ZIP.
+{{< /blocks/products/pf/slides-design-update-10-2026/parser-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per analizzare i file PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altri formati di analisi supportati" subTitle="Con Python puoi estrarre testo anche da altri formati di presentazione supportati." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/python-net/parser/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/python-net/parser/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica PPT con un'istanza di Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ottieni una matrice di oggetti TextFrame da tutte le diapositive in PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Passa attraverso l'array di TextFrames
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Passa attraverso i paragrafi nel TextFrame corrente
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Passa attraverso le parti nel paragrafo corrente
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ottieni il testo nella parte corrente
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Altri formati di analisi supportati" subTitle="Utilizzando Python, puoi anche scansionare i seguenti formati:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/parser/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/parser/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
