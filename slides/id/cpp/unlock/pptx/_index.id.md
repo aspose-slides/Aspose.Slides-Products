@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Buka Kunci File Presentasi PPTX menggunakan C++
+title: Membuka Kunci Presentasi PPTX menggunakan C++
 url: /id/cpp/unlock/pptx/
-keywords: Hapus Write Protection PPTX, Mendekripsi PPTX, Buka Presentasi PPTX, Unprotect PPTX
-description: kode sumber C++ untuk menghapus perlindungan dari Presentasi PPTX.
+description: Buka kunci presentasi PPTX di C++. Gunakan Aspose.Slides for C++ untuk menghapus enkripsi dan proteksi tulis dari file presentasi.
+keywords: Hapus Proteksi Tulis PPTX, Dekripsi PPTX, Buka Kunci Presentasi PPTX, Hapus Proteksi PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Buka kunci PPTX menggunakan C++" h2="Bangun aplikasi C++ Anda sendiri untuk menghapus kata sandi dari PowerPoint dan mendekripsi file presentasi menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Membuka Kunci PPTX menggunakan C++" h2="Gunakan Aspose.Slides for C++ untuk menghapus enkripsi dan proteksi tulis dari file presentasi tanpa Microsoft PowerPoint." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Menghapus Enkripsi dari Presentasi PPTX melalui C++" %}}
-Dengan menggunakan Aspose.Slides for C++, Anda dapat menghapus enkripsi atau perlindungan sandi pada presentasi PPTX. Dengan cara ini, pengguna dapat mengakses atau memodifikasi presentasi PPTX tanpa batasan.
-{{% blocks/products/pf/agp/code-block title="Menonaktifkan Perlindungan Kata Sandi dari PPTX menggunakan C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Menghapus Proteksi dari Presentasi PPTX melalui C++" variant="code" %}}
 
+Aspose.Slides for C++ memungkinkan Anda menghapus enkripsi atau proteksi tulis dari presentasi PPTX. Gunakan `LoadOptions` untuk membuka file terenkripsi, lalu gunakan objek `ProtectionManager` dari kelas `Presentation` untuk memanggil `RemoveEncryption` atau `RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Menghapus Proteksi Kata Sandi dari PPTX menggunakan C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.pptx", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.pptx", SaveFormat::Pptx);
+presentation->Save(u"unlocked-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Menghapus Write Protection dari Presentasi PPTX menggunakan C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Menghapus Proteksi Tulis dari Presentasi PPTX menggunakan C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.pptx");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.pptx", SaveFormat::Pptx);
+presentation->Save(u"unlocked-write-protected-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Menghapus Kata Sandi dari PPTX melalui C++" intro="Ikuti langkah-langkah berikut untuk menghapus proteksi dari presentasi PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file PPTX dengan kelas `Presentation` dan `LoadOptions` jika diperlukan kata sandi.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gunakan objek `ProtectionManager` untuk menghapus proteksi.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Panggil `RemoveEncryption` untuk file terenkripsi atau `RemoveWriteProtection` untuk file yang diproteksi tulis.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan file yang sudah dibuka kuncinya dengan `SaveFormat::Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Menghapus Kata Sandi Dari PPTX melalui C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Dibuat dengan Aspose.Slides" title="Buka Kunci File PPTX Secara Online" description="Aplikasi Aspose.Slides Unlock gratis dibuat dengan [Aspose.Slides for C++](https://products.aspose.com/slides/id/cpp/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file PPTX Anda sendiri." button="Buka Aspose.Slides Unlock" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides menghapus proteksi sebelum Anda menulis kode.
+- Hapus kata sandi atau proteksi tulis dari file PPTX Anda.
+- Unduh file yang sudah dibuka kuncinya.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk menghapus perlindungan dari file PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Membuka Kunci" subTitle="Dengan C++, Anda juga dapat menghapus proteksi dari format berikut." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/cpp/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/cpp/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat PPTX dengan contoh Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus Write Protection menggunakan kelas ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil dalam format PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format lain yang Didukung" subTitle="Menggunakan C++, Anda juga dapat menghapus perlindungan dari format berikut:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

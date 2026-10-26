@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Déverrouillez les fichiers de présentation PPT à l'aide de C++
+title: Déverrouiller des présentations PPT avec C++
 url: /fr/cpp/unlock/ppt/
-keywords: Supprimer la protection en écriture PPT, décrypter une présentation PPT, déverrouiller la présentation PPT, déprotéger PPT
-description: Code source C++ pour supprimer la protection de la présentation PPT.
+description: Déverrouillez des présentations PPT en C++. Utilisez Aspose.Slides for C++ pour supprimer le chiffrement et la protection en écriture des fichiers de présentation.
+keywords: Supprimer la protection en écriture PPT, déchiffrer un PPT, déverrouiller une présentation PPT, déprotéger un PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Déverrouillez PPT en utilisant C++" h2="Créez vos propres applications C++ pour supprimer les mots de passe de PowerPoint et décrypter les fichiers de présentations à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Déverrouiller un PPT avec C++" h2="Utilisez Aspose.Slides for C++ pour supprimer le chiffrement et la protection en écriture des fichiers de présentation sans Microsoft PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Suppression du cryptage de la présentation PPT via C++" %}}
-À l'aide de Aspose.Slides for C++, vous pouvez supprimer le cryptage ou la protection par mot de passe de la présentation PPT. De cette façon, les utilisateurs peuvent accéder ou modifier la présentation PPT sans restrictions.
-{{% blocks/products/pf/agp/code-block title="Désactivation de la protection par mot de passe de PPT à l'aide de C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Supprimer la protection d'une présentation PPT avec C++" variant="code" %}}
 
+Aspose.Slides for C++ vous permet de supprimer le chiffrement ou la protection en écriture des présentations PPT. Utilisez `LoadOptions` pour ouvrir un fichier chiffré, puis l'objet `ProtectionManager` de la classe `Presentation` pour appeler `RemoveEncryption` ou `RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer la protection par mot de passe d'un PPT avec C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.ppt", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.ppt", SaveFormat::Ppt);
+presentation->Save(u"unlocked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Suppression de la protection en écriture de la présentation PPT à l'aide de C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer la protection en écriture d'une présentation PPT avec C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.ppt");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.ppt", SaveFormat::Ppt);
+presentation->Save(u"unlocked-write-protected-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment supprimer le mot de passe d'un PPT avec C++" intro="Suivez ces étapes pour supprimer la protection d'une présentation PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le fichier PPT avec la classe `Presentation`, et avec `LoadOptions` si un mot de passe est requis.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Utilisez l'objet `ProtectionManager` pour supprimer la protection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Appelez `RemoveEncryption` pour les fichiers chiffrés ou `RemoveWriteProtection` pour les fichiers protégés en écriture.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier déverrouillé avec `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment supprimer le mot de passe de PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Conçu avec Aspose.Slides" title="Déverrouiller des fichiers PPT en ligne" description="L'application gratuite Aspose.Slides Unlock est conçue avec [Aspose.Slides for C++](https://products.aspose.com/slides/fr/cpp/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Unlock" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides supprime la protection avant d'écrire du code.
+- Supprimez le mot de passe ou la protection en écriture de votre fichier PPT.
+- Téléchargez le fichier déverrouillé.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour supprimer la protection des fichiers PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats pris en charge pour le déverrouillage" subTitle="Avec C++, vous pouvez également supprimer la protection des formats suivants." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger PPT avec une instance de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Supprimer la protection en écriture à l'aide de la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrer le résultat au format PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats pris en charge" subTitle="À l'aide de C++, vous pouvez également supprimer la protection des formats suivants :" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

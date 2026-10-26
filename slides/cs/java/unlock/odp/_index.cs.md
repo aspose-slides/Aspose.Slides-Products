@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Odemkněte ODP prezentační soubory pomocí Java
+title: Odemčení souborů prezentací ODP pomocí Javy
 url: /cs/java/unlock/odp/
-keywords: Odebrat ochranu proti zápisu ODP, dešifrovat ODP, odemknout prezentaci ODP, zrušit ochranu ODP
-description: Zdrojový kód Java pro odstranění ochrany z prezentace ODP.
+description: Odeberte hesla a ochranu proti zápisu z prezentací ODP v Javě pomocí Aspose.Slides for Java.
+keywords: Odebrání ochrany proti zápisu ODP, dešifrování ODP, odemčení prezentace ODP, zrušení ochrany ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Odemkněte ODP pomocí Java" h2="Sestavte si vlastní aplikace pro Java, abyste mohli odstraňovat hesla z PowerPointu a dešifrovat soubory prezentací pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Odemčení ODP pomocí Javy" h2="Vytvářejte aplikace v Javě, které pomocí serverových API odebírají ze souborů prezentací hesla a ochranu proti zápisu." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Odstranění šifrování z prezentace ODP prostřednictvím Java" %}}
-Pomocí Aspose.Slides for Java můžete z prezentace ODP odstranit šifrování nebo ochranu heslem. Tímto způsobem mohou uživatelé přistupovat k prezentaci ODP nebo ji upravovat bez omezení.
-{{% blocks/products/pf/agp/code-block title="Deaktivace ochrany heslem z ODP pomocí Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Odebrání ochrany z prezentace ODP pomocí Javy" variant="code" %}}
 
+S [Aspose.Slides for Java](/slides/cs/java/) můžete z prezentace ODP odebrat šifrování nebo ochranu proti zápisu. Pomocí `LoadOptions.setPassword` otevřete šifrovanou prezentaci a metodami `removeEncryption` a `removeWriteProtection` objektu `ProtectionManager` odeberete nastavení ochrany.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Odebrání ochrany heslem z ODP pomocí Javy" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.odp", loadOptions);
+
+Presentation presentation = new Presentation("presentation.odp", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Odebrání ochrany proti zápisu z prezentace ODP pomocí Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Odebrání ochrany proti zápisu z prezentace ODP pomocí Javy" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak odebrat heslo z ODP pomocí Javy" intro="Postupujte podle těchto kroků a odeberte ochranu z prezentace ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor ODP pomocí třídy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Pokud je prezentace šifrovaná, použijte `LoadOptions.setPassword`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zavolejte `removeEncryption` nebo `removeWriteProtection` objektu `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte odemčenou prezentaci pomocí `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak odstranit heslo z ODP prostřednictvím Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Vytvořeno pomocí Aspose.Slides" title="Odemčení souborů ODP online" description="Bezplatná aplikace Aspose.Slides Unlock je vytvořena pomocí [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory ODP." button="Otevřít Aspose.Slides Unlock" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides odebírá ochranu, ještě než začnete psát kód.
+- Odeberte heslo nebo ochranu proti zápisu ze souboru ODP.
+- Stáhněte odemčený soubor.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k odstranění ochrany ze souborů ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty pro odemčení" subTitle="Pomocí Javy můžete odebrat ochranu také z následujících formátů." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/java/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/java/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte ODP s instancí Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Odstraňte ochranu proti zápisu pomocí třídy ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte výsledek ve formátu ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty" subTitle="Pomocí Java můžete také odebrat ochranu z následujících formátů:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

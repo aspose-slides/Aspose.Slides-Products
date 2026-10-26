@@ -1,21 +1,22 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Unlock PPT Presentation Files using Python
+title: Unlock PPT Presentations with Python
 url: /python-net/unlock/ppt/
-keywords: Remove Write Protection PPT, Decrypt PPT, Unlock PPT Presentation, Unprotect PPT
-description: Use Python code to remove encryption and write protection from PPT presentations.
+keywords: unlock PPT, remove password from PPT, remove PPT encryption, remove write protection from PPT
+description: Remove encryption and write protection from PPT presentations with Python.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Unlock PPT using Python" h2="Build Python applications that remove passwords and write protection from PowerPoint presentation files using server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Unlock PPT Presentations with Python" h2="Build Python applications that remove opening passwords and write-protection settings from PPT presentations with Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Remove Encryption from a PPT Presentation with Python" %}}
-Aspose.Slides for Python via .NET can remove encryption or write protection from a PPT presentation. After you load an encrypted file with the correct password, call `remove_encryption()` to save an unencrypted copy.
-{{% blocks/products/pf/agp/code-block title="Remove Password Encryption from PPT with Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Remove Encryption and Write Protection from PPT with Python" variant="code" %}}
 
+With [Aspose.Slides for Python via .NET](/slides/python-net/), you can remove encryption that requires a password to open a PPT presentation, or clear its write-protection setting. To open an encrypted file, provide the current password through `LoadOptions`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Remove Encryption from a PPT Presentation - Python" >}}
 ```py
 load_options = slides.LoadOptions()
 load_options.password = "123123"
@@ -24,49 +25,28 @@ with slides.Presentation("encrypted-presentation.ppt", load_options) as presenta
     presentation.protection_manager.remove_encryption()
     presentation.save("unencrypted-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Remove Write Protection from a PPT Presentation with Python" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Remove Write Protection from a PPT Presentation - Python" >}}
 ```py
 with slides.Presentation("write-protected-presentation.ppt") as presentation:
     presentation.protection_manager.remove_write_protection()
     presentation.save("unprotected-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Remove Protection from PPT with Python" intro="Follow these steps to remove protection from a PPT presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}For an encrypted PPT file, set the current password in `LoadOptions`, and then open the file with `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `ProtectionManager.remove_encryption` to remove the opening password, or call `ProtectionManager.remove_write_protection` to clear write protection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the resulting presentation with `SaveFormat.PPT`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Remove a Password from PPT with Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to remove protection from PPT files." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Unlocking Formats" subTitle="Use Python to remove protection from other supported presentation formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Set the password through `LoadOptions.password`, and load the PPT file into a `Presentation` instance.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `ProtectionManager.remove_encryption()` to remove encryption. For write-protected files, call `ProtectionManager.remove_write_protection()` instead.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `Presentation.save()` with `SaveFormat.PPT` to save the unlocked presentation.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Formats" subTitle="You can also use Python to remove protection from the following formats:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

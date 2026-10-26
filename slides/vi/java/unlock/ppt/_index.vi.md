@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mở khóa tệp bản trình bày PPT bằng Java
 url: /vi/java/unlock/ppt/
-keywords: Xóa bảo vệ ghi PPT, giải mã PPT, mở khóa bản trình bày PPT, bỏ bảo vệ PPT
-description: mã nguồn Java để xóa bảo vệ khỏi Bản trình bày PPT.
+description: Gỡ mật khẩu và bảo vệ chống ghi khỏi bản trình bày PPT trong Java bằng Aspose.Slides for Java.
+keywords: Gỡ bảo vệ chống ghi PPT, giải mã PPT, mở khóa bản trình bày PPT, bỏ bảo vệ PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Mở khóa PPT bằng Java" h2="Xây dựng ứng dụng Java của riêng bạn để xóa mật khẩu khỏi PowerPoint và giải mã tệp bản trình bày bằng API phía máy chủ." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Mở khóa PPT bằng Java" h2="Xây dựng ứng dụng Java gỡ mật khẩu và bảo vệ chống ghi khỏi tệp bản trình bày bằng API phía máy chủ." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Xóa Mã hóa khỏi Bản trình bày PPT qua Java" %}}
-Sử dụng Aspose.Slides for Java, bạn có thể xóa mã hóa hoặc bảo vệ bằng mật khẩu trên bản trình bày PPT. Bằng cách này, người dùng có thể truy cập hoặc sửa đổi bản trình bày PPT mà không bị hạn chế.
-{{% blocks/products/pf/agp/code-block title="Vô hiệu hóa bảo vệ bằng mật khẩu từ PPT bằng Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Gỡ bảo vệ khỏi bản trình bày PPT bằng Java" variant="code" %}}
 
+Với [Aspose.Slides for Java](/slides/vi/java/), bạn có thể gỡ mã hóa hoặc bảo vệ chống ghi khỏi bản trình bày PPT. Dùng `LoadOptions.setPassword` để mở bản trình bày đã mã hóa và các phương thức `removeEncryption` và `removeWriteProtection` của `ProtectionManager` để gỡ thiết lập bảo vệ.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Gỡ bảo vệ bằng mật khẩu khỏi PPT bằng Java" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.ppt", loadOptions);
+
+Presentation presentation = new Presentation("presentation.ppt", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Xóa tính năng chống ghi khỏi bản trình bày PPT bằng Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Gỡ bảo vệ chống ghi khỏi bản trình bày PPT bằng Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách gỡ mật khẩu khỏi PPT bằng Java" intro="Làm theo các bước sau để gỡ bảo vệ khỏi bản trình bày PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp PPT bằng lớp `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Dùng `LoadOptions.setPassword` khi bản trình bày đã được mã hóa.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gọi `removeEncryption` hoặc `removeWriteProtection` của đối tượng `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu bản trình bày đã mở khóa bằng `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách xóa mật khẩu khỏi PPT qua Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Được xây dựng bằng Aspose.Slides" title="Mở khóa tệp PPT trực tuyến" description="Ứng dụng Aspose.Slides Unlock miễn phí được xây dựng bằng [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPT của riêng bạn." button="Mở Aspose.Slides Unlock" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides gỡ bảo vệ trước khi bạn viết mã.
+- Gỡ mật khẩu hoặc bảo vệ chống ghi khỏi tệp PPT của bạn.
+- Tải xuống tệp đã mở khóa.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để xóa bảo vệ khỏi các tệp PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng mở khóa được hỗ trợ khác" subTitle="Với Java, bạn cũng có thể gỡ bảo vệ khỏi các định dạng sau." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải PPT với phiên bản Trình bày
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Xóa Bảo vệ ghi bằng lớp ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng được hỗ trợ khác" subTitle="Sử dụng Java, Bạn cũng có thể xóa bảo vệ khỏi các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

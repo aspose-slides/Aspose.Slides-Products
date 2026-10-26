@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Desbloquee archivos de presentación PPTX usando C++
+title: Desbloquear presentaciones PPTX con C++
 url: /es/cpp/unlock/pptx/
-keywords: Eliminar la protección contra escritura PPTX, Descifrar una PPTX, Desbloquear PPTX Presentación, Desproteger PPTX
-description: Código fuente de C++ para eliminar la protección de la presentación PPTX.
+description: Desbloquee presentaciones PPTX en C++. Use Aspose.Slides for C++ para quitar el cifrado y la protección contra escritura de archivos de presentación.
+keywords: Quitar protección contra escritura PPTX, descifrar PPTX, desbloquear presentación PPTX, desproteger PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Desbloquee PPTX usando C++" h2="Cree sus propias aplicaciones C++ para eliminar contraseñas de PowerPoint y descifrar archivos de presentaciones usando API del lado del servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Desbloquear un PPTX con C++" h2="Use Aspose.Slides for C++ para quitar el cifrado y la protección contra escritura de archivos de presentación sin Microsoft PowerPoint." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Eliminando el cifrado de la presentación PPTX a través de C++" %}}
-Usando Aspose.Slides for C++, puede eliminar el cifrado o la protección con contraseña en la presentación PPTX. De esta manera, los usuarios pueden acceder o modificar la presentación PPTX sin restricciones.
-{{% blocks/products/pf/agp/code-block title="Deshabilitar la protección con contraseña de PPTX usando C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Quitar la protección de una presentación PPTX con C++" variant="code" %}}
 
+Aspose.Slides for C++ le permite quitar el cifrado o la protección contra escritura de presentaciones PPTX. Use `LoadOptions` para abrir un archivo cifrado y, a continuación, el objeto `ProtectionManager` de la clase `Presentation` para llamar a `RemoveEncryption` o `RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Quitar la protección con contraseña de un PPTX con C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.pptx", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.pptx", SaveFormat::Pptx);
+presentation->Save(u"unlocked-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Quitar la protección contra escritura de la presentación PPTX usando C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Quitar la protección contra escritura de una presentación PPTX con C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.pptx");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.pptx", SaveFormat::Pptx);
+presentation->Save(u"unlocked-write-protected-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo quitar la contraseña de un PPTX con C++" intro="Siga estos pasos para quitar la protección de una presentación PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue el archivo PPTX con la clase `Presentation` y, si se requiere una contraseña, con `LoadOptions`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Use el objeto `ProtectionManager` para quitar la protección.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Llame a `RemoveEncryption` para archivos cifrados o a `RemoveWriteProtection` para archivos protegidos contra escritura.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el archivo desbloqueado con `SaveFormat::Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo quitar la contraseña de PPTX a través de C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Creado con Aspose.Slides" title="Desbloquear archivos PPTX en línea" description="La aplicación gratuita Aspose.Slides Unlock está creada con [Aspose.Slides for C++](https://products.aspose.com/slides/es/cpp/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPTX." button="Abrir Aspose.Slides Unlock" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides quita la protección antes de escribir código.
+- Quite la contraseña o la protección contra escritura de su archivo PPTX.
+- Descargue el archivo desbloqueado.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estos son los pasos para eliminar la protección de los archivos PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otros formatos compatibles con el desbloqueo" subTitle="Con C++, también puede quitar la protección de los siguientes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/cpp/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/cpp/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue PPTX con una instancia de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Eliminar la protección contra escritura usando la clase ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guardar resultado en formato PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos compatibles" subTitle="Con C++, también puede eliminar la protección de los siguientes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/cpp/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: باز کردن قفل فایل‌های ارائه PPT با استفاده از C++
+title: باز کردن قفل ارائه‌های PPT با C++
 url: /fa/cpp/unlock/ppt/
-keywords: حذف حفاظت نوشتن PPT، رمزگشایی یک PPT، باز کردن قفل ارائه PPT، لغو محافظت PPT
-description: کد منبع C++ برای حذف حفاظت از ارائه PPT.
+description: قفل ارائه‌های PPT را در C++ باز کنید. از Aspose.Slides for C++ برای حذف رمزگذاری و محافظت در برابر نوشتن از فایل‌های ارائه استفاده کنید.
+keywords: حذف محافظت در برابر نوشتن PPT، رمزگشایی PPT، باز کردن قفل ارائه PPT، برداشتن محافظت PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="باز کردن قفل PPT با استفاده از C++" h2="برای حذف رمزهای عبور از PowerPoint و رمزگشایی فایل‌های ارائه‌ها با استفاده از APIهای سمت سرور، برنامه‌های C++ خود را بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="باز کردن قفل PPT با C++" h2="از Aspose.Slides for C++ برای حذف رمزگذاری و محافظت در برابر نوشتن از فایل‌های ارائه بدون Microsoft PowerPoint استفاده کنید." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="حذف رمزگذاری از ارائه PPT از طریق C++" %}}
-با استفاده از Aspose.Slides for C++، می‌توانید حفاظت از رمزگذاری یا رمز عبور را در ارائه PPT حذف کنید. به این ترتیب، کاربران می توانند بدون محدودیت به ارائه PPT دسترسی داشته باشند یا آن را تغییر دهند.
-{{% blocks/products/pf/agp/code-block title="غیرفعال کردن محافظت از رمز عبور از PPT با استفاده از C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حذف محافظت از ارائه PPT با C++" variant="code" %}}
 
+Aspose.Slides for C++ به شما امکان می‌دهد رمزگذاری یا محافظت در برابر نوشتن را از ارائه‌های PPT حذف کنید. برای باز کردن فایل رمزگذاری‌شده از `LoadOptions` استفاده کنید، سپس با شیء `ProtectionManager` در کلاس `Presentation`، `RemoveEncryption` یا `RemoveWriteProtection` را فراخوانی کنید.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف محافظت با رمز عبور از PPT با C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.ppt", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.ppt", SaveFormat::Ppt);
+presentation->Save(u"unlocked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="حذف محافظت نوشتاری از ارائه PPT با استفاده از C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف محافظت در برابر نوشتن از ارائه PPT با C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.ppt");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.ppt", SaveFormat::Ppt);
+presentation->Save(u"unlocked-write-protected-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه حذف رمز عبور از PPT با C++" intro="برای حذف محافظت از ارائه PPT، این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل PPT را با کلاس `Presentation` و در صورت نیاز به رمز عبور با `LoadOptions` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}برای حذف محافظت از شیء `ProtectionManager` استفاده کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}برای فایل‌های رمزگذاری‌شده `RemoveEncryption` و برای فایل‌های محافظت‌شده در برابر نوشتن `RemoveWriteProtection` را فراخوانی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل بازشده را با `SaveFormat::Ppt` ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه حذف رمز عبور از PPT از طریق C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="ساخته شده با Aspose.Slides" title="باز کردن قفل فایل‌های PPT به‌صورت آنلاین" description="برنامه رایگان Aspose.Slides Unlock با [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPT شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Unlock" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه محافظت را حذف می‌کند.
+- رمز عبور یا محافظت در برابر نوشتن را از فایل PPT خود حذف کنید.
+- فایل بازشده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای حذف حفاظت از فایل‌های PPT هستند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر فرمت‌های پشتیبانی‌شده برای باز کردن قفل" subTitle="با C++ می‌توانید محافظت را از فرمت‌های زیر نیز حذف کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/cpp/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/cpp/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT را با یک نمونه از Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Write Protection را با استفاده از کلاس ProtectionManager حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را در قالب PPT ذخیره کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های پشتیبانی شده" subTitle="با استفاده از C++، می‌توانید محافظت از قالب‌های زیر را نیز حذف کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

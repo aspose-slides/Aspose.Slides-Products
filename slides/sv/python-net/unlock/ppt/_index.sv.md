@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lås upp PPT presentationsfiler med Python
+title: Lås upp PPT-presentationer med Python
 url: /sv/python-net/unlock/ppt/
-keywords: Ta bort skrivskydd PPT, dekryptera en PPT, låsa upp PPT presentation, ta bort skydd PPT
-description: Källkod för Python för att ta bort skydd från PPT presentation.
+description: Ta bort kryptering och skrivskydd från PPT-presentationer med Python.
+keywords: lås upp PPT, ta bort lösenord från PPT, ta bort PPT-kryptering, ta bort skrivskydd från PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lås upp PPT med Python" h2="Bygg dina egna Python-appar för att ta bort lösenord från PowerPoint och dekryptera presentationsfiler med API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Lås upp PPT-presentationer med Python" h2="Bygg Python-program som tar bort öppningslösenord och skrivskydd från PPT-presentationer med Aspose.Slides." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ta bort kryptering från PPT presentation via Python" %}}
-Med Aspose.Slides for Python via .NET kan du ta bort krypteringen eller lösenordsskyddet i presentationen av PPT. På så sätt kan användare komma åt eller ändra PPT-presentationen utan begränsningar.
-{{% blocks/products/pf/agp/code-block title="Inaktivera lösenordsskydd från PPT med Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ta bort kryptering och skrivskydd från PPT med Python" variant="code" %}}
 
+Med [Aspose.Slides for Python via .NET](/slides/sv/python-net/) kan du ta bort krypteringen som kräver ett lösenord för att öppna en PPT-presentation, eller stänga av dess skrivskydd. Om du vill öppna en krypterad fil anger du det aktuella lösenordet via `LoadOptions`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ta bort kryptering från en PPT-presentation – Python" >}}
 ```py
+load_options = slides.LoadOptions()
+load_options.password = "123123"
 
-import aspose.slides as slides
-
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.ppt", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.ppt", slides.export.SaveFormat.PPT)
+with slides.Presentation("encrypted-presentation.ppt", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("unencrypted-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ta bort skrivskydd från PPT presentation med Python" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ta bort skrivskydd från en PPT-presentation – Python" >}}
 ```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.ppt") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.ppt", slides.export.SaveFormat.PPT)
-
+with slides.Presentation("write-protected-presentation.ppt") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så tar du bort skydd från PPT med Python" intro="Följ de här stegen för att ta bort skyddet från en PPT-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}För en krypterad PPT-fil anger du det aktuella lösenordet i `LoadOptions` och öppnar sedan filen med `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa `ProtectionManager.remove_encryption` för att ta bort öppningslösenordet, eller `ProtectionManager.remove_write_protection` för att stänga av skrivskyddet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den resulterande presentationen med `SaveFormat.PPT`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man tar bort lösenord från PPT via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Byggd med Aspose.Slides" title="Lås upp PPT-filer online" description="Den kostnadsfria appen Aspose.Slides Unlock är byggd med [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/sv/python-net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPT-filer." button="Öppna Aspose.Slides Unlock" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides tar bort skydd innan du skriver kod.
+- Ta bort lösenordet eller skrivskyddet från din PPT-fil.
+- Ladda ned den upplåsta filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att ta bort skyddet från PPT-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för upplåsning" subTitle="Använd Python för att ta bort skydd från andra presentationsformat som stöds." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda PPT med en instans av Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort skrivskydd med ProtectionManager-klassen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet i formatet PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds" subTitle="Med Python kan du också ta bort skyddet från följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -5,17 +5,18 @@ title: Unlock PPTX Presentation Files using .NET
 url: /net/unlock/pptx/
 keywords: Remove PPTX Write Protection, Decrypt PPTX, Unlock PPTX Presentation, Unprotect PPTX
 description: C# source code to remove password protection from PPTX presentations.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Unlock PPTX Files using C#" h2="Build .NET apps that remove encryption and write protection from presentations with server-side APIs." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Unlock PPTX Files using C#" h2="Build .NET apps that remove encryption and write protection from presentations with server-side APIs." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Remove Protection from a PPTX Presentation using C#" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Remove Protection from a PPTX Presentation using C#" variant="code" %}}
+
 With [Aspose.Slides for .NET](/slides/net/), you can remove encryption or write protection from a PPTX presentation. To remove encryption, load the presentation with the correct password and call `ProtectionManager.RemoveEncryption`. To remove write protection, call `ProtectionManager.RemoveWriteProtection`.
-{{% blocks/products/pf/agp/code-block title="Remove Encryption from a PPTX Presentation using C#" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Remove Encryption from a PPTX Presentation using C#" >}}
 ```cs
 var loadOptions = new LoadOptions { Password = "password" };
 using var presentation = new Presentation("encrypted-presentation.pptx", loadOptions);
@@ -23,54 +24,30 @@ using var presentation = new Presentation("encrypted-presentation.pptx", loadOpt
 presentation.ProtectionManager.RemoveEncryption();
 presentation.Save("unencrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Remove Write Protection from a PPTX Presentation using C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Remove Write Protection from a PPTX Presentation using C#" >}}
 ```cs
 using var presentation = new Presentation("write-protected-presentation.pptx");
 
 presentation.ProtectionManager.RemoveWriteProtection();
 presentation.Save("unprotected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Remove Protection from a PPTX Presentation using C#" intro="Follow these steps to remove protection from a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the PPTX file with `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}For an encrypted file, provide the password through `LoadOptions.Password` before loading it.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `ProtectionManager.RemoveEncryption` or `ProtectionManager.RemoveWriteProtection`, depending on the applied protection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the unlocked presentation with `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Remove Protection from a PPTX Presentation using C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to remove protection from a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Unlocking Formats" subTitle="Using C#, you can also remove protection from the following formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the PPTX file with `Presentation`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-For an encrypted file, provide the password through `LoadOptions.Password` before loading it.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `ProtectionManager.RemoveEncryption` or `ProtectionManager.RemoveWriteProtection`, depending on the applied protection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the unlocked presentation with `SaveFormat.Pptx`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Unlocking Formats" subTitle="Using C#, you can also remove protection from the following formats." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

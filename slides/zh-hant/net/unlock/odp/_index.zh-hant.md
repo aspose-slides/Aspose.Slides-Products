@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 .NET 解鎖 ODP 演示文件
+title: 使用 .NET 解除鎖定 ODP 簡報檔案
 url: /zh-hant/net/unlock/odp/
-keywords: 刪除寫保護 ODP，解密 ODP，解鎖 ODP 演示文稿，取消保護 ODP
-description: C# 源代碼，用於移除 ODP 演示文稿的保護。
+description: 移除 ODP 簡報密碼保護的 C# 原始程式碼。
+keywords: 移除 ODP 防寫保護, 解密 ODP, 解除鎖定 ODP 簡報, 取消 ODP 保護
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C# 解鎖 ODP" h2="構建您自己的 .NET 應用程序以從 PowerPoint 中刪除密碼並使用服務器端 API 解密演示文稿文件。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C# 解除鎖定 ODP 檔案" h2="建置 .NET 應用程式，透過伺服器端 API 移除簡報的加密與防寫保護。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 C# 從 ODP 演示文稿中刪除加密" %}}
-使用 Aspose.Slides for .NET，您可以取消對 ODP 演示文稿的加密或密碼保護。這樣，用戶就可以不受限制地訪問或修改 ODP 表示。
-{{% blocks/products/pf/agp/code-block title="使用 C# 從 ODP 禁用密碼保護" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 C# 移除 ODP 簡報的保護" variant="code" %}}
 
+透過 [Aspose.Slides for .NET](/slides/zh-hant/net/)，您可以移除 ODP 簡報的加密或防寫保護。若要移除加密，請以正確的密碼載入簡報並呼叫 `ProtectionManager.RemoveEncryption`。若要移除防寫保護，請呼叫 `ProtectionManager.RemoveWriteProtection`。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C# 移除 ODP 簡報的加密" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.odp", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.odp", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="使用 C# 從 ODP 演示文稿中刪除寫保護" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C# 移除 ODP 簡報的防寫保護" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.odp");
 
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 C# 移除 ODP 簡報的保護" intro="依照下列步驟移除 ODP 簡報的保護。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 載入 ODP 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}若為加密檔案，請在載入前透過 `LoadOptions.Password` 提供密碼。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}依照所套用的保護類型，呼叫 `ProtectionManager.RemoveEncryption` 或 `ProtectionManager.RemoveWriteProtection`。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.Odp` 儲存已解除鎖定的簡報。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 C# 從 ODP 中刪除密碼" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="以 Aspose.Slides 建置" title="線上解除鎖定 ODP 檔案" description="免費的 Aspose.Slides Unlock 應用程式以 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 ODP 檔案。" button="開啟 Aspose.Slides Unlock" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先了解 Aspose.Slides 如何移除保護。
+- 移除 ODP 檔案的密碼或防寫保護。
+- 下載已解除鎖定的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是取消 ODP 文件保護的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援解除鎖定的格式" subTitle="使用 C#，您也可以移除下列格式的保護。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 ProtectionManager 類刪除寫保護
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 ODP 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用 C#，您還可以取消對以下格式的保護：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

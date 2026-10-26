@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: فتح ملفات ODP العروض التقديمية باستخدام Python
+title: إلغاء قفل العروض التقديمية ODP باستخدام Python
 url: /ar/python-net/unlock/odp/
-keywords: إزالة الحماية ضد الكتابة ODP ، وفك تشفير ODP ، وإلغاء تأمين ODP Presentation ، وإلغاء الحماية ODP
-description: Python شفرة المصدر لإزالة الحماية من العرض التقديمي ODP.
+description: أزل التشفير والحماية من الكتابة من العروض التقديمية ODP باستخدام Python.
+keywords: إلغاء قفل ODP، إزالة كلمة المرور من ODP، إزالة تشفير ODP، إزالة الحماية من الكتابة من ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="فتح ODP باستخدام Python" h2="أنشئ تطبيقات Python الخاصة بك لإزالة كلمات المرور من PowerPoint وفك تشفير ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="إلغاء قفل العروض التقديمية ODP باستخدام Python" h2="أنشئ تطبيقات Python تزيل كلمات مرور الفتح وإعدادات الحماية من الكتابة من العروض التقديمية ODP باستخدام Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="إزالة التشفير من العرض التقديمي ODP عبر Python" %}}
-باستخدام Aspose.Slides for Python via .NET ، يمكنك إزالة التشفير أو الحماية بكلمة مرور على العرض التقديمي ODP. بهذه الطريقة ، يصبح المستخدمون قادرين على الوصول إلى العرض التقديمي ODP أو تعديله دون قيود.
-{{% blocks/products/pf/agp/code-block title="تعطيل الحماية بكلمة مرور من ODP باستخدام Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="إزالة التشفير والحماية من الكتابة من ODP باستخدام Python" variant="code" %}}
 
-```py
+باستخدام [Aspose.Slides for Python via .NET](/slides/ar/python-net/)، يمكنك إزالة التشفير الذي يتطلب كلمة مرور لفتح عرض تقديمي ODP، أو إلغاء إعداد الحماية من الكتابة. لفتح ملف مشفّر، قدّم كلمة المرور الحالية عبر `LoadOptions`.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة التشفير من عرض تقديمي ODP – Python" >}}
+```python
+load_options = slides.LoadOptions()
+load_options.password = "current_password"
 
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.odp", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("encrypted-presentation.odp", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("decrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="إزالة الحماية ضد الكتابة من العرض التقديمي ODP باستخدام Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.odp") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.odp", slides.export.SaveFormat.ODP)
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة الحماية من الكتابة من عرض تقديمي ODP – Python" >}}
+```python
+with slides.Presentation("write-protected-presentation.odp") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية إزالة الحماية من ODP باستخدام Python" intro="اتبع هذه الخطوات لإزالة الحماية من عرض تقديمي ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}بالنسبة إلى ملف ODP مشفّر، عيّن كلمة المرور الحالية في `LoadOptions`، ثم افتح الملف باستخدام `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استدعِ `ProtectionManager.remove_encryption` لإزالة كلمة مرور الفتح، أو `ProtectionManager.remove_write_protection` لإلغاء الحماية من الكتابة.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ العرض التقديمي الناتج باستخدام `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية إزالة كلمة المرور من ODP عبر Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="مبني باستخدام Aspose.Slides" title="إلغاء قفل ملفات ODP عبر الإنترنت" description="تطبيق Aspose.Slides Unlock المجاني مبني باستخدام [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ar/python-net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات ODP الخاصة بك." button="افتح Aspose.Slides Unlock" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يزيل Aspose.Slides الحماية قبل كتابة الكود.
+- أزل كلمة المرور أو الحماية من الكتابة من ملف ODP.
+- نزّل الملف غير المقفل.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات إزالة الحماية من ملفات ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة لإلغاء القفل" subTitle="استخدم Python لإزالة الحماية من تنسيقات العروض التقديمية الأخرى المدعومة." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل ODP بمثيل عرض تقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة الحماية ضد الكتابة باستخدام فئة ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="التنسيقات الأخرى المدعومة" subTitle="باستخدام Python ، يمكنك أيضًا إزالة الحماية من التنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

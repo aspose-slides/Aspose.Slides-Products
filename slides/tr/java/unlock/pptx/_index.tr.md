@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java kullanarak PPTX Sunum Dosyalarının Kilidini Açın
+title: Java ile PPTX Sunum Dosyalarının Kilidini Açma
 url: /tr/java/unlock/pptx/
-keywords: PPTX Yazma Korumasını Kaldırma, Bir PPTX Şifresini Çözme, PPTX Sunumunun Kilidini Kaldırma, PPTX Korumasını Kaldırma
-description: PPTX Sunumundan korumayı kaldırmak için Java kaynak kodu.
+description: Aspose.Slides for Java ile Java'da PPTX sunumlarından parolaları ve yazma korumasını kaldırın.
+keywords: PPTX yazma korumasını kaldırma, PPTX şifresini çözme, PPTX sunumunun kilidini açma, PPTX korumasını kaldırma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java kullanarak PPTX kilidini açın" h2="PowerPoint'ten şifreleri kaldırmak ve sunucu tarafı API'lerini kullanarak sunum dosyalarının şifresini çözmek için kendi Java uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java ile PPTX Kilidini Açma" h2="Sunucu tarafı API'lerle sunum dosyalarından parolaları ve yazma korumasını kaldıran Java uygulamaları geliştirin." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Java Aracılığıyla PPTX Sunumundan Şifrelemeyi Kaldırma" %}}
-Aspose.Slides for Java kullanarak, PPTX sunumundaki şifrelemeyi veya parola korumasını kaldırabilirsiniz. Bu şekilde, kullanıcılar kısıtlama olmadan PPTX sunumuna erişebilir veya sunuyu değiştirebilir.
-{{% blocks/products/pf/agp/code-block title="Java kullanarak PPTX Şifre Korumasını devre dışı bırakma" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java ile PPTX Sunumundan Korumayı Kaldırma" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/tr/java/) ile bir PPTX sunumundan şifrelemeyi veya yazma korumasını kaldırabilirsiniz. Şifreli bir sunumu açmak için `LoadOptions.setPassword`, koruma ayarlarını kaldırmak için `ProtectionManager` yöntemlerinden `removeEncryption` ve `removeWriteProtection` kullanın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java ile PPTX Dosyasından Parola Korumasını Kaldırma" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.pptx", loadOptions);
+
+Presentation presentation = new Presentation("presentation.pptx", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Java Kullanarak PPTX Sunumundan Yazma Korumasını Kaldırma" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java ile PPTX Sunumundan Yazma Korumasını Kaldırma" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java ile PPTX Dosyasından Parola Nasıl Kaldırılır" intro="Bir PPTX sunumundan korumayı kaldırmak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPTX dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sunum şifreliyse `LoadOptions.setPassword` kullanın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager` nesnesinin `removeEncryption` veya `removeWriteProtection` yöntemini çağırın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kilidi açılan sunumu `SaveFormat.Pptx` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java Aracılığıyla PPTX Ürününün Şifresini Kaldırma" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Aspose.Slides ile geliştirildi" title="PPTX Dosyalarının Kilidini Çevrimiçi Açma" description="Ücretsiz Aspose.Slides Unlock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPTX dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Unlock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın korumayı nasıl kaldırdığını görün.
+- PPTX dosyanızdan parolayı veya yazma korumasını kaldırın.
+- Kilidi açılan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPTX dosyalarından korumayı kaldırma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Kilit Açma İçin Desteklenen Diğer Biçimler" subTitle="Java ile aşağıdaki biçimlerden de korumayı kaldırabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak Yazma Korumasını kaldırın
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPTX biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Formatlar" subTitle="Java kullanarak, aşağıdaki biçimlerden de korumayı kaldırabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

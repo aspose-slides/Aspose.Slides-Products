@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Ontgrendel PPT presentatiebestanden met C++
+title: PPT-presentaties ontgrendelen met C++
 url: /nl/cpp/unlock/ppt/
-keywords: Schrijfbeveiliging PPT verwijderen, een PPT ontsleutelen, presentatie PPT ontgrendelen, beveiliging PPT opheffen
-description: C++ broncode om de beveiliging van PPT Presentatie te verwijderen.
+description: Ontgrendel PPT-presentaties in C++. Gebruik Aspose.Slides for C++ om versleuteling en schrijfbeveiliging van presentatiebestanden te verwijderen.
+keywords: Schrijfbeveiliging PPT verwijderen, PPT ontsleutelen, PPT-presentatie ontgrendelen, beveiliging van PPT opheffen
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Ontgrendel PPT met C++" h2="Bouw uw eigen C++-apps om wachtwoorden uit PowerPoint te verwijderen en presentatiebestanden te decoderen met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPT ontgrendelen met C++" h2="Gebruik Aspose.Slides for C++ om versleuteling en schrijfbeveiliging van presentatiebestanden te verwijderen zonder Microsoft PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Versleuteling verwijderen uit PPT-presentatie via C++" %}}
-Met Aspose.Slides for C++ kunt u de codering of wachtwoordbeveiliging op de PPT-presentatie verwijderen. Op deze manier kunnen gebruikers de PPT-presentatie zonder beperkingen openen of wijzigen.
-{{% blocks/products/pf/agp/code-block title="Wachtwoordbeveiliging uitschakelen van PPT met C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Beveiliging van een PPT-presentatie verwijderen met C++" variant="code" %}}
 
+Met Aspose.Slides for C++ verwijdert u de versleuteling of schrijfbeveiliging van PPT-presentaties. Gebruik `LoadOptions` om een versleuteld bestand te openen en roep vervolgens via het object `ProtectionManager` van de klasse `Presentation` `RemoveEncryption` of `RemoveWriteProtection` aan.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Wachtwoordbeveiliging van PPT verwijderen met C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.ppt", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.ppt", SaveFormat::Ppt);
+presentation->Save(u"unlocked-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Schrijfbeveiliging verwijderen uit presentatie PPT met behulp van C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Schrijfbeveiliging van een PPT-presentatie verwijderen met C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.ppt");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.ppt", SaveFormat::Ppt);
+presentation->Save(u"unlocked-write-protected-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Een wachtwoord van PPT verwijderen met C++" intro="Volg deze stappen om de beveiliging van een PPT-presentatie te verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het PPT-bestand met de klasse `Presentation` en, als er een wachtwoord nodig is, met `LoadOptions`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gebruik het object `ProtectionManager` om de beveiliging te verwijderen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Roep `RemoveEncryption` aan voor versleutelde bestanden of `RemoveWriteProtection` voor schrijfbeveiligde bestanden.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla het ontgrendelde bestand op met `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Wachtwoord verwijderen uit PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Gebouwd met Aspose.Slides" title="PPT-bestanden online ontgrendelen" description="De gratis app Aspose.Slides Unlock is gebouwd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPT-bestanden." button="Aspose.Slides Unlock openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides beveiliging verwijdert voordat u code schrijft.
+- Verwijder het wachtwoord of de schrijfbeveiliging uit uw PPT-bestand.
+- Download het ontgrendelde bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om de beveiliging van PPT-bestanden te verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor ontgrendelen" subTitle="Met C++ kunt u ook de beveiliging van de volgende formaten verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/cpp/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/cpp/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad PPT met een instantie van Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Verwijder schrijfbeveiliging met de klasse ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op in PPT formaat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde formaten" subTitle="Met C++ kunt u ook de beveiliging van de volgende indelingen verwijderen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

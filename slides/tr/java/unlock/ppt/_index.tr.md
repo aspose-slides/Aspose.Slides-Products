@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java kullanarak PPT Sunum Dosyalarının Kilidini Açın
+title: Java ile PPT Sunum Dosyalarının Kilidini Açma
 url: /tr/java/unlock/ppt/
-keywords: PPT Yazma Korumasını Kaldırma, Bir PPT Şifresini Çözme, PPT Sunumunun Kilidini Kaldırma, PPT Korumasını Kaldırma
-description: PPT Sunumundan korumayı kaldırmak için Java kaynak kodu.
+description: Aspose.Slides for Java ile Java'da PPT sunumlarından parolaları ve yazma korumasını kaldırın.
+keywords: PPT yazma korumasını kaldırma, PPT şifresini çözme, PPT sunumunun kilidini açma, PPT korumasını kaldırma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java kullanarak PPT kilidini açın" h2="PowerPoint'ten şifreleri kaldırmak ve sunucu tarafı API'lerini kullanarak sunum dosyalarının şifresini çözmek için kendi Java uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java ile PPT Kilidini Açma" h2="Sunucu tarafı API'lerle sunum dosyalarından parolaları ve yazma korumasını kaldıran Java uygulamaları geliştirin." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Java Aracılığıyla PPT Sunumundan Şifrelemeyi Kaldırma" %}}
-Aspose.Slides for Java kullanarak, PPT sunumundaki şifrelemeyi veya parola korumasını kaldırabilirsiniz. Bu şekilde, kullanıcılar kısıtlama olmadan PPT sunumuna erişebilir veya sunuyu değiştirebilir.
-{{% blocks/products/pf/agp/code-block title="Java kullanarak PPT Şifre Korumasını devre dışı bırakma" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java ile PPT Sunumundan Korumayı Kaldırma" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/tr/java/) ile bir PPT sunumundan şifrelemeyi veya yazma korumasını kaldırabilirsiniz. Şifreli bir sunumu açmak için `LoadOptions.setPassword`, koruma ayarlarını kaldırmak için `ProtectionManager` yöntemlerinden `removeEncryption` ve `removeWriteProtection` kullanın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java ile PPT Dosyasından Parola Korumasını Kaldırma" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.ppt", loadOptions);
+
+Presentation presentation = new Presentation("presentation.ppt", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Java Kullanarak PPT Sunumundan Yazma Korumasını Kaldırma" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java ile PPT Sunumundan Yazma Korumasını Kaldırma" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java ile PPT Dosyasından Parola Nasıl Kaldırılır" intro="Bir PPT sunumundan korumayı kaldırmak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPT dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sunum şifreliyse `LoadOptions.setPassword` kullanın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager` nesnesinin `removeEncryption` veya `removeWriteProtection` yöntemini çağırın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kilidi açılan sunumu `SaveFormat.Ppt` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java Aracılığıyla PPT Ürününün Şifresini Kaldırma" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Aspose.Slides ile geliştirildi" title="PPT Dosyalarının Kilidini Çevrimiçi Açma" description="Ücretsiz Aspose.Slides Unlock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPT dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Unlock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın korumayı nasıl kaldırdığını görün.
+- PPT dosyanızdan parolayı veya yazma korumasını kaldırın.
+- Kilidi açılan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPT dosyalarından korumayı kaldırma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Kilit Açma İçin Desteklenen Diğer Biçimler" subTitle="Java ile aşağıdaki biçimlerden de korumayı kaldırabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak Yazma Korumasını kaldırın
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPT biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Formatlar" subTitle="Java kullanarak, aşağıdaki biçimlerden de korumayı kaldırabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

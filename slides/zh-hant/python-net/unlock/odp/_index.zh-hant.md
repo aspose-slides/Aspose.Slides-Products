@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Python 解鎖 ODP 演示文件
+title: 使用 Python 解除鎖定 ODP 簡報
 url: /zh-hant/python-net/unlock/odp/
-keywords: 刪除寫保護 ODP，解密 ODP，解鎖 ODP 演示文稿，取消保護 ODP
-description: Python 源代碼，用於移除 ODP 演示文稿的保護。
+description: 使用 Python 移除 ODP 簡報的加密與防寫保護。
+keywords: 解除鎖定 ODP, 移除 ODP 密碼, 移除 ODP 加密, 移除 ODP 防寫保護
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Python 解鎖 ODP" h2="構建您自己的 Python 應用程序以從 PowerPoint 中刪除密碼並使用服務器端 API 解密演示文稿文件。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Python 解除鎖定 ODP 簡報" h2="建置使用 Aspose.Slides 移除 ODP 簡報開啟密碼與防寫保護設定的 Python 應用程式。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 Python 從 ODP 演示文稿中刪除加密" %}}
-使用 Aspose.Slides for Python via .NET，您可以取消對 ODP 演示文稿的加密或密碼保護。這樣，用戶就可以不受限制地訪問或修改 ODP 表示。
-{{% blocks/products/pf/agp/code-block title="使用 Python 從 ODP 禁用密碼保護" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 Python 移除 ODP 的加密與防寫保護" variant="code" %}}
 
-```py
+透過 [Aspose.Slides for Python via .NET](/slides/zh-hant/python-net/)，您可以移除開啟 ODP 簡報時需要輸入密碼的加密，或清除其防寫保護設定。若要開啟加密檔案，請透過 `LoadOptions` 提供目前的密碼。
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="移除 ODP 簡報的加密 – Python" >}}
+```python
+load_options = slides.LoadOptions()
+load_options.password = "current_password"
 
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.odp", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("encrypted-presentation.odp", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("decrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="使用 Python 從 ODP 演示文稿中刪除寫保護" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.odp") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.odp", slides.export.SaveFormat.ODP)
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="移除 ODP 簡報的防寫保護 – Python" >}}
+```python
+with slides.Presentation("write-protected-presentation.odp") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 Python 移除 ODP 的保護" intro="依照下列步驟移除 ODP 簡報的保護。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}若為加密的 ODP 檔案，請在 `LoadOptions` 中設定目前的密碼，然後使用 `Presentation` 開啟檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}呼叫 `ProtectionManager.remove_encryption` 移除開啟密碼，或呼叫 `ProtectionManager.remove_write_protection` 清除防寫保護。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.ODP` 儲存產生的簡報。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 Python 從 ODP 中刪除密碼" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="以 Aspose.Slides 建置" title="線上解除鎖定 ODP 檔案" description="免費的 Aspose.Slides Unlock 應用程式以 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh-hant/python-net/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 ODP 檔案。" button="開啟 Aspose.Slides Unlock" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先了解 Aspose.Slides 如何移除保護。
+- 移除 ODP 檔案的密碼或防寫保護。
+- 下載已解除鎖定的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是取消 ODP 文件保護的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援解除鎖定的格式" subTitle="使用 Python 移除其他支援的簡報格式的保護。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/python-net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 ProtectionManager 類刪除寫保護
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 ODP 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用 Python，您還可以取消對以下格式的保護：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

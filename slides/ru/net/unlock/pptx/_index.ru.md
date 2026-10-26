@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Разблокируйте файлы презентаций PPTX с помощью .NET
+title: Разблокировка файлов презентаций PPTX с помощью .NET
 url: /ru/net/unlock/pptx/
-keywords: Снять защиту от записи PPTX, расшифровать PPTX, разблокировать презентацию PPTX, снять защиту PPTX
-description: Исходный код C# для снятия защиты с презентации PPTX.
+description: Исходный код на C# для снятия защиты паролем с презентаций PPTX.
+keywords: Снятие защиты от записи PPTX, расшифровка PPTX, разблокировка презентации PPTX, снятие защиты с PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Разблокируйте PPTX с помощью C#" h2="Создавайте собственные приложения .NET, чтобы удалять пароли из PowerPoint и расшифровывать файлы презентаций с помощью серверных API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Разблокировка файлов PPTX на C#" h2="Создавайте приложения .NET, которые снимают шифрование и защиту от записи с презентаций с помощью серверных API." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Удаление шифрования из презентации PPTX через C#" %}}
-Используя Aspose.Slides for .NET, вы можете удалить шифрование или защиту паролем в презентации PPTX. Таким образом, пользователи могут без ограничений получать доступ к презентации PPTX или изменять ее.
-{{% blocks/products/pf/agp/code-block title="Отключение защиты паролем от PPTX с помощью C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Снятие защиты с презентации PPTX на C#" variant="code" %}}
 
+С помощью [Aspose.Slides for .NET](/slides/ru/net/) можно снять шифрование или защиту от записи с презентации PPTX. Чтобы снять шифрование, загрузите презентацию с правильным паролем и вызовите `ProtectionManager.RemoveEncryption`. Чтобы снять защиту от записи, вызовите `ProtectionManager.RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Снятие шифрования с презентации PPTX на C#" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.pptx", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Снятие защиты от записи с презентации PPTX с использованием C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Снятие защиты от записи с презентации PPTX на C#" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.pptx");
 
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как снять защиту с презентации PPTX на C#" intro="Выполните следующие шаги, чтобы снять защиту с презентации PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Загрузите файл PPTX с помощью `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Для зашифрованного файла перед загрузкой укажите пароль через `LoadOptions.Password`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Вызовите `ProtectionManager.RemoveEncryption` или `ProtectionManager.RemoveWriteProtection` в зависимости от примененной защиты.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните разблокированную презентацию с помощью `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как удалить пароль из PPTX через C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Создано на основе Aspose.Slides" title="Разблокировка файлов PPTX онлайн" description="Бесплатное приложение Aspose.Slides Unlock создано на основе [Aspose.Slides for .NET](https://products.aspose.com/slides/ru/net/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPTX." button="Открыть Aspose.Slides Unlock" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides снимает защиту, прежде чем писать код.
+- Удалите пароль или защиту от записи из файла PPTX.
+- Скачайте разблокированный файл.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для снятия защиты с файлов PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые форматы для разблокировки" subTitle="С помощью C# вы также можете снимать защиту со следующих форматов." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Загрузите PPTX с экземпляром Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Удалить защиту от записи с помощью класса ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохранить результат в формате PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы" subTitle="С помощью C# Вы также можете снять защиту со следующих форматов:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: فتح ملفات PPTX العروض التقديمية باستخدام C++
+title: إلغاء قفل العروض التقديمية PPTX باستخدام C++
 url: /ar/cpp/unlock/pptx/
-keywords: إزالة الحماية ضد الكتابة PPTX ، وفك تشفير PPTX ، وإلغاء تأمين PPTX Presentation ، وإلغاء الحماية PPTX
-description: C++ شفرة المصدر لإزالة الحماية من العرض التقديمي PPTX.
+description: ألغِ قفل العروض التقديمية PPTX في C++. استخدم Aspose.Slides for C++ لإزالة التشفير والحماية من الكتابة من ملفات العروض التقديمية.
+keywords: إزالة حماية PPTX من الكتابة، فك تشفير PPTX، إلغاء قفل عرض PPTX، إزالة حماية PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="فتح PPTX باستخدام C++" h2="أنشئ تطبيقات C++ الخاصة بك لإزالة كلمات المرور من PowerPoint وفك تشفير ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="إلغاء قفل PPTX باستخدام C++" h2="استخدم Aspose.Slides for C++ لإزالة التشفير والحماية من الكتابة من ملفات العروض التقديمية دون Microsoft PowerPoint." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="إزالة التشفير من العرض التقديمي PPTX عبر C++" %}}
-باستخدام Aspose.Slides for C++ ، يمكنك إزالة التشفير أو الحماية بكلمة مرور على العرض التقديمي PPTX. بهذه الطريقة ، يصبح المستخدمون قادرين على الوصول إلى العرض التقديمي PPTX أو تعديله دون قيود.
-{{% blocks/products/pf/agp/code-block title="تعطيل الحماية بكلمة مرور من PPTX باستخدام C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="إزالة الحماية من عرض تقديمي PPTX عبر C++" variant="code" %}}
 
+يتيح لك Aspose.Slides for C++ إزالة التشفير أو الحماية من الكتابة من العروض التقديمية PPTX. استخدم `LoadOptions` لفتح ملف مشفّر، ثم استخدم الكائن `ProtectionManager` من الفئة `Presentation` لاستدعاء `RemoveEncryption` أو `RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة الحماية بكلمة مرور من PPTX باستخدام C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.pptx", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.pptx", SaveFormat::Pptx);
+presentation->Save(u"unlocked-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="إزالة الحماية ضد الكتابة من العرض التقديمي PPTX باستخدام C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة الحماية من الكتابة من عرض تقديمي PPTX باستخدام C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.pptx");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.pptx", SaveFormat::Pptx);
+presentation->Save(u"unlocked-write-protected-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية إزالة كلمة المرور من PPTX عبر C++" intro="اتبع هذه الخطوات لإزالة الحماية من عرض تقديمي PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حمّل ملف PPTX باستخدام الفئة `Presentation` و`LoadOptions` عند الحاجة إلى كلمة مرور.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استخدم الكائن `ProtectionManager` لإزالة الحماية.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استدعِ `RemoveEncryption` للملفات المشفّرة أو `RemoveWriteProtection` للملفات المحمية من الكتابة.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ الملف غير المقفل باستخدام `SaveFormat::Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية إزالة كلمة المرور من PPTX عبر C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="مبني باستخدام Aspose.Slides" title="إلغاء قفل ملفات PPTX عبر الإنترنت" description="تطبيق Aspose.Slides Unlock المجاني مبني باستخدام [Aspose.Slides for C++](https://products.aspose.com/slides/ar/cpp/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Unlock" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يزيل Aspose.Slides الحماية قبل كتابة الكود.
+- أزل كلمة المرور أو الحماية من الكتابة من ملف PPTX.
+- نزّل الملف غير المقفل.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات إزالة الحماية من ملفات PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة لإلغاء القفل" subTitle="باستخدام C++، يمكنك أيضًا إزالة الحماية من التنسيقات التالية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/cpp/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/cpp/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل PPTX بمثيل عرض تقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة الحماية ضد الكتابة باستخدام فئة ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="التنسيقات الأخرى المدعومة" subTitle="باستخدام C++ ، يمكنك أيضًا إزالة الحماية من التنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/cpp/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

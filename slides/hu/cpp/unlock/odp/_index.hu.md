@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Oldja fel a ODP prezentációs fájlokat a C++ használatával
+title: ODP-bemutatók feloldása C++ segítségével
 url: /hu/cpp/unlock/odp/
-keywords: Írásvédelem eltávolítása ODP, ODP kód visszafejtése, ODP bemutató feloldása, ODP védelem feloldása
-description: C++ forráskód a ODP prezentáció védelmének eltávolításához.
+description: Oldja fel ODP-bemutatóit C++ nyelven. Az Aspose.Slides for C++ segítségével eltávolíthatja a titkosítást és az írásvédelmet a bemutatófájlokból.
+keywords: Írásvédelem eltávolítása ODP, ODP visszafejtése, ODP-bemutató feloldása, ODP védelmének megszüntetése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Oldja fel a ODP zárolását a C++ használatával" h2="Készítse el saját C++-alkalmazásait, amelyek segítségével eltávolíthatja a jelszavakat a PowerPointból, és dekódolhatja a prezentációs fájlokat szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ODP feloldása C++ segítségével" h2="Az Aspose.Slides for C++ segítségével a Microsoft PowerPoint nélkül távolíthatja el a titkosítást és az írásvédelmet a bemutatófájlokból." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Titkosítás eltávolítása a ODP prezentációból a következőn keresztül: C++" %}}
-A Aspose.Slides for C++ használatával eltávolíthatja a titkosítást vagy a jelszavas védelmet a ODP bemutatóról. Így a felhasználók korlátozás nélkül hozzáférhetnek vagy módosíthatják a ODP prezentációt.
-{{% blocks/products/pf/agp/code-block title="A jelszavas védelem letiltása a(z) ODP alkalmazásban a(z) C++ használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Védelem eltávolítása ODP-bemutatóból C++ segítségével" variant="code" %}}
 
+Az Aspose.Slides for C++ segítségével eltávolíthatja a titkosítást vagy az írásvédelmet ODP-bemutatókból. Titkosított fájl megnyitásához használja a `LoadOptions` osztályt, majd a `Presentation` osztály `ProtectionManager` objektumán keresztül hívja meg a `RemoveEncryption` vagy a `RemoveWriteProtection` metódust.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Jelszavas védelem eltávolítása ODP-ből C++ segítségével" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.odp", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.odp", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.odp", SaveFormat::Odp);
+presentation->Save(u"unlocked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Az írásvédelem eltávolítása a ODP prezentációból a C++ használatával" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Írásvédelem eltávolítása ODP-bemutatóból C++ segítségével" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.odp");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.odp", SaveFormat::Odp);
+presentation->Save(u"unlocked-write-protected-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jelszó eltávolítása ODP-ből C++ segítségével" intro="Kövesse az alábbi lépéseket a védelem eltávolításához egy ODP-bemutatóból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a ODP-fájlt a `Presentation` osztállyal, és ha jelszó szükséges, a `LoadOptions` használatával.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}A védelem eltávolításához használja a `ProtectionManager` objektumot.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Titkosított fájloknál hívja meg a `RemoveEncryption`, írásvédett fájloknál a `RemoveWriteProtection` metódust.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a feloldott fájlt a `SaveFormat::Odp` használatával.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jelszó eltávolítása a(z) ODP eszközről a(z) C++ segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Az Aspose.Slides segítségével készült" title="ODP-fájlok feloldása online" description="Az ingyenes Aspose.Slides Unlock alkalmazás az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját ODP fájljaival." button="Aspose.Slides Unlock megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan távolítja el az Aspose.Slides a védelmet, mielőtt kódot írna.
+- Távolítsa el a jelszót vagy az írásvédelmet a ODP-fájlból.
+- Töltse le a feloldott fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a ODP fájlok védelmének eltávolítására." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok a feloldáshoz" subTitle="C++ segítségével a következő formátumokból is eltávolíthatja a védelmet." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A ODP betöltése a Presentation egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Távolítsa el az írásvédelmet a ProtectionManager osztály segítségével
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése ODP formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott formátumok" subTitle="A C++ használatával a következő formátumokból is eltávolíthatja a védelmet:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

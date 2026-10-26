@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Ξεκλείδωμα αρχείων παρουσίασης ODP χρησιμοποιώντας Python
+title: Ξεκλείδωμα παρουσιάσεων ODP με Python
 url: /el/python-net/unlock/odp/
-keywords: Κατάργηση Προστασίας εγγραφής ODP, Αποκρυπτογράφηση μιας παρουσίασης ODP, Ξεκλείδωμα ODP Παρουσίασης, Κατάργηση προστασίας ODP
-description: Πηγαίος κώδικας Python για κατάργηση προστασίας από την παρουσίαση ODP.
+description: Καταργήστε την κρυπτογράφηση και την προστασία εγγραφής από παρουσιάσεις ODP με Python.
+keywords: ξεκλείδωμα ODP, κατάργηση κωδικού από ODP, κατάργηση κρυπτογράφησης ODP, κατάργηση προστασίας εγγραφής από ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Ξεκλείδωμα ODP χρησιμοποιώντας Python" h2="Δημιουργήστε τις δικές σας εφαρμογές Python για να καταργήσετε κωδικούς πρόσβασης από το PowerPoint και να αποκρυπτογραφήσετε τα αρχεία παρουσιάσεων χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Ξεκλείδωμα παρουσιάσεων ODP με Python" h2="Δημιουργήστε εφαρμογές Python που καταργούν κωδικούς ανοίγματος και προστασία εγγραφής από παρουσιάσεις ODP με το Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Κατάργηση κρυπτογράφησης από την παρουσίαση ODP μέσω Python" %}}
-Χρησιμοποιώντας το Aspose.Slides for Python via .NET, μπορείτε να καταργήσετε την προστασία κρυπτογράφησης ή κωδικού πρόσβασης στην παρουσίαση ODP. Με αυτόν τον τρόπο, οι χρήστες μπορούν να έχουν πρόσβαση ή να τροποποιούν την παρουσίαση ODP χωρίς περιορισμούς.
-{{% blocks/products/pf/agp/code-block title="Απενεργοποίηση προστασίας κωδικού πρόσβασης από ODP χρησιμοποιώντας Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Κατάργηση κρυπτογράφησης και προστασίας εγγραφής από ODP με Python" variant="code" %}}
 
-```py
+Με το [Aspose.Slides for Python via .NET](/slides/el/python-net/) μπορείτε να καταργήσετε την κρυπτογράφηση που απαιτεί κωδικό για το άνοιγμα μιας παρουσίασης ODP ή να απενεργοποιήσετε την προστασία εγγραφής της. Για να ανοίξετε ένα κρυπτογραφημένο αρχείο, δώστε τον τρέχοντα κωδικό μέσω `LoadOptions`.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κατάργηση κρυπτογράφησης από παρουσίαση ODP – Python" >}}
+```python
+load_options = slides.LoadOptions()
+load_options.password = "current_password"
 
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.odp", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("encrypted-presentation.odp", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("decrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Κατάργηση προστασίας εγγραφής από την παρουσίαση ODP χρησιμοποιώντας Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.odp") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.odp", slides.export.SaveFormat.ODP)
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κατάργηση προστασίας εγγραφής από παρουσίαση ODP – Python" >}}
+```python
+with slides.Presentation("write-protected-presentation.odp") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να καταργήσετε την προστασία από ένα ODP με Python" intro="Ακολουθήστε αυτά τα βήματα για να καταργήσετε την προστασία από μια παρουσίαση ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Για κρυπτογραφημένο αρχείο ODP, ορίστε τον τρέχοντα κωδικό στο `LoadOptions` και, στη συνέχεια, ανοίξτε το αρχείο με `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε `ProtectionManager.remove_encryption` για να καταργήσετε τον κωδικό ανοίγματος ή `ProtectionManager.remove_write_protection` για να απενεργοποιήσετε την προστασία εγγραφής.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε την παρουσίαση που προκύπτει με `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Πώς να αφαιρέσετε τον κωδικό πρόσβασης από το ODP μέσω του Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Δημιουργήθηκε με το Aspose.Slides" title="Διαδικτυακό ξεκλείδωμα αρχείων ODP" description="Η δωρεάν εφαρμογή Aspose.Slides Unlock έχει δημιουργηθεί με το [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/el/python-net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Unlock" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides καταργεί την προστασία πριν γράψετε κώδικα.
+- Καταργήστε τον κωδικό πρόσβασης ή την προστασία εγγραφής από το αρχείο ODP.
+- Κατεβάστε το ξεκλείδωτο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την κατάργηση προστασίας από αρχεία ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές για ξεκλείδωμα" subTitle="Χρησιμοποιήστε Python για να καταργήσετε την προστασία από άλλες υποστηριζόμενες μορφές παρουσίασης." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του ODP με μια παρουσία παρουσίασης
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Καταργήστε την προστασία εγγραφής χρησιμοποιώντας την κλάση ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να καταργήσετε την προστασία από τις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: باز کردن قفل فایل‌های ارائه ODP با استفاده از C++
+title: باز کردن قفل ارائه‌های ODP با C++
 url: /fa/cpp/unlock/odp/
-keywords: حذف حفاظت نوشتن ODP، رمزگشایی یک ODP، باز کردن قفل ارائه ODP، لغو محافظت ODP
-description: کد منبع C++ برای حذف حفاظت از ارائه ODP.
+description: قفل ارائه‌های ODP را در C++ باز کنید. از Aspose.Slides for C++ برای حذف رمزگذاری و محافظت در برابر نوشتن از فایل‌های ارائه استفاده کنید.
+keywords: حذف محافظت در برابر نوشتن ODP، رمزگشایی ODP، باز کردن قفل ارائه ODP، برداشتن محافظت ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="باز کردن قفل ODP با استفاده از C++" h2="برای حذف رمزهای عبور از PowerPoint و رمزگشایی فایل‌های ارائه‌ها با استفاده از APIهای سمت سرور، برنامه‌های C++ خود را بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="باز کردن قفل ODP با C++" h2="از Aspose.Slides for C++ برای حذف رمزگذاری و محافظت در برابر نوشتن از فایل‌های ارائه بدون Microsoft PowerPoint استفاده کنید." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="حذف رمزگذاری از ارائه ODP از طریق C++" %}}
-با استفاده از Aspose.Slides for C++، می‌توانید حفاظت از رمزگذاری یا رمز عبور را در ارائه ODP حذف کنید. به این ترتیب، کاربران می توانند بدون محدودیت به ارائه ODP دسترسی داشته باشند یا آن را تغییر دهند.
-{{% blocks/products/pf/agp/code-block title="غیرفعال کردن محافظت از رمز عبور از ODP با استفاده از C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حذف محافظت از ارائه ODP با C++" variant="code" %}}
 
+Aspose.Slides for C++ به شما امکان می‌دهد رمزگذاری یا محافظت در برابر نوشتن را از ارائه‌های ODP حذف کنید. برای باز کردن فایل رمزگذاری‌شده از `LoadOptions` استفاده کنید، سپس با شیء `ProtectionManager` در کلاس `Presentation`، `RemoveEncryption` یا `RemoveWriteProtection` را فراخوانی کنید.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف محافظت با رمز عبور از ODP با C++" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.odp", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.odp", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.odp", SaveFormat::Odp);
+presentation->Save(u"unlocked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="حذف محافظت نوشتاری از ارائه ODP با استفاده از C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف محافظت در برابر نوشتن از ارائه ODP با C++" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.odp");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.odp", SaveFormat::Odp);
+presentation->Save(u"unlocked-write-protected-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه حذف رمز عبور از ODP با C++" intro="برای حذف محافظت از ارائه ODP، این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل ODP را با کلاس `Presentation` و در صورت نیاز به رمز عبور با `LoadOptions` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}برای حذف محافظت از شیء `ProtectionManager` استفاده کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}برای فایل‌های رمزگذاری‌شده `RemoveEncryption` و برای فایل‌های محافظت‌شده در برابر نوشتن `RemoveWriteProtection` را فراخوانی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل بازشده را با `SaveFormat::Odp` ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه حذف رمز عبور از ODP از طریق C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="ساخته شده با Aspose.Slides" title="باز کردن قفل فایل‌های ODP به‌صورت آنلاین" description="برنامه رایگان Aspose.Slides Unlock با [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های ODP شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Unlock" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه محافظت را حذف می‌کند.
+- رمز عبور یا محافظت در برابر نوشتن را از فایل ODP خود حذف کنید.
+- فایل بازشده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای حذف حفاظت از فایل‌های ODP هستند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر فرمت‌های پشتیبانی‌شده برای باز کردن قفل" subTitle="با C++ می‌توانید محافظت را از فرمت‌های زیر نیز حذف کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/cpp/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/cpp/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP را با یک نمونه از Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Write Protection را با استفاده از کلاس ProtectionManager حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را در قالب ODP ذخیره کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های پشتیبانی شده" subTitle="با استفاده از C++، می‌توانید محافظت از قالب‌های زیر را نیز حذف کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

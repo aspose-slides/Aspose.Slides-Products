@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET kullanarak PPT Sunum Dosyalarının Kilidini Açın
+title: .NET ile PPT Sunum Dosyalarının Kilidini Açma
 url: /tr/net/unlock/ppt/
-keywords: PPT Yazma Korumasını Kaldırma, Bir PPT Şifresini Çözme, PPT Sunumunun Kilidini Kaldırma, PPT Korumasını Kaldırma
-description: PPT Sunumundan korumayı kaldırmak için C# kaynak kodu.
+description: PPT sunumlarından parola korumasını kaldırmak için C# kaynak kodu.
+keywords: PPT yazma korumasını kaldırma, PPT şifresini çözme, PPT sunumunun kilidini açma, PPT korumasını kaldırma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# kullanarak PPT kilidini açın" h2="PowerPoint'ten şifreleri kaldırmak ve sunucu tarafı API'lerini kullanarak sunum dosyalarının şifresini çözmek için kendi .NET uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# ile PPT Dosyalarının Kilidini Açma" h2="Sunucu tarafı API'lerle sunumlardan şifrelemeyi ve yazma korumasını kaldıran .NET uygulamaları geliştirin." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# Aracılığıyla PPT Sunumundan Şifrelemeyi Kaldırma" %}}
-Aspose.Slides for .NET kullanarak, PPT sunumundaki şifrelemeyi veya parola korumasını kaldırabilirsiniz. Bu şekilde, kullanıcılar kısıtlama olmadan PPT sunumuna erişebilir veya sunuyu değiştirebilir.
-{{% blocks/products/pf/agp/code-block title="C# kullanarak PPT Şifre Korumasını devre dışı bırakma" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# ile PPT Sunumundan Korumayı Kaldırma" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/tr/net/) ile bir PPT sunumundan şifrelemeyi veya yazma korumasını kaldırabilirsiniz. Şifrelemeyi kaldırmak için sunumu doğru parolayla yükleyin ve `ProtectionManager.RemoveEncryption` çağırın. Yazma korumasını kaldırmak için `ProtectionManager.RemoveWriteProtection` çağırın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile PPT Sunumundan Şifrelemeyi Kaldırma" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.ppt", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.ppt", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.ppt", SaveFormat.Ppt);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C# Kullanarak PPT Sunumundan Yazma Korumasını Kaldırma" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile PPT Sunumundan Yazma Korumasını Kaldırma" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.ppt");
 
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.ppt", SaveFormat.Ppt);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# ile PPT Sunumundan Koruma Nasıl Kaldırılır" intro="Bir PPT sunumundan korumayı kaldırmak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPT dosyasını `Presentation` ile yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Şifreli bir dosya için, yüklemeden önce parolayı `LoadOptions.Password` aracılığıyla belirtin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uygulanan korumaya göre `ProtectionManager.RemoveEncryption` veya `ProtectionManager.RemoveWriteProtection` çağırın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kilidi açılan sunumu `SaveFormat.Ppt` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# Aracılığıyla PPT Ürününün Şifresini Kaldırma" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Aspose.Slides ile geliştirildi" title="PPT Dosyalarının Kilidini Çevrimiçi Açma" description="Ücretsiz Aspose.Slides Unlock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPT dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Unlock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın korumayı nasıl kaldırdığını görün.
+- PPT dosyanızdan parolayı veya yazma korumasını kaldırın.
+- Kilidi açılan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPT dosyalarından korumayı kaldırma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Kilit Açma İçin Desteklenen Diğer Biçimler" subTitle="C# ile aşağıdaki biçimlerden de korumayı kaldırabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak Yazma Korumasını kaldırın
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPT biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Formatlar" subTitle="C# kullanarak, aşağıdaki biçimlerden de korumayı kaldırabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

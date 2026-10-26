@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Schalten Sie ODP-Präsentationsdateien mit .NET frei
+title: ODP-Präsentationsdateien mit .NET entsperren
 url: /de/net/unlock/odp/
-keywords: Schreibschutz ODP entfernen, ODP entschlüsseln, ODP-Präsentation entsperren, ODP-Schutz aufheben
-description: C#-Quellcode zum Entfernen des Schutzes aus der ODP-Präsentation.
+description: C#-Quellcode zum Entfernen des Kennwortschutzes von ODP-Präsentationen.
+keywords: ODP-Schreibschutz entfernen, ODP entschlüsseln, ODP-Präsentation entsperren, ODP-Schutz aufheben
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Schalten Sie ODP mit C# frei" h2="Erstellen Sie Ihre eigenen .NET-Apps, um Passwörter aus PowerPoint zu entfernen und Präsentationsdateien mithilfe serverseitiger APIs zu entschlüsseln." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ODP-Dateien mit C# entsperren" h2="Entwickeln Sie .NET-Apps, die mit serverseitigen APIs Verschlüsselung und Schreibschutz von Präsentationen entfernen." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Entfernen der Verschlüsselung aus der ODP-Präsentation über C#" %}}
-Mit Aspose.Slides for .NET können Sie die Verschlüsselung oder den Passwortschutz für die Präsentation ODP entfernen. Auf diese Weise können Benutzer ohne Einschränkungen auf die ODP-Präsentation zugreifen oder diese ändern.
-{{% blocks/products/pf/agp/code-block title="Deaktivieren des Passwortschutzes von ODP mit C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Schutz von einer ODP-Präsentation mit C# entfernen" variant="code" %}}
 
+Mit [Aspose.Slides for .NET](/slides/de/net/) entfernen Sie die Verschlüsselung oder den Schreibschutz von einer ODP-Präsentation. Um die Verschlüsselung zu entfernen, laden Sie die Präsentation mit dem richtigen Kennwort und rufen `ProtectionManager.RemoveEncryption` auf. Um den Schreibschutz zu entfernen, rufen Sie `ProtectionManager.RemoveWriteProtection` auf.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Verschlüsselung von einer ODP-Präsentation mit C# entfernen" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.odp", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.odp", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Schreibschutz aus der ODP-Präsentation mit C# entfernen" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Schreibschutz von einer ODP-Präsentation mit C# entfernen" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.odp");
 
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So entfernen Sie den Schutz von einer ODP-Präsentation mit C#" intro="Gehen Sie wie folgt vor, um den Schutz von einer ODP-Präsentation zu entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die ODP-Datei mit `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Geben Sie bei einer verschlüsselten Datei vor dem Laden das Kennwort über `LoadOptions.Password` an.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie je nach Schutzart `ProtectionManager.RemoveEncryption` oder `ProtectionManager.RemoveWriteProtection` auf.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die entsperrte Präsentation mit `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So entfernen Sie das Passwort aus ODP über C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Entwickelt mit Aspose.Slides" title="ODP-Dateien online entsperren" description="Die kostenlose App Aspose.Slides Unlock basiert auf [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen ODP-Dateien leisten kann." button="Aspose.Slides Unlock öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides den Schutz entfernt, bevor Sie Code schreiben.
+- Entfernen Sie das Kennwort oder den Schreibschutz aus Ihrer ODP-Datei.
+- Laden Sie die entsperrte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Entfernen des Schutzes von ODP-Dateien." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate zum Entsperren" subTitle="Mit C# können Sie den Schutz auch von den folgenden Formaten entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie ODP mit einer Präsentationsinstanz
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Entfernen Sie den Schreibschutz mithilfe der ProtectionManager-Klasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ergebnis im Format ODP speichern
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Formate" subTitle="Mit C# können Sie den Schutz auch von den folgenden Formaten entfernen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: فتح ملفات PPTX العروض التقديمية باستخدام Java
+title: إلغاء قفل ملفات العروض التقديمية PPTX باستخدام Java
 url: /ar/java/unlock/pptx/
-keywords: إزالة الحماية ضد الكتابة PPTX ، وفك تشفير PPTX ، وإلغاء تأمين PPTX Presentation ، وإلغاء الحماية PPTX
-description: Java شفرة المصدر لإزالة الحماية من العرض التقديمي PPTX.
+description: أزل كلمات المرور والحماية من الكتابة من العروض التقديمية PPTX في Java باستخدام Aspose.Slides for Java.
+keywords: إزالة حماية PPTX من الكتابة، فك تشفير PPTX، إلغاء قفل عرض PPTX، إزالة حماية PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="فتح PPTX باستخدام Java" h2="أنشئ تطبيقات Java الخاصة بك لإزالة كلمات المرور من PowerPoint وفك تشفير ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="إلغاء قفل PPTX باستخدام Java" h2="أنشئ تطبيقات Java تزيل كلمات المرور والحماية من الكتابة من ملفات العروض التقديمية باستخدام واجهات API من جانب الخادم." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="إزالة التشفير من العرض التقديمي PPTX عبر Java" %}}
-باستخدام Aspose.Slides for Java ، يمكنك إزالة التشفير أو الحماية بكلمة مرور على العرض التقديمي PPTX. بهذه الطريقة ، يصبح المستخدمون قادرين على الوصول إلى العرض التقديمي PPTX أو تعديله دون قيود.
-{{% blocks/products/pf/agp/code-block title="تعطيل الحماية بكلمة مرور من PPTX باستخدام Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="إزالة الحماية من عرض تقديمي PPTX عبر Java" variant="code" %}}
 
+باستخدام [Aspose.Slides for Java](/slides/ar/java/)، يمكنك إزالة التشفير أو الحماية من الكتابة من عرض تقديمي PPTX. استخدم `LoadOptions.setPassword` لفتح عرض تقديمي مشفّر، وأسلوبَي `removeEncryption` و`removeWriteProtection` في `ProtectionManager` لإزالة إعدادات الحماية.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة الحماية بكلمة مرور من PPTX باستخدام Java" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.pptx", loadOptions);
+
+Presentation presentation = new Presentation("presentation.pptx", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="إزالة الحماية ضد الكتابة من العرض التقديمي PPTX باستخدام Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة الحماية من الكتابة من عرض تقديمي PPTX باستخدام Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية إزالة كلمة المرور من PPTX عبر Java" intro="اتبع هذه الخطوات لإزالة الحماية من عرض تقديمي PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حمّل ملف PPTX باستخدام الفئة `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استخدم `LoadOptions.setPassword` عندما يكون العرض التقديمي مشفّرًا.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استدعِ `removeEncryption` أو `removeWriteProtection` من الكائن `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ العرض التقديمي غير المقفل باستخدام `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية إزالة كلمة المرور من PPTX عبر Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="مبني باستخدام Aspose.Slides" title="إلغاء قفل ملفات PPTX عبر الإنترنت" description="تطبيق Aspose.Slides Unlock المجاني مبني باستخدام [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Unlock" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يزيل Aspose.Slides الحماية قبل كتابة الكود.
+- أزل كلمة المرور أو الحماية من الكتابة من ملف PPTX.
+- نزّل الملف غير المقفل.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات إزالة الحماية من ملفات PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة لإلغاء القفل" subTitle="باستخدام Java، يمكنك أيضًا إزالة الحماية من التنسيقات التالية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل PPTX بمثيل عرض تقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة الحماية ضد الكتابة باستخدام فئة ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="التنسيقات الأخرى المدعومة" subTitle="باستخدام Java ، يمكنك أيضًا إزالة الحماية من التنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

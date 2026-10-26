@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Sblocca i file di presentazione PPTX utilizzando .NET
+title: Sbloccare file di presentazione PPTX con .NET
 url: /it/net/unlock/pptx/
-keywords: Rimuovi la protezione da scrittura PPTX, decodifica di una presentazione PPTX, sblocca presentazione PPTX, rimuovi protezione PPTX
-description: codice sorgente C# per rimuovere la protezione dalla presentazione PPTX.
+description: Codice sorgente C# per rimuovere la protezione con password dalle presentazioni PPTX.
+keywords: Rimuovere protezione da scrittura PPTX, decrittografare PPTX, sbloccare presentazione PPTX, rimuovere protezione PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Sblocca PPTX utilizzando C#" h2="Crea le tue app .NET per rimuovere le password da PowerPoint e decrittografare i file delle presentazioni utilizzando le API lato server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Sbloccare file PPTX con C#" h2="Crea app .NET che rimuovono crittografia e protezione da scrittura dalle presentazioni con API lato server." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Rimozione della crittografia dalla presentazione PPTX tramite C#" %}}
-Utilizzando Aspose.Slides for .NET, puoi rimuovere la crittografia o la protezione tramite password sulla presentazione PPTX. In questo modo, gli utenti possono accedere o modificare la presentazione PPTX senza restrizioni.
-{{% blocks/products/pf/agp/code-block title="Disattivazione della protezione con password da PPTX utilizzando C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Rimuovere la protezione da una presentazione PPTX con C#" variant="code" %}}
 
+Con [Aspose.Slides for .NET](/slides/it/net/), puoi rimuovere la crittografia o la protezione da scrittura da una presentazione PPTX. Per rimuovere la crittografia, carica la presentazione con la password corretta e chiama `ProtectionManager.RemoveEncryption`. Per rimuovere la protezione da scrittura, chiama `ProtectionManager.RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Rimuovere la crittografia da una presentazione PPTX con C#" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.pptx", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Rimozione della protezione da scrittura dalla presentazione PPTX utilizzando C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Rimuovere la protezione da scrittura da una presentazione PPTX con C#" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.pptx");
 
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come rimuovere la protezione da una presentazione PPTX con C#" intro="Segui questi passaggi per rimuovere la protezione da una presentazione PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carica il file PPTX con `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Per un file crittografato, fornisci la password tramite `LoadOptions.Password` prima di caricarlo.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chiama `ProtectionManager.RemoveEncryption` o `ProtectionManager.RemoveWriteProtection`, a seconda della protezione applicata.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva la presentazione sbloccata con `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come rimuovere la password da PPTX tramite C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Realizzato con Aspose.Slides" title="Sbloccare file PPTX online" description="L'app gratuita Aspose.Slides Unlock è realizzata con [Aspose.Slides for .NET](https://products.aspose.com/slides/it/net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPTX." button="Apri Aspose.Slides Unlock" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides rimuove la protezione prima di scrivere codice.
+- Rimuovi la password o la protezione da scrittura dal tuo file PPTX.
+- Scarica il file sbloccato.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per rimuovere la protezione dai file PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altri formati supportati per lo sblocco" subTitle="Con C#, puoi rimuovere la protezione anche dai seguenti formati." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica PPTX con un'istanza di Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Rimuovere la protezione da scrittura utilizzando la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il risultato nel formato PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Altri formati supportati" subTitle="Utilizzando C#, puoi anche rimuovere la protezione dai seguenti formati:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lås upp ODP presentationsfiler med .NET
+title: Lås upp ODP-presentationsfiler med .NET
 url: /sv/net/unlock/odp/
-keywords: Ta bort skrivskydd ODP, dekryptera en ODP, låsa upp ODP presentation, ta bort skydd ODP
-description: Källkod för C# för att ta bort skydd från ODP presentation.
+description: C#-källkod för att ta bort lösenordsskydd från ODP-presentationer.
+keywords: Ta bort ODP-skrivskydd, dekryptera ODP, lås upp ODP-presentation, ta bort skydd från ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lås upp ODP med C#" h2="Bygg dina egna .NET-appar för att ta bort lösenord från PowerPoint och dekryptera presentationsfiler med API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Lås upp ODP-filer med C#" h2="Bygg .NET-appar som tar bort kryptering och skrivskydd från presentationer med API:er på serversidan." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ta bort kryptering från ODP presentation via C#" %}}
-Med Aspose.Slides for .NET kan du ta bort krypteringen eller lösenordsskyddet i presentationen av ODP. På så sätt kan användare komma åt eller ändra ODP-presentationen utan begränsningar.
-{{% blocks/products/pf/agp/code-block title="Inaktivera lösenordsskydd från ODP med C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ta bort skydd från en ODP-presentation med C#" variant="code" %}}
 
+Med [Aspose.Slides for .NET](/slides/sv/net/) kan du ta bort kryptering eller skrivskydd från en ODP-presentation. Om du vill ta bort krypteringen läser du in presentationen med rätt lösenord och anropar `ProtectionManager.RemoveEncryption`. Om du vill ta bort skrivskyddet anropar du `ProtectionManager.RemoveWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ta bort kryptering från en ODP-presentation med C#" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.odp", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.odp", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ta bort skrivskydd från ODP presentation med C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ta bort skrivskydd från en ODP-presentation med C#" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.odp");
 
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så tar du bort skydd från en ODP-presentation med C#" intro="Följ de här stegen för att ta bort skyddet från en ODP-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs in ODP-filen med `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}För en krypterad fil anger du lösenordet via `LoadOptions.Password` innan du läser in den.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa `ProtectionManager.RemoveEncryption` eller `ProtectionManager.RemoveWriteProtection`, beroende på vilket skydd som används.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den upplåsta presentationen med `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man tar bort lösenord från ODP via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Byggd med Aspose.Slides" title="Lås upp ODP-filer online" description="Den kostnadsfria appen Aspose.Slides Unlock är byggd med [Aspose.Slides for .NET](https://products.aspose.com/slides/sv/net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna ODP-filer." button="Öppna Aspose.Slides Unlock" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides tar bort skydd innan du skriver kod.
+- Ta bort lösenordet eller skrivskyddet från din ODP-fil.
+- Ladda ned den upplåsta filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att ta bort skyddet från ODP-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för upplåsning" subTitle="Med C# kan du även ta bort skydd från följande format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda ODP med en instans av Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort skrivskydd med ProtectionManager-klassen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet i formatet ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds" subTitle="Med C# kan du också ta bort skyddet från följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

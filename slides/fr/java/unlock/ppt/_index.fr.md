@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Déverrouillez les fichiers de présentation PPT à l'aide de Java
+title: Déverrouiller des fichiers de présentation PPT avec Java
 url: /fr/java/unlock/ppt/
-keywords: Supprimer la protection en écriture PPT, décrypter une présentation PPT, déverrouiller la présentation PPT, déprotéger PPT
-description: Code source Java pour supprimer la protection de la présentation PPT.
+description: Supprimez les mots de passe et la protection en écriture des présentations PPT en Java avec Aspose.Slides for Java.
+keywords: Supprimer la protection en écriture PPT, déchiffrer un PPT, déverrouiller une présentation PPT, déprotéger un PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Déverrouillez PPT en utilisant Java" h2="Créez vos propres applications Java pour supprimer les mots de passe de PowerPoint et décrypter les fichiers de présentations à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Déverrouiller un PPT avec Java" h2="Créez des applications Java qui suppriment les mots de passe et la protection en écriture des fichiers de présentation grâce à des API côté serveur." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Suppression du cryptage de la présentation PPT via Java" %}}
-À l'aide de Aspose.Slides for Java, vous pouvez supprimer le cryptage ou la protection par mot de passe de la présentation PPT. De cette façon, les utilisateurs peuvent accéder ou modifier la présentation PPT sans restrictions.
-{{% blocks/products/pf/agp/code-block title="Désactivation de la protection par mot de passe de PPT à l'aide de Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Supprimer la protection d'une présentation PPT avec Java" variant="code" %}}
 
+Avec [Aspose.Slides for Java](/slides/fr/java/), vous pouvez supprimer le chiffrement ou la protection en écriture d'une présentation PPT. Utilisez `LoadOptions.setPassword` pour ouvrir une présentation chiffrée, puis les méthodes `removeEncryption` et `removeWriteProtection` de `ProtectionManager` pour supprimer les paramètres de protection.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer la protection par mot de passe d'un PPT avec Java" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.ppt", loadOptions);
+
+Presentation presentation = new Presentation("presentation.ppt", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Suppression de la protection en écriture de la présentation PPT à l'aide de Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer la protection en écriture d'une présentation PPT avec Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment supprimer le mot de passe d'un PPT avec Java" intro="Suivez ces étapes pour supprimer la protection d'une présentation PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le fichier PPT avec la classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Utilisez `LoadOptions.setPassword` si la présentation est chiffrée.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Appelez `removeEncryption` ou `removeWriteProtection` de l'objet `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez la présentation déverrouillée avec `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment supprimer le mot de passe de PPT via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Conçu avec Aspose.Slides" title="Déverrouiller des fichiers PPT en ligne" description="L'application gratuite Aspose.Slides Unlock est conçue avec [Aspose.Slides for Java](https://products.aspose.com/slides/fr/java/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Unlock" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides supprime la protection avant d'écrire du code.
+- Supprimez le mot de passe ou la protection en écriture de votre fichier PPT.
+- Téléchargez le fichier déverrouillé.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour supprimer la protection des fichiers PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats pris en charge pour le déverrouillage" subTitle="Avec Java, vous pouvez également supprimer la protection des formats suivants." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/java/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/java/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger PPT avec une instance de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Supprimer la protection en écriture à l'aide de la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrer le résultat au format PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats pris en charge" subTitle="À l'aide de Java, vous pouvez également supprimer la protection des formats suivants :" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/java/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

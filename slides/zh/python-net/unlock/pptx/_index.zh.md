@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Python 解锁 PPTX 演示文件
+title: 使用 Python 解锁 PPTX 演示文稿
 url: /zh/python-net/unlock/pptx/
-keywords: 删除写保护 PPTX，解密 PPTX，解锁 PPTX 演示文稿，取消保护 PPTX
-description: Python 源代码，用于移除 PPTX 演示文稿的保护。
+description: 使用 Python 移除 PPTX 演示文稿的加密和写保护。
+keywords: 解锁 PPTX, 移除 PPTX 密码, 移除 PPTX 加密, 移除 PPTX 写保护
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Python 解锁 PPTX" h2="构建您自己的 Python 应用程序以从 PowerPoint 中删除密码并使用服务器端 API 解密演示文稿文件。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Python 解锁 PPTX 演示文稿" h2="构建使用 Aspose.Slides 移除 PPTX 演示文稿打开密码和写保护设置的 Python 应用程序。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通过 Python 从 PPTX 演示文稿中删除加密" %}}
-使用 Aspose.Slides for Python via .NET，您可以取消对 PPTX 演示文稿的加密或密码保护。这样，用户就可以不受限制地访问或修改 PPTX 表示。
-{{% blocks/products/pf/agp/code-block title="使用 Python 从 PPTX 禁用密码保护" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 Python 移除 PPTX 的加密和写保护" variant="code" %}}
 
+借助 [Aspose.Slides for Python via .NET](/slides/zh/python-net/)，您可以移除打开 PPTX 演示文稿时需要输入密码的加密，或清除其写保护设置。要打开加密文件，请通过 `LoadOptions` 提供当前密码。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="移除 PPTX 演示文稿的加密 – Python" >}}
 ```py
+load_options = slides.LoadOptions()
+load_options.password = "123123"
 
-import aspose.slides as slides
-
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.pptx", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.pptx", slides.export.SaveFormat.PPTX)
+with slides.Presentation("encrypted-presentation.pptx", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("unencrypted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="使用 Python 从 PPTX 演示文稿中删除写保护" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="移除 PPTX 演示文稿的写保护 – Python" >}}
 ```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.pptx") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.pptx", slides.export.SaveFormat.PPTX)
-
+with slides.Presentation("write-protected-presentation.pptx") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 Python 移除 PPTX 的保护" intro="按照以下步骤移除 PPTX 演示文稿的保护。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}对于加密的 PPTX 文件，请在 `LoadOptions` 中设置当前密码，然后使用 `Presentation` 打开文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}调用 `ProtectionManager.remove_encryption` 移除打开密码，或调用 `ProtectionManager.remove_write_protection` 清除写保护。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.PPTX` 保存生成的演示文稿。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通过 Python 从 PPTX 中删除密码" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="基于 Aspose.Slides 构建" title="在线解锁 PPTX 文件" description="免费的 Aspose.Slides Unlock 应用基于 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh/python-net/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 PPTX 文件。" button="打开 Aspose.Slides Unlock" note="[所有免费应用](https://products.aspose.app/slides/family)" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先了解 Aspose.Slides 如何移除保护。
+- 移除 PPTX 文件的密码或写保护。
+- 下载解锁后的文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="这些是取消 PPTX 文件保护的步骤。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持解锁的格式" subTitle="使用 Python 移除其他受支持演示文稿格式的保护。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/python-net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/python-net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 实例加载 PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 ProtectionManager 类删除写保护
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPTX 格式保存结果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用 Python，您还可以取消对以下格式的保护：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/python-net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

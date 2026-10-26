@@ -1,81 +1,66 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Oldja fel a PPTX prezentációs fájlokat a Java használatával
+title: PPTX-bemutatófájlok feloldása Java segítségével
 url: /hu/java/unlock/pptx/
-keywords: Írásvédelem eltávolítása PPTX, PPTX kód visszafejtése, PPTX bemutató feloldása, PPTX védelem feloldása
-description: Java forráskód a PPTX prezentáció védelmének eltávolításához.
+description: Távolítsa el a jelszavakat és az írásvédelmet PPTX-bemutatókból Java nyelven az Aspose.Slides for Java segítségével.
+keywords: Írásvédelem eltávolítása PPTX, PPTX visszafejtése, PPTX-bemutató feloldása, PPTX védelmének megszüntetése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Oldja fel a PPTX zárolását a Java használatával" h2="Készítse el saját Java-alkalmazásait, amelyek segítségével eltávolíthatja a jelszavakat a PowerPointból, és dekódolhatja a prezentációs fájlokat szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPTX feloldása Java segítségével" h2="Készítsen Java-alkalmazásokat, amelyek kiszolgálóoldali API-kkal távolítják el a jelszavakat és az írásvédelmet a bemutatófájlokból." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Titkosítás eltávolítása a PPTX prezentációból a következőn keresztül: Java" %}}
-A Aspose.Slides for Java használatával eltávolíthatja a titkosítást vagy a jelszavas védelmet a PPTX bemutatóról. Így a felhasználók korlátozás nélkül hozzáférhetnek vagy módosíthatják a PPTX prezentációt.
-{{% blocks/products/pf/agp/code-block title="A jelszavas védelem letiltása a(z) PPTX alkalmazásban a(z) Java használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Védelem eltávolítása PPTX-bemutatóból Java segítségével" variant="code" %}}
 
+Az [Aspose.Slides for Java](/slides/hu/java/) segítségével eltávolíthatja a titkosítást vagy az írásvédelmet egy PPTX-bemutatóból. Titkosított bemutató megnyitásához használja a `LoadOptions.setPassword` metódust, a védelmi beállítások eltávolításához pedig a `ProtectionManager` `removeEncryption` és `removeWriteProtection` metódusát.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Jelszavas védelem eltávolítása PPTX-ből Java segítségével" >}}
 ```java
-
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("123123");
-Presentation presentation = new Presentation("pres.pptx", loadOptions);
+
+Presentation presentation = new Presentation("presentation.pptx", loadOptions);
 try {
     presentation.getProtectionManager().removeEncryption();
     presentation.save("encryption-removed.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Az írásvédelem eltávolítása a PPTX prezentációból a Java használatával" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Írásvédelem eltávolítása PPTX-bemutatóból Java segítségével" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().removeWriteProtection();
     presentation.save("write-protection-removed.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jelszó eltávolítása PPTX-ből Java segítségével" intro="Kövesse az alábbi lépéseket a védelem eltávolításához egy PPTX-bemutatóból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a PPTX-fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ha a bemutató titkosított, használja a `LoadOptions.setPassword` metódust.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hívja meg a `ProtectionManager` objektum `removeEncryption` vagy `removeWriteProtection` metódusát.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a feloldott bemutatót a `SaveFormat.Pptx` használatával.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jelszó eltávolítása a(z) PPTX eszközről a(z) Java segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Az Aspose.Slides segítségével készült" title="PPTX-fájlok feloldása online" description="Az ingyenes Aspose.Slides Unlock alkalmazás az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Unlock megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan távolítja el az Aspose.Slides a védelmet, mielőtt kódot írna.
+- Távolítsa el a jelszót vagy az írásvédelmet a PPTX-fájlból.
+- Töltse le a feloldott fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PPTX fájlok védelmének eltávolítására." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok a feloldáshoz" subTitle="Java segítségével a következő formátumokból is eltávolíthatja a védelmet." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPTX betöltése a Presentation egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Távolítsa el az írásvédelmet a ProtectionManager osztály segítségével
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPTX formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott formátumok" subTitle="A Java használatával a következő formátumokból is eltávolíthatja a védelmet:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

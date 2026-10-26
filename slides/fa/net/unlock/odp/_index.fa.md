@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: باز کردن قفل فایل‌های ارائه ODP با استفاده از .NET
+title: باز کردن قفل فایل‌های ارائه ODP با .NET
 url: /fa/net/unlock/odp/
-keywords: حذف حفاظت نوشتن ODP، رمزگشایی یک ODP، باز کردن قفل ارائه ODP، لغو محافظت ODP
-description: کد منبع C# برای حذف حفاظت از ارائه ODP.
+description: کد منبع C# برای حذف محافظت با رمز عبور از ارائه‌های ODP.
+keywords: حذف محافظت در برابر نوشتن ODP، رمزگشایی ODP، باز کردن قفل ارائه ODP، برداشتن محافظت ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="باز کردن قفل ODP با استفاده از C#" h2="برای حذف رمزهای عبور از PowerPoint و رمزگشایی فایل‌های ارائه‌ها با استفاده از APIهای سمت سرور، برنامه‌های .NET خود را بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="باز کردن قفل فایل‌های ODP با C#" h2="برنامه‌های .NET بسازید که با APIهای سمت سرور رمزگذاری و محافظت در برابر نوشتن را از ارائه‌ها حذف می‌کنند." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="حذف رمزگذاری از ارائه ODP از طریق C#" %}}
-با استفاده از Aspose.Slides for .NET، می‌توانید حفاظت از رمزگذاری یا رمز عبور را در ارائه ODP حذف کنید. به این ترتیب، کاربران می توانند بدون محدودیت به ارائه ODP دسترسی داشته باشند یا آن را تغییر دهند.
-{{% blocks/products/pf/agp/code-block title="غیرفعال کردن محافظت از رمز عبور از ODP با استفاده از C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حذف محافظت از ارائه ODP با C#" variant="code" %}}
 
+با [Aspose.Slides for .NET](/slides/fa/net/) می‌توانید رمزگذاری یا محافظت در برابر نوشتن را از ارائه ODP حذف کنید. برای حذف رمزگذاری، ارائه را با رمز عبور درست بارگذاری کنید و `ProtectionManager.RemoveEncryption` را فراخوانی کنید. برای حذف محافظت در برابر نوشتن، `ProtectionManager.RemoveWriteProtection` را فراخوانی کنید.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف رمزگذاری از ارائه ODP با C#" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.odp", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.odp", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="حذف محافظت نوشتاری از ارائه ODP با استفاده از C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف محافظت در برابر نوشتن از ارائه ODP با C#" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.odp");
 
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.odp", SaveFormat.Odp);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه حذف محافظت از ارائه ODP با C#" intro="برای حذف محافظت از ارائه ODP، این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل ODP را با `Presentation` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}برای فایل رمزگذاری‌شده، پیش از بارگذاری رمز عبور را از طریق `LoadOptions.Password` وارد کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}بسته به نوع محافظت اعمال‌شده، `ProtectionManager.RemoveEncryption` یا `ProtectionManager.RemoveWriteProtection` را فراخوانی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ارائه بازشده را با `SaveFormat.Odp` ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه حذف رمز عبور از ODP از طریق C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="ساخته شده با Aspose.Slides" title="باز کردن قفل فایل‌های ODP به‌صورت آنلاین" description="برنامه رایگان Aspose.Slides Unlock با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های ODP شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Unlock" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه محافظت را حذف می‌کند.
+- رمز عبور یا محافظت در برابر نوشتن را از فایل ODP خود حذف کنید.
+- فایل بازشده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای حذف حفاظت از فایل‌های ODP هستند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر فرمت‌های پشتیبانی‌شده برای باز کردن قفل" subTitle="با C# می‌توانید محافظت را از فرمت‌های زیر نیز حذف کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP را با یک نمونه از Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Write Protection را با استفاده از کلاس ProtectionManager حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را در قالب ODP ذخیره کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های پشتیبانی شده" subTitle="با استفاده از C#، می‌توانید محافظت از قالب‌های زیر را نیز حذف کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

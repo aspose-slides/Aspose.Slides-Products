@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python を使用して PPT プレゼンテーション ファイルのロックを解除します
+title: Python で PPT プレゼンテーションのロックを解除する
 url: /ja/python-net/unlock/ppt/
-keywords: 書き込み保護 PPT を削除、PPT を復号化、PPT プレゼンテーションのロックを解除、PPT の保護を解除
-description: Python ソース コードを使用して、PPT プレゼンテーションから保護を削除します。
+description: Python で PPT プレゼンテーションの暗号化と書き込み保護を解除します。
+keywords: PPT のロック解除, PPT のパスワード解除, PPT の暗号化解除, PPT の書き込み保護解除
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python を使用して PPT のロックを解除する" h2="独自の Python アプリを構築して、PowerPoint からパスワードを削除し、サーバー側 API を使用してプレゼンテーション ファイルを復号化します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python で PPT プレゼンテーションのロックを解除する" h2="Aspose.Slides で PPT プレゼンテーションの読み取りパスワードと書き込み保護設定を解除する Python アプリケーションを構築できます。" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python 経由で PPT プレゼンテーションから暗号化を削除しています" %}}
-Aspose.Slides for Python via .NET を使用すると、PPT プレゼンテーションの暗号化またはパスワード保護を削除できます。このようにして、ユーザーは制限なく PPT プレゼンテーションにアクセスしたり変更したりできるようになります。
-{{% blocks/products/pf/agp/code-block title="Python を使用して PPT からのパスワード保護を無効にする" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python で PPT の暗号化と書き込み保護を解除する" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/ja/python-net/) を使用すると、PPT プレゼンテーションを開く際にパスワードを要求する暗号化を解除したり、書き込み保護の設定を解除したりできます。暗号化されたファイルを開くには、`LoadOptions` で現在のパスワードを指定します。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT プレゼンテーションの暗号化を解除する – Python" >}}
 ```py
+load_options = slides.LoadOptions()
+load_options.password = "123123"
 
-import aspose.slides as slides
-
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.ppt", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.ppt", slides.export.SaveFormat.PPT)
+with slides.Presentation("encrypted-presentation.ppt", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("unencrypted-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Python を使用して PPT プレゼンテーションから書き込み保護を削除します" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT プレゼンテーションの書き込み保護を解除する – Python" >}}
 ```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.ppt") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.ppt", slides.export.SaveFormat.PPT)
-
+with slides.Presentation("write-protected-presentation.ppt") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python で PPT の保護を解除する方法" intro="PPT プレゼンテーションの保護を解除するには、次の手順に従います。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}暗号化された PPT ファイルの場合は、`LoadOptions` に現在のパスワードを設定してから、`Presentation` でファイルを開きます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}読み取りパスワードを解除するには `ProtectionManager.remove_encryption` を、書き込み保護を解除するには `ProtectionManager.remove_write_protection` を呼び出します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.PPT` を指定して、結果のプレゼンテーションを保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python 経由で PPT からパスワードを削除する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Aspose.Slides で構築" title="PPT ファイルのロックをオンラインで解除する" description="無料の Aspose.Slides Unlock アプリは、上記のコードと同じ API である [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ja/python-net/) で構築されています。アプリを開いて、ご自身の PPT ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Unlock を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がどのように保護を解除するかを確認できます。
+- PPT ファイルからパスワードや書き込み保護を解除できます。
+- ロックを解除したファイルをダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、PPT ファイルから保護を削除する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="ロック解除に対応しているその他の形式" subTitle="Python を使用して、サポートされているその他のプレゼンテーション形式の保護も解除できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションのインスタンスで PPT を読み込みます
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager クラスを使用して書き込み保護を削除する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-結果を PPT 形式で保存
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている形式" subTitle="Python を使用すると、次の形式から保護を削除することもできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

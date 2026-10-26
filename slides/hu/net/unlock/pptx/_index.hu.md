@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Oldja fel a PPTX prezentációs fájlokat a .NET használatával
+title: PPTX-bemutatófájlok feloldása .NET segítségével
 url: /hu/net/unlock/pptx/
-keywords: Írásvédelem eltávolítása PPTX, PPTX kód visszafejtése, PPTX bemutató feloldása, PPTX védelem feloldása
-description: C# forráskód a PPTX prezentáció védelmének eltávolításához.
+description: C#-forráskód a jelszavas védelem eltávolításához PPTX-bemutatókból.
+keywords: PPTX írásvédelem eltávolítása, PPTX visszafejtése, PPTX-bemutató feloldása, PPTX védelmének megszüntetése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Oldja fel a PPTX zárolását a C# használatával" h2="Készítse el saját .NET-alkalmazásait, amelyek segítségével eltávolíthatja a jelszavakat a PowerPointból, és dekódolhatja a prezentációs fájlokat szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPTX-fájlok feloldása C# segítségével" h2="Készítsen .NET-alkalmazásokat, amelyek kiszolgálóoldali API-kkal távolítják el a titkosítást és az írásvédelmet a bemutatókból." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Titkosítás eltávolítása a PPTX prezentációból a következőn keresztül: C#" %}}
-A Aspose.Slides for .NET használatával eltávolíthatja a titkosítást vagy a jelszavas védelmet a PPTX bemutatóról. Így a felhasználók korlátozás nélkül hozzáférhetnek vagy módosíthatják a PPTX prezentációt.
-{{% blocks/products/pf/agp/code-block title="A jelszavas védelem letiltása a(z) PPTX alkalmazásban a(z) C# használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Védelem eltávolítása PPTX-bemutatóból C# segítségével" variant="code" %}}
 
+Az [Aspose.Slides for .NET](/slides/hu/net/) segítségével eltávolíthatja a titkosítást vagy az írásvédelmet egy PPTX-bemutatóból. A titkosítás eltávolításához töltse be a bemutatót a helyes jelszóval, és hívja meg a `ProtectionManager.RemoveEncryption` metódust. Az írásvédelem eltávolításához hívja meg a `ProtectionManager.RemoveWriteProtection` metódust.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Titkosítás eltávolítása PPTX-bemutatóból C# segítségével" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.pptx", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Az írásvédelem eltávolítása a PPTX prezentációból a C# használatával" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Írásvédelem eltávolítása PPTX-bemutatóból C# segítségével" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.pptx");
 
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan távolítható el a védelem egy PPTX-bemutatóból C# segítségével" intro="Kövesse az alábbi lépéseket a védelem eltávolításához egy PPTX-bemutatóból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a PPTX-fájlt a `Presentation` segítségével.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Titkosított fájl esetén a betöltés előtt adja meg a jelszót a `LoadOptions.Password` tulajdonságban.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Az alkalmazott védelemtől függően hívja meg a `ProtectionManager.RemoveEncryption` vagy a `ProtectionManager.RemoveWriteProtection` metódust.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a feloldott bemutatót a `SaveFormat.Pptx` használatával.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jelszó eltávolítása a(z) PPTX eszközről a(z) C# segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Az Aspose.Slides segítségével készült" title="PPTX-fájlok feloldása online" description="Az ingyenes Aspose.Slides Unlock alkalmazás az [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Unlock megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan távolítja el az Aspose.Slides a védelmet, mielőtt kódot írna.
+- Távolítsa el a jelszót vagy az írásvédelmet a PPTX-fájlból.
+- Töltse le a feloldott fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PPTX fájlok védelmének eltávolítására." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok a feloldáshoz" subTitle="C# segítségével a következő formátumokból is eltávolíthatja a védelmet." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPTX betöltése a Presentation egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Távolítsa el az írásvédelmet a ProtectionManager osztály segítségével
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPTX formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott formátumok" subTitle="A C# használatával a következő formátumokból is eltávolíthatja a védelmet:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

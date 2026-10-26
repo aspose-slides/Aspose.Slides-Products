@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Déverrouillez les fichiers de présentation PPTX à l'aide de Python
+title: Déverrouiller des présentations PPTX avec Python
 url: /fr/python-net/unlock/pptx/
-keywords: Supprimer la protection en écriture PPTX, décrypter une présentation PPTX, déverrouiller la présentation PPTX, déprotéger PPTX
-description: Code source Python pour supprimer la protection de la présentation PPTX.
+description: Supprimez le chiffrement et la protection en écriture des présentations PPTX avec Python.
+keywords: déverrouiller un PPTX, supprimer le mot de passe d'un PPTX, supprimer le chiffrement PPTX, supprimer la protection en écriture d'un PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Déverrouillez PPTX en utilisant Python" h2="Créez vos propres applications Python pour supprimer les mots de passe de PowerPoint et décrypter les fichiers de présentations à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Déverrouiller des présentations PPTX avec Python" h2="Créez des applications Python qui suppriment les mots de passe d'ouverture et la protection en écriture des présentations PPTX avec Aspose.Slides." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Suppression du cryptage de la présentation PPTX via Python" %}}
-À l'aide de Aspose.Slides for Python via .NET, vous pouvez supprimer le cryptage ou la protection par mot de passe de la présentation PPTX. De cette façon, les utilisateurs peuvent accéder ou modifier la présentation PPTX sans restrictions.
-{{% blocks/products/pf/agp/code-block title="Désactivation de la protection par mot de passe de PPTX à l'aide de Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Supprimer le chiffrement et la protection en écriture d'un PPTX avec Python" variant="code" %}}
 
+Avec [Aspose.Slides for Python via .NET](/slides/fr/python-net/), vous pouvez supprimer le chiffrement qui exige un mot de passe pour ouvrir une présentation PPTX, ou désactiver sa protection en écriture. Pour ouvrir un fichier chiffré, indiquez le mot de passe actuel via `LoadOptions`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer le chiffrement d'une présentation PPTX – Python" >}}
 ```py
+load_options = slides.LoadOptions()
+load_options.password = "123123"
 
-import aspose.slides as slides
-
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.pptx", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.pptx", slides.export.SaveFormat.PPTX)
+with slides.Presentation("encrypted-presentation.pptx", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("unencrypted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Suppression de la protection en écriture de la présentation PPTX à l'aide de Python" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer la protection en écriture d'une présentation PPTX – Python" >}}
 ```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.pptx") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.pptx", slides.export.SaveFormat.PPTX)
-
+with slides.Presentation("write-protected-presentation.pptx") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment supprimer la protection d'un PPTX avec Python" intro="Suivez ces étapes pour supprimer la protection d'une présentation PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Pour un fichier PPTX chiffré, définissez le mot de passe actuel dans `LoadOptions`, puis ouvrez le fichier avec `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Appelez `ProtectionManager.remove_encryption` pour supprimer le mot de passe d'ouverture, ou `ProtectionManager.remove_write_protection` pour désactiver la protection en écriture.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez la présentation obtenue avec `SaveFormat.PPTX`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment supprimer le mot de passe de PPTX via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Conçu avec Aspose.Slides" title="Déverrouiller des fichiers PPTX en ligne" description="L'application gratuite Aspose.Slides Unlock est conçue avec [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fr/python-net/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPTX." button="Ouvrir Aspose.Slides Unlock" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides supprime la protection avant d'écrire du code.
+- Supprimez le mot de passe ou la protection en écriture de votre fichier PPTX.
+- Téléchargez le fichier déverrouillé.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour supprimer la protection des fichiers PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats pris en charge pour le déverrouillage" subTitle="Utilisez Python pour supprimer la protection d'autres formats de présentation pris en charge." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/python-net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/python-net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger PPTX avec une instance de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Supprimer la protection en écriture à l'aide de la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrer le résultat au format PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats pris en charge" subTitle="À l'aide de Python, vous pouvez également supprimer la protection des formats suivants :" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/python-net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

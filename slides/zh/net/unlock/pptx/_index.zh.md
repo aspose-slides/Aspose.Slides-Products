@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 .NET 解锁 PPTX 演示文件
+title: 使用 .NET 解锁 PPTX 演示文稿文件
 url: /zh/net/unlock/pptx/
-keywords: 删除写保护 PPTX，解密 PPTX，解锁 PPTX 演示文稿，取消保护 PPTX
-description: C# 源代码，用于移除 PPTX 演示文稿的保护。
+description: 移除 PPTX 演示文稿密码保护的 C# 源代码。
+keywords: 移除 PPTX 写保护, 解密 PPTX, 解锁 PPTX 演示文稿, 取消 PPTX 保护
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C# 解锁 PPTX" h2="构建您自己的 .NET 应用程序以从 PowerPoint 中删除密码并使用服务器端 API 解密演示文稿文件。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C# 解锁 PPTX 文件" h2="构建 .NET 应用，通过服务器端 API 移除演示文稿的加密和写保护。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通过 C# 从 PPTX 演示文稿中删除加密" %}}
-使用 Aspose.Slides for .NET，您可以取消对 PPTX 演示文稿的加密或密码保护。这样，用户就可以不受限制地访问或修改 PPTX 表示。
-{{% blocks/products/pf/agp/code-block title="使用 C# 从 PPTX 禁用密码保护" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 C# 移除 PPTX 演示文稿的保护" variant="code" %}}
 
+借助 [Aspose.Slides for .NET](/slides/zh/net/)，您可以移除 PPTX 演示文稿的加密或写保护。要移除加密，请使用正确的密码加载演示文稿并调用 `ProtectionManager.RemoveEncryption`。要移除写保护，请调用 `ProtectionManager.RemoveWriteProtection`。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C# 移除 PPTX 演示文稿的加密" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.pptx", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="使用 C# 从 PPTX 演示文稿中删除写保护" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C# 移除 PPTX 演示文稿的写保护" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.pptx");
 
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.pptx", SaveFormat.Pptx);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 C# 移除 PPTX 演示文稿的保护" intro="按照以下步骤移除 PPTX 演示文稿的保护。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 加载 PPTX 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}对于加密文件，请在加载前通过 `LoadOptions.Password` 提供密码。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}根据所应用的保护类型，调用 `ProtectionManager.RemoveEncryption` 或 `ProtectionManager.RemoveWriteProtection`。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.Pptx` 保存解锁后的演示文稿。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通过 C# 从 PPTX 中删除密码" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="基于 Aspose.Slides 构建" title="在线解锁 PPTX 文件" description="免费的 Aspose.Slides Unlock 应用基于 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 PPTX 文件。" button="打开 Aspose.Slides Unlock" note="[所有免费应用](https://products.aspose.app/slides/family)" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先了解 Aspose.Slides 如何移除保护。
+- 移除 PPTX 文件的密码或写保护。
+- 下载解锁后的文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="这些是取消 PPTX 文件保护的步骤。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持解锁的格式" subTitle="使用 C#，您还可以移除以下格式的保护。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/net/unlock/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 实例加载 PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 ProtectionManager 类删除写保护
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPTX 格式保存结果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的格式" subTitle="使用 C#，您还可以取消对以下格式的保护：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/unlock/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

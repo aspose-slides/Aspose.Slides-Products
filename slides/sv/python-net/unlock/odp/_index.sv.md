@@ -1,78 +1,57 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lås upp ODP presentationsfiler med Python
+title: Lås upp ODP-presentationer med Python
 url: /sv/python-net/unlock/odp/
-keywords: Ta bort skrivskydd ODP, dekryptera en ODP, låsa upp ODP presentation, ta bort skydd ODP
-description: Källkod för Python för att ta bort skydd från ODP presentation.
+description: Ta bort kryptering och skrivskydd från ODP-presentationer med Python.
+keywords: lås upp ODP, ta bort lösenord från ODP, ta bort ODP-kryptering, ta bort skrivskydd från ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lås upp ODP med Python" h2="Bygg dina egna Python-appar för att ta bort lösenord från PowerPoint och dekryptera presentationsfiler med API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Lås upp ODP-presentationer med Python" h2="Bygg Python-program som tar bort öppningslösenord och skrivskydd från ODP-presentationer med Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ta bort kryptering från ODP presentation via Python" %}}
-Med Aspose.Slides for Python via .NET kan du ta bort krypteringen eller lösenordsskyddet i presentationen av ODP. På så sätt kan användare komma åt eller ändra ODP-presentationen utan begränsningar.
-{{% blocks/products/pf/agp/code-block title="Inaktivera lösenordsskydd från ODP med Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ta bort kryptering och skrivskydd från ODP med Python" variant="code" %}}
 
-```py
+Med [Aspose.Slides for Python via .NET](/slides/sv/python-net/) kan du ta bort krypteringen som kräver ett lösenord för att öppna en ODP-presentation, eller stänga av dess skrivskydd. Om du vill öppna en krypterad fil anger du det aktuella lösenordet via `LoadOptions`.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ta bort kryptering från en ODP-presentation – Python" >}}
+```python
+load_options = slides.LoadOptions()
+load_options.password = "current_password"
 
-loadOptions = slides.LoadOptions()
-loadOptions.password = "123123"
-with slides.Presentation("encrypted-pres.odp", loadOptions) as pres:
-    pres.protection_manager.remove_encryption()
-    pres.save("encryption-removed.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("encrypted-presentation.odp", load_options) as presentation:
+    presentation.protection_manager.remove_encryption()
+    presentation.save("decrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ta bort skrivskydd från ODP presentation med Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("write-protected-pres.odp") as pres:
-    pres.protection_manager.remove_write_protection()
-    pres.save("write-protection-removed.odp", slides.export.SaveFormat.ODP)
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ta bort skrivskydd från en ODP-presentation – Python" >}}
+```python
+with slides.Presentation("write-protected-presentation.odp") as presentation:
+    presentation.protection_manager.remove_write_protection()
+    presentation.save("unprotected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så tar du bort skydd från ODP med Python" intro="Följ de här stegen för att ta bort skyddet från en ODP-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}För en krypterad ODP-fil anger du det aktuella lösenordet i `LoadOptions` och öppnar sedan filen med `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa `ProtectionManager.remove_encryption` för att ta bort öppningslösenordet, eller `ProtectionManager.remove_write_protection` för att stänga av skrivskyddet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den resulterande presentationen med `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man tar bort lösenord från ODP via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Byggd med Aspose.Slides" title="Lås upp ODP-filer online" description="Den kostnadsfria appen Aspose.Slides Unlock är byggd med [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/sv/python-net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna ODP-filer." button="Öppna Aspose.Slides Unlock" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides tar bort skydd innan du skriver kod.
+- Ta bort lösenordet eller skrivskyddet från din ODP-fil.
+- Ladda ned den upplåsta filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att ta bort skyddet från ODP-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för upplåsning" subTitle="Använd Python för att ta bort skydd från andra presentationsformat som stöds." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda ODP med en instans av Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort skrivskydd med ProtectionManager-klassen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet i formatet ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds" subTitle="Med Python kan du också ta bort skyddet från följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

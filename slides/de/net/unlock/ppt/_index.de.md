@@ -1,76 +1,58 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Schalten Sie PPT-Präsentationsdateien mit .NET frei
+title: PPT-Präsentationsdateien mit .NET entsperren
 url: /de/net/unlock/ppt/
-keywords: Schreibschutz PPT entfernen, PPT entschlüsseln, PPT-Präsentation entsperren, PPT-Schutz aufheben
-description: C#-Quellcode zum Entfernen des Schutzes aus der PPT-Präsentation.
+description: C#-Quellcode zum Entfernen des Kennwortschutzes von PPT-Präsentationen.
+keywords: PPT-Schreibschutz entfernen, PPT entschlüsseln, PPT-Präsentation entsperren, PPT-Schutz aufheben
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Schalten Sie PPT mit C# frei" h2="Erstellen Sie Ihre eigenen .NET-Apps, um Passwörter aus PowerPoint zu entfernen und Präsentationsdateien mithilfe serverseitiger APIs zu entschlüsseln." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPT-Dateien mit C# entsperren" h2="Entwickeln Sie .NET-Apps, die mit serverseitigen APIs Verschlüsselung und Schreibschutz von Präsentationen entfernen." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Entfernen der Verschlüsselung aus der PPT-Präsentation über C#" %}}
-Mit Aspose.Slides for .NET können Sie die Verschlüsselung oder den Passwortschutz für die Präsentation PPT entfernen. Auf diese Weise können Benutzer ohne Einschränkungen auf die PPT-Präsentation zugreifen oder diese ändern.
-{{% blocks/products/pf/agp/code-block title="Deaktivieren des Passwortschutzes von PPT mit C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Schutz von einer PPT-Präsentation mit C# entfernen" variant="code" %}}
 
+Mit [Aspose.Slides for .NET](/slides/de/net/) entfernen Sie die Verschlüsselung oder den Schreibschutz von einer PPT-Präsentation. Um die Verschlüsselung zu entfernen, laden Sie die Präsentation mit dem richtigen Kennwort und rufen `ProtectionManager.RemoveEncryption` auf. Um den Schreibschutz zu entfernen, rufen Sie `ProtectionManager.RemoveWriteProtection` auf.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Verschlüsselung von einer PPT-Präsentation mit C# entfernen" >}}
 ```cs
+var loadOptions = new LoadOptions { Password = "password" };
+using var presentation = new Presentation("encrypted-presentation.ppt", loadOptions);
 
-LoadOptions loadOptions = new LoadOptions {Password = "123123"};
-using (Presentation presentation = new Presentation("pres.ppt", loadOptions))
-{
-    presentation.ProtectionManager.RemoveEncryption();
-    presentation.Save("encryption-removed.ppt", SaveFormat.Ppt);
-}
+presentation.ProtectionManager.RemoveEncryption();
+presentation.Save("unencrypted-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Schreibschutz aus der PPT-Präsentation mit C# entfernen" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Schreibschutz von einer PPT-Präsentation mit C# entfernen" >}}
 ```cs
+using var presentation = new Presentation("write-protected-presentation.ppt");
 
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.RemoveWriteProtection();
-    presentation.Save("write-protection-removed.ppt", SaveFormat.Ppt);
-}
+presentation.ProtectionManager.RemoveWriteProtection();
+presentation.Save("unprotected-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So entfernen Sie den Schutz von einer PPT-Präsentation mit C#" intro="Gehen Sie wie folgt vor, um den Schutz von einer PPT-Präsentation zu entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die PPT-Datei mit `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Geben Sie bei einer verschlüsselten Datei vor dem Laden das Kennwort über `LoadOptions.Password` an.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie je nach Schutzart `ProtectionManager.RemoveEncryption` oder `ProtectionManager.RemoveWriteProtection` auf.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die entsperrte Präsentation mit `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So entfernen Sie das Passwort aus PPT über C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Entwickelt mit Aspose.Slides" title="PPT-Dateien online entsperren" description="Die kostenlose App Aspose.Slides Unlock basiert auf [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPT-Dateien leisten kann." button="Aspose.Slides Unlock öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides den Schutz entfernt, bevor Sie Code schreiben.
+- Entfernen Sie das Kennwort oder den Schreibschutz aus Ihrer PPT-Datei.
+- Laden Sie die entsperrte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Entfernen des Schutzes von PPT-Dateien." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate zum Entsperren" subTitle="Mit C# können Sie den Schutz auch von den folgenden Formaten entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/unlock/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie PPT mit einer Präsentationsinstanz
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Entfernen Sie den Schreibschutz mithilfe der ProtectionManager-Klasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ergebnis im Format PPT speichern
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Formate" subTitle="Mit C# können Sie den Schutz auch von den folgenden Formaten entfernen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/unlock/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

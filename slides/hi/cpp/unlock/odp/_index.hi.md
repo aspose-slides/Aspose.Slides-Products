@@ -1,76 +1,62 @@
 ---
-lastmod: 2023-06-07
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ का उपयोग करके ODP प्रस्तुति फ़ाइलें अनलॉक करें
+title: C++ का उपयोग करके ODP प्रेजेंटेशन अनलॉक करें
 url: /hi/cpp/unlock/odp/
-keywords: राइट प्रोटेक्शन हटाएं ODP, ODP को डिक्रिप्ट करना, ODP प्रेजेंटेशन को अनलॉक करना, ODP को अनप्रोटेक्ट करना
-description: ODP प्रस्तुति से सुरक्षा हटाने के लिए C++ स्रोत कोड.
+description: C++ में ODP प्रेजेंटेशन अनलॉक करें। प्रेजेंटेशन फ़ाइलों से एन्क्रिप्शन और राइट प्रोटेक्शन हटाने के लिए Aspose.Slides for C++ का उपयोग करें।
+keywords: ODP राइट प्रोटेक्शन हटाएं, ODP डिक्रिप्ट करें, ODP प्रेजेंटेशन अनलॉक करें, ODP की सुरक्षा हटाएं
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++ का इस्तेमाल करके ODP को अनलॉक करें" h2="PowerPoint से पासवर्ड निकालने और सर्वर-साइड API का उपयोग करके प्रस्तुतियों की फ़ाइलों को डिक्रिप्ट करने के लिए अपना C++ ऐप्लिकेशन बनाएं." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ का उपयोग करके ODP अनलॉक करें" h2="Microsoft PowerPoint के बिना प्रेजेंटेशन फ़ाइलों से एन्क्रिप्शन और राइट प्रोटेक्शन हटाने के लिए Aspose.Slides for C++ का उपयोग करें।" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++ के माध्यम से ODP प्रस्तुतिकरण से एन्क्रिप्शन को निकाला जा रहा है" %}}
-{Product_name} का उपयोग करके, आप ODP प्रस्तुति पर एन्क्रिप्शन या पासवर्ड सुरक्षा को निकाल सकते हैं। इस तरह, उपयोगकर्ता बिना किसी प्रतिबंध के ODP प्रस्तुति को एक्सेस या संशोधित कर सकते हैं।
-{{% blocks/products/pf/agp/code-block title="C++ का उपयोग करके ODP से पासवर्ड सुरक्षा अक्षम करना" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ के ज़रिए ODP प्रेजेंटेशन से सुरक्षा हटाना" variant="code" %}}
 
+Aspose.Slides for C++ से आप ODP प्रेजेंटेशन से एन्क्रिप्शन या राइट प्रोटेक्शन हटा सकते हैं। एन्क्रिप्टेड फ़ाइल खोलने के लिए `LoadOptions` का उपयोग करें, फिर `RemoveEncryption` या `RemoveWriteProtection` कॉल करने के लिए `Presentation` क्लास के `ProtectionManager` ऑब्जेक्ट का उपयोग करें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ का उपयोग करके ODP से पासवर्ड सुरक्षा हटाना" >}}
 ```cpp
+auto loadOptions = MakeObject<LoadOptions>();
+loadOptions->set_Password(u"password");
 
-auto loadOptions = System::MakeObject<LoadOptions>();
-loadOptions->set_Password(u"123123");
-    
-auto presentation = System::MakeObject<Presentation>(u"pres.odp", loadOptions);
+auto presentation = MakeObject<Presentation>(u"encrypted-presentation.odp", loadOptions);
 
 presentation->get_ProtectionManager()->RemoveEncryption();
-presentation->Save(u"encryption-removed.odp", SaveFormat::Odp);
+presentation->Save(u"unlocked-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C++ का उपयोग करके ODP प्रस्तुतिकरण से लेखन सुरक्षा हटाना" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ का उपयोग करके ODP प्रेजेंटेशन से राइट प्रोटेक्शन हटाना" >}}
 ```cpp
-
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
+auto presentation = MakeObject<Presentation>(u"write-protected-presentation.odp");
 
 presentation->get_ProtectionManager()->RemoveWriteProtection();
-presentation->Save(u"write-protection-removed.odp", SaveFormat::Odp);
+presentation->Save(u"unlocked-write-protected-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ के ज़रिए ODP से पासवर्ड कैसे हटाएं" intro="ODP प्रेजेंटेशन से सुरक्षा हटाने के लिए ये चरण अपनाएं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` क्लास से ODP फ़ाइल लोड करें, और पासवर्ड ज़रूरी होने पर `LoadOptions` का उपयोग करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}सुरक्षा हटाने के लिए `ProtectionManager` ऑब्जेक्ट का उपयोग करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}एन्क्रिप्टेड फ़ाइलों के लिए `RemoveEncryption` या राइट-प्रोटेक्टेड फ़ाइलों के लिए `RemoveWriteProtection` कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}अनलॉक की गई फ़ाइल को `SaveFormat::Odp` के साथ सेव करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="ODP से C++ के जरिए पासवर्ड कैसे हटाएं" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/unlock-app label="Aspose.Slides से निर्मित" title="ODP फ़ाइलें ऑनलाइन अनलॉक करें" description="मुफ़्त Aspose.Slides Unlock ऐप [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी ODP फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Unlock खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides सुरक्षा कैसे हटाता है।
+- अपनी ODP फ़ाइल से पासवर्ड या राइट प्रोटेक्शन हटाएं।
+- अनलॉक की गई फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/unlock-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये ODP फ़ाइलों से सुरक्षा हटाने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अनलॉक करने के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="C++ का उपयोग करके आप निम्न फ़ॉर्मेट से भी सुरक्षा हटा सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/unlock/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/unlock/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ ODP लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-सुरक्षा प्रबंधक वर्ग का उपयोग करके लेखन सुरक्षा हटाएं
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम ODP प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित प्रारूप" subTitle="C++ का इस्तेमाल करके, आप नीचे दिए गए फ़ॉर्मैट से भी सुरक्षा हटा सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/unlock/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/unlock/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
