@@ -1,67 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Java 編輯 ODP 演示文件
+title: 使用 Java 對 ODP 簡報檔案進行去識別化
 url: /zh-hant/java/redaction/odp/
-keywords: 編輯 ODP，查找並替換 ODP 中的文本，更新 ODP 演示文稿
-description: Java 源代碼，用於查找和替換 ODP 演示文稿中的文本。
+description: 使用 Aspose.Slides for Java 在 Java 中尋找和取代 ODP 簡報中的文字。
+keywords: ODP 去識別化，在 ODP 中尋找和取代文字，更新 ODP 簡報
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Java 編輯 ODP" h2="構建您自己的 Java 應用程序，以使用服務器端 API 查找和替換演示文件中的文本。了解如何搜索和替換 ODP 演示文稿的內容、評論或元數據中的文本" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Java 對 ODP 進行去識別化" h2="建置透過伺服器端 API 在簡報檔案中尋找和取代文字的 Java 應用程式。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 Java 編輯 ODP 演示文稿" %}}
-只需幾行代碼即可使用 Aspose.Slides for Java API 搜索和替換內容、評論、幻燈片註釋或元數據中的文本。在 PowerPoint 和 OpenOffice 中查找和替換文本。通過正則表達式數據匹配在演示文稿中編輯文本、評論和元數據。
-{{% blocks/products/pf/agp/code-block title="使用 Java 編輯 ODP 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 Java 對 ODP 簡報進行去識別化" variant="code" %}}
 
+透過 [Aspose.Slides for Java](/slides/zh-hant/java/)，您可以在 ODP 簡報中尋找和取代文字。使用 `SlideUtil.findAndReplaceText` 方法搜尋簡報，並將相符的文字取代為新值。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 Java 對 ODP 簡報進行去識別化" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.odp");
 try {
     SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
     presentation.save("replaced.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何透過 Java 對 ODP 進行去識別化" intro="依照下列步驟對 ODP 簡報進行去識別化。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 類別載入 ODP 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}呼叫 `SlideUtil.findAndReplaceText` 方法尋找和取代文字。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.Odp` 儲存更新後的簡報。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 Java 編輯 ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="以 Aspose.Slides 建置" title="線上對 ODP 檔案進行去識別化" description="免費的 Aspose.Slides Redaction 應用程式以 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 ODP 檔案。" button="開啟 Aspose.Slides Redaction" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，了解 Aspose.Slides 如何尋找和取代文字。
+- 在您的 ODP 檔案中尋找和取代文字，支援規則運算式。
+- 下載去識別化後的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是編輯 ODP 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援去識別化的格式" subTitle="使用 Java，您也可以對下列格式進行去識別化。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/java/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/java/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 ODP。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) 方法查找和替換文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 ODP 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在線 ODP 編輯現場演示" sectionDescription="立即在 ODP 文檔的內容、評論或元數據中搜索和替換文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的密文格式" subTitle="使用Java，您還可以編輯以下格式：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,65 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Διορθώστε τα αρχεία παρουσίασης ODP χρησιμοποιώντας το Python
+title: Απόκρυψη κειμένου σε παρουσιάσεις ODP με Python
 url: /el/python-net/redaction/odp/
-keywords: Διορθώστε το ODP, βρείτε και αντικαταστήστε κείμενο στο ODP, ενημερώστε την παρουσίαση ODP
-description: Πηγαίος κώδικας Python για εύρεση και αντικατάσταση κειμένου στην παρουσίαση ODP.
+description: Βρείτε και αντικαταστήστε ευαίσθητο κείμενο σε παρουσιάσεις ODP με Python.
+keywords: απόκρυψη δεδομένων σε ODP, εύρεση και αντικατάσταση κειμένου σε ODP, ενημέρωση παρουσίασης ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Διορθώστε το ODP χρησιμοποιώντας το Python" h2="Δημιουργήστε τις δικές σας εφαρμογές Python για να βρείτε και να αντικαταστήσετε κείμενο σε αρχεία παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή. Μάθετε πώς να αναζητάτε και να αντικαθιστάτε κείμενο σε περιεχόμενο, σχόλια ή μεταδεδομένα των παρουσιάσεων ODP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Απόκρυψη κειμένου σε παρουσιάσεις ODP με Python" h2="Δημιουργήστε εφαρμογές Python που βρίσκουν και αντικαθιστούν ευαίσθητο κείμενο σε παρουσιάσεις με το Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Διόρθωση ODP παρουσίασης μέσω Python" %}}
-Μια βασική αναζήτηση εγγράφων και αντικατάσταση κειμένου σε περιεχόμενα, σχόλια, σημειώσεις διαφανειών ή μεταδεδομένα με API του Aspose.Slides for Python via .NET μπορεί να γίνει με λίγες μόνο γραμμές κώδικα. Εύρεση και αντικατάσταση κειμένου στο PowerPoint και το OpenOffice. Επεξεργασία κειμένου, σχολίων, μεταδεδομένων στην παρουσίαση μέσω αντιστοίχισης δεδομένων regexp.
-{{% blocks/products/pf/agp/code-block title="Διορθώστε την παρουσίαση ODP χρησιμοποιώντας Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Απόκρυψη κειμένου σε παρουσίαση ODP με Python" variant="code" %}}
 
-```py
+Με το [Aspose.Slides for Python via .NET](/slides/el/python-net/), μπορείτε να αντικαταστήσετε ευαίσθητο κείμενο σε ολόκληρη την παρουσίαση ODP. Χρησιμοποιήστε το `Presentation.replace_text` με το `TextSearchOptions` για να ελέγξετε την αναζήτηση και, στη συνέχεια, αποθηκεύστε την τροποποιημένη παρουσίαση.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Απόκρυψη κειμένου σε παρουσίαση ODP – Python" >}}
+```python
+search_options = slides.TextSearchOptions()
+search_options.whole_words_only = True
+search_options.include_notes = True
 
-with slides.Presentation("welcome-to-powerpoint.odp") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.replace_text("Confidential", "[REDACTED]", search_options, None)
+    presentation.save("redacted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να αποκρύψετε κείμενο σε παρουσίαση ODP με Python" intro="Ακολουθήστε αυτά τα βήματα για να αντικαταστήσετε ευαίσθητο κείμενο σε μια παρουσίαση ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ανοίξτε το αρχείο ODP με το `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Χρησιμοποιήστε το [`Presentation.replace_text`](https://reference.aspose.com/slides/python-net/aspose.slides/presentation/replace_text/) με το `TextSearchOptions` για να αντικαταστήσετε το απαιτούμενο κείμενο.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε την τροποποιημένη παρουσίαση με `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος επεξεργασίας του ODP μέσω του Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Δημιουργήθηκε με το Aspose.Slides" title="Διαδικτυακή απόκρυψη δεδομένων σε αρχεία ODP" description="Η δωρεάν εφαρμογή Aspose.Slides Redaction έχει δημιουργηθεί με το [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/el/python-net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Redaction" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides βρίσκει και αντικαθιστά κείμενο πριν γράψετε κώδικα.
+- Βρείτε και αντικαταστήστε κείμενο στο αρχείο ODP, ακόμη και με κανονικές εκφράσεις.
+- Κατεβάστε το επεξεργασμένο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για να επεξεργαστείτε αρχεία ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές για απόκρυψη δεδομένων" subTitle="Χρησιμοποιήστε Python για να αποκρύψετε κείμενο και σε άλλες υποστηριζόμενες μορφές παρουσιάσεων." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του ODP με μια παρουσία παρουσίασης.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Χρησιμοποιήστε τη μέθοδο [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) για να βρείτε και να αντικαταστήσετε κείμενο.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Διαδικτυακές Ζωντανές επιδείξεις επεξεργασίας ODP" sectionDescription="Αναζητήστε και αντικαταστήστε κείμενο σε περιεχόμενα, σχόλια ή μεταδεδομένα σε έγγραφα ODP αυτήν τη στιγμή." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές Redact" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να επεξεργαστείτε τις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

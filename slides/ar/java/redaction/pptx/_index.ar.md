@@ -1,67 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: قم بتنقيح PPTX لملفات العروض التقديمية باستخدام Java
+title: تنقيح ملفات عروض PPTX التقديمية باستخدام Java
 url: /ar/java/redaction/pptx/
-keywords: تنقيح PPTX والعثور على النص واستبداله في PPTX وتحديث PPTX Presentation
-description: Java شفرة المصدر للبحث عن النص واستبداله في العرض التقديمي PPTX.
+description: ابحث عن النص واستبدله في عروض PPTX التقديمية بلغة Java باستخدام Aspose.Slides for Java.
+keywords: تنقيح PPTX، البحث عن النص واستبداله في PPTX، تحديث عرض PPTX التقديمي
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="تنقيح PPTX باستخدام Java" h2="أنشئ تطبيقات Java الخاصة بك للبحث عن نص واستبداله في ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم. تعرف على كيفية البحث عن نص واستبداله في المحتوى أو التعليقات أو البيانات الوصفية للعروض التقديمية PPTX" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="تنقيح PPTX باستخدام Java" h2="أنشئ تطبيقات Java تبحث عن النص وتستبدله في ملفات العروض التقديمية باستخدام واجهات API من جانب الخادم." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="تنقيح PPTX العرض التقديمي عبر Java" %}}
-يمكن إجراء بحث أساسي عن المستند واستبدال النص في المحتويات أو التعليقات أو ملاحظات الشرائح أو البيانات الوصفية باستخدام واجهات برمجة تطبيقات Aspose.Slides for Java باستخدام سطور قليلة فقط من التعليمات البرمجية. ابحث عن النص واستبدله في PowerPoint و OpenOffice. تحرير النص والتعليقات والبيانات الوصفية في العرض التقديمي عبر مطابقة بيانات regexp.
-{{% blocks/products/pf/agp/code-block title="تنقيح PPTX العرض التقديمي باستخدام Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="تنقيح عرض PPTX تقديمي عبر Java" variant="code" %}}
 
+باستخدام [Aspose.Slides for Java](/slides/ar/java/)، يمكنك البحث عن النص واستبداله في عروض PPTX التقديمية. استخدم الأسلوب `SlideUtil.findAndReplaceText` للبحث في العرض التقديمي واستبدال النص المطابق بقيمة جديدة.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="تنقيح عرض PPTX تقديمي باستخدام Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.pptx");
 try {
     SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
     presentation.save("replaced.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية تنقيح PPTX عبر Java" intro="اتبع هذه الخطوات لتنقيح عرض PPTX تقديمي." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حمّل ملف PPTX باستخدام الفئة `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استدعِ الأسلوب `SlideUtil.findAndReplaceText` للبحث عن النص واستبداله.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ العرض التقديمي المحدَّث باستخدام `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية تنقيح PPTX عبر Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="مبني باستخدام Aspose.Slides" title="تنقيح ملفات PPTX عبر الإنترنت" description="تطبيق Aspose.Slides Redaction المجاني مبني باستخدام [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Redaction" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يبحث Aspose.Slides عن النص ويستبدله قبل أن تكتب الكود.
+- ابحث عن النص واستبدله في ملف PPTX، بما في ذلك باستخدام التعبيرات النمطية.
+- نزّل الملف المنقَّح.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي الخطوات لتنقيح ملفات PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للتنقيح" subTitle="باستخدام Java، يمكنك أيضًا تنقيح التنسيقات التالية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/redaction/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل PPTX بمثيل عرض تقديمي.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-استخدم طريقة [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) للبحث عن النص واستبداله.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="عبر الإنترنت PPTX عروض توضيحية مباشرة للتنقيح" sectionDescription="ابحث واستبدل النص في المحتويات أو التعليقات أو البيانات الوصفية في مستندات PPTX الآن." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات Redact المدعومة الأخرى" subTitle="باستخدام Java ، يمكنك أيضًا تنقيح التنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/redaction/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

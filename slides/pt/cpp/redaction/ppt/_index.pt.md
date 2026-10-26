@@ -1,64 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Redigir arquivos de apresentação PPT usando C++
+title: Tarjar apresentações PPT usando C++
 url: /pt/cpp/redaction/ppt/
-keywords: Redigir PPT, localizar e substituir texto em PPT, atualizar PPT Apresentação
-description: Código-fonte C++ para localizar e substituir texto na apresentação PPT.
+description: Tarje apresentações PPT em C++. Use o Aspose.Slides for C++ para localizar e substituir texto confidencial em arquivos de apresentação.
+keywords: tarjar PPT, localizar e substituir texto em PPT, atualizar apresentação PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Redigir PPT usando C++" h2="Crie seus próprios aplicativos C++ para localizar e substituir texto em arquivos de apresentação usando APIs do lado do servidor. Saiba como pesquisar e substituir texto em conteúdo, comentários ou metadados de apresentações PPT" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tarjar PPT usando C++" h2="Use o Aspose.Slides for C++ para localizar e substituir texto confidencial em arquivos de apresentação sem o Microsoft PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Redigir apresentação PPT via C++" %}}
-Uma pesquisa básica de documentos e substituição de texto em conteúdos, comentários, notas de slides ou metadados com Aspose.Slides for C++ APIs pode ser feita com apenas algumas linhas de código. Encontre e substitua texto no PowerPoint e no OpenOffice. Edite texto, comentários e metadados na apresentação por meio da correspondência de dados regexp.
-{{% blocks/products/pf/agp/code-block title="Redigir apresentação PPT usando C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tarjar uma apresentação PPT com C++" variant="code" %}}
 
+O Aspose.Slides for C++ permite tarjar apresentações PPT substituindo o texto confidencial dos slides. Use `SlideUtil::FindAndReplaceText` com um objeto `Presentation` para pesquisar a apresentação e substituir o texto correspondente antes de salvar o arquivo atualizado.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tarjar uma apresentação PPT usando C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.ppt");
-
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.ppt", SaveFormat::Ppt);	
+SlideUtil::FindAndReplaceText(presentation, true, u"Confidential", u"[redacted]", nullptr);
+presentation->Save(u"redacted-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como tarjar PPT com C++" intro="Siga estas etapas para tarjar uma apresentação PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carregue o arquivo PPT com a classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Use o método [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) para localizar e substituir texto confidencial.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salve o arquivo tarjado com `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Como redigir PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Criado com Aspose.Slides" title="Tarjar arquivos PPT online" description="O aplicativo gratuito Aspose.Slides Redaction é criado com [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPT." button="Abrir Aspose.Slides Redaction" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides localiza e substitui texto antes de escrever código.
+- Localize e substitua texto no seu arquivo PPT, inclusive com expressões regulares.
+- Baixe o arquivo tarjado.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estas são as etapas para redigir arquivos PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outros formatos compatíveis com tarjamento" subTitle="Com C++, você também pode tarjar os seguintes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carregue PPT com uma instância de Apresentação.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Use o método [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) para localizar e substituir o texto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salve o resultado no formato PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Demonstrações ao vivo de redação PPT on-line" sectionDescription="Pesquise e substitua texto em conteúdos, comentários ou metadados em documentos PPT agora mesmo." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Outros formatos de edição suportados" subTitle="Usando C++, você também pode redigir os seguintes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

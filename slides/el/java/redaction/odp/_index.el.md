@@ -1,67 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Διορθώστε τα αρχεία παρουσίασης ODP χρησιμοποιώντας το Java
+title: Απόκρυψη δεδομένων σε αρχεία παρουσιάσεων ODP με Java
 url: /el/java/redaction/odp/
-keywords: Διορθώστε το ODP, βρείτε και αντικαταστήστε κείμενο στο ODP, ενημερώστε την παρουσίαση ODP
-description: Πηγαίος κώδικας Java για εύρεση και αντικατάσταση κειμένου στην παρουσίαση ODP.
+description: Βρείτε και αντικαταστήστε κείμενο σε παρουσιάσεις ODP σε Java με το Aspose.Slides for Java.
+keywords: απόκρυψη δεδομένων σε ODP, εύρεση και αντικατάσταση κειμένου σε ODP, ενημέρωση παρουσίασης ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Διορθώστε το ODP χρησιμοποιώντας το Java" h2="Δημιουργήστε τις δικές σας εφαρμογές Java για να βρείτε και να αντικαταστήσετε κείμενο σε αρχεία παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή. Μάθετε πώς να αναζητάτε και να αντικαθιστάτε κείμενο σε περιεχόμενο, σχόλια ή μεταδεδομένα των παρουσιάσεων ODP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Απόκρυψη δεδομένων σε ODP με Java" h2="Δημιουργήστε εφαρμογές Java που βρίσκουν και αντικαθιστούν κείμενο σε αρχεία παρουσιάσεων με API διακομιστή." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Διόρθωση ODP παρουσίασης μέσω Java" %}}
-Μια βασική αναζήτηση εγγράφων και αντικατάσταση κειμένου σε περιεχόμενα, σχόλια, σημειώσεις διαφανειών ή μεταδεδομένα με API του Aspose.Slides for Java μπορεί να γίνει με λίγες μόνο γραμμές κώδικα. Εύρεση και αντικατάσταση κειμένου στο PowerPoint και το OpenOffice. Επεξεργασία κειμένου, σχολίων, μεταδεδομένων στην παρουσίαση μέσω αντιστοίχισης δεδομένων regexp.
-{{% blocks/products/pf/agp/code-block title="Διορθώστε την παρουσίαση ODP χρησιμοποιώντας Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Απόκρυψη δεδομένων σε παρουσίαση ODP μέσω Java" variant="code" %}}
 
+Με το [Aspose.Slides for Java](/slides/el/java/), μπορείτε να βρείτε και να αντικαταστήσετε κείμενο σε παρουσιάσεις ODP. Χρησιμοποιήστε τη μέθοδο `SlideUtil.findAndReplaceText` για να αναζητήσετε στην παρουσίαση και να αντικαταστήσετε το κείμενο που ταιριάζει με μια νέα τιμή.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Απόκρυψη δεδομένων σε παρουσίαση ODP με Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.odp");
 try {
     SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
     presentation.save("replaced.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να αποκρύψετε δεδομένα σε ODP μέσω Java" intro="Ακολουθήστε αυτά τα βήματα για να αποκρύψετε δεδομένα σε μια παρουσίαση ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε το αρχείο ODP με την κλάση `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε τη μέθοδο `SlideUtil.findAndReplaceText` για να βρείτε και να αντικαταστήσετε κείμενο.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε την ενημερωμένη παρουσίαση με `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος επεξεργασίας του ODP μέσω του Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Δημιουργήθηκε με το Aspose.Slides" title="Διαδικτυακή απόκρυψη δεδομένων σε αρχεία ODP" description="Η δωρεάν εφαρμογή Aspose.Slides Redaction έχει δημιουργηθεί με το [Aspose.Slides for Java](https://products.aspose.com/slides/el/java/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Redaction" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides βρίσκει και αντικαθιστά κείμενο πριν γράψετε κώδικα.
+- Βρείτε και αντικαταστήστε κείμενο στο αρχείο ODP, ακόμη και με κανονικές εκφράσεις.
+- Κατεβάστε το επεξεργασμένο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για να επεξεργαστείτε αρχεία ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές για απόκρυψη δεδομένων" subTitle="Με Java, μπορείτε επίσης να αποκρύψετε δεδομένα στις ακόλουθες μορφές." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/java/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/java/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του ODP με μια παρουσία παρουσίασης.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Χρησιμοποιήστε τη μέθοδο [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) για να βρείτε και να αντικαταστήσετε κείμενο.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Διαδικτυακές Ζωντανές επιδείξεις επεξεργασίας ODP" sectionDescription="Αναζητήστε και αντικαταστήστε κείμενο σε περιεχόμενα, σχόλια ή μεταδεδομένα σε έγγραφα ODP αυτήν τη στιγμή." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές Redact" subTitle="Χρησιμοποιώντας το Java, μπορείτε επίσης να επεξεργαστείτε τις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

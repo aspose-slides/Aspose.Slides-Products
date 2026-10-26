@@ -1,67 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: แก้ไขไฟล์การนำเสนอ PPTX โดยใช้ Java
+title: ปกปิดข้อมูลในไฟล์งานนำเสนอ PPTX ด้วย Java
 url: /th/java/redaction/pptx/
-keywords: แก้ไข PPTX ค้นหาและแทนที่ข้อความใน PPTX อัปเดตงานนำเสนอ PPTX
-description: ซอร์สโค้ด Java เพื่อค้นหาและแทนที่ข้อความในงานนำเสนอ PPTX
+description: ค้นหาและแทนที่ข้อความในงานนำเสนอ PPTX ด้วย Java โดยใช้ Aspose.Slides for Java
+keywords: ปกปิดข้อมูล PPTX, ค้นหาและแทนที่ข้อความใน PPTX, อัปเดตงานนำเสนอ PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="แก้ไข PPTX โดยใช้ Java" h2="สร้างแอป Java ของคุณเองเพื่อค้นหาและแทนที่ข้อความในไฟล์งานนำเสนอโดยใช้ API ฝั่งเซิร์ฟเวอร์ เรียนรู้วิธีค้นหาและแทนที่ข้อความในเนื้อหา ความคิดเห็น หรือข้อมูลเมตาของงานนำเสนอ PPTX" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ปกปิดข้อมูลใน PPTX ด้วย Java" h2="สร้างแอปพลิเคชัน Java ที่ค้นหาและแทนที่ข้อความในไฟล์งานนำเสนอด้วย API ฝั่งเซิร์ฟเวอร์" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="แก้ไขการนำเสนอ PPTX ผ่าน Java" %}}
-การค้นหาเอกสารพื้นฐานและแทนที่ข้อความในเนื้อหา ความคิดเห็น บันทึกสไลด์ หรือข้อมูลเมตาด้วย API ของ Aspose.Slides for Java สามารถทำได้ด้วยโค้ดเพียงไม่กี่บรรทัด ค้นหาและแทนที่ข้อความใน PowerPoint และ OpenOffice แก้ไขข้อความ ความคิดเห็น ข้อมูลเมตาในงานนำเสนอผ่านการจับคู่ข้อมูล regexp
-{{% blocks/products/pf/agp/code-block title="แก้ไขการนำเสนอ PPTX โดยใช้ Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ปกปิดข้อมูลในงานนำเสนอ PPTX ผ่าน Java" variant="code" %}}
 
+ด้วย [Aspose.Slides for Java](/slides/th/java/) คุณสามารถค้นหาและแทนที่ข้อความในงานนำเสนอ PPTX ได้ ใช้เมธอด `SlideUtil.findAndReplaceText` เพื่อค้นหาในงานนำเสนอและแทนที่ข้อความที่ตรงกันด้วยค่าใหม่
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ปกปิดข้อมูลในงานนำเสนอ PPTX โดยใช้ Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.pptx");
 try {
     SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
     presentation.save("replaced.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีปกปิดข้อมูลใน PPTX ผ่าน Java" intro="ทำตามขั้นตอนต่อไปนี้เพื่อปกปิดข้อมูลในงานนำเสนอ PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}โหลดไฟล์ PPTX ด้วยคลาส `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียกเมธอด `SlideUtil.findAndReplaceText` เพื่อค้นหาและแทนที่ข้อความ{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกงานนำเสนอที่อัปเดตแล้วด้วย `SaveFormat.Pptx`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีแก้ไข PPTX ผ่าน Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="สร้างด้วย Aspose.Slides" title="ปกปิดข้อมูลในไฟล์ PPTX ออนไลน์" description="แอป Aspose.Slides Redaction ฟรีนี้สร้างด้วย [Aspose.Slides for Java](https://products.aspose.com/slides/th/java/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ PPTX ของคุณเอง" button="เปิด Aspose.Slides Redaction" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides ค้นหาและแทนที่ข้อความอย่างไรก่อนเขียนโค้ด
+- ค้นหาและแทนที่ข้อความในไฟล์ PPTX ของคุณ รวมถึงด้วยนิพจน์ทั่วไป
+- ดาวน์โหลดไฟล์ที่ปกปิดข้อมูลแล้ว
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการแก้ไขไฟล์ PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับการปกปิดข้อมูล" subTitle="ด้วย Java คุณยังสามารถปกปิดข้อมูลในรูปแบบต่อไปนี้ได้" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/java/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/java/redaction/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด PPTX ด้วยอินสแตนซ์ของงานนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ใช้เมธอด [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) เพื่อค้นหาและแทนที่ข้อความ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์ในรูปแบบ PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ออนไลน์ PPTX Redaction การสาธิตสด" sectionDescription="ค้นหาและแทนที่ข้อความในเนื้อหา ความคิดเห็น หรือข้อมูลเมตาในเอกสาร PPTX ทันที" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบ Redact อื่น ๆ ที่รองรับ" subTitle="เมื่อใช้ Java คุณยังสามารถแก้ไขรูปแบบต่อไปนี้ได้ด้วย:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/redaction/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

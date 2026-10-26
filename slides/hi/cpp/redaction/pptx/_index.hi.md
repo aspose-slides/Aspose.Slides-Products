@@ -1,64 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ का इस्तेमाल करके PPTX प्रस्तुति फ़ाइलें संपादित करें
+title: C++ का उपयोग करके PPTX प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ
 url: /hi/cpp/redaction/pptx/
-keywords: PPTX संपादित करें, PPTX में टेक्स्ट ढूंढें और बदलें, PPTX प्रस्तुति अपडेट करें
-description: PPTX प्रस्तुतिकरण में टेक्स्ट खोजने और बदलने के लिए C++ स्रोत कोड.
+description: C++ में PPTX प्रेज़ेंटेशन से गोपनीय जानकारी छिपाएँ। प्रेज़ेंटेशन फ़ाइलों में संवेदनशील टेक्स्ट खोजने और बदलने के लिए Aspose.Slides for C++ का उपयोग करें।
+keywords: PPTX में गोपनीय जानकारी छिपाएँ, PPTX में टेक्स्ट खोजें और बदलें, PPTX प्रेज़ेंटेशन अपडेट करें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++ का उपयोग करके PPTX संपादित करें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में टेक्स्ट खोजने और बदलने के लिए अपना स्वयं का C++ ऐप्लिकेशन बनाएं. सामग्री, टिप्पणियों या PPTX प्रस्तुतियों के मेटाडेटा में टेक्स्ट को खोजने और बदलने का तरीका जानें" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ का उपयोग करके PPTX में गोपनीय जानकारी छिपाएँ" h2="Microsoft PowerPoint के बिना प्रेज़ेंटेशन फ़ाइलों में संवेदनशील टेक्स्ट खोजने और बदलने के लिए Aspose.Slides for C++ का उपयोग करें।" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++ के माध्यम से PPTX प्रस्तुतिकरण संपादित करें" %}}
-सामग्री, टिप्पणियों, स्लाइड नोट्स या मेटाडेटा में मूल दस्तावेज़ खोज और टेक्स्ट को Aspose.Slides for C++ API के साथ कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूँढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुतिकरण में टेक्स्ट, टिप्पणियाँ, मेटाडेटा संपादित करें।
-{{% blocks/products/pf/agp/code-block title="C++ का उपयोग करके PPTX प्रस्तुतिकरण संपादित करें" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ के माध्यम से PPTX प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ" variant="code" %}}
 
+Aspose.Slides for C++ आपको स्लाइड्स में संवेदनशील टेक्स्ट बदलकर PPTX प्रेज़ेंटेशन में गोपनीय जानकारी छिपाने देता है। प्रेज़ेंटेशन में खोजने और अपडेट की गई फ़ाइल सहेजने से पहले मेल खाने वाले टेक्स्ट को बदलने के लिए `Presentation` ऑब्जेक्ट के साथ `SlideUtil::FindAndReplaceText` का उपयोग करें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ के साथ PPTX प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.pptx");
-
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.pptx", SaveFormat::Pptx);	
+SlideUtil::FindAndReplaceText(presentation, true, u"Confidential", u"[redacted]", nullptr);
+presentation->Save(u"redacted-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ के माध्यम से PPTX में गोपनीय जानकारी कैसे छिपाएँ" intro="PPTX प्रेज़ेंटेशन में गोपनीय जानकारी छिपाने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` क्लास के साथ PPTX फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}संवेदनशील टेक्स्ट खोजने और बदलने के लिए [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) मेथड का उपयोग करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}संसाधित फ़ाइल को `SaveFormat::Pptx` के साथ सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ द्वारा PPTX को कैसे संपादित करें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Aspose.Slides से निर्मित" title="PPTX फ़ाइलों में ऑनलाइन गोपनीय जानकारी छिपाएँ" description="मुफ़्त Aspose.Slides Redaction ऐप [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Redaction खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टेक्स्ट को कैसे खोजता और बदलता है।
+- अपनी PPTX फ़ाइल में टेक्स्ट खोजें और बदलें, रेगुलर एक्सप्रेशन सहित।
+- संसाधित फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPTX फ़ाइलों को संपादित करने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="गोपनीय जानकारी छिपाने के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="C++ का उपयोग करके, आप निम्न फ़ॉर्मेट में भी गोपनीय जानकारी छिपा सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/redaction/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPTX लोड करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-टेक्स्ट को खोजने और बदलने के लिए [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) विधि का उपयोग करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPTX प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPTX रिडक्शन लाइव डेमो" sectionDescription="PPTX दस्तावेज़ों में अभी सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट खोजें और बदलें।" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रिडक्ट प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप निम्न स्वरूपों को संपादित भी कर सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/redaction/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

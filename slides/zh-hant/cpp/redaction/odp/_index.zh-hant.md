@@ -1,64 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 C++ 編輯 ODP 演示文件
+title: 使用 C++ 對 ODP 簡報去識別化
 url: /zh-hant/cpp/redaction/odp/
-keywords: 編輯 ODP，查找並替換 ODP 中的文本，更新 ODP 演示文稿
-description: C++ 源代碼，用於查找和替換 ODP 演示文稿中的文本。
+description: 在 C++ 中對 ODP 簡報進行去識別化。使用 Aspose.Slides for C++ 尋找並取代簡報檔案中的敏感文字。
+keywords: ODP 去識別化，在 ODP 中尋找和取代文字，更新 ODP 簡報
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C++ 編輯 ODP" h2="構建您自己的 C++ 應用程序，以使用服務器端 API 查找和替換演示文件中的文本。了解如何搜索和替換 ODP 演示文稿的內容、評論或元數據中的文本" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C++ 對 ODP 進行去識別化" h2="使用 Aspose.Slides for C++ 尋找並取代簡報檔案中的敏感文字，無需 Microsoft PowerPoint。" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 C++ 編輯 ODP 演示文稿" %}}
-只需幾行代碼即可使用 Aspose.Slides for C++ API 搜索和替換內容、評論、幻燈片註釋或元數據中的文本。在 PowerPoint 和 OpenOffice 中查找和替換文本。通過正則表達式數據匹配在演示文稿中編輯文本、評論和元數據。
-{{% blocks/products/pf/agp/code-block title="使用 C++ 編輯 ODP 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 C++ 對 ODP 簡報進行去識別化" variant="code" %}}
 
+Aspose.Slides for C++ 可透過取代投影片中的敏感文字，對 ODP 簡報進行去識別化。將 `SlideUtil::FindAndReplaceText` 與 `Presentation` 物件搭配使用來搜尋簡報，並在儲存更新後的檔案之前取代相符的文字。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C++ 對 ODP 簡報進行去識別化" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.odp");
-
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.odp", SaveFormat::Odp);	
+SlideUtil::FindAndReplaceText(presentation, true, u"Confidential", u"[redacted]", nullptr);
+presentation->Save(u"redacted-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何透過 C++ 對 ODP 進行去識別化" intro="依照下列步驟對 ODP 簡報進行去識別化。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 類別載入 ODP 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) 方法尋找並取代敏感文字。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat::Odp` 儲存去識別化後的檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 C++ 編輯 ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="以 Aspose.Slides 建置" title="線上對 ODP 檔案進行去識別化" description="免費的 Aspose.Slides Redaction 應用程式以 [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 ODP 檔案。" button="開啟 Aspose.Slides Redaction" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，了解 Aspose.Slides 如何尋找和取代文字。
+- 在您的 ODP 檔案中尋找和取代文字，支援規則運算式。
+- 下載去識別化後的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是編輯 ODP 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援去識別化的格式" subTitle="使用 C++，您也可以對下列格式進行去識別化。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/cpp/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/cpp/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 ODP。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) 方法查找和替換文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 ODP 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在線 ODP 編輯現場演示" sectionDescription="立即在 ODP 文檔的內容、評論或元數據中搜索和替換文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的密文格式" subTitle="使用C++，您還可以編輯以下格式：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

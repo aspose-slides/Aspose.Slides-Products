@@ -1,64 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: A PPTX prezentációs fájlok szerkesztése a C++ használatával
+title: PPTX bemutatók kitakarása C++ használatával
 url: /hu/cpp/redaction/pptx/
-keywords: PPTX szerkesztése, szöveg keresése és cseréje a következőben PPTX, PPTX prezentáció frissítése
-description: C++ forráskód a PPTX prezentáció szövegének megkereséséhez és cseréjéhez.
+description: Takarjon ki PPTX bemutatókat C++ nyelven. Az Aspose.Slides for C++ segítségével bizalmas szöveget kereshet és cserélhet bemutatófájlokban.
+keywords: PPTX kitakarása, szöveg keresése és cseréje PPTX fájlban, PPTX bemutató frissítése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="A PPTX szerkesztése a C++ használatával" h2="Készítse el saját C++-alkalmazásait a prezentációs fájlok szövegének megtalálásához és cseréjéhez szerveroldali API-k segítségével. Ismerje meg, hogyan kereshet és cserélhet szöveget a PPTX prezentációk tartalmában, megjegyzéseiben vagy metaadataiban" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPTX kitakarása C++ használatával" h2="Az Aspose.Slides for C++ segítségével Microsoft PowerPoint nélkül kereshet és cserélhet bizalmas szöveget bemutatófájlokban." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="A PPTX prezentáció szerkesztése a következőn keresztül: C++" %}}
-A Aspose.Slides for C++ API-kkal az alapvető dokumentumok keresése és szöveg cseréje a tartalomban, megjegyzésekben, diajegyzetekben vagy metaadatokban néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban reguláris kifejezéssel.
-{{% blocks/products/pf/agp/code-block title="A PPTX prezentáció szerkesztése a C++ használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PPTX bemutató kitakarása C++ segítségével" variant="code" %}}
 
+Az Aspose.Slides for C++ segítségével PPTX bemutatókat takarhat ki a diák bizalmas szövegének cseréjével. A `SlideUtil::FindAndReplaceText` és egy `Presentation` objektum segítségével keresse át a bemutatót, és cserélje le az egyező szöveget, mielőtt mentené a frissített fájlt.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX bemutató kitakarása C++ használatával" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.pptx");
-
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.pptx", SaveFormat::Pptx);	
+SlideUtil::FindAndReplaceText(presentation, true, u"Confidential", u"[redacted]", nullptr);
+presentation->Save(u"redacted-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan takarható ki egy PPTX fájl C++ segítségével" intro="Az alábbi lépésekkel takarhat ki egy PPTX bemutatót." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a PPTX fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}A bizalmas szöveget a [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) metódussal keresse meg és cserélje le.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a kitakart fájlt a `SaveFormat::Pptx` értékkel.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="A PPTX szerkesztése a C++ segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Az Aspose.Slides segítségével készült" title="PPTX fájlok kitakarása online" description="Az ingyenes Aspose.Slides Redaction alkalmazás az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Redaction megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan keres és cserél szöveget az Aspose.Slides, mielőtt kódot írna.
+- Keressen és cseréljen szöveget a PPTX fájlban, akár reguláris kifejezésekkel is.
+- Töltse le a kitakart fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PPTX fájlok szerkesztéséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok kitakaráshoz" subTitle="C++ használatával a következő formátumokat is kitakarhatja." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/redaction/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPTX betöltése a Presentation egy példányával.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) módszerrel kereshet és cserélhet szöveget.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPTX formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX szerkesztés élő bemutatók" sectionDescription="Keressen és cseréljen szöveget a PPTX dokumentumok tartalmában, megjegyzéseiben vagy metaadataiban." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott Redact formátumok" subTitle="A C++ használatával a következő formátumokat is szerkesztheti:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/redaction/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

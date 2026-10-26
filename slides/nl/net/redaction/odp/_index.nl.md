@@ -1,65 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Bewerk ODP presentatiebestanden met .NET
+title: ODP-presentatiebestanden zwartlakken met .NET
 url: /nl/net/redaction/odp/
-keywords: Bewerk ODP, zoek en vervang tekst in ODP, update ODP presentatie
-description: C# broncode om tekst in ODP Presentatie te zoeken en te vervangen.
+description: C#-broncode om tekst in ODP-presentaties te zoeken en te vervangen.
+keywords: ODP zwartlakken, tekst zoeken en vervangen in ODP, ODP-presentatie bijwerken
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Bewerk ODP met C#" h2="Bouw uw eigen .NET-apps om tekst in presentatiebestanden te zoeken en te vervangen met behulp van server-side API's. Leer hoe u tekst kunt zoeken en vervangen in inhoud, opmerkingen of metadata van ODP presentaties" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ODP-bestanden zwartlakken met C#" h2="Bouw .NET-apps die tekst in presentaties zoeken en vervangen met server-side API's." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Presentatie ODP redigeren via C#" %}}
-Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen, dia-notities of metadata met Aspose.Slides for .NET API's kan worden gedaan met slechts enkele regels code. Zoek en vervang tekst in PowerPoint en OpenOffice. Bewerk tekst, opmerkingen, metadata in presentatie via regexp data matching.
-{{% blocks/products/pf/agp/code-block title="Bewerk ODP presentatie met C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Een ODP-presentatie zwartlakken met C#" variant="code" %}}
 
+Met [Aspose.Slides for .NET](/slides/nl/net/) kunt u tekst in een ODP-presentatie zoeken en vervangen. Gebruik `Presentation.ReplaceText` met `TextSearchOptions` om de zoekopdracht te sturen en sla daarna de gewijzigde presentatie op.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Een ODP-presentatie zwartlakken met C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.odp");
+var searchOptions = new TextSearchOptions { WholeWordsOnly = true };
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.odp"))
-{
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.odp", SaveFormat.Odp);
-}
+presentation.ReplaceText("PowerPoint", "Aspose.Slides", searchOptions, null);
+presentation.Save("redacted-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Een ODP-presentatie zwartlakken met C# – zo werkt het" intro="Volg deze stappen om tekst in een ODP-presentatie te vervangen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het ODP-bestand met `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gebruik [`Presentation.ReplaceText`](https://reference.aspose.com/slides/net/aspose.slides/presentation/replacetext/) met `TextSearchOptions` om de gewenste tekst te vervangen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla de gewijzigde presentatie op met `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="ODP redigeren via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Gebouwd met Aspose.Slides" title="ODP-bestanden online zwartlakken" description="De gratis app Aspose.Slides Redaction is gebouwd met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen ODP-bestanden." button="Aspose.Slides Redaction openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides tekst zoekt en vervangt voordat u code schrijft.
+- Zoek en vervang tekst in uw ODP-bestand, ook met reguliere expressies.
+- Download het zwartgelakte bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om ODP-bestanden te redigeren." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor zwartlakken" subTitle="Met C# kunt u ook de volgende formaten zwartlakken." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/net/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad ODP met een instantie van Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gebruik de methode [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) om tekst te zoeken en te vervangen.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op in ODP formaat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online ODP redactie live demo's" sectionDescription="Zoek en vervang nu tekst in inhoud, opmerkingen of metadata in ODP documenten." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde Redact-indelingen" subTitle="Met C# kunt u ook de volgende indelingen redigeren:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

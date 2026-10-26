@@ -1,65 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python का इस्तेमाल करके PPTX प्रस्तुति फ़ाइलें संपादित करें
+title: Python के साथ PPTX प्रेज़ेंटेशन में टेक्स्ट छिपाएँ
 url: /hi/python-net/redaction/pptx/
-keywords: PPTX संपादित करें, PPTX में टेक्स्ट ढूंढें और बदलें, PPTX प्रस्तुति अपडेट करें
-description: PPTX प्रस्तुतिकरण में टेक्स्ट खोजने और बदलने के लिए Python स्रोत कोड.
+description: Python के साथ PPTX प्रेज़ेंटेशन में संवेदनशील टेक्स्ट खोजें और बदलें।
+keywords: PPTX में गोपनीय जानकारी छिपाएँ, PPTX में टेक्स्ट खोजें और बदलें, PPTX प्रेज़ेंटेशन अपडेट करें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python का उपयोग करके PPTX संपादित करें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में टेक्स्ट खोजने और बदलने के लिए अपना स्वयं का Python ऐप्लिकेशन बनाएं. सामग्री, टिप्पणियों या PPTX प्रस्तुतियों के मेटाडेटा में टेक्स्ट को खोजने और बदलने का तरीका जानें" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python के साथ PPTX प्रेज़ेंटेशन में टेक्स्ट छिपाएँ" h2="Aspose.Slides के साथ प्रेज़ेंटेशन में संवेदनशील टेक्स्ट खोजने और बदलने वाले Python एप्लिकेशन बनाएँ।" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python के माध्यम से PPTX प्रस्तुतिकरण संपादित करें" %}}
-सामग्री, टिप्पणियों, स्लाइड नोट्स या मेटाडेटा में मूल दस्तावेज़ खोज और टेक्स्ट को Aspose.Slides for Python via .NET API के साथ कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूँढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुतिकरण में टेक्स्ट, टिप्पणियाँ, मेटाडेटा संपादित करें।
-{{% blocks/products/pf/agp/code-block title="Python का उपयोग करके PPTX प्रस्तुतिकरण संपादित करें" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python के साथ किसी PPTX प्रेज़ेंटेशन में टेक्स्ट छिपाएँ" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/hi/python-net/) के साथ, आप पूरी PPTX प्रेज़ेंटेशन में संवेदनशील टेक्स्ट बदल सकते हैं। खोज को नियंत्रित करने के लिए `TextSearchOptions` के साथ `Presentation.replace_text` का उपयोग करें, फिर बदली गई प्रेज़ेंटेशन सहेजें।
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX प्रेज़ेंटेशन में टेक्स्ट छिपाएँ – Python" >}}
+```python
+search_options = slides.TextSearchOptions()
+search_options.whole_words_only = True
+search_options.include_notes = True
 
-with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.pptx", slides.export.SaveFormat.PPTX)
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.replace_text("Confidential", "[REDACTED]", search_options, None)
+    presentation.save("redacted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python के साथ PPTX प्रेज़ेंटेशन में टेक्स्ट कैसे छिपाएँ" intro="PPTX प्रेज़ेंटेशन में संवेदनशील टेक्स्ट बदलने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` के साथ PPTX फ़ाइल खोलें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}आवश्यक टेक्स्ट बदलने के लिए `TextSearchOptions` के साथ [`Presentation.replace_text`](https://reference.aspose.com/slides/python-net/aspose.slides/presentation/replace_text/) का उपयोग करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}बदली गई प्रेज़ेंटेशन को `SaveFormat.PPTX` के साथ सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python द्वारा PPTX को कैसे संपादित करें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Aspose.Slides से निर्मित" title="PPTX फ़ाइलों में ऑनलाइन गोपनीय जानकारी छिपाएँ" description="मुफ़्त Aspose.Slides Redaction ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Redaction खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टेक्स्ट को कैसे खोजता और बदलता है।
+- अपनी PPTX फ़ाइल में टेक्स्ट खोजें और बदलें, रेगुलर एक्सप्रेशन सहित।
+- संसाधित फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPTX फ़ाइलों को संपादित करने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="गोपनीय जानकारी छिपाने के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="अन्य समर्थित प्रेज़ेंटेशन फ़ॉर्मेट में टेक्स्ट छिपाने के लिए Python का उपयोग करें।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/redaction/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPTX लोड करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-टेक्स्ट को खोजने और बदलने के लिए [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) विधि का उपयोग करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPTX प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPTX रिडक्शन लाइव डेमो" sectionDescription="PPTX दस्तावेज़ों में अभी सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट खोजें और बदलें।" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रिडक्ट प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप निम्न स्वरूपों को संपादित भी कर सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/redaction/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

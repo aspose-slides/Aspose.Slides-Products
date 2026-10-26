@@ -1,65 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Sunting File Presentasi ODP menggunakan Python
+title: Sensor Teks dalam Presentasi ODP dengan Python
 url: /id/python-net/redaction/odp/
-keywords: Sunting ODP, cari dan ganti teks di ODP, perbarui Presentasi ODP
-description: kode sumber Python untuk menemukan dan mengganti teks dalam Presentasi ODP.
+description: Cari dan ganti teks sensitif dalam presentasi ODP dengan Python.
+keywords: sensor ODP, cari dan ganti teks di ODP, perbarui presentasi ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Sunting ODP menggunakan Python" h2="Bangun aplikasi Python Anda sendiri untuk menemukan dan mengganti teks dalam file presentasi menggunakan API sisi server. Pelajari cara menelusuri dan mengganti teks dalam konten, komentar, atau metadata presentasi ODP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Sensor Teks dalam Presentasi ODP dengan Python" h2="Bangun aplikasi Python yang mencari dan mengganti teks sensitif dalam presentasi dengan Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Redaksi Presentasi ODP melalui Python" %}}
-Pencarian dokumen dasar dan mengganti teks dalam konten, komentar, catatan slide, atau metadata dengan API Aspose.Slides for Python via .NET dapat dilakukan hanya dengan beberapa baris kode. Temukan dan ganti teks di PowerPoint dan OpenOffice. Edit teks, komentar, metadata dalam presentasi melalui pencocokan data regexp.
-{{% blocks/products/pf/agp/code-block title="Redact Presentasi ODP menggunakan Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Sensor Teks dalam Sebuah Presentasi ODP dengan Python" variant="code" %}}
 
-```py
+Dengan [Aspose.Slides for Python via .NET](/slides/id/python-net/), Anda dapat mengganti teks sensitif di seluruh presentasi ODP. Gunakan `Presentation.replace_text` dengan `TextSearchOptions` untuk mengontrol pencarian, lalu simpan presentasi yang telah diubah.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Sensor Teks dalam Presentasi ODP – Python" >}}
+```python
+search_options = slides.TextSearchOptions()
+search_options.whole_words_only = True
+search_options.include_notes = True
 
-with slides.Presentation("welcome-to-powerpoint.odp") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.replace_text("Confidential", "[REDACTED]", search_options, None)
+    presentation.save("redacted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Menyensor Teks dalam Presentasi ODP dengan Python" intro="Ikuti langkah-langkah berikut untuk mengganti teks sensitif dalam presentasi ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file ODP dengan `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gunakan [`Presentation.replace_text`](https://reference.aspose.com/slides/python-net/aspose.slides/presentation/replace_text/) dengan `TextSearchOptions` untuk mengganti teks yang diperlukan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan presentasi yang telah diubah dengan `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Redact ODP melalui Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Dibuat dengan Aspose.Slides" title="Sensor File ODP Secara Online" description="Aplikasi Aspose.Slides Redaction gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file ODP Anda sendiri." button="Buka Aspose.Slides Redaction" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides mencari dan mengganti teks sebelum Anda menulis kode.
+- Cari dan ganti teks di file ODP Anda, termasuk dengan ekspresi reguler.
+- Unduh file yang telah disensor.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk menyunting file ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Penyensoran" subTitle="Gunakan Python untuk menyensor teks dalam format presentasi lain yang didukung." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat ODP dengan contoh Presentasi.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gunakan metode [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) untuk mencari dan mengganti teks.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil dalam format ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Demo Langsung Redaksi ODP Online" sectionDescription="Cari dan ganti teks dalam konten, komentar, atau metadata dalam dokumen ODP sekarang juga." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Redact Lain yang Didukung" subTitle="Menggunakan Python, Anda juga dapat menyunting format berikut:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,64 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 C++ 编辑 PPTX 演示文件
+title: 使用 C++ 对 PPTX 演示文稿脱敏
 url: /zh/cpp/redaction/pptx/
-keywords: 编辑 PPTX，查找并替换 PPTX 中的文本，更新 PPTX 演示文稿
-description: C++ 源代码，用于查找和替换 PPTX 演示文稿中的文本。
+description: 在 C++ 中对 PPTX 演示文稿进行脱敏。使用 Aspose.Slides for C++ 查找并替换演示文稿文件中的敏感文本。
+keywords: PPTX 脱敏，在 PPTX 中查找和替换文本，更新 PPTX 演示文稿
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C++ 编辑 PPTX" h2="构建您自己的 C++ 应用程序，以使用服务器端 API 查找和替换演示文件中的文本。了解如何搜索和替换 PPTX 演示文稿的内容、评论或元数据中的文本" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C++ 对 PPTX 进行脱敏" h2="使用 Aspose.Slides for C++ 查找并替换演示文稿文件中的敏感文本，无需 Microsoft PowerPoint。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通过 C++ 编辑 PPTX 演示文稿" %}}
-只需几行代码即可使用 Aspose.Slides for C++ API 搜索和替换内容、评论、幻灯片注释或元数据中的文本。在 PowerPoint 和 OpenOffice 中查找和替换文本。通过正则表达式数据匹配在演示文稿中编辑文本、评论和元数据。
-{{% blocks/products/pf/agp/code-block title="使用 C++ 编辑 PPTX 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="通过 C++ 对 PPTX 演示文稿进行脱敏" variant="code" %}}
 
+Aspose.Slides for C++ 可以通过替换幻灯片中的敏感文本，对 PPTX 演示文稿进行脱敏。将 `SlideUtil::FindAndReplaceText` 与 `Presentation` 对象结合使用来搜索演示文稿，并在保存更新后的文件之前替换匹配的文本。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C++ 对 PPTX 演示文稿进行脱敏" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.pptx");
-
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.pptx", SaveFormat::Pptx);	
+SlideUtil::FindAndReplaceText(presentation, true, u"Confidential", u"[redacted]", nullptr);
+presentation->Save(u"redacted-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何通过 C++ 对 PPTX 进行脱敏" intro="按照以下步骤对 PPTX 演示文稿进行脱敏。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 类加载 PPTX 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) 方法查找并替换敏感文本。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat::Pptx` 保存脱敏后的文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通过 C++ 编辑 PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="基于 Aspose.Slides 构建" title="在线对 PPTX 文件进行脱敏" description="免费的 Aspose.Slides Redaction 应用基于 [Aspose.Slides for C++](https://products.aspose.com/slides/zh/cpp/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 PPTX 文件。" button="打开 Aspose.Slides Redaction" note="[所有免费应用](https://products.aspose.app/slides/family)" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，了解 Aspose.Slides 如何查找和替换文本。
+- 在您的 PPTX 文件中查找和替换文本，支持正则表达式。
+- 下载脱敏后的文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="这些是编辑 PPTX 文件的步骤。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持脱敏的格式" subTitle="使用 C++，您还可以对以下格式进行脱敏。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/cpp/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/cpp/redaction/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 实例加载 PPTX。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) 方法查找和替换文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPTX 格式保存结果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在线 PPTX 编辑现场演示" sectionDescription="立即在 PPTX 文档的内容、评论或元数据中搜索和替换文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的密文格式" subTitle="使用C++，您还可以编辑以下格式：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/cpp/redaction/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

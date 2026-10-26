@@ -1,67 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java을(를) 사용하여 ODP 프레젠테이션 파일 수정
+title: Java로 ODP 프레젠테이션 파일 마스킹
 url: /ko/java/redaction/odp/
-keywords: ODP 수정, ODP에서 텍스트 찾기 및 바꾸기, ODP 프레젠테이션 업데이트
-description: ODP Presentation에서 텍스트를 찾고 교체하기 위한 Java 소스 코드.
+description: Aspose.Slides for Java를 사용해 Java에서 ODP 프레젠테이션의 텍스트를 찾아 바꾸세요.
+keywords: ODP 마스킹, ODP에서 텍스트 찾기 및 바꾸기, ODP 프레젠테이션 업데이트
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java을 사용하여 ODP 수정" h2="서버 측 API를 사용하여 프리젠테이션 파일에서 텍스트를 찾고 교체하는 나만의 Java 앱을 빌드하세요. ODP 프레젠테이션의 콘텐츠, 댓글 또는 메타데이터에서 텍스트를 검색하고 바꾸는 방법을 알아보세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java로 ODP 마스킹" h2="서버 측 API를 사용해 프레젠테이션 파일의 텍스트를 찾아 바꾸는 Java 애플리케이션을 빌드하세요." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Java을(를) 통해 ODP 프레젠테이션 수정" %}}
-Aspose.Slides for Java API를 사용하여 콘텐츠, 댓글, 슬라이드 노트 또는 메타데이터의 기본 문서 검색 및 텍스트 바꾸기를 단 몇 줄의 코드로 수행할 수 있습니다. PowerPoint 및 OpenOffice에서 텍스트를 찾고 바꿉니다. 정규식 데이터 일치를 통해 프레젠테이션의 텍스트, 주석, 메타데이터를 편집합니다.
-{{% blocks/products/pf/agp/code-block title="Java을(를) 사용하여 ODP 프레젠테이션 수정" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java를 통한 ODP 프레젠테이션 마스킹" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/ko/java/)를 사용하면 ODP 프레젠테이션의 텍스트를 찾아 바꿀 수 있습니다. `SlideUtil.findAndReplaceText` 메서드로 프레젠테이션을 검색하고 일치하는 텍스트를 새 값으로 바꾸세요.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java로 ODP 프레젠테이션 마스킹" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.odp");
 try {
     SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
     presentation.save("replaced.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java로 ODP를 마스킹하는 방법" intro="ODP 프레젠테이션을 마스킹하려면 다음 단계를 따르세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` 클래스로 ODP 파일을 로드합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SlideUtil.findAndReplaceText` 메서드를 호출해 텍스트를 찾아 바꿉니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}업데이트된 프레젠테이션을 `SaveFormat.Odp` 형식으로 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java을 통해 ODP을(를) 수정하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Aspose.Slides로 구축" title="ODP 파일 온라인 마스킹" description="무료 Aspose.Slides Redaction 앱은 위 코드와 동일한 API인 [Aspose.Slides for Java](https://products.aspose.com/slides/ko/java/)로 구축되었습니다. 앱을 열고 내 ODP 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Redaction 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 텍스트를 찾아 바꾸는 방식을 확인하세요.
+- 정규식을 포함해 ODP 파일의 텍스트를 찾아 바꾸세요.
+- 마스킹된 파일을 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="다음은 ODP 파일을 수정하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="마스킹을 지원하는 기타 형식" subTitle="Java로 다음 형식도 마스킹할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/java/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/java/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 인스턴스로 ODP를 로드합니다.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-[FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) 메서드를 사용하여 텍스트를 찾고 바꿉니다.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-결과를 ODP 형식으로 저장
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="온라인 ODP 리댁션 라이브 데모" sectionDescription="지금 바로 ODP 문서의 콘텐츠, 댓글 또는 메타데이터에서 텍스트를 검색하고 교체하세요." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 교정 형식" subTitle="Java을(를) 사용하여 다음 형식을 수정할 수도 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

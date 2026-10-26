@@ -1,65 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: A ODP prezentációs fájlok szerkesztése a Python használatával
+title: Szöveg kitakarása ODP bemutatókban Pythonnal
 url: /hu/python-net/redaction/odp/
-keywords: ODP szerkesztése, szöveg keresése és cseréje a következőben ODP, ODP prezentáció frissítése
-description: Python forráskód a ODP prezentáció szövegének megkereséséhez és cseréjéhez.
+description: Bizalmas szöveg keresése és cseréje ODP bemutatókban Pythonnal.
+keywords: ODP kitakarása, szöveg keresése és cseréje ODP fájlban, ODP bemutató frissítése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="A ODP szerkesztése a Python használatával" h2="Készítse el saját Python-alkalmazásait a prezentációs fájlok szövegének megtalálásához és cseréjéhez szerveroldali API-k segítségével. Ismerje meg, hogyan kereshet és cserélhet szöveget a ODP prezentációk tartalmában, megjegyzéseiben vagy metaadataiban" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Szöveg kitakarása ODP bemutatókban Pythonnal" h2="Készítsen Python-alkalmazásokat, amelyek az Aspose.Slides segítségével keresnek és cserélnek bizalmas szöveget bemutatókban." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="A ODP prezentáció szerkesztése a következőn keresztül: Python" %}}
-A Aspose.Slides for Python via .NET API-kkal az alapvető dokumentumok keresése és szöveg cseréje a tartalomban, megjegyzésekben, diajegyzetekben vagy metaadatokban néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban reguláris kifejezéssel.
-{{% blocks/products/pf/agp/code-block title="A ODP prezentáció szerkesztése a Python használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szöveg kitakarása ODP bemutatóban Pythonnal" variant="code" %}}
 
-```py
+Az [Aspose.Slides for Python via .NET](/slides/hu/python-net/) segítségével a teljes ODP bemutatóban lecserélheti a bizalmas szöveget. A keresést a `Presentation.replace_text` és a `TextSearchOptions` segítségével szabályozhatja, majd mentse a módosított bemutatót.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Szöveg kitakarása ODP bemutatóban – Python" >}}
+```python
+search_options = slides.TextSearchOptions()
+search_options.whole_words_only = True
+search_options.include_notes = True
 
-with slides.Presentation("welcome-to-powerpoint.odp") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.odp", slides.export.SaveFormat.ODP)
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.replace_text("Confidential", "[REDACTED]", search_options, None)
+    presentation.save("redacted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan takarható ki szöveg egy ODP bemutatóban Pythonnal" intro="Az alábbi lépésekkel cserélhet bizalmas szöveget egy ODP bemutatóban." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a ODP fájlt a `Presentation` segítségével.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}A kívánt szöveget a [`Presentation.replace_text`](https://reference.aspose.com/slides/python-net/aspose.slides/presentation/replace_text/) és a `TextSearchOptions` segítségével cserélje le.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a módosított bemutatót a `SaveFormat.ODP` értékkel.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="A ODP szerkesztése a Python segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Az Aspose.Slides segítségével készült" title="ODP fájlok kitakarása online" description="Az ingyenes Aspose.Slides Redaction alkalmazás az [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hu/python-net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját ODP fájljaival." button="Aspose.Slides Redaction megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan keres és cserél szöveget az Aspose.Slides, mielőtt kódot írna.
+- Keressen és cseréljen szöveget a ODP fájlban, akár reguláris kifejezésekkel is.
+- Töltse le a kitakart fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a ODP fájlok szerkesztéséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok kitakaráshoz" subTitle="Pythonnal más támogatott bemutatóformátumokban is kitakarhat szöveget." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A ODP betöltése a Presentation egy példányával.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) módszerrel kereshet és cserélhet szöveget.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése ODP formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online ODP szerkesztés élő bemutatók" sectionDescription="Keressen és cseréljen szöveget a ODP dokumentumok tartalmában, megjegyzéseiben vagy metaadataiban." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott Redact formátumok" subTitle="A Python használatával a következő formátumokat is szerkesztheti:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

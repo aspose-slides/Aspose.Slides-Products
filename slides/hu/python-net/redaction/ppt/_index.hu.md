@@ -1,65 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: A PPT prezentációs fájlok szerkesztése a Python használatával
+title: Szöveg kitakarása PPT bemutatókban Pythonnal
 url: /hu/python-net/redaction/ppt/
-keywords: PPT szerkesztése, szöveg keresése és cseréje a következőben PPT, PPT prezentáció frissítése
-description: Python forráskód a PPT prezentáció szövegének megkereséséhez és cseréjéhez.
+description: Bizalmas szöveg keresése és cseréje PPT bemutatókban Pythonnal.
+keywords: PPT kitakarása, szöveg keresése és cseréje PPT fájlban, PPT bemutató frissítése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="A PPT szerkesztése a Python használatával" h2="Készítse el saját Python-alkalmazásait a prezentációs fájlok szövegének megtalálásához és cseréjéhez szerveroldali API-k segítségével. Ismerje meg, hogyan kereshet és cserélhet szöveget a PPT prezentációk tartalmában, megjegyzéseiben vagy metaadataiban" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Szöveg kitakarása PPT bemutatókban Pythonnal" h2="Készítsen Python-alkalmazásokat, amelyek az Aspose.Slides segítségével keresnek és cserélnek bizalmas szöveget bemutatókban." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="A PPT prezentáció szerkesztése a következőn keresztül: Python" %}}
-A Aspose.Slides for Python via .NET API-kkal az alapvető dokumentumok keresése és szöveg cseréje a tartalomban, megjegyzésekben, diajegyzetekben vagy metaadatokban néhány sornyi kóddal elvégezhető. Szöveg keresése és cseréje a PowerPointban és az OpenOffice-ban. Szöveg, megjegyzések, metaadatok szerkesztése a prezentációban reguláris kifejezéssel.
-{{% blocks/products/pf/agp/code-block title="A PPT prezentáció szerkesztése a Python használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szöveg kitakarása PPT bemutatóban Pythonnal" variant="code" %}}
 
-```py
+Az [Aspose.Slides for Python via .NET](/slides/hu/python-net/) segítségével a teljes PPT bemutatóban lecserélheti a bizalmas szöveget. A keresést a `Presentation.replace_text` és a `TextSearchOptions` segítségével szabályozhatja, majd mentse a módosított bemutatót.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Szöveg kitakarása PPT bemutatóban – Python" >}}
+```python
+search_options = slides.TextSearchOptions()
+search_options.whole_words_only = True
+search_options.include_notes = True
 
-with slides.Presentation("welcome-to-powerpoint.ppt") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.ppt", slides.export.SaveFormat.PPT)
+with slides.Presentation("presentation.ppt") as presentation:
+    presentation.replace_text("Confidential", "[REDACTED]", search_options, None)
+    presentation.save("redacted-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan takarható ki szöveg egy PPT bemutatóban Pythonnal" intro="Az alábbi lépésekkel cserélhet bizalmas szöveget egy PPT bemutatóban." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a PPT fájlt a `Presentation` segítségével.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}A kívánt szöveget a [`Presentation.replace_text`](https://reference.aspose.com/slides/python-net/aspose.slides/presentation/replace_text/) és a `TextSearchOptions` segítségével cserélje le.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a módosított bemutatót a `SaveFormat.PPT` értékkel.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="A PPT szerkesztése a Python segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Az Aspose.Slides segítségével készült" title="PPT fájlok kitakarása online" description="Az ingyenes Aspose.Slides Redaction alkalmazás az [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hu/python-net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPT fájljaival." button="Aspose.Slides Redaction megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan keres és cserél szöveget az Aspose.Slides, mielőtt kódot írna.
+- Keressen és cseréljen szöveget a PPT fájlban, akár reguláris kifejezésekkel is.
+- Töltse le a kitakart fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PPT fájlok szerkesztéséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok kitakaráshoz" subTitle="Pythonnal más támogatott bemutatóformátumokban is kitakarhat szöveget." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPT betöltése a Presentation egy példányával.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) módszerrel kereshet és cserélhet szöveget.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPT formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPT szerkesztés élő bemutatók" sectionDescription="Keressen és cseréljen szöveget a PPT dokumentumok tartalmában, megjegyzéseiben vagy metaadataiban." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott Redact formátumok" subTitle="A Python használatával a következő formátumokat is szerkesztheti:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

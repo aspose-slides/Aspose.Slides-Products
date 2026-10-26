@@ -1,65 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Redigir arquivos de apresentação ODP usando .NET
+title: Tarjar arquivos de apresentação ODP com .NET
 url: /pt/net/redaction/odp/
-keywords: Redigir ODP, localizar e substituir texto em ODP, atualizar ODP Apresentação
-description: Código-fonte C# para localizar e substituir texto na apresentação ODP.
+description: Código-fonte C# para localizar e substituir texto em apresentações ODP.
+keywords: Tarjar ODP, localizar e substituir texto em ODP, atualizar apresentação ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Redigir ODP usando C#" h2="Crie seus próprios aplicativos .NET para localizar e substituir texto em arquivos de apresentação usando APIs do lado do servidor. Saiba como pesquisar e substituir texto em conteúdo, comentários ou metadados de apresentações ODP" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tarjar arquivos ODP usando C#" h2="Crie aplicativos .NET que localizam e substituem texto em apresentações com APIs do lado do servidor." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Redigir apresentação ODP via C#" %}}
-Uma pesquisa básica de documentos e substituição de texto em conteúdos, comentários, notas de slides ou metadados com Aspose.Slides for .NET APIs pode ser feita com apenas algumas linhas de código. Encontre e substitua texto no PowerPoint e no OpenOffice. Edite texto, comentários e metadados na apresentação por meio da correspondência de dados regexp.
-{{% blocks/products/pf/agp/code-block title="Redigir apresentação ODP usando C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tarjar uma apresentação ODP usando C#" variant="code" %}}
 
+Com o [Aspose.Slides for .NET](/slides/pt/net/), você pode localizar e substituir texto em uma apresentação ODP. Use `Presentation.ReplaceText` com `TextSearchOptions` para controlar a pesquisa e, em seguida, salve a apresentação modificada.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tarjar uma apresentação ODP usando C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.odp");
+var searchOptions = new TextSearchOptions { WholeWordsOnly = true };
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.odp"))
-{
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.odp", SaveFormat.Odp);
-}
+presentation.ReplaceText("PowerPoint", "Aspose.Slides", searchOptions, null);
+presentation.Save("redacted-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como tarjar uma apresentação ODP usando C#" intro="Siga estas etapas para substituir texto em uma apresentação ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carregue o arquivo ODP com `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Use [`Presentation.ReplaceText`](https://reference.aspose.com/slides/net/aspose.slides/presentation/replacetext/) com `TextSearchOptions` para substituir o texto necessário.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salve a apresentação modificada com `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Como redigir ODP via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Criado com Aspose.Slides" title="Tarjar arquivos ODP online" description="O aplicativo gratuito Aspose.Slides Redaction é criado com [Aspose.Slides for .NET](https://products.aspose.com/slides/pt/net/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos ODP." button="Abrir Aspose.Slides Redaction" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides localiza e substitui texto antes de escrever código.
+- Localize e substitua texto no seu arquivo ODP, inclusive com expressões regulares.
+- Baixe o arquivo tarjado.
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estas são as etapas para redigir arquivos ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outros formatos compatíveis com tarjamento" subTitle="Com C#, você também pode tarjar os seguintes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/net/redaction/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carregue ODP com uma instância de Apresentação.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Use o método [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) para localizar e substituir o texto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salve o resultado no formato ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Demonstrações ao vivo de redação ODP on-line" sectionDescription="Pesquise e substitua texto em conteúdos, comentários ou metadados em documentos ODP agora mesmo." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Outros formatos de edição suportados" subTitle="Usando C#, você também pode redigir os seguintes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/redaction/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

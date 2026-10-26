@@ -1,65 +1,49 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET का इस्तेमाल करके PPT प्रस्तुति फ़ाइलें संपादित करें
+title: .NET का उपयोग करके PPT प्रेज़ेंटेशन फ़ाइलों में गोपनीय जानकारी छिपाएँ
 url: /hi/net/redaction/ppt/
-keywords: PPT संपादित करें, PPT में टेक्स्ट ढूंढें और बदलें, PPT प्रस्तुति अपडेट करें
-description: PPT प्रस्तुतिकरण में टेक्स्ट खोजने और बदलने के लिए C# स्रोत कोड.
+description: PPT प्रेज़ेंटेशन में टेक्स्ट खोजने और बदलने के लिए C# सोर्स कोड।
+keywords: PPT में गोपनीय जानकारी छिपाएँ, PPT में टेक्स्ट खोजें और बदलें, PPT प्रेज़ेंटेशन अपडेट करें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# का उपयोग करके PPT संपादित करें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में टेक्स्ट खोजने और बदलने के लिए अपना स्वयं का .NET ऐप्लिकेशन बनाएं. सामग्री, टिप्पणियों या PPT प्रस्तुतियों के मेटाडेटा में टेक्स्ट को खोजने और बदलने का तरीका जानें" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# का उपयोग करके PPT फ़ाइलों में गोपनीय जानकारी छिपाएँ" h2="सर्वर-साइड API के साथ प्रेज़ेंटेशन में टेक्स्ट खोजने और बदलने वाले .NET ऐप बनाएँ।" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# के माध्यम से PPT प्रस्तुतिकरण संपादित करें" %}}
-सामग्री, टिप्पणियों, स्लाइड नोट्स या मेटाडेटा में मूल दस्तावेज़ खोज और टेक्स्ट को Aspose.Slides for .NET API के साथ कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूँढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुतिकरण में टेक्स्ट, टिप्पणियाँ, मेटाडेटा संपादित करें।
-{{% blocks/products/pf/agp/code-block title="C# का उपयोग करके PPT प्रस्तुतिकरण संपादित करें" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# का उपयोग करके PPT प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/hi/net/) के साथ, आप PPT प्रेज़ेंटेशन में टेक्स्ट खोज और बदल सकते हैं। खोज को नियंत्रित करने के लिए `TextSearchOptions` के साथ `Presentation.ReplaceText` का उपयोग करें, फिर बदली गई प्रेज़ेंटेशन सहेजें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# का उपयोग करके PPT प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
+var searchOptions = new TextSearchOptions { WholeWordsOnly = true };
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt"))
-{
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.ppt", SaveFormat.Ppt);
-}
+presentation.ReplaceText("PowerPoint", "Aspose.Slides", searchOptions, null);
+presentation.Save("redacted-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# का उपयोग करके PPT प्रेज़ेंटेशन में गोपनीय जानकारी कैसे छिपाएँ" intro="PPT प्रेज़ेंटेशन में टेक्स्ट बदलने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` के साथ PPT फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}आवश्यक टेक्स्ट बदलने के लिए `TextSearchOptions` के साथ [`Presentation.ReplaceText`](https://reference.aspose.com/slides/net/aspose.slides/presentation/replacetext/) का उपयोग करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}बदली गई प्रेज़ेंटेशन को `SaveFormat.Ppt` के साथ सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# द्वारा PPT को कैसे संपादित करें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Aspose.Slides से निर्मित" title="PPT फ़ाइलों में ऑनलाइन गोपनीय जानकारी छिपाएँ" description="मुफ़्त Aspose.Slides Redaction ऐप [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPT फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Redaction खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टेक्स्ट को कैसे खोजता और बदलता है।
+- अपनी PPT फ़ाइल में टेक्स्ट खोजें और बदलें, रेगुलर एक्सप्रेशन सहित।
+- संसाधित फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPT फ़ाइलों को संपादित करने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="गोपनीय जानकारी छिपाने के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="C# का उपयोग करके, आप निम्न फ़ॉर्मेट में भी गोपनीय जानकारी छिपा सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPT लोड करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-टेक्स्ट को खोजने और बदलने के लिए [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) विधि का उपयोग करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPT प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPT रिडक्शन लाइव डेमो" sectionDescription="PPT दस्तावेज़ों में अभी सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट खोजें और बदलें।" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रिडक्ट प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप निम्न स्वरूपों को संपादित भी कर सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

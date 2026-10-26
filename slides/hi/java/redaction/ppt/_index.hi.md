@@ -1,67 +1,51 @@
 ---
-lastmod: 2023-05-17
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java का इस्तेमाल करके PPT प्रस्तुति फ़ाइलें संपादित करें
+title: Java का उपयोग करके PPT प्रेज़ेंटेशन फ़ाइलों में गोपनीय जानकारी छिपाएँ
 url: /hi/java/redaction/ppt/
-keywords: PPT संपादित करें, PPT में टेक्स्ट ढूंढें और बदलें, PPT प्रस्तुति अपडेट करें
-description: PPT प्रस्तुतिकरण में टेक्स्ट खोजने और बदलने के लिए Java स्रोत कोड.
+description: Aspose.Slides for Java का उपयोग करके Java में PPT प्रेज़ेंटेशन में टेक्स्ट खोजें और बदलें।
+keywords: PPT में गोपनीय जानकारी छिपाएँ, PPT में टेक्स्ट खोजें और बदलें, PPT प्रेज़ेंटेशन अपडेट करें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java का उपयोग करके PPT संपादित करें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में टेक्स्ट खोजने और बदलने के लिए अपना स्वयं का Java ऐप्लिकेशन बनाएं. सामग्री, टिप्पणियों या PPT प्रस्तुतियों के मेटाडेटा में टेक्स्ट को खोजने और बदलने का तरीका जानें" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java का उपयोग करके PPT में गोपनीय जानकारी छिपाएँ" h2="सर्वर-साइड API का उपयोग करके प्रेज़ेंटेशन फ़ाइलों में टेक्स्ट खोजने और बदलने वाले Java एप्लिकेशन बनाएँ।" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Java के माध्यम से PPT प्रस्तुतिकरण संपादित करें" %}}
-सामग्री, टिप्पणियों, स्लाइड नोट्स या मेटाडेटा में मूल दस्तावेज़ खोज और टेक्स्ट को Aspose.Slides for Java API के साथ कोड की कुछ पंक्तियों के साथ किया जा सकता है। PowerPoint और OpenOffice में टेक्स्ट ढूँढें और बदलें। रेगेक्सपी डेटा मिलान के माध्यम से प्रस्तुतिकरण में टेक्स्ट, टिप्पणियाँ, मेटाडेटा संपादित करें।
-{{% blocks/products/pf/agp/code-block title="Java का उपयोग करके PPT प्रस्तुतिकरण संपादित करें" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java के माध्यम से PPT प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/hi/java/) का उपयोग करके, आप PPT प्रेज़ेंटेशन में टेक्स्ट खोज और बदल सकते हैं। प्रेज़ेंटेशन में खोजने और मेल खाने वाले टेक्स्ट को नए मान से बदलने के लिए `SlideUtil.findAndReplaceText` मेथड का उपयोग करें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java का उपयोग करके PPT प्रेज़ेंटेशन में गोपनीय जानकारी छिपाएँ" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.ppt");
 try {
     SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
     presentation.save("replaced.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java के माध्यम से PPT में गोपनीय जानकारी कैसे छिपाएँ" intro="PPT प्रेज़ेंटेशन में गोपनीय जानकारी छिपाने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` क्लास के साथ PPT फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}टेक्स्ट खोजने और बदलने के लिए `SlideUtil.findAndReplaceText` मेथड कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}अपडेट की गई प्रेज़ेंटेशन को `SaveFormat.Ppt` के साथ सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java द्वारा PPT को कैसे संपादित करें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/redaction-app label="Aspose.Slides से निर्मित" title="PPT फ़ाइलों में ऑनलाइन गोपनीय जानकारी छिपाएँ" description="मुफ़्त Aspose.Slides Redaction ऐप [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPT फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Redaction खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टेक्स्ट को कैसे खोजता और बदलता है।
+- अपनी PPT फ़ाइल में टेक्स्ट खोजें और बदलें, रेगुलर एक्सप्रेशन सहित।
+- संसाधित फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/redaction-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPT फ़ाइलों को संपादित करने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="गोपनीय जानकारी छिपाने के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="Java का उपयोग करके, आप निम्न फ़ॉर्मेट में भी गोपनीय जानकारी छिपा सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/java/redaction/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/java/redaction/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPT लोड करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-टेक्स्ट को खोजने और बदलने के लिए [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) विधि का उपयोग करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPT प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPT रिडक्शन लाइव डेमो" sectionDescription="PPT दस्तावेज़ों में अभी सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट खोजें और बदलें।" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित रिडक्ट प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप निम्न स्वरूपों को संपादित भी कर सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/redaction/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/redaction/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
