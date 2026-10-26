@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java을(를) 사용하여 PPT 프레젠테이션 파일 보호
+title: Java로 PPT 프레젠테이션 파일 보호
 url: /ko/java/protect/ppt/
-keywords: 쓰기 방지 PPT, PPT 암호화, PPT 프레젠테이션 잠금, PPT 보호
-description: PPT 프레젠테이션을 보호하기 위한 Java 소스 코드.
+description: Java에서 PPT 프레젠테이션을 보호하세요. Aspose.Slides for Java를 사용해 프레젠테이션 파일을 암호화하고 쓰기 보호를 설정할 수 있습니다.
+keywords: PPT 쓰기 보호, PPT 파일 암호화, PPT 프레젠테이션 잠금, PPT 보호
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java을 사용하여 PPT 잠금 또는 비밀번호 보호" h2="서버 측 API를 사용하여 프리젠테이션 파일을 보호하는 나만의 Java 앱을 구축하세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java로 PPT 잠그기 또는 암호로 보호하기" h2="서버 측 API로 프레젠테이션 파일을 보호하는 Java 애플리케이션을 빌드하세요." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Java을(를) 통해 PPT 프레젠테이션 보호" %}}
-Aspose.Slides for Java을(를) 사용하면 비밀번호를 설정하여 PPT 프레젠테이션을 열거나 수정하지 못하도록 보호할 수 있습니다. 그런 다음 잠긴 프레젠테이션을 열거나 수정하려면 사용자가 암호를 입력해야 합니다.
-{{% blocks/products/pf/agp/code-block title="Java을(를) 사용하여 PPT 프레젠테이션 암호화" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java로 PPT 프레젠테이션 보호" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/ko/java/)를 사용하면 암호를 설정해 PPT 프레젠테이션을 열거나 수정하지 못하도록 보호할 수 있습니다. `Presentation` 클래스의 `ProtectionManager` 개체를 사용해 `encrypt`, `setWriteProtection` 같은 메서드를 호출하세요.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java로 PPT 프레젠테이션 암호화" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.ppt", SaveFormat.Ppt);
+    presentation.save("encrypted-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Java을(를) 사용하여 PPT 프레젠테이션에 쓰기 방지 설정" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java로 PPT 프레젠테이션에 쓰기 보호 설정" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.ppt", SaveFormat.Ppt);
+    presentation.save("write-protected-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java로 PPT를 암호로 보호하는 방법" intro="다음 단계에 따라 PPT 프레젠테이션을 보호하세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` 클래스로 PPT 파일을 로드합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager` 개체의 `encrypt` 메서드 또는 `setWriteProtection` 메서드를 호출합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.Ppt`로 보호된 파일을 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java을(를) 통해 PPT을(를) 비밀번호로 보호하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides로 구축" title="온라인에서 PPT 파일을 암호로 보호" description="무료 Aspose.Slides Lock 앱은 위 코드와 동일한 API인 [Aspose.Slides for Java](https://products.aspose.com/slides/ko/java/)로 구축되었습니다. 앱을 열고 내 PPT 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Lock 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 프레젠테이션을 보호하는 방식을 확인하세요.
+- PPT 파일을 열거나 편집할 때 필요한 암호를 설정하세요.
+- 보호된 파일을 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="다음은 PPT 파일을 보호하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="보호를 지원하는 기타 형식" subTitle="Java를 사용하면 다음 형식도 보호할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/java/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/java/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 인스턴스로 PPT 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager 클래스를 사용하여 프레젠테이션 보호
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-결과를 PPT 형식으로 저장
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 보호 형식" subTitle="Java을(를) 사용하여 다음 형식도 보호할 수 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/java/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

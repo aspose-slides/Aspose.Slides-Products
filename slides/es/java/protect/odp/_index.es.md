@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Proteja los archivos de presentación de ODP usando Java
+title: Proteger archivos de presentación ODP con Java
 url: /es/java/protect/odp/
-keywords: Protección contra escritura ODP, encriptación de ODP, bloqueo de ODP presentación, protección de ODP
-description: Código fuente de Java para proteger la presentación de ODP.
+description: Proteja presentaciones ODP en Java. Use Aspose.Slides for Java para cifrar archivos de presentación y establecer la protección contra escritura.
+keywords: Protección contra escritura ODP, cifrar un ODP, bloquear presentación ODP, proteger ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Bloquear o proteger con contraseña ODP usando Java" h2="Cree sus propias aplicaciones Java para proteger los archivos de presentación mediante las API del lado del servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Bloquear o proteger con contraseña un ODP con Java" h2="Cree aplicaciones Java que protejan archivos de presentación con API del lado del servidor." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Proteger una presentación de ODP a través de Java" %}}
-Usando Aspose.Slides for Java, puede proteger su presentación ODP para que no se abra o modifique configurando una contraseña. Luego, para abrir o modificar la presentación bloqueada, el usuario debe proporcionar la contraseña.
-{{% blocks/products/pf/agp/code-block title="Cifrar una presentación ODP usando Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Proteger una presentación ODP con Java" variant="code" %}}
 
+Con [Aspose.Slides for Java](/slides/es/java/), puede impedir que una presentación ODP se abra o se modifique estableciendo una contraseña. Use el objeto `ProtectionManager` de la clase `Presentation` para llamar a métodos como `encrypt` y `setWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Cifrar una presentación ODP con Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.odp", SaveFormat.Odp);
+    presentation.save("encrypted-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Configurar la protección contra escritura en una presentación ODP usando Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Establecer la protección contra escritura de una presentación ODP con Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.odp", SaveFormat.Odp);
+    presentation.save("write-protected-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo proteger con contraseña un ODP con Java" intro="Siga estos pasos para proteger una presentación ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue el archivo ODP con la clase `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Llame al método `encrypt` o al método `setWriteProtection` del objeto `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el archivo protegido con `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo proteger con contraseña ODP a través de Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Creado con Aspose.Slides" title="Proteger con contraseña archivos ODP en línea" description="La aplicación gratuita Aspose.Slides Lock está creada con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos ODP." button="Abrir Aspose.Slides Lock" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides protege las presentaciones antes de escribir código.
+- Establezca una contraseña para abrir o editar su archivo ODP.
+- Descargue el archivo protegido.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estos son los pasos para proteger archivos ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otros formatos compatibles con la protección" subTitle="Con Java, también puede proteger los siguientes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/java/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/java/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue ODP con una instancia de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Proteger la presentación usando la clase ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guardar resultado en formato ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de protección compatibles" subTitle="Usando Java, también puede proteger los siguientes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

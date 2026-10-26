@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 C++ 保護 PPT 演示文件
+title: 使用 C++ 保護 PPT 簡報
 url: /zh-hant/cpp/protect/ppt/
-keywords: 寫保護 PPT，加密 PPT，鎖定 PPT 演示文稿，保護 PPT
-description: C++ 源代碼保護 PPT 演示。
+description: 在 C++ 中保護 PPT 簡報。使用 Aspose.Slides for C++ 加密檔案並設定防寫保護。
+keywords: PPT 防寫保護, 加密 PPT, 鎖定 PPT 簡報, 保護 PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C++ 鎖定或密碼保護 PPT" h2="使用服務器端 API 構建您自己的 C++ 應用程序以保護演示文稿文件。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C++ 鎖定 PPT 或以密碼保護" h2="使用 Aspose.Slides for C++ 加密簡報並設定防寫保護，無需 Microsoft PowerPoint。" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 C++ 保護 PPT 演示文稿" %}}
-使用 Aspose.Slides for C++，您可以通過設置密碼來保護您的 PPT 演示文稿不被打開或修改。然後，要打開或修改鎖定的演示文稿，用戶必須提供密碼。
-{{% blocks/products/pf/agp/code-block title="使用 C++ 加密 PPT 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 C++ 保護 PPT 簡報" variant="code" %}}
 
+Aspose.Slides for C++ 可防止 PPT 簡報被開啟或修改。使用 `Presentation` 類別中的 `ProtectionManager` 物件，以 `Encrypt` 加密檔案，或以 `SetWriteProtection` 限制編輯。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C++ 加密 PPT 簡報" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.ppt", SaveFormat::Ppt);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="使用 C++ 為 PPT 演示文稿設置寫保護" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C++ 為 PPT 簡報設定防寫保護" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.ppt", SaveFormat::Ppt);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何透過 C++ 以密碼保護 PPT" intro="依照下列步驟保護 PPT 簡報。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 類別載入 PPT 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `ProtectionManager` 物件保護簡報。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Encrypt` 進行密碼保護，或使用 `SetWriteProtection` 進行防寫保護。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat::Ppt` 儲存受保護的檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 C++ 密碼保護 PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="以 Aspose.Slides 建置" title="線上以密碼保護 PPT 檔案" description="免費的 Aspose.Slides Lock 應用程式以 [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 PPT 檔案。" button="開啟 Aspose.Slides Lock" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先了解 Aspose.Slides 如何保護簡報。
+- 設定開啟或編輯 PPT 檔案所需的密碼。
+- 下載受保護的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是保護 PPT 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援保護的格式" subTitle="使用 C++，您也可以保護下列格式。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/cpp/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/cpp/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 ProtectionManager 類保護演示文稿
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPT 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的保護格式" subTitle="使用C++，您還可以保護以下格式：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

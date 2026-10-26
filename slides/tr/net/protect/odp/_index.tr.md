@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET kullanarak ODP Sunum Dosyalarını koruyun
+title: .NET ile ODP Sunum Dosyalarını Koruma
 url: /tr/net/protect/odp/
-keywords: Yazma Koruması ODP, Bir ODP Şifreleme, ODP Sunumu Kilitleme, ODP Koruma
-description: ODP Sunumunu korumak için C# kaynak kodu.
+description: ODP sunumlarını parolayla korumak için C# kaynak kodu.
+keywords: ODP yazma koruması, ODP şifreleme, ODP sunumunu kilitleme, ODP koruma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# kullanarak ODP Kilitleyin veya Parolayla Koruyun" h2="Sunucu tarafı API'lerini kullanarak sunum dosyalarını korumak için kendi .NET uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# ile ODP Dosyalarını Kilitleme veya Parolayla Koruma" h2="Sunucu tarafı API'lerle sunumları şifreleyen ve değişiklikleri kısıtlayan .NET uygulamaları geliştirin." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bir ODP Sunumunu C# Aracılığıyla Koruma" %}}
-Aspose.Slides for .NET kullanarak, bir şifre belirleyerek ODP sunumunuzu açılmaya veya değiştirilmeye karşı koruyabilirsiniz. Ardından, kilitli sunuyu açmak veya değiştirmek için kullanıcının parolayı sağlaması gerekir.
-{{% blocks/products/pf/agp/code-block title="Bir ODP Sunumunu C# kullanarak şifreleme" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# ile ODP Sunumunu Koruma" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/tr/net/) ile bir ODP sunumunu şifreleyebilir veya parolayla değiştirilmesini kısıtlayabilirsiniz. `ProtectionManager.Encrypt` ile şifrelenen bir sunumu açmak için parola gerekir. Sunumun açılmasına izin verip değişiklikleri kısıtlamak için `ProtectionManager.SetWriteProtection` kullanın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile ODP Sunumunu Şifreleme" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.odp", SaveFormat.Odp);
-}
+using var presentation = new Presentation("presentation.odp");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C# kullanarak bir ODP Sunumuna Yazma Koruması Ayarlama" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile ODP Sunumuna Yazma Koruması Ayarlama" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.odp", SaveFormat.Odp);
-}
+using var presentation = new Presentation("presentation.odp");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# ile ODP Sunumunu Parolayla Koruma" intro="Bir ODP sunumunu parolayla korumak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ODP dosyasını `Presentation` ile yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sunumu `ProtectionManager.Encrypt` ile şifreleyin veya değişiklikleri `ProtectionManager.SetWriteProtection` ile kısıtlayın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Korunan dosyayı `SaveFormat.Odp` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# Aracılığıyla ODP Parola Koruması Nasıl Yapılır?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides ile geliştirildi" title="ODP Dosyalarını Çevrimiçi Parolayla Koruma" description="Ücretsiz Aspose.Slides Lock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi ODP dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Lock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın sunumları nasıl koruduğunu görün.
+- ODP dosyanızı açmak veya düzenlemek için bir parola belirleyin.
+- Korunan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, ODP dosyalarını Koruma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Koruma İçin Desteklenen Diğer Biçimler" subTitle="C# ile aşağıdaki biçimleri de koruyabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak sunuyu koruyun
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu ODP biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Koruma Biçimleri" subTitle="C# kullanarak aşağıdaki biçimleri de koruyabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

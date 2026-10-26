@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Chroń pliki prezentacji PPTX za pomocą Java
+title: Ochrona plików prezentacji PPTX za pomocą Javy
 url: /pl/java/protect/pptx/
-keywords: Ochrona przed zapisem PPTX, szyfrowanie PPTX, blokada prezentacji PPTX, ochrona PPTX
-description: Kod źródłowy Java do ochrony prezentacji PPTX.
+description: Chroń prezentacje PPTX w Javie. Użyj Aspose.Slides for Java, aby szyfrować pliki prezentacji i ustawiać ochronę przed zapisem.
+keywords: Ochrona przed zapisem PPTX, szyfrowanie pliku PPTX, blokowanie prezentacji PPTX, ochrona PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Zablokuj lub zabezpiecz hasłem PPTX za pomocą Java" h2="Twórz własne aplikacje Java, aby chronić pliki prezentacji za pomocą interfejsów API po stronie serwera." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Blokowanie lub ochrona hasłem pliku PPTX za pomocą Javy" h2="Twórz aplikacje Java, które chronią pliki prezentacji za pomocą interfejsów API po stronie serwera." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ochrona prezentacji PPTX za pośrednictwem Java" %}}
-Korzystając z Aspose.Slides for Java, możesz zabezpieczyć swoją prezentację PPTX przed otwarciem lub modyfikacją, ustawiając hasło. Następnie, aby otworzyć lub zmodyfikować zablokowaną prezentację, użytkownik musi podać hasło.
-{{% blocks/products/pf/agp/code-block title="Szyfrowanie prezentacji PPTX za pomocą Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ochrona prezentacji PPTX za pomocą Javy" variant="code" %}}
 
+Dzięki [Aspose.Slides for Java](/slides/pl/java/) możesz chronić prezentację PPTX przed otwarciem lub modyfikacją, ustawiając hasło. Użyj obiektu `ProtectionManager` z klasy `Presentation`, aby wywołać metody takie jak `encrypt` i `setWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Szyfrowanie prezentacji PPTX za pomocą Javy" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.pptx", SaveFormat.Pptx);
+    presentation.save("encrypted-presentation.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ustawianie ochrony przed zapisem w prezentacji PPTX za pomocą Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ustawianie ochrony przed zapisem prezentacji PPTX za pomocą Javy" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.pptx", SaveFormat.Pptx);
+    presentation.save("write-protected-presentation.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak chronić plik PPTX hasłem za pomocą Javy" intro="Wykonaj poniższe kroki, aby chronić prezentację PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wczytaj plik PPTX za pomocą klasy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wywołaj metodę `encrypt` lub metodę `setWriteProtection` obiektu `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz chroniony plik za pomocą `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak zabezpieczyć hasłem PPTX za pośrednictwem Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Zbudowano z Aspose.Slides" title="Ochrona plików PPTX hasłem online" description="Bezpłatna aplikacja Aspose.Slides Lock została zbudowana z użyciem [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami PPTX." button="Otwórz Aspose.Slides Lock" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides chroni prezentacje, zanim napiszesz kod.
+- Ustaw hasło do otwierania lub edycji pliku PPTX.
+- Pobierz chroniony plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Oto kroki, które należy wykonać, aby chronić pliki PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane formaty ochrony" subTitle="Za pomocą Javy możesz chronić także następujące formaty." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/java/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Załaduj PPTX z instancją Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Chroń prezentację za pomocą klasy ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Zapisz wynik w formacie PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty ochrony" subTitle="Korzystając z Java, możesz również chronić następujące formaty:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/java/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

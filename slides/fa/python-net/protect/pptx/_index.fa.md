@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: محافظت از فایل‌های ارائه PPTX با استفاده از Python
+title: محافظت از فایل‌های ارائه PPTX با Python
 url: /fa/python-net/protect/pptx/
-keywords: حفاظت از نوشتن PPTX، رمزگذاری ارائه PPTX، قفل PPTX، محافظت از PPTX
-description: کد منبع Python برای محافظت از ارائه PPTX.
+description: ارائه‌های PPTX را رمزگذاری کنید یا با Python محافظت در برابر نوشتن تنظیم کنید.
+keywords: محافظت در برابر نوشتن PPTX، رمزگذاری PPTX با Python، قفل کردن ارائه PPTX، محافظت از PPTX با Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="قفل کردن یا محافظت با گذرواژه PPTX با استفاده از Python" h2="برای محافظت از فایل های ارائه با استفاده از API های سمت سرور، برنامه های Python خود را بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="محافظت از ارائه‌های PPTX با Python" h2="برنامه‌های Python بسازید که با Aspose.Slides ارائه‌ها را رمزگذاری می‌کنند یا محافظت در برابر نوشتن تنظیم می‌کنند." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="محافظت از ارائه PPTX از طریق Python" %}}
-با استفاده از Aspose.Slides for Python via .NET، می‌توانید از ارائه PPTX خود در برابر باز کردن یا تغییر با تنظیم رمز عبور محافظت کنید. سپس، برای باز کردن یا اصلاح ارائه قفل شده، کاربر باید رمز عبور را ارائه کند.
-{{% blocks/products/pf/agp/code-block title="رمزگذاری یک ارائه PPTX با استفاده از Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="محافظت از ارائه PPTX با Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/fa/python-net/) دو سازوکار محافظتی متفاوت ارائه می‌دهد. `ProtectionManager.encrypt` را فراخوانی کنید تا ارائه PPTX رمزگذاری شود و برای باز کردن آن رمز عبور لازم باشد. همچنین می‌توانید `ProtectionManager.set_write_protection` را فراخوانی کنید تا بدون رمزگذاری فایل، از ویرایش آن جلوگیری شود. کاربر همچنان می‌تواند ارائه محافظت‌شده در برابر نوشتن را باز کند و تغییرات را در فایل دیگری ذخیره کند.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="رمزگذاری ارائه PPTX – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="تنظیم محافظت از نوشتن روی یک ارائه PPTX با استفاده از Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="تنظیم محافظت در برابر نوشتن برای ارائه PPTX – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه محافظت از PPTX با Python" intro="برای محافظت از فایل PPTX، این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل PPTX را با `Presentation` باز کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}از `ProtectionManager.encrypt` برای الزام رمز عبور هنگام باز کردن، یا از `ProtectionManager.set_write_protection` برای جلوگیری از تغییرات استفاده کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ارائه محافظت‌شده را با `SaveFormat.PPTX` به‌صورت PPTX ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه محافظت از رمز عبور PPTX از طریق Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="ساخته شده با Aspose.Slides" title="محافظت آنلاین از فایل‌های PPTX با رمز عبور" description="برنامه رایگان Aspose.Slides Lock با [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fa/python-net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPTX شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Lock" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه از ارائه‌ها محافظت می‌کند.
+- برای باز کردن یا ویرایش فایل PPTX خود رمز عبور تعیین کنید.
+- فایل محافظت‌شده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای محافظت از فایل‌های PPTX هستند." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر فرمت‌های پشتیبانی‌شده برای محافظت" subTitle="از Python برای محافظت از سایر فرمت‌های ارائه پشتیبانی‌شده استفاده کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/python-net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/python-net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX را با یک نمونه از Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-با استفاده از کلاس ProtectionManager از ارائه محافظت کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را در قالب PPTX ذخیره کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های محافظتی پشتیبانی شده" subTitle="با استفاده از Python، می‌توانید از قالب‌های زیر نیز محافظت کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Skydda PPT presentationsfiler med .NET
+title: Skydda PPT-presentationsfiler med .NET
 url: /sv/net/protect/ppt/
-keywords: Skrivskydd PPT, kryptera en PPT, lås PPT presentation, skydda PPT
-description: C# källkod för att skydda PPT presentation.
+description: C#-källkod för att lösenordsskydda PPT-presentationer.
+keywords: PPT-skrivskydd, kryptera PPT, lås PPT-presentation, skydda PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lås eller lösenordsskydda PPT med C#" h2="Bygg dina egna .NET-appar för att skydda presentationsfiler med API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Lås eller lösenordsskydda PPT-filer med C#" h2="Bygg .NET-appar som krypterar presentationer och begränsar ändringar med API:er på serversidan." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Skydda en PPT presentation via C#" %}}
-Med Aspose.Slides for .NET kan du skydda din PPT-presentation från att öppnas eller ändras genom att ange ett lösenord. Sedan, för att öppna eller ändra den låsta presentationen, måste en användare ange lösenordet.
-{{% blocks/products/pf/agp/code-block title="Kryptera en PPT presentation med C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Skydda en PPT-presentation med C#" variant="code" %}}
 
+Med [Aspose.Slides for .NET](/slides/sv/net/) kan du kryptera en PPT-presentation eller begränsa ändringar i den med ett lösenord. För att öppna en presentation som krypterats med `ProtectionManager.Encrypt` krävs lösenordet. Använd `ProtectionManager.SetWriteProtection` för att tillåta att presentationen öppnas men begränsa ändringar.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kryptera en PPT-presentation med C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.ppt", SaveFormat.Ppt);
-}
+using var presentation = new Presentation("presentation.ppt");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ställa in skrivskydd till en PPT presentation med C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ange skrivskydd för en PPT-presentation med C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.ppt", SaveFormat.Ppt);
-}
+using var presentation = new Presentation("presentation.ppt");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så lösenordsskyddar du en PPT-presentation med C#" intro="Följ de här stegen för att lösenordsskydda en PPT-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs in PPT-filen med `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kryptera presentationen med `ProtectionManager.Encrypt` eller begränsa ändringar med `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den skyddade filen med `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Så här lösenordsskyddar du PPT via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Byggd med Aspose.Slides" title="Lösenordsskydda PPT-filer online" description="Den kostnadsfria appen Aspose.Slides Lock är byggd med [Aspose.Slides for .NET](https://products.aspose.com/slides/sv/net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPT-filer." button="Öppna Aspose.Slides Lock" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides skyddar presentationer innan du skriver kod.
+- Ange ett lösenord för att öppna eller redigera din PPT-fil.
+- Ladda ned den skyddade filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att skydda PPT-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för skydd" subTitle="Med C# kan du även skydda följande format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda PPT med en instans av Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Skydda presentationen med ProtectionManager-klassen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet i formatet PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra skyddade format som stöds" subTitle="Med C# kan du också skydda följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

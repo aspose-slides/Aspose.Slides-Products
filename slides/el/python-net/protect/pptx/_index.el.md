@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Προστασία αρχείων παρουσίασης PPTX χρησιμοποιώντας Python
+title: Προστασία αρχείων παρουσίασης PPTX με Python
 url: /el/python-net/protect/pptx/
-keywords: Προστασία εγγραφής PPTX, Κρυπτογράφηση παρουσίασης PPTX, Κλείδωμα PPTX, Προστασία PPTX
-description: Πηγαίος κώδικας Python για προστασία της παρουσίασης PPTX.
+description: Κρυπτογραφήστε παρουσιάσεις PPTX ή ορίστε προστασία εγγραφής με Python.
+keywords: προστασία εγγραφής PPTX, κρυπτογράφηση PPTX με Python, κλείδωμα παρουσίασης PPTX, προστασία PPTX με Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Κλείδωμα ή προστασία με κωδικό πρόσβασης PPTX χρησιμοποιώντας Python" h2="Δημιουργήστε τις δικές σας εφαρμογές Python για την προστασία των αρχείων παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Προστασία παρουσιάσεων PPTX με Python" h2="Δημιουργήστε εφαρμογές Python που κρυπτογραφούν παρουσιάσεις ή ορίζουν προστασία εγγραφής με το Aspose.Slides." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Προστασία παρουσίασης PPTX μέσω Python" %}}
-Χρησιμοποιώντας το Aspose.Slides for Python via .NET, μπορείτε να προστατέψετε την παρουσίασή σας PPTX από άνοιγμα ή τροποποίηση ορίζοντας έναν κωδικό πρόσβασης. Στη συνέχεια, για να ανοίξει ή να τροποποιήσει την κλειδωμένη παρουσίαση, ο χρήστης πρέπει να δώσει τον κωδικό πρόσβασης.
-{{% blocks/products/pf/agp/code-block title="Κρυπτογράφηση παρουσίασης PPTX χρησιμοποιώντας Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Προστασία παρουσίασης PPTX με Python" variant="code" %}}
 
-```py
+Το [**Aspose.Slides for Python via .NET**](/slides/el/python-net/) παρέχει δύο διαφορετικούς μηχανισμούς προστασίας. Καλέστε `ProtectionManager.encrypt` για να κρυπτογραφήσετε μια παρουσίαση PPTX και να απαιτείται κωδικός για το άνοιγμά της. Εναλλακτικά, καλέστε `ProtectionManager.set_write_protection` για να αποτρέψετε τις τροποποιήσεις χωρίς κρυπτογράφηση του αρχείου. Ο χρήστης μπορεί ακόμη να ανοίξει μια παρουσίαση με προστασία εγγραφής και να αποθηκεύσει τις αλλαγές σε άλλο αρχείο.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Κρυπτογράφηση παρουσίασης PPTX – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Ρύθμιση της προστασίας εγγραφής σε μια παρουσίαση PPTX χρησιμοποιώντας Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Ορισμός προστασίας εγγραφής σε παρουσίαση PPTX – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να προστατέψετε ένα PPTX με Python" intro="Ακολουθήστε αυτά τα βήματα για να προστατέψετε ένα αρχείο PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ανοίξτε το αρχείο PPTX με `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Χρησιμοποιήστε `ProtectionManager.encrypt` για να απαιτείται κωδικός στο άνοιγμα ή `ProtectionManager.set_write_protection` για να αποτρέψετε τις αλλαγές.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε την προστατευμένη παρουσίαση ως PPTX με `SaveFormat.PPTX`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος προστασίας με κωδικό πρόσβασης PPTX μέσω Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Δημιουργήθηκε με το Aspose.Slides" title="Διαδικτυακή προστασία αρχείων PPTX με κωδικό πρόσβασης" description="Η δωρεάν εφαρμογή Aspose.Slides Lock έχει δημιουργηθεί με το [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/el/python-net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία PPTX." button="Άνοιγμα Aspose.Slides Lock" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides προστατεύει παρουσιάσεις πριν γράψετε κώδικα.
+- Ορίστε κωδικό πρόσβασης για το άνοιγμα ή την επεξεργασία του αρχείου PPTX.
+- Κατεβάστε το προστατευμένο αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την προστασία των αρχείων PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές για προστασία" subTitle="Χρησιμοποιήστε Python για να προστατέψετε άλλες υποστηριζόμενες μορφές παρουσίασης." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/python-net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του PPTX με μια παρουσία παρουσίασης
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Προστατέψτε την παρουσίαση χρησιμοποιώντας την κλάση ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές προστασίας" subTitle="Χρησιμοποιώντας το Python, μπορείτε επίσης να προστατεύσετε τις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/python-net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

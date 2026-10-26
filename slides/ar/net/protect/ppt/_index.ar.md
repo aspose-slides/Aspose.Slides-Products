@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: حماية PPT ملفات العروض التقديمية باستخدام .NET
+title: حماية ملفات العروض التقديمية PPT باستخدام .NET
 url: /ar/net/protect/ppt/
-keywords: حماية الكتابة PPT ، تشفير PPT ، تأمين PPT Presentation ، Protect PPT
-description: C# شفرة المصدر لحماية العرض التقديمي PPT.
+description: كود مصدري بلغة C# لحماية العروض التقديمية PPT بكلمة مرور.
+keywords: حماية PPT من الكتابة، تشفير PPT، قفل عرض PPT، حماية PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="القفل أو الحماية بكلمة مرور PPT باستخدام C#" h2="أنشئ تطبيقات .NET الخاصة بك لحماية ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="قفل ملفات PPT أو حمايتها بكلمة مرور باستخدام C#" h2="أنشئ تطبيقات .NET تشفّر العروض التقديمية وتقيّد تعديلها باستخدام واجهات API من جانب الخادم." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="حماية عرض PPT عبر C#" %}}
-باستخدام Aspose.Slides for .NET ، يمكنك حماية العرض التقديمي PPT من الفتح أو التعديل عن طريق تعيين كلمة مرور. بعد ذلك ، لفتح العرض التقديمي المقفل أو تعديله ، يجب على المستخدم توفير كلمة المرور.
-{{% blocks/products/pf/agp/code-block title="تشفير عرض تقديمي PPT باستخدام C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حماية عرض تقديمي PPT باستخدام C#" variant="code" %}}
 
+باستخدام [Aspose.Slides for .NET](/slides/ar/net/)، يمكنك تشفير عرض تقديمي PPT أو تقييد تعديله بكلمة مرور. يتطلب فتح عرض تقديمي مشفّر باستخدام `ProtectionManager.Encrypt` إدخال كلمة المرور. استخدم `ProtectionManager.SetWriteProtection` للسماح بفتح العرض التقديمي مع تقييد التغييرات.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="تشفير عرض تقديمي PPT باستخدام C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.ppt", SaveFormat.Ppt);
-}
+using var presentation = new Presentation("presentation.ppt");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="إعداد الحماية ضد الكتابة في عرض تقديمي PPT باستخدام C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="تعيين الحماية من الكتابة لعرض تقديمي PPT باستخدام C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.ppt", SaveFormat.Ppt);
-}
+using var presentation = new Presentation("presentation.ppt");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية حماية عرض تقديمي PPT بكلمة مرور باستخدام C#" intro="اتبع هذه الخطوات لحماية عرض تقديمي PPT بكلمة مرور." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حمّل ملف PPT باستخدام `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}شفّر العرض التقديمي باستخدام `ProtectionManager.Encrypt` أو قيّد التغييرات باستخدام `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ الملف المحمي باستخدام `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية حماية كلمة المرور PPT عبر C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="مبني باستخدام Aspose.Slides" title="حماية ملفات PPT بكلمة مرور عبر الإنترنت" description="تطبيق Aspose.Slides Lock المجاني مبني باستخدام [Aspose.Slides for .NET](https://products.aspose.com/slides/ar/net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPT الخاصة بك." button="افتح Aspose.Slides Lock" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يحمي Aspose.Slides العروض التقديمية قبل كتابة الكود.
+- عيّن كلمة مرور لفتح ملف PPT أو تحريره.
+- نزّل الملف المحمي.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات حماية ملفات PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للحماية" subTitle="باستخدام C#، يمكنك أيضًا حماية التنسيقات التالية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل PPT بمثيل عرض تقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-حماية العرض التقديمي باستخدام فئة ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات الحماية المدعومة الأخرى" subTitle="باستخدام C# ، يمكنك أيضًا حماية التنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

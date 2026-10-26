@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lindungi File Presentasi PPT menggunakan C++
+title: Melindungi Presentasi PPT menggunakan C++
 url: /id/cpp/protect/ppt/
-keywords: Perlindungan Tulis PPT, Enkripsi PPT, Kunci Presentasi PPT, Lindungi PPT
-description: kode sumber C++ untuk melindungi Presentasi PPT.
+description: Lindungi presentasi PPT di C++. Gunakan Aspose.Slides for C++ untuk mengenkripsi file dan mengatur proteksi tulis.
+keywords: Proteksi Tulis PPT, Enkripsi PPT, Kunci Presentasi PPT, Lindungi PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Kunci atau Proteksi Kata Sandi PPT menggunakan C++" h2="Bangun aplikasi C++ Anda sendiri untuk melindungi file presentasi menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Mengunci atau Melindungi PPT dengan Kata Sandi menggunakan C++" h2="Gunakan Aspose.Slides for C++ untuk mengenkripsi presentasi dan mengatur proteksi tulis tanpa Microsoft PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Melindungi Presentasi PPT melalui C++" %}}
-Dengan menggunakan Aspose.Slides for C++, Anda dapat melindungi presentasi PPT dari pembukaan atau modifikasi dengan menyetel sandi. Kemudian, untuk membuka atau memodifikasi presentasi yang dikunci, pengguna harus memberikan kata sandi.
-{{% blocks/products/pf/agp/code-block title="Mengenkripsi Presentasi PPT menggunakan C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Melindungi Presentasi PPT dengan C++" variant="code" %}}
 
+Aspose.Slides for C++ memungkinkan Anda melindungi presentasi PPT agar tidak dibuka atau diubah. Gunakan objek `ProtectionManager` dari kelas `Presentation` untuk mengenkripsi file dengan `Encrypt` atau membatasi pengeditan dengan `SetWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mengenkripsi Presentasi PPT menggunakan C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.ppt", SaveFormat::Ppt);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Menyetel Write Protection ke Presentasi PPT menggunakan C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mengatur Proteksi Tulis untuk Presentasi PPT menggunakan C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.ppt", SaveFormat::Ppt);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Melindungi PPT dengan Kata Sandi melalui C++" intro="Ikuti langkah-langkah berikut untuk melindungi presentasi PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file PPT dengan kelas `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lindungi presentasi dengan objek `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gunakan `Encrypt` untuk proteksi kata sandi atau `SetWriteProtection` untuk proteksi tulis.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan file yang dilindungi dengan `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Melindungi Kata Sandi PPT melalui C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Dibuat dengan Aspose.Slides" title="Lindungi File PPT dengan Kata Sandi Secara Online" description="Aplikasi Aspose.Slides Lock gratis dibuat dengan [Aspose.Slides for C++](https://products.aspose.com/slides/id/cpp/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file PPT Anda sendiri." button="Buka Aspose.Slides Lock" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides melindungi presentasi sebelum Anda menulis kode.
+- Atur kata sandi untuk membuka atau mengedit file PPT Anda.
+- Unduh file yang dilindungi.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk Melindungi file PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Proteksi" subTitle="Dengan C++, Anda juga dapat melindungi format berikut." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/cpp/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/cpp/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat PPT dengan contoh Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lindungi presentasi menggunakan kelas ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil dalam format PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Perlindungan Lain yang Didukung" subTitle="Menggunakan C++, Anda juga dapat memproteksi format berikut:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/cpp/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

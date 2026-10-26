@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++을(를) 사용하여 ODP 프레젠테이션 파일 보호
+title: C++로 ODP 프레젠테이션 보호
 url: /ko/cpp/protect/odp/
-keywords: 쓰기 방지 ODP, ODP 암호화, ODP 프레젠테이션 잠금, ODP 보호
-description: ODP 프레젠테이션을 보호하기 위한 C++ 소스 코드.
+description: C++에서 ODP 프레젠테이션을 보호하세요. Aspose.Slides for C++를 사용해 파일을 암호화하고 쓰기 보호를 설정할 수 있습니다.
+keywords: ODP 쓰기 보호, ODP 암호화, ODP 프레젠테이션 잠금, ODP 보호
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++을 사용하여 ODP 잠금 또는 비밀번호 보호" h2="서버 측 API를 사용하여 프리젠테이션 파일을 보호하는 나만의 C++ 앱을 구축하세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++로 ODP 잠그기 또는 암호로 보호하기" h2="Aspose.Slides for C++를 사용하면 Microsoft PowerPoint 없이 프레젠테이션을 암호화하고 쓰기 보호를 설정할 수 있습니다." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++을(를) 통해 ODP 프레젠테이션 보호" %}}
-Aspose.Slides for C++을(를) 사용하면 비밀번호를 설정하여 ODP 프레젠테이션을 열거나 수정하지 못하도록 보호할 수 있습니다. 그런 다음 잠긴 프레젠테이션을 열거나 수정하려면 사용자가 암호를 입력해야 합니다.
-{{% blocks/products/pf/agp/code-block title="C++을(를) 사용하여 ODP 프레젠테이션 암호화" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++로 ODP 프레젠테이션 보호" variant="code" %}}
 
+Aspose.Slides for C++를 사용하면 ODP 프레젠테이션을 열거나 수정하지 못하도록 보호할 수 있습니다. `Presentation` 클래스의 `ProtectionManager` 개체를 사용해 `Encrypt`로 파일을 암호화하거나 `SetWriteProtection`으로 편집을 제한하세요.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++로 ODP 프레젠테이션 암호화" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.odp", SaveFormat::Odp);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C++을(를) 사용하여 ODP 프레젠테이션에 쓰기 방지 설정" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++로 ODP 프레젠테이션에 쓰기 보호 설정" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.odp", SaveFormat::Odp);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++로 ODP를 암호로 보호하는 방법" intro="다음 단계에 따라 ODP 프레젠테이션을 보호하세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` 클래스로 ODP 파일을 로드합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager` 개체로 프레젠테이션을 보호합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}암호 보호에는 `Encrypt`를, 쓰기 보호에는 `SetWriteProtection`을 사용합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat::Odp`로 보호된 파일을 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++을(를) 통해 ODP을(를) 비밀번호로 보호하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides로 구축" title="온라인에서 ODP 파일을 암호로 보호" description="무료 Aspose.Slides Lock 앱은 위 코드와 동일한 API인 [Aspose.Slides for C++](https://products.aspose.com/slides/ko/cpp/)로 구축되었습니다. 앱을 열고 내 ODP 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Lock 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 프레젠테이션을 보호하는 방식을 확인하세요.
+- ODP 파일을 열거나 편집할 때 필요한 암호를 설정하세요.
+- 보호된 파일을 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="다음은 ODP 파일을 보호하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="보호를 지원하는 기타 형식" subTitle="C++를 사용하면 다음 형식도 보호할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/cpp/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/cpp/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 인스턴스로 ODP 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager 클래스를 사용하여 프레젠테이션 보호
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-결과를 ODP 형식으로 저장
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 보호 형식" subTitle="C++을(를) 사용하여 다음 형식도 보호할 수 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

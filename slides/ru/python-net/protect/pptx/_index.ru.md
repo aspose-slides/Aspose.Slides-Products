@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Защитите файлы презентаций PPTX с помощью Python
+title: Защита файлов презентаций PPTX с помощью Python
 url: /ru/python-net/protect/pptx/
-keywords: Защита от записи PPTX, шифрование PPTX, блокировка презентации PPTX, защита PPTX
-description: Исходный код Python для защиты презентации PPTX.
+description: Шифруйте презентации PPTX или устанавливайте защиту от записи с помощью Python.
+keywords: защита PPTX от записи, шифрование PPTX на Python, блокировка презентации PPTX, защита PPTX на Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Заблокируйте или защитите паролем PPTX с помощью Python" h2="Создавайте собственные приложения Python для защиты файлов презентаций с помощью серверных API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Защита презентаций PPTX с помощью Python" h2="Создавайте приложения на Python, которые шифруют презентации или устанавливают защиту от записи с помощью Aspose.Slides." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Защита презентации PPTX через Python" %}}
-Используя Aspose.Slides for Python via .NET, вы можете защитить свою презентацию PPTX от открытия или изменения, установив пароль. Затем, чтобы открыть или изменить заблокированную презентацию, пользователь должен ввести пароль.
-{{% blocks/products/pf/agp/code-block title="Шифрование презентации PPTX с использованием Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Защита презентации PPTX с помощью Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/ru/python-net/) предоставляет два разных механизма защиты. Вызовите `ProtectionManager.encrypt`, чтобы зашифровать презентацию PPTX и требовать пароль для ее открытия. Либо вызовите `ProtectionManager.set_write_protection`, чтобы предостеречь от изменений без шифрования файла. Пользователь по-прежнему может открыть защищенную от записи презентацию и сохранить изменения в другой файл.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Шифрование презентации PPTX – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Установка защиты от записи для презентации PPTX с использованием Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Установка защиты от записи для презентации PPTX – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как защитить PPTX с помощью Python" intro="Выполните следующие шаги, чтобы защитить файл PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Откройте файл PPTX с помощью `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Используйте `ProtectionManager.encrypt`, чтобы требовать пароль при открытии, или `ProtectionManager.set_write_protection`, чтобы предостеречь от изменений.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните защищенную презентацию в формате PPTX с помощью `SaveFormat.PPTX`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как защитить паролем PPTX через Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Создано на основе Aspose.Slides" title="Защита файлов PPTX паролем онлайн" description="Бесплатное приложение Aspose.Slides Lock создано на основе [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ru/python-net/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPTX." button="Открыть Aspose.Slides Lock" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides защищает презентации, прежде чем писать код.
+- Установите пароль для открытия или редактирования файла PPTX.
+- Скачайте защищенный файл.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для защиты файлов PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые форматы для защиты" subTitle="Используйте Python для защиты других поддерживаемых форматов презентаций." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/python-net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/python-net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Загрузите PPTX с экземпляром Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Защитите презентацию с помощью класса ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохранить результат в формате PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы защиты" subTitle="Используя Python, Вы также можете защитить следующие форматы:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/python-net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

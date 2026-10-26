@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java kullanarak ODP Sunum Dosyalarını koruyun
+title: Java ile ODP Sunum Dosyalarını Koruma
 url: /tr/java/protect/odp/
-keywords: Yazma Koruması ODP, Bir ODP Şifreleme, ODP Sunumu Kilitleme, ODP Koruma
-description: ODP Sunumunu korumak için Java kaynak kodu.
+description: Java'da ODP sunumlarını koruyun. Sunum dosyalarını şifrelemek ve yazma koruması ayarlamak için Aspose.Slides for Java kullanın.
+keywords: ODP yazma koruması, bir ODP şifreleme, ODP sunumunu kilitleme, ODP koruma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java kullanarak ODP Kilitleyin veya Parolayla Koruyun" h2="Sunucu tarafı API'lerini kullanarak sunum dosyalarını korumak için kendi Java uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java ile ODP Kilitleme veya Parolayla Koruma" h2="Sunum dosyalarını sunucu tarafı API'lerle koruyan Java uygulamaları geliştirin." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bir ODP Sunumunu Java Aracılığıyla Koruma" %}}
-Aspose.Slides for Java kullanarak, bir şifre belirleyerek ODP sunumunuzu açılmaya veya değiştirilmeye karşı koruyabilirsiniz. Ardından, kilitli sunuyu açmak veya değiştirmek için kullanıcının parolayı sağlaması gerekir.
-{{% blocks/products/pf/agp/code-block title="Bir ODP Sunumunu Java kullanarak şifreleme" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java ile ODP Sunumunu Koruma" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/tr/java/) ile bir parola belirleyerek ODP sunumunu açılmaya veya değiştirilmeye karşı koruyabilirsiniz. `encrypt` ve `setWriteProtection` gibi yöntemleri çağırmak için `Presentation` sınıfındaki `ProtectionManager` nesnesini kullanın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java ile ODP Sunumunu Şifreleme" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.odp", SaveFormat.Odp);
+    presentation.save("encrypted-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Java kullanarak bir ODP Sunumuna Yazma Koruması Ayarlama" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java ile ODP Sunumuna Yazma Koruması Ayarlama" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.odp", SaveFormat.Odp);
+    presentation.save("write-protected-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java ile ODP Parolayla Nasıl Korunur" intro="Bir ODP sunumunu korumak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ODP dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager` nesnesinin `encrypt` yöntemini veya `setWriteProtection` yöntemini çağırın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Korunan dosyayı `SaveFormat.Odp` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java Aracılığıyla ODP Parola Koruması Nasıl Yapılır?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides ile geliştirildi" title="ODP Dosyalarını Çevrimiçi Parolayla Koruma" description="Ücretsiz Aspose.Slides Lock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi ODP dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Lock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın sunumları nasıl koruduğunu görün.
+- ODP dosyanızı açmak veya düzenlemek için bir parola belirleyin.
+- Korunan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, ODP dosyalarını Koruma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Koruma İçin Desteklenen Diğer Biçimler" subTitle="Java ile aşağıdaki biçimleri de koruyabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak sunuyu koruyun
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu ODP biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Koruma Biçimleri" subTitle="Java kullanarak aşağıdaki biçimleri de koruyabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

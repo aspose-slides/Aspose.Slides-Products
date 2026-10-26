@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: حماية ODP ملفات العروض التقديمية باستخدام Python
+title: حماية ملفات العروض التقديمية ODP باستخدام Python
 url: /ar/python-net/protect/odp/
-keywords: حماية الكتابة ODP ، تشفير ODP ، تأمين ODP Presentation ، Protect ODP
-description: Python شفرة المصدر لحماية العرض التقديمي ODP.
+description: شفّر العروض التقديمية ODP أو عيّن الحماية من الكتابة باستخدام Python.
+keywords: حماية ODP من الكتابة، تشفير ODP باستخدام Python، قفل عرض ODP، حماية ODP باستخدام Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="القفل أو الحماية بكلمة مرور ODP باستخدام Python" h2="أنشئ تطبيقات Python الخاصة بك لحماية ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="حماية العروض التقديمية ODP باستخدام Python" h2="أنشئ تطبيقات Python تشفّر العروض التقديمية أو تعيّن الحماية من الكتابة باستخدام Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="حماية عرض ODP عبر Python" %}}
-باستخدام Aspose.Slides for Python via .NET ، يمكنك حماية العرض التقديمي ODP من الفتح أو التعديل عن طريق تعيين كلمة مرور. بعد ذلك ، لفتح العرض التقديمي المقفل أو تعديله ، يجب على المستخدم توفير كلمة المرور.
-{{% blocks/products/pf/agp/code-block title="تشفير عرض تقديمي ODP باستخدام Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حماية عرض تقديمي ODP باستخدام Python" variant="code" %}}
 
-```py
+يوفر [**Aspose.Slides for Python via .NET**](/slides/ar/python-net/) آليتين مختلفتين للحماية. استدعِ `ProtectionManager.encrypt` لتشفير عرض تقديمي ODP واشتراط كلمة مرور لفتحه. أو استدعِ `ProtectionManager.set_write_protection` للحد من التعديل دون تشفير الملف. يظل بإمكان المستخدم فتح عرض تقديمي محمي من الكتابة وحفظ التغييرات في ملف آخر.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.odp") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.odp", slides.export.SaveFormat.ODP)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="تشفير عرض تقديمي ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="إعداد الحماية ضد الكتابة في عرض تقديمي ODP باستخدام Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.odp") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.odp", slides.export.SaveFormat.ODP)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="تعيين الحماية من الكتابة لعرض تقديمي ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية حماية ODP باستخدام Python" intro="اتبع هذه الخطوات لحماية ملف ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}افتح ملف ODP باستخدام `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استخدم `ProtectionManager.encrypt` لاشتراط كلمة مرور عند الفتح، أو `ProtectionManager.set_write_protection` للحد من التغييرات.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ العرض التقديمي المحمي بتنسيق ODP باستخدام `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية حماية كلمة المرور ODP عبر Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="مبني باستخدام Aspose.Slides" title="حماية ملفات ODP بكلمة مرور عبر الإنترنت" description="تطبيق Aspose.Slides Lock المجاني مبني باستخدام [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ar/python-net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات ODP الخاصة بك." button="افتح Aspose.Slides Lock" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يحمي Aspose.Slides العروض التقديمية قبل كتابة الكود.
+- عيّن كلمة مرور لفتح ملف ODP أو تحريره.
+- نزّل الملف المحمي.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات حماية ملفات ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للحماية" subTitle="استخدم Python لحماية تنسيقات العروض التقديمية الأخرى المدعومة." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل ODP بمثيل عرض تقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-حماية العرض التقديمي باستخدام فئة ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات الحماية المدعومة الأخرى" subTitle="باستخدام Python ، يمكنك أيضًا حماية التنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Proteggi i file di presentazione ODP utilizzando C++
+title: Proteggere presentazioni ODP con C++
 url: /it/cpp/protect/odp/
-keywords: Protezione da scrittura ODP, crittografia di una presentazione ODP, blocco ODP, protezione ODP
-description: C++ codice sorgente per proteggere la presentazione ODP.
+description: Proteggi le presentazioni ODP in C++. Usa Aspose.Slides for C++ per crittografare i file e impostare la protezione da scrittura.
+keywords: Protezione da scrittura ODP, crittografare ODP, bloccare presentazione ODP, proteggere ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Blocca o proteggi con password ODP utilizzando C++" h2="Crea le tue app C++ per proteggere i file di presentazione utilizzando le API lato server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Bloccare o proteggere con password un ODP con C++" h2="Usa Aspose.Slides for C++ per crittografare le presentazioni e impostare la protezione da scrittura senza Microsoft PowerPoint." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Protezione di una presentazione ODP tramite C++" %}}
-Utilizzando Aspose.Slides for C++, puoi proteggere la tua presentazione ODP dall'apertura o dalla modifica impostando una password. Quindi, per aprire o modificare la presentazione bloccata, un utente deve fornire la password.
-{{% blocks/products/pf/agp/code-block title="Crittografia di una presentazione ODP utilizzando C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Proteggere una presentazione ODP con C++" variant="code" %}}
 
+Aspose.Slides for C++ ti permette di impedire l'apertura o la modifica delle presentazioni ODP. Usa l'oggetto `ProtectionManager` della classe `Presentation` per crittografare un file con `Encrypt` o limitarne la modifica con `SetWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Crittografare una presentazione ODP con C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.odp", SaveFormat::Odp);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Impostazione della protezione da scrittura su una presentazione ODP utilizzando C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Impostare la protezione da scrittura per una presentazione ODP con C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.odp", SaveFormat::Odp);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come proteggere con password un ODP con C++" intro="Segui questi passaggi per proteggere una presentazione ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carica il file ODP con la classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Proteggi la presentazione con l'oggetto `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Usa `Encrypt` per la protezione con password o `SetWriteProtection` per la protezione da scrittura.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il file protetto con `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come proteggere con password ODP tramite C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Realizzato con Aspose.Slides" title="Proteggere con password file ODP online" description="L'app gratuita Aspose.Slides Lock è realizzata con [Aspose.Slides for C++](https://products.aspose.com/slides/it/cpp/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file ODP." button="Apri Aspose.Slides Lock" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides protegge le presentazioni prima di scrivere codice.
+- Imposta una password per aprire o modificare il tuo file ODP.
+- Scarica il file protetto.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per proteggere i file ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altri formati supportati per la protezione" subTitle="Con C++, puoi proteggere anche i seguenti formati." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/cpp/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/cpp/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica ODP con un'istanza di Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Proteggi la presentazione usando la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il risultato nel formato ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Altri formati di protezione supportati" subTitle="Utilizzando C++, puoi anche proteggere i seguenti formati:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/cpp/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/cpp/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

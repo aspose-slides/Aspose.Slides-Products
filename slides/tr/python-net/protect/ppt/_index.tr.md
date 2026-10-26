@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python kullanarak PPT Sunum Dosyalarını koruyun
+title: Python ile PPT Sunum Dosyalarını Koruma
 url: /tr/python-net/protect/ppt/
-keywords: Yazma Koruması PPT, Bir PPT Şifreleme, PPT Sunumu Kilitleme, PPT Koruma
-description: PPT Sunumunu korumak için Python kaynak kodu.
+description: Python ile PPT sunumlarını şifreleyin veya yazma koruması ayarlayın.
+keywords: PPT yazma koruması, Python ile PPT şifreleme, PPT sunumunu kilitleme, Python ile PPT koruma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python kullanarak PPT Kilitleyin veya Parolayla Koruyun" h2="Sunucu tarafı API'lerini kullanarak sunum dosyalarını korumak için kendi Python uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python ile PPT Sunumlarını Koruma" h2="Aspose.Slides ile sunumları şifreleyen veya yazma koruması ayarlayan Python uygulamaları geliştirin." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bir PPT Sunumunu Python Aracılığıyla Koruma" %}}
-Aspose.Slides for Python via .NET kullanarak, bir şifre belirleyerek PPT sunumunuzu açılmaya veya değiştirilmeye karşı koruyabilirsiniz. Ardından, kilitli sunuyu açmak veya değiştirmek için kullanıcının parolayı sağlaması gerekir.
-{{% blocks/products/pf/agp/code-block title="Bir PPT Sunumunu Python kullanarak şifreleme" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python ile PPT Sunumunu Koruma" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/tr/python-net/) iki ayrı koruma mekanizması sunar. Bir PPT sunumunu şifrelemek ve açmak için parola istemek üzere `ProtectionManager.encrypt` çağırın. Alternatif olarak, dosyayı şifrelemeden değişiklikleri caydırmak için `ProtectionManager.set_write_protection` çağırın. Kullanıcı yazma korumalı bir sunumu yine de açabilir ve değişiklikleri başka bir dosyaya kaydedebilir.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.ppt") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.ppt", slides.export.SaveFormat.PPT)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT Sunumunu Şifreleme – Python" >}}
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Python kullanarak bir PPT Sunumuna Yazma Koruması Ayarlama" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.ppt") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.ppt", slides.export.SaveFormat.PPT)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT Sunumuna Yazma Koruması Ayarlama – Python" >}}
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python ile PPT Nasıl Korunur" intro="Bir PPT dosyasını korumak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPT dosyasını `Presentation` ile açın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Açarken parola istemek için `ProtectionManager.encrypt`, değişiklikleri caydırmak için `ProtectionManager.set_write_protection` kullanın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Korunan sunumu `SaveFormat.PPT` ile PPT olarak kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python Aracılığıyla PPT Parola Koruması Nasıl Yapılır?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides ile geliştirildi" title="PPT Dosyalarını Çevrimiçi Parolayla Koruma" description="Ücretsiz Aspose.Slides Lock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/tr/python-net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPT dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Lock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın sunumları nasıl koruduğunu görün.
+- PPT dosyanızı açmak veya düzenlemek için bir parola belirleyin.
+- Korunan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPT dosyalarını Koruma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Koruma İçin Desteklenen Diğer Biçimler" subTitle="Desteklenen diğer sunum biçimlerini korumak için Python kullanın." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/python-net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/python-net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak sunuyu koruyun
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPT biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Koruma Biçimleri" subTitle="Python kullanarak aşağıdaki biçimleri de koruyabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/python-net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

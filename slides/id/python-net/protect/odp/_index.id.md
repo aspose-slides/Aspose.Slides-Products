@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Lindungi File Presentasi ODP menggunakan Python
+title: Melindungi File Presentasi ODP dengan Python
 url: /id/python-net/protect/odp/
-keywords: Perlindungan Tulis ODP, Enkripsi ODP, Kunci Presentasi ODP, Lindungi ODP
-description: kode sumber Python untuk melindungi Presentasi ODP.
+description: Enkripsi presentasi ODP atau atur proteksi tulis dengan Python.
+keywords: proteksi tulis ODP, enkripsi ODP dengan Python, kunci presentasi ODP, lindungi ODP dengan Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Kunci atau Proteksi Kata Sandi ODP menggunakan Python" h2="Bangun aplikasi Python Anda sendiri untuk melindungi file presentasi menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Melindungi Presentasi ODP dengan Python" h2="Buat aplikasi Python yang mengenkripsi presentasi atau mengatur proteksi tulis dengan Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Melindungi Presentasi ODP melalui Python" %}}
-Dengan menggunakan Aspose.Slides for Python via .NET, Anda dapat melindungi presentasi ODP dari pembukaan atau modifikasi dengan menyetel sandi. Kemudian, untuk membuka atau memodifikasi presentasi yang dikunci, pengguna harus memberikan kata sandi.
-{{% blocks/products/pf/agp/code-block title="Mengenkripsi Presentasi ODP menggunakan Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Melindungi Presentasi ODP dengan Python" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/id/python-net/) menyediakan dua mekanisme proteksi yang berbeda. Panggil `ProtectionManager.encrypt` untuk mengenkripsi presentasi ODP sehingga diperlukan kata sandi untuk membukanya. Sebagai alternatif, panggil `ProtectionManager.set_write_protection` untuk mencegah perubahan tanpa mengenkripsi file. Pengguna tetap dapat membuka presentasi yang diproteksi tulis dan menyimpan perubahan ke file lain.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.odp") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.odp", slides.export.SaveFormat.ODP)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mengenkripsi Presentasi ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.odp", slides.export.SaveFormat.ODP)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Menyetel Write Protection ke Presentasi ODP menggunakan Python" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.odp") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.odp", slides.export.SaveFormat.ODP)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mengatur Proteksi Tulis pada Presentasi ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.odp", slides.export.SaveFormat.ODP)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Melindungi ODP dengan Python" intro="Ikuti langkah-langkah berikut untuk melindungi file ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file ODP dengan `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gunakan `ProtectionManager.encrypt` untuk mewajibkan kata sandi saat membuka, atau `ProtectionManager.set_write_protection` untuk mencegah perubahan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan presentasi yang dilindungi sebagai ODP dengan `SaveFormat.ODP`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Melindungi Kata Sandi ODP melalui Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Dibuat dengan Aspose.Slides" title="Lindungi File ODP dengan Kata Sandi Secara Online" description="Aplikasi Aspose.Slides Lock gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file ODP Anda sendiri." button="Buka Aspose.Slides Lock" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides melindungi presentasi sebelum Anda menulis kode.
+- Atur kata sandi untuk membuka atau mengedit file ODP Anda.
+- Unduh file yang dilindungi.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk Melindungi file ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Proteksi" subTitle="Gunakan Python untuk melindungi format presentasi lain yang didukung." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat ODP dengan contoh Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lindungi presentasi menggunakan kelas ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil dalam format ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Perlindungan Lain yang Didukung" subTitle="Menggunakan Python, Anda juga dapat memproteksi format berikut:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

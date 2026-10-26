@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bảo vệ tệp bản trình bày PPTX bằng Java
 url: /vi/java/protect/pptx/
-keywords: Bảo vệ ghi PPTX, Mã hóa PPTX, Khóa bản trình bày PPTX, Bảo vệ PPTX
-description: Mã nguồn Java để bảo vệ Bản trình bày PPTX.
+description: Bảo vệ bản trình bày PPTX trong Java. Dùng Aspose.Slides for Java để mã hóa tệp bản trình bày và đặt bảo vệ chống ghi.
+keywords: Bảo vệ chống ghi PPTX, mã hóa tệp PPTX, khóa bản trình bày PPTX, bảo vệ PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Khóa hoặc bảo vệ bằng mật khẩu PPTX bằng Java" h2="Xây dựng ứng dụng Java của riêng bạn để bảo vệ tệp bản trình bày bằng API phía máy chủ." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Khóa hoặc bảo vệ PPTX bằng mật khẩu với Java" h2="Xây dựng ứng dụng Java bảo vệ tệp bản trình bày bằng API phía máy chủ." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bảo vệ Bản trình bày PPTX qua Java" %}}
-Sử dụng Aspose.Slides for Java, bạn có thể bảo vệ bản trình bày PPTX của mình khỏi bị mở hoặc sửa đổi bằng cách đặt mật khẩu. Sau đó, để mở hoặc sửa đổi bản trình bày bị khóa, người dùng phải cung cấp mật khẩu.
-{{% blocks/products/pf/agp/code-block title="Mã hóa Bản trình bày PPTX bằng Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Bảo vệ bản trình bày PPTX bằng Java" variant="code" %}}
 
+Với [Aspose.Slides for Java](/slides/vi/java/), bạn có thể ngăn bản trình bày PPTX bị mở hoặc chỉnh sửa bằng cách đặt mật khẩu. Dùng đối tượng `ProtectionManager` của lớp `Presentation` để gọi các phương thức như `encrypt` và `setWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mã hóa bản trình bày PPTX bằng Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.pptx", SaveFormat.Pptx);
+    presentation.save("encrypted-presentation.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Đặt tính năng Chống ghi cho Bản trình bày PPTX bằng Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Đặt bảo vệ chống ghi cho bản trình bày PPTX bằng Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.pptx", SaveFormat.Pptx);
+    presentation.save("write-protected-presentation.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách bảo vệ PPTX bằng mật khẩu với Java" intro="Làm theo các bước sau để bảo vệ bản trình bày PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp PPTX bằng lớp `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gọi phương thức `encrypt` hoặc phương thức `setWriteProtection` của đối tượng `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu tệp đã bảo vệ bằng `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách bảo vệ bằng mật khẩu PPTX qua Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Được xây dựng bằng Aspose.Slides" title="Bảo vệ tệp PPTX bằng mật khẩu trực tuyến" description="Ứng dụng Aspose.Slides Lock miễn phí được xây dựng bằng [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPTX của riêng bạn." button="Mở Aspose.Slides Lock" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides bảo vệ bản trình bày trước khi bạn viết mã.
+- Đặt mật khẩu để mở hoặc chỉnh sửa tệp PPTX của bạn.
+- Tải xuống tệp đã bảo vệ.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để Bảo vệ tệp PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng bảo vệ được hỗ trợ khác" subTitle="Với Java, bạn cũng có thể bảo vệ các định dạng sau." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải PPTX với phiên bản Trình bày
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Bảo vệ bài thuyết trình bằng lớp ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng bảo vệ được hỗ trợ khác" subTitle="Sử dụng Java, Bạn cũng có thể bảo vệ các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

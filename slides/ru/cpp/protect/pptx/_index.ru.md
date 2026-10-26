@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Защитите файлы презентаций PPTX с помощью C++
+title: Защита презентаций PPTX на C++
 url: /ru/cpp/protect/pptx/
-keywords: Защита от записи PPTX, шифрование PPTX, блокировка презентации PPTX, защита PPTX
-description: Исходный код C++ для защиты презентации PPTX.
+description: Защищайте презентации PPTX на C++. Используйте Aspose.Slides for C++ для шифрования файлов и установки защиты от записи.
+keywords: Защита PPTX от записи, шифрование PPTX, блокировка презентации PPTX, защита PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Заблокируйте или защитите паролем PPTX с помощью C++" h2="Создавайте собственные приложения C++ для защиты файлов презентаций с помощью серверных API." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Блокировка или защита паролем PPTX на C++" h2="Используйте Aspose.Slides for C++ для шифрования презентаций и установки защиты от записи без Microsoft PowerPoint." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Защита презентации PPTX через C++" %}}
-Используя Aspose.Slides for C++, вы можете защитить свою презентацию PPTX от открытия или изменения, установив пароль. Затем, чтобы открыть или изменить заблокированную презентацию, пользователь должен ввести пароль.
-{{% blocks/products/pf/agp/code-block title="Шифрование презентации PPTX с использованием C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Защита презентации PPTX на C++" variant="code" %}}
 
+Aspose.Slides for C++ позволяет защитить презентации PPTX от открытия или изменения. Используйте объект `ProtectionManager` класса `Presentation`, чтобы зашифровать файл методом `Encrypt` или ограничить редактирование методом `SetWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Шифрование презентации PPTX на C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.pptx", SaveFormat::Pptx);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Установка защиты от записи для презентации PPTX с использованием C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Установка защиты от записи для презентации PPTX на C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.pptx", SaveFormat::Pptx);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Как защитить PPTX паролем на C++" intro="Выполните следующие шаги, чтобы защитить презентацию PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Загрузите файл PPTX с помощью класса `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Защитите презентацию с помощью объекта `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Используйте `Encrypt` для защиты паролем или `SetWriteProtection` для защиты от записи.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните защищенный файл с помощью `SaveFormat::Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Как защитить паролем PPTX через C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Создано на основе Aspose.Slides" title="Защита файлов PPTX паролем онлайн" description="Бесплатное приложение Aspose.Slides Lock создано на основе [Aspose.Slides for C++](https://products.aspose.com/slides/ru/cpp/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPTX." button="Открыть Aspose.Slides Lock" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides защищает презентации, прежде чем писать код.
+- Установите пароль для открытия или редактирования файла PPTX.
+- Скачайте защищенный файл.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Это шаги для защиты файлов PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые форматы для защиты" subTitle="С помощью C++ вы также можете защищать следующие форматы." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ru/cpp/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Загрузите PPTX с экземпляром Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Защитите презентацию с помощью класса ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Сохранить результат в формате PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Другие поддерживаемые форматы защиты" subTitle="Используя C++, Вы также можете защитить следующие форматы:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ru/cpp/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

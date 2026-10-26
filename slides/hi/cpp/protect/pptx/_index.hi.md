@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ का उपयोग करके PPTX प्रस्तुतिकरण फ़ाइलों की सुरक्षा करें
+title: C++ का उपयोग करके PPTX प्रेजेंटेशन सुरक्षित करें
 url: /hi/cpp/protect/pptx/
-keywords: राइट प्रोटेक्शन PPTX, PPTX को एन्क्रिप्ट करना, PPTX प्रेजेंटेशन को लॉक करना, PPTX को प्रोटेक्ट करना
-description: PPTX प्रस्तुति की सुरक्षा के लिए C++ स्रोत कोड.
+description: C++ में PPTX प्रेजेंटेशन सुरक्षित करें। फ़ाइलें एन्क्रिप्ट करने और राइट प्रोटेक्शन सेट करने के लिए Aspose.Slides for C++ का उपयोग करें।
+keywords: PPTX राइट प्रोटेक्शन, PPTX एन्क्रिप्ट करें, PPTX प्रेजेंटेशन लॉक करें, PPTX सुरक्षित करें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++ का इस्तेमाल करके PPTX को लॉक या पासवर्ड प्रोटेक्ट करें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों की सुरक्षा के लिए अपना स्वयं का C++ ऐप्लिकेशन बनाएं." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ का उपयोग करके PPTX लॉक करें या पासवर्ड से सुरक्षित करें" h2="Microsoft PowerPoint के बिना प्रेजेंटेशन एन्क्रिप्ट करने और राइट प्रोटेक्शन सेट करने के लिए Aspose.Slides for C++ का उपयोग करें।" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++ के माध्यम से एक PPTX प्रस्तुति की सुरक्षा करना" %}}
-{Product_name} का उपयोग करके, आप पासवर्ड सेट करके अपनी PPTX प्रस्तुति को खोलने या बदलने से बचा सकते हैं। फिर, लॉक की गई प्रस्तुति को खोलने या संशोधित करने के लिए, उपयोगकर्ता को पासवर्ड प्रदान करना होगा।
-{{% blocks/products/pf/agp/code-block title="C++ का उपयोग करके एक PPTX प्रस्तुति को एन्क्रिप्ट करना" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ के ज़रिए PPTX प्रेजेंटेशन सुरक्षित करना" variant="code" %}}
 
+Aspose.Slides for C++ से आप PPTX प्रेजेंटेशन को खुलने या बदले जाने से सुरक्षित कर सकते हैं। `Encrypt` से फ़ाइल एन्क्रिप्ट करने या `SetWriteProtection` से संपादन सीमित करने के लिए `Presentation` क्लास के `ProtectionManager` ऑब्जेक्ट का उपयोग करें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ का उपयोग करके PPTX प्रेजेंटेशन एन्क्रिप्ट करना" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.pptx", SaveFormat::Pptx);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="{Product_lang} का उपयोग करके एक PPTX प्रस्तुति के लिए लेखन सुरक्षा सेट करना" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ का उपयोग करके PPTX प्रेजेंटेशन पर राइट प्रोटेक्शन सेट करना" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.pptx", SaveFormat::Pptx);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ के ज़रिए PPTX को पासवर्ड से कैसे सुरक्षित करें" intro="PPTX प्रेजेंटेशन सुरक्षित करने के लिए ये चरण अपनाएं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` क्लास से PPTX फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager` ऑब्जेक्ट से प्रेजेंटेशन सुरक्षित करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}पासवर्ड सुरक्षा के लिए `Encrypt` या राइट प्रोटेक्शन के लिए `SetWriteProtection` का उपयोग करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}सुरक्षित फ़ाइल को `SaveFormat::Pptx` के साथ सेव करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ द्वारा PPTX को पासवर्ड कैसे सुरक्षित करें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides से निर्मित" title="PPTX फ़ाइलों को ऑनलाइन पासवर्ड से सुरक्षित करें" description="मुफ़्त Aspose.Slides Lock ऐप [Aspose.Slides for C++](https://products.aspose.com/slides/hi/cpp/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Lock खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides प्रेजेंटेशन को कैसे सुरक्षित करता है।
+- अपनी PPTX फ़ाइल खोलने या संपादित करने के लिए पासवर्ड सेट करें।
+- सुरक्षित फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="ये PPTX फ़ाइलों को सुरक्षित रखने के चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="सुरक्षा के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="C++ का उपयोग करके आप निम्न फ़ॉर्मेट भी सुरक्षित कर सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/cpp/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPTX लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-सुरक्षा प्रबंधक वर्ग का उपयोग करके प्रस्तुति को सुरक्षित रखें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPTX प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित सुरक्षा प्रारूप" subTitle="C++ का उपयोग करके, आप निम्न स्वरूपों की सुरक्षा भी कर सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/cpp/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

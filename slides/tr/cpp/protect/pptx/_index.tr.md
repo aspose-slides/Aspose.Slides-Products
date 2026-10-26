@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ kullanarak PPTX Sunum Dosyalarını koruyun
+title: C++ ile PPTX Sunumlarını Koruma
 url: /tr/cpp/protect/pptx/
-keywords: Yazma Koruması PPTX, Bir PPTX Şifreleme, PPTX Sunumu Kilitleme, PPTX Koruma
-description: PPTX Sunumunu korumak için C++ kaynak kodu.
+description: C++'ta PPTX sunumlarını koruyun. Dosyaları şifrelemek ve yazma koruması ayarlamak için Aspose.Slides for C++ kullanın.
+keywords: PPTX yazma koruması, PPTX şifreleme, PPTX sunumunu kilitleme, PPTX koruma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++ kullanarak PPTX Kilitleyin veya Parolayla Koruyun" h2="Sunucu tarafı API'lerini kullanarak sunum dosyalarını korumak için kendi C++ uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ ile PPTX Kilitleme veya Parolayla Koruma" h2="Microsoft PowerPoint olmadan sunumları şifrelemek ve yazma koruması ayarlamak için Aspose.Slides for C++ kullanın." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bir PPTX Sunumunu C++ Aracılığıyla Koruma" %}}
-Aspose.Slides for C++ kullanarak, bir şifre belirleyerek PPTX sunumunuzu açılmaya veya değiştirilmeye karşı koruyabilirsiniz. Ardından, kilitli sunuyu açmak veya değiştirmek için kullanıcının parolayı sağlaması gerekir.
-{{% blocks/products/pf/agp/code-block title="Bir PPTX Sunumunu C++ kullanarak şifreleme" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ ile PPTX Sunumunu Koruma" variant="code" %}}
 
+Aspose.Slides for C++, PPTX sunumlarını açılmaya veya değiştirilmeye karşı korumanızı sağlar. Bir dosyayı `Encrypt` ile şifrelemek veya düzenlemeyi `SetWriteProtection` ile kısıtlamak için `Presentation` sınıfındaki `ProtectionManager` nesnesini kullanın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ ile PPTX Sunumunu Şifreleme" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.pptx", SaveFormat::Pptx);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C++ kullanarak bir PPTX Sunumuna Yazma Koruması Ayarlama" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C++ ile PPTX Sunumuna Yazma Koruması Ayarlama" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.pptx");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.pptx", SaveFormat::Pptx);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.pptx", SaveFormat::Pptx);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ ile PPTX Parolayla Nasıl Korunur" intro="Bir PPTX sunumunu korumak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPTX dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sunumu `ProtectionManager` nesnesiyle koruyun.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Parola koruması için `Encrypt`, yazma koruması için `SetWriteProtection` kullanın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Korunan dosyayı `SaveFormat::Pptx` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ Aracılığıyla PPTX Parola Koruması Nasıl Yapılır?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides ile geliştirildi" title="PPTX Dosyalarını Çevrimiçi Parolayla Koruma" description="Ücretsiz Aspose.Slides Lock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPTX dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Lock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın sunumları nasıl koruduğunu görün.
+- PPTX dosyanızı açmak veya düzenlemek için bir parola belirleyin.
+- Korunan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPTX dosyalarını Koruma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Koruma İçin Desteklenen Diğer Biçimler" subTitle="C++ ile aşağıdaki biçimleri de koruyabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/cpp/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/cpp/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak sunuyu koruyun
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPTX biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Koruma Biçimleri" subTitle="C++ kullanarak aşağıdaki biçimleri de koruyabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

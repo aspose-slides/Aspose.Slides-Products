@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Chraňte soubory prezentací PPT pomocí Java
+title: Ochrana souborů prezentací PPT pomocí Javy
 url: /cs/java/protect/ppt/
-keywords: Ochrana proti zápisu PPT, šifrování PPT, zámek PPT prezentace, ochrana PPT
-description: Zdrojový kód Java k ochraně prezentace PPT.
+description: Chraňte prezentace PPT v Javě. Pomocí Aspose.Slides for Java šifrujte soubory prezentací a nastavujte ochranu proti zápisu.
+keywords: Ochrana proti zápisu PPT, šifrování souboru PPT, uzamčení prezentace PPT, ochrana PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Uzamknout nebo chránit heslem PPT pomocí Java" h2="Vytvářejte si vlastní aplikace pro Java, abyste chránili prezentační soubory pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Uzamčení nebo ochrana PPT heslem pomocí Javy" h2="Vytvářejte aplikace v Javě, které chrání soubory prezentací pomocí serverových API." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ochrana PPT prezentace prostřednictvím Java" %}}
-Pomocí Aspose.Slides for Java můžete chránit svou prezentaci PPT před otevřením nebo úpravou nastavením hesla. Poté, aby uživatel mohl otevřít nebo upravit zamčenou prezentaci, musí zadat heslo.
-{{% blocks/products/pf/agp/code-block title="Šifrování prezentace ve formátu PPT pomocí Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ochrana prezentace PPT pomocí Javy" variant="code" %}}
 
+S [Aspose.Slides for Java](/slides/cs/java/) můžete prezentaci PPT chránit před otevřením nebo úpravami nastavením hesla. Pomocí objektu `ProtectionManager` třídy `Presentation` volejte metody jako `encrypt` a `setWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Šifrování prezentace PPT pomocí Javy" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.ppt", SaveFormat.Ppt);
+    presentation.save("encrypted-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Nastavení ochrany proti zápisu na prezentaci ve formátu PPT pomocí Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Nastavení ochrany proti zápisu prezentace PPT pomocí Javy" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.ppt", SaveFormat.Ppt);
+    presentation.save("write-protected-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak chránit PPT heslem pomocí Javy" intro="Postupujte podle těchto kroků a ochraňte prezentaci PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor PPT pomocí třídy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zavolejte metodu `encrypt` nebo metodu `setWriteProtection` objektu `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte chráněný soubor pomocí `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak chránit heslem PPT prostřednictvím Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Vytvořeno pomocí Aspose.Slides" title="Ochrana souborů PPT heslem online" description="Bezplatná aplikace Aspose.Slides Lock je vytvořena pomocí [Aspose.Slides for Java](https://products.aspose.com/slides/cs/java/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory PPT." button="Otevřít Aspose.Slides Lock" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides chrání prezentace, ještě než začnete psát kód.
+- Nastavte heslo pro otevření nebo úpravy souboru PPT.
+- Stáhněte chráněný soubor.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k ochraně souborů PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty pro ochranu" subTitle="Pomocí Javy můžete chránit také následující formáty." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/java/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/java/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte PPT s instancí Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Chraňte prezentaci pomocí třídy ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte výsledek ve formátu PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty ochrany" subTitle="Pomocí Java můžete chránit také následující formáty:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/java/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

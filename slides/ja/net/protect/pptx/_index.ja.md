@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET を使用して PPTX プレゼンテーション ファイルを保護する
+title: .NET で PPTX プレゼンテーション ファイルを保護する
 url: /ja/net/protect/pptx/
-keywords: 書き込み保護 PPTX、PPTX の暗号化、PPTX プレゼンテーションのロック、PPTX の保護
-description: PPTX プレゼンテーションを保護するための C# ソース コード。
+description: PPTX プレゼンテーションをパスワードで保護する C# ソースコード。
+keywords: PPTX 書き込み保護, PPTX の暗号化, PPTX プレゼンテーションのロック, PPTX の保護
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# を使用して PPTX をロックまたはパスワード保護する" h2="サーバー側 API を使用してプレゼンテーション ファイルを保護する独自の .NET アプリを構築します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# で PPTX ファイルをロックまたはパスワード保護する" h2="サーバーサイド API でプレゼンテーションを暗号化し、変更を制限する .NET アプリを構築できます。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C# による PPTX プレゼンテーションの保護" %}}
-Aspose.Slides for .NET を使用すると、パスワードを設定して PPTX プレゼンテーションを開いたり変更したりできないように保護できます。次に、ロックされたプレゼンテーションを開くか変更するには、ユーザーはパスワードを入力する必要があります。
-{{% blocks/products/pf/agp/code-block title="C# を使用して PPTX プレゼンテーションを暗号化する" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# で PPTX プレゼンテーションを保護する" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/ja/net/) を使用すると、PPTX プレゼンテーションを暗号化したり、パスワードで変更を制限したりできます。`ProtectionManager.Encrypt` で暗号化したプレゼンテーションを開くにはパスワードが必要です。`ProtectionManager.SetWriteProtection` を使用すると、プレゼンテーションを開くことは許可しつつ変更を制限できます。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# で PPTX プレゼンテーションを暗号化する" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C# を使用して PPTX プレゼンテーションに書き込み保護を設定する" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# で PPTX プレゼンテーションに書き込み保護を設定する" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# で PPTX プレゼンテーションをパスワード保護する方法" intro="PPTX プレゼンテーションをパスワードで保護するには、次の手順に従います。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` で PPTX ファイルを読み込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ProtectionManager.Encrypt` でプレゼンテーションを暗号化するか、`ProtectionManager.SetWriteProtection` で変更を制限します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.Pptx` を指定して保護されたファイルを保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# 経由で PPTX をパスワード保護する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides で構築" title="PPTX ファイルをオンラインでパスワード保護する" description="無料の Aspose.Slides Lock アプリは、上記のコードと同じ API である [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net/) で構築されています。アプリを開いて、ご自身の PPTX ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Lock を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がプレゼンテーションをどのように保護するかを確認できます。
+- PPTX ファイルを開く、または編集するためのパスワードを設定できます。
+- 保護されたファイルをダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、PPTX ファイルを保護するための手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="保護に対応しているその他の形式" subTitle="C# を使用すると、次の形式も保護できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションのインスタンスで PPTX を読み込みます
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager クラスを使用してプレゼンテーションを保護する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-結果を PPTX 形式で保存
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="サポートされているその他のプロテクト形式" subTitle="C# を使用すると、次の形式も保護できます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

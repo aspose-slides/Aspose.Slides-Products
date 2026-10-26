@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: A PPT prezentációs fájlok védelme a Python használatával
+title: PPT-bemutatófájlok védelme Python segítségével
 url: /hu/python-net/protect/ppt/
-keywords: Írásvédelem PPT, PPT titkosítása, PPT bemutató zárolása, PPT védelme
-description: Python forráskód a PPT prezentáció védelmére.
+description: Titkosítsa a PPT-bemutatókat, vagy állítson be írásvédelmet Python segítségével.
+keywords: PPT írásvédelem, PPT titkosítása Pythonnal, PPT-bemutató zárolása, PPT védelme Pythonnal
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Zárolás vagy jelszavas védelem PPT a Python használatával" h2="Készítse el saját Python alkalmazásait a prezentációs fájlok védelméhez szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPT-bemutatók védelme Python segítségével" h2="Készítsen Python-alkalmazásokat, amelyek az Aspose.Slides segítségével titkosítják a bemutatókat vagy írásvédelmet állítanak be." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="A PPT prezentáció védelme a Python segítségével" %}}
-A Aspose.Slides for Python via .NET használatával jelszó megadásával megvédheti PPT prezentációját a megnyitástól vagy módosítástól. Ezután a zárolt bemutató megnyitásához vagy módosításához a felhasználónak meg kell adnia a jelszót.
-{{% blocks/products/pf/agp/code-block title="PPT prezentáció titkosítása a Python használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="PPT-bemutató védelme Python segítségével" variant="code" %}}
 
-```py
+Az [**Aspose.Slides for Python via .NET**](/slides/hu/python-net/) két különböző védelmi mechanizmust kínál. A `ProtectionManager.encrypt` hívásával titkosíthatja a PPT-bemutatót, így annak megnyitásához jelszó szükséges. Másik lehetőségként a `ProtectionManager.set_write_protection` hívásával a fájl titkosítása nélkül tarthatja vissza a felhasználókat a módosítástól. Az írásvédett bemutatót a felhasználó továbbra is megnyithatja, és a módosításokat egy másik fájlba mentheti.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.ppt") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.ppt", slides.export.SaveFormat.PPT)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT-bemutató titkosítása – Python" >}}
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Írásvédelem beállítása PPT prezentációra a Python használatával" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.ppt") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.ppt", slides.export.SaveFormat.PPT)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Írásvédelem beállítása PPT-bemutatón – Python" >}}
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.ppt", slides.export.SaveFormat.PPT)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="PPT védelme Python segítségével" intro="Kövesse az alábbi lépéseket egy PPT-fájl védelméhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nyissa meg a PPT-fájlt a `Presentation` segítségével.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}A `ProtectionManager.encrypt` használatával jelszót követelhet meg a megnyitáshoz, a `ProtectionManager.set_write_protection` használatával pedig visszatarthat a módosításoktól.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a védett bemutatót PPT formátumban a `SaveFormat.PPT` használatával.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="A PPT jelszavas védelme a Python segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Az Aspose.Slides segítségével készült" title="PPT-fájlok jelszavas védelme online" description="Az ingyenes Aspose.Slides Lock alkalmazás az [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hu/python-net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPT fájljaival." button="Aspose.Slides Lock megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan védi az Aspose.Slides a bemutatókat, mielőtt kódot írna.
+- Állítson be jelszót a PPT-fájl megnyitásához vagy szerkesztéséhez.
+- Töltse le a védett fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a PPT fájlok védelméhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok a védelemhez" subTitle="Python segítségével más támogatott bemutatóformátumokat is védhet." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/python-net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPT betöltése a Presentation egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Védje a prezentációt a ProtectionManager osztály segítségével
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPT formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott védelmi formátumok" subTitle="A Python használatával a következő formátumokat is védheti:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/python-net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

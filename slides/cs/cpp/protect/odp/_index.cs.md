@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Chraňte soubory prezentací ODP pomocí C++
+title: Ochrana prezentací ODP pomocí C++
 url: /cs/cpp/protect/odp/
-keywords: Ochrana proti zápisu ODP, šifrování ODP, zámek ODP prezentace, ochrana ODP
-description: Zdrojový kód C++ k ochraně prezentace ODP.
+description: Chraňte prezentace ODP v C++. Pomocí Aspose.Slides for C++ šifrujte soubory a nastavujte ochranu proti zápisu.
+keywords: Ochrana proti zápisu ODP, šifrování ODP, uzamčení prezentace ODP, ochrana ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Uzamknout nebo chránit heslem ODP pomocí C++" h2="Vytvářejte si vlastní aplikace pro C++, abyste chránili prezentační soubory pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Uzamčení nebo ochrana ODP heslem pomocí C++" h2="Pomocí Aspose.Slides for C++ šifrujte prezentace a nastavujte ochranu proti zápisu bez aplikace Microsoft PowerPoint." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ochrana ODP prezentace prostřednictvím C++" %}}
-Pomocí Aspose.Slides for C++ můžete chránit svou prezentaci ODP před otevřením nebo úpravou nastavením hesla. Poté, aby uživatel mohl otevřít nebo upravit zamčenou prezentaci, musí zadat heslo.
-{{% blocks/products/pf/agp/code-block title="Šifrování prezentace ve formátu ODP pomocí C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ochrana prezentace ODP pomocí C++" variant="code" %}}
 
+Aspose.Slides for C++ umožňuje chránit prezentace ODP před otevřením nebo úpravami. Pomocí objektu `ProtectionManager` třídy `Presentation` zašifrujte soubor metodou `Encrypt` nebo omezte úpravy metodou `SetWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Šifrování prezentace ODP pomocí C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.odp", SaveFormat::Odp);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Nastavení ochrany proti zápisu na prezentaci ve formátu ODP pomocí C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Nastavení ochrany proti zápisu prezentace ODP pomocí C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.odp");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.odp", SaveFormat::Odp);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak chránit ODP heslem pomocí C++" intro="Postupujte podle těchto kroků a ochraňte prezentaci ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor ODP pomocí třídy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ochraňte prezentaci pomocí objektu `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Použijte `Encrypt` pro ochranu heslem nebo `SetWriteProtection` pro ochranu proti zápisu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte chráněný soubor pomocí `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak chránit heslem ODP prostřednictvím C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Vytvořeno pomocí Aspose.Slides" title="Ochrana souborů ODP heslem online" description="Bezplatná aplikace Aspose.Slides Lock je vytvořena pomocí [Aspose.Slides for C++](https://products.aspose.com/slides/cs/cpp/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory ODP." button="Otevřít Aspose.Slides Lock" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides chrání prezentace, ještě než začnete psát kód.
+- Nastavte heslo pro otevření nebo úpravy souboru ODP.
+- Stáhněte chráněný soubor.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k ochraně souborů ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty pro ochranu" subTitle="Pomocí C++ můžete chránit také následující formáty." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/cpp/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/cpp/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte ODP s instancí Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Chraňte prezentaci pomocí třídy ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte výsledek ve formátu ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty ochrany" subTitle="Pomocí C++ můžete chránit také následující formáty:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/cpp/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Protégez les fichiers de présentation PPT à l'aide de .NET
+title: Protéger des fichiers de présentation PPT avec .NET
 url: /fr/net/protect/ppt/
-keywords: Protection en écriture PPT, Crypter une présentation PPT, Verrouiller la présentation PPT, Protéger PPT
-description: Code source C# pour protéger la présentation PPT.
+description: Code source C# pour protéger des présentations PPT par mot de passe.
+keywords: Protection en écriture PPT, chiffrer un PPT, verrouiller une présentation PPT, protéger un PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Verrouiller ou protéger par mot de passe PPT en utilisant C#" h2="Créez vos propres applications .NET pour protéger les fichiers de présentation à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Verrouiller ou protéger par mot de passe des fichiers PPT avec C#" h2="Créez des applications .NET qui chiffrent les présentations et limitent les modifications grâce à des API côté serveur." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Protéger une présentation PPT via C#" %}}
-À l'aide de Aspose.Slides for .NET, vous pouvez protéger votre présentation PPT contre l'ouverture ou la modification en définissant un mot de passe. Ensuite, pour ouvrir ou modifier la présentation verrouillée, un utilisateur doit fournir le mot de passe.
-{{% blocks/products/pf/agp/code-block title="Chiffrement d'une présentation PPT à l'aide de C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Protéger une présentation PPT avec C#" variant="code" %}}
 
+Avec [Aspose.Slides for .NET](/slides/fr/net/), vous pouvez chiffrer une présentation PPT ou limiter sa modification par un mot de passe. L'ouverture d'une présentation chiffrée avec `ProtectionManager.Encrypt` exige le mot de passe. Utilisez `ProtectionManager.SetWriteProtection` pour autoriser l'ouverture de la présentation tout en limitant les modifications.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Chiffrer une présentation PPT avec C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.ppt", SaveFormat.Ppt);
-}
+using var presentation = new Presentation("presentation.ppt");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.ppt", SaveFormat.Ppt);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Définition de la protection en écriture sur une présentation PPT à l'aide de C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Définir la protection en écriture d'une présentation PPT avec C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.ppt"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.ppt", SaveFormat.Ppt);
-}
+using var presentation = new Presentation("presentation.ppt");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.ppt", SaveFormat.Ppt);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment protéger une présentation PPT par mot de passe avec C#" intro="Suivez ces étapes pour protéger une présentation PPT par mot de passe." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le fichier PPT avec `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chiffrez la présentation avec `ProtectionManager.Encrypt` ou limitez les modifications avec `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le fichier protégé avec `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment protéger par mot de passe PPT via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Conçu avec Aspose.Slides" title="Protéger des fichiers PPT par mot de passe en ligne" description="L'application gratuite Aspose.Slides Lock est conçue avec [Aspose.Slides for .NET](https://products.aspose.com/slides/fr/net/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Lock" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides protège les présentations avant d'écrire du code.
+- Définissez un mot de passe pour ouvrir ou modifier votre fichier PPT.
+- Téléchargez le fichier protégé.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Voici les étapes pour protéger les fichiers PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats pris en charge pour la protection" subTitle="Avec C#, vous pouvez également protéger les formats suivants." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger PPT avec une instance de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Protéger la présentation à l'aide de la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Enregistrer le résultat au format PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats de protection pris en charge" subTitle="En utilisant C#, vous pouvez également protéger les formats suivants :" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

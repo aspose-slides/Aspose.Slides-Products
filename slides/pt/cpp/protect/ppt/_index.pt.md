@@ -1,73 +1,59 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Proteger arquivos de apresentação PPT usando C++
+title: Proteger apresentações PPT usando C++
 url: /pt/cpp/protect/ppt/
-keywords: Proteção contra gravação PPT, criptografia de uma apresentação PPT, bloqueio PPT, proteção PPT
-description: Código-fonte C++ para proteger a apresentação PPT.
+description: Proteja apresentações PPT em C++. Use o Aspose.Slides for C++ para criptografar arquivos e definir proteção contra gravação.
+keywords: Proteção contra gravação PPT, criptografar PPT, bloquear apresentação PPT, proteger PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Bloqueie ou proteja com senha PPT usando C++" h2="Crie seus próprios aplicativos C++ para proteger arquivos de apresentação usando APIs do lado do servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Bloquear ou proteger com senha um PPT usando C++" h2="Use o Aspose.Slides for C++ para criptografar apresentações e definir proteção contra gravação sem o Microsoft PowerPoint." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Protegendo uma apresentação PPT via C++" %}}
-Usando Aspose.Slides for C++, você pode proteger sua apresentação PPT contra abertura ou modificação definindo uma senha. Então, para abrir ou modificar a apresentação bloqueada, o usuário deve fornecer a senha.
-{{% blocks/products/pf/agp/code-block title="Criptografando uma apresentação PPT usando C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Proteger uma apresentação PPT com C++" variant="code" %}}
 
+O Aspose.Slides for C++ permite impedir que apresentações PPT sejam abertas ou modificadas. Use o objeto `ProtectionManager` da classe `Presentation` para criptografar um arquivo com `Encrypt` ou restringir a edição com `SetWriteProtection`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Criptografar uma apresentação PPT usando C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
-
-presentation->get_ProtectionManager()->Encrypt(u"123123");
-presentation->Save(u"encrypted-pres.ppt", SaveFormat::Ppt);
+presentation->get_ProtectionManager()->Encrypt(u"password");
+presentation->Save(u"encrypted-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Configurando proteção contra gravação para uma apresentação PPT usando C++" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Definir proteção contra gravação para uma apresentação PPT usando C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.ppt");
 
-auto presentation = System::MakeObject<Presentation>(u"pres.ppt");
-
-presentation->get_ProtectionManager()->SetWriteProtection(u"123123");
-presentation->Save(u"write-protected-pres.ppt", SaveFormat::Ppt);
+presentation->get_ProtectionManager()->SetWriteProtection(u"password");
+presentation->Save(u"write-protected-presentation.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como proteger com senha um PPT com C++" intro="Siga estas etapas para proteger uma apresentação PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carregue o arquivo PPT com a classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Proteja a apresentação com o objeto `ProtectionManager`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Use `Encrypt` para proteção com senha ou `SetWriteProtection` para proteção contra gravação.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salve o arquivo protegido com `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Como proteger com senha PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Criado com Aspose.Slides" title="Proteger arquivos PPT com senha online" description="O aplicativo gratuito Aspose.Slides Lock é criado com [Aspose.Slides for C++](https://products.aspose.com/slides/pt/cpp/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPT." button="Abrir Aspose.Slides Lock" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides protege apresentações antes de escrever código.
+- Defina uma senha para abrir ou editar seu arquivo PPT.
+- Baixe o arquivo protegido.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estas são as etapas para proteger arquivos PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outros formatos compatíveis com proteção" subTitle="Com C++, você também pode proteger os seguintes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/cpp/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carregar PPT com uma instância de Apresentação
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Proteja a apresentação usando a classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salve o resultado no formato PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Outros formatos de proteção suportados" subTitle="Usando C++, você também pode proteger os seguintes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/cpp/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

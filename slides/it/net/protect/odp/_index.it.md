@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Proteggi i file di presentazione ODP utilizzando .NET
+title: Proteggere file di presentazione ODP con .NET
 url: /it/net/protect/odp/
-keywords: Protezione da scrittura ODP, crittografia di una presentazione ODP, blocco ODP, protezione ODP
-description: C# codice sorgente per proteggere la presentazione ODP.
+description: Codice sorgente C# per proteggere con password le presentazioni ODP.
+keywords: Protezione da scrittura ODP, crittografare ODP, bloccare presentazione ODP, proteggere ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Blocca o proteggi con password ODP utilizzando C#" h2="Crea le tue app .NET per proteggere i file di presentazione utilizzando le API lato server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Bloccare o proteggere con password file ODP con C#" h2="Crea app .NET che crittografano le presentazioni e limitano le modifiche con API lato server." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Protezione di una presentazione ODP tramite C#" %}}
-Utilizzando Aspose.Slides for .NET, puoi proteggere la tua presentazione ODP dall'apertura o dalla modifica impostando una password. Quindi, per aprire o modificare la presentazione bloccata, un utente deve fornire la password.
-{{% blocks/products/pf/agp/code-block title="Crittografia di una presentazione ODP utilizzando C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Proteggere una presentazione ODP con C#" variant="code" %}}
 
+Con [Aspose.Slides for .NET](/slides/it/net/), puoi crittografare una presentazione ODP o limitarne la modifica con una password. Per aprire una presentazione crittografata con `ProtectionManager.Encrypt` serve la password. Usa `ProtectionManager.SetWriteProtection` per consentire l'apertura della presentazione limitando però le modifiche.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Crittografare una presentazione ODP con C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.odp", SaveFormat.Odp);
-}
+using var presentation = new Presentation("presentation.odp");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Impostazione della protezione da scrittura su una presentazione ODP utilizzando C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Impostare la protezione da scrittura per una presentazione ODP con C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.odp", SaveFormat.Odp);
-}
+using var presentation = new Presentation("presentation.odp");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come proteggere con password una presentazione ODP con C#" intro="Segui questi passaggi per proteggere con password una presentazione ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carica il file ODP con `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Crittografa la presentazione con `ProtectionManager.Encrypt` o limita le modifiche con `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il file protetto con `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come proteggere con password ODP tramite C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Realizzato con Aspose.Slides" title="Proteggere con password file ODP online" description="L'app gratuita Aspose.Slides Lock è realizzata con [Aspose.Slides for .NET](https://products.aspose.com/slides/it/net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file ODP." button="Apri Aspose.Slides Lock" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides protegge le presentazioni prima di scrivere codice.
+- Imposta una password per aprire o modificare il tuo file ODP.
+- Scarica il file protetto.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per proteggere i file ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altri formati supportati per la protezione" subTitle="Con C#, puoi proteggere anche i seguenti formati." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/net/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Carica ODP con un'istanza di Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Proteggi la presentazione usando la classe ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il risultato nel formato ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Altri formati di protezione supportati" subTitle="Utilizzando C#, puoi anche proteggere i seguenti formati:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

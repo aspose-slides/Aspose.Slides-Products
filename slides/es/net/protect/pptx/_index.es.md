@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Proteja los archivos de presentación de PPTX usando .NET
+title: Proteger archivos de presentación PPTX con .NET
 url: /es/net/protect/pptx/
-keywords: Protección contra escritura PPTX, encriptación de PPTX, bloqueo de PPTX presentación, protección de PPTX
-description: Código fuente de C# para proteger la presentación de PPTX.
+description: Código fuente C# para proteger con contraseña presentaciones PPTX.
+keywords: Protección contra escritura PPTX, cifrar PPTX, bloquear presentación PPTX, proteger PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Bloquear o proteger con contraseña PPTX usando C#" h2="Cree sus propias aplicaciones .NET para proteger los archivos de presentación mediante las API del lado del servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Bloquear o proteger con contraseña archivos PPTX con C#" h2="Cree aplicaciones .NET que cifren presentaciones y restrinjan las modificaciones con API del lado del servidor." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Proteger una presentación de PPTX a través de C#" %}}
-Usando Aspose.Slides for .NET, puede proteger su presentación PPTX para que no se abra o modifique configurando una contraseña. Luego, para abrir o modificar la presentación bloqueada, el usuario debe proporcionar la contraseña.
-{{% blocks/products/pf/agp/code-block title="Cifrar una presentación PPTX usando C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Proteger una presentación PPTX con C#" variant="code" %}}
 
+Con [Aspose.Slides for .NET](/slides/es/net/), puede cifrar una presentación PPTX o restringir su modificación con una contraseña. Para abrir una presentación cifrada con `ProtectionManager.Encrypt` se necesita la contraseña. Use `ProtectionManager.SetWriteProtection` para permitir abrir la presentación y restringir a la vez los cambios.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Cifrar una presentación PPTX con C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Configurar la protección contra escritura en una presentación PPTX usando C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Establecer la protección contra escritura de una presentación PPTX con C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo proteger con contraseña una presentación PPTX con C#" intro="Siga estos pasos para proteger con contraseña una presentación PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue el archivo PPTX con `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cifre la presentación con `ProtectionManager.Encrypt` o restrinja los cambios con `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el archivo protegido con `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo proteger con contraseña PPTX a través de C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Creado con Aspose.Slides" title="Proteger con contraseña archivos PPTX en línea" description="La aplicación gratuita Aspose.Slides Lock está creada con [Aspose.Slides for .NET](https://products.aspose.com/slides/es/net/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPTX." button="Abrir Aspose.Slides Lock" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides protege las presentaciones antes de escribir código.
+- Establezca una contraseña para abrir o editar su archivo PPTX.
+- Descargue el archivo protegido.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estos son los pasos para proteger archivos PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otros formatos compatibles con la protección" subTitle="Con C#, también puede proteger los siguientes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue PPTX con una instancia de Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Proteger la presentación usando la clase ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guardar resultado en formato PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de protección compatibles" subTitle="Usando C#, también puede proteger los siguientes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

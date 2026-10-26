@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python을(를) 사용하여 PPTX 프레젠테이션 파일 보호
+title: Python으로 PPTX 프레젠테이션 파일 보호
 url: /ko/python-net/protect/pptx/
-keywords: 쓰기 방지 PPTX, PPTX 암호화, PPTX 프레젠테이션 잠금, PPTX 보호
-description: PPTX 프레젠테이션을 보호하기 위한 Python 소스 코드.
+description: Python으로 PPTX 프레젠테이션을 암호화하거나 쓰기 보호를 설정하세요.
+keywords: PPTX 쓰기 보호, Python으로 PPTX 암호화, PPTX 프레젠테이션 잠금, Python으로 PPTX 보호
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python을 사용하여 PPTX 잠금 또는 비밀번호 보호" h2="서버 측 API를 사용하여 프리젠테이션 파일을 보호하는 나만의 Python 앱을 구축하세요." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python으로 PPTX 프레젠테이션 보호" h2="Aspose.Slides로 프레젠테이션을 암호화하거나 쓰기 보호를 설정하는 Python 애플리케이션을 빌드하세요." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python을(를) 통해 PPTX 프레젠테이션 보호" %}}
-Aspose.Slides for Python via .NET을(를) 사용하면 비밀번호를 설정하여 PPTX 프레젠테이션을 열거나 수정하지 못하도록 보호할 수 있습니다. 그런 다음 잠긴 프레젠테이션을 열거나 수정하려면 사용자가 암호를 입력해야 합니다.
-{{% blocks/products/pf/agp/code-block title="Python을(를) 사용하여 PPTX 프레젠테이션 암호화" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python으로 PPTX 프레젠테이션 보호" variant="code" %}}
 
-```py
+[**Aspose.Slides for Python via .NET**](/slides/ko/python-net/)은 두 가지 보호 방식을 제공합니다. `ProtectionManager.encrypt`를 호출하면 PPTX 프레젠테이션이 암호화되어 열 때 암호가 필요합니다. 또는 `ProtectionManager.set_write_protection`을 호출하면 파일을 암호화하지 않고 수정을 억제할 수 있습니다. 사용자는 쓰기 보호된 프레젠테이션을 여전히 열 수 있으며 변경 내용을 다른 파일에 저장할 수 있습니다.
 
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.encrypt("123123")
-    pres.save("encrypted-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX 프레젠테이션 암호화 – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.encrypt("123123")
+    presentation.save("encrypted-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Python을(를) 사용하여 PPTX 프레젠테이션에 쓰기 방지 설정" offSpacer="true" %}}
-
-```py
-
-import aspose.slides as slides
-
-with slides.Presentation("pres.pptx") as pres:
-    pres.protection_manager.set_write_protection("123123")
-    pres.save("write-protected-pres.pptx", slides.export.SaveFormat.PPTX)
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX 프레젠테이션에 쓰기 보호 설정 – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    presentation.protection_manager.set_write_protection("123123")
+    presentation.save("write-protected-presentation.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python으로 PPTX를 보호하는 방법" intro="다음 단계에 따라 PPTX 파일을 보호하세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation`으로 PPTX 파일을 엽니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}열 때 암호를 요구하려면 `ProtectionManager.encrypt`를, 변경을 억제하려면 `ProtectionManager.set_write_protection`을 사용합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.PPTX`로 보호된 프레젠테이션을 PPTX로 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python을(를) 통해 PPTX을(를) 비밀번호로 보호하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides로 구축" title="온라인에서 PPTX 파일을 암호로 보호" description="무료 Aspose.Slides Lock 앱은 위 코드와 동일한 API인 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)로 구축되었습니다. 앱을 열고 내 PPTX 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Lock 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 프레젠테이션을 보호하는 방식을 확인하세요.
+- PPTX 파일을 열거나 편집할 때 필요한 암호를 설정하세요.
+- 보호된 파일을 다운로드하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="다음은 PPTX 파일을 보호하는 단계입니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="보호를 지원하는 기타 형식" subTitle="Python으로 지원되는 다른 프레젠테이션 형식도 보호할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 인스턴스로 PPTX 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager 클래스를 사용하여 프레젠테이션 보호
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-결과를 PPTX 형식으로 저장
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 보호 형식" subTitle="Python을(를) 사용하여 다음 형식도 보호할 수 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

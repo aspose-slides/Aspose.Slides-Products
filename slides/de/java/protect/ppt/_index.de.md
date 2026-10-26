@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT-Präsentationsdateien mit Java schützen
 url: /de/java/protect/ppt/
-keywords: Schreibschutz PPT, Verschlüsseln einer PPT, Sperren von PPT Präsentation, Schützen von PPT
-description: Java-Quellcode zum Schutz der PPT-Präsentation.
+description: Schützen Sie PPT-Präsentationen in Java. Verschlüsseln Sie Präsentationsdateien und legen Sie einen Schreibschutz fest – mit Aspose.Slides for Java.
+keywords: Schreibschutz für PPT, PPT verschlüsseln, PPT-Präsentation sperren, PPT schützen
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="PPT mit Java sperren oder mit Passwort schützen" h2="Erstellen Sie Ihre eigenen Java-Apps, um Präsentationsdateien mit serverseitigen APIs zu schützen." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="PPT mit Java sperren oder mit einem Kennwort schützen" h2="Entwickeln Sie Java-Anwendungen, die Präsentationsdateien mit serverseitigen APIs schützen." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Schützen einer PPT-Präsentation über Java" %}}
-Mit Aspose.Slides for Java können Sie Ihre PPT-Präsentation vor dem Öffnen oder Ändern schützen, indem Sie ein Passwort festlegen. Um die gesperrte Präsentation zu öffnen oder zu ändern, muss ein Benutzer dann das Kennwort eingeben.
-{{% blocks/products/pf/agp/code-block title="Verschlüsseln einer PPT-Präsentation mit Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Eine PPT-Präsentation mit Java schützen" variant="code" %}}
 
+Mit [Aspose.Slides for Java](/slides/de/java/) schützen Sie eine PPT-Präsentation mit einem Kennwort vor dem Öffnen oder vor Änderungen. Rufen Sie über das Objekt `ProtectionManager` der Klasse `Presentation` Methoden wie `encrypt` und `setWriteProtection` auf.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Eine PPT-Präsentation mit Java verschlüsseln" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.ppt", SaveFormat.Ppt);
+    presentation.save("encrypted-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Festlegen des Schreibschutzes für eine PPT-Präsentation mit Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Schreibschutz für eine PPT-Präsentation mit Java festlegen" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.ppt", SaveFormat.Ppt);
+    presentation.save("write-protected-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So schützen Sie PPT mit Java durch ein Kennwort" intro="Gehen Sie wie folgt vor, um eine PPT-Präsentation zu schützen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die PPT-Datei mit der Klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie die Methode `encrypt` oder die Methode `setWriteProtection` des Objekts `ProtectionManager` auf.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die geschützte Datei mit `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So schützen Sie PPT über Java mit einem Passwort" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Entwickelt mit Aspose.Slides" title="PPT-Dateien online mit einem Kennwort schützen" description="Die kostenlose App Aspose.Slides Lock basiert auf [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPT-Dateien leisten kann." button="Aspose.Slides Lock öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Präsentationen schützt, bevor Sie Code schreiben.
+- Legen Sie ein Kennwort zum Öffnen oder Bearbeiten Ihrer PPT-Datei fest.
+- Laden Sie die geschützte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dies sind die Schritte zum Schützen von PPT-Dateien." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für den Schutz" subTitle="Mit Java können Sie auch die folgenden Formate schützen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/java/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/java/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie PPT mit einer Präsentationsinstanz
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Schützen Sie die Präsentation mit der ProtectionManager-Klasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ergebnis im Format PPT speichern
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte geschützte Formate" subTitle="Mit Java können Sie auch die folgenden Formate schützen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

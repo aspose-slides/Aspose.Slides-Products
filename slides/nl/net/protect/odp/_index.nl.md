@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Bescherm presentatiebestanden van ODP met .NET
+title: ODP-presentatiebestanden beveiligen met .NET
 url: /nl/net/protect/odp/
-keywords: Schrijfbeveiliging ODP, een ODP coderen, ODP-presentatie vergrendelen, ODP beschermen
-description: C# broncode om ODP Presentatie te beschermen.
+description: C#-broncode om ODP-presentaties met een wachtwoord te beveiligen.
+keywords: ODP-schrijfbeveiliging, ODP versleutelen, ODP-presentatie vergrendelen, ODP beveiligen
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Vergrendel of beveilig ODP met C#" h2="Bouw uw eigen .NET-apps om presentatiebestanden te beschermen met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ODP-bestanden vergrendelen of met een wachtwoord beveiligen met C#" h2="Bouw .NET-apps die presentaties versleutelen en wijzigingen beperken met server-side API's." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Een ODP-presentatie beveiligen via C#" %}}
-Met Aspose.Slides for .NET kunt u uw ODP-presentatie beschermen tegen openen of wijzigen door een wachtwoord in te stellen. Om vervolgens de vergrendelde presentatie te openen of te wijzigen, moet een gebruiker het wachtwoord opgeven.
-{{% blocks/products/pf/agp/code-block title="Een ODP-presentatie versleutelen met C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Een ODP-presentatie beveiligen met C#" variant="code" %}}
 
+Met [Aspose.Slides for .NET](/slides/nl/net/) kunt u een ODP-presentatie versleutelen of het wijzigen ervan met een wachtwoord beperken. Voor het openen van een presentatie die met `ProtectionManager.Encrypt` is versleuteld, is het wachtwoord nodig. Gebruik `ProtectionManager.SetWriteProtection` om de presentatie te laten openen en tegelijk wijzigingen te beperken.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Een ODP-presentatie versleutelen met C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.odp", SaveFormat.Odp);
-}
+using var presentation = new Presentation("presentation.odp");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.odp", SaveFormat.Odp);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Schrijfbeveiliging instellen op een ODP-presentatie met C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Schrijfbeveiliging instellen voor een ODP-presentatie met C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.odp"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.odp", SaveFormat.Odp);
-}
+using var presentation = new Presentation("presentation.odp");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.odp", SaveFormat.Odp);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Een ODP-presentatie met een wachtwoord beveiligen met C#" intro="Volg deze stappen om een ODP-presentatie met een wachtwoord te beveiligen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het ODP-bestand met `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Versleutel de presentatie met `ProtectionManager.Encrypt` of beperk wijzigingen met `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla het beveiligde bestand op met `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hoe ODP met een wachtwoord te beveiligen via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Gebouwd met Aspose.Slides" title="ODP-bestanden online met een wachtwoord beveiligen" description="De gratis app Aspose.Slides Lock is gebouwd met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen ODP-bestanden." button="Aspose.Slides Lock openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides presentaties beveiligt voordat u code schrijft.
+- Stel een wachtwoord in om uw ODP-bestand te openen of te bewerken.
+- Download het beveiligde bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om ODP bestanden te beschermen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor beveiliging" subTitle="Met C# kunt u ook de volgende formaten beveiligen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/net/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/net/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad ODP met een instantie van Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Bescherm de presentatie met de klasse ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op in ODP formaat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde beveiligingsindelingen" subTitle="Met C# kunt u ook de volgende indelingen beveiligen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

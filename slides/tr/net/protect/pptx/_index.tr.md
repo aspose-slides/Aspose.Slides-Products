@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET kullanarak PPTX Sunum Dosyalarını koruyun
+title: .NET ile PPTX Sunum Dosyalarını Koruma
 url: /tr/net/protect/pptx/
-keywords: Yazma Koruması PPTX, Bir PPTX Şifreleme, PPTX Sunumu Kilitleme, PPTX Koruma
-description: PPTX Sunumunu korumak için C# kaynak kodu.
+description: PPTX sunumlarını parolayla korumak için C# kaynak kodu.
+keywords: PPTX yazma koruması, PPTX şifreleme, PPTX sunumunu kilitleme, PPTX koruma
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C# kullanarak PPTX Kilitleyin veya Parolayla Koruyun" h2="Sunucu tarafı API'lerini kullanarak sunum dosyalarını korumak için kendi .NET uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# ile PPTX Dosyalarını Kilitleme veya Parolayla Koruma" h2="Sunucu tarafı API'lerle sunumları şifreleyen ve değişiklikleri kısıtlayan .NET uygulamaları geliştirin." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bir PPTX Sunumunu C# Aracılığıyla Koruma" %}}
-Aspose.Slides for .NET kullanarak, bir şifre belirleyerek PPTX sunumunuzu açılmaya veya değiştirilmeye karşı koruyabilirsiniz. Ardından, kilitli sunuyu açmak veya değiştirmek için kullanıcının parolayı sağlaması gerekir.
-{{% blocks/products/pf/agp/code-block title="Bir PPTX Sunumunu C# kullanarak şifreleme" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# ile PPTX Sunumunu Koruma" variant="code" %}}
 
+[Aspose.Slides for .NET](/slides/tr/net/) ile bir PPTX sunumunu şifreleyebilir veya parolayla değiştirilmesini kısıtlayabilirsiniz. `ProtectionManager.Encrypt` ile şifrelenen bir sunumu açmak için parola gerekir. Sunumun açılmasına izin verip değişiklikleri kısıtlamak için `ProtectionManager.SetWriteProtection` kullanın.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile PPTX Sunumunu Şifreleme" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="C# kullanarak bir PPTX Sunumuna Yazma Koruması Ayarlama" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="C# ile PPTX Sunumuna Yazma Koruması Ayarlama" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# ile PPTX Sunumunu Parolayla Koruma" intro="Bir PPTX sunumunu parolayla korumak için şu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPTX dosyasını `Presentation` ile yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sunumu `ProtectionManager.Encrypt` ile şifreleyin veya değişiklikleri `ProtectionManager.SetWriteProtection` ile kısıtlayın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Korunan dosyayı `SaveFormat.Pptx` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C# Aracılığıyla PPTX Parola Koruması Nasıl Yapılır?" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Aspose.Slides ile geliştirildi" title="PPTX Dosyalarını Çevrimiçi Parolayla Koruma" description="Ücretsiz Aspose.Slides Lock uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPTX dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Lock uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın sunumları nasıl koruduğunu görün.
+- PPTX dosyanızı açmak veya düzenlemek için bir parola belirleyin.
+- Korunan dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Bunlar, PPTX dosyalarını Koruma adımlarıdır." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Koruma İçin Desteklenen Diğer Biçimler" subTitle="C# ile aşağıdaki biçimleri de koruyabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX dosyasını bir Sunum örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ProtectionManager sınıfını kullanarak sunuyu koruyun
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonucu PPTX biçiminde kaydedin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Koruma Biçimleri" subTitle="C# kullanarak aşağıdaki biçimleri de koruyabilirsiniz:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

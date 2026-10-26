@@ -1,79 +1,62 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: ป้องกันไฟล์นำเสนอ ODP โดยใช้ Java
+title: ป้องกันไฟล์งานนำเสนอ ODP โดยใช้ Java
 url: /th/java/protect/odp/
-keywords: การป้องกันการเขียน ODP, การเข้ารหัส ODP, ล็อคการนำเสนอ ODP, ป้องกัน ODP
-description: ซอร์สโค้ด Java เพื่อป้องกันการนำเสนอ ODP
+description: ป้องกันงานนำเสนอ ODP ใน Java ใช้ Aspose.Slides for Java เพื่อเข้ารหัสไฟล์งานนำเสนอและตั้งค่าการป้องกันการเขียน
+keywords: การป้องกันการเขียน ODP, เข้ารหัสไฟล์ ODP, ล็อกงานนำเสนอ ODP, ป้องกัน ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="ล็อคหรือป้องกันรหัสผ่าน ODP โดยใช้ Java" h2="สร้างแอป Java ของคุณเองเพื่อปกป้องไฟล์งานนำเสนอโดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ล็อกหรือป้องกัน ODP ด้วยรหัสผ่านโดยใช้ Java" h2="สร้างแอปพลิเคชัน Java ที่ป้องกันไฟล์งานนำเสนอด้วย API ฝั่งเซิร์ฟเวอร์" related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="การป้องกันการนำเสนอ ODP ผ่าน Java" %}}
-เมื่อใช้ Aspose.Slides for Java คุณสามารถป้องกันงานนำเสนอ ODP จากการเปิดหรือแก้ไขโดยตั้งรหัสผ่าน จากนั้น ในการเปิดหรือแก้ไขงานนำเสนอที่ถูกล็อค ผู้ใช้จะต้องระบุรหัสผ่าน
-{{% blocks/products/pf/agp/code-block title="การเข้ารหัสงานนำเสนอ ODP โดยใช้ Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ป้องกันงานนำเสนอ ODP ผ่าน Java" variant="code" %}}
 
+ด้วย [Aspose.Slides for Java](/slides/th/java/) คุณสามารถป้องกันไม่ให้งานนำเสนอ ODP ถูกเปิดหรือแก้ไขได้โดยตั้งรหัสผ่าน ใช้ออบเจ็กต์ `ProtectionManager` จากคลาส `Presentation` เพื่อเรียกเมธอดต่าง ๆ เช่น `encrypt` และ `setWriteProtection`
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="เข้ารหัสงานนำเสนอ ODP โดยใช้ Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().encrypt("123123");
-    presentation.save("encrypted-pres.odp", SaveFormat.Odp);
+    presentation.save("encrypted-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="การตั้งค่าการป้องกันการเขียนให้กับงานนำเสนอ ODP โดยใช้ Java" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ตั้งค่าการป้องกันการเขียนให้งานนำเสนอ ODP โดยใช้ Java" >}}
 ```java
-
-Presentation presentation = new Presentation("pres.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
     presentation.getProtectionManager().setWriteProtection("123123");
-    presentation.save("write-protected-pres.odp", SaveFormat.Odp);
+    presentation.save("write-protected-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีป้องกัน ODP ด้วยรหัสผ่านผ่าน Java" intro="ทำตามขั้นตอนต่อไปนี้เพื่อป้องกันงานนำเสนอ ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}โหลดไฟล์ ODP ด้วยคลาส `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียกเมธอด `encrypt` หรือเมธอด `setWriteProtection` จากออบเจ็กต์ `ProtectionManager`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}บันทึกไฟล์ที่ป้องกันแล้วด้วย `SaveFormat.Odp`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีป้องกันรหัสผ่าน ODP ผ่าน Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="สร้างด้วย Aspose.Slides" title="ป้องกันไฟล์ ODP ด้วยรหัสผ่านทางออนไลน์" description="แอป Aspose.Slides Lock ฟรีนี้สร้างด้วย [Aspose.Slides for Java](https://products.aspose.com/slides/th/java/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ ODP ของคุณเอง" button="เปิด Aspose.Slides Lock" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides ป้องกันงานนำเสนออย่างไรก่อนเขียนโค้ด
+- ตั้งรหัสผ่านสำหรับเปิดหรือแก้ไขไฟล์ ODP ของคุณ
+- ดาวน์โหลดไฟล์ที่ป้องกันแล้ว
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="นี่คือขั้นตอนในการป้องกันไฟล์ ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับการป้องกัน" subTitle="เมื่อใช้ Java คุณยังป้องกันรูปแบบต่อไปนี้ได้ด้วย" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/java/protect/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/java/protect/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด ODP ด้วยอินสแตนซ์ของงานนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ป้องกันงานนำเสนอโดยใช้คลาส ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-บันทึกผลลัพธ์ในรูปแบบ ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบการป้องกันอื่น ๆ ที่รองรับ" subTitle="เมื่อใช้ Java คุณยังสามารถป้องกันรูปแบบต่อไปนี้:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/protect/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/java/protect/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,75 +1,54 @@
 ---
-lastmod: 2023-04-26
+lastmod: 2026-10-26
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bảo vệ tệp bản trình bày PPTX bằng .NET
 url: /vi/net/protect/pptx/
-keywords: Bảo vệ ghi PPTX, Mã hóa PPTX, Khóa bản trình bày PPTX, Bảo vệ PPTX
-description: Mã nguồn C# để bảo vệ Bản trình bày PPTX.
+description: Mã nguồn C# để bảo vệ bản trình bày PPTX bằng mật khẩu.
+keywords: Bảo vệ chống ghi PPTX, mã hóa PPTX, khóa bản trình bày PPTX, bảo vệ PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Khóa hoặc bảo vệ bằng mật khẩu PPTX bằng C#" h2="Xây dựng ứng dụng .NET của riêng bạn để bảo vệ tệp bản trình bày bằng API phía máy chủ." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Khóa hoặc bảo vệ tệp PPTX bằng mật khẩu với C#" h2="Xây dựng ứng dụng .NET mã hóa bản trình bày và hạn chế chỉnh sửa bằng API phía máy chủ." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Bảo vệ Bản trình bày PPTX qua C#" %}}
-Sử dụng Aspose.Slides for .NET, bạn có thể bảo vệ bản trình bày PPTX của mình khỏi bị mở hoặc sửa đổi bằng cách đặt mật khẩu. Sau đó, để mở hoặc sửa đổi bản trình bày bị khóa, người dùng phải cung cấp mật khẩu.
-{{% blocks/products/pf/agp/code-block title="Mã hóa Bản trình bày PPTX bằng C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Bảo vệ bản trình bày PPTX bằng C#" variant="code" %}}
 
+Với [Aspose.Slides for .NET](/slides/vi/net/), bạn có thể mã hóa bản trình bày PPTX hoặc hạn chế chỉnh sửa bằng mật khẩu. Để mở bản trình bày đã được mã hóa bằng `ProtectionManager.Encrypt` cần có mật khẩu. Dùng `ProtectionManager.SetWriteProtection` để vẫn cho phép mở bản trình bày nhưng hạn chế thay đổi.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Mã hóa bản trình bày PPTX bằng C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.Encrypt("password");
+presentation.Save("encrypted-presentation.pptx", SaveFormat.Pptx);
 ```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Đặt tính năng Chống ghi cho Bản trình bày PPTX bằng C#" offSpacer="true" %}}
-
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Đặt bảo vệ chống ghi cho bản trình bày PPTX bằng C#" >}}
 ```cs
-
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.SetWriteProtection("123123");
-    presentation.Save("write-protected-pres.pptx", SaveFormat.Pptx);
-}
+using var presentation = new Presentation("presentation.pptx");
+presentation.ProtectionManager.SetWriteProtection("password");
+presentation.Save("write-protected-presentation.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách bảo vệ bản trình bày PPTX bằng mật khẩu với C#" intro="Làm theo các bước sau để bảo vệ bản trình bày PPTX bằng mật khẩu." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp PPTX bằng `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mã hóa bản trình bày bằng `ProtectionManager.Encrypt` hoặc hạn chế thay đổi bằng `ProtectionManager.SetWriteProtection`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu tệp đã bảo vệ bằng `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách bảo vệ bằng mật khẩu PPTX qua C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/protect-app label="Được xây dựng bằng Aspose.Slides" title="Bảo vệ tệp PPTX bằng mật khẩu trực tuyến" description="Ứng dụng Aspose.Slides Lock miễn phí được xây dựng bằng [Aspose.Slides for .NET](https://products.aspose.com/slides/vi/net/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPTX của riêng bạn." button="Mở Aspose.Slides Lock" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides bảo vệ bản trình bày trước khi bạn viết mã.
+- Đặt mật khẩu để mở hoặc chỉnh sửa tệp PPTX của bạn.
+- Tải xuống tệp đã bảo vệ.
+{{< /blocks/products/pf/slides-design-update-10-2026/protect-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để Bảo vệ tệp PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng bảo vệ được hỗ trợ khác" subTitle="Với C#, bạn cũng có thể bảo vệ các định dạng sau." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/net/protect/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/net/protect/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải PPTX với phiên bản Trình bày
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Bảo vệ bài thuyết trình bằng lớp ProtectionManager
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng bảo vệ được hỗ trợ khác" subTitle="Sử dụng C#, Bạn cũng có thể bảo vệ các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/protect/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/protect/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
