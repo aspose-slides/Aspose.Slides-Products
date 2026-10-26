@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Αναζήτηση κειμένου σε ODP Αρχεία παρουσίασης χρησιμοποιώντας Java
+title: Αναζήτηση κειμένου σε αρχεία παρουσιάσεων ODP με Java
 url: /el/java/search/odp/
-keywords: αναζήτηση λέξεων σε ODP, αναζήτηση και αντικατάσταση κειμένου σε ODP, κείμενο αναζήτησης ODP Παρουσίαση
-description: Πηγαίος κώδικας Java για αναζήτηση κειμένου στην παρουσίαση ODP.
+description: Αναζητήστε κείμενο σε παρουσιάσεις ODP σε Java με το Aspose.Slides for Java.
+keywords: αναζήτηση λέξεων σε ODP, αναζήτηση κειμένου σε ODP, αναζήτηση κειμένου παρουσίασης ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Αναζήτηση κειμένου ODP χρησιμοποιώντας Java" h2="Δημιουργήστε τις δικές σας εφαρμογές Java για αναζήτηση και αντικατάσταση κειμένου σε αρχεία παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή. Μάθετε πώς να βρίσκετε όλες τις εισόδους μιας συγκεκριμένης λέξης ή φράσης σε έγγραφα παρουσίασης. Αναζήτηση κειμένου με ακριβή αντιστοίχιση δεδομένων και αντιστοίχιση τυπικών εκφράσεων." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Αναζήτηση κειμένου σε ODP με Java" h2="Δημιουργήστε εφαρμογές Java που αναζητούν κείμενο σε αρχεία παρουσιάσεων με API διακομιστή." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Αναζήτηση και αντικατάσταση κειμένου ODP Παρουσίαση μέσω Java" %}}
-Μια βασική αναζήτηση εγγράφων και αντικατάσταση κειμένου σε περιεχόμενα, σχόλια, σημειώσεις διαφανειών ή μεταδεδομένα με API του Aspose.Slides for Java μπορεί να γίνει με λίγες μόνο γραμμές κώδικα. Χρησιμοποιήστε αντιστοίχιση τυπικών εκφράσεων, αντιστοίχιση πεζών-κεφαλαίων για αναζήτηση κειμένου στην παρουσίαση. Αναζήτηση κειμένου σε τίτλους, περιεχόμενο, υποσέλιδο ή κεφαλίδα.
-{{% blocks/products/pf/agp/code-block title="Κείμενο αναζήτησης ODP Παρουσίαση με χρήση Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Αναζήτηση κειμένου σε παρουσίαση ODP μέσω Java" variant="code" %}}
 
+Με το [Aspose.Slides for Java](/slides/el/java/), μπορείτε να αναζητήσετε κείμενο σε παρουσιάσεις ODP. Χρησιμοποιήστε τη μέθοδο `SlideUtil.getAllTextBoxes` για να συλλέξετε τα πλαίσια κειμένου και, στη συνέχεια, εξετάστε τα αντικείμενα `ITextFrame`, `IParagraph` και `IPortion`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Αναζήτηση κειμένου σε παρουσίαση ODP με Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.odp");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.odp", SaveFormat.Odp);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να αναζητήσετε κείμενο σε ODP μέσω Java" intro="Ακολουθήστε αυτά τα βήματα για να αναζητήσετε κείμενο σε μια παρουσίαση ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε το αρχείο ODP με την κλάση `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Καλέστε τη μέθοδο `SlideUtil.getAllTextBoxes` για να συλλέξετε τα πλαίσια κειμένου κάθε διαφάνειας.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Εξετάστε τα αντικείμενα `ITextFrame`, `IParagraph` και `IPortion` για να βρείτε το κείμενο που ταιριάζει.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος αναζήτησης κειμένου σε ODP μέσω Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Δημιουργήθηκε με το Aspose.Slides" title="Διαδικτυακή αναζήτηση κειμένου σε αρχεία ODP" description="Η δωρεάν εφαρμογή Aspose.Slides Search έχει δημιουργηθεί με το [Aspose.Slides for Java](https://products.aspose.com/slides/el/java/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Search" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides βρίσκει κείμενο πριν γράψετε κώδικα.
+- Αναζητήστε απλό κείμενο ή κανονικές εκφράσεις στο αρχείο ODP.
+- Κατεβάστε τα αποτελέσματα ως αρχείο κειμένου.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την αναζήτηση αρχείων κειμένου ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές για αναζήτηση" subTitle="Με Java, μπορείτε επίσης να αναζητήσετε κείμενο στις ακόλουθες μορφές." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/java/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/java/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του ODP με μια παρουσία παρουσίασης.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Χρησιμοποιήστε τη μέθοδο [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) για να βρείτε και να αντικαταστήσετε κείμενο.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Διαδικτυακή αναζήτηση σε ζωντανές επιδείξεις ODP" sectionDescription="Αναζητήστε και αντικαταστήστε κείμενο σε περιεχόμενα, σχόλια ή μεταδεδομένα σε έγγραφα ODP αυτήν τη στιγμή." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές αναζήτησης" subTitle="Χρησιμοποιώντας το Java, μπορείτε επίσης να αναζητήσετε κείμενο στις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/java/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

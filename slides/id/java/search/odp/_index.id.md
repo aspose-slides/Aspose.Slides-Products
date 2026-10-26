@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Cari Teks di File Presentasi ODP menggunakan Java
+title: Cari Teks dalam File Presentasi ODP menggunakan Java
 url: /id/java/search/odp/
-keywords: cari kata dalam ODP, cari dan ganti teks dalam ODP, cari teks ODP Presentasi
-description: kode sumber Java untuk mencari teks dalam Presentasi ODP.
+description: Cari teks dalam presentasi ODP di Java menggunakan Aspose.Slides for Java.
+keywords: cari kata di ODP, cari teks di ODP, cari teks presentasi ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Telusuri Teks ODP menggunakan Java" h2="Bangun aplikasi Java Anda sendiri untuk menelusuri dan mengganti teks dalam file presentasi menggunakan API sisi server. Pelajari cara menemukan semua pintu masuk dari kata atau frasa tertentu dalam dokumen presentasi. Cari teks dengan pencocokan data yang tepat dan pencocokan ekspresi reguler." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Cari Teks dalam ODP menggunakan Java" h2="Bangun aplikasi Java yang mencari teks dalam file presentasi menggunakan API sisi server." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Cari dan Ganti Teks Presentasi ODP melalui Java" %}}
-Pencarian dokumen dasar dan mengganti teks dalam konten, komentar, catatan slide, atau metadata dengan API Aspose.Slides for Java dapat dilakukan hanya dengan beberapa baris kode. Gunakan pencocokan ekspresi reguler, cocokkan huruf besar-kecil untuk mencari teks dalam presentasi. Cari teks dalam judul, konten, footer atau header.
-{{% blocks/products/pf/agp/code-block title="Cari teks ODP Presentasi menggunakan Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Cari Teks dalam Presentasi ODP melalui Java" variant="code" %}}
 
+Dengan [Aspose.Slides for Java](/slides/id/java/), Anda dapat mencari teks dalam presentasi ODP. Gunakan metode `SlideUtil.getAllTextBoxes` untuk mengumpulkan bingkai teks, lalu periksa objek `ITextFrame`, `IParagraph`, dan `IPortion`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Cari Teks dalam Sebuah Presentasi ODP menggunakan Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.odp");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.odp", SaveFormat.Odp);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Mencari Teks dalam ODP melalui Java" intro="Ikuti langkah-langkah berikut untuk mencari teks dalam presentasi ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file ODP dengan kelas `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Panggil metode `SlideUtil.getAllTextBoxes` untuk mengumpulkan bingkai teks dari setiap slide.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Periksa objek `ITextFrame`, `IParagraph`, dan `IPortion` untuk menemukan teks yang cocok.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Menelusuri Teks dalam ODP melalui Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Dibuat dengan Aspose.Slides" title="Cari Teks dalam File ODP Secara Online" description="Aplikasi Aspose.Slides Search gratis dibuat dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file ODP Anda sendiri." button="Buka Aspose.Slides Search" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides menemukan teks sebelum Anda menulis kode.
+- Cari teks biasa atau ekspresi reguler di file ODP Anda.
+- Unduh hasil pencarian sebagai file teks.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ini adalah langkah-langkah untuk mencari file teks ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Pencarian" subTitle="Dengan Java, Anda juga dapat mencari teks dalam format berikut." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat ODP dengan contoh Presentasi.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gunakan metode [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) untuk mencari dan mengganti teks.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Simpan hasil dalam format ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Demo Langsung Penelusuran ODP Online" sectionDescription="Cari dan ganti teks dalam konten, komentar, atau metadata dalam dokumen ODP sekarang juga." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Pencarian Lain yang Didukung" subTitle="Menggunakan Java, Anda juga dapat menelusuri teks dalam format berikut:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

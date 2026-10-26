@@ -1,65 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 .NET 在 PPT 演示文件中搜索文本
+title: 使用 .NET 在 PPT 簡報檔案中搜尋文字
 url: /zh-hant/net/search/ppt/
-keywords: 在 PPT 中搜索單詞，在 PPT 中搜索和替換文本，在 PPT 中搜索文本 Presentation
-description: C# 源代碼，用於在 PPT 演示文稿中搜索文本。
+description: 用於在 PPT 簡報中搜尋文字的 C# 原始碼。
+keywords: 在 PPT 中搜尋文字，在 PPT 中尋找文字，搜尋 PPT 簡報文字
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C# 搜索文本 PPT" h2="構建您自己的 .NET 應用程序，以使用服務器端 API 搜索和替換演示文稿文件中的文本。了解如何在演示文稿中查找特定單詞或短語的所有入口。通過精確數據匹配和正則表達式匹配搜索文本。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C# 在 PPT 檔案中搜尋文字" h2="建置透過伺服器端 API 在簡報中尋找文字的 .NET 應用程式。" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 C# 搜索和替換文本 PPT 演示文稿" %}}
-只需幾行代碼即可使用 Aspose.Slides for .NET API 搜索和替換內容、評論、幻燈片註釋或元數據中的文本。使用正則表達式匹配、匹配大小寫來搜索演示文稿中的文本。在標題、內容、頁腳或頁眉中搜索文本。
-{{% blocks/products/pf/agp/code-block title="使用 C# 搜索文本 PPT 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 C# 在 PPT 簡報中搜尋文字" variant="code" %}}
 
+透過 [Aspose.Slides for .NET](/slides/zh-hant/net/)，您可以在 PPT 簡報中搜尋文字。使用 `SlideUtil.GetAllTextBoxes` 取得投影片的文字框架，然後檢查其 `Text` 值是否包含所需片語。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C# 在 PPT 簡報中搜尋文字" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt"))
+var slideIndex = 0;
+var slide = presentation.Slides[slideIndex];
+var textFrames = Aspose.Slides.Util.SlideUtil.GetAllTextBoxes(slide);
+
+foreach (var textFrame in textFrames)
 {
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.ppt", SaveFormat.Ppt);
+    var text = textFrame.Text;
+    if (text.Contains("PowerPoint", System.StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine(text);
+    }
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 C# 在 PPT 簡報中搜尋文字" intro="依照下列步驟在 PPT 簡報中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 載入 PPT 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}從 `Presentation.Slides` 取得所需投影片並指派給變數。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 [`SlideUtil.GetAllTextBoxes`](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/getalltextboxes/) 取得其文字框架。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}檢查每個框架的 `Text` 值是否包含所需片語。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 C# 搜索 PPT 的文本" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="以 Aspose.Slides 建置" title="線上搜尋 PPT 檔案中的文字" description="免費的 Aspose.Slides Search 應用程式以 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh-hant/net/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 PPT 檔案。" button="開啟 Aspose.Slides Search" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，了解 Aspose.Slides 如何尋找文字。
+- 在您的 PPT 檔案中搜尋純文字或規則運算式。
+- 將相符結果下載為文字檔。
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是搜索文本 PPT 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援搜尋的格式" subTitle="使用 C#，您也可以在下列格式中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 PPT。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) 方法查找和替換文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPT 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在線 PPT 搜索現場演示" sectionDescription="立即在 PPT 文檔的內容、評論或元數據中搜索和替換文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用C#，您還可以搜索以下格式的文本：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

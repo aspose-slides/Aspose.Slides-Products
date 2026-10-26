@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Szöveg keresése PPTX prezentációs fájlokban a Java használatával
+title: Szöveg keresése PPTX bemutatófájlokban Java használatával
 url: /hu/java/search/pptx/
-keywords: szavak keresése PPTX nyelven, szöveg keresése és cseréje PPTX nyelven, keresési szöveg PPTX Bemutatás
-description: Java forráskód a szöveg kereséséhez a PPTX prezentációban.
+description: Szöveg keresése PPTX bemutatókban Java nyelven az Aspose.Slides for Java segítségével.
+keywords: szavak keresése PPTX fájlban, szöveg keresése PPTX fájlban, PPTX bemutató szövegének keresése
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Szöveg keresése PPTX a Java használatával" h2="Készítse el saját Java alkalmazásait a prezentációs fájlok szövegének kereséséhez és cseréjéhez szerveroldali API-k segítségével. Tanulja meg, hogyan találhat meg egy adott szó vagy kifejezés összes bejáratát a prezentációs dokumentumokban. Szöveg keresése pontos adategyezéssel és reguláris kifejezés-egyezéssel." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Szöveg keresése PPTX fájlban Java használatával" h2="Készítsen Java-alkalmazásokat, amelyek kiszolgálóoldali API-kkal keresnek szöveget bemutatófájlokban." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Szöveg keresése és cseréje PPTX Prezentáció a következőn keresztül: Java" %}}
-A Aspose.Slides for Java API-kkal az alapvető dokumentumok keresése és szöveg cseréje a tartalomban, megjegyzésekben, diajegyzetekben vagy metaadatokban néhány sornyi kóddal elvégezhető. Használjon reguláris kifejezés-illesztést, és párosítsa a kis- és nagybetűket a prezentáció szövegének kereséséhez. Szöveg keresése címekben, tartalomban, láblécben vagy fejlécben.
-{{% blocks/products/pf/agp/code-block title="Keresési szöveges PPTX prezentáció a Java használatával" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Szöveg keresése PPTX bemutatóban Java segítségével" variant="code" %}}
 
+Az [Aspose.Slides for Java](/slides/hu/java/) segítségével szöveget kereshet PPTX bemutatókban. Gyűjtse össze a szövegkereteket a `SlideUtil.getAllTextBoxes` metódussal, majd vizsgálja meg az `ITextFrame`, `IParagraph` és `IPortion` objektumokat.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Szöveg keresése PPTX bemutatóban Java használatával" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.pptx");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.pptx", SaveFormat.Pptx);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan kereshet szöveget PPTX fájlban Java segítségével" intro="Az alábbi lépésekkel kereshet szöveget egy PPTX bemutatóban." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a PPTX fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hívja meg a `SlideUtil.getAllTextBoxes` metódust az egyes diák szövegkereteinek összegyűjtéséhez.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Vizsgálja meg az `ITextFrame`, `IParagraph` és `IPortion` objektumokat az egyező szöveg megtalálásához.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Szöveg keresése PPTX nyelven a Java segítségével" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Az Aspose.Slides segítségével készült" title="Szöveg keresése PPTX fájlokban online" description="Az ingyenes Aspose.Slides Search alkalmazás az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Search megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan talál szöveget az Aspose.Slides, mielőtt kódot írna.
+- Keressen egyszerű szöveget vagy reguláris kifejezéseket a PPTX fájlban.
+- Töltse le a találatokat szövegfájlként.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Ezek a lépések a szöveges PPTX fájlok kereséséhez." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok kereséshez" subTitle="Java használatával a következő formátumokban is kereshet szöveget." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-A PPTX betöltése a Presentation egy példányával.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) módszerrel kereshet és cserélhet szöveget.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Az eredmény mentése PPTX formátumban
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Keressen élő bemutatókat" sectionDescription="Keressen és cseréljen szöveget a PPTX dokumentumok tartalmában, megjegyzéseiben vagy metaadataiban." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott keresési formátumok" subTitle="A Java használatával a következő formátumokban is kereshet szöveget:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,65 +1,50 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Python 在 PPTX 演示文件中搜索文本
+title: 使用 Python 在 PPTX 簡報中搜尋文字
 url: /zh-hant/python-net/search/pptx/
-keywords: 在 PPTX 中搜索單詞，在 PPTX 中搜索和替換文本，在 PPTX 中搜索文本 Presentation
-description: Python 源代碼，用於在 PPTX 演示文稿中搜索文本。
+description: 使用 Python 和 Aspose.Slides 在 PPTX 簡報中搜尋文字。
+keywords: 在 PPTX 中搜尋文字，在 PPTX 中尋找單字，使用 Python 搜尋 PPTX 簡報
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Python 搜索文本 PPTX" h2="構建您自己的 Python 應用程序，以使用服務器端 API 搜索和替換演示文稿文件中的文本。了解如何在演示文稿中查找特定單詞或短語的所有入口。通過精確數據匹配和正則表達式匹配搜索文本。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Python 在 PPTX 簡報中搜尋文字" h2="透過 Aspose.Slides 建置在 PowerPoint 簡報中尋找文字的 Python 應用程式。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 Python 搜索和替換文本 PPTX 演示文稿" %}}
-只需幾行代碼即可使用 Aspose.Slides for Python via .NET API 搜索和替換內容、評論、幻燈片註釋或元數據中的文本。使用正則表達式匹配、匹配大小寫來搜索演示文稿中的文本。在標題、內容、頁腳或頁眉中搜索文本。
-{{% blocks/products/pf/agp/code-block title="使用 Python 搜索文本 PPTX 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="使用 Python 在單一 PPTX 簡報中搜尋文字" variant="code" %}}
 
-```py
+透過 [Aspose.Slides for Python via .NET](/slides/zh-hant/python-net/)，您可以使用 [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) 在每張投影片上尋找包含指定字串的文字框架。
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="在 PPTX 簡報中搜尋文字 – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    for slide in presentation.slides:
+        matching_text_frames = slides.util.SlideUtil.get_text_boxes_contains_text(slide, "PowerPoint", False)
 
-with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.pptx", slides.export.SaveFormat.PPTX)
+        for text_frame in matching_text_frames:
+            print(text_frame.text)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何使用 Python 在 PPTX 中搜尋文字" intro="依照下列步驟在 PPTX 簡報中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 開啟 PPTX 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}逐一走訪投影片，並對每張投影片呼叫 [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/)。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}讀取每個相符文字框架的 `text` 屬性。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 Python 搜索 PPTX 的文本" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="以 Aspose.Slides 建置" title="線上搜尋 PPTX 檔案中的文字" description="免費的 Aspose.Slides Search 應用程式以 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh-hant/python-net/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 PPTX 檔案。" button="開啟 Aspose.Slides Search" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，了解 Aspose.Slides 如何尋找文字。
+- 在您的 PPTX 檔案中搜尋純文字或規則運算式。
+- 將相符結果下載為文字檔。
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是搜索文本 PPTX 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援搜尋的格式" subTitle="使用 Python 在其他支援的簡報格式中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/python-net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/python-net/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 PPTX。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) 方法查找和替換文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPTX 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在線 PPTX 搜索現場演示" sectionDescription="立即在 PPTX 文檔的內容、評論或元數據中搜索和替換文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用Python，您還可以搜索以下格式的文本：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

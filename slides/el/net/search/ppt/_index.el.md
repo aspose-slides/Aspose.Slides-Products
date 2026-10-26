@@ -1,65 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Αναζήτηση κειμένου σε PPT Αρχεία παρουσίασης χρησιμοποιώντας .NET
+title: Αναζήτηση κειμένου σε αρχεία παρουσιάσεων PPT με .NET
 url: /el/net/search/ppt/
-keywords: αναζήτηση λέξεων σε PPT, αναζήτηση και αντικατάσταση κειμένου σε PPT, κείμενο αναζήτησης PPT Παρουσίαση
-description: Πηγαίος κώδικας C# για αναζήτηση κειμένου στην παρουσίαση PPT.
+description: Πηγαίος κώδικας C# για αναζήτηση κειμένου σε παρουσιάσεις PPT.
+keywords: Αναζήτηση κειμένου σε PPT, εύρεση κειμένου σε PPT, αναζήτηση κειμένου παρουσίασης PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Αναζήτηση κειμένου PPT χρησιμοποιώντας C#" h2="Δημιουργήστε τις δικές σας εφαρμογές .NET για αναζήτηση και αντικατάσταση κειμένου σε αρχεία παρουσίασης χρησιμοποιώντας API από την πλευρά του διακομιστή. Μάθετε πώς να βρίσκετε όλες τις εισόδους μιας συγκεκριμένης λέξης ή φράσης σε έγγραφα παρουσίασης. Αναζήτηση κειμένου με ακριβή αντιστοίχιση δεδομένων και αντιστοίχιση τυπικών εκφράσεων." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Αναζήτηση κειμένου σε αρχεία PPT με C#" h2="Δημιουργήστε εφαρμογές .NET που βρίσκουν κείμενο σε παρουσιάσεις με API διακομιστή." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Αναζήτηση και αντικατάσταση κειμένου PPT Παρουσίαση μέσω C#" %}}
-Μια βασική αναζήτηση εγγράφων και αντικατάσταση κειμένου σε περιεχόμενα, σχόλια, σημειώσεις διαφανειών ή μεταδεδομένα με API του Aspose.Slides for .NET μπορεί να γίνει με λίγες μόνο γραμμές κώδικα. Χρησιμοποιήστε αντιστοίχιση τυπικών εκφράσεων, αντιστοίχιση πεζών-κεφαλαίων για αναζήτηση κειμένου στην παρουσίαση. Αναζήτηση κειμένου σε τίτλους, περιεχόμενο, υποσέλιδο ή κεφαλίδα.
-{{% blocks/products/pf/agp/code-block title="Κείμενο αναζήτησης PPT Παρουσίαση με χρήση C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Αναζήτηση κειμένου σε παρουσίαση PPT με C#" variant="code" %}}
 
+Με το [Aspose.Slides for .NET](/slides/el/net/), μπορείτε να αναζητήσετε κείμενο σε μια παρουσίαση PPT. Λάβετε τα πλαίσια κειμένου μιας διαφάνειας με το `SlideUtil.GetAllTextBoxes` και, στη συνέχεια, ελέγξτε τις τιμές `Text` τους για την απαιτούμενη φράση.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Αναζήτηση κειμένου σε παρουσίαση PPT με C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt"))
+var slideIndex = 0;
+var slide = presentation.Slides[slideIndex];
+var textFrames = Aspose.Slides.Util.SlideUtil.GetAllTextBoxes(slide);
+
+foreach (var textFrame in textFrames)
 {
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.ppt", SaveFormat.Ppt);
+    var text = textFrame.Text;
+    if (text.Contains("PowerPoint", System.StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine(text);
+    }
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Πώς να αναζητήσετε κείμενο σε παρουσίαση PPT με C#" intro="Ακολουθήστε αυτά τα βήματα για να αναζητήσετε κείμενο σε μια παρουσίαση PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Φορτώστε το αρχείο PPT με το `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Λάβετε την απαιτούμενη διαφάνεια από το `Presentation.Slides` και αντιστοιχίστε την σε μια μεταβλητή.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Λάβετε τα πλαίσια κειμένου της με το [`SlideUtil.GetAllTextBoxes`](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/getalltextboxes/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ελέγξτε αν η τιμή `Text` κάθε πλαισίου περιέχει την απαιτούμενη φράση.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Τρόπος αναζήτησης κειμένου σε PPT μέσω C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Δημιουργήθηκε με το Aspose.Slides" title="Διαδικτυακή αναζήτηση κειμένου σε αρχεία PPT" description="Η δωρεάν εφαρμογή Aspose.Slides Search έχει δημιουργηθεί με το [Aspose.Slides for .NET](https://products.aspose.com/slides/el/net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία PPT." button="Άνοιγμα Aspose.Slides Search" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides βρίσκει κείμενο πριν γράψετε κώδικα.
+- Αναζητήστε απλό κείμενο ή κανονικές εκφράσεις στο αρχείο PPT.
+- Κατεβάστε τα αποτελέσματα ως αρχείο κειμένου.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Αυτά είναι τα βήματα για την αναζήτηση αρχείων κειμένου PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Άλλες υποστηριζόμενες μορφές για αναζήτηση" subTitle="Με C#, μπορείτε επίσης να αναζητήσετε κείμενο στις ακόλουθες μορφές." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/el/net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Φόρτωση του PPT με μια παρουσία παρουσίασης.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Χρησιμοποιήστε τη μέθοδο [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) για να βρείτε και να αντικαταστήσετε κείμενο.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Αποθήκευση αποτελέσματος σε μορφή PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Διαδικτυακή αναζήτηση σε ζωντανές επιδείξεις PPT" sectionDescription="Αναζητήστε και αντικαταστήστε κείμενο σε περιεχόμενα, σχόλια ή μεταδεδομένα σε έγγραφα PPT αυτήν τη στιγμή." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Άλλες υποστηριζόμενες μορφές αναζήτησης" subTitle="Χρησιμοποιώντας το C#, μπορείτε επίσης να αναζητήσετε κείμενο στις ακόλουθες μορφές:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/el/net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

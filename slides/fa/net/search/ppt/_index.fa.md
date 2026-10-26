@@ -1,65 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: جستجوی متن در فایل‌های ارائه PPT با استفاده از .NET
 url: /fa/net/search/ppt/
-keywords: کلمات جستجو در PPT، جستجو و جایگزینی متن در PPT، متن جستجو PPT ارائه
-description: کد منبع C# برای جستجوی متن در ارائه PPT.
+description: کد منبع C# برای جستجوی متن در ارائه‌های PPT.
+keywords: جستجوی متن در PPT، یافتن متن در PPT، جستجو در متن ارائه PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="جستجوی متن PPT با استفاده از C#" h2="برنامه‌های .NET خود را برای جستجو و جایگزینی متن در فایل‌های ارائه با استفاده از APIهای سمت سرور بسازید. یاد بگیرید که چگونه تمام ورودی های یک کلمه یا عبارت خاص را در اسناد ارائه پیدا کنید. متن را با تطبیق دقیق داده ها و تطبیق عبارت منظم جستجو کنید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="جستجوی متن در فایل‌های PPT با استفاده از C#" h2="برنامه‌های .NET بسازید که با APIهای سمت سرور متن را در ارائه‌ها پیدا می‌کنند." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="جستجو و جایگزینی متن PPT ارائه از طریق C#" %}}
-جستجوی اولیه سند و جایگزینی متن در محتوا، نظرات، یادداشت‌های اسلاید یا ابرداده با APIهای Aspose.Slides for .NET تنها با چند خط کد انجام می‌شود. برای جستجوی متن در ارائه، از تطبیق عبارات منظم، حروف مطابقت استفاده کنید. متن را در عنوان، محتوا، پاورقی یا سرصفحه جستجو کنید.
-{{% blocks/products/pf/agp/code-block title="جستجوی متن PPT ارائه با استفاده از C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="جستجوی متن در یک ارائه PPT با استفاده از C#" variant="code" %}}
 
+با [Aspose.Slides for .NET](/slides/fa/net/) می‌توانید متن را در یک ارائه PPT جستجو کنید. قاب‌های متنی یک اسلاید را با `SlideUtil.GetAllTextBoxes` دریافت کنید و سپس مقادیر `Text` آن‌ها را برای عبارت موردنظر بررسی کنید.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="جستجوی متن در یک ارائه PPT با استفاده از C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt"))
+var slideIndex = 0;
+var slide = presentation.Slides[slideIndex];
+var textFrames = Aspose.Slides.Util.SlideUtil.GetAllTextBoxes(slide);
+
+foreach (var textFrame in textFrames)
 {
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.ppt", SaveFormat.Ppt);
+    var text = textFrame.Text;
+    if (text.Contains("PowerPoint", System.StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine(text);
+    }
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="نحوه جستجوی متن در یک ارائه PPT با استفاده از C#" intro="برای جستجوی متن در یک ارائه PPT این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل PPT را با `Presentation` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}اسلاید موردنظر را از `Presentation.Slides` دریافت کنید و به یک متغیر اختصاص دهید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}قاب‌های متنی آن را با [`SlideUtil.GetAllTextBoxes`](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/getalltextboxes/) دریافت کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}بررسی کنید که مقدار `Text` هر قاب شامل عبارت موردنظر باشد.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه جستجوی متن در PPT از طریق C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="ساخته شده با Aspose.Slides" title="جستجوی آنلاین متن در فایل‌های PPT" description="برنامه رایگان Aspose.Slides Search با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPT شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Search" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه متن را پیدا می‌کند.
+- در فایل PPT خود متن ساده یا عبارات باقاعده را جستجو کنید.
+- نتایج را به‌صورت فایل متنی دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای جستجوی فایل‌های متنی PPT است." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر فرمت‌های پشتیبانی‌شده برای جستجو" subTitle="با C# می‌توانید در فرمت‌های زیر نیز متن را جستجو کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT را با یک نمونه از Presentation بارگیری کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-برای یافتن و جایگزینی متن از روش [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) استفاده کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را در قالب PPT ذخیره کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="جستجوی آنلاین نسخه‌های نمایشی زنده PPT" sectionDescription="در حال حاضر متن، نظرات یا ابرداده را در اسناد PPT جستجو و جایگزین کنید." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های جستجوی پشتیبانی شده" subTitle="با استفاده از C#، می‌توانید متن را در قالب‌های زیر نیز جستجو کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

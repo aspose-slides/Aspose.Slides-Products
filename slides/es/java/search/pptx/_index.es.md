@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Buscar texto en archivos de presentación PPTX usando Java
+title: Buscar texto en archivos de presentación PPTX con Java
 url: /es/java/search/pptx/
-keywords: buscar palabras en PPTX, buscar y reemplazar texto en PPTX, buscar texto en PPTX Presentación
-description: Código fuente de Java para buscar texto en la presentación PPTX.
+description: Busque texto en presentaciones PPTX en Java con Aspose.Slides for Java.
+keywords: buscar palabras en PPTX, buscar texto en PPTX, buscar texto de presentación PPTX
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Buscar texto PPTX usando Java" h2="Cree sus propias aplicaciones Java para buscar y reemplazar texto en archivos de presentación utilizando API del lado del servidor. Aprenda a encontrar todas las entradas de una determinada palabra o frase en los documentos de presentación. Busque texto por coincidencia exacta de datos y coincidencia de expresiones regulares." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Buscar texto en PPTX con Java" h2="Cree aplicaciones Java que busquen texto en archivos de presentación con API del lado del servidor." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Buscar y reemplazar texto PPTX Presentación a través de Java" %}}
-Se puede realizar una búsqueda básica de documentos y reemplazar texto en contenidos, comentarios, notas de diapositivas o metadatos con las API de Aspose.Slides for Java con solo unas pocas líneas de código. Use coincidencia de expresiones regulares, coincidencia de mayúsculas y minúsculas para buscar texto en la presentación. Busque texto en títulos, contenido, pie de página o encabezado.
-{{% blocks/products/pf/agp/code-block title="Buscar texto PPTX Presentación usando Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Buscar texto en una presentación PPTX mediante Java" variant="code" %}}
 
+Con [Aspose.Slides for Java](/slides/es/java/), puede buscar texto en presentaciones PPTX. Use el método `SlideUtil.getAllTextBoxes` para reunir los marcos de texto y, después, revise los objetos `ITextFrame`, `IParagraph` e `IPortion`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Buscar texto en una presentación PPTX con Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.pptx");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.pptx", SaveFormat.Pptx);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cómo buscar texto en PPTX mediante Java" intro="Siga estos pasos para buscar texto en una presentación PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cargue el archivo PPTX con la clase `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Llame al método `SlideUtil.getAllTextBoxes` para reunir los marcos de texto de cada diapositiva.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Revise los objetos `ITextFrame`, `IParagraph` e `IPortion` para encontrar el texto coincidente.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cómo buscar texto en PPTX a través de Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Creado con Aspose.Slides" title="Buscar texto en archivos PPTX en línea" description="La aplicación gratuita Aspose.Slides Search está creada con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPTX." button="Abrir Aspose.Slides Search" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides encuentra texto antes de escribir código.
+- Busque texto sin formato o expresiones regulares en su archivo PPTX.
+- Descargue las coincidencias como archivo de texto.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Estos son los pasos para buscar archivos de texto PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otros formatos compatibles con la búsqueda" subTitle="Con Java, también puede buscar texto en los siguientes formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/java/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/es/java/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cargue PPTX con una instancia de Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Use el método [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) para buscar y reemplazar texto.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Guardar resultado en formato PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="En línea PPTX Buscar demostraciones en vivo" sectionDescription="Busque y reemplace texto en contenidos, comentarios o metadatos en documentos PPTX ahora mismo." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Otros formatos de búsqueda admitidos" subTitle="Con Java, también puede buscar texto en los siguientes formatos:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/es/java/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

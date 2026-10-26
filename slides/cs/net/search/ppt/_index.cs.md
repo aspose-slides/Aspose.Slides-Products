@@ -1,65 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Vyhledejte text v prezentačních souborech PPT pomocí .NET
+title: Vyhledávání textu v souborech prezentací PPT pomocí .NET
 url: /cs/net/search/ppt/
-keywords: hledat slova ve PPT, hledat a nahrazovat text ve PPT, hledat text PPT Prezentace
-description: Zdrojový kód C# pro vyhledávání textu v prezentaci PPT.
+description: Zdrojový kód C# pro vyhledávání textu v prezentacích PPT.
+keywords: Vyhledání textu v PPT, nalezení textu v PPT, prohledání textu prezentace PPT
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Vyhledat text PPT pomocí C#" h2="Vytvořte si vlastní aplikace pro .NET pro vyhledávání a nahrazování textu v prezentačních souborech pomocí rozhraní API na straně serveru. Naučte se, jak najít všechny vstupy určitého slova nebo fráze v prezentačních dokumentech. Vyhledávejte text podle přesné shody dat a shody regulárních výrazů." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Vyhledávání textu v souborech PPT pomocí C#" h2="Vytvářejte aplikace .NET, které pomocí serverových API vyhledávají text v prezentacích." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Vyhledat a nahradit text PPT Prezentace prostřednictvím C#" %}}
-Základní vyhledávání dokumentů a nahrazování textu v obsahu, komentářích, poznámkách ke snímkům nebo metadatech pomocí rozhraní API Aspose.Slides for .NET lze provést pomocí několika řádků kódu. Pro vyhledávání textu v prezentaci použijte regulární výrazy a velká a malá písmena. Hledejte text v názvech, obsahu, zápatí nebo záhlaví.
-{{% blocks/products/pf/agp/code-block title="Vyhledat text prezentace PPT pomocí C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Vyhledávání textu v prezentaci PPT pomocí C#" variant="code" %}}
 
+S [Aspose.Slides for .NET](/slides/cs/net/) můžete vyhledávat text v prezentaci PPT. Pomocí `SlideUtil.GetAllTextBoxes` získejte textové rámce snímku a poté v jejich hodnotách `Text` vyhledejte požadovanou frázi.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Vyhledávání textu v prezentaci PPT pomocí C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.ppt");
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.ppt"))
+var slideIndex = 0;
+var slide = presentation.Slides[slideIndex];
+var textFrames = Aspose.Slides.Util.SlideUtil.GetAllTextBoxes(slide);
+
+foreach (var textFrame in textFrames)
 {
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.ppt", SaveFormat.Ppt);
+    var text = textFrame.Text;
+    if (text.Contains("PowerPoint", System.StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine(text);
+    }
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak vyhledat text v prezentaci PPT pomocí C#" intro="Postupujte podle těchto kroků a vyhledejte text v prezentaci PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor PPT pomocí `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Získejte požadovaný snímek z `Presentation.Slides` a přiřaďte ho do proměnné.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Získejte jeho textové rámce pomocí [`SlideUtil.GetAllTextBoxes`](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/getalltextboxes/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zkontrolujte, zda hodnota `Text` každého rámce obsahuje požadovanou frázi.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak hledat text ve PPT prostřednictvím C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Vytvořeno pomocí Aspose.Slides" title="Vyhledávání textu v souborech PPT online" description="Bezplatná aplikace Aspose.Slides Search je vytvořena pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory PPT." button="Otevřít Aspose.Slides Search" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides vyhledává text, ještě než napíšete kód.
+- Prohledejte soubor PPT podle prostého textu nebo regulárních výrazů.
+- Stáhněte nalezené výsledky jako textový soubor.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Toto jsou kroky k vyhledávání textových souborů PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty pro vyhledávání" subTitle="Pomocí C# můžete vyhledávat text také v následujících formátech." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte PPT s instancí Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-K vyhledání a nahrazení textu použijte metodu [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Uložte výsledek ve formátu PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Hledejte živé ukázky" sectionDescription="Vyhledejte a nahraďte text v obsahu, komentářích nebo metadatech v dokumentech PPT právě teď." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty vyhledávání" subTitle="Pomocí C# můžete také vyhledávat text v následujících formátech:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

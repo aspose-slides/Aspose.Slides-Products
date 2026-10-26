@@ -1,64 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 C++ 在 PPTX 演示文件中搜索文本
+title: 使用 C++ 在 PPTX 簡報中搜尋文字
 url: /zh-hant/cpp/search/pptx/
-keywords: 在 PPTX 中搜索單詞，在 PPTX 中搜索和替換文本，在 PPTX 中搜索文本 Presentation
-description: C++ 源代碼，用於在 PPTX 演示文稿中搜索文本。
+description: 在 C++ 中搜尋 PPTX 簡報中的文字。使用 Aspose.Slides for C++ 尋找簡報檔案中的文字。
+keywords: 在 PPTX 中搜尋單字，在 PPTX 中尋找文字，搜尋 PPTX 簡報文字
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 C++ 搜索文本 PPTX" h2="構建您自己的 C++ 應用程序，以使用服務器端 API 搜索和替換演示文稿文件中的文本。了解如何在演示文稿中查找特定單詞或短語的所有入口。通過精確數據匹配和正則表達式匹配搜索文本。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C++ 在 PPTX 中搜尋文字" h2="使用 Aspose.Slides for C++ 尋找簡報檔案中的文字，無需 Microsoft PowerPoint。" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 C++ 搜索和替換文本 PPTX 演示文稿" %}}
-只需幾行代碼即可使用 Aspose.Slides for C++ API 搜索和替換內容、評論、幻燈片註釋或元數據中的文本。使用正則表達式匹配、匹配大小寫來搜索演示文稿中的文本。在標題、內容、頁腳或頁眉中搜索文本。
-{{% blocks/products/pf/agp/code-block title="使用 C++ 搜索文本 PPTX 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 C++ 在 PPTX 簡報中搜尋文字" variant="code" %}}
 
+Aspose.Slides for C++ 可用於在 PPTX 簡報中搜尋文字。使用 `SlideUtil::GetAllTextBoxes` 收集投影片的文字框架，然後檢查其文字是否包含所需片語。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 C++ 在單一 PPTX 簡報中搜尋文字" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.pptx");
+auto slide = presentation->get_Slides()->idx_get(0);
+auto textFrames = SlideUtil::GetAllTextBoxes(slide);
 
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.pptx", SaveFormat::Pptx);	
+for (auto&& textFrame : textFrames)
+{
+    auto text = textFrame->get_Text();
+    if (text.Contains(u"PowerPoint"))
+    {
+        Console::WriteLine(text);
+    }
+}
+
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何透過 C++ 在 PPTX 中搜尋文字" intro="依照下列步驟在 PPTX 簡報中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 類別載入 PPTX 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation::get_Slides` 取得所需投影片，並使用 [`SlideUtil::GetAllTextBoxes`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/getalltextboxes/) 取得其文字框架。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}檢查每個框架的文字是否包含所需片語。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 C++ 搜索 PPTX 的文本" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="以 Aspose.Slides 建置" title="線上搜尋 PPTX 檔案中的文字" description="免費的 Aspose.Slides Search 應用程式以 [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 PPTX 檔案。" button="開啟 Aspose.Slides Search" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，了解 Aspose.Slides 如何尋找文字。
+- 在您的 PPTX 檔案中搜尋純文字或規則運算式。
+- 將相符結果下載為文字檔。
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是搜索文本 PPTX 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援搜尋的格式" subTitle="使用 C++，您也可以在下列格式中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/cpp/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/cpp/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 PPTX。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) 方法查找和替換文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPTX 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在線 PPTX 搜索現場演示" sectionDescription="立即在 PPTX 文檔的內容、評論或元數據中搜索和替換文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用C++，您還可以搜索以下格式的文本：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/cpp/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

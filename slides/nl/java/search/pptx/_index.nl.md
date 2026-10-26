@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Zoek tekst in PPTX presentatiebestanden met behulp van Java
+title: Tekst zoeken in PPTX-presentatiebestanden met Java
 url: /nl/java/search/pptx/
-keywords: zoek woorden in PPTX, zoek en vervang tekst in PPTX, zoek tekst PPTX Presentatie
-description: Java broncode om tekst te zoeken in PPTX Presentatie.
+description: Zoek tekst in PPTX-presentaties in Java met Aspose.Slides for Java.
+keywords: woorden zoeken in PPTX, tekst zoeken in PPTX, tekst in PPTX-presentatie zoeken
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Zoek tekst PPTX met behulp van Java" h2="Bouw uw eigen Java-apps om tekst in presentatiebestanden te zoeken en te vervangen met behulp van server-side API's. Leer hoe u alle ingangen van een bepaald woord of een bepaalde woordgroep in presentatiedocumenten kunt vinden. Zoek tekst op basis van exacte gegevensovereenkomst en overeenkomst met reguliere expressies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tekst zoeken in PPTX met Java" h2="Bouw Java-toepassingen die tekst in presentatiebestanden zoeken met server-side API's." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Zoek en vervang tekst PPTX Presentatie via Java" %}}
-Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen, dia-notities of metadata met Aspose.Slides for Java API's kan worden gedaan met slechts enkele regels code. Gebruik reguliere expressie-overeenkomsten, zoek hoofdletters en kleine letters om tekst in de presentatie te zoeken. Zoek tekst in titels, inhoud, footer of header.
-{{% blocks/products/pf/agp/code-block title="Zoek tekst PPTX Presentatie met behulp van Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tekst zoeken in een PPTX-presentatie via Java" variant="code" %}}
 
+Met [Aspose.Slides for Java](/slides/nl/java/) kunt u tekst zoeken in PPTX-presentaties. Verzamel de tekstkaders met de methode `SlideUtil.getAllTextBoxes` en onderzoek daarna de objecten `ITextFrame`, `IParagraph` en `IPortion`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tekst zoeken in een PPTX-presentatie met Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.pptx");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.pptx", SaveFormat.Pptx);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Tekst zoeken in PPTX via Java" intro="Volg deze stappen om tekst in een PPTX-presentatie te zoeken." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het PPTX-bestand met de klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Roep de methode `SlideUtil.getAllTextBoxes` aan om de tekstkaders van elke dia te verzamelen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Onderzoek de objecten `ITextFrame`, `IParagraph` en `IPortion` om overeenkomende tekst te vinden.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Tekst zoeken in PPTX via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Gebouwd met Aspose.Slides" title="Tekst zoeken in PPTX-bestanden online" description="De gratis app Aspose.Slides Search is gebouwd met [Aspose.Slides for Java](https://products.aspose.com/slides/nl/java/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPTX-bestanden." button="Aspose.Slides Search openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides tekst vindt voordat u code schrijft.
+- Doorzoek uw PPTX-bestand op gewone tekst of reguliere expressies.
+- Download de resultaten als tekstbestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om PPTX tekstbestanden te doorzoeken." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor zoeken" subTitle="Met Java kunt u ook tekst zoeken in de volgende formaten." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/java/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/java/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad PPTX met een instantie van Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gebruik de methode [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) om tekst te zoeken en te vervangen.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op in PPTX formaat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Zoek live demo's" sectionDescription="Zoek en vervang nu tekst in inhoud, opmerkingen of metadata in PPTX documenten." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde zoekformaten" subTitle="Met Java kunt u ook tekst zoeken in de volgende indelingen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/java/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

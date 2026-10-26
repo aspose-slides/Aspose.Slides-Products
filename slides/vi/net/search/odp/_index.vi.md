@@ -1,65 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Tìm kiếm Văn bản trong Tệp Bản trình bày ODP bằng .NET
+title: Tìm kiếm văn bản trong tệp bản trình bày ODP bằng .NET
 url: /vi/net/search/odp/
-keywords: tìm kiếm từ trong ODP, tìm kiếm và thay thế văn bản trong ODP, tìm kiếm văn bản ODP Bản trình bày
-description: Mã nguồn C# để tìm kiếm văn bản trong Bản trình bày ODP.
+description: Mã nguồn C# để tìm kiếm văn bản trong bản trình bày ODP.
+keywords: Tìm kiếm văn bản trong ODP, tìm văn bản trong ODP, tìm kiếm văn bản bản trình bày ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Tìm kiếm văn bản ODP bằng C#" h2="Xây dựng ứng dụng .NET của riêng bạn để tìm kiếm và thay thế văn bản trong tệp bản trình bày bằng API phía máy chủ. Tìm hiểu cách tìm tất cả các lối vào của một từ hoặc cụm từ nhất định trong tài liệu thuyết trình. Tìm kiếm văn bản bằng cách khớp dữ liệu chính xác và khớp cụm từ thông dụng." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tìm kiếm văn bản trong tệp ODP bằng C#" h2="Xây dựng ứng dụng .NET tìm văn bản trong bản trình bày bằng API phía máy chủ." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Tìm kiếm và Thay thế Văn bản Bản trình bày ODP qua C#" %}}
-Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét, ghi chú trang trình bày hoặc siêu dữ liệu bằng API Aspose.Slides for .NET chỉ với vài dòng mã. Sử dụng phép so khớp biểu thức chính quy, kiểu khớp để tìm kiếm văn bản trong bản trình bày. Tìm kiếm văn bản trong tiêu đề, nội dung, chân trang hoặc tiêu đề.
-{{% blocks/products/pf/agp/code-block title="Tìm kiếm văn bản ODP Bản trình bày bằng C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tìm kiếm văn bản trong bản trình bày ODP bằng C#" variant="code" %}}
 
+Với [Aspose.Slides for .NET](/slides/vi/net/), bạn có thể tìm kiếm văn bản trong bản trình bày ODP. Lấy các khung văn bản của một trang chiếu bằng `SlideUtil.GetAllTextBoxes`, sau đó kiểm tra giá trị `Text` của chúng để tìm cụm từ cần thiết.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tìm kiếm văn bản trong bản trình bày ODP bằng C#" >}}
 ```cs
+using var presentation = new Presentation("presentation.odp");
 
-using (Presentation presentation = new Presentation("welcome-to-powerpoint.odp"))
+var slideIndex = 0;
+var slide = presentation.Slides[slideIndex];
+var textFrames = Aspose.Slides.Util.SlideUtil.GetAllTextBoxes(slide);
+
+foreach (var textFrame in textFrames)
 {
-    Aspose.Slides.Util.SlideUtil.FindAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.Save("replaced.odp", SaveFormat.Odp);
+    var text = textFrame.Text;
+    if (text.Contains("PowerPoint", System.StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine(text);
+    }
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách tìm kiếm văn bản trong bản trình bày ODP bằng C#" intro="Làm theo các bước sau để tìm kiếm văn bản trong bản trình bày ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp ODP bằng `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lấy trang chiếu cần thiết từ `Presentation.Slides` và gán cho một biến.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Lấy các khung văn bản của trang chiếu bằng [`SlideUtil.GetAllTextBoxes`](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/getalltextboxes/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kiểm tra xem giá trị `Text` của từng khung có chứa cụm từ cần thiết hay không.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách tìm kiếm văn bản ở ODP qua C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Được xây dựng bằng Aspose.Slides" title="Tìm kiếm văn bản trong tệp ODP trực tuyến" description="Ứng dụng Aspose.Slides Search miễn phí được xây dựng bằng [Aspose.Slides for .NET](https://products.aspose.com/slides/vi/net/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp ODP của riêng bạn." button="Mở Aspose.Slides Search" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides tìm văn bản trước khi bạn viết mã.
+- Tìm văn bản thuần hoặc biểu thức chính quy trong tệp ODP của bạn.
+- Tải xuống kết quả dưới dạng tệp văn bản.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để tìm kiếm tệp văn bản ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng khác được hỗ trợ để tìm kiếm" subTitle="Với C#, bạn cũng có thể tìm kiếm văn bản trong các định dạng sau." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/net/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải ODP với phiên bản Trình bày.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sử dụng phương thức [FindAndReplaceText](https://reference.aspose.com/slides/net/aspose.slides.util/slideutil/findandreplacetext/) để tìm và thay thế văn bản.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Trực tuyến ODP Tìm kiếm Trình diễn trực tiếp" sectionDescription="Tìm kiếm và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu trong tài liệu ODP ngay bây giờ." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng tìm kiếm được hỗ trợ khác" subTitle="Sử dụng C#, Bạn cũng có thể tìm kiếm văn bản ở các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Java 在 PPT 演示文件中搜索文本
+title: 使用 Java 在 PPT 簡報檔案中搜尋文字
 url: /zh-hant/java/search/ppt/
-keywords: 在 PPT 中搜索單詞，在 PPT 中搜索和替換文本，在 PPT 中搜索文本 Presentation
-description: Java 源代碼，用於在 PPT 演示文稿中搜索文本。
+description: 使用 Aspose.Slides for Java 在 Java 中搜尋 PPT 簡報中的文字。
+keywords: 在 PPT 中搜尋單字，在 PPT 中搜尋文字，搜尋 PPT 簡報文字
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="使用 Java 搜索文本 PPT" h2="構建您自己的 Java 應用程序，以使用服務器端 API 搜索和替換演示文稿文件中的文本。了解如何在演示文稿中查找特定單詞或短語的所有入口。通過精確數據匹配和正則表達式匹配搜索文本。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Java 在 PPT 中搜尋文字" h2="建置透過伺服器端 API 在簡報檔案中搜尋文字的 Java 應用程式。" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 Java 搜索和替換文本 PPT 演示文稿" %}}
-只需幾行代碼即可使用 Aspose.Slides for Java API 搜索和替換內容、評論、幻燈片註釋或元數據中的文本。使用正則表達式匹配、匹配大小寫來搜索演示文稿中的文本。在標題、內容、頁腳或頁眉中搜索文本。
-{{% blocks/products/pf/agp/code-block title="使用 Java 搜索文本 PPT 演示文稿" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 Java 在 PPT 簡報中搜尋文字" variant="code" %}}
 
+透過 [Aspose.Slides for Java](/slides/zh-hant/java/)，您可以在 PPT 簡報中搜尋文字。使用 `SlideUtil.getAllTextBoxes` 方法收集文字框架，然後檢查 `ITextFrame`、`IParagraph` 和 `IPortion` 物件。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 Java 在 PPT 簡報中搜尋文字" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.ppt");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.ppt", SaveFormat.Ppt);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何透過 Java 在 PPT 中搜尋文字" intro="依照下列步驟在 PPT 簡報中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 類別載入 PPT 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}呼叫 `SlideUtil.getAllTextBoxes` 方法收集每張投影片的文字框架。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}檢查 `ITextFrame`、`IParagraph` 和 `IPortion` 物件以找出相符的文字。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 Java 搜索 PPT 的文本" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="以 Aspose.Slides 建置" title="線上搜尋 PPT 檔案中的文字" description="免費的 Aspose.Slides Search 應用程式以 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 PPT 檔案。" button="開啟 Aspose.Slides Search" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，了解 Aspose.Slides 如何尋找文字。
+- 在您的 PPT 檔案中搜尋純文字或規則運算式。
+- 將相符結果下載為文字檔。
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="這些是搜索文本 PPT 文件的步驟。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支援搜尋的格式" subTitle="使用 Java，您也可以在下列格式中搜尋文字。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/java/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/java/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 實例加載 PPT。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) 方法查找和替換文本。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-以 PPT 格式保存結果
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="在線 PPT 搜索現場演示" sectionDescription="立即在 PPT 文檔的內容、評論或元數據中搜索和替換文本。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的搜索格式" subTitle="使用Java，您還可以搜索以下格式的文本：" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/java/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

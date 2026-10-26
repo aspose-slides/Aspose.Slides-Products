@@ -1,64 +1,59 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Zoek tekst in ODP presentatiebestanden met behulp van C++
+title: Tekst zoeken in ODP-presentaties met C++
 url: /nl/cpp/search/odp/
-keywords: zoek woorden in ODP, zoek en vervang tekst in ODP, zoek tekst ODP Presentatie
-description: C++ broncode om tekst te zoeken in ODP Presentatie.
+description: Zoek tekst in ODP-presentaties in C++. Gebruik Aspose.Slides for C++ om tekst in presentatiebestanden te vinden.
+keywords: woorden zoeken in ODP, tekst vinden in ODP, tekst in ODP-presentatie zoeken
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Zoek tekst ODP met behulp van C++" h2="Bouw uw eigen C++-apps om tekst in presentatiebestanden te zoeken en te vervangen met behulp van server-side API's. Leer hoe u alle ingangen van een bepaald woord of een bepaalde woordgroep in presentatiedocumenten kunt vinden. Zoek tekst op basis van exacte gegevensovereenkomst en overeenkomst met reguliere expressies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tekst zoeken in ODP met C++" h2="Gebruik Aspose.Slides for C++ om tekst in presentatiebestanden te vinden zonder Microsoft PowerPoint." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Zoek en vervang tekst ODP Presentatie via C++" %}}
-Een basisdocument zoeken en tekst vervangen in inhoud, opmerkingen, dia-notities of metadata met Aspose.Slides for C++ API's kan worden gedaan met slechts enkele regels code. Gebruik reguliere expressie-overeenkomsten, zoek hoofdletters en kleine letters om tekst in de presentatie te zoeken. Zoek tekst in titels, inhoud, footer of header.
-{{% blocks/products/pf/agp/code-block title="Zoek tekst ODP Presentatie met behulp van C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tekst zoeken in een ODP-presentatie via C++" variant="code" %}}
 
+Met Aspose.Slides for C++ kunt u tekst zoeken in ODP-presentaties. Verzamel de tekstkaders van een dia met `SlideUtil::GetAllTextBoxes` en controleer daarna of hun tekst de gewenste zin bevat.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tekst zoeken in een ODP-presentatie met C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"presentation.odp");
 
-auto presentation = System::MakeObject<Presentation>(u"welcome-to-powerpoint.odp");
+auto slide = presentation->get_Slides()->idx_get(0);
+auto textFrames = SlideUtil::GetAllTextBoxes(slide);
 
-SlideUtil::FindAndReplaceText(presentation, true, u"PowerPoint", u"Aspose.Slides", nullptr);
-presentation->Save(u"replaced.odp", SaveFormat::Odp);	
+for (auto&& textFrame : textFrames)
+{
+    auto text = textFrame->get_Text();
+    if (text.Contains(u"PowerPoint"))
+    {
+        Console::WriteLine(text);
+    }
+}
+
+presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Tekst zoeken in ODP via C++" intro="Volg deze stappen om tekst in een ODP-presentatie te zoeken." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het ODP-bestand met de klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Haal de gewenste dia op met `Presentation::get_Slides` en lees de tekstkaders ervan uit met [`SlideUtil::GetAllTextBoxes`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/getalltextboxes/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Controleer of de tekst van elk kader de gewenste zin bevat.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Tekst zoeken in ODP via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Gebouwd met Aspose.Slides" title="Tekst zoeken in ODP-bestanden online" description="De gratis app Aspose.Slides Search is gebouwd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen ODP-bestanden." button="Aspose.Slides Search openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides tekst vindt voordat u code schrijft.
+- Doorzoek uw ODP-bestand op gewone tekst of reguliere expressies.
+- Download de resultaten als tekstbestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Dit zijn de stappen om ODP tekstbestanden te doorzoeken." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor zoeken" subTitle="Met C++ kunt u ook tekst zoeken in de volgende formaten." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/cpp/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/cpp/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad ODP met een instantie van Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Gebruik de methode [FindAndReplaceText](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) om tekst te zoeken en te vervangen.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sla resultaat op in ODP formaat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online ODP Zoek live demo's" sectionDescription="Zoek en vervang nu tekst in inhoud, opmerkingen of metadata in ODP documenten." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde zoekformaten" subTitle="Met C++ kunt u ook tekst zoeken in de volgende indelingen:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/cpp/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

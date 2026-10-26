@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: البحث عن نص في PPT ملفات العروض التقديمية باستخدام Java
+title: البحث عن النص في ملفات عروض PPT التقديمية باستخدام Java
 url: /ar/java/search/ppt/
-keywords: كلمات البحث في PPT ، البحث عن النص واستبداله في PPT ، البحث عن النص PPT Presentation
-description: Java شفرة المصدر للبحث عن النص في PPT Presentation.
+description: ابحث عن النص في عروض PPT التقديمية بلغة Java باستخدام Aspose.Slides for Java.
+keywords: البحث عن الكلمات في PPT، البحث عن النص في PPT، البحث في نص عرض PPT التقديمي
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="بحث عن نص PPT باستخدام Java" h2="أنشئ تطبيقات Java الخاصة بك للبحث عن نص واستبداله في ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم. تعرف على كيفية العثور على جميع مداخل كلمة أو عبارة معينة في مستندات العرض التقديمي. نص البحث عن طريق مطابقة البيانات بدقة ومطابقة التعبير العادي." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="البحث عن النص في PPT باستخدام Java" h2="أنشئ تطبيقات Java تبحث عن النص في ملفات العروض التقديمية باستخدام واجهات API من جانب الخادم." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="البحث عن نص واستبداله PPT العرض التقديمي عبر Java" %}}
-يمكن إجراء بحث أساسي عن المستند واستبدال النص في المحتويات أو التعليقات أو ملاحظات الشرائح أو البيانات الوصفية باستخدام واجهات برمجة تطبيقات Aspose.Slides for Java باستخدام سطور قليلة فقط من التعليمات البرمجية. استخدم مطابقة التعبير العادي ، تطابق الحالة للبحث عن نص في العرض التقديمي. نص البحث في العناوين أو المحتوى أو التذييل أو رأس الصفحة.
-{{% blocks/products/pf/agp/code-block title="بحث عن نص PPT عرض تقديمي باستخدام Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="البحث عن النص في عرض PPT تقديمي عبر Java" variant="code" %}}
 
+باستخدام [Aspose.Slides for Java](/slides/ar/java/)، يمكنك البحث عن النص في عروض PPT التقديمية. استخدم الأسلوب `SlideUtil.getAllTextBoxes` لجمع إطارات النص، ثم افحص الكائنات `ITextFrame` و`IParagraph` و`IPortion`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="البحث عن النص في عرض PPT تقديمي باستخدام Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.ppt");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.ppt", SaveFormat.Ppt);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية البحث عن النص في PPT عبر Java" intro="اتبع هذه الخطوات للبحث عن النص في عرض PPT تقديمي." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حمّل ملف PPT باستخدام الفئة `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استدعِ الأسلوب `SlideUtil.getAllTextBoxes` لجمع إطارات النص من كل شريحة.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}افحص الكائنات `ITextFrame` و`IParagraph` و`IPortion` للعثور على النص المطابق.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية البحث عن نص بتنسيق PPT عبر Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="مبني باستخدام Aspose.Slides" title="البحث عن النص في ملفات PPT عبر الإنترنت" description="تطبيق Aspose.Slides Search المجاني مبني باستخدام [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPT الخاصة بك." button="افتح Aspose.Slides Search" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يعثر Aspose.Slides على النص قبل أن تكتب الكود.
+- ابحث في ملف PPT عن نص عادي أو تعبيرات نمطية.
+- نزّل النتائج كملف نصي.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات البحث عن ملفات PPT النصية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للبحث" subTitle="باستخدام Java، يمكنك أيضًا البحث عن النص في التنسيقات التالية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل PPT بمثيل عرض تقديمي.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-استخدم طريقة [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) للبحث عن النص واستبداله.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="عبر الإنترنت PPT ابحث في العروض التوضيحية المباشرة" sectionDescription="ابحث واستبدل النص في المحتويات أو التعليقات أو البيانات الوصفية في مستندات PPT الآن." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات البحث الأخرى المدعومة" subTitle="باستخدام Java ، يمكنك أيضًا البحث عن نص بالتنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

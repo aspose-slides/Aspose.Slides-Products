@@ -1,64 +1,54 @@
 ---
-lastmod: 2026-07-09
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Search Text in PPTX Presentations using C++
 url: /cpp/search/pptx/
-keywords: search words in PPTX, search and replace text in PPTX, search text PPTX Presentation
-description: Search and replace text in PPTX presentations in C++. Use Aspose.Slides for C++ to find text in presentation files.
+keywords: search words in PPTX, find text in PPTX, search text PPTX Presentation
+description: Search text in PPTX presentations in C++. Use Aspose.Slides for C++ to find text in presentation files.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Search Text in PPTX using C++" h2="Use Aspose.Slides for C++ to find and replace text in presentation files without Microsoft PowerPoint." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="PPSX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Search Text in PPTX using C++" h2="Use Aspose.Slides for C++ to find text in presentation files without Microsoft PowerPoint." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Search and Replace Text in PPTX Presentation via C++" %}}
-Aspose.Slides for C++ lets you search text in PPTX presentations and replace matching content. Use `SlideUtil::FindAndReplaceText` with a `Presentation` object to search slide text and save the updated presentation.
-{{% blocks/products/pf/agp/code-block title="Search Text in PPTX Presentation using C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Search Text in a PPTX Presentation via C++" variant="code" %}}
 
+Aspose.Slides for C++ lets you search text in PPTX presentations. Use `SlideUtil::GetAllTextBoxes` to collect the text frames of a slide, then check their text for the required phrase.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Search Text in a PPTX Presentation using C++" >}}
 ```cpp
 auto presentation = MakeObject<Presentation>(u"presentation.pptx");
 
-SlideUtil::FindAndReplaceText(presentation, true, u"Quarterly Report", u"Annual Report", nullptr);
-presentation->Save(u"updated-presentation.pptx", SaveFormat::Pptx);
+auto slide = presentation->get_Slides()->idx_get(0);
+auto textFrames = SlideUtil::GetAllTextBoxes(slide);
+
+for (auto&& textFrame : textFrames)
+{
+    auto text = textFrame->get_Text();
+    if (text.Contains(u"PowerPoint"))
+    {
+        Console::WriteLine(text);
+    }
+}
+
 presentation->Dispose();
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Search Text in PPTX via C++" intro="Follow these steps to search text in a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Load the PPTX file with the `Presentation` class.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Get the required slide from `Presentation::get_Slides` and retrieve its text frames with [`SlideUtil::GetAllTextBoxes`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/getalltextboxes/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Check the text of each frame for the required phrase.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Search Text in PPTX via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="These are the steps to search text in PPTX files." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Search Formats" subTitle="Using C++, you can also search text in the following formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cpp/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Load the PPTX file with the `Presentation` class.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Use the [`FindAndReplaceText`](https://reference.aspose.com/slides/cpp/aspose.slides.util/slideutil/findandreplacetext/) method to find and replace text.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Save the updated file with `SaveFormat::Pptx`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Search Live Demos" sectionDescription="Search and replace text in PPTX documents right now." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Search Formats" subTitle="You can also search text in the following formats with C++." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/cpp/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

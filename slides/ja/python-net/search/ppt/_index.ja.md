@@ -1,65 +1,50 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python を使用して PPT プレゼンテーション ファイル内のテキストを検索
+title: Python で PPT プレゼンテーション内のテキストを検索
 url: /ja/python-net/search/ppt/
-keywords: PPT で単語を検索、PPT でテキストを検索および置換、テキスト PPT を検索
-description: PPT プレゼンテーション内のテキストを検索するための Python ソース コード。
+description: Python と Aspose.Slides で PPT プレゼンテーション内のテキストを検索します。
+keywords: PPT 内のテキスト検索、PPT 内の単語の検出、Python による PPT プレゼンテーションの検索
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python を使用してテキスト PPT を検索" h2="独自の Python アプリを構築し、サーバー側 API を使用してプレゼンテーション ファイル内のテキストを検索および置換します。プレゼンテーション文書内の特定の単語またはフレーズのすべての入り口を見つける方法を学びます。正確なデータ一致と正規表現一致によりテキストを検索します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python で PPT プレゼンテーション内のテキストを検索" h2="Aspose.Slides で PowerPoint プレゼンテーション内のテキストを見つける Python アプリケーションを構築します。" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python 経由のテキスト PPT プレゼンテーションの検索と置換" %}}
-Aspose.Slides for Python via .NET API を使用した基本的なドキュメントの検索と、コンテンツ、コメント、スライド ノート、またはメタデータ内のテキストの置換は、わずか数行のコードで実行できます。正規表現の一致、大文字と小文字の一致を使用して、プレゼンテーション内のテキストを検索します。タイトル、コンテンツ、フッター、またはヘッダー内のテキストを検索します。
-{{% blocks/products/pf/agp/code-block title="Python を使用して、テキスト PPT プレゼンテーションを検索します" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python による PPT プレゼンテーション内のテキスト検索" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/ja/python-net/) では、[`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) を使用して、各スライドで指定した文字列を含むテキスト フレームを見つけられます。
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT プレゼンテーション内のテキストを検索 – Python" >}}
+```python
+with slides.Presentation("presentation.ppt") as presentation:
+    for slide in presentation.slides:
+        matching_text_frames = slides.util.SlideUtil.get_text_boxes_contains_text(slide, "PowerPoint", False)
 
-with slides.Presentation("welcome-to-powerpoint.ppt") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.ppt", slides.export.SaveFormat.PPT)
+        for text_frame in matching_text_frames:
+            print(text_frame.text)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python で PPT 内のテキストを検索する方法" intro="PPT プレゼンテーション内のテキストを検索するには、次の手順に従います。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` で PPT ファイルを開きます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}スライドを順に処理し、それぞれに対して [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) を呼び出します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}一致した各テキスト フレームの `text` プロパティを読み取ります。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python 経由で PPT のテキストを検索する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Aspose.Slides で構築" title="PPT ファイル内のテキストをオンラインで検索" description="無料の Aspose.Slides Search アプリは、上記のコードと同じ API である [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ja/python-net/) で構築されています。アプリを開いて、ご自身の PPT ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Search を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がテキストを見つけるしくみを確認できます。
+- PPT ファイル内をプレーン テキストまたは正規表現で検索できます。
+- 検索結果をテキスト ファイルとしてダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、テキスト PPT ファイルを検索する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="検索に対応するその他の形式" subTitle="Python を使用して、サポートされているその他のプレゼンテーション形式でもテキストを検索できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーションのインスタンスを使用して PPT を読み込みます。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-[FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) メソッドを使用して、テキストを検索して置換します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-結果を PPT 形式で保存
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="オンライン PPT 検索ライブ デモ" sectionDescription="今すぐ、PPT ドキュメントのコンテンツ、コメント、またはメタデータ内のテキストを検索して置換します。" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている検索形式" subTitle="Python を使用すると、次の形式でテキストを検索することもできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

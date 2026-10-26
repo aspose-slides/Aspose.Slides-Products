@@ -1,65 +1,50 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: البحث عن نص في PPTX ملفات العروض التقديمية باستخدام Python
+title: البحث عن النص في عروض PPTX التقديمية باستخدام Python
 url: /ar/python-net/search/pptx/
-keywords: كلمات البحث في PPTX ، البحث عن النص واستبداله في PPTX ، البحث عن النص PPTX Presentation
-description: Python شفرة المصدر للبحث عن النص في PPTX Presentation.
+description: ابحث عن النص في عروض PPTX التقديمية باستخدام Python وAspose.Slides.
+keywords: البحث عن النص في PPTX، العثور على الكلمات في PPTX، البحث في عرض PPTX التقديمي باستخدام Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="بحث عن نص PPTX باستخدام Python" h2="أنشئ تطبيقات Python الخاصة بك للبحث عن نص واستبداله في ملفات العروض التقديمية باستخدام واجهات برمجة التطبيقات من جانب الخادم. تعرف على كيفية العثور على جميع مداخل كلمة أو عبارة معينة في مستندات العرض التقديمي. نص البحث عن طريق مطابقة البيانات بدقة ومطابقة التعبير العادي." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="البحث عن النص في عروض PPTX التقديمية باستخدام Python" h2="أنشئ تطبيقات Python تعثر على النص في عروض PowerPoint التقديمية باستخدام Aspose.Slides." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="البحث عن نص واستبداله PPTX العرض التقديمي عبر Python" %}}
-يمكن إجراء بحث أساسي عن المستند واستبدال النص في المحتويات أو التعليقات أو ملاحظات الشرائح أو البيانات الوصفية باستخدام واجهات برمجة تطبيقات Aspose.Slides for Python via .NET باستخدام سطور قليلة فقط من التعليمات البرمجية. استخدم مطابقة التعبير العادي ، تطابق الحالة للبحث عن نص في العرض التقديمي. نص البحث في العناوين أو المحتوى أو التذييل أو رأس الصفحة.
-{{% blocks/products/pf/agp/code-block title="بحث عن نص PPTX عرض تقديمي باستخدام Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="البحث عن النص في عرض PPTX تقديمي باستخدام Python" variant="code" %}}
 
-```py
+باستخدام [Aspose.Slides for Python via .NET](/slides/ar/python-net/)، يمكنك استخدام [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) للعثور في كل شريحة على إطارات النص التي تحتوي على سلسلة محددة.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="البحث عن النص في عرض PPTX تقديمي – Python" >}}
+```python
+with slides.Presentation("presentation.pptx") as presentation:
+    for slide in presentation.slides:
+        matching_text_frames = slides.util.SlideUtil.get_text_boxes_contains_text(slide, "PowerPoint", False)
 
-with slides.Presentation("welcome-to-powerpoint.pptx") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.pptx", slides.export.SaveFormat.PPTX)
+        for text_frame in matching_text_frames:
+            print(text_frame.text)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية البحث عن النص في PPTX باستخدام Python" intro="اتبع هذه الخطوات للبحث عن النص في عرض PPTX تقديمي." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}افتح ملف PPTX باستخدام `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}مرّ على الشرائح واستدعِ [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) لكل منها.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}اقرأ الخاصية `text` لكل إطار نص مطابق.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية البحث عن نص بتنسيق PPTX عبر Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="مبني باستخدام Aspose.Slides" title="البحث عن النص في ملفات PPTX عبر الإنترنت" description="تطبيق Aspose.Slides Search المجاني مبني باستخدام [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ar/python-net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Search" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يعثر Aspose.Slides على النص قبل أن تكتب الكود.
+- ابحث في ملف PPTX عن نص عادي أو تعبيرات نمطية.
+- نزّل النتائج كملف نصي.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="هذه هي خطوات البحث عن ملفات PPTX النصية." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للبحث" subTitle="استخدم Python للبحث عن النص في تنسيقات العروض التقديمية المدعومة الأخرى." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/search/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-تحميل PPTX بمثيل عرض تقديمي.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-استخدم طريقة [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) للبحث عن النص واستبداله.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-احفظ النتيجة بتنسيق PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="عبر الإنترنت PPTX ابحث في العروض التوضيحية المباشرة" sectionDescription="ابحث واستبدل النص في المحتويات أو التعليقات أو البيانات الوصفية في مستندات PPTX الآن." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات البحث الأخرى المدعومة" subTitle="باستخدام Python ، يمكنك أيضًا البحث عن نص بالتنسيقات التالية:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/search/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

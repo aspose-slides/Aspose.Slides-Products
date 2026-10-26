@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java का उपयोग करके PPT प्रस्तुतिकरण फ़ाइलों में टेक्स्ट खोजें
+title: Java का उपयोग करके PPT प्रेज़ेंटेशन फ़ाइलों में टेक्स्ट खोजें
 url: /hi/java/search/ppt/
-keywords: PPT में शब्द खोजें, PPT में टेक्स्ट खोजें और बदलें, टेक्स्ट खोजें PPT प्रस्तुति
-description: PPT प्रस्तुतिकरण में पाठ खोजने के लिए Java स्रोत कोड.
+description: Aspose.Slides for Java का उपयोग करके Java में PPT प्रेज़ेंटेशन में टेक्स्ट खोजें।
+keywords: PPT में शब्द खोजें, PPT में टेक्स्ट खोजें, PPT प्रेज़ेंटेशन का टेक्स्ट खोजें
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="{Product_lang} का उपयोग करके टेक्स्ट PPT खोजें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में टेक्स्ट खोजने और बदलने के लिए अपना Java ऐप्लिकेशन बनाएं. प्रस्तुति दस्तावेज़ों में एक निश्चित शब्द या वाक्यांश के सभी प्रवेशों को खोजने का तरीका जानें। सटीक डेटा मिलान और रेगुलर एक्सप्रेशन मिलान द्वारा पाठ खोजें।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java का उपयोग करके PPT में टेक्स्ट खोजें" h2="सर्वर-साइड API का उपयोग करके प्रेज़ेंटेशन फ़ाइलों में टेक्स्ट खोजने वाले Java एप्लिकेशन बनाएँ।" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="टेक्स्ट को खोजें और बदलें PPT प्रस्तुति Java के माध्यम से" %}}
-सामग्री, टिप्पणियों, स्लाइड नोट्स या मेटाडेटा में मूल दस्तावेज़ खोज और टेक्स्ट को Aspose.Slides for Java API के साथ कोड की कुछ पंक्तियों के साथ किया जा सकता है। प्रेजेंटेशन में टेक्स्ट खोजने के लिए रेगुलर एक्सप्रेशन मैचिंग, मैच केस का उपयोग करें। शीर्षक, सामग्री, पाद लेख या शीर्षक में पाठ खोजें।
-{{% blocks/products/pf/agp/code-block title="Java का उपयोग कर पाठ खोजें PPT प्रस्तुतिकरण" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java के माध्यम से PPT प्रेज़ेंटेशन में टेक्स्ट खोजें" variant="code" %}}
 
+[Aspose.Slides for Java](/slides/hi/java/) का उपयोग करके, आप PPT प्रेज़ेंटेशन में टेक्स्ट खोज सकते हैं। टेक्स्ट फ़्रेम इकट्ठा करने के लिए `SlideUtil.getAllTextBoxes` मेथड का उपयोग करें, फिर `ITextFrame`, `IParagraph` और `IPortion` ऑब्जेक्ट की जाँच करें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Java का उपयोग करके PPT प्रेज़ेंटेशन में टेक्स्ट खोजें" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.ppt");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.ppt", SaveFormat.Ppt);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java के माध्यम से PPT में टेक्स्ट कैसे खोजें" intro="PPT प्रेज़ेंटेशन में टेक्स्ट खोजने के लिए ये चरण अपनाएँ।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` क्लास के साथ PPT फ़ाइल लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}हर स्लाइड से टेक्स्ट फ़्रेम इकट्ठा करने के लिए `SlideUtil.getAllTextBoxes` मेथड कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}मेल खाने वाला टेक्स्ट ढूँढने के लिए `ITextFrame`, `IParagraph` और `IPortion` ऑब्जेक्ट की जाँच करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java के द्वारा PPT में लेख कैसे खोजें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Aspose.Slides से निर्मित" title="PPT फ़ाइलों में ऑनलाइन टेक्स्ट खोजें" description="मुफ़्त Aspose.Slides Search ऐप [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPT फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Search खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टेक्स्ट कैसे ढूँढता है।
+- अपनी PPT फ़ाइल में सादा टेक्स्ट या रेगुलर एक्सप्रेशन खोजें।
+- मिले परिणामों को टेक्स्ट फ़ाइल के रूप में डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="टेक्स्ट PPT फ़ाइलों को खोजने के लिए ये चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="खोज के लिए समर्थित अन्य फ़ॉर्मेट" subTitle="Java का उपयोग करके, आप निम्न फ़ॉर्मेट में भी टेक्स्ट खोज सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/java/search/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/java/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रस्तुति के उदाहरण के साथ PPT लोड करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-टेक्स्ट को खोजने और बदलने के लिए [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) विधि का उपयोग करें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPT प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPT लाइव डेमो खोजें" sectionDescription="PPT दस्तावेज़ों में अभी सामग्री, टिप्पणियों या मेटाडेटा में टेक्स्ट खोजें और बदलें।" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित खोज प्रारूप" subTitle="{Product_lang} का उपयोग करके, आप निम्न स्वरूपों में लेख भी खोज सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/search/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

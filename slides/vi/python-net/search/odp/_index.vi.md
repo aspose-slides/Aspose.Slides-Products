@@ -1,65 +1,50 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Tìm kiếm Văn bản trong Tệp Bản trình bày ODP bằng Python
+title: Tìm kiếm văn bản trong các bản trình bày ODP bằng Python
 url: /vi/python-net/search/odp/
-keywords: tìm kiếm từ trong ODP, tìm kiếm và thay thế văn bản trong ODP, tìm kiếm văn bản ODP Bản trình bày
-description: Mã nguồn Python để tìm kiếm văn bản trong Bản trình bày ODP.
+description: Tìm kiếm văn bản trong bản trình bày ODP bằng Python và Aspose.Slides.
+keywords: tìm kiếm văn bản trong ODP, tìm từ trong ODP, tìm kiếm bản trình bày ODP bằng Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Tìm kiếm văn bản ODP bằng Python" h2="Xây dựng ứng dụng Python của riêng bạn để tìm kiếm và thay thế văn bản trong tệp bản trình bày bằng API phía máy chủ. Tìm hiểu cách tìm tất cả các lối vào của một từ hoặc cụm từ nhất định trong tài liệu thuyết trình. Tìm kiếm văn bản bằng cách khớp dữ liệu chính xác và khớp cụm từ thông dụng." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tìm kiếm văn bản trong các bản trình bày ODP bằng Python" h2="Xây dựng ứng dụng Python tìm văn bản trong bản trình bày OpenDocument bằng Aspose.Slides." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Tìm kiếm và Thay thế Văn bản Bản trình bày ODP qua Python" %}}
-Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét, ghi chú trang trình bày hoặc siêu dữ liệu bằng API Aspose.Slides for Python via .NET chỉ với vài dòng mã. Sử dụng phép so khớp biểu thức chính quy, kiểu khớp để tìm kiếm văn bản trong bản trình bày. Tìm kiếm văn bản trong tiêu đề, nội dung, chân trang hoặc tiêu đề.
-{{% blocks/products/pf/agp/code-block title="Tìm kiếm văn bản ODP Bản trình bày bằng Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tìm kiếm văn bản trong bản trình bày ODP bằng Python" variant="code" %}}
 
-```py
+Với [Aspose.Slides for Python via .NET](/slides/vi/python-net/), bạn có thể dùng [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) để tìm trên mỗi trang chiếu các khung văn bản chứa một chuỗi nhất định.
 
-import aspose.slides as slides
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tìm kiếm văn bản trong bản trình bày ODP – Python" >}}
+```python
+with slides.Presentation("presentation.odp") as presentation:
+    for slide in presentation.slides:
+        matching_text_frames = slides.util.SlideUtil.get_text_boxes_contains_text(slide, "PowerPoint", False)
 
-with slides.Presentation("welcome-to-powerpoint.odp") as pres:
-    slides.util.SlideUtil.find_and_replace_text(pres, True, "PowerPoint", "Aspose.Slides", None)
-    pres.save("replaced.odp", slides.export.SaveFormat.ODP)
+        for text_frame in matching_text_frames:
+            print(text_frame.text)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách tìm kiếm văn bản trong ODP bằng Python" intro="Làm theo các bước sau để tìm kiếm văn bản trong bản trình bày ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mở tệp ODP bằng `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Duyệt qua các trang chiếu và gọi [`SlideUtil.get_text_boxes_contains_text`](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/) cho từng trang.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Đọc thuộc tính `text` của từng khung văn bản khớp.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách tìm kiếm văn bản ở ODP qua Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Được xây dựng bằng Aspose.Slides" title="Tìm kiếm văn bản trong tệp ODP trực tuyến" description="Ứng dụng Aspose.Slides Search miễn phí được xây dựng bằng [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/vi/python-net/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp ODP của riêng bạn." button="Mở Aspose.Slides Search" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides tìm văn bản trước khi bạn viết mã.
+- Tìm văn bản thuần hoặc biểu thức chính quy trong tệp ODP của bạn.
+- Tải xuống kết quả dưới dạng tệp văn bản.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để tìm kiếm tệp văn bản ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng khác được hỗ trợ để tìm kiếm" subTitle="Dùng Python để tìm kiếm văn bản trong các định dạng bản trình bày được hỗ trợ khác." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/python-net/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/python-net/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải ODP với phiên bản Trình bày.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sử dụng phương thức [FindAndReplaceText](https://reference.aspose.com/slides/python-net/aspose.slides.util/slideutil/) để tìm và thay thế văn bản.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Trực tuyến ODP Tìm kiếm Trình diễn trực tiếp" sectionDescription="Tìm kiếm và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu trong tài liệu ODP ngay bây giờ." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng tìm kiếm được hỗ trợ khác" subTitle="Sử dụng Python, Bạn cũng có thể tìm kiếm văn bản ở các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/python-net/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

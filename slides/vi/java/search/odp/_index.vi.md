@@ -1,67 +1,64 @@
 ---
-lastmod: 2023-05-19
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Tìm kiếm Văn bản trong Tệp Bản trình bày ODP bằng Java
+title: Tìm kiếm văn bản trong tệp bản trình bày ODP bằng Java
 url: /vi/java/search/odp/
-keywords: tìm kiếm từ trong ODP, tìm kiếm và thay thế văn bản trong ODP, tìm kiếm văn bản ODP Bản trình bày
-description: Mã nguồn Java để tìm kiếm văn bản trong Bản trình bày ODP.
+description: Tìm kiếm văn bản trong bản trình bày ODP bằng Java với Aspose.Slides for Java.
+keywords: tìm kiếm từ trong ODP, tìm kiếm văn bản trong ODP, tìm kiếm văn bản bản trình bày ODP
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Tìm kiếm văn bản ODP bằng Java" h2="Xây dựng ứng dụng Java của riêng bạn để tìm kiếm và thay thế văn bản trong tệp bản trình bày bằng API phía máy chủ. Tìm hiểu cách tìm tất cả các lối vào của một từ hoặc cụm từ nhất định trong tài liệu thuyết trình. Tìm kiếm văn bản bằng cách khớp dữ liệu chính xác và khớp cụm từ thông dụng." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="POT" fileiconsmall5="ppsx" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Tìm kiếm văn bản trong ODP bằng Java" h2="Xây dựng ứng dụng Java tìm kiếm văn bản trong tệp bản trình bày bằng API phía máy chủ." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Tìm kiếm và Thay thế Văn bản Bản trình bày ODP qua Java" %}}
-Có thể thực hiện tìm kiếm tài liệu cơ bản và thay thế văn bản trong nội dung, nhận xét, ghi chú trang trình bày hoặc siêu dữ liệu bằng API Aspose.Slides for Java chỉ với vài dòng mã. Sử dụng phép so khớp biểu thức chính quy, kiểu khớp để tìm kiếm văn bản trong bản trình bày. Tìm kiếm văn bản trong tiêu đề, nội dung, chân trang hoặc tiêu đề.
-{{% blocks/products/pf/agp/code-block title="Tìm kiếm văn bản ODP Bản trình bày bằng Java" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Tìm kiếm văn bản trong bản trình bày ODP qua Java" variant="code" %}}
 
+Với [Aspose.Slides for Java](/slides/vi/java/), bạn có thể tìm kiếm văn bản trong bản trình bày ODP. Dùng phương thức `SlideUtil.getAllTextBoxes` để thu thập các khung văn bản, sau đó kiểm tra các đối tượng `ITextFrame`, `IParagraph` và `IPortion`.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Tìm kiếm văn bản trong bản trình bày ODP bằng Java" >}}
 ```java
-
 Presentation presentation = new Presentation("welcome-to-powerpoint.odp");
 try {
-    SlideUtil.findAndReplaceText(presentation, true, "PowerPoint", "Aspose.Slides", null);
-    presentation.save("replaced.odp", SaveFormat.Odp);
+    String searchText = "PowerPoint";
+
+    for (ISlide slide : presentation.getSlides()) {
+        ITextFrame[] slideTextFrames = SlideUtil.getAllTextBoxes(slide);
+
+        for (ITextFrame textFrame : slideTextFrames) {
+            for (IParagraph paragraph : textFrame.getParagraphs()) {
+                for (IPortion portion : paragraph.getPortions()) {
+                    if (portion.getText().contains(searchText)) {
+                        System.out.println(portion.getText());
+                    }
+                }
+            }
+        }
+    }
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách tìm kiếm văn bản trong ODP qua Java" intro="Làm theo các bước sau để tìm kiếm văn bản trong bản trình bày ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp ODP bằng lớp `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gọi phương thức `SlideUtil.getAllTextBoxes` để thu thập các khung văn bản từ mỗi trang chiếu.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kiểm tra các đối tượng `ITextFrame`, `IParagraph` và `IPortion` để tìm văn bản khớp.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách tìm kiếm văn bản ở ODP qua Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/search-app label="Được xây dựng bằng Aspose.Slides" title="Tìm kiếm văn bản trong tệp ODP trực tuyến" description="Ứng dụng Aspose.Slides Search miễn phí được xây dựng bằng [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp ODP của riêng bạn." button="Mở Aspose.Slides Search" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides tìm văn bản trước khi bạn viết mã.
+- Tìm văn bản thuần hoặc biểu thức chính quy trong tệp ODP của bạn.
+- Tải xuống kết quả dưới dạng tệp văn bản.
+{{< /blocks/products/pf/slides-design-update-10-2026/search-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Đây là các bước để tìm kiếm tệp văn bản ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng khác được hỗ trợ để tìm kiếm" subTitle="Với Java, bạn cũng có thể tìm kiếm văn bản trong các định dạng sau." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/search/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/search/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải ODP với phiên bản Trình bày.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sử dụng phương thức [FindAndReplaceText](https://reference.aspose.com/slides/java/com.aspose.slides/slideutil/#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) để tìm và thay thế văn bản.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lưu kết quả ở định dạng ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Trực tuyến ODP Tìm kiếm Trình diễn trực tiếp" sectionDescription="Tìm kiếm và thay thế văn bản trong nội dung, nhận xét hoặc siêu dữ liệu trong tài liệu ODP ngay bây giờ." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng tìm kiếm được hỗ trợ khác" subTitle="Sử dụng Java, Bạn cũng có thể tìm kiếm văn bản ở các định dạng sau:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/search/ppt/" name="PPT" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/search/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
